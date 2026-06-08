@@ -12,7 +12,7 @@
 // 4) Authorized origins ga localhost va
 //    faylingiz manzilini qo'shing
 // ══════════════════════════════════════════
-const GOOGLE_CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID";
+const GOOGLE_CLIENT_ID = "940738533350-52qg92i39i9q71vfnkmrkk4k3tsto9v7.apps.googleusercontent.com";
 // Masalan: "123456789-abcde.apps.googleusercontent.com"
 
 const AUTH_KEY   = "mc_auth_user";
