@@ -1,0 +1,10 @@
+﻿<!DOCTYPE html><html><head><meta charset="UTF-8"/></head><body>
+<script>
+localStorage.setItem('mc_auth_user', JSON.stringify({
+  id:'demo', name:'Dr. Demo Foydalanuvchi', email:'demo@medcore.uz',
+  picture:null, given_name:'Demo', loginType:'demo',
+  loginAt:new Date().toISOString()
+}));
+sessionStorage.setItem('mc_auth_session','active');
+window.location.href = 'index.html?page=drugs';
+</script></body></html>

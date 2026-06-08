@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MedCore — Tibbiyot Platformasi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="i18n.js"></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+
+<!-- ═══════════ SIDEBAR ═══════════ -->
+<aside class="sidebar" id="sidebar">
+
+  <div class="sidebar-brand">
+    <div class="brand-logo">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <rect width="28" height="28" rx="8" fill="white"/>
+        <path d="M14 6v16M6 14h20" stroke="#e11d48" stroke-width="3.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="brand-text">
+      <span class="brand-name" data-i18n="brand_name">MedCore</span>
+      <span class="brand-sub"  data-i18n="brand_sub">Pro Platforma</span>
+    </div>
+  </div>
+
+  <div class="sidebar-section-label" data-i18n="nav_section_main">Asosiy</div>
+  <nav class="sidebar-nav">
+    <a href="#" class="nav-item active" data-page="dashboard" data-tooltip="Dashboard">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span>
+      <span data-i18n="nav_dashboard">Dashboard</span>
+    </a>
+  </nav>
+
+  <div class="sidebar-section-label" data-i18n="nav_section_bases">Klinik Bazalar</div>
+  <nav class="sidebar-nav">
+    <a href="#" class="nav-item" data-page="drugs" data-tooltip="Dorilar">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v3"/><circle cx="18" cy="18" r="3"/><path d="m22 22-1.5-1.5"/></svg></span>
+      <span data-i18n="nav_drugs">Dorilar</span>
+      <span class="nav-badge" id="navDrugCount">8649</span>
+    </a>
+    <a href="#" class="nav-item" data-page="diseases" data-tooltip="Kasalliklar">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+      <span data-i18n="nav_diseases">Kasalliklar</span>
+      <span class="nav-badge soon" data-i18n="nav_soon">Tez</span>
+    </a>
+    <a href="#" class="nav-item" data-page="lab" data-tooltip="Laboratoriya">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5c-1.4 0-2.5-1.1-2.5-2.5V2"/><path d="M8.5 2h7"/><path d="M14.5 16h-5"/></svg></span>
+      <span data-i18n="nav_lab">Laboratoriya</span>
+      <span class="nav-badge soon" data-i18n="nav_soon">Tez</span>
+    </a>
+  </nav>
+
+  <div class="sidebar-section-label" data-i18n="nav_section_tools">Asboblar</div>
+  <nav class="sidebar-nav">
+    <a href="#" class="nav-item" data-page="calculators" data-tooltip="Kalkulyatorlar">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="16" y2="14"/><line x1="8" y1="18" x2="10" y2="18"/><line x1="14" y1="18" x2="16" y2="18"/></svg></span>
+      <span data-i18n="nav_calculators">Kalkulyatorlar</span>
+      <span class="nav-badge soon" data-i18n="nav_soon">Tez</span>
+    </a>
+    <a href="#" class="nav-item" data-page="interactions" data-tooltip="O'zaro Ta'sir">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>
+      <span data-i18n="nav_interactions">O'zaro Ta'sir</span>
+    </a>
+    <a href="#" class="nav-item" data-page="favorites" data-tooltip="Sevimlilar">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
+      <span data-i18n="nav_favorites">Sevimlilar</span>
+      <span class="nav-badge fav-count" id="navFavCount" style="display:none">0</span>
+    </a>
+  </nav>
+
+  <div class="sidebar-user">
+    <div class="user-avatar">KTS</div>
+    <div class="user-info">
+      <span class="user-name">Dr. K. Toshmatov</span>
+      <span class="user-role" data-i18n="user_role_doctor">Shifokor</span>
+    </div>
+    <button class="user-settings" title="Sozlamalar">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+    </button>
+  </div>
+</aside>
+
+<!-- Sidebar toggle (tashqarida, overflow:hidden ta'sir qilmaydi) -->
+<div class="sidebar-toggle" id="sidebarToggle">
+  <button class="sidebar-toggle-btn" id="sidebarToggleBtn" onclick="toggleSidebarCollapse()" title="Yig'ish / Kengaytirish">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="15 18 9 12 15 6"/>
+    </svg>
+  </button>
+</div>
+
+<!-- Sidebar overlay (mobile) -->
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeMobileSidebar()"></div>
+
+<!-- ═══════════ MAIN ═══════════ -->
+<div class="main-wrapper" id="mainWrapper">
+
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <button class="menu-btn" id="menuBtn" onclick="toggleSidebar()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+
+    <div class="topbar-breadcrumb" id="breadcrumb">
+      <span data-i18n="nav_dashboard">Dashboard</span>
+    </div>
+
+    <div class="global-search-wrap">
+      <svg class="gs-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="globalSearch" data-i18n-ph="search_placeholder" placeholder="Dori, kasallik, belgi qidiring..." oninput="handleSearch(this.value)" autocomplete="off" />
+      <kbd class="search-kbd">Ctrl K</kbd>
+      <div class="search-dropdown" id="searchDropdown"></div>
+    </div>
+
+    <div class="topbar-actions">
+      <!-- Til tanlash -->
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="uz" onclick="setLanguage('uz')">UZ</button>
+        <button class="lang-btn" data-lang="ru"  onclick="setLanguage('ru')">RU</button>
+        <button class="lang-btn" data-lang="en"  onclick="setLanguage('en')">EN</button>
+      </div>
+
+      <div class="topbar-divider"></div>
+      <button class="action-btn" title="Bildirishnomalar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        <span class="notif-dot"></span>
+      </button>
+      <div class="topbar-divider"></div>
+
+      <!-- User dropdown -->
+      <div class="user-menu-wrap">
+        <div class="topbar-avatar" id="topbarAvatar" onclick="toggleUserMenu()">KTS</div>
+        <div class="user-dropdown" id="userDropdown">
+          <div class="user-dropdown-header">
+            <div class="udh-avatar" id="dropdownAvatar">KTS</div>
+            <div>
+              <div class="udh-name"  id="dropdownName">Foydalanuvchi</div>
+              <div class="udh-email" id="dropdownEmail">–</div>
+            </div>
+          </div>
+          <div class="user-dropdown-divider"></div>
+          <button class="udropdown-item" onclick="navigateTo('favorites')">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span data-i18n="user_favorites">Sevimlilar</span>
+          </button>
+          <button class="udropdown-item" onclick="alert(t('soon_label'))">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            <span data-i18n="user_settings">Sozlamalar</span>
+          </button>
+          <div class="user-dropdown-divider"></div>
+          <button class="udropdown-item danger" onclick="signOut()">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+            <span data-i18n="user_logout">Chiqish</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════ CONTENT ═══════════ -->
+  <main class="content">
+
+    <!-- DASHBOARD -->
+    <section class="page active" id="page-dashboard">
+      <div class="dash-hero">
+        <div class="dash-hero-text">
+          <p class="dash-greeting"><span data-i18n="dash_greeting">Xayrli kun,</span> <strong id="heroUserName">Dr. Toshmatov</strong> 👋</p>
+          <h1 data-i18n="dash_title">Tibbiyot Ma'lumotlar Platformasi</h1>
+          <p class="dash-desc" data-i18n="dash_desc">Dorilar, kasalliklar va klinik asboblar — barchasi bir joyda.</p>
+        </div>
+        <div class="dash-hero-visual">
+          <div class="hero-ring ring-1"></div>
+          <div class="hero-ring ring-2"></div>
+          <div class="hero-ring ring-3"></div>
+          <svg class="hero-cross" width="64" height="64" viewBox="0 0 64 64" fill="none">
+            <rect width="64" height="64" rx="18" fill="rgba(255,255,255,0.12)"/>
+            <path d="M32 14v36M14 32h36" stroke="white" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat-tile t-red">
+          <div class="stat-tile-icon red"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v3"/><circle cx="18" cy="18" r="3"/><path d="m22 22-1.5-1.5"/></svg></div>
+          <div class="stat-tile-data"><span class="stat-val" id="statDrugs">8649</span><span class="stat-lbl" data-i18n="stat_drugs">Dorilar</span></div>
+          <span class="stat-trend up" data-i18n="stat_uzb">O'zbekiston</span>
+        </div>
+        <div class="stat-tile t-rose">
+          <div class="stat-tile-icon rose"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+          <div class="stat-tile-data"><span class="stat-val">14</span><span class="stat-lbl" data-i18n="stat_groups">Farmakol. guruhlar</span></div>
+          <span class="stat-trend" data-i18n="stat_atx">ATX bo'yicha</span>
+        </div>
+        <div class="stat-tile t-amber">
+          <div class="stat-tile-icon amber"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+          <div class="stat-tile-data"><span class="stat-val">6</span><span class="stat-lbl" data-i18n="stat_interact">O'zaro ta'sirlar</span></div>
+          <span class="stat-trend warn" data-i18n="stat_warning">Diqqat!</span>
+        </div>
+        <div class="stat-tile t-purple">
+          <div class="stat-tile-icon purple"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <div class="stat-tile-data"><span class="stat-val" id="statFavs">0</span><span class="stat-lbl" data-i18n="stat_favs">Sevimlilar</span></div>
+          <span class="stat-trend" id="statFavTrend" data-i18n="stat_no_favs">Hali yo'q</span>
+        </div>
+      </div>
+
+      <div class="dash-grid">
+        <div class="dash-card modules-card">
+          <div class="card-header"><span class="card-title" data-i18n="modules_title">Bo'limlar</span></div>
+          <div class="modules-grid">
+            <div class="module-item" onclick="navigateTo('drugs')">
+              <div class="module-icon" style="background:#fff1f2;color:#e11d48"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v3"/><circle cx="18" cy="18" r="3"/><path d="m22 22-1.5-1.5"/></svg></div>
+              <span class="module-name" data-i18n="nav_drugs">Dorilar</span>
+              <span class="module-count" id="modDrugsCount">8649 ta</span>
+            </div>
+            <div class="module-item coming"><div class="module-icon" style="background:#f0fdf4;color:#16a34a"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><span class="module-name" data-i18n="nav_diseases">Kasalliklar</span><span class="module-count soon-tag" data-i18n="soon_label">Tez kunda</span></div>
+            <div class="module-item coming"><div class="module-icon" style="background:#fefce8;color:#ca8a04"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5c-1.4 0-2.5-1.1-2.5-2.5V2"/><path d="M8.5 2h7"/></svg></div><span class="module-name" data-i18n="nav_lab">Laboratoriya</span><span class="module-count soon-tag" data-i18n="soon_label">Tez kunda</span></div>
+            <div class="module-item coming"><div class="module-icon" style="background:#fdf4ff;color:#9333ea"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/></svg></div><span class="module-name" data-i18n="nav_calculators">Kalkulyatorlar</span><span class="module-count soon-tag" data-i18n="soon_label">Tez kunda</span></div>
+            <div class="module-item coming"><div class="module-icon" style="background:#fff1f2;color:#e11d48"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><span class="module-name">Protokollar</span><span class="module-count soon-tag" data-i18n="soon_label">Tez kunda</span></div>
+            <div class="module-item" onclick="navigateTo('interactions')"><div class="module-icon" style="background:#fff7ed;color:#ea580c"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><span class="module-name" data-i18n="nav_interactions">O'zaro Ta'sir</span><span class="module-count">6 ta</span></div>
+          </div>
+        </div>
+        <div class="dash-right-col">
+          <div class="dash-card">
+            <div class="card-header"><span class="card-title" data-i18n="groups_title">Farmakologik Guruhlar</span><button class="card-link" onclick="navigateTo('drugs')" data-i18n="groups_all">Barchasi →</button></div>
+            <div class="group-list" id="dashGroupList"></div>
+          </div>
+          <div class="alert-card">
+            <div class="alert-icon">⚠️</div>
+            <div class="alert-body"><strong data-i18n="alert_title">Muhim eslatma</strong><p data-i18n="alert_text">Metformin + Kontrast modda: tekshiruvdan 48 soat oldin to'xtatish shart.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dash-card" style="margin-top:20px">
+        <div class="card-header"><span class="card-title" data-i18n="recent_title">So'nggi ko'rilgan dorilar</span></div>
+        <div id="recentDrugsRow" class="recent-drugs-row"><p class="empty-hint" data-i18n="recent_empty">Dori ochganingizda bu yerda ko'rinadi</p></div>
+      </div>
+    </section>
+
+    <!-- DORILAR -->
+    <section class="page" id="page-drugs">
+      <div class="page-top">
+        <div class="page-title-wrap">
+          <div class="page-title-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v3"/><circle cx="18" cy="18" r="3"/><path d="m22 22-1.5-1.5"/></svg></div>
+          <div><h1 class="page-title" data-i18n="drugs_page_title">Dorilar Ma'lumotlar Bazasi</h1><p class="page-sub" data-i18n="drugs_page_sub">Farmakologik ta'sir, dozalash va xavfsizlik ma'lumotlari</p></div>
+        </div>
+        <div class="page-top-actions">
+          <div class="filter-group"><label data-i18n="filter_group">Guruh</label><select id="filterGroup" onchange="filterDrugs()"><option value="" data-i18n="filter_all_groups">Barcha guruhlar</option></select></div>
+          <div class="filter-group">
+            <label>Manba</label>
+            <select id="filterSrc" onchange="filterDrugs()">
+              <option value="">Barchasi</option>
+              <option value="domestic">🇺🇿 O'zbekiston</option>
+              <option value="cis">🏳 MDH mamlakatlari</option>
+              <option value="foreign">🌍 Xorij</option>
+              <option value="substance">⚗️ Substansiyalar</option>
+              <option value="invivo">🧫 In vivo diagnostika</option>
+            </select>
+          </div>
+          <div class="filter-group"><label data-i18n="filter_form">Shakli</label>
+            <select id="filterForm" onchange="filterDrugs()">
+              <option value="" data-i18n="filter_all_forms">Barchasi</option>
+              <option value="Tabletkalar">Tabletkalar</option>
+              <option value="Kapsulalar">Kapsulalar</option>
+              <option value="Inyeksiya eritmasi">Inyeksiya eritmasi</option>
+              <option value="Infuzion eritma">Infuzion eritma</option>
+              <option value="Suspenziya">Suspenziya</option>
+              <option value="Sirop">Sirop</option>
+              <option value="Malham">Malham</option>
+              <option value="Gel">Gel</option>
+              <option value="Krem">Krem</option>
+              <option value="Kukun">Kukun</option>
+              <option value="Sprey">Sprey</option>
+              <option value="Eritma">Eritma</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="group-tabs" id="groupTabs"></div>
+      <div class="drugs-search-bar">
+        <div class="dsb-wrap">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="drugSearch" data-i18n-ph="search_drugs_ph" placeholder="Dori nomi, INN, firma yoki ATX kodi..." oninput="applyFilters()" />
+        </div>
+        <span class="dsb-count" id="pageInfo"></span>
+      </div>
+      <div class="drugs-grid" id="drugsGrid"></div>
+      <div class="pagination">
+        <button class="pg-btn" id="prevPage" onclick="prevPage()" data-i18n="prev_page">← Oldingi</button>
+        <div class="pg-nums" id="pagerNums"></div>
+        <button class="pg-btn" id="nextPage" onclick="nextPage()" data-i18n="next_page">Keyingi →</button>
+      </div>
+    </section>
+
+    <!-- KASALLIKLAR -->
+    <section class="page" id="page-diseases">
+      <div class="coming-soon-page">
+        <div class="cs-icon">🏥</div>
+        <h2 data-i18n="diseases_title">Kasalliklar Bo'limi</h2>
+        <p data-i18n="diseases_desc">ICD-10 kodlari, diagnostik mezonlar va davolash protokollari tez orada.</p>
+        <div class="cs-features">
+          <span data-i18n="diseases_f1">✓ ICD-10 kodlari</span>
+          <span data-i18n="diseases_f2">✓ Diagnostik mezonlar</span>
+          <span data-i18n="diseases_f3">✓ Davolash protokollari</span>
+          <span data-i18n="diseases_f4">✓ Differensial diagnostika</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- LABORATORIYA -->
+    <section class="page" id="page-lab">
+      <div class="coming-soon-page">
+        <div class="cs-icon">🧪</div>
+        <h2 data-i18n="lab_title">Laboratoriya Normalari</h2>
+        <p data-i18n="lab_desc">Qon va siydik tahlili normalari tez orada.</p>
+        <div class="cs-features">
+          <span data-i18n="lab_f1">✓ Klinik qon tahlili</span>
+          <span data-i18n="lab_f2">✓ Biokimyoviy ko'rsatkichlar</span>
+          <span data-i18n="lab_f3">✓ Siydik tahlili</span>
+          <span data-i18n="lab_f4">✓ Normalar jadvali</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- KALKULYATORLAR -->
+    <section class="page" id="page-calculators">
+      <div class="coming-soon-page">
+        <div class="cs-icon">🧮</div>
+        <h2 data-i18n="calc_title">Klinik Kalkulyatorlar</h2>
+        <p data-i18n="calc_desc">BMI, GFR, CHADS₂-VASc va boshqalar tez orada.</p>
+        <div class="cs-features">
+          <span data-i18n="calc_f1">✓ BMI kalkulyatori</span>
+          <span data-i18n="calc_f2">✓ GFR (CKD-EPI)</span>
+          <span data-i18n="calc_f3">✓ CHADS₂-VASc</span>
+          <span data-i18n="calc_f4">✓ Wells scoring</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- O'ZARO TA'SIR -->
+    <section class="page" id="page-interactions">
+      <div class="page-top">
+        <div class="page-title-wrap">
+          <div class="page-title-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+          <div><h1 class="page-title" data-i18n="inter_title">Dorilar O'zaro Ta'siri</h1><p class="page-sub" data-i18n="inter_sub">Klinik ahamiyatga ega xavfli kombinatsiyalar</p></div>
+        </div>
+      </div>
+      <div class="interactions-container" id="interactionsList"></div>
+    </section>
+
+    <!-- SEVIMLILAR -->
+    <section class="page" id="page-favorites">
+      <div class="page-top">
+        <div class="page-title-wrap">
+          <div class="page-title-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <div><h1 class="page-title" data-i18n="favs_title">Sevimli Dorilar</h1><p class="page-sub" data-i18n="favs_sub">Tez kirish uchun saqlangan dorilar</p></div>
+        </div>
+      </div>
+      <div class="drugs-grid" id="favsGrid"></div>
+    </section>
+
+  </main>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal" id="drugModal">
+    <div class="modal-inner" id="modalContent"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="pharma_data.js"></script>
+<script src="auth.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

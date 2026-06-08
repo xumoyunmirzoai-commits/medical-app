@@ -1,0 +1,15 @@
+# Raw JSON fayllar (juda katta)
+drugs_raw.json
+new_drugs_raw.json
+
+# Deploy skriptlar
+deploy.bat
+
+# OS fayllar
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.log
