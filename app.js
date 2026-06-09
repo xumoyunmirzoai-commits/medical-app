@@ -18,6 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
   renderUserInTopbar(user);
   renderDropdownUser(user);
 
+  // Hero greeting — foydalanuvchi ismi
+  const heroName = document.getElementById("heroUserName");
+  if (heroName) {
+    heroName.textContent = user.given_name || user.name || "Foydalanuvchi";
+  }
+
   // Sidebar holatini tiklash
   initSidebarState();
 
