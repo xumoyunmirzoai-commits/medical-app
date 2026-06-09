@@ -480,14 +480,17 @@ function renderPharmaTab(drug) {
   if (typeof PHARMA_DATA === 'undefined') {
     return `<div class="pharma-nodata"><span class="pharma-nodata-icon">🔬</span>${t('pharma_noload')}</div>`;
   }
-  const pd = PHARMA_DATA[drug.atx] || null;
+  const entry = PHARMA_DATA[drug.atx] || null;
 
-  if (!pd) {
+  if (!entry) {
     return `<div class="pharma-nodata">
       <span class="pharma-nodata-icon">🔬</span>
       ${t('pharma_nodata')}
     </div>`;
   }
+
+  // Ko'p tilli strukturani qo'llab-quvvatlash: entry.uz / entry.ru / entry.en yoki eski flat format
+  const pd = entry[LANG] || entry['uz'] || entry;
 
   let html = '';
 
