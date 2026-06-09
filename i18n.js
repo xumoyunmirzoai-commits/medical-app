@@ -160,6 +160,25 @@ const TRANSLATIONS = {
     login_with:     "bilan rozisiz.",
     login_welcome:  "Tibbiyot Ma'lumotlar Platformasiga Xush Kelibsiz",
     login_sub:      "Dorilar, kasalliklar va klinik asboblar — tibbiyot talabalari va shifokorlar uchun.",
+
+    // Farmakologiya bo'limi
+    pharma_nodata:       "Ushbu preparat uchun farmakologiya ma'lumotlari hozircha mavjud emas.",
+    pharma_noload:       "Ma'lumot yuklanmadi.",
+    pharma_dinamika:     "Farmakodinamika",
+    pharma_kinetika:     "Farmakokinetika",
+    pharma_sorish:       "📥 So'rilish",
+    pharma_tarqalish:    "🌐 Tarqalish",
+    pharma_metabolizm:   "🔄 Metabolizm",
+    pharma_chiqarilish:  "💧 Chiqarilish",
+    pharma_korsatma:     "Ko'rsatmalar (Indikatsiyalar)",
+    pharma_qarrshi:      "Qarshi ko'rsatmalar",
+    pharma_nojoya:       "Nojo'ya ta'sirlar",
+    pharma_qollash:      "Qo'llash usuli va dozalash",
+    pharma_kattalar:     "👤 Kattalar",
+    pharma_bolalar:      "👶 Bolalar",
+    pharma_ozaro:        "Dori-dori o'zaro ta'siri",
+    pharma_dozadan:      "Dozadan oshib ketish",
+    pharma_chiqarish:    "Chiqarish shakli",
   },
 
   // ══════════════════════════════
@@ -298,6 +317,25 @@ const TRANSLATIONS = {
     login_with:     ".",
     login_welcome:  "Добро пожаловать на Медицинскую Платформу",
     login_sub:      "Препараты, заболевания и клинические инструменты — для студентов и врачей.",
+
+    // Фармакология
+    pharma_nodata:       "Фармакологические данные по этому препарату пока недоступны.",
+    pharma_noload:       "Данные не загружены.",
+    pharma_dinamika:     "Фармакодинамика",
+    pharma_kinetika:     "Фармакокинетика",
+    pharma_sorish:       "📥 Всасывание",
+    pharma_tarqalish:    "🌐 Распределение",
+    pharma_metabolizm:   "🔄 Метаболизм",
+    pharma_chiqarilish:  "💧 Выведение",
+    pharma_korsatma:     "Показания к применению",
+    pharma_qarrshi:      "Противопоказания",
+    pharma_nojoya:       "Побочные эффекты",
+    pharma_qollash:      "Способ применения и дозировка",
+    pharma_kattalar:     "👤 Взрослые",
+    pharma_bolalar:      "👶 Дети",
+    pharma_ozaro:        "Взаимодействие препаратов",
+    pharma_dozadan:      "Передозировка",
+    pharma_chiqarish:    "Форма выпуска",
   },
 
   // ══════════════════════════════
@@ -436,6 +474,25 @@ const TRANSLATIONS = {
     login_with:     ".",
     login_welcome:  "Welcome to Medical Information Platform",
     login_sub:      "Medications, diseases, and clinical tools — for medical students and physicians.",
+
+    // Pharmacology
+    pharma_nodata:       "Pharmacological data for this drug is not yet available.",
+    pharma_noload:       "Data not loaded.",
+    pharma_dinamika:     "Pharmacodynamics",
+    pharma_kinetika:     "Pharmacokinetics",
+    pharma_sorish:       "📥 Absorption",
+    pharma_tarqalish:    "🌐 Distribution",
+    pharma_metabolizm:   "🔄 Metabolism",
+    pharma_chiqarilish:  "💧 Elimination",
+    pharma_korsatma:     "Indications",
+    pharma_qarrshi:      "Contraindications",
+    pharma_nojoya:       "Adverse Effects",
+    pharma_qollash:      "Dosage & Administration",
+    pharma_kattalar:     "👤 Adults",
+    pharma_bolalar:      "👶 Children",
+    pharma_ozaro:        "Drug Interactions",
+    pharma_dozadan:      "Overdose",
+    pharma_chiqarish:    "Dosage Forms",
   }
 };
 

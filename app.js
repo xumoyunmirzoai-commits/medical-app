@@ -477,16 +477,15 @@ function renderSideRow(label, text) {
 }
 
 function renderPharmaTab(drug) {
-  // ATX bo'yicha qidirish (to'liq moslik)
   if (typeof PHARMA_DATA === 'undefined') {
-    return `<div class="pharma-nodata"><span class="pharma-nodata-icon">🔬</span>Ma'lumot yuklanmadi.</div>`;
+    return `<div class="pharma-nodata"><span class="pharma-nodata-icon">🔬</span>${t('pharma_noload')}</div>`;
   }
   const pd = PHARMA_DATA[drug.atx] || null;
 
   if (!pd) {
     return `<div class="pharma-nodata">
       <span class="pharma-nodata-icon">🔬</span>
-      Ushbu preparat uchun farmakologiya ma'lumotlari hozircha mavjud emas.
+      ${t('pharma_nodata')}
     </div>`;
   }
 
@@ -503,17 +502,17 @@ function renderPharmaTab(drug) {
 
   // ── 1. Farmakodinamika
   if (pd.farmakodinamika) {
-    html += pharmaBlock('⚗️', 'Farmakodinamika', `<p>${pd.farmakodinamika}</p>`, true);
+    html += pharmaBlock('⚗️', t('pharma_dinamika'), `<p>${pd.farmakodinamika}</p>`, true);
   }
 
   // ── 2. Farmakokinetika
   if (pd.farmakokinetika) {
     const fk = pd.farmakokinetika;
     const fkCards = [
-      { lbl: '📥 So\'rilish', val: fk.sorish },
-      { lbl: '🌐 Tarqalish', val: fk.tarqalish },
-      { lbl: '🔄 Metabolizm', val: fk.metabolizm },
-      { lbl: '💧 Chiqarilish', val: fk.chiqarilish },
+      { lbl: t('pharma_sorish'),      val: fk.sorish },
+      { lbl: t('pharma_tarqalish'),   val: fk.tarqalish },
+      { lbl: t('pharma_metabolizm'),  val: fk.metabolizm },
+      { lbl: t('pharma_chiqarilish'), val: fk.chiqarilish },
     ].filter(c => c.val);
     const fkHtml = `<div class="pharma-fk-grid">
       ${fkCards.map(c => `<div class="pharma-fk-card">
@@ -521,7 +520,7 @@ function renderPharmaTab(drug) {
         <div class="pharma-fk-card-val">${c.val}</div>
       </div>`).join('')}
     </div>`;
-    html += pharmaBlock('📊', 'Farmakokinetika', fkHtml, true);
+    html += pharmaBlock('📊', t('pharma_kinetika'), fkHtml, true);
   }
 
   // ── 3. Ko'rsatmalar
@@ -529,7 +528,7 @@ function renderPharmaTab(drug) {
     const listHtml = `<ul class="pharma-list green">
       ${pd.korsatmalar.map(i => `<li>${i}</li>`).join('')}
     </ul>`;
-    html += pharmaBlock('✅', 'Ko\'rsatmalar (Indikatsiyalar)', listHtml, true);
+    html += pharmaBlock('✅', t('pharma_korsatma'), listHtml, true);
   }
 
   // ── 4. Qarshi ko'rsatmalar
@@ -537,7 +536,7 @@ function renderPharmaTab(drug) {
     const listHtml = `<ul class="pharma-list orange">
       ${pd.qarrshi.map(i => `<li>${i}</li>`).join('')}
     </ul>`;
-    html += pharmaBlock('🚫', 'Qarshi ko\'rsatmalar', listHtml);
+    html += pharmaBlock('🚫', t('pharma_qarrshi'), listHtml);
   }
 
   // ── 5. Nojo'ya ta'sirlar
@@ -545,22 +544,22 @@ function renderPharmaTab(drug) {
     const sideHtml = `<div class="pharma-side-grid">
       ${Object.entries(pd.nojoya).map(([k,v]) => renderSideRow(k, v)).join('')}
     </div>`;
-    html += pharmaBlock('⚠️', 'Nojo\'ya ta\'sirlar', sideHtml);
+    html += pharmaBlock('⚠️', t('pharma_nojoya'), sideHtml);
   }
 
   // ── 6. Qo'llash usuli & Dozalash
   if (pd.qollash) {
     const doseHtml = `<div class="pharma-dose-cards">
       ${pd.qollash.kattalar ? `<div class="pharma-dose-card">
-        <div class="pharma-dose-card-lbl">👤 Kattalar</div>
+        <div class="pharma-dose-card-lbl">${t('pharma_kattalar')}</div>
         <div class="pharma-dose-card-val">${pd.qollash.kattalar}</div>
       </div>` : ''}
       ${pd.qollash.bolalar ? `<div class="pharma-dose-card">
-        <div class="pharma-dose-card-lbl">👶 Bolalar</div>
+        <div class="pharma-dose-card-lbl">${t('pharma_bolalar')}</div>
         <div class="pharma-dose-card-val">${pd.qollash.bolalar}</div>
       </div>` : ''}
     </div>`;
-    html += pharmaBlock('💉', 'Qo\'llash usuli va dozalash', doseHtml, true);
+    html += pharmaBlock('💉', t('pharma_qollash'), doseHtml, true);
   }
 
   // ── 7. Dori-dori o'zaro ta'siri
@@ -571,7 +570,7 @@ function renderPharmaTab(drug) {
         <span>${i}</span>
       </div>`).join('')}
     </div>`;
-    html += pharmaBlock('🔗', 'Dori-dori o\'zaro ta\'siri', interHtml);
+    html += pharmaBlock('🔗', t('pharma_ozaro'), interHtml);
   }
 
   // ── 8. Dozadan oshib ketish
@@ -580,14 +579,14 @@ function renderPharmaTab(drug) {
       <span class="pharma-overdose-icon">🚨</span>
       <span>${pd.dozadan}</span>
     </div>`;
-    html += pharmaBlock('🚨', 'Dozadan oshib ketish', odHtml);
+    html += pharmaBlock('🚨', t('pharma_dozadan'), odHtml);
   }
 
   // ── 9. Chiqarish shakli
   if (pd.chiqarish) {
     const forms = pd.chiqarish.split(';').map(f => f.trim()).filter(Boolean);
     const formHtml = forms.map(f => `<span class="pharma-form-badge">📦 ${f}</span>`).join('');
-    html += pharmaBlock('📦', 'Chiqarish shakli', `<div style="display:flex;flex-wrap:wrap;gap:4px;padding-top:2px">${formHtml}</div>`);
+    html += pharmaBlock('📦', t('pharma_chiqarish'), `<div style="display:flex;flex-wrap:wrap;gap:4px;padding-top:2px">${formHtml}</div>`);
   }
 
   return html;
