@@ -688,6 +688,12 @@ function setLanguage(lang) {
   document.querySelectorAll(".lang-btn").forEach(b => {
     b.classList.toggle("active", b.dataset.lang === lang);
   });
+
+  // Modal ochiq bo'lsa pharma tabni qayta render qil
+  const pharmaTab = document.getElementById("mpharma");
+  if (pharmaTab && typeof currentDrug !== "undefined" && currentDrug) {
+    pharmaTab.innerHTML = renderPharmaTab(currentDrug);
+  }
 }
 
 // data-i18n atributlari orqali tarjima qo'llash
