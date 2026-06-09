@@ -93,23 +93,15 @@ body {
 
 /* Yashiriladigan elementlar — collapsed */
 .sidebar.collapsed .brand-text,
-.sidebar.collapsed .sidebar-section-label,
 .sidebar.collapsed .nav-label,
 .sidebar.collapsed .nav-badge,
 .sidebar.collapsed .user-info,
-.sidebar.collapsed .user-settings {
-  display: none;
-}
-
-/* Ochiq holatda ko'rinadigan elementlar */
-.sidebar:not(.collapsed) .brand-text,
-.sidebar:not(.collapsed) .sidebar-section-label,
-.sidebar:not(.collapsed) .nav-label,
-.sidebar:not(.collapsed) .nav-badge,
-.sidebar:not(.collapsed) .user-info,
-.sidebar:not(.collapsed) .user-settings {
-  display: flex;
-  opacity: 1;
+.sidebar.collapsed .user-settings,
+.sidebar.collapsed .sidebar-section-label {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
 }
 
 /* ── Toggle button (sidebar tashqarisida fixed) ── */
