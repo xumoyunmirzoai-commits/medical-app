@@ -1161,34 +1161,271 @@ body {
 ::-webkit-scrollbar-thumb:hover { background: var(--red-300); }
 
 /* ══════════════════════════════════════════
-   RESPONSIVE
+   PWA INSTALL BANNER & BUTTON
 ══════════════════════════════════════════ */
-@media (max-width: 1400px) {
-  .stats-row { grid-template-columns: repeat(4, 1fr); }
+.pwa-install-btn {
+  display: none;
+  align-items: center; gap: 7px;
+  padding: 8px 16px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #e8193c 0%, #b91c3a 100%);
+  color: #fff !important;
+  font-size: 12.5px; font-weight: 700;
+  border: none; cursor: pointer;
+  box-shadow: 0 4px 14px rgba(232,25,60,.35), 0 2px 6px rgba(0,0,0,.12);
+  transition: all .2s cubic-bezier(.34,1.56,.64,1);
+  white-space: nowrap; font-family: inherit;
+  position: relative; overflow: hidden;
 }
+.pwa-install-btn::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,.18) 0%, transparent 60%);
+  pointer-events: none;
+}
+.pwa-install-btn:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 8px 24px rgba(232,25,60,.45), 0 2px 8px rgba(0,0,0,.15);
+}
+.pwa-install-btn:active { transform: scale(.97); }
+.pwa-install-btn svg { flex-shrink: 0; }
+
+/* Mobile floating install banner */
+.pwa-mobile-banner {
+  display: none;
+  position: fixed; bottom: 80px; left: 12px; right: 12px;
+  background: #fff; border-radius: 18px;
+  box-shadow: 0 8px 40px rgba(0,0,0,.18), 0 2px 12px rgba(232,25,60,.12);
+  padding: 14px 16px;
+  z-index: 1000;
+  border: 1.5px solid rgba(232,25,60,.12);
+  animation: slideUp .35s cubic-bezier(.34,1.56,.64,1);
+}
+.pwa-mobile-banner.show { display: flex; align-items: center; gap: 12px; }
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: none; }
+}
+.pwa-banner-icon {
+  width: 46px; height: 46px; border-radius: 12px;
+  background: linear-gradient(135deg, #e8193c, #b91c3a);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; box-shadow: 0 4px 12px rgba(232,25,60,.3);
+}
+.pwa-banner-text { flex: 1; }
+.pwa-banner-title { font-size: 13.5px; font-weight: 800; color: #111; }
+.pwa-banner-sub   { font-size: 11.5px; color: #6b7280; margin-top: 1px; }
+.pwa-banner-actions { display: flex; gap: 8px; flex-shrink: 0; }
+.pwa-banner-btn {
+  padding: 8px 14px; border-radius: 10px;
+  font-size: 12.5px; font-weight: 700; cursor: pointer;
+  font-family: inherit; border: none; transition: all .15s;
+}
+.pwa-banner-btn.primary {
+  background: linear-gradient(135deg, #e8193c, #b91c3a);
+  color: #fff; box-shadow: 0 3px 10px rgba(232,25,60,.3);
+}
+.pwa-banner-btn.secondary {
+  background: #f3f4f6; color: #374151;
+}
+.pwa-banner-btn.primary:hover  { transform: scale(1.04); }
+.pwa-banner-btn.secondary:hover { background: #e5e7eb; }
+
+/* ══════════════════════════════════════════
+   SIDEBAR OVERLAY (mobile)
+══════════════════════════════════════════ */
+.sidebar-overlay {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.45);
+  backdrop-filter: blur(2px);
+  z-index: 198;
+  transition: opacity .28s;
+  opacity: 0;
+}
+.sidebar-overlay.show { display: block; opacity: 1; }
+
+/* ══════════════════════════════════════════
+   MOBILE BOTTOM NAV
+══════════════════════════════════════════ */
+.mobile-bottom-nav {
+  display: none;
+  position: fixed; bottom: 0; left: 0; right: 0;
+  height: 64px;
+  background: #fff;
+  border-top: 1.5px solid #f3f4f6;
+  box-shadow: 0 -4px 24px rgba(0,0,0,.08);
+  z-index: 200;
+  padding: 0 4px;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.mbn-inner {
+  display: flex; align-items: stretch;
+  height: 100%; justify-content: space-around;
+}
+.mbn-item {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 3px; flex: 1;
+  color: #9ca3af; cursor: pointer;
+  border: none; background: none;
+  font-size: 10px; font-weight: 600;
+  font-family: inherit;
+  transition: color .15s; padding: 6px 4px; border-radius: 10px;
+  position: relative;
+}
+.mbn-item.active { color: #e8193c; }
+.mbn-item svg { transition: transform .2s; }
+.mbn-item.active svg { transform: scale(1.12); }
+.mbn-item-label { font-size: 9.5px; letter-spacing: .2px; }
+.mbn-badge {
+  position: absolute; top: 6px; right: 14px;
+  background: #e8193c; color: #fff;
+  font-size: 8px; font-weight: 800;
+  padding: 1px 4px; border-radius: 8px;
+  border: 1.5px solid #fff;
+}
+
+/* ══════════════════════════════════════════
+   RESPONSIVE — Tablet (≤1100px)
+══════════════════════════════════════════ */
 @media (max-width: 1100px) {
   .stats-row { grid-template-columns: repeat(2, 1fr); }
   .dash-grid  { grid-template-columns: 1fr; }
-  .dash-right-col { display: grid; grid-template-columns: 1fr 1fr; }
+  .dash-right-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 }
+
+/* ══════════════════════════════════════════
+   RESPONSIVE — Mobile (≤900px)
+══════════════════════════════════════════ */
 @media (max-width: 900px) {
-  .sidebar { transform: translateX(-100%); }
-  .sidebar.open { transform: none; }
+  /* Sidebar: hidden by default, slides in */
+  .sidebar { transform: translateX(-110%); }
+  .sidebar.open { transform: none; z-index: 199; }
   .main-wrapper { margin-left: 0 !important; }
   .menu-btn { display: flex; }
   .sidebar-toggle { display: none; }
   .dash-right-col { display: flex; flex-direction: column; }
+
+  /* Bottom nav visible */
+  .mobile-bottom-nav { display: block; }
+
+  /* Content padded for bottom nav */
+  .content { padding-bottom: 80px; }
+
+  /* Install btn hidden in topbar (shown as banner) */
+  #pwaInstallBtn { display: none !important; }
 }
+
+/* ══════════════════════════════════════════
+   RESPONSIVE — Small Mobile (≤640px)
+══════════════════════════════════════════ */
 @media (max-width: 640px) {
-  .content { padding: 14px; }
-  .stats-row { grid-template-columns: 1fr 1fr; }
-  .dash-hero { padding: 20px 18px; }
-  .dash-hero-visual { display: none; }
-  .drugs-grid { grid-template-columns: 1fr; }
-  .global-search-wrap { max-width: 160px; }
-  .search-kbd { display: none; }
-  .page-top { flex-direction: column; }
-  .info-grid-2 { grid-template-columns: 1fr; }
-  .modal { width: 96%; max-height: 90vh; }
+  /* Layout */
+  .content { padding: 12px 12px 80px; }
+
+  /* Topbar compact */
+  .topbar { padding: 0 12px; gap: 8px; height: 54px; }
+  .topbar-breadcrumb { font-size: 14px; }
+  .topbar-divider { display: none; }
   .lang-switcher { display: none; }
+  .search-kbd { display: none; }
+
+  /* Global search — full width on focus */
+  .global-search-wrap {
+    flex: 1;
+    max-width: unset;
+    margin: 0;
+  }
+  .global-search-wrap input {
+    height: 38px;
+    font-size: 14px;
+    padding: 0 36px 0 36px;
+    border-radius: 12px;
+  }
+
+  /* Dashboard Hero */
+  .dash-hero {
+    padding: 20px 18px;
+    border-radius: 16px;
+    min-height: unset;
+  }
+  .dash-hero-visual { display: none; }
+  .dash-hero h1 { font-size: 18px; }
+  .dash-desc { font-size: 12px; max-width: 100%; }
+
+  /* Stats */
+  .stats-row { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .stat-tile { padding: 12px 14px; }
+  .stat-tile-val { font-size: 20px; }
+
+  /* Section cards / dashboard grid */
+  .dash-grid { gap: 14px; }
+  .dash-sections-grid { gap: 10px; }
+
+  /* Drug cards — single column */
+  .drugs-grid { grid-template-columns: 1fr; gap: 10px; }
+  .drug-card { padding: 12px 14px; }
+
+  /* Page top */
+  .page-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .page-top-actions { width: 100%; }
+  .dsb-wrap { width: 100%; max-width: 100%; }
+
+  /* Info grids */
+  .info-grid-2 { grid-template-columns: 1fr; gap: 10px; }
+
+  /* Modal — full screen */
+  .modal-backdrop { align-items: flex-end; padding: 0; }
+  .modal {
+    width: 100%;
+    max-width: 100%;
+    max-height: 92vh;
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+  }
+  .modal-header { padding: 16px 16px 12px; }
+  .modal-body   { padding: 0 16px 16px; }
+
+  /* Modal tabs */
+  .modal-tabs { gap: 4px; padding: 8px 16px 0; }
+  .modal-tab  { font-size: 11.5px; padding: 6px 10px; }
+
+  /* Search dropdown */
+  .search-dropdown { max-height: 260px; }
+  .sd-item { padding: 9px 12px; }
+
+  /* Pharma blocks */
+  .pharma-fk-grid   { grid-template-columns: 1fr; }
+  .pharma-dose-cards { grid-template-columns: 1fr; }
+  .pharma-block-header { font-size: 12.5px; }
+
+  /* Drug card compact */
+  .drug-card-atx { display: none; }
+  .drug-card-meta { font-size: 11px; }
+
+  /* Topbar avatar smaller */
+  .topbar-avatar { width: 30px; height: 30px; font-size: 10px; }
+  .action-btn { width: 30px; height: 30px; }
+
+  /* User dropdown full width */
+  .user-dropdown { width: calc(100vw - 24px); right: -8px; }
+}
+
+/* ══════════════════════════════════════════
+   RESPONSIVE — Very Small (≤380px)
+══════════════════════════════════════════ */
+@media (max-width: 380px) {
+  .content { padding: 10px 10px 76px; }
+  .topbar { padding: 0 10px; }
+  .dash-hero h1 { font-size: 16px; }
+  .stats-row { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .stat-tile { padding: 10px 11px; }
+  .drugs-grid { gap: 8px; }
+  .modal { max-height: 94vh; }
+  .mbn-item-label { font-size: 8.5px; }
+  .mbn-item { gap: 2px; }
 }

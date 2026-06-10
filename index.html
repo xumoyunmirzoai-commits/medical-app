@@ -30,6 +30,9 @@
 </head>
 <body>
 
+<!-- Sidebar overlay (mobile) -->
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+
 <!-- ═══════════ SIDEBAR ═══════════ -->
 <aside class="sidebar" id="sidebar">
 
@@ -375,45 +378,167 @@
 
 <script src="data.js"></script>
 <script src="pharma_data.js"></script>
+<!-- ═══════════ MOBILE BOTTOM NAV ═══════════ -->
+<nav class="mobile-bottom-nav" id="mobileBottomNav">
+  <div class="mbn-inner">
+    <button class="mbn-item active" id="mbn-dashboard" onclick="mbnNav('dashboard')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      <span class="mbn-item-label">Bosh sahifa</span>
+    </button>
+    <button class="mbn-item" id="mbn-drugs" onclick="mbnNav('drugs')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18"/></svg>
+      <span class="mbn-item-label">Dorilar</span>
+      <span class="mbn-badge">8649</span>
+    </button>
+    <button class="mbn-item" id="mbn-search" onclick="openMobileSearch()">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <span class="mbn-item-label">Qidiruv</span>
+    </button>
+    <button class="mbn-item" id="mbn-favorites" onclick="mbnNav('favorites')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span class="mbn-item-label">Saqlangan</span>
+    </button>
+    <button class="mbn-item" id="mbn-menu" onclick="toggleSidebar()">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      <span class="mbn-item-label">Menyu</span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════ PWA MOBILE BANNER ═══════════ -->
+<div class="pwa-mobile-banner" id="pwaMobileBanner">
+  <div class="pwa-banner-icon">
+    <img src="icons/icon-48x48.png" width="28" height="28" alt="MedCore" style="border-radius:6px"/>
+  </div>
+  <div class="pwa-banner-text">
+    <div class="pwa-banner-title">MedCore ni o'rnatish</div>
+    <div class="pwa-banner-sub">Telefonga yuklab oling — bepul!</div>
+  </div>
+  <div class="pwa-banner-actions">
+    <button class="pwa-banner-btn secondary" onclick="hidePwaBanner()">Keyinroq</button>
+    <button class="pwa-banner-btn primary" onclick="installPWA()">O'rnatish</button>
+  </div>
+</div>
+
 <script src="auth.js"></script>
 <script src="app.js"></script>
 
-<!-- PWA: Service Worker va O'rnatish tugmasi -->
+<!-- PWA: Service Worker, Install & Mobile nav -->
 <script>
-  // Service Worker ro'yxatdan o'tkazish
+  // ── Service Worker ──
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./sw.js')
-        .then(reg => console.log('SW ro\'yxatdan o\'tdi:', reg.scope))
-        .catch(err => console.warn('SW xatosi:', err));
+      navigator.serviceWorker.register('./sw.js').catch(() => {});
     });
   }
 
-  // PWA Install prompt
+  // ── PWA Install ──
   let deferredInstallPrompt = null;
+  const isMobile = () => window.innerWidth <= 900;
+
   window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     deferredInstallPrompt = e;
-    // "O'rnatish" tugmasini ko'rsatish
-    const btn = document.getElementById('pwaInstallBtn');
-    if (btn) btn.style.display = 'flex';
+    if (isMobile()) {
+      // Mobile: banner ko'rsatish
+      const banner = document.getElementById('pwaMobileBanner');
+      if (banner && !sessionStorage.getItem('pwa_banner_dismissed')) {
+        setTimeout(() => banner.classList.add('show'), 1500);
+      }
+    } else {
+      // Desktop: topbar tugma
+      const btn = document.getElementById('pwaInstallBtn');
+      if (btn) btn.style.display = 'flex';
+    }
   });
 
   window.addEventListener('appinstalled', () => {
     deferredInstallPrompt = null;
     const btn = document.getElementById('pwaInstallBtn');
     if (btn) btn.style.display = 'none';
+    hidePwaBanner();
   });
 
   function installPWA() {
     if (!deferredInstallPrompt) return;
     deferredInstallPrompt.prompt();
-    deferredInstallPrompt.userChoice.then(choice => {
+    deferredInstallPrompt.userChoice.then(() => {
       deferredInstallPrompt = null;
       const btn = document.getElementById('pwaInstallBtn');
       if (btn) btn.style.display = 'none';
+      hidePwaBanner();
     });
   }
+
+  function hidePwaBanner() {
+    const banner = document.getElementById('pwaMobileBanner');
+    if (banner) { banner.classList.remove('show'); }
+    sessionStorage.setItem('pwa_banner_dismissed', '1');
+  }
+
+  // ── Mobile Bottom Nav ──
+  function mbnNav(page) {
+    // Sahifani ochish (app.js dagi navigateTo funksiyasiga murojaat)
+    if (typeof navigateTo === 'function') navigateTo(page);
+    else {
+      // fallback: nav-item larni topib bosish
+      const navItem = document.querySelector(`.nav-item[data-page="${page}"]`);
+      if (navItem) navItem.click();
+    }
+    // Active holatni yangilash
+    document.querySelectorAll('.mbn-item').forEach(el => el.classList.remove('active'));
+    const activeBtn = document.getElementById('mbn-' + page);
+    if (activeBtn) activeBtn.classList.add('active');
+    // Mobile sidebar ochiq bo'lsa yopish
+    closeSidebar();
+  }
+
+  function openMobileSearch() {
+    // Global search inputni focus qilish
+    const input = document.getElementById('globalSearchInput');
+    if (input) { input.focus(); input.select(); }
+    // Agar sahifa ko'rinmasa, drugs sahifasiga o'tish
+    mbnNav('drugs');
+    setTimeout(() => { if (input) input.focus(); }, 200);
+  }
+
+  function closeSidebar() {
+    const sidebar  = document.getElementById('sidebar');
+    const overlay  = document.getElementById('sidebarOverlay');
+    if (sidebar)  sidebar.classList.remove('open');
+    if (overlay)  overlay.classList.remove('show');
+    document.body.style.overflow = '';
+  }
+
+  // Override toggleSidebar to handle overlay
+  const _origToggle = window.toggleSidebar;
+  window.toggleSidebar = function() {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('sidebarOverlay');
+    if (window.innerWidth <= 900) {
+      const isOpen = sidebar && sidebar.classList.contains('open');
+      if (isOpen) {
+        closeSidebar();
+      } else {
+        if (sidebar) sidebar.classList.add('open');
+        if (overlay) overlay.classList.add('show');
+        document.body.style.overflow = 'hidden';
+      }
+    } else {
+      if (typeof _origToggle === 'function') _origToggle();
+    }
+  };
+
+  // Sync bottom nav with page changes
+  document.addEventListener('click', (e) => {
+    const navItem = e.target.closest('.nav-item[data-page]');
+    if (navItem) {
+      const page = navItem.dataset.page;
+      document.querySelectorAll('.mbn-item').forEach(el => el.classList.remove('active'));
+      const activeBtn = document.getElementById('mbn-' + page);
+      if (activeBtn) activeBtn.classList.add('active');
+    }
+  });
 </script>
 </body>
 </html>
