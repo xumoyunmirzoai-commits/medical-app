@@ -1330,17 +1330,23 @@ body {
   .lang-switcher { display: none; }
   .search-kbd { display: none; }
 
-  /* Global search — full width on focus */
+  /* Global search — full width on mobile */
   .global-search-wrap {
     flex: 1;
     max-width: unset;
     margin: 0;
+    min-width: 0;
   }
   .global-search-wrap input {
-    height: 38px;
-    font-size: 14px;
-    padding: 0 36px 0 36px;
+    height: 40px;
+    font-size: 15px;
+    padding: 0 38px 0 38px;
     border-radius: 12px;
+    border-color: var(--gray-200);
+  }
+  .global-search-wrap input:focus {
+    border-color: var(--red-400);
+    box-shadow: 0 0 0 3px rgba(232,25,60,.12);
   }
 
   /* Dashboard Hero */
@@ -1394,9 +1400,57 @@ body {
   .modal-tabs { gap: 4px; padding: 8px 16px 0; }
   .modal-tab  { font-size: 11.5px; padding: 6px 10px; }
 
-  /* Search dropdown */
-  .search-dropdown { max-height: 260px; }
-  .sd-item { padding: 9px 12px; }
+  /* Search — mobile overlay mode */
+  /* Dropdown desktop uslubini bekor qilish */
+  .search-dropdown {
+    position: fixed !important;
+    top: 54px !important;
+    left: 0 !important; right: 0 !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    border-radius: 0 0 20px 20px !important;
+    border-left: none !important; border-right: none !important; border-top: none !important;
+    box-shadow: 0 12px 40px rgba(0,0,0,.18) !important;
+    max-height: calc(100vh - 54px - 64px) !important;
+    overflow-y: auto !important;
+    z-index: 500 !important;
+  }
+  .sd-item {
+    padding: 10px 16px !important;
+    gap: 12px !important;
+    border-bottom: 1px solid #f3f4f6 !important;
+    min-height: 56px !important;
+    align-items: center !important;
+  }
+  .sd-item:active { background: var(--red-50) !important; }
+  .sd-pill {
+    width: 38px !important; height: 38px !important;
+    border-radius: 10px !important;
+    font-size: 18px !important;
+    flex-shrink: 0 !important;
+  }
+  .sd-info { min-width: 0; flex: 1; overflow: hidden; }
+  .sd-name {
+    font-size: 13.5px !important;
+    font-weight: 700 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 100% !important;
+  }
+  .sd-meta {
+    font-size: 11.5px !important;
+    color: #9ca3af !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 100% !important;
+    margin-top: 2px !important;
+  }
+  .sd-empty {
+    padding: 28px 16px !important;
+    font-size: 14px !important;
+  }
 
   /* Pharma blocks */
   .pharma-fk-grid   { grid-template-columns: 1fr; }

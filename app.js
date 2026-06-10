@@ -719,26 +719,55 @@ function handleSearch(query) {
     ? `<div class="sd-empty">Natija topilmadi</div>`
     : res.map(d => {
         const g = GROUPS.find(g => g.id === d.group);
+        const isMob = window.innerWidth <= 640;
+        const maxLen = isMob ? 30 : 40;
+        const metaLen = isMob ? 28 : 50;
+        const metaText = (g?.name || '') + (d.atx || d.inn ? ' · ' + (d.atx||d.inn) : '');
         return `<div class="sd-item" onclick="searchSelect(${d.id})">
-          <div class="sd-pill" style="background:${g?.bg};color:${g?.color}">${g?.icon||"💊"}</div>
-          <div>
-            <div class="sd-name">${d.name.substring(0,40)}</div>
-            <div class="sd-meta">${g?.name} · ${d.atx||d.inn||""}</div>
+          <div class="sd-pill" style="background:${g?.bg||'#f3f4f6'};color:${g?.color||'#6b7280'}">${g?.icon||"💊"}</div>
+          <div class="sd-info">
+            <div class="sd-name">${d.name.length > maxLen ? d.name.substring(0, maxLen) + '…' : d.name}</div>
+            <div class="sd-meta">${metaText.length > metaLen ? metaText.substring(0, metaLen) + '…' : metaText}</div>
           </div>
         </div>`;
       }).join("");
   dd.classList.add("show");
+  showSearchOverlay();
 }
 
 function searchSelect(id) {
-  document.getElementById("searchDropdown").classList.remove("show");
-  document.getElementById("globalSearch").value = "";
+  hideSearchDropdown();
   openDrug(id);
 }
 
+function showSearchOverlay() {
+  if (window.innerWidth > 640) return;
+  let ov = document.getElementById("searchBgOverlay");
+  if (!ov) {
+    ov = document.createElement("div");
+    ov.id = "searchBgOverlay";
+    ov.style.cssText = `
+      position:fixed;inset:0;top:54px;
+      background:rgba(0,0,0,.35);backdrop-filter:blur(2px);
+      z-index:499;
+    `;
+    ov.onclick = hideSearchDropdown;
+    document.body.appendChild(ov);
+  }
+  ov.style.display = "block";
+}
+
+function hideSearchDropdown() {
+  document.getElementById("searchDropdown")?.classList.remove("show");
+  document.getElementById("globalSearch").value = "";
+  const ov = document.getElementById("searchBgOverlay");
+  if (ov) ov.style.display = "none";
+}
+
 document.addEventListener("click", e => {
-  if (!e.target.closest(".global-search-wrap"))
-    document.getElementById("searchDropdown").classList.remove("show");
+  if (!e.target.closest(".global-search-wrap") && !e.target.closest("#searchDropdown")) {
+    hideSearchDropdown();
+  }
 });
 
 // ════════════════════════════════════════════
