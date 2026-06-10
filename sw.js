@@ -1,9 +1,12 @@
 // ═══════════════════════════════════════════
-//  MedCore — Service Worker (PWA)
-//  Offline rejimida ishlash uchun
+//  MedCore — Service Worker (PWA + Push)
+//  Offline rejimida ishlash + Bildirishnomalar
 // ═══════════════════════════════════════════
 
-const CACHE_NAME = 'medcore-v1';
+// OneSignal SDK ni import qilish (agar OneSignal ishlatilsa)
+importScripts('https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js');
+
+const CACHE_NAME = 'medcore-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -21,7 +24,7 @@ const ASSETS = [
   'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'
 ];
 
-// Install — cache all assets
+// ── Install — cache all assets ──
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => {
@@ -32,7 +35,7 @@ self.addEventListener('install', event => {
   );
 });
 
-// Activate — clean old caches
+// ── Activate — clean old caches ──
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(keys =>
@@ -43,21 +46,18 @@ self.addEventListener('activate', event => {
   );
 });
 
-// Fetch — network first, fallback to cache
+// ── Fetch — network first, fallback to cache ──
 self.addEventListener('fetch', event => {
-  // Only handle GET requests
   if (event.request.method !== 'GET') return;
-
-  // Skip Google APIs (auth)
   if (event.request.url.includes('accounts.google.com') ||
-      event.request.url.includes('googleapis.com/oauth2')) {
+      event.request.url.includes('googleapis.com/oauth2') ||
+      event.request.url.includes('onesignal.com')) {
     return;
   }
 
   event.respondWith(
     fetch(event.request)
       .then(response => {
-        // Cache fresh responses
         if (response && response.status === 200) {
           const clone = response.clone();
           caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
@@ -65,14 +65,82 @@ self.addEventListener('fetch', event => {
         return response;
       })
       .catch(() => {
-        // Network failed — use cache
         return caches.match(event.request).then(cached => {
           if (cached) return cached;
-          // Fallback for navigation requests
           if (event.request.mode === 'navigate') {
             return caches.match('./index.html');
           }
         });
       })
+  );
+});
+
+// ── Push Notification handler ──
+self.addEventListener('push', event => {
+  let data = {};
+  try {
+    data = event.data ? event.data.json() : {};
+  } catch (e) {
+    data = { title: 'MedCore', body: event.data ? event.data.text() : 'Yangilanish bor!' };
+  }
+
+  const title   = data.title   || '🏥 MedCore';
+  const options = {
+    body:    data.body    || data.message || 'Yangi ma\'lumotlar qo\'shildi.',
+    icon:    data.icon    || '/medical-app/icons/icon-192x192.png',
+    badge:   data.badge   || '/medical-app/icons/icon-72x72.png',
+    image:   data.image   || null,
+    tag:     data.tag     || 'medcore-update',
+    renotify: true,
+    requireInteraction: false,
+    vibrate: [200, 100, 200],
+    data: {
+      url: data.url || 'https://xumoyunmirzoai-commits.github.io/medical-app/'
+    },
+    actions: [
+      { action: 'open',    title: '📖 Ochish' },
+      { action: 'dismiss', title: 'Yopish'  }
+    ]
+  };
+
+  event.waitUntil(
+    self.registration.showNotification(title, options)
+  );
+});
+
+// ── Notification click handler ──
+self.addEventListener('notificationclick', event => {
+  event.notification.close();
+
+  if (event.action === 'dismiss') return;
+
+  const url = (event.notification.data && event.notification.data.url)
+    ? event.notification.data.url
+    : 'https://xumoyunmirzoai-commits.github.io/medical-app/';
+
+  event.waitUntil(
+    clients.matchAll({ type: 'window', includeUncontrolled: true })
+      .then(clientList => {
+        // Agar ilova allaqachon ochiq bo'lsa — fokusga o'tkazish
+        for (const client of clientList) {
+          if (client.url.includes('medical-app') && 'focus' in client) {
+            return client.focus();
+          }
+        }
+        // Yangi oyna ochish
+        if (clients.openWindow) {
+          return clients.openWindow(url);
+        }
+      })
+  );
+});
+
+// ── Push subscription change handler ──
+self.addEventListener('pushsubscriptionchange', event => {
+  event.waitUntil(
+    self.registration.pushManager.subscribe({
+      userVisibleOnly: true,
+      applicationServerKey: self.VAPID_PUBLIC_KEY
+    })
   );
 });
