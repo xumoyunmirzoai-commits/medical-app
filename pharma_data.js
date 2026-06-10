@@ -1,4 +1,4 @@
-﻿// ═══════════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════════
 // PHARMA_DATA — Farmakologik ma'lumotlar (ATX kodi bo'yicha)
 // Oxirgi yangilanish: 2026-06-10 | Fluconazole (D01AC15) + bildirishnoma tizimi
 // Manba 1: "dorilar farmakalogiyasi.docx" — 9 ta preparat
@@ -1319,9 +1319,7 @@ const PHARMA_DATA = {
       },
       chiqarish: "Capsules 50 mg, 100 mg, 150 mg, 200 mg; Syrup 5 mg/mL (0.5%); 0.2% solution for IV infusion"
     }
-  }
-
-},
+  },
 
 // ─── J01DD62 · Cefoperazone + Sulbactam ───────────────────────────────────
 "J01DD62": {
@@ -1346,7 +1344,7 @@ const PHARMA_DATA = {
       "Kichik chanoq organlari infeksiyalari (endometrit, gonoreya)",
       "Jarrohlik asoratlari profilaktikasi"
     ],
-    qarshi: [
+    qarrshi: [
       "Sefalosporin va penitsillinlarga o'ta sezuvchanlik",
       "Og'ir jigar yetishmovchiligi (nazorat ostida ishlatish)",
       "Homiladorlik (I trimester — ehtiyotkorlik bilan)",
@@ -1393,7 +1391,7 @@ const PHARMA_DATA = {
       "Воспалительные заболевания органов малого таза, гонорея",
       "Профилактика послеоперационных инфекций"
     ],
-    qarshi: [
+    qarrshi: [
       "Гиперчувствительность к цефалоспоринам и пенициллинам",
       "Тяжёлая печёночная недостаточность",
       "Беременность I триместр — с осторожностью",
@@ -1440,7 +1438,7 @@ const PHARMA_DATA = {
       "Pelvic inflammatory disease, gonorrhoea",
       "Prophylaxis of postoperative infections"
     ],
-    qarshi: [
+    qarrshi: [
       "Hypersensitivity to cephalosporins or penicillins",
       "Severe hepatic impairment",
       "Pregnancy (first trimester — caution)",
@@ -1491,7 +1489,7 @@ const PHARMA_DATA = {
       "Sepsis, meningit",
       "Dializ bilan bog'liq infeksiyalar, kistik fibroz"
     ],
-    qarshi: [
+    qarrshi: [
       "Sefalosporinlarga o'ta sezuvchanlik",
       "Penitsillinlarga allergiya anamnezida (ehtiyotkorlik bilan)",
       "Homiladorlik I trimestri (ehtiyotkorlik)",
@@ -1538,7 +1536,7 @@ const PHARMA_DATA = {
       "Сепсис, менингит",
       "Инфекции при диализе, муковисцидоз"
     ],
-    qarshi: [
+    qarrshi: [
       "Гиперчувствительность к цефалоспоринам",
       "Аллергия на пенициллины в анамнезе (с осторожностью)",
       "Беременность I триместр (с осторожностью)",
@@ -1585,7 +1583,7 @@ const PHARMA_DATA = {
       "Septicaemia, meningitis",
       "Dialysis-associated infections, cystic fibrosis"
     ],
-    qarshi: [
+    qarrshi: [
       "Hypersensitivity to cephalosporins",
       "History of penicillin allergy (caution)",
       "Pregnancy first trimester (caution)",
@@ -1630,7 +1628,7 @@ const PHARMA_DATA = {
       "Murakkab qorin bo'shlig'i ichki infeksiyalari",
       "Murakkab siydik yo'li infeksiyalari, jumladan pielonefrit"
     ],
-    qarshi: [
+    qarrshi: [
       "Doripenem yoki boshqa karbapenеmlarga o'ta sezuvchanlik",
       "β-laktam antibiotiklarga og'ir allergiya",
       "18 yoshgacha bolalar (xavfsizlik ma'lumotlari yetarli emas)"
@@ -1669,7 +1667,7 @@ const PHARMA_DATA = {
       "Осложнённые интраабдоминальные инфекции",
       "Осложнённые инфекции мочевыводящих путей, включая пиелонефрит"
     ],
-    qarshi: [
+    qarrshi: [
       "Гиперчувствительность к дорипенему или другим карбапенемам",
       "Тяжёлые аллергические реакции на β-лактамы",
       "Возраст до 18 лет"
@@ -1708,7 +1706,7 @@ const PHARMA_DATA = {
       "Complicated intra-abdominal infections",
       "Complicated urinary tract infections, including pyelonephritis"
     ],
-    qarshi: [
+    qarrshi: [
       "Hypersensitivity to doripenem or other carbapenems",
       "Severe β-lactam allergy",
       "Age under 18 years"
@@ -1755,7 +1753,7 @@ const PHARMA_DATA = {
       "Osteomielit, traxoma, xlamidioz",
       "Leptospiroz, Lym kasalligi"
     ],
-    qarshi: [
+    qarrshi: [
       "Tetratsiklin antibiotiklarga o'ta sezuvchanlik",
       "Homiladorlik (tish emali va suyak skelet rivojlanishiga ta'sir)",
       "8 yoshgacha bolalar (suyak va tishda kalsiy bilan eruvchan kompleks hosil qiladi)",
@@ -1802,7 +1800,7 @@ const PHARMA_DATA = {
       "Остеомиелит, трахома",
       "Лептоспироз, болезнь Лайма"
     ],
-    qarshi: [
+    qarrshi: [
       "Гиперчувствительность к тетрациклинам",
       "Беременность",
       "Дети до 8 лет",
@@ -1849,7 +1847,7 @@ const PHARMA_DATA = {
       "Osteomyelitis, trachoma",
       "Leptospirosis, Lyme disease"
     ],
-    qarshi: [
+    qarrshi: [
       "Hypersensitivity to tetracyclines",
       "Pregnancy",
       "Children under 8 years",
@@ -1901,7 +1899,7 @@ const PHARMA_DATA = {
       "Toksoplazmoz, jumladan homilador ayollarda",
       "Meningokokkli meningit kontakt shaxslarida profilaktika maqsadida"
     ],
-    qarshi: [
+    qarrshi: [
       "Spiramisinga o'ta sezuvchanlik",
       "Og'ir jigar yetishmovchiligi (ehtiyotkorlik bilan)"
     ],
@@ -1940,7 +1938,7 @@ const PHARMA_DATA = {
       "Токсоплазмоз, в том числе у беременных",
       "Профилактика менингококкового менингита у контактных лиц"
     ],
-    qarshi: [
+    qarrshi: [
       "Гиперчувствительность к спирамицину",
       "Тяжёлая печёночная недостаточность (с осторожностью)"
     ],
@@ -1979,7 +1977,7 @@ const PHARMA_DATA = {
       "Toxoplasmosis, including in pregnancy",
       "Prophylaxis of meningococcal meningitis in close contacts"
     ],
-    qarshi: [
+    qarrshi: [
       "Hypersensitivity to spiramycin",
       "Severe hepatic impairment (caution)"
     ],
@@ -2026,7 +2024,7 @@ const PHARMA_DATA = {
       "Immunitetni bostirilgan bemorlar infeksiyalari",
       "Jarrohlik asoratlari profilaktikasi"
     ],
-    qarshi: [
+    qarrshi: [
       "Sulbaktam, tseftriaksonga yoki boshqa sefalosporin/penitsillinlarga o'ta sezuvchanlik",
       "Chaqaloqlarda giperbilirubinемiya yoki sariqlik",
       "Muddatidan avval tug'ilgan chaqaloqlar (gestatsion yosh 41 haftadan kam)",
@@ -2080,7 +2078,7 @@ const PHARMA_DATA = {
       "Инфекции у иммунокомпрометированных пациентов",
       "Профилактика послеоперационных инфекций"
     ],
-    qarshi: [
+    qarrshi: [
       "Гиперчувствительность к сульбактаму, цефтриаксону, цефалоспоринам или пенициллинам",
       "Гипербилирубинемия или желтуха у новорождённых",
       "Недоношенные новорождённые (гестационный возраст < 41 недели)",
@@ -2134,7 +2132,7 @@ const PHARMA_DATA = {
       "Infections in immunocompromised patients",
       "Prophylaxis of postoperative infections"
     ],
-    qarshi: [
+    qarrshi: [
       "Hypersensitivity to sulbactam, ceftriaxone, cephalosporins or penicillins",
       "Hyperbilirubinaemia or jaundice in neonates",
       "Premature neonates (gestational age < 41 weeks)",
@@ -2186,7 +2184,7 @@ const PHARMA_DATA = {
       "Boshqa antifungal preparatlarga chidamli yoki ular ko'tarilmagan og'ir mikozlar",
       "Yuqori xavf guruhidagi isitmalik bemоrlarda breakthrough infeksiyalarning profilaktikasi (allogen suyak ko'migini transplantatsiyadan o'tganlar, leykemiya recidivi)"
     ],
-    qarshi: [
+    qarrshi: [
       "Bir vaqtda terfenadine, astemizol, tsizaprid, pimozid, kinidin (CYP3A4 substratlar) qabul qilish",
       "Sirolimus bilan bir vaqtda qabul qilish",
       "Rifampitsin, karbamazepin, uzoq ta'sirli barbituratlar",
@@ -2239,7 +2237,7 @@ const PHARMA_DATA = {
       "Тяжёлые микозы при непереносимости/рефрактерности других антимикотиков",
       "Профилактика прорывных микозов у пациентов высокого риска (реципиенты аллогенного КМ, рецидив лейкоза)"
     ],
-    qarshi: [
+    qarrshi: [
       "Одновременный приём субстратов CYP3A4: терфенадин, астемизол, цизаприд, пимозид, хинидин",
       "Сиролимус одновременно",
       "Рифампицин, карбамазепин, длительно действующие барбитураты",
@@ -2292,7 +2290,7 @@ const PHARMA_DATA = {
       "Severe mycoses refractory or intolerant to other antifungals",
       "Prophylaxis of breakthrough fungal infections in high-risk febrile patients (allogeneic BMT recipients, leukaemia relapse)"
     ],
-    qarshi: [
+    qarrshi: [
       "Concomitant CYP3A4 substrates: terfenadine, astemizole, cisapride, pimozide, quinidine",
       "Concomitant sirolimus",
       "Rifampicin, carbamazepine, long-acting barbiturates",
@@ -2352,7 +2350,7 @@ const PHARMA_DATA = {
       "Zararlangan yaralar va kuyishlar",
       "Jarrohlik asoratlari profilaktikasi"
     ],
-    qarshi: [
+    qarrshi: [
       "Tseftriakson yoki boshqa sefalosporinlarga o'ta sezuvchanlik",
       "Chaqaloqlarda giperbilirubinемiya (ehtiyotkorlik bilan)"
     ],
@@ -2399,7 +2397,7 @@ const PHARMA_DATA = {
       "Инфицированные раны и ожоги",
       "Профилактика послеоперационной инфекции"
     ],
-    qarshi: [
+    qarrshi: [
       "Гиперчувствительность к цефтриаксону или другим цефалоспоринам",
       "Гипербилирубинемия у новорождённых (с осторожностью)"
     ],
@@ -2446,7 +2444,7 @@ const PHARMA_DATA = {
       "Infected wounds and burns",
       "Prophylaxis of postoperative infection"
     ],
-    qarshi: [
+    qarrshi: [
       "Hypersensitivity to ceftriaxone or other cephalosporins",
       "Neonatal hyperbilirubinaemia (use with caution)"
     ],
@@ -2492,7 +2490,7 @@ const PHARMA_DATA = {
       "Buyrak va pastki siydik yo'llari infeksiyalari (pielonefrit, sistit, ureтrit)",
       "Jinsiy organlar va kichik chanoq infeksiyalari (endometrit, salpingit, ooforit, tsеrvitsit, prostаtit, kоlpit, orxit, epidididmit)"
     ],
-    qarshi: [
+    qarrshi: [
       "Epilepsiya yoki tirishish anamnezi",
       "Oldingi ftorxinolon davolashdan keyin pay zararlanishi",
       "18 yoshgacha bolalar",
@@ -2543,7 +2541,7 @@ const PHARMA_DATA = {
       "Инфекции почек и нижних мочевыводящих путей (пиелонефрит, цистит, уретрит)",
       "Инфекции половых органов и малого таза (эндометрит, сальпингит, оофорит, цервицит, простатит, кольпит, орхит, эпидидимит)"
     ],
-    qarshi: [
+    qarrshi: [
       "Эпилепсия или судороги в анамнезе",
       "Поражение сухожилий при ранее проводившемся лечении фторхинолонами",
       "Возраст до 18 лет",
@@ -2594,7 +2592,7 @@ const PHARMA_DATA = {
       "Renal and lower urinary tract infections (pyelonephritis, cystitis, urethritis)",
       "Genital and pelvic infections (endometritis, salpingitis, oophoritis, cervicitis, prostatitis, colpitis, orchitis, epididymitis)"
     ],
-    qarshi: [
+    qarrshi: [
       "Epilepsy or history of seizures",
       "Tendon disorders from prior fluoroquinolone treatment",
       "Age under 18 years",
