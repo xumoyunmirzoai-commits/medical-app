@@ -82,6 +82,7 @@ function navigateTo(page) {
   document.getElementById("breadcrumb").textContent = BREADCRUMBS[page] || page;
   if (page === "favorites")  renderFavs();
   if (page === "dashboard")  { renderRecentRow(); updateStats(); }
+  hideSearchDropdown();
   closeMobileSidebar();
 }
 
@@ -480,7 +481,10 @@ function renderPharmaTab(drug) {
   if (typeof PHARMA_DATA === 'undefined') {
     return `<div class="pharma-nodata"><span class="pharma-nodata-icon">🔬</span>${t('pharma_noload')}</div>`;
   }
-  const entry = PHARMA_DATA[drug.atx] || null;
+  // ATX kodini normallashtirish: ba'zi yozuvlarda ortiqcha nuqta/bo'shliq bor
+  // (masalan "J01DD62." → "J01DD62"), bu moslikni buzadi
+  const atxKey = (drug.atx || '').trim().replace(/[.\s]+$/, '');
+  const entry = PHARMA_DATA[atxKey] || PHARMA_DATA[drug.atx] || null;
 
   if (!entry) {
     return `<div class="pharma-nodata">

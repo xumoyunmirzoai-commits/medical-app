@@ -40,6 +40,9 @@
     window.OneSignalDeferred = window.OneSignalDeferred || [];
     OneSignalDeferred.push(async function(OneSignal) {
       if (!ONESIGNAL_APP_ID || ONESIGNAL_APP_ID === "YOUR_ONESIGNAL_APP_ID") return;
+      // Localhost/lokal ishlab chiqishda init o'tkazib yuboriladi (domen OneSignal'da ro'yxatdan o'tmagan)
+      const _h = location.hostname;
+      if (_h === "localhost" || _h === "127.0.0.1" || _h === "" || location.protocol === "file:") return;
 
       await OneSignal.init({
         appId: ONESIGNAL_APP_ID,
