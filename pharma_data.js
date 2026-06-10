@@ -1146,6 +1146,178 @@ const PHARMA_DATA = {
       bolalar: "1 oydan katta: 50–180 mg/kg/kun, 4–6 ta qabul. Yangi tug'ilganlarda: 50–100 mg/kg/kun."
     },
     chiqarish: "I/v va I/m yuborish uchun eritma tayyorlash kukuni 1,0 g flakonda"
+  },
+
+  // ─────────────────────────────────────────────────────────
+  // 22. FLUKONAZOL — MR Flukanza | ATX: D01AC15
+  // Manba: "dorilar 3.docx"
+  // ─────────────────────────────────────────────────────────
+  "D01AC15": {
+    uz: {
+      gruppa: "Zamburug'larga qarshi preparatlar (azollar)",
+      farmTasir: "Yuqori selektiv zamburug'larga qarshi vosita",
+      farmakodinamika: `Triazol hosilasi — yuqori selektiv zamburug'larga qarshi preparat. Sitoxrom P450 ga bog'liq bo'lgan zamburug' fermentlarini ingiberlaydi. Zamburug' hujayrasidagi lanosterolning ergosterolga aylanishini bloklab, hujayra membrananasining o'tkazuvchanligini oshiradi, zamburug' o'sishi va replikatsiyasini buzadi. Candida spp. (umumlashgan kandidoz shakllari bilan), Cryptococcus neoformans va Coccidioides immitis (meningit va ensefalitni ham o'z ichiga olgan), Microsporum spp., Trichophyton spp., Blastomyces dermatidis, Histoplasma capsulatum ga nisbatan faol. Antiandrogen ta'siri yo'q.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali qabul qilganda yaxshi so'riladi — biologik qodalanish >90% (i/v bilan solishtirilla). Ovqat qabul qilish so'rilishga ta'sir qilmaydi. Cmax ochlik holatida qabul qilganda 0,5–1,5 soatda erishiladi.",
+        tarqalish: "Taqsimlanish hajmi organizmdagi umumiy suvga yaqin. Plazma oqsillariga bog'lanish — 11–12% (past). Barcha tana suyuqliklari (so'lak, balg'am, BOM suyuqligi ~80%, amnion suyuqliq)ga keng tarqaladi. Shox qavatda yuqori konsentratsiya yaratadi va to'planadi. Yo'ldoshdan o'tadi.",
+        metabolizm: "Jigar orqali minimal metabolizm. Aylanuvchi metabolitlar aniqlanmagan. Sitorom P450 fermentlarini o'rta darajada inhibe qiladi.",
+        chiqarilish: "Asosan siydik orqali — ~80% o'zgarmagan holda. Klirensi kreatinin klirensiga proportsional. T½ — 30 soat (uzoq muddatli, kuniga bir marta qabul qilish imkonini beradi)."
+      },
+      korsatmalar: [
+        "Kriptokokkoz (MNS infeksiyasi): kriptokokk meningiti — kamida 6–8 hafta davolash",
+        "OIV/OITS kasallarida kriptokokk meningitining qayta rivojlanishini oldini olish",
+        "Tizimli kandidioz: kandidemiya, disseminatsiyalangan kandidioz",
+        "Shilliq qavat kandidozi: og'iz-halqum, qizilo'ngach, vaginit, balanitozida",
+        "Dermatofitlar: oyoq mikozi (6 haftagacha), tana mikozi, qalin teri burmasi mikozi",
+        "Ko'p rangli temratki (otrubevidiy lishay)",
+        "Tirnoq onixomikozi: haftalik 150 mg, yangi tirnoq o'sgunicha",
+        "Chuqur endemik mikozlar: koktsidioidomikoz, gistoplazmos (oylar davomida)",
+        "Neytropenia yoki immunodepressiya bo'lgan bemorlarda zamburug' infeksiyalarining profilaktikasi"
+      ],
+      qarrshi: [
+        "Flukonazol yoki boshqa azol preparatlariga o'ta sezgirlik",
+        "16 yoshgacha bolalarda (ehtiyotkorlik bilan — maxsus ko'rsatmalar bo'yicha)",
+        "Homiladorlik va emizish davri",
+        "Terfenadin, sisaprid bilan birgalikda (QT uzayishi xavfi)",
+        "Og'ir jigar yetishmovchiligi (ehtiyotkorlik bilan)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ishtaha susayishi, ta'm o'zgarishi, qorin og'rig'i, qusish, ko'ngil aynishi, ich ketishi, meteorizm; kamdan-kam — gepatit, sariqlik, gepatonekroz, transaminazalar oshishi",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, ortiqcha charchash; kamdan-kam — tutqanoqlar",
+        "Qon tizimi": "Leykopeni, trombotsitopeni (qon ketish, petexiyalar), neytropeni, agranulotsitoz",
+        "Allergik": "Teri toshmasi; kamdan-kam — ko'p shaklli eritema (Stivens-Jonson sindromi), toksik epidermal nekroliz, anafilaktoid reaksiyalar (Kvinke shishi, eshakemi)",
+        "Yurak-qon tomir": "QT intervali uzayishi, qorinchalar titrashi/xiltillashi",
+        "Boshqa": "Buyrak funksiyasining buzilishi (kamdan-kam), alopetsiya, giperxolesterinemiya, gipertriglitseridemiya, gipokaliemiya"
+      },
+      dozadan: "Belgilari: gallyutsinatsiyalar, paranoid holat. Davolash: simptomatik (oshqozon yuvish, kuchaytirilgan diurez). Gemodializ 3 soat ichida konsentratsiyani 50% kamaytiradi.",
+      ozarotasir: [
+        "Varfarin: protrombin vaqtini 12% oshiradi — qon ketish xavfi, INR monitoringi zarur",
+        "Midazolam (og'iz orqali): midazolam konsentratsiyasini oshiradi — psixomotor ta'sir kuchayadi",
+        "Sisaprid: QT uzayishi, aritmiya — birgalikda ishlatish TAQIQLANGAN",
+        "Rifampitsin: flukonazol AUC ni 25%, T½ ni 20% kamaytiradi — doza oshirish kerak bo'lishi mumkin",
+        "Teofillin: klirensini 18% kamaytiradi — toksiklik belgilarini kuzating",
+        "Sulfonilmochevina preparatlari (xlorpropamid, glibenklamid): T½ uzayadi, gipoglikemiya xavfi",
+        "Takrolimus, tsiklosporin: ularning konsentratsiyasini oshiradi — nefrotoksiklik nazorati",
+        "Terfenadin 400 mg/kun va undan ko'p dozada: QT uzayishi — TAQIQLANGAN",
+        "Zidovudin: AUC ni 74% oshiradi — yon ta'sirlarni kuzating",
+        "Gidroxtlorotiazid: flukonazol konsentratsiyasini 40% oshiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali yoki i/v tomchilab (20 mg/daqiqadan ko'p bo'lmay). Kriptokokkoz/disseminatsiyalangan kandidioz: 1-kuni 400 mg, so'ng 200–400 mg/kun. Og'iz-halqum kandidozi: 50–100 mg/kun 7–14 kun. Vaginit: 150 mg bir martalik. Onixomikoz: 150 mg haftada bir marta. Buyrak yetishmovchiligida: kreatinin klirensi <50 ml/daq bo'lsa doza 50% ga kamaytiriladi.",
+        bolalar: "Kuniga bir marta. Kandidioz: 3 mg/kg/kun; tizimli kandidioz va kriptokokk infeksiyasi: 6–12 mg/kg/kun 10–12 hafta. Yangi tug'ilganlarda: 72 soatlik interval; 2–4 haftalik bolalarda: 48 soatlik interval."
+      },
+      chiqarish: "Kapsulalar 50 mg, 100 mg, 150 mg, 200 mg; Sirop 5 mg/ml (0,5%); 0,2% eritma i/v infuziya uchun"
+    },
+    ru: {
+      gruppa: "Противогрибковые средства (азолы)",
+      farmTasir: "Высокоселективный противогрибковый препарат",
+      farmakodinamika: `Производное триазола — высокоселективное противогрибковое средство. Ингибирует ферменты грибов, зависимые от цитохрома Р450. Блокирует превращение ланостерола в эргостерол в клетке гриба, увеличивает проницаемость клеточной мембраны, нарушает рост и репликацию. Активен в отношении Candida spp. (включая генерализованные формы на фоне иммунодепрессии), Cryptococcus neoformans, Coccidioides immitis (включая менингит и энцефалит), Microsporum spp., Trichophyton spp., Blastomyces dermatidis, Histoplasma capsulatum. Не обладает антиандрогенной активностью.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь хорошо всасывается — биодоступность >90% (сравнима с в/в). Приём пищи не влияет на всасывание. Cmax натощак достигается через 0,5–1,5 часа.",
+        tarqalish: "Объём распределения близок к общему содержанию воды в организме. Связывание с белками плазмы — 11–12% (низкое). Широко проникает во все биологические жидкости (слюна, мокрота, СМЖ ~80%, амниотическая жидкость). Накапливается в роговом слое кожи. Проникает через плаценту.",
+        metabolizm: "Минимальный метаболизм в печени. Циркулирующие метаболиты не обнаружены. Умеренное ингибирование изоферментов цитохрома Р450.",
+        chiqarilish: "Преимущественно почками — ~80% в неизменённом виде. Клиренс пропорционален КК. T½ — около 30 часов (позволяет принимать 1 раз в сутки)."
+      },
+      korsatmalar: [
+        "Криптококкоз (инфекция ЦНС): криптококковый менингит — минимум 6–8 недель терапии",
+        "Профилактика рецидива криптококкового менингита у больных ВИЧ/СПИД",
+        "Системный кандидоз: кандидемия, диссеминированный кандидоз",
+        "Кандидоз слизистых: орофарингеальный, пищеводный, вагинальный, баланит",
+        "Дерматофитии: микоз стоп (до 6 нед), тела, паховой области",
+        "Отрубевидный лишай",
+        "Онихомикоз: 150 мг еженедельно до отрастания здорового ногтя",
+        "Глубокие эндемические микозы: кокцидиоидомикоз, гистоплазмоз",
+        "Профилактика грибковых инфекций при нейтропении/иммунодепрессии"
+      ],
+      qarrshi: [
+        "Повышенная чувствительность к флуконазолу или другим азолам",
+        "До 16 лет (с осторожностью по специальным показаниям)",
+        "Беременность и грудное вскармливание",
+        "Одновременный приём терфенадина, цизаприда (риск удлинения QT)",
+        "Тяжёлая печёночная недостаточность (с осторожностью)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Снижение аппетита, изменение вкуса, боль в животе, рвота, тошнота, диарея, метеоризм; редко — гепатит, желтуха, гепатонекроз, повышение трансаминаз",
+        "Нервная система": "Головная боль, головокружение, повышенная утомляемость; редко — судороги",
+        "Кроветворение": "Лейкопения, тромбоцитопения (кровотечения, петехии), нейтропения, агранулоцитоз",
+        "Аллергические реакции": "Кожная сыпь; редко — синдром Стивенса–Джонсона, токсический эпидермальный некролиз, анафилактоидные реакции (отёк Квинке, крапивница)",
+        "Сердечно-сосудистая": "Удлинение интервала QT, мерцание/трепетание желудочков",
+        "Прочие": "Нарушение функции почек (редко), алопеция, гиперхолестеринемия, гипертриглицеридемия, гипокалиемия"
+      },
+      dozadan: "Симптомы: галлюцинации, параноидное поведение. Лечение: симптоматическое (промывание желудка, форсированный диурез). Гемодиализ в течение 3 часов снижает концентрацию на 50%.",
+      ozarotasir: [
+        "Варфарин: увеличивает протромбиновое время на 12% — риск кровотечений, контроль МНО",
+        "Мидазолам (per os): значительно увеличивает концентрацию и психомоторные эффекты",
+        "Цизаприд: удлинение QT, аритмия типа «пируэт» — ПРОТИВОПОКАЗАНО совместное применение",
+        "Рифампицин: снижает AUC флуконазола на 25%, T½ на 20% — может потребоваться увеличение дозы",
+        "Теофиллин: снижает клиренс на 18% — наблюдать за симптомами передозировки",
+        "Производные сульфонилмочевины (хлорпропамид, глибенкламид): удлинение T½, риск гипогликемии",
+        "Такролимус, циклоспорин: повышение их концентрации — нефротоксический контроль",
+        "Терфенадин ≥400 мг/сут: удлинение QT — ПРОТИВОПОКАЗАНО",
+        "Зидовудин: повышение AUC на 74% — мониторинг побочных эффектов",
+        "Гидрохлоротиазид: повышает плазменную концентрацию флуконазола на 40%"
+      ],
+      qollash: {
+        kattalar: "Внутрь или в/в капельно (не быстрее 20 мг/мин). Криптококкоз/диссеминированный кандидоз: в 1-й день 400 мг, затем 200–400 мг/сут. Орофарингеальный кандидоз: 50–100 мг/сут 7–14 дней. Вагинальный кандидоз: 150 мг однократно. Онихомикоз: 150 мг еженедельно. При КК <50 мл/мин: 50% от рекомендуемой дозы или обычная доза 1 раз в 2 дня.",
+        bolalar: "1 раз в сутки. Кандидоз: 3 мг/кг/сут; системный кандидоз и криптококковая инфекция: 6–12 мг/кг/сут. Новорождённые: интервал 72 ч; 2–4 недели: интервал 48 ч."
+      },
+      chiqarish: "Капсулы 50 мг, 100 мг, 150 мг, 200 мг; Сироп 5 мг/мл (0,5%); Раствор 0,2% для в/в инфузий"
+    },
+    en: {
+      gruppa: "Antifungal agents (azoles)",
+      farmTasir: "Highly selective antifungal agent",
+      farmakodinamika: `Triazole derivative — highly selective antifungal. Inhibits cytochrome P450-dependent fungal enzymes. Blocks conversion of lanosterol to ergosterol in fungal cells, increases membrane permeability, disrupts growth and replication. Active against Candida spp. (including generalized forms in immunocompromised patients), Cryptococcus neoformans, Coccidioides immitis (including meningitis and encephalitis), Microsporum spp., Trichophyton spp., Blastomyces dermatidis, Histoplasma capsulatum. No antiandrogenic activity.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally — bioavailability >90% (comparable to IV). Food does not affect absorption. Cmax fasting reached within 0.5–1.5 hours.",
+        tarqalish: "Volume of distribution approximates total body water. Protein binding — 11–12% (low). Widely distributed to all body fluids (saliva, sputum, CSF ~80%, amniotic fluid). Accumulates in stratum corneum. Crosses the placenta.",
+        metabolizm: "Minimal hepatic metabolism. No circulating metabolites detected. Moderate inhibition of cytochrome P450 isoenzymes.",
+        chiqarilish: "Primarily renal — ~80% unchanged. Clearance proportional to CrCl. T½ approximately 30 hours (enables once-daily dosing)."
+      },
+      korsatmalar: [
+        "Cryptococcosis (CNS infection): cryptococcal meningitis — minimum 6–8 weeks therapy",
+        "Prevention of cryptococcal meningitis relapse in HIV/AIDS patients",
+        "Systemic candidiasis: candidemia, disseminated candidiasis",
+        "Mucosal candidiasis: oropharyngeal, esophageal, vaginal, balanitis",
+        "Dermatophytoses: tinea pedis (up to 6 weeks), corporis, cruris",
+        "Pityriasis versicolor (tinea versicolor)",
+        "Onychomycosis: 150 mg weekly until healthy nail regrowth",
+        "Deep endemic mycoses: coccidioidomycosis, histoplasmosis",
+        "Prophylaxis of fungal infections in neutropenia/immunosuppression"
+      ],
+      qarrshi: [
+        "Hypersensitivity to fluconazole or other azole antifungals",
+        "Under 16 years (use with caution under special indications)",
+        "Pregnancy and breastfeeding",
+        "Concomitant use of terfenadine, cisapride (QT prolongation risk)",
+        "Severe hepatic impairment (use with caution)"
+      ],
+      nojoya: {
+        "Gastrointestinal": "Decreased appetite, taste disturbance, abdominal pain, vomiting, nausea, diarrhea, flatulence; rare — hepatitis, jaundice, hepatonecrosis, elevated transaminases",
+        "Nervous system": "Headache, dizziness, fatigue; rare — seizures",
+        "Hematologic": "Leukopenia, thrombocytopenia (bleeding, petechiae), neutropenia, agranulocytosis",
+        "Allergic reactions": "Skin rash; rare — Stevens–Johnson syndrome, toxic epidermal necrolysis, anaphylactoid reactions (angioedema, urticaria)",
+        "Cardiovascular": "QT interval prolongation, ventricular fibrillation/flutter",
+        "Other": "Renal impairment (rare), alopecia, hypercholesterolemia, hypertriglyceridemia, hypokalemia"
+      },
+      dozadan: "Symptoms: hallucinations, paranoid behavior. Treatment: symptomatic (gastric lavage, forced diuresis). Hemodialysis for 3 hours reduces plasma concentration by 50%.",
+      ozarotasir: [
+        "Warfarin: increases prothrombin time by 12% — bleeding risk, INR monitoring required",
+        "Oral midazolam: markedly increases concentration and psychomotor effects",
+        "Cisapride: QT prolongation, torsades de pointes — CONTRAINDICATED",
+        "Rifampicin: reduces fluconazole AUC by 25%, T½ by 20% — dose increase may be needed",
+        "Theophylline: reduces clearance by 18% — monitor for toxicity",
+        "Sulfonylureas (chlorpropamide, glibenclamide): prolonged T½, hypoglycemia risk",
+        "Tacrolimus, cyclosporine: increased concentrations — nephrotoxicity monitoring",
+        "Terfenadine ≥400 mg/day: QT prolongation — CONTRAINDICATED",
+        "Zidovudine: increases AUC by 74% — monitor adverse effects",
+        "Hydrochlorothiazide: increases fluconazole plasma concentration by 40%"
+      ],
+      qollash: {
+        kattalar: "Oral or IV infusion (no faster than 20 mg/min). Cryptococcosis/disseminated candidiasis: day 1 — 400 mg, then 200–400 mg/day. Oropharyngeal candidiasis: 50–100 mg/day for 7–14 days. Vaginal candidiasis: 150 mg single dose. Onychomycosis: 150 mg weekly. CrCl <50 mL/min: 50% of recommended dose or usual dose every 2 days.",
+        bolalar: "Once daily. Candidiasis: 3 mg/kg/day; systemic candidiasis and cryptococcal infection: 6–12 mg/kg/day for 10–12 weeks. Neonates: 72-hour interval; 2–4 weeks old: 48-hour interval."
+      },
+      chiqarish: "Capsules 50 mg, 100 mg, 150 mg, 200 mg; Syrup 5 mg/mL (0.5%); 0.2% solution for IV infusion"
+    }
   }
 
 };
