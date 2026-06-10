@@ -2035,7 +2035,7 @@ const PHARMA_DATA = {
       "Allergiya": "Isitma, anafilaksiya, teri toshmasi, Stivens-Johnson sindromi, Lyell sindromi",
       "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, tirishishlar",
       "Oshqozon-ichak": "Qorin og'rig'i, diareya, ko'ngil aynishi, qusish, pankreatit, psevdomembranoz kolit",
-      "Jigar": "Xololitiaz, "shlam-fenomeni", sariqlik",
+      "Jigar": "Xololitiaz, «shlam-fenomeni», sariqlik",
       "Qon tizimi": "Anemiya (gemolitik ham), leykopeniya, trombotsitopeniya, agranulotsitozlar",
       "Siydik tizimi": "Nefroliteaz, kandidoz",
       "Mahalliy": "Flebit (v/v), og'riq (v/m)"
