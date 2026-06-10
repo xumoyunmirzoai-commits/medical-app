@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════
 // PHARMA_DATA — Farmakologik ma'lumotlar (ATX kodi bo'yicha)
-// Oxirgi yangilanish: 2026-06-10 | Fluconazole (D01AC15) qo'shildi
+// Oxirgi yangilanish: 2026-06-10 | Fluconazole (D01AC15) + bildirishnoma tizimi
 // Manba 1: "dorilar farmakalogiyasi.docx" — 9 ta preparat
 // Manba 2: "dorlar 2.docx" — 12 ta preparat
 // Jami: 21 ta preparat
