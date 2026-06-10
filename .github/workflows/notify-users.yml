@@ -4,55 +4,67 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'pharma_data.js'   # Dori farmakologiyasi yangilansa
-      - 'data.js'          # Dorilar ro'yxati yangilansa
+      - 'pharma_data.js'
+      - 'data.js'
 
 jobs:
   send-notification:
     runs-on: ubuntu-latest
     steps:
-      - name: Qaysi fayl o'zgardi — aniqlash
-        id: changes
+      - name: Xabar matni tayyorlash
+        id: msg
         run: |
-          echo "Commit: ${{ github.sha }}"
-          echo "Author: ${{ github.actor }}"
-
-          # O'zgargan fayllarni tekshirish
-          FILES="${{ join(github.event.commits[0].modified, ' ') }}"
+          FILES=$(echo '${{ toJson(github.event.commits) }}' | jq -r '.[0].modified // [] | join(" ")')
           if echo "$FILES" | grep -q "pharma_data.js"; then
-            echo "type=pharma" >> $GITHUB_OUTPUT
-            echo "title=💊 Farmakologiya ma'lumotlari yangilandi!" >> $GITHUB_OUTPUT
-            echo "message=Dori-darmonlar farmakologik ma'lumotlari to'ldirildi. Yangi ma'lumotlarni ko'rish uchun bosing." >> $GITHUB_OUTPUT
+            echo "title=💊 Farmakologiya yangilandi!" >> $GITHUB_OUTPUT
+            echo "body=Yangi dori ma'lumotlari qo'shildi. Ko'rish uchun bosing." >> $GITHUB_OUTPUT
           elif echo "$FILES" | grep -q "data.js"; then
-            echo "type=drugs" >> $GITHUB_OUTPUT
             echo "title=🆕 Yangi dorilar qo'shildi!" >> $GITHUB_OUTPUT
-            echo "message=MedCore ma'lumotlar bazasiga yangi dorilar qo'shildi. Hoziroq ko'ring!" >> $GITHUB_OUTPUT
+            echo "body=MedCore bazasiga yangi dorilar qo'shildi." >> $GITHUB_OUTPUT
           else
-            echo "type=update" >> $GITHUB_OUTPUT
             echo "title=🔄 MedCore yangilandi" >> $GITHUB_OUTPUT
-            echo "message=Ilova yangi imkoniyatlar bilan to'ldirildi." >> $GITHUB_OUTPUT
+            echo "body=Ilova yangi imkoniyatlar bilan to'ldirildi." >> $GITHUB_OUTPUT
           fi
 
-      - name: OneSignal orqali bildirishnoma yuborish
+      - name: OneSignal bildirishnoma yuborish
+        env:
+          ONESIGNAL_APP_ID: ${{ secrets.ONESIGNAL_APP_ID }}
+          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+          NOTIF_TITLE: ${{ steps.msg.outputs.title }}
+          NOTIF_BODY: ${{ steps.msg.outputs.body }}
         run: |
-          curl --include \
+          PAYLOAD=$(jq -n \
+            --arg app_id "$ONESIGNAL_APP_ID" \
+            --arg title "$NOTIF_TITLE" \
+            --arg body "$NOTIF_BODY" \
+            '{
+              app_id: $app_id,
+              included_segments: ["All"],
+              headings: { uz: $title, ru: $title, en: $title },
+              contents: { uz: $body, ru: $body, en: $body },
+              url: "https://xumoyunmirzoai-commits.github.io/medical-app/",
+              chrome_web_icon: "https://xumoyunmirzoai-commits.github.io/medical-app/icons/icon-192x192.png",
+              chrome_web_badge: "https://xumoyunmirzoai-commits.github.io/medical-app/icons/icon-72x72.png",
+              priority: 10,
+              ttl: 86400
+            }')
+
+          RESPONSE=$(curl -s -w "\n%{http_code}" \
             --request POST \
             --header "Content-Type: application/json; charset=utf-8" \
-            --header "Authorization: Basic ${{ secrets.ONESIGNAL_REST_API_KEY }}" \
-            --data '{
-              "app_id": "${{ secrets.ONESIGNAL_APP_ID }}",
-              "included_segments": ["All"],
-              "headings": {"uz": "${{ steps.changes.outputs.title }}", "ru": "${{ steps.changes.outputs.title }}", "en": "${{ steps.changes.outputs.title }}"},
-              "contents": {"uz": "${{ steps.changes.outputs.message }}", "ru": "${{ steps.changes.outputs.message }}", "en": "${{ steps.changes.outputs.message }}"},
-              "url": "https://xumoyunmirzoai-commits.github.io/medical-app/",
-              "web_push_topic": "medcore-update",
-              "priority": 10,
-              "web_buttons": [
-                {"id": "open", "text": "Ilovani ochish", "url": "https://xumoyunmirzoai-commits.github.io/medical-app/"}
-              ],
-              "chrome_web_icon": "https://xumoyunmirzoai-commits.github.io/medical-app/icons/icon-192x192.png",
-              "chrome_web_badge": "https://xumoyunmirzoai-commits.github.io/medical-app/icons/icon-72x72.png",
-              "ttl": 86400
-            }' \
-            https://onesignal.com/api/v1/notifications
-          echo "✅ Bildirishnoma muvaffaqiyatli yuborildi!"
+            --header "Authorization: Basic $ONESIGNAL_REST_API_KEY" \
+            --data "$PAYLOAD" \
+            https://onesignal.com/api/v1/notifications)
+
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -1)
+
+          echo "HTTP Status: $HTTP_CODE"
+          echo "Response: $BODY"
+
+          if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
+            echo "✅ Bildirishnoma muvaffaqiyatli yuborildi!"
+          else
+            echo "❌ Xato! HTTP: $HTTP_CODE"
+            exit 1
+          fi
