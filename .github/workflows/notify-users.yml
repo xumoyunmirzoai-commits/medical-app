@@ -1,0 +1,58 @@
+name: 🔔 Foydalanuvchilarga bildirishnoma yuborish
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'pharma_data.js'   # Dori farmakologiyasi yangilansa
+      - 'data.js'          # Dorilar ro'yxati yangilansa
+
+jobs:
+  send-notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Qaysi fayl o'zgardi — aniqlash
+        id: changes
+        run: |
+          echo "Commit: ${{ github.sha }}"
+          echo "Author: ${{ github.actor }}"
+
+          # O'zgargan fayllarni tekshirish
+          FILES="${{ join(github.event.commits[0].modified, ' ') }}"
+          if echo "$FILES" | grep -q "pharma_data.js"; then
+            echo "type=pharma" >> $GITHUB_OUTPUT
+            echo "title=💊 Farmakologiya ma'lumotlari yangilandi!" >> $GITHUB_OUTPUT
+            echo "message=Dori-darmonlar farmakologik ma'lumotlari to'ldirildi. Yangi ma'lumotlarni ko'rish uchun bosing." >> $GITHUB_OUTPUT
+          elif echo "$FILES" | grep -q "data.js"; then
+            echo "type=drugs" >> $GITHUB_OUTPUT
+            echo "title=🆕 Yangi dorilar qo'shildi!" >> $GITHUB_OUTPUT
+            echo "message=MedCore ma'lumotlar bazasiga yangi dorilar qo'shildi. Hoziroq ko'ring!" >> $GITHUB_OUTPUT
+          else
+            echo "type=update" >> $GITHUB_OUTPUT
+            echo "title=🔄 MedCore yangilandi" >> $GITHUB_OUTPUT
+            echo "message=Ilova yangi imkoniyatlar bilan to'ldirildi." >> $GITHUB_OUTPUT
+          fi
+
+      - name: OneSignal orqali bildirishnoma yuborish
+        run: |
+          curl --include \
+            --request POST \
+            --header "Content-Type: application/json; charset=utf-8" \
+            --header "Authorization: Basic ${{ secrets.ONESIGNAL_REST_API_KEY }}" \
+            --data '{
+              "app_id": "${{ secrets.ONESIGNAL_APP_ID }}",
+              "included_segments": ["All"],
+              "headings": {"uz": "${{ steps.changes.outputs.title }}", "ru": "${{ steps.changes.outputs.title }}", "en": "${{ steps.changes.outputs.title }}"},
+              "contents": {"uz": "${{ steps.changes.outputs.message }}", "ru": "${{ steps.changes.outputs.message }}", "en": "${{ steps.changes.outputs.message }}"},
+              "url": "https://xumoyunmirzoai-commits.github.io/medical-app/",
+              "web_push_topic": "medcore-update",
+              "priority": 10,
+              "web_buttons": [
+                {"id": "open", "text": "Ilovani ochish", "url": "https://xumoyunmirzoai-commits.github.io/medical-app/"}
+              ],
+              "chrome_web_icon": "https://xumoyunmirzoai-commits.github.io/medical-app/icons/icon-192x192.png",
+              "chrome_web_badge": "https://xumoyunmirzoai-commits.github.io/medical-app/icons/icon-72x72.png",
+              "ttl": 86400
+            }' \
+            https://onesignal.com/api/v1/notifications
+          echo "✅ Bildirishnoma muvaffaqiyatli yuborildi!"
