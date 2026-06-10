@@ -6,6 +6,16 @@ on:
     paths:
       - 'pharma_data.js'
       - 'data.js'
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Bildirishnoma sarlavhasi'
+        required: false
+        default: "💊 Yangi dori qo'shildi!"
+      body:
+        description: 'Bildirishnoma matni'
+        required: false
+        default: "Flukonazol (D01AC15) — zamburug'larga qarshi preparat ma'lumotlari qo'shildi!"
 
 jobs:
   send-notification:
@@ -14,16 +24,22 @@ jobs:
       - name: Xabar matni tayyorlash
         id: msg
         run: |
-          FILES=$(echo '${{ toJson(github.event.commits) }}' | jq -r '.[0].modified // [] | join(" ")')
-          if echo "$FILES" | grep -q "pharma_data.js"; then
-            echo "title=💊 Farmakologiya yangilandi!" >> $GITHUB_OUTPUT
-            echo "body=Yangi dori ma'lumotlari qo'shildi. Ko'rish uchun bosing." >> $GITHUB_OUTPUT
-          elif echo "$FILES" | grep -q "data.js"; then
-            echo "title=🆕 Yangi dorilar qo'shildi!" >> $GITHUB_OUTPUT
-            echo "body=MedCore bazasiga yangi dorilar qo'shildi." >> $GITHUB_OUTPUT
+          # workflow_dispatch bo'lsa — kiritilgan qiymatlarni ishlatish
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "title=${{ github.event.inputs.title }}" >> $GITHUB_OUTPUT
+            echo "body=${{ github.event.inputs.body }}" >> $GITHUB_OUTPUT
           else
-            echo "title=🔄 MedCore yangilandi" >> $GITHUB_OUTPUT
-            echo "body=Ilova yangi imkoniyatlar bilan to'ldirildi." >> $GITHUB_OUTPUT
+            FILES=$(echo '${{ toJson(github.event.commits) }}' | jq -r '.[0].modified // [] | join(" ")')
+            if echo "$FILES" | grep -q "pharma_data.js"; then
+              echo "title=💊 Farmakologiya yangilandi!" >> $GITHUB_OUTPUT
+              echo "body=Yangi dori ma'lumotlari qo'shildi. Ko'rish uchun bosing." >> $GITHUB_OUTPUT
+            elif echo "$FILES" | grep -q "data.js"; then
+              echo "title=🆕 Yangi dorilar qo'shildi!" >> $GITHUB_OUTPUT
+              echo "body=MedCore bazasiga yangi dorilar qo'shildi." >> $GITHUB_OUTPUT
+            else
+              echo "title=🔄 MedCore yangilandi" >> $GITHUB_OUTPUT
+              echo "body=Ilova yangi imkoniyatlar bilan to'ldirildi." >> $GITHUB_OUTPUT
+            fi
           fi
 
       - name: OneSignal bildirishnoma yuborish
