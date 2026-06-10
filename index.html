@@ -35,11 +35,11 @@
     // ONESIGNAL SOZLASH
     // App ID ni console.onesignal.com dan oling
     // ══════════════════════════════════════
-    const ONESIGNAL_APP_ID = "YOUR_ONESIGNAL_APP_ID"; // ← Bu yerga App ID kiriting
+    const ONESIGNAL_APP_ID = "b61340d1-70fe-404f-8030-3de383064d49"; // ← Bu yerga App ID kiriting
 
     window.OneSignalDeferred = window.OneSignalDeferred || [];
     OneSignalDeferred.push(async function(OneSignal) {
-      if (ONESIGNAL_APP_ID === "YOUR_ONESIGNAL_APP_ID") return; // Hali sozlanmagan
+      if (ONESIGNAL_APP_ID === "b61340d1-70fe-404f-8030-3de383064d49") return; // Hali sozlanmagan
 
       await OneSignal.init({
         appId: ONESIGNAL_APP_ID,
