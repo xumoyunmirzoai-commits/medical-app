@@ -3192,6 +3192,929 @@ const PHARMA_DATA = {
     },
     chiqarish: "Film-coated tablets 200 mg and 400 mg; solution for IV infusion 2 mg/mL; eye drops 0.3%"
   }
+},
+
+// ─── A01AB · Metronidazol + Xlorgeksidin (stomatologik) ───────────────────
+"A01AB": {
+  uz: {
+    gruppa: "Og'iz bo'shlig'i uchun mahalliy antiinfeksion va antiseptik vositalar",
+    farmTasir: "Stomatologiyada qo'llaniladigan antibakterial va antiseptik kombinatsiya",
+    farmakodinamika: `Metronidazol va xlorgeksidin kombinatsiyasi. Metronidazol — 5-nitroimidazol hosilasi bo'lib, anaerob bakteriyalar va sodda jonivorlarning ДНК sintezini buzadi (qaytarilgan nitroguruh ДНК bilan bog'lanadi); periodontal patogenlarga (Porphyromonas gingivalis, Prevotella intermedia, Fusobacterium spp., anaerob streptokokklar) faol. Xlorgeksidin — bisbiguanid antiseptik, bakteriya hujayra membranasiga bog'lanib uni shikastlaydi, gram-musbat va gram-manfiy bakteriyalar, zamburug'larga nisbatan bakteritsid. Kombinatsiya gingivit va periodontitda mikrob plyonkasini bostiradi.`,
+    farmakokinetika: {
+      sorish: "Mahalliy qo'llashda tizimli so'rilish minimal",
+      tarqalish: "Og'iz shilliq pardasi va milk yuzasida ta'sir qiladi; tizimli taqsimlanish ahamiyatsiz",
+      metabolizm: "Mahalliy qo'llashda klinik ahamiyatga ega metabolizm yo'q",
+      chiqarilish: "Yutilgan oz miqdori metronidazol jigarda metabolizmga uchrab buyrak orqali chiqariladi"
+    },
+    korsatmalar: [
+      "O'tkir va surunkali gingivit",
+      "Periodontit, periodontal abstsesslar",
+      "Aftoz stomatit",
+      "Xeylit, milk qonashi",
+      "Tishni olib tashlashdan keyingi yallig'lanish profilaktikasi"
+    ],
+    qarrshi: [
+      "Metronidazol yoki xlorgeksidinga o'ta sezuvchanlik",
+      "6 yoshgacha bolalar",
+      "Homiladorlikning I trimestri (ehtiyotkorlik bilan)"
+    ],
+    nojoya: {
+      "Mahalliy": "Achishish, og'iz qurishi, ta'm sezgisining vaqtincha o'zgarishi",
+      "Allergiya": "Milk shilliq pardasi qichishi, toshma",
+      "Boshqa": "Uzoq qo'llashda tish emalining qaytar dog'lanishi (xlorgeksidin)"
+    },
+    dozadan: "Mahalliy qo'llashda doza oshib ketishi ehtimoli past. Tasodifan yutilganda — simptomatik davolash.",
+    ozarotasir: [
+      "Xlorgeksidin anion saqlovchi tish pastalari (natriy lauril sulfat) bilan faolligini yo'qotadi — qo'llash orasida 30 daqiqa farq",
+      "Etanol bilan metronidazol disulfiramsimon reaksiya berishi mumkin"
+    ],
+    qollash: {
+      kattalar: "Gelni kuniga 2 marta milkka surtish yoki applikatsiya; kurs odatda 7–10 kun.",
+      bolalar: "6 yoshdan: kattalardagidek, shifokor nazorati ostida"
+    },
+    chiqarish: "Stomatologik gel (metronidazol + xlorgeksidin)"
+  },
+  ru: {
+    gruppa: "Местные противоинфекционные и антисептические средства для полости рта",
+    farmTasir: "Антибактериальная и антисептическая комбинация для стоматологии",
+    farmakodinamika: `Комбинация метронидазола и хлоргексидина. Метронидазол — производное 5-нитроимидазола, нарушает синтез ДНК анаэробных бактерий и простейших (восстановленная нитрогруппа связывается с ДНК); активен в отношении пародонтопатогенов (Porphyromonas gingivalis, Prevotella intermedia, Fusobacterium spp., анаэробные стрептококки). Хлоргексидин — бисбигуанидный антисептик, связывается с мембраной бактерий и повреждает её, оказывая бактерицидное действие на грамположительные и грамотрицательные бактерии и грибы. Комбинация подавляет микробную биоплёнку при гингивите и пародонтите.`,
+    farmakokinetika: {
+      sorish: "При местном применении системная абсорбция минимальна",
+      tarqalish: "Действует на слизистой полости рта и поверхности дёсен; системное распределение незначительно",
+      metabolizm: "Клинически значимый метаболизм при местном применении отсутствует",
+      chiqarilish: "Проглоченное небольшое количество метронидазола метаболизируется в печени и выводится почками"
+    },
+    korsatmalar: [
+      "Острый и хронический гингивит",
+      "Пародонтит, пародонтальные абсцессы",
+      "Афтозный стоматит",
+      "Хейлит, кровоточивость дёсен",
+      "Профилактика воспаления после удаления зуба"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к метронидазолу или хлоргексидину",
+      "Детский возраст до 6 лет",
+      "I триместр беременности (с осторожностью)"
+    ],
+    nojoya: {
+      "Местные": "Жжение, сухость во рту, временное изменение вкуса",
+      "Аллергические": "Зуд слизистой дёсен, сыпь",
+      "Прочие": "Обратимое окрашивание эмали зубов при длительном применении (хлоргексидин)"
+    },
+    dozadan: "При местном применении передозировка маловероятна. При случайном проглатывании — симптоматическое лечение.",
+    ozarotasir: [
+      "Хлоргексидин теряет активность с анионными зубными пастами (натрия лаурилсульфат) — интервал 30 минут",
+      "С этанолом метронидазол может давать дисульфирамоподобную реакцию"
+    ],
+    qollash: {
+      kattalar: "Гель наносить на дёсны 2 раза в день или в виде аппликаций; курс обычно 7–10 дней.",
+      bolalar: "С 6 лет: как у взрослых, под контролем врача"
+    },
+    chiqarish: "Стоматологический гель (метронидазол + хлоргексидин)"
+  },
+  en: {
+    gruppa: "Local anti-infective and antiseptic agents for oral treatment",
+    farmTasir: "Antibacterial and antiseptic combination for dentistry",
+    farmakodinamika: `A combination of metronidazole and chlorhexidine. Metronidazole, a 5-nitroimidazole derivative, disrupts DNA synthesis of anaerobic bacteria and protozoa (its reduced nitro group binds DNA); active against periodontal pathogens (Porphyromonas gingivalis, Prevotella intermedia, Fusobacterium spp., anaerobic streptococci). Chlorhexidine, a bisbiguanide antiseptic, binds to and damages the bacterial membrane, exerting bactericidal activity against Gram-positive and Gram-negative bacteria and fungi. The combination suppresses microbial biofilm in gingivitis and periodontitis.`,
+    farmakokinetika: {
+      sorish: "Systemic absorption is minimal with topical use",
+      tarqalish: "Acts on the oral mucosa and gingival surface; systemic distribution negligible",
+      metabolizm: "No clinically significant metabolism with topical use",
+      chiqarilish: "Small swallowed amounts of metronidazole are hepatically metabolised and renally excreted"
+    },
+    korsatmalar: [
+      "Acute and chronic gingivitis",
+      "Periodontitis, periodontal abscesses",
+      "Aphthous stomatitis",
+      "Cheilitis, bleeding gums",
+      "Prophylaxis of inflammation after tooth extraction"
+    ],
+    qarrshi: [
+      "Hypersensitivity to metronidazole or chlorhexidine",
+      "Children under 6 years",
+      "First trimester of pregnancy (use with caution)"
+    ],
+    nojoya: {
+      "Local": "Burning, dry mouth, transient taste alteration",
+      "Hypersensitivity": "Gingival mucosal itching, rash",
+      "Other": "Reversible tooth enamel staining with prolonged use (chlorhexidine)"
+    },
+    dozadan: "Overdose unlikely with topical use. If accidentally swallowed — symptomatic treatment.",
+    ozarotasir: [
+      "Chlorhexidine is inactivated by anionic toothpastes (sodium lauryl sulfate) — separate by 30 minutes",
+      "Metronidazole may cause a disulfiram-like reaction with ethanol"
+    ],
+    qollash: {
+      kattalar: "Apply gel to the gums twice daily or as applications; course usually 7–10 days.",
+      bolalar: "From 6 years: as in adults, under medical supervision"
+    },
+    chiqarish: "Dental gel (metronidazole + chlorhexidine)"
+  }
+},
+
+// ─── A01AB03 · Xlorgeksidin ───────────────────────────────────────────────
+"A01AB03": {
+  uz: {
+    gruppa: "Og'iz bo'shlig'i uchun mahalliy antiseptiklar",
+    farmTasir: "Keng spektrli antiseptik va dezinfeksiyalovchi vosita",
+    farmakodinamika: `Xlorgeksidin — bisbiguanid guruhiga mansub antiseptik. Musbat zaryadlangan molekulasi bakteriya hujayra devorining manfiy zaryadlangan guruhlariga bog'lanib, sitoplazmatik membrana o'tkazuvchanligini buzadi va hujayra ichidagi komponentlarning chiqib ketishiga olib keladi; past konsentratsiyada bakteriostatik, yuqori konsentratsiyada bakteritsid. Gram-musbat va gram-manfiy bakteriyalar, xachamir zamburug'lari va ba'zi viruslarga ta'sirchan. Sil mikobakteriyasi va bakterial sporalarga zaif ta'sir qiladi. Og'iz shilliq pardasi va tishlarga bog'lanib uzoq ta'sir (substantivlik) ko'rsatadi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichak yo'lidan deyarli so'rilmaydi; mahalliy ta'sir qiladi",
+      tarqalish: "Og'iz shilliq pardasi, tish yuzasi va pellikulaga bog'lanadi; 8–12 soatgacha saqlanadi",
+      metabolizm: "Tizimli metabolizmga uchramaydi",
+      chiqarilish: "Asosan najas bilan o'zgarmagan holda chiqadi"
+    },
+    korsatmalar: [
+      "Gingivit, stomatit, periodontit",
+      "Og'iz bo'shlig'i va halqumning antiseptik ishlovi",
+      "Tish jarrohligi va ekstraksiyadan keyingi infeksiya profilaktikasi",
+      "Tish protezlarini parvarish qilish",
+      "Teri va shilliq pardalarni dezinfeksiyalash"
+    ],
+    qarrshi: [
+      "Xlorgeksidinga o'ta sezuvchanlik",
+      "Dermatitlar",
+      "Boshqa antiseptiklar bilan birga ishlatish (ayniqsa anionli)"
+    ],
+    nojoya: {
+      "Mahalliy": "Ta'm sezgisining buzilishi, og'iz qurishi, achishish",
+      "Tishlar": "Uzoq qo'llashda tish va til yuzasining qaytar jigarrang dog'lanishi, tish toshi to'planishi",
+      "Allergiya": "Dermatit, qichishish, kamdan-kam anafilaktik reaksiya"
+    },
+    dozadan: "Tasodifan yutilganda (>300 ml 0,05% eritma) — oshqozonni yuvish, simptomatik davolash.",
+    ozarotasir: [
+      "Anionli birikmalar (sovun, natriy lauril sulfat) xlorgeksidin faolligini kamaytiradi",
+      "Boshqa antiseptiklar bilan mos kelmasligi mumkin"
+    ],
+    qollash: {
+      kattalar: "0,05–0,2% eritma bilan og'izni kuniga 2–3 marta chayish (10–15 ml, 30 soniya); ovqatdan keyin.",
+      bolalar: "6 yoshdan: katta nazorati ostida, yutmaslik sharti bilan"
+    },
+    chiqarish: "Og'iz chayish eritmasi 0,05%; 0,1%; 0,2%; sprey; gel"
+  },
+  ru: {
+    gruppa: "Местные антисептики для полости рта",
+    farmTasir: "Антисептик и дезинфицирующее средство широкого спектра",
+    farmakodinamika: `Хлоргексидин — антисептик группы бисбигуанидов. Его положительно заряженная молекула связывается с отрицательно заряженными группами клеточной стенки бактерий, нарушает проницаемость цитоплазматической мембраны и вызывает выход внутриклеточных компонентов; в низких концентрациях бактериостатичен, в высоких — бактерициден. Активен в отношении грамположительных и грамотрицательных бактерий, дрожжевых грибов и некоторых вирусов. Слабо действует на микобактерии туберкулёза и бактериальные споры. Связывается со слизистой и зубами, обеспечивая длительное действие (субстантивность).`,
+    farmakokinetika: {
+      sorish: "Практически не всасывается из ЖКТ; действует местно",
+      tarqalish: "Связывается со слизистой полости рта, поверхностью зубов и пелликулой; удерживается до 8–12 ч",
+      metabolizm: "Системному метаболизму не подвергается",
+      chiqarilish: "Выводится преимущественно с калом в неизменённом виде"
+    },
+    korsatmalar: [
+      "Гингивит, стоматит, пародонтит",
+      "Антисептическая обработка полости рта и глотки",
+      "Профилактика инфекции после стоматологических операций и экстракции",
+      "Уход за зубными протезами",
+      "Дезинфекция кожи и слизистых"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к хлоргексидину",
+      "Дерматиты",
+      "Совместное применение с другими антисептиками (особенно анионными)"
+    ],
+    nojoya: {
+      "Местные": "Нарушение вкуса, сухость во рту, жжение",
+      "Зубы": "Обратимое коричневое окрашивание зубов и языка при длительном применении, отложение зубного камня",
+      "Аллергические": "Дерматит, зуд, редко анафилактическая реакция"
+    },
+    dozadan: "При случайном проглатывании (>300 мл 0,05% раствора) — промывание желудка, симптоматическое лечение.",
+    ozarotasir: [
+      "Анионные соединения (мыло, натрия лаурилсульфат) снижают активность хлоргексидина",
+      "Может быть несовместим с другими антисептиками"
+    ],
+    qollash: {
+      kattalar: "Полоскание рта 0,05–0,2% раствором 2–3 раза в день (10–15 мл, 30 секунд); после еды.",
+      bolalar: "С 6 лет: под контролем взрослых, не проглатывая"
+    },
+    chiqarish: "Раствор для полоскания 0,05%; 0,1%; 0,2%; спрей; гель"
+  },
+  en: {
+    gruppa: "Local antiseptics for oral treatment",
+    farmTasir: "Broad-spectrum antiseptic and disinfectant",
+    farmakodinamika: `Chlorhexidine is a bisbiguanide antiseptic. Its positively charged molecule binds to negatively charged groups of the bacterial cell wall, disrupts cytoplasmic membrane permeability and causes leakage of intracellular components; bacteriostatic at low and bactericidal at high concentrations. Active against Gram-positive and Gram-negative bacteria, yeasts and some viruses. Weak activity against mycobacteria and bacterial spores. It binds to oral mucosa and teeth, providing prolonged action (substantivity).`,
+    farmakokinetika: {
+      sorish: "Practically not absorbed from the GI tract; acts locally",
+      tarqalish: "Binds to oral mucosa, tooth surface and pellicle; retained for 8–12 h",
+      metabolizm: "Not subject to systemic metabolism",
+      chiqarilish: "Excreted mainly unchanged in faeces"
+    },
+    korsatmalar: [
+      "Gingivitis, stomatitis, periodontitis",
+      "Antiseptic treatment of the oral cavity and pharynx",
+      "Infection prophylaxis after dental surgery and extraction",
+      "Denture care",
+      "Disinfection of skin and mucous membranes"
+    ],
+    qarrshi: [
+      "Hypersensitivity to chlorhexidine",
+      "Dermatitis",
+      "Concurrent use with other antiseptics (especially anionic)"
+    ],
+    nojoya: {
+      "Local": "Taste disturbance, dry mouth, burning",
+      "Teeth": "Reversible brown staining of teeth and tongue with prolonged use, tartar deposition",
+      "Hypersensitivity": "Dermatitis, itching, rarely anaphylactic reaction"
+    },
+    dozadan: "If accidentally swallowed (>300 mL of 0.05% solution) — gastric lavage, symptomatic treatment.",
+    ozarotasir: [
+      "Anionic compounds (soap, sodium lauryl sulfate) reduce chlorhexidine activity",
+      "May be incompatible with other antiseptics"
+    ],
+    qollash: {
+      kattalar: "Rinse the mouth with 0.05–0.2% solution 2–3 times daily (10–15 mL, 30 seconds); after meals.",
+      bolalar: "From 6 years: under adult supervision, without swallowing"
+    },
+    chiqarish: "Mouthwash solution 0.05%, 0.1%, 0.2%; spray; gel"
+  }
+},
+
+// ─── A01AB09 · Mikonazol (og'iz) ──────────────────────────────────────────
+"A01AB09": {
+  uz: {
+    gruppa: "Og'iz bo'shlig'i uchun mahalliy antifungal vositalar",
+    farmTasir: "Og'iz kandidoziga qarshi imidazol antifungal",
+    farmakodinamika: `Mikonazol — imidazol guruhiga mansub zamburug'larga qarshi preparat. Zamburug' sitoxromi P450 ga bog'liq 14α-demetilaza fermentini inhibe qilib, ergosterol biosintezini buzadi; hujayra membranasi o'tkazuvchanligi oshadi, zamburug' halok bo'ladi. Candida albicans va boshqa Candida turlariga, dermatofitlarga, shuningdek ba'zi gram-musbat bakteriyalarga (stafilokokk, streptokokk) faol. Og'iz bo'shlig'i kandidozida mahalliy yuqori konsentratsiya hosil qiladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz gelidan tizimli so'rilish past, lekin yutilganda qisman so'riladi",
+      tarqalish: "So'lakda va og'iz shilliq pardasida ta'sirchan konsentratsiya; gel uzoq ushlanib turadi",
+      metabolizm: "So'rilgan qismi jigarda metabolizmga uchraydi (CYP450)",
+      chiqarilish: "Asosan najas bilan; oz qismi siydik orqali"
+    },
+    korsatmalar: [
+      "Og'iz bo'shlig'i va halqum kandidozi (soor)",
+      "Tish protezi ostidagi kandidozli stomatit",
+      "Oshqozon-ichak yo'lining yuqori qismi kandidozi profilaktikasi"
+    ],
+    qarrshi: [
+      "Mikonazol yoki boshqa imidazollarga o'ta sezuvchanlik",
+      "Jigar funksiyasining og'ir buzilishi",
+      "Varfarin, ba'zi statinlar, triazolam bilan birga qo'llash (CYP ta'siri)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, og'izda noxush sezgi, qusish (kam)",
+      "Allergiya": "Og'iz shilliq pardasi qichishi, toshma",
+      "Jigar": "Uzoq qo'llashda transaminazalar oshishi (kam)"
+    },
+    dozadan: "Maxsus antidot yo'q. Tasodifan ko'p yutilганda simptomatik davolash.",
+    ozarotasir: [
+      "Varfarin — antikoagulyant ta'sirini kuchaytiradi (qon ketish xavfi, INR nazorati)",
+      "CYP3A4 substratlari (statinlar, triazolam, siklosporin) — konsentratsiyasi oshadi",
+      "Peroral antidiabetiklar — gipoglikemiya xavfi"
+    ],
+    qollash: {
+      kattalar: "Og'iz geli: 2,5 ml kuniga 4 marta, gelni og'izda imkon qadar ushlab turish; simptomlar yo'qolgach 7 kun davom ettirish.",
+      bolalar: "4 oydan: 1,25–2,5 ml kuniga 2–4 marta (yoshга qarab), tiqilib qolish xavfi uchun ehtiyotkorlik bilan"
+    },
+    chiqarish: "Og'iz uchun gel 2% (20 mg/g)"
+  },
+  ru: {
+    gruppa: "Местные противогрибковые средства для полости рта",
+    farmTasir: "Имидазольный антимикотик против кандидоза полости рта",
+    farmakodinamika: `Миконазол — противогрибковое средство группы имидазолов. Ингибирует зависимую от цитохрома Р450 14α-деметилазу грибов, нарушая биосинтез эргостерола; повышается проницаемость клеточной мембраны, и гриб погибает. Активен в отношении Candida albicans и других видов Candida, дерматофитов, а также некоторых грамположительных бактерий (стафилококки, стрептококки). При кандидозе полости рта создаёт высокую местную концентрацию.`,
+    farmakokinetika: {
+      sorish: "Системная абсорбция из орального геля низкая, но при проглатывании частично всасывается",
+      tarqalish: "Действующие концентрации в слюне и слизистой рта; гель длительно удерживается",
+      metabolizm: "Всосавшаяся часть метаболизируется в печени (CYP450)",
+      chiqarilish: "Преимущественно с калом; небольшая часть с мочой"
+    },
+    korsatmalar: [
+      "Кандидоз полости рта и глотки (молочница)",
+      "Кандидозный стоматит под зубными протезами",
+      "Профилактика кандидоза верхних отделов ЖКТ"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к миконазолу или другим имидазолам",
+      "Тяжёлые нарушения функции печени",
+      "Одновременный приём варфарина, некоторых статинов, триазолама (влияние на CYP)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, неприятные ощущения во рту, рвота (редко)",
+      "Аллергические": "Зуд слизистой рта, сыпь",
+      "Печень": "Повышение трансаминаз при длительном применении (редко)"
+    },
+    dozadan: "Специфического антидота нет. При случайном проглатывании большого количества — симптоматическое лечение.",
+    ozarotasir: [
+      "Варфарин — усиливает антикоагулянтный эффект (риск кровотечений, контроль МНО)",
+      "Субстраты CYP3A4 (статины, триазолам, циклоспорин) — повышение концентрации",
+      "Пероральные антидиабетики — риск гипогликемии"
+    ],
+    qollash: {
+      kattalar: "Оральный гель: 2,5 мл 4 раза в день, удерживая гель во рту как можно дольше; продолжать 7 дней после исчезновения симптомов.",
+      bolalar: "С 4 месяцев: 1,25–2,5 мл 2–4 раза в день (по возрасту), с осторожностью из-за риска аспирации"
+    },
+    chiqarish: "Гель для полости рта 2% (20 мг/г)"
+  },
+  en: {
+    gruppa: "Local antifungal agents for oral treatment",
+    farmTasir: "Imidazole antifungal for oral candidiasis",
+    farmakodinamika: `Miconazole is an imidazole antifungal. It inhibits fungal cytochrome P450-dependent 14α-demethylase, disrupting ergosterol biosynthesis; membrane permeability increases and the fungus dies. Active against Candida albicans and other Candida species, dermatophytes, and some Gram-positive bacteria (staphylococci, streptococci). It achieves high local concentrations in oral candidiasis.`,
+    farmakokinetika: {
+      sorish: "Systemic absorption from the oral gel is low, but partial absorption occurs if swallowed",
+      tarqalish: "Active concentrations in saliva and oral mucosa; the gel is retained for a prolonged time",
+      metabolizm: "The absorbed fraction is metabolised in the liver (CYP450)",
+      chiqarilish: "Mainly in faeces; a small part in urine"
+    },
+    korsatmalar: [
+      "Oral and pharyngeal candidiasis (thrush)",
+      "Candidal stomatitis under dentures",
+      "Prophylaxis of upper GI tract candidiasis"
+    ],
+    qarrshi: [
+      "Hypersensitivity to miconazole or other imidazoles",
+      "Severe hepatic impairment",
+      "Concomitant warfarin, certain statins, triazolam (CYP effect)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, unpleasant oral sensation, vomiting (rare)",
+      "Hypersensitivity": "Oral mucosal itching, rash",
+      "Hepatic": "Raised transaminases with prolonged use (rare)"
+    },
+    dozadan: "No specific antidote. If a large amount is accidentally swallowed — symptomatic treatment.",
+    ozarotasir: [
+      "Warfarin — enhances anticoagulant effect (bleeding risk, monitor INR)",
+      "CYP3A4 substrates (statins, triazolam, ciclosporin) — raised concentration",
+      "Oral antidiabetics — hypoglycaemia risk"
+    ],
+    qollash: {
+      kattalar: "Oral gel: 2.5 mL four times daily, holding the gel in the mouth as long as possible; continue 7 days after symptoms resolve.",
+      bolalar: "From 4 months: 1.25–2.5 mL 2–4 times daily (by age), with caution due to aspiration risk"
+    },
+    chiqarish: "Oral gel 2% (20 mg/g)"
+  }
+},
+
+// ─── A01AB11 · Xlorgeksidin + Xlorbutanol (antiseptik) ────────────────────
+"A01AB11": {
+  uz: {
+    gruppa: "Og'iz bo'shlig'i uchun mahalliy antiseptiklar (kombinatsiyalar)",
+    farmTasir: "Antiseptik va yumshoq mahalliy og'riqsizlantiruvchi kombinatsiya",
+    farmakodinamika: `Xlorgeksidin va xlorbutanol kombinatsiyasi. Xlorgeksidin — bisbiguanid antiseptik, bakteriya membranasini buzib gram-musbat va gram-manfiy bakteriyalar hamda zamburug'larga bakteritsid ta'sir qiladi. Xlorbutanol — antiseptik va konservant xususiyatiga ega, shuningdek yengil mahalliy og'riqsizlantiruvchi va tinchlantiruvchi ta'sir ko'rsatadi. Kombinatsiya og'iz va halqum shilliq pardasidagi infeksiya va yallig'lanishni kamaytiradi.`,
+    farmakokinetika: {
+      sorish: "Mahalliy qo'llashda tizimli so'rilish ahamiyatsiz",
+      tarqalish: "Og'iz-halqum shilliq pardasida ta'sir qiladi",
+      metabolizm: "Klinik ahamiyatga ega metabolizm yo'q",
+      chiqarilish: "So'rilgan oz qism buyrak/jigar orqali"
+    },
+    korsatmalar: [
+      "Faringit, tonzillit, stomatit, gingivit",
+      "Og'iz va halqumning antiseptik ishlovi",
+      "Lar3it va og'iz bo'shlig'i yallig'lanishlari"
+    ],
+    qarrshi: [
+      "Komponentlarga o'ta sezuvchanlik",
+      "Atrofik faringit",
+      "6 yoshgacha bolalar (shakliga qarab)"
+    ],
+    nojoya: {
+      "Mahalliy": "Achishish, ta'm sezgisining vaqtincha o'zgarishi, og'iz qurishi",
+      "Tishlar": "Uzoq qo'llashda tishlarning qaytar dog'lanishi",
+      "Allergiya": "Shilliq parda qichishi, toshma"
+    },
+    dozadan: "Mahalliy qo'llashda ehtimoli past; ko'p yutilganda simptomatik davolash.",
+    ozarotasir: [
+      "Anionli vositalar (tish pastasi tarkibidagi) xlorgeksidin faolligini kamaytiradi",
+      "Boshqa antiseptiklar bilan bir vaqtda tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "Og'izni chayish yoki purkash kuniga 2–3 marta; ovqatdan keyin.",
+      bolalar: "6 yoshdan: katta nazorati ostida"
+    },
+    chiqarish: "Og'iz chayish eritmasi / sprey (xlorgeksidin + xlorbutanol)"
+  },
+  ru: {
+    gruppa: "Местные антисептики для полости рта (комбинации)",
+    farmTasir: "Антисептическая комбинация с мягким местноанестезирующим действием",
+    farmakodinamika: `Комбинация хлоргексидина и хлорбутанола. Хлоргексидин — бисбигуанидный антисептик, нарушает мембрану бактерий и оказывает бактерицидное действие на грамположительные и грамотрицательные бактерии и грибы. Хлорбутанол обладает антисептическими и консервирующими свойствами, а также лёгким местноанестезирующим и успокаивающим действием. Комбинация уменьшает инфекцию и воспаление слизистой рта и глотки.`,
+    farmakokinetika: {
+      sorish: "При местном применении системная абсорбция незначительна",
+      tarqalish: "Действует на слизистой ротоглотки",
+      metabolizm: "Клинически значимый метаболизм отсутствует",
+      chiqarilish: "Всосавшаяся малая часть выводится почками/печенью"
+    },
+    korsatmalar: [
+      "Фарингит, тонзиллит, стоматит, гингивит",
+      "Антисептическая обработка рта и глотки",
+      "Ларингит и воспаления полости рта"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам",
+      "Атрофический фарингит",
+      "Детский возраст до 6 лет (в зависимости от формы)"
+    ],
+    nojoya: {
+      "Местные": "Жжение, временное изменение вкуса, сухость во рту",
+      "Зубы": "Обратимое окрашивание зубов при длительном применении",
+      "Аллергические": "Зуд слизистой, сыпь"
+    },
+    dozadan: "При местном применении маловероятна; при проглатывании большого количества — симптоматическое лечение.",
+    ozarotasir: [
+      "Анионные средства (в составе зубных паст) снижают активность хлоргексидина",
+      "Не рекомендуется одновременно с другими антисептиками"
+    ],
+    qollash: {
+      kattalar: "Полоскание или орошение рта 2–3 раза в день; после еды.",
+      bolalar: "С 6 лет: под контролем взрослых"
+    },
+    chiqarish: "Раствор для полоскания / спрей (хлоргексидин + хлорбутанол)"
+  },
+  en: {
+    gruppa: "Local antiseptics for oral treatment (combinations)",
+    farmTasir: "Antiseptic combination with mild local anaesthetic action",
+    farmakodinamika: `A combination of chlorhexidine and chlorobutanol. Chlorhexidine, a bisbiguanide antiseptic, disrupts the bacterial membrane and is bactericidal against Gram-positive and Gram-negative bacteria and fungi. Chlorobutanol has antiseptic and preservative properties plus a mild local anaesthetic and soothing effect. The combination reduces infection and inflammation of the oral and pharyngeal mucosa.`,
+    farmakokinetika: {
+      sorish: "Systemic absorption is negligible with topical use",
+      tarqalish: "Acts on the oropharyngeal mucosa",
+      metabolizm: "No clinically significant metabolism",
+      chiqarilish: "The small absorbed fraction is excreted renally/hepatically"
+    },
+    korsatmalar: [
+      "Pharyngitis, tonsillitis, stomatitis, gingivitis",
+      "Antiseptic treatment of the mouth and pharynx",
+      "Laryngitis and oral cavity inflammation"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components",
+      "Atrophic pharyngitis",
+      "Children under 6 years (depending on the form)"
+    ],
+    nojoya: {
+      "Local": "Burning, transient taste change, dry mouth",
+      "Teeth": "Reversible tooth staining with prolonged use",
+      "Hypersensitivity": "Mucosal itching, rash"
+    },
+    dozadan: "Unlikely with topical use; if a large amount is swallowed — symptomatic treatment.",
+    ozarotasir: [
+      "Anionic agents (in toothpastes) reduce chlorhexidine activity",
+      "Not recommended together with other antiseptics"
+    ],
+    qollash: {
+      kattalar: "Rinse or spray the mouth 2–3 times daily; after meals.",
+      bolalar: "From 6 years: under adult supervision"
+    },
+    chiqarish: "Mouthwash solution / spray (chlorhexidine + chlorobutanol)"
+  }
+},
+
+// ─── A01AB12 · Geksetidin ─────────────────────────────────────────────────
+"A01AB12": {
+  uz: {
+    gruppa: "Og'iz bo'shlig'i uchun mahalliy antiseptiklar",
+    farmTasir: "Antibakterial, antifungal va yengil og'riqsizlantiruvchi antiseptik",
+    farmakodinamika: `Geksetidin — pirimidin hosilasi bo'lgan antiseptik. Mikroorganizmlar metabolizmi uchun zarur tiamin (B1 vitamini) ni antagonistlash orqali ta'sir qiladi; gram-musbat va gram-manfiy bakteriyalar hamda zamburug'larga (ayniqsa Candida albicans) keng antimikrob ta'sir ko'rsatadi. Shuningdek yengil mahalliy og'riqsizlantiruvchi, qonni to'xtatuvchi va hidsizlantiruvchi (dezodorlovchi) ta'sirga ega. Shilliq pardada bir necha soat saqlanadi.`,
+    farmakokinetika: {
+      sorish: "Shilliq pardadan deyarli so'rilmaydi; mahalliy ta'sir",
+      tarqalish: "Og'iz-halqum shilliq pardasi va tish kataklarida 8–10 soatgacha saqlanadi",
+      metabolizm: "Tizimli metabolizmga uchramaydi",
+      chiqarilish: "Mahalliy qo'llashda ahamiyatsiz"
+    },
+    korsatmalar: [
+      "Gingivit, stomatit, glossit, faringit, tonzillit",
+      "Aftoz va kandidozli og'iz yallig'lanishlari",
+      "Tish jarrohligi va ekstraksiyadan keyingi parvarish",
+      "Og'izdan kelayotgan noxush hidda (galitoz)"
+    ],
+    qarrshi: [
+      "Geksetidinga o'ta sezuvchanlik",
+      "Atrofik (quruq) faringit",
+      "3 yoshgacha bolalar"
+    ],
+    nojoya: {
+      "Mahalliy": "Achishish, ta'm sezgisining vaqtincha buzilishi",
+      "Allergiya": "Shilliq parda qichishi, toshma (kam)",
+      "Boshqa": "Uzoq qo'llashda til yuzasining dog'lanishi (kam)"
+    },
+    dozadan: "Ko'p yutilganda (spirt tarkibi tufayli) ko'ngil aynishi mumkin; simptomatik davolash.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir aniqlanmagan",
+      "Boshqa antiseptiklar bilan bir vaqtda tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "0,1% eritma bilan og'izni 15 ml, kuniga 2 marta (ertalab va kechqurun) chayish, suyultirmasdan; yoki sprey bilan purkash.",
+      bolalar: "3 yoshdan: katta nazorati ostida, yutmaslik sharti bilan"
+    },
+    chiqarish: "Og'iz chayish eritmasi 0,1%; sprey 0,2%"
+  },
+  ru: {
+    gruppa: "Местные антисептики для полости рта",
+    farmTasir: "Антибактериальный, противогрибковый антисептик с лёгким анестезирующим действием",
+    farmakodinamika: `Гексетидин — антисептик, производное пиримидина. Действует путём антагонизма тиамина (витамина B1), необходимого для метаболизма микроорганизмов; обладает широким антимикробным действием в отношении грамположительных и грамотрицательных бактерий и грибов (особенно Candida albicans). Имеет также лёгкое местноанестезирующее, гемостатическое и дезодорирующее действие. Удерживается на слизистой несколько часов.`,
+    farmakokinetika: {
+      sorish: "Практически не всасывается со слизистой; действует местно",
+      tarqalish: "Удерживается на слизистой ротоглотки и в зубных карманах до 8–10 ч",
+      metabolizm: "Системному метаболизму не подвергается",
+      chiqarilish: "Незначительно при местном применении"
+    },
+    korsatmalar: [
+      "Гингивит, стоматит, глоссит, фарингит, тонзиллит",
+      "Афтозные и кандидозные воспаления полости рта",
+      "Уход после стоматологических операций и экстракции",
+      "Неприятный запах изо рта (галитоз)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к гексетидину",
+      "Атрофический (сухой) фарингит",
+      "Детский возраст до 3 лет"
+    ],
+    nojoya: {
+      "Местные": "Жжение, временное нарушение вкуса",
+      "Аллергические": "Зуд слизистой, сыпь (редко)",
+      "Прочие": "Окрашивание поверхности языка при длительном применении (редко)"
+    },
+    dozadan: "При проглатывании большого количества (из-за содержания спирта) возможна тошнота; симптоматическое лечение.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий не выявлено",
+      "Не рекомендуется одновременно с другими антисептиками"
+    ],
+    qollash: {
+      kattalar: "Полоскание рта 0,1% раствором по 15 мл 2 раза в день (утром и вечером), не разводя; или орошение спреем.",
+      bolalar: "С 3 лет: под контролем взрослых, не проглатывая"
+    },
+    chiqarish: "Раствор для полоскания 0,1%; спрей 0,2%"
+  },
+  en: {
+    gruppa: "Local antiseptics for oral treatment",
+    farmTasir: "Antibacterial, antifungal antiseptic with mild anaesthetic action",
+    farmakodinamika: `Hexetidine is an antiseptic, a pyrimidine derivative. It acts by antagonising thiamine (vitamin B1) required for microbial metabolism; it has broad antimicrobial activity against Gram-positive and Gram-negative bacteria and fungi (especially Candida albicans). It also has mild local anaesthetic, haemostatic and deodorising effects. It is retained on the mucosa for several hours.`,
+    farmakokinetika: {
+      sorish: "Practically not absorbed from the mucosa; acts locally",
+      tarqalish: "Retained on the oropharyngeal mucosa and in dental pockets for up to 8–10 h",
+      metabolizm: "Not subject to systemic metabolism",
+      chiqarilish: "Negligible with topical use"
+    },
+    korsatmalar: [
+      "Gingivitis, stomatitis, glossitis, pharyngitis, tonsillitis",
+      "Aphthous and candidal oral inflammation",
+      "Care after dental surgery and extraction",
+      "Bad breath (halitosis)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to hexetidine",
+      "Atrophic (dry) pharyngitis",
+      "Children under 3 years"
+    ],
+    nojoya: {
+      "Local": "Burning, transient taste disturbance",
+      "Hypersensitivity": "Mucosal itching, rash (rare)",
+      "Other": "Tongue surface staining with prolonged use (rare)"
+    },
+    dozadan: "Swallowing a large amount (due to alcohol content) may cause nausea; symptomatic treatment.",
+    ozarotasir: [
+      "No clinically significant interactions identified",
+      "Not recommended together with other antiseptics"
+    ],
+    qollash: {
+      kattalar: "Rinse the mouth with 15 mL of 0.1% solution twice daily (morning and evening), undiluted; or spray.",
+      bolalar: "From 3 years: under adult supervision, without swallowing"
+    },
+    chiqarish: "Mouthwash solution 0.1%; spray 0.2%"
+  }
+},
+
+// ─── A01AB17 · Metronidazol (stomatologik) ────────────────────────────────
+"A01AB17": {
+  uz: {
+    gruppa: "Og'iz bo'shlig'i uchun mahalliy antiinfeksion vositalar",
+    farmTasir: "Anaerob infeksiyalarga qarshi mahalliy antibakterial",
+    farmakodinamika: `Metronidazol — 5-nitroimidazol hosilasi. Anaerob bakteriyalar va sodda jonivorlar hujayrasiga kirib, qaytarilgan nitroguruh orqali ДНК spiralini buzadi va nuklein kislota sintezini to'xtatadi, bu mikrob halokatiga olib keladi. Periodontal anaerob patogenlarga (Porphyromonas gingivalis, Prevotella intermedia, Fusobacterium, Treponema, anaerob streptokokk) yuqori faollik ko'rsatadi. Stomatologiyada mahalliy yuqori konsentratsiya hosil qilib gingivit va periodontitni bostiradi.`,
+    farmakokinetika: {
+      sorish: "Mahalliy (gel) qo'llashda tizimli so'rilish past",
+      tarqalish: "Milk cho'ntagi va periodontal to'qimada ta'sirchan konsentratsiya",
+      metabolizm: "So'rilgan qismi jigarda metabolizmga uchraydi",
+      chiqarilish: "So'rilgan qism asosan buyrak orqali (metabolitlar)"
+    },
+    korsatmalar: [
+      "O'tkir va surunkali gingivit",
+      "Periodontit, periodontal abstsess",
+      "Aftoz stomatit",
+      "Yarali-nekrotik gingivostomatit (Vinsent)"
+    ],
+    qarrshi: [
+      "Metronidazol yoki nitroimidazollarga o'ta sezuvchanlik",
+      "Homiladorlikning I trimestri",
+      "6 yoshgacha bolalar"
+    ],
+    nojoya: {
+      "Mahalliy": "Og'izda metall ta'mi, achishish",
+      "Allergiya": "Milk shilliq pardasi qichishi, toshma",
+      "Oshqozon-ichak": "Yutilганда ko'ngil aynishi (kam)"
+    },
+    dozadan: "Mahalliy qo'llashda ehtimoli past. Tasodifan ko'p yutilganda simptomatik davolash.",
+    ozarotasir: [
+      "Etanol bilan disulfiramsimon reaksiya",
+      "Varfarin — antikoagulyant ta'sirini kuchaytiradi (yutilganda)"
+    ],
+    qollash: {
+      kattalar: "Gelni milkka kuniga 2 marta surtish; kurs 7–10 kun.",
+      bolalar: "6 yoshdan: kattalardagidek, shifokor nazorati ostida"
+    },
+    chiqarish: "Stomatologik gel 1% (10 mg/g)"
+  },
+  ru: {
+    gruppa: "Местные противоинфекционные средства для полости рта",
+    farmTasir: "Местный антибактериальный препарат против анаэробных инфекций",
+    farmakodinamika: `Метронидазол — производное 5-нитроимидазола. Проникая в клетки анаэробных бактерий и простейших, через восстановленную нитрогруппу повреждает спираль ДНК и прекращает синтез нуклеиновых кислот, что ведёт к гибели микроба. Высокоактивен в отношении пародонтальных анаэробов (Porphyromonas gingivalis, Prevotella intermedia, Fusobacterium, Treponema, анаэробные стрептококки). В стоматологии создаёт высокую местную концентрацию, подавляя гингивит и пародонтит.`,
+    farmakokinetika: {
+      sorish: "При местном (гель) применении системная абсорбция низкая",
+      tarqalish: "Действующие концентрации в десневом кармане и пародонтальной ткани",
+      metabolizm: "Всосавшаяся часть метаболизируется в печени",
+      chiqarilish: "Всосавшаяся часть выводится преимущественно почками (метаболиты)"
+    },
+    korsatmalar: [
+      "Острый и хронический гингивит",
+      "Пародонтит, пародонтальный абсцесс",
+      "Афтозный стоматит",
+      "Язвенно-некротический гингивостоматит (Венсана)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к метронидазолу или нитроимидазолам",
+      "I триместр беременности",
+      "Детский возраст до 6 лет"
+    ],
+    nojoya: {
+      "Местные": "Металлический привкус во рту, жжение",
+      "Аллергические": "Зуд слизистой дёсен, сыпь",
+      "ЖКТ": "Тошнота при проглатывании (редко)"
+    },
+    dozadan: "При местном применении маловероятна. При случайном проглатывании большого количества — симптоматическое лечение.",
+    ozarotasir: [
+      "С этанолом — дисульфирамоподобная реакция",
+      "Варфарин — усиление антикоагулянтного действия (при проглатывании)"
+    ],
+    qollash: {
+      kattalar: "Гель наносить на дёсны 2 раза в день; курс 7–10 дней.",
+      bolalar: "С 6 лет: как у взрослых, под контролем врача"
+    },
+    chiqarish: "Стоматологический гель 1% (10 мг/г)"
+  },
+  en: {
+    gruppa: "Local anti-infective agents for oral treatment",
+    farmTasir: "Local antibacterial for anaerobic infections",
+    farmakodinamika: `Metronidazole is a 5-nitroimidazole derivative. Entering anaerobic bacteria and protozoa, its reduced nitro group damages the DNA helix and halts nucleic acid synthesis, killing the microbe. Highly active against periodontal anaerobes (Porphyromonas gingivalis, Prevotella intermedia, Fusobacterium, Treponema, anaerobic streptococci). In dentistry it achieves high local concentrations, suppressing gingivitis and periodontitis.`,
+    farmakokinetika: {
+      sorish: "Systemic absorption is low with topical (gel) use",
+      tarqalish: "Active concentrations in the gingival pocket and periodontal tissue",
+      metabolizm: "The absorbed fraction is metabolised in the liver",
+      chiqarilish: "The absorbed fraction is excreted mainly renally (metabolites)"
+    },
+    korsatmalar: [
+      "Acute and chronic gingivitis",
+      "Periodontitis, periodontal abscess",
+      "Aphthous stomatitis",
+      "Necrotising ulcerative gingivostomatitis (Vincent)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to metronidazole or nitroimidazoles",
+      "First trimester of pregnancy",
+      "Children under 6 years"
+    ],
+    nojoya: {
+      "Local": "Metallic taste in the mouth, burning",
+      "Hypersensitivity": "Gingival mucosal itching, rash",
+      "Gastrointestinal": "Nausea if swallowed (rare)"
+    },
+    dozadan: "Unlikely with topical use. If a large amount is accidentally swallowed — symptomatic treatment.",
+    ozarotasir: [
+      "Disulfiram-like reaction with ethanol",
+      "Warfarin — enhanced anticoagulant effect (if swallowed)"
+    ],
+    qollash: {
+      kattalar: "Apply gel to the gums twice daily; course 7–10 days.",
+      bolalar: "From 6 years: as in adults, under medical supervision"
+    },
+    chiqarish: "Dental gel 1% (10 mg/g)"
+  }
+},
+
+// ─── A01AC02 · Deksametazon (og'iz, mahalliy) ─────────────────────────────
+"A01AC02": {
+  uz: {
+    gruppa: "Og'iz bo'shlig'i uchun mahalliy kortikosteroidlar",
+    farmTasir: "Og'iz shilliq pardasi yallig'lanishiga qarshi glyukokortikoid",
+    farmakodinamika: `Deksametazon — kuchli sintetik glyukokortikoid. Hujayra ichidagi glyukokortikoid retseptorlariga bog'lanib, yallig'lanishga qarshi oqsillar (lipokortin) sintezini induktsiya qiladi va fosfolipaza A2 ni inhibe qilib araxidon kislotadan prostaglandin va leykotrien hosil bo'lishini kamaytiradi; yallig'lanish mediatorlari, shish va immun reaksiyani bostiradi. Mahalliy qo'llashda og'iz shilliq pardasidagi yallig'lanish, og'riq va shishni kamaytiradi.`,
+    farmakokinetika: {
+      sorish: "Mahalliy qo'llashda tizimli so'rilish past, lekin shilliq pardadan qisman so'riladi",
+      tarqalish: "Yallig'langan shilliq pardada ta'sir qiladi",
+      metabolizm: "So'rilgan qism jigarda metabolizmga uchraydi",
+      chiqarilish: "Metabolitlar buyrak orqali"
+    },
+    korsatmalar: [
+      "Aftoz stomatit",
+      "Og'iz shilliq pardasining eroziv-yarali yallig'lanishlari",
+      "Yassi temiratki (oral qizil yassi lishay)",
+      "Allergik va yallig'lanishli gingivit/stomatit"
+    ],
+    qarrshi: [
+      "Deksametazonga o'ta sezuvchanlik",
+      "Og'iz bo'shlig'ining bakterial, virusli yoki zamburug'li infeksiyalari (davolanmagan)",
+      "Og'iz shilliq pardasi tuberkulyozi"
+    ],
+    nojoya: {
+      "Mahalliy": "Og'iz bo'shlig'i kandidozi (uzoq qo'llashda), shilliq parda yupqalashishi",
+      "Allergiya": "Mahalliy tirnash xususiyati, achishish",
+      "Boshqa": "Uzoq/keng qo'llashda tizimli kortikosteroid ta'siri (kam)"
+    },
+    dozadan: "Mahalliy qo'llashda ehtimoli past. Uzoq qo'llashda tizimli ta'sirni baholash.",
+    ozarotasir: [
+      "Mahalliy qo'llashda klinik ahamiyatga ega o'zaro ta'sir kam",
+      "Tizimli so'rilganда NSAID bilan oshqozon-ichak xavfi oshishi mumkin"
+    ],
+    qollash: {
+      kattalar: "Zararlangan sohaga kuniga 2–3 marta surtish yoki applikatsiya; qisqa kurs.",
+      bolalar: "Shifokor nazorati ostida, qisqa muddat"
+    },
+    chiqarish: "Og'iz uchun gel/pasta; eritma (mahalliy applikatsiya uchun)"
+  },
+  ru: {
+    gruppa: "Местные кортикостероиды для полости рта",
+    farmTasir: "Глюкокортикоид против воспаления слизистой полости рта",
+    farmakodinamika: `Дексаметазон — мощный синтетический глюкокортикоид. Связываясь с внутриклеточными глюкокортикоидными рецепторами, индуцирует синтез противовоспалительных белков (липокортина) и ингибирует фосфолипазу А2, снижая образование простагландинов и лейкотриенов из арахидоновой кислоты; подавляет медиаторы воспаления, отёк и иммунный ответ. При местном применении уменьшает воспаление, боль и отёк слизистой полости рта.`,
+    farmakokinetika: {
+      sorish: "При местном применении системная абсорбция низкая, но частичное всасывание со слизистой возможно",
+      tarqalish: "Действует на воспалённой слизистой",
+      metabolizm: "Всосавшаяся часть метаболизируется в печени",
+      chiqarilish: "Метаболиты выводятся почками"
+    },
+    korsatmalar: [
+      "Афтозный стоматит",
+      "Эрозивно-язвенные воспаления слизистой рта",
+      "Красный плоский лишай полости рта",
+      "Аллергический и воспалительный гингивит/стоматит"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к дексаметазону",
+      "Нелеченные бактериальные, вирусные или грибковые инфекции полости рта",
+      "Туберкулёз слизистой рта"
+    ],
+    nojoya: {
+      "Местные": "Кандидоз полости рта (при длительном применении), истончение слизистой",
+      "Аллергические": "Местное раздражение, жжение",
+      "Прочие": "Системное действие кортикостероида при длительном/обширном применении (редко)"
+    },
+    dozadan: "При местном применении маловероятна. При длительном применении оценивать системное действие.",
+    ozarotasir: [
+      "При местном применении клинически значимые взаимодействия редки",
+      "При системном всасывании возможно повышение ЖКТ-риска с НПВП"
+    ],
+    qollash: {
+      kattalar: "Наносить на поражённый участок 2–3 раза в день или в виде аппликаций; короткий курс.",
+      bolalar: "Под контролем врача, кратковременно"
+    },
+    chiqarish: "Гель/паста для полости рта; раствор (для местных аппликаций)"
+  },
+  en: {
+    gruppa: "Local corticosteroids for oral treatment",
+    farmTasir: "Glucocorticoid for oral mucosal inflammation",
+    farmakodinamika: `Dexamethasone is a potent synthetic glucocorticoid. Binding to intracellular glucocorticoid receptors, it induces anti-inflammatory proteins (lipocortin) and inhibits phospholipase A2, reducing prostaglandin and leukotriene formation from arachidonic acid; it suppresses inflammatory mediators, oedema and the immune response. Applied topically, it reduces inflammation, pain and swelling of the oral mucosa.`,
+    farmakokinetika: {
+      sorish: "Systemic absorption is low with topical use, but partial mucosal absorption can occur",
+      tarqalish: "Acts on inflamed mucosa",
+      metabolizm: "The absorbed fraction is metabolised in the liver",
+      chiqarilish: "Metabolites are excreted renally"
+    },
+    korsatmalar: [
+      "Aphthous stomatitis",
+      "Erosive-ulcerative oral mucosal inflammation",
+      "Oral lichen planus",
+      "Allergic and inflammatory gingivitis/stomatitis"
+    ],
+    qarrshi: [
+      "Hypersensitivity to dexamethasone",
+      "Untreated bacterial, viral or fungal oral infections",
+      "Tuberculosis of the oral mucosa"
+    ],
+    nojoya: {
+      "Local": "Oral candidiasis (with prolonged use), mucosal thinning",
+      "Hypersensitivity": "Local irritation, burning",
+      "Other": "Systemic corticosteroid effects with prolonged/extensive use (rare)"
+    },
+    dozadan: "Unlikely with topical use. Assess systemic effects with prolonged use.",
+    ozarotasir: [
+      "Clinically significant interactions are rare with topical use",
+      "With systemic absorption, GI risk may increase with NSAIDs"
+    ],
+    qollash: {
+      kattalar: "Apply to the affected area 2–3 times daily or as applications; short course.",
+      bolalar: "Under medical supervision, short term"
+    },
+    chiqarish: "Oral gel/paste; solution (for local application)"
+  }
+},
+
+// ─── A01AD · Xolin salitsilat + Setalkoniy (stomatologik) ─────────────────
+"A01AD": {
+  uz: {
+    gruppa: "Og'iz bo'shlig'i uchun boshqa mahalliy vositalar",
+    farmTasir: "Yallig'lanishga qarshi, og'riqsizlantiruvchi va antiseptik stomatologik kombinatsiya",
+    farmakodinamika: `Xolin salitsilat va setalkoniy xlorid kombinatsiyasi. Xolin salitsilat — salitsilat hosilasi bo'lib, siklooksigenazani inhibe qilib prostaglandin sintezini kamaytiradi, yallig'lanishga qarshi va og'riqsizlantiruvchi ta'sir ko'rsatadi; shilliq pardaga tez so'riladi va og'riqni bartaraf qiladi. Setalkoniy xlorid — to'rtlamchi ammoniyli antiseptik, gram-musbat va gram-manfiy bakteriyalar hamda zamburug'larga ta'sirchan. Kombinatsiya og'iz shilliq pardasi yallig'lanishida og'riq, shish va infeksiyani kamaytiradi.`,
+    farmakokinetika: {
+      sorish: "Shilliq pardadan tez mahalliy so'riladi; tizimli ahamiyat past",
+      tarqalish: "Yallig'langan milk va shilliq pardada ta'sir qiladi",
+      metabolizm: "So'rilgan salitsilat jigarda metabolizmga uchraydi",
+      chiqarilish: "Metabolitlar buyrak orqali"
+    },
+    korsatmalar: [
+      "Gingivit, stomatit, xeylit",
+      "Tish chiqishi davridagi og'riq (kattalar/bolalar)",
+      "Tish protezi ostidagi yallig'lanish va og'riq",
+      "Aftoz yaralar"
+    ],
+    qarrshi: [
+      "Salitsilatlar yoki komponentlarga o'ta sezuvchanlik",
+      "Homiladorlikning III trimestri (salitsilat)",
+      "1 yoshgacha bolalar"
+    ],
+    nojoya: {
+      "Mahalliy": "Surtilgan joyda qisqa muddatli achishish",
+      "Allergiya": "Shilliq parda qichishi, toshma",
+      "Boshqa": "Salitsilatga sezgir bemorlarda allergik reaksiya"
+    },
+    dozadan: "Mahalliy qo'llashda ehtimoli past. Ko'p yutilganда salitsilat ta'siri — simptomatik davolash.",
+    ozarotasir: [
+      "Boshqa NSAID/salitsilatlar bilan ta'sir kuchayishi mumkin",
+      "Mahalliy qo'llashda klinik ahamiyat past"
+    ],
+    qollash: {
+      kattalar: "Gel ~1 sm uzunlikda zararlangan sohaga kuniga 3–4 marta surtish (massaj bilan).",
+      bolalar: "1 yoshdan: kichikroq miqdorda, katta nazorati ostida"
+    },
+    chiqarish: "Stomatologik gel (xolin salitsilat + setalkoniy xlorid)"
+  },
+  ru: {
+    gruppa: "Прочие местные средства для полости рта",
+    farmTasir: "Противовоспалительная, обезболивающая и антисептическая стоматологическая комбинация",
+    farmakodinamika: `Комбинация холина салицилата и цеталкония хлорида. Холина салицилат — производное салициловой кислоты, ингибирует циклооксигеназу, снижая синтез простагландинов, оказывает противовоспалительное и обезболивающее действие; быстро всасывается слизистой и устраняет боль. Цеталкония хлорид — четвертичный аммониевый антисептик, активен в отношении грамположительных и грамотрицательных бактерий и грибов. Комбинация уменьшает боль, отёк и инфекцию при воспалении слизистой полости рта.`,
+    farmakokinetika: {
+      sorish: "Быстро всасывается слизистой местно; системное значение низкое",
+      tarqalish: "Действует на воспалённой десне и слизистой",
+      metabolizm: "Всосавшийся салицилат метаболизируется в печени",
+      chiqarilish: "Метаболиты выводятся почками"
+    },
+    korsatmalar: [
+      "Гингивит, стоматит, хейлит",
+      "Боль при прорезывании зубов (взрослые/дети)",
+      "Воспаление и боль под зубными протезами",
+      "Афтозные язвы"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к салицилатам или компонентам",
+      "III триместр беременности (салицилат)",
+      "Детский возраст до 1 года"
+    ],
+    nojoya: {
+      "Местные": "Кратковременное жжение в месте нанесения",
+      "Аллергические": "Зуд слизистой, сыпь",
+      "Прочие": "Аллергическая реакция у чувствительных к салицилатам"
+    },
+    dozadan: "При местном применении маловероятна. При проглатывании большого количества — эффект салицилата, симптоматическое лечение.",
+    ozarotasir: [
+      "Возможно усиление действия с другими НПВП/салицилатами",
+      "При местном применении клиническое значение низкое"
+    ],
+    qollash: {
+      kattalar: "Гель ~1 см наносить на поражённый участок 3–4 раза в день (с массажем).",
+      bolalar: "С 1 года: меньшим количеством, под контролем взрослых"
+    },
+    chiqarish: "Стоматологический гель (холина салицилат + цеталкония хлорид)"
+  },
+  en: {
+    gruppa: "Other local agents for oral treatment",
+    farmTasir: "Anti-inflammatory, analgesic and antiseptic dental combination",
+    farmakodinamika: `A combination of choline salicylate and cetalkonium chloride. Choline salicylate, a salicylic acid derivative, inhibits cyclooxygenase, reducing prostaglandin synthesis, providing anti-inflammatory and analgesic effects; it is rapidly absorbed by the mucosa and relieves pain. Cetalkonium chloride is a quaternary ammonium antiseptic active against Gram-positive and Gram-negative bacteria and fungi. The combination reduces pain, swelling and infection in oral mucosal inflammation.`,
+    farmakokinetika: {
+      sorish: "Rapidly absorbed by the mucosa locally; systemic relevance is low",
+      tarqalish: "Acts on inflamed gum and mucosa",
+      metabolizm: "Absorbed salicylate is metabolised in the liver",
+      chiqarilish: "Metabolites are excreted renally"
+    },
+    korsatmalar: [
+      "Gingivitis, stomatitis, cheilitis",
+      "Teething pain (adults/children)",
+      "Inflammation and pain under dentures",
+      "Aphthous ulcers"
+    ],
+    qarrshi: [
+      "Hypersensitivity to salicylates or components",
+      "Third trimester of pregnancy (salicylate)",
+      "Children under 1 year"
+    ],
+    nojoya: {
+      "Local": "Brief burning at the application site",
+      "Hypersensitivity": "Mucosal itching, rash",
+      "Other": "Allergic reaction in salicylate-sensitive patients"
+    },
+    dozadan: "Unlikely with topical use. If a large amount is swallowed — salicylate effect, symptomatic treatment.",
+    ozarotasir: [
+      "Effects may be enhanced with other NSAIDs/salicylates",
+      "Clinical relevance is low with topical use"
+    ],
+    qollash: {
+      kattalar: "Apply ~1 cm of gel to the affected area 3–4 times daily (with massage).",
+      bolalar: "From 1 year: smaller amount, under adult supervision"
+    },
+    chiqarish: "Dental gel (choline salicylate + cetalkonium chloride)"
+  }
 }
 
 };
