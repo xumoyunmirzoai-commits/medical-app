@@ -15,7 +15,7 @@ function urlBase64ToUint8Array(base64String) {
   return arr;
 }
 
-const CACHE_NAME = 'medcore-v3';
+const CACHE_NAME = 'medcore-v4';
 const ASSETS = [
   './',
   './index.html',
@@ -55,6 +55,9 @@ self.addEventListener('activate', event => {
   );
 });
 
+// Doim yangi yuklanishi kerak bo'lgan fayllar (ma'lumot/kod) — kesh eskirmasin
+const ALWAYS_FRESH = /\/(pharma_data|data|app|i18n|auth)\.js(\?|$)|\.html(\?|$)/;
+
 // ── Fetch — network first, fallback to cache ──
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
@@ -63,8 +66,15 @@ self.addEventListener('fetch', event => {
     return;
   }
 
+  // Ma'lumot va kod fayllari uchun brauzer HTTP keshini chetlab o'tib,
+  // har doim serverdan eng yangi versiyani olamiz (online bo'lsa)
+  const freshFile = ALWAYS_FRESH.test(event.request.url);
+  const fetchReq = freshFile
+    ? new Request(event.request, { cache: 'reload' })
+    : event.request;
+
   event.respondWith(
-    fetch(event.request)
+    fetch(fetchReq)
       .then(response => {
         if (response && response.status === 200) {
           const clone = response.clone();
