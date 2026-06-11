@@ -42,45 +42,21 @@ jobs:
             fi
           fi
 
-      - name: OneSignal bildirishnoma yuborish
+      - name: Node.js o'rnatish
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: web-push kutubxonasini o'rnatish
+        run: npm install web-push --no-save
+
+      - name: Web Push bildirishnoma yuborish
         env:
-          ONESIGNAL_APP_ID: ${{ secrets.ONESIGNAL_APP_ID }}
-          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
+          PUSH_API: ${{ secrets.PUSH_API }}
+          PUSH_ADMIN_KEY: ${{ secrets.PUSH_ADMIN_KEY }}
           NOTIF_TITLE: ${{ steps.msg.outputs.title }}
           NOTIF_BODY: ${{ steps.msg.outputs.body }}
-        run: |
-          PAYLOAD=$(jq -n \
-            --arg app_id "$ONESIGNAL_APP_ID" \
-            --arg title "$NOTIF_TITLE" \
-            --arg body "$NOTIF_BODY" \
-            '{
-              app_id: $app_id,
-              included_segments: ["All"],
-              headings: { uz: $title, ru: $title, en: $title },
-              contents: { uz: $body, ru: $body, en: $body },
-              url: "https://xumoyunmirzoai-commits.github.io/medical-app/",
-              chrome_web_icon: "https://xumoyunmirzoai-commits.github.io/medical-app/icons/icon-192x192.png",
-              chrome_web_badge: "https://xumoyunmirzoai-commits.github.io/medical-app/icons/icon-72x72.png",
-              priority: 10,
-              ttl: 86400
-            }')
-
-          RESPONSE=$(curl -s -w "\n%{http_code}" \
-            --request POST \
-            --header "Content-Type: application/json; charset=utf-8" \
-            --header "Authorization: Basic $ONESIGNAL_REST_API_KEY" \
-            --data "$PAYLOAD" \
-            https://onesignal.com/api/v1/notifications)
-
-          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
-          BODY=$(echo "$RESPONSE" | head -1)
-
-          echo "HTTP Status: $HTTP_CODE"
-          echo "Response: $BODY"
-
-          if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
-            echo "✅ Bildirishnoma muvaffaqiyatli yuborildi!"
-          else
-            echo "❌ Xato! HTTP: $HTTP_CODE"
-            exit 1
-          fi
+        run: node push/send.js

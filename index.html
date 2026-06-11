@@ -28,45 +28,15 @@
   <script src="i18n.js"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
 
-  <!-- OneSignal Web Push SDK -->
-  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <!-- ══════════════════════════════════════════════════════════
+       Web Push (VAPID) — o'zimizning push tizimi, OneSignalsiz
+       Maxfiy kalit hech qachon bu yerda emas — faqat GitHub Secrets'da
+       ══════════════════════════════════════════════════════════ -->
   <script>
-    // ══════════════════════════════════════
-    // ONESIGNAL SOZLASH
-    // App ID ni console.onesignal.com dan oling
-    // ══════════════════════════════════════
-    const ONESIGNAL_APP_ID = "b61340d1-70fe-404f-8030-3de383064d49";
-
-    window.OneSignalDeferred = window.OneSignalDeferred || [];
-    OneSignalDeferred.push(async function(OneSignal) {
-      if (!ONESIGNAL_APP_ID || ONESIGNAL_APP_ID === "YOUR_ONESIGNAL_APP_ID") return;
-      // Localhost/lokal ishlab chiqishda init o'tkazib yuboriladi (domen OneSignal'da ro'yxatdan o'tmagan)
-      const _h = location.hostname;
-      if (_h === "localhost" || _h === "127.0.0.1" || _h === "" || location.protocol === "file:") return;
-
-      await OneSignal.init({
-        appId: ONESIGNAL_APP_ID,
-        safari_web_id: "",
-        notifyButton: { enable: false }, // Biz o'zimizning tugmamizdan foydalanamiz
-        allowLocalhostAsSecureOrigin: true,
-        promptOptions: {
-          slidedown: {
-            prompts: [{
-              type: "push",
-              autoPrompt: false, // Avtomatik emas — foydalanuvchi bosganda
-              text: {
-                actionMessage: "MedCore dan yangilanishlar haqida bildirishnomalar olmoqchimisiz?",
-                acceptButton: "Ha, olaman!",
-                cancelButton: "Keyinroq"
-              }
-            }]
-          }
-        }
-      });
-
-      // Obuna holatini saqlash
-      window._oneSignal = OneSignal;
-    });
+    // VAPID ochiq kalit (push obunasi uchun)
+    const VAPID_PUBLIC_KEY = "BJGIrkQeyTx2miUTO67BHbnUgS4v6wyOg6Gkmf8O_OyTF_o3o4iMEHR1syvfduGQo6vKxr8BemN1YndGAn5En5I";
+    // Obunalarni saqlovchi endpoint (Cloudflare Worker). Deploy qilgach to'ldiriladi.
+    const PUSH_API = "";
   </script>
 </head>
 <body>
@@ -546,73 +516,76 @@
   // ══════════════════════════════════════════
   // BILDIRISHNOMALAR (Push Notifications)
   // ══════════════════════════════════════════
+  // base64url VAPID kalitni Uint8Array ga aylantirish
+  function urlBase64ToUint8Array(base64String) {
+    const padding = '='.repeat((4 - base64String.length % 4) % 4);
+    const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+    const raw = atob(base64);
+    const arr = new Uint8Array(raw.length);
+    for (let i = 0; i < raw.length; i++) arr[i] = raw.charCodeAt(i);
+    return arr;
+  }
+
   async function toggleNotifications() {
-    // OneSignal yuklangan bo'lsa
-    if (window._oneSignal) {
-      const isPushEnabled = await window._oneSignal.User.PushSubscription.optedIn;
-      if (isPushEnabled) {
-        // Allaqachon obuna — sozlamalarni ko'rsatish
-        showNotifPanel();
-      } else {
-        // Obuna so'rash
-        await subscribeToNotifications();
-      }
+    if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
+      showNotifToast('❌ Brauzer qo\'llamaydi', 'Chrome yoki yangiroq brauzer ishlatib ko\'ring.');
       return;
     }
-    // OneSignal sozlanmagan — native browser permission so'rash
-    requestNativeNotification();
+    try {
+      const reg = await navigator.serviceWorker.ready;
+      const existing = await reg.pushManager.getSubscription();
+      if (existing) {
+        // Allaqachon obuna — holatni ko'rsatish
+        showNotifPanel();
+      } else {
+        await subscribeToNotifications();
+      }
+    } catch (e) {
+      console.warn('toggleNotifications error:', e);
+      showNotifToast('❌ Xatolik', 'Bildirishnomani ochib bo\'lmadi.');
+    }
   }
 
   async function subscribeToNotifications() {
     if (!('Notification' in window)) {
-      alert('Bu brauzer bildirishnomalarni qo\'llamaydi.');
+      showNotifToast('❌ Brauzer qo\'llamaydi', 'Chrome yoki yangiroq brauzer ishlatib ko\'ring.');
       return;
     }
-    if (window._oneSignal) {
-      try {
-        await window._oneSignal.Slidedown.promptPush();
-        updateNotifBell();
-      } catch(e) { console.warn('OneSignal prompt error:', e); }
-      return;
-    }
-    // Fallback: native push
-    const permission = await Notification.requestPermission();
-    if (permission === 'granted') {
-      registerPushSubscription();
+    try {
+      const permission = await Notification.requestPermission();
+      if (permission !== 'granted') {
+        showNotifToast('❌ Bildirishnomalar bloklangan', 'Brauzer manzil qatoridagi 🔒 belgidan yoqing.');
+        return;
+      }
+      const reg = await navigator.serviceWorker.ready;
+      const sub = await reg.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
+      });
+      await sendSubscriptionToServer(sub);
+      localStorage.setItem('mc_notif_enabled', '1');
       showNotifToast('✅ Bildirishnomalar yoqildi!', 'Yangi dori ma\'lumotlari haqida xabar olasiz.');
       updateNotifBell(true);
-    } else if (permission === 'denied') {
-      showNotifToast('❌ Bildirishnomalar bloklangan', 'Brauzer sozlamalaridan yoqish mumkin.');
+    } catch (e) {
+      console.warn('Push subscribe error:', e);
+      showNotifToast('❌ Xatolik', 'Bildirishnomani yoqib bo\'lmadi.');
     }
   }
 
-  function requestNativeNotification() {
-    if (!('Notification' in window)) {
-      showNotifToast('❌ Brauzer qo\'llamaydi', 'Eski brauzer yangilang yoki Chrome ishlatib ko\'ring.');
+  // Obunani serverga (Cloudflare Worker) yuborish
+  async function sendSubscriptionToServer(sub) {
+    if (!PUSH_API) {
+      console.warn('PUSH_API hali sozlanmagan — obuna faqat brauzerda saqlandi');
       return;
     }
-    if (Notification.permission === 'granted') {
-      showNotifPanel();
-    } else if (Notification.permission === 'denied') {
-      showNotifToast('❌ Bloklangan', 'Brauzer manzil qatoridagi 🔒 belgini bosib yoqing.');
-    } else {
-      Notification.requestPermission().then(p => {
-        if (p === 'granted') {
-          registerPushSubscription();
-          showNotifToast('✅ Yoqildi!', 'Yangi dori ma\'lumotlari haqida xabar olasiz.');
-          updateNotifBell(true);
-        }
+    try {
+      await fetch(PUSH_API.replace(/\/$/, '') + '/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(sub)
       });
-    }
-  }
-
-  function registerPushSubscription() {
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.ready.then(reg => {
-        // VAPID key (OneSignal ishlatilmasa uchun placeholder)
-        localStorage.setItem('mc_notif_enabled', '1');
-        console.log('Push subscription registered');
-      });
+    } catch (e) {
+      console.warn('Obunani yuklab bo\'lmadi:', e);
     }
   }
 

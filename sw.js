@@ -3,10 +3,19 @@
 //  Offline rejimida ishlash + Bildirishnomalar
 // ═══════════════════════════════════════════
 
-// OneSignal SDK ni import qilish (agar OneSignal ishlatilsa)
-importScripts('https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js');
+// VAPID ochiq kalit (pushsubscriptionchange uchun) — index.html dagi bilan bir xil
+const VAPID_PUBLIC_KEY = 'BJGIrkQeyTx2miUTO67BHbnUgS4v6wyOg6Gkmf8O_OyTF_o3o4iMEHR1syvfduGQo6vKxr8BemN1YndGAn5En5I';
 
-const CACHE_NAME = 'medcore-v2';
+function urlBase64ToUint8Array(base64String) {
+  const padding = '='.repeat((4 - base64String.length % 4) % 4);
+  const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+  const raw = atob(base64);
+  const arr = new Uint8Array(raw.length);
+  for (let i = 0; i < raw.length; i++) arr[i] = raw.charCodeAt(i);
+  return arr;
+}
+
+const CACHE_NAME = 'medcore-v3';
 const ASSETS = [
   './',
   './index.html',
@@ -50,8 +59,7 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
   if (event.request.url.includes('accounts.google.com') ||
-      event.request.url.includes('googleapis.com/oauth2') ||
-      event.request.url.includes('onesignal.com')) {
+      event.request.url.includes('googleapis.com/oauth2')) {
     return;
   }
 
@@ -140,7 +148,7 @@ self.addEventListener('pushsubscriptionchange', event => {
   event.waitUntil(
     self.registration.pushManager.subscribe({
       userVisibleOnly: true,
-      applicationServerKey: self.VAPID_PUBLIC_KEY
+      applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
     })
   );
 });
