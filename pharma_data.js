@@ -2627,6 +2627,571 @@ const PHARMA_DATA = {
     },
     chiqarish: "Tablets: ofloxacin 200 mg + ornidazole 500 mg"
   }
+},
+
+// ─── J02AC01 · Fluconazole (tizimli) ──────────────────────────────────────
+"J02AC01": {
+  uz: {
+    gruppa: "Zamburug'larga qarshi preparatlar (triazollar)",
+    farmTasir: "Tizimli mikozlarda qo'llaniladigan yuqori selektiv antifungal vosita",
+    farmakodinamika: `Flukonazol — triazol guruhiga mansub zamburug'larga qarshi preparat bo'lib, yuqori spetsifik ta'sirga ega: zamburug' sitoxromi P450 ga bog'liq fermentlar faolligini inhibe qiladi. Zamburug' hujayralarida lanosterolning ergosterolga aylanishini bloklaydi, hujayra membranasi o'tkazuvchanligini oshiradi, uning o'sishi va replikatsiyasini buzadi. Inson sitoxromi P450 ga nisbatan tanlovchanligi yuqori bo'lgani uchun itrakonazol, klotrimazol, ekonazol va ketokonazolga qaraganda jigar mikrosomalaridagi oksidlovchi jarayonlarni kam darajada bostiradi. Antiandrogen ta'siri yo'q. Candida spp. (immunodepressiya fonidagi generalizatsiyalangan kandidoz shakllari bilan), Cryptococcus neoformans va Coccidioides immitis (meningit va ensefalit bilan), Microsporum spp., Trichophyton spp.ga; Blastomyces dermatidis, Histoplasma capsulatum keltirib chiqargan endemik mikozlarga nisbatan faol.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi; biologik faollik >90% (i/v bilan teng). Ovqat so'rilishga ta'sir qilmaydi. Cmax ochlik holatida 0,5–1,5 soatda; konsentratsiya dozaga proportsional",
+      tarqalish: "Vd tana umumiy suviga yaqin. Plazma oqsillariga bog'lanish past (11–12%). Barcha suyuqliklarga yaxshi o'tadi; meningitda BOM suyuqligida ~80% darajaga yetadi. Shox qavat, epidermis-derma va terda yuqori, plazmadan ortiq konsentratsiya hosil qiladi, to'planadi",
+      metabolizm: "Aylanuvchi metabolitlar aniqlanmagan; jigar fermentlariga ta'siri minimal",
+      chiqarilish: "Asosan buyrak orqali; dozaning ~80% siydikda o'zgarmagan holda. Klirensi KK ga proportsional. T½ uzoq, kuniga 1 marta yoki haftada 1 marta qabul qilish imkonini beradi"
+    },
+    korsatmalar: [
+      "Kriptokokkoz, jumladan kriptokokk meningiti",
+      "Tizimli kandidoz, kandidemiya, dissseminatsiyalangan kandidoz",
+      "Shilliq pardalar kandidozi (orofaringeal, qizilo'ngach), vaginal kandidoz",
+      "Teri mikozlari (oyoq, chov sohasi), pitiriaz (otrubasimon temiratki), onixomikoz",
+      "Chuqur endemik mikozlar (koktsidioidomikoz, parakoktsidioidomikoz, sporotrixoz, gistoplazmoz)",
+      "Immunitet bostirilgan (xavfli o'sma, sitostatik/nurlanish terapiyasi, transplantatsiya) bemorlarda zamburug' infeksiyalari profilaktikasi"
+    ],
+    qarrshi: [
+      "Flukonazol yoki azol hosilalariga o'ta sezuvchanlik",
+      "Tsizaprid bilan bir vaqtda qabul qilish",
+      "Terfenadin (flukonazol ≥400 mg/sut bilan) bilan bir vaqtda",
+      "Homiladorlik va emizish davri",
+      "16 yoshgacha bolalar (umumiy preparatlar uchun)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ishtaha pasayishi, ta'm o'zgarishi, qorin og'rig'i, ko'ngil aynishi, qusish, diareya, meteorizm",
+      "Jigar": "Jigar funksiyasi buzilishi — sariqlik, gepatit, gepatonekroz, giperbilirubinemiya, transaminazalar va ishqoriy fosfataza oshishi (kam, ba'zan og'ir)",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, charchoq, kamdan-kam tirishishlar",
+      "Qon tizimi": "Leykopeniya, trombotsitopeniya, neytropeniya, agranulotsitoz (kam)",
+      "Allergiya": "Teri toshmasi, multiform ekssudativ eritema (Stivens-Johnson sindromi), toksik epidermal nekroliz (Lyell sindromi), anafilaktoid reaksiyalar, Kvinke shishi",
+      "Yurak": "QT intervalining uzayishi, qorinchalar miltillashi/titrashi",
+      "Boshqa": "Buyrak funksiyasi buzilishi, alopetsiya, giperxolesterinemiya, gipertrigliseridemiya, gipokaliemiya"
+    },
+    dozadan: "Belgilar: gallyutsinatsiyalar, paranoid xulq-atvor. Davolash: simptomatik (oshqozonni yuvish, forsirlangan diurez). Dastlabki 3 soatda gemodializ konsentratsiyani 50% kamaytiradi.",
+    ozarotasir: [
+      "Varfarin — protrombin vaqtini 12% oshiradi, qon ketish xavfi (INR nazorati)",
+      "Tsizaprid — yurak aritmiyalari («piruet» tipidagi), mutlaq qarshi ko'rsatma",
+      "Midazolam/benzodiazepinlar — konsentratsiyasi va psixomotor ta'siri ortadi",
+      "Tsiklosporin, takrolimus — plazma konsentratsiyasi oshadi (nazorat)",
+      "Sulfonilmochevina hosilalari (glibenklamid, glipizid) — gipoglikemiya xavfi",
+      "Fenitoin, rifabutin, teofillin, zidovudin — konsentratsiyasi oshadi",
+      "Rifampitsin — flukonazol AUC ni 25% kamaytiradi (doza oshirilishi mumkin)",
+      "Gidroxlortiazid — flukonazol konsentratsiyasini 40% oshiradi"
+    ],
+    qollash: {
+      kattalar: "Og'iz orqali yoki i/v (≤20 mg/daq). Kriptokokk infeksiyasi/dissseminatsiyalangan kandidoz: 1-kun 400 mg, keyin 200–400 mg/sut. Orofaringeal kandidoz: 50–100 mg/sut 7–10 kun. Vaginal kandidoz: 150 mg bir marta. Onixomikoz: haftada 150 mg. KK <50 ml/daq: dozaning 50% yoki odatdagi doza 2 kunda bir marta.",
+      bolalar: "Kuniga 1 marta. Kandidoz: 3 mg/kg/sut; generalizatsiyalangan kandidoz va kriptokokk infeksiyasi: 6–12 mg/kg/sut 10–12 hafta. Yangi tug'ilganlar: 72 soat oraliq; 2–4 haftalik: 48 soat oraliq. Sutkalik doza kattalarnikidan oshmasligi kerak"
+    },
+    chiqarish: "Kapsulalar 50; 100; 150; 200 mg; sirop 5 mg/ml (0,5%); i/v infuziya uchun 0,2% eritma"
+  },
+  ru: {
+    gruppa: "Противогрибковые препараты (триазолы)",
+    farmTasir: "Высокоселективное противогрибковое средство при системных микозах",
+    farmakodinamika: `Флуконазол — противогрибковое средство из группы триазолов, обладает высокоспецифичным действием, ингибируя активность зависимых от цитохрома Р450 ферментов грибов. Блокирует превращение ланостерола клеток грибов в эргостерол, увеличивает проницаемость клеточной мембраны, нарушает её рост и репликацию. Будучи высокоизбирательным для цитохрома Р450 грибов, в меньшей степени, чем итраконазол, клотримазол, эконазол и кетоконазол, подавляет зависимые от Р450 окислительные процессы в микросомах печени человека. Не обладает антиандрогенной активностью. Активен в отношении Candida spp. (включая генерализованные формы на фоне иммунодепрессии), Cryptococcus neoformans и Coccidioides immitis (включая менингит и энцефалит), Microsporum spp., Trichophyton spp.; при эндемических микозах (Blastomyces dermatidis, Histoplasma capsulatum).`,
+    farmakokinetika: {
+      sorish: "Хорошо абсорбируется внутрь; биодоступность >90% (как при в/в). Пища не влияет. Cmax натощак через 0,5–1,5 ч; концентрация пропорциональна дозе",
+      tarqalish: "Vd близок к общему содержанию воды в организме. Связь с белками низкая (11–12%). Хорошо проникает во все жидкости; при менингите в СМЖ ~80%. В роговом слое, эпидермисе-дерме и поте — высокие концентрации выше сывороточных, накапливается",
+      metabolizm: "Циркулирующие метаболиты не обнаружены; влияние на ферменты печени минимально",
+      chiqarilish: "Преимущественно почками; ~80% дозы в моче в неизменённом виде. Клиренс пропорционален КК. Длительный T½ — приём 1 раз/сут или 1 раз/нед"
+    },
+    korsatmalar: [
+      "Криптококкоз, включая криптококковый менингит",
+      "Системный кандидоз, кандидемия, диссеминированный кандидоз",
+      "Кандидоз слизистых (орофарингеальный, пищевода), вагинальный кандидоз",
+      "Микозы кожи (стоп, паховой области), отрубевидный лишай, онихомикоз",
+      "Глубокие эндемические микозы (кокцидиоидомикоз, паракокцидиоидомикоз, споротрихоз, гистоплазмоз)",
+      "Профилактика грибковых инфекций при иммунодепрессии (злокачественные опухоли, цитостатики/лучевая терапия, трансплантация)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к флуконазолу или производным азола",
+      "Одновременный приём цизаприда",
+      "Одновременный приём терфенадина (с флуконазолом ≥400 мг/сут)",
+      "Беременность и период лактации",
+      "Детский возраст до 16 лет (для системных препаратов)"
+    ],
+    nojoya: {
+      "ЖКТ": "Снижение аппетита, изменение вкуса, боль в животе, тошнота, рвота, диарея, метеоризм",
+      "Печень": "Нарушение функции печени — желтуха, гепатит, гепатонекроз, гипербилирубинемия, повышение трансаминаз и ЩФ (редко, иногда тяжёлое)",
+      "ЦНС": "Головная боль, головокружение, утомляемость, редко судороги",
+      "Кроветворение": "Лейкопения, тромбоцитопения, нейтропения, агранулоцитоз (редко)",
+      "Аллергические": "Кожная сыпь, многоформная экссудативная эритема (синдром Стивенса–Джонсона), токсический эпидермальный некролиз (синдром Лайелла), анафилактоидные реакции, отёк Квинке",
+      "Сердце": "Удлинение QT, мерцание/трепетание желудочков",
+      "Прочие": "Нарушение функции почек, алопеция, гиперхолестеринемия, гипертриглицеридемия, гипокалиемия"
+    },
+    dozadan: "Симптомы: галлюцинации, параноидальное поведение. Лечение: симптоматическое (промывание желудка, форсированный диурез). Гемодиализ в первые 3 ч снижает концентрацию на 50%.",
+    ozarotasir: [
+      "Варфарин — повышает протромбиновое время на 12%, риск кровотечений (контроль МНО)",
+      "Цизаприд — аритмии («пируэт»), абсолютное противопоказание",
+      "Мидазолам/бензодиазепины — повышение концентрации и психомоторных эффектов",
+      "Циклоспорин, такролимус — повышение концентрации (мониторинг)",
+      "Производные сульфонилмочевины (глибенкламид, глипизид) — риск гипогликемии",
+      "Фенитоин, рифабутин, теофиллин, зидовудин — повышение концентрации",
+      "Рифампицин — снижает AUC флуконазола на 25% (возможно увеличение дозы)",
+      "Гидрохлоротиазид — повышает концентрацию флуконазола на 40%"
+    ],
+    qollash: {
+      kattalar: "Внутрь или в/в (≤20 мг/мин). Криптококковая инфекция/диссеминированный кандидоз: 1-й день 400 мг, затем 200–400 мг/сут. Орофарингеальный кандидоз: 50–100 мг/сут 7–10 дней. Вагинальный кандидоз: 150 мг однократно. Онихомикоз: 150 мг/нед. КК <50 мл/мин: 50% дозы или обычная доза 1 раз в 2 дня.",
+      bolalar: "1 раз/сут. Кандидоз: 3 мг/кг/сут; генерализованный кандидоз и криптококковая инфекция: 6–12 мг/кг/сут 10–12 нед. Новорождённые: интервал 72 ч; 2–4 нед: интервал 48 ч. Суточная доза не должна превышать таковую у взрослых"
+    },
+    chiqarish: "Капсулы 50; 100; 150; 200 мг; сироп 5 мг/мл (0,5%); 0,2% раствор для в/в инфузии"
+  },
+  en: {
+    gruppa: "Antifungal agents (triazoles)",
+    farmTasir: "Highly selective antifungal for systemic mycoses",
+    farmakodinamika: `Fluconazole is a triazole antifungal with highly specific activity, inhibiting fungal cytochrome P450-dependent enzymes. It blocks conversion of lanosterol to ergosterol in fungal cells, increasing membrane permeability and disrupting growth and replication. Being highly selective for fungal P450, it inhibits P450-dependent oxidative processes in human hepatic microsomes to a lesser degree than itraconazole, clotrimazole, econazole and ketoconazole. It has no antiandrogenic activity. Active against Candida spp. (including generalised forms under immunosuppression), Cryptococcus neoformans and Coccidioides immitis (including meningitis and encephalitis), Microsporum spp., Trichophyton spp.; and endemic mycoses (Blastomyces dermatidis, Histoplasma capsulatum).`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally; bioavailability >90% (equal to IV). Food has no effect. Cmax 0.5–1.5 h fasting; concentration dose-proportional",
+      tarqalish: "Vd approximates total body water. Low protein binding (11–12%). Penetrates all fluids well; CSF ~80% in meningitis. High, supra-serum concentrations in stratum corneum, epidermis-dermis and sweat, with accumulation",
+      metabolizm: "No circulating metabolites detected; minimal effect on hepatic enzymes",
+      chiqarilish: "Predominantly renal; ~80% excreted unchanged in urine. Clearance proportional to CrCl. Long T½ permits once-daily or once-weekly dosing"
+    },
+    korsatmalar: [
+      "Cryptococcosis, including cryptococcal meningitis",
+      "Systemic candidiasis, candidaemia, disseminated candidiasis",
+      "Mucosal candidiasis (oropharyngeal, oesophageal), vaginal candidiasis",
+      "Skin mycoses (feet, groin), pityriasis versicolor, onychomycosis",
+      "Deep endemic mycoses (coccidioidomycosis, paracoccidioidomycosis, sporotrichosis, histoplasmosis)",
+      "Prophylaxis of fungal infections in immunosuppression (malignancy, cytotoxic/radiation therapy, transplantation)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to fluconazole or azole derivatives",
+      "Concomitant cisapride",
+      "Concomitant terfenadine (with fluconazole ≥400 mg/day)",
+      "Pregnancy and lactation",
+      "Children under 16 years (for systemic preparations)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Anorexia, taste disturbance, abdominal pain, nausea, vomiting, diarrhoea, flatulence",
+      "Hepatic": "Hepatic dysfunction — jaundice, hepatitis, hepatonecrosis, hyperbilirubinaemia, raised transaminases and ALP (rare, occasionally severe)",
+      "CNS": "Headache, dizziness, fatigue, rarely seizures",
+      "Haematological": "Leucopenia, thrombocytopenia, neutropenia, agranulocytosis (rare)",
+      "Hypersensitivity": "Rash, erythema multiforme (Stevens–Johnson syndrome), toxic epidermal necrolysis (Lyell syndrome), anaphylactoid reactions, angioedema",
+      "Cardiac": "QT prolongation, ventricular fibrillation/flutter",
+      "Other": "Renal dysfunction, alopecia, hypercholesterolaemia, hypertriglyceridaemia, hypokalaemia"
+    },
+    dozadan: "Symptoms: hallucinations, paranoid behaviour. Treatment: symptomatic (gastric lavage, forced diuresis). Haemodialysis within 3 h reduces concentration by 50%.",
+    ozarotasir: [
+      "Warfarin — increases prothrombin time by 12%, bleeding risk (monitor INR)",
+      "Cisapride — arrhythmias (torsades de pointes), absolute contraindication",
+      "Midazolam/benzodiazepines — increased concentration and psychomotor effects",
+      "Ciclosporin, tacrolimus — raised concentration (monitor)",
+      "Sulfonylureas (glibenclamide, glipizide) — hypoglycaemia risk",
+      "Phenytoin, rifabutin, theophylline, zidovudine — increased concentration",
+      "Rifampicin — reduces fluconazole AUC by 25% (dose increase may be needed)",
+      "Hydrochlorothiazide — raises fluconazole concentration by 40%"
+    ],
+    qollash: {
+      kattalar: "Oral or IV (≤20 mg/min). Cryptococcal/disseminated candidiasis: day 1 400 mg, then 200–400 mg/day. Oropharyngeal candidiasis: 50–100 mg/day for 7–10 days. Vaginal candidiasis: 150 mg single dose. Onychomycosis: 150 mg weekly. CrCl <50 mL/min: 50% of dose or usual dose every 2 days.",
+      bolalar: "Once daily. Candidiasis: 3 mg/kg/day; generalised candidiasis and cryptococcal infection: 6–12 mg/kg/day for 10–12 weeks. Neonates: 72-h interval; 2–4 weeks: 48-h interval. Daily dose must not exceed the adult dose"
+    },
+    chiqarish: "Capsules 50, 100, 150, 200 mg; syrup 5 mg/mL (0.5%); 0.2% solution for IV infusion"
+  }
+},
+
+// ─── J01XA01 · Vancomycin ─────────────────────────────────────────────────
+"J01XA01": {
+  uz: {
+    gruppa: "Glikopeptid antibiotiklari",
+    farmTasir: "Gram-musbat bakteriyalarga qarshi bakteritsid antibiotik",
+    farmakodinamika: `Vankomitsin — glikopeptidlar guruhiga mansub antibiotik, bakteritsid ta'sir ko'rsatadi. Bakteriya hujayra devori sintezini, sitoplazmatik membrana o'tkazuvchanligini va RNK sintezini buzadi. Gram-musbat bakteriyalarga: Staphylococcus spp. (penitsillinaza ishlab chiqaradigan va metitsillinrezistent shtammlar ham), Streptococcus spp., Enterococcus spp., Corynebacterium spp., Listeria spp., Actinomyces spp., Clostridium spp. (Clostridium difficile ham) nisbatan faol. Boshqa guruh antibiotiklari bilan o'zaro chidamlilik kuzatilmagan.`,
+    farmakokinetika: {
+      sorish: "Tizimli infeksiyalarda i/v yuboriladi (og'iz orqali so'rilmaydi); Clostridium difficile kolitida og'iz orqali — ichak ichida ta'sir qiladi",
+      tarqalish: "Aksariyat to'qima va suyuqliklarga keng tarqaladi. BBO dan yomon o'tadi, biroq miya pardalari yallig'langanda o'tkazuvchanligi ortadi. Platsenta to'sig'idan o'tadi. Zardob oqsillariga bog'lanish 55%",
+      metabolizm: "Amalda metabolizmga uchramaydi",
+      chiqarilish: "T½ 4–11 soat. 80–90% siydik bilan, oz miqdori o't bilan chiqariladi. Buyrak yetishmovchiligida doza KK ga qarab kamaytiriladi"
+    },
+    korsatmalar: [
+      "Sezgir qo'zg'atuvchilar keltirib chiqargan og'ir infeksion-yallig'lanish kasalliklari (boshqa antibiotiklar, jumladan penitsillin yoki sefalosporinlar samarasiz yoki ko'tarilmaganda)",
+      "Sepsis, endokardit (monoterapiya yoki kombinatsiyada)",
+      "Pnevmoniya, o'pka abstsessi, meningit",
+      "Suyak va bo'g'imlar infeksiyalari, teri va yumshoq to'qimalar infeksiyalari",
+      "Clostridium difficile keltirib chiqargan psevdomembranoz kolit"
+    ],
+    qarrshi: [
+      "Eshitish nervi nevriti",
+      "Buyrak funksiyasining keskin buzilishi",
+      "Homiladorlikning I trimestri",
+      "Laktatsiya (emizish) davri",
+      "Vankomitsinga o'ta sezuvchanlik"
+    ],
+    nojoya: {
+      "Yurak": "Yurak to'xtashi, qizarish, AB pasayishi, shok (asosan tez infuziya bilan bog'liq)",
+      "Qon tizimi": "Neytropeniya, eozinofiliya, trombotsitopeniya, agranulotsitoz",
+      "Oshqozon-ichak": "Ko'ngil aynishi",
+      "Buyrak": "Interstitsial nefrit, buyrak funksiyasi buzilishi",
+      "Sezgi organlari": "Vertigo, quloqda shovqin, ototoksik ta'sirlar",
+      "Teri": "Eksfoliativ dermatit, pufakli dermatoz, qichima, toshma",
+      "Allergiya": "Eshakemi, Stivens-Johnson sindromi, toksik epidermal nekroliz, vaskulit, anafilaktoid reaksiyalar",
+      "Boshqa": "Titroq, dori isitmasi, inyeksiya joyida nekroz va og'riq, tromboflebit; tez i/v yuborishda «qizil bo'yin sindromi» (gistamin chiqishi: eritema, yuz-bo'yin qizarishi, taxikardiya)"
+    },
+    dozadan: "Simptomatik davolash; eritma konsentratsiyasini nazorat qilish, buyrak va eshitish funksiyasini kuzatish. Maxsus antidot yo'q.",
+    ozarotasir: [
+      "Mahalliy anesteziklar — eritema, gistaminga o'xshash qizarish, anafilaktik shok",
+      "Aminoglikozidlar, amfoteritsin B, sisplatin, tsiklosporin, furosemid, polimiksinlar — oto- va nefrotoksik ta'sir kuchayadi"
+    ],
+    qollash: {
+      kattalar: "I/v tomchilab: 500 mg har 6 soatda yoki 1 g har 12 soatda; infuziya ≥60 daqiqa (kollaptoid reaksiyalarning oldini olish uchun). Maks. sutkalik doza i/v 3–4 g. Og'iz orqali (C. difficile): 0,5–2 g/sut 3–4 marta. Mushak ichiga yuborish taqiqlanadi (to'qima nekrozi xavfi).",
+      bolalar: "I/v: 40 mg/kg/sut, har bir doza ≥60 daqiqa. Og'iz orqali: 40 mg/kg/sut 3–4 marta. Yangi tug'ilganlarda plazma konsentratsiyasi nazorat qilinadi"
+    },
+    chiqarish: "Infuziya eritmasi tayyorlash uchun kukun (flakonlar) 0,5 g; 1 g"
+  },
+  ru: {
+    gruppa: "Антибиотики группы гликопептидов",
+    farmTasir: "Бактерицидный антибиотик против грамположительных бактерий",
+    farmakodinamika: `Ванкомицин — антибиотик группы гликопептидов, оказывает бактерицидное действие. Нарушает синтез клеточной стенки, проницаемость цитоплазматической мембраны и синтез РНК бактерий. Активен в отношении грамположительных бактерий: Staphylococcus spp. (включая пенициллиназопродуцирующие и метициллин-резистентные штаммы), Streptococcus spp., Enterococcus spp., Corynebacterium spp., Listeria spp., Actinomyces spp., Clostridium spp. (в т.ч. Clostridium difficile). Перекрёстной резистентности с антибиотиками других групп не отмечено.`,
+    farmakokinetika: {
+      sorish: "При системных инфекциях вводят в/в (внутрь не всасывается); при колите Clostridium difficile — внутрь, действует в просвете кишечника",
+      tarqalish: "Широко распределяется в большинстве тканей и жидкостей. Плохо проникает через ГЭБ, но при воспалении оболочек проницаемость возрастает. Проникает через плаценту. Связь с белками плазмы 55%",
+      metabolizm: "Практически не метаболизируется",
+      chiqarilish: "T½ 4–11 ч. 80–90% выводится с мочой, небольшое количество с желчью. При почечной недостаточности дозу уменьшают с учётом КК"
+    },
+    korsatmalar: [
+      "Тяжёлые инфекционно-воспалительные заболевания, вызванные чувствительными возбудителями (при неэффективности/непереносимости других антибиотиков, включая пенициллины и цефалоспорины)",
+      "Сепсис, эндокардит (монотерапия или в комбинации)",
+      "Пневмония, абсцесс лёгких, менингит",
+      "Инфекции костей и суставов, кожи и мягких тканей",
+      "Псевдомембранозный колит, вызванный Clostridium difficile"
+    ],
+    qarrshi: [
+      "Неврит слухового нерва",
+      "Выраженные нарушения функции почек",
+      "I триместр беременности",
+      "Период лактации (грудного вскармливания)",
+      "Гиперчувствительность к ванкомицину"
+    ],
+    nojoya: {
+      "Сердце": "Остановка сердца, приливы, снижение АД, шок (в основном при быстрой инфузии)",
+      "Кроветворение": "Нейтропения, эозинофилия, тромбоцитопения, агранулоцитоз",
+      "ЖКТ": "Тошнота",
+      "Почки": "Интерстициальный нефрит, нарушение функции почек",
+      "Органы чувств": "Вертиго, звон в ушах, ототоксические эффекты",
+      "Кожа": "Эксфолиативный дерматит, пузырчатый дерматоз, зудящий дерматоз, сыпь",
+      "Аллергические": "Крапивница, синдром Стивенса–Джонсона, токсический эпидермальный некролиз, васкулит, анафилактоидные реакции",
+      "Прочие": "Озноб, лекарственная лихорадка, некроз и боль в местах инъекций, тромбофлебит; при быстром в/в введении «синдром красной шеи» (высвобождение гистамина: эритема, покраснение лица и шеи, тахикардия)"
+    },
+    dozadan: "Симптоматическая терапия; контроль концентрации, функции почек и слуха. Специфического антидота нет.",
+    ozarotasir: [
+      "Местные анестетики — эритема, гистаминоподобные приливы, анафилактический шок",
+      "Аминогликозиды, амфотерицин В, цисплатин, циклоспорин, фуросемид, полимиксины — усиление ото- и нефротоксичности"
+    ],
+    qollash: {
+      kattalar: "В/в капельно: 500 мг каждые 6 ч или 1 г каждые 12 ч; инфузия ≥60 мин (профилактика коллаптоидных реакций). Макс. суточная доза в/в 3–4 г. Внутрь (C. difficile): 0,5–2 г/сут в 3–4 приёма. В/м введение запрещено (риск некроза тканей).",
+      bolalar: "В/в: 40 мг/кг/сут, каждую дозу ≥60 мин. Внутрь: 40 мг/кг/сут в 3–4 приёма. У новорождённых контролируют концентрацию в плазме"
+    },
+    chiqarish: "Порошок для приготовления раствора для инфузий (флаконы) 0,5 г; 1 г"
+  },
+  en: {
+    gruppa: "Glycopeptide antibiotics",
+    farmTasir: "Bactericidal antibiotic against Gram-positive bacteria",
+    farmakodinamika: `Vancomycin is a glycopeptide antibiotic with bactericidal action. It disrupts bacterial cell wall synthesis, cytoplasmic membrane permeability and RNA synthesis. Active against Gram-positive bacteria: Staphylococcus spp. (including penicillinase-producing and methicillin-resistant strains), Streptococcus spp., Enterococcus spp., Corynebacterium spp., Listeria spp., Actinomyces spp., Clostridium spp. (including Clostridium difficile). No cross-resistance with antibiotics of other groups has been observed.`,
+    farmakokinetika: {
+      sorish: "For systemic infections given IV (not absorbed orally); in Clostridium difficile colitis given orally to act within the gut lumen",
+      tarqalish: "Widely distributed in most tissues and fluids. Poor CNS penetration, increased with meningeal inflammation. Crosses the placenta. Plasma protein binding 55%",
+      metabolizm: "Essentially not metabolised",
+      chiqarilish: "T½ 4–11 h. 80–90% excreted in urine, small amount in bile. Dose reduced per CrCl in renal impairment"
+    },
+    korsatmalar: [
+      "Severe infectious-inflammatory diseases caused by susceptible organisms (when other antibiotics including penicillins/cephalosporins are ineffective or not tolerated)",
+      "Sepsis, endocarditis (monotherapy or combination)",
+      "Pneumonia, lung abscess, meningitis",
+      "Bone and joint infections, skin and soft tissue infections",
+      "Pseudomembranous colitis caused by Clostridium difficile"
+    ],
+    qarrshi: [
+      "Auditory nerve neuritis",
+      "Severe renal impairment",
+      "First trimester of pregnancy",
+      "Lactation period",
+      "Hypersensitivity to vancomycin"
+    ],
+    nojoya: {
+      "Cardiac": "Cardiac arrest, flushing, hypotension, shock (mainly with rapid infusion)",
+      "Haematological": "Neutropenia, eosinophilia, thrombocytopenia, agranulocytosis",
+      "Gastrointestinal": "Nausea",
+      "Renal": "Interstitial nephritis, renal dysfunction",
+      "Sensory": "Vertigo, tinnitus, ototoxic effects",
+      "Dermatological": "Exfoliative dermatitis, bullous dermatosis, pruritic dermatosis, rash",
+      "Hypersensitivity": "Urticaria, Stevens–Johnson syndrome, toxic epidermal necrolysis, vasculitis, anaphylactoid reactions",
+      "Other": "Chills, drug fever, injection-site necrosis and pain, thrombophlebitis; rapid IV gives red man syndrome (histamine release: erythema, face/neck flushing, tachycardia)"
+    },
+    dozadan: "Symptomatic treatment; monitor concentration, renal and auditory function. No specific antidote.",
+    ozarotasir: [
+      "Local anaesthetics — erythema, histamine-like flushing, anaphylactic shock",
+      "Aminoglycosides, amphotericin B, cisplatin, ciclosporin, furosemide, polymyxins — enhanced oto- and nephrotoxicity"
+    ],
+    qollash: {
+      kattalar: "IV infusion: 500 mg every 6 h or 1 g every 12 h; infuse over ≥60 min (to prevent collapse reactions). Max IV daily dose 3–4 g. Oral (C. difficile): 0.5–2 g/day in 3–4 doses. IM administration prohibited (tissue necrosis risk).",
+      bolalar: "IV: 40 mg/kg/day, each dose over ≥60 min. Oral: 40 mg/kg/day in 3–4 doses. Monitor plasma concentration in neonates"
+    },
+    chiqarish: "Powder for solution for infusion (vials) 0.5 g; 1 g"
+  }
+},
+
+// ─── J07B · Gam-COVID-Vac (Sputnik V) ─────────────────────────────────────
+"J07B": {
+  uz: {
+    gruppa: "Virusli vaktsinalar",
+    farmTasir: "SARS-CoV-2 (COVID-19) profilaktikasi uchun kombinatsiyalangan vektorli vaktsina",
+    farmakodinamika: `Gam-KOVID-Vak — biotexnologik yo'l bilan olingan, inson uchun patogen SARS-CoV-2 virusi ishlatilmagan ikki komponentli vaktsina. I komponent inson 26-serotipidagi rekombinant adenovirus vektoriga, II komponent 5-serotipdagi adenovirus vektoriga asoslangan bo'lib, ikkalasi ham SARS-CoV-2 virusining S-oqsili genini olib yuradi. Vaktsina SARS-CoV-2 ga qarshi gumoral (antitanachalar) va hujayraviy (CD4+ T-xelper va CD8+ T-sitotoksik limfotsitlar, IFNγ sekretsiyasi) immunitet shakllanishini induktsiya qiladi. Replikatsiyalanmaydigan vektor hujayralarda S-oqsil ekspressiyasini ta'minlaydi.`,
+    farmakokinetika: {
+      sorish: "Faqat mushak ichiga (deltasimon mushak) yuboriladi; v/v yuborish qat'iyan taqiqlanadi. Tizimli farmakokinetik so'rilish tushunchasi vaktsinalarga taalluqli emas",
+      tarqalish: "42-kunga seroversiya vaksinatsiya qilinganlarning 99,1% ida kuzatiladi va 180-kunga 93,9% ida saqlanadi; vaksinaning antigen-spetsifik T-hujayraviy immuniteti deyarli barcha tekshirilganlarda shakllanadi",
+      metabolizm: "Rekombinant adenovirus vektori hujayralarda S-oqsil ekspressiyasini ta'minlaydi va replikatsiyalanmaydi",
+      chiqarilish: "Himoya titri va himoya davomiyligi hozircha aniq belgilanmagan; III faza ma'lumotlariga ko'ra samaradorlik yovvoyi shtammga >91%, og'ir kechishga qarshi >88%"
+    },
+    korsatmalar: [
+      "18 yoshdan katta kattalarda yangi koronavirus infeksiyasi (COVID-19) profilaktikasi"
+    ],
+    qarrshi: [
+      "Vaktsina komponentlariga yoki oldingi dozaga o'ta sezuvchanlik",
+      "Og'ir allergik reaksiyalar anamnezi",
+      "O'tkir infeksion va noinfeksion kasalliklar, surunkali kasalliklarning zo'rayishi (sog'ayguncha yoki remissiyaga qadar kechiktiriladi)",
+      "18 yoshgacha bo'lganlar (samaradorlik va xavfsizlik aniqlanmagan)",
+      "Homiladorlik va emizish davri (ehtiyotkorlik bilan, faqat foyda xavfdan ustun bo'lganda)"
+    ],
+    nojoya: {
+      "Umumiy": "Qisqa muddatli grippsimon sindrom — titroq, isitma, artralgiya va mialgiya, holsizlik, bosh og'rig'i",
+      "Mahalliy": "Inyeksiya joyida og'riq, qizarish, shish",
+      "Oshqozon-ichak": "Ko'ngil aynishi, dispepsiya, ishtaha pasayishi (kam)",
+      "Allergiya": "Kam hollarda allergik reaksiyalar",
+      "Boshqa": "Limfa tugunlari kattalashishi (kam)"
+    },
+    dozadan: "Doza oshib ketishi haqida ma'lumot yo'q. Yuboriladigan doza 0,5 ml dan oshmasligi kerak.",
+    ozarotasir: [
+      "Boshqa vaktsinalar bilan bir vaqtda qo'llash bo'yicha ma'lumotlar cheklangan",
+      "Immunosupressiv terapiya immun javobni susaytirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "Faqat mushak ichiga (deltasimon mushak). Vaksinatsiya ikki bosqichda: avval I komponent 0,5 ml, 3 hafta o'tib II komponent 0,5 ml. Zarur bo'lganda I komponent bilan bir martalik vaksinatsiyaga ruxsat etiladi. Yuborilgandan keyin bemor 30 daqiqa kuzatuvda bo'ladi.",
+      bolalar: "18 yoshgacha qo'llash ko'rsatilmagan"
+    },
+    chiqarish: "Mushak ichiga yuborish uchun eritma/suspenziya — muzlatilgan yoki suyuq shaklda (flakonlar, ampulalar); 1 doza = 0,5 ml"
+  },
+  ru: {
+    gruppa: "Вирусные вакцины",
+    farmTasir: "Комбинированная векторная вакцина для профилактики COVID-19 (SARS-CoV-2)",
+    farmakodinamika: `Гам-КОВИД-Вак — двухкомпонентная вакцина, полученная биотехнологическим путём без использования патогенного для человека вируса SARS-CoV-2. Компонент I основан на рекомбинантном аденовирусном векторе человека 26 серотипа, компонент II — 5 серотипа; оба несут ген белка S вируса SARS-CoV-2. Вакцина индуцирует формирование гуморального (антитела) и клеточного (CD4+ Т-хелперы и CD8+ Т-цитотоксические лимфоциты, секреция ИФНγ) иммунитета против SARS-CoV-2. Нереплицирующийся вектор обеспечивает экспрессию белка S в клетках.`,
+    farmakokinetika: {
+      sorish: "Только внутримышечно (дельтовидная мышца); в/в введение строго запрещено. Понятие системной фармакокинетической абсорбции к вакцинам неприменимо",
+      tarqalish: "Сероконверсия к 42 дню — у 99,1% вакцинированных, сохраняется к 180 дню у 93,9%; антиген-специфический клеточный иммунитет формируется практически у всех обследованных",
+      metabolizm: "Рекомбинантный аденовирусный вектор обеспечивает экспрессию белка S в клетках и не реплицируется",
+      chiqarilish: "Защитный титр и длительность защиты пока не установлены; по данным III фазы эффективность против дикого штамма >91%, против тяжёлого течения >88%"
+    },
+    korsatmalar: [
+      "Профилактика новой коронавирусной инфекции (COVID-19) у взрослых старше 18 лет"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам вакцины или к предыдущей дозе",
+      "Тяжёлые аллергические реакции в анамнезе",
+      "Острые инфекционные и неинфекционные заболевания, обострение хронических (откладывают до выздоровления/ремиссии)",
+      "Возраст до 18 лет (эффективность и безопасность не установлены)",
+      "Беременность и лактация (с осторожностью, только если польза превышает риск)"
+    ],
+    nojoya: {
+      "Общие": "Кратковременный гриппоподобный синдром — озноб, лихорадка, артралгия и миалгия, недомогание, головная боль",
+      "Местные": "Болезненность, покраснение, отёк в месте инъекции",
+      "ЖКТ": "Тошнота, диспепсия, снижение аппетита (редко)",
+      "Аллергические": "Редко аллергические реакции",
+      "Прочие": "Увеличение лимфатических узлов (редко)"
+    },
+    dozadan: "Данных о передозировке нет. Вводимая доза не должна превышать 0,5 мл.",
+    ozarotasir: [
+      "Данные по одновременному применению с другими вакцинами ограничены",
+      "Иммуносупрессивная терапия может ослаблять иммунный ответ"
+    ],
+    qollash: {
+      kattalar: "Только внутримышечно (дельтовидная мышца). Вакцинация в два этапа: сначала компонент I 0,5 мл, через 3 недели — компонент II 0,5 мл. При необходимости допускается однократная вакцинация компонентом I. После введения пациент находится под наблюдением 30 минут.",
+      bolalar: "Не показана до 18 лет"
+    },
+    chiqarish: "Раствор/суспензия для в/м введения — замороженная или жидкая форма (флаконы, ампулы); 1 доза = 0,5 мл"
+  },
+  en: {
+    gruppa: "Viral vaccines",
+    farmTasir: "Combined vector vaccine for prevention of COVID-19 (SARS-CoV-2)",
+    farmakodinamika: `Gam-COVID-Vac is a two-component vaccine produced biotechnologically without using the human-pathogenic SARS-CoV-2 virus. Component I is based on a recombinant human adenovirus serotype 26 vector and component II on serotype 5; both carry the gene for the SARS-CoV-2 spike (S) protein. The vaccine induces humoral (antibody) and cellular (CD4+ T-helper and CD8+ cytotoxic T-lymphocytes, IFN-γ secretion) immunity against SARS-CoV-2. The non-replicating vector drives S-protein expression in cells.`,
+    farmakokinetika: {
+      sorish: "Intramuscular only (deltoid muscle); IV administration strictly prohibited. The concept of systemic pharmacokinetic absorption does not apply to vaccines",
+      tarqalish: "Seroconversion by day 42 in 99.1% of vaccinees, maintained at day 180 in 93.9%; antigen-specific cellular immunity forms in nearly all subjects examined",
+      metabolizm: "The recombinant adenoviral vector drives S-protein expression in cells and does not replicate",
+      chiqarilish: "Protective titre and duration of protection not yet established; phase III data show efficacy >91% against the wild strain and >88% against severe disease"
+    },
+    korsatmalar: [
+      "Prevention of novel coronavirus infection (COVID-19) in adults over 18 years"
+    ],
+    qarrshi: [
+      "Hypersensitivity to vaccine components or to a previous dose",
+      "History of severe allergic reactions",
+      "Acute infectious and non-infectious diseases, exacerbation of chronic conditions (defer until recovery/remission)",
+      "Age under 18 years (efficacy and safety not established)",
+      "Pregnancy and lactation (caution, only if benefit outweighs risk)"
+    ],
+    nojoya: {
+      "General": "Short-lived flu-like syndrome — chills, fever, arthralgia and myalgia, malaise, headache",
+      "Local": "Injection-site pain, redness, swelling",
+      "Gastrointestinal": "Nausea, dyspepsia, decreased appetite (rare)",
+      "Hypersensitivity": "Rare allergic reactions",
+      "Other": "Lymph node enlargement (rare)"
+    },
+    dozadan: "No data on overdose. The administered dose must not exceed 0.5 mL.",
+    ozarotasir: [
+      "Data on concomitant use with other vaccines are limited",
+      "Immunosuppressive therapy may weaken the immune response"
+    ],
+    qollash: {
+      kattalar: "Intramuscular only (deltoid). Two-stage vaccination: component I 0.5 mL first, then component II 0.5 mL after 3 weeks. Single-dose vaccination with component I is permitted if necessary. The patient is observed for 30 minutes after administration.",
+      bolalar: "Not indicated under 18 years"
+    },
+    chiqarish: "Solution/suspension for IM injection — frozen or liquid form (vials, ampoules); 1 dose = 0.5 mL"
+  }
+},
+
+// ─── J01MB · Gatifloxacin ─────────────────────────────────────────────────
+"J01MB": {
+  uz: {
+    gruppa: "Xinolonlar / ftorxinolonlar",
+    farmTasir: "Keng spektrli antibakterial ftorxinolon",
+    farmakodinamika: `Gatifloksatsin — 8-metoksiftorxinolon, keng spektrli antibakterial preparat. ДНК-giraza va topoizomeraza IV ni bloklab ДНК sintezini inhibe qiladi, ДНК uzilishlarining tikilishini buzadi, bakteriya sitoplazmasi, hujayra devori va membranasini zararlaydi. Hujayradan tashqari va ichida joylashgan mikroorganizmlarga ta'sir qiladi. Gram-musbat va gram-manfiy bakteriyalarga, anaerob mikrofloraga, shuningdek mikoplazma, rikketsiya, ureaplazmaga nisbatan keng faollikka ega. β-laktam va makrolid antibiotiklarga chidamli bakteriyalarga ta'sirchan. Sil mikobakteriyalari va H. pylori ham gatifloksatsinga sezgir.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi; mutlaq biologik faollik 96%. Cmax 1–2 soatda yetadi. Farmakokinetikasi 200–800 mg dozalarda chiziqli",
+      tarqalish: "Zardob oqsillariga bog'lanish ~20% (konsentratsiyaga bog'liq emas). Ko'plab to'qima va suyuqliklarga (bronx shilliq pardasi, alveolyar makrofaglar, qin va bachadon bo'yni) keng tarqaladi; nishon organlarda zardobdan yuqori konsentratsiya hosil qiladi",
+      metabolizm: "Organizmda cheklangan biotransformatsiyaga uchraydi; dozaning <1% siydikda metabolitlar shaklida chiqadi",
+      chiqarilish: "O'zgarmagan holda asosan buyrak orqali (48 soatda >70%); 5% najas bilan"
+    },
+    korsatmalar: [
+      "Pnevmoniya, surunkali bronxitning zo'rayishi",
+      "Pielonefrit, asoratli va asoratsiz siydik yo'llari infeksiyalari (sistit)",
+      "LOR-a'zolar infeksiyalari, jumladan o'tkir sinusit",
+      "Teri va yumshoq to'qimalar infeksiyalari",
+      "Jinsiy yo'l bilan yuqadigan kasalliklar (uretrit, tservitsit, proktit; gonokokk infeksiyalari)",
+      "Oftalmologiyada: sezgir qo'zg'atuvchilar keltirib chiqargan bakterial konyunktivitlar"
+    ],
+    qarrshi: [
+      "Gatifloksatsin yoki boshqa ftorxinolonlarga o'ta sezuvchanlik",
+      "18 yoshgacha bolalar va o'smirlar",
+      "Homiladorlik va emizish davri",
+      "QT intervalining uzayishi; IA (xinidin, prokainamid) yoki III (amiodaron, sotalol) sinf antiaritmiklar bilan birga qo'llash (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish, qorin og'rig'i, anoreksiya, diareya, qabziyat, dispepsiya, meteorizm, gastrit, glossit, stomatit",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, migren, uyqusizlik, ajitatsiya, xavotir, chalkashlik, paresteziya, tremor, tirishishlar, depressiya, periferik neyropatiya",
+      "Yurak": "Taxikardiya, bradikardiya, arterial gipertenziya, QT uzayishi",
+      "Tayanch-harakat": "Pay uzilishi xavfining oshishi, ossalgiya, artrit",
+      "Nafas": "Giperventilyatsiya, bronxospazm",
+      "Allergiya": "Yuz va og'iz shilliq pardasi shishi, generalizatsiyalangan shish, makulo-papulyoz va vezikulobullyoz toshma",
+      "Boshqa": "Ko'krak va quloq og'rig'i, tashnalik, teri quruqligi, isitma, vaginit, gipoglikemiya, gematuriya",
+      "Mahalliy (oftalmologiya)": "Konyunktiva tirnashishi, ko'z yoshlanishi, keratit, ko'z qurishi sindromi, ko'rish keskinligi pasayishi"
+    },
+    dozadan: "Maxsus ma'lumotlar yo'q. Simptomatik davolash; QT intervali va yurak faoliyatini nazorat qilish tavsiya etiladi.",
+    ozarotasir: [
+      "Antidiabetik vositalar (gliburid, insulin) — gipo/giperglikemiya, glyukoza nazorati zarur",
+      "QT uzaytiruvchi preparatlar (sizaprid, eritromitsin, antipsixotiklar, trisiklik antidepressantlar), IA va III sinf antiaritmiklar — sinergistik QT uzayishi (ehtiyotkorlik)",
+      "Digoksin — ba'zi bemorlarda konsentratsiyasi oshadi (nazorat)",
+      "Probenetsid — gatifloksatsinning tizimli klirensini sezilarli oshiradi",
+      "Varfarin — protrombin vaqtini nazorat qilish tavsiya etiladi",
+      "NSAID — MNS tomonidan nojo'ya ta'sirlar, jumladan tirishishlar xavfini oshiradi"
+    ],
+    qollash: {
+      kattalar: "Og'iz orqali yoki i/v infuziya: pnevmoniya, bronxit zo'rayishi, teri infeksiyalari, pielonefrit, asoratli siydik yo'llari infeksiyalarida 400 mg/sut yoki 200 mg 2 marta 7–10 kun. O'tkir sinusit: 400 mg/sut 7–14 kun. Asoratsiz sistit: 1-doza 400 mg, keyin 200 mg/sut 3 kun. Asoratsiz gonokokk infeksiyasi: 400 mg bir marta. Ovqatdan 1 soat oldin yoki 2 soat keyin.",
+      bolalar: "Tizimli qo'llash 18 yoshgacha qarshi ko'rsatilgan. Oftalmologiyada (1 yoshdan): 1-kun har 2 soatda 1 tomchi (kuniga 8 martagacha), 2–7-kun 2–4 marta 1 tomchi"
+    },
+    chiqarish: "Pardali tabletkalar 200 mg va 400 mg; i/v infuziya uchun eritma 2 mg/ml; ko'z tomchilari 0,3%"
+  },
+  ru: {
+    gruppa: "Хинолоны / фторхинолоны",
+    farmTasir: "Антибактериальный фторхинолон широкого спектра",
+    farmakodinamika: `Гатифлоксацин — 8-метоксифторхинолон, антибактериальный препарат широкого спектра. Ингибирует синтез ДНК, блокируя ДНК-гиразу и топоизомеразу IV, нарушает сшивку разрывов ДНК, разрушает цитоплазму, клеточную стенку и мембраны бактерий. Действует на вне- и внутриклеточно расположенные микроорганизмы. Обладает широкой активностью в отношении грамположительных и грамотрицательных бактерий, анаэробной микрофлоры, а также микоплазм, риккетсий, уреаплазм. Эффективен против бактерий, резистентных к β-лактамным и макролидным антибиотикам. К гатифлоксацину чувствительны микобактерии туберкулёза и H. pylori.`,
+    farmakokinetika: {
+      sorish: "Хорошо абсорбируется внутрь; абсолютная биодоступность 96%. Cmax через 1–2 ч. Фармакокинетика линейна в дозах 200–800 мг",
+      tarqalish: "Связь с белками плазмы ~20% (не зависит от концентрации). Широко распределяется во многие ткани и жидкости (слизистая бронхов, альвеолярные макрофаги, влагалище и шейка матки); в органах-мишенях концентрации выше сывороточных",
+      metabolizm: "Подвергается ограниченной биотрансформации; <1% дозы экскретируется с мочой в виде метаболитов",
+      chiqarilish: "В неизменённом виде преимущественно почками (>70% за 48 ч); 5% с калом"
+    },
+    korsatmalar: [
+      "Пневмония, обострение хронического бронхита",
+      "Пиелонефрит, осложнённые и неосложнённые инфекции мочевых путей (цистит)",
+      "Инфекции ЛОР-органов, включая острый синусит",
+      "Инфекции кожи и мягких тканей",
+      "Заболевания, передающиеся половым путём (уретрит, цервицит, проктит; гонококковые инфекции)",
+      "В офтальмологии: бактериальные конъюнктивиты, вызванные чувствительными возбудителями"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к гатифлоксацину или другим фторхинолонам",
+      "Детский и подростковый возраст до 18 лет",
+      "Беременность и период лактации",
+      "Удлинение интервала QT; одновременный приём антиаритмиков класса IА (хинидин, прокаинамид) или III (амиодарон, соталол) — с осторожностью"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, рвота, боль в животе, анорексия, диарея, запор, диспепсия, метеоризм, гастрит, глоссит, стоматит",
+      "Нервная система": "Головная боль, головокружение, мигрень, бессонница, ажитация, тревожность, спутанность, парестезии, тремор, судороги, депрессия, периферическая невропатия",
+      "Сердце": "Тахикардия, брадикардия, артериальная гипертензия, удлинение QT",
+      "Костно-мышечная": "Повышенный риск разрыва сухожилий, оссалгии, артрит",
+      "Дыхательная": "Гипервентиляция, бронхоспазм",
+      "Аллергические": "Отёк лица и слизистой рта, генерализованный отёк, макуло-папулёзная и везикулобуллёзная сыпь",
+      "Прочие": "Боль в груди и ушах, жажда, сухость кожи, лихорадка, вагинит, гипогликемия, гематурия",
+      "Местные (офтальмология)": "Раздражение конъюнктивы, слезотечение, кератит, синдром сухого глаза, снижение остроты зрения"
+    },
+    dozadan: "Специальных данных нет. Симптоматическая терапия; рекомендуется контроль интервала QT и сердечной деятельности.",
+    ozarotasir: [
+      "Антидиабетические средства (глибурид, инсулин) — гипо/гипергликемия, контроль глюкозы",
+      "Препараты, удлиняющие QT (цизаприд, эритромицин, антипсихотики, трициклические антидепрессанты), антиаритмики IА и III класса — синергистическое удлинение QT (осторожность)",
+      "Дигоксин — у некоторых пациентов повышается концентрация (контроль)",
+      "Пробенецид — значительно повышает системный клиренс гатифлоксацина",
+      "Варфарин — рекомендуется контроль протромбинового времени",
+      "НПВП — повышают риск побочных эффектов со стороны ЦНС, включая судороги"
+    ],
+    qollash: {
+      kattalar: "Внутрь или в/в инфузия: при пневмонии, обострении бронхита, инфекциях кожи, пиелонефрите, осложнённых инфекциях мочевых путей — 400 мг/сут или 200 мг 2 раза 7–10 дней. Острый синусит: 400 мг/сут 7–14 дней. Неосложнённый цистит: 1-я доза 400 мг, затем 200 мг/сут 3 дня. Неосложнённая гонококковая инфекция: 400 мг однократно. За 1 ч до или через 2 ч после еды.",
+      bolalar: "Системное применение противопоказано до 18 лет. В офтальмологии (с 1 года): день 1-й — по 1 капле каждые 2 ч (до 8 раз), дни 2–7 — по 1 капле 2–4 раза"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 200 мг и 400 мг; раствор для в/в инфузии 2 мг/мл; глазные капли 0,3%"
+  },
+  en: {
+    gruppa: "Quinolones / fluoroquinolones",
+    farmTasir: "Broad-spectrum antibacterial fluoroquinolone",
+    farmakodinamika: `Gatifloxacin is an 8-methoxyfluoroquinolone, a broad-spectrum antibacterial agent. It inhibits DNA synthesis by blocking DNA gyrase and topoisomerase IV, disrupts repair of DNA breaks, and damages bacterial cytoplasm, cell wall and membranes. It acts on both extracellular and intracellular organisms. It has broad activity against Gram-positive and Gram-negative bacteria, anaerobic flora, as well as mycoplasma, rickettsia and ureaplasma. Effective against bacteria resistant to β-lactam and macrolide antibiotics. Mycobacterium tuberculosis and H. pylori are also susceptible.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally; absolute bioavailability 96%. Cmax in 1–2 h. Pharmacokinetics linear over 200–800 mg",
+      tarqalish: "Plasma protein binding ~20% (concentration-independent). Widely distributed into many tissues and fluids (bronchial mucosa, alveolar macrophages, vagina and cervix); concentrations in target organs exceed serum",
+      metabolizm: "Undergoes limited biotransformation; <1% of dose excreted in urine as metabolites",
+      chiqarilish: "Excreted unchanged predominantly by kidneys (>70% within 48 h); 5% in faeces"
+    },
+    korsatmalar: [
+      "Pneumonia, exacerbation of chronic bronchitis",
+      "Pyelonephritis, complicated and uncomplicated urinary tract infections (cystitis)",
+      "ENT infections, including acute sinusitis",
+      "Skin and soft tissue infections",
+      "Sexually transmitted diseases (urethritis, cervicitis, proctitis; gonococcal infections)",
+      "Ophthalmology: bacterial conjunctivitis caused by susceptible organisms"
+    ],
+    qarrshi: [
+      "Hypersensitivity to gatifloxacin or other fluoroquinolones",
+      "Children and adolescents under 18 years",
+      "Pregnancy and lactation",
+      "QT prolongation; concomitant class IA (quinidine, procainamide) or III (amiodarone, sotalol) antiarrhythmics — use with caution"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, vomiting, abdominal pain, anorexia, diarrhoea, constipation, dyspepsia, flatulence, gastritis, glossitis, stomatitis",
+      "Nervous system": "Headache, dizziness, migraine, insomnia, agitation, anxiety, confusion, paraesthesia, tremor, seizures, depression, peripheral neuropathy",
+      "Cardiac": "Tachycardia, bradycardia, arterial hypertension, QT prolongation",
+      "Musculoskeletal": "Increased tendon rupture risk, ossalgia, arthritis",
+      "Respiratory": "Hyperventilation, bronchospasm",
+      "Hypersensitivity": "Facial and oral mucosal oedema, generalised oedema, maculopapular and vesiculobullous rash",
+      "Other": "Chest and ear pain, thirst, dry skin, fever, vaginitis, hypoglycaemia, haematuria",
+      "Local (ophthalmic)": "Conjunctival irritation, lacrimation, keratitis, dry eye syndrome, reduced visual acuity"
+    },
+    dozadan: "No specific data. Symptomatic treatment; monitoring of QT interval and cardiac activity is recommended.",
+    ozarotasir: [
+      "Antidiabetic agents (glyburide, insulin) — hypo/hyperglycaemia, monitor glucose",
+      "QT-prolonging drugs (cisapride, erythromycin, antipsychotics, tricyclic antidepressants), class IA and III antiarrhythmics — synergistic QT prolongation (caution)",
+      "Digoxin — raised concentration in some patients (monitor)",
+      "Probenecid — markedly increases systemic clearance of gatifloxacin",
+      "Warfarin — monitoring of prothrombin time recommended",
+      "NSAIDs — increase risk of CNS adverse effects, including seizures"
+    ],
+    qollash: {
+      kattalar: "Oral or IV infusion: for pneumonia, bronchitis exacerbation, skin infections, pyelonephritis, complicated UTIs — 400 mg/day or 200 mg twice daily for 7–10 days. Acute sinusitis: 400 mg/day for 7–14 days. Uncomplicated cystitis: 400 mg first dose, then 200 mg/day for 3 days. Uncomplicated gonococcal infection: 400 mg single dose. Take 1 h before or 2 h after food.",
+      bolalar: "Systemic use contraindicated under 18 years. Ophthalmology (from 1 year): day 1 — 1 drop every 2 h (up to 8 times), days 2–7 — 1 drop 2–4 times daily"
+    },
+    chiqarish: "Film-coated tablets 200 mg and 400 mg; solution for IV infusion 2 mg/mL; eye drops 0.3%"
+  }
 }
 
 };
