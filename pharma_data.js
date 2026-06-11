@@ -5274,6 +5274,1122 @@ const PHARMA_DATA = {
     },
     chiqarish: "Chewable tablets; oral suspension"
   }
+},
+
+// ─── A02AF01 · Magaldrat + Simetikon ──────────────────────────────────────
+"A02AF01": {
+  uz: {
+    gruppa: "Antatsidlar — gaz haydovchi bilan kombinatsiyalar",
+    farmTasir: "Antatsid va meteorizmga qarshi kombinatsiya",
+    farmakodinamika: `Magaldrat (alyuminiy-magniy gidroksid sulfat) va simetikon kombinatsiyasi. Magaldrat — o'ziga xos kristall tuzilishga ega so'rilmaydigan antatsid; oshqozon kislotaliligiga qarab bosqichma-bosqich erib, xlorid kislotani neytrallaydi va pH ni fiziologik darajada ushlab turadi (buferli ta'sir), pepsin va o't kislotalarini bog'laydi. Simetikon yuza tarangligini pasaytirib gaz pufakchalarini yo'q qiladi va meteorizmni kamaytiradi. Muvozanatlashgan Al/Mg tarkibi ichak harakatiga neytral ta'sir qiladi.`,
+    farmakokinetika: {
+      sorish: "Magaldrat deyarli so'rilmaydi; simetikon umuman so'rilmaydi",
+      tarqalish: "Oshqozon-ichak luminida mahalliy ta'sir",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Najas bilan o'zgarmagan holda"
+    },
+    korsatmalar: [
+      "Giperatsid gastrit, dispepsiya, jig'ildon qaynashi",
+      "Reflyuks-ezofagit",
+      "Oshqozon-ichak yarasi (kompleks davoda)",
+      "Meteorizm va gaz to'planishi bilan kechadigan oshqozon noxushligi"
+    ],
+    qarrshi: [
+      "Komponentlarga o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi",
+      "Gipofosfatemiya"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich yumshashi, ko'ngil aynishi (katta dozada)",
+      "Metabolik": "Buyrak yetishmovchiligida gipermagniemiya",
+      "Allergiya": "Toshma, qichishish (kam)"
+    },
+    dozadan: "Ehtimoli past; buyrak yetishmovchiligida gipermagniemiya — simptomatik davolash.",
+    ozarotasir: [
+      "Tetratsiklin, ftorxinolon, temir, digoksin, tiroid gormoni so'rilishini kamaytiradi — 2 soat farq bilan",
+      "Enterik qobiqli preparatlar bilan tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "1 paket yoki 1–2 chaynaladigan tabletka kuniga 3–4 marta, ovqatdan 1 soat keyin va uxlash oldidan.",
+      bolalar: "Shifokor tavsiyasi bilan, kamaytirilgan dozada"
+    },
+    chiqarish: "Chaynaladigan tabletkalar; ichish uchun suspenziya (paketlarda)"
+  },
+  ru: {
+    gruppa: "Антациды в комбинации с ветрогонными",
+    farmTasir: "Антацидная и ветрогонная комбинация",
+    farmakodinamika: `Комбинация магалдрата (алюминиево-магниевый гидроксид сульфат) и симетикона. Магалдрат — невсасывающийся антацид с особой кристаллической структурой; растворяется постепенно в зависимости от кислотности, нейтрализует соляную кислоту и удерживает pH на физиологическом уровне (буферное действие), связывает пепсин и жёлчные кислоты. Симетикон снижает поверхностное натяжение, разрушает пузырьки газа и уменьшает метеоризм. Сбалансированный состав Al/Mg нейтрально влияет на моторику кишечника.`,
+    farmakokinetika: {
+      sorish: "Магалдрат практически не всасывается; симетикон не всасывается вовсе",
+      tarqalish: "Местное действие в просвете ЖКТ",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "С калом в неизменённом виде"
+    },
+    korsatmalar: [
+      "Гиперацидный гастрит, диспепсия, изжога",
+      "Рефлюкс-эзофагит",
+      "Язва желудка и кишечника (в комплексной терапии)",
+      "Желудочный дискомфорт с метеоризмом"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам",
+      "Тяжёлая почечная недостаточность",
+      "Гипофосфатемия"
+    ],
+    nojoya: {
+      "ЖКТ": "Послабление стула, тошнота (при высоких дозах)",
+      "Метаболические": "Гипермагниемия при почечной недостаточности",
+      "Аллергические": "Сыпь, зуд (редко)"
+    },
+    dozadan: "Маловероятна; при почечной недостаточности гипермагниемия — симптоматическое лечение.",
+    ozarotasir: [
+      "Снижает всасывание тетрациклина, фторхинолонов, железа, дигоксина, тиреоидных гормонов — интервал 2 часа",
+      "Не рекомендуется с препаратами в энтеросолюбильной оболочке"
+    ],
+    qollash: {
+      kattalar: "1 пакет или 1–2 жевательные таблетки 3–4 раза в день, через 1 ч после еды и перед сном.",
+      bolalar: "По рекомендации врача, в сниженной дозе"
+    },
+    chiqarish: "Жевательные таблетки; суспензия для приёма внутрь (в пакетах)"
+  },
+  en: {
+    gruppa: "Antacids in combination with antiflatulents",
+    farmTasir: "Antacid and antiflatulent combination",
+    farmakodinamika: `A combination of magaldrate (aluminium-magnesium hydroxide sulfate) and simethicone. Magaldrate is a non-absorbable antacid with a distinct crystalline structure; it dissolves gradually depending on acidity, neutralises hydrochloric acid and maintains pH at a physiological level (buffering action), and binds pepsin and bile acids. Simethicone lowers surface tension, disperses gas bubbles and reduces flatulence. The balanced Al/Mg composition has a neutral effect on bowel motility.`,
+    farmakokinetika: {
+      sorish: "Magaldrate is practically not absorbed; simethicone not at all",
+      tarqalish: "Local action in the GI lumen",
+      metabolizm: "Not metabolised",
+      chiqarilish: "In faeces unchanged"
+    },
+    korsatmalar: [
+      "Hyperacid gastritis, dyspepsia, heartburn",
+      "Reflux oesophagitis",
+      "Gastric and intestinal ulcer (in combination therapy)",
+      "Gastric discomfort with flatulence"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components",
+      "Severe renal impairment",
+      "Hypophosphataemia"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Loose stools, nausea (at high doses)",
+      "Metabolic": "Hypermagnesaemia in renal failure",
+      "Hypersensitivity": "Rash, itching (rare)"
+    },
+    dozadan: "Unlikely; hypermagnesaemia in renal failure — symptomatic treatment.",
+    ozarotasir: [
+      "Reduces absorption of tetracycline, fluoroquinolones, iron, digoxin, thyroid hormones — separate by 2 hours",
+      "Not recommended with enteric-coated preparations"
+    ],
+    qollash: {
+      kattalar: "1 sachet or 1–2 chewable tablets 3–4 times daily, 1 h after meals and at bedtime.",
+      bolalar: "On medical advice, in reduced dose"
+    },
+    chiqarish: "Chewable tablets; oral suspension (in sachets)"
+  }
+},
+
+// ─── A02B · Domperidon + Omeprazol (kombinatsiya) ─────────────────────────
+"A02B": {
+  uz: {
+    gruppa: "Yara va GERB davosida qo'llaniladigan preparatlar (kombinatsiya)",
+    farmTasir: "Protyon pompa inhibitori va prokinetik kombinatsiyasi",
+    farmakodinamika: `Omeprazol va domperidon kombinatsiyasi. Omeprazol — protyon pompa inhibitori (PPI): oshqozon parietal hujayralaridagi H+/K+-ATFaza fermentini qaytmas bloklab, kislota sekretsiyasining yakuniy bosqichini to'xtatadi va bazal hamda stimullangan kislota ishlab chiqarishini kuchli kamaytiradi. Domperidon — periferik dofamin D2 retseptorlari antagonisti (prokinetik): oshqozon va o'n ikki barmoq ichak harakatini kuchaytiradi, pastki qizilo'ngach sfinkteri tonusini oshiradi va oshqozon bo'shashini tezlashtiradi, shu bilan reflyuks va ko'ngil aynishini kamaytiradi. Kombinatsiya kislota bostirish va motorikani birga ta'minlaydi.`,
+    farmakokinetika: {
+      sorish: "Omeprazol enterik qobiqdan ingichka ichakда so'riladi; domperidon og'iz orqali so'riladi (biofaollik past — birinchi o'tish effekti)",
+      tarqalish: "Omeprazol oqsilga 95% bog'lanadi; domperidon BBO dan deyarli o'tmaydi",
+      metabolizm: "Ikkalasi jigarda metabolizmga uchraydi (omeprazol — CYP2C19/3A4; domperidon — CYP3A4)",
+      chiqarilish: "Omeprazol asosan buyrak orqali (metabolitlar); domperidon najas va siydik bilan"
+    },
+    korsatmalar: [
+      "Gastroezofageal reflyuks kasalligi (GERB), reflyuks-ezofagit",
+      "Oshqozon-ichak harakati sustligi bilan kechadigan dispepsiya",
+      "Ko'ngil aynishi va qusish bilan kechadigan giperatsid holatlar"
+    ],
+    qarrshi: [
+      "Komponentlarga o'ta sezuvchanlik",
+      "Oshqozon-ichak qon ketishi, perforatsiya yoki obstruksiyasi",
+      "Prolaktinoma",
+      "QT intervali uzayishi, sezilarli elektrolit buzilishlari yoki yurak kasalliklari (domperidon)",
+      "CYP3A4 ni kuchli inhibe qiluvchi yoki QT uzaytiruvchi preparatlar bilan birga"
+    ],
+    nojoya: {
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi",
+      "Oshqozon-ichak": "Qorin og'rig'i, ich yumshashi yoki qotishi, og'iz qurishi",
+      "Endokrin": "Giperprolaktinemiya, ginekomastiya, galaktoreya (domperidon)",
+      "Yurak": "QT uzayishi, aritmiya xavfi (domperidon, ayniqsa katta dozada)"
+    },
+    dozadan: "Domperidonda ekstrapiramidal belgilar va aritmiya mumkin — yurakni nazorat qilish, simptomatik davolash.",
+    ozarotasir: [
+      "CYP3A4 inhibitorlari (ketokonazol, eritromitsin) — domperidon konsentratsiyasi va QT xavfini oshiradi",
+      "Omeprazol klopidogrel faolligini kamaytiradi (CYP2C19)",
+      "Omeprazol oshqozon pH ini oshirib ketokonazol, atazanavir, temir so'rilishini kamaytiradi",
+      "Antixolinergiklar domperidon prokinetik ta'sirini susaytiradi"
+    ],
+    qollash: {
+      kattalar: "1 kapsula (odatda omeprazol 20 mg + domperidon 10–30 mg) kuniga 1 marta ovqatdan 15–30 daqiqa oldin; kurs shifokor tavsiyasi bilan.",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "Kapsula/tabletka (omeprazol + domperidon, ko'pincha modifikatsiyalangan chiqarishli)"
+  },
+  ru: {
+    gruppa: "Препараты для лечения язвы и ГЭРБ (комбинация)",
+    farmTasir: "Комбинация ингибитора протонной помпы и прокинетика",
+    farmakodinamika: `Комбинация омепразола и домперидона. Омепразол — ингибитор протонной помпы (ИПП): необратимо блокирует H+/K+-АТФазу париетальных клеток желудка, останавливая конечный этап секреции кислоты и значительно снижая базальную и стимулированную продукцию кислоты. Домперидон — антагонист периферических дофаминовых D2-рецепторов (прокинетик): усиливает моторику желудка и двенадцатиперстной кишки, повышает тонус нижнего пищеводного сфинктера и ускоряет опорожнение желудка, уменьшая рефлюкс и тошноту. Комбинация обеспечивает подавление кислоты и улучшение моторики.`,
+    farmakokinetika: {
+      sorish: "Омепразол всасывается в тонкой кишке из энтеросолюбильной оболочки; домперидон всасывается внутрь (низкая биодоступность — эффект первого прохождения)",
+      tarqalish: "Омепразол связывается с белками на 95%; домперидон почти не проникает через ГЭБ",
+      metabolizm: "Оба метаболизируются в печени (омепразол — CYP2C19/3A4; домперидон — CYP3A4)",
+      chiqarilish: "Омепразол преимущественно почками (метаболиты); домперидон с калом и мочой"
+    },
+    korsatmalar: [
+      "Гастроэзофагеальная рефлюксная болезнь (ГЭРБ), рефлюкс-эзофагит",
+      "Диспепсия со сниженной моторикой ЖКТ",
+      "Гиперацидные состояния с тошнотой и рвотой"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам",
+      "Желудочно-кишечное кровотечение, перфорация или обструкция",
+      "Пролактинома",
+      "Удлинение QT, выраженные электролитные нарушения или болезни сердца (домперидон)",
+      "Одновременно с сильными ингибиторами CYP3A4 или препаратами, удлиняющими QT"
+    ],
+    nojoya: {
+      "ЦНС": "Головная боль, головокружение",
+      "ЖКТ": "Боль в животе, послабление или запор, сухость во рту",
+      "Эндокринные": "Гиперпролактинемия, гинекомастия, галакторея (домперидон)",
+      "Сердце": "Удлинение QT, риск аритмии (домперидон, особенно в высоких дозах)"
+    },
+    dozadan: "Возможны экстрапирамидные симптомы и аритмия (домперидон) — контроль сердца, симптоматическое лечение.",
+    ozarotasir: [
+      "Ингибиторы CYP3A4 (кетоконазол, эритромицин) — повышают концентрацию домперидона и риск QT",
+      "Омепразол снижает активность клопидогрела (CYP2C19)",
+      "Омепразол, повышая pH желудка, снижает всасывание кетоконазола, атазанавира, железа",
+      "Антихолинергические средства ослабляют прокинетическое действие домперидона"
+    ],
+    qollash: {
+      kattalar: "1 капсула (обычно омепразол 20 мг + домперидон 10–30 мг) 1 раз в день за 15–30 минут до еды; курс по рекомендации врача.",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Капсула/таблетка (омепразол + домперидон, часто с модифицированным высвобождением)"
+  },
+  en: {
+    gruppa: "Drugs for ulcer and GERD (combination)",
+    farmTasir: "Combination of a proton pump inhibitor and a prokinetic",
+    farmakodinamika: `A combination of omeprazole and domperidone. Omeprazole is a proton pump inhibitor (PPI): it irreversibly blocks the H+/K+-ATPase of gastric parietal cells, halting the final step of acid secretion and markedly reducing basal and stimulated acid production. Domperidone is a peripheral dopamine D2 receptor antagonist (prokinetic): it enhances gastric and duodenal motility, increases lower oesophageal sphincter tone and accelerates gastric emptying, reducing reflux and nausea. The combination provides both acid suppression and improved motility.`,
+    farmakokinetika: {
+      sorish: "Omeprazole is absorbed in the small intestine from its enteric coating; domperidone is absorbed orally (low bioavailability — first-pass effect)",
+      tarqalish: "Omeprazole is 95% protein-bound; domperidone barely crosses the blood-brain barrier",
+      metabolizm: "Both are hepatically metabolised (omeprazole — CYP2C19/3A4; domperidone — CYP3A4)",
+      chiqarilish: "Omeprazole mainly renally (metabolites); domperidone in faeces and urine"
+    },
+    korsatmalar: [
+      "Gastro-oesophageal reflux disease (GERD), reflux oesophagitis",
+      "Dyspepsia with reduced GI motility",
+      "Hyperacid states with nausea and vomiting"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components",
+      "GI bleeding, perforation or obstruction",
+      "Prolactinoma",
+      "QT prolongation, significant electrolyte disturbances or cardiac disease (domperidone)",
+      "Concurrent strong CYP3A4 inhibitors or QT-prolonging drugs"
+    ],
+    nojoya: {
+      "CNS": "Headache, dizziness",
+      "Gastrointestinal": "Abdominal pain, loosening or constipation, dry mouth",
+      "Endocrine": "Hyperprolactinaemia, gynaecomastia, galactorrhoea (domperidone)",
+      "Cardiac": "QT prolongation, arrhythmia risk (domperidone, especially at high doses)"
+    },
+    dozadan: "Extrapyramidal symptoms and arrhythmia possible (domperidone) — cardiac monitoring, symptomatic treatment.",
+    ozarotasir: [
+      "CYP3A4 inhibitors (ketoconazole, erythromycin) — raise domperidone concentration and QT risk",
+      "Omeprazole reduces clopidogrel activation (CYP2C19)",
+      "Omeprazole, by raising gastric pH, reduces absorption of ketoconazole, atazanavir, iron",
+      "Anticholinergics weaken the prokinetic effect of domperidone"
+    ],
+    qollash: {
+      kattalar: "1 capsule (usually omeprazole 20 mg + domperidone 10–30 mg) once daily 15–30 min before food; course on medical advice.",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Capsule/tablet (omeprazole + domperidone, often modified-release)"
+  }
+},
+
+// ─── A02BA02 · Ranitidin ──────────────────────────────────────────────────
+"A02BA02": {
+  uz: {
+    gruppa: "Histamin H2-retseptor blokatorlari",
+    farmTasir: "Oshqozon kislotasi sekretsiyasini kamaytiruvchi vosita",
+    farmakodinamika: `Ranitidin — ikkinchi avlod histamin H2-retseptor blokatori. Oshqozon parietal hujayralaridagi H2-retseptorlarni tanlab bloklab, bazal va stimullangan (histamin, gastrin, asetilxolin tomonidan) xlorid kislota sekretsiyasini kamaytiradi; oshqozon shirasi hajmi va pepsin ishlab chiqarilishini pasaytiradi. Simetidиndan kuchliroq va uzoqroq ta'sir qiladi, antiandrogen va fermentlarni inhibe qiluvchi ta'siri ancha kam. Eslatma: NDMA aralashmasi xavfi tufayli ko'pgina mamlakatlarda bozordan olib qo'yilgan.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali tez so'riladi; biofaollik ~50%. Ovqat sezilarli ta'sir qilmaydi. Cmax 2–3 soatda",
+      tarqalish: "Oqsilga bog'lanish ~15%; to'qimalarga keng tarqaladi, ona sutiga o'tadi",
+      metabolizm: "Jigarda qisman metabolizmga uchraydi (oz qism)",
+      chiqarilish: "Asosan buyrak orqali (kanalcha sekretsiyasi); T½ 2–3 soat"
+    },
+    korsatmalar: [
+      "Oshqozon va o'n ikki barmoq ichak yarasi (davolash va profilaktika)",
+      "Reflyuks-ezofagit, gastroezofageal reflyuks",
+      "Zollinger-Ellison sindromi",
+      "NSAID bilan bog'liq yara profilaktikasi",
+      "Mendelson sindromi profilaktikasi (anesteziyadan oldin)"
+    ],
+    qarrshi: [
+      "Ranitidinga o'ta sezuvchanlik",
+      "Homiladorlik va emizish davri (ehtiyotkorlik)",
+      "O'tkir porfiriya anamnezi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi yoki yumshashi, ko'ngil aynishi, transaminazalar oshishi (kam)",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, charchoq; keksalar/buyrak yetishmovchiligida chalkashlik",
+      "Yurak": "Bradikardiya, AV-blokada (tez v/v yuborishda, kam)",
+      "Endokrin": "Kam hollarda ginekomastiya, giperprolaktinemiya",
+      "Qon tizimi": "Leykopeniya, trombotsitopeniya (kam)"
+    },
+    dozadan: "Maxsus antidot yo'q. Simptomatik davolash; gemodializ konsentratsiyani kamaytiradi.",
+    ozarotasir: [
+      "Oshqozon pH ini oshirib ketokonazol, itrakonazol, temir, atazanavir so'rilishini kamaytiradi",
+      "Prokainamid eliminatsiyasini sekinlashtiradi",
+      "Antatsidlar ranitidin so'rilishini kamaytiradi — 1–2 soat farq bilan"
+    ],
+    qollash: {
+      kattalar: "Og'iz orqali: 150 mg kuniga 2 marta yoki 300 mg kechqurun; profilaktika 150 mg kechqurun. V/m yoki v/v: 50 mg har 6–8 soatda. Buyrak yetishmovchiligida doza kamaytiriladi.",
+      bolalar: "Yaraда 2–4 mg/kg kuniga 2 marta (maks. 300 mg/sut)"
+    },
+    chiqarish: "Tabletkalar 150 mg, 300 mg; inyeksiya eritmasi 25 mg/ml"
+  },
+  ru: {
+    gruppa: "Блокаторы гистаминовых H2-рецепторов",
+    farmTasir: "Средство, снижающее секрецию желудочной кислоты",
+    farmakodinamika: `Ранитидин — блокатор гистаминовых H2-рецепторов второго поколения. Избирательно блокирует H2-рецепторы париетальных клеток желудка, снижая базальную и стимулированную (гистамином, гастрином, ацетилхолином) секрецию соляной кислоты; уменьшает объём желудочного сока и продукцию пепсина. Действует сильнее и дольше циметидина, с гораздо меньшим антиандрогенным и фермент-ингибирующим действием. Примечание: из-за риска примеси NDMA отозван с рынка во многих странах.`,
+    farmakokinetika: {
+      sorish: "Быстро всасывается внутрь; биодоступность ~50%. Пища существенно не влияет. Cmax через 2–3 ч",
+      tarqalish: "Связь с белками ~15%; широко распределяется, проникает в грудное молоко",
+      metabolizm: "Частично метаболизируется в печени (небольшая часть)",
+      chiqarilish: "Преимущественно почками (канальцевая секреция); T½ 2–3 ч"
+    },
+    korsatmalar: [
+      "Язва желудка и двенадцатиперстной кишки (лечение и профилактика)",
+      "Рефлюкс-эзофагит, гастроэзофагеальный рефлюкс",
+      "Синдром Золлингера–Эллисона",
+      "Профилактика язв, связанных с НПВП",
+      "Профилактика синдрома Мендельсона (перед анестезией)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к ранитидину",
+      "Беременность и период лактации (с осторожностью)",
+      "Острая порфирия в анамнезе"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор или послабление, тошнота, повышение трансаминаз (редко)",
+      "ЦНС": "Головная боль, головокружение, утомляемость; спутанность у пожилых/при почечной недостаточности",
+      "Сердце": "Брадикардия, АВ-блокада (при быстром в/в введении, редко)",
+      "Эндокринные": "Редко гинекомастия, гиперпролактинемия",
+      "Кроветворение": "Лейкопения, тромбоцитопения (редко)"
+    },
+    dozadan: "Специфического антидота нет. Симптоматическое лечение; гемодиализ снижает концентрацию.",
+    ozarotasir: [
+      "Повышая pH желудка, снижает всасывание кетоконазола, итраконазола, железа, атазанавира",
+      "Замедляет элиминацию прокаинамида",
+      "Антациды снижают всасывание ранитидина — интервал 1–2 часа"
+    ],
+    qollash: {
+      kattalar: "Внутрь: 150 мг 2 раза в день или 300 мг на ночь; профилактика 150 мг на ночь. В/м или в/в: 50 мг каждые 6–8 ч. При почечной недостаточности дозу снижают.",
+      bolalar: "При язве 2–4 мг/кг 2 раза в день (макс. 300 мг/сут)"
+    },
+    chiqarish: "Таблетки 150 мг, 300 мг; раствор для инъекций 25 мг/мл"
+  },
+  en: {
+    gruppa: "Histamine H2-receptor antagonists",
+    farmTasir: "Agent that reduces gastric acid secretion",
+    farmakodinamika: `Ranitidine is a second-generation histamine H2-receptor antagonist. It selectively blocks H2 receptors of gastric parietal cells, reducing basal and stimulated (by histamine, gastrin, acetylcholine) hydrochloric acid secretion; it lowers gastric juice volume and pepsin output. It is more potent and longer-acting than cimetidine, with much less antiandrogenic and enzyme-inhibiting effect. Note: due to NDMA impurity risk it has been withdrawn from the market in many countries.`,
+    farmakokinetika: {
+      sorish: "Rapidly absorbed orally; bioavailability ~50%. Food has little effect. Cmax in 2–3 h",
+      tarqalish: "Protein binding ~15%; widely distributed, enters breast milk",
+      metabolizm: "Partly metabolised in the liver (a small fraction)",
+      chiqarilish: "Mainly renally (tubular secretion); T½ 2–3 h"
+    },
+    korsatmalar: [
+      "Gastric and duodenal ulcer (treatment and prophylaxis)",
+      "Reflux oesophagitis, gastro-oesophageal reflux",
+      "Zollinger-Ellison syndrome",
+      "Prophylaxis of NSAID-associated ulcers",
+      "Prophylaxis of Mendelson's syndrome (before anaesthesia)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to ranitidine",
+      "Pregnancy and lactation (with caution)",
+      "History of acute porphyria"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation or loosening, nausea, raised transaminases (rare)",
+      "CNS": "Headache, dizziness, fatigue; confusion in the elderly/renal impairment",
+      "Cardiac": "Bradycardia, AV block (with rapid IV, rare)",
+      "Endocrine": "Rarely gynaecomastia, hyperprolactinaemia",
+      "Haematological": "Leucopenia, thrombocytopenia (rare)"
+    },
+    dozadan: "No specific antidote. Symptomatic treatment; haemodialysis reduces concentration.",
+    ozarotasir: [
+      "By raising gastric pH it reduces absorption of ketoconazole, itraconazole, iron, atazanavir",
+      "Slows elimination of procainamide",
+      "Antacids reduce ranitidine absorption — separate by 1–2 hours"
+    ],
+    qollash: {
+      kattalar: "Oral: 150 mg twice daily or 300 mg at night; prophylaxis 150 mg at night. IM or IV: 50 mg every 6–8 h. Reduce dose in renal impairment.",
+      bolalar: "For ulcer 2–4 mg/kg twice daily (max 300 mg/day)"
+    },
+    chiqarish: "Tablets 150 mg, 300 mg; injection solution 25 mg/mL"
+  }
+},
+
+// ─── A02BA03 · Famotidin ──────────────────────────────────────────────────
+"A02BA03": {
+  uz: {
+    gruppa: "Histamin H2-retseptor blokatorlari",
+    farmTasir: "Oshqozon kislotasi sekretsiyasini kuchli kamaytiruvchi vosita",
+    farmakodinamika: `Famotidin — uchinchi avlod histamin H2-retseptor blokatori. Parietal hujayralardagi H2-retseptorlarni tanlab bloklab, bazal va stimullangan xlorid kislota sekretsiyasini kamaytiradi, oshqozon shirasi hajmi va pepsin faolligini pasaytiradi. Ranitidindan ~8 marta, simetidindan ~40 marta kuchliroq; ta'siri uzoqroq (10–12 soatgacha). Sitoxrom P450 ga ta'sir qilmaydi, antiandrogen ta'siri yo'q, shuning uchun dori-dori o'zaro ta'siri kam.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali qisman so'riladi; biofaollik 40–45%. Cmax 1–3 soatda",
+      tarqalish: "Oqsilga bog'lanish 15–20%; ona sutiga o'tadi",
+      metabolizm: "Jigarda minimal metabolizm (S-oksid)",
+      chiqarilish: "Asosan buyrak orqali o'zgarmagan holda (kanalcha sekretsiyasi); T½ 2,5–3,5 soat"
+    },
+    korsatmalar: [
+      "Oshqozon va o'n ikki barmoq ichak yarasi (davolash va profilaktika)",
+      "Reflyuks-ezofagit, GERB",
+      "Zollinger-Ellison sindromi",
+      "Stress yaralari va NSAID gastropatiyasi profilaktikasi",
+      "Funksional dispepsiya"
+    ],
+    qarrshi: [
+      "Famotidinga yoki boshqa H2-blokatorlarga o'ta sezuvchanlik",
+      "Homiladorlik va emizish davri (ehtiyotkorlik)",
+      "3 yoshgacha bolalar (cheklangan ma'lumot)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi yoki diareya, ko'ngil aynishi, og'iz qurishi",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi; buyrak yetishmovchiligida chalkashlik",
+      "Yurak": "Aritmiya, QT uzayishi (kam, ko'p dozada/buyrak yetishmovchiligida)",
+      "Allergiya": "Toshma, qichishish, kamdan-kam anafilaksiya"
+    },
+    dozadan: "Maxsus antidot yo'q. Simptomatik davolash, qusdirish/oshqozonni yuvish.",
+    ozarotasir: [
+      "Oshqozon pH ini oshirib ketokonazol, itrakonazol, atazanavir, temir so'rilishini kamaytiradi",
+      "Antatsidlar famotidin so'rilishini kamaytiradi — 1–2 soat farq bilan",
+      "Probenetsid famotidin chiqarilishini sekinlashtiradi"
+    ],
+    qollash: {
+      kattalar: "Yarada: 40 mg kechqurun yoki 20 mg kuniga 2 marta, 4–8 hafta. Profilaktika: 20 mg kechqurun. Zollinger-Ellison: 20–40 mg har 6 soatda. Buyrak yetishmovchiligida doza kamaytiriladi.",
+      bolalar: "3 yoshdan: 0,5–1 mg/kg/sut (maks. 40 mg/sut)"
+    },
+    chiqarish: "Tabletkalar 20 mg, 40 mg; inyeksiya uchun kukun 20 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы гистаминовых H2-рецепторов",
+    farmTasir: "Средство, выраженно снижающее секрецию желудочной кислоты",
+    farmakodinamika: `Фамотидин — блокатор гистаминовых H2-рецепторов третьего поколения. Избирательно блокирует H2-рецепторы париетальных клеток, снижая базальную и стимулированную секрецию соляной кислоты, уменьшая объём желудочного сока и активность пепсина. Примерно в 8 раз сильнее ранитидина и в 40 раз — циметидина; действие более длительное (до 10–12 ч). Не влияет на цитохром P450, лишён антиандрогенного действия, поэтому имеет мало лекарственных взаимодействий.`,
+    farmakokinetika: {
+      sorish: "Частично всасывается внутрь; биодоступность 40–45%. Cmax через 1–3 ч",
+      tarqalish: "Связь с белками 15–20%; проникает в грудное молоко",
+      metabolizm: "Минимальный метаболизм в печени (S-оксид)",
+      chiqarilish: "Преимущественно почками в неизменённом виде (канальцевая секреция); T½ 2,5–3,5 ч"
+    },
+    korsatmalar: [
+      "Язва желудка и двенадцатиперстной кишки (лечение и профилактика)",
+      "Рефлюкс-эзофагит, ГЭРБ",
+      "Синдром Золлингера–Эллисона",
+      "Профилактика стрессовых язв и НПВП-гастропатии",
+      "Функциональная диспепсия"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к фамотидину или другим H2-блокаторам",
+      "Беременность и период лактации (с осторожностью)",
+      "Детский возраст до 3 лет (ограниченные данные)"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор или диарея, тошнота, сухость во рту",
+      "ЦНС": "Головная боль, головокружение; спутанность при почечной недостаточности",
+      "Сердце": "Аритмия, удлинение QT (редко, при высоких дозах/почечной недостаточности)",
+      "Аллергические": "Сыпь, зуд, редко анафилаксия"
+    },
+    dozadan: "Специфического антидота нет. Симптоматическое лечение, вызывание рвоты/промывание желудка.",
+    ozarotasir: [
+      "Повышая pH желудка, снижает всасывание кетоконазола, итраконазола, атазанавира, железа",
+      "Антациды снижают всасывание фамотидина — интервал 1–2 часа",
+      "Пробенецид замедляет выведение фамотидина"
+    ],
+    qollash: {
+      kattalar: "При язве: 40 мг на ночь или 20 мг 2 раза в день, 4–8 недель. Профилактика: 20 мг на ночь. Синдром Золлингера–Эллисона: 20–40 мг каждые 6 ч. При почечной недостаточности дозу снижают.",
+      bolalar: "С 3 лет: 0,5–1 мг/кг/сут (макс. 40 мг/сут)"
+    },
+    chiqarish: "Таблетки 20 мг, 40 мг; порошок для инъекций 20 мг"
+  },
+  en: {
+    gruppa: "Histamine H2-receptor antagonists",
+    farmTasir: "Agent that markedly reduces gastric acid secretion",
+    farmakodinamika: `Famotidine is a third-generation histamine H2-receptor antagonist. It selectively blocks H2 receptors of parietal cells, reducing basal and stimulated hydrochloric acid secretion and lowering gastric juice volume and pepsin activity. It is about 8 times more potent than ranitidine and 40 times more than cimetidine, with longer action (up to 10–12 h). It does not affect cytochrome P450 and lacks antiandrogenic action, so it has few drug interactions.`,
+    farmakokinetika: {
+      sorish: "Partly absorbed orally; bioavailability 40–45%. Cmax in 1–3 h",
+      tarqalish: "Protein binding 15–20%; enters breast milk",
+      metabolizm: "Minimal hepatic metabolism (S-oxide)",
+      chiqarilish: "Mainly renally unchanged (tubular secretion); T½ 2.5–3.5 h"
+    },
+    korsatmalar: [
+      "Gastric and duodenal ulcer (treatment and prophylaxis)",
+      "Reflux oesophagitis, GERD",
+      "Zollinger-Ellison syndrome",
+      "Prophylaxis of stress ulcers and NSAID gastropathy",
+      "Functional dyspepsia"
+    ],
+    qarrshi: [
+      "Hypersensitivity to famotidine or other H2 blockers",
+      "Pregnancy and lactation (with caution)",
+      "Children under 3 years (limited data)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation or diarrhoea, nausea, dry mouth",
+      "CNS": "Headache, dizziness; confusion in renal impairment",
+      "Cardiac": "Arrhythmia, QT prolongation (rare, at high doses/renal impairment)",
+      "Hypersensitivity": "Rash, itching, rarely anaphylaxis"
+    },
+    dozadan: "No specific antidote. Symptomatic treatment, induced emesis/gastric lavage.",
+    ozarotasir: [
+      "By raising gastric pH it reduces absorption of ketoconazole, itraconazole, atazanavir, iron",
+      "Antacids reduce famotidine absorption — separate by 1–2 hours",
+      "Probenecid slows famotidine excretion"
+    ],
+    qollash: {
+      kattalar: "For ulcer: 40 mg at night or 20 mg twice daily, 4–8 weeks. Prophylaxis: 20 mg at night. Zollinger-Ellison: 20–40 mg every 6 h. Reduce dose in renal impairment.",
+      bolalar: "From 3 years: 0.5–1 mg/kg/day (max 40 mg/day)"
+    },
+    chiqarish: "Tablets 20 mg, 40 mg; powder for injection 20 mg"
+  }
+},
+
+// ─── A02BB01 · Mizoprostol ────────────────────────────────────────────────
+"A02BB01": {
+  uz: {
+    gruppa: "Prostaglandinlar (oshqozon shilliq pardasini himoyalovchi)",
+    farmTasir: "Sintetik prostaglandin E1 analogi — sitoprotektiv va kislotani kamaytiruvchi",
+    farmakodinamika: `Mizoprostol — prostaglandin E1 ning sintetik analogi. Parietal hujayralardagi prostaglandin retseptorlariga ta'sir qilib bazal va stimullangan xlorid kislota sekretsiyasini kamaytiradi. Shu bilan birga shilliq pardani himoyalovchi (sitoprotektiv) ta'sir ko'rsatadi: bikarbonat va shilimshiq sekretsiyasini oshiradi, shilliq qavat qon aylanishini yaxshilaydi. Bachadon silliq mushaklarini qisqartiradi (uterotonik ta'sir) — bu xususiyat akusherlikda ham qo'llaniladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali tez so'riladi; ovqat va antatsidlar so'rilishni sekinlashtiradi",
+      tarqalish: "Faol metaboliti (mizoprostol kislotasi) oqsilga ~85% bog'lanadi",
+      metabolizm: "Tez esterlanib faol mizoprostol kislotasiga aylanadi, keyin oksidlanadi",
+      chiqarilish: "Asosan buyrak orqali; T½ ~20–40 daqiqa (faol metabolit)"
+    },
+    korsatmalar: [
+      "NSAID qabul qilish bilan bog'liq oshqozon va o'n ikki barmoq ichak yarasi profilaktikasi",
+      "Oshqozon va o'n ikki barmoq ichak yarasini davolash",
+      "Akusherlikda (alohida indikatsiyalar): homila tushishi, tug'ruqni induktsiya qilish, tug'ruqdan keyingi qon ketishi (mahalliy protokollar bo'yicha)"
+    ],
+    qarrshi: [
+      "Mizoprostol yoki prostaglandinlarга o'ta sezuvchanlik",
+      "Homiladorlik (yarani davolash maqsadida — mutlaq qarshi; bachadon qisqarishi va homila tushishi xavfi)",
+      "Reproduktiv yoshdagi ayollarda ishonchli kontratsepsiyasiz qo'llash",
+      "Og'ir yallig'lanishli ichak kasalliklari"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Diareya (ko'p), qorin og'rig'i, ko'ngil aynishi, meteorizm",
+      "Ginekologik": "Bachadon qisqarishi, qindan qon ketishi, menstrual buzilishlar",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi",
+      "Boshqa": "Titroq, isitma (akusherlik dozalarida)"
+    },
+    dozadan: "Belgilar: qorin og'rig'i, diareya, isitma, tremor, gipotenziya, bradikardiya. Davolash: simptomatik.",
+    ozarotasir: [
+      "Magniy tutuvchi antatsidlar diareyani kuchaytiradi — birga tavsiya etilmaydi",
+      "NSAID bilan birga maqsadli (yara profilaktikasi) qo'llaniladi"
+    ],
+    qollash: {
+      kattalar: "Yara/profilaktika: 200 mkg kuniga 2–4 marta ovqat bilan va uxlash oldidan (ko'tarilmasa 100 mkg). Akusherlik indikatsiyalari — faqat shifokor nazoratida, maxsus protokollar bo'yicha.",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "Tabletkalar 200 mkg (ba'zan 25 mkg, 100 mkg — akusherlik shakllari)"
+  },
+  ru: {
+    gruppa: "Простагландины (защищающие слизистую желудка)",
+    farmTasir: "Синтетический аналог простагландина E1 — цитопротективный и кислотоснижающий",
+    farmakodinamika: `Мизопростол — синтетический аналог простагландина E1. Воздействуя на простагландиновые рецепторы париетальных клеток, снижает базальную и стимулированную секрецию соляной кислоты. Одновременно оказывает защищающее слизистую (цитопротективное) действие: повышает секрецию бикарбоната и слизи, улучшает кровоток слизистой. Сокращает гладкую мускулатуру матки (утеротоническое действие) — это свойство используется в акушерстве.`,
+    farmakokinetika: {
+      sorish: "Быстро всасывается внутрь; пища и антациды замедляют всасывание",
+      tarqalish: "Активный метаболит (мизопростоловая кислота) связывается с белками на ~85%",
+      metabolizm: "Быстро этерифицируется в активную мизопростоловую кислоту, затем окисляется",
+      chiqarilish: "Преимущественно почками; T½ ~20–40 минут (активный метаболит)"
+    },
+    korsatmalar: [
+      "Профилактика язв желудка и двенадцатиперстной кишки, связанных с приёмом НПВП",
+      "Лечение язвы желудка и двенадцатиперстной кишки",
+      "В акушерстве (отдельные показания): прерывание беременности, индукция родов, послеродовое кровотечение (по местным протоколам)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к мизопростолу или простагландинам",
+      "Беременность (для лечения язвы — абсолютно противопоказан; риск сокращений матки и выкидыша)",
+      "Применение у женщин репродуктивного возраста без надёжной контрацепции",
+      "Тяжёлые воспалительные заболевания кишечника"
+    ],
+    nojoya: {
+      "ЖКТ": "Диарея (часто), боль в животе, тошнота, метеоризм",
+      "Гинекологические": "Сокращения матки, вагинальное кровотечение, нарушения менструации",
+      "ЦНС": "Головная боль, головокружение",
+      "Прочие": "Озноб, лихорадка (в акушерских дозах)"
+    },
+    dozadan: "Симптомы: боль в животе, диарея, лихорадка, тремор, гипотензия, брадикардия. Лечение: симптоматическое.",
+    ozarotasir: [
+      "Магнийсодержащие антациды усиливают диарею — не рекомендуется вместе",
+      "С НПВП применяется целенаправленно (профилактика язв)"
+    ],
+    qollash: {
+      kattalar: "Язва/профилактика: 200 мкг 2–4 раза в день с едой и перед сном (при непереносимости 100 мкг). Акушерские показания — только под контролем врача, по специальным протоколам.",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Таблетки 200 мкг (иногда 25 мкг, 100 мкг — акушерские формы)"
+  },
+  en: {
+    gruppa: "Prostaglandins (gastric mucosal protectants)",
+    farmTasir: "Synthetic prostaglandin E1 analogue — cytoprotective and acid-reducing",
+    farmakodinamika: `Misoprostol is a synthetic analogue of prostaglandin E1. Acting on prostaglandin receptors of parietal cells, it reduces basal and stimulated hydrochloric acid secretion. It also has a mucosa-protecting (cytoprotective) effect: it increases bicarbonate and mucus secretion and improves mucosal blood flow. It contracts uterine smooth muscle (uterotonic action) — a property also used in obstetrics.`,
+    farmakokinetika: {
+      sorish: "Rapidly absorbed orally; food and antacids slow absorption",
+      tarqalish: "The active metabolite (misoprostol acid) is ~85% protein-bound",
+      metabolizm: "Rapidly esterified to active misoprostol acid, then oxidised",
+      chiqarilish: "Mainly renally; T½ ~20–40 minutes (active metabolite)"
+    },
+    korsatmalar: [
+      "Prophylaxis of NSAID-associated gastric and duodenal ulcers",
+      "Treatment of gastric and duodenal ulcer",
+      "In obstetrics (separate indications): pregnancy termination, labour induction, postpartum haemorrhage (per local protocols)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to misoprostol or prostaglandins",
+      "Pregnancy (for ulcer treatment — absolutely contraindicated; risk of uterine contractions and miscarriage)",
+      "Use in women of reproductive age without reliable contraception",
+      "Severe inflammatory bowel disease"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Diarrhoea (common), abdominal pain, nausea, flatulence",
+      "Gynaecological": "Uterine contractions, vaginal bleeding, menstrual disturbances",
+      "CNS": "Headache, dizziness",
+      "Other": "Chills, fever (at obstetric doses)"
+    },
+    dozadan: "Symptoms: abdominal pain, diarrhoea, fever, tremor, hypotension, bradycardia. Treatment: symptomatic.",
+    ozarotasir: [
+      "Magnesium-containing antacids worsen diarrhoea — not recommended together",
+      "Used deliberately with NSAIDs (ulcer prophylaxis)"
+    ],
+    qollash: {
+      kattalar: "Ulcer/prophylaxis: 200 mcg 2–4 times daily with food and at bedtime (100 mcg if not tolerated). Obstetric indications — only under medical supervision per specific protocols.",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Tablets 200 mcg (sometimes 25 mcg, 100 mcg — obstetric forms)"
+  }
+},
+
+// ─── A02BC01 · Omeprazol ──────────────────────────────────────────────────
+"A02BC01": {
+  uz: {
+    gruppa: "Protyon pompa inhibitorlari (PPI)",
+    farmTasir: "Oshqozon kislotasi sekretsiyasini kuchli va uzoq bostiruvchi vosita",
+    farmakodinamika: `Omeprazol — protyon pompa inhibitori (PPI), benzimidazol hosilasi. Prepara-prodori bo'lib, oshqozon parietal hujayralarining sekretor kanalchalaridagi kislotali muhitda faol shaklga aylanadi va H+/K+-ATFaza (protyon pompa) fermentini qaytmas bloklaydi — bu kislota sekretsiyasining yakuniy umumiy bosqichi. Natijada bazal va har qanday qo'zg'atuvchi (histamin, gastrin, asetilxolin) bilan stimullangan kislota ishlab chiqarilishi kuchli va uzoq (24 soatgacha) kamayadi.`,
+    farmakokinetika: {
+      sorish: "Enterik (kislotaga chidamli) qobiqda; ingichka ichakда so'riladi, biofaollik 35–60% (takroriy qabulда oshadi)",
+      tarqalish: "Oqsilga bog'lanish ~95%; parietal hujayralarda to'planadi",
+      metabolizm: "Jigarda CYP2C19 va CYP3A4 orqali to'liq metabolizmga uchraydi (CYP2C19 polimorfizmi muhim)",
+      chiqarilish: "Metabolitlar asosan buyrak orqali (~80%); T½ 0,5–1 soat, lekin ta'siri ferment qaytmas blokirovkasi tufayli ancha uzoq"
+    },
+    korsatmalar: [
+      "Oshqozon va o'n ikki barmoq ichak yarasi",
+      "Gastroezofageal reflyuks kasalligi (GERB), eroziv ezofagit",
+      "Helicobacter pylori eradikatsiyasi (antibiotiklar bilan)",
+      "Zollinger-Ellison sindromi",
+      "NSAID bilan bog'liq yara davosi va profilaktikasi"
+    ],
+    qarrshi: [
+      "Omeprazol yoki boshqa PPI/benzimidazollarga o'ta sezuvchanlik",
+      "Nelfinavir, atazanavir bilan birga qo'llash",
+      "Ehtiyotkorlik: og'ir jigar yetishmovchiligi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Bosh og'rig'i, diareya yoki ich qotishi, qorin og'rig'i, ko'ngil aynishi, meteorizm",
+      "Metabolik": "Uzoq qo'llashda gipomagniemiya, B12 vitamini va temir so'rilishi kamayishi",
+      "Suyak": "Uzoq qo'llashda suyak sinishi xavfi (osteoporotik)",
+      "Infeksiya": "Ichak infeksiyalari (C. difficile), pnevmoniya xavfi biroz oshishi",
+      "Boshqa": "Transaminazalar oshishi, toshma, interstitsial nefrit (kam)"
+    },
+    dozadan: "Maxsus antidot yo'q; gemodializ samarasiz (oqsilga bog'langan). Simptomatik davolash.",
+    ozarotasir: [
+      "Klopidogrel — faollanishini kamaytiradi (CYP2C19), antiagregant ta'sir susayadi",
+      "Atazanavir, nelfinavir, ketokonazol, itrakonazol — so'rilishi kamayadi (pH)",
+      "Varfarin, fenitoin, diazepam — metabolizmini sekinlashtiradi (nazorat)",
+      "Metotreksat (yuqori dozada) — konsentratsiyasi oshishi mumkin",
+      "Digoksin, temir, B12 so'rilishiga ta'sir qiladi"
+    ],
+    qollash: {
+      kattalar: "GERB/yara: 20–40 mg kuniga 1 marta ertalab ovqatdan oldin, 4–8 hafta. H. pylori: 20 mg kuniga 2 marta antibiotiklar bilan 7–14 kun. Zollinger-Ellison: 60 mg/sut dan boshlab titrlanadi.",
+      bolalar: "1 yoshdan, vaznга qarab: 10–20 mg/sut"
+    },
+    chiqarish: "Kapsulalar/tabletkalar 10 mg, 20 mg, 40 mg (enterik); i/v infuziya uchun kukun 40 mg"
+  },
+  ru: {
+    gruppa: "Ингибиторы протонной помпы (ИПП)",
+    farmTasir: "Средство, мощно и длительно подавляющее секрецию желудочной кислоты",
+    farmakodinamika: `Омепразол — ингибитор протонной помпы (ИПП), производное бензимидазола. Является пролекарством: в кислой среде секреторных канальцев париетальных клеток превращается в активную форму и необратимо блокирует H+/K+-АТФазу (протонную помпу) — конечный общий этап секреции кислоты. В результате базальная и стимулированная любым раздражителем (гистамин, гастрин, ацетилхолин) продукция кислоты мощно и длительно (до 24 ч) снижается.`,
+    farmakokinetika: {
+      sorish: "В энтеросолюбильной (кислотоустойчивой) оболочке; всасывается в тонкой кишке, биодоступность 35–60% (повышается при повторном приёме)",
+      tarqalish: "Связь с белками ~95%; накапливается в париетальных клетках",
+      metabolizm: "Полностью метаболизируется в печени через CYP2C19 и CYP3A4 (важен полиморфизм CYP2C19)",
+      chiqarilish: "Метаболиты преимущественно почками (~80%); T½ 0,5–1 ч, но действие гораздо дольше из-за необратимой блокады фермента"
+    },
+    korsatmalar: [
+      "Язва желудка и двенадцатиперстной кишки",
+      "Гастроэзофагеальная рефлюксная болезнь (ГЭРБ), эрозивный эзофагит",
+      "Эрадикация Helicobacter pylori (с антибиотиками)",
+      "Синдром Золлингера–Эллисона",
+      "Лечение и профилактика язв, связанных с НПВП"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к омепразолу или другим ИПП/бензимидазолам",
+      "Одновременный приём нелфинавира, атазанавира",
+      "С осторожностью: тяжёлая печёночная недостаточность"
+    ],
+    nojoya: {
+      "ЖКТ": "Головная боль, диарея или запор, боль в животе, тошнота, метеоризм",
+      "Метаболические": "При длительном применении гипомагниемия, снижение всасывания витамина B12 и железа",
+      "Кости": "Риск переломов при длительном применении (остеопоротических)",
+      "Инфекции": "Кишечные инфекции (C. difficile), небольшое повышение риска пневмонии",
+      "Прочие": "Повышение трансаминаз, сыпь, интерстициальный нефрит (редко)"
+    },
+    dozadan: "Специфического антидота нет; гемодиализ неэффективен (связь с белками). Симптоматическое лечение.",
+    ozarotasir: [
+      "Клопидогрел — снижает его активацию (CYP2C19), ослабляя антиагрегантный эффект",
+      "Атазанавир, нелфинавир, кетоконазол, итраконазол — снижается всасывание (pH)",
+      "Варфарин, фенитоин, диазепам — замедляет их метаболизм (контроль)",
+      "Метотрексат (в высоких дозах) — возможно повышение концентрации",
+      "Влияет на всасывание дигоксина, железа, B12"
+    ],
+    qollash: {
+      kattalar: "ГЭРБ/язва: 20–40 мг 1 раз в день утром до еды, 4–8 недель. H. pylori: 20 мг 2 раза в день с антибиотиками 7–14 дней. Синдром Золлингера–Эллисона: с 60 мг/сут с титрованием.",
+      bolalar: "С 1 года, по массе тела: 10–20 мг/сут"
+    },
+    chiqarish: "Капсулы/таблетки 10 мг, 20 мг, 40 мг (энтеросолюбильные); порошок для в/в инфузии 40 мг"
+  },
+  en: {
+    gruppa: "Proton pump inhibitors (PPI)",
+    farmTasir: "Agent that potently and durably suppresses gastric acid secretion",
+    farmakodinamika: `Omeprazole is a proton pump inhibitor (PPI), a benzimidazole derivative. It is a prodrug: in the acidic secretory canaliculi of parietal cells it converts to the active form and irreversibly blocks H+/K+-ATPase (the proton pump) — the final common step of acid secretion. As a result, basal and stimulated (by histamine, gastrin, acetylcholine) acid production is potently and durably (up to 24 h) reduced.`,
+    farmakokinetika: {
+      sorish: "Enteric (acid-resistant) coated; absorbed in the small intestine, bioavailability 35–60% (increases with repeated dosing)",
+      tarqalish: "Protein binding ~95%; accumulates in parietal cells",
+      metabolizm: "Fully metabolised in the liver via CYP2C19 and CYP3A4 (CYP2C19 polymorphism is important)",
+      chiqarilish: "Metabolites mainly renally (~80%); T½ 0.5–1 h, but action is much longer due to irreversible enzyme blockade"
+    },
+    korsatmalar: [
+      "Gastric and duodenal ulcer",
+      "Gastro-oesophageal reflux disease (GERD), erosive oesophagitis",
+      "Helicobacter pylori eradication (with antibiotics)",
+      "Zollinger-Ellison syndrome",
+      "Treatment and prophylaxis of NSAID-associated ulcers"
+    ],
+    qarrshi: [
+      "Hypersensitivity to omeprazole or other PPIs/benzimidazoles",
+      "Concomitant nelfinavir, atazanavir",
+      "Caution: severe hepatic impairment"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Headache, diarrhoea or constipation, abdominal pain, nausea, flatulence",
+      "Metabolic": "Hypomagnesaemia, reduced vitamin B12 and iron absorption with prolonged use",
+      "Bone": "Risk of (osteoporotic) fractures with prolonged use",
+      "Infections": "Intestinal infections (C. difficile), slight increase in pneumonia risk",
+      "Other": "Raised transaminases, rash, interstitial nephritis (rare)"
+    },
+    dozadan: "No specific antidote; haemodialysis ineffective (protein-bound). Symptomatic treatment.",
+    ozarotasir: [
+      "Clopidogrel — reduces its activation (CYP2C19), weakening antiplatelet effect",
+      "Atazanavir, nelfinavir, ketoconazole, itraconazole — reduced absorption (pH)",
+      "Warfarin, phenytoin, diazepam — slows their metabolism (monitor)",
+      "Methotrexate (high dose) — concentration may rise",
+      "Affects absorption of digoxin, iron, B12"
+    ],
+    qollash: {
+      kattalar: "GERD/ulcer: 20–40 mg once daily in the morning before food, 4–8 weeks. H. pylori: 20 mg twice daily with antibiotics for 7–14 days. Zollinger-Ellison: from 60 mg/day, titrated.",
+      bolalar: "From 1 year, by body weight: 10–20 mg/day"
+    },
+    chiqarish: "Capsules/tablets 10 mg, 20 mg, 40 mg (enteric); powder for IV infusion 40 mg"
+  }
+},
+
+// ─── A02BC02 · Pantoprazol ────────────────────────────────────────────────
+"A02BC02": {
+  uz: {
+    gruppa: "Protyon pompa inhibitorlari (PPI)",
+    farmTasir: "Oshqozon kislotasi sekretsiyasini bostiruvchi vosita",
+    farmakodinamika: `Pantoprazol — protyon pompa inhibitori, benzimidazol hosilasi. Parietal hujayralarning kislotali sekretor kanalchalarida faollashib, H+/K+-ATFazani qaytmas bloklaydi va kislota sekretsiyasining yakuniy bosqichini to'xtatadi. Boshqa PPIlardan farqli — kislotali muhitда biroz barqarorroq va CYP fermentlariga ta'siri kamroq, shuning uchun dori-dori o'zaro ta'siri nisbatan past. Bazal va stimullangan kislota ishlab chiqarilishini uzoq kamaytiradi.`,
+    farmakokinetika: {
+      sorish: "Enterik qobiqda; biofaollik ~77% (birinchi dozadanoq, takрorda o'zgarmaydi). Ovqat Cmax vaqtini o'zgartirishi mumkin",
+      tarqalish: "Oqsilga bog'lanish ~98%",
+      metabolizm: "Jigarda CYP2C19 (asosan) va CYP3A4 orqali; CYP2C19 polimorfizmiga ta'siri kamroq",
+      chiqarilish: "Metabolitlar asosan buyrak orqali (~80%); T½ ~1 soat, ta'siri uzoq"
+    },
+    korsatmalar: [
+      "Oshqozon va o'n ikki barmoq ichak yarasi",
+      "GERB, eroziv-yarali ezofagit",
+      "Helicobacter pylori eradikatsiyasi (antibiotiklar bilan)",
+      "Zollinger-Ellison sindromi",
+      "NSAID bilan bog'liq yara profilaktikasi"
+    ],
+    qarrshi: [
+      "Pantoprazol yoki benzimidazollarga o'ta sezuvchanlik",
+      "Atazanavir/nelfinavir bilan birga qo'llash",
+      "Ehtiyotkorlik: og'ir jigar yetishmovchiligi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Bosh og'rig'i, diareya, qorin og'rig'i, ko'ngil aynishi, meteorizm",
+      "Metabolik": "Uzoq qo'llashda gipomagniemiya, B12 kamayishi",
+      "Suyak": "Uzoq qo'llashda suyak sinishi xavfi",
+      "Boshqa": "Transaminazalar oshishi, toshma, interstitsial nefrit (kam)"
+    },
+    dozadan: "Maxsus antidot yo'q; gemodializ samarasiz. Simptomatik davolash.",
+    ozarotasir: [
+      "Atazanavir, ketokonazol, temir — so'rilishi kamayadi (pH)",
+      "Varfarin — INR nazorati tavsiya etiladi",
+      "Klopidogrelga ta'siri boshqa PPIlardan kamroq (lekin ehtiyotkorlik)"
+    ],
+    qollash: {
+      kattalar: "GERB/yara: 40 mg kuniga 1 marta ertalab ovqatdan oldin, 4–8 hafta. H. pylori: 40 mg kuniga 2 marta antibiotiklar bilan. Zollinger-Ellison: 80 mg/sut dan titrlanadi.",
+      bolalar: "5 yoshdan, vaznга qarab: 20–40 mg/sut"
+    },
+    chiqarish: "Enterik tabletkalar 20 mg, 40 mg; i/v inyeksiya uchun kukun 40 mg"
+  },
+  ru: {
+    gruppa: "Ингибиторы протонной помпы (ИПП)",
+    farmTasir: "Средство, подавляющее секрецию желудочной кислоты",
+    farmakodinamika: `Пантопразол — ингибитор протонной помпы, производное бензимидазола. Активируется в кислых секреторных канальцах париетальных клеток и необратимо блокирует H+/K+-АТФазу, останавливая конечный этап секреции кислоты. В отличие от других ИПП несколько стабильнее в кислой среде и меньше влияет на ферменты CYP, поэтому имеет относительно мало лекарственных взаимодействий. Длительно снижает базальную и стимулированную продукцию кислоты.`,
+    farmakokinetika: {
+      sorish: "В энтеросолюбильной оболочке; биодоступность ~77% (с первой дозы, не меняется при повторном приёме). Пища может изменить время Cmax",
+      tarqalish: "Связь с белками ~98%",
+      metabolizm: "В печени через CYP2C19 (преимущественно) и CYP3A4; меньше зависит от полиморфизма CYP2C19",
+      chiqarilish: "Метаболиты преимущественно почками (~80%); T½ ~1 ч, действие длительное"
+    },
+    korsatmalar: [
+      "Язва желудка и двенадцатиперстной кишки",
+      "ГЭРБ, эрозивно-язвенный эзофагит",
+      "Эрадикация Helicobacter pylori (с антибиотиками)",
+      "Синдром Золлингера–Эллисона",
+      "Профилактика язв, связанных с НПВП"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к пантопразолу или бензимидазолам",
+      "Одновременный приём атазанавира/нелфинавира",
+      "С осторожностью: тяжёлая печёночная недостаточность"
+    ],
+    nojoya: {
+      "ЖКТ": "Головная боль, диарея, боль в животе, тошнота, метеоризм",
+      "Метаболические": "При длительном применении гипомагниемия, снижение B12",
+      "Кости": "Риск переломов при длительном применении",
+      "Прочие": "Повышение трансаминаз, сыпь, интерстициальный нефрит (редко)"
+    },
+    dozadan: "Специфического антидота нет; гемодиализ неэффективен. Симптоматическое лечение.",
+    ozarotasir: [
+      "Атазанавир, кетоконазол, железо — снижается всасывание (pH)",
+      "Варфарин — рекомендуется контроль МНО",
+      "Влияние на клопидогрел меньше, чем у других ИПП (но с осторожностью)"
+    ],
+    qollash: {
+      kattalar: "ГЭРБ/язва: 40 мг 1 раз в день утром до еды, 4–8 недель. H. pylori: 40 мг 2 раза в день с антибиотиками. Синдром Золлингера–Эллисона: с 80 мг/сут с титрованием.",
+      bolalar: "С 5 лет, по массе тела: 20–40 мг/сут"
+    },
+    chiqarish: "Энтеросолюбильные таблетки 20 мг, 40 мг; порошок для в/в инъекций 40 мг"
+  },
+  en: {
+    gruppa: "Proton pump inhibitors (PPI)",
+    farmTasir: "Agent that suppresses gastric acid secretion",
+    farmakodinamika: `Pantoprazole is a proton pump inhibitor, a benzimidazole derivative. It is activated in the acidic secretory canaliculi of parietal cells and irreversibly blocks H+/K+-ATPase, halting the final step of acid secretion. Unlike other PPIs it is somewhat more stable in acidic conditions and has less effect on CYP enzymes, so it has relatively few drug interactions. It durably reduces basal and stimulated acid production.`,
+    farmakokinetika: {
+      sorish: "Enteric-coated; bioavailability ~77% (from the first dose, unchanged with repeated dosing). Food may alter Cmax timing",
+      tarqalish: "Protein binding ~98%",
+      metabolizm: "Hepatic via CYP2C19 (mainly) and CYP3A4; less dependent on CYP2C19 polymorphism",
+      chiqarilish: "Metabolites mainly renally (~80%); T½ ~1 h, action prolonged"
+    },
+    korsatmalar: [
+      "Gastric and duodenal ulcer",
+      "GERD, erosive-ulcerative oesophagitis",
+      "Helicobacter pylori eradication (with antibiotics)",
+      "Zollinger-Ellison syndrome",
+      "Prophylaxis of NSAID-associated ulcers"
+    ],
+    qarrshi: [
+      "Hypersensitivity to pantoprazole or benzimidazoles",
+      "Concomitant atazanavir/nelfinavir",
+      "Caution: severe hepatic impairment"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Headache, diarrhoea, abdominal pain, nausea, flatulence",
+      "Metabolic": "Hypomagnesaemia, reduced B12 with prolonged use",
+      "Bone": "Fracture risk with prolonged use",
+      "Other": "Raised transaminases, rash, interstitial nephritis (rare)"
+    },
+    dozadan: "No specific antidote; haemodialysis ineffective. Symptomatic treatment.",
+    ozarotasir: [
+      "Atazanavir, ketoconazole, iron — reduced absorption (pH)",
+      "Warfarin — INR monitoring recommended",
+      "Less effect on clopidogrel than other PPIs (but use caution)"
+    ],
+    qollash: {
+      kattalar: "GERD/ulcer: 40 mg once daily in the morning before food, 4–8 weeks. H. pylori: 40 mg twice daily with antibiotics. Zollinger-Ellison: from 80 mg/day, titrated.",
+      bolalar: "From 5 years, by body weight: 20–40 mg/day"
+    },
+    chiqarish: "Enteric tablets 20 mg, 40 mg; powder for IV injection 40 mg"
+  }
+},
+
+// ─── A02BC03 · Lansoprazol ────────────────────────────────────────────────
+"A02BC03": {
+  uz: {
+    gruppa: "Protyon pompa inhibitorlari (PPI)",
+    farmTasir: "Oshqozon kislotasi sekretsiyasini bostiruvchi vosita",
+    farmakodinamika: `Lansoprazol — protyon pompa inhibitori, benzimidazol hosilasi. Parietal hujayralarning kislotali kanalchalarida faollashib, H+/K+-ATFazani qaytmas bloklaydi va kislota sekretsiyasining yakuniy bosqichini to'xtatadi. Bazal va stimullangan kislota ishlab chiqarilishini kuchli va uzoq kamaytiradi. Yuqori biofaollik bilan ajralib turadi va kislota bostirishni tez boshlaydi.`,
+    farmakokinetika: {
+      sorish: "Enterik qobiqda; biofaollik yuqori (~80–90%). Ovqat so'rilishni kamaytiradi — ovqatdan oldin qabul qilinadi",
+      tarqalish: "Oqsilga bog'lanish ~97%",
+      metabolizm: "Jigarda CYP2C19 va CYP3A4 orqali",
+      chiqarilish: "Metabolitlar o't va siydik bilan; T½ ~1,5 soat, ta'siri uzoq"
+    },
+    korsatmalar: [
+      "Oshqozon va o'n ikki barmoq ichak yarasi",
+      "GERB, eroziv ezofagit",
+      "Helicobacter pylori eradikatsiyasi (antibiotiklar bilan)",
+      "Zollinger-Ellison sindromi",
+      "NSAID bilan bog'liq yara davosi va profilaktikasi"
+    ],
+    qarrshi: [
+      "Lansoprazol yoki benzimidazollarga o'ta sezuvchanlik",
+      "Atazanavir/nelfinavir bilan birga qo'llash",
+      "Ehtiyotkorlik: og'ir jigar yetishmovchiligi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Bosh og'rig'i, diareya, ko'ngil aynishi, qorin og'rig'i, meteorizm",
+      "Metabolik": "Uzoq qo'llashda gipomagniemiya, B12 kamayishi",
+      "Suyak": "Uzoq qo'llashda suyak sinishi xavfi",
+      "Boshqa": "Transaminazalar oshishi, toshma, interstitsial nefrit (kam)"
+    },
+    dozadan: "Maxsus antidot yo'q; gemodializ samarasiz. Simptomatik davolash.",
+    ozarotasir: [
+      "Atazanavir, ketokonazol, temir — so'rilishi kamayadi (pH)",
+      "Klopidogrel faollanishini kamaytirishi mumkin (CYP2C19)",
+      "Teofillin, takrolimus konsentratsiyasiga ta'sir qilishi mumkin"
+    ],
+    qollash: {
+      kattalar: "GERB/yara: 30 mg kuniga 1 marta ertalab ovqatdan oldin, 4–8 hafta. H. pylori: 30 mg kuniga 2 marta antibiotiklar bilan. Saqlash dozasi 15 mg/sut.",
+      bolalar: "1 yoshdan, vaznга qarab: 15–30 mg/sut"
+    },
+    chiqarish: "Kapsulalar/og'izda eriydigan tabletkalar 15 mg, 30 mg (enterik)"
+  },
+  ru: {
+    gruppa: "Ингибиторы протонной помпы (ИПП)",
+    farmTasir: "Средство, подавляющее секрецию желудочной кислоты",
+    farmakodinamika: `Лансопразол — ингибитор протонной помпы, производное бензимидазола. Активируется в кислых канальцах париетальных клеток, необратимо блокирует H+/K+-АТФазу и останавливает конечный этап секреции кислоты. Мощно и длительно снижает базальную и стимулированную продукцию кислоты. Отличается высокой биодоступностью и быстрым началом подавления кислоты.`,
+    farmakokinetika: {
+      sorish: "В энтеросолюбильной оболочке; биодоступность высокая (~80–90%). Пища снижает всасывание — принимают до еды",
+      tarqalish: "Связь с белками ~97%",
+      metabolizm: "В печени через CYP2C19 и CYP3A4",
+      chiqarilish: "Метаболиты с жёлчью и мочой; T½ ~1,5 ч, действие длительное"
+    },
+    korsatmalar: [
+      "Язва желудка и двенадцатиперстной кишки",
+      "ГЭРБ, эрозивный эзофагит",
+      "Эрадикация Helicobacter pylori (с антибиотиками)",
+      "Синдром Золлингера–Эллисона",
+      "Лечение и профилактика язв, связанных с НПВП"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к лансопразолу или бензимидазолам",
+      "Одновременный приём атазанавира/нелфинавира",
+      "С осторожностью: тяжёлая печёночная недостаточность"
+    ],
+    nojoya: {
+      "ЖКТ": "Головная боль, диарея, тошнота, боль в животе, метеоризм",
+      "Метаболические": "При длительном применении гипомагниемия, снижение B12",
+      "Кости": "Риск переломов при длительном применении",
+      "Прочие": "Повышение трансаминаз, сыпь, интерстициальный нефрит (редко)"
+    },
+    dozadan: "Специфического антидота нет; гемодиализ неэффективен. Симптоматическое лечение.",
+    ozarotasir: [
+      "Атазанавир, кетоконазол, железо — снижается всасывание (pH)",
+      "Может снижать активацию клопидогрела (CYP2C19)",
+      "Может влиять на концентрацию теофиллина, такролимуса"
+    ],
+    qollash: {
+      kattalar: "ГЭРБ/язва: 30 мг 1 раз в день утром до еды, 4–8 недель. H. pylori: 30 мг 2 раза в день с антибиотиками. Поддерживающая доза 15 мг/сут.",
+      bolalar: "С 1 года, по массе тела: 15–30 мг/сут"
+    },
+    chiqarish: "Капсулы/таблетки, диспергируемые во рту, 15 мг, 30 мг (энтеросолюбильные)"
+  },
+  en: {
+    gruppa: "Proton pump inhibitors (PPI)",
+    farmTasir: "Agent that suppresses gastric acid secretion",
+    farmakodinamika: `Lansoprazole is a proton pump inhibitor, a benzimidazole derivative. It is activated in the acidic canaliculi of parietal cells, irreversibly blocks H+/K+-ATPase and halts the final step of acid secretion. It potently and durably reduces basal and stimulated acid production. It is notable for high bioavailability and rapid onset of acid suppression.`,
+    farmakokinetika: {
+      sorish: "Enteric-coated; bioavailability high (~80–90%). Food reduces absorption — taken before meals",
+      tarqalish: "Protein binding ~97%",
+      metabolizm: "Hepatic via CYP2C19 and CYP3A4",
+      chiqarilish: "Metabolites in bile and urine; T½ ~1.5 h, action prolonged"
+    },
+    korsatmalar: [
+      "Gastric and duodenal ulcer",
+      "GERD, erosive oesophagitis",
+      "Helicobacter pylori eradication (with antibiotics)",
+      "Zollinger-Ellison syndrome",
+      "Treatment and prophylaxis of NSAID-associated ulcers"
+    ],
+    qarrshi: [
+      "Hypersensitivity to lansoprazole or benzimidazoles",
+      "Concomitant atazanavir/nelfinavir",
+      "Caution: severe hepatic impairment"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Headache, diarrhoea, nausea, abdominal pain, flatulence",
+      "Metabolic": "Hypomagnesaemia, reduced B12 with prolonged use",
+      "Bone": "Fracture risk with prolonged use",
+      "Other": "Raised transaminases, rash, interstitial nephritis (rare)"
+    },
+    dozadan: "No specific antidote; haemodialysis ineffective. Symptomatic treatment.",
+    ozarotasir: [
+      "Atazanavir, ketoconazole, iron — reduced absorption (pH)",
+      "May reduce clopidogrel activation (CYP2C19)",
+      "May affect theophylline, tacrolimus concentrations"
+    ],
+    qollash: {
+      kattalar: "GERD/ulcer: 30 mg once daily in the morning before food, 4–8 weeks. H. pylori: 30 mg twice daily with antibiotics. Maintenance 15 mg/day.",
+      bolalar: "From 1 year, by body weight: 15–30 mg/day"
+    },
+    chiqarish: "Capsules/orally disintegrating tablets 15 mg, 30 mg (enteric)"
+  }
+},
+
+// ─── A02BC04 · Rabeprazol ─────────────────────────────────────────────────
+"A02BC04": {
+  uz: {
+    gruppa: "Protyon pompa inhibitorlari (PPI)",
+    farmTasir: "Oshqozon kislotasi sekretsiyasini tez bostiruvchi vosita",
+    farmakodinamika: `Rabeprazol — protyon pompa inhibitori, benzimidazol hosilasi. Parietal hujayralarning kislotali kanalchalarida faollashib, H+/K+-ATFazani bloklaydi va kislota sekretsiyasining yakuniy bosqichini to'xtatadi. Boshqa PPIlarga nisbatan tezroq faollashadi va kislota bostirishni tez boshlaydi; CYP2C19 ga kamroq bog'liq metabolizmga ega (asosan ferment bo'lmagan yo'l bilan), shuning uchun polimorfizmga sezgirligi past.`,
+    farmakokinetika: {
+      sorish: "Enterik qobiqda; biofaollik ~52%. Ovqat Cmax vaqtini kechiktiradi, lekin so'rilish darajasiga ta'siri kam",
+      tarqalish: "Oqsilga bog'lanish ~96%",
+      metabolizm: "Asosan ferment bo'lmagan (noenzimatik) yo'l bilan tiyoeterga; qisman CYP2C19/3A4",
+      chiqarilish: "Metabolitlar asosan buyrak orqali; T½ ~1 soat, ta'siri uzoq"
+    },
+    korsatmalar: [
+      "Oshqozon va o'n ikki barmoq ichak yarasi",
+      "GERB, eroziv-yarali ezofagit",
+      "Helicobacter pylori eradikatsiyasi (antibiotiklar bilan)",
+      "Zollinger-Ellison sindromi",
+      "NSAID bilan bog'liq yara profilaktikasi"
+    ],
+    qarrshi: [
+      "Rabeprazol yoki benzimidazollarga o'ta sezuvchanlik",
+      "Atazanavir/nelfinavir bilan birga qo'llash",
+      "Homiladorlik va emizish davri (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Bosh og'rig'i, diareya, ko'ngil aynishi, qorin og'rig'i, meteorizm",
+      "Metabolik": "Uzoq qo'llashda gipomagniemiya, B12 kamayishi",
+      "Suyak": "Uzoq qo'llashda suyak sinishi xavfi",
+      "Boshqa": "Transaminazalar oshishi, toshma, interstitsial nefrit (kam)"
+    },
+    dozadan: "Maxsus antidot yo'q; gemodializ samarasiz. Simptomatik davolash.",
+    ozarotasir: [
+      "Atazanavir, ketokonazol, temir — so'rilishi kamayadi (pH)",
+      "Digoksin so'rilishini biroz oshirishi mumkin",
+      "Klopidogrelga ta'siri boshqa PPIlardan kamroq"
+    ],
+    qollash: {
+      kattalar: "GERB/yara: 20 mg kuniga 1 marta ertalab, 4–8 hafta. H. pylori: 20 mg kuniga 2 marta antibiotiklar bilan. Zollinger-Ellison: 60 mg/sut dan titrlanadi.",
+      bolalar: "12 yoshdan: 20 mg/sut (GERB)"
+    },
+    chiqarish: "Enterik tabletkalar 10 mg, 20 mg"
+  },
+  ru: {
+    gruppa: "Ингибиторы протонной помпы (ИПП)",
+    farmTasir: "Средство, быстро подавляющее секрецию желудочной кислоты",
+    farmakodinamika: `Рабепразол — ингибитор протонной помпы, производное бензимидазола. Активируется в кислых канальцах париетальных клеток, блокирует H+/K+-АТФазу и останавливает конечный этап секреции кислоты. По сравнению с другими ИПП активируется быстрее и быстрее начинает подавление кислоты; метаболизируется в основном неферментным путём (меньше зависит от CYP2C19), поэтому менее чувствителен к полиморфизму.`,
+    farmakokinetika: {
+      sorish: "В энтеросолюбильной оболочке; биодоступность ~52%. Пища задерживает Cmax, но мало влияет на степень всасывания",
+      tarqalish: "Связь с белками ~96%",
+      metabolizm: "В основном неферментным путём до тиоэфира; частично CYP2C19/3A4",
+      chiqarilish: "Метаболиты преимущественно почками; T½ ~1 ч, действие длительное"
+    },
+    korsatmalar: [
+      "Язва желудка и двенадцатиперстной кишки",
+      "ГЭРБ, эрозивно-язвенный эзофагит",
+      "Эрадикация Helicobacter pylori (с антибиотиками)",
+      "Синдром Золлингера–Эллисона",
+      "Профилактика язв, связанных с НПВП"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к рабепразолу или бензимидазолам",
+      "Одновременный приём атазанавира/нелфинавира",
+      "Беременность и период лактации (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Головная боль, диарея, тошнота, боль в животе, метеоризм",
+      "Метаболические": "При длительном применении гипомагниемия, снижение B12",
+      "Кости": "Риск переломов при длительном применении",
+      "Прочие": "Повышение трансаминаз, сыпь, интерстициальный нефрит (редко)"
+    },
+    dozadan: "Специфического антидота нет; гемодиализ неэффективен. Симптоматическое лечение.",
+    ozarotasir: [
+      "Атазанавир, кетоконазол, железо — снижается всасывание (pH)",
+      "Может несколько повышать всасывание дигоксина",
+      "Влияние на клопидогрел меньше, чем у других ИПП"
+    ],
+    qollash: {
+      kattalar: "ГЭРБ/язва: 20 мг 1 раз в день утром, 4–8 недель. H. pylori: 20 мг 2 раза в день с антибиотиками. Синдром Золлингера–Эллисона: с 60 мг/сут с титрованием.",
+      bolalar: "С 12 лет: 20 мг/сут (ГЭРБ)"
+    },
+    chiqarish: "Энтеросолюбильные таблетки 10 мг, 20 мг"
+  },
+  en: {
+    gruppa: "Proton pump inhibitors (PPI)",
+    farmTasir: "Agent that rapidly suppresses gastric acid secretion",
+    farmakodinamika: `Rabeprazole is a proton pump inhibitor, a benzimidazole derivative. It is activated in the acidic canaliculi of parietal cells, blocks H+/K+-ATPase and halts the final step of acid secretion. Compared with other PPIs it is activated faster and begins acid suppression more quickly; it is metabolised largely by a non-enzymatic pathway (less dependent on CYP2C19), so it is less sensitive to polymorphism.`,
+    farmakokinetika: {
+      sorish: "Enteric-coated; bioavailability ~52%. Food delays Cmax but has little effect on the extent of absorption",
+      tarqalish: "Protein binding ~96%",
+      metabolizm: "Mainly non-enzymatic to a thioether; partly CYP2C19/3A4",
+      chiqarilish: "Metabolites mainly renally; T½ ~1 h, action prolonged"
+    },
+    korsatmalar: [
+      "Gastric and duodenal ulcer",
+      "GERD, erosive-ulcerative oesophagitis",
+      "Helicobacter pylori eradication (with antibiotics)",
+      "Zollinger-Ellison syndrome",
+      "Prophylaxis of NSAID-associated ulcers"
+    ],
+    qarrshi: [
+      "Hypersensitivity to rabeprazole or benzimidazoles",
+      "Concomitant atazanavir/nelfinavir",
+      "Pregnancy and lactation (with caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Headache, diarrhoea, nausea, abdominal pain, flatulence",
+      "Metabolic": "Hypomagnesaemia, reduced B12 with prolonged use",
+      "Bone": "Fracture risk with prolonged use",
+      "Other": "Raised transaminases, rash, interstitial nephritis (rare)"
+    },
+    dozadan: "No specific antidote; haemodialysis ineffective. Symptomatic treatment.",
+    ozarotasir: [
+      "Atazanavir, ketoconazole, iron — reduced absorption (pH)",
+      "May slightly increase digoxin absorption",
+      "Less effect on clopidogrel than other PPIs"
+    ],
+    qollash: {
+      kattalar: "GERD/ulcer: 20 mg once daily in the morning, 4–8 weeks. H. pylori: 20 mg twice daily with antibiotics. Zollinger-Ellison: from 60 mg/day, titrated.",
+      bolalar: "From 12 years: 20 mg/day (GERD)"
+    },
+    chiqarish: "Enteric tablets 10 mg, 20 mg"
+  }
 }
 
 };
