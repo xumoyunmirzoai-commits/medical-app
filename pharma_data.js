@@ -4115,6 +4115,1165 @@ const PHARMA_DATA = {
     },
     chiqarish: "Dental gel (choline salicylate + cetalkonium chloride)"
   }
+},
+
+// ─── A01AD02 · Benzidamin ─────────────────────────────────────────────────
+"A01AD02": {
+  uz: {
+    gruppa: "Og'iz bo'shlig'i uchun boshqa mahalliy vositalar (NSAID)",
+    farmTasir: "Mahalliy yallig'lanishga qarshi, og'riqsizlantiruvchi va antiseptik vosita",
+    farmakodinamika: `Benzidamin — indazol hosilasi bo'lgan nosteroid yallig'lanishga qarshi vosita (NSAID). Prostaglandin sintezini inhibe qiladi, hujayra membranasini barqarorlashtiradi va yallig'lanish mediatorlari chiqishini kamaytiradi; mahalliy yallig'lanishga qarshi, og'riqsizlantiruvchi va yengil mahalliy anestetik ta'sir ko'rsatadi. Yuqori konsentratsiyada antiseptik va antifungal (Candida albicans) xususiyatiga ega. Yallig'langan to'qimalarda tanlab to'planadi.`,
+    farmakokinetika: {
+      sorish: "Yallig'langan shilliq pardadan yaxshi so'riladi, tizimli konsentratsiya past",
+      tarqalish: "Yallig'langan to'qimalarda to'planadi; mahalliy ta'sir qiladi",
+      metabolizm: "So'rilgan qism jigarda metabolizmga uchraydi",
+      chiqarilish: "Asosan siydik orqali (metabolitlar va konyugatlar)"
+    },
+    korsatmalar: [
+      "Faringit, laringit, tonzillit",
+      "Stomatit, gingivit, glossit",
+      "Tish olib tashlash, jarrohlik va nurlanishdan keyingi og'iz-halqum yallig'lanishi",
+      "Tish protezi bilan bog'liq yallig'lanish",
+      "So'lak bezlari kasalliklari (kalkulyoz sialadenit)"
+    ],
+    qarrshi: [
+      "Benzidaminga o'ta sezuvchanlik",
+      "Fenilketonuriya (tarkibida aspartam bo'lsa)",
+      "12 yoshgacha bolalar (ba'zi shakllar uchun)"
+    ],
+    nojoya: {
+      "Mahalliy": "Og'iz va halqumda achishish, qurish, uyqusizlik sezgisi, og'iz qurishi",
+      "Allergiya": "Toshma, qichishish, laringospazm, kamdan-kam anafilaktik reaksiya",
+      "Boshqa": "Ko'ngil aynishi, qusish (yutilganda)"
+    },
+    dozadan: "Mahalliy qo'llashda ehtimoli past; ko'p yutilganда (ayniqsa bolalarda) qo'zg'aluvchanlik, tirishish, ko'ngil aynishi — simptomatik davolash.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir aniqlanmagan"
+    ],
+    qollash: {
+      kattalar: "Og'iz/halqumni chayish: 15 ml 0,15% eritma kuniga 2–3 marta; yoki sprey 4–8 marta purkash; yoki so'riladigan tabletka kuniga 3–4 marta.",
+      bolalar: "6–12 yosh: shifokor tavsiyasi bilan kamaytirilgan dozada; spreyda yosh bo'yicha purkash soni belgilanadi"
+    },
+    chiqarish: "Og'iz chayish eritmasi 0,15%; sprey 0,255 mg/doza; so'riladigan tabletkalar 3 mg"
+  },
+  ru: {
+    gruppa: "Прочие местные средства для полости рта (НПВП)",
+    farmTasir: "Местное противовоспалительное, обезболивающее и антисептическое средство",
+    farmakodinamika: `Бензидамин — нестероидное противовоспалительное средство (НПВП), производное индазола. Ингибирует синтез простагландинов, стабилизирует клеточные мембраны и уменьшает высвобождение медиаторов воспаления; оказывает местное противовоспалительное, обезболивающее и лёгкое местноанестезирующее действие. В высоких концентрациях обладает антисептическими и противогрибковыми (Candida albicans) свойствами. Избирательно накапливается в воспалённых тканях.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается с воспалённой слизистой, системная концентрация низкая",
+      tarqalish: "Накапливается в воспалённых тканях; действует местно",
+      metabolizm: "Всосавшаяся часть метаболизируется в печени",
+      chiqarilish: "Преимущественно с мочой (метаболиты и конъюгаты)"
+    },
+    korsatmalar: [
+      "Фарингит, ларингит, тонзиллит",
+      "Стоматит, гингивит, глоссит",
+      "Воспаление полости рта и глотки после удаления зуба, операций и лучевой терапии",
+      "Воспаление, связанное с зубными протезами",
+      "Заболевания слюнных желёз (калькулёзный сиаладенит)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к бензидамину",
+      "Фенилкетонурия (при наличии аспартама)",
+      "Детский возраст до 12 лет (для некоторых форм)"
+    ],
+    nojoya: {
+      "Местные": "Жжение, сухость во рту и глотке, онемение, сухость во рту",
+      "Аллергические": "Сыпь, зуд, ларингоспазм, редко анафилактическая реакция",
+      "Прочие": "Тошнота, рвота (при проглатывании)"
+    },
+    dozadan: "При местном применении маловероятна; при проглатывании большого количества (особенно у детей) — возбуждение, судороги, тошнота — симптоматическое лечение.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий не выявлено"
+    ],
+    qollash: {
+      kattalar: "Полоскание рта/глотки: 15 мл 0,15% раствора 2–3 раза в день; или спрей 4–8 впрыскиваний; или таблетки для рассасывания 3–4 раза в день.",
+      bolalar: "6–12 лет: в сниженной дозе по рекомендации врача; для спрея число впрыскиваний по возрасту"
+    },
+    chiqarish: "Раствор для полоскания 0,15%; спрей 0,255 мг/доза; таблетки для рассасывания 3 мг"
+  },
+  en: {
+    gruppa: "Other local agents for oral treatment (NSAID)",
+    farmTasir: "Local anti-inflammatory, analgesic and antiseptic agent",
+    farmakodinamika: `Benzydamine is a non-steroidal anti-inflammatory drug (NSAID), an indazole derivative. It inhibits prostaglandin synthesis, stabilises cell membranes and reduces release of inflammatory mediators; it provides local anti-inflammatory, analgesic and mild local anaesthetic effects. At high concentrations it has antiseptic and antifungal (Candida albicans) properties. It selectively accumulates in inflamed tissues.`,
+    farmakokinetika: {
+      sorish: "Well absorbed from inflamed mucosa, systemic concentration low",
+      tarqalish: "Accumulates in inflamed tissues; acts locally",
+      metabolizm: "The absorbed fraction is metabolised in the liver",
+      chiqarilish: "Mainly in urine (metabolites and conjugates)"
+    },
+    korsatmalar: [
+      "Pharyngitis, laryngitis, tonsillitis",
+      "Stomatitis, gingivitis, glossitis",
+      "Oral and pharyngeal inflammation after tooth extraction, surgery and radiotherapy",
+      "Inflammation associated with dentures",
+      "Salivary gland disorders (calculous sialadenitis)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to benzydamine",
+      "Phenylketonuria (if aspartame is present)",
+      "Children under 12 years (for some forms)"
+    ],
+    nojoya: {
+      "Local": "Burning, dryness of the mouth and throat, numbness, dry mouth",
+      "Hypersensitivity": "Rash, itching, laryngospasm, rarely anaphylactic reaction",
+      "Other": "Nausea, vomiting (if swallowed)"
+    },
+    dozadan: "Unlikely with topical use; swallowing a large amount (especially in children) — agitation, seizures, nausea — symptomatic treatment.",
+    ozarotasir: [
+      "No clinically significant interactions identified"
+    ],
+    qollash: {
+      kattalar: "Mouth/throat rinse: 15 mL of 0.15% solution 2–3 times daily; or spray 4–8 actuations; or lozenges 3–4 times daily.",
+      bolalar: "6–12 years: reduced dose on medical advice; spray actuation count by age"
+    },
+    chiqarish: "Mouthwash solution 0.15%; spray 0.255 mg/dose; lozenges 3 mg"
+  }
+},
+
+// ─── A01AD11 · Xlorgeksidin + Benzidamin ──────────────────────────────────
+"A01AD11": {
+  uz: {
+    gruppa: "Og'iz bo'shlig'i uchun mahalliy vositalar (kombinatsiyalar)",
+    farmTasir: "Antiseptik va yallig'lanishga qarshi kombinatsiya",
+    farmakodinamika: `Xlorgeksidin va benzidamin kombinatsiyasi. Xlorgeksidin — bisbiguanid antiseptik, bakteriya membranasini buzib gram-musbat va gram-manfiy bakteriyalar hamda zamburug'larga bakteritsid ta'sir qiladi. Benzidamin — indazol NSAID, prostaglandin sintezini kamaytirib mahalliy yallig'lanishga qarshi va og'riqsizlantiruvchi ta'sir beradi. Kombinatsiya og'iz-halqumdagi infeksiya, yallig'lanish va og'riqni bir vaqtda kamaytiradi.`,
+    farmakokinetika: {
+      sorish: "Mahalliy qo'llashda tizimli so'rilish past (xlorgeksidin deyarli so'rilmaydi)",
+      tarqalish: "Og'iz-halqum shilliq pardasida ta'sir qiladi; benzidamin yallig'langan to'qimaga o'tadi",
+      metabolizm: "Benzidaminning so'rilgan qismi jigarda metabolizmga uchraydi",
+      chiqarilish: "Benzidamin metabolitlari siydik orqali; xlorgeksidin najas bilan"
+    },
+    korsatmalar: [
+      "Faringit, tonzillit, laringit",
+      "Stomatit, gingivit, glossit",
+      "Og'iz va halqumning antiseptik va yallig'lanishga qarshi davosi",
+      "Tish jarrohligi va ekstraksiyadan keyingi parvarish"
+    ],
+    qarrshi: [
+      "Xlorgeksidin yoki benzidaminga o'ta sezuvchanlik",
+      "Atrofik faringit",
+      "Anionli antiseptiklar bilan birga qo'llash",
+      "6 yoshgacha bolalar (shakliga qarab)"
+    ],
+    nojoya: {
+      "Mahalliy": "Achishish, og'iz qurishi, ta'm sezgisining vaqtincha o'zgarishi, uyqusizlik sezgisi",
+      "Tishlar": "Uzoq qo'llashda tishlarning qaytar dog'lanishi",
+      "Allergiya": "Shilliq parda qichishi, toshma, kamdan-kam laringospazm"
+    },
+    dozadan: "Mahalliy qo'llashda ehtimoli past; ko'p yutilganда simptomatik davolash.",
+    ozarotasir: [
+      "Anionli vositalar (tish pastasi) xlorgeksidin faolligini kamaytiradi — 30 daqiqa farq"
+    ],
+    qollash: {
+      kattalar: "Og'iz/halqumni chayish yoki purkash kuniga 2–3 marta; ovqatdan keyin.",
+      bolalar: "6 yoshdan: katta nazorati ostida, yutmaslik sharti bilan"
+    },
+    chiqarish: "Og'iz chayish eritmasi / sprey (xlorgeksidin + benzidamin)"
+  },
+  ru: {
+    gruppa: "Местные средства для полости рта (комбинации)",
+    farmTasir: "Антисептическая и противовоспалительная комбинация",
+    farmakodinamika: `Комбинация хлоргексидина и бензидамина. Хлоргексидин — бисбигуанидный антисептик, нарушает мембрану бактерий и оказывает бактерицидное действие на грамположительные и грамотрицательные бактерии и грибы. Бензидамин — индазольный НПВП, снижает синтез простагландинов, обеспечивая местное противовоспалительное и обезболивающее действие. Комбинация одновременно уменьшает инфекцию, воспаление и боль в ротоглотке.`,
+    farmakokinetika: {
+      sorish: "При местном применении системная абсорбция низкая (хлоргексидин почти не всасывается)",
+      tarqalish: "Действует на слизистой ротоглотки; бензидамин проникает в воспалённую ткань",
+      metabolizm: "Всосавшаяся часть бензидамина метаболизируется в печени",
+      chiqarilish: "Метаболиты бензидамина с мочой; хлоргексидин с калом"
+    },
+    korsatmalar: [
+      "Фарингит, тонзиллит, ларингит",
+      "Стоматит, гингивит, глоссит",
+      "Антисептическое и противовоспалительное лечение рта и глотки",
+      "Уход после стоматологических операций и экстракции"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к хлоргексидину или бензидамину",
+      "Атрофический фарингит",
+      "Совместное применение с анионными антисептиками",
+      "Детский возраст до 6 лет (в зависимости от формы)"
+    ],
+    nojoya: {
+      "Местные": "Жжение, сухость во рту, временное изменение вкуса, онемение",
+      "Зубы": "Обратимое окрашивание зубов при длительном применении",
+      "Аллергические": "Зуд слизистой, сыпь, редко ларингоспазм"
+    },
+    dozadan: "При местном применении маловероятна; при проглатывании большого количества — симптоматическое лечение.",
+    ozarotasir: [
+      "Анионные средства (зубная паста) снижают активность хлоргексидина — интервал 30 минут"
+    ],
+    qollash: {
+      kattalar: "Полоскание или орошение рта/глотки 2–3 раза в день; после еды.",
+      bolalar: "С 6 лет: под контролем взрослых, не проглатывая"
+    },
+    chiqarish: "Раствор для полоскания / спрей (хлоргексидин + бензидамин)"
+  },
+  en: {
+    gruppa: "Local agents for oral treatment (combinations)",
+    farmTasir: "Antiseptic and anti-inflammatory combination",
+    farmakodinamika: `A combination of chlorhexidine and benzydamine. Chlorhexidine, a bisbiguanide antiseptic, disrupts the bacterial membrane and is bactericidal against Gram-positive and Gram-negative bacteria and fungi. Benzydamine, an indazole NSAID, reduces prostaglandin synthesis, providing local anti-inflammatory and analgesic effects. The combination simultaneously reduces infection, inflammation and pain in the oropharynx.`,
+    farmakokinetika: {
+      sorish: "Systemic absorption is low with topical use (chlorhexidine barely absorbed)",
+      tarqalish: "Acts on the oropharyngeal mucosa; benzydamine penetrates inflamed tissue",
+      metabolizm: "The absorbed benzydamine fraction is metabolised in the liver",
+      chiqarilish: "Benzydamine metabolites in urine; chlorhexidine in faeces"
+    },
+    korsatmalar: [
+      "Pharyngitis, tonsillitis, laryngitis",
+      "Stomatitis, gingivitis, glossitis",
+      "Antiseptic and anti-inflammatory treatment of the mouth and throat",
+      "Care after dental surgery and extraction"
+    ],
+    qarrshi: [
+      "Hypersensitivity to chlorhexidine or benzydamine",
+      "Atrophic pharyngitis",
+      "Concurrent use with anionic antiseptics",
+      "Children under 6 years (depending on the form)"
+    ],
+    nojoya: {
+      "Local": "Burning, dry mouth, transient taste change, numbness",
+      "Teeth": "Reversible tooth staining with prolonged use",
+      "Hypersensitivity": "Mucosal itching, rash, rarely laryngospasm"
+    },
+    dozadan: "Unlikely with topical use; if a large amount is swallowed — symptomatic treatment.",
+    ozarotasir: [
+      "Anionic agents (toothpaste) reduce chlorhexidine activity — separate by 30 minutes"
+    ],
+    qollash: {
+      kattalar: "Rinse or spray the mouth/throat 2–3 times daily; after meals.",
+      bolalar: "From 6 years: under adult supervision, without swallowing"
+    },
+    chiqarish: "Mouthwash solution / spray (chlorhexidine + benzydamine)"
+  }
+},
+
+// ─── A02A · Antatsid (natriy bikarbonat + limon kislotasi) ────────────────
+"A02A": {
+  uz: {
+    gruppa: "Antatsidlar",
+    farmTasir: "Oshqozon kislotasini neytrallovchi (antatsid) vosita",
+    farmakodinamika: `Natriy bikarbonat, limon kislotasi va natriy karbonat asosidagi shippuchi (effervessent) antatsid. Suvda eriganida karbonat angidrid ajralib chiqadi va oshqozonda xlorid kislotani tez neytrallaydi, oshqozon-ichak suyuqligi pH ini oshiradi va pepsin faolligini kamaytiradi. Ta'siri tez boshlanadi, lekin qisqa muddatli. Ko'p yoki uzoq qo'llanganda tizimli ishqorlanish (alkaloz) keltirib chiqarishi mumkin (so'riluvchi antatsid).`,
+    farmakokinetika: {
+      sorish: "Bikarbonat qisman tizimli so'riladi (so'riluvchi antatsid)",
+      tarqalish: "Asosan oshqozon-ichak luminda ta'sir qiladi",
+      metabolizm: "Karbonat angidridга parchalanadi",
+      chiqarilish: "Natriy va bikarbonat buyrak orqali; CO2 nafas bilan"
+    },
+    korsatmalar: [
+      "Oshqozon kislotaliligi oshishi bilan kechadigan dispepsiya, jig'ildon qaynashi",
+      "Gastrit va gastroduodenitda kislotalilikni vaqtincha kamaytirish",
+      "Refluks-ezofagit simptomatik davosi"
+    ],
+    qarrshi: [
+      "Komponentlarga o'ta sezuvchanlik",
+      "Metabolik alkaloz",
+      "Og'ir buyrak yetishmovchiligi",
+      "Natriy cheklangan parhez (yurak yetishmovchiligi, gipertenziya, shish)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Kekirish, meteorizm, qorin shishi",
+      "Metabolik": "Ko'p qo'llashda metabolik alkaloz, gipernatriemiya",
+      "Boshqa": "Sut-ishqor sindromi (uzoq, ko'p qo'llashda)"
+    },
+    dozadan: "Ko'p qo'llashda alkaloz, gipernatriemiya — preparatni to'xtatish, elektrolitlarni tuzatish.",
+    ozarotasir: [
+      "Oshqozon pH ini oshirib boshqa dorilar so'rilishini o'zgartiradi (tetratsiklin, temir, ftorxinolonlar) — 2 soat farq bilan qabul qiling",
+      "Kislotada eriydigan qobiqli dorilar bilan birga tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "1 shipuchi tabletka/kukunni bir stakan suvda eritib, kerak bo'lganda ovqatdan keyin yoki jig'ildon qaynaganda; kuniga 3–4 martadan ko'p emas.",
+      bolalar: "Shifokor tavsiyasi bilan, kamaytirilgan dozada"
+    },
+    chiqarish: "Shippuchi (effervessent) tabletkalar yoki kukun"
+  },
+  ru: {
+    gruppa: "Антациды",
+    farmTasir: "Средство, нейтрализующее желудочную кислоту (антацид)",
+    farmakodinamika: `Шипучий (эффервесцентный) антацид на основе натрия бикарбоната, лимонной кислоты и натрия карбоната. При растворении в воде выделяется углекислый газ, и в желудке быстро нейтрализуется соляная кислота, повышается pH желудочного содержимого и снижается активность пепсина. Действие наступает быстро, но кратковременно. При избыточном или длительном применении может вызвать системный алкалоз (всасывающийся антацид).`,
+    farmakokinetika: {
+      sorish: "Бикарбонат частично всасывается системно (всасывающийся антацид)",
+      tarqalish: "Действует преимущественно в просвете ЖКТ",
+      metabolizm: "Распадается до углекислого газа",
+      chiqarilish: "Натрий и бикарбонат почками; CO2 с дыханием"
+    },
+    korsatmalar: [
+      "Диспепсия и изжога при повышенной кислотности",
+      "Временное снижение кислотности при гастрите и гастродуодените",
+      "Симптоматическое лечение рефлюкс-эзофагита"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам",
+      "Метаболический алкалоз",
+      "Тяжёлая почечная недостаточность",
+      "Диета с ограничением натрия (сердечная недостаточность, гипертензия, отёки)"
+    ],
+    nojoya: {
+      "ЖКТ": "Отрыжка, метеоризм, вздутие живота",
+      "Метаболические": "При избыточном применении метаболический алкалоз, гипернатриемия",
+      "Прочие": "Молочно-щелочной синдром (при длительном избыточном применении)"
+    },
+    dozadan: "При избыточном применении алкалоз, гипернатриемия — отмена препарата, коррекция электролитов.",
+    ozarotasir: [
+      "Повышая pH желудка, изменяет всасывание других препаратов (тетрациклин, железо, фторхинолоны) — интервал 2 часа",
+      "Не рекомендуется с препаратами в кислотоустойчивой оболочке"
+    ],
+    qollash: {
+      kattalar: "1 шипучую таблетку/порошок растворить в стакане воды, при необходимости после еды или при изжоге; не более 3–4 раз в день.",
+      bolalar: "По рекомендации врача, в сниженной дозе"
+    },
+    chiqarish: "Шипучие (эффервесцентные) таблетки или порошок"
+  },
+  en: {
+    gruppa: "Antacids",
+    farmTasir: "Agent that neutralises gastric acid (antacid)",
+    farmakodinamika: `An effervescent antacid based on sodium bicarbonate, citric acid and sodium carbonate. On dissolving in water it releases carbon dioxide and rapidly neutralises hydrochloric acid in the stomach, raising gastric pH and reducing pepsin activity. Onset is rapid but short-lived. Excessive or prolonged use may cause systemic alkalosis (an absorbable antacid).`,
+    farmakokinetika: {
+      sorish: "Bicarbonate is partly absorbed systemically (absorbable antacid)",
+      tarqalish: "Acts mainly in the GI lumen",
+      metabolizm: "Breaks down to carbon dioxide",
+      chiqarilish: "Sodium and bicarbonate renally; CO2 via respiration"
+    },
+    korsatmalar: [
+      "Dyspepsia and heartburn with hyperacidity",
+      "Temporary reduction of acidity in gastritis and gastroduodenitis",
+      "Symptomatic treatment of reflux oesophagitis"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components",
+      "Metabolic alkalosis",
+      "Severe renal impairment",
+      "Sodium-restricted diet (heart failure, hypertension, oedema)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Belching, flatulence, bloating",
+      "Metabolic": "Metabolic alkalosis, hypernatraemia with excessive use",
+      "Other": "Milk-alkali syndrome (with prolonged excessive use)"
+    },
+    dozadan: "Excessive use causes alkalosis, hypernatraemia — discontinue, correct electrolytes.",
+    ozarotasir: [
+      "By raising gastric pH it alters absorption of other drugs (tetracycline, iron, fluoroquinolones) — separate by 2 hours",
+      "Not recommended with enteric-coated drugs"
+    ],
+    qollash: {
+      kattalar: "Dissolve 1 effervescent tablet/sachet in a glass of water as needed after meals or for heartburn; no more than 3–4 times daily.",
+      bolalar: "On medical advice, in reduced dose"
+    },
+    chiqarish: "Effervescent tablets or powder"
+  }
+},
+
+// ─── A02AB02 · Algeldrat (alyuminiy gidroksid) ────────────────────────────
+"A02AB02": {
+  uz: {
+    gruppa: "Antatsidlar — alyuminiy birikmalari",
+    farmTasir: "So'rilmaydigan antatsid va o'rab oluvchi vosita",
+    farmakodinamika: `Algeldrat (alyuminiy gidroksid) — so'rilmaydigan antatsid. Oshqozon xlorid kislotasi bilan reaksiyaga kirishib uni neytrallaydi (alyuminiy xlorid hosil bo'ladi) va pH ni oshiradi, pepsin proteolitik faolligini kamaytiradi. Shilliq pardada himoya qatlamini hosil qiladi va o'rab oluvchi-adsorbsiyalovchi ta'sir ko'rsatadi. Fosfat ionlarini bog'lab najas bilan chiqaradi. Ta'siri sekin boshlanadi, lekin uzoqroq davom etadi; ich qotishini keltirib chiqarishga moyil.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichak yo'lidan deyarli so'rilmaydi",
+      tarqalish: "Oshqozon-ichak luminida mahalliy ta'sir qiladi",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Najas bilan (alyuminiy fosfat/karbonat); oz qismi so'rilib siydik orqali"
+    },
+    korsatmalar: [
+      "Oshqozon va o'n ikki barmoq ichak yarasi (kompleks davoda)",
+      "O'tkir va surunkali giperatsid gastrit",
+      "Reflyuks-ezofagit, jig'ildon qaynashi, dispepsiya",
+      "Giperfosfatemiya (fosfat bog'lovchi sifatida)"
+    ],
+    qarrshi: [
+      "Alyuminiy birikmalariga o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi (alyuminiy to'planishi)",
+      "Gipofosfatemiya",
+      "Altsgeymer kasalligi (alyuminiy to'planishi xavfi)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi, ko'ngil aynishi, og'iz qurishi",
+      "Metabolik": "Gipofosfatemiya (uzoq qo'llashda), suyak yumshashi",
+      "Asab": "Buyrak yetishmovchiligida ensefalopatiya (alyuminiy)",
+      "Boshqa": "Ko'p dozada osteomalatsiya, miopatiya"
+    },
+    dozadan: "Uzoq/ko'p qo'llashda gipofosfatemiya, ich qotishi — dozani kamaytirish, simptomatik davolash.",
+    ozarotasir: [
+      "Tetratsiklinlar, ftorxinolonlar, temir, digoksin, tiroid gormoni so'rilishini kamaytiradi — 2 soat farq bilan qabul qiling",
+      "Kislotada eriydigan qobiqli (enterik) preparatlar bilan tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "Ovqatdan 1–1,5 soat keyin va uxlash oldidan; kuniga 4–6 marta (gel/suspenziya 5–10 ml yoki chaynaladigan tabletka).",
+      bolalar: "Shifokor tavsiyasi bilan, kamaytirilgan dozada"
+    },
+    chiqarish: "Ichish uchun suspenziya/gel; chaynaladigan tabletkalar"
+  },
+  ru: {
+    gruppa: "Антациды — соединения алюминия",
+    farmTasir: "Невсасывающийся антацид и обволакивающее средство",
+    farmakodinamika: `Алгелдрат (алюминия гидроксид) — невсасывающийся антацид. Реагирует с соляной кислотой желудка, нейтрализуя её (образуется хлорид алюминия) и повышая pH, снижает протеолитическую активность пепсина. Образует защитный слой на слизистой, оказывает обволакивающее и адсорбирующее действие. Связывает фосфат-ионы и выводит их с калом. Действие наступает медленно, но более продолжительно; склонен вызывать запор.`,
+    farmakokinetika: {
+      sorish: "Практически не всасывается из ЖКТ",
+      tarqalish: "Действует местно в просвете ЖКТ",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "С калом (фосфат/карбонат алюминия); небольшая всосавшаяся часть с мочой"
+    },
+    korsatmalar: [
+      "Язва желудка и двенадцатиперстной кишки (в комплексной терапии)",
+      "Острый и хронический гиперацидный гастрит",
+      "Рефлюкс-эзофагит, изжога, диспепсия",
+      "Гиперфосфатемия (как фосфатсвязывающее средство)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к соединениям алюминия",
+      "Тяжёлая почечная недостаточность (накопление алюминия)",
+      "Гипофосфатемия",
+      "Болезнь Альцгеймера (риск накопления алюминия)"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор, тошнота, сухость во рту",
+      "Метаболические": "Гипофосфатемия (при длительном применении), размягчение костей",
+      "ЦНС": "Энцефалопатия при почечной недостаточности (алюминий)",
+      "Прочие": "При высоких дозах остеомаляция, миопатия"
+    },
+    dozadan: "При длительном/избыточном применении гипофосфатемия, запор — снижение дозы, симптоматическое лечение.",
+    ozarotasir: [
+      "Снижает всасывание тетрациклинов, фторхинолонов, железа, дигоксина, тиреоидных гормонов — интервал 2 часа",
+      "Не рекомендуется с препаратами в кислотоустойчивой (энтеросолюбильной) оболочке"
+    ],
+    qollash: {
+      kattalar: "Через 1–1,5 ч после еды и перед сном; 4–6 раз в день (гель/суспензия 5–10 мл или жевательная таблетка).",
+      bolalar: "По рекомендации врача, в сниженной дозе"
+    },
+    chiqarish: "Суспензия/гель для приёма внутрь; жевательные таблетки"
+  },
+  en: {
+    gruppa: "Antacids — aluminium compounds",
+    farmTasir: "Non-absorbable antacid and demulcent",
+    farmakodinamika: `Algeldrate (aluminium hydroxide) is a non-absorbable antacid. It reacts with gastric hydrochloric acid, neutralising it (forming aluminium chloride) and raising pH, and reduces the proteolytic activity of pepsin. It forms a protective layer on the mucosa with demulcent and adsorbent action. It binds phosphate ions and excretes them in faeces. Onset is slow but more prolonged; it tends to cause constipation.`,
+    farmakokinetika: {
+      sorish: "Practically not absorbed from the GI tract",
+      tarqalish: "Acts locally in the GI lumen",
+      metabolizm: "Not metabolised",
+      chiqarilish: "In faeces (aluminium phosphate/carbonate); a small absorbed fraction renally"
+    },
+    korsatmalar: [
+      "Gastric and duodenal ulcer (in combination therapy)",
+      "Acute and chronic hyperacid gastritis",
+      "Reflux oesophagitis, heartburn, dyspepsia",
+      "Hyperphosphataemia (as a phosphate binder)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to aluminium compounds",
+      "Severe renal impairment (aluminium accumulation)",
+      "Hypophosphataemia",
+      "Alzheimer's disease (risk of aluminium accumulation)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation, nausea, dry mouth",
+      "Metabolic": "Hypophosphataemia (prolonged use), bone softening",
+      "CNS": "Encephalopathy in renal failure (aluminium)",
+      "Other": "Osteomalacia, myopathy at high doses"
+    },
+    dozadan: "Prolonged/excessive use causes hypophosphataemia, constipation — reduce dose, symptomatic treatment.",
+    ozarotasir: [
+      "Reduces absorption of tetracyclines, fluoroquinolones, iron, digoxin, thyroid hormones — separate by 2 hours",
+      "Not recommended with enteric-coated preparations"
+    ],
+    qollash: {
+      kattalar: "1–1.5 h after meals and at bedtime; 4–6 times daily (gel/suspension 5–10 mL or chewable tablet).",
+      bolalar: "On medical advice, in reduced dose"
+    },
+    chiqarish: "Oral suspension/gel; chewable tablets"
+  }
+},
+
+// ─── A02AB03 · Alyuminiy fosfat ───────────────────────────────────────────
+"A02AB03": {
+  uz: {
+    gruppa: "Antatsidlar — alyuminiy birikmalari",
+    farmTasir: "So'rilmaydigan antatsid va shilliq pardani himoyalovchi vosita",
+    farmakodinamika: `Alyuminiy fosfat — so'rilmaydigan antatsid. Oshqozon xlorid kislotasini neytrallaydi va pH ni fiziologik darajaga yaqinlashtiradi (kuchli ishqorlanish keltirib chiqarmaydi), pepsin faolligini kamaytiradi. Kolloid shaklda shilliq pardada himoya pardasini hosil qilib, kislota va pepsindan himoyalaydi (sitoprotektiv ta'sir). Alyuminiy gidroksiddan farqli o'laroq fosfat tanqisligiga kamroq sabab bo'ladi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan so'rilmaydi",
+      tarqalish: "Oshqozon-ichak luminida mahalliy ta'sir",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Najas bilan o'zgarmagan holda"
+    },
+    korsatmalar: [
+      "Giperatsid gastrit, gastroduodenit",
+      "Oshqozon va o'n ikki barmoq ichak yarasi (kompleks davoda)",
+      "Reflyuks-ezofagit, jig'ildon qaynashi, dispepsiya",
+      "Oziq-ovqat va dori-darmon bilan bog'liq oshqozon tirnashishi"
+    ],
+    qarrshi: [
+      "Alyuminiy birikmalariga o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi",
+      "Surunkali ich qotishi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi (ayniqsa keksalarda va katta dozada)",
+      "Metabolik": "Uzoq qo'llashda gipofosfatemiya (kam)",
+      "Boshqa": "Buyrak yetishmovchiligida alyuminiy to'planishi"
+    },
+    dozadan: "Ich qotishi — dozani kamaytirish, suyuqlik ko'paytirish; simptomatik davolash.",
+    ozarotasir: [
+      "Tetratsiklin, ftorxinolon, temir, digoksin, tiroid gormoni so'rilishini kamaytiradi — 2 soat farq bilan",
+      "Enterik qobiqli preparatlar bilan tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "1–2 paket (gel) kuniga 2–3 marta, og'riq paytida yoki ovqatdan keyin/uxlash oldidan.",
+      bolalar: "6 yoshdan: kamaytirilgan dozada, shifokor tavsiyasi bilan"
+    },
+    chiqarish: "Ichish uchun gel (paketlarda); suspenziya"
+  },
+  ru: {
+    gruppa: "Антациды — соединения алюминия",
+    farmTasir: "Невсасывающийся антацид и защищающее слизистую средство",
+    farmakodinamika: `Алюминия фосфат — невсасывающийся антацид. Нейтрализует соляную кислоту желудка, приближая pH к физиологическому (не вызывает выраженного ощелачивания), снижает активность пепсина. В коллоидной форме образует защитную плёнку на слизистой, защищая её от кислоты и пепсина (цитопротективное действие). В отличие от гидроксида алюминия реже вызывает дефицит фосфатов.`,
+    farmakokinetika: {
+      sorish: "Не всасывается из ЖКТ",
+      tarqalish: "Местное действие в просвете ЖКТ",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "С калом в неизменённом виде"
+    },
+    korsatmalar: [
+      "Гиперацидный гастрит, гастродуоденит",
+      "Язва желудка и двенадцатиперстной кишки (в комплексной терапии)",
+      "Рефлюкс-эзофагит, изжога, диспепсия",
+      "Раздражение желудка, связанное с пищей и лекарствами"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к соединениям алюминия",
+      "Тяжёлая почечная недостаточность",
+      "Хронический запор"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор (особенно у пожилых и при высоких дозах)",
+      "Метаболические": "Гипофосфатемия при длительном применении (редко)",
+      "Прочие": "Накопление алюминия при почечной недостаточности"
+    },
+    dozadan: "Запор — снижение дозы, увеличение жидкости; симптоматическое лечение.",
+    ozarotasir: [
+      "Снижает всасывание тетрациклина, фторхинолонов, железа, дигоксина, тиреоидных гормонов — интервал 2 часа",
+      "Не рекомендуется с препаратами в энтеросолюбильной оболочке"
+    ],
+    qollash: {
+      kattalar: "1–2 пакета (гель) 2–3 раза в день, при боли или после еды/перед сном.",
+      bolalar: "С 6 лет: в сниженной дозе по рекомендации врача"
+    },
+    chiqarish: "Гель для приёма внутрь (в пакетах); суспензия"
+  },
+  en: {
+    gruppa: "Antacids — aluminium compounds",
+    farmTasir: "Non-absorbable antacid and mucosal protectant",
+    farmakodinamika: `Aluminium phosphate is a non-absorbable antacid. It neutralises gastric hydrochloric acid, bringing pH close to physiological (without marked alkalinisation), and reduces pepsin activity. In colloidal form it creates a protective film on the mucosa, shielding it from acid and pepsin (cytoprotective action). Unlike aluminium hydroxide, it less often causes phosphate depletion.`,
+    farmakokinetika: {
+      sorish: "Not absorbed from the GI tract",
+      tarqalish: "Local action in the GI lumen",
+      metabolizm: "Not metabolised",
+      chiqarilish: "In faeces unchanged"
+    },
+    korsatmalar: [
+      "Hyperacid gastritis, gastroduodenitis",
+      "Gastric and duodenal ulcer (in combination therapy)",
+      "Reflux oesophagitis, heartburn, dyspepsia",
+      "Gastric irritation related to food and drugs"
+    ],
+    qarrshi: [
+      "Hypersensitivity to aluminium compounds",
+      "Severe renal impairment",
+      "Chronic constipation"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation (especially in the elderly and at high doses)",
+      "Metabolic": "Hypophosphataemia with prolonged use (rare)",
+      "Other": "Aluminium accumulation in renal failure"
+    },
+    dozadan: "Constipation — reduce dose, increase fluids; symptomatic treatment.",
+    ozarotasir: [
+      "Reduces absorption of tetracycline, fluoroquinolones, iron, digoxin, thyroid hormones — separate by 2 hours",
+      "Not recommended with enteric-coated preparations"
+    ],
+    qollash: {
+      kattalar: "1–2 sachets (gel) 2–3 times daily, with pain or after meals/at bedtime.",
+      bolalar: "From 6 years: reduced dose on medical advice"
+    },
+    chiqarish: "Oral gel (in sachets); suspension"
+  }
+},
+
+// ─── A02AD01 · Alyuminiy + Magniy (antatsid kombinatsiya) ─────────────────
+"A02AD01": {
+  uz: {
+    gruppa: "Antatsidlar — alyuminiy va magniy kombinatsiyalari",
+    farmTasir: "Muvozanatlashgan so'rilmaydigan antatsid",
+    farmakodinamika: `Alyuminiy va magniy gidroksidi (yoki karbonati) kombinatsiyasi — so'rilmaydigan antatsid. Ikkala komponent oshqozon xlorid kislotasini neytrallaydi, pH ni oshiradi va pepsin faolligini kamaytiradi; shilliq pardani o'rab himoyalaydi. Alyuminiy ich qotishiga, magniy esa ich yumshashiga moyilligi tufayli kombinatsiya ichak harakatiga muvozanatli ta'sir ko'rsatadi. Ta'siri tez boshlanadi va o'rtacha davom etadi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan deyarli so'rilmaydi",
+      tarqalish: "Oshqozon-ichak luminida mahalliy ta'sir",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Najas bilan; oz qismi (Mg, Al) so'rilib buyrak orqali"
+    },
+    korsatmalar: [
+      "Giperatsid gastrit, gastroduodenit",
+      "Oshqozon va o'n ikki barmoq ichak yarasi (kompleks davoda)",
+      "Reflyuks-ezofagit, jig'ildon qaynashi, dispepsiya",
+      "Ovqat, dori, kofe, nikotin bilan bog'liq oshqozon noxushligi"
+    ],
+    qarrshi: [
+      "Komponentlarga o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi",
+      "Gipofosfatemiya",
+      "Altsgeymer kasalligi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich yumshashi yoki ich qotishi, ko'ngil aynishi, qusish, ta'm o'zgarishi",
+      "Metabolik": "Uzoq qo'llashda gipermagniemiya (buyrak yetishmovchiligida), gipofosfatemiya",
+      "Boshqa": "Buyrak yetishmovchiligida alyuminiy/magniy to'planishi"
+    },
+    dozadan: "Buyrak yetishmovchiligida gipermagniemiya (gipotenziya, bo'shashish) — preparatni to'xtatish, simptomatik davolash.",
+    ozarotasir: [
+      "Tetratsiklin, ftorxinolon, temir, digoksin, tiroid gormoni so'rilishini kamaytiradi — 2 soat farq bilan",
+      "Enterik qobiqli preparatlar bilan tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "Ovqatdan 1–2 soat keyin va uxlash oldidan; kuniga 3–4 marta (suspenziya 5–10 ml yoki chaynaladigan tabletka).",
+      bolalar: "Shifokor tavsiyasi bilan, kamaytirilgan dozada"
+    },
+    chiqarish: "Ichish uchun suspenziya; chaynaladigan tabletkalar"
+  },
+  ru: {
+    gruppa: "Антациды — комбинации алюминия и магния",
+    farmTasir: "Сбалансированный невсасывающийся антацид",
+    farmakodinamika: `Комбинация гидроксида (или карбоната) алюминия и магния — невсасывающийся антацид. Оба компонента нейтрализуют соляную кислоту желудка, повышают pH и снижают активность пепсина; обволакивают и защищают слизистую. Алюминий склонен вызывать запор, а магний — послабление, поэтому комбинация оказывает сбалансированное влияние на моторику кишечника. Действие наступает быстро и продолжается умеренно.`,
+    farmakokinetika: {
+      sorish: "Практически не всасывается из ЖКТ",
+      tarqalish: "Местное действие в просвете ЖКТ",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "С калом; небольшая часть (Mg, Al) всасывается и выводится почками"
+    },
+    korsatmalar: [
+      "Гиперацидный гастрит, гастродуоденит",
+      "Язва желудка и двенадцатиперстной кишки (в комплексной терапии)",
+      "Рефлюкс-эзофагит, изжога, диспепсия",
+      "Желудочный дискомфорт, связанный с едой, лекарствами, кофе, никотином"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам",
+      "Тяжёлая почечная недостаточность",
+      "Гипофосфатемия",
+      "Болезнь Альцгеймера"
+    ],
+    nojoya: {
+      "ЖКТ": "Послабление или запор, тошнота, рвота, изменение вкуса",
+      "Метаболические": "При длительном применении гипермагниемия (при почечной недостаточности), гипофосфатемия",
+      "Прочие": "Накопление алюминия/магния при почечной недостаточности"
+    },
+    dozadan: "При почечной недостаточности гипермагниемия (гипотензия, слабость) — отмена препарата, симптоматическое лечение.",
+    ozarotasir: [
+      "Снижает всасывание тетрациклина, фторхинолонов, железа, дигоксина, тиреоидных гормонов — интервал 2 часа",
+      "Не рекомендуется с препаратами в энтеросолюбильной оболочке"
+    ],
+    qollash: {
+      kattalar: "Через 1–2 ч после еды и перед сном; 3–4 раза в день (суспензия 5–10 мл или жевательная таблетка).",
+      bolalar: "По рекомендации врача, в сниженной дозе"
+    },
+    chiqarish: "Суспензия для приёма внутрь; жевательные таблетки"
+  },
+  en: {
+    gruppa: "Antacids — aluminium and magnesium combinations",
+    farmTasir: "Balanced non-absorbable antacid",
+    farmakodinamika: `A combination of aluminium and magnesium hydroxide (or carbonate) — a non-absorbable antacid. Both components neutralise gastric hydrochloric acid, raise pH and reduce pepsin activity; they coat and protect the mucosa. Aluminium tends to cause constipation while magnesium causes loosening, so the combination has a balanced effect on bowel motility. Onset is rapid with moderate duration.`,
+    farmakokinetika: {
+      sorish: "Practically not absorbed from the GI tract",
+      tarqalish: "Local action in the GI lumen",
+      metabolizm: "Not metabolised",
+      chiqarilish: "In faeces; a small fraction (Mg, Al) is absorbed and excreted renally"
+    },
+    korsatmalar: [
+      "Hyperacid gastritis, gastroduodenitis",
+      "Gastric and duodenal ulcer (in combination therapy)",
+      "Reflux oesophagitis, heartburn, dyspepsia",
+      "Gastric discomfort related to food, drugs, coffee, nicotine"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components",
+      "Severe renal impairment",
+      "Hypophosphataemia",
+      "Alzheimer's disease"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Loosening or constipation, nausea, vomiting, taste change",
+      "Metabolic": "Hypermagnesaemia with prolonged use (in renal failure), hypophosphataemia",
+      "Other": "Aluminium/magnesium accumulation in renal failure"
+    },
+    dozadan: "In renal failure hypermagnesaemia (hypotension, weakness) — discontinue, symptomatic treatment.",
+    ozarotasir: [
+      "Reduces absorption of tetracycline, fluoroquinolones, iron, digoxin, thyroid hormones — separate by 2 hours",
+      "Not recommended with enteric-coated preparations"
+    ],
+    qollash: {
+      kattalar: "1–2 h after meals and at bedtime; 3–4 times daily (suspension 5–10 mL or chewable tablet).",
+      bolalar: "On medical advice, in reduced dose"
+    },
+    chiqarish: "Oral suspension; chewable tablets"
+  }
+},
+
+// ─── A02AD04 · Gidrotalsit ────────────────────────────────────────────────
+"A02AD04": {
+  uz: {
+    gruppa: "Antatsidlar — alyuminiy va magniy kombinatsiyalari",
+    farmTasir: "Qatlamli alyuminiy-magniy antatsid",
+    farmakodinamika: `Gidrotalsit — alyuminiy va magniy gidroksid-karbonatining qatlamli kristall tuzilishga ega so'rilmaydigan antatsidi. Oshqozon kislotaliligiga qarab bosqichma-bosqich erib, xlorid kislotani neytrallaydi va pH ni fiziologik diapazonda ushlab turadi (buferli ta'sir). Pepsin va o't (safro) kislotalarini bog'laydi, shilliq pardani himoyalaydi. Muvozanatlashgan Al/Mg tarkibi tufayli ichak harakatiga neytral ta'sir qiladi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan deyarli so'rilmaydi",
+      tarqalish: "Oshqozon luminida mahalliy ta'sir",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Najas bilan; oz qismi ionlari buyrak orqali"
+    },
+    korsatmalar: [
+      "Giperatsid gastrit, gastroduodenit",
+      "Oshqozon va o'n ikki barmoq ichak yarasi (kompleks davoda)",
+      "Reflyuks-ezofagit, jig'ildon qaynashi, dispepsiya",
+      "Safro reflyuksi bilan bog'liq gastrit"
+    ],
+    qarrshi: [
+      "Komponentlarga o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi",
+      "Gipofosfatemiya"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich yumshashi, ko'ngil aynishi (katta dozada)",
+      "Metabolik": "Buyrak yetishmovchiligida gipermagniemiya",
+      "Boshqa": "Uzoq qo'llashda alyuminiy to'planishi (buyrak yetishmovchiligida)"
+    },
+    dozadan: "Buyrak yetishmovchiligida gipermagniemiya — preparatni to'xtatish, simptomatik davolash.",
+    ozarotasir: [
+      "Tetratsiklin, ftorxinolon, temir, digoksin, tiroid gormoni so'rilishini kamaytiradi — 2 soat farq bilan",
+      "Enterik qobiqli preparatlar bilan tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "500–1000 mg (1–2 chaynaladigan tabletka yoki 5–10 ml suspenziya) kuniga 3–4 marta, ovqatdan keyin va uxlash oldidan.",
+      bolalar: "6 yoshdan: kamaytirilgan dozada, shifokor tavsiyasi bilan"
+    },
+    chiqarish: "Chaynaladigan tabletkalar 500 mg; ichish uchun suspenziya"
+  },
+  ru: {
+    gruppa: "Антациды — комбинации алюминия и магния",
+    farmTasir: "Слоистый алюминиево-магниевый антацид",
+    farmakodinamika: `Гидроталцит — невсасывающийся антацид со слоистой кристаллической структурой гидроксид-карбоната алюминия и магния. Растворяется постепенно в зависимости от кислотности желудка, нейтрализует соляную кислоту и удерживает pH в физиологическом диапазоне (буферное действие). Связывает пепсин и жёлчные кислоты, защищает слизистую. Благодаря сбалансированному составу Al/Mg оказывает нейтральное влияние на моторику кишечника.`,
+    farmakokinetika: {
+      sorish: "Практически не всасывается из ЖКТ",
+      tarqalish: "Местное действие в просвете желудка",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "С калом; небольшая часть ионов почками"
+    },
+    korsatmalar: [
+      "Гиперацидный гастрит, гастродуоденит",
+      "Язва желудка и двенадцатиперстной кишки (в комплексной терапии)",
+      "Рефлюкс-эзофагит, изжога, диспепсия",
+      "Гастрит, связанный с жёлчным рефлюксом"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам",
+      "Тяжёлая почечная недостаточность",
+      "Гипофосфатемия"
+    ],
+    nojoya: {
+      "ЖКТ": "Послабление стула, тошнота (при высоких дозах)",
+      "Метаболические": "Гипермагниемия при почечной недостаточности",
+      "Прочие": "Накопление алюминия при длительном применении (при почечной недостаточности)"
+    },
+    dozadan: "При почечной недостаточности гипермагниемия — отмена препарата, симптоматическое лечение.",
+    ozarotasir: [
+      "Снижает всасывание тетрациклина, фторхинолонов, железа, дигоксина, тиреоидных гормонов — интервал 2 часа",
+      "Не рекомендуется с препаратами в энтеросолюбильной оболочке"
+    ],
+    qollash: {
+      kattalar: "500–1000 мг (1–2 жевательные таблетки или 5–10 мл суспензии) 3–4 раза в день, после еды и перед сном.",
+      bolalar: "С 6 лет: в сниженной дозе по рекомендации врача"
+    },
+    chiqarish: "Жевательные таблетки 500 мг; суспензия для приёма внутрь"
+  },
+  en: {
+    gruppa: "Antacids — aluminium and magnesium combinations",
+    farmTasir: "Layered aluminium-magnesium antacid",
+    farmakodinamika: `Hydrotalcite is a non-absorbable antacid with a layered crystalline structure of aluminium-magnesium hydroxide carbonate. It dissolves gradually depending on gastric acidity, neutralises hydrochloric acid and keeps pH within the physiological range (buffering action). It binds pepsin and bile acids and protects the mucosa. Owing to its balanced Al/Mg composition it has a neutral effect on bowel motility.`,
+    farmakokinetika: {
+      sorish: "Practically not absorbed from the GI tract",
+      tarqalish: "Local action in the gastric lumen",
+      metabolizm: "Not metabolised",
+      chiqarilish: "In faeces; a small fraction of ions renally"
+    },
+    korsatmalar: [
+      "Hyperacid gastritis, gastroduodenitis",
+      "Gastric and duodenal ulcer (in combination therapy)",
+      "Reflux oesophagitis, heartburn, dyspepsia",
+      "Gastritis associated with bile reflux"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components",
+      "Severe renal impairment",
+      "Hypophosphataemia"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Loose stools, nausea (at high doses)",
+      "Metabolic": "Hypermagnesaemia in renal failure",
+      "Other": "Aluminium accumulation with prolonged use (in renal failure)"
+    },
+    dozadan: "In renal failure hypermagnesaemia — discontinue, symptomatic treatment.",
+    ozarotasir: [
+      "Reduces absorption of tetracycline, fluoroquinolones, iron, digoxin, thyroid hormones — separate by 2 hours",
+      "Not recommended with enteric-coated preparations"
+    ],
+    qollash: {
+      kattalar: "500–1000 mg (1–2 chewable tablets or 5–10 mL suspension) 3–4 times daily, after meals and at bedtime.",
+      bolalar: "From 6 years: reduced dose on medical advice"
+    },
+    chiqarish: "Chewable tablets 500 mg; oral suspension"
+  }
+},
+
+// ─── A02AF02 · Antatsid + Simetikon (gaz haydovchi) ───────────────────────
+"A02AF02": {
+  uz: {
+    gruppa: "Antatsidlar — gaz haydovchi (antiflatulent) bilan kombinatsiyalar",
+    farmTasir: "Antatsid va meteorizmga qarshi kombinatsiya",
+    farmakodinamika: `Alyuminiy va magniy gidroksidi (karbonati) hamda simetikon kombinatsiyasi. Antatsid komponentlar oshqozon xlorid kislotasini neytrallab pH ni oshiradi, pepsin faolligini kamaytiradi va shilliq pardani himoyalaydi. Simetikon — yuza tarangligini pasaytiruvchi inert silikon birikma; ichakdagi gaz pufakchalarini birlashtirib yo'q qiladi, gaz to'planishi va meteorizm simptomlarini kamaytiradi. Simetikon so'rilmaydi va kimyoviy faol emas.`,
+    farmakokinetika: {
+      sorish: "Komponentlar deyarli so'rilmaydi; simetikon umuman so'rilmaydi",
+      tarqalish: "Oshqozon-ichak luminida mahalliy ta'sir",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Najas bilan o'zgarmagan holda"
+    },
+    korsatmalar: [
+      "Giperatsid gastrit, dispepsiya, jig'ildon qaynashi",
+      "Reflyuks-ezofagit",
+      "Oshqozon-ichak yarasi (kompleks davoda)",
+      "Meteorizm, qorin shishi va gaz to'planishi bilan kechadigan holatlar"
+    ],
+    qarrshi: [
+      "Komponentlarga o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi",
+      "Gipofosfatemiya"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich yumshashi yoki qotishi, ko'ngil aynishi (kam)",
+      "Metabolik": "Buyrak yetishmovchiligida gipermagniemiya, gipofosfatemiya",
+      "Allergiya": "Toshma, qichishish (kam)"
+    },
+    dozadan: "Ehtimoli past; buyrak yetishmovchiligida gipermagniemiya — simptomatik davolash.",
+    ozarotasir: [
+      "Tetratsiklin, ftorxinolon, temir, digoksin, tiroid gormoni so'rilishini kamaytiradi — 2 soat farq bilan",
+      "Enterik qobiqli preparatlar bilan tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "1–2 chaynaladigan tabletka yoki 5–10 ml suspenziya kuniga 3–4 marta, ovqatdan 1 soat keyin va uxlash oldidan.",
+      bolalar: "Shifokor tavsiyasi bilan, kamaytirilgan dozada"
+    },
+    chiqarish: "Chaynaladigan tabletkalar; ichish uchun suspenziya"
+  },
+  ru: {
+    gruppa: "Антациды в комбинации с ветрогонными (антифлатулентами)",
+    farmTasir: "Антацидная и ветрогонная комбинация",
+    farmakodinamika: `Комбинация гидроксида (карбоната) алюминия и магния с симетиконом. Антацидные компоненты нейтрализуют соляную кислоту желудка, повышая pH, снижают активность пепсина и защищают слизистую. Симетикон — инертное силиконовое соединение, снижающее поверхностное натяжение; объединяет и разрушает пузырьки газа в кишечнике, уменьшая газообразование и метеоризм. Симетикон не всасывается и химически инертен.`,
+    farmakokinetika: {
+      sorish: "Компоненты практически не всасываются; симетикон не всасывается вовсе",
+      tarqalish: "Местное действие в просвете ЖКТ",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "С калом в неизменённом виде"
+    },
+    korsatmalar: [
+      "Гиперацидный гастрит, диспепсия, изжога",
+      "Рефлюкс-эзофагит",
+      "Язва желудка и кишечника (в комплексной терапии)",
+      "Состояния с метеоризмом, вздутием и скоплением газов"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам",
+      "Тяжёлая почечная недостаточность",
+      "Гипофосфатемия"
+    ],
+    nojoya: {
+      "ЖКТ": "Послабление или запор, тошнота (редко)",
+      "Метаболические": "Гипермагниемия, гипофосфатемия при почечной недостаточности",
+      "Аллергические": "Сыпь, зуд (редко)"
+    },
+    dozadan: "Маловероятна; при почечной недостаточности гипермагниемия — симптоматическое лечение.",
+    ozarotasir: [
+      "Снижает всасывание тетрациклина, фторхинолонов, железа, дигоксина, тиреоидных гормонов — интервал 2 часа",
+      "Не рекомендуется с препаратами в энтеросолюбильной оболочке"
+    ],
+    qollash: {
+      kattalar: "1–2 жевательные таблетки или 5–10 мл суспензии 3–4 раза в день, через 1 ч после еды и перед сном.",
+      bolalar: "По рекомендации врача, в сниженной дозе"
+    },
+    chiqarish: "Жевательные таблетки; суспензия для приёма внутрь"
+  },
+  en: {
+    gruppa: "Antacids in combination with antiflatulents",
+    farmTasir: "Antacid and antiflatulent combination",
+    farmakodinamika: `A combination of aluminium and magnesium hydroxide (carbonate) with simethicone. The antacid components neutralise gastric hydrochloric acid, raising pH, reduce pepsin activity and protect the mucosa. Simethicone is an inert silicone compound that lowers surface tension; it coalesces and disperses gas bubbles in the gut, reducing gas formation and flatulence. Simethicone is not absorbed and is chemically inert.`,
+    farmakokinetika: {
+      sorish: "The components are practically not absorbed; simethicone is not absorbed at all",
+      tarqalish: "Local action in the GI lumen",
+      metabolizm: "Not metabolised",
+      chiqarilish: "In faeces unchanged"
+    },
+    korsatmalar: [
+      "Hyperacid gastritis, dyspepsia, heartburn",
+      "Reflux oesophagitis",
+      "Gastric and intestinal ulcer (in combination therapy)",
+      "Conditions with flatulence, bloating and gas accumulation"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components",
+      "Severe renal impairment",
+      "Hypophosphataemia"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Loosening or constipation, nausea (rare)",
+      "Metabolic": "Hypermagnesaemia, hypophosphataemia in renal failure",
+      "Hypersensitivity": "Rash, itching (rare)"
+    },
+    dozadan: "Unlikely; hypermagnesaemia in renal failure — symptomatic treatment.",
+    ozarotasir: [
+      "Reduces absorption of tetracycline, fluoroquinolones, iron, digoxin, thyroid hormones — separate by 2 hours",
+      "Not recommended with enteric-coated preparations"
+    ],
+    qollash: {
+      kattalar: "1–2 chewable tablets or 5–10 mL suspension 3–4 times daily, 1 h after meals and at bedtime.",
+      bolalar: "On medical advice, in reduced dose"
+    },
+    chiqarish: "Chewable tablets; oral suspension"
+  }
+},
+
+// ─── A02AH · Antatsid + Natriy bikarbonat ─────────────────────────────────
+"A02AH": {
+  uz: {
+    gruppa: "Antatsidlar — natriy bikarbonat bilan kombinatsiyalar",
+    farmTasir: "Tez ta'sir qiluvchi shippuchi antatsid kombinatsiya",
+    farmakodinamika: `Natriy bikarbonat va boshqa antatsid tuzlar (kalsiy karbonat va h.k.) kombinatsiyasi. Natriy bikarbonat oshqozon xlorid kislotasini tezda neytrallaydi (CO2 ajralib chiqadi), pH ni oshiradi va jig'ildon qaynashini tez bartaraf qiladi. Kombinatsiyadagi so'rilmaydigan komponentlar ta'sirni uzaytiradi. Tez, lekin nisbatan qisqa muddatli ta'sir; ko'p qo'llanганда natriy yukи va tizimli alkaloz xavfi bor.`,
+    farmakokinetika: {
+      sorish: "Natriy bikarbonat qisman so'riladi; boshqa komponentlar so'rilmaydi",
+      tarqalish: "Oshqozon luminida mahalliy ta'sir",
+      metabolizm: "Bikarbonat CO2 ga parchalanadi",
+      chiqarilish: "Natriy buyrak orqali; CO2 nafas bilan"
+    },
+    korsatmalar: [
+      "Jig'ildon qaynashi, giperatsid dispepsiya",
+      "Reflyuks-ezofagit simptomatik davosi",
+      "Oshqozon noxushligini tez bartaraf qilish"
+    ],
+    qarrshi: [
+      "Komponentlarga o'ta sezuvchanlik",
+      "Metabolik alkaloz",
+      "Og'ir buyrak yetishmovchiligi",
+      "Natriy cheklangan parhez (yurak yetishmovchiligi, gipertenziya, shish)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Kekirish, meteorizm, qorin shishi",
+      "Metabolik": "Ko'p qo'llashda metabolik alkaloz, gipernatriemiya, suyuqlik ushlanishi",
+      "Boshqa": "Sut-ishqor sindromi (kalsiy tutsa, uzoq qo'llashda)"
+    },
+    dozadan: "Ko'p qo'llashda alkaloz, gipernatriemiya, shish — preparatni to'xtatish, elektrolitlarni tuzatish.",
+    ozarotasir: [
+      "Oshqozon pH ini oshirib boshqa dorilar (tetratsiklin, temir, ftorxinolon) so'rilishini o'zgartiradi — 2 soat farq bilan",
+      "Natriy ushlanishi tufayli gipertenziya va yurak yetishmovchiligida ehtiyotkorlik"
+    ],
+    qollash: {
+      kattalar: "1 doza bir stakan suvda eritib, jig'ildon qaynaganda yoki ovqatdan keyin; kuniga 3–4 martadan ko'p emas, qisqa muddat.",
+      bolalar: "Shifokor tavsiyasi bilan, kamaytirilgan dozada"
+    },
+    chiqarish: "Shippuchi tabletkalar yoki kukun (natriy bikarbonat asosida)"
+  },
+  ru: {
+    gruppa: "Антациды в комбинации с натрия бикарбонатом",
+    farmTasir: "Быстродействующая шипучая антацидная комбинация",
+    farmakodinamika: `Комбинация натрия бикарбоната и других антацидных солей (карбонат кальция и др.). Натрия бикарбонат быстро нейтрализует соляную кислоту желудка (выделяется CO2), повышает pH и быстро устраняет изжогу. Невсасывающиеся компоненты комбинации продлевают действие. Действие быстрое, но относительно кратковременное; при избыточном применении есть риск натриевой нагрузки и системного алкалоза.`,
+    farmakokinetika: {
+      sorish: "Натрия бикарбонат частично всасывается; другие компоненты не всасываются",
+      tarqalish: "Местное действие в просвете желудка",
+      metabolizm: "Бикарбонат распадается до CO2",
+      chiqarilish: "Натрий почками; CO2 с дыханием"
+    },
+    korsatmalar: [
+      "Изжога, гиперацидная диспепсия",
+      "Симптоматическое лечение рефлюкс-эзофагита",
+      "Быстрое устранение желудочного дискомфорта"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам",
+      "Метаболический алкалоз",
+      "Тяжёлая почечная недостаточность",
+      "Диета с ограничением натрия (сердечная недостаточность, гипертензия, отёки)"
+    ],
+    nojoya: {
+      "ЖКТ": "Отрыжка, метеоризм, вздутие живота",
+      "Метаболические": "При избыточном применении метаболический алкалоз, гипернатриемия, задержка жидкости",
+      "Прочие": "Молочно-щелочной синдром (при содержании кальция, длительном применении)"
+    },
+    dozadan: "При избыточном применении алкалоз, гипернатриемия, отёки — отмена препарата, коррекция электролитов.",
+    ozarotasir: [
+      "Повышая pH желудка, изменяет всасывание других препаратов (тетрациклин, железо, фторхинолоны) — интервал 2 часа",
+      "Осторожно при гипертензии и сердечной недостаточности из-за задержки натрия"
+    ],
+    qollash: {
+      kattalar: "1 дозу растворить в стакане воды при изжоге или после еды; не более 3–4 раз в день, кратковременно.",
+      bolalar: "По рекомендации врача, в сниженной дозе"
+    },
+    chiqarish: "Шипучие таблетки или порошок (на основе натрия бикарбоната)"
+  },
+  en: {
+    gruppa: "Antacids in combination with sodium bicarbonate",
+    farmTasir: "Fast-acting effervescent antacid combination",
+    farmakodinamika: `A combination of sodium bicarbonate and other antacid salts (calcium carbonate, etc.). Sodium bicarbonate rapidly neutralises gastric hydrochloric acid (releasing CO2), raises pH and quickly relieves heartburn. Non-absorbable components in the combination prolong the action. Onset is rapid but relatively short-lived; excessive use carries a risk of sodium load and systemic alkalosis.`,
+    farmakokinetika: {
+      sorish: "Sodium bicarbonate is partly absorbed; other components are not absorbed",
+      tarqalish: "Local action in the gastric lumen",
+      metabolizm: "Bicarbonate breaks down to CO2",
+      chiqarilish: "Sodium renally; CO2 via respiration"
+    },
+    korsatmalar: [
+      "Heartburn, hyperacid dyspepsia",
+      "Symptomatic treatment of reflux oesophagitis",
+      "Rapid relief of gastric discomfort"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components",
+      "Metabolic alkalosis",
+      "Severe renal impairment",
+      "Sodium-restricted diet (heart failure, hypertension, oedema)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Belching, flatulence, bloating",
+      "Metabolic": "Metabolic alkalosis, hypernatraemia, fluid retention with excessive use",
+      "Other": "Milk-alkali syndrome (if calcium-containing, with prolonged use)"
+    },
+    dozadan: "Excessive use causes alkalosis, hypernatraemia, oedema — discontinue, correct electrolytes.",
+    ozarotasir: [
+      "By raising gastric pH it alters absorption of other drugs (tetracycline, iron, fluoroquinolones) — separate by 2 hours",
+      "Caution in hypertension and heart failure due to sodium retention"
+    ],
+    qollash: {
+      kattalar: "Dissolve 1 dose in a glass of water for heartburn or after meals; no more than 3–4 times daily, short term.",
+      bolalar: "On medical advice, in reduced dose"
+    },
+    chiqarish: "Effervescent tablets or powder (sodium bicarbonate based)"
+  }
+},
+
+// ─── A02AX · Antatsid kombinatsiyalari (boshqa) ───────────────────────────
+"A02AX": {
+  uz: {
+    gruppa: "Antatsidlar — boshqa kombinatsiyalar",
+    farmTasir: "Aralash antatsid va simptomlarni yengillashtiruvchi kombinatsiya",
+    farmakodinamika: `Alyuminiy va magniy gidroksidi hamda simetikon (ba'zan og'riqsizlantiruvchi yoki o'rab oluvchi qo'shimchalar) asosidagi aralash antatsid. Antatsid komponentlar oshqozon xlorid kislotasini neytrallaydi, pH ni oshiradi va pepsin faolligini kamaytiradi, shilliq pardani o'rab himoyalaydi; simetikon gaz pufakchalarini yo'q qilib meteorizmni kamaytiradi. Kombinatsiyalangan tarkib kislotalilik va gaz bilan bog'liq simptomlarni bir vaqtda yengillashtiradi.`,
+    farmakokinetika: {
+      sorish: "Komponentlar deyarli so'rilmaydi (simetikon umuman)",
+      tarqalish: "Oshqozon-ichak luminida mahalliy ta'sir",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Najas bilan o'zgarmagan holda"
+    },
+    korsatmalar: [
+      "Giperatsid gastrit, dispepsiya, jig'ildon qaynashi",
+      "Reflyuks-ezofagit",
+      "Oshqozon-ichak yarasi (kompleks davoda)",
+      "Meteorizm va gaz to'planishi bilan kechadigan oshqozon noxushligi"
+    ],
+    qarrshi: [
+      "Komponentlarga o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi",
+      "Gipofosfatemiya"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich yumshashi yoki qotishi, ko'ngil aynishi",
+      "Metabolik": "Buyrak yetishmovchiligida gipermagniemiya, gipofosfatemiya",
+      "Allergiya": "Toshma, qichishish (kam)"
+    },
+    dozadan: "Ehtimoli past; buyrak yetishmovchiligida elektrolit buzilishlari — simptomatik davolash.",
+    ozarotasir: [
+      "Tetratsiklin, ftorxinolon, temir, digoksin, tiroid gormoni so'rilishini kamaytiradi — 2 soat farq bilan",
+      "Enterik qobiqli preparatlar bilan tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "1–2 chaynaladigan tabletka yoki 5–10 ml suspenziya kuniga 3–4 marta, ovqatdan 1 soat keyin va uxlash oldidan.",
+      bolalar: "Shifokor tavsiyasi bilan, kamaytirilgan dozada"
+    },
+    chiqarish: "Chaynaladigan tabletkalar; ichish uchun suspenziya"
+  },
+  ru: {
+    gruppa: "Антациды — прочие комбинации",
+    farmTasir: "Смешанная антацидная и симптом-облегчающая комбинация",
+    farmakodinamika: `Смешанный антацид на основе гидроксида алюминия и магния с симетиконом (иногда с обезболивающими или обволакивающими добавками). Антацидные компоненты нейтрализуют соляную кислоту желудка, повышают pH и снижают активность пепсина, обволакивают и защищают слизистую; симетикон разрушает пузырьки газа, уменьшая метеоризм. Комбинированный состав одновременно облегчает симптомы, связанные с кислотностью и газами.`,
+    farmakokinetika: {
+      sorish: "Компоненты практически не всасываются (симетикон совсем)",
+      tarqalish: "Местное действие в просвете ЖКТ",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "С калом в неизменённом виде"
+    },
+    korsatmalar: [
+      "Гиперацидный гастрит, диспепсия, изжога",
+      "Рефлюкс-эзофагит",
+      "Язва желудка и кишечника (в комплексной терапии)",
+      "Желудочный дискомфорт с метеоризмом и скоплением газов"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам",
+      "Тяжёлая почечная недостаточность",
+      "Гипофосфатемия"
+    ],
+    nojoya: {
+      "ЖКТ": "Послабление или запор, тошнота",
+      "Метаболические": "Гипермагниемия, гипофосфатемия при почечной недостаточности",
+      "Аллергические": "Сыпь, зуд (редко)"
+    },
+    dozadan: "Маловероятна; при почечной недостаточности электролитные нарушения — симптоматическое лечение.",
+    ozarotasir: [
+      "Снижает всасывание тетрациклина, фторхинолонов, железа, дигоксина, тиреоидных гормонов — интервал 2 часа",
+      "Не рекомендуется с препаратами в энтеросолюбильной оболочке"
+    ],
+    qollash: {
+      kattalar: "1–2 жевательные таблетки или 5–10 мл суспензии 3–4 раза в день, через 1 ч после еды и перед сном.",
+      bolalar: "По рекомендации врача, в сниженной дозе"
+    },
+    chiqarish: "Жевательные таблетки; суспензия для приёма внутрь"
+  },
+  en: {
+    gruppa: "Antacids — other combinations",
+    farmTasir: "Mixed antacid and symptom-relieving combination",
+    farmakodinamika: `A mixed antacid based on aluminium and magnesium hydroxide with simethicone (sometimes with analgesic or demulcent additives). The antacid components neutralise gastric hydrochloric acid, raise pH and reduce pepsin activity, coating and protecting the mucosa; simethicone disperses gas bubbles, reducing flatulence. The combined composition simultaneously relieves acidity- and gas-related symptoms.`,
+    farmakokinetika: {
+      sorish: "The components are practically not absorbed (simethicone not at all)",
+      tarqalish: "Local action in the GI lumen",
+      metabolizm: "Not metabolised",
+      chiqarilish: "In faeces unchanged"
+    },
+    korsatmalar: [
+      "Hyperacid gastritis, dyspepsia, heartburn",
+      "Reflux oesophagitis",
+      "Gastric and intestinal ulcer (in combination therapy)",
+      "Gastric discomfort with flatulence and gas accumulation"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components",
+      "Severe renal impairment",
+      "Hypophosphataemia"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Loosening or constipation, nausea",
+      "Metabolic": "Hypermagnesaemia, hypophosphataemia in renal failure",
+      "Hypersensitivity": "Rash, itching (rare)"
+    },
+    dozadan: "Unlikely; electrolyte disturbances in renal failure — symptomatic treatment.",
+    ozarotasir: [
+      "Reduces absorption of tetracycline, fluoroquinolones, iron, digoxin, thyroid hormones — separate by 2 hours",
+      "Not recommended with enteric-coated preparations"
+    ],
+    qollash: {
+      kattalar: "1–2 chewable tablets or 5–10 mL suspension 3–4 times daily, 1 h after meals and at bedtime.",
+      bolalar: "On medical advice, in reduced dose"
+    },
+    chiqarish: "Chewable tablets; oral suspension"
+  }
 }
 
 };
