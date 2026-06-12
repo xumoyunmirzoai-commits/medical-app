@@ -11346,6 +11346,741 @@ const PHARMA_DATA = {
     },
     chiqarish: "Capsules 250 mg; powder/granules for oral use (sachets) 250 mg"
   }
+},
+
+// ─── A09AA02 · Pankreatin ─────────────────────────────────────────────────
+"A09AA02": {
+  uz: {
+    gruppa: "Hazm fermentlari preparatlari",
+    farmTasir: "Oshqozon osti bezi fermentlari bilan o'rin bosuvchi vosita",
+    farmakodinamika: `Pankreatin — cho'chqa oshqozon osti bezidan olingan hazm fermentlari (lipaza, amilaza, proteaza/tripsin) majmuasi. Ekzokrin pankreas yetishmovchiligida ovqat hazmini ta'minlaydi: lipaza yog'larni glitserin va yog' kislotalariga, amilaza kraxmalни (uglevodlar) dekstrin va shakarlarга, proteazalar oqsillarni aminokislotalarга parchalaydi. Enterik (kislotaga chidamli) qobiq fermentlarni oshqozon kislotasidan himoyalaydi va ular ingichka ichakда (pH ko'tarilganda) faollashadi. Hazmni yaxshilab, dispepsiya, meteorizm va steatoreyani kamaytiradi.`,
+    farmakokinetika: {
+      sorish: "Fermentlar so'rilmaydi; ichak luminида faol ta'sir qiladi",
+      tarqalish: "Tizimli taqsimlanish yo'q",
+      metabolizm: "Ichakда oqsillar singari hazm bo'ladi",
+      chiqarilish: "Parchalangan/inaktivlashgan holda najas bilan"
+    },
+    korsatmalar: [
+      "Surunkali pankreatit, kistoz fibroz (mukovissidoz), pankreatektomiya — ekzokrin yetishmovchilik",
+      "Hazmni yaxshilash (oshqozon-ichak, jigar-o't kasalliklarida)",
+      "Ovqatlanish xatosi, harakatsizlik, chaynashning buzilishi fonidagi dispepsiya",
+      "Qorin bo'shlig'i USK/rentgen tekshiruviga tayyorgarlik (gaz kamaytirish)"
+    ],
+    qarrshi: [
+      "Pankreatin yoki cho'chqa oqsiliga o'ta sezuvchanlik",
+      "O'tkir pankreatit va surunkali pankreatitning zo'rayishi (boshlang'ich davri)",
+      "Ichak tutilishi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi yoki diareya, ko'ngil aynishi, qorin noxushligi",
+      "Metabolik": "Yuqori dozada giperurikemiya, siydikда siydik kislotasi oshishi",
+      "Ichak": "Yuqori dozada (mukovissidozда) fibrozlovchi kolonopatiya",
+      "Allergiya": "Toshma, qichishish, hapшiruv (kukunni nafas olganda)"
+    },
+    dozadan: "Yuqori dozada giperurikemiya, ich qotishi (bolalarda). Davolash: dozani kamaytirish, suyuqlik.",
+    ozarotasir: [
+      "Temir preparatlari so'rilishini kamaytirishi mumkin",
+      "Akarboza, miglitol bilan ta'sirini susaytirishi mumkin",
+      "Antatsidlar (kalsiy/magniy) enterik qobiq samarasini o'zgartirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "Har ovqat bilan 25 000–50 000 ЛБ lipaza (ovqat hajmiga qarab); kapsulalarni chaynamasdan, ovqat boshida/davomida ichish.",
+      bolalar: "Vaznга/ovqatga qarab 1000–4000 ЛБ lipaza/g yog'; shifokor hisoblaydi"
+    },
+    chiqarish: "Enterik kapsulalar/tabletkalar (10 000; 25 000; 40 000 lipaza ЛБ); mikrosferali kapsulalar"
+  },
+  ru: {
+    gruppa: "Препараты пищеварительных ферментов",
+    farmTasir: "Заместительное средство ферментами поджелудочной железы",
+    farmakodinamika: `Панкреатин — комплекс пищеварительных ферментов (липаза, амилаза, протеаза/трипсин) из поджелудочной железы свиней. При экзокринной недостаточности обеспечивает переваривание пищи: липаза расщепляет жиры до глицерина и жирных кислот, амилаза — крахмал (углеводы) до декстринов и сахаров, протеазы — белки до аминокислот. Энтеросолюбильная (кислотоустойчивая) оболочка защищает ферменты от желудочной кислоты, и они активируются в тонкой кишке (при повышении pH). Улучшает пищеварение, уменьшает диспепсию, метеоризм и стеаторею.`,
+    farmakokinetika: {
+      sorish: "Ферменты не всасываются; действуют в просвете кишки",
+      tarqalish: "Системного распределения нет",
+      metabolizm: "Перевариваются в кишке как белки",
+      chiqarilish: "В расщеплённом/инактивированном виде с калом"
+    },
+    korsatmalar: [
+      "Хронический панкреатит, муковисцидоз, панкреатэктомия — экзокринная недостаточность",
+      "Улучшение пищеварения (при заболеваниях ЖКТ, печени и жёлчных путей)",
+      "Диспепсия при погрешностях в питании, малоподвижности, нарушении жевания",
+      "Подготовка к УЗИ/рентгену брюшной полости (уменьшение газа)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к панкреатину или свиному белку",
+      "Острый панкреатит и обострение хронического (начальный период)",
+      "Кишечная непроходимость"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор или диарея, тошнота, дискомфорт в животе",
+      "Метаболические": "При высоких дозах гиперурикемия, повышение мочевой кислоты в моче",
+      "Кишечник": "При высоких дозах (при муковисцидозе) фиброзирующая колонопатия",
+      "Аллергические": "Сыпь, зуд, чихание (при вдыхании порошка)"
+    },
+    dozadan: "При высоких дозах гиперурикемия, запор (у детей). Лечение: снижение дозы, жидкость.",
+    ozarotasir: [
+      "Может снижать всасывание препаратов железа",
+      "Может ослаблять действие акарбозы, миглитола",
+      "Антациды (кальций/магний) могут изменять эффект энтеросолюбильной оболочки"
+    ],
+    qollash: {
+      kattalar: "С каждым приёмом пищи 25 000–50 000 ЕД липазы (по объёму пищи); капсулы не разжёвывая, в начале/во время еды.",
+      bolalar: "По массе/пище 1000–4000 ЕД липазы/г жира; рассчитывает врач"
+    },
+    chiqarish: "Энтеросолюбильные капсулы/таблетки (10 000; 25 000; 40 000 ЕД липазы); капсулы с микросферами"
+  },
+  en: {
+    gruppa: "Digestive enzyme preparations",
+    farmTasir: "Pancreatic enzyme replacement therapy",
+    farmakodinamika: `Pancreatin is a complex of digestive enzymes (lipase, amylase, protease/trypsin) from porcine pancreas. In exocrine pancreatic insufficiency it provides food digestion: lipase breaks down fats to glycerol and fatty acids, amylase breaks down starch (carbohydrates) to dextrins and sugars, and proteases break down proteins to amino acids. The enteric (acid-resistant) coating protects the enzymes from gastric acid, and they are activated in the small intestine (as pH rises). It improves digestion and reduces dyspepsia, flatulence and steatorrhoea.`,
+    farmakokinetika: {
+      sorish: "The enzymes are not absorbed; they act in the bowel lumen",
+      tarqalish: "No systemic distribution",
+      metabolizm: "Digested in the bowel like proteins",
+      chiqarilish: "In cleaved/inactivated form in faeces"
+    },
+    korsatmalar: [
+      "Chronic pancreatitis, cystic fibrosis, pancreatectomy — exocrine insufficiency",
+      "Improving digestion (in GI, hepatic and biliary disease)",
+      "Dyspepsia from dietary errors, immobility, impaired chewing",
+      "Preparation for abdominal ultrasound/X-ray (reducing gas)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to pancreatin or porcine protein",
+      "Acute pancreatitis and exacerbation of chronic pancreatitis (early phase)",
+      "Intestinal obstruction"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation or diarrhoea, nausea, abdominal discomfort",
+      "Metabolic": "Hyperuricaemia, raised urinary uric acid at high doses",
+      "Bowel": "Fibrosing colonopathy at high doses (in cystic fibrosis)",
+      "Hypersensitivity": "Rash, itching, sneezing (when inhaling the powder)"
+    },
+    dozadan: "Hyperuricaemia, constipation (in children) at high doses. Treatment: reduce dose, fluids.",
+    ozarotasir: [
+      "May reduce absorption of iron preparations",
+      "May weaken the effect of acarbose, miglitol",
+      "Antacids (calcium/magnesium) may alter the effect of the enteric coating"
+    ],
+    qollash: {
+      kattalar: "With each meal 25,000–50,000 U lipase (by meal size); swallow capsules whole at the start/during the meal.",
+      bolalar: "By weight/meal 1000–4000 U lipase/g fat; calculated by the physician"
+    },
+    chiqarish: "Enteric capsules/tablets (10,000; 25,000; 40,000 U lipase); microsphere capsules"
+  }
+},
+
+// ─── A10AB01 · Inson insulini (qisqa ta'sirli) ────────────────────────────
+"A10AB01": {
+  uz: {
+    gruppa: "Insulinlar (qisqa/tez ta'sirli)",
+    farmTasir: "Qonda glyukoza darajasini pasaytiruvchi gormon",
+    farmakodinamika: `Inson insulini (eriydigan, qisqa ta'sirli) — rekombinant texnologiya bilan olingan oshqozon osti bezi gormoni. Hujayra membranasidagi insulin retseptorlariga bog'lanib, glyukozaning hujayraga kirishini va o'zlashtirilishini oshiradi (ayniqsa mushak va yog' to'qimasida), jigarда glikogen sintezini rag'batlantiradi va glyukoneogenezni bostiradi, oqsil va yog' sintezini kuchaytiradi, lipolizni va ketogenezni kamaytiradi. Natijada qondagi glyukoza darajasi pasayadi. Qisqa ta'sirli — teri ostiga yuborilganda 30 daqiqada boshlanadi, 1–3 soatda eng yuqori, 6–8 soat davom etadi.`,
+    farmakokinetika: {
+      sorish: "Teri osti/v/m yuboriladi; v/v ham mumkin. Boshlanishi 30 daqiqa (s/c)",
+      tarqalish: "Qonda erkin tarqaladi; platsentadan o'tmaydi (yirik molekula)",
+      metabolizm: "Jigar va buyrakда insulinaza orqali parchalanadi",
+      chiqarilish: "Metabolitlar buyrak orqali; T½ qonda bir necha daqiqa, ta'siri 6–8 soat"
+    },
+    korsatmalar: [
+      "1-tip qandli diabet (qand kasalligi)",
+      "2-tip qandli diabet (peroral vositalar samarasiz yoki qarshi ko'rsatma bo'lganда)",
+      "Diabetik ketoatsidoz, giperosmolyar koma (v/v)",
+      "Homiladorlik davridagi diabet; operatsiya, infeksiya, jarohat fonidagi diabet",
+      "Insulinга rezistentlikni baholash"
+    ],
+    qarrshi: [
+      "Insulinга o'ta sezuvchanlik",
+      "Gipoglikemiya"
+    ],
+    nojoya: {
+      "Metabolik": "Gipoglikemiya (eng muhim — ochlik, terlash, titroq, hushdan ketish), vazn ortishi",
+      "Mahalliy": "In'eksiya joyida lipodistrofiya, qizarish, qichishish, og'riq",
+      "Allergiya": "Mahalliy yoki tizimli allergik reaksiya (kam)",
+      "Ko'rish": "Davo boshida vaqtincha refraksiya buzilishi; shish (natriy ushlanishi)"
+    },
+    dozadan: "Gipoglikemiya: och qolish, terlash, taxikardiya, tirishish, koma. Davolash: glyukoza (og'iz orqali yoki v/v), glukagon.",
+    ozarotasir: [
+      "Glyukozani pasaytiruvchilar (peroral antidiabetiklar, MAO inhibitorlari, BAB, ACE inhibitorlari, salitsilatlar, etanol) gipoglikemiyani kuchaytiradi",
+      "Glyukozani oshiruvchilar (GKS, tiazid diuretiklar, tiroid gormonlari, simpatomimetiklar, peroral kontratseptivlar) insulin ehtiyojini oshiradi",
+      "BAB gipoglikemiya belgilarini niqoblaydi"
+    ],
+    qollash: {
+      kattalar: "Doza individual (gликemiyaga qarab). Teri ostiga ovqatdan 30 daqiqa oldin; o'rtacha sutkalik 0,5–1 ХБ/kg, bazal-bolus yoki aralash sxemada.",
+      bolalar: "Individual, vaznга va gликemiyaга qarab, endokrinolog nazoratida"
+    },
+    chiqarish: "Inyeksiya eritmasi 100 ХБ/ml (флаконlar, kartrijlar, shприц-ручкalar)"
+  },
+  ru: {
+    gruppa: "Инсулины (короткого/быстрого действия)",
+    farmTasir: "Гормон, снижающий уровень глюкозы в крови",
+    farmakodinamika: `Человеческий инсулин (растворимый, короткого действия) — гормон поджелудочной железы, полученный рекомбинантной технологией. Связываясь с инсулиновыми рецепторами клеточной мембраны, повышает поступление и усвоение глюкозы клетками (особенно в мышечной и жировой ткани), стимулирует синтез гликогена в печени и подавляет глюконеогенез, усиливает синтез белка и жира, снижает липолиз и кетогенез. В результате уровень глюкозы в крови снижается. Короткого действия — при п/к введении начинается через 30 минут, пик 1–3 ч, длительность 6–8 ч.`,
+    farmakokinetika: {
+      sorish: "Вводят п/к, в/м; возможно в/в. Начало через 30 минут (п/к)",
+      tarqalish: "Свободно распределяется в крови; не проникает через плаценту (крупная молекула)",
+      metabolizm: "Расщепляется инсулиназой в печени и почках",
+      chiqarilish: "Метаболиты почками; T½ в крови несколько минут, действие 6–8 ч"
+    },
+    korsatmalar: [
+      "Сахарный диабет 1 типа",
+      "Сахарный диабет 2 типа (при неэффективности/противопоказаниях пероральных средств)",
+      "Диабетический кетоацидоз, гиперосмолярная кома (в/в)",
+      "Диабет при беременности; диабет на фоне операции, инфекции, травмы",
+      "Оценка инсулинорезистентности"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к инсулину",
+      "Гипогликемия"
+    ],
+    nojoya: {
+      "Метаболические": "Гипогликемия (важнейшее — голод, потливость, дрожь, потеря сознания), прибавка массы",
+      "Местные": "Липодистрофия, покраснение, зуд, боль в месте инъекции",
+      "Аллергические": "Местная или системная аллергическая реакция (редко)",
+      "Зрение": "В начале лечения временное нарушение рефракции; отёки (задержка натрия)"
+    },
+    dozadan: "Гипогликемия: голод, потливость, тахикардия, судороги, кома. Лечение: глюкоза (внутрь или в/в), глюкагон.",
+    ozarotasir: [
+      "Снижающие глюкозу (пероральные антидиабетики, ингибиторы МАО, БАБ, ингибиторы АПФ, салицилаты, этанол) усиливают гипогликемию",
+      "Повышающие глюкозу (ГКС, тиазидные диуретики, тиреоидные гормоны, симпатомиметики, пероральные контрацептивы) повышают потребность в инсулине",
+      "БАБ маскируют симптомы гипогликемии"
+    ],
+    qollash: {
+      kattalar: "Доза индивидуальна (по гликемии). П/к за 30 минут до еды; в среднем 0,5–1 ЕД/кг/сут, в базально-болюсной или смешанной схеме.",
+      bolalar: "Индивидуально, по массе и гликемии, под контролем эндокринолога"
+    },
+    chiqarish: "Раствор для инъекций 100 ЕД/мл (флаконы, картриджи, шприц-ручки)"
+  },
+  en: {
+    gruppa: "Insulins (short/fast-acting)",
+    farmTasir: "Hormone that lowers blood glucose",
+    farmakodinamika: `Human insulin (soluble, short-acting) is a pancreatic hormone produced by recombinant technology. Binding to insulin receptors on the cell membrane, it increases glucose uptake and utilisation by cells (especially muscle and adipose tissue), stimulates hepatic glycogen synthesis and suppresses gluconeogenesis, enhances protein and fat synthesis, and reduces lipolysis and ketogenesis. As a result, blood glucose falls. Short-acting — after subcutaneous injection it begins in 30 minutes, peaks at 1–3 h, and lasts 6–8 h.`,
+    farmakokinetika: {
+      sorish: "Given SC, IM; IV possible. Onset 30 minutes (SC)",
+      tarqalish: "Distributes freely in blood; does not cross the placenta (large molecule)",
+      metabolizm: "Degraded by insulinase in the liver and kidneys",
+      chiqarilish: "Metabolites renally; blood T½ a few minutes, action 6–8 h"
+    },
+    korsatmalar: [
+      "Type 1 diabetes mellitus",
+      "Type 2 diabetes mellitus (when oral agents are ineffective/contraindicated)",
+      "Diabetic ketoacidosis, hyperosmolar coma (IV)",
+      "Diabetes in pregnancy; diabetes during surgery, infection, trauma",
+      "Assessment of insulin resistance"
+    ],
+    qarrshi: [
+      "Hypersensitivity to insulin",
+      "Hypoglycaemia"
+    ],
+    nojoya: {
+      "Metabolic": "Hypoglycaemia (most important — hunger, sweating, tremor, loss of consciousness), weight gain",
+      "Local": "Lipodystrophy, redness, itching, pain at the injection site",
+      "Hypersensitivity": "Local or systemic allergic reaction (rare)",
+      "Visual": "Transient refractive disturbance early in treatment; oedema (sodium retention)"
+    },
+    dozadan: "Hypoglycaemia: hunger, sweating, tachycardia, seizures, coma. Treatment: glucose (oral or IV), glucagon.",
+    ozarotasir: [
+      "Glucose-lowering agents (oral antidiabetics, MAO inhibitors, beta-blockers, ACE inhibitors, salicylates, ethanol) enhance hypoglycaemia",
+      "Glucose-raising agents (corticosteroids, thiazide diuretics, thyroid hormones, sympathomimetics, oral contraceptives) increase insulin requirement",
+      "Beta-blockers mask hypoglycaemia symptoms"
+    ],
+    qollash: {
+      kattalar: "Dose individualised (by glycaemia). SC 30 minutes before food; on average 0.5–1 U/kg/day in a basal-bolus or mixed regimen.",
+      bolalar: "Individualised, by weight and glycaemia, under endocrinologist supervision"
+    },
+    chiqarish: "Injection solution 100 U/mL (vials, cartridges, prefilled pens)"
+  }
+},
+
+// ─── A10AE04 · Insulin glargin (uzoq ta'sirli) ────────────────────────────
+"A10AE04": {
+  uz: {
+    gruppa: "Insulinlar (uzoq ta'sirli analoglar)",
+    farmTasir: "Uzoq, tekis ta'sirli bazal insulin analogi",
+    farmakodinamika: `Insulin glargin — uzoq ta'sirli inson insulini analogi. Molekulasi shunday o'zgartirilganki, neytral pH (teri osti) da mayda cho'kma hosil qiladi va sekin, bir tekisda so'riladi — bu cho'qqisiz (peaksiz), 24 soatgacha davom etadigan bazal insulin darajasini ta'minlaydi. Ta'sir mexanizmi inson insulini bilan bir xil: insulin retseptorlariga bog'lanib glyukozaning hujayraga kirishini oshiradi, jigarда glyukoza ishlab chiqarilishini bostiradi. Cho'qqisiz profili tunги va ovqatlararo gipoglikemiya xavfini kamaytiradi.`,
+    farmakokinetika: {
+      sorish: "Teri ostiga yuborilganda sekin va cho'qqisiz so'riladi; ta'sir 1–2 soatda boshlanadi, 24 soatgacha",
+      tarqalish: "Qonda tarqaladi; platsentadan o'tmaydi",
+      metabolizm: "Teri ostида faol metabolitlarga (M1) aylanadi; jigar/buyrakда parchalanadi",
+      chiqarilish: "Metabolitlar buyrak orqali; ta'sir davomiyligi ~24 soat (kuniga 1 marta)"
+    },
+    korsatmalar: [
+      "1-tip qandli diabet (bazal insulin sifatida)",
+      "2-tip qandli diabet (bazal insulin, peroral vositalar bilan yoki bolus insulin bilan birga)",
+      "Bazal-bolus insulinoterapiyasining bazal komponenti"
+    ],
+    qarrshi: [
+      "Insulin glargin yoki yordamchi moddalarga o'ta sezuvchanlik",
+      "Gipoglikemiya",
+      "Diabetik ketoatsidoz davosi uchun mos emas (qisqa insulin/ v/v kerak)"
+    ],
+    nojoya: {
+      "Metabolik": "Gipoglikemiya (inson insulinidan kamroq tunги), vazn ortishi",
+      "Mahalliy": "In'eksiya joyida lipodistrofiya, qizarish, qichishish, og'riq",
+      "Allergiya": "Mahalliy yoki tizimli allergik reaksiya (kam)",
+      "Boshqa": "Shish, davo boshida vaqtincha refraksiya buzilishi"
+    },
+    dozadan: "Gipoglikemiya (uzoq davom etishi mumkin). Davolash: glyukoza (og'iz/ v/v), glukagon; uzoq nazorat.",
+    ozarotasir: [
+      "Boshqa qand tushiruvchilar va etanol gipoglikemiyani kuchaytiradi",
+      "GKS, diuretiklar, tiroid gormonlari, simpatomimetiklar insulin ehtiyojini oshiradi",
+      "BAB gipoglikemiya belgilarini niqoblaydi; boshqa insulinlar bilan bitta shприцда aralashtirmang"
+    ],
+    qollash: {
+      kattalar: "Kuniga 1 marta (har kuni bir vaqtда) teri ostiga; doza individual, gликemiyaga qarab titrlanadi.",
+      bolalar: "2 yoshdan: individual doza, endokrinolog nazoratida"
+    },
+    chiqarish: "Inyeksiya eritmasi 100 ХБ/ml (300 ХБ/ml ham); kartrijlar, shприц-ручкalar"
+  },
+  ru: {
+    gruppa: "Инсулины (длительного действия, аналоги)",
+    farmTasir: "Базальный аналог инсулина длительного, равномерного действия",
+    farmakodinamika: `Инсулин гларгин — аналог человеческого инсулина длительного действия. Молекула изменена так, что при нейтральном pH (в подкожной клетчатке) образует микропреципитат и медленно, равномерно всасывается — обеспечивая беспиковый базальный уровень инсулина до 24 ч. Механизм действия как у человеческого инсулина: связываясь с инсулиновыми рецепторами, повышает поступление глюкозы в клетки и подавляет продукцию глюкозы печенью. Беспиковый профиль снижает риск ночной и межприёмной гипогликемии.`,
+    farmakokinetika: {
+      sorish: "При п/к введении всасывается медленно и беспиково; действие через 1–2 ч, до 24 ч",
+      tarqalish: "Распределяется в крови; не проникает через плаценту",
+      metabolizm: "В подкожной клетчатке превращается в активные метаболиты (M1); расщепляется в печени/почках",
+      chiqarilish: "Метаболиты почками; длительность действия ~24 ч (1 раз в день)"
+    },
+    korsatmalar: [
+      "Сахарный диабет 1 типа (как базальный инсулин)",
+      "Сахарный диабет 2 типа (базальный инсулин, с пероральными средствами или болюсным инсулином)",
+      "Базальный компонент базально-болюсной инсулинотерапии"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к инсулину гларгину или вспомогательным веществам",
+      "Гипогликемия",
+      "Не подходит для лечения диабетического кетоацидоза (нужен короткий инсулин/в/в)"
+    ],
+    nojoya: {
+      "Метаболические": "Гипогликемия (ночная реже, чем у человеческого инсулина), прибавка массы",
+      "Местные": "Липодистрофия, покраснение, зуд, боль в месте инъекции",
+      "Аллергические": "Местная или системная аллергическая реакция (редко)",
+      "Прочие": "Отёки, временное нарушение рефракции в начале лечения"
+    },
+    dozadan: "Гипогликемия (может быть длительной). Лечение: глюкоза (внутрь/в/в), глюкагон; длительное наблюдение.",
+    ozarotasir: [
+      "Другие сахароснижающие и этанол усиливают гипогликемию",
+      "ГКС, диуретики, тиреоидные гормоны, симпатомиметики повышают потребность в инсулине",
+      "БАБ маскируют симптомы гипогликемии; не смешивать в одном шприце с другими инсулинами"
+    ],
+    qollash: {
+      kattalar: "1 раз в день (в одно и то же время) п/к; доза индивидуальна, титруется по гликемии.",
+      bolalar: "С 2 лет: индивидуальная доза, под контролем эндокринолога"
+    },
+    chiqarish: "Раствор для инъекций 100 ЕД/мл (и 300 ЕД/мл); картриджи, шприц-ручки"
+  },
+  en: {
+    gruppa: "Insulins (long-acting analogues)",
+    farmTasir: "Basal insulin analogue with long, even action",
+    farmakodinamika: `Insulin glargine is a long-acting human insulin analogue. Its molecule is modified so that at neutral pH (in subcutaneous tissue) it forms a microprecipitate and is absorbed slowly and evenly — providing a peakless basal insulin level for up to 24 h. The mechanism is the same as human insulin: binding to insulin receptors, it increases glucose uptake into cells and suppresses hepatic glucose production. The peakless profile reduces the risk of nocturnal and between-meal hypoglycaemia.`,
+    farmakokinetika: {
+      sorish: "After SC injection it is absorbed slowly and peaklessly; onset in 1–2 h, up to 24 h",
+      tarqalish: "Distributes in blood; does not cross the placenta",
+      metabolizm: "Converted in subcutaneous tissue to active metabolites (M1); degraded in liver/kidneys",
+      chiqarilish: "Metabolites renally; duration ~24 h (once daily)"
+    },
+    korsatmalar: [
+      "Type 1 diabetes mellitus (as basal insulin)",
+      "Type 2 diabetes mellitus (basal insulin, with oral agents or bolus insulin)",
+      "Basal component of basal-bolus insulin therapy"
+    ],
+    qarrshi: [
+      "Hypersensitivity to insulin glargine or excipients",
+      "Hypoglycaemia",
+      "Not suitable for treating diabetic ketoacidosis (short insulin/IV needed)"
+    ],
+    nojoya: {
+      "Metabolic": "Hypoglycaemia (nocturnal less than with human insulin), weight gain",
+      "Local": "Lipodystrophy, redness, itching, pain at the injection site",
+      "Hypersensitivity": "Local or systemic allergic reaction (rare)",
+      "Other": "Oedema, transient refractive disturbance early in treatment"
+    },
+    dozadan: "Hypoglycaemia (may be prolonged). Treatment: glucose (oral/IV), glucagon; prolonged monitoring.",
+    ozarotasir: [
+      "Other glucose-lowering agents and ethanol enhance hypoglycaemia",
+      "Corticosteroids, diuretics, thyroid hormones, sympathomimetics increase insulin requirement",
+      "Beta-blockers mask hypoglycaemia symptoms; do not mix in one syringe with other insulins"
+    ],
+    qollash: {
+      kattalar: "Once daily (at the same time) SC; dose individualised, titrated by glycaemia.",
+      bolalar: "From 2 years: individualised dose, under endocrinologist supervision"
+    },
+    chiqarish: "Injection solution 100 U/mL (and 300 U/mL); cartridges, prefilled pens"
+  }
+},
+
+// ─── A10BA02 · Metformin ──────────────────────────────────────────────────
+"A10BA02": {
+  uz: {
+    gruppa: "Peroral qand tushiruvchi vositalar (biguanidlar)",
+    farmTasir: "Insulinга sezgirlikni oshiruvchi qand tushiruvchi vosita",
+    farmakodinamika: `Metformin — biguanid guruhiga mansub peroral antidiabetik. Asosiy ta'siri: jigarда glyukoneogenez (glyukoza ishlab chiqarish)ni kamaytiradi (AMФ-faollashtiruvchi protein kinaza — AMPK ni faollashtirib); periferik to'qimalar (mushak)ning insulinга sezgirligini oshirib glyukoza o'zlashtirilishini kuchaytiradi; ichakdan glyukoza so'rilishini sekinlashtiradi. Insulin sekretsiyasini rag'batlantirmaydi, shuning uchun yakka qo'llanганда gipoglikemiya keltirib chiqarmaydi. Vazn ortishiga sabab bo'lmaydi (ko'pincha kamaytiradi), lipidlar profilini yaxshilaydi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'riladi; biofaollik 50–60%. Ovqat so'rilishni biroz sekinlashtiradi",
+      tarqalish: "Oqsilga deyarli bog'lanmaydi; to'qimalarga tarqaladi",
+      metabolizm: "Metabolizmga uchramaydi (o'zgarmaydi)",
+      chiqarilish: "Buyrak orqali o'zgarmagan holda (kanalcha sekretsiyasi); T½ ~6,5 soat"
+    },
+    korsatmalar: [
+      "2-tip qandli diabet (ayniqsa ortiqcha vazn bilan) — birinchi qator preparat",
+      "Diabet profilaktikasi (preddiabet, glyukozaga buzilgan tolerantlik) — yordamchi",
+      "Polikistoz tuxumdon sindromi (insulinга rezistentlik)",
+      "Insulin yoki boshqa antidiabetiklar bilan kombinatsiyada"
+    ],
+    qarrshi: [
+      "Metforminга o'ta sezuvchanlik",
+      "Buyrak yetishmovchiligi (KFR < 30 ml/daq) — laktatsidoz xavfi",
+      "O'tkir holatlar: degidratatsiya, og'ir infeksiya, shok, yurak/nafas yetishmovchiligi, mioкard infarkti",
+      "Og'ir jigar yetishmovchiligi, surunkali alkogolizm, o'tkir alkogol intoksikatsiyasi",
+      "Diabetik ketoatsidoz/prekoma; yodli kontrast tekshiruvdan oldin va keyin (vaqtincha to'xtatish)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish, diareya, qorin og'rig'i, ta'm buzilishi (metall ta'mi) — boshlanishida ko'p",
+      "Metabolik": "Laktatsidoz (kam, lekin og'ir — ayniqsa buyrak yetishmovchiligida); uzoq qo'llashda B12 vitamini so'rilishi kamayishi",
+      "Allergiya": "Toshma, eritema (kam)"
+    },
+    dozadan: "Laktatsidoz (ko'ngil aynishi, qusish, mushak og'rig'i, holsizlik, nafas qiyinlashuvi, koma). Davolash: shoshilinch gemodializ, atsidozni tuzatish.",
+    ozarotasir: [
+      "Yodli rentgen-kontrast moddalar — laktatsidoz/buyrak xavfi (tekshiruv atrofida to'xtating)",
+      "Etanol — laktatsidoz xavfini oshiradi",
+      "GKS, diuretiklar, simpatomimetiklar qand tushiruvchi ta'sirini kamaytiradi",
+      "Simetidin, kationli dorilar metformin chiqarilishini sekinlashtiradi"
+    ],
+    qollash: {
+      kattalar: "500–850 mg kuniga 2–3 marta ovqat bilan/keyin; asta oshirib; maks. 2550–3000 mg/sut. Uzaytirilgan shakl kuniga 1 marta.",
+      bolalar: "10 yoshdan: 500 mg dan boshlab, maks. 2000 mg/sut"
+    },
+    chiqarish: "Tabletkalar 500 mg, 850 mg, 1000 mg; uzaytirilgan chiqarishli tabletkalar (XR)"
+  },
+  ru: {
+    gruppa: "Пероральные сахароснижающие средства (бигуаниды)",
+    farmTasir: "Сахароснижающее средство, повышающее чувствительность к инсулину",
+    farmakodinamika: `Метформин — пероральный антидиабетик группы бигуанидов. Основное действие: снижает глюконеогенез (продукцию глюкозы) в печени (активируя AMP-активируемую протеинкиназу — AMPK); повышает чувствительность периферических тканей (мышц) к инсулину, усиливая усвоение глюкозы; замедляет всасывание глюкозы в кишечнике. Не стимулирует секрецию инсулина, поэтому при монотерапии не вызывает гипогликемии. Не вызывает прибавки массы (часто снижает), улучшает липидный профиль.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь; биодоступность 50–60%. Пища несколько замедляет всасывание",
+      tarqalish: "Почти не связывается с белками; распределяется в ткани",
+      metabolizm: "Не метаболизируется (не изменяется)",
+      chiqarilish: "Почками в неизменённом виде (канальцевая секреция); T½ ~6,5 ч"
+    },
+    korsatmalar: [
+      "Сахарный диабет 2 типа (особенно с избыточной массой) — препарат первой линии",
+      "Профилактика диабета (предиабет, нарушенная толерантность к глюкозе) — вспомогательно",
+      "Синдром поликистозных яичников (инсулинорезистентность)",
+      "В комбинации с инсулином или другими антидиабетиками"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к метформину",
+      "Почечная недостаточность (СКФ < 30 мл/мин) — риск лактатацидоза",
+      "Острые состояния: дегидратация, тяжёлая инфекция, шок, сердечная/дыхательная недостаточность, инфаркт миокарда",
+      "Тяжёлая печёночная недостаточность, хронический алкоголизм, острая алкогольная интоксикация",
+      "Диабетический кетоацидоз/прекома; до и после исследования с йодным контрастом (временно отменить)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, рвота, диарея, боль в животе, нарушение вкуса (металлический привкус) — часто в начале",
+      "Метаболические": "Лактатацидоз (редко, но тяжёлый — особенно при почечной недостаточности); снижение всасывания витамина B12 при длительном применении",
+      "Аллергические": "Сыпь, эритема (редко)"
+    },
+    dozadan: "Лактатацидоз (тошнота, рвота, мышечная боль, слабость, затруднение дыхания, кома). Лечение: срочный гемодиализ, коррекция ацидоза.",
+    ozarotasir: [
+      "Йодные рентгеноконтрастные средства — риск лактатацидоза/почек (отменить вокруг исследования)",
+      "Этанол — повышает риск лактатацидоза",
+      "ГКС, диуретики, симпатомиметики снижают сахароснижающее действие",
+      "Циметидин, катионные препараты замедляют выведение метформина"
+    ],
+    qollash: {
+      kattalar: "500–850 мг 2–3 раза в день с едой/после; постепенно повышая; макс. 2550–3000 мг/сут. Пролонгированная форма 1 раз в день.",
+      bolalar: "С 10 лет: начиная с 500 мг, макс. 2000 мг/сут"
+    },
+    chiqarish: "Таблетки 500 мг, 850 мг, 1000 мг; таблетки пролонгированного действия (XR)"
+  },
+  en: {
+    gruppa: "Oral glucose-lowering agents (biguanides)",
+    farmTasir: "Glucose-lowering agent that improves insulin sensitivity",
+    farmakodinamika: `Metformin is an oral antidiabetic of the biguanide group. Its main action: it reduces hepatic gluconeogenesis (glucose production) by activating AMP-activated protein kinase (AMPK); it increases insulin sensitivity of peripheral tissues (muscle), enhancing glucose uptake; and it slows intestinal glucose absorption. It does not stimulate insulin secretion, so as monotherapy it does not cause hypoglycaemia. It does not cause weight gain (often reduces it) and improves the lipid profile.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally; bioavailability 50–60%. Food slightly slows absorption",
+      tarqalish: "Barely protein-bound; distributes to tissues",
+      metabolizm: "Not metabolised (unchanged)",
+      chiqarilish: "Renally unchanged (tubular secretion); T½ ~6.5 h"
+    },
+    korsatmalar: [
+      "Type 2 diabetes mellitus (especially with overweight) — first-line agent",
+      "Diabetes prevention (prediabetes, impaired glucose tolerance) — adjunct",
+      "Polycystic ovary syndrome (insulin resistance)",
+      "In combination with insulin or other antidiabetics"
+    ],
+    qarrshi: [
+      "Hypersensitivity to metformin",
+      "Renal impairment (eGFR < 30 mL/min) — lactic acidosis risk",
+      "Acute conditions: dehydration, severe infection, shock, cardiac/respiratory failure, myocardial infarction",
+      "Severe hepatic impairment, chronic alcoholism, acute alcohol intoxication",
+      "Diabetic ketoacidosis/precoma; before and after iodinated contrast studies (temporarily withhold)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, vomiting, diarrhoea, abdominal pain, taste disturbance (metallic taste) — common at the start",
+      "Metabolic": "Lactic acidosis (rare but severe — especially in renal impairment); reduced vitamin B12 absorption with prolonged use",
+      "Hypersensitivity": "Rash, erythema (rare)"
+    },
+    dozadan: "Lactic acidosis (nausea, vomiting, muscle pain, weakness, dyspnoea, coma). Treatment: urgent haemodialysis, correct the acidosis.",
+    ozarotasir: [
+      "Iodinated radiocontrast agents — lactic acidosis/renal risk (withhold around the study)",
+      "Ethanol — increases lactic acidosis risk",
+      "Corticosteroids, diuretics, sympathomimetics reduce the glucose-lowering effect",
+      "Cimetidine, cationic drugs slow metformin elimination"
+    ],
+    qollash: {
+      kattalar: "500–850 mg 2–3 times daily with/after food; titrate gradually; max 2550–3000 mg/day. Extended-release form once daily.",
+      bolalar: "From 10 years: starting at 500 mg, max 2000 mg/day"
+    },
+    chiqarish: "Tablets 500 mg, 850 mg, 1000 mg; extended-release tablets (XR)"
+  }
+},
+
+// ─── A10BB09 · Gliklazid ──────────────────────────────────────────────────
+"A10BB09": {
+  uz: {
+    gruppa: "Peroral qand tushiruvchi vositalar (sulfonilmochevina hosilalari)",
+    farmTasir: "Insulin sekretsiyasini rag'batlantiruvchi qand tushuruvchi vosita",
+    farmakodinamika: `Gliklazid — ikkinchi avlod sulfonilmochevina hosilasi. Oshqozon osti bezi β-hujayralaridagi ATФ-bog'liq kaliy kanallarini bloklab, hujayra depolyarizatsiyasi va kaltsiy kirishini kuchaytiradi, bu esa insulin sekretsiyasini rag'batlantiradi (ovqatga javoban erta fazani tiklaydi). Shuningdek qonning reologik xususiyatlarini yaxshilaydi (trombotsitlar agregatsiyasini kamaytiradi) — bu diabetik mikroangiopatiya profilaktikasiga foydali. Faqat ishlovchi β-hujayralar mavjud bo'lganda samarali (2-tip diabet).`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi",
+      tarqalish: "Oqsilga yuqori bog'lanadi (~95%)",
+      metabolizm: "Jigarда metabolizmga uchraydi (faol bo'lmagan metabolitlar)",
+      chiqarilish: "Asosan siydik bilan (metabolitlar); T½ ~12–16 soat (MR shaklда uzunroq)"
+    },
+    korsatmalar: [
+      "2-tip qandli diabet (parhez va jismoniy faollik yetarli bo'lmaganda)",
+      "Metformin yoki boshqa antidiabetiklar bilan kombinatsiyada",
+      "Diabetik mikroangiopatiya profilaktikasiga yordam"
+    ],
+    qarrshi: [
+      "Gliklazid yoki sulfonilmochevina/sulfanilamidlarga o'ta sezuvchanlik",
+      "1-tip qandli diabet, diabetik ketoatsidoz, prekoma/koma",
+      "Og'ir buyrak yoki jigar yetishmovchiligi",
+      "Mikonazol bilan birga qo'llash; homiladorlik va emizish davri"
+    ],
+    nojoya: {
+      "Metabolik": "Gipoglikemiya (ayniqsa ovqatni o'tkazib yuborganда, keksalar, buyrak/jigar yetishmovchiligida)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, ich qotishi yoki diareya (kam)",
+      "Qon tizimi": "Leykopeniya, trombotsitopeniya, anemiya (kam)",
+      "Allergiya": "Toshma, qichishish, fotosensibilizatsiya (kam)",
+      "Jigar": "Transaminazalar oshishi, xolestaz (kam)"
+    },
+    dozadan: "Gipoglikemiya (uzoq davom etishi mumkin). Davolash: glyukoza (og'iz/ v/v), uzoq nazorat (qayta tushishi mumkin).",
+    ozarotasir: [
+      "Mikonazol — gipoglikemiyani keskin kuchaytiradi (qarshi ko'rsatma)",
+      "Boshqa qand tushuruvchilar, BAB, ACE inhibitorlari, salitsilatlar, sulfanilamidlar, etanol — gipoglikemiyani kuchaytiradi",
+      "GKS, diuretiklar, simpatomimetiklar — qand tushuruvchi ta'sirini kamaytiradi",
+      "BAB gipoglikemiya belgilarini niqoblaydi"
+    ],
+    qollash: {
+      kattalar: "Oddiy shakl: 80 mg dan boshlab, 80–320 mg/sut (1–2 qabul) ertalab nonushta bilan. MR (uzaytirilgan): 30–120 mg kuniga 1 marta nonushta bilan.",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "Tabletkalar 80 mg; modifikatsiyalangan chiqarishli (MR) tabletkalar 30 mg, 60 mg"
+  },
+  ru: {
+    gruppa: "Пероральные сахароснижающие средства (производные сульфонилмочевины)",
+    farmTasir: "Сахароснижающее средство, стимулирующее секрецию инсулина",
+    farmakodinamika: `Гликлазид — производное сульфонилмочевины второго поколения. Блокируя АТФ-зависимые калиевые каналы β-клеток поджелудочной железы, усиливает деполяризацию клетки и вход кальция, что стимулирует секрецию инсулина (восстанавливает раннюю фазу в ответ на пищу). Также улучшает реологические свойства крови (снижает агрегацию тромбоцитов) — что полезно для профилактики диабетической микроангиопатии. Эффективен только при наличии функционирующих β-клеток (диабет 2 типа).`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь",
+      tarqalish: "Высоко связывается с белками (~95%)",
+      metabolizm: "Метаболизируется в печени (неактивные метаболиты)",
+      chiqarilish: "Преимущественно с мочой (метаболиты); T½ ~12–16 ч (у формы MR дольше)"
+    },
+    korsatmalar: [
+      "Сахарный диабет 2 типа (при недостаточности диеты и физической активности)",
+      "В комбинации с метформином или другими антидиабетиками",
+      "Помощь в профилактике диабетической микроангиопатии"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к гликлазиду или сульфонилмочевине/сульфаниламидам",
+      "Сахарный диабет 1 типа, диабетический кетоацидоз, прекома/кома",
+      "Тяжёлая почечная или печёночная недостаточность",
+      "Одновременный приём миконазола; беременность и период лактации"
+    ],
+    nojoya: {
+      "Метаболические": "Гипогликемия (особенно при пропуске еды, у пожилых, при почечной/печёночной недостаточности)",
+      "ЖКТ": "Тошнота, боль в животе, запор или диарея (редко)",
+      "Кроветворение": "Лейкопения, тромбоцитопения, анемия (редко)",
+      "Аллергические": "Сыпь, зуд, фотосенсибилизация (редко)",
+      "Печень": "Повышение трансаминаз, холестаз (редко)"
+    },
+    dozadan: "Гипогликемия (может быть длительной). Лечение: глюкоза (внутрь/в/в), длительное наблюдение (возможен рецидив).",
+    ozarotasir: [
+      "Миконазол — резко усиливает гипогликемию (противопоказан)",
+      "Другие сахароснижающие, БАБ, ингибиторы АПФ, салицилаты, сульфаниламиды, этанол — усиливают гипогликемию",
+      "ГКС, диуретики, симпатомиметики — снижают сахароснижающее действие",
+      "БАБ маскируют симптомы гипогликемии"
+    ],
+    qollash: {
+      kattalar: "Обычная форма: с 80 мг, 80–320 мг/сут (1–2 приёма) утром с завтраком. MR (пролонгированная): 30–120 мг 1 раз в день с завтраком.",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Таблетки 80 мг; таблетки с модифицированным высвобождением (MR) 30 мг, 60 мг"
+  },
+  en: {
+    gruppa: "Oral glucose-lowering agents (sulfonylureas)",
+    farmTasir: "Glucose-lowering agent that stimulates insulin secretion",
+    farmakodinamika: `Gliclazide is a second-generation sulfonylurea. By blocking ATP-dependent potassium channels of pancreatic β-cells, it enhances cell depolarisation and calcium influx, stimulating insulin secretion (restoring the early phase in response to food). It also improves the rheological properties of blood (reduces platelet aggregation) — beneficial for prevention of diabetic microangiopathy. It is effective only when functioning β-cells are present (type 2 diabetes).`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally",
+      tarqalish: "Highly protein-bound (~95%)",
+      metabolizm: "Metabolised in the liver (inactive metabolites)",
+      chiqarilish: "Mainly in urine (metabolites); T½ ~12–16 h (longer for the MR form)"
+    },
+    korsatmalar: [
+      "Type 2 diabetes mellitus (when diet and exercise are insufficient)",
+      "In combination with metformin or other antidiabetics",
+      "Aid in prevention of diabetic microangiopathy"
+    ],
+    qarrshi: [
+      "Hypersensitivity to gliclazide or sulfonylureas/sulfonamides",
+      "Type 1 diabetes mellitus, diabetic ketoacidosis, precoma/coma",
+      "Severe renal or hepatic impairment",
+      "Concomitant miconazole; pregnancy and lactation"
+    ],
+    nojoya: {
+      "Metabolic": "Hypoglycaemia (especially with skipped meals, in the elderly, renal/hepatic impairment)",
+      "Gastrointestinal": "Nausea, abdominal pain, constipation or diarrhoea (rare)",
+      "Haematological": "Leucopenia, thrombocytopenia, anaemia (rare)",
+      "Hypersensitivity": "Rash, itching, photosensitisation (rare)",
+      "Hepatic": "Raised transaminases, cholestasis (rare)"
+    },
+    dozadan: "Hypoglycaemia (may be prolonged). Treatment: glucose (oral/IV), prolonged monitoring (recurrence possible).",
+    ozarotasir: [
+      "Miconazole — markedly enhances hypoglycaemia (contraindicated)",
+      "Other glucose-lowering agents, beta-blockers, ACE inhibitors, salicylates, sulfonamides, ethanol — enhance hypoglycaemia",
+      "Corticosteroids, diuretics, sympathomimetics — reduce the glucose-lowering effect",
+      "Beta-blockers mask hypoglycaemia symptoms"
+    ],
+    qollash: {
+      kattalar: "Standard form: from 80 mg, 80–320 mg/day (1–2 doses) in the morning with breakfast. MR (modified-release): 30–120 mg once daily with breakfast.",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Tablets 80 mg; modified-release (MR) tablets 30 mg, 60 mg"
+  }
+},
+
+// ─── A10BB12 · Glimepirid ─────────────────────────────────────────────────
+"A10BB12": {
+  uz: {
+    gruppa: "Peroral qand tushuruvchi vositalar (sulfonilmochevina hosilalari)",
+    farmTasir: "Insulin sekretsiyasini rag'batlantiruvchi uchinchi avlod sulfonilmochevina",
+    farmakodinamika: `Glimepirid — uchinchi avlod sulfonilmochevina hosilasi. β-hujayralardagi ATФ-bog'liq kaliy kanallarini bloklab (maxsus oqsilga bog'lanib) insulin sekretsiyasini rag'batlantiradi. Boshqa sulfonilmochevinalarga nisbatan kaliy kanali oqsiliga tezroq bog'lanib-ajraladi — bu fiziologikroq insulin sekretsiyasini va kamroq gipoglikemiya xavfini ta'minlaydi. Shuningdek ekstrapankreatik ta'sir: periferik to'qimalarning insulinга sezgirligini oshiradi (glyukoza tashuvchilar — GLUT4 ni faollashtiradi). Kuniga 1 marta qabul qilinadi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali to'liq so'riladi; biofaollik ~100%",
+      tarqalish: "Oqsilga yuqori bog'lanadi (>99%)",
+      metabolizm: "Jigarда CYP2C9 orqali metabolizmga uchraydi (bitta faol metabolit)",
+      chiqarilish: "Siydik (~60%) va najas bilan; T½ ~5–8 soat (kuniga 1 marta yetadi)"
+    },
+    korsatmalar: [
+      "2-tip qandli diabet (parhez/jismoniy faollik yetarli bo'lmaganda)",
+      "Metformin yoki insulin bilan kombinatsiyada"
+    ],
+    qarrshi: [
+      "Glimepirid yoki sulfonilmochevina/sulfanilamidlarga o'ta sezuvchanlik",
+      "1-tip diabet, diabetik ketoatsidoz, prekoma/koma",
+      "Og'ir buyrak yoki jigar yetishmovchiligi",
+      "Homiladorlik va emizish davri"
+    ],
+    nojoya: {
+      "Metabolik": "Gipoglikemiya (boshqa sulfonilmochevinalardan kamroq, lekin mumkin), vazn ortishi",
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, diareya (kam)",
+      "Qon tizimi": "Trombotsitopeniya, leykopeniya, agranulotsitoz (kam)",
+      "Ko'rish": "Davo boshida vaqtincha ko'rishning o'zgarishi",
+      "Allergiya": "Toshma, qichishish, fotosensibilizatsiya"
+    },
+    dozadan: "Gipoglikemiya (uzoq). Davolash: glyukoza (og'iz/ v/v), uzoq nazorat.",
+    ozarotasir: [
+      "Boshqa qand tushuruvchilar, NSAID, salitsilatlar, ACE inhibitorlari, BAB, mikonazol/flukonazol — gipoglikemiyani kuchaytiradi",
+      "GKS, diuretiklar, tiroid gormonlari, simpatomimetiklar — qand tushuruvchi ta'sirini kamaytiradi",
+      "BAB gipoglikemiya belgilarini niqoblaydi; etanol bilan ehtiyotkorlik"
+    ],
+    qollash: {
+      kattalar: "1 mg dan boshlab, 1–4 mg (maks. 6 mg) kuniga 1 marta nonushtadan oldin yoki bilan; gликemiyaga qarab titrlanadi.",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "Tabletkalar 1 mg, 2 mg, 3 mg, 4 mg"
+  },
+  ru: {
+    gruppa: "Пероральные сахароснижающие средства (производные сульфонилмочевины)",
+    farmTasir: "Сульфонилмочевина третьего поколения, стимулирующая секрецию инсулина",
+    farmakodinamika: `Глимепирид — производное сульфонилмочевины третьего поколения. Блокируя АТФ-зависимые калиевые каналы β-клеток (связываясь со специфическим белком), стимулирует секрецию инсулина. По сравнению с другими сульфонилмочевинами быстрее связывается и отсоединяется от белка калиевого канала — обеспечивая более физиологичную секрецию инсулина и меньший риск гипогликемии. Также экстрапанкреатическое действие: повышает чувствительность периферических тканей к инсулину (активирует транспортёры глюкозы — GLUT4). Принимается 1 раз в день.`,
+    farmakokinetika: {
+      sorish: "Полностью всасывается внутрь; биодоступность ~100%",
+      tarqalish: "Высоко связывается с белками (>99%)",
+      metabolizm: "Метаболизируется в печени через CYP2C9 (один активный метаболит)",
+      chiqarilish: "С мочой (~60%) и калом; T½ ~5–8 ч (достаточно 1 раз в день)"
+    },
+    korsatmalar: [
+      "Сахарный диабет 2 типа (при недостаточности диеты/физической активности)",
+      "В комбинации с метформином или инсулином"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к глимепириду или сульфонилмочевине/сульфаниламидам",
+      "Диабет 1 типа, диабетический кетоацидоз, прекома/кома",
+      "Тяжёлая почечная или печёночная недостаточность",
+      "Беременность и период лактации"
+    ],
+    nojoya: {
+      "Метаболические": "Гипогликемия (реже, чем у других сульфонилмочевин, но возможна), прибавка массы",
+      "ЖКТ": "Тошнота, боль в животе, диарея (редко)",
+      "Кроветворение": "Тромбоцитопения, лейкопения, агранулоцитоз (редко)",
+      "Зрение": "Временное изменение зрения в начале лечения",
+      "Аллергические": "Сыпь, зуд, фотосенсибилизация"
+    },
+    dozadan: "Гипогликемия (длительная). Лечение: глюкоза (внутрь/в/в), длительное наблюдение.",
+    ozarotasir: [
+      "Другие сахароснижающие, НПВП, салицилаты, ингибиторы АПФ, БАБ, миконазол/флуконазол — усиливают гипогликемию",
+      "ГКС, диуретики, тиреоидные гормоны, симпатомиметики — снижают сахароснижающее действие",
+      "БАБ маскируют симптомы гипогликемии; осторожно с этанолом"
+    ],
+    qollash: {
+      kattalar: "С 1 мг, 1–4 мг (макс. 6 мг) 1 раз в день перед завтраком или с ним; титруется по гликемии.",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Таблетки 1 мг, 2 мг, 3 мг, 4 мг"
+  },
+  en: {
+    gruppa: "Oral glucose-lowering agents (sulfonylureas)",
+    farmTasir: "Third-generation sulfonylurea that stimulates insulin secretion",
+    farmakodinamika: `Glimepiride is a third-generation sulfonylurea. By blocking ATP-dependent potassium channels of β-cells (binding to a specific protein), it stimulates insulin secretion. Compared with other sulfonylureas it binds and dissociates from the potassium channel protein faster — providing more physiological insulin secretion and a lower hypoglycaemia risk. It also has an extrapancreatic action: it increases peripheral tissue insulin sensitivity (activating glucose transporters — GLUT4). Taken once daily.`,
+    farmakokinetika: {
+      sorish: "Completely absorbed orally; bioavailability ~100%",
+      tarqalish: "Highly protein-bound (>99%)",
+      metabolizm: "Metabolised in the liver via CYP2C9 (one active metabolite)",
+      chiqarilish: "In urine (~60%) and faeces; T½ ~5–8 h (once daily sufficient)"
+    },
+    korsatmalar: [
+      "Type 2 diabetes mellitus (when diet/exercise are insufficient)",
+      "In combination with metformin or insulin"
+    ],
+    qarrshi: [
+      "Hypersensitivity to glimepiride or sulfonylureas/sulfonamides",
+      "Type 1 diabetes, diabetic ketoacidosis, precoma/coma",
+      "Severe renal or hepatic impairment",
+      "Pregnancy and lactation"
+    ],
+    nojoya: {
+      "Metabolic": "Hypoglycaemia (less than other sulfonylureas, but possible), weight gain",
+      "Gastrointestinal": "Nausea, abdominal pain, diarrhoea (rare)",
+      "Haematological": "Thrombocytopenia, leucopenia, agranulocytosis (rare)",
+      "Visual": "Transient visual change early in treatment",
+      "Hypersensitivity": "Rash, itching, photosensitisation"
+    },
+    dozadan: "Hypoglycaemia (prolonged). Treatment: glucose (oral/IV), prolonged monitoring.",
+    ozarotasir: [
+      "Other glucose-lowering agents, NSAIDs, salicylates, ACE inhibitors, beta-blockers, miconazole/fluconazole — enhance hypoglycaemia",
+      "Corticosteroids, diuretics, thyroid hormones, sympathomimetics — reduce the glucose-lowering effect",
+      "Beta-blockers mask hypoglycaemia symptoms; caution with ethanol"
+    ],
+    qollash: {
+      kattalar: "From 1 mg, 1–4 mg (max 6 mg) once daily before or with breakfast; titrated by glycaemia.",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Tablets 1 mg, 2 mg, 3 mg, 4 mg"
+  }
 }
 
 };
