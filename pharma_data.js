@@ -8998,6 +8998,708 @@ const PHARMA_DATA = {
     },
     chiqarish: "Tablets 10 mg; orodispersible tablets; oral suspension 1 mg/mL"
   }
+},
+
+// ─── A04AA01 · Ondansetron ────────────────────────────────────────────────
+"A04AA01": {
+  uz: {
+    gruppa: "Qusishga qarshi vositalar (5-HT3 retseptor antagonistlari)",
+    farmTasir: "Kuchli antiemetik (serotonin antagonisti)",
+    farmakodinamika: `Ondansetron — tanlab ta'sir qiluvchi serotonin 5-HT3-retseptor antagonisti. Kimyoterapiya va nurlanish ingichka ichak enterоxromaffin hujayralaridan serotonin (5-HT) ajralishiga sabab bo'ladi; serotonin afferent vagus nervining 5-HT3 retseptorlarini qo'zg'atib qusish refleksini ishga tushiradi. Ondansetron ham periferik (vagus afferentlari), ham markaziy (xemoretseptor trigger zonasi) 5-HT3 retseptorlarini bloklab qusishni samarali oldini oladi. Ekstrapiramidal ta'sir bermaydi va dofamin retseptorlariga ta'sir qilmaydi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi; biofaollik ~60% (birinchi o'tish effekti). Cmax ~1,5 soatда",
+      tarqalish: "Oqsilga bog'lanish 70–76%; to'qimalarga tarqaladi",
+      metabolizm: "Jigarда CYP3A4, CYP2D6, CYP1A2 orqali keng metabolizmga uchraydi",
+      chiqarilish: "Metabolitlar asosan siydik bilan; T½ ~3–5 soat (keksalar/jigar yetishmovchiligida uzayadi)"
+    },
+    korsatmalar: [
+      "Kimyoterapiya keltirib chiqargan ko'ngil aynishi va qusish (CINV)",
+      "Nurlanish terapiyasi bilan bog'liq qusish",
+      "Operatsiyadan keyingi ko'ngil aynishi va qusish (PONV) profilaktikasi va davosi"
+    ],
+    qarrshi: [
+      "Ondansetron yoki boshqa setronlarga o'ta sezuvchanlik",
+      "Apomorfin bilan birga qo'llash (og'ir gipotenziya, hushdan ketish)",
+      "Tug'ma uzun QT sindromi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi (ko'p), og'iz qurligi",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, issiqlik to'lqini sezgisi",
+      "Yurak": "QT intervalining uzayishi, aritmiya (katta dozada/v/v); bradikardiya, gipotenziya",
+      "Jigar": "Transaminazalarning vaqtincha oshishi",
+      "Allergiya": "Toshma, kamdan-kam anafilaksiya"
+    },
+    dozadan: "Belgilar: ko'rishning buzilishi, og'ir ich qotishi, gipotenziya, QT uzayishi, vazovagal sinkope. Davolash: simptomatik, yurak nazorati.",
+    ozarotasir: [
+      "QT uzaytiruvchi va elektrolitlarga ta'sir qiluvchi preparatlar (antiaritmiklar, ba'zi antibiotiklar) — aritmiya xavfi oshadi",
+      "Kuchli CYP3A4 induktorlari (rifampitsin, fenitoin, karbamazepin) ondansetron konsentratsiyasini kamaytiradi",
+      "Apomorfin — qarshi ko'rsatma",
+      "Serotoninergik dorilar bilan serotonin sindromi xavfi"
+    ],
+    qollash: {
+      kattalar: "Kimyoterapiyada: 8 mg og'iz orqali yoki v/v davolashdan 30–60 daqiqa oldin, keyin 8 mg har 8–12 soatda. PONV: 4 mg v/v induktsiyada. Maks. sutkalik doza odatda 16 mg (QT xavfi).",
+      bolalar: "Vaznга/yuzaга qarab 0,1–0,15 mg/kg v/v (maks. 8 mg)"
+    },
+    chiqarish: "Tabletkalar 4 mg, 8 mg; og'izda eriydigan tabletkalar; inyeksiya eritmasi 2 mg/ml; sirop"
+  },
+  ru: {
+    gruppa: "Противорвотные средства (антагонисты 5-HT3-рецепторов)",
+    farmTasir: "Мощный противорвотный препарат (антагонист серотонина)",
+    farmakodinamika: `Ондансетрон — селективный антагонист серотониновых 5-HT3-рецепторов. Химиотерапия и облучение вызывают высвобождение серотонина (5-HT) из энтерохромаффинных клеток тонкой кишки; серотонин возбуждает 5-HT3-рецепторы афферентного блуждающего нерва, запуская рвотный рефлекс. Ондансетрон блокирует как периферические (афференты вагуса), так и центральные (хеморецепторная триггерная зона) 5-HT3-рецепторы, эффективно предотвращая рвоту. Не вызывает экстрапирамидных эффектов и не влияет на дофаминовые рецепторы.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь; биодоступность ~60% (эффект первого прохождения). Cmax ~1,5 ч",
+      tarqalish: "Связь с белками 70–76%; распределяется в ткани",
+      metabolizm: "Широко метаболизируется в печени через CYP3A4, CYP2D6, CYP1A2",
+      chiqarilish: "Метаболиты преимущественно с мочой; T½ ~3–5 ч (удлиняется у пожилых/при печёночной недостаточности)"
+    },
+    korsatmalar: [
+      "Тошнота и рвота, вызванные химиотерапией (CINV)",
+      "Рвота, связанная с лучевой терапией",
+      "Профилактика и лечение послеоперационной тошноты и рвоты (PONV)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к ондансетрону или другим сетронам",
+      "Одновременный приём апоморфина (тяжёлая гипотензия, потеря сознания)",
+      "Врождённый синдром удлинённого QT (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор (часто), сухость во рту",
+      "ЦНС": "Головная боль, головокружение, ощущение прилива жара",
+      "Сердце": "Удлинение QT, аритмия (при высоких дозах/в/в); брадикардия, гипотензия",
+      "Печень": "Транзиторное повышение трансаминаз",
+      "Аллергические": "Сыпь, редко анафилаксия"
+    },
+    dozadan: "Симптомы: нарушение зрения, тяжёлый запор, гипотензия, удлинение QT, вазовагальный обморок. Лечение: симптоматическое, контроль сердца.",
+    ozarotasir: [
+      "Препараты, удлиняющие QT и влияющие на электролиты (антиаритмики, некоторые антибиотики) — повышают риск аритмии",
+      "Сильные индукторы CYP3A4 (рифампицин, фенитоин, карбамазепин) снижают концентрацию ондансетрона",
+      "Апоморфин — противопоказание",
+      "Риск серотонинового синдрома с серотонинергическими препаратами"
+    ],
+    qollash: {
+      kattalar: "При химиотерапии: 8 мг внутрь или в/в за 30–60 минут до лечения, затем 8 мг каждые 8–12 ч. PONV: 4 мг в/в при индукции. Макс. суточная доза обычно 16 мг (риск QT).",
+      bolalar: "По массе/поверхности тела 0,1–0,15 мг/кг в/в (макс. 8 мг)"
+    },
+    chiqarish: "Таблетки 4 мг, 8 мг; таблетки, диспергируемые во рту; раствор для инъекций 2 мг/мл; сироп"
+  },
+  en: {
+    gruppa: "Antiemetics (5-HT3 receptor antagonists)",
+    farmTasir: "Potent antiemetic (serotonin antagonist)",
+    farmakodinamika: `Ondansetron is a selective serotonin 5-HT3-receptor antagonist. Chemotherapy and radiation cause release of serotonin (5-HT) from enterochromaffin cells of the small intestine; serotonin excites 5-HT3 receptors of the afferent vagus nerve, triggering the vomiting reflex. Ondansetron blocks both peripheral (vagal afferents) and central (chemoreceptor trigger zone) 5-HT3 receptors, effectively preventing vomiting. It causes no extrapyramidal effects and does not affect dopamine receptors.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally; bioavailability ~60% (first-pass effect). Cmax ~1.5 h",
+      tarqalish: "Protein binding 70–76%; distributes to tissues",
+      metabolizm: "Extensively metabolised in the liver via CYP3A4, CYP2D6, CYP1A2",
+      chiqarilish: "Metabolites mainly in urine; T½ ~3–5 h (prolonged in the elderly/hepatic impairment)"
+    },
+    korsatmalar: [
+      "Chemotherapy-induced nausea and vomiting (CINV)",
+      "Radiotherapy-associated vomiting",
+      "Prophylaxis and treatment of postoperative nausea and vomiting (PONV)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to ondansetron or other setrons",
+      "Concomitant apomorphine (severe hypotension, loss of consciousness)",
+      "Congenital long QT syndrome (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation (common), dry mouth",
+      "CNS": "Headache, dizziness, sensation of flushing",
+      "Cardiac": "QT prolongation, arrhythmia (at high doses/IV); bradycardia, hypotension",
+      "Hepatic": "Transient rise in transaminases",
+      "Hypersensitivity": "Rash, rarely anaphylaxis"
+    },
+    dozadan: "Symptoms: visual disturbance, severe constipation, hypotension, QT prolongation, vasovagal syncope. Treatment: symptomatic, cardiac monitoring.",
+    ozarotasir: [
+      "QT-prolonging and electrolyte-affecting drugs (antiarrhythmics, some antibiotics) — increase arrhythmia risk",
+      "Strong CYP3A4 inducers (rifampicin, phenytoin, carbamazepine) reduce ondansetron concentration",
+      "Apomorphine — contraindicated",
+      "Risk of serotonin syndrome with serotonergic drugs"
+    ],
+    qollash: {
+      kattalar: "Chemotherapy: 8 mg orally or IV 30–60 minutes before treatment, then 8 mg every 8–12 h. PONV: 4 mg IV at induction. Max daily dose usually 16 mg (QT risk).",
+      bolalar: "By weight/body surface 0.1–0.15 mg/kg IV (max 8 mg)"
+    },
+    chiqarish: "Tablets 4 mg, 8 mg; orodispersible tablets; injection solution 2 mg/mL; syrup"
+  }
+},
+
+// ─── A04AA02 · Granisetron ────────────────────────────────────────────────
+"A04AA02": {
+  uz: {
+    gruppa: "Qusishga qarshi vositalar (5-HT3 retseptor antagonistlari)",
+    farmTasir: "Tanlab ta'sir qiluvchi antiemetik (serotonin antagonisti)",
+    farmakodinamika: `Granisetron — yuqori tanlovchanlikka ega serotonin 5-HT3-retseptor antagonisti. Periferik (vagus afferentlari) va markaziy (xemoretseptor trigger zonasi) 5-HT3 retseptorlarini bloklab, kimyoterapiya/nurlanish keltirib chiqargan serotonin vositachiligidagi qusish refleksini oldini oladi. Ondansetronga o'xshash, lekin ta'siri uzoqroq. Dofamin retseptorlariga ta'sir qilmaydi, ekstrapiramidal nojo'ya bermaydi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi; ovqat ta'sir qilmaydi",
+      tarqalish: "Oqsilga bog'lanish ~65%; to'qimalarga keng tarqaladi",
+      metabolizm: "Jigarда asosan CYP3A4 orqali metabolizmga uchraydi",
+      chiqarilish: "Metabolitlar siydik va o't bilan; T½ ~9 soat (ondansetrondan uzunroq)"
+    },
+    korsatmalar: [
+      "Kimyoterapiya keltirib chiqargan ko'ngil aynishi va qusish (CINV)",
+      "Nurlanish terapiyasi bilan bog'liq qusish",
+      "Operatsiyadan keyingi ko'ngil aynishi va qusish (PONV)"
+    ],
+    qarrshi: [
+      "Granisetron yoki boshqa setronlarga o'ta sezuvchanlik",
+      "Tug'ma uzun QT sindromi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi, og'iz qurishi, ko'ngil aynishi",
+      "Asab tizimi": "Bosh og'rig'i, uyqusizlik",
+      "Yurak": "QT intervalining uzayishi (kam)",
+      "Jigar": "Transaminazalarning vaqtincha oshishi"
+    },
+    dozadan: "Belgilar: bosh og'rig'i; QT uzayishi mumkin. Davolash: simptomatik.",
+    ozarotasir: [
+      "QT uzaytiruvchi preparatlar bilan aritmiya xavfi oshadi",
+      "CYP3A4 induktor/inhibitorlari konsentratsiyasiga ta'sir qiladi",
+      "Serotoninergik dorilar bilan serotonin sindromi xavfi"
+    ],
+    qollash: {
+      kattalar: "Kimyoterapiyada: 1–2 mg og'iz orqali yoki 1 mg (yoki 0,01 mg/kg) v/v davolashdan oldin. Transdermal plastir 7 kungacha. PONV: 1 mg v/v.",
+      bolalar: "0,02–0,04 mg/kg v/v (maks. 3 mg)"
+    },
+    chiqarish: "Tabletkalar 1 mg, 2 mg; inyeksiya eritmasi 1 mg/ml; transdermal plastir"
+  },
+  ru: {
+    gruppa: "Противорвотные средства (антагонисты 5-HT3-рецепторов)",
+    farmTasir: "Селективный противорвотный препарат (антагонист серотонина)",
+    farmakodinamika: `Гранисетрон — высокоселективный антагонист серотониновых 5-HT3-рецепторов. Блокируя периферические (афференты вагуса) и центральные (хеморецепторная триггерная зона) 5-HT3-рецепторы, предотвращает опосредованный серотонином рвотный рефлекс при химиотерапии/облучении. Подобен ондансетрону, но действует дольше. Не влияет на дофаминовые рецепторы, не даёт экстрапирамидных эффектов.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь; пища не влияет",
+      tarqalish: "Связь с белками ~65%; широко распределяется",
+      metabolizm: "Метаболизируется в печени преимущественно через CYP3A4",
+      chiqarilish: "Метаболиты с мочой и жёлчью; T½ ~9 ч (дольше ондансетрона)"
+    },
+    korsatmalar: [
+      "Тошнота и рвота, вызванные химиотерапией (CINV)",
+      "Рвота, связанная с лучевой терапией",
+      "Послеоперационная тошнота и рвота (PONV)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к гранисетрону или другим сетронам",
+      "Врождённый синдром удлинённого QT (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор, сухость во рту, тошнота",
+      "ЦНС": "Головная боль, бессонница",
+      "Сердце": "Удлинение QT (редко)",
+      "Печень": "Транзиторное повышение трансаминаз"
+    },
+    dozadan: "Симптомы: головная боль; возможно удлинение QT. Лечение: симптоматическое.",
+    ozarotasir: [
+      "С препаратами, удлиняющими QT, повышается риск аритмии",
+      "Индукторы/ингибиторы CYP3A4 влияют на концентрацию",
+      "Риск серотонинового синдрома с серотонинергическими препаратами"
+    ],
+    qollash: {
+      kattalar: "При химиотерапии: 1–2 мг внутрь или 1 мг (или 0,01 мг/кг) в/в до лечения. Трансдермальный пластырь до 7 дней. PONV: 1 мг в/в.",
+      bolalar: "0,02–0,04 мг/кг в/в (макс. 3 мг)"
+    },
+    chiqarish: "Таблетки 1 мг, 2 мг; раствор для инъекций 1 мг/мл; трансдермальный пластырь"
+  },
+  en: {
+    gruppa: "Antiemetics (5-HT3 receptor antagonists)",
+    farmTasir: "Selective antiemetic (serotonin antagonist)",
+    farmakodinamika: `Granisetron is a highly selective serotonin 5-HT3-receptor antagonist. By blocking peripheral (vagal afferents) and central (chemoreceptor trigger zone) 5-HT3 receptors, it prevents the serotonin-mediated vomiting reflex of chemotherapy/radiation. It is similar to ondansetron but longer-acting. It does not affect dopamine receptors and produces no extrapyramidal effects.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally; food has no effect",
+      tarqalish: "Protein binding ~65%; widely distributed",
+      metabolizm: "Metabolised in the liver mainly via CYP3A4",
+      chiqarilish: "Metabolites in urine and bile; T½ ~9 h (longer than ondansetron)"
+    },
+    korsatmalar: [
+      "Chemotherapy-induced nausea and vomiting (CINV)",
+      "Radiotherapy-associated vomiting",
+      "Postoperative nausea and vomiting (PONV)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to granisetron or other setrons",
+      "Congenital long QT syndrome (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation, dry mouth, nausea",
+      "CNS": "Headache, insomnia",
+      "Cardiac": "QT prolongation (rare)",
+      "Hepatic": "Transient rise in transaminases"
+    },
+    dozadan: "Symptoms: headache; QT prolongation possible. Treatment: symptomatic.",
+    ozarotasir: [
+      "Arrhythmia risk increases with QT-prolonging drugs",
+      "CYP3A4 inducers/inhibitors affect concentration",
+      "Risk of serotonin syndrome with serotonergic drugs"
+    ],
+    qollash: {
+      kattalar: "Chemotherapy: 1–2 mg orally or 1 mg (or 0.01 mg/kg) IV before treatment. Transdermal patch up to 7 days. PONV: 1 mg IV.",
+      bolalar: "0.02–0.04 mg/kg IV (max 3 mg)"
+    },
+    chiqarish: "Tablets 1 mg, 2 mg; injection solution 1 mg/mL; transdermal patch"
+  }
+},
+
+// ─── A05AA02 · Ursodeoksixol kislota ──────────────────────────────────────
+"A05AA02": {
+  uz: {
+    gruppa: "O't kislotalari preparatlari (gepatoprotektorlar)",
+    farmTasir: "O't toshini erituvchi va jigarni himoyalovchi o't kislotasi",
+    farmakodinamika: `Ursodeoksixol kislota (UDXK) — tabiiy gidrofil o't kislotasi. O't tarkibidagi xolesterin to'yinganligini kamaytiradi (ichakdan xolesterin so'rilishi va jigardan ekskretsiyasini pasaytiradi), bu xolesterin o't toshlarining asta-sekin erishiga olib keladi. Gepatoprotektiv ta'sir: gidrofob (toksik) o't kislotalarini siqib chiqaradi va membranalarni ularning zararli ta'siridan himoyalaydi (membrana-stabillovchi), xolerez (o't oqimi) ni kuchaytiradi, immunomodulyator va antiapoptotik ta'sir ko'rsatadi. Xoletik va xolelitolitik vosita.`,
+    farmakokinetika: {
+      sorish: "Ingichka ichakда so'riladi; jigarning enterоgepatik aylanishiga kiradi",
+      tarqalish: "Oqsilga yuqori bog'lanadi; jigarда to'planadi",
+      metabolizm: "Jigarда konyugatsiyalanadi; ichak bakteriyalari litoxol kislotaga aylantiradi",
+      chiqarilish: "Asosan najas bilan (o't orqali); enterоgepatik retsirkulyatsiya"
+    },
+    korsatmalar: [
+      "Xolesterinli o't toshlari (rentgen-manfiy, o't pufagi faoliyati saqlangan)",
+      "Birlamchi biliar xolangit (sirroz)",
+      "Biliar reflyuks-gastrit",
+      "Surunkali jigar kasalliklari (steatogepatit, xolestaz, kistoz fibroz, biliar atreziya)",
+      "Parenteral oziqlanish fonidagi xolestaz profilaktikasi"
+    ],
+    qarrshi: [
+      "UDXK ga o'ta sezuvchanlik",
+      "Faol o't pufagi va o't yo'llari yallig'lanishi (xolesistit, xolangit)",
+      "Rentgen-musbat (kalsiyli) o't toshlari, ishlamaydigan o't pufagi",
+      "O't yo'llari obstruksiyasi, tez-tez biliar kolika",
+      "Dekompensatsiyalangan jigar sirrozi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Diareya (ko'p), qorin noxushligi, ko'ngil aynishi",
+      "Jigar": "Transaminazalarning vaqtincha oshishi; davolash davomida o't toshlarining kalsifikatsiyasi",
+      "Allergiya": "Toshma, qichishish (kam)"
+    },
+    dozadan: "Past toksiklik; ko'p dozada diareya. Simptomatik davolash.",
+    ozarotasir: [
+      "Xolestiramin, alyuminiy tutuvchi antatsidlar UDXK so'rilishini kamaytiradi — alohida qabul qiling",
+      "Estrogenlar va xolesterin tushiruvchilar (klofibrat) o't xolesterinini oshirib UDXK ta'sirini pasaytiradi",
+      "Siklosporin so'rilishini o'zgartirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "O't toshlari: 10 mg/kg/sut uxlash oldidan (toshlar eriguncha, 6–24 oy). Birlamchi biliar xolangit: 13–15 mg/kg/sut 2–3 qabulга bo'lib.",
+      bolalar: "Vaznга qarab 10–20 mg/kg/sut (xolestaz, kistoz fibroz)"
+    },
+    chiqarish: "Kapsulalar 250 mg; tabletkalar 250 mg, 500 mg; suspenziya 250 mg/5 ml"
+  },
+  ru: {
+    gruppa: "Препараты жёлчных кислот (гепатопротекторы)",
+    farmTasir: "Жёлчная кислота, растворяющая камни и защищающая печень",
+    farmakodinamika: `Урсодезоксихолевая кислота (УДХК) — природная гидрофильная жёлчная кислота. Снижает насыщение жёлчи холестерином (уменьшает всасывание холестерина в кишечнике и его экскрецию из печени), что ведёт к постепенному растворению холестериновых жёлчных камней. Гепатопротективное действие: вытесняет гидрофобные (токсичные) жёлчные кислоты и защищает мембраны от их повреждающего действия (мембраностабилизирующее), усиливает холерез (ток жёлчи), оказывает иммуномодулирующее и антиапоптотическое действие. Холеретическое и холелитолитическое средство.`,
+    farmakokinetika: {
+      sorish: "Всасывается в тонкой кишке; включается в энтерогепатическую циркуляцию печени",
+      tarqalish: "Высоко связывается с белками; накапливается в печени",
+      metabolizm: "Конъюгируется в печени; кишечные бактерии превращают в литохолевую кислоту",
+      chiqarilish: "Преимущественно с калом (через жёлчь); энтерогепатическая рециркуляция"
+    },
+    korsatmalar: [
+      "Холестериновые жёлчные камни (рентгеннегативные, при сохранённой функции жёлчного пузыря)",
+      "Первичный билиарный холангит (цирроз)",
+      "Билиарный рефлюкс-гастрит",
+      "Хронические заболевания печени (стеатогепатит, холестаз, муковисцидоз, билиарная атрезия)",
+      "Профилактика холестаза при парентеральном питании"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к УДХК",
+      "Острое воспаление жёлчного пузыря и путей (холецистит, холангит)",
+      "Рентгенпозитивные (кальцийсодержащие) камни, нефункционирующий жёлчный пузырь",
+      "Обструкция жёлчных путей, частая билиарная колика",
+      "Декомпенсированный цирроз печени (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Диарея (часто), дискомфорт в животе, тошнота",
+      "Печень": "Транзиторное повышение трансаминаз; кальцификация камней при лечении",
+      "Аллергические": "Сыпь, зуд (редко)"
+    },
+    dozadan: "Низкая токсичность; при больших дозах диарея. Симптоматическое лечение.",
+    ozarotasir: [
+      "Холестирамин, алюминийсодержащие антациды снижают всасывание УДХК — принимать отдельно",
+      "Эстрогены и гиполипидемические (клофибрат) повышают холестерин жёлчи, снижая действие УДХК",
+      "Может изменять всасывание циклоспорина"
+    ],
+    qollash: {
+      kattalar: "Камни: 10 мг/кг/сут на ночь (до растворения, 6–24 мес). Первичный билиарный холангит: 13–15 мг/кг/сут в 2–3 приёма.",
+      bolalar: "По массе тела 10–20 мг/кг/сут (холестаз, муковисцидоз)"
+    },
+    chiqarish: "Капсулы 250 мг; таблетки 250 мг, 500 мг; суспензия 250 мг/5 мл"
+  },
+  en: {
+    gruppa: "Bile acid preparations (hepatoprotectants)",
+    farmTasir: "Bile acid that dissolves stones and protects the liver",
+    farmakodinamika: `Ursodeoxycholic acid (UDCA) is a natural hydrophilic bile acid. It reduces cholesterol saturation of bile (decreasing intestinal cholesterol absorption and hepatic excretion), leading to gradual dissolution of cholesterol gallstones. Hepatoprotective action: it displaces hydrophobic (toxic) bile acids and protects membranes from their damaging effect (membrane-stabilising), enhances choleresis (bile flow), and has immunomodulatory and antiapoptotic effects. A choleretic and cholelitholytic agent.`,
+    farmakokinetika: {
+      sorish: "Absorbed in the small intestine; enters the enterohepatic circulation of the liver",
+      tarqalish: "Highly protein-bound; accumulates in the liver",
+      metabolizm: "Conjugated in the liver; gut bacteria convert it to lithocholic acid",
+      chiqarilish: "Mainly in faeces (via bile); enterohepatic recirculation"
+    },
+    korsatmalar: [
+      "Cholesterol gallstones (radiolucent, with preserved gallbladder function)",
+      "Primary biliary cholangitis (cirrhosis)",
+      "Biliary reflux gastritis",
+      "Chronic liver diseases (steatohepatitis, cholestasis, cystic fibrosis, biliary atresia)",
+      "Prophylaxis of parenteral nutrition-associated cholestasis"
+    ],
+    qarrshi: [
+      "Hypersensitivity to UDCA",
+      "Acute inflammation of the gallbladder and ducts (cholecystitis, cholangitis)",
+      "Radiopaque (calcified) stones, non-functioning gallbladder",
+      "Biliary obstruction, frequent biliary colic",
+      "Decompensated liver cirrhosis (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Diarrhoea (common), abdominal discomfort, nausea",
+      "Hepatic": "Transient rise in transaminases; stone calcification during treatment",
+      "Hypersensitivity": "Rash, itching (rare)"
+    },
+    dozadan: "Low toxicity; diarrhoea at large doses. Symptomatic treatment.",
+    ozarotasir: [
+      "Cholestyramine and aluminium-containing antacids reduce UDCA absorption — take separately",
+      "Oestrogens and lipid-lowering agents (clofibrate) raise biliary cholesterol, reducing UDCA effect",
+      "May alter ciclosporin absorption"
+    ],
+    qollash: {
+      kattalar: "Stones: 10 mg/kg/day at bedtime (until dissolved, 6–24 months). Primary biliary cholangitis: 13–15 mg/kg/day in 2–3 divided doses.",
+      bolalar: "By body weight 10–20 mg/kg/day (cholestasis, cystic fibrosis)"
+    },
+    chiqarish: "Capsules 250 mg; tablets 250 mg, 500 mg; suspension 250 mg/5 mL"
+  }
+},
+
+// ─── A05BA · L-ornitin-L-aspartat ─────────────────────────────────────────
+"A05BA": {
+  uz: {
+    gruppa: "Jigarni himoyalovchi vositalar (gepatoprotektorlar)",
+    farmTasir: "Ammiakni zararsizlantiruvchi gepatoprotektor (Hepa-Merz)",
+    farmakodinamika: `L-ornitin-L-aspartat — ammiakni zararsizlantiruvchi gepatoprotektor. Tarkibidagi ikkala aminokislota organizmda ammiakni zararsizlantirishning ikki asosiy yo'lida ishtirok etadi: ornitin — jigardagi karbamid (mochevina) sintezi sikli (ornitin sikli) substrati, aspartat esa periven gepatotsitlar va mushaklarda glutamin sintezi orqali ammiakni bog'laydi. Natijada qondagi ammiak darajasi pasayadi (gipoammoniemik ta'sir), bu jigar ensefalopatiyasi belgilarini kamaytiradi. Shuningdek energiya almashinuvini va insulin/somatotropin sekretsiyasini yaxshilaydi.`,
+    farmakokinetika: {
+      sorish: "Og'iz va parenteral yo'l bilan so'riladi; aminokislotalar tez metabolizmga kiradi",
+      tarqalish: "Jigar, mushak va boshqa to'qimalarga tarqaladi",
+      metabolizm: "Ornitin sikli va glutamin sintezida sarflanadi",
+      chiqarilish: "Karbamid shaklida buyrak orqali (mochevina sikli mahsuloti)"
+    },
+    korsatmalar: [
+      "Jigar kasalliklari (steatoz, gepatit, sirroz) fonidagi giperammoniemiya",
+      "Jigar ensefalopatiyasi (latent va manifest shakllari) profilaktikasi va davosi",
+      "Surunkali jigar yetishmovchiligi kompleks davosi",
+      "Jigar funksiyasi buzilishi bilan bog'liq holsizlik va dispepsiya"
+    ],
+    qarrshi: [
+      "Preparatga o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi (kreаtinin >3 mg/100 ml)",
+      "Homiladorlik va emizish davri (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish, qorin og'rig'i, meteorizm (ko'p dozada)",
+      "Asab tizimi": "Bosh og'rig'i (kam)",
+      "Allergiya": "Teri reaksiyalari (kam)",
+      "Mahalliy": "Tez infuziyada — qisqa muddatli noxushlik"
+    },
+    dozadan: "Past toksiklik; ko'p dozada oshqozon-ichak belgilari — dozani kamaytirish.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir kam aniqlangan"
+    ],
+    qollash: {
+      kattalar: "Og'iz orqali: 3–6 g (1–2 paket granula) kuniga 2–3 marta ovqatdan keyin. V/v infuziya: 20–40 g/sut (og'ir ensefalopatiyada), sekin tomchilab.",
+      bolalar: "Faqat shifokor nazoratida, vaznга qarab"
+    },
+    chiqarish: "Og'iz uchun granula (eritma) 3 g/paket; infuziya uchun konsentrat 5 g/10 ml"
+  },
+  ru: {
+    gruppa: "Гепатопротекторы",
+    farmTasir: "Гепатопротектор, обезвреживающий аммиак (Гепа-Мерц)",
+    farmakodinamika: `L-орнитин-L-аспартат — гепатопротектор, обезвреживающий аммиак. Обе входящие аминокислоты участвуют в двух основных путях обезвреживания аммиака: орнитин — субстрат цикла синтеза мочевины (орнитинового цикла) в печени, а аспартат связывает аммиак через синтез глутамина в перивенозных гепатоцитах и мышцах. В результате снижается уровень аммиака в крови (гипоаммониемическое действие), что уменьшает симптомы печёночной энцефалопатии. Также улучшает энергетический обмен и секрецию инсулина/соматотропина.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь и парентерально; аминокислоты быстро вступают в метаболизм",
+      tarqalish: "Распределяется в печень, мышцы и другие ткани",
+      metabolizm: "Расходуется в орнитиновом цикле и синтезе глутамина",
+      chiqarilish: "В виде мочевины почками (продукт цикла мочевины)"
+    },
+    korsatmalar: [
+      "Гипераммониемия при заболеваниях печени (стеатоз, гепатит, цирроз)",
+      "Профилактика и лечение печёночной энцефалопатии (латентной и манифестной)",
+      "Комплексная терапия хронической печёночной недостаточности",
+      "Слабость и диспепсия, связанные с нарушением функции печени"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к препарату",
+      "Тяжёлая почечная недостаточность (креатинин >3 мг/100 мл)",
+      "Беременность и период лактации (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, рвота, боль в животе, метеоризм (при высоких дозах)",
+      "ЦНС": "Головная боль (редко)",
+      "Аллергические": "Кожные реакции (редко)",
+      "Местные": "При быстрой инфузии — кратковременный дискомфорт"
+    },
+    dozadan: "Низкая токсичность; при больших дозах ЖКТ-симптомы — снижение дозы.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий выявлено мало"
+    ],
+    qollash: {
+      kattalar: "Внутрь: 3–6 г (1–2 пакета гранул) 2–3 раза в день после еды. В/в инфузия: 20–40 г/сут (при тяжёлой энцефалопатии), медленно капельно.",
+      bolalar: "Только под контролем врача, по массе тела"
+    },
+    chiqarish: "Гранулы для приёма внутрь (раствор) 3 г/пакет; концентрат для инфузий 5 г/10 мл"
+  },
+  en: {
+    gruppa: "Hepatoprotectants",
+    farmTasir: "Ammonia-detoxifying hepatoprotectant (Hepa-Merz)",
+    farmakodinamika: `L-ornithine-L-aspartate is an ammonia-detoxifying hepatoprotectant. Its two amino acids participate in the two main ammonia-detoxification pathways: ornithine is a substrate of the hepatic urea synthesis cycle (ornithine cycle), while aspartate binds ammonia through glutamine synthesis in perivenous hepatocytes and muscle. This lowers blood ammonia (hypoammonaemic effect), reducing symptoms of hepatic encephalopathy. It also improves energy metabolism and insulin/somatotropin secretion.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally and parenterally; the amino acids rapidly enter metabolism",
+      tarqalish: "Distributes to the liver, muscle and other tissues",
+      metabolizm: "Consumed in the ornithine cycle and glutamine synthesis",
+      chiqarilish: "As urea via the kidneys (urea cycle product)"
+    },
+    korsatmalar: [
+      "Hyperammonaemia in liver disease (steatosis, hepatitis, cirrhosis)",
+      "Prophylaxis and treatment of hepatic encephalopathy (latent and manifest)",
+      "Combination therapy of chronic liver failure",
+      "Weakness and dyspepsia associated with impaired liver function"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the preparation",
+      "Severe renal impairment (creatinine >3 mg/100 mL)",
+      "Pregnancy and lactation (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, vomiting, abdominal pain, flatulence (at high doses)",
+      "CNS": "Headache (rare)",
+      "Hypersensitivity": "Skin reactions (rare)",
+      "Local": "Brief discomfort with rapid infusion"
+    },
+    dozadan: "Low toxicity; GI symptoms at large doses — reduce dose.",
+    ozarotasir: [
+      "Few clinically significant interactions identified"
+    ],
+    qollash: {
+      kattalar: "Oral: 3–6 g (1–2 sachets of granules) 2–3 times daily after meals. IV infusion: 20–40 g/day (in severe encephalopathy), slowly by drip.",
+      bolalar: "Only under medical supervision, by body weight"
+    },
+    chiqarish: "Granules for oral solution 3 g/sachet; concentrate for infusion 5 g/10 mL"
+  }
+},
+
+// ─── A05BA03 · Silimarin ──────────────────────────────────────────────────
+"A05BA03": {
+  uz: {
+    gruppa: "Jigarni himoyalovchi vositalar (gepatoprotektorlar, o'simlik)",
+    farmTasir: "Tikan (rastoropsha) flavonoidi — gepatoprotektor",
+    farmakodinamika: `Silimarin — sutli tikan (Silybum marianum) mevasidan olingan flavonolignanlar (silibinin, silidianin, silikristin) aralashmasi. Gepatotsit membranasini barqarorlashtiradi va toksinlarning (jumladan oqartirma zahari — amanitin) hujayraga kirishini to'sadi; erkin radikallarni bog'lab antioksidant ta'sir ko'rsatadi va lipid peroksidatsiyasini kamaytiradi. Hujayra ichidagi oqsil va fosfolipid sintezini (RNK-polimeraza I orqali) rag'batlantirib, shikastlangan gepatotsitlar regeneratsiyasini tezlashtiradi. Antifibrotik ta'sirga ham ega.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali kam so'riladi (suvда yomon eriydi)",
+      tarqalish: "Asosan jigar hujayralariga tarqaladi",
+      metabolizm: "Jigarда konyugatsiyalanadi (glyukuronid va sulfat)",
+      chiqarilish: "Asosan o't bilan (enterоgepatik aylanish); T½ ~6 soat"
+    },
+    korsatmalar: [
+      "Surunkali gepatit, jigar sirrozi (kompleks davoda)",
+      "Toksik va dori (alkogol, kimyoviy) jarohatlari fonidagi jigar shikastlanishi",
+      "Jigarning yog' bosishi (steatogepatit)",
+      "Oqartirma (Amanita) zaharlanishida yordamchi davo"
+    ],
+    qarrshi: [
+      "Silimarin yoki murakkabguldoshlarga (astra oilasi) o'ta sezuvchanlik",
+      "O't yo'llari o'tkir obstruksiyasi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Yengil ich yumshashi (laksatив ta'sir), ko'ngil aynishi, qorin noxushligi",
+      "Allergiya": "Toshma, qichishish (kam)",
+      "Endokrin": "Estrogensimon ta'sir mumkin (kam)"
+    },
+    dozadan: "Past toksiklik; ko'p dozada ich yumshashi — simptomatik.",
+    ozarotasir: [
+      "CYP enzimlariga ta'sir qilib ba'zi dorilar (statinlar, ba'zi antikoagulyantlar) metabolizmini o'zgartirishi mumkin (nazariy)"
+    ],
+    qollash: {
+      kattalar: "70–140 mg (silimaringa hisoblangan) kuniga 3 marta ovqat bilan; saqlash dozasi 70 mg kuniga 3 marta.",
+      bolalar: "12 yoshdan, kamaytirilgan dozada"
+    },
+    chiqarish: "Kapsulalar/tabletkalar 35 mg, 70 mg, 140 mg (silimarin)"
+  },
+  ru: {
+    gruppa: "Гепатопротекторы (растительные)",
+    farmTasir: "Флавоноид расторопши — гепатопротектор",
+    farmakodinamika: `Силимарин — смесь флаволигнанов (силибинин, силидианин, силикристин) из плодов расторопши пятнистой (Silybum marianum). Стабилизирует мембрану гепатоцитов и препятствует проникновению токсинов (в т.ч. яда бледной поганки — аманитина) в клетку; связывает свободные радикалы (антиоксидантное действие) и уменьшает перекисное окисление липидов. Стимулирует синтез внутриклеточных белков и фосфолипидов (через РНК-полимеразу I), ускоряя регенерацию повреждённых гепатоцитов. Обладает также антифибротическим действием.`,
+    farmakokinetika: {
+      sorish: "Плохо всасывается внутрь (плохо растворим в воде)",
+      tarqalish: "Распределяется преимущественно в клетки печени",
+      metabolizm: "Конъюгируется в печени (глюкуронид и сульфат)",
+      chiqarilish: "Преимущественно с жёлчью (энтерогепатическая циркуляция); T½ ~6 ч"
+    },
+    korsatmalar: [
+      "Хронический гепатит, цирроз печени (в комплексной терапии)",
+      "Токсические и лекарственные (алкоголь, химические) поражения печени",
+      "Жировая дистрофия печени (стеатогепатит)",
+      "Вспомогательное лечение при отравлении бледной поганкой (Amanita)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к силимарину или сложноцветным (астровые)",
+      "Острая обструкция жёлчных путей (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Лёгкое послабление стула (слабительное действие), тошнота, дискомфорт в животе",
+      "Аллергические": "Сыпь, зуд (редко)",
+      "Эндокринные": "Возможно эстрогеноподобное действие (редко)"
+    },
+    dozadan: "Низкая токсичность; при больших дозах послабление стула — симптоматически.",
+    ozarotasir: [
+      "Влияя на ферменты CYP, может изменять метаболизм некоторых препаратов (статины, некоторые антикоагулянты) (теоретически)"
+    ],
+    qollash: {
+      kattalar: "70–140 мг (в пересчёте на силимарин) 3 раза в день с едой; поддерживающая доза 70 мг 3 раза в день.",
+      bolalar: "С 12 лет, в сниженной дозе"
+    },
+    chiqarish: "Капсулы/таблетки 35 мг, 70 мг, 140 мг (силимарин)"
+  },
+  en: {
+    gruppa: "Hepatoprotectants (herbal)",
+    farmTasir: "Milk thistle flavonoid — hepatoprotectant",
+    farmakodinamika: `Silymarin is a mixture of flavonolignans (silibinin, silidianin, silicristin) from the fruit of milk thistle (Silybum marianum). It stabilises the hepatocyte membrane and prevents toxins (including death-cap poison amanitin) from entering the cell; it scavenges free radicals (antioxidant action) and reduces lipid peroxidation. It stimulates intracellular protein and phospholipid synthesis (via RNA polymerase I), accelerating regeneration of damaged hepatocytes. It also has an antifibrotic effect.`,
+    farmakokinetika: {
+      sorish: "Poorly absorbed orally (poorly water-soluble)",
+      tarqalish: "Distributes mainly to liver cells",
+      metabolizm: "Conjugated in the liver (glucuronide and sulfate)",
+      chiqarilish: "Mainly in bile (enterohepatic circulation); T½ ~6 h"
+    },
+    korsatmalar: [
+      "Chronic hepatitis, liver cirrhosis (in combination therapy)",
+      "Toxic and drug-induced (alcohol, chemical) liver damage",
+      "Fatty liver disease (steatohepatitis)",
+      "Adjunctive treatment in death-cap (Amanita) poisoning"
+    ],
+    qarrshi: [
+      "Hypersensitivity to silymarin or Asteraceae (daisy family)",
+      "Acute biliary obstruction (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Mild loosening of stools (laxative effect), nausea, abdominal discomfort",
+      "Hypersensitivity": "Rash, itching (rare)",
+      "Endocrine": "Possible oestrogen-like effect (rare)"
+    },
+    dozadan: "Low toxicity; loose stools at large doses — symptomatic.",
+    ozarotasir: [
+      "By affecting CYP enzymes it may alter metabolism of some drugs (statins, some anticoagulants) (theoretical)"
+    ],
+    qollash: {
+      kattalar: "70–140 mg (expressed as silymarin) three times daily with food; maintenance 70 mg three times daily.",
+      bolalar: "From 12 years, in reduced dose"
+    },
+    chiqarish: "Capsules/tablets 35 mg, 70 mg, 140 mg (silymarin)"
+  }
+},
+
+// ─── A05C · Essensial fosfolipidlar ───────────────────────────────────────
+"A05C": {
+  uz: {
+    gruppa: "Jigarni himoyalovchi vositalar (fosfolipidlar)",
+    farmTasir: "Hujayra membranasini tiklovchi gepatoprotektor (Essentiale)",
+    farmakodinamika: `Essensial fosfolipidlar — soya loviyasidan olingan, ko'p to'yinmagan yog' kislotalariga boy fosfatidilxolin (polienilfosfatidilxolin). Tuzilishi bo'yicha gepatotsit hujayra membranasining tabiiy fosfolipidlariga mos keladi va shikastlangan membranalarga o'rnashib, ularning yaxlitligini va funksiyasini (membranaga bog'liq fermentlar, transport, oksidlanish-fosforlanish) tiklaydi. Lipid va xolesterin almashinuvini me'yorlashtiradi, jigarning detoksikatsiya qobiliyatini yaxshilaydi va biriktiruvchi to'qima rivojlanishini (fibroz) sekinlashtiradi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi (>90%); ingichka ichakда parchalanib so'riladi",
+      tarqalish: "Asosan jigar membranalariga o'rnashadi",
+      metabolizm: "Holin va to'yinmagan yog' kislotalari sifatida metabolizmga kiradi",
+      chiqarilish: "Metabolitlar tabiiy yo'llar bilan"
+    },
+    korsatmalar: [
+      "Surunkali gepatit, jigar sirrozi",
+      "Jigarning yog' bosishi (steatoz, steatogepatit), jumladan diabet fonida",
+      "Toksik, alkogol va dori jarohatlari fonidagi jigar shikastlanishi",
+      "Homiladorlar toksikozi, o't-tosh kasalligi profilaktikasiga yordamchi",
+      "Nurlanish sindromida jigarni qo'llab-quvvatlash"
+    ],
+    qarrshi: [
+      "Essensial fosfolipidlar yoki soyaga o'ta sezuvchanlik",
+      "12 yoshgacha bolalar (in'eksion shakl uchun ma'lumot cheklangan)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Yengil noxushlik, diareya, ich yumshashi (ko'p dozada, kam)",
+      "Allergiya": "Toshma, qichishish, eshakemi (kam)",
+      "Mahalliy": "In'eksiya joyida reaksiya (v/v shaklda)"
+    },
+    dozadan: "Past toksiklik; ko'p dozada oshqozon-ichak belgilari — simptomatik.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir kam; antikoagulyantlar bilan ehtiyotkorlik (nazariy)"
+    ],
+    qollash: {
+      kattalar: "Og'iz orqali 2 kapsula (600 mg) kuniga 3 marta ovqat bilan; saqlash 1 kapsula kuniga 3 marta. V/v sekin 5–10 ml/sut (og'ir holatlarда).",
+      bolalar: "12 yoshdan: kattalardagidek (og'iz shakli)"
+    },
+    chiqarish: "Kapsulalar 300 mg; inyeksiya eritmasi 250 mg/5 ml"
+  },
+  ru: {
+    gruppa: "Гепатопротекторы (фосфолипиды)",
+    farmTasir: "Гепатопротектор, восстанавливающий клеточную мембрану (Эссенциале)",
+    farmakodinamika: `Эссенциальные фосфолипиды — фосфатидилхолин (полиенилфосфатидилхолин) из соевых бобов, богатый полиненасыщенными жирными кислотами. По структуре соответствуют природным фосфолипидам мембраны гепатоцитов и встраиваются в повреждённые мембраны, восстанавливая их целостность и функцию (мембраносвязанные ферменты, транспорт, окислительное фосфорилирование). Нормализуют обмен липидов и холестерина, улучшают детоксикационную функцию печени и замедляют развитие соединительной ткани (фиброз).`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь (>90%); расщепляется и всасывается в тонкой кишке",
+      tarqalish: "Встраивается преимущественно в мембраны печени",
+      metabolizm: "Метаболизируется как холин и ненасыщенные жирные кислоты",
+      chiqarilish: "Метаболиты естественными путями"
+    },
+    korsatmalar: [
+      "Хронический гепатит, цирроз печени",
+      "Жировая дистрофия печени (стеатоз, стеатогепатит), в т.ч. при диабете",
+      "Токсические, алкогольные и лекарственные поражения печени",
+      "Токсикоз беременных, вспомогательно при профилактике желчнокаменной болезни",
+      "Поддержка печени при лучевом синдроме"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к эссенциальным фосфолипидам или сое",
+      "Детский возраст до 12 лет (для инъекционной формы данные ограничены)"
+    ],
+    nojoya: {
+      "ЖКТ": "Лёгкий дискомфорт, диарея, послабление стула (при высоких дозах, редко)",
+      "Аллергические": "Сыпь, зуд, крапивница (редко)",
+      "Местные": "Реакция в месте инъекции (в/в форма)"
+    },
+    dozadan: "Низкая токсичность; при больших дозах ЖКТ-симптомы — симптоматически.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий мало; с осторожностью с антикоагулянтами (теоретически)"
+    ],
+    qollash: {
+      kattalar: "Внутрь 2 капсулы (600 мг) 3 раза в день с едой; поддержка 1 капсула 3 раза в день. В/в медленно 5–10 мл/сут (при тяжёлых состояниях).",
+      bolalar: "С 12 лет: как у взрослых (пероральная форма)"
+    },
+    chiqarish: "Капсулы 300 мг; раствор для инъекций 250 мг/5 мл"
+  },
+  en: {
+    gruppa: "Hepatoprotectants (phospholipids)",
+    farmTasir: "Membrane-restoring hepatoprotectant (Essentiale)",
+    farmakodinamika: `Essential phospholipids are phosphatidylcholine (polyenylphosphatidylcholine) from soybeans, rich in polyunsaturated fatty acids. Structurally they correspond to the natural phospholipids of the hepatocyte membrane and incorporate into damaged membranes, restoring their integrity and function (membrane-bound enzymes, transport, oxidative phosphorylation). They normalise lipid and cholesterol metabolism, improve the liver's detoxification capacity and slow connective tissue development (fibrosis).`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally (>90%); cleaved and absorbed in the small intestine",
+      tarqalish: "Incorporates mainly into liver membranes",
+      metabolizm: "Metabolised as choline and unsaturated fatty acids",
+      chiqarilish: "Metabolites via natural pathways"
+    },
+    korsatmalar: [
+      "Chronic hepatitis, liver cirrhosis",
+      "Fatty liver disease (steatosis, steatohepatitis), including in diabetes",
+      "Toxic, alcoholic and drug-induced liver damage",
+      "Toxaemia of pregnancy, adjunct in gallstone disease prophylaxis",
+      "Liver support in radiation syndrome"
+    ],
+    qarrshi: [
+      "Hypersensitivity to essential phospholipids or soy",
+      "Children under 12 years (limited data for the injectable form)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Mild discomfort, diarrhoea, loose stools (at high doses, rare)",
+      "Hypersensitivity": "Rash, itching, urticaria (rare)",
+      "Local": "Injection-site reaction (IV form)"
+    },
+    dozadan: "Low toxicity; GI symptoms at large doses — symptomatic.",
+    ozarotasir: [
+      "Few clinically significant interactions; caution with anticoagulants (theoretical)"
+    ],
+    qollash: {
+      kattalar: "Oral 2 capsules (600 mg) three times daily with food; maintenance 1 capsule three times daily. IV slowly 5–10 mL/day (in severe conditions).",
+      bolalar: "From 12 years: as in adults (oral form)"
+    },
+    chiqarish: "Capsules 300 mg; injection solution 250 mg/5 mL"
+  }
 }
 
 };
