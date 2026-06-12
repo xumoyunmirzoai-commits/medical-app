@@ -8233,6 +8233,771 @@ const PHARMA_DATA = {
     },
     chiqarish: "Injection solution 0.1% (1 mg/mL); eye drops 1%; tablets"
   }
+},
+
+// ─── A03AX · Platifillin ──────────────────────────────────────────────────
+"A03AX": {
+  uz: {
+    gruppa: "Antixolinergik spazmolitiklar (belladonna alkaloidlari)",
+    farmTasir: "M-xolinoblokator va miotrop spazmolitik",
+    farmakodinamika: `Platifillin — belladonna oilasiga mansub o'simlik (Senecio) alkaloidi. M-xolinoretseptorlarni bloklab (atropinga o'xshash, lekin kuchsizroq), silliq mushak tonusini va spazmini kamaytiradi; bundan tashqari silliq mushaklarga to'g'ridan-to'g'ri miotrop (papaverinsimon) bo'shashtiruvchi ta'sir ham ko'rsatadi. Bez sekretsiyasini kamaytiradi, ko'z qorachig'ini kengaytiradi. Vazomotor markazlarga va periferik tomirlarга ta'sir qilib qon bosimini biroz pasaytiradi. Markaziy ta'siri atropindan kam.`,
+    farmakokinetika: {
+      sorish: "Parenteral va og'iz orqali so'riladi",
+      tarqalish: "To'qimalarga tarqaladi, BBO dan o'tadi",
+      metabolizm: "Jigarда metabolizmga uchraydi",
+      chiqarilish: "Asosan siydik bilan"
+    },
+    korsatmalar: [
+      "Oshqozon-ichak, o't va siydik yo'llari silliq mushaklari spazmi va sanchig'i",
+      "Oshqozon va o'n ikki barmoq ichak yarasi (spazm komponenti)",
+      "Bronxospazm (yordamchi)",
+      "Periferik va miya tomirlari spazmi, gipertonik kriz (yordamchi)",
+      "Oftalmologiyada midriaz (diagnostik)"
+    ],
+    qarrshi: [
+      "Platifillinга o'ta sezuvchanlik",
+      "Yopiq burchakli glaukoma",
+      "Og'ir jigar va buyrak yetishmovchiligi",
+      "Prostata gipertrofiyasi, siydik tutilishi",
+      "Paralitik ileus, taxiaritmiya"
+    ],
+    nojoya: {
+      "Antixolinergik": "Og'iz qurishi, ko'rish xiralashuvi, midriaz, siydik tutilishi, ich qotishi",
+      "Yurak": "Taxikardiya, yurak urishi sezgisi",
+      "Asab tizimi": "Bosh aylanishi, bosh og'rig'i; yuqori dozada qo'zg'aluvchanlik",
+      "Boshqa": "Ter ajralishi kamayishi"
+    },
+    dozadan: "Antixolinergik sindrom (og'iz qurishi, midriaz, taxikardiya, qo'zg'alish). Antidot — fizostigmin/prozerin; simptomatik davolash.",
+    ozarotasir: [
+      "Boshqa antixolinergiklar (atropin, trisiklik antidepressantlar, antigistaminlar) ta'sirini kuchaytiradi",
+      "Oshqozon-ichak motorikasini sekinlashtirib boshqa dorilar so'rilishini o'zgartiradi"
+    ],
+    qollash: {
+      kattalar: "Teri ostiga, v/m yoki og'iz orqali 2–4 mg (0,2% eritma 1–2 ml) kuniga 2–3 marta; o'tkir sanchiqда yagona doza.",
+      bolalar: "Yoshга qarab kamaytirilgan dozada (shifokor tavsiyasi bilan)"
+    },
+    chiqarish: "Inyeksiya eritmasi 0,2% (2 mg/ml); tabletkalar 5 mg"
+  },
+  ru: {
+    gruppa: "Антихолинергические спазмолитики (алкалоиды белладонны)",
+    farmTasir: "М-холиноблокатор и миотропный спазмолитик",
+    farmakodinamika: `Платифиллин — растительный алкалоид (Senecio) группы белладонны. Блокирует М-холинорецепторы (подобно атропину, но слабее), снижая тонус и спазм гладкой мускулатуры; дополнительно оказывает прямое миотропное (папавериноподобное) расслабляющее действие. Уменьшает секрецию желёз, расширяет зрачок. Влияя на вазомоторные центры и периферические сосуды, несколько снижает АД. Центральное действие меньше, чем у атропина.`,
+    farmakokinetika: {
+      sorish: "Всасывается парентерально и внутрь",
+      tarqalish: "Распределяется в ткани, проникает через ГЭБ",
+      metabolizm: "Метаболизируется в печени",
+      chiqarilish: "Преимущественно с мочой"
+    },
+    korsatmalar: [
+      "Спазм и колика гладкой мускулатуры ЖКТ, жёлчных и мочевых путей",
+      "Язва желудка и двенадцатиперстной кишки (спазмовый компонент)",
+      "Бронхоспазм (вспомогательно)",
+      "Спазм периферических и мозговых сосудов, гипертонический криз (вспомогательно)",
+      "В офтальмологии мидриаз (диагностический)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к платифиллину",
+      "Закрытоугольная глаукома",
+      "Тяжёлая печёночная и почечная недостаточность",
+      "Гипертрофия простаты, задержка мочи",
+      "Паралитический илеус, тахиаритмия"
+    ],
+    nojoya: {
+      "Антихолинергические": "Сухость во рту, нечёткость зрения, мидриаз, задержка мочи, запор",
+      "Сердце": "Тахикардия, сердцебиение",
+      "ЦНС": "Головокружение, головная боль; в высоких дозах возбуждение",
+      "Прочие": "Снижение потоотделения"
+    },
+    dozadan: "Антихолинергический синдром (сухость во рту, мидриаз, тахикардия, возбуждение). Антидот — физостигмин/прозерин; симптоматическое лечение.",
+    ozarotasir: [
+      "Усиливает действие других антихолинергиков (атропин, трициклические антидепрессанты, антигистаминные)",
+      "Замедляя моторику ЖКТ, изменяет всасывание других препаратов"
+    ],
+    qollash: {
+      kattalar: "П/к, в/м или внутрь 2–4 мг (0,2% раствор 1–2 мл) 2–3 раза в день; при острой колике однократно.",
+      bolalar: "В сниженной дозе по возрасту (по рекомендации врача)"
+    },
+    chiqarish: "Раствор для инъекций 0,2% (2 мг/мл); таблетки 5 мг"
+  },
+  en: {
+    gruppa: "Anticholinergic antispasmodics (belladonna alkaloids)",
+    farmTasir: "Muscarinic antagonist and musculotropic antispasmodic",
+    farmakodinamika: `Platyphylline is a plant alkaloid (Senecio) of the belladonna group. It blocks muscarinic (M) cholinoreceptors (like atropine but weaker), reducing smooth muscle tone and spasm; it additionally has a direct musculotropic (papaverine-like) relaxant effect. It decreases glandular secretion and dilates the pupil. Acting on vasomotor centres and peripheral vessels, it slightly lowers blood pressure. Its central effect is less than that of atropine.`,
+    farmakokinetika: {
+      sorish: "Absorbed parenterally and orally",
+      tarqalish: "Distributes to tissues, crosses the blood-brain barrier",
+      metabolizm: "Metabolised in the liver",
+      chiqarilish: "Mainly in urine"
+    },
+    korsatmalar: [
+      "Spasm and colic of GI, biliary and urinary smooth muscle",
+      "Gastric and duodenal ulcer (spasm component)",
+      "Bronchospasm (adjunct)",
+      "Spasm of peripheral and cerebral vessels, hypertensive crisis (adjunct)",
+      "Mydriasis in ophthalmology (diagnostic)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to platyphylline",
+      "Closed-angle glaucoma",
+      "Severe hepatic and renal impairment",
+      "Prostatic hypertrophy, urinary retention",
+      "Paralytic ileus, tachyarrhythmia"
+    ],
+    nojoya: {
+      "Anticholinergic": "Dry mouth, blurred vision, mydriasis, urinary retention, constipation",
+      "Cardiac": "Tachycardia, palpitations",
+      "CNS": "Dizziness, headache; excitation at high doses",
+      "Other": "Reduced sweating"
+    },
+    dozadan: "Anticholinergic syndrome (dry mouth, mydriasis, tachycardia, agitation). Antidote — physostigmine/neostigmine; symptomatic treatment.",
+    ozarotasir: [
+      "Enhances other anticholinergics (atropine, tricyclic antidepressants, antihistamines)",
+      "By slowing GI motility it alters absorption of other drugs"
+    ],
+    qollash: {
+      kattalar: "SC, IM or oral 2–4 mg (0.2% solution 1–2 mL) 2–3 times daily; single dose for acute colic.",
+      bolalar: "Reduced dose by age (on medical advice)"
+    },
+    chiqarish: "Injection solution 0.2% (2 mg/mL); tablets 5 mg"
+  }
+},
+
+// ─── A03AX12 · Floroglyutsinol ────────────────────────────────────────────
+"A03AX12": {
+  uz: {
+    gruppa: "Boshqa funksional ichak spazmolitiklari (miotrop)",
+    farmTasir: "Silliq mushaklarga tanlab ta'sir qiluvchi miotrop spazmolitik",
+    farmakodinamika: `Floroglyutsinol (1,3,5-trimetoksibenzol bilan) — miotrop (muskulotrop) spazmolitik. Oshqozon-ichak, o't va siydik-tanosil yo'llari silliq mushaklariga tanlab to'g'ridan-to'g'ri ta'sir qilib spazmni bartaraf qiladi. Antixolinergik ta'siri yo'q, shuning uchun atropinga xos nojo'ya ta'sirlar (og'iz qurishi, ko'rish buzilishi, taxikardiya) kuzatilmaydi va yurak-tomir/ko'z bezovta qilmaydi. Normal mushak tonusiga ta'sir qilmaydi — faqat spazmni yo'qotadi.`,
+    farmakokinetika: {
+      sorish: "Og'iz va parenteral yo'l bilan so'riladi",
+      tarqalish: "Silliq mushak to'qimasiga tarqaladi",
+      metabolizm: "Jigarда metabolizmga uchraydi",
+      chiqarilish: "Asosan siydik bilan"
+    },
+    korsatmalar: [
+      "Oshqozon-ichak spazmi va og'rig'i (tirnashgan ichak sindromi)",
+      "O't yo'llari spazmi va sanchig'i (biliar kolika)",
+      "Siydik yo'llari spazmi va sanchig'i (renal kolika)",
+      "Ginekologik spazmlar, dismenoreya",
+      "Tug'ruqda bachadon bo'yni spazmi"
+    ],
+    qarrshi: [
+      "Floroglyutsinolга o'ta sezuvchanlik"
+    ],
+    nojoya: {
+      "Allergiya": "Toshma, qichishish, eshakemi, kamdan-kam anafilaktik reaksiya (in'eksion shakl)",
+      "Boshqa": "Juda yaxshi ko'tariladi; kamdan-kam bosh aylanishi, gipotenziya (v/v)"
+    },
+    dozadan: "Past toksiklik; simptomatik davolash.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir kam aniqlangan"
+    ],
+    qollash: {
+      kattalar: "Og'iz orqali 80 mg kuniga 2–3 marta; o'tkir sanchiqда 80 mg v/m yoki sekin v/v, kerak bo'lsa takror (sutkalik maks. ~240 mg).",
+      bolalar: "Yoshга qarab kamaytirilgan dozada"
+    },
+    chiqarish: "Tabletkalar 80 mg; og'izda eriydigan tabletkalar; inyeksiya eritmasi 40 mg/4 ml"
+  },
+  ru: {
+    gruppa: "Прочие спазмолитики при функциональных заболеваниях кишечника (миотропные)",
+    farmTasir: "Миотропный спазмолитик с избирательным действием на гладкие мышцы",
+    farmakodinamika: `Флороглюцинол (с 1,3,5-триметоксибензолом) — миотропный (мускулотропный) спазмолитик. Избирательно и непосредственно действует на гладкую мускулатуру ЖКТ, жёлчных и мочеполовых путей, устраняя спазм. Не обладает антихолинергическим действием, поэтому атропиноподобные побочные эффекты (сухость во рту, нарушение зрения, тахикардия) отсутствуют и нет влияния на сердечно-сосудистую систему/глаза. Не влияет на нормальный мышечный тонус — устраняет только спазм.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь и парентерально",
+      tarqalish: "Распределяется в гладкомышечную ткань",
+      metabolizm: "Метаболизируется в печени",
+      chiqarilish: "Преимущественно с мочой"
+    },
+    korsatmalar: [
+      "Спазм и боль ЖКТ (синдром раздражённого кишечника)",
+      "Спазм и колика жёлчных путей (билиарная колика)",
+      "Спазм и колика мочевых путей (почечная колика)",
+      "Гинекологические спазмы, дисменорея",
+      "Спазм шейки матки в родах"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к флороглюцинолу"
+    ],
+    nojoya: {
+      "Аллергические": "Сыпь, зуд, крапивница, редко анафилактическая реакция (инъекционная форма)",
+      "Прочие": "Очень хорошо переносится; редко головокружение, гипотензия (в/в)"
+    },
+    dozadan: "Низкая токсичность; симптоматическое лечение.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий выявлено мало"
+    ],
+    qollash: {
+      kattalar: "Внутрь 80 мг 2–3 раза в день; при острой колике 80 мг в/м или медленно в/в, при необходимости повторно (макс. ~240 мг/сут).",
+      bolalar: "В сниженной дозе по возрасту"
+    },
+    chiqarish: "Таблетки 80 мг; таблетки для рассасывания; раствор для инъекций 40 мг/4 мл"
+  },
+  en: {
+    gruppa: "Other antispasmodics for functional bowel disorders (musculotropic)",
+    farmTasir: "Musculotropic antispasmodic with selective action on smooth muscle",
+    farmakodinamika: `Phloroglucinol (with 1,3,5-trimethoxybenzene) is a musculotropic antispasmodic. It acts selectively and directly on the smooth muscle of the GI, biliary and genitourinary tracts, relieving spasm. It has no anticholinergic action, so atropine-like side effects (dry mouth, visual disturbance, tachycardia) do not occur and there is no cardiovascular/ocular effect. It does not affect normal muscle tone — it relieves only spasm.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally and parenterally",
+      tarqalish: "Distributes to smooth muscle tissue",
+      metabolizm: "Metabolised in the liver",
+      chiqarilish: "Mainly in urine"
+    },
+    korsatmalar: [
+      "GI spasm and pain (irritable bowel syndrome)",
+      "Biliary tract spasm and colic (biliary colic)",
+      "Urinary tract spasm and colic (renal colic)",
+      "Gynaecological spasms, dysmenorrhoea",
+      "Cervical spasm in labour"
+    ],
+    qarrshi: [
+      "Hypersensitivity to phloroglucinol"
+    ],
+    nojoya: {
+      "Hypersensitivity": "Rash, itching, urticaria, rarely anaphylactic reaction (injectable form)",
+      "Other": "Very well tolerated; rarely dizziness, hypotension (IV)"
+    },
+    dozadan: "Low toxicity; symptomatic treatment.",
+    ozarotasir: [
+      "Few clinically significant interactions identified"
+    ],
+    qollash: {
+      kattalar: "Oral 80 mg 2–3 times daily; for acute colic 80 mg IM or slow IV, repeat if needed (max ~240 mg/day).",
+      bolalar: "Reduced dose by age"
+    },
+    chiqarish: "Tablets 80 mg; orodispersible tablets; injection solution 40 mg/4 mL"
+  }
+},
+
+// ─── A03BA04 · Belladonna barg ekstrakti ──────────────────────────────────
+"A03BA04": {
+  uz: {
+    gruppa: "Antixolinergiklar (belladonna alkaloidlari)",
+    farmTasir: "Tabiiy antixolinergik spazmolitik",
+    farmakodinamika: `Belladonna (Atropa belladonna) barg ekstrakti tarkibida atropin, gioshiamin va skopolamin alkaloidlari bo'ladi. M-xolinoretseptorlarni bloklab (antimuskarin), oshqozon-ichak, o't va siydik yo'llari silliq mushaklari tonusi va spazmini kamaytiradi, bez (so'lak, oshqozon, ter) sekretsiyasini pasaytiradi. Atropinga o'xshash, lekin standartlanmagan o'simlik preparati. Asosan spastik holatlar va og'riqda yengillik beradi.`,
+    farmakokinetika: {
+      sorish: "Og'iz va rektal yo'l bilan so'riladi",
+      tarqalish: "To'qimalarga tarqaladi, BBO dan o'tadi",
+      metabolizm: "Jigarда metabolizmga uchraydi",
+      chiqarilish: "Asosan siydik bilan"
+    },
+    korsatmalar: [
+      "Oshqozon-ichak silliq mushaklari spazmi (spastik kolit, oshqozon yarasi spazmi)",
+      "O't yo'llari spazmi va sanchig'i",
+      "Bavosil (gemorroy) va anal yoriqlarда spazm va og'riq (svechalar)",
+      "Dismenoreya"
+    ],
+    qarrshi: [
+      "Belladonna alkaloidlariga o'ta sezuvchanlik",
+      "Yopiq burchakli glaukoma",
+      "Prostata gipertrofiyasi, siydik tutilishi",
+      "Taxiaritmiya, paralitik ileus",
+      "Homiladorlik va emizish davri"
+    ],
+    nojoya: {
+      "Antixolinergik": "Og'iz qurishi, ko'rish xiralashuvi, midriaz, siydik tutilishi, ich qotishi",
+      "Yurak": "Taxikardiya, yurak urishi sezgisi",
+      "Asab tizimi": "Bosh aylanishi, qo'zg'aluvchanlik (yuqori dozada)",
+      "Boshqa": "Ter ajralishi kamayishi, gipertermiya"
+    },
+    dozadan: "Antixolinergik sindrom. Antidot — fizostigmin; simptomatik davolash.",
+    ozarotasir: [
+      "Boshqa antixolinergiklar ta'sirini kuchaytiradi",
+      "Antatsidlar belladonna alkaloidlari so'rilishini kamaytiradi"
+    ],
+    qollash: {
+      kattalar: "Og'iz orqali ekstrakt 10–15 mg kuniga 2–3 marta; rektal svechalar kuniga 1–2 marta.",
+      bolalar: "Tavsiya etilmaydi (yoki faqat shifokor nazoratida)"
+    },
+    chiqarish: "Tabletkalar (quruq ekstrakt); rektal svechalar; kombinatsiyalangan preparatlar tarkibida"
+  },
+  ru: {
+    gruppa: "Антихолинергические средства (алкалоиды белладонны)",
+    farmTasir: "Природный антихолинергический спазмолитик",
+    farmakodinamika: `Экстракт листьев белладонны (Atropa belladonna) содержит алкалоиды атропин, гиосциамин и скополамин. Блокируя М-холинорецепторы (антимускариновое действие), снижает тонус и спазм гладкой мускулатуры ЖКТ, жёлчных и мочевых путей, уменьшает секрецию желёз (слюнных, желудочных, потовых). Подобен атропину, но это нестандартизированный растительный препарат. В основном облегчает спастические состояния и боль.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь и ректально",
+      tarqalish: "Распределяется в ткани, проникает через ГЭБ",
+      metabolizm: "Метаболизируется в печени",
+      chiqarilish: "Преимущественно с мочой"
+    },
+    korsatmalar: [
+      "Спазм гладкой мускулатуры ЖКТ (спастический колит, спазм при язве)",
+      "Спазм и колика жёлчных путей",
+      "Спазм и боль при геморрое и анальных трещинах (свечи)",
+      "Дисменорея"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к алкалоидам белладонны",
+      "Закрытоугольная глаукома",
+      "Гипертрофия простаты, задержка мочи",
+      "Тахиаритмия, паралитический илеус",
+      "Беременность и период лактации"
+    ],
+    nojoya: {
+      "Антихолинергические": "Сухость во рту, нечёткость зрения, мидриаз, задержка мочи, запор",
+      "Сердце": "Тахикардия, сердцебиение",
+      "ЦНС": "Головокружение, возбуждение (в высоких дозах)",
+      "Прочие": "Снижение потоотделения, гипертермия"
+    },
+    dozadan: "Антихолинергический синдром. Антидот — физостигмин; симптоматическое лечение.",
+    ozarotasir: [
+      "Усиливает действие других антихолинергиков",
+      "Антациды снижают всасывание алкалоидов белладонны"
+    ],
+    qollash: {
+      kattalar: "Внутрь экстракт 10–15 мг 2–3 раза в день; ректальные свечи 1–2 раза в день.",
+      bolalar: "Не рекомендуется (или только под контролем врача)"
+    },
+    chiqarish: "Таблетки (сухой экстракт); ректальные свечи; в составе комбинированных препаратов"
+  },
+  en: {
+    gruppa: "Anticholinergics (belladonna alkaloids)",
+    farmTasir: "Natural anticholinergic antispasmodic",
+    farmakodinamika: `Belladonna (Atropa belladonna) leaf extract contains the alkaloids atropine, hyoscyamine and scopolamine. By blocking muscarinic (M) cholinoreceptors (antimuscarinic action) it reduces the tone and spasm of GI, biliary and urinary smooth muscle and decreases glandular secretion (salivary, gastric, sweat). It is similar to atropine but is a non-standardised herbal preparation. It mainly relieves spastic conditions and pain.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally and rectally",
+      tarqalish: "Distributes to tissues, crosses the blood-brain barrier",
+      metabolizm: "Metabolised in the liver",
+      chiqarilish: "Mainly in urine"
+    },
+    korsatmalar: [
+      "GI smooth muscle spasm (spastic colitis, ulcer-related spasm)",
+      "Biliary tract spasm and colic",
+      "Spasm and pain in haemorrhoids and anal fissures (suppositories)",
+      "Dysmenorrhoea"
+    ],
+    qarrshi: [
+      "Hypersensitivity to belladonna alkaloids",
+      "Closed-angle glaucoma",
+      "Prostatic hypertrophy, urinary retention",
+      "Tachyarrhythmia, paralytic ileus",
+      "Pregnancy and lactation"
+    ],
+    nojoya: {
+      "Anticholinergic": "Dry mouth, blurred vision, mydriasis, urinary retention, constipation",
+      "Cardiac": "Tachycardia, palpitations",
+      "CNS": "Dizziness, excitation (at high doses)",
+      "Other": "Reduced sweating, hyperthermia"
+    },
+    dozadan: "Anticholinergic syndrome. Antidote — physostigmine; symptomatic treatment.",
+    ozarotasir: [
+      "Enhances other anticholinergics",
+      "Antacids reduce absorption of belladonna alkaloids"
+    ],
+    qollash: {
+      kattalar: "Oral extract 10–15 mg 2–3 times daily; rectal suppositories 1–2 times daily.",
+      bolalar: "Not recommended (or only under medical supervision)"
+    },
+    chiqarish: "Tablets (dry extract); rectal suppositories; within combination preparations"
+  }
+},
+
+// ─── A03DA02 · Metamizol + Pitofenon + Fenpiverin (Spazmalgon) ────────────
+"A03DA02": {
+  uz: {
+    gruppa: "Spazmolitik va analgetik kombinatsiyalar",
+    farmTasir: "Spazmolitik-og'riqsizlantiruvchi uchlik kombinatsiya",
+    farmakodinamika: `Metamizol natriy, pitofenon va fenpiverin bromid kombinatsiyasi. Metamizol — pirazolon hosilasi, og'riqsizlantiruvchi va isitma tushiruvchi (siklooksigenazani inhibe qilib prostaglandin sintezini kamaytiradi). Pitofenon — papaverinsimon miotrop spazmolitik, silliq mushaklarni to'g'ridan-to'g'ri bo'shashtiradi. Fenpiverin bromid — antixolinergik (M-xolinoblokator), qo'shimcha spazmolitik ta'sir beradi. Uchala komponent birgalikda spazmga bog'liq og'riqni samarali yo'qotadi (analgetik + ikki xil spazmolitik mexanizm).`,
+    farmakokinetika: {
+      sorish: "Og'iz va parenteral yo'l bilan yaxshi so'riladi",
+      tarqalish: "To'qimalarga tarqaladi; metamizol metabolitlari ona sutiga o'tadi",
+      metabolizm: "Metamizol jigarда faol metabolitlarga aylanadi",
+      chiqarilish: "Asosan siydik bilan metabolitlar shaklida"
+    },
+    korsatmalar: [
+      "Silliq mushak spazmi bilan kechadigan og'riq: renal va biliar kolika",
+      "Oshqozon-ichak spazmi (spastik kolit, gastrit)",
+      "Dismenoreya (hayz og'rig'i)",
+      "Siydik yo'llari spazmi",
+      "Operatsiyadan keyingi spastik og'riqlar (qisqa muddat)"
+    ],
+    qarrshi: [
+      "Komponentlarga (ayniqsa pirazolonlar) o'ta sezuvchanlik",
+      "Qon yaratilishi buzilishlari (agranulotsitoz, leykopeniya)",
+      "Glaukoma, prostata gipertrofiyasi, taxiaritmiya, paralitik ileus",
+      "Og'ir jigar/buyrak yetishmovchiligi, glyukoza-6-fosfatdegidrogenaza tanqisligi",
+      "Homiladorlik (I va III trimestr) va emizish davri",
+      "3 oygacha (yoki 5 kg gacha) chaqaloqlar"
+    ],
+    nojoya: {
+      "Qon tizimi": "Leykopeniya, agranulotsitoz, trombotsitopeniya (metamizol — jiddiy, kam)",
+      "Allergiya": "Toshma, eshakemi, Stivens-Johnson/Lyell sindromi, anafilaktik shok (metamizol)",
+      "Antixolinergik": "Og'iz qurishi, ter kamayishi, siydik chiqishi qiyinlashuvi, akkomodatsiya parezi",
+      "Yurak/qon": "AB pasayishi, taxikardiya",
+      "Buyrak": "Siydikning qizg'ish rangga bo'yalishi, interstitsial nefrit (kam)"
+    },
+    dozadan: "Belgilar: ko'ngil aynishi, qusish, gipotenziya, uyquchanlik, tirishish, agranulotsitoz; antixolinergik belgilar. Davolash: simptomatik, oshqozonni yuvish, qon nazorati.",
+    ozarotasir: [
+      "Boshqa NSAID, og'riqsizlantiruvchilar bilan toksiklik kuchayadi",
+      "Bilvosita antikoagulyantlar, peroral antidiabetiklar ta'sirini kuchaytiradi",
+      "Siklosporin konsentratsiyasini kamaytiradi",
+      "Boshqa antixolinergiklar bilan fenpiverin ta'siri kuchayadi",
+      "Etanol bilan birga tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "Og'iz orqali 1–2 tabletka kuniga 2–3 marta. V/m yoki sekin v/v 2–5 ml o'tkir og'riqда (kuniga 2 martagacha). Qisqa kurs (3–5 kun).",
+      bolalar: "Yoshга va vaznга qarab kamaytirilgan dozada (svechalar/tomchilar; tabletka 12 yoshdan)"
+    },
+    chiqarish: "Pardali tabletkalar; inyeksiya eritmasi 2 ml, 5 ml"
+  },
+  ru: {
+    gruppa: "Спазмолитические и анальгезирующие комбинации",
+    farmTasir: "Спазмолитик-анальгетик тройная комбинация",
+    farmakodinamika: `Комбинация метамизола натрия, питофенона и фенпиверина бромида. Метамизол — производное пиразолона, оказывает обезболивающее и жаропонижающее действие (ингибирует циклооксигеназу, снижая синтез простагландинов). Питофенон — папавериноподобный миотропный спазмолитик, прямо расслабляет гладкую мускулатуру. Фенпиверина бромид — антихолинергик (М-холиноблокатор), даёт дополнительное спазмолитическое действие. Вместе три компонента эффективно устраняют боль, связанную со спазмом (анальгетик + два механизма спазмолиза).`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь и парентерально",
+      tarqalish: "Распределяется в ткани; метаболиты метамизола проникают в грудное молоко",
+      metabolizm: "Метамизол превращается в активные метаболиты в печени",
+      chiqarilish: "Преимущественно с мочой в виде метаболитов"
+    },
+    korsatmalar: [
+      "Боль со спазмом гладкой мускулатуры: почечная и билиарная колика",
+      "Спазм ЖКТ (спастический колит, гастрит)",
+      "Дисменорея (менструальная боль)",
+      "Спазм мочевых путей",
+      "Послеоперационные спастические боли (кратковременно)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам (особенно пиразолонам)",
+      "Нарушения кроветворения (агранулоцитоз, лейкопения)",
+      "Глаукома, гипертрофия простаты, тахиаритмия, паралитический илеус",
+      "Тяжёлая печёночная/почечная недостаточность, дефицит Г6ФД",
+      "Беременность (I и III триместр) и период лактации",
+      "Дети до 3 месяцев (или до 5 кг)"
+    ],
+    nojoya: {
+      "Кроветворение": "Лейкопения, агранулоцитоз, тромбоцитопения (метамизол — серьёзное, редко)",
+      "Аллергические": "Сыпь, крапивница, синдром Стивенса–Джонсона/Лайелла, анафилактический шок (метамизол)",
+      "Антихолинергические": "Сухость во рту, снижение потоотделения, затруднение мочеиспускания, парез аккомодации",
+      "Сердце/сосуды": "Снижение АД, тахикардия",
+      "Почки": "Окрашивание мочи в красноватый цвет, интерстициальный нефрит (редко)"
+    },
+    dozadan: "Симптомы: тошнота, рвота, гипотензия, сонливость, судороги, агранулоцитоз; антихолинергические признаки. Лечение: симптоматическое, промывание желудка, контроль крови.",
+    ozarotasir: [
+      "С другими НПВП, анальгетиками усиливается токсичность",
+      "Усиливает действие непрямых антикоагулянтов, пероральных антидиабетиков",
+      "Снижает концентрацию циклоспорина",
+      "С другими антихолинергиками усиливается действие фенпиверина",
+      "Не рекомендуется с этанолом"
+    ],
+    qollash: {
+      kattalar: "Внутрь 1–2 таблетки 2–3 раза в день. В/м или медленно в/в 2–5 мл при острой боли (до 2 раз в день). Короткий курс (3–5 дней).",
+      bolalar: "В сниженной дозе по возрасту и массе (свечи/капли; таблетки с 12 лет)"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой; раствор для инъекций 2 мл, 5 мл"
+  },
+  en: {
+    gruppa: "Antispasmodic and analgesic combinations",
+    farmTasir: "Antispasmodic-analgesic triple combination",
+    farmakodinamika: `A combination of metamizole sodium, pitofenone and fenpiverinium bromide. Metamizole is a pyrazolone derivative with analgesic and antipyretic action (inhibiting cyclooxygenase and reducing prostaglandin synthesis). Pitofenone is a papaverine-like musculotropic antispasmodic that directly relaxes smooth muscle. Fenpiverinium bromide is an anticholinergic (M-cholinoblocker) providing additional antispasmodic action. Together the three components effectively relieve spasm-related pain (analgesic + two antispasmodic mechanisms).`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally and parenterally",
+      tarqalish: "Distributes to tissues; metamizole metabolites enter breast milk",
+      metabolizm: "Metamizole is converted to active metabolites in the liver",
+      chiqarilish: "Mainly in urine as metabolites"
+    },
+    korsatmalar: [
+      "Pain with smooth muscle spasm: renal and biliary colic",
+      "GI spasm (spastic colitis, gastritis)",
+      "Dysmenorrhoea (menstrual pain)",
+      "Urinary tract spasm",
+      "Postoperative spastic pain (short term)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components (especially pyrazolones)",
+      "Haematopoietic disorders (agranulocytosis, leucopenia)",
+      "Glaucoma, prostatic hypertrophy, tachyarrhythmia, paralytic ileus",
+      "Severe hepatic/renal impairment, G6PD deficiency",
+      "Pregnancy (first and third trimester) and lactation",
+      "Infants under 3 months (or under 5 kg)"
+    ],
+    nojoya: {
+      "Haematological": "Leucopenia, agranulocytosis, thrombocytopenia (metamizole — serious, rare)",
+      "Hypersensitivity": "Rash, urticaria, Stevens–Johnson/Lyell syndrome, anaphylactic shock (metamizole)",
+      "Anticholinergic": "Dry mouth, reduced sweating, difficulty urinating, accommodation paresis",
+      "Cardiovascular": "Hypotension, tachycardia",
+      "Renal": "Reddish discolouration of urine, interstitial nephritis (rare)"
+    },
+    dozadan: "Symptoms: nausea, vomiting, hypotension, drowsiness, seizures, agranulocytosis; anticholinergic signs. Treatment: symptomatic, gastric lavage, blood monitoring.",
+    ozarotasir: [
+      "Toxicity increases with other NSAIDs and analgesics",
+      "Enhances the effect of indirect anticoagulants and oral antidiabetics",
+      "Reduces ciclosporin concentration",
+      "Fenpiverinium effect is enhanced with other anticholinergics",
+      "Not recommended with ethanol"
+    ],
+    qollash: {
+      kattalar: "Oral 1–2 tablets 2–3 times daily. IM or slow IV 2–5 mL for acute pain (up to twice daily). Short course (3–5 days).",
+      bolalar: "Reduced dose by age and weight (suppositories/drops; tablets from 12 years)"
+    },
+    chiqarish: "Film-coated tablets; injection solution 2 mL, 5 mL"
+  }
+},
+
+// ─── A03FA01 · Metoklopramid ──────────────────────────────────────────────
+"A03FA01": {
+  uz: {
+    gruppa: "Prokinetiklar (qusishga qarshi, dofamin antagonisti)",
+    farmTasir: "Ichak harakatini kuchaytiruvchi va qusishga qarshi vosita",
+    farmakodinamika: `Metoklopramid — markaziy va periferik dofamin D2-retseptor antagonisti, prokinetik va antiemetik. Miya qusish markazidagi xemoretseptor trigger zonasi (CTZ) dofamin retseptorlarini bloklab qusishni bostiradi; yuqori dozada serotonin (5-HT3) retseptorlariga ham ta'sir qiladi. Periferiyada oshqozon va yuqori ichak harakatini kuchaytiradi, oshqozon bo'shashini tezlashtiradi, pastki qizilo'ngach sfinkteri tonusini oshiradi, pilorus va o'n ikki barmoq ichakni bo'shashtiradi — reflyuks va ko'ngil aynishini kamaytiradi. BBO dan o'tadi (ekstrapiramidal ta'sir xavfi).`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali tez so'riladi; biofaollik ~80%. Cmax 1–2 soatда",
+      tarqalish: "Oqsilga bog'lanish ~30%; BBO va platsentadan o'tadi, ona sutiga chiqadi",
+      metabolizm: "Jigarда qisman metabolizmga uchraydi",
+      chiqarilish: "Asosan buyrak orqali; T½ 4–6 soat (buyrak yetishmovchiligida uzayadi)"
+    },
+    korsatmalar: [
+      "Turli kelib chiqishli ko'ngil aynishi va qusish (jumladan kimyoterapiya, nurlanish, operatsiyadan keyin, migren)",
+      "Diabetik gastroparez, oshqozon bo'shashining sustligi",
+      "Gastroezofageal reflyuks, funksional dispepsiya",
+      "Diagnostik tekshiruvlarda (zond, rentgen) oshqozon-ichak harakatini tezlashtirish"
+    ],
+    qarrshi: [
+      "Metoklopramidga o'ta sezuvchanlik",
+      "Oshqozon-ichak qon ketishi, mexanik obstruksiya yoki perforatsiya",
+      "Feoxromotsitoma (gipertonik kriz xavfi)",
+      "Epilepsiya, ekstrapiramidal buzilishlar, Parkinson kasalligi",
+      "Prolaktinoma; 1 yoshgacha bolalar"
+    ],
+    nojoya: {
+      "Asab tizimi": "Ekstrapiramidal buzilishlar (distoniya, akatiziya, ayniqsa yoshlarda va katta dozada), uyquchanlik, charchoq, kech diskineziya (uzoq qo'llashda)",
+      "Endokrin": "Giperprolaktinemiya, galaktoreya, ginekomastiya, menstrual buzilishlar",
+      "Oshqozon-ichak": "Diareya, og'iz qurishi",
+      "Yurak": "AB pasayishi yoki oshishi, kamdan-kam aritmiya (v/v tez yuborishda)",
+      "Boshqa": "Neyroleptik malign sindrom (kam, lekin jiddiy)"
+    },
+    dozadan: "Belgilar: ekstrapiramidal buzilishlar, uyquchanlik, chalkashlik. Davolash: antixolinergiklar (biperiden) yoki benzodiazepinlar (distoniyada), simptomatik.",
+    ozarotasir: [
+      "Markaziy depressantlar (alkogol, sedativ, opioidlar) ta'sirini kuchaytiradi",
+      "Antixolinergiklar va opioidlar prokinetik ta'sirini susaytiradi",
+      "Neyroleptiklar bilan ekstrapiramidal xavf oshadi",
+      "Levodopa bilan o'zaro antagonizm",
+      "Digoksin, siklosporin, paratsetamol so'rilishini o'zgartiradi"
+    ],
+    qollash: {
+      kattalar: "10 mg kuniga 3 marta ovqatdan 30 daqiqa oldin (maks. 30 mg/sut, 5 kungacha). V/m yoki sekin v/v 10 mg. Buyrak yetishmovchiligida doza kamaytiriladi.",
+      bolalar: "1 yoshdan: 0,1–0,15 mg/kg kuniga 3 martagacha (qattiq cheklov, ekstrapiramidal xavf)"
+    },
+    chiqarish: "Tabletkalar 10 mg; inyeksiya eritmasi 5 mg/ml (2 ml); ichish uchun eritma"
+  },
+  ru: {
+    gruppa: "Прокинетики (противорвотные, антагонисты дофамина)",
+    farmTasir: "Средство, усиливающее моторику ЖКТ и противорвотное",
+    farmakodinamika: `Метоклопрамид — центральный и периферический антагонист дофаминовых D2-рецепторов, прокинетик и противорвотное. Блокирует дофаминовые рецепторы хеморецепторной триггерной зоны (ХТЗ) рвотного центра, подавляя рвоту; в высоких дозах влияет и на серотониновые (5-HT3) рецепторы. На периферии усиливает моторику желудка и верхних отделов кишечника, ускоряет опорожнение желудка, повышает тонус нижнего пищеводного сфинктера, расслабляет привратник и двенадцатиперстную кишку — уменьшая рефлюкс и тошноту. Проникает через ГЭБ (риск экстрапирамидных эффектов).`,
+    farmakokinetika: {
+      sorish: "Быстро всасывается внутрь; биодоступность ~80%. Cmax через 1–2 ч",
+      tarqalish: "Связь с белками ~30%; проникает через ГЭБ и плаценту, в грудное молоко",
+      metabolizm: "Частично метаболизируется в печени",
+      chiqarilish: "Преимущественно почками; T½ 4–6 ч (удлиняется при почечной недостаточности)"
+    },
+    korsatmalar: [
+      "Тошнота и рвота различного генеза (химиотерапия, лучевая терапия, послеоперационная, мигрень)",
+      "Диабетический гастропарез, замедленное опорожнение желудка",
+      "Гастроэзофагеальный рефлюкс, функциональная диспепсия",
+      "Ускорение моторики ЖКТ при диагностических исследованиях (зондирование, рентген)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к метоклопрамиду",
+      "Желудочно-кишечное кровотечение, механическая обструкция или перфорация",
+      "Феохромоцитома (риск гипертонического криза)",
+      "Эпилепсия, экстрапирамидные нарушения, болезнь Паркинсона",
+      "Пролактинома; дети до 1 года"
+    ],
+    nojoya: {
+      "ЦНС": "Экстрапирамидные нарушения (дистония, акатизия, особенно у молодых и при высоких дозах), сонливость, утомляемость, поздняя дискинезия (при длительном применении)",
+      "Эндокринные": "Гиперпролактинемия, галакторея, гинекомастия, нарушения менструации",
+      "ЖКТ": "Диарея, сухость во рту",
+      "Сердце": "Снижение или повышение АД, редко аритмия (при быстром в/в)",
+      "Прочие": "Нейролептический злокачественный синдром (редко, но серьёзно)"
+    },
+    dozadan: "Симптомы: экстрапирамидные нарушения, сонливость, спутанность. Лечение: антихолинергики (бипериден) или бензодиазепины (при дистонии), симптоматическое.",
+    ozarotasir: [
+      "Усиливает действие центральных депрессантов (алкоголь, седативные, опиоиды)",
+      "Антихолинергики и опиоиды ослабляют прокинетическое действие",
+      "С нейролептиками повышается экстрапирамидный риск",
+      "Антагонизм с леводопой",
+      "Изменяет всасывание дигоксина, циклоспорина, парацетамола"
+    ],
+    qollash: {
+      kattalar: "10 мг 3 раза в день за 30 минут до еды (макс. 30 мг/сут, до 5 дней). В/м или медленно в/в 10 мг. При почечной недостаточности дозу снижают.",
+      bolalar: "С 1 года: 0,1–0,15 мг/кг до 3 раз в день (строгое ограничение, экстрапирамидный риск)"
+    },
+    chiqarish: "Таблетки 10 мг; раствор для инъекций 5 мг/мл (2 мл); раствор для приёма внутрь"
+  },
+  en: {
+    gruppa: "Prokinetics (antiemetic, dopamine antagonist)",
+    farmTasir: "Agent that enhances GI motility and is antiemetic",
+    farmakodinamika: `Metoclopramide is a central and peripheral dopamine D2-receptor antagonist, a prokinetic and antiemetic. It blocks dopamine receptors of the chemoreceptor trigger zone (CTZ) of the vomiting centre, suppressing emesis; at high doses it also affects serotonin (5-HT3) receptors. Peripherally it enhances gastric and upper intestinal motility, accelerates gastric emptying, increases lower oesophageal sphincter tone and relaxes the pylorus and duodenum — reducing reflux and nausea. It crosses the blood-brain barrier (risk of extrapyramidal effects).`,
+    farmakokinetika: {
+      sorish: "Rapidly absorbed orally; bioavailability ~80%. Cmax in 1–2 h",
+      tarqalish: "Protein binding ~30%; crosses the blood-brain barrier and placenta, enters breast milk",
+      metabolizm: "Partly metabolised in the liver",
+      chiqarilish: "Mainly renally; T½ 4–6 h (prolonged in renal impairment)"
+    },
+    korsatmalar: [
+      "Nausea and vomiting of various origin (chemotherapy, radiotherapy, postoperative, migraine)",
+      "Diabetic gastroparesis, delayed gastric emptying",
+      "Gastro-oesophageal reflux, functional dyspepsia",
+      "Accelerating GI motility during diagnostic procedures (intubation, X-ray)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to metoclopramide",
+      "GI bleeding, mechanical obstruction or perforation",
+      "Phaeochromocytoma (risk of hypertensive crisis)",
+      "Epilepsy, extrapyramidal disorders, Parkinson's disease",
+      "Prolactinoma; children under 1 year"
+    ],
+    nojoya: {
+      "CNS": "Extrapyramidal disorders (dystonia, akathisia, especially in the young and at high doses), drowsiness, fatigue, tardive dyskinesia (with prolonged use)",
+      "Endocrine": "Hyperprolactinaemia, galactorrhoea, gynaecomastia, menstrual disturbances",
+      "Gastrointestinal": "Diarrhoea, dry mouth",
+      "Cardiac": "Hypotension or hypertension, rarely arrhythmia (with rapid IV)",
+      "Other": "Neuroleptic malignant syndrome (rare but serious)"
+    },
+    dozadan: "Symptoms: extrapyramidal disorders, drowsiness, confusion. Treatment: anticholinergics (biperiden) or benzodiazepines (for dystonia), symptomatic.",
+    ozarotasir: [
+      "Enhances central depressants (alcohol, sedatives, opioids)",
+      "Anticholinergics and opioids weaken the prokinetic effect",
+      "Extrapyramidal risk increases with neuroleptics",
+      "Antagonism with levodopa",
+      "Alters absorption of digoxin, ciclosporin, paracetamol"
+    ],
+    qollash: {
+      kattalar: "10 mg three times daily 30 minutes before meals (max 30 mg/day, up to 5 days). IM or slow IV 10 mg. Reduce dose in renal impairment.",
+      bolalar: "From 1 year: 0.1–0.15 mg/kg up to three times daily (strict limit, extrapyramidal risk)"
+    },
+    chiqarish: "Tablets 10 mg; injection solution 5 mg/mL (2 mL); oral solution"
+  }
+},
+
+// ─── A03FA03 · Domperidon ─────────────────────────────────────────────────
+"A03FA03": {
+  uz: {
+    gruppa: "Prokinetiklar (periferik dofamin antagonisti)",
+    farmTasir: "Ichak harakatini kuchaytiruvchi va qusishga qarshi vosita",
+    farmakodinamika: `Domperidon — periferik dofamin D2-retseptor antagonisti, prokinetik va antiemetik. Metoklopramiddan farqli o'laroq qon-miya to'sig'idan deyarli o'tmaydi, shuning uchun ekstrapiramidal nojo'ya ta'sirlari kam. Oshqozon va o'n ikki barmoq ichak harakatini kuchaytiradi, oshqozon bo'shashini tezlashtiradi, antroduodenal koordinatsiyani yaxshilaydi va pastki qizilo'ngach sfinkteri tonusini oshiradi. Miya qusish markazidagi xemoretseptor trigger zonasi (BBO tashqarisida joylashgan) dofamin retseptorlarini bloklab qusishni bostiradi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'riladi, lekin biofaollik past (~15%) — birinchi o'tish effekti. Oshqozon kislotaliligi pasaysa so'rilish kamayadi",
+      tarqalish: "Oqsilga bog'lanish ~90%; BBO dan deyarli o'tmaydi",
+      metabolizm: "Jigarда CYP3A4 orqali to'liq metabolizmga uchraydi",
+      chiqarilish: "Metabolitlar najas va siydik bilan; T½ ~7–9 soat"
+    },
+    korsatmalar: [
+      "Ko'ngil aynishi va qusish (jumladan dofaminergik agonistlar — levodopa, bromokriptin bilan bog'liq)",
+      "Funksional dispepsiya, oshqozon bo'shashining sustligi",
+      "Gastroezofageal reflyuks simptomlari (to'lqinlanish, kekirish, epigastral noxushlik)",
+      "Diabetik va idiopatik gastroparez"
+    ],
+    qarrshi: [
+      "Domperidonga o'ta sezuvchanlik",
+      "Prolaktin ishlab chiqaruvchi gipofiz o'smasi (prolaktinoma)",
+      "Oshqozon-ichak qon ketishi, mexanik obstruksiya yoki perforatsiya",
+      "QT intervali uzayishi, sezilarli elektrolit buzilishlari yoki yurak kasalliklari",
+      "Og'ir jigar yetishmovchiligi; CYP3A4 ni kuchli inhibe qiluvchilar bilan birga"
+    ],
+    nojoya: {
+      "Endokrin": "Giperprolaktinemiya, galaktoreya, ginekomastiya, menstrual buzilishlar",
+      "Yurak": "QT intervalining uzayishi, jiddiy aritmiya va to'satdan yurak o'limi xavfi (ayniqsa katta dozada, keksalarда)",
+      "Oshqozon-ichak": "Og'iz qurishi, ich qotishi yoki diareya, qorin spazmlari",
+      "Asab tizimi": "Bosh og'rig'i; ekstrapiramidal buzilishlar juda kam (BBO dan o'tmaydi)"
+    },
+    dozadan: "Belgilar: uyquchanlik, dezoriyentatsiya, ekstrapiramidal reaksiyalar (kam), aritmiya. Davolash: simptomatik, yurak nazorati; antixolinergiklar (ekstrapiramidalда).",
+    ozarotasir: [
+      "CYP3A4 inhibitorlari (ketokonazol, eritromitsin, ritonavir) — domperidon konsentratsiyasi va QT xavfini oshiradi (qarshi ko'rsatma)",
+      "QT uzaytiruvchi boshqa preparatlar bilan sinergistik xavf",
+      "Antixolinergiklar va opioidlar prokinetik ta'sirini susaytiradi",
+      "Oshqozon kislotasini kamaytiruvchilar (PPI, H2-blokerlar, antatsidlar) so'rilishini kamaytiradi"
+    ],
+    qollash: {
+      kattalar: "10 mg kuniga 3 martagacha ovqatdan 15–30 daqiqa oldin; maks. 30 mg/sut, eng qisqa muddat (odatda ≤7 kun).",
+      bolalar: "12 yoshdan va ≥35 kg: 10 mg kuniga 3 martagacha (kichik yoshda faqat maxsus ko'rsatma bilan, vaznга qarab)"
+    },
+    chiqarish: "Tabletkalar 10 mg; og'izda eriydigan tabletkalar; ichish uchun suspenziya 1 mg/ml"
+  },
+  ru: {
+    gruppa: "Прокинетики (периферический антагонист дофамина)",
+    farmTasir: "Средство, усиливающее моторику ЖКТ и противорвотное",
+    farmakodinamika: `Домперидон — периферический антагонист дофаминовых D2-рецепторов, прокинетик и противорвотное. В отличие от метоклопрамида почти не проникает через гематоэнцефалический барьер, поэтому экстрапирамидные побочные эффекты редки. Усиливает моторику желудка и двенадцатиперстной кишки, ускоряет опорожнение желудка, улучшает антродуоденальную координацию и повышает тонус нижнего пищеводного сфинктера. Блокирует дофаминовые рецепторы хеморецепторной триггерной зоны (расположенной вне ГЭБ), подавляя рвоту.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь, но биодоступность низкая (~15%) — эффект первого прохождения. При снижении кислотности желудка всасывание уменьшается",
+      tarqalish: "Связь с белками ~90%; почти не проникает через ГЭБ",
+      metabolizm: "Полностью метаболизируется в печени через CYP3A4",
+      chiqarilish: "Метаболиты с калом и мочой; T½ ~7–9 ч"
+    },
+    korsatmalar: [
+      "Тошнота и рвота (в т.ч. связанная с дофаминергическими агонистами — леводопа, бромокриптин)",
+      "Функциональная диспепсия, замедленное опорожнение желудка",
+      "Симптомы гастроэзофагеального рефлюкса (регургитация, отрыжка, дискомфорт в эпигастрии)",
+      "Диабетический и идиопатический гастропарез"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к домперидону",
+      "Пролактинсекретирующая опухоль гипофиза (пролактинома)",
+      "Желудочно-кишечное кровотечение, механическая обструкция или перфорация",
+      "Удлинение QT, выраженные электролитные нарушения или болезни сердца",
+      "Тяжёлая печёночная недостаточность; одновременно с сильными ингибиторами CYP3A4"
+    ],
+    nojoya: {
+      "Эндокринные": "Гиперпролактинемия, галакторея, гинекомастия, нарушения менструации",
+      "Сердце": "Удлинение QT, риск серьёзных аритмий и внезапной сердечной смерти (особенно при высоких дозах, у пожилых)",
+      "ЖКТ": "Сухость во рту, запор или диарея, спазмы в животе",
+      "ЦНС": "Головная боль; экстрапирамидные нарушения очень редки (не проникает через ГЭБ)"
+    },
+    dozadan: "Симптомы: сонливость, дезориентация, экстрапирамидные реакции (редко), аритмия. Лечение: симптоматическое, контроль сердца; антихолинергики (при экстрапирамидных).",
+    ozarotasir: [
+      "Ингибиторы CYP3A4 (кетоконазол, эритромицин, ритонавир) — повышают концентрацию домперидона и риск QT (противопоказание)",
+      "Синергический риск с другими препаратами, удлиняющими QT",
+      "Антихолинергики и опиоиды ослабляют прокинетическое действие",
+      "Препараты, снижающие кислотность (ИПП, H2-блокаторы, антациды), снижают всасывание"
+    ],
+    qollash: {
+      kattalar: "10 мг до 3 раз в день за 15–30 минут до еды; макс. 30 мг/сут, кратчайший срок (обычно ≤7 дней).",
+      bolalar: "С 12 лет и ≥35 кг: 10 мг до 3 раз в день (в младшем возрасте только по особым показаниям, по массе тела)"
+    },
+    chiqarish: "Таблетки 10 мг; таблетки, диспергируемые во рту; суспензия для приёма внутрь 1 мг/мл"
+  },
+  en: {
+    gruppa: "Prokinetics (peripheral dopamine antagonist)",
+    farmTasir: "Agent that enhances GI motility and is antiemetic",
+    farmakodinamika: `Domperidone is a peripheral dopamine D2-receptor antagonist, a prokinetic and antiemetic. Unlike metoclopramide it barely crosses the blood-brain barrier, so extrapyramidal side effects are rare. It enhances gastric and duodenal motility, accelerates gastric emptying, improves antroduodenal coordination and increases lower oesophageal sphincter tone. It blocks dopamine receptors of the chemoreceptor trigger zone (located outside the BBB), suppressing emesis.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally but with low bioavailability (~15%) — first-pass effect. Absorption decreases when gastric acidity is reduced",
+      tarqalish: "Protein binding ~90%; barely crosses the blood-brain barrier",
+      metabolizm: "Fully metabolised in the liver via CYP3A4",
+      chiqarilish: "Metabolites in faeces and urine; T½ ~7–9 h"
+    },
+    korsatmalar: [
+      "Nausea and vomiting (including that associated with dopaminergic agonists — levodopa, bromocriptine)",
+      "Functional dyspepsia, delayed gastric emptying",
+      "Gastro-oesophageal reflux symptoms (regurgitation, belching, epigastric discomfort)",
+      "Diabetic and idiopathic gastroparesis"
+    ],
+    qarrshi: [
+      "Hypersensitivity to domperidone",
+      "Prolactin-secreting pituitary tumour (prolactinoma)",
+      "GI bleeding, mechanical obstruction or perforation",
+      "QT prolongation, significant electrolyte disturbances or cardiac disease",
+      "Severe hepatic impairment; concomitant strong CYP3A4 inhibitors"
+    ],
+    nojoya: {
+      "Endocrine": "Hyperprolactinaemia, galactorrhoea, gynaecomastia, menstrual disturbances",
+      "Cardiac": "QT prolongation, risk of serious arrhythmias and sudden cardiac death (especially at high doses, in the elderly)",
+      "Gastrointestinal": "Dry mouth, constipation or diarrhoea, abdominal cramps",
+      "CNS": "Headache; extrapyramidal disorders very rare (does not cross the BBB)"
+    },
+    dozadan: "Symptoms: drowsiness, disorientation, extrapyramidal reactions (rare), arrhythmia. Treatment: symptomatic, cardiac monitoring; anticholinergics (for extrapyramidal).",
+    ozarotasir: [
+      "CYP3A4 inhibitors (ketoconazole, erythromycin, ritonavir) — raise domperidone concentration and QT risk (contraindication)",
+      "Synergistic risk with other QT-prolonging drugs",
+      "Anticholinergics and opioids weaken the prokinetic effect",
+      "Acid-reducing drugs (PPIs, H2 blockers, antacids) reduce absorption"
+    ],
+    qollash: {
+      kattalar: "10 mg up to three times daily 15–30 minutes before meals; max 30 mg/day, shortest duration (usually ≤7 days).",
+      bolalar: "From 12 years and ≥35 kg: 10 mg up to three times daily (younger only on special indication, by body weight)"
+    },
+    chiqarish: "Tablets 10 mg; orodispersible tablets; oral suspension 1 mg/mL"
+  }
 }
 
 };
