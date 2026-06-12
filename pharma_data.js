@@ -13880,6 +13880,1219 @@ const PHARMA_DATA = {
     },
     chiqarish: "Tablets 600 mg; infusion solution 2 mg/mL; oral suspension"
   }
+},
+
+// ─── J01AA07 · Tetratsiklin ───────────────────────────────────────────────
+"J01AA07": {
+  uz: {
+    gruppa: "Tetratsiklinlar",
+    farmTasir: "Keng spektrli bakteriostatik antibiotik",
+    farmakodinamika: `Tetratsiklin — keng spektrli bakteriostatik antibiotik. Bakteriya ribosomasining 30S subbirligiga qaytar bog'lanib, aminoatsil-tRNK ning ribosomaга birikishini to'sadi va oqsil sintezini to'xtatadi. Gram-musbat va gram-manfiy bakteriyalarga, shuningdek hujayra ichidagi qo'zg'atuvchilarга (Chlamydia, Mycoplasma, Rickettsia), spiroxetalar va ba'zi protozoalarga faol. Ko'pchilik shtammlarda chidamlilik keng tarqalgani uchun hozir cheklangan qo'llaniladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali to'liq emas so'riladi; ovqat, sut, kalsiy/temir so'rilishni keskin kamaytiradi",
+      tarqalish: "Oqsilga ~65% bog'lanadi; to'qima, suyak va tishga (kalsiy bilan xelat) tarqaladi; platsentadan o'tadi",
+      metabolizm: "Qisman jigarда metabolizmga uchraydi, enterоgepatik aylanish",
+      chiqarilish: "Buyrak va o't (najas) bilan; T½ ~6–11 soat"
+    },
+    korsatmalar: [
+      "Xlamidiya infeksiyalari (uretrit, traxoma, psittakoz)",
+      "Mikoplazma pnevmoniyasi, rikketsiozlar, brutsellyoz (kombinatsiyada), vabo",
+      "Akne (og'ir shakllari), rozatsea",
+      "Helicobacter pylori eradikatsiyasi (kombinatsiyada)"
+    ],
+    qarrshi: [
+      "Tetratsiklinlarга o'ta sezuvchanlik",
+      "Homiladorlik va emizish davri; 8 yoshgacha bolalar (tish va suyakка cho'kish, rang o'zgarishi)",
+      "Og'ir jigar yetishmovchiligi; buyrak yetishmovchiligi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish, diareya, glossit, qizilo'ngach yarasi, psevdomembranoz kolit",
+      "Tish/suyak": "8 yoshgacha bolalarda tish emalining qaytmas dog'lanishi, suyak o'sishining sekinlashuvi",
+      "Teri": "Fotosensibilizatsiya, toshma",
+      "Jigar/buyrak": "Gepatotoksiklik (yuqori dozada), eskirgan preparat — Fankoni sindromi",
+      "Boshqa": "Kandidoz, miya ichi bosimi oshishi (kam)"
+    },
+    dozadan: "Belgilar: ko'ngil aynishi, qusish, gepatotoksiklik. Davolash: simptomatik; gemodializ samarasiz.",
+    ozarotasir: [
+      "Antatsidlar, sut, kalsiy, temir, magniy, sink, bismut — so'rilishini keskin kamaytiradi (xelat; 2–3 soat farq)",
+      "Peroral kontratseptivlar samaradorligini kamaytirishi mumkin",
+      "Varfarin — antikoagulyant ta'sirini kuchaytiradi",
+      "Retinoidlar bilan — miya ichi bosimi oshishi xavfi"
+    ],
+    qollash: {
+      kattalar: "250–500 mg har 6 soatda bo'sh oshqozonga (ovqatdan 1 soat oldin/2 soat keyin), ko'p suv bilan, tik holatda.",
+      bolalar: "8 yoshdan: 25–50 mg/kg/sut 4 qabulга bo'lib"
+    },
+    chiqarish: "Tabletkalar/kapsulalar 250 mg; malham (mahalliy); ko'z malhami"
+  },
+  ru: {
+    gruppa: "Тетрациклины",
+    farmTasir: "Бактериостатический антибиотик широкого спектра",
+    farmakodinamika: `Тетрациклин — бактериостатический антибиотик широкого спектра. Обратимо связываясь с 30S субъединицей рибосомы, препятствует присоединению аминоацил-тРНК к рибосоме и останавливает синтез белка. Активен в отношении грамположительных и грамотрицательных бактерий, внутриклеточных возбудителей (Chlamydia, Mycoplasma, Rickettsia), спирохет и некоторых простейших. Из-за широкого распространения резистентности применяется ограниченно.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь не полностью; пища, молоко, кальций/железо резко снижают всасывание",
+      tarqalish: "Связь с белками ~65%; распределяется в ткани, кости и зубы (хелат с кальцием); проникает через плаценту",
+      metabolizm: "Частично метаболизируется в печени, энтерогепатическая циркуляция",
+      chiqarilish: "Почками и с жёлчью (калом); T½ ~6–11 ч"
+    },
+    korsatmalar: [
+      "Хламидийные инфекции (уретрит, трахома, пситтакоз)",
+      "Микоплазменная пневмония, риккетсиозы, бруцеллёз (в комбинации), холера",
+      "Акне (тяжёлые формы), розацеа",
+      "Эрадикация Helicobacter pylori (в комбинации)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к тетрациклинам",
+      "Беременность и лактация; дети до 8 лет (отложение в зубах и костях, изменение цвета)",
+      "Тяжёлая печёночная недостаточность; почечная недостаточность (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, рвота, диарея, глоссит, язва пищевода, псевдомембранозный колит",
+      "Зубы/кости": "Необратимое окрашивание эмали у детей до 8 лет, замедление роста костей",
+      "Кожа": "Фотосенсибилизация, сыпь",
+      "Печень/почки": "Гепатотоксичность (при высоких дозах), просроченный препарат — синдром Фанкони",
+      "Прочие": "Кандидоз, повышение внутричерепного давления (редко)"
+    },
+    dozadan: "Симптомы: тошнота, рвота, гепатотоксичность. Лечение: симптоматическое; гемодиализ неэффективен.",
+    ozarotasir: [
+      "Антациды, молоко, кальций, железо, магний, цинк, висмут — резко снижают всасывание (хелат; интервал 2–3 ч)",
+      "Может снижать эффективность пероральных контрацептивов",
+      "Варфарин — усиление антикоагулянтного действия",
+      "С ретиноидами — риск повышения внутричерепного давления"
+    ],
+    qollash: {
+      kattalar: "250–500 мг каждые 6 ч натощак (за 1 ч до/через 2 ч после еды), запивая водой, в вертикальном положении.",
+      bolalar: "С 8 лет: 25–50 мг/кг/сут в 4 приёма"
+    },
+    chiqarish: "Таблетки/капсулы 250 мг; мазь (местно); глазная мазь"
+  },
+  en: {
+    gruppa: "Tetracyclines",
+    farmTasir: "Broad-spectrum bacteriostatic antibiotic",
+    farmakodinamika: `Tetracycline is a broad-spectrum bacteriostatic antibiotic. By reversibly binding to the 30S ribosomal subunit, it prevents attachment of aminoacyl-tRNA to the ribosome and halts protein synthesis. It is active against Gram-positive and Gram-negative bacteria, intracellular pathogens (Chlamydia, Mycoplasma, Rickettsia), spirochaetes and some protozoa. Owing to widespread resistance it is now used in a limited way.`,
+    farmakokinetika: {
+      sorish: "Incompletely absorbed orally; food, milk, calcium/iron sharply reduce absorption",
+      tarqalish: "Protein binding ~65%; distributes into tissues, bone and teeth (chelating calcium); crosses the placenta",
+      metabolizm: "Partly metabolised in the liver, enterohepatic circulation",
+      chiqarilish: "Renally and in bile (faeces); T½ ~6–11 h"
+    },
+    korsatmalar: [
+      "Chlamydial infections (urethritis, trachoma, psittacosis)",
+      "Mycoplasma pneumonia, rickettsioses, brucellosis (in combination), cholera",
+      "Acne (severe forms), rosacea",
+      "Helicobacter pylori eradication (in combination)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to tetracyclines",
+      "Pregnancy and lactation; children under 8 years (deposition in teeth and bone, discolouration)",
+      "Severe hepatic impairment; renal impairment (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, vomiting, diarrhoea, glossitis, oesophageal ulcer, pseudomembranous colitis",
+      "Teeth/bone": "Irreversible enamel staining in children under 8, slowed bone growth",
+      "Dermatological": "Photosensitisation, rash",
+      "Hepatic/renal": "Hepatotoxicity (at high doses), expired drug — Fanconi syndrome",
+      "Other": "Candidiasis, raised intracranial pressure (rare)"
+    },
+    dozadan: "Symptoms: nausea, vomiting, hepatotoxicity. Treatment: symptomatic; haemodialysis ineffective.",
+    ozarotasir: [
+      "Antacids, milk, calcium, iron, magnesium, zinc, bismuth — sharply reduce absorption (chelation; separate by 2–3 h)",
+      "May reduce oral contraceptive efficacy",
+      "Warfarin — enhanced anticoagulant effect",
+      "With retinoids — risk of raised intracranial pressure"
+    ],
+    qollash: {
+      kattalar: "250–500 mg every 6 h on an empty stomach (1 h before/2 h after food), with water, upright.",
+      bolalar: "From 8 years: 25–50 mg/kg/day in 4 doses"
+    },
+    chiqarish: "Tablets/capsules 250 mg; ointment (topical); eye ointment"
+  }
+},
+
+// ─── J01FA01 · Eritromitsin ───────────────────────────────────────────────
+"J01FA01": {
+  uz: {
+    gruppa: "Makrolidlar",
+    farmTasir: "Bakteriostatik antibiotik (penitsillinга muqobil)",
+    farmakodinamika: `Eritromitsin — birinchi makrolid antibiotik. Bakteriya ribosomasining 50S subbirligiga qaytar bog'lanib, peptid zanjiri translokatsiyasini to'sadi va oqsil sintezini bloklaydi — bakteriostatik (yuqori konsentratsiyada bakteritsid). Gram-musbat (streptokokk, stafilokokk), ba'zi gram-manfiy (Bordetella, Neisseria, Campylobacter) va atipik (Mycoplasma, Chlamydia, Legionella) patogenlarга faol. Penitsillinга allergiyada muqobil sifatida ishlatiladi. Motilin retseptorlariга ta'sir qilib oshqozon-ichak harakatini kuchaytiradi (prokinetik).`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'riladi; oshqozon kislotasiga sezgir (enterik/efir shakllar). Ovqat ta'sir qilishi mumkin",
+      tarqalish: "Oqsilga ~70–90% bog'lanadi; to'qimaga yaxshi tarqaladi, BBO dan kam o'tadi; platsenta va sutга o'tadi",
+      metabolizm: "Jigarда CYP3A4 orqali (uni inhibe qiladi)",
+      chiqarilish: "Asosan o't bilan; T½ ~1,5–2 soat"
+    },
+    korsatmalar: [
+      "Nafas yo'llari infeksiyalari (faringit, bronxit, pnevmoniya — atipik ham)",
+      "Teri va yumshoq to'qima infeksiyalari, ko'kyo'tal (Bordetella)",
+      "Xlamidiya infeksiyalari, difteriya tashuvchanligi, kampilobakter enteriti",
+      "Penitsillinга allergiyada streptokokk infeksiyasi/revmatizm profilaktikasi"
+    ],
+    qarrshi: [
+      "Eritromitsin yoki makrolidlarга o'ta sezuvchanlik",
+      "Bir vaqtda: terfenadine, astemizol, tsizaprid, pimozid, ergot alkaloidlari, ba'zi statinlar",
+      "Uzun QT sindromi, og'ir jigar yetishmovchiligi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Qorin og'rig'i, ko'ngil aynishi, qusish, diareya (motilin ta'siri), psevdomembranoz kolit",
+      "Jigar": "Xolestatik sariqlik, gepatit (ayniqsa estolat shakli)",
+      "Yurak": "QT intervalining uzayishi, aritmiya (kam, tez v/v da)",
+      "Sezgi": "Ototoksiklik (yuqori dozada/buyrak yetishmovchiligida, qaytar)",
+      "Allergiya": "Toshma, eshakemi"
+    },
+    dozadan: "Belgilar: eshitish buzilishi, og'ir oshqozon-ichak belgilari, jigar disfunksiyasi. Davolash: simptomatik; gemodializ samarasiz.",
+    ozarotasir: [
+      "CYP3A4 substratlari (statinlar — rabdomioliz; karbamazepin, takrolimus, midazolam, varfarin, teofillin, digoksin) konsentratsiyasini oshiradi",
+      "Terfenadine, tsizaprid, pimozid, ergot — og'ir aritmiya/ishemiya (qarshi ko'rsatma)",
+      "QT uzaytiruvchi preparatlar bilan aritmiya xavfi"
+    ],
+    qollash: {
+      kattalar: "250–500 mg har 6 soatda yoki 500 mg har 12 soatda (asosga hisoblangan), ovqatdan oldin. Maks. 4 g/sut.",
+      bolalar: "30–50 mg/kg/sut 2–4 qabulга bo'lib (suspenziya)"
+    },
+    chiqarish: "Tabletkalar (enterik) 250 mg, 500 mg; suspenziya; malham; ko'z malhami"
+  },
+  ru: {
+    gruppa: "Макролиды",
+    farmTasir: "Бактериостатический антибиотик (альтернатива пенициллину)",
+    farmakodinamika: `Эритромицин — первый макролидный антибиотик. Обратимо связываясь с 50S субъединицей рибосомы, препятствует транслокации пептидной цепи и блокирует синтез белка — бактериостатически (в высоких концентрациях бактерицидно). Активен в отношении грамположительных (стрептококки, стафилококки), некоторых грамотрицательных (Bordetella, Neisseria, Campylobacter) и атипичных (Mycoplasma, Chlamydia, Legionella) возбудителей. Применяется как альтернатива при аллергии на пенициллин. Воздействуя на рецепторы мотилина, усиливает моторику ЖКТ (прокинетик).`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь; чувствителен к желудочной кислоте (энтеро-/эфирные формы). Пища может влиять",
+      tarqalish: "Связь с белками ~70–90%; хорошо распределяется в ткани, плохо через ГЭБ; проникает в плаценту и молоко",
+      metabolizm: "В печени через CYP3A4 (ингибирует его)",
+      chiqarilish: "Преимущественно с жёлчью; T½ ~1,5–2 ч"
+    },
+    korsatmalar: [
+      "Инфекции дыхательных путей (фарингит, бронхит, пневмония — в т.ч. атипичная)",
+      "Инфекции кожи и мягких тканей, коклюш (Bordetella)",
+      "Хламидийные инфекции, носительство дифтерии, кампилобактерный энтерит",
+      "При аллергии на пенициллин — стрептококковая инфекция/профилактика ревматизма"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к эритромицину или макролидам",
+      "Одновременно: терфенадин, астемизол, цизаприд, пимозид, алкалоиды спорыньи, некоторые статины",
+      "Синдром удлинённого QT, тяжёлая печёночная недостаточность"
+    ],
+    nojoya: {
+      "ЖКТ": "Боль в животе, тошнота, рвота, диарея (действие мотилина), псевдомембранозный колит",
+      "Печень": "Холестатическая желтуха, гепатит (особенно форма эстолата)",
+      "Сердце": "Удлинение QT, аритмия (редко, при быстром в/в)",
+      "Органы чувств": "Ототоксичность (при высоких дозах/почечной недостаточности, обратимая)",
+      "Аллергические": "Сыпь, крапивница"
+    },
+    dozadan: "Симптомы: нарушение слуха, тяжёлые ЖКТ-симптомы, дисфункция печени. Лечение: симптоматическое; гемодиализ неэффективен.",
+    ozarotasir: [
+      "Повышает концентрацию субстратов CYP3A4 (статины — рабдомиолиз; карбамазепин, такролимус, мидазолам, варфарин, теофиллин, дигоксин)",
+      "Терфенадин, цизаприд, пимозид, спорынья — тяжёлая аритмия/ишемия (противопоказано)",
+      "Риск аритмии с препаратами, удлиняющими QT"
+    ],
+    qollash: {
+      kattalar: "250–500 мг каждые 6 ч или 500 мг каждые 12 ч (в пересчёте на основание), до еды. Макс. 4 г/сут.",
+      bolalar: "30–50 мг/кг/сут в 2–4 приёма (суспензия)"
+    },
+    chiqarish: "Таблетки (энтеросолюбильные) 250 мг, 500 мг; суспензия; мазь; глазная мазь"
+  },
+  en: {
+    gruppa: "Macrolides",
+    farmTasir: "Bacteriostatic antibiotic (penicillin alternative)",
+    farmakodinamika: `Erythromycin is the first macrolide antibiotic. By reversibly binding to the 50S ribosomal subunit, it prevents translocation of the peptide chain and blocks protein synthesis — bacteriostatic (bactericidal at high concentrations). It is active against Gram-positives (streptococci, staphylococci), some Gram-negatives (Bordetella, Neisseria, Campylobacter) and atypicals (Mycoplasma, Chlamydia, Legionella). It is used as an alternative in penicillin allergy. By acting on motilin receptors it increases GI motility (prokinetic).`,
+    farmakokinetika: {
+      sorish: "Absorbed orally; acid-labile (enteric/ester forms). Food may have an effect",
+      tarqalish: "Protein binding ~70–90%; distributes well into tissues, poorly across the BBB; enters placenta and milk",
+      metabolizm: "Hepatic via CYP3A4 (which it inhibits)",
+      chiqarilish: "Mainly in bile; T½ ~1.5–2 h"
+    },
+    korsatmalar: [
+      "Respiratory tract infections (pharyngitis, bronchitis, pneumonia — including atypical)",
+      "Skin and soft tissue infections, whooping cough (Bordetella)",
+      "Chlamydial infections, diphtheria carriage, Campylobacter enteritis",
+      "In penicillin allergy — streptococcal infection/rheumatic fever prophylaxis"
+    ],
+    qarrshi: [
+      "Hypersensitivity to erythromycin or macrolides",
+      "Concomitant: terfenadine, astemizole, cisapride, pimozide, ergot alkaloids, some statins",
+      "Long QT syndrome, severe hepatic impairment"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Abdominal pain, nausea, vomiting, diarrhoea (motilin effect), pseudomembranous colitis",
+      "Hepatic": "Cholestatic jaundice, hepatitis (especially the estolate form)",
+      "Cardiac": "QT prolongation, arrhythmia (rare, with rapid IV)",
+      "Sensory": "Ototoxicity (at high doses/renal impairment, reversible)",
+      "Hypersensitivity": "Rash, urticaria"
+    },
+    dozadan: "Symptoms: hearing impairment, severe GI symptoms, hepatic dysfunction. Treatment: symptomatic; haemodialysis ineffective.",
+    ozarotasir: [
+      "Raises concentration of CYP3A4 substrates (statins — rhabdomyolysis; carbamazepine, tacrolimus, midazolam, warfarin, theophylline, digoxin)",
+      "Terfenadine, cisapride, pimozide, ergot — severe arrhythmia/ischaemia (contraindicated)",
+      "Arrhythmia risk with QT-prolonging drugs"
+    ],
+    qollash: {
+      kattalar: "250–500 mg every 6 h or 500 mg every 12 h (as base), before food. Max 4 g/day.",
+      bolalar: "30–50 mg/kg/day in 2–4 doses (suspension)"
+    },
+    chiqarish: "Tablets (enteric) 250 mg, 500 mg; suspension; ointment; eye ointment"
+  }
+},
+
+// ─── J01FA06 · Roksitromitsin ─────────────────────────────────────────────
+"J01FA06": {
+  uz: {
+    gruppa: "Makrolidlar",
+    farmTasir: "Yarim sintetik bakteriostatik makrolid",
+    farmakodinamika: `Roksitromitsin — yarim sintetik makrolid antibiotik. Bakteriya ribosomasining 50S subbirligiga bog'lanib, oqsil sintezini bloklaydi (bakteriostatik). Spektri eritromitsinга o'xshash: gram-musbat (streptokokk, stafilokokk), ba'zi gram-manfiy va atipik (Mycoplasma, Chlamydia, Legionella, Ureaplasma) patogenlarга faol. Eritromitsindan farqi — kislotaga barqarorroq, biofaolligi yuqoriroq va ta'siri uzunroq (kuniga 1–2 marta), CYP3A4 ga ta'siri kamroq.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi (kislotaga barqaror); bo'sh oshqozonga yaxshiroq",
+      tarqalish: "Oqsilga ~96% bog'lanadi; to'qimaga (o'pka, tonzilla, prostata) yuqori konsentratsiyada tarqaladi",
+      metabolizm: "Jigarда qisman metabolizmga uchraydi",
+      chiqarilish: "Asosan najas (o't) bilan; T½ ~12 soat"
+    },
+    korsatmalar: [
+      "Yuqori va pastki nafas yo'llari infeksiyalari (faringit, tonzillit, sinusit, bronxit, pnevmoniya)",
+      "Teri va yumshoq to'qima infeksiyalari",
+      "Jinsiy yo'l bilan yuqadigan infeksiyalar (xlamidiya, mikoplazma — uretrit, tservitsit)",
+      "Odontogen infeksiyalar"
+    ],
+    qarrshi: [
+      "Roksitromitsin yoki makrolidlarга o'ta sezuvchanlik",
+      "Bir vaqtda: ergot alkaloidlari, terfenadine/astemizol, tsizaprid, pimozid",
+      "Og'ir jigar yetishmovchiligi; uzun QT sindromi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, diareya, qusish",
+      "Jigar": "Transaminazalar oshishi, xolestatik gepatit (kam)",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, ta'm/hid o'zgarishi",
+      "Yurak": "QT intervalining uzayishi (kam)",
+      "Allergiya": "Toshma, eshakemi, kamdan-kam og'ir teri reaksiyalari"
+    },
+    dozadan: "Belgilar: oshqozon-ichak buzilishi, QT uzayishi mumkin. Davolash: simptomatik, yurak nazorati.",
+    ozarotasir: [
+      "Ergot alkaloidlari — og'ir vazospazm (qarshi ko'rsatma)",
+      "Terfenadine, tsizaprid, pimozid — aritmiya xavfi",
+      "Varfarin, siklosporin, teofillin, digoksin — ta'sirini kuchaytirishi mumkin (nazorat)",
+      "QT uzaytiruvchi preparatlar bilan aritmiya xavfi"
+    ],
+    qollash: {
+      kattalar: "150 mg kuniga 2 marta yoki 300 mg kuniga 1 marta, ovqatdan 15 daqiqa oldin; kurs 5–10 kun.",
+      bolalar: "Vaznга qarab 5–8 mg/kg/sut 2 qabulга bo'lib (4 kg dan oshganda)"
+    },
+    chiqarish: "Pardali tabletkalar 150 mg, 300 mg; bolalar uchun dispergerlanuvchi tabletkalar"
+  },
+  ru: {
+    gruppa: "Макролиды",
+    farmTasir: "Полусинтетический бактериостатический макролид",
+    farmakodinamika: `Рокситромицин — полусинтетический макролидный антибиотик. Связываясь с 50S субъединицей рибосомы, блокирует синтез белка (бактериостатически). Спектр сходен с эритромицином: грамположительные (стрептококки, стафилококки), некоторые грамотрицательные и атипичные (Mycoplasma, Chlamydia, Legionella, Ureaplasma). Отличие от эритромицина — устойчивее к кислоте, выше биодоступность, длительнее действие (1–2 раза в день), меньше влияет на CYP3A4.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь (устойчив к кислоте); лучше натощак",
+      tarqalish: "Связь с белками ~96%; высокие концентрации в тканях (лёгкие, миндалины, простата)",
+      metabolizm: "Частично метаболизируется в печени",
+      chiqarilish: "Преимущественно с калом (жёлчь); T½ ~12 ч"
+    },
+    korsatmalar: [
+      "Инфекции верхних и нижних дыхательных путей (фарингит, тонзиллит, синусит, бронхит, пневмония)",
+      "Инфекции кожи и мягких тканей",
+      "ИППП (хламидиоз, микоплазмоз — уретрит, цервицит)",
+      "Одонтогенные инфекции"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к рокситромицину или макролидам",
+      "Одновременно: алкалоиды спорыньи, терфенадин/астемизол, цизаприд, пимозид",
+      "Тяжёлая печёночная недостаточность; синдром удлинённого QT (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, боль в животе, диарея, рвота",
+      "Печень": "Повышение трансаминаз, холестатический гепатит (редко)",
+      "ЦНС": "Головная боль, головокружение, изменение вкуса/обоняния",
+      "Сердце": "Удлинение QT (редко)",
+      "Аллергические": "Сыпь, крапивница, редко тяжёлые кожные реакции"
+    },
+    dozadan: "Симптомы: расстройство ЖКТ, возможно удлинение QT. Лечение: симптоматическое, контроль сердца.",
+    ozarotasir: [
+      "Алкалоиды спорыньи — тяжёлый вазоспазм (противопоказано)",
+      "Терфенадин, цизаприд, пимозид — риск аритмии",
+      "Варфарин, циклоспорин, теофиллин, дигоксин — может усиливать действие (контроль)",
+      "Риск аритмии с препаратами, удлиняющими QT"
+    ],
+    qollash: {
+      kattalar: "150 мг 2 раза в день или 300 мг 1 раз в день, за 15 минут до еды; курс 5–10 дней.",
+      bolalar: "По массе 5–8 мг/кг/сут в 2 приёма (свыше 4 кг)"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 150 мг, 300 мг; диспергируемые таблетки для детей"
+  },
+  en: {
+    gruppa: "Macrolides",
+    farmTasir: "Semisynthetic bacteriostatic macrolide",
+    farmakodinamika: `Roxithromycin is a semisynthetic macrolide antibiotic. By binding to the 50S ribosomal subunit, it blocks protein synthesis (bacteriostatic). Its spectrum is similar to erythromycin: Gram-positives (streptococci, staphylococci), some Gram-negatives and atypicals (Mycoplasma, Chlamydia, Legionella, Ureaplasma). Unlike erythromycin it is more acid-stable, has higher bioavailability, longer action (once or twice daily) and less effect on CYP3A4.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally (acid-stable); better on an empty stomach",
+      tarqalish: "Protein binding ~96%; high tissue concentrations (lungs, tonsils, prostate)",
+      metabolizm: "Partly metabolised in the liver",
+      chiqarilish: "Mainly in faeces (bile); T½ ~12 h"
+    },
+    korsatmalar: [
+      "Upper and lower respiratory tract infections (pharyngitis, tonsillitis, sinusitis, bronchitis, pneumonia)",
+      "Skin and soft tissue infections",
+      "STIs (chlamydia, mycoplasma — urethritis, cervicitis)",
+      "Odontogenic infections"
+    ],
+    qarrshi: [
+      "Hypersensitivity to roxithromycin or macrolides",
+      "Concomitant: ergot alkaloids, terfenadine/astemizole, cisapride, pimozide",
+      "Severe hepatic impairment; long QT syndrome (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, abdominal pain, diarrhoea, vomiting",
+      "Hepatic": "Raised transaminases, cholestatic hepatitis (rare)",
+      "CNS": "Headache, dizziness, taste/smell change",
+      "Cardiac": "QT prolongation (rare)",
+      "Hypersensitivity": "Rash, urticaria, rarely severe skin reactions"
+    },
+    dozadan: "Symptoms: GI disturbance, possible QT prolongation. Treatment: symptomatic, cardiac monitoring.",
+    ozarotasir: [
+      "Ergot alkaloids — severe vasospasm (contraindicated)",
+      "Terfenadine, cisapride, pimozide — arrhythmia risk",
+      "Warfarin, ciclosporin, theophylline, digoxin — may enhance their effect (monitor)",
+      "Arrhythmia risk with QT-prolonging drugs"
+    ],
+    qollash: {
+      kattalar: "150 mg twice daily or 300 mg once daily, 15 minutes before food; course 5–10 days.",
+      bolalar: "By weight 5–8 mg/kg/day in 2 doses (over 4 kg)"
+    },
+    chiqarish: "Film-coated tablets 150 mg, 300 mg; dispersible tablets for children"
+  }
+},
+
+// ─── J01FF02 · Linkomitsin ────────────────────────────────────────────────
+"J01FF02": {
+  uz: {
+    gruppa: "Linkosamidlar",
+    farmTasir: "Gram-musbat va anaeroblarga qarshi bakteriostatik antibiotik",
+    farmakodinamika: `Linkomitsin — linkosamidlar guruhiga mansub antibiotik. Bakteriya ribosomasining 50S subbirligiga bog'lanib, oqsil sintezini (peptidiltransferaza) bloklaydi — bakteriostatik (yuqori konsentratsiyada bakteritsid). Asosan gram-musbat bakteriyalarga (stafilokokk, streptokokk) va anaeroblarga (Bacteroides, Clostridium — C. difficile bundan mustasno) faol. Suyak va bo'g'im to'qimasiga yaxshi tarqalgani uchun osteomielitда qo'llaniladi. Gram-manfiy aeroblarга ta'sir qilmaydi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali to'liq emas so'riladi (~30–40%); ovqat so'rilishni kamaytiradi. Parenteral ham mavjud",
+      tarqalish: "Oqsilga bog'lanadi; suyak, bo'g'im va ko'pchilik to'qimaga yaxshi tarqaladi; BBO dan kam o'tadi",
+      metabolizm: "Jigarда metabolizmga uchraydi",
+      chiqarilish: "O't va siydik bilan; T½ ~4–6 soat"
+    },
+    korsatmalar: [
+      "Suyak va bo'g'im infeksiyalari (osteomielit, septik artrit)",
+      "Og'ir teri va yumshoq to'qima infeksiyalari (stafilokokk/streptokokk)",
+      "Pastki nafas yo'llari infeksiyalari, sepsis (penitsillinга allergiyada muqobil)",
+      "Odontogen va anaerob infeksiyalar"
+    ],
+    qarrshi: [
+      "Linkomitsin yoki klindamitsinга o'ta sezuvchanlik",
+      "Og'ir jigar yoki buyrak yetishmovchiligi",
+      "Yallig'lanishli ichak kasalliklari anamnezi (kolit xavfi); 1 oygacha chaqaloqlar"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Diareya, ko'ngil aynishi, qusish; psevdomembranoz kolit (Clostridioides difficile) — xarakterli va og'ir nojo'ya ta'sir",
+      "Allergiya": "Toshma, eshakemi, kamdan-kam Stivens-Johnson sindromi, anafilaksiya",
+      "Qon tizimi": "Neytropeniya, leykopeniya, trombotsitopeniya (kam)",
+      "Yurak": "Tez v/v yuborishda gipotenziya, aritmiya",
+      "Jigar": "Transaminazalar oshishi"
+    },
+    dozadan: "Belgilar: oshqozon-ichak buzilishi. Davolash: simptomatik; kolitда vankomitsin/metronidazol; gemodializ samarasiz.",
+    ozarotasir: [
+      "Eritromitsin (makrolidlar) bilan antagonizm — birga bermang (bir xil bog'lanish joyi)",
+      "Mushak relaksantlari (kurar tipidagi) — nerv-mushak blokadasini kuchaytiradi",
+      "Kaolin/antiperistaltik vositalar so'rilishini kamaytiradi"
+    ],
+    qollash: {
+      kattalar: "Og'iz: 500 mg har 6–8 soatda bo'sh oshqozonga. Parenteral: 600 mg har 8–12 soatda v/m yoki v/v (sekin infuziya).",
+      bolalar: "1 oydan: og'iz 30–60 mg/kg/sut; parenteral 10–20 mg/kg/sut bo'lib"
+    },
+    chiqarish: "Kapsulalar 250 mg, 500 mg; inyeksiya eritmasi 300 mg/ml; malham"
+  },
+  ru: {
+    gruppa: "Линкозамиды",
+    farmTasir: "Бактериостатический антибиотик против грамположительных и анаэробов",
+    farmakodinamika: `Линкомицин — антибиотик группы линкозамидов. Связываясь с 50S субъединицей рибосомы, блокирует синтез белка (пептидилтрансферазу) — бактериостатически (в высоких концентрациях бактерицидно). Активен преимущественно против грамположительных бактерий (стафилококки, стрептококки) и анаэробов (Bacteroides, Clostridium — кроме C. difficile). Хорошо распределяется в костную и суставную ткань, поэтому применяется при остеомиелите. Не действует на грамотрицательные аэробы.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь не полностью (~30–40%); пища снижает всасывание. Есть парентеральная форма",
+      tarqalish: "Связывается с белками; хорошо распределяется в кости, суставы и большинство тканей; плохо через ГЭБ",
+      metabolizm: "Метаболизируется в печени",
+      chiqarilish: "С жёлчью и мочой; T½ ~4–6 ч"
+    },
+    korsatmalar: [
+      "Инфекции костей и суставов (остеомиелит, септический артрит)",
+      "Тяжёлые инфекции кожи и мягких тканей (стафило-/стрептококковые)",
+      "Инфекции нижних дыхательных путей, сепсис (альтернатива при аллергии на пенициллин)",
+      "Одонтогенные и анаэробные инфекции"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к линкомицину или клиндамицину",
+      "Тяжёлая печёночная или почечная недостаточность",
+      "Воспалительные заболевания кишечника в анамнезе (риск колита); дети до 1 месяца"
+    ],
+    nojoya: {
+      "ЖКТ": "Диарея, тошнота, рвота; псевдомембранозный колит (Clostridioides difficile) — характерное и тяжёлое нежелательное явление",
+      "Аллергические": "Сыпь, крапивница, редко синдром Стивенса–Джонсона, анафилаксия",
+      "Кроветворение": "Нейтропения, лейкопения, тромбоцитопения (редко)",
+      "Сердце": "При быстром в/в введении гипотензия, аритмия",
+      "Печень": "Повышение трансаминаз"
+    },
+    dozadan: "Симптомы: расстройство ЖКТ. Лечение: симптоматическое; при колите ванкомицин/метронидазол; гемодиализ неэффективен.",
+    ozarotasir: [
+      "Антагонизм с эритромицином (макролидами) — не назначать вместе (общий участок связывания)",
+      "Миорелаксанты (курареподобные) — усиление нервно-мышечной блокады",
+      "Каолин/антиперистальтические средства снижают всасывание"
+    ],
+    qollash: {
+      kattalar: "Внутрь: 500 мг каждые 6–8 ч натощак. Парентерально: 600 мг каждые 8–12 ч в/м или в/в (медленная инфузия).",
+      bolalar: "С 1 месяца: внутрь 30–60 мг/кг/сут; парентерально 10–20 мг/кг/сут дробно"
+    },
+    chiqarish: "Капсулы 250 мг, 500 мг; раствор для инъекций 300 мг/мл; мазь"
+  },
+  en: {
+    gruppa: "Lincosamides",
+    farmTasir: "Bacteriostatic antibiotic against Gram-positives and anaerobes",
+    farmakodinamika: `Lincomycin is an antibiotic of the lincosamide group. By binding to the 50S ribosomal subunit, it blocks protein synthesis (peptidyl transferase) — bacteriostatic (bactericidal at high concentrations). It is active mainly against Gram-positive bacteria (staphylococci, streptococci) and anaerobes (Bacteroides, Clostridium — except C. difficile). It distributes well into bone and joint tissue, so it is used in osteomyelitis. It has no effect on Gram-negative aerobes.`,
+    farmakokinetika: {
+      sorish: "Incompletely absorbed orally (~30–40%); food reduces absorption. A parenteral form exists",
+      tarqalish: "Protein-bound; distributes well into bone, joints and most tissues; poorly across the BBB",
+      metabolizm: "Metabolised in the liver",
+      chiqarilish: "In bile and urine; T½ ~4–6 h"
+    },
+    korsatmalar: [
+      "Bone and joint infections (osteomyelitis, septic arthritis)",
+      "Severe skin and soft tissue infections (staphylo-/streptococcal)",
+      "Lower respiratory tract infections, sepsis (alternative in penicillin allergy)",
+      "Odontogenic and anaerobic infections"
+    ],
+    qarrshi: [
+      "Hypersensitivity to lincomycin or clindamycin",
+      "Severe hepatic or renal impairment",
+      "History of inflammatory bowel disease (colitis risk); infants under 1 month"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Diarrhoea, nausea, vomiting; pseudomembranous colitis (Clostridioides difficile) — a characteristic and serious adverse effect",
+      "Hypersensitivity": "Rash, urticaria, rarely Stevens–Johnson syndrome, anaphylaxis",
+      "Haematological": "Neutropenia, leucopenia, thrombocytopenia (rare)",
+      "Cardiac": "Hypotension, arrhythmia with rapid IV administration",
+      "Hepatic": "Raised transaminases"
+    },
+    dozadan: "Symptoms: GI disturbance. Treatment: symptomatic; for colitis vancomycin/metronidazole; haemodialysis ineffective.",
+    ozarotasir: [
+      "Antagonism with erythromycin (macrolides) — do not co-administer (shared binding site)",
+      "Muscle relaxants (curare-type) — enhanced neuromuscular blockade",
+      "Kaolin/antiperistaltic agents reduce absorption"
+    ],
+    qollash: {
+      kattalar: "Oral: 500 mg every 6–8 h on an empty stomach. Parenteral: 600 mg every 8–12 h IM or IV (slow infusion).",
+      bolalar: "From 1 month: oral 30–60 mg/kg/day; parenteral 10–20 mg/kg/day divided"
+    },
+    chiqarish: "Capsules 250 mg, 500 mg; injection solution 300 mg/mL; ointment"
+  }
+},
+
+// ─── J01GB03 · Gentamitsin ────────────────────────────────────────────────
+"J01GB03": {
+  uz: {
+    gruppa: "Aminoglikozidlar",
+    farmTasir: "Gram-manfiylarga qarshi bakteritsid antibiotik",
+    farmakodinamika: `Gentamitsin — aminoglikozid antibiotik. Bakteriya ribosomasining 30S (qisman 50S) subbirligiga qaytmas bog'lanib, genetik kodning noto'g'ri o'qilishiga va oqsil sintezining buzilishiga olib keladi — bakteritsid ta'sir (konsentratsiyaga bog'liq). Asosan aerob gram-manfiy bakteriyalarga (E. coli, Klebsiella, Proteus, Pseudomonas aeruginosa, Enterobacter, Serratia) faol; gram-musbat stafilokokkga ham (kombinatsiyada). Streptokokk va enterokokkга beta-laktam bilan sinergistik. Anaeroblarга ta'sir qilmaydi (kislorod kerak).`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan so'rilmaydi — faqat parenteral (v/m, v/v); mahalliy ham",
+      tarqalish: "Oqsilga past bog'lanadi; hujayradan tashqari suyuqlikда tarqaladi, BBO dan yomon o'tadi; buyrak po'stlog'ida va ichki quloqда to'planadi",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Buyrak orqali o'zgarmagan holda (klubochkalar filtratsiyasi); T½ ~2–3 soat (buyrak yetishmovchiligida uzayadi)"
+    },
+    korsatmalar: [
+      "Og'ir gram-manfiy infeksiyalar (sepsis, pielonefrit, peritonit, pnevmoniya) — odatda kombinatsiyada",
+      "Murakkab siydik yo'llari infeksiyalari",
+      "Endokardit (beta-laktam bilan sinergistik)",
+      "Mahalliy: ko'z, teri infeksiyalari"
+    ],
+    qarrshi: [
+      "Aminoglikozidlarга o'ta sezuvchanlik",
+      "Eshitish nervi nevriti, vestibular/eshitish buzilishlari",
+      "Og'ir buyrak yetishmovchiligi (azotemiya); miasteniya",
+      "Homiladorlik (ototoksiklik homilaga); ehtiyotkorlik: parkinsonizm, botulizm"
+    ],
+    nojoya: {
+      "Buyrak": "Nefrotoksiklik (qaytar, kreаtinin oshishi, oliguriya) — eng muhim, doza/davomiylikка bog'liq",
+      "Sezgi organlari": "Ototoksiklik — vestibular (bosh aylanishi) va eshitish (qaytmas kar bo'lish) shikastlanishi",
+      "Nerv-mushak": "Nerv-mushak blokadasi (nafas falaji — anesteziya/relaksant bilan)",
+      "Allergiya": "Toshma, isitma, eozinofiliya",
+      "Qon tizimi": "Anemiya, leykopeniya (kam)"
+    },
+    dozadan: "Belgilar: nefro/ototoksiklik, nerv-mushak blokadasi. Davolash: gemodializ olib tashlaydi; kalsiy tuzlari (blokada), simptomatik. Qon konsentratsiyasini nazorat qiling.",
+    ozarotasir: [
+      "Boshqa nefro/ototoksik dorilar (vankomitsin, amfoteritsin B, sisplatin, petlali diuretiklar) — toksiklikni kuchaytiradi",
+      "Mushak relaksantlari, anesteziya — nerv-mushak blokadasini kuchaytiradi",
+      "Beta-laktamlar bilan sinergiya (lekin bir shприцда aralashtirmang — inaktivatsiya)"
+    ],
+    qollash: {
+      kattalar: "3–5 mg/kg/sut (kuniga 1 marta yoki 3 qabulга bo'lib) v/m yoki v/v. Qon konsentratsiyasi va buyrak funksiyasini nazorat qilish; kurs odatda ≤7–10 kun.",
+      bolalar: "Yangi tug'ilganlar 4–7 mg/kg/sut; bolalar 6–7,5 mg/kg/sut bo'lib (yoshга qarab)"
+    },
+    chiqarish: "Inyeksiya eritmasi 40 mg/ml (2 ml), 80 mg; ko'z/quloq tomchilari; malham"
+  },
+  ru: {
+    gruppa: "Аминогликозиды",
+    farmTasir: "Бактерицидный антибиотик против грамотрицательных",
+    farmakodinamika: `Гентамицин — аминогликозидный антибиотик. Необратимо связываясь с 30S (частично 50S) субъединицей рибосомы, вызывает неправильное считывание генетического кода и нарушение синтеза белка — бактерицидное действие (зависит от концентрации). Активен преимущественно против аэробных грамотрицательных бактерий (E. coli, Klebsiella, Proteus, Pseudomonas aeruginosa, Enterobacter, Serratia); и против грамположительных стафилококков (в комбинации). Синергичен с бета-лактамами против стрептококков и энтерококков. Не действует на анаэробы (нужен кислород).`,
+    farmakokinetika: {
+      sorish: "Не всасывается из ЖКТ — только парентерально (в/м, в/в); и местно",
+      tarqalish: "Низкая связь с белками; распределяется во внеклеточную жидкость, плохо через ГЭБ; накапливается в корковом слое почек и внутреннем ухе",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "Почками в неизменённом виде (клубочковая фильтрация); T½ ~2–3 ч (удлиняется при почечной недостаточности)"
+    },
+    korsatmalar: [
+      "Тяжёлые грамотрицательные инфекции (сепсис, пиелонефрит, перитонит, пневмония) — обычно в комбинации",
+      "Осложнённые инфекции мочевых путей",
+      "Эндокардит (синергизм с бета-лактамами)",
+      "Местно: инфекции глаз, кожи"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к аминогликозидам",
+      "Неврит слухового нерва, вестибулярные/слуховые нарушения",
+      "Тяжёлая почечная недостаточность (азотемия); миастения",
+      "Беременность (ототоксичность для плода); осторожно: паркинсонизм, ботулизм"
+    ],
+    nojoya: {
+      "Почки": "Нефротоксичность (обратимая, повышение креатинина, олигурия) — важнейшая, зависит от дозы/длительности",
+      "Органы чувств": "Ототоксичность — вестибулярное (головокружение) и слуховое (необратимая глухота) поражение",
+      "Нервно-мышечные": "Нервно-мышечная блокада (паралич дыхания — с анестезией/релаксантами)",
+      "Аллергические": "Сыпь, лихорадка, эозинофилия",
+      "Кроветворение": "Анемия, лейкопения (редко)"
+    },
+    dozadan: "Симптомы: нефро-/ототоксичность, нервно-мышечная блокада. Лечение: гемодиализ выводит; соли кальция (при блокаде), симптоматически. Контроль концентрации в крови.",
+    ozarotasir: [
+      "Другие нефро-/ототоксичные препараты (ванкомицин, амфотерицин В, цисплатин, петлевые диуретики) — усиление токсичности",
+      "Миорелаксанты, анестезия — усиление нервно-мышечной блокады",
+      "Синергизм с бета-лактамами (но не смешивать в одном шприце — инактивация)"
+    ],
+    qollash: {
+      kattalar: "3–5 мг/кг/сут (1 раз в день или в 3 приёма) в/м или в/в. Контроль концентрации в крови и функции почек; курс обычно ≤7–10 дней.",
+      bolalar: "Новорождённые 4–7 мг/кг/сут; дети 6–7,5 мг/кг/сут дробно (по возрасту)"
+    },
+    chiqarish: "Раствор для инъекций 40 мг/мл (2 мл), 80 мг; глазные/ушные капли; мазь"
+  },
+  en: {
+    gruppa: "Aminoglycosides",
+    farmTasir: "Bactericidal antibiotic against Gram-negatives",
+    farmakodinamika: `Gentamicin is an aminoglycoside antibiotic. By irreversibly binding to the 30S (partly 50S) ribosomal subunit, it causes misreading of the genetic code and disruption of protein synthesis — bactericidal action (concentration-dependent). It is active mainly against aerobic Gram-negative bacteria (E. coli, Klebsiella, Proteus, Pseudomonas aeruginosa, Enterobacter, Serratia); and against Gram-positive staphylococci (in combination). It is synergistic with beta-lactams against streptococci and enterococci. It has no effect on anaerobes (oxygen is required).`,
+    farmakokinetika: {
+      sorish: "Not absorbed from the GI tract — parenteral only (IM, IV); and topical",
+      tarqalish: "Low protein binding; distributes into extracellular fluid, poorly across the BBB; accumulates in the renal cortex and inner ear",
+      metabolizm: "Not metabolised",
+      chiqarilish: "Renally unchanged (glomerular filtration); T½ ~2–3 h (prolonged in renal impairment)"
+    },
+    korsatmalar: [
+      "Severe Gram-negative infections (sepsis, pyelonephritis, peritonitis, pneumonia) — usually in combination",
+      "Complicated urinary tract infections",
+      "Endocarditis (synergy with beta-lactams)",
+      "Topical: eye and skin infections"
+    ],
+    qarrshi: [
+      "Hypersensitivity to aminoglycosides",
+      "Auditory nerve neuritis, vestibular/auditory disorders",
+      "Severe renal impairment (azotaemia); myasthenia",
+      "Pregnancy (fetal ototoxicity); caution: parkinsonism, botulism"
+    ],
+    nojoya: {
+      "Renal": "Nephrotoxicity (reversible, raised creatinine, oliguria) — the most important, dose/duration-dependent",
+      "Sensory": "Ototoxicity — vestibular (dizziness) and auditory (irreversible deafness) damage",
+      "Neuromuscular": "Neuromuscular blockade (respiratory paralysis — with anaesthesia/relaxants)",
+      "Hypersensitivity": "Rash, fever, eosinophilia",
+      "Haematological": "Anaemia, leucopenia (rare)"
+    },
+    dozadan: "Symptoms: nephro-/ototoxicity, neuromuscular blockade. Treatment: haemodialysis removes it; calcium salts (for blockade), symptomatic. Monitor blood levels.",
+    ozarotasir: [
+      "Other nephro-/ototoxic drugs (vancomycin, amphotericin B, cisplatin, loop diuretics) — enhanced toxicity",
+      "Muscle relaxants, anaesthesia — enhanced neuromuscular blockade",
+      "Synergy with beta-lactams (but do not mix in one syringe — inactivation)"
+    ],
+    qollash: {
+      kattalar: "3–5 mg/kg/day (once daily or in 3 doses) IM or IV. Monitor blood levels and renal function; course usually ≤7–10 days.",
+      bolalar: "Neonates 4–7 mg/kg/day; children 6–7.5 mg/kg/day divided (by age)"
+    },
+    chiqarish: "Injection solution 40 mg/mL (2 mL), 80 mg; eye/ear drops; ointment"
+  }
+},
+
+// ─── J01DD13 · Sefpodoksim ────────────────────────────────────────────────
+"J01DD13": {
+  uz: {
+    gruppa: "III avlod sefalosporinlari (peroral)",
+    farmTasir: "Keng spektrli peroral bakteritsid sefalosporin",
+    farmakodinamika: `Sefpodoksim — uchinchi avlod peroral sefalosporini (proksetil efiri shaklida). Penitsillinbog'lovchi oqsillarga bog'lanib bakteriya hujayra devori sintezini buzadi (bakteritsid). Ko'pchilik beta-laktamazalarga chidamli. Gram-manfiy (H. influenzae, Moraxella, E. coli, Klebsiella, Proteus, N. gonorrhoeae) va gram-musbat (S. pneumoniae, S. pyogenes, metitsillin-sezgir stafilokokk) bakteriyalarga faol; Pseudomonas va enterokokkга ta'sir qilmaydi.`,
+    farmakokinetika: {
+      sorish: "Proksetil efiri ichak devorida faol sefpodoksimга gidroliz bo'ladi; ovqat bilan so'rilish yaxshiroq (~50%)",
+      tarqalish: "Oqsilga ~22–33% bog'lanadi; to'qima va suyuqliklarga tarqaladi",
+      metabolizm: "So'rilgandan keyin sezilarli metabolizmga uchramaydi",
+      chiqarilish: "Asosan buyrak orqali o'zgarmagan holda; T½ ~2–3 soat"
+    },
+    korsatmalar: [
+      "Yuqori va pastki nafas yo'llari infeksiyalari (tonzillit, sinusit, otit, bronxit, pnevmoniya)",
+      "Asoratsiz siydik yo'llari infeksiyalari",
+      "Teri va yumshoq to'qima infeksiyalari",
+      "Asoratsiz gonoreya (bir martalik doza)"
+    ],
+    qarrshi: [
+      "Sefalosporin yoki penitsillinlarга o'ta sezuvchanlik (xochli allergiya)",
+      "Og'ir buyrak yetishmovchiligi (doza moslash)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Diareya, ko'ngil aynishi, qorin og'rig'i, psevdomembranoz kolit",
+      "Allergiya": "Toshma, eshakemi, qichishish, kamdan-kam anafilaksiya",
+      "Jigar": "Transaminazalar oshishi (kam)",
+      "Boshqa": "Kandidoz, bosh og'rig'i, eozinofiliya"
+    },
+    dozadan: "Past toksiklik; oshqozon-ichak belgilari. Davolash: simptomatik; gemodializ qisman olib tashlaydi.",
+    ozarotasir: [
+      "Antatsidlar, H2-blokatorlar — so'rilishini kamaytiradi (oshqozon pH oshishi)",
+      "Probenetsid — chiqarilishini sekinlashtiradi (konsentratsiya oshadi)",
+      "Aminoglikozidlar bilan nefrotoksiklik xavfi (nazariy)"
+    ],
+    qollash: {
+      kattalar: "100–200 mg har 12 soatda ovqat bilan; kurs 5–14 kun. Gonoreya: 200 mg bir marta.",
+      bolalar: "2 oydan: 5 mg/kg har 12 soatda (maks. 100–200 mg) (suspenziya)"
+    },
+    chiqarish: "Pardali tabletkalar 100 mg, 200 mg; og'iz uchun suspenziya"
+  },
+  ru: {
+    gruppa: "Цефалоспорины III поколения (пероральные)",
+    farmTasir: "Пероральный бактерицидный цефалоспорин широкого спектра",
+    farmakodinamika: `Цефподоксим — пероральный цефалоспорин третьего поколения (в форме эфира проксетила). Связываясь с пенициллинсвязывающими белками, нарушает синтез клеточной стенки бактерий (бактерицидно). Устойчив к большинству бета-лактамаз. Активен против грамотрицательных (H. influenzae, Moraxella, E. coli, Klebsiella, Proteus, N. gonorrhoeae) и грамположительных (S. pneumoniae, S. pyogenes, метициллинчувствительные стафилококки); не действует на Pseudomonas и энтерококки.`,
+    farmakokinetika: {
+      sorish: "Эфир проксетила гидролизуется в стенке кишки до активного цефподоксима; всасывание лучше с едой (~50%)",
+      tarqalish: "Связь с белками ~22–33%; распределяется в ткани и жидкости",
+      metabolizm: "После всасывания существенно не метаболизируется",
+      chiqarilish: "Преимущественно почками в неизменённом виде; T½ ~2–3 ч"
+    },
+    korsatmalar: [
+      "Инфекции верхних и нижних дыхательных путей (тонзиллит, синусит, отит, бронхит, пневмония)",
+      "Неосложнённые инфекции мочевых путей",
+      "Инфекции кожи и мягких тканей",
+      "Неосложнённая гонорея (однократная доза)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к цефалоспоринам или пенициллинам (перекрёстная аллергия)",
+      "Тяжёлая почечная недостаточность (коррекция дозы)"
+    ],
+    nojoya: {
+      "ЖКТ": "Диарея, тошнота, боль в животе, псевдомембранозный колит",
+      "Аллергические": "Сыпь, крапивница, зуд, редко анафилаксия",
+      "Печень": "Повышение трансаминаз (редко)",
+      "Прочие": "Кандидоз, головная боль, эозинофилия"
+    },
+    dozadan: "Низкая токсичность; ЖКТ-симптомы. Лечение: симптоматическое; гемодиализ частично выводит.",
+    ozarotasir: [
+      "Антациды, H2-блокаторы — снижают всасывание (повышение pH желудка)",
+      "Пробенецид — замедляет выведение (повышение концентрации)",
+      "С аминогликозидами риск нефротоксичности (теоретически)"
+    ],
+    qollash: {
+      kattalar: "100–200 мг каждые 12 ч с едой; курс 5–14 дней. Гонорея: 200 мг однократно.",
+      bolalar: "С 2 месяцев: 5 мг/кг каждые 12 ч (макс. 100–200 мг) (суспензия)"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 100 мг, 200 мг; суспензия для приёма внутрь"
+  },
+  en: {
+    gruppa: "Third-generation cephalosporins (oral)",
+    farmTasir: "Broad-spectrum oral bactericidal cephalosporin",
+    farmakodinamika: `Cefpodoxime is a third-generation oral cephalosporin (as the proxetil ester). By binding to penicillin-binding proteins, it disrupts bacterial cell wall synthesis (bactericidal). It is resistant to most beta-lactamases. It is active against Gram-negatives (H. influenzae, Moraxella, E. coli, Klebsiella, Proteus, N. gonorrhoeae) and Gram-positives (S. pneumoniae, S. pyogenes, methicillin-susceptible staphylococci); it does not act on Pseudomonas or enterococci.`,
+    farmakokinetika: {
+      sorish: "The proxetil ester is hydrolysed in the bowel wall to active cefpodoxime; absorption is better with food (~50%)",
+      tarqalish: "Protein binding ~22–33%; distributes into tissues and fluids",
+      metabolizm: "Not significantly metabolised after absorption",
+      chiqarilish: "Mainly renally unchanged; T½ ~2–3 h"
+    },
+    korsatmalar: [
+      "Upper and lower respiratory tract infections (tonsillitis, sinusitis, otitis, bronchitis, pneumonia)",
+      "Uncomplicated urinary tract infections",
+      "Skin and soft tissue infections",
+      "Uncomplicated gonorrhoea (single dose)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to cephalosporins or penicillins (cross-allergy)",
+      "Severe renal impairment (dose adjustment)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Diarrhoea, nausea, abdominal pain, pseudomembranous colitis",
+      "Hypersensitivity": "Rash, urticaria, itching, rarely anaphylaxis",
+      "Hepatic": "Raised transaminases (rare)",
+      "Other": "Candidiasis, headache, eosinophilia"
+    },
+    dozadan: "Low toxicity; GI symptoms. Treatment: symptomatic; haemodialysis partially removes it.",
+    ozarotasir: [
+      "Antacids, H2 blockers — reduce absorption (raised gastric pH)",
+      "Probenecid — slows excretion (raises concentration)",
+      "Nephrotoxicity risk with aminoglycosides (theoretical)"
+    ],
+    qollash: {
+      kattalar: "100–200 mg every 12 h with food; course 5–14 days. Gonorrhoea: 200 mg single dose.",
+      bolalar: "From 2 months: 5 mg/kg every 12 h (max 100–200 mg) (suspension)"
+    },
+    chiqarish: "Film-coated tablets 100 mg, 200 mg; oral suspension"
+  }
+},
+
+// ─── J01DD02 · Seftazidim ─────────────────────────────────────────────────
+"J01DD02": {
+  uz: {
+    gruppa: "III avlod sefalosporinlari (antipsevdomonas)",
+    farmTasir: "Pseudomonasга faol parenteral bakteritsid sefalosporin",
+    farmakodinamika: `Seftazidim — uchinchi avlod parenteral sefalosporini. Penitsillinbog'lovchi oqsillarga bog'lanib bakteriya hujayra devori sintezini buzadi (bakteritsid). O'ziga xosligi — **Pseudomonas aeruginosa** ga yuqori faollik. Ko'pchilik gram-manfiy bakteriyalarga (Enterobacteriaceae, H. influenzae, Neisseria) va ko'pchilik beta-laktamazalarga chidamlilik; gram-musbatlarга (streptokokk) o'rtacha, stafilokokkga zaif. Yallig'langan miya pardasidan o'tadi.`,
+    farmakokinetika: {
+      sorish: "Faqat parenteral (v/v, v/m); og'iz orqali so'rilmaydi",
+      tarqalish: "Oqsilga past bog'lanadi (~10%); to'qima va suyuqliklarga keng tarqaladi, orqa miya suyuqligiga (meningitда) o'tadi",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Asosan buyrak orqali o'zgarmagan holda; T½ ~1,8 soat"
+    },
+    korsatmalar: [
+      "Pseudomonas aeruginosa keltirib chiqargan og'ir infeksiyalar",
+      "Nozokomial pnevmoniya, sepsis, febril neytropeniya (kombinatsiyada)",
+      "Murakkab siydik yo'llari, qorin bo'shlig'i infeksiyalari",
+      "Bakterial meningit, kistoz fibroz fonidagi o'pka infeksiyalari"
+    ],
+    qarrshi: [
+      "Sefalosporin yoki penitsillinlarга o'ta sezuvchanlik (xochli allergiya)",
+      "Og'ir buyrak yetishmovchiligi (doza moslash)"
+    ],
+    nojoya: {
+      "Allergiya": "Toshma, eshakemi, isitma, eozinofiliya, kamdan-kam anafilaksiya",
+      "Oshqozon-ichak": "Diareya, ko'ngil aynishi, psevdomembranoz kolit",
+      "Asab tizimi": "Buyrak yetishmovchiligida ensefalopatiya, tirishishlar (yuqori dozada)",
+      "Qon tizimi": "Eozinofiliya, leykopeniya, trombotsitopeniya, ijobiy Kumbs sinovi",
+      "Mahalliy": "Inyeksiya joyida og'riq, flebit"
+    },
+    dozadan: "Belgilar: ensefalopatiya, tirishishlar (yuqori dozada/buyrak yetishmovchiligida). Davolash: simptomatik, gemodializ olib tashlaydi.",
+    ozarotasir: [
+      "Aminoglikozidlar, petlali diuretiklar — nefrotoksiklik xavfini oshiradi",
+      "Xloramfenikol bilan antagonizm",
+      "Bir shприцда aminoglikozidlar bilan aralashtirmang (inaktivatsiya)"
+    ],
+    qollash: {
+      kattalar: "1–2 g har 8–12 soatda v/v yoki v/m; og'ir infeksiya/Pseudomonas: 2 g har 8 soatda (maks. 6 g/sut). Buyrak yetishmovchiligida doza moslash.",
+      bolalar: "30–50 mg/kg har 8 soatda (maks. 6 g/sut); yangi tug'ilganlarda kamroq"
+    },
+    chiqarish: "V/v va v/m inyeksiya uchun kukun 0,5 g, 1 g, 2 g (flakonlar)"
+  },
+  ru: {
+    gruppa: "Цефалоспорины III поколения (антипсевдомонадные)",
+    farmTasir: "Парентеральный бактерицидный цефалоспорин, активный против Pseudomonas",
+    farmakodinamika: `Цефтазидим — парентеральный цефалоспорин третьего поколения. Связываясь с пенициллинсвязывающими белками, нарушает синтез клеточной стенки бактерий (бактерицидно). Особенность — высокая активность против **Pseudomonas aeruginosa**. Активен против большинства грамотрицательных бактерий (Enterobacteriaceae, H. influenzae, Neisseria) и устойчив к большинству бета-лактамаз; умеренно против грамположительных (стрептококки), слабо против стафилококков. Проникает через воспалённые мозговые оболочки.`,
+    farmakokinetika: {
+      sorish: "Только парентерально (в/в, в/м); внутрь не всасывается",
+      tarqalish: "Низкая связь с белками (~10%); широко распределяется, проникает в СМЖ (при менингите)",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "Преимущественно почками в неизменённом виде; T½ ~1,8 ч"
+    },
+    korsatmalar: [
+      "Тяжёлые инфекции, вызванные Pseudomonas aeruginosa",
+      "Нозокомиальная пневмония, сепсис, фебрильная нейтропения (в комбинации)",
+      "Осложнённые инфекции мочевых путей, брюшной полости",
+      "Бактериальный менингит, лёгочные инфекции при муковисцидозе"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к цефалоспоринам или пенициллинам (перекрёстная аллергия)",
+      "Тяжёлая почечная недостаточность (коррекция дозы)"
+    ],
+    nojoya: {
+      "Аллергические": "Сыпь, крапивница, лихорадка, эозинофилия, редко анафилаксия",
+      "ЖКТ": "Диарея, тошнота, псевдомембранозный колит",
+      "ЦНС": "При почечной недостаточности энцефалопатия, судороги (при высоких дозах)",
+      "Кроветворение": "Эозинофилия, лейкопения, тромбоцитопения, положительная проба Кумбса",
+      "Местные": "Боль в месте инъекции, флебит"
+    },
+    dozadan: "Симптомы: энцефалопатия, судороги (при высоких дозах/почечной недостаточности). Лечение: симптоматическое, гемодиализ выводит.",
+    ozarotasir: [
+      "Аминогликозиды, петлевые диуретики — повышают риск нефротоксичности",
+      "Антагонизм с хлорамфениколом",
+      "Не смешивать в одном шприце с аминогликозидами (инактивация)"
+    ],
+    qollash: {
+      kattalar: "1–2 г каждые 8–12 ч в/в или в/м; тяжёлая инфекция/Pseudomonas: 2 г каждые 8 ч (макс. 6 г/сут). При почечной недостаточности коррекция дозы.",
+      bolalar: "30–50 мг/кг каждые 8 ч (макс. 6 г/сут); у новорождённых меньше"
+    },
+    chiqarish: "Порошок для в/в и в/м инъекций 0,5 г, 1 г, 2 г (флаконы)"
+  },
+  en: {
+    gruppa: "Third-generation cephalosporins (antipseudomonal)",
+    farmTasir: "Parenteral bactericidal cephalosporin active against Pseudomonas",
+    farmakodinamika: `Ceftazidime is a third-generation parenteral cephalosporin. By binding to penicillin-binding proteins, it disrupts bacterial cell wall synthesis (bactericidal). Its hallmark is high activity against **Pseudomonas aeruginosa**. It is active against most Gram-negative bacteria (Enterobacteriaceae, H. influenzae, Neisseria) and resistant to most beta-lactamases; moderate against Gram-positives (streptococci), weak against staphylococci. It penetrates inflamed meninges.`,
+    farmakokinetika: {
+      sorish: "Parenteral only (IV, IM); not absorbed orally",
+      tarqalish: "Low protein binding (~10%); widely distributed, penetrates CSF (in meningitis)",
+      metabolizm: "Not metabolised",
+      chiqarilish: "Mainly renally unchanged; T½ ~1.8 h"
+    },
+    korsatmalar: [
+      "Severe infections caused by Pseudomonas aeruginosa",
+      "Nosocomial pneumonia, sepsis, febrile neutropenia (in combination)",
+      "Complicated urinary and abdominal infections",
+      "Bacterial meningitis, pulmonary infections in cystic fibrosis"
+    ],
+    qarrshi: [
+      "Hypersensitivity to cephalosporins or penicillins (cross-allergy)",
+      "Severe renal impairment (dose adjustment)"
+    ],
+    nojoya: {
+      "Hypersensitivity": "Rash, urticaria, fever, eosinophilia, rarely anaphylaxis",
+      "Gastrointestinal": "Diarrhoea, nausea, pseudomembranous colitis",
+      "CNS": "Encephalopathy, seizures in renal impairment (at high doses)",
+      "Haematological": "Eosinophilia, leucopenia, thrombocytopenia, positive Coombs test",
+      "Local": "Injection-site pain, phlebitis"
+    },
+    dozadan: "Symptoms: encephalopathy, seizures (at high doses/renal impairment). Treatment: symptomatic, haemodialysis removes it.",
+    ozarotasir: [
+      "Aminoglycosides, loop diuretics — increase nephrotoxicity risk",
+      "Antagonism with chloramphenicol",
+      "Do not mix in one syringe with aminoglycosides (inactivation)"
+    ],
+    qollash: {
+      kattalar: "1–2 g every 8–12 h IV or IM; severe infection/Pseudomonas: 2 g every 8 h (max 6 g/day). Dose adjustment in renal impairment.",
+      bolalar: "30–50 mg/kg every 8 h (max 6 g/day); less in neonates"
+    },
+    chiqarish: "Powder for IV and IM injection 0.5 g, 1 g, 2 g (vials)"
+  }
+},
+
+// ─── J01DD12 · Sefoperazon ────────────────────────────────────────────────
+"J01DD12": {
+  uz: {
+    gruppa: "III avlod sefalosporinlari",
+    farmTasir: "Keng spektrli parenteral bakteritsid sefalosporin",
+    farmakodinamika: `Sefoperazon — uchinchi avlod parenteral sefalosporini. Penitsillinbog'lovchi oqsillarga bog'lanib bakteriya hujayra devori sintezini buzadi (bakteritsid). Gram-manfiy bakteriyalarga (Enterobacteriaceae, H. influenzae, Neisseria) va Pseudomonas aeruginosaга ham faol; gram-musbatlarга o'rtacha. O'zgacha xususiyati — asosan o't (safro) bilan chiqariladi, shu sababli o't yo'llari infeksiyalarida foydali va buyrak yetishmovchiligida doza kam o'zgaradi. Tarkibida NMTT-guruh — gipoprotrombinemiya va alkogolga disulfiramsimon reaksiya xavfi.`,
+    farmakokinetika: {
+      sorish: "Faqat parenteral (v/v, v/m); og'iz orqali so'rilmaydi",
+      tarqalish: "Oqsilga yuqori bog'lanadi (~90%); to'qima, o't va suyuqliklarga tarqaladi",
+      metabolizm: "Sezilarli metabolizmga uchramaydi",
+      chiqarilish: "Asosan o't (safro) bilan (~70%), qisman buyrak orqali; T½ ~2 soat"
+    },
+    korsatmalar: [
+      "Nafas yo'llari infeksiyalari, pnevmoniya",
+      "O't yo'llari va qorin bo'shlig'i infeksiyalari (yuqori o't konsentratsiyasi)",
+      "Siydik yo'llari infeksiyalari, sepsis, meningit",
+      "Teri, yumshoq to'qima, ginekologik infeksiyalar"
+    ],
+    qarrshi: [
+      "Sefalosporin yoki penitsillinlarга o'ta sezuvchanlik (xochli allergiya)",
+      "Og'ir jigar yetishmovchiligi va o't yo'llari obstruksiyasi (ehtiyotkorlik — eliminatsiya)",
+      "Qon ivishi buzilishlari; alkogol iste'moli (disulfiramsimon reaksiya)"
+    ],
+    nojoya: {
+      "Gemostaz": "Gipoprotrombinemiya, qon ketish (K vitamini bilan oldini olinadi/davolaydi)",
+      "Allergiya": "Toshma, eshakemi, isitma, eozinofiliya, kamdan-kam anafilaksiya",
+      "Oshqozon-ichak": "Diareya, ko'ngil aynishi, psevdomembranoz kolit",
+      "Boshqa": "Etanol bilan disulfiramsimon reaksiya (yuz qizarishi, taxikardiya, qusish)",
+      "Mahalliy": "Inyeksiya joyida og'riq, flebit"
+    },
+    dozadan: "Belgilar: qon ketish, MNS qo'zg'aluvchanligi. Davolash: K vitamini, simptomatik; gemodializ kam samarali (o't eliminatsiyasi).",
+    ozarotasir: [
+      "Etanol — disulfiramsimon reaksiya (davo davomida va 5 kun keyin spirtdan saqlaning)",
+      "Antikoagulyantlar, NSAID — qon ketish xavfini oshiradi",
+      "Aminoglikozidlar bilan bir shприцда aralashtirmang"
+    ],
+    qollash: {
+      kattalar: "1–2 g har 12 soatda v/v yoki v/m; og'ir infeksiyada 2–4 g har 12 soatda (maks. 12 g/sut). Jigar/o't yo'llari buzilishida doza chegaralanadi.",
+      bolalar: "25–100 mg/kg/sut 2 qabulга bo'lib"
+    },
+    chiqarish: "V/v va v/m inyeksiya uchun kukun 0,5 g, 1 g, 2 g (flakonlar)"
+  },
+  ru: {
+    gruppa: "Цефалоспорины III поколения",
+    farmTasir: "Парентеральный бактерицидный цефалоспорин широкого спектра",
+    farmakodinamika: `Цефоперазон — парентеральный цефалоспорин третьего поколения. Связываясь с пенициллинсвязывающими белками, нарушает синтез клеточной стенки бактерий (бактерицидно). Активен против грамотрицательных бактерий (Enterobacteriaceae, H. influenzae, Neisseria) и Pseudomonas aeruginosa; умеренно против грамположительных. Особенность — выводится преимущественно с жёлчью, поэтому полезен при инфекциях жёлчных путей и мало требует коррекции при почечной недостаточности. Содержит NMTT-группу — риск гипопротромбинемии и дисульфирамоподобной реакции с алкоголем.`,
+    farmakokinetika: {
+      sorish: "Только парентерально (в/в, в/м); внутрь не всасывается",
+      tarqalish: "Высокая связь с белками (~90%); распределяется в ткани, жёлчь и жидкости",
+      metabolizm: "Существенно не метаболизируется",
+      chiqarilish: "Преимущественно с жёлчью (~70%), частично почками; T½ ~2 ч"
+    },
+    korsatmalar: [
+      "Инфекции дыхательных путей, пневмония",
+      "Инфекции жёлчных путей и брюшной полости (высокая концентрация в жёлчи)",
+      "Инфекции мочевых путей, сепсис, менингит",
+      "Инфекции кожи, мягких тканей, гинекологические"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к цефалоспоринам или пенициллинам (перекрёстная аллергия)",
+      "Тяжёлая печёночная недостаточность и обструкция жёлчных путей (осторожно — выведение)",
+      "Нарушения свёртывания крови; употребление алкоголя (дисульфирамоподобная реакция)"
+    ],
+    nojoya: {
+      "Гемостаз": "Гипопротромбинемия, кровотечение (предупреждается/лечится витамином К)",
+      "Аллергические": "Сыпь, крапивница, лихорадка, эозинофилия, редко анафилаксия",
+      "ЖКТ": "Диарея, тошнота, псевдомембранозный колит",
+      "Прочие": "Дисульфирамоподобная реакция с этанолом (покраснение лица, тахикардия, рвота)",
+      "Местные": "Боль в месте инъекции, флебит"
+    },
+    dozadan: "Симптомы: кровотечение, возбудимость ЦНС. Лечение: витамин К, симптоматическое; гемодиализ малоэффективен (жёлчная элиминация).",
+    ozarotasir: [
+      "Этанол — дисульфирамоподобная реакция (избегать алкоголя во время лечения и 5 дней после)",
+      "Антикоагулянты, НПВП — повышают риск кровотечения",
+      "Не смешивать в одном шприце с аминогликозидами"
+    ],
+    qollash: {
+      kattalar: "1–2 г каждые 12 ч в/в или в/м; при тяжёлой инфекции 2–4 г каждые 12 ч (макс. 12 г/сут). При печёночной/билиарной патологии доза ограничена.",
+      bolalar: "25–100 мг/кг/сут в 2 приёма"
+    },
+    chiqarish: "Порошок для в/в и в/м инъекций 0,5 г, 1 г, 2 г (флаконы)"
+  },
+  en: {
+    gruppa: "Third-generation cephalosporins",
+    farmTasir: "Parenteral broad-spectrum bactericidal cephalosporin",
+    farmakodinamika: `Cefoperazone is a third-generation parenteral cephalosporin. By binding to penicillin-binding proteins, it disrupts bacterial cell wall synthesis (bactericidal). It is active against Gram-negative bacteria (Enterobacteriaceae, H. influenzae, Neisseria) and Pseudomonas aeruginosa; moderate against Gram-positives. Its distinctive feature is excretion mainly in bile, making it useful for biliary tract infections and requiring little adjustment in renal impairment. It contains an NMTT group — risk of hypoprothrombinaemia and a disulfiram-like reaction with alcohol.`,
+    farmakokinetika: {
+      sorish: "Parenteral only (IV, IM); not absorbed orally",
+      tarqalish: "High protein binding (~90%); distributes into tissues, bile and fluids",
+      metabolizm: "Not significantly metabolised",
+      chiqarilish: "Mainly in bile (~70%), partly renally; T½ ~2 h"
+    },
+    korsatmalar: [
+      "Respiratory tract infections, pneumonia",
+      "Biliary tract and abdominal infections (high biliary concentration)",
+      "Urinary tract infections, sepsis, meningitis",
+      "Skin, soft tissue and gynaecological infections"
+    ],
+    qarrshi: [
+      "Hypersensitivity to cephalosporins or penicillins (cross-allergy)",
+      "Severe hepatic impairment and biliary obstruction (caution — elimination)",
+      "Coagulation disorders; alcohol intake (disulfiram-like reaction)"
+    ],
+    nojoya: {
+      "Haemostasis": "Hypoprothrombinaemia, bleeding (prevented/treated with vitamin K)",
+      "Hypersensitivity": "Rash, urticaria, fever, eosinophilia, rarely anaphylaxis",
+      "Gastrointestinal": "Diarrhoea, nausea, pseudomembranous colitis",
+      "Other": "Disulfiram-like reaction with ethanol (facial flushing, tachycardia, vomiting)",
+      "Local": "Injection-site pain, phlebitis"
+    },
+    dozadan: "Symptoms: bleeding, CNS excitability. Treatment: vitamin K, symptomatic; haemodialysis of little benefit (biliary elimination).",
+    ozarotasir: [
+      "Ethanol — disulfiram-like reaction (avoid alcohol during treatment and for 5 days after)",
+      "Anticoagulants, NSAIDs — increase bleeding risk",
+      "Do not mix in one syringe with aminoglycosides"
+    ],
+    qollash: {
+      kattalar: "1–2 g every 12 h IV or IM; severe infection 2–4 g every 12 h (max 12 g/day). Dose limited in hepatic/biliary impairment.",
+      bolalar: "25–100 mg/kg/day in 2 doses"
+    },
+    chiqarish: "Powder for IV and IM injection 0.5 g, 1 g, 2 g (vials)"
+  }
+},
+
+// ─── J01DD15 · Sefdinir ───────────────────────────────────────────────────
+"J01DD15": {
+  uz: {
+    gruppa: "III avlod sefalosporinlari (peroral)",
+    farmTasir: "Keng spektrli peroral bakteritsid sefalosporin",
+    farmakodinamika: `Sefdinir — uchinchi avlod peroral sefalosporini. Penitsillinbog'lovchi oqsillarga bog'lanib bakteriya hujayra devori sintezini buzadi (bakteritsid). Ko'pchilik beta-laktamazalarga chidamli. Gram-musbat (S. pneumoniae, S. pyogenes, metitsillin-sezgir stafilokokk) va gram-manfiy (H. influenzae, Moraxella, E. coli, Klebsiella, Proteus) bakteriyalarga faol; Pseudomonas va enterokokkга ta'sir qilmaydi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'riladi (biofaollik ~16–25%); temir va antatsidlar so'rilishni keskin kamaytiradi",
+      tarqalish: "Oqsilga ~60–70% bog'lanadi; to'qima va suyuqliklarga tarqaladi",
+      metabolizm: "Sezilarli metabolizmga uchramaydi",
+      chiqarilish: "Asosan buyrak orqali; T½ ~1,7 soat"
+    },
+    korsatmalar: [
+      "Yuqori va pastki nafas yo'llari infeksiyalari (tonzillofaringit, sinusit, otit, bronxit, pnevmoniya)",
+      "Teri va yumshoq to'qima infeksiyalari"
+    ],
+    qarrshi: [
+      "Sefalosporin yoki penitsillinlarга o'ta sezuvchanlik (xochli allergiya)",
+      "Og'ir buyrak yetishmovchiligi (doza moslash)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Diareya, ko'ngil aynishi, qorin og'rig'i, psevdomembranoz kolit",
+      "Boshqa": "Temir bilan najasning qizg'ish rangга bo'yalishi (zararsiz)",
+      "Allergiya": "Toshma, eshakemi, kamdan-kam anafilaksiya",
+      "Jigar/qon": "Transaminazalar oshishi, eozinofiliya"
+    },
+    dozadan: "Past toksiklik; oshqozon-ichak belgilari. Davolash: simptomatik; gemodializ qisman olib tashlaydi.",
+    ozarotasir: [
+      "Temir preparatlari, antatsidlar (Al/Mg) — so'rilishini keskin kamaytiradi (2 soat farq bilan)",
+      "Probenetsid — chiqarilishini sekinlashtiradi (konsentratsiya oshadi)"
+    ],
+    qollash: {
+      kattalar: "300 mg har 12 soatda yoki 600 mg kuniga 1 marta; kurs 5–10 kun.",
+      bolalar: "6 oydan: 7 mg/kg har 12 soatda yoki 14 mg/kg kuniga 1 marta (suspenziya)"
+    },
+    chiqarish: "Kapsulalar 300 mg; og'iz uchun suspenziya 125 mg/5 ml"
+  },
+  ru: {
+    gruppa: "Цефалоспорины III поколения (пероральные)",
+    farmTasir: "Пероральный бактерицидный цефалоспорин широкого спектра",
+    farmakodinamika: `Цефдинир — пероральный цефалоспорин третьего поколения. Связываясь с пенициллинсвязывающими белками, нарушает синтез клеточной стенки бактерий (бактерицидно). Устойчив к большинству бета-лактамаз. Активен против грамположительных (S. pneumoniae, S. pyogenes, метициллинчувствительные стафилококки) и грамотрицательных (H. influenzae, Moraxella, E. coli, Klebsiella, Proteus); не действует на Pseudomonas и энтерококки.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь (биодоступность ~16–25%); железо и антациды резко снижают всасывание",
+      tarqalish: "Связь с белками ~60–70%; распределяется в ткани и жидкости",
+      metabolizm: "Существенно не метаболизируется",
+      chiqarilish: "Преимущественно почками; T½ ~1,7 ч"
+    },
+    korsatmalar: [
+      "Инфекции верхних и нижних дыхательных путей (тонзиллофарингит, синусит, отит, бронхит, пневмония)",
+      "Инфекции кожи и мягких тканей"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к цефалоспоринам или пенициллинам (перекрёстная аллергия)",
+      "Тяжёлая почечная недостаточность (коррекция дозы)"
+    ],
+    nojoya: {
+      "ЖКТ": "Диарея, тошнота, боль в животе, псевдомембранозный колит",
+      "Прочие": "Окрашивание кала в красноватый цвет с препаратами железа (безвредно)",
+      "Аллергические": "Сыпь, крапивница, редко анафилаксия",
+      "Печень/кровь": "Повышение трансаминаз, эозинофилия"
+    },
+    dozadan: "Низкая токсичность; ЖКТ-симптомы. Лечение: симптоматическое; гемодиализ частично выводит.",
+    ozarotasir: [
+      "Препараты железа, антациды (Al/Mg) — резко снижают всасывание (интервал 2 часа)",
+      "Пробенецид — замедляет выведение (повышение концентрации)"
+    ],
+    qollash: {
+      kattalar: "300 мг каждые 12 ч или 600 мг 1 раз в день; курс 5–10 дней.",
+      bolalar: "С 6 месяцев: 7 мг/кг каждые 12 ч или 14 мг/кг 1 раз в день (суспензия)"
+    },
+    chiqarish: "Капсулы 300 мг; суспензия для приёма внутрь 125 мг/5 мл"
+  },
+  en: {
+    gruppa: "Third-generation cephalosporins (oral)",
+    farmTasir: "Broad-spectrum oral bactericidal cephalosporin",
+    farmakodinamika: `Cefdinir is a third-generation oral cephalosporin. By binding to penicillin-binding proteins, it disrupts bacterial cell wall synthesis (bactericidal). It is resistant to most beta-lactamases. It is active against Gram-positives (S. pneumoniae, S. pyogenes, methicillin-susceptible staphylococci) and Gram-negatives (H. influenzae, Moraxella, E. coli, Klebsiella, Proteus); it does not act on Pseudomonas or enterococci.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally (bioavailability ~16–25%); iron and antacids sharply reduce absorption",
+      tarqalish: "Protein binding ~60–70%; distributes into tissues and fluids",
+      metabolizm: "Not significantly metabolised",
+      chiqarilish: "Mainly renally; T½ ~1.7 h"
+    },
+    korsatmalar: [
+      "Upper and lower respiratory tract infections (tonsillopharyngitis, sinusitis, otitis, bronchitis, pneumonia)",
+      "Skin and soft tissue infections"
+    ],
+    qarrshi: [
+      "Hypersensitivity to cephalosporins or penicillins (cross-allergy)",
+      "Severe renal impairment (dose adjustment)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Diarrhoea, nausea, abdominal pain, pseudomembranous colitis",
+      "Other": "Reddish discolouration of stools with iron preparations (harmless)",
+      "Hypersensitivity": "Rash, urticaria, rarely anaphylaxis",
+      "Hepatic/blood": "Raised transaminases, eosinophilia"
+    },
+    dozadan: "Low toxicity; GI symptoms. Treatment: symptomatic; haemodialysis partially removes it.",
+    ozarotasir: [
+      "Iron preparations, antacids (Al/Mg) — sharply reduce absorption (separate by 2 hours)",
+      "Probenecid — slows excretion (raises concentration)"
+    ],
+    qollash: {
+      kattalar: "300 mg every 12 h or 600 mg once daily; course 5–10 days.",
+      bolalar: "From 6 months: 7 mg/kg every 12 h or 14 mg/kg once daily (suspension)"
+    },
+    chiqarish: "Capsules 300 mg; oral suspension 125 mg/5 mL"
+  }
+},
+
+// ─── J01DC10 · Sefprozil ──────────────────────────────────────────────────
+"J01DC10": {
+  uz: {
+    gruppa: "II avlod sefalosporinlari (peroral)",
+    farmTasir: "Keng spektrli peroral bakteritsid sefalosporin",
+    farmakodinamika: `Sefprozil — ikkinchi avlod peroral sefalosporini. Penitsillinbog'lovchi oqsillarga bog'lanib bakteriya hujayra devori sintezini buzadi (bakteritsid). Gram-musbat (S. pneumoniae, S. pyogenes, metitsillin-sezgir stafilokokk) va gram-manfiy (H. influenzae, Moraxella, E. coli, Klebsiella, Proteus) bakteriyalarga faol; ko'pchilik beta-laktamazalarga o'rtacha chidamli. Pseudomonas, MRSA va enterokokkга ta'sir qilmaydi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi (biofaollik ~95%); ovqat ta'sir qilmaydi",
+      tarqalish: "Oqsilga ~36% bog'lanadi; to'qima va suyuqliklarga tarqaladi",
+      metabolizm: "Sezilarli metabolizmga uchramaydi",
+      chiqarilish: "Asosan buyrak orqali; T½ ~1,3 soat"
+    },
+    korsatmalar: [
+      "Yuqori va pastki nafas yo'llari infeksiyalari (faringit, tonzillit, sinusit, otit, bronxit)",
+      "Teri va yumshoq to'qima infeksiyalari (asoratsiz)"
+    ],
+    qarrshi: [
+      "Sefalosporin yoki penitsillinlarга o'ta sezuvchanlik (xochli allergiya)",
+      "Og'ir buyrak yetishmovchiligi (doza moslash); fenilketonuriya (suspenziyada aspartam)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Diareya, ko'ngil aynishi, qorin og'rig'i, psevdomembranoz kolit",
+      "Allergiya": "Toshma, eshakemi, qichishish, kamdan-kam anafilaksiya",
+      "Asab tizimi": "Bosh aylanishi, g'aladonlik (kam)",
+      "Jigar/qon": "Transaminazalar oshishi, eozinofiliya"
+    },
+    dozadan: "Past toksiklik; oshqozon-ichak belgilari. Davolash: simptomatik; gemodializ qisman olib tashlaydi.",
+    ozarotasir: [
+      "Antatsidlar, H2-blokatorlar so'rilishiga ta'sir qilishi mumkin",
+      "Probenetsid — chiqarilishini sekinlashtiradi (konsentratsiya oshadi)",
+      "Aminoglikozidlar bilan nefrotoksiklik xavfi (nazariy)"
+    ],
+    qollash: {
+      kattalar: "250–500 mg har 12 soatda yoki 500 mg kuniga 1 marta; kurs 7–10 kun.",
+      bolalar: "6 oydan: 7,5–15 mg/kg har 12 soatda (suspenziya)"
+    },
+    chiqarish: "Pardali tabletkalar 250 mg, 500 mg; og'iz uchun suspenziya"
+  },
+  ru: {
+    gruppa: "Цефалоспорины II поколения (пероральные)",
+    farmTasir: "Пероральный бактерицидный цефалоспорин широкого спектра",
+    farmakodinamika: `Цефпрозил — пероральный цефалоспорин второго поколения. Связываясь с пенициллинсвязывающими белками, нарушает синтез клеточной стенки бактерий (бактерицидно). Активен против грамположительных (S. pneumoniae, S. pyogenes, метициллинчувствительные стафилококки) и грамотрицательных (H. influenzae, Moraxella, E. coli, Klebsiella, Proteus); умеренно устойчив к большинству бета-лактамаз. Не действует на Pseudomonas, MRSA и энтерококки.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь (биодоступность ~95%); пища не влияет",
+      tarqalish: "Связь с белками ~36%; распределяется в ткани и жидкости",
+      metabolizm: "Существенно не метаболизируется",
+      chiqarilish: "Преимущественно почками; T½ ~1,3 ч"
+    },
+    korsatmalar: [
+      "Инфекции верхних и нижних дыхательных путей (фарингит, тонзиллит, синусит, отит, бронхит)",
+      "Инфекции кожи и мягких тканей (неосложнённые)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к цефалоспоринам или пенициллинам (перекрёстная аллергия)",
+      "Тяжёлая почечная недостаточность (коррекция дозы); фенилкетонурия (аспартам в суспензии)"
+    ],
+    nojoya: {
+      "ЖКТ": "Диарея, тошнота, боль в животе, псевдомембранозный колит",
+      "Аллергические": "Сыпь, крапивница, зуд, редко анафилаксия",
+      "ЦНС": "Головокружение, спутанность (редко)",
+      "Печень/кровь": "Повышение трансаминаз, эозинофилия"
+    },
+    dozadan: "Низкая токсичность; ЖКТ-симптомы. Лечение: симптоматическое; гемодиализ частично выводит.",
+    ozarotasir: [
+      "Антациды, H2-блокаторы могут влиять на всасывание",
+      "Пробенецид — замедляет выведение (повышение концентрации)",
+      "С аминогликозидами риск нефротоксичности (теоретически)"
+    ],
+    qollash: {
+      kattalar: "250–500 мг каждые 12 ч или 500 мг 1 раз в день; курс 7–10 дней.",
+      bolalar: "С 6 месяцев: 7,5–15 мг/кг каждые 12 ч (суспензия)"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 250 мг, 500 мг; суспензия для приёма внутрь"
+  },
+  en: {
+    gruppa: "Second-generation cephalosporins (oral)",
+    farmTasir: "Broad-spectrum oral bactericidal cephalosporin",
+    farmakodinamika: `Cefprozil is a second-generation oral cephalosporin. By binding to penicillin-binding proteins, it disrupts bacterial cell wall synthesis (bactericidal). It is active against Gram-positives (S. pneumoniae, S. pyogenes, methicillin-susceptible staphylococci) and Gram-negatives (H. influenzae, Moraxella, E. coli, Klebsiella, Proteus); moderately resistant to most beta-lactamases. It does not act on Pseudomonas, MRSA or enterococci.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally (bioavailability ~95%); food has no effect",
+      tarqalish: "Protein binding ~36%; distributes into tissues and fluids",
+      metabolizm: "Not significantly metabolised",
+      chiqarilish: "Mainly renally; T½ ~1.3 h"
+    },
+    korsatmalar: [
+      "Upper and lower respiratory tract infections (pharyngitis, tonsillitis, sinusitis, otitis, bronchitis)",
+      "Skin and soft tissue infections (uncomplicated)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to cephalosporins or penicillins (cross-allergy)",
+      "Severe renal impairment (dose adjustment); phenylketonuria (aspartame in suspension)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Diarrhoea, nausea, abdominal pain, pseudomembranous colitis",
+      "Hypersensitivity": "Rash, urticaria, itching, rarely anaphylaxis",
+      "CNS": "Dizziness, confusion (rare)",
+      "Hepatic/blood": "Raised transaminases, eosinophilia"
+    },
+    dozadan: "Low toxicity; GI symptoms. Treatment: symptomatic; haemodialysis partially removes it.",
+    ozarotasir: [
+      "Antacids, H2 blockers may affect absorption",
+      "Probenecid — slows excretion (raises concentration)",
+      "Nephrotoxicity risk with aminoglycosides (theoretical)"
+    ],
+    qollash: {
+      kattalar: "250–500 mg every 12 h or 500 mg once daily; course 7–10 days.",
+      bolalar: "From 6 months: 7.5–15 mg/kg every 12 h (suspension)"
+    },
+    chiqarish: "Film-coated tablets 250 mg, 500 mg; oral suspension"
+  }
 }
 
 };
