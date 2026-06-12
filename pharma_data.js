@@ -6390,6 +6390,820 @@ const PHARMA_DATA = {
     },
     chiqarish: "Enteric tablets 10 mg, 20 mg"
   }
+},
+
+// ─── A02BC05 · Ezomeprazol ────────────────────────────────────────────────
+"A02BC05": {
+  uz: {
+    gruppa: "Protyon pompa inhibitorlari (PPI)",
+    farmTasir: "Oshqozon kislotasi sekretsiyasini kuchli va barqaror bostiruvchi vosita",
+    farmakodinamika: `Ezomeprazol — omeprazolning S-enantiomeri (chap aylantiruvchi izomeri), protyon pompa inhibitori. Parietal hujayralarning kislotali sekretor kanalchalarida faollashib, H+/K+-ATFazani qaytmas bloklaydi va kislota sekretsiyasining yakuniy bosqichini to'xtatadi. S-enantiomer bo'lgani uchun jigarda metabolizmi sekinroq va barqarorroq — bu yuqoriroq va izchilroq kislota bostirishni ta'minlaydi. Bazal va stimullangan kislota ishlab chiqarilishini uzoq (24 soatgacha) kamaytiradi.`,
+    farmakokinetika: {
+      sorish: "Enterik qobiqda; biofaollik ~64–90% (takroriy qabulда oshadi). Ovqat so'rilishni kechiktiradi — ovqatdan oldin",
+      tarqalish: "Oqsilga bog'lanish ~97%",
+      metabolizm: "Jigarda CYP2C19 (asosan) va CYP3A4 orqali; omeprazoldan barqarorroq",
+      chiqarilish: "Metabolitlar asosan buyrak orqali; T½ ~1,3 soat, ta'siri uzoq"
+    },
+    korsatmalar: [
+      "Gastroezofageal reflyuks kasalligi (GERB), eroziv ezofagit",
+      "Oshqozon va o'n ikki barmoq ichak yarasi",
+      "Helicobacter pylori eradikatsiyasi (antibiotiklar bilan)",
+      "Zollinger-Ellison sindromi",
+      "NSAID bilan bog'liq yara davosi va profilaktikasi"
+    ],
+    qarrshi: [
+      "Ezomeprazol yoki boshqa PPI/benzimidazollarga o'ta sezuvchanlik",
+      "Nelfinavir, atazanavir bilan birga qo'llash",
+      "Ehtiyotkorlik: og'ir jigar yetishmovchiligi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Bosh og'rig'i, diareya yoki ich qotishi, qorin og'rig'i, ko'ngil aynishi, meteorizm",
+      "Metabolik": "Uzoq qo'llashda gipomagniemiya, B12 va temir so'rilishi kamayishi",
+      "Suyak": "Uzoq qo'llashda suyak sinishi xavfi",
+      "Boshqa": "Transaminazalar oshishi, toshma, interstitsial nefrit (kam)"
+    },
+    dozadan: "Maxsus antidot yo'q; gemodializ samarasiz. Simptomatik davolash.",
+    ozarotasir: [
+      "Klopidogrel — faollanishini kamaytiradi (CYP2C19)",
+      "Atazanavir, nelfinavir, ketokonazol, temir — so'rilishi kamayadi (pH)",
+      "Diazepam, fenitoin, varfarin — metabolizmini sekinlashtiradi (nazorat)"
+    ],
+    qollash: {
+      kattalar: "GERB/yara: 20–40 mg kuniga 1 marta ovqatdan oldin, 4–8 hafta. H. pylori: 20 mg kuniga 2 marta antibiotiklar bilan. Zollinger-Ellison: 40 mg kuniga 2 marta dan titrlanadi.",
+      bolalar: "1 yoshdan, vaznга qarab: 10–20 mg/sut"
+    },
+    chiqarish: "Enterik kapsulalar/tabletkalar 20 mg, 40 mg; i/v inyeksiya uchun kukun 40 mg"
+  },
+  ru: {
+    gruppa: "Ингибиторы протонной помпы (ИПП)",
+    farmTasir: "Средство, мощно и стабильно подавляющее секрецию кислоты",
+    farmakodinamika: `Эзомепразол — S-энантиомер омепразола, ингибитор протонной помпы. Активируется в кислых секреторных канальцах париетальных клеток, необратимо блокирует H+/K+-АТФазу и останавливает конечный этап секреции кислоты. Будучи S-энантиомером, медленнее и стабильнее метаболизируется в печени, что обеспечивает более высокое и стабильное подавление кислоты. Длительно (до 24 ч) снижает базальную и стимулированную продукцию кислоты.`,
+    farmakokinetika: {
+      sorish: "В энтеросолюбильной оболочке; биодоступность ~64–90% (повышается при повторном приёме). Пища задерживает всасывание — до еды",
+      tarqalish: "Связь с белками ~97%",
+      metabolizm: "В печени через CYP2C19 (преимущественно) и CYP3A4; стабильнее омепразола",
+      chiqarilish: "Метаболиты преимущественно почками; T½ ~1,3 ч, действие длительное"
+    },
+    korsatmalar: [
+      "Гастроэзофагеальная рефлюксная болезнь (ГЭРБ), эрозивный эзофагит",
+      "Язва желудка и двенадцатиперстной кишки",
+      "Эрадикация Helicobacter pylori (с антибиотиками)",
+      "Синдром Золлингера–Эллисона",
+      "Лечение и профилактика язв, связанных с НПВП"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к эзомепразолу или другим ИПП/бензимидазолам",
+      "Одновременный приём нелфинавира, атазанавира",
+      "С осторожностью: тяжёлая печёночная недостаточность"
+    ],
+    nojoya: {
+      "ЖКТ": "Головная боль, диарея или запор, боль в животе, тошнота, метеоризм",
+      "Метаболические": "При длительном применении гипомагниемия, снижение всасывания B12 и железа",
+      "Кости": "Риск переломов при длительном применении",
+      "Прочие": "Повышение трансаминаз, сыпь, интерстициальный нефрит (редко)"
+    },
+    dozadan: "Специфического антидота нет; гемодиализ неэффективен. Симптоматическое лечение.",
+    ozarotasir: [
+      "Клопидогрел — снижает его активацию (CYP2C19)",
+      "Атазанавир, нелфинавир, кетоконазол, железо — снижается всасывание (pH)",
+      "Диазепам, фенитоин, варфарин — замедляет метаболизм (контроль)"
+    ],
+    qollash: {
+      kattalar: "ГЭРБ/язва: 20–40 мг 1 раз в день до еды, 4–8 недель. H. pylori: 20 мг 2 раза в день с антибиотиками. Синдром Золлингера–Эллисона: с 40 мг 2 раза в день с титрованием.",
+      bolalar: "С 1 года, по массе тела: 10–20 мг/сут"
+    },
+    chiqarish: "Энтеросолюбильные капсулы/таблетки 20 мг, 40 мг; порошок для в/в инъекций 40 мг"
+  },
+  en: {
+    gruppa: "Proton pump inhibitors (PPI)",
+    farmTasir: "Agent that potently and stably suppresses acid secretion",
+    farmakodinamika: `Esomeprazole is the S-enantiomer of omeprazole, a proton pump inhibitor. It is activated in the acidic secretory canaliculi of parietal cells, irreversibly blocks H+/K+-ATPase and halts the final step of acid secretion. As the S-enantiomer it is metabolised more slowly and stably in the liver, giving higher and more consistent acid suppression. It durably (up to 24 h) reduces basal and stimulated acid production.`,
+    farmakokinetika: {
+      sorish: "Enteric-coated; bioavailability ~64–90% (increases with repeated dosing). Food delays absorption — before meals",
+      tarqalish: "Protein binding ~97%",
+      metabolizm: "Hepatic via CYP2C19 (mainly) and CYP3A4; more stable than omeprazole",
+      chiqarilish: "Metabolites mainly renally; T½ ~1.3 h, action prolonged"
+    },
+    korsatmalar: [
+      "Gastro-oesophageal reflux disease (GERD), erosive oesophagitis",
+      "Gastric and duodenal ulcer",
+      "Helicobacter pylori eradication (with antibiotics)",
+      "Zollinger-Ellison syndrome",
+      "Treatment and prophylaxis of NSAID-associated ulcers"
+    ],
+    qarrshi: [
+      "Hypersensitivity to esomeprazole or other PPIs/benzimidazoles",
+      "Concomitant nelfinavir, atazanavir",
+      "Caution: severe hepatic impairment"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Headache, diarrhoea or constipation, abdominal pain, nausea, flatulence",
+      "Metabolic": "Hypomagnesaemia, reduced B12 and iron absorption with prolonged use",
+      "Bone": "Fracture risk with prolonged use",
+      "Other": "Raised transaminases, rash, interstitial nephritis (rare)"
+    },
+    dozadan: "No specific antidote; haemodialysis ineffective. Symptomatic treatment.",
+    ozarotasir: [
+      "Clopidogrel — reduces its activation (CYP2C19)",
+      "Atazanavir, nelfinavir, ketoconazole, iron — reduced absorption (pH)",
+      "Diazepam, phenytoin, warfarin — slows metabolism (monitor)"
+    ],
+    qollash: {
+      kattalar: "GERD/ulcer: 20–40 mg once daily before food, 4–8 weeks. H. pylori: 20 mg twice daily with antibiotics. Zollinger-Ellison: from 40 mg twice daily, titrated.",
+      bolalar: "From 1 year, by body weight: 10–20 mg/day"
+    },
+    chiqarish: "Enteric capsules/tablets 20 mg, 40 mg; powder for IV injection 40 mg"
+  }
+},
+
+// ─── A02BC06 · Dekslansoprazol ────────────────────────────────────────────
+"A02BC06": {
+  uz: {
+    gruppa: "Protyon pompa inhibitorlari (PPI)",
+    farmTasir: "Ikki bosqichli chiqarishli, uzaytirilgan kislota bostiruvchi PPI",
+    farmakodinamika: `Dekslansoprazol — lansoprazolning R-enantiomeri, protyon pompa inhibitori. Parietal hujayralarda H+/K+-ATFazani qaytmas bloklaydi. Maxsus ikki bosqichli (dual delayed release) chiqarish texnologiyasi tufayli dori ikki marta — turli ichak pH larida — ajraladi, bu kislota bostirish davomiyligini uzaytiradi va ovqatlanish vaqtiga bog'liqligini kamaytiradi. Bazal va stimullangan kislota ishlab chiqarilishini uzoq kamaytiradi.`,
+    farmakokinetika: {
+      sorish: "Ikki bosqichli chiqarish — ikki Cmax (1–2 va 4–5 soat). Ovqatga bog'liqligi past, vaqtdan qat'i nazar qabul mumkin",
+      tarqalish: "Oqsilga bog'lanish ~96–99%",
+      metabolizm: "Jigarda CYP2C19 va CYP3A4 orqali",
+      chiqarilish: "Metabolitlar siydik va najas bilan; ta'siri uzoq"
+    },
+    korsatmalar: [
+      "Eroziv ezofagit davolash va saqlash terapiyasi",
+      "Eroziv bo'lmagan GERB (jig'ildon qaynashi)",
+      "Oshqozon-ichak yarasi (mahalliy ko'rsatmalar bo'yicha)"
+    ],
+    qarrshi: [
+      "Dekslansoprazol yoki benzimidazollarga o'ta sezuvchanlik",
+      "Atazanavir/nelfinavir bilan birga qo'llash",
+      "Ehtiyotkorlik: og'ir jigar yetishmovchiligi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Diareya, qorin og'rig'i, ko'ngil aynishi, meteorizm, bosh og'rig'i",
+      "Metabolik": "Uzoq qo'llashda gipomagniemiya, B12 kamayishi",
+      "Suyak": "Uzoq qo'llashda suyak sinishi xavfi",
+      "Boshqa": "Toshma, interstitsial nefrit (kam)"
+    },
+    dozadan: "Maxsus antidot yo'q; gemodializ samarasiz. Simptomatik davolash.",
+    ozarotasir: [
+      "Atazanavir, ketokonazol, temir — so'rilishi kamayadi (pH)",
+      "Klopidogrel faollanishini kamaytirishi mumkin (CYP2C19)",
+      "Varfarin — INR nazorati"
+    ],
+    qollash: {
+      kattalar: "Eroziv ezofagit: 60 mg kuniga 1 marta 8 haftagacha, saqlash 30 mg/sut. Eroziv bo'lmagan GERB: 30 mg/sut 4 hafta. Vaqtdan qat'i nazar.",
+      bolalar: "12 yoshdan: 30–60 mg/sut (ko'rsatmaga qarab)"
+    },
+    chiqarish: "Modifikatsiyalangan chiqarishli kapsulalar 30 mg, 60 mg"
+  },
+  ru: {
+    gruppa: "Ингибиторы протонной помпы (ИПП)",
+    farmTasir: "ИПП с двухфазным высвобождением и пролонгированным подавлением кислоты",
+    farmakodinamika: `Декслансопразол — R-энантиомер лансопразола, ингибитор протонной помпы. Необратимо блокирует H+/K+-АТФазу париетальных клеток. Благодаря технологии двухфазного (dual delayed release) высвобождения препарат высвобождается дважды при разных pH кишечника, что удлиняет подавление кислоты и снижает зависимость от приёма пищи. Длительно снижает базальную и стимулированную продукцию кислоты.`,
+    farmakokinetika: {
+      sorish: "Двухфазное высвобождение — два пика Cmax (1–2 и 4–5 ч). Малая зависимость от пищи, можно принимать независимо от времени",
+      tarqalish: "Связь с белками ~96–99%",
+      metabolizm: "В печени через CYP2C19 и CYP3A4",
+      chiqarilish: "Метаболиты с мочой и калом; действие длительное"
+    },
+    korsatmalar: [
+      "Лечение и поддерживающая терапия эрозивного эзофагита",
+      "Неэрозивная ГЭРБ (изжога)",
+      "Язва ЖКТ (по местным показаниям)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к декслансопразолу или бензимидазолам",
+      "Одновременный приём атазанавира/нелфинавира",
+      "С осторожностью: тяжёлая печёночная недостаточность"
+    ],
+    nojoya: {
+      "ЖКТ": "Диарея, боль в животе, тошнота, метеоризм, головная боль",
+      "Метаболические": "При длительном применении гипомагниемия, снижение B12",
+      "Кости": "Риск переломов при длительном применении",
+      "Прочие": "Сыпь, интерстициальный нефрит (редко)"
+    },
+    dozadan: "Специфического антидота нет; гемодиализ неэффективен. Симптоматическое лечение.",
+    ozarotasir: [
+      "Атазанавир, кетоконазол, железо — снижается всасывание (pH)",
+      "Может снижать активацию клопидогрела (CYP2C19)",
+      "Варфарин — контроль МНО"
+    ],
+    qollash: {
+      kattalar: "Эрозивный эзофагит: 60 мг 1 раз в день до 8 недель, поддержка 30 мг/сут. Неэрозивная ГЭРБ: 30 мг/сут 4 недели. Независимо от времени.",
+      bolalar: "С 12 лет: 30–60 мг/сут (по показанию)"
+    },
+    chiqarish: "Капсулы с модифицированным высвобождением 30 мг, 60 мг"
+  },
+  en: {
+    gruppa: "Proton pump inhibitors (PPI)",
+    farmTasir: "Dual delayed-release PPI with prolonged acid suppression",
+    farmakodinamika: `Dexlansoprazole is the R-enantiomer of lansoprazole, a proton pump inhibitor. It irreversibly blocks parietal cell H+/K+-ATPase. Owing to its dual delayed-release technology the drug is released twice at different intestinal pH levels, prolonging acid suppression and reducing dependence on meal timing. It durably reduces basal and stimulated acid production.`,
+    farmakokinetika: {
+      sorish: "Dual-release — two Cmax peaks (1–2 and 4–5 h). Little food dependence, may be taken at any time",
+      tarqalish: "Protein binding ~96–99%",
+      metabolizm: "Hepatic via CYP2C19 and CYP3A4",
+      chiqarilish: "Metabolites in urine and faeces; action prolonged"
+    },
+    korsatmalar: [
+      "Treatment and maintenance of erosive oesophagitis",
+      "Non-erosive GERD (heartburn)",
+      "GI ulcer (per local indications)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to dexlansoprazole or benzimidazoles",
+      "Concomitant atazanavir/nelfinavir",
+      "Caution: severe hepatic impairment"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Diarrhoea, abdominal pain, nausea, flatulence, headache",
+      "Metabolic": "Hypomagnesaemia, reduced B12 with prolonged use",
+      "Bone": "Fracture risk with prolonged use",
+      "Other": "Rash, interstitial nephritis (rare)"
+    },
+    dozadan: "No specific antidote; haemodialysis ineffective. Symptomatic treatment.",
+    ozarotasir: [
+      "Atazanavir, ketoconazole, iron — reduced absorption (pH)",
+      "May reduce clopidogrel activation (CYP2C19)",
+      "Warfarin — INR monitoring"
+    ],
+    qollash: {
+      kattalar: "Erosive oesophagitis: 60 mg once daily up to 8 weeks, maintenance 30 mg/day. Non-erosive GERD: 30 mg/day for 4 weeks. Regardless of timing.",
+      bolalar: "From 12 years: 30–60 mg/day (per indication)"
+    },
+    chiqarish: "Modified-release capsules 30 mg, 60 mg"
+  }
+},
+
+// ─── A02BC08 · Vonoprazan ─────────────────────────────────────────────────
+"A02BC08": {
+  uz: {
+    gruppa: "Kaliy-konkurent kislota blokatorlari (P-CAB)",
+    farmTasir: "Tez va kuchli, uzoq ta'sirli oshqozon kislotasi blokatori",
+    farmakodinamika: `Vonoprazan — kaliy bilan raqobatlashuvchi kislota blokatori (P-CAB). An'anaviy PPIlardan farqli o'laroq, prodori emas va kislotali muhitda faollashishi shart emas: H+/K+-ATFazaning kaliy bog'lanish joyiga qaytar, lekin mustahkam bog'lanib, protyon pompani to'g'ridan-to'g'ri bloklaydi. Bu kislota bostirishni tezroq (birinchi dozadanoq), kuchliroq va uzoqroq (24 soatdan ortiq) ta'minlaydi; ovqat va CYP2C19 polimorfizmiga bog'liqligi past. Helicobacter pylori eradikatsiyasida samaradorligi yuqori.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali tez so'riladi; ovqatdan qat'i nazar. Kislota bostirish birinchi kunдан to'liq",
+      tarqalish: "Oqsilga bog'lanish ~80–85%; parietal hujayralarda to'planadi",
+      metabolizm: "Jigarda asosan CYP3A4 (qisman CYP2B6, 2C19, 2D6) orqali",
+      chiqarilish: "Metabolitlar siydik va najas bilan; T½ ~7 soat (PPIlardan uzunroq)"
+    },
+    korsatmalar: [
+      "Eroziv ezofagit (davolash va saqlash)",
+      "Oshqozon va o'n ikki barmoq ichak yarasi",
+      "Helicobacter pylori eradikatsiyasi (antibiotiklar bilan)",
+      "NSAID/aspirin bilan bog'liq yara profilaktikasi"
+    ],
+    qarrshi: [
+      "Vonoprazanga o'ta sezuvchanlik",
+      "Atazanavir, rilpivirin, nelfinavir bilan birga qo'llash",
+      "Og'ir jigar yetishmovchiligi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi yoki diareya, qorin og'rig'i, ko'ngil aynishi",
+      "Asab tizimi": "Bosh og'rig'i",
+      "Endokrin/metabolik": "Gastrin darajasi oshishi, uzoq qo'llashda oshqozon poliplari",
+      "Boshqa": "Toshma, transaminazalar oshishi (kam)"
+    },
+    dozadan: "Ma'lumot cheklangan. Simptomatik davolash, nazorat.",
+    ozarotasir: [
+      "Kislotaga bog'liq so'riladigan preparatlar (atazanavir, ketokonazol) so'rilishini kamaytiradi",
+      "Digoksin, metotreksat konsentratsiyasiga ta'sir qilishi mumkin",
+      "CYP3A4 induktorlari (rifampitsin) vonoprazan ta'sirini kamaytiradi"
+    ],
+    qollash: {
+      kattalar: "Eroziv ezofagit: 20 mg kuniga 1 marta 4–8 hafta, saqlash 10 mg/sut. Yara: 20 mg/sut. H. pylori: 20 mg kuniga 2 marta antibiotiklar bilan 7 kun.",
+      bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)"
+    },
+    chiqarish: "Tabletkalar 10 mg, 20 mg"
+  },
+  ru: {
+    gruppa: "Калий-конкурентные блокаторы кислоты (P-CAB)",
+    farmTasir: "Быстрый, мощный и длительный блокатор желудочной кислоты",
+    farmakodinamika: `Вонопразан — калий-конкурентный блокатор кислоты (P-CAB). В отличие от традиционных ИПП не является пролекарством и не требует активации в кислой среде: обратимо, но прочно связывается с калий-связывающим участком H+/K+-АТФазы, напрямую блокируя протонную помпу. Это обеспечивает более быстрое (с первой дозы), мощное и длительное (более 24 ч) подавление кислоты; мало зависит от пищи и полиморфизма CYP2C19. Высокоэффективен при эрадикации Helicobacter pylori.`,
+    farmakokinetika: {
+      sorish: "Быстро всасывается внутрь; независимо от пищи. Полное подавление кислоты с первого дня",
+      tarqalish: "Связь с белками ~80–85%; накапливается в париетальных клетках",
+      metabolizm: "В печени преимущественно CYP3A4 (частично CYP2B6, 2C19, 2D6)",
+      chiqarilish: "Метаболиты с мочой и калом; T½ ~7 ч (дольше, чем у ИПП)"
+    },
+    korsatmalar: [
+      "Эрозивный эзофагит (лечение и поддержка)",
+      "Язва желудка и двенадцатиперстной кишки",
+      "Эрадикация Helicobacter pylori (с антибиотиками)",
+      "Профилактика язв, связанных с НПВП/аспирином"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к вонопразану",
+      "Одновременный приём атазанавира, рилпивирина, нелфинавира",
+      "Тяжёлая печёночная недостаточность (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор или диарея, боль в животе, тошнота",
+      "ЦНС": "Головная боль",
+      "Эндокринно-метаболические": "Повышение уровня гастрина, полипы желудка при длительном применении",
+      "Прочие": "Сыпь, повышение трансаминаз (редко)"
+    },
+    dozadan: "Данные ограничены. Симптоматическое лечение, наблюдение.",
+    ozarotasir: [
+      "Снижает всасывание кислотозависимых препаратов (атазанавир, кетоконазол)",
+      "Может влиять на концентрацию дигоксина, метотрексата",
+      "Индукторы CYP3A4 (рифампицин) снижают действие вонопразана"
+    ],
+    qollash: {
+      kattalar: "Эрозивный эзофагит: 20 мг 1 раз в день 4–8 недель, поддержка 10 мг/сут. Язва: 20 мг/сут. H. pylori: 20 мг 2 раза в день с антибиотиками 7 дней.",
+      bolalar: "Не рекомендуется (данные ограничены)"
+    },
+    chiqarish: "Таблетки 10 мг, 20 мг"
+  },
+  en: {
+    gruppa: "Potassium-competitive acid blockers (P-CAB)",
+    farmTasir: "Fast, potent and long-acting gastric acid blocker",
+    farmakodinamika: `Vonoprazan is a potassium-competitive acid blocker (P-CAB). Unlike conventional PPIs it is not a prodrug and does not require activation in an acidic environment: it binds reversibly but firmly to the potassium-binding site of H+/K+-ATPase, directly blocking the proton pump. This provides faster (from the first dose), more potent and longer (over 24 h) acid suppression, with little dependence on food or CYP2C19 polymorphism. It is highly effective in Helicobacter pylori eradication.`,
+    farmakokinetika: {
+      sorish: "Rapidly absorbed orally; independent of food. Full acid suppression from day one",
+      tarqalish: "Protein binding ~80–85%; accumulates in parietal cells",
+      metabolizm: "Hepatic, mainly CYP3A4 (partly CYP2B6, 2C19, 2D6)",
+      chiqarilish: "Metabolites in urine and faeces; T½ ~7 h (longer than PPIs)"
+    },
+    korsatmalar: [
+      "Erosive oesophagitis (treatment and maintenance)",
+      "Gastric and duodenal ulcer",
+      "Helicobacter pylori eradication (with antibiotics)",
+      "Prophylaxis of NSAID/aspirin-associated ulcers"
+    ],
+    qarrshi: [
+      "Hypersensitivity to vonoprazan",
+      "Concomitant atazanavir, rilpivirine, nelfinavir",
+      "Severe hepatic impairment (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation or diarrhoea, abdominal pain, nausea",
+      "CNS": "Headache",
+      "Endocrine/metabolic": "Raised gastrin levels, gastric polyps with prolonged use",
+      "Other": "Rash, raised transaminases (rare)"
+    },
+    dozadan: "Data limited. Symptomatic treatment, monitoring.",
+    ozarotasir: [
+      "Reduces absorption of acid-dependent drugs (atazanavir, ketoconazole)",
+      "May affect digoxin, methotrexate concentrations",
+      "CYP3A4 inducers (rifampicin) reduce vonoprazan effect"
+    ],
+    qollash: {
+      kattalar: "Erosive oesophagitis: 20 mg once daily 4–8 weeks, maintenance 10 mg/day. Ulcer: 20 mg/day. H. pylori: 20 mg twice daily with antibiotics for 7 days.",
+      bolalar: "Not recommended (limited data)"
+    },
+    chiqarish: "Tablets 10 mg, 20 mg"
+  }
+},
+
+// ─── A02BX · Natriy alginat + Antatsid (raft hosil qiluvchi) ──────────────
+"A02BX": {
+  uz: {
+    gruppa: "Yara va GERB davosida boshqa preparatlar (alginatlar)",
+    farmTasir: "Reflyuksga qarshi raft (qalqon) hosil qiluvchi vosita",
+    farmakodinamika: `Natriy alginat, natriy bikarbonat va kalsiy karbonat kombinatsiyasi. Oshqozon kislotasi bilan reaksiyaga kirishganda alginat past zichlikdagi gel — «raft» (suzuvchi qalqon) hosil qiladi, u oshqozon tarkibi yuzasida suzib turadi va kislotali tarkibning qizilo'ngachga qaytishini (reflyuks) mexanik to'sadi. Bikarbonat va karbonat qisman kislotani neytrallaydi. Tizimli ta'sirsiz, asosan mexanik antireflyuks vosita; ta'siri tez boshlanadi va 3–4 soatgacha davom etadi.`,
+    farmakokinetika: {
+      sorish: "Komponentlar deyarli so'rilmaydi; mahalliy mexanik ta'sir",
+      tarqalish: "Oshqozon-qizilo'ngach luminида ta'sir qiladi",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Najas bilan; bikarbonat qisman so'rilib buyrak orqali"
+    },
+    korsatmalar: [
+      "Gastroezofageal reflyuks, jig'ildon qaynashi",
+      "Homiladorlikdagi reflyuks va jig'ildon qaynashi (xavfsiz variant)",
+      "Ovqatdan keyingi kislota reflyuksi simptomlari",
+      "GERB ning yengil shakllari va PPI ga qo'shimcha"
+    ],
+    qarrshi: [
+      "Komponentlarga o'ta sezuvchanlik",
+      "Natriy/kalsiy cheklangan parhez (ehtiyotkorlik)",
+      "Og'ir buyrak yetishmovchiligi (kalsiy, natriy)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Meteorizm, kekirish, kamdan-kam ich qotishi yoki diareya",
+      "Metabolik": "Ko'p qo'llashda giperkalsemiya, alkaloz (kam)",
+      "Allergiya": "Toshma, qichishish (juda kam)"
+    },
+    dozadan: "Ehtimoli past; ko'p qo'llashda qorin shishi, alkaloz — simptomatik davolash.",
+    ozarotasir: [
+      "Boshqa dorilar so'rilishini kamaytirishi mumkin — 2 soat farq bilan qabul qiling",
+      "Kislotada eriydigan qobiqli preparatlar bilan birga tavsiya etilmaydi"
+    ],
+    qollash: {
+      kattalar: "10–20 ml suspenziya yoki 2–4 chaynaladigan tabletka ovqatdan keyin va uxlash oldidan; kuniga 4 martagacha.",
+      bolalar: "12 yoshdan: kattalardagidek; kichik yoshda shifokor tavsiyasi bilan"
+    },
+    chiqarish: "Ichish uchun suspenziya; chaynaladigan tabletkalar (paketlar)"
+  },
+  ru: {
+    gruppa: "Прочие препараты при язве и ГЭРБ (альгинаты)",
+    farmTasir: "Антирефлюксное средство, образующее защитный «плот»",
+    farmakodinamika: `Комбинация натрия альгината, натрия бикарбоната и кальция карбоната. При реакции с желудочной кислотой альгинат образует гель низкой плотности — «плот» (плавающий барьер), который держится на поверхности желудочного содержимого и механически препятствует забросу кислого содержимого в пищевод (рефлюкс). Бикарбонат и карбонат частично нейтрализуют кислоту. Преимущественно механическое антирефлюксное средство без системного действия; эффект наступает быстро и длится 3–4 ч.`,
+    farmakokinetika: {
+      sorish: "Компоненты практически не всасываются; местное механическое действие",
+      tarqalish: "Действует в просвете желудка и пищевода",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "С калом; бикарбонат частично всасывается и выводится почками"
+    },
+    korsatmalar: [
+      "Гастроэзофагеальный рефлюкс, изжога",
+      "Рефлюкс и изжога при беременности (безопасный вариант)",
+      "Постпрандиальные симптомы кислотного рефлюкса",
+      "Лёгкие формы ГЭРБ и дополнение к ИПП"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам",
+      "Диета с ограничением натрия/кальция (с осторожностью)",
+      "Тяжёлая почечная недостаточность (кальций, натрий)"
+    ],
+    nojoya: {
+      "ЖКТ": "Метеоризм, отрыжка, редко запор или диарея",
+      "Метаболические": "При избыточном применении гиперкальциемия, алкалоз (редко)",
+      "Аллергические": "Сыпь, зуд (очень редко)"
+    },
+    dozadan: "Маловероятна; при избыточном применении вздутие, алкалоз — симптоматическое лечение.",
+    ozarotasir: [
+      "Может снижать всасывание других препаратов — интервал 2 часа",
+      "Не рекомендуется с препаратами в кислотоустойчивой оболочке"
+    ],
+    qollash: {
+      kattalar: "10–20 мл суспензии или 2–4 жевательные таблетки после еды и перед сном; до 4 раз в день.",
+      bolalar: "С 12 лет: как у взрослых; в младшем возрасте по рекомендации врача"
+    },
+    chiqarish: "Суспензия для приёма внутрь; жевательные таблетки (пакеты)"
+  },
+  en: {
+    gruppa: "Other drugs for ulcer and GERD (alginates)",
+    farmTasir: "Anti-reflux agent forming a protective raft",
+    farmakodinamika: `A combination of sodium alginate, sodium bicarbonate and calcium carbonate. On reacting with gastric acid the alginate forms a low-density gel — a "raft" (floating barrier) — that sits on top of the gastric contents and mechanically prevents reflux of acidic content into the oesophagus. Bicarbonate and carbonate partly neutralise acid. It is mainly a mechanical anti-reflux agent without systemic action; onset is rapid and the effect lasts 3–4 h.`,
+    farmakokinetika: {
+      sorish: "The components are practically not absorbed; local mechanical action",
+      tarqalish: "Acts in the gastric and oesophageal lumen",
+      metabolizm: "Not metabolised",
+      chiqarilish: "In faeces; bicarbonate partly absorbed and excreted renally"
+    },
+    korsatmalar: [
+      "Gastro-oesophageal reflux, heartburn",
+      "Reflux and heartburn in pregnancy (a safe option)",
+      "Postprandial acid reflux symptoms",
+      "Mild GERD and as an add-on to PPIs"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components",
+      "Sodium/calcium-restricted diet (caution)",
+      "Severe renal impairment (calcium, sodium)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Flatulence, belching, rarely constipation or diarrhoea",
+      "Metabolic": "Hypercalcaemia, alkalosis with excessive use (rare)",
+      "Hypersensitivity": "Rash, itching (very rare)"
+    },
+    dozadan: "Unlikely; bloating, alkalosis with excessive use — symptomatic treatment.",
+    ozarotasir: [
+      "May reduce absorption of other drugs — separate by 2 hours",
+      "Not recommended with enteric-coated preparations"
+    ],
+    qollash: {
+      kattalar: "10–20 mL suspension or 2–4 chewable tablets after meals and at bedtime; up to 4 times daily.",
+      bolalar: "From 12 years: as in adults; younger on medical advice"
+    },
+    chiqarish: "Oral suspension; chewable tablets (sachets)"
+  }
+},
+
+// ─── A02BX02 · Sukralfat (± oksetakain) ───────────────────────────────────
+"A02BX02": {
+  uz: {
+    gruppa: "Yara va GERB davosida boshqa preparatlar (shilliq pardani himoyalovchi)",
+    farmTasir: "Yara yuzasini himoyalovchi (sitoprotektiv) vosita",
+    farmakodinamika: `Sukralfat — saxaroza sulfatining alyuminiy tutuvchi tuzi. Kislotali muhitda polimerlanib yopishqoq massa hosil qiladi va yara/eroziya yuzasidagi oqsillarga (albumin, fibrinogen) tanlab bog'lanib, himoya pardasi yaratadi — bu kislota, pepsin va o't kislotalaridan himoyalaydi. Shuningdek shilimshiq va bikarbonat sekretsiyasini, prostaglandin sintezini va shilliq qavat qon aylanishini oshiradi. (Oksetakain qo'shilsa — mahalliy og'riqsizlantiruvchi ta'sir.) Tizimli so'rilishi minimal.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan deyarli so'rilmaydi (3–5% alyuminiy)",
+      tarqalish: "Yara yuzasida 6 soatgacha saqlanadi; mahalliy ta'sir",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Asosan najas bilan o'zgarmagan holda"
+    },
+    korsatmalar: [
+      "Oshqozon va o'n ikki barmoq ichak yarasi (davolash va profilaktika)",
+      "Surunkali gastrit zo'rayishi",
+      "Reflyuks-ezofagit",
+      "Stress yaralari va NSAID gastropatiyasi profilaktikasi"
+    ],
+    qarrshi: [
+      "Sukralfatga o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi (alyuminiy to'planishi)",
+      "Oshqozon-ichak obstruksiyasi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi (ko'p), og'iz qurishi, ko'ngil aynishi, meteorizm",
+      "Metabolik": "Buyrak yetishmovchiligida giperalyuminemiya",
+      "Boshqa": "Bezoar hosil bo'lishi (kam, ayniqsa zond bilan oziqlanuvchilarda)"
+    },
+    dozadan: "Past toksiklik; ich qotishi — suyuqlik ko'paytirish, simptomatik davolash.",
+    ozarotasir: [
+      "Ftorxinolon, tetratsiklin, digoksin, levotiroksin, fenitoin so'rilishini kamaytiradi — 2 soat farq bilan",
+      "Antatsidlar bilan birga bermang (kislotali muhit faollik uchun zarur) — 30 daqiqa farq"
+    ],
+    qollash: {
+      kattalar: "1 g kuniga 4 marta (ovqatdan 1 soat oldin va uxlash oldidan) yoki 2 g kuniga 2 marta; 4–8 hafta. Bo'sh oshqozonga.",
+      bolalar: "Vaznга qarab, shifokor tavsiyasi bilan"
+    },
+    chiqarish: "Tabletkalar 1 g; ichish uchun suspenziya/gel (oksetakain bilan ham)"
+  },
+  ru: {
+    gruppa: "Прочие препараты при язве и ГЭРБ (защищающие слизистую)",
+    farmTasir: "Средство, защищающее поверхность язвы (цитопротектор)",
+    farmakodinamika: `Сукральфат — алюминийсодержащая соль сульфатированной сахарозы. В кислой среде полимеризуется в вязкую массу и избирательно связывается с белками (альбумин, фибриноген) на поверхности язвы/эрозии, образуя защитную плёнку, которая защищает от кислоты, пепсина и жёлчных кислот. Также повышает секрецию слизи и бикарбоната, синтез простагландинов и кровоток слизистой. (При добавлении оксетакаина — местноанестезирующее действие.) Системное всасывание минимально.`,
+    farmakokinetika: {
+      sorish: "Практически не всасывается из ЖКТ (3–5% алюминия)",
+      tarqalish: "Удерживается на поверхности язвы до 6 ч; местное действие",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "Преимущественно с калом в неизменённом виде"
+    },
+    korsatmalar: [
+      "Язва желудка и двенадцатиперстной кишки (лечение и профилактика)",
+      "Обострение хронического гастрита",
+      "Рефлюкс-эзофагит",
+      "Профилактика стрессовых язв и НПВП-гастропатии"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к сукральфату",
+      "Тяжёлая почечная недостаточность (накопление алюминия)",
+      "Обструкция ЖКТ"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор (часто), сухость во рту, тошнота, метеоризм",
+      "Метаболические": "Гипералюминиемия при почечной недостаточности",
+      "Прочие": "Образование безоара (редко, особенно при зондовом питании)"
+    },
+    dozadan: "Низкая токсичность; запор — увеличение жидкости, симптоматическое лечение.",
+    ozarotasir: [
+      "Снижает всасывание фторхинолонов, тетрациклина, дигоксина, левотироксина, фенитоина — интервал 2 часа",
+      "Не давать с антацидами (кислая среда нужна для активности) — интервал 30 минут"
+    ],
+    qollash: {
+      kattalar: "1 г 4 раза в день (за 1 ч до еды и перед сном) или 2 г 2 раза в день; 4–8 недель. Натощак.",
+      bolalar: "По массе тела, по рекомендации врача"
+    },
+    chiqarish: "Таблетки 1 г; суспензия/гель для приёма внутрь (в т.ч. с оксетакаином)"
+  },
+  en: {
+    gruppa: "Other drugs for ulcer and GERD (mucosal protectants)",
+    farmTasir: "Agent that protects the ulcer surface (cytoprotectant)",
+    farmakodinamika: `Sucralfate is an aluminium-containing salt of sulfated sucrose. In an acidic environment it polymerises into a viscous mass and selectively binds to proteins (albumin, fibrinogen) on the ulcer/erosion surface, forming a protective film that shields against acid, pepsin and bile acids. It also increases mucus and bicarbonate secretion, prostaglandin synthesis and mucosal blood flow. (When oxetacaine is added — local anaesthetic action.) Systemic absorption is minimal.`,
+    farmakokinetika: {
+      sorish: "Practically not absorbed from the GI tract (3–5% aluminium)",
+      tarqalish: "Retained on the ulcer surface for up to 6 h; local action",
+      metabolizm: "Not metabolised",
+      chiqarilish: "Mainly in faeces unchanged"
+    },
+    korsatmalar: [
+      "Gastric and duodenal ulcer (treatment and prophylaxis)",
+      "Exacerbation of chronic gastritis",
+      "Reflux oesophagitis",
+      "Prophylaxis of stress ulcers and NSAID gastropathy"
+    ],
+    qarrshi: [
+      "Hypersensitivity to sucralfate",
+      "Severe renal impairment (aluminium accumulation)",
+      "GI obstruction"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation (common), dry mouth, nausea, flatulence",
+      "Metabolic": "Hyperaluminaemia in renal failure",
+      "Other": "Bezoar formation (rare, especially in tube-fed patients)"
+    },
+    dozadan: "Low toxicity; constipation — increase fluids, symptomatic treatment.",
+    ozarotasir: [
+      "Reduces absorption of fluoroquinolones, tetracycline, digoxin, levothyroxine, phenytoin — separate by 2 hours",
+      "Do not give with antacids (acidic environment needed for activity) — separate by 30 minutes"
+    ],
+    qollash: {
+      kattalar: "1 g four times daily (1 h before meals and at bedtime) or 2 g twice daily; 4–8 weeks. On an empty stomach.",
+      bolalar: "By body weight, on medical advice"
+    },
+    chiqarish: "Tablets 1 g; oral suspension/gel (including with oxetacaine)"
+  }
+},
+
+// ─── A02BX05 · Bismut subsitrat ───────────────────────────────────────────
+"A02BX05": {
+  uz: {
+    gruppa: "Yara va GERB davosida boshqa preparatlar (bismut birikmalari)",
+    farmTasir: "Shilliq pardani himoyalovchi va antibakterial (anti-H. pylori) vosita",
+    farmakodinamika: `Bismut trikaliy ditsitrat (kolloid bismut subsitrat) — gastrosytoprotektiv vosita. Kislotali muhitda yara yuzasidagi oqsillar bilan xelat birikma hosil qilib, kislota va pepsindan himoya qiluvchi parda yaratadi; prostaglandin, shilimshiq va bikarbonat sekretsiyasini oshiradi. Helicobacter pylori ga to'g'ridan-to'g'ri bakteritsid ta'sir ko'rsatadi (fermentlar va devor sintezini buzadi), shuning uchun eradikatsiya sxemalarida qo'llaniladi. Tizimli so'rilishi past.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan juda kam so'riladi",
+      tarqalish: "Yara yuzasida va shilliq pardada mahalliy ta'sir",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Asosan najas bilan (qora rang beradi); so'rilgan oz qism buyrak orqali"
+    },
+    korsatmalar: [
+      "Oshqozon va o'n ikki barmoq ichak yarasi",
+      "Helicobacter pylori eradikatsiyasi (kombinatsiyalangan sxemada)",
+      "Surunkali gastrit va dispepsiya"
+    ],
+    qarrshi: [
+      "Bismutga o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi (bismut to'planishi va ensefalopatiya xavfi)",
+      "Homiladorlik va emizish davri"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Najasning qora rangga bo'yalishi, tilning qoraisishi, ko'ngil aynishi, ich qotishi yoki diareya",
+      "Asab tizimi": "Uzoq/ko'p qo'llashda bismut ensefalopatiyasi (kam)",
+      "Boshqa": "Buyrak yetishmovchiligida bismut to'planishi"
+    },
+    dozadan: "Uzoq qo'llashda bismut ensefalopatiyasi va nefrotoksiklik — preparatni to'xtatish, xelatlovchi terapiya; gemodializ.",
+    ozarotasir: [
+      "Antatsidlar, sut, ovqat bismut faolligini kamaytiradi — 30 daqiqa farq",
+      "Tetratsiklin so'rilishini kamaytiradi — alohida qabul qiling"
+    ],
+    qollash: {
+      kattalar: "120 mg (1 tabletka) kuniga 4 marta ovqatdan 30 daqiqa oldin va uxlash oldidan, yoki 240 mg kuniga 2 marta; kurs 4–8 hafta (kvadroterapiyada 10–14 kun).",
+      bolalar: "Tavsiya etilmaydi (yoki faqat shifokor nazoratida)"
+    },
+    chiqarish: "Tabletkalar 120 mg (bismut oksidiga hisoblangan)"
+  },
+  ru: {
+    gruppa: "Прочие препараты при язве и ГЭРБ (соединения висмута)",
+    farmTasir: "Гастропротектор с антибактериальным (анти-H. pylori) действием",
+    farmakodinamika: `Висмута трикалия дицитрат (коллоидный субцитрат висмута) — гастроцитопротективное средство. В кислой среде образует хелатные соединения с белками поверхности язвы, создавая защитную плёнку от кислоты и пепсина; повышает секрецию простагландинов, слизи и бикарбоната. Оказывает прямое бактерицидное действие на Helicobacter pylori (нарушает ферменты и синтез стенки), поэтому применяется в схемах эрадикации. Системное всасывание низкое.`,
+    farmakokinetika: {
+      sorish: "Очень мало всасывается из ЖКТ",
+      tarqalish: "Местное действие на поверхности язвы и слизистой",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "Преимущественно с калом (окрашивает в чёрный); всосавшаяся часть почками"
+    },
+    korsatmalar: [
+      "Язва желудка и двенадцатиперстной кишки",
+      "Эрадикация Helicobacter pylori (в комбинированной схеме)",
+      "Хронический гастрит и диспепсия"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к висмуту",
+      "Тяжёлая почечная недостаточность (риск накопления висмута и энцефалопатии)",
+      "Беременность и период лактации"
+    ],
+    nojoya: {
+      "ЖКТ": "Окрашивание кала в чёрный, потемнение языка, тошнота, запор или диарея",
+      "ЦНС": "Висмутовая энцефалопатия при длительном/избыточном применении (редко)",
+      "Прочие": "Накопление висмута при почечной недостаточности"
+    },
+    dozadan: "При длительном применении висмутовая энцефалопатия и нефротоксичность — отмена, хелатная терапия; гемодиализ.",
+    ozarotasir: [
+      "Антациды, молоко, пища снижают активность висмута — интервал 30 минут",
+      "Снижает всасывание тетрациклина — принимать отдельно"
+    ],
+    qollash: {
+      kattalar: "120 мг (1 таблетка) 4 раза в день за 30 минут до еды и перед сном, или 240 мг 2 раза в день; курс 4–8 недель (в квадротерапии 10–14 дней).",
+      bolalar: "Не рекомендуется (или только под контролем врача)"
+    },
+    chiqarish: "Таблетки 120 мг (в пересчёте на оксид висмута)"
+  },
+  en: {
+    gruppa: "Other drugs for ulcer and GERD (bismuth compounds)",
+    farmTasir: "Gastroprotectant with antibacterial (anti-H. pylori) action",
+    farmakodinamika: `Bismuth tripotassium dicitrate (colloidal bismuth subcitrate) is a gastrocytoprotective agent. In an acidic environment it forms chelate complexes with proteins on the ulcer surface, creating a protective film against acid and pepsin; it increases prostaglandin, mucus and bicarbonate secretion. It has direct bactericidal action against Helicobacter pylori (disrupting enzymes and wall synthesis), so it is used in eradication regimens. Systemic absorption is low.`,
+    farmakokinetika: {
+      sorish: "Very little absorbed from the GI tract",
+      tarqalish: "Local action on the ulcer surface and mucosa",
+      metabolizm: "Not metabolised",
+      chiqarilish: "Mainly in faeces (colours it black); the absorbed fraction renally"
+    },
+    korsatmalar: [
+      "Gastric and duodenal ulcer",
+      "Helicobacter pylori eradication (in a combination regimen)",
+      "Chronic gastritis and dyspepsia"
+    ],
+    qarrshi: [
+      "Hypersensitivity to bismuth",
+      "Severe renal impairment (risk of bismuth accumulation and encephalopathy)",
+      "Pregnancy and lactation"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Black discolouration of stools, darkening of the tongue, nausea, constipation or diarrhoea",
+      "CNS": "Bismuth encephalopathy with prolonged/excessive use (rare)",
+      "Other": "Bismuth accumulation in renal failure"
+    },
+    dozadan: "Prolonged use causes bismuth encephalopathy and nephrotoxicity — discontinue, chelation therapy; haemodialysis.",
+    ozarotasir: [
+      "Antacids, milk, food reduce bismuth activity — separate by 30 minutes",
+      "Reduces tetracycline absorption — take separately"
+    ],
+    qollash: {
+      kattalar: "120 mg (1 tablet) four times daily 30 minutes before meals and at bedtime, or 240 mg twice daily; course 4–8 weeks (10–14 days in quadruple therapy).",
+      bolalar: "Not recommended (or only under medical supervision)"
+    },
+    chiqarish: "Tablets 120 mg (expressed as bismuth oxide)"
+  }
+},
+
+// ─── A02BX14 · Rebamipid ──────────────────────────────────────────────────
+"A02BX14": {
+  uz: {
+    gruppa: "Yara va GERB davosida boshqa preparatlar (shilliq pardani himoyalovchi)",
+    farmTasir: "Oshqozon shilliq pardasini himoyalovchi va tiklovchi vosita",
+    farmakodinamika: `Rebamipid — gastroprotektiv vosita. Oshqozon shilliq pardasidagi prostaglandin (PGE2, PGI2) sintezini oshiradi, shilimshiq qatlam va bikarbonat sekretsiyasini kuchaytiradi, shilliq qavat qon aylanishini yaxshilaydi. Erkin radikallar (kislorodning faol shakllari) ni bog'lab, yallig'lanish va oksidlovchi shikastlanishni kamaytiradi, neytrofillar faolligini bostiradi. Helicobacter pylori va NSAID keltirib chiqargan shilliq parda shikastlanishini tiklaydi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'riladi; Cmax ~2 soatda",
+      tarqalish: "Oshqozon shilliq pardasida tanlab to'planadi",
+      metabolizm: "Jigarда minimal metabolizm",
+      chiqarilish: "Asosan buyrak orqali o'zgarmagan holda; T½ ~1–2 soat"
+    },
+    korsatmalar: [
+      "Oshqozon yarasi va surunkali gastrit zo'rayishi (eroziya, qonash, qizarish, shish)",
+      "NSAID gastropatiyasi profilaktikasi va davosi",
+      "Helicobacter pylori eradikatsiyasiga qo'shimcha",
+      "Funksional dispepsiya (yordamchi)"
+    ],
+    qarrshi: [
+      "Rebamipidga o'ta sezuvchanlik",
+      "Homiladorlik va emizish davri (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi, qorin shishi, diareya, ko'ngil aynishi (kam)",
+      "Allergiya": "Toshma, qichishish, kamdan-kam eozinofiliya",
+      "Boshqa": "Transaminazalar oshishi (kam), ta'm o'zgarishi"
+    },
+    dozadan: "Past toksiklik; simptomatik davolash.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir kam aniqlangan"
+    ],
+    qollash: {
+      kattalar: "100 mg (1 tabletka) kuniga 3 marta (ertalab, kunduzi va uxlash oldidan).",
+      bolalar: "Xavfsizligi aniqlanmagan"
+    },
+    chiqarish: "Tabletkalar 100 mg"
+  },
+  ru: {
+    gruppa: "Прочие препараты при язве и ГЭРБ (защищающие слизистую)",
+    farmTasir: "Средство, защищающее и восстанавливающее слизистую желудка",
+    farmakodinamika: `Ребамипид — гастропротективное средство. Повышает синтез простагландинов (PGE2, PGI2) в слизистой желудка, усиливает секрецию слизи и бикарбоната, улучшает кровоток слизистой. Связывает свободные радикалы (активные формы кислорода), уменьшая воспаление и окислительное повреждение, подавляет активность нейтрофилов. Восстанавливает повреждения слизистой, вызванные Helicobacter pylori и НПВП.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь; Cmax ~2 ч",
+      tarqalish: "Избирательно накапливается в слизистой желудка",
+      metabolizm: "Минимальный метаболизм в печени",
+      chiqarilish: "Преимущественно почками в неизменённом виде; T½ ~1–2 ч"
+    },
+    korsatmalar: [
+      "Язва желудка и обострение хронического гастрита (эрозия, кровоточивость, гиперемия, отёк)",
+      "Профилактика и лечение НПВП-гастропатии",
+      "Дополнение к эрадикации Helicobacter pylori",
+      "Функциональная диспепсия (вспомогательно)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к ребамипиду",
+      "Беременность и период лактации (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор, вздутие живота, диарея, тошнота (редко)",
+      "Аллергические": "Сыпь, зуд, редко эозинофилия",
+      "Прочие": "Повышение трансаминаз (редко), изменение вкуса"
+    },
+    dozadan: "Низкая токсичность; симптоматическое лечение.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий выявлено мало"
+    ],
+    qollash: {
+      kattalar: "100 мг (1 таблетка) 3 раза в день (утром, днём и перед сном).",
+      bolalar: "Безопасность не установлена"
+    },
+    chiqarish: "Таблетки 100 мг"
+  },
+  en: {
+    gruppa: "Other drugs for ulcer and GERD (mucosal protectants)",
+    farmTasir: "Agent that protects and restores the gastric mucosa",
+    farmakodinamika: `Rebamipide is a gastroprotective agent. It increases prostaglandin (PGE2, PGI2) synthesis in the gastric mucosa, enhances mucus and bicarbonate secretion and improves mucosal blood flow. It scavenges free radicals (reactive oxygen species), reducing inflammation and oxidative damage, and suppresses neutrophil activity. It repairs mucosal damage caused by Helicobacter pylori and NSAIDs.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally; Cmax ~2 h",
+      tarqalish: "Selectively accumulates in the gastric mucosa",
+      metabolizm: "Minimal hepatic metabolism",
+      chiqarilish: "Mainly renally unchanged; T½ ~1–2 h"
+    },
+    korsatmalar: [
+      "Gastric ulcer and exacerbation of chronic gastritis (erosion, bleeding, hyperaemia, oedema)",
+      "Prophylaxis and treatment of NSAID gastropathy",
+      "Adjunct to Helicobacter pylori eradication",
+      "Functional dyspepsia (supportive)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to rebamipide",
+      "Pregnancy and lactation (with caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation, bloating, diarrhoea, nausea (rare)",
+      "Hypersensitivity": "Rash, itching, rarely eosinophilia",
+      "Other": "Raised transaminases (rare), taste change"
+    },
+    dozadan: "Low toxicity; symptomatic treatment.",
+    ozarotasir: [
+      "Few clinically significant interactions identified"
+    ],
+    qollash: {
+      kattalar: "100 mg (1 tablet) three times daily (morning, midday and at bedtime).",
+      bolalar: "Safety not established"
+    },
+    chiqarish: "Tablets 100 mg"
+  }
 }
 
 };
