@@ -20,6 +20,8 @@ on:
 jobs:
   send-notification:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Xabar matni tayyorlash
         id: msg
@@ -62,3 +64,31 @@ jobs:
           NOTIF_TITLE: ${{ steps.msg.outputs.title }}
           NOTIF_BODY: ${{ steps.msg.outputs.body }}
         run: node push/send.js
+
+      - name: Bildirishnomani ilova tarixiga (qo'ng'iroqcha) qo'shish
+        env:
+          NOTIF_TITLE: ${{ steps.msg.outputs.title }}
+          NOTIF_BODY: ${{ steps.msg.outputs.body }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const f = "notifications.json";
+            let arr = [];
+            try { arr = JSON.parse(fs.readFileSync(f, "utf8")); } catch (e) {}
+            const today = new Date().toISOString().slice(0, 10);
+            arr.unshift({
+              id: today + "-" + Date.now(),
+              date: today,
+              title: process.env.NOTIF_TITLE || "MedCore yangilandi",
+              body: process.env.NOTIF_BODY || "Yangi maʼlumotlar qoʼshildi.",
+              icon: "💊",
+              page: "drugs"
+            });
+            arr = arr.slice(0, 50);
+            fs.writeFileSync(f, JSON.stringify(arr, null, 2) + "\n");
+          '
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add notifications.json
+          git commit -m "chore(notif): add in-app notification entry [skip ci]" || echo "o'zgarish yo'q"
+          git push || echo "push o'tkazib yuborildi"

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2026-06-12-antispasmodics",
+    "date": "2026-06-12",
+    "title": "💊 Spazmolitiklar qo'shildi",
+    "body": "Drotaverin (No-shpa), papaverin, mebeverin, atropin va boshqa spazmolitiklar farmakologiyasi qo'shildi.",
+    "icon": "💊",
+    "page": "drugs"
+  },
+  {
+    "id": "2026-06-12-ppi",
+    "date": "2026-06-12",
+    "title": "💊 Oshqozon dorilari to'ldirildi",
+    "body": "Omeprazol, pantoprazol, ezomeprazol va boshqa PPI'lar, H2-blokerlar va antatsidlar farmakologiyasi qo'shildi.",
+    "icon": "💊",
+    "page": "drugs"
+  },
+  {
+    "id": "2026-06-11-pharma-start",
+    "date": "2026-06-11",
+    "title": "🔬 Farmakologiya bo'limi kengaymoqda",
+    "body": "Barcha dorilarning farmakologik ma'lumotlari bosqichma-bosqich uch tilda (uz/ru/en) to'ldirilmoqda.",
+    "icon": "🔬",
+    "page": "drugs"
+  }
+]

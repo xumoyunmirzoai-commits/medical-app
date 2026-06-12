@@ -15,7 +15,7 @@ function urlBase64ToUint8Array(base64String) {
   return arr;
 }
 
-const CACHE_NAME = 'medcore-v4';
+const CACHE_NAME = 'medcore-v5';
 const ASSETS = [
   './',
   './index.html',
@@ -56,7 +56,7 @@ self.addEventListener('activate', event => {
 });
 
 // Doim yangi yuklanishi kerak bo'lgan fayllar (ma'lumot/kod) — kesh eskirmasin
-const ALWAYS_FRESH = /\/(pharma_data|data|app|i18n|auth)\.js(\?|$)|\.html(\?|$)/;
+const ALWAYS_FRESH = /\/(pharma_data|data|app|i18n|auth)\.js(\?|$)|\.html(\?|$)|notifications\.json/;
 
 // ── Fetch — network first, fallback to cache ──
 self.addEventListener('fetch', event => {

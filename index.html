@@ -38,6 +38,61 @@
     // Obunalarni saqlovchi endpoint (Cloudflare Worker). Deploy qilgach to'ldiriladi.
     const PUSH_API = "https://medcore-push.xumoyunmirzoai.workers.dev";
   </script>
+
+  <!-- Bildirishnoma markazi (qo'ng'iroqcha) uslublari -->
+  <style>
+    .notif-bell-btn { position: relative; }
+    .notif-count {
+      position: absolute; top: -4px; right: -4px;
+      min-width: 16px; height: 16px; padding: 0 4px;
+      background: #e8193c; color: #fff; border-radius: 9px;
+      font-size: 10px; font-weight: 800; line-height: 1;
+      align-items: center; justify-content: center;
+      display: none; box-shadow: 0 0 0 2px #fff;
+    }
+    .notif-center {
+      position: fixed; top: 64px; right: 16px; z-index: 3500;
+      width: 360px; max-width: calc(100vw - 24px); max-height: 70vh;
+      background: #fff; border: 1px solid #eef0f3; border-radius: 16px;
+      box-shadow: 0 16px 48px rgba(0,0,0,.16), 0 2px 8px rgba(0,0,0,.06);
+      display: flex; flex-direction: column; overflow: hidden;
+      transform: translateY(-8px) scale(.98); opacity: 0; pointer-events: none;
+      transition: all .2s cubic-bezier(.34,1.4,.64,1);
+    }
+    .notif-center.open { transform: none; opacity: 1; pointer-events: auto; }
+    .nc-head {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 16px; border-bottom: 1px solid #f1f2f4; flex-shrink: 0;
+    }
+    .nc-title { font-weight: 800; font-size: 15px; color: #111; }
+    .nc-toggle {
+      border: 1px solid #e5e7eb; background: #fff; color: #6b7280;
+      border-radius: 9px; padding: 6px 12px; font-size: 12px; font-weight: 700;
+      cursor: pointer; transition: all .15s;
+    }
+    .nc-toggle.on { background: #ecfdf5; border-color: #a7f3d0; color: #059669; }
+    .nc-list { overflow-y: auto; flex: 1; }
+    .nc-item {
+      display: flex; gap: 12px; padding: 13px 16px;
+      border-bottom: 1px solid #f6f7f8; transition: background .15s;
+    }
+    .nc-item:hover { background: #fafbfc; }
+    .nc-item.unread { background: #fef2f4; }
+    .nc-item.unread:hover { background: #fde8ec; }
+    .nc-item-icon {
+      width: 38px; height: 38px; flex-shrink: 0; border-radius: 11px;
+      background: linear-gradient(135deg,#fde3e8,#fff0f2);
+      display: flex; align-items: center; justify-content: center; font-size: 18px;
+    }
+    .nc-item-body { flex: 1; min-width: 0; }
+    .nc-item-title { font-weight: 700; font-size: 13.5px; color: #111; margin-bottom: 2px; }
+    .nc-item-text { font-size: 12.5px; color: #6b7280; line-height: 1.45; }
+    .nc-item-time { font-size: 11px; color: #9ca3af; margin-top: 5px; }
+    .nc-empty { padding: 40px 20px; text-align: center; color: #9ca3af; font-size: 13.5px; }
+    @media (max-width: 480px) {
+      .notif-center { top: 60px; right: 8px; left: 8px; width: auto; max-width: none; }
+    }
+  </style>
 </head>
 <body>
 
@@ -163,9 +218,10 @@
         O'rnatish
       </button>
       <div class="topbar-divider"></div>
-      <button class="action-btn notif-bell-btn" id="notifBellBtn" title="Bildirishnomalar" onclick="toggleNotifications()">
+      <button class="action-btn notif-bell-btn" id="notifBellBtn" title="Bildirishnomalar" onclick="toggleNotifCenter(event)">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
         <span class="notif-dot" id="notifDot"></span>
+        <span class="notif-count" id="notifCount" style="display:none"></span>
       </button>
       <div class="topbar-divider"></div>
 
@@ -608,13 +664,122 @@
   }
 
   function showNotifPanel() {
-    const perm = Notification.permission;
-    showNotifToast(
-      perm === 'granted' ? '🔔 Bildirishnomalar yoqilgan' : '🔕 Bildirishnomalar o\'chiq',
-      perm === 'granted'
-        ? 'Yangi dori ma\'lumotlari qo\'shilganda xabar olasiz.'
-        : 'Bildirishnomalar uchun ruxsat berilmagan.'
-    );
+    toggleNotifCenter();
+  }
+
+  // ══════════════════════════════════════════
+  // BILDIRISHNOMA MARKAZI (in-app, qo'ng'iroqcha)
+  // ══════════════════════════════════════════
+  let _mcNotifs = [];
+
+  function notifReadIds() {
+    try { return JSON.parse(localStorage.getItem('mc_notif_read') || '[]'); }
+    catch (e) { return []; }
+  }
+  function markAllNotifsRead() {
+    const ids = _mcNotifs.map(n => n.id);
+    localStorage.setItem('mc_notif_read', JSON.stringify(ids));
+    renderNotifBadge();
+  }
+  function unreadNotifCount() {
+    const read = notifReadIds();
+    return _mcNotifs.filter(n => !read.includes(n.id)).length;
+  }
+
+  function renderNotifBadge() {
+    const dot = document.getElementById('notifDot');
+    const cnt = document.getElementById('notifCount');
+    const n = unreadNotifCount();
+    if (cnt) {
+      if (n > 0) { cnt.textContent = n > 9 ? '9+' : String(n); cnt.style.display = 'flex'; }
+      else cnt.style.display = 'none';
+    }
+    if (dot) dot.style.display = n > 0 ? 'none' : '';
+  }
+
+  async function loadNotifications() {
+    try {
+      const res = await fetch('notifications.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) return;
+      const data = await res.json();
+      if (Array.isArray(data)) {
+        _mcNotifs = data.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+        renderNotifBadge();
+      }
+    } catch (e) { /* offline yoki fayl yo'q — e'tiborsiz */ }
+  }
+
+  function timeAgo(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr);
+    if (isNaN(d)) return dateStr;
+    const diff = (Date.now() - d.getTime()) / 1000;
+    if (diff < 3600) return Math.max(1, Math.floor(diff / 60)) + ' daqiqa oldin';
+    if (diff < 86400) return Math.floor(diff / 3600) + ' soat oldin';
+    if (diff < 604800) return Math.floor(diff / 86400) + ' kun oldin';
+    return d.toLocaleDateString('uz-UZ', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  function toggleNotifCenter(ev) {
+    if (ev) ev.stopPropagation();
+    let panel = document.getElementById('notifCenter');
+    if (panel && panel.classList.contains('open')) { closeNotifCenter(); return; }
+    if (!panel) {
+      panel = document.createElement('div');
+      panel.id = 'notifCenter';
+      panel.className = 'notif-center';
+      document.body.appendChild(panel);
+      // tashqariga bosilganda yopish
+      document.addEventListener('click', (e) => {
+        const p = document.getElementById('notifCenter');
+        const bell = document.getElementById('notifBellBtn');
+        if (p && p.classList.contains('open') &&
+            !p.contains(e.target) && bell && !bell.contains(e.target)) {
+          closeNotifCenter();
+        }
+      });
+    }
+    renderNotifCenter(panel);
+    panel.classList.add('open');
+    markAllNotifsRead();
+  }
+
+  function closeNotifCenter() {
+    const panel = document.getElementById('notifCenter');
+    if (panel) panel.classList.remove('open');
+  }
+
+  function renderNotifCenter(panel) {
+    const pushOn = (localStorage.getItem('mc_notif_enabled') === '1') ||
+      (('Notification' in window) && Notification.permission === 'granted');
+    const read = notifReadIds();
+    const items = _mcNotifs.length ? _mcNotifs.map(n => {
+      const isUnread = !read.includes(n.id);
+      const clickable = n.page ? `onclick="notifGoto('${n.page}')" style="cursor:pointer"` : '';
+      return `
+        <div class="nc-item ${isUnread ? 'unread' : ''}" ${clickable}>
+          <div class="nc-item-icon">${n.icon || '💊'}</div>
+          <div class="nc-item-body">
+            <div class="nc-item-title">${n.title || 'Yangilik'}</div>
+            <div class="nc-item-text">${n.body || ''}</div>
+            <div class="nc-item-time">${timeAgo(n.date)}</div>
+          </div>
+        </div>`;
+    }).join('') : `<div class="nc-empty">🔔 Hozircha bildirishnomalar yo'q</div>`;
+
+    panel.innerHTML = `
+      <div class="nc-head">
+        <span class="nc-title">Bildirishnomalar</span>
+        <button class="nc-toggle ${pushOn ? 'on' : ''}" onclick="subscribeToNotifications()">
+          ${pushOn ? '🔔 Yoqilgan' : '🔕 Yoqish'}
+        </button>
+      </div>
+      <div class="nc-list">${items}</div>`;
+  }
+
+  function notifGoto(page) {
+    closeNotifCenter();
+    if (typeof navigateTo === 'function') navigateTo(page);
   }
 
   let _notifToastTimer = null;
@@ -652,6 +817,9 @@
   // Bell holatini sahifa yuklanishida tekshirish
   window.addEventListener('load', () => {
     setTimeout(updateNotifBell, 1000);
+    loadNotifications();
+    // har 5 daqiqada yangi bildirishnomalarni tekshirish
+    setInterval(loadNotifications, 5 * 60 * 1000);
   });
 
   function closeSidebar() {
