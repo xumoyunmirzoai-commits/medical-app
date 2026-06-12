@@ -9700,6 +9700,808 @@ const PHARMA_DATA = {
     },
     chiqarish: "Capsules 300 mg; injection solution 250 mg/5 mL"
   }
+},
+
+// ─── A06AB02 · Bisakodil ──────────────────────────────────────────────────
+"A06AB02": {
+  uz: {
+    gruppa: "Surgi (laksativ) vositalar — kontakt (stimulyatsiyalovchi)",
+    farmTasir: "Yo'g'on ichakni qo'zg'atuvchi surgi vosita",
+    farmakodinamika: `Bisakodil — difenilmetan hosilasi, kontakt (stimulyatsiyalovchi) laksativ. Yo'g'on ichakda ichak shilliq parda fermentlari ta'sirida faol metabolit (defenol)ga aylanadi, yo'g'on ichak shilliq pardasining nerv uchlarini bevosita qo'zg'atib, peristaltikani kuchaytiradi. Shu bilan birga ichak luminига suv va elektrolitlar sekretsiyasini oshiradi, najasni yumshatadi. Ta'sir faqat yo'g'on ichakда, fiziologik defekatsiya jarayoniga ta'sir qiladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz/rektal yo'l bilan deyarli so'rilmaydi (<5%); mahalliy ta'sir",
+      tarqalish: "Tizimli taqsimlanish ahamiyatsiz",
+      metabolizm: "Ichakда faol metabolitga aylanadi; so'rilgan qism jigarда konyugatsiyalanadi",
+      chiqarilish: "Asosan najas bilan; oz qism siydik (glyukuronid)"
+    },
+    korsatmalar: [
+      "Surunkali va vaqtinchalik qabziyat (ich qotishi)",
+      "Operatsiya, tug'ruq oldidan ichakni bo'shatish",
+      "Diagnostik tekshiruv (rentgen, endoskopiya) oldidan ichakni tayyorlash",
+      "Defekatsiyani yengillashtirish kerak bo'lgan holatlar (bavosil, anal yoriq)"
+    ],
+    qarrshi: [
+      "Bisakodilга o'ta sezuvchanlik",
+      "Ichak tutilishi (ileus), o'tkir qorin, o'tkir yallig'lanishli ichak kasalliklari",
+      "O'tkir appendisit, qorin sohasidagi noaniq og'riq",
+      "Og'ir degidratatsiya, elektrolit buzilishlari"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Qorin sanchig'i, spazm, diareya, ko'ngil aynishi",
+      "Metabolik": "Uzoq/ko'p qo'llashda suv-elektrolit yo'qotilishi (gipokaliemiya)",
+      "Boshqa": "Uzoq qo'llashda «laksativ ichak» (atoniya), bog'liqlik"
+    },
+    dozadan: "Diareya, suv-elektrolit yo'qotilishi, gipokaliemiya. Davolash: suyuqlik va elektrolitlarni to'ldirish.",
+    ozarotasir: [
+      "Diuretiklar va GKS bilan gipokaliemiya xavfi oshadi",
+      "Gipokaliemiya yurak glikozidlari ta'sirini kuchaytiradi",
+      "Antatsidlar/sut enterik qobiqni erta eritib oshqozon tirnashishiga olib keladi — 1 soat farq"
+    ],
+    qollash: {
+      kattalar: "Og'iz orqali 5–10 mg kechqurun (uxlash oldidan); rektal svecha 10 mg ertalab. Tekshiruvga tayyorgarlikda yuqoriroq.",
+      bolalar: "4 yoshdan: 5 mg; rektal 5–10 mg yoshга qarab"
+    },
+    chiqarish: "Enterik tabletkalar/dragelar 5 mg; rektal svechalar 10 mg"
+  },
+  ru: {
+    gruppa: "Слабительные средства — контактные (стимулирующие)",
+    farmTasir: "Слабительное, стимулирующее толстую кишку",
+    farmakodinamika: `Бисакодил — производное дифенилметана, контактное (стимулирующее) слабительное. В толстой кишке под действием ферментов слизистой превращается в активный метаболит (дефенол), который непосредственно раздражает нервные окончания слизистой толстой кишки, усиливая перистальтику. Одновременно повышает секрецию воды и электролитов в просвет кишки, размягчая каловые массы. Действует только в толстой кишке.`,
+    farmakokinetika: {
+      sorish: "При приёме внутрь/ректально почти не всасывается (<5%); местное действие",
+      tarqalish: "Системное распределение незначительно",
+      metabolizm: "Превращается в активный метаболит в кишке; всосавшаяся часть конъюгируется в печени",
+      chiqarilish: "Преимущественно с калом; небольшая часть с мочой (глюкуронид)"
+    },
+    korsatmalar: [
+      "Хронический и эпизодический запор",
+      "Опорожнение кишечника перед операцией, родами",
+      "Подготовка кишечника к диагностике (рентген, эндоскопия)",
+      "Состояния, требующие облегчения дефекации (геморрой, анальная трещина)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к бисакодилу",
+      "Кишечная непроходимость (илеус), острый живот, острые воспалительные заболевания кишечника",
+      "Острый аппендицит, неясная боль в животе",
+      "Тяжёлая дегидратация, электролитные нарушения"
+    ],
+    nojoya: {
+      "ЖКТ": "Кишечная колика, спазм, диарея, тошнота",
+      "Метаболические": "При длительном/избыточном применении потеря воды и электролитов (гипокалиемия)",
+      "Прочие": "При длительном применении «слабительная кишка» (атония), зависимость"
+    },
+    dozadan: "Диарея, потеря воды и электролитов, гипокалиемия. Лечение: восполнение жидкости и электролитов.",
+    ozarotasir: [
+      "С диуретиками и ГКС повышается риск гипокалиемии",
+      "Гипокалиемия усиливает действие сердечных гликозидов",
+      "Антациды/молоко преждевременно растворяют энтеросолюбильную оболочку — интервал 1 час"
+    ],
+    qollash: {
+      kattalar: "Внутрь 5–10 мг на ночь; ректальная свеча 10 мг утром. Для подготовки к исследованию выше.",
+      bolalar: "С 4 лет: 5 мг; ректально 5–10 мг по возрасту"
+    },
+    chiqarish: "Энтеросолюбильные таблетки/драже 5 мг; ректальные свечи 10 мг"
+  },
+  en: {
+    gruppa: "Laxatives — contact (stimulant)",
+    farmTasir: "Stimulant laxative acting on the colon",
+    farmakodinamika: `Bisacodyl is a diphenylmethane derivative, a contact (stimulant) laxative. In the colon, mucosal enzymes convert it to the active metabolite (desphenol), which directly stimulates nerve endings of the colonic mucosa, enhancing peristalsis. It also increases water and electrolyte secretion into the bowel lumen, softening the stool. It acts only in the colon.`,
+    farmakokinetika: {
+      sorish: "Barely absorbed orally/rectally (<5%); local action",
+      tarqalish: "Systemic distribution negligible",
+      metabolizm: "Converted to the active metabolite in the gut; the absorbed fraction is conjugated in the liver",
+      chiqarilish: "Mainly in faeces; a small part in urine (glucuronide)"
+    },
+    korsatmalar: [
+      "Chronic and episodic constipation",
+      "Bowel emptying before surgery or childbirth",
+      "Bowel preparation for diagnostics (X-ray, endoscopy)",
+      "Conditions requiring easier defecation (haemorrhoids, anal fissure)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to bisacodyl",
+      "Intestinal obstruction (ileus), acute abdomen, acute inflammatory bowel disease",
+      "Acute appendicitis, undiagnosed abdominal pain",
+      "Severe dehydration, electrolyte disturbances"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Intestinal colic, spasm, diarrhoea, nausea",
+      "Metabolic": "Water and electrolyte loss (hypokalaemia) with prolonged/excessive use",
+      "Other": "Laxative-dependent bowel (atony), dependence with prolonged use"
+    },
+    dozadan: "Diarrhoea, water and electrolyte loss, hypokalaemia. Treatment: replace fluids and electrolytes.",
+    ozarotasir: [
+      "Hypokalaemia risk increases with diuretics and corticosteroids",
+      "Hypokalaemia enhances the effect of cardiac glycosides",
+      "Antacids/milk prematurely dissolve the enteric coating — separate by 1 hour"
+    ],
+    qollash: {
+      kattalar: "Oral 5–10 mg at night; rectal suppository 10 mg in the morning. Higher for examination preparation.",
+      bolalar: "From 4 years: 5 mg; rectally 5–10 mg by age"
+    },
+    chiqarish: "Enteric tablets/dragees 5 mg; rectal suppositories 10 mg"
+  }
+},
+
+// ─── A06AB06 · Sennozidlar (senna) ────────────────────────────────────────
+"A06AB06": {
+  uz: {
+    gruppa: "Surgi (laksativ) vositalar — o'simlik kontakt (antraxinonlar)",
+    farmTasir: "Senna asosidagi qo'zg'atuvchi surgi vosita",
+    farmakodinamika: `Sennozidlar A va B — senna (Cassia/Senna) o'simligi bargi va mevasidan olingan antraxinon (antraglikozid) hosilalari. Yo'g'on ichak bakteriyalari ta'sirida faol shaklga (reinantron) parchalanib, yo'g'on ichak shilliq pardasi va Auerbax chigalini qo'zg'atadi, peristaltikani kuchaytiradi. Shu bilan birga suv va elektrolitlarning ichakdan so'rilishini kamaytirib, luminга sekretsiyani oshiradi — najas hajmi va namligi ortadi. Ta'sir 8–12 soatdan keyin boshlanadi.`,
+    farmakokinetika: {
+      sorish: "Faol birikma deyarli so'rilmaydi; yo'g'on ichakда bakterial faollanadi",
+      tarqalish: "Tizimli taqsimlanish ahamiyatsiz",
+      metabolizm: "Ichak bakteriyalari tomonidan faollashtiriladi",
+      chiqarilish: "Asosan najas bilan; oz qism siydik (rangini o'zgartirishi mumkin)"
+    },
+    korsatmalar: [
+      "Surunkali va vaqtinchalik qabziyat (ichak atoniyasi/sustligi)",
+      "Defekatsiyani yumshatish kerak bo'lgan holatlar (bavosil, anal yoriq, operatsiyadan keyin)",
+      "Diagnostik tekshiruv oldidan ichakni tozalash"
+    ],
+    qarrshi: [
+      "Senna/antraxinonlarga o'ta sezuvchanlik",
+      "Ichak tutilishi, o'tkir qorin, o'tkir yallig'lanishli ichak kasalliklari, appendisit",
+      "Spastik qabziyat, noaniq qorin og'rig'i",
+      "Og'ir degidratatsiya; homiladorlik (I trimestr) va emizish (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Qorin sanchig'i, spazm, diareya",
+      "Metabolik": "Uzoq qo'llashda gipokaliemiya, albuminuriya, gematuriya",
+      "Boshqa": "Uzoq qo'llashda ichak shilliq pardasining pigmentatsiyasi (melanosis coli), atoniya, bog'liqlik; siydik rangining o'zgarishi"
+    },
+    dozadan: "Diareya, qorin og'rig'i, suv-elektrolit yo'qotilishi (gipokaliemiya). Davolash: suyuqlik va elektrolitlarni to'ldirish.",
+    ozarotasir: [
+      "Diuretiklar, GKS, mineralokortikoidlar bilan gipokaliemiya xavfi oshadi",
+      "Gipokaliemiya yurak glikozidlari ta'sirini kuchaytiradi"
+    ],
+    qollash: {
+      kattalar: "1–2 tabletka (15–30 mg sennozid) yoki choy/damlama kechqurun uxlash oldidan; ta'sir 8–12 soatда.",
+      bolalar: "6 yoshdan: kamaytirilgan dozada, qisqa muddat"
+    },
+    chiqarish: "Tabletkalar (sennozid 13,5 mg); o'simlik xom ashyosi (barg/meva), choy"
+  },
+  ru: {
+    gruppa: "Слабительные средства — растительные контактные (антрахиноны)",
+    farmTasir: "Стимулирующее слабительное на основе сенны",
+    farmakodinamika: `Сеннозиды A и B — производные антрахинона (антрагликозиды) из листьев и плодов сенны (Cassia/Senna). Под действием бактерий толстой кишки расщепляются до активной формы (реинантрон), раздражающей слизистую толстой кишки и ауэрбаховское сплетение, усиливая перистальтику. Одновременно снижают всасывание воды и электролитов из кишки и повышают секрецию в просвет — увеличивая объём и влажность кала. Действие наступает через 8–12 ч.`,
+    farmakokinetika: {
+      sorish: "Активное соединение почти не всасывается; активируется бактериями толстой кишки",
+      tarqalish: "Системное распределение незначительно",
+      metabolizm: "Активируется кишечными бактериями",
+      chiqarilish: "Преимущественно с калом; небольшая часть с мочой (может изменять её цвет)"
+    },
+    korsatmalar: [
+      "Хронический и эпизодический запор (атония/вялость кишечника)",
+      "Состояния, требующие облегчения дефекации (геморрой, анальная трещина, после операции)",
+      "Очищение кишечника перед диагностикой"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к сенне/антрахинонам",
+      "Кишечная непроходимость, острый живот, острые воспалительные заболевания кишечника, аппендицит",
+      "Спастический запор, неясная боль в животе",
+      "Тяжёлая дегидратация; беременность (I триместр) и лактация (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Кишечная колика, спазм, диарея",
+      "Метаболические": "При длительном применении гипокалиемия, альбуминурия, гематурия",
+      "Прочие": "При длительном применении пигментация слизистой кишки (melanosis coli), атония, зависимость; изменение цвета мочи"
+    },
+    dozadan: "Диарея, боль в животе, потеря воды и электролитов (гипокалиемия). Лечение: восполнение жидкости и электролитов.",
+    ozarotasir: [
+      "С диуретиками, ГКС, минералокортикоидами повышается риск гипокалиемии",
+      "Гипокалиемия усиливает действие сердечных гликозидов"
+    ],
+    qollash: {
+      kattalar: "1–2 таблетки (15–30 мг сеннозидов) или чай/настой на ночь; действие через 8–12 ч.",
+      bolalar: "С 6 лет: в сниженной дозе, кратковременно"
+    },
+    chiqarish: "Таблетки (сеннозиды 13,5 мг); растительное сырьё (лист/плод), чай"
+  },
+  en: {
+    gruppa: "Laxatives — herbal contact (anthraquinones)",
+    farmTasir: "Senna-based stimulant laxative",
+    farmakodinamika: `Sennosides A and B are anthraquinone (anthraglycoside) derivatives from the leaves and pods of senna (Cassia/Senna). Colonic bacteria split them to the active form (rheinanthrone), which irritates the colonic mucosa and the Auerbach plexus, enhancing peristalsis. They also reduce water and electrolyte absorption from the bowel and increase luminal secretion — increasing stool volume and moisture. Onset is in 8–12 h.`,
+    farmakokinetika: {
+      sorish: "The active compound is barely absorbed; activated by colonic bacteria",
+      tarqalish: "Systemic distribution negligible",
+      metabolizm: "Activated by gut bacteria",
+      chiqarilish: "Mainly in faeces; a small part in urine (may change its colour)"
+    },
+    korsatmalar: [
+      "Chronic and episodic constipation (bowel atony/sluggishness)",
+      "Conditions requiring easier defecation (haemorrhoids, anal fissure, postoperative)",
+      "Bowel cleansing before diagnostics"
+    ],
+    qarrshi: [
+      "Hypersensitivity to senna/anthraquinones",
+      "Intestinal obstruction, acute abdomen, acute inflammatory bowel disease, appendicitis",
+      "Spastic constipation, undiagnosed abdominal pain",
+      "Severe dehydration; pregnancy (first trimester) and lactation (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Intestinal colic, spasm, diarrhoea",
+      "Metabolic": "Hypokalaemia, albuminuria, haematuria with prolonged use",
+      "Other": "Colonic mucosal pigmentation (melanosis coli), atony, dependence with prolonged use; urine colour change"
+    },
+    dozadan: "Diarrhoea, abdominal pain, water and electrolyte loss (hypokalaemia). Treatment: replace fluids and electrolytes.",
+    ozarotasir: [
+      "Hypokalaemia risk increases with diuretics, corticosteroids, mineralocorticoids",
+      "Hypokalaemia enhances the effect of cardiac glycosides"
+    ],
+    qollash: {
+      kattalar: "1–2 tablets (15–30 mg sennosides) or tea/infusion at night; onset in 8–12 h.",
+      bolalar: "From 6 years: reduced dose, short term"
+    },
+    chiqarish: "Tablets (sennosides 13.5 mg); herbal material (leaf/pod), tea"
+  }
+},
+
+// ─── A06AB08 · Natriy pikosulfat ──────────────────────────────────────────
+"A06AB08": {
+  uz: {
+    gruppa: "Surgi (laksativ) vositalar — kontakt (stimulyatsiyalovchi)",
+    farmTasir: "Yo'g'on ichakni qo'zg'atuvchi surgi vosita",
+    farmakodinamika: `Natriy pikosulfat — triarilmetan hosilasi, kontakt (stimulyatsiyalovchi) laksativ. Yo'g'on ichak bakteriyalari (sulfataza) ta'sirida faol metabolitga aylanadi, yo'g'on ichak shilliq pardasini qo'zg'atib peristaltikani kuchaytiradi va suv-elektrolitlar so'rilishini kamaytiradi. Bisakodilga o'xshash mexanizm, lekin oshqozon va ingichka ichakда parchalanmaydi — faqat yo'g'on ichakда faollashadi. Ta'sir 6–12 soatda boshlanadi.`,
+    farmakokinetika: {
+      sorish: "Deyarli so'rilmaydi; yo'g'on ichakда bakterial faollanadi",
+      tarqalish: "Tizimli taqsimlanish ahamiyatsiz",
+      metabolizm: "Ichak bakteriyalari tomonidan faollashtiriladi",
+      chiqarilish: "Asosan najas bilan"
+    },
+    korsatmalar: [
+      "Surunkali va vaqtinchalik qabziyat",
+      "Defekatsiyani yumshatish kerak bo'lgan holatlar",
+      "Diagnostik tekshiruv/operatsiya oldidan ichakni tayyorlash (kombinatsiyalangan shakllarda)"
+    ],
+    qarrshi: [
+      "Natriy pikosulfatга o'ta sezuvchanlik",
+      "Ichak tutilishi, o'tkir qorin, o'tkir yallig'lanishli ichak kasalliklari, appendisit",
+      "Og'ir degidratatsiya, elektrolit buzilishlari"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Qorin sanchig'i, spazm, diareya, ko'ngil aynishi",
+      "Metabolik": "Uzoq/ko'p qo'llashda gipokaliemiya, suyuqlik yo'qotilishi",
+      "Boshqa": "Uzoq qo'llashda atoniya va bog'liqlik"
+    },
+    dozadan: "Diareya, suv-elektrolit yo'qotilishi, gipokaliemiya. Davolash: suyuqlik/elektrolit to'ldirish.",
+    ozarotasir: [
+      "Diuretiklar, GKS bilan gipokaliemiya xavfi oshadi",
+      "Keng spektrli antibiotiklar ichak florasini bostirib laksativ ta'sirini kamaytiradi",
+      "Gipokaliemiya yurak glikozidlari ta'sirini kuchaytiradi"
+    ],
+    qollash: {
+      kattalar: "5–10 mg (10–20 tomchi) yoki 1 tabletka kechqurun uxlash oldidan; ta'sir 6–12 soatда.",
+      bolalar: "4 yoshdan: 2,5–5 mg (5–10 tomchi) kechqurun"
+    },
+    chiqarish: "Tomchilar 7,5 mg/ml; tabletkalar 5 mg"
+  },
+  ru: {
+    gruppa: "Слабительные средства — контактные (стимулирующие)",
+    farmTasir: "Слабительное, стимулирующее толстую кишку",
+    farmakodinamika: `Натрия пикосульфат — производное триарилметана, контактное (стимулирующее) слабительное. Под действием бактерий толстой кишки (сульфатаза) превращается в активный метаболит, раздражающий слизистую толстой кишки, усиливая перистальтику и снижая всасывание воды и электролитов. Механизм подобен бисакодилу, но не расщепляется в желудке и тонкой кишке — активируется только в толстой. Действие через 6–12 ч.`,
+    farmakokinetika: {
+      sorish: "Почти не всасывается; активируется бактериями толстой кишки",
+      tarqalish: "Системное распределение незначительно",
+      metabolizm: "Активируется кишечными бактериями",
+      chiqarilish: "Преимущественно с калом"
+    },
+    korsatmalar: [
+      "Хронический и эпизодический запор",
+      "Состояния, требующие облегчения дефекации",
+      "Подготовка кишечника перед диагностикой/операцией (в комбинированных формах)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к натрия пикосульфату",
+      "Кишечная непроходимость, острый живот, острые воспалительные заболевания кишечника, аппендицит",
+      "Тяжёлая дегидратация, электролитные нарушения"
+    ],
+    nojoya: {
+      "ЖКТ": "Кишечная колика, спазм, диарея, тошнота",
+      "Метаболические": "При длительном/избыточном применении гипокалиемия, потеря жидкости",
+      "Прочие": "При длительном применении атония и зависимость"
+    },
+    dozadan: "Диарея, потеря воды и электролитов, гипокалиемия. Лечение: восполнение жидкости/электролитов.",
+    ozarotasir: [
+      "С диуретиками, ГКС повышается риск гипокалиемии",
+      "Антибиотики широкого спектра подавляют флору, снижая слабительное действие",
+      "Гипокалиемия усиливает действие сердечных гликозидов"
+    ],
+    qollash: {
+      kattalar: "5–10 мг (10–20 капель) или 1 таблетка на ночь; действие через 6–12 ч.",
+      bolalar: "С 4 лет: 2,5–5 мг (5–10 капель) на ночь"
+    },
+    chiqarish: "Капли 7,5 мг/мл; таблетки 5 мг"
+  },
+  en: {
+    gruppa: "Laxatives — contact (stimulant)",
+    farmTasir: "Stimulant laxative acting on the colon",
+    farmakodinamika: `Sodium picosulfate is a triarylmethane derivative, a contact (stimulant) laxative. Colonic bacteria (sulfatase) convert it to an active metabolite that irritates the colonic mucosa, enhancing peristalsis and reducing water and electrolyte absorption. Its mechanism is similar to bisacodyl, but it is not split in the stomach and small intestine — being activated only in the colon. Onset is in 6–12 h.`,
+    farmakokinetika: {
+      sorish: "Barely absorbed; activated by colonic bacteria",
+      tarqalish: "Systemic distribution negligible",
+      metabolizm: "Activated by gut bacteria",
+      chiqarilish: "Mainly in faeces"
+    },
+    korsatmalar: [
+      "Chronic and episodic constipation",
+      "Conditions requiring easier defecation",
+      "Bowel preparation before diagnostics/surgery (in combination forms)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to sodium picosulfate",
+      "Intestinal obstruction, acute abdomen, acute inflammatory bowel disease, appendicitis",
+      "Severe dehydration, electrolyte disturbances"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Intestinal colic, spasm, diarrhoea, nausea",
+      "Metabolic": "Hypokalaemia, fluid loss with prolonged/excessive use",
+      "Other": "Atony and dependence with prolonged use"
+    },
+    dozadan: "Diarrhoea, water and electrolyte loss, hypokalaemia. Treatment: replace fluids/electrolytes.",
+    ozarotasir: [
+      "Hypokalaemia risk increases with diuretics, corticosteroids",
+      "Broad-spectrum antibiotics suppress flora, reducing the laxative effect",
+      "Hypokalaemia enhances the effect of cardiac glycosides"
+    ],
+    qollash: {
+      kattalar: "5–10 mg (10–20 drops) or 1 tablet at night; onset in 6–12 h.",
+      bolalar: "From 4 years: 2.5–5 mg (5–10 drops) at night"
+    },
+    chiqarish: "Drops 7.5 mg/mL; tablets 5 mg"
+  }
+},
+
+// ─── A06AD11 · Laktuloza ──────────────────────────────────────────────────
+"A06AD11": {
+  uz: {
+    gruppa: "Surgi (laksativ) vositalar — osmotik",
+    farmTasir: "Osmotik surgi va ammiakni kamaytiruvchi vosita",
+    farmakodinamika: `Laktuloza — galaktoza va fruktozadan iborat sintetik disaxarid. Ingichka ichakда so'rilmaydi va parchalanmaydi (inson fermentlari yo'q), yo'g'on ichakda bakteriyalar tomonidan past molekulali organik kislotalarga (sut, sirka, chumoli kislotasi) parchalanadi. Bu osmotik bosimni oshirib ichakka suv tortadi, najas hajmini va namligini oshiradi hamda peristaltikani rag'batlantiradi (laksativ ta'sir). Ichak muhitini kislotali qiladi, bu ammiak (NH3) ni ammoniyga (NH4+) aylantirib qonga so'rilishini kamaytiradi (gipoammoniemik ta'sir — jigar ensefalopatiyasida).`,
+    farmakokinetika: {
+      sorish: "Deyarli so'rilmaydi (<3%); yo'g'on ichakда bakterial parchalanadi",
+      tarqalish: "Tizimli taqsimlanish ahamiyatsiz",
+      metabolizm: "Yo'g'on ichak bakteriyalari tomonidan metabolizmga uchraydi",
+      chiqarilish: "Asosan najas bilan"
+    },
+    korsatmalar: [
+      "Surunkali qabziyat (yumshoq, fiziologik surgi)",
+      "Jigar ensefalopatiyasi (prekoma va koma) profilaktikasi va davosi",
+      "Defekatsiyani yumshatish kerak bo'lgan holatlar (bavosil, anal yoriq, operatsiyadan keyin)",
+      "Salmonellyoz tashuvchanligida ichak florasini sog'lomlashtirish"
+    ],
+    qarrshi: [
+      "Laktulozaга o'ta sezuvchanlik",
+      "Galaktozemiya",
+      "Ichak tutilishi, o'tkir qorin, ichak perforatsiyasi xavfi",
+      "Ehtiyotkorlik: qandli diabet (yuqori dozalarda)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Meteorizm, qorin shishi va sanchig'i (boshlanishida), diareya (ko'p dozada)",
+      "Metabolik": "Uzoq/ko'p qo'llashda suv-elektrolit (kaliy) yo'qotilishi",
+      "Boshqa": "Ko'ngil aynishi (kam)"
+    },
+    dozadan: "Diareya va qorin og'rig'i, elektrolit yo'qotilishi. Davolash: dozani kamaytirish, suyuqlik/elektrolitlarni to'ldirish.",
+    ozarotasir: [
+      "Ichak pH ini pasaytiruvchi (laktuloza) ta'siri yo'g'on ichakда faollashadigan preparatlarga (ba'zi PPI/mesalazinга) ta'sir qilishi mumkin",
+      "Antatsidlar va antibiotiklar laksativ/ozaytiruvchi ta'sirini kamaytirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "Qabziyat: 15–45 ml/sut (boshlang'ich), keyin 10–25 ml/sut saqlash. Jigar ensefalopatiyasi: 30–45 ml kuniga 3–4 marta (kuniga 2–3 yumshoq najasga erishilguncha).",
+      bolalar: "Yoshга qarab 5–15 ml/sut (chaqaloqlar uchun ham mavjud)"
+    },
+    chiqarish: "Ichish uchun sirop 667 mg/ml (paketlar yoki flakonlar)"
+  },
+  ru: {
+    gruppa: "Слабительные средства — осмотические",
+    farmTasir: "Осмотическое слабительное, снижающее аммиак",
+    farmakodinamika: `Лактулоза — синтетический дисахарид из галактозы и фруктозы. Не всасывается и не расщепляется в тонкой кишке (нет ферментов у человека), в толстой кишке расщепляется бактериями до низкомолекулярных органических кислот (молочная, уксусная, муравьиная). Это повышает осмотическое давление, притягивая воду в кишку, увеличивает объём и влажность кала и стимулирует перистальтику (слабительное действие). Закисляет содержимое кишки, превращая аммиак (NH3) в аммоний (NH4+) и снижая его всасывание в кровь (гипоаммониемическое действие — при печёночной энцефалопатии).`,
+    farmakokinetika: {
+      sorish: "Почти не всасывается (<3%); расщепляется бактериями толстой кишки",
+      tarqalish: "Системное распределение незначительно",
+      metabolizm: "Метаболизируется бактериями толстой кишки",
+      chiqarilish: "Преимущественно с калом"
+    },
+    korsatmalar: [
+      "Хронический запор (мягкое физиологическое слабительное)",
+      "Профилактика и лечение печёночной энцефалопатии (прекома и кома)",
+      "Состояния, требующие облегчения дефекации (геморрой, анальная трещина, после операции)",
+      "Оздоровление кишечной флоры при сальмонеллёзном носительстве"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к лактулозе",
+      "Галактоземия",
+      "Кишечная непроходимость, острый живот, риск перфорации кишки",
+      "С осторожностью: сахарный диабет (при высоких дозах)"
+    ],
+    nojoya: {
+      "ЖКТ": "Метеоризм, вздутие и колика (в начале), диарея (при высоких дозах)",
+      "Метаболические": "При длительном/избыточном применении потеря воды и электролитов (калия)",
+      "Прочие": "Тошнота (редко)"
+    },
+    dozadan: "Диарея и боль в животе, потеря электролитов. Лечение: снижение дозы, восполнение жидкости/электролитов.",
+    ozarotasir: [
+      "Закисляя содержимое кишки, может влиять на препараты, активируемые в толстой кишке (некоторые ИПП/месалазин)",
+      "Антациды и антибиотики могут снижать слабительное/закисляющее действие"
+    ],
+    qollash: {
+      kattalar: "Запор: 15–45 мл/сут (начальная), затем 10–25 мл/сут поддержка. Печёночная энцефалопатия: 30–45 мл 3–4 раза в день (до 2–3 мягких стулов в день).",
+      bolalar: "По возрасту 5–15 мл/сут (есть формы для младенцев)"
+    },
+    chiqarish: "Сироп для приёма внутрь 667 мг/мл (пакеты или флаконы)"
+  },
+  en: {
+    gruppa: "Laxatives — osmotic",
+    farmTasir: "Osmotic laxative that lowers ammonia",
+    farmakodinamika: `Lactulose is a synthetic disaccharide of galactose and fructose. It is not absorbed or split in the small intestine (humans lack the enzyme); in the colon bacteria break it down to low-molecular organic acids (lactic, acetic, formic). This raises osmotic pressure, drawing water into the bowel, increasing stool volume and moisture and stimulating peristalsis (laxative effect). It acidifies the bowel content, converting ammonia (NH3) to ammonium (NH4+) and reducing its absorption into the blood (hypoammonaemic effect — in hepatic encephalopathy).`,
+    farmakokinetika: {
+      sorish: "Barely absorbed (<3%); broken down by colonic bacteria",
+      tarqalish: "Systemic distribution negligible",
+      metabolizm: "Metabolised by colonic bacteria",
+      chiqarilish: "Mainly in faeces"
+    },
+    korsatmalar: [
+      "Chronic constipation (gentle physiological laxative)",
+      "Prophylaxis and treatment of hepatic encephalopathy (precoma and coma)",
+      "Conditions requiring easier defecation (haemorrhoids, anal fissure, postoperative)",
+      "Restoring gut flora in Salmonella carriage"
+    ],
+    qarrshi: [
+      "Hypersensitivity to lactulose",
+      "Galactosaemia",
+      "Intestinal obstruction, acute abdomen, risk of bowel perforation",
+      "Caution: diabetes mellitus (at high doses)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Flatulence, bloating and colic (at the start), diarrhoea (at high doses)",
+      "Metabolic": "Water and electrolyte (potassium) loss with prolonged/excessive use",
+      "Other": "Nausea (rare)"
+    },
+    dozadan: "Diarrhoea and abdominal pain, electrolyte loss. Treatment: reduce dose, replace fluids/electrolytes.",
+    ozarotasir: [
+      "By acidifying bowel content it may affect drugs activated in the colon (some PPIs/mesalazine)",
+      "Antacids and antibiotics may reduce the laxative/acidifying effect"
+    ],
+    qollash: {
+      kattalar: "Constipation: 15–45 mL/day (initial), then 10–25 mL/day maintenance. Hepatic encephalopathy: 30–45 mL 3–4 times daily (to achieve 2–3 soft stools/day).",
+      bolalar: "By age 5–15 mL/day (infant formulations available)"
+    },
+    chiqarish: "Oral syrup 667 mg/mL (sachets or bottles)"
+  }
+},
+
+// ─── A06AX01 · Glitserin (rektal) ─────────────────────────────────────────
+"A06AX01": {
+  uz: {
+    gruppa: "Surgi (laksativ) vositalar — boshqa (osmotik/yumshatuvchi)",
+    farmTasir: "Mahalliy osmotik rektal surgi vosita",
+    farmakodinamika: `Glitserin (glitserol) — rektal yo'l bilan qo'llanганда osmotik va yumshatuvchi laksativ. To'g'ri ichak shilliq pardasidan suv tortib najasni yumshatadi va hajmini oshiradi; shilliq pardani yengil tirnashtirib (osmotik va mahalliy ta'sir) defekatsiya refleksini qo'zg'atadi. Shuningdek surilish jarayonini yengillashtiruvchi moylash (lubrikant) ta'siriga ega. Ta'sir tez (15–30 daqiqada) boshlanadi.`,
+    farmakokinetika: {
+      sorish: "Rektal qo'llashda mahalliy ta'sir; oz qism so'rilib metabolizmga kiradi",
+      tarqalish: "So'rilgan qism organizm suvi bilan tarqaladi",
+      metabolizm: "Jigarда glyukoza va glikogenga metabolizmga uchraydi",
+      chiqarilish: "Metabolitlar tabiiy yo'llar bilan"
+    },
+    korsatmalar: [
+      "Vaqtinchalik qabziyat (ich qotishi)",
+      "Defekatsiyani yengillashtirish kerak bo'lgan holatlar (bavosil, anal yoriq, keksalar, yotoq rejimi)",
+      "Tug'ruqdan keyin va operatsiyadan keyin ichakni yengil bo'shatish"
+    ],
+    qarrshi: [
+      "Glitseringa o'ta sezuvchanlik",
+      "To'g'ri ichak yallig'lanishi, yoriqlari yoki o'smasi (o'tkir bosqichda)",
+      "O'tkir gemorroy zo'rayishi, proktit, anal qonash"
+    ],
+    nojoya: {
+      "Mahalliy": "To'g'ri ichakда achishish, tirnashish, kamdan-kam yallig'lanish",
+      "Boshqa": "Uzoq qo'llashda to'g'ri ichak kataralli yallig'lanishi, tabiiy defekatsiya refleksining susayishi"
+    },
+    dozadan: "Mahalliy qo'llashda ehtimoli past; uzoq qo'llashda mahalliy tirnashish — to'xtatish.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir yo'q (mahalliy)"
+    ],
+    qollash: {
+      kattalar: "1 rektal svecha (2–3 g) kerak bo'lganda, odatda ertalab nonushtadan keyin.",
+      bolalar: "Bolalar uchun svechalar (1–1,5 g) yoshга qarab"
+    },
+    chiqarish: "Rektal svechalar 1,5 g (bolalar), 2–3 g (kattalar); rektal eritma"
+  },
+  ru: {
+    gruppa: "Слабительные средства — прочие (осмотические/смягчающие)",
+    farmTasir: "Местное осмотическое ректальное слабительное",
+    farmakodinamika: `Глицерин (глицерол) при ректальном применении — осмотическое и смягчающее слабительное. Притягивает воду из слизистой прямой кишки, размягчая кал и увеличивая его объём; лёгкое раздражение слизистой (осмотическое и местное действие) вызывает рефлекс дефекации. Обладает также смазывающим (лубрикантным) действием, облегчающим прохождение кала. Действие наступает быстро (через 15–30 минут).`,
+    farmakokinetika: {
+      sorish: "При ректальном применении местное действие; небольшая часть всасывается",
+      tarqalish: "Всосавшаяся часть распределяется с водой организма",
+      metabolizm: "Метаболизируется в печени до глюкозы и гликогена",
+      chiqarilish: "Метаболиты естественными путями"
+    },
+    korsatmalar: [
+      "Эпизодический запор",
+      "Состояния, требующие облегчения дефекации (геморрой, анальная трещина, пожилые, постельный режим)",
+      "Лёгкое опорожнение кишечника после родов и операций"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к глицерину",
+      "Воспаление, трещины или опухоль прямой кишки (в острой стадии)",
+      "Острое обострение геморроя, проктит, анальное кровотечение"
+    ],
+    nojoya: {
+      "Местные": "Жжение, раздражение в прямой кишке, редко воспаление",
+      "Прочие": "При длительном применении катаральное воспаление прямой кишки, ослабление естественного рефлекса дефекации"
+    },
+    dozadan: "При местном применении маловероятна; при длительном применении местное раздражение — отмена.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий нет (местное)"
+    ],
+    qollash: {
+      kattalar: "1 ректальная свеча (2–3 г) при необходимости, обычно утром после завтрака.",
+      bolalar: "Детские свечи (1–1,5 г) по возрасту"
+    },
+    chiqarish: "Ректальные свечи 1,5 г (детские), 2–3 г (взрослые); ректальный раствор"
+  },
+  en: {
+    gruppa: "Laxatives — other (osmotic/emollient)",
+    farmTasir: "Local osmotic rectal laxative",
+    farmakodinamika: `Glycerol (glycerin), administered rectally, is an osmotic and emollient laxative. It draws water from the rectal mucosa, softening the stool and increasing its volume; mild mucosal irritation (osmotic and local action) triggers the defecation reflex. It also has a lubricant effect that eases passage of stool. Onset is rapid (within 15–30 minutes).`,
+    farmakokinetika: {
+      sorish: "Local action with rectal use; a small part is absorbed",
+      tarqalish: "The absorbed fraction distributes with body water",
+      metabolizm: "Metabolised in the liver to glucose and glycogen",
+      chiqarilish: "Metabolites via natural pathways"
+    },
+    korsatmalar: [
+      "Episodic constipation",
+      "Conditions requiring easier defecation (haemorrhoids, anal fissure, elderly, bed rest)",
+      "Gentle bowel emptying after childbirth and surgery"
+    ],
+    qarrshi: [
+      "Hypersensitivity to glycerol",
+      "Rectal inflammation, fissures or tumour (in the acute stage)",
+      "Acute haemorrhoid exacerbation, proctitis, anal bleeding"
+    ],
+    nojoya: {
+      "Local": "Burning, irritation in the rectum, rarely inflammation",
+      "Other": "Catarrhal rectal inflammation and weakening of the natural defecation reflex with prolonged use"
+    },
+    dozadan: "Unlikely with local use; local irritation with prolonged use — discontinue.",
+    ozarotasir: [
+      "No clinically significant interactions (local)"
+    ],
+    qollash: {
+      kattalar: "1 rectal suppository (2–3 g) as needed, usually in the morning after breakfast.",
+      bolalar: "Paediatric suppositories (1–1.5 g) by age"
+    },
+    chiqarish: "Rectal suppositories 1.5 g (paediatric), 2–3 g (adult); rectal solution"
+  }
+},
+
+// ─── A07AA02 · Nistatin ───────────────────────────────────────────────────
+"A07AA02": {
+  uz: {
+    gruppa: "Ichak antiinfeksion vositalari (poliyen antibiotiklari)",
+    farmTasir: "Zamburug'larga qarshi (antifungal) poliyen antibiotik",
+    farmakodinamika: `Nistatin — poliyen guruhiga mansub antifungal antibiotik. Zamburug' hujayra membranasidagi ergosterolga bog'lanib, membranada g'ovaklar (kanallar) hosil qiladi; bu hujayra ichidagi ionlar (K+) va komponentlarning chiqib ketishiga olib keladi va zamburug' halok bo'ladi. Asosan Candida turlariga (C. albicans) fungistatik/fungitsid ta'sir ko'rsatadi. Bakteriyalar va viruslarga ta'siri yo'q. Mahalliy va ichak luminида ishlaydi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan deyarli so'rilmaydi; ichak luminида mahalliy ta'sir",
+      tarqalish: "Tizimli taqsimlanish ahamiyatsiz",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Asosan najas bilan o'zgarmagan holda"
+    },
+    korsatmalar: [
+      "Oshqozon-ichak yo'li kandidozi (og'iz, qizilo'ngach, ichak)",
+      "Antibiotiklar bilan davolashda kandidoz profilaktikasi",
+      "Teri va shilliq pardalar kandidozi (mahalliy shakllar)",
+      "Vaginal kandidoz (mahalliy shakllar)"
+    ],
+    qarrshi: [
+      "Nistatinга o'ta sezuvchanlik",
+      "Og'ir jigar funksiyasi buzilishi (ehtiyotkorlik)",
+      "Oshqozon-ichak yarasi zo'rayishi (ichak shakli uchun ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish, diareya, qorin noxushligi (katta dozada)",
+      "Allergiya": "Toshma, qichishish, isitma, kamdan-kam Stivens-Johnson sindromi",
+      "Boshqa": "Yuqori dozada ta'm sezgisining o'zgarishi"
+    },
+    dozadan: "Past tizimli so'rilish tufayli toksiklik past; ko'p dozada oshqozon-ichak belgilari — simptomatik.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega tizimli o'zaro ta'sir kam (so'rilmaydi)"
+    ],
+    qollash: {
+      kattalar: "Ichak kandidozida: 500 000 IB kuniga 3–4 marta (1,5–3 mln IB/sut), 10–14 kun. Og'iz kandidozida suspenziya bilan chayish/yutish.",
+      bolalar: "Yoshга qarab 100 000–250 000 IB kuniga 3–4 marta"
+    },
+    chiqarish: "Tabletkalar 500 000 IB; ichish uchun suspenziya; rektal/vaginal svechalar; malham"
+  },
+  ru: {
+    gruppa: "Кишечные противоинфекционные средства (полиеновые антибиотики)",
+    farmTasir: "Противогрибковый полиеновый антибиотик",
+    farmakodinamika: `Нистатин — противогрибковый антибиотик группы полиенов. Связывается с эргостеролом мембраны грибковой клетки, образуя в мембране поры (каналы); это ведёт к выходу внутриклеточных ионов (K+) и компонентов, и гриб погибает. Действует преимущественно фунгистатически/фунгицидно на виды Candida (C. albicans). На бактерии и вирусы не действует. Работает местно и в просвете кишечника.`,
+    farmakokinetika: {
+      sorish: "Почти не всасывается из ЖКТ; местное действие в просвете кишки",
+      tarqalish: "Системное распределение незначительно",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "Преимущественно с калом в неизменённом виде"
+    },
+    korsatmalar: [
+      "Кандидоз ЖКТ (рот, пищевод, кишечник)",
+      "Профилактика кандидоза при лечении антибиотиками",
+      "Кандидоз кожи и слизистых (местные формы)",
+      "Вагинальный кандидоз (местные формы)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к нистатину",
+      "Тяжёлые нарушения функции печени (с осторожностью)",
+      "Обострение язвы ЖКТ (с осторожностью для кишечной формы)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, рвота, диарея, дискомфорт в животе (при высоких дозах)",
+      "Аллергические": "Сыпь, зуд, лихорадка, редко синдром Стивенса–Джонсона",
+      "Прочие": "Изменение вкуса при высоких дозах"
+    },
+    dozadan: "Из-за низкого системного всасывания токсичность низкая; при больших дозах ЖКТ-симптомы — симптоматически.",
+    ozarotasir: [
+      "Клинически значимых системных взаимодействий мало (не всасывается)"
+    ],
+    qollash: {
+      kattalar: "При кишечном кандидозе: 500 000 ЕД 3–4 раза в день (1,5–3 млн ЕД/сут), 10–14 дней. При оральном кандидозе полоскание/проглатывание суспензии.",
+      bolalar: "По возрасту 100 000–250 000 ЕД 3–4 раза в день"
+    },
+    chiqarish: "Таблетки 500 000 ЕД; суспензия для приёма внутрь; ректальные/вагинальные свечи; мазь"
+  },
+  en: {
+    gruppa: "Intestinal anti-infectives (polyene antibiotics)",
+    farmTasir: "Antifungal polyene antibiotic",
+    farmakodinamika: `Nystatin is an antifungal antibiotic of the polyene group. It binds to ergosterol in the fungal cell membrane, forming pores (channels); this leads to leakage of intracellular ions (K+) and components, and the fungus dies. It acts mainly fungistatically/fungicidally against Candida species (C. albicans). It has no effect on bacteria or viruses. It works locally and in the bowel lumen.`,
+    farmakokinetika: {
+      sorish: "Barely absorbed from the GI tract; local action in the bowel lumen",
+      tarqalish: "Systemic distribution negligible",
+      metabolizm: "Not metabolised",
+      chiqarilish: "Mainly in faeces unchanged"
+    },
+    korsatmalar: [
+      "GI tract candidiasis (mouth, oesophagus, intestine)",
+      "Prophylaxis of candidiasis during antibiotic therapy",
+      "Skin and mucosal candidiasis (topical forms)",
+      "Vaginal candidiasis (local forms)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to nystatin",
+      "Severe hepatic impairment (caution)",
+      "Exacerbation of GI ulcer (caution for the intestinal form)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, vomiting, diarrhoea, abdominal discomfort (at high doses)",
+      "Hypersensitivity": "Rash, itching, fever, rarely Stevens–Johnson syndrome",
+      "Other": "Taste change at high doses"
+    },
+    dozadan: "Toxicity is low due to low systemic absorption; GI symptoms at large doses — symptomatic.",
+    ozarotasir: [
+      "Few clinically significant systemic interactions (not absorbed)"
+    ],
+    qollash: {
+      kattalar: "Intestinal candidiasis: 500,000 IU 3–4 times daily (1.5–3 million IU/day), 10–14 days. For oral candidiasis, swish/swallow the suspension.",
+      bolalar: "By age 100,000–250,000 IU 3–4 times daily"
+    },
+    chiqarish: "Tablets 500,000 IU; oral suspension; rectal/vaginal suppositories; ointment"
+  }
+},
+
+// ─── A07AX03 · Nifuroksazid ───────────────────────────────────────────────
+"A07AX03": {
+  uz: {
+    gruppa: "Ichak antiseptiklari (nitrofuran hosilalari)",
+    farmTasir: "Ichakка ta'sir qiluvchi antibakterial (ichak antiseptigi)",
+    farmakodinamika: `Nifuroksazid — nitrofuran hosilasi, ichak antiseptigi. Bakteriya hujayrasidagi degidrogenaza fermentlarini inhibe qilib, hayotiy muhim oqsillar va nuklein kislotalar sintezini buzadi; pastroq konsentratsiyada bakteriostatik, yuqori konsentratsiyada bakteritsid. Ko'plab gram-musbat (stafilokokk, streptokokk) va gram-manfiy (E. coli, Salmonella, Shigella, Klebsiella, Proteus, Vibrio) ichak patogenlariga faol. Ichak luminида ishlaydi, normal ichak florasini deyarli buzmaydi va chidamlilik kam rivojlanadi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan deyarli so'rilmaydi (<5%); ichak luminида mahalliy ta'sir",
+      tarqalish: "Tizimli taqsimlanish ahamiyatsiz",
+      metabolizm: "Ichakда faol ta'sir; so'rilgan oz qism metabolizmga uchraydi",
+      chiqarilish: "Asosan najas bilan"
+    },
+    korsatmalar: [
+      "O'tkir va surunkali bakterial diareya (ich ketishi)",
+      "Bakterial kelib chiqishli yuqumli enterit va kolit",
+      "Ichak infeksiyalari profilaktikasi va kompleks davosi",
+      "Regidratatsiya bilan birga ichburug' (suvsizlanish belgilarsiz)"
+    ],
+    qarrshi: [
+      "Nifuroksazid yoki nitrofuranlarga o'ta sezuvchanlik",
+      "1 oygacha (suspenziya) / 6 yoshgacha (kapsula) bolalar",
+      "Homiladorlik (I trimestr, ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i (kam), diareyaning kuchayishi (kam)",
+      "Allergiya": "Toshma, qichishish, eshakemi, kamdan-kam Kvinke shishi/anafilaksiya"
+    },
+    dozadan: "Past toksiklik (so'rilmaydi); simptomatik davolash.",
+    ozarotasir: [
+      "Etanol bilan disulfiramsimon reaksiya berishi mumkin",
+      "Sorbentlar (faollashtirilgan ko'mir) bilan birga ta'siri kamayadi",
+      "Tizimli o'zaro ta'sir kam (so'rilmaydi)"
+    ],
+    qollash: {
+      kattalar: "200 mg (1 kapsula) kuniga 4 marta; kurs 5–7 kun.",
+      bolalar: "1–6 oy: 100 mg kuniga 2–3 marta; 6 oy–6 yosh: 100 mg kuniga 3 marta; 6 yoshdan: 200 mg kuniga 3–4 marta (suspenziya)"
+    },
+    chiqarish: "Kapsulalar 200 mg; ichish uchun suspenziya 220 mg/5 ml"
+  },
+  ru: {
+    gruppa: "Кишечные антисептики (производные нитрофурана)",
+    farmTasir: "Антибактериальное средство, действующее в кишечнике (кишечный антисептик)",
+    farmakodinamika: `Нифуроксазид — производное нитрофурана, кишечный антисептик. Ингибирует дегидрогеназные ферменты бактериальной клетки, нарушая синтез жизненно важных белков и нуклеиновых кислот; в более низких концентрациях бактериостатичен, в высоких — бактерициден. Активен в отношении многих грамположительных (стафилококки, стрептококки) и грамотрицательных (E. coli, Salmonella, Shigella, Klebsiella, Proteus, Vibrio) кишечных патогенов. Действует в просвете кишечника, почти не нарушает нормальную флору, устойчивость развивается мало.`,
+    farmakokinetika: {
+      sorish: "Почти не всасывается из ЖКТ (<5%); местное действие в просвете кишки",
+      tarqalish: "Системное распределение незначительно",
+      metabolizm: "Действует в кишке; всосавшаяся малая часть метаболизируется",
+      chiqarilish: "Преимущественно с калом"
+    },
+    korsatmalar: [
+      "Острая и хроническая бактериальная диарея",
+      "Инфекционный энтерит и колит бактериального происхождения",
+      "Профилактика и комплексное лечение кишечных инфекций",
+      "Диарея с регидратацией (без признаков обезвоживания)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к нифуроксазиду или нитрофуранам",
+      "Дети до 1 месяца (суспензия) / до 6 лет (капсулы)",
+      "Беременность (I триместр, с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, боль в животе (редко), усиление диареи (редко)",
+      "Аллергические": "Сыпь, зуд, крапивница, редко отёк Квинке/анафилаксия"
+    },
+    dozadan: "Низкая токсичность (не всасывается); симптоматическое лечение.",
+    ozarotasir: [
+      "С этанолом может давать дисульфирамоподобную реакцию",
+      "С сорбентами (активированный уголь) действие снижается",
+      "Системных взаимодействий мало (не всасывается)"
+    ],
+    qollash: {
+      kattalar: "200 мг (1 капсула) 4 раза в день; курс 5–7 дней.",
+      bolalar: "1–6 мес: 100 мг 2–3 раза в день; 6 мес–6 лет: 100 мг 3 раза в день; с 6 лет: 200 мг 3–4 раза в день (суспензия)"
+    },
+    chiqarish: "Капсулы 200 мг; суспензия для приёма внутрь 220 мг/5 мл"
+  },
+  en: {
+    gruppa: "Intestinal antiseptics (nitrofuran derivatives)",
+    farmTasir: "Antibacterial acting in the bowel (intestinal antiseptic)",
+    farmakodinamika: `Nifuroxazide is a nitrofuran derivative, an intestinal antiseptic. It inhibits bacterial dehydrogenase enzymes, disrupting synthesis of vital proteins and nucleic acids; bacteriostatic at lower and bactericidal at higher concentrations. It is active against many Gram-positive (staphylococci, streptococci) and Gram-negative (E. coli, Salmonella, Shigella, Klebsiella, Proteus, Vibrio) enteric pathogens. It acts in the bowel lumen, barely disturbs the normal flora, and resistance rarely develops.`,
+    farmakokinetika: {
+      sorish: "Barely absorbed from the GI tract (<5%); local action in the bowel lumen",
+      tarqalish: "Systemic distribution negligible",
+      metabolizm: "Acts in the bowel; the small absorbed fraction is metabolised",
+      chiqarilish: "Mainly in faeces"
+    },
+    korsatmalar: [
+      "Acute and chronic bacterial diarrhoea",
+      "Infectious enteritis and colitis of bacterial origin",
+      "Prophylaxis and combination treatment of intestinal infections",
+      "Diarrhoea with rehydration (without signs of dehydration)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to nifuroxazide or nitrofurans",
+      "Children under 1 month (suspension) / under 6 years (capsules)",
+      "Pregnancy (first trimester, caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, abdominal pain (rare), worsening of diarrhoea (rare)",
+      "Hypersensitivity": "Rash, itching, urticaria, rarely angioedema/anaphylaxis"
+    },
+    dozadan: "Low toxicity (not absorbed); symptomatic treatment.",
+    ozarotasir: [
+      "May cause a disulfiram-like reaction with ethanol",
+      "Effect is reduced with sorbents (activated charcoal)",
+      "Few systemic interactions (not absorbed)"
+    ],
+    qollash: {
+      kattalar: "200 mg (1 capsule) four times daily; course 5–7 days.",
+      bolalar: "1–6 months: 100 mg 2–3 times daily; 6 months–6 years: 100 mg three times daily; from 6 years: 200 mg 3–4 times daily (suspension)"
+    },
+    chiqarish: "Capsules 200 mg; oral suspension 220 mg/5 mL"
+  }
 }
 
 };
