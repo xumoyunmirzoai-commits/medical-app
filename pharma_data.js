@@ -7204,6 +7204,1035 @@ const PHARMA_DATA = {
     },
     chiqarish: "Tablets 100 mg"
   }
+},
+
+// ─── A02DA · Simetikon (gaz haydovchi) ────────────────────────────────────
+"A02DA": {
+  uz: {
+    gruppa: "Gaz haydovchi (antiflatulent) vositalar",
+    farmTasir: "Ichakdagi gaz to'planishini kamaytiruvchi vosita",
+    farmakodinamika: `Simetikon — dimetilsiloksan va kremniy dioksidi asosidagi inert silikon birikma. Ichak suyuqligi va shilimshig'idagi gaz pufakchalarining yuza tarangligini pasaytiradi, natijada pufakchalar birlashib yorilib, gaz ichak devori orqali so'riladi yoki peristaltika bilan chiqariladi. Meteorizm, qorin shishi va gaz bilan bog'liq og'riqni kamaytiradi. Kimyoviy va fiziologik jihatdan inert — so'rilmaydi, fermentlar va bakteriyalarga ta'sir qilmaydi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan umuman so'rilmaydi",
+      tarqalish: "Faqat ichak luminida fizik ta'sir qiladi",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "O'zgarmagan holda najas bilan to'liq chiqariladi"
+    },
+    korsatmalar: [
+      "Meteorizm, qorin shishi, aerofagiya",
+      "Funksional dispepsiyada gaz simptomlari",
+      "Operatsiya yoki rentgen/ultratovush tekshiruvidan oldin ichakda gazni kamaytirish",
+      "Yuvuvchi vositalar (detergentlar) bilan zaharlanishda ko'piklanishni kamaytirish"
+    ],
+    qarrshi: [
+      "Simetikonga o'ta sezuvchanlik",
+      "Ichak obstruksiyasi yoki perforatsiyasi"
+    ],
+    nojoya: {
+      "Umumiy": "Juda yaxshi ko'tariladi; kamdan-kam allergik reaksiya (toshma, qichishish)"
+    },
+    dozadan: "Inert bo'lgani uchun doza oshib ketishi xavfsiz; maxsus chora talab qilmaydi.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir yo'q (so'rilmaydi)"
+    ],
+    qollash: {
+      kattalar: "40–125 mg har ovqatdan keyin va uxlash oldidan; kuniga 3–4 marta.",
+      bolalar: "Chaqaloqlar va bolalarda yoshga mos tomchi/suspenziya shakllari (qorin sanchig'ida)"
+    },
+    chiqarish: "Kapsulalar, chaynaladigan tabletkalar, emulsiya/tomchilar (40–125 mg)"
+  },
+  ru: {
+    gruppa: "Ветрогонные (антифлатулентные) средства",
+    farmTasir: "Средство, уменьшающее скопление газов в кишечнике",
+    farmakodinamika: `Симетикон — инертное силиконовое соединение на основе диметилсилоксана и диоксида кремния. Снижает поверхностное натяжение пузырьков газа в кишечной жидкости и слизи, в результате чего пузырьки сливаются и лопаются, а газ всасывается через стенку кишки или выводится перистальтикой. Уменьшает метеоризм, вздутие и связанную с газами боль. Химически и физиологически инертен — не всасывается, не влияет на ферменты и бактерии.`,
+    farmakokinetika: {
+      sorish: "Совершенно не всасывается из ЖКТ",
+      tarqalish: "Оказывает только физическое действие в просвете кишки",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "Полностью выводится с калом в неизменённом виде"
+    },
+    korsatmalar: [
+      "Метеоризм, вздутие живота, аэрофагия",
+      "Газовые симптомы при функциональной диспепсии",
+      "Уменьшение газа в кишечнике перед операцией или рентген/УЗИ",
+      "Уменьшение пенообразования при отравлении детергентами"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к симетикону",
+      "Обструкция или перфорация кишечника"
+    ],
+    nojoya: {
+      "Общие": "Очень хорошо переносится; редко аллергическая реакция (сыпь, зуд)"
+    },
+    dozadan: "Поскольку инертен, передозировка безопасна; специальных мер не требует.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий нет (не всасывается)"
+    ],
+    qollash: {
+      kattalar: "40–125 мг после каждого приёма пищи и перед сном; 3–4 раза в день.",
+      bolalar: "У младенцев и детей формы в виде капель/суспензии по возрасту (при кишечных коликах)"
+    },
+    chiqarish: "Капсулы, жевательные таблетки, эмульсия/капли (40–125 мг)"
+  },
+  en: {
+    gruppa: "Antiflatulent agents",
+    farmTasir: "Agent that reduces intestinal gas accumulation",
+    farmakodinamika: `Simethicone is an inert silicone compound based on dimethylsiloxane and silicon dioxide. It lowers the surface tension of gas bubbles in intestinal fluid and mucus, so the bubbles coalesce and burst, and the gas is absorbed through the bowel wall or expelled by peristalsis. It reduces flatulence, bloating and gas-related pain. It is chemically and physiologically inert — not absorbed and without effect on enzymes or bacteria.`,
+    farmakokinetika: {
+      sorish: "Not absorbed at all from the GI tract",
+      tarqalish: "Exerts only a physical action in the bowel lumen",
+      metabolizm: "Not metabolised",
+      chiqarilish: "Completely excreted unchanged in faeces"
+    },
+    korsatmalar: [
+      "Flatulence, bloating, aerophagia",
+      "Gas symptoms in functional dyspepsia",
+      "Reducing bowel gas before surgery or X-ray/ultrasound",
+      "Reducing foaming in detergent poisoning"
+    ],
+    qarrshi: [
+      "Hypersensitivity to simethicone",
+      "Bowel obstruction or perforation"
+    ],
+    nojoya: {
+      "General": "Very well tolerated; rarely allergic reaction (rash, itching)"
+    },
+    dozadan: "Being inert, overdose is safe; no specific measures needed.",
+    ozarotasir: [
+      "No clinically significant interactions (not absorbed)"
+    ],
+    qollash: {
+      kattalar: "40–125 mg after each meal and at bedtime; 3–4 times daily.",
+      bolalar: "Age-appropriate drop/suspension forms in infants and children (for colic)"
+    },
+    chiqarish: "Capsules, chewable tablets, emulsion/drops (40–125 mg)"
+  }
+},
+
+// ─── A03AA04 · Mebeverin ──────────────────────────────────────────────────
+"A03AA04": {
+  uz: {
+    gruppa: "Funksional ichak kasalliklarida spazmolitiklar (miotrop)",
+    farmTasir: "Ichak silliq mushaklariga to'g'ridan-to'g'ri ta'sir qiluvchi spazmolitik",
+    farmakodinamika: `Mebeverin — miotrop (muskulotrop) spazmolitik. Oshqozon-ichak silliq mushaklariga to'g'ridan-to'g'ri ta'sir qilib, hujayra membranasidagi natriy kanallarini bloklaydi va depolarizatsiyani kamaytiradi; shuningdek kaltsiy zaxiralarining to'lishini cheklaydi. Natijada spazm yo'qoladi, lekin normal peristaltika to'liq bostirilmaydi (gipotoniya yuzaga kelmaydi). Antixolinergik ta'siri yo'q, shuning uchun atropinga xos nojo'ya ta'sirlar (og'iz qurishi, ko'rish xiralashuvi) kuzatilmaydi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali tez so'riladi",
+      tarqalish: "Faol metabolitlari to'qimaga tarqaladi",
+      metabolizm: "Ichak devori va jigarда tez gidroliz va metabolizmga uchraydi (vera kislotasi va boshqalar)",
+      chiqarilish: "Asosan siydik bilan metabolitlar shaklida; tizimda to'planmaydi"
+    },
+    korsatmalar: [
+      "Tirnashgan ichak sindromi (TIS) — qorin og'rig'i va spazmlari",
+      "Oshqozon-ichak funksional spazmlari",
+      "O't yo'llari spazmiga bog'liq og'riq",
+      "Ikkilamchi (organik kasalliklar fonidagi) ichak spazmlari"
+    ],
+    qarrshi: [
+      "Mebeverinга o'ta sezuvchanlik",
+      "Paralitik ichak tutilishi (ileus)",
+      "Homiladorlik (ehtiyotkorlik, ma'lumot cheklangan)"
+    ],
+    nojoya: {
+      "Allergiya": "Toshma, qichishish, eshakemi, Kvinke shishi (kam)",
+      "Oshqozon-ichak": "Kamdan-kam ko'ngil aynishi, ich qotishi",
+      "Asab tizimi": "Kamdan-kam bosh og'rig'i, bosh aylanishi"
+    },
+    dozadan: "Belgilar: markaziy asab tizimi qo'zg'aluvchanligi (nazariy). Davolash: simptomatik, oshqozonni yuvish.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir kam aniqlangan"
+    ],
+    qollash: {
+      kattalar: "135 mg kuniga 3 marta ovqatdan 20 daqiqa oldin; yoki uzaytirilgan shakl 200 mg kuniga 2 marta.",
+      bolalar: "18 yoshgacha odatda tavsiya etilmaydi (shakliga qarab)"
+    },
+    chiqarish: "Tabletkalar 135 mg; uzaytirilgan chiqarishli kapsulalar 200 mg"
+  },
+  ru: {
+    gruppa: "Спазмолитики при функциональных заболеваниях кишечника (миотропные)",
+    farmTasir: "Спазмолитик прямого действия на гладкую мускулатуру кишечника",
+    farmakodinamika: `Мебеверин — миотропный (мускулотропный) спазмолитик. Действует непосредственно на гладкую мускулатуру ЖКТ, блокируя натриевые каналы клеточной мембраны и уменьшая деполяризацию; также ограничивает пополнение запасов кальция. В результате спазм устраняется, но нормальная перистальтика полностью не подавляется (гипотония не возникает). Не обладает антихолинергическим действием, поэтому атропиноподобные побочные эффекты (сухость во рту, нечёткость зрения) отсутствуют.`,
+    farmakokinetika: {
+      sorish: "Быстро всасывается внутрь",
+      tarqalish: "Активные метаболиты распределяются в ткани",
+      metabolizm: "Быстро гидролизуется и метаболизируется в стенке кишки и печени (вератровая кислота и др.)",
+      chiqarilish: "Преимущественно с мочой в виде метаболитов; не накапливается"
+    },
+    korsatmalar: [
+      "Синдром раздражённого кишечника (СРК) — боль и спазмы",
+      "Функциональные спазмы ЖКТ",
+      "Боль, связанная со спазмом жёлчных путей",
+      "Вторичные спазмы кишечника (на фоне органических заболеваний)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к мебеверину",
+      "Паралитическая кишечная непроходимость (илеус)",
+      "Беременность (с осторожностью, данные ограничены)"
+    ],
+    nojoya: {
+      "Аллергические": "Сыпь, зуд, крапивница, отёк Квинке (редко)",
+      "ЖКТ": "Редко тошнота, запор",
+      "ЦНС": "Редко головная боль, головокружение"
+    },
+    dozadan: "Симптомы: возбудимость ЦНС (теоретически). Лечение: симптоматическое, промывание желудка.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий выявлено мало"
+    ],
+    qollash: {
+      kattalar: "135 мг 3 раза в день за 20 минут до еды; или пролонгированная форма 200 мг 2 раза в день.",
+      bolalar: "До 18 лет обычно не рекомендуется (в зависимости от формы)"
+    },
+    chiqarish: "Таблетки 135 мг; капсулы пролонгированного действия 200 мг"
+  },
+  en: {
+    gruppa: "Antispasmodics for functional bowel disorders (musculotropic)",
+    farmTasir: "Direct-acting antispasmodic on intestinal smooth muscle",
+    farmakodinamika: `Mebeverine is a musculotropic antispasmodic. It acts directly on GI smooth muscle, blocking sodium channels of the cell membrane and reducing depolarisation; it also limits replenishment of calcium stores. Spasm is relieved, but normal peristalsis is not fully suppressed (no hypotonia). It has no anticholinergic action, so atropine-like side effects (dry mouth, blurred vision) do not occur.`,
+    farmakokinetika: {
+      sorish: "Rapidly absorbed orally",
+      tarqalish: "Active metabolites distribute to tissues",
+      metabolizm: "Rapidly hydrolysed and metabolised in the bowel wall and liver (veratric acid and others)",
+      chiqarilish: "Mainly in urine as metabolites; does not accumulate"
+    },
+    korsatmalar: [
+      "Irritable bowel syndrome (IBS) — pain and spasm",
+      "Functional GI spasm",
+      "Pain associated with biliary spasm",
+      "Secondary bowel spasm (on a background of organic disease)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to mebeverine",
+      "Paralytic ileus",
+      "Pregnancy (caution, limited data)"
+    ],
+    nojoya: {
+      "Hypersensitivity": "Rash, itching, urticaria, angioedema (rare)",
+      "Gastrointestinal": "Rarely nausea, constipation",
+      "CNS": "Rarely headache, dizziness"
+    },
+    dozadan: "Symptoms: CNS excitability (theoretical). Treatment: symptomatic, gastric lavage.",
+    ozarotasir: [
+      "Few clinically significant interactions identified"
+    ],
+    qollash: {
+      kattalar: "135 mg three times daily 20 minutes before meals; or prolonged-release form 200 mg twice daily.",
+      bolalar: "Generally not recommended under 18 years (depending on the form)"
+    },
+    chiqarish: "Tablets 135 mg; prolonged-release capsules 200 mg"
+  }
+},
+
+// ─── A03AA05 · Trimebutin ─────────────────────────────────────────────────
+"A03AA05": {
+  uz: {
+    gruppa: "Funksional ichak kasalliklarida spazmolitiklar (motorikani modulyatorlovchi)",
+    farmTasir: "Ichak harakatini tartibga soluvchi (modulyatorlovchi) vosita",
+    farmakodinamika: `Trimebutin — periferik enkefalinergik (opioid) retseptorlarga (μ, κ, δ) ta'sir qiluvchi ichak motorikasi modulyatori. Ichak harakati kuchaygan bo'lsa — uni kamaytiradi, susaygan bo'lsa — kuchaytiradi, ya'ni fiziologik me'yorga qaytaradi. Shuningdek ichak silliq mushaklarining elektr faolligiga ta'sir qilib spazmni bartaraf qiladi va visceral og'riq sezgirligini kamaytiradi. Antixolinergik ta'siri yo'q.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali tez so'riladi; Cmax ~1–2 soatda",
+      tarqalish: "To'qimalarga tarqaladi",
+      metabolizm: "Jigarда metabolizmga uchraydi (asosiy metabolit — nor-trimebutin ham faol)",
+      chiqarilish: "Asosan siydik orqali; T½ ~10–12 soat"
+    },
+    korsatmalar: [
+      "Tirnashgan ichak sindromi (TIS)",
+      "Oshqozon-ichak motorikasi buzilishlari (dispepsiya, ko'ngil aynishi, qorin shishi, spazm)",
+      "Operatsiyadan keyingi paralitik ileus profilaktikasi",
+      "Bolalardagi funksional oshqozon-ichak buzilishlari"
+    ],
+    qarrshi: [
+      "Trimebutinga o'ta sezuvchanlik",
+      "Homiladorlikning I trimestri (ehtiyotkorlik)",
+      "Emizish davri"
+    ],
+    nojoya: {
+      "Teri": "Toshma, qichishish (kam)",
+      "Oshqozon-ichak": "Og'izda quruqlik, ko'ngil aynishi, ich qotishi yoki diareya (kam)",
+      "Asab tizimi": "Bosh aylanishi, charchoq, uyquchanlik (kam)"
+    },
+    dozadan: "Ma'lumot cheklangan; simptomatik davolash.",
+    ozarotasir: [
+      "Tubokurarin kabi mushak relaksantlari ta'sirini o'zgartirishi mumkin",
+      "Klinik ahamiyatga ega boshqa o'zaro ta'sir kam"
+    ],
+    qollash: {
+      kattalar: "100–200 mg kuniga 3 marta ovqatdan oldin.",
+      bolalar: "Vaznга qarab suspenziya shaklida (yoshга mos dozada)"
+    },
+    chiqarish: "Tabletkalar 100 mg, 200 mg; ichish uchun suspenziya"
+  },
+  ru: {
+    gruppa: "Спазмолитики при функциональных заболеваниях кишечника (модуляторы моторики)",
+    farmTasir: "Средство, регулирующее (модулирующее) моторику кишечника",
+    farmakodinamika: `Тримебутин — модулятор моторики кишечника, воздействующий на периферические энкефалинергические (опиоидные) рецепторы (μ, κ, δ). При повышенной моторике снижает её, при сниженной — усиливает, то есть возвращает к физиологической норме. Также влияет на электрическую активность гладких мышц кишечника, устраняя спазм и снижая висцеральную болевую чувствительность. Не обладает антихолинергическим действием.`,
+    farmakokinetika: {
+      sorish: "Быстро всасывается внутрь; Cmax ~1–2 ч",
+      tarqalish: "Распределяется в ткани",
+      metabolizm: "Метаболизируется в печени (основной метаболит — нор-тримебутин также активен)",
+      chiqarilish: "Преимущественно с мочой; T½ ~10–12 ч"
+    },
+    korsatmalar: [
+      "Синдром раздражённого кишечника (СРК)",
+      "Нарушения моторики ЖКТ (диспепсия, тошнота, вздутие, спазм)",
+      "Профилактика послеоперационного паралитического илеуса",
+      "Функциональные расстройства ЖКТ у детей"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к тримебутину",
+      "I триместр беременности (с осторожностью)",
+      "Период лактации"
+    ],
+    nojoya: {
+      "Кожа": "Сыпь, зуд (редко)",
+      "ЖКТ": "Сухость во рту, тошнота, запор или диарея (редко)",
+      "ЦНС": "Головокружение, утомляемость, сонливость (редко)"
+    },
+    dozadan: "Данные ограничены; симптоматическое лечение.",
+    ozarotasir: [
+      "Может изменять действие миорелаксантов типа тубокурарина",
+      "Других клинически значимых взаимодействий мало"
+    ],
+    qollash: {
+      kattalar: "100–200 мг 3 раза в день до еды.",
+      bolalar: "По массе тела в виде суспензии (в возрастной дозе)"
+    },
+    chiqarish: "Таблетки 100 мг, 200 мг; суспензия для приёма внутрь"
+  },
+  en: {
+    gruppa: "Antispasmodics for functional bowel disorders (motility modulators)",
+    farmTasir: "Agent that regulates (modulates) bowel motility",
+    farmakodinamika: `Trimebutine is a bowel motility modulator acting on peripheral enkephalinergic (opioid) receptors (μ, κ, δ). It reduces motility when it is increased and enhances it when reduced, returning it to the physiological norm. It also affects the electrical activity of intestinal smooth muscle, relieving spasm and reducing visceral pain sensitivity. It has no anticholinergic action.`,
+    farmakokinetika: {
+      sorish: "Rapidly absorbed orally; Cmax ~1–2 h",
+      tarqalish: "Distributes to tissues",
+      metabolizm: "Hepatically metabolised (the main metabolite nor-trimebutine is also active)",
+      chiqarilish: "Mainly in urine; T½ ~10–12 h"
+    },
+    korsatmalar: [
+      "Irritable bowel syndrome (IBS)",
+      "GI motility disorders (dyspepsia, nausea, bloating, spasm)",
+      "Prophylaxis of postoperative paralytic ileus",
+      "Functional GI disorders in children"
+    ],
+    qarrshi: [
+      "Hypersensitivity to trimebutine",
+      "First trimester of pregnancy (caution)",
+      "Lactation period"
+    ],
+    nojoya: {
+      "Dermatological": "Rash, itching (rare)",
+      "Gastrointestinal": "Dry mouth, nausea, constipation or diarrhoea (rare)",
+      "CNS": "Dizziness, fatigue, drowsiness (rare)"
+    },
+    dozadan: "Data limited; symptomatic treatment.",
+    ozarotasir: [
+      "May alter the effect of muscle relaxants such as tubocurarine",
+      "Few other clinically significant interactions"
+    ],
+    qollash: {
+      kattalar: "100–200 mg three times daily before meals.",
+      bolalar: "By body weight as suspension (age-appropriate dose)"
+    },
+    chiqarish: "Tablets 100 mg, 200 mg; oral suspension"
+  }
+},
+
+// ─── A03AB06 · Otiloniy bromid ────────────────────────────────────────────
+"A03AB06": {
+  uz: {
+    gruppa: "Sintetik antixolinergik spazmolitiklar (to'rtlamchi ammoniyli)",
+    farmTasir: "Ichakka tanlab ta'sir qiluvchi spazmolitik",
+    farmakodinamika: `Otiloniy bromid — to'rtlamchi ammoniyli birikma, oshqozon-ichak silliq mushaklariga tanlab ta'sir qiluvchi spazmolitik. Asosan hujayraga kaltsiy kirishini bloklab (kaltsiy kanallari antagonisti) silliq mushak qisqarishini kamaytiradi; shuningdek muskarin va taxikinin (neyrokinin) retseptorlarini qisman bloklaydi. To'rtlamchi tuzilishi tufayli oshqozon-ichakdan kam so'riladi va tizimli antixolinergik ta'sir bermaydi — ta'siri ichakда mahalliy bo'ladi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan juda kam so'riladi (<5%)",
+      tarqalish: "Asosan ichak devorida mahalliy to'planadi",
+      metabolizm: "So'rilgan oz qism metabolizmga uchraydi",
+      chiqarilish: "Asosan najas (o't) bilan; so'rilgan qism siydik orqali"
+    },
+    korsatmalar: [
+      "Tirnashgan ichak sindromi (TIS) — qorin og'rig'i, spazm, shish",
+      "Oshqozon-ichak spazmlari",
+      "Endoskopiya yoki rentgen tekshiruvidan oldin spazmni kamaytirish"
+    ],
+    qarrshi: [
+      "Otiloniy bromidga o'ta sezuvchanlik",
+      "Glaukoma, prostata gipertrofiyasi, piloroduodenal stenoz (antixolinergik ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Umumiy": "Odatda yaxshi ko'tariladi (tizimli so'rilish past)",
+      "Allergiya": "Toshma, qichishish (kam)",
+      "Oshqozon-ichak": "Kamdan-kam ko'ngil aynishi, epigastral noxushlik"
+    },
+    dozadan: "Past tizimli so'rilish tufayli xavf past; simptomatik davolash.",
+    ozarotasir: [
+      "Boshqa antixolinergiklar bilan ta'sir kuchayishi mumkin (nazariy)"
+    ],
+    qollash: {
+      kattalar: "40 mg kuniga 2–3 marta ovqatdan oldin.",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "Pardali tabletkalar 40 mg"
+  },
+  ru: {
+    gruppa: "Синтетические антихолинергические спазмолитики (четвертичные аммониевые)",
+    farmTasir: "Спазмолитик с избирательным действием на кишечник",
+    farmakodinamika: `Отилония бромид — четвертичное аммониевое соединение, спазмолитик с избирательным действием на гладкую мускулатуру ЖКТ. Главным образом блокирует вход кальция в клетку (антагонист кальциевых каналов), снижая сокращение гладких мышц; также частично блокирует мускариновые и тахикининовые (нейрокининовые) рецепторы. Из-за четвертичной структуры мало всасывается из ЖКТ и не даёт системного антихолинергического действия — действует местно в кишечнике.`,
+    farmakokinetika: {
+      sorish: "Очень мало всасывается из ЖКТ (<5%)",
+      tarqalish: "Накапливается преимущественно в стенке кишки местно",
+      metabolizm: "Всосавшаяся малая часть метаболизируется",
+      chiqarilish: "Преимущественно с калом (жёлчь); всосавшаяся часть с мочой"
+    },
+    korsatmalar: [
+      "Синдром раздражённого кишечника (СРК) — боль, спазм, вздутие",
+      "Спазмы ЖКТ",
+      "Уменьшение спазма перед эндоскопией или рентгеном"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к отилония бромиду",
+      "Глаукома, гипертрофия простаты, пилородуоденальный стеноз (антихолинергическая осторожность)"
+    ],
+    nojoya: {
+      "Общие": "Обычно хорошо переносится (низкое системное всасывание)",
+      "Аллергические": "Сыпь, зуд (редко)",
+      "ЖКТ": "Редко тошнота, дискомфорт в эпигастрии"
+    },
+    dozadan: "Из-за низкого системного всасывания риск низкий; симптоматическое лечение.",
+    ozarotasir: [
+      "Возможно усиление действия с другими антихолинергиками (теоретически)"
+    ],
+    qollash: {
+      kattalar: "40 мг 2–3 раза в день до еды.",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 40 мг"
+  },
+  en: {
+    gruppa: "Synthetic anticholinergic antispasmodics (quaternary ammonium)",
+    farmTasir: "Antispasmodic with selective action on the bowel",
+    farmakodinamika: `Otilonium bromide is a quaternary ammonium compound, an antispasmodic with selective action on GI smooth muscle. It mainly blocks calcium entry into the cell (calcium channel antagonist), reducing smooth muscle contraction; it also partially blocks muscarinic and tachykinin (neurokinin) receptors. Owing to its quaternary structure it is poorly absorbed from the GI tract and produces no systemic anticholinergic effect — acting locally in the bowel.`,
+    farmakokinetika: {
+      sorish: "Very poorly absorbed from the GI tract (<5%)",
+      tarqalish: "Accumulates mainly in the bowel wall locally",
+      metabolizm: "The small absorbed fraction is metabolised",
+      chiqarilish: "Mainly in faeces (bile); the absorbed fraction in urine"
+    },
+    korsatmalar: [
+      "Irritable bowel syndrome (IBS) — pain, spasm, bloating",
+      "GI spasm",
+      "Reducing spasm before endoscopy or X-ray"
+    ],
+    qarrshi: [
+      "Hypersensitivity to otilonium bromide",
+      "Glaucoma, prostatic hypertrophy, pyloroduodenal stenosis (anticholinergic caution)"
+    ],
+    nojoya: {
+      "General": "Usually well tolerated (low systemic absorption)",
+      "Hypersensitivity": "Rash, itching (rare)",
+      "Gastrointestinal": "Rarely nausea, epigastric discomfort"
+    },
+    dozadan: "Risk is low due to low systemic absorption; symptomatic treatment.",
+    ozarotasir: [
+      "Effects may be enhanced with other anticholinergics (theoretical)"
+    ],
+    qollash: {
+      kattalar: "40 mg 2–3 times daily before meals.",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Film-coated tablets 40 mg"
+  }
+},
+
+// ─── A03AD01 · Papaverin ──────────────────────────────────────────────────
+"A03AD01": {
+  uz: {
+    gruppa: "Miotrop spazmolitiklar (papaverin va hosilalari)",
+    farmTasir: "Silliq mushaklarni bo'shashtiruvchi miotrop spazmolitik",
+    farmakodinamika: `Papaverin — afyun (opiy) izoxinolin alkaloidi, lekin narkotik ta'siri yo'q. Fosfodiesteraza fermentini inhibe qilib hujayra ichidagi siklik AMF (sAMF) miqdorini oshiradi va hujayra ichidagi kaltsiy darajasini kamaytiradi, natijada silliq mushaklar bo'shashadi. Oshqozon-ichak, o't yo'llari, siydik yo'llari va qon tomir silliq mushaklariga spazmolitik va tomir kengaytiruvchi ta'sir ko'rsatadi. Yuqori dozada yurak o'tkazuvchanligini sekinlashtiradi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'riladi (biofaollik o'zgaruvchan)",
+      tarqalish: "Oqsilga bog'lanish ~90%; to'qimalarga keng tarqaladi",
+      metabolizm: "Jigarда metabolizmga uchraydi",
+      chiqarilish: "Asosan siydik bilan metabolitlar shaklida; T½ ~1–2 soat"
+    },
+    korsatmalar: [
+      "Oshqozon-ichak silliq mushaklari spazmi (pilorospazm, kolit, spastik qabziyat)",
+      "O't yo'llari va siydik yo'llari spazmi",
+      "Periferik va miya tomirlari spazmi",
+      "Bronxospazm (yordamchi)"
+    ],
+    qarrshi: [
+      "Papaverinга o'ta sezuvchanlik",
+      "AV-blokada, yurak o'tkazuvchanligi og'ir buzilishlari",
+      "Glaukoma",
+      "Og'ir jigar yetishmovchiligi",
+      "Keksa yosh (gipertermiya xavfi) va yosh bolalar"
+    ],
+    nojoya: {
+      "Yurak": "AB pasayishi, taxikardiya, aritmiya, AV-o'tkazuvchanlik sekinlashishi (ayniqsa tez v/v)",
+      "Asab tizimi": "Uyquchanlik, bosh aylanishi",
+      "Jigar": "Transaminazalar oshishi, sariqlik (uzoq qo'llashda)",
+      "Oshqozon-ichak": "Ich qotishi, ko'ngil aynishi"
+    },
+    dozadan: "Belgilar: ko'rishning ikkilanishi, holsizlik, gipotenziya. Davolash: simptomatik, AB ni qo'llab-quvvatlash.",
+    ozarotasir: [
+      "Gipotenziv vositalar ta'sirini kuchaytiradi",
+      "Levodopa ta'sirini kamaytiradi",
+      "MAO inhibitorlari bilan ehtiyotkorlik"
+    ],
+    qollash: {
+      kattalar: "Og'iz orqali 40–60 mg kuniga 3–4 marta; v/m yoki sekin v/v 20–40 mg.",
+      bolalar: "Yoshга qarab kamaytirilgan dozada (6 oydan)"
+    },
+    chiqarish: "Tabletkalar 40 mg; inyeksiya eritmasi 2% (20 mg/ml); rektal svechalar"
+  },
+  ru: {
+    gruppa: "Миотропные спазмолитики (папаверин и производные)",
+    farmTasir: "Миотропный спазмолитик, расслабляющий гладкую мускулатуру",
+    farmakodinamika: `Папаверин — изохинолиновый алкалоид опия, но без наркотического действия. Ингибирует фосфодиэстеразу, повышая внутриклеточный циклический АМФ (цАМФ) и снижая уровень внутриклеточного кальция, в результате чего гладкие мышцы расслабляются. Оказывает спазмолитическое и сосудорасширяющее действие на гладкую мускулатуру ЖКТ, жёлчных, мочевых путей и сосудов. В высоких дозах замедляет сердечную проводимость.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь (биодоступность вариабельна)",
+      tarqalish: "Связь с белками ~90%; широко распределяется",
+      metabolizm: "Метаболизируется в печени",
+      chiqarilish: "Преимущественно с мочой в виде метаболитов; T½ ~1–2 ч"
+    },
+    korsatmalar: [
+      "Спазм гладкой мускулатуры ЖКТ (пилороспазм, колит, спастический запор)",
+      "Спазм жёлчных и мочевых путей",
+      "Спазм периферических и мозговых сосудов",
+      "Бронхоспазм (вспомогательно)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к папаверину",
+      "АВ-блокада, тяжёлые нарушения проводимости сердца",
+      "Глаукома",
+      "Тяжёлая печёночная недостаточность",
+      "Пожилой возраст (риск гипертермии) и дети раннего возраста"
+    ],
+    nojoya: {
+      "Сердце": "Снижение АД, тахикардия, аритмия, замедление АВ-проводимости (особенно при быстром в/в)",
+      "ЦНС": "Сонливость, головокружение",
+      "Печень": "Повышение трансаминаз, желтуха (при длительном применении)",
+      "ЖКТ": "Запор, тошнота"
+    },
+    dozadan: "Симптомы: двоение в глазах, слабость, гипотензия. Лечение: симптоматическое, поддержание АД.",
+    ozarotasir: [
+      "Усиливает действие гипотензивных средств",
+      "Снижает действие леводопы",
+      "Осторожно с ингибиторами МАО"
+    ],
+    qollash: {
+      kattalar: "Внутрь 40–60 мг 3–4 раза в день; в/м или медленно в/в 20–40 мг.",
+      bolalar: "В сниженной дозе по возрасту (с 6 месяцев)"
+    },
+    chiqarish: "Таблетки 40 мг; раствор для инъекций 2% (20 мг/мл); ректальные свечи"
+  },
+  en: {
+    gruppa: "Musculotropic antispasmodics (papaverine and derivatives)",
+    farmTasir: "Musculotropic antispasmodic that relaxes smooth muscle",
+    farmakodinamika: `Papaverine is an isoquinoline opium alkaloid but without narcotic action. It inhibits phosphodiesterase, raising intracellular cyclic AMP (cAMP) and lowering intracellular calcium, so smooth muscle relaxes. It has antispasmodic and vasodilator action on the smooth muscle of the GI tract, biliary and urinary tracts and blood vessels. At high doses it slows cardiac conduction.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally (variable bioavailability)",
+      tarqalish: "Protein binding ~90%; widely distributed",
+      metabolizm: "Metabolised in the liver",
+      chiqarilish: "Mainly in urine as metabolites; T½ ~1–2 h"
+    },
+    korsatmalar: [
+      "GI smooth muscle spasm (pylorospasm, colitis, spastic constipation)",
+      "Biliary and urinary tract spasm",
+      "Peripheral and cerebral vascular spasm",
+      "Bronchospasm (adjunct)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to papaverine",
+      "AV block, severe cardiac conduction disorders",
+      "Glaucoma",
+      "Severe hepatic impairment",
+      "Old age (hyperthermia risk) and young children"
+    ],
+    nojoya: {
+      "Cardiac": "Hypotension, tachycardia, arrhythmia, slowed AV conduction (especially with rapid IV)",
+      "CNS": "Drowsiness, dizziness",
+      "Hepatic": "Raised transaminases, jaundice (with prolonged use)",
+      "Gastrointestinal": "Constipation, nausea"
+    },
+    dozadan: "Symptoms: double vision, weakness, hypotension. Treatment: symptomatic, support blood pressure.",
+    ozarotasir: [
+      "Enhances the effect of antihypertensives",
+      "Reduces the effect of levodopa",
+      "Caution with MAO inhibitors"
+    ],
+    qollash: {
+      kattalar: "Oral 40–60 mg 3–4 times daily; IM or slow IV 20–40 mg.",
+      bolalar: "Reduced dose by age (from 6 months)"
+    },
+    chiqarish: "Tablets 40 mg; injection solution 2% (20 mg/mL); rectal suppositories"
+  }
+},
+
+// ─── A03AD02 · Drotaverin ─────────────────────────────────────────────────
+"A03AD02": {
+  uz: {
+    gruppa: "Miotrop spazmolitiklar (papaverin hosilalari)",
+    farmTasir: "Kuchli miotrop spazmolitik (No-shpa)",
+    farmakodinamika: `Drotaverin — papaverinning izoxinolin hosilasi, miotrop spazmolitik. Fosfodiesteraza-4 (PDE4) fermentini tanlab inhibe qilib, hujayra ichidagi siklik AMF (sAMF) ni oshiradi, kaltsiy darajasini kamaytiradi va silliq mushaklarni bo'shashtiradi. Papaverindan kuchliroq va uzoqroq ta'sir qiladi, yurak-tomir tizimiga ta'siri kam. Oshqozon-ichak, o't yo'llari, siydik-tanosil yo'llari va bachadon silliq mushaklari spazmini samarali bartaraf qiladi. Vegetativ asab tizimiga bog'liq emas (antixolinergik emas).`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali tez va to'liq so'riladi; biofaollik ~65%. Cmax 45–60 daqiqada",
+      tarqalish: "Oqsilga bog'lanish yuqori (~95%); silliq mushak to'qimasiga tarqaladi",
+      metabolizm: "Jigarда to'liq metabolizmga uchraydi",
+      chiqarilish: "Metabolitlar siydik va o't bilan; T½ ~8–10 soat"
+    },
+    korsatmalar: [
+      "O't yo'llari spazmi (xolesistit, xolelitiaz, xolangit)",
+      "Siydik yo'llari spazmi (nefrolitiaz, sistit, tenezmlar)",
+      "Oshqozon-ichak spazmi (gastrit, enterit, kolit, pilorospazm, spastik qabziyat)",
+      "Dismenoreya va bachadon spazmi; tug'ruqda bachadon bo'yni spazmi",
+      "Spazmga bog'liq bosh og'rig'i (tension) — yordamchi"
+    ],
+    qarrshi: [
+      "Drotaverinга o'ta sezuvchanlik",
+      "Og'ir jigar, buyrak yoki yurak yetishmovchiligi (AV-blokada)",
+      "Kardiogen shok, og'ir gipotenziya",
+      "1 yoshgacha bolalar; emizish davri (ma'lumot cheklangan)"
+    ],
+    nojoya: {
+      "Yurak": "AB pasayishi, yurak urishi sezgisi (ayniqsa v/v yuborishda)",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyqusizlik",
+      "Oshqozon-ichak": "Ko'ngil aynishi, ich qotishi",
+      "Allergiya": "Toshma, qichishish, Kvinke shishi, kamdan-kam anafilaktik shok (in'eksion shakl)"
+    },
+    dozadan: "Belgilar: yurak o'tkazuvchanligi buzilishi, AB pasayishi. Davolash: simptomatik, yurak-tomir nazorati.",
+    ozarotasir: [
+      "Boshqa spazmolitiklar (papaverin, atropin) ta'sirini kuchaytiradi",
+      "Levodopa ta'sirini kamaytiradi (rigidlik/tremor kuchayishi mumkin)",
+      "Gipotenziv vositalar ta'sirini kuchaytirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "Og'iz orqali 40–80 mg kuniga 2–3 marta. V/m yoki sekin v/v 40–80 mg (o'tkir spazm/sanchiqда); sutkalik maks. 240 mg.",
+      bolalar: "1–6 yosh: 40–120 mg/sut; 6 yoshdan: 80–200 mg/sut, 2–5 qabulga bo'lib"
+    },
+    chiqarish: "Tabletkalar 40 mg, 80 mg; inyeksiya eritmasi 20 mg/ml (2 ml)"
+  },
+  ru: {
+    gruppa: "Миотропные спазмолитики (производные папаверина)",
+    farmTasir: "Мощный миотропный спазмолитик (Но-шпа)",
+    farmakodinamika: `Дротаверин — изохинолиновое производное папаверина, миотропный спазмолитик. Избирательно ингибирует фосфодиэстеразу-4 (ФДЭ4), повышая внутриклеточный циклический АМФ (цАМФ), снижая уровень кальция и расслабляя гладкие мышцы. Действует сильнее и дольше папаверина, с меньшим влиянием на сердечно-сосудистую систему. Эффективно устраняет спазм гладкой мускулатуры ЖКТ, жёлчных, мочеполовых путей и матки. Не зависит от вегетативной нервной системы (не антихолинергик).`,
+    farmakokinetika: {
+      sorish: "Быстро и полно всасывается внутрь; биодоступность ~65%. Cmax через 45–60 минут",
+      tarqalish: "Высокая связь с белками (~95%); распределяется в гладкомышечную ткань",
+      metabolizm: "Полностью метаболизируется в печени",
+      chiqarilish: "Метаболиты с мочой и жёлчью; T½ ~8–10 ч"
+    },
+    korsatmalar: [
+      "Спазм жёлчных путей (холецистит, холелитиаз, холангит)",
+      "Спазм мочевых путей (нефролитиаз, цистит, тенезмы)",
+      "Спазм ЖКТ (гастрит, энтерит, колит, пилороспазм, спастический запор)",
+      "Дисменорея и спазм матки; спазм шейки матки в родах",
+      "Головная боль напряжения, связанная со спазмом — вспомогательно"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к дротаверину",
+      "Тяжёлая печёночная, почечная или сердечная недостаточность (АВ-блокада)",
+      "Кардиогенный шок, тяжёлая гипотензия",
+      "Дети до 1 года; период лактации (данные ограничены)"
+    ],
+    nojoya: {
+      "Сердце": "Снижение АД, ощущение сердцебиения (особенно при в/в введении)",
+      "ЦНС": "Головная боль, головокружение, бессонница",
+      "ЖКТ": "Тошнота, запор",
+      "Аллергические": "Сыпь, зуд, отёк Квинке, редко анафилактический шок (инъекционная форма)"
+    },
+    dozadan: "Симптомы: нарушение проводимости сердца, снижение АД. Лечение: симптоматическое, сердечно-сосудистый контроль.",
+    ozarotasir: [
+      "Усиливает действие других спазмолитиков (папаверин, атропин)",
+      "Снижает действие леводопы (возможно усиление ригидности/тремора)",
+      "Может усиливать действие гипотензивных средств"
+    ],
+    qollash: {
+      kattalar: "Внутрь 40–80 мг 3 раза в день. В/м или медленно в/в 40–80 мг (при острой колике); макс. 240 мг/сут.",
+      bolalar: "1–6 лет: 40–120 мг/сут; с 6 лет: 80–200 мг/сут в 2–5 приёмов"
+    },
+    chiqarish: "Таблетки 40 мг, 80 мг; раствор для инъекций 20 мг/мл (2 мл)"
+  },
+  en: {
+    gruppa: "Musculotropic antispasmodics (papaverine derivatives)",
+    farmTasir: "Potent musculotropic antispasmodic (No-spa)",
+    farmakodinamika: `Drotaverine is an isoquinoline derivative of papaverine, a musculotropic antispasmodic. It selectively inhibits phosphodiesterase-4 (PDE4), raising intracellular cyclic AMP (cAMP), lowering calcium and relaxing smooth muscle. It is more potent and longer-acting than papaverine, with less cardiovascular effect. It effectively relieves smooth muscle spasm of the GI, biliary, genitourinary tracts and uterus. It is independent of the autonomic nervous system (not anticholinergic).`,
+    farmakokinetika: {
+      sorish: "Rapidly and completely absorbed orally; bioavailability ~65%. Cmax in 45–60 minutes",
+      tarqalish: "High protein binding (~95%); distributes to smooth muscle tissue",
+      metabolizm: "Fully metabolised in the liver",
+      chiqarilish: "Metabolites in urine and bile; T½ ~8–10 h"
+    },
+    korsatmalar: [
+      "Biliary tract spasm (cholecystitis, cholelithiasis, cholangitis)",
+      "Urinary tract spasm (nephrolithiasis, cystitis, tenesmus)",
+      "GI spasm (gastritis, enteritis, colitis, pylorospasm, spastic constipation)",
+      "Dysmenorrhoea and uterine spasm; cervical spasm in labour",
+      "Tension headache associated with spasm — adjunct"
+    ],
+    qarrshi: [
+      "Hypersensitivity to drotaverine",
+      "Severe hepatic, renal or cardiac failure (AV block)",
+      "Cardiogenic shock, severe hypotension",
+      "Children under 1 year; lactation (limited data)"
+    ],
+    nojoya: {
+      "Cardiac": "Hypotension, palpitations (especially with IV administration)",
+      "CNS": "Headache, dizziness, insomnia",
+      "Gastrointestinal": "Nausea, constipation",
+      "Hypersensitivity": "Rash, itching, angioedema, rarely anaphylactic shock (injectable form)"
+    },
+    dozadan: "Symptoms: cardiac conduction disturbance, hypotension. Treatment: symptomatic, cardiovascular monitoring.",
+    ozarotasir: [
+      "Enhances the effect of other antispasmodics (papaverine, atropine)",
+      "Reduces the effect of levodopa (may worsen rigidity/tremor)",
+      "May enhance the effect of antihypertensives"
+    ],
+    qollash: {
+      kattalar: "Oral 40–80 mg three times daily. IM or slow IV 40–80 mg (for acute colic); max 240 mg/day.",
+      bolalar: "1–6 years: 40–120 mg/day; from 6 years: 80–200 mg/day in 2–5 divided doses"
+    },
+    chiqarish: "Tablets 40 mg, 80 mg; injection solution 20 mg/mL (2 mL)"
+  }
+},
+
+// ─── A03AX04 · Pinaveriy bromid ───────────────────────────────────────────
+"A03AX04": {
+  uz: {
+    gruppa: "Boshqa funksional ichak spazmolitiklari (kaltsiy kanal blokatori)",
+    farmTasir: "Ichakka tanlab ta'sir qiluvchi kaltsiy antagonisti spazmolitik",
+    farmakodinamika: `Pinaveriy bromid — to'rtlamchi ammoniyli birikma, oshqozon-ichak silliq mushaklariga tanlab ta'sir qiluvchi kaltsiy kanal blokatori (spazmolitik). Ichak silliq mushak hujayralarига kaltsiy kirishini bloklab, qisqaruvchanlikni va spazmni kamaytiradi. Tanlovchanligi yuqori — yurak-tomir tizimiga ta'siri ahamiyatsiz. To'rtlamchi tuzilishi tufayli kam so'riladi va antixolinergik ta'sir bermaydi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan kam so'riladi (~10%)",
+      tarqalish: "Asosan oshqozon-ichak traktida mahalliy to'planadi",
+      metabolizm: "Jigarда metabolizmga uchraydi",
+      chiqarilish: "Asosan najas bilan"
+    },
+    korsatmalar: [
+      "Tirnashgan ichak sindromi (TIS) — qorin og'rig'i, spazm, ichak harakati buzilishi",
+      "O't yo'llari disfunksiyasi bilan bog'liq og'riq",
+      "Rentgen/endoskopik tekshiruvga tayyorgarlik (ichak spazmini kamaytirish)"
+    ],
+    qarrshi: [
+      "Pinaveriy bromidga o'ta sezuvchanlik",
+      "Bolalar yoshi (ma'lumot cheklangan)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Epigastral noxushlik, ko'ngil aynishi, ich qotishi yoki diareya (kam)",
+      "Allergiya": "Toshma, qichishish (kam)",
+      "Boshqa": "Qizilo'ngach tirnashishi (yetarli suv bilan ichmaslikda)"
+    },
+    dozadan: "Past tizimli so'rilish tufayli xavf past; simptomatik davolash.",
+    ozarotasir: [
+      "Antixolinergiklar bilan ta'sir kuchayishi mumkin (nazariy)"
+    ],
+    qollash: {
+      kattalar: "50 mg kuniga 3 marta yoki 100 mg kuniga 2 marta, ovqat bilan, ko'p suv bilan (yotgan holatda ichmaslik).",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "Pardali tabletkalar 50 mg, 100 mg"
+  },
+  ru: {
+    gruppa: "Прочие спазмолитики при функциональных заболеваниях кишечника (блокатор кальциевых каналов)",
+    farmTasir: "Спазмолитик-антагонист кальция с избирательным действием на кишечник",
+    farmakodinamika: `Пинаверия бромид — четвертичное аммониевое соединение, блокатор кальциевых каналов (спазмолитик) с избирательным действием на гладкую мускулатуру ЖКТ. Блокирует вход кальция в гладкомышечные клетки кишечника, снижая сократимость и спазм. Высокоизбирателен — влияние на сердечно-сосудистую систему незначительно. Из-за четвертичной структуры мало всасывается и не даёт антихолинергического действия.`,
+    farmakokinetika: {
+      sorish: "Мало всасывается из ЖКТ (~10%)",
+      tarqalish: "Накапливается преимущественно местно в ЖКТ",
+      metabolizm: "Метаболизируется в печени",
+      chiqarilish: "Преимущественно с калом"
+    },
+    korsatmalar: [
+      "Синдром раздражённого кишечника (СРК) — боль, спазм, нарушение моторики",
+      "Боль, связанная с дисфункцией жёлчных путей",
+      "Подготовка к рентген/эндоскопическому исследованию (уменьшение спазма)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к пинаверия бромиду",
+      "Детский возраст (данные ограничены)"
+    ],
+    nojoya: {
+      "ЖКТ": "Дискомфорт в эпигастрии, тошнота, запор или диарея (редко)",
+      "Аллергические": "Сыпь, зуд (редко)",
+      "Прочие": "Раздражение пищевода (при приёме без достаточного количества воды)"
+    },
+    dozadan: "Из-за низкого системного всасывания риск низкий; симптоматическое лечение.",
+    ozarotasir: [
+      "Возможно усиление действия с антихолинергиками (теоретически)"
+    ],
+    qollash: {
+      kattalar: "50 мг 3 раза в день или 100 мг 2 раза в день, во время еды, запивая большим количеством воды (не лёжа).",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 50 мг, 100 мг"
+  },
+  en: {
+    gruppa: "Other antispasmodics for functional bowel disorders (calcium channel blocker)",
+    farmTasir: "Calcium antagonist antispasmodic with selective action on the bowel",
+    farmakodinamika: `Pinaverium bromide is a quaternary ammonium compound, a calcium channel blocker (antispasmodic) with selective action on GI smooth muscle. It blocks calcium entry into intestinal smooth muscle cells, reducing contractility and spasm. It is highly selective — its cardiovascular effect is negligible. Owing to its quaternary structure it is poorly absorbed and produces no anticholinergic effect.`,
+    farmakokinetika: {
+      sorish: "Poorly absorbed from the GI tract (~10%)",
+      tarqalish: "Accumulates mainly locally in the GI tract",
+      metabolizm: "Metabolised in the liver",
+      chiqarilish: "Mainly in faeces"
+    },
+    korsatmalar: [
+      "Irritable bowel syndrome (IBS) — pain, spasm, motility disturbance",
+      "Pain associated with biliary tract dysfunction",
+      "Preparation for X-ray/endoscopic examination (reducing spasm)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to pinaverium bromide",
+      "Childhood (limited data)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Epigastric discomfort, nausea, constipation or diarrhoea (rare)",
+      "Hypersensitivity": "Rash, itching (rare)",
+      "Other": "Oesophageal irritation (if taken without enough water)"
+    },
+    dozadan: "Risk is low due to low systemic absorption; symptomatic treatment.",
+    ozarotasir: [
+      "Effects may be enhanced with anticholinergics (theoretical)"
+    ],
+    qollash: {
+      kattalar: "50 mg three times daily or 100 mg twice daily, with food, with plenty of water (not lying down).",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Film-coated tablets 50 mg, 100 mg"
+  }
+},
+
+// ─── A03AX13 · Simetikon ──────────────────────────────────────────────────
+"A03AX13": {
+  uz: {
+    gruppa: "Gaz haydovchi (antiflatulent) vositalar",
+    farmTasir: "Ichakdagi gaz to'planishini kamaytiruvchi vosita",
+    farmakodinamika: `Simetikon — dimetilsiloksan va kremniy dioksidi asosidagi inert silikon birikma (gaz haydovchi). Oshqozon-ichak suyuqligi va shilimshig'idagi gaz pufakchalarining yuza tarangligini pasaytiradi; pufakchalar birlashib yorilib, gaz ichak devori orqali so'riladi yoki tabiiy chiqariladi. Meteorizm, qorin shishi va gaz bilan bog'liq og'riqni yengillashtiradi. Kimyoviy inert — so'rilmaydi, fermentlar va mikroflorага ta'sir qilmaydi. Ultratovush/endoskopiyada ko'rinishni yaxshilaydi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan umuman so'rilmaydi",
+      tarqalish: "Faqat ichak luminida fizik ta'sir",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "O'zgarmagan holda najas bilan"
+    },
+    korsatmalar: [
+      "Meteorizm, qorin shishi, aerofagiya",
+      "Chaqaloqlarda qorin sanchig'i (koliki)",
+      "Funksional dispepsiyada gaz simptomlari",
+      "Diagnostik tekshiruvlardan (UTT, rentgen, endoskopiya) oldin tayyorgarlik",
+      "Yuvuvchi vositalar bilan zaharlanishda ko'piklanishni kamaytirish"
+    ],
+    qarrshi: [
+      "Simetikonga o'ta sezuvchanlik",
+      "Ichak obstruksiyasi yoki perforatsiyasi"
+    ],
+    nojoya: {
+      "Umumiy": "Juda yaxshi ko'tariladi; kamdan-kam allergik reaksiya (toshma, qichishish)"
+    },
+    dozadan: "Inert bo'lgani uchun xavfsiz; maxsus chora talab qilmaydi.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir yo'q (so'rilmaydi)"
+    ],
+    qollash: {
+      kattalar: "40–125 mg har ovqatdan keyin va uxlash oldidan; diagnostikadan oldin maxsus sxema bo'yicha.",
+      bolalar: "Chaqaloqlar: 20–40 mg har emizishdan keyin (tomchi/suspenziya)"
+    },
+    chiqarish: "Kapsulalar, chaynaladigan tabletkalar, emulsiya/tomchilar (40–125 mg)"
+  },
+  ru: {
+    gruppa: "Ветрогонные (антифлатулентные) средства",
+    farmTasir: "Средство, уменьшающее скопление газов в кишечнике",
+    farmakodinamika: `Симетикон — инертное силиконовое соединение на основе диметилсилоксана и диоксида кремния (ветрогонное). Снижает поверхностное натяжение пузырьков газа в желудочно-кишечной жидкости и слизи; пузырьки сливаются и лопаются, газ всасывается через стенку кишки или выводится естественно. Облегчает метеоризм, вздутие и связанную с газами боль. Химически инертен — не всасывается, не влияет на ферменты и микрофлору. Улучшает визуализацию при УЗИ/эндоскопии.`,
+    farmakokinetika: {
+      sorish: "Совершенно не всасывается из ЖКТ",
+      tarqalish: "Только физическое действие в просвете кишки",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "В неизменённом виде с калом"
+    },
+    korsatmalar: [
+      "Метеоризм, вздутие живота, аэрофагия",
+      "Кишечные колики у младенцев",
+      "Газовые симптомы при функциональной диспепсии",
+      "Подготовка к диагностическим исследованиям (УЗИ, рентген, эндоскопия)",
+      "Уменьшение пенообразования при отравлении детергентами"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к симетикону",
+      "Обструкция или перфорация кишечника"
+    ],
+    nojoya: {
+      "Общие": "Очень хорошо переносится; редко аллергическая реакция (сыпь, зуд)"
+    },
+    dozadan: "Поскольку инертен, безопасен; специальных мер не требует.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий нет (не всасывается)"
+    ],
+    qollash: {
+      kattalar: "40–125 мг после каждого приёма пищи и перед сном; перед диагностикой по специальной схеме.",
+      bolalar: "Младенцы: 20–40 мг после каждого кормления (капли/суспензия)"
+    },
+    chiqarish: "Капсулы, жевательные таблетки, эмульсия/капли (40–125 мг)"
+  },
+  en: {
+    gruppa: "Antiflatulent agents",
+    farmTasir: "Agent that reduces intestinal gas accumulation",
+    farmakodinamika: `Simethicone is an inert silicone compound based on dimethylsiloxane and silicon dioxide (an antiflatulent). It lowers the surface tension of gas bubbles in GI fluid and mucus; the bubbles coalesce and burst, and the gas is absorbed through the bowel wall or expelled naturally. It relieves flatulence, bloating and gas-related pain. It is chemically inert — not absorbed and without effect on enzymes or microflora. It improves visualisation in ultrasound/endoscopy.`,
+    farmakokinetika: {
+      sorish: "Not absorbed at all from the GI tract",
+      tarqalish: "Only a physical action in the bowel lumen",
+      metabolizm: "Not metabolised",
+      chiqarilish: "Unchanged in faeces"
+    },
+    korsatmalar: [
+      "Flatulence, bloating, aerophagia",
+      "Infant colic",
+      "Gas symptoms in functional dyspepsia",
+      "Preparation for diagnostic examinations (ultrasound, X-ray, endoscopy)",
+      "Reducing foaming in detergent poisoning"
+    ],
+    qarrshi: [
+      "Hypersensitivity to simethicone",
+      "Bowel obstruction or perforation"
+    ],
+    nojoya: {
+      "General": "Very well tolerated; rarely allergic reaction (rash, itching)"
+    },
+    dozadan: "Being inert, it is safe; no specific measures needed.",
+    ozarotasir: [
+      "No clinically significant interactions (not absorbed)"
+    ],
+    qollash: {
+      kattalar: "40–125 mg after each meal and at bedtime; before diagnostics per a special schedule.",
+      bolalar: "Infants: 20–40 mg after each feed (drops/suspension)"
+    },
+    chiqarish: "Capsules, chewable tablets, emulsion/drops (40–125 mg)"
+  }
+},
+
+// ─── A03BA01 · Atropin sulfat ─────────────────────────────────────────────
+"A03BA01": {
+  uz: {
+    gruppa: "Antixolinergiklar (belladonna alkaloidlari)",
+    farmTasir: "M-xolinoblokator (antimuskarin) spazmolitik",
+    farmakodinamika: `Atropin — belladonna (Atropa belladonna) tabiiy alkaloidi, raqobatli M-xolinoretseptor blokatori (antimuskarin). Asetilxolinning muskarin retseptorlariga ta'sirini to'sib, silliq mushak tonusi va spazmini kamaytiradi (oshqozon-ichak, o't va siydik yo'llari, bronx), bez sekretsiyasini (so'lak, ter, bronx, oshqozon) kamaytiradi, yurak urishini tezlashtiradi (vagusni bostiradi), ko'z qorachig'ini kengaytiradi (midriaz) va akkomodatsiyani falaj qiladi. Markaziy ta'sirga ham ega (yuqori dozada qo'zg'aluvchanlik).`,
+    farmakokinetika: {
+      sorish: "Og'iz, parenteral va shilliq pardadan yaxshi so'riladi",
+      tarqalish: "To'qimalarga keng tarqaladi, BBO va platsentadan o'tadi",
+      metabolizm: "Jigarда qisman metabolizmga uchraydi",
+      chiqarilish: "Asosan siydik bilan (50% o'zgarmagan); T½ ~2–4 soat"
+    },
+    korsatmalar: [
+      "Oshqozon-ichak, o't va siydik yo'llari spazmi, sanchiq",
+      "Bradikardiya, AV-blokada (yurak vagus ta'sirini kamaytirish)",
+      "Anesteziyadan oldin premedikatsiya (sekretsiya va vagal refleksni kamaytirish)",
+      "Xolinergik (fosfororganik) moddalar va antixolinesteraza bilan zaharlanish — antidot",
+      "Oftalmologiyada midriaz va sikloplegiya"
+    ],
+    qarrshi: [
+      "Atropinga o'ta sezuvchanlik",
+      "Yopiq burchakli glaukoma",
+      "Prostata gipertrofiyasi va siydik tutilishi",
+      "Taxiaritmiya, og'ir yurak yetishmovchiligi",
+      "Paralitik ileus, piloroduodenal stenoz, og'ir yarali kolit"
+    ],
+    nojoya: {
+      "Antixolinergik": "Og'iz qurishi, ko'rish xiralashuvi, midriaz, fotofobiya, siydik tutilishi, ich qotishi",
+      "Yurak": "Taxikardiya, yurak urishi sezgisi, aritmiya",
+      "Asab tizimi": "Bosh og'rig'i, hayajonlanish, gallyutsinatsiyalar, chalkashlik (yuqori dozada)",
+      "Boshqa": "Ter ajralishi kamayishi va gipertermiya (ayniqsa bolalarda)"
+    },
+    dozadan: "«Antixolinergik sindrom»: issiq quruq teri, midriaz, taxikardiya, qo'zg'aluvchanlik, gallyutsinatsiya, koma. Antidot — fizostigmin; simptomatik va qo'llab-quvvatlovchi davolash.",
+    ozarotasir: [
+      "Boshqa antixolinergik ta'sirli dorilar (trisiklik antidepressantlar, antigistaminlar, neyroleptiklar) ta'sirini kuchaytiradi",
+      "Oshqozon-ichak motorikasini sekinlashtirib boshqa dorilar so'rilishini o'zgartiradi"
+    ],
+    qollash: {
+      kattalar: "Spazm: 0,25–1 mg v/m, v/v yoki teri ostiga. Bradikardiya: 0,5–1 mg v/v (kerak bo'lsa takror, maks. 3 mg). FOS zaharlanishida yuqori dozalar (atropinizatsiyagacha).",
+      bolalar: "Vaznга qarab 0,01–0,02 mg/kg (premedikatsiya/bradikardiya)"
+    },
+    chiqarish: "Inyeksiya eritmasi 0,1% (1 mg/ml); ko'z tomchilari 1%; tabletkalar"
+  },
+  ru: {
+    gruppa: "Антихолинергические средства (алкалоиды белладонны)",
+    farmTasir: "М-холиноблокатор (антимускариновый) спазмолитик",
+    farmakodinamika: `Атропин — природный алкалоид белладонны (Atropa belladonna), конкурентный блокатор М-холинорецепторов (антимускариновый). Блокируя действие ацетилхолина на мускариновые рецепторы, снижает тонус и спазм гладкой мускулатуры (ЖКТ, жёлчных и мочевых путей, бронхов), уменьшает секрецию желёз (слюнных, потовых, бронхиальных, желудочных), учащает сердцебиение (подавляет вагус), расширяет зрачок (мидриаз) и парализует аккомодацию. Обладает и центральным действием (возбуждение в высоких дозах).`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь, парентерально и со слизистых",
+      tarqalish: "Широко распределяется, проникает через ГЭБ и плаценту",
+      metabolizm: "Частично метаболизируется в печени",
+      chiqarilish: "Преимущественно с мочой (50% в неизменённом виде); T½ ~2–4 ч"
+    },
+    korsatmalar: [
+      "Спазм и колика ЖКТ, жёлчных и мочевых путей",
+      "Брадикардия, АВ-блокада (снижение вагусного влияния на сердце)",
+      "Премедикация перед анестезией (снижение секреции и вагальных рефлексов)",
+      "Отравление холинергическими (фосфорорганическими) веществами и антихолинэстеразными — антидот",
+      "В офтальмологии мидриаз и циклоплегия"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к атропину",
+      "Закрытоугольная глаукома",
+      "Гипертрофия простаты и задержка мочи",
+      "Тахиаритмия, тяжёлая сердечная недостаточность",
+      "Паралитический илеус, пилородуоденальный стеноз, тяжёлый язвенный колит"
+    ],
+    nojoya: {
+      "Антихолинергические": "Сухость во рту, нечёткость зрения, мидриаз, фотофобия, задержка мочи, запор",
+      "Сердце": "Тахикардия, сердцебиение, аритмия",
+      "ЦНС": "Головная боль, возбуждение, галлюцинации, спутанность (в высоких дозах)",
+      "Прочие": "Снижение потоотделения и гипертермия (особенно у детей)"
+    },
+    dozadan: "«Антихолинергический синдром»: горячая сухая кожа, мидриаз, тахикардия, возбуждение, галлюцинации, кома. Антидот — физостигмин; симптоматическое и поддерживающее лечение.",
+    ozarotasir: [
+      "Усиливает действие других препаратов с антихолинергическим эффектом (трициклические антидепрессанты, антигистаминные, нейролептики)",
+      "Замедляя моторику ЖКТ, изменяет всасывание других препаратов"
+    ],
+    qollash: {
+      kattalar: "Спазм: 0,25–1 мг в/м, в/в или п/к. Брадикардия: 0,5–1 мг в/в (при необходимости повторно, макс. 3 мг). При отравлении ФОС — высокие дозы (до атропинизации).",
+      bolalar: "По массе тела 0,01–0,02 мг/кг (премедикация/брадикардия)"
+    },
+    chiqarish: "Раствор для инъекций 0,1% (1 мг/мл); глазные капли 1%; таблетки"
+  },
+  en: {
+    gruppa: "Anticholinergics (belladonna alkaloids)",
+    farmTasir: "Muscarinic antagonist (antimuscarinic) antispasmodic",
+    farmakodinamika: `Atropine is a natural belladonna (Atropa belladonna) alkaloid, a competitive muscarinic (M) cholinoreceptor blocker. By blocking acetylcholine at muscarinic receptors it reduces smooth muscle tone and spasm (GI, biliary and urinary tracts, bronchi), decreases glandular secretion (salivary, sweat, bronchial, gastric), increases heart rate (suppressing the vagus), dilates the pupil (mydriasis) and paralyses accommodation. It also has central effects (excitation at high doses).`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally, parenterally and from mucous membranes",
+      tarqalish: "Widely distributed, crosses the blood-brain barrier and placenta",
+      metabolizm: "Partly metabolised in the liver",
+      chiqarilish: "Mainly in urine (50% unchanged); T½ ~2–4 h"
+    },
+    korsatmalar: [
+      "Spasm and colic of the GI, biliary and urinary tracts",
+      "Bradycardia, AV block (reducing vagal influence on the heart)",
+      "Premedication before anaesthesia (reducing secretions and vagal reflexes)",
+      "Poisoning with cholinergic (organophosphate) agents and anticholinesterases — antidote",
+      "Mydriasis and cycloplegia in ophthalmology"
+    ],
+    qarrshi: [
+      "Hypersensitivity to atropine",
+      "Closed-angle glaucoma",
+      "Prostatic hypertrophy and urinary retention",
+      "Tachyarrhythmia, severe heart failure",
+      "Paralytic ileus, pyloroduodenal stenosis, severe ulcerative colitis"
+    ],
+    nojoya: {
+      "Anticholinergic": "Dry mouth, blurred vision, mydriasis, photophobia, urinary retention, constipation",
+      "Cardiac": "Tachycardia, palpitations, arrhythmia",
+      "CNS": "Headache, excitation, hallucinations, confusion (at high doses)",
+      "Other": "Reduced sweating and hyperthermia (especially in children)"
+    },
+    dozadan: "Anticholinergic syndrome: hot dry skin, mydriasis, tachycardia, agitation, hallucinations, coma. Antidote — physostigmine; symptomatic and supportive treatment.",
+    ozarotasir: [
+      "Enhances other drugs with anticholinergic effect (tricyclic antidepressants, antihistamines, neuroleptics)",
+      "By slowing GI motility it alters absorption of other drugs"
+    ],
+    qollash: {
+      kattalar: "Spasm: 0.25–1 mg IM, IV or SC. Bradycardia: 0.5–1 mg IV (repeat if needed, max 3 mg). In organophosphate poisoning — high doses (to atropinisation).",
+      bolalar: "By body weight 0.01–0.02 mg/kg (premedication/bradycardia)"
+    },
+    chiqarish: "Injection solution 0.1% (1 mg/mL); eye drops 1%; tablets"
+  }
 }
 
 };
