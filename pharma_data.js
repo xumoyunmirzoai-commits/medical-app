@@ -10502,6 +10502,850 @@ const PHARMA_DATA = {
     },
     chiqarish: "Capsules 200 mg; oral suspension 220 mg/5 mL"
   }
+},
+
+// ─── A07AA11 · Rifaksimin ─────────────────────────────────────────────────
+"A07AA11": {
+  uz: {
+    gruppa: "Ichak antiinfeksion vositalari (rifamitsin hosilalari)",
+    farmTasir: "So'rilmaydigan keng spektrli ichak antibiotigi",
+    farmakodinamika: `Rifaksimin — rifamitsin (rifampitsin) hosilasi, deyarli so'rilmaydigan keng spektrli antibiotik. Bakteriya ДНК-bog'liq РНК-polimeraza fermentini (beta-subbirligi) bog'lab, РНК sintezini bloklaydi va bakteriya o'limiga olib keladi. Ko'plab gram-musbat va gram-manfiy, aerob va anaerob ichak bakteriyalariga (jumladan E. coli, Shigella, Salmonella, Clostridioides) faol. Deyarli so'rilmagani uchun ta'sir ichak luminида yuqori konsentratsiyada bo'ladi, tizimli ta'sir minimal.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan deyarli so'rilmaydi (<1%); ichak luminида yuqori konsentratsiya",
+      tarqalish: "Tizimli taqsimlanish ahamiyatsiz",
+      metabolizm: "So'rilmagani uchun tizimli metabolizm yo'q",
+      chiqarilish: "Deyarli to'liq najas bilan o'zgarmagan holda"
+    },
+    korsatmalar: [
+      "Sayohatchilar diareyasi va boshqa bakterial ich ketishlar",
+      "Jigar ensefalopatiyasi (qonda ammiakni kamaytirish)",
+      "Tirnashgan ichak sindromi (diareya bilan kechadigan, IBS-D)",
+      "Ingichka ichakда bakteriyalarning ortib ketishi (SIBO)",
+      "Ichak jarrohligida periоperatsion profilaktika"
+    ],
+    qarrshi: [
+      "Rifaksimin yoki rifamitsinlarga o'ta sezuvchanlik",
+      "Ichak obstruksiyasi, og'ir yarali ichak shikastlanishi",
+      "Homiladorlik (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Qorin shishi, qorin og'rig'i, ko'ngil aynishi, meteorizm, ich qotishi yoki diareya",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi",
+      "Allergiya": "Toshma, qichishish (kam)",
+      "Boshqa": "Siydikning qizg'ish rangga bo'yalishi (rifamitsin)"
+    },
+    dozadan: "Past tizimli so'rilish tufayli toksiklik past; simptomatik davolash.",
+    ozarotasir: [
+      "Tizimli o'zaro ta'sir kam (so'rilmaydi); P-glikoprotein substratlariga ta'sir qilishi mumkin",
+      "Keng spektrli antibiotik bo'lgani uchun og'iz orqali tirik vaksinalar ta'sirini kamaytirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "Sayohatchilar diareyasi: 200 mg kuniga 3 marta 3 kun. Jigar ensefalopatiyasi: 550 mg kuniga 2 marta. SIBO/IBS-D: 400–550 mg kuniga 2–3 marta (kurs bo'yicha).",
+      bolalar: "12 yoshdan: kattalardagidek (ko'rsatmaga qarab)"
+    },
+    chiqarish: "Pardali tabletkalar 200 mg, 550 mg; ichish uchun granula"
+  },
+  ru: {
+    gruppa: "Кишечные противоинфекционные средства (производные рифамицина)",
+    farmTasir: "Невсасывающийся кишечный антибиотик широкого спектра",
+    farmakodinamika: `Рифаксимин — производное рифамицина (рифампицина), практически невсасывающийся антибиотик широкого спектра. Связывает бета-субъединицу ДНК-зависимой РНК-полимеразы бактерий, блокируя синтез РНК и вызывая гибель бактерии. Активен в отношении многих грамположительных и грамотрицательных, аэробных и анаэробных кишечных бактерий (включая E. coli, Shigella, Salmonella, Clostridioides). Поскольку почти не всасывается, действует в высокой концентрации в просвете кишки, системное действие минимально.`,
+    farmakokinetika: {
+      sorish: "Почти не всасывается из ЖКТ (<1%); высокая концентрация в просвете кишки",
+      tarqalish: "Системное распределение незначительно",
+      metabolizm: "Системного метаболизма нет (не всасывается)",
+      chiqarilish: "Почти полностью с калом в неизменённом виде"
+    },
+    korsatmalar: [
+      "Диарея путешественников и другие бактериальные диареи",
+      "Печёночная энцефалопатия (снижение аммиака крови)",
+      "Синдром раздражённого кишечника с диареей (СРК-Д)",
+      "Избыточный бактериальный рост в тонкой кишке (СИБР)",
+      "Периоперационная профилактика при кишечной хирургии"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к рифаксимину или рифамицинам",
+      "Кишечная непроходимость, тяжёлое язвенное поражение кишечника",
+      "Беременность (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Вздутие, боль в животе, тошнота, метеоризм, запор или диарея",
+      "ЦНС": "Головная боль, головокружение",
+      "Аллергические": "Сыпь, зуд (редко)",
+      "Прочие": "Окрашивание мочи в красноватый цвет (рифамицин)"
+    },
+    dozadan: "Из-за низкого системного всасывания токсичность низкая; симптоматическое лечение.",
+    ozarotasir: [
+      "Системных взаимодействий мало (не всасывается); может влиять на субстраты P-гликопротеина",
+      "Как антибиотик широкого спектра может снижать действие пероральных живых вакцин"
+    ],
+    qollash: {
+      kattalar: "Диарея путешественников: 200 мг 3 раза в день 3 дня. Печёночная энцефалопатия: 550 мг 2 раза в день. СИБР/СРК-Д: 400–550 мг 2–3 раза в день (курсом).",
+      bolalar: "С 12 лет: как у взрослых (по показанию)"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 200 мг, 550 мг; гранулы для приёма внутрь"
+  },
+  en: {
+    gruppa: "Intestinal anti-infectives (rifamycin derivatives)",
+    farmTasir: "Non-absorbable broad-spectrum gut antibiotic",
+    farmakodinamika: `Rifaximin is a rifamycin (rifampicin) derivative, a virtually non-absorbable broad-spectrum antibiotic. It binds the beta-subunit of bacterial DNA-dependent RNA polymerase, blocking RNA synthesis and causing bacterial death. It is active against many Gram-positive and Gram-negative, aerobic and anaerobic gut bacteria (including E. coli, Shigella, Salmonella, Clostridioides). As it is barely absorbed, it acts at high concentration in the bowel lumen with minimal systemic effect.`,
+    farmakokinetika: {
+      sorish: "Barely absorbed from the GI tract (<1%); high concentration in the bowel lumen",
+      tarqalish: "Systemic distribution negligible",
+      metabolizm: "No systemic metabolism (not absorbed)",
+      chiqarilish: "Almost entirely in faeces unchanged"
+    },
+    korsatmalar: [
+      "Traveller's diarrhoea and other bacterial diarrhoeas",
+      "Hepatic encephalopathy (lowering blood ammonia)",
+      "Diarrhoea-predominant irritable bowel syndrome (IBS-D)",
+      "Small intestinal bacterial overgrowth (SIBO)",
+      "Perioperative prophylaxis in bowel surgery"
+    ],
+    qarrshi: [
+      "Hypersensitivity to rifaximin or rifamycins",
+      "Intestinal obstruction, severe ulcerative bowel damage",
+      "Pregnancy (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Bloating, abdominal pain, nausea, flatulence, constipation or diarrhoea",
+      "CNS": "Headache, dizziness",
+      "Hypersensitivity": "Rash, itching (rare)",
+      "Other": "Reddish discolouration of urine (rifamycin)"
+    },
+    dozadan: "Toxicity is low due to low systemic absorption; symptomatic treatment.",
+    ozarotasir: [
+      "Few systemic interactions (not absorbed); may affect P-glycoprotein substrates",
+      "As a broad-spectrum antibiotic it may reduce the effect of oral live vaccines"
+    ],
+    qollash: {
+      kattalar: "Traveller's diarrhoea: 200 mg three times daily for 3 days. Hepatic encephalopathy: 550 mg twice daily. SIBO/IBS-D: 400–550 mg 2–3 times daily (as a course).",
+      bolalar: "From 12 years: as in adults (per indication)"
+    },
+    chiqarish: "Film-coated tablets 200 mg, 550 mg; granules for oral use"
+  }
+},
+
+// ─── A07BA01 · Faollashtirilgan ko'mir ────────────────────────────────────
+"A07BA01": {
+  uz: {
+    gruppa: "Ichak adsorbentlari (enterosorbentlar)",
+    farmTasir: "Toksinlarni o'ziga tortuvchi adsorbent (enterosorbent)",
+    farmakodinamika: `Faollashtirilgan ko'mir — yuqori g'ovaklik va katta sirt yuzasiga ega adsorbent (enterosorbent). Oshqozon-ichak yo'lida turli moddalarni — toksinlar, alkaloidlar, og'ir metallar tuzlari, gazlar, bakterial токsinlar, dori qoldiqlarini — yuza adsorbsiyasi orqali o'ziga bog'laydi va ularning qonga so'rilishini kamaytirib, najas bilan chiqaradi. Kimyoviy faol emas, shilliq pardani tirnatmaydi. Tanlovsiz ta'sir qiladi (foydali moddalarni ham bog'laydi).`,
+    farmakokinetika: {
+      sorish: "So'rilmaydi; faqat ichak luminida fizik adsorbsiya",
+      tarqalish: "Tizimli taqsimlanish yo'q",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Adsorbsiyalangan moddalar bilan najas orqali"
+    },
+    korsatmalar: [
+      "O'tkir zaharlanishlar (dori, alkaloid, og'ir metallar, oziq-ovqat)",
+      "Diareya, dispepsiya, meteorizm",
+      "Oziq-ovqat va dori intoksikatsiyasi, infeksion ich ketishlar (yordamchi)",
+      "Surunkali buyrak/jigar yetishmovchiligida intoksikatsiya, allergik kasalliklar (yordamchi)",
+      "Diagnostik tekshiruv oldidan gazni kamaytirish"
+    ],
+    qarrshi: [
+      "Oshqozon-ichak qon ketishi va yarasi (zo'rayish)",
+      "Ichak atoniyasi, ichak tutilishi",
+      "Faollashtirilgan ko'mirга o'ta sezuvchanlik"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi yoki diareya, najasning qora rangга bo'yalishi",
+      "Metabolik": "Uzoq qo'llashda ozuqa moddalari (vitamin, gormon, yog') so'rilishining kamayishi",
+      "Boshqa": "Hipovitaminoz, gipokalsemiya (uzoq qo'llashda)"
+    },
+    dozadan: "Ko'p dozada ich qotishi; xavfsiz, lekin boshqa dorilar so'rilishini buzadi.",
+    ozarotasir: [
+      "Boshqa dorilar (antibiotik, gormon, vitamin) so'rilishini kamaytiradi — 1–2 soat farq bilan qabul qiling",
+      "Boshqa og'iz dorilarining ta'sirini susaytiradi"
+    ],
+    qollash: {
+      kattalar: "Zaharlanishda: 20–30 g bir martalik (yoki 1 g/kg) suvда suspenziya holida. Dispepsiya/diareya: 1–2 g kuniga 3–4 marta ovqatlar va dorilardan 1–2 soat farq bilan.",
+      bolalar: "Vaznга qarab 0,05 g/kg kuniga 3 marta"
+    },
+    chiqarish: "Tabletkalar 250 mg; kapsulalar; kukun/granula (suspenziya uchun)"
+  },
+  ru: {
+    gruppa: "Кишечные адсорбенты (энтеросорбенты)",
+    farmTasir: "Адсорбент (энтеросорбент), связывающий токсины",
+    farmakodinamika: `Активированный уголь — адсорбент (энтеросорбент) с высокой пористостью и большой площадью поверхности. В ЖКТ связывает за счёт поверхностной адсорбции различные вещества — токсины, алкалоиды, соли тяжёлых металлов, газы, бактериальные токсины, остатки лекарств — снижая их всасывание в кровь и выводя с калом. Химически инертен, не раздражает слизистую. Действует неизбирательно (связывает и полезные вещества).`,
+    farmakokinetika: {
+      sorish: "Не всасывается; только физическая адсорбция в просвете кишки",
+      tarqalish: "Системного распределения нет",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "С калом вместе с адсорбированными веществами"
+    },
+    korsatmalar: [
+      "Острые отравления (лекарства, алкалоиды, тяжёлые металлы, пища)",
+      "Диарея, диспепсия, метеоризм",
+      "Пищевая и лекарственная интоксикация, инфекционные диареи (вспомогательно)",
+      "Интоксикация при хронической почечной/печёночной недостаточности, аллергические заболевания (вспомогательно)",
+      "Уменьшение газа перед диагностикой"
+    ],
+    qarrshi: [
+      "Желудочно-кишечное кровотечение и язва (обострение)",
+      "Атония кишечника, кишечная непроходимость",
+      "Гиперчувствительность к активированному углю"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор или диарея, окрашивание кала в чёрный цвет",
+      "Метаболические": "При длительном применении снижение всасывания питательных веществ (витамины, гормоны, жиры)",
+      "Прочие": "Гиповитаминоз, гипокальциемия (при длительном применении)"
+    },
+    dozadan: "При больших дозах запор; безопасен, но нарушает всасывание других препаратов.",
+    ozarotasir: [
+      "Снижает всасывание других препаратов (антибиотики, гормоны, витамины) — интервал 1–2 часа",
+      "Ослабляет действие других пероральных препаратов"
+    ],
+    qollash: {
+      kattalar: "При отравлении: 20–30 г однократно (или 1 г/кг) в виде суспензии в воде. Диспепсия/диарея: 1–2 г 3–4 раза в день с интервалом 1–2 ч от еды и лекарств.",
+      bolalar: "По массе тела 0,05 г/кг 3 раза в день"
+    },
+    chiqarish: "Таблетки 250 мг; капсулы; порошок/гранулы (для суспензии)"
+  },
+  en: {
+    gruppa: "Intestinal adsorbents (enterosorbents)",
+    farmTasir: "Adsorbent (enterosorbent) that binds toxins",
+    farmakodinamika: `Activated charcoal is an adsorbent (enterosorbent) with high porosity and a large surface area. In the GI tract it binds various substances — toxins, alkaloids, heavy metal salts, gases, bacterial toxins, drug residues — by surface adsorption, reducing their absorption into the blood and excreting them in faeces. It is chemically inert and does not irritate the mucosa. It acts non-selectively (also binding beneficial substances).`,
+    farmakokinetika: {
+      sorish: "Not absorbed; only physical adsorption in the bowel lumen",
+      tarqalish: "No systemic distribution",
+      metabolizm: "Not metabolised",
+      chiqarilish: "In faeces together with the adsorbed substances"
+    },
+    korsatmalar: [
+      "Acute poisoning (drugs, alkaloids, heavy metals, food)",
+      "Diarrhoea, dyspepsia, flatulence",
+      "Food and drug intoxication, infectious diarrhoea (adjunct)",
+      "Intoxication in chronic renal/hepatic failure, allergic diseases (adjunct)",
+      "Reducing gas before diagnostics"
+    ],
+    qarrshi: [
+      "GI bleeding and ulcer (exacerbation)",
+      "Bowel atony, intestinal obstruction",
+      "Hypersensitivity to activated charcoal"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation or diarrhoea, black discolouration of stools",
+      "Metabolic": "Reduced absorption of nutrients (vitamins, hormones, fats) with prolonged use",
+      "Other": "Hypovitaminosis, hypocalcaemia (with prolonged use)"
+    },
+    dozadan: "Constipation at large doses; safe, but impairs absorption of other drugs.",
+    ozarotasir: [
+      "Reduces absorption of other drugs (antibiotics, hormones, vitamins) — separate by 1–2 hours",
+      "Weakens the effect of other oral drugs"
+    ],
+    qollash: {
+      kattalar: "Poisoning: 20–30 g once (or 1 g/kg) as a suspension in water. Dyspepsia/diarrhoea: 1–2 g 3–4 times daily, 1–2 h apart from food and drugs.",
+      bolalar: "By body weight 0.05 g/kg three times daily"
+    },
+    chiqarish: "Tablets 250 mg; capsules; powder/granules (for suspension)"
+  }
+},
+
+// ─── A07BC05 · Diosmektit (smektit) ───────────────────────────────────────
+"A07BC05": {
+  uz: {
+    gruppa: "Ichak adsorbentlari (tabiiy alyumosilikat)",
+    farmTasir: "Shilliq pardani himoyalovchi va adsorbsiyalovchi diareyaga qarshi vosita",
+    farmakodinamika: `Diosmektit (dioktaedrik smektit) — tabiiy alyumosilikat (gil minerali) asosidagi adsorbent. Qatlamli kristall tuzilishi va yuqori plastikligi tufayli oshqozon-ichak shilliq pardasini qoplab, shilimshiq qatlamini mustahkamlaydi va uning sifatini yaxshilaydi; shu bilan shilliq pardani kislota, o't kislotalari, mikroorganizmlar va токsinlardan himoyalaydi (sitomukoprotektiv). Bakteriya va virus токsinlarini, gazlarni adsorbsiyalaydi. So'rilmaydi, shilliq pardani tirnatmaydi.`,
+    farmakokinetika: {
+      sorish: "So'rilmaydi; faqat ichak luminida mahalliy ta'sir",
+      tarqalish: "Tizimli taqsimlanish yo'q",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "O'zgarmagan holda najas bilan"
+    },
+    korsatmalar: [
+      "O'tkir va surunkali diareya (infeksion va boshqa)",
+      "Bolalar va kattalarda o'tkir ich ketishi (regidratatsiya bilan)",
+      "Qizilo'ngach, oshqozon, ichak kasalliklari fonidagi og'riq va dispepsiya (yordamchi)",
+      "Meteorizm, qorin noxushligi"
+    ],
+    qarrshi: [
+      "Diosmektitга o'ta sezuvchanlik",
+      "Ichak tutilishi",
+      "Surunkali og'ir qabziyat",
+      "Fruktoza intolerantligi (ba'zi shakllarda shakar bor)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi (kam, dozani moslab bartaraf etiladi), meteorizm, qusish",
+      "Allergiya": "Toshma, qichishish, eshakemi, Kvinke shishi (juda kam)"
+    },
+    dozadan: "Past toksiklik; ko'p dozada ich qotishi — dozani kamaytirish.",
+    ozarotasir: [
+      "Boshqa dorilar so'rilishini kamaytiradi yoki sekinlashtiradi — 1–2 soat farq bilan qabul qiling"
+    ],
+    qollash: {
+      kattalar: "1 paket (3 g) yarim stakan suvда eritib, kuniga 3 marta. O'tkir diareyada dastlab kuniga 6 paketgacha.",
+      bolalar: "1 yoshgacha: 1 paket/sut; 1–2 yosh: 1–2 paket/sut; 2 yoshdan: 2–3 paket/sut (bo'lib)"
+    },
+    chiqarish: "Og'iz uchun suspenziya kukuni 3 g/paket"
+  },
+  ru: {
+    gruppa: "Кишечные адсорбенты (природный алюмосиликат)",
+    farmTasir: "Защищающее слизистую и адсорбирующее противодиарейное средство",
+    farmakodinamika: `Диосмектит (диоктаэдрический смектит) — адсорбент на основе природного алюмосиликата (глинистого минерала). Благодаря слоистой кристаллической структуре и высокой пластичности обволакивает слизистую ЖКТ, укрепляет слизистый слой и улучшает его качество; защищает слизистую от кислоты, жёлчных кислот, микроорганизмов и токсинов (цитомукопротективное действие). Адсорбирует бактериальные и вирусные токсины, газы. Не всасывается, не раздражает слизистую.`,
+    farmakokinetika: {
+      sorish: "Не всасывается; только местное действие в просвете кишки",
+      tarqalish: "Системного распределения нет",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "В неизменённом виде с калом"
+    },
+    korsatmalar: [
+      "Острая и хроническая диарея (инфекционная и другая)",
+      "Острая диарея у детей и взрослых (с регидратацией)",
+      "Боль и диспепсия при заболеваниях пищевода, желудка, кишечника (вспомогательно)",
+      "Метеоризм, дискомфорт в животе"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к диосмектиту",
+      "Кишечная непроходимость",
+      "Хронический тяжёлый запор",
+      "Непереносимость фруктозы (в некоторых формах содержится сахар)"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор (редко, устраняется подбором дозы), метеоризм, рвота",
+      "Аллергические": "Сыпь, зуд, крапивница, отёк Квинке (очень редко)"
+    },
+    dozadan: "Низкая токсичность; при больших дозах запор — снижение дозы.",
+    ozarotasir: [
+      "Снижает или замедляет всасывание других препаратов — интервал 1–2 часа"
+    ],
+    qollash: {
+      kattalar: "1 пакет (3 г) растворить в полстакана воды 3 раза в день. При острой диарее вначале до 6 пакетов в день.",
+      bolalar: "До 1 года: 1 пакет/сут; 1–2 года: 1–2 пакета/сут; с 2 лет: 2–3 пакета/сут (дробно)"
+    },
+    chiqarish: "Порошок для приготовления суспензии 3 г/пакет"
+  },
+  en: {
+    gruppa: "Intestinal adsorbents (natural aluminosilicate)",
+    farmTasir: "Mucosa-protecting, adsorbent antidiarrhoeal",
+    farmakodinamika: `Diosmectite (dioctahedral smectite) is an adsorbent based on a natural aluminosilicate (clay mineral). Owing to its layered crystalline structure and high plasticity it coats the GI mucosa, reinforces the mucus layer and improves its quality; it protects the mucosa from acid, bile acids, microorganisms and toxins (cytomucoprotective action). It adsorbs bacterial and viral toxins and gases. It is not absorbed and does not irritate the mucosa.`,
+    farmakokinetika: {
+      sorish: "Not absorbed; only local action in the bowel lumen",
+      tarqalish: "No systemic distribution",
+      metabolizm: "Not metabolised",
+      chiqarilish: "Unchanged in faeces"
+    },
+    korsatmalar: [
+      "Acute and chronic diarrhoea (infectious and other)",
+      "Acute diarrhoea in children and adults (with rehydration)",
+      "Pain and dyspepsia in oesophageal, gastric and intestinal disease (adjunct)",
+      "Flatulence, abdominal discomfort"
+    ],
+    qarrshi: [
+      "Hypersensitivity to diosmectite",
+      "Intestinal obstruction",
+      "Chronic severe constipation",
+      "Fructose intolerance (some forms contain sugar)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation (rare, resolved by dose adjustment), flatulence, vomiting",
+      "Hypersensitivity": "Rash, itching, urticaria, angioedema (very rare)"
+    },
+    dozadan: "Low toxicity; constipation at large doses — reduce dose.",
+    ozarotasir: [
+      "Reduces or slows absorption of other drugs — separate by 1–2 hours"
+    ],
+    qollash: {
+      kattalar: "1 sachet (3 g) dissolved in half a glass of water three times daily. In acute diarrhoea initially up to 6 sachets/day.",
+      bolalar: "Under 1 year: 1 sachet/day; 1–2 years: 1–2 sachets/day; from 2 years: 2–3 sachets/day (divided)"
+    },
+    chiqarish: "Powder for oral suspension 3 g/sachet"
+  }
+},
+
+// ─── A07CA · Og'iz orqali regidratatsiya tuzlari (ORS) ────────────────────
+"A07CA": {
+  uz: {
+    gruppa: "Suvsizlanishga qarshi vositalar (regidratatsiya tuzlari)",
+    farmTasir: "Suv-elektrolit muvozanatini tiklovchi og'iz regidratatsiya tuzlari",
+    farmakodinamika: `Og'iz orqali regidratatsiya tuzlari (ORS) — glyukoza (yoki dekstroza), natriy xlorid, kaliy xlorid, natriy sitrat/bikarbonat aralashmasi. Ichak epiteliysidagi natriy-glyukoza birgalikda tashish (kotransport) mexanizmiga asoslanadi: glyukoza natriyning faol so'rilishini rag'batlantiradi, natriy esa o'zi bilan suvni tortib oladi — bu diareya/qusishda yo'qotilgan suyuqlik va elektrolitlarni samarali tiklaydi. Sitrat/bikarbonat metabolik atsidozni to'g'rilaydi. Davolovchi emas, balki suvsizlanishni oldini olish/tiklash vositasi.`,
+    farmakokinetika: {
+      sorish: "Komponentlar ichakdan faol so'riladi (Na-glyukoza kotransport)",
+      tarqalish: "Tana suyuqliklari va hujayralararo bo'shliqqa tarqaladi",
+      metabolizm: "Glyukoza energiyaга, sitrat bikarbonatga aylanadi",
+      chiqarilish: "Ortiqcha elektrolitlar buyrak orqali"
+    },
+    korsatmalar: [
+      "O'tkir diareya (ich ketishi) va qusishda suvsizlanishning oldini olish va davolash",
+      "Issiq ortishi/jismoniy yuk fonidagi suyuqlik-elektrolit yo'qotilishi",
+      "Vabo, gastroenterit va boshqa ichak infeksiyalarida regidratatsiya",
+      "Yengil-o'rta darajadagi degidratatsiya (peroral regidratatsiya)"
+    ],
+    qarrshi: [
+      "Og'ir suvsizlanish va shok (v/v regidratatsiya kerak)",
+      "To'xtovsiz qusish, ichakдан so'rilish buzilishi",
+      "Ichak tutilishi, paralitik ileus",
+      "Og'ir buyrak yetishmovchiligi, anuriya (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Metabolik": "Noto'g'ri tayyorlaganda gipernatriemiya (ko'p tuz) yoki suv intoksikatsiyasi (kam tuz)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish (tez ichilganda)",
+      "Buyrak": "Buyrak yetishmovchiligida giperkaliemiya xavfi"
+    },
+    dozadan: "Noto'g'ri konsentratsiyada gipernatriemiya yoki shish; elektrolitlarni nazorat qilish, tuzatish.",
+    ozarotasir: [
+      "Natriy tutuvchi/kortikosteroid preparatlar bilan ehtiyotkorlik (natriy yuki)",
+      "Ko'rsatma bo'yicha boshqa dorilar bilan birga ishlatish mumkin"
+    ],
+    qollash: {
+      kattalar: "Har bir suyuq najas/qusishdan keyin 200–400 ml eritma; suvsizlanish darajasiga qarab hisoblanadi. 1 paket belgilangan hajm suvда eritiladi.",
+      bolalar: "Har bir suyuq najasdan keyin 50–100 ml (2 yoshgacha), 100–200 ml (2 yoshdan); vaznга qarab hisob"
+    },
+    chiqarish: "Og'iz uchun eritma kukuni (paketlar — belgilangan hajmда eritiladi)"
+  },
+  ru: {
+    gruppa: "Средства против обезвоживания (регидратационные соли)",
+    farmTasir: "Соли для пероральной регидратации, восстанавливающие водно-электролитный баланс",
+    farmakodinamika: `Соли для пероральной регидратации (ОРС) — смесь глюкозы (или декстрозы), натрия хлорида, калия хлорида, натрия цитрата/бикарбоната. Основаны на механизме совместного транспорта натрия и глюкозы (котранспорт) в эпителии кишки: глюкоза стимулирует активное всасывание натрия, а натрий притягивает за собой воду — эффективно восстанавливая жидкость и электролиты, потерянные при диарее/рвоте. Цитрат/бикарбонат корригирует метаболический ацидоз. Не лечебное средство, а средство профилактики/коррекции обезвоживания.`,
+    farmakokinetika: {
+      sorish: "Компоненты активно всасываются в кишке (Na-глюкозный котранспорт)",
+      tarqalish: "Распределяются в жидкости организма и межклеточное пространство",
+      metabolizm: "Глюкоза превращается в энергию, цитрат — в бикарбонат",
+      chiqarilish: "Избыток электролитов почками"
+    },
+    korsatmalar: [
+      "Профилактика и лечение обезвоживания при острой диарее и рвоте",
+      "Потеря жидкости и электролитов при жаре/физической нагрузке",
+      "Регидратация при холере, гастроэнтерите и других кишечных инфекциях",
+      "Лёгкая-умеренная дегидратация (пероральная регидратация)"
+    ],
+    qarrshi: [
+      "Тяжёлое обезвоживание и шок (нужна в/в регидратация)",
+      "Неукротимая рвота, нарушение всасывания в кишке",
+      "Кишечная непроходимость, паралитический илеус",
+      "Тяжёлая почечная недостаточность, анурия (с осторожностью)"
+    ],
+    nojoya: {
+      "Метаболические": "При неправильном приготовлении гипернатриемия (избыток соли) или водная интоксикация (мало соли)",
+      "ЖКТ": "Тошнота, рвота (при быстром питье)",
+      "Почки": "Риск гиперкалиемии при почечной недостаточности"
+    },
+    dozadan: "При неправильной концентрации гипернатриемия или отёки; контроль и коррекция электролитов.",
+    ozarotasir: [
+      "С осторожностью с натрийсодержащими/кортикостероидными препаратами (натриевая нагрузка)",
+      "Может применяться с другими препаратами по показанию"
+    ],
+    qollash: {
+      kattalar: "После каждого жидкого стула/рвоты 200–400 мл раствора; рассчитывается по степени обезвоживания. 1 пакет растворяют в указанном объёме воды.",
+      bolalar: "После каждого жидкого стула 50–100 мл (до 2 лет), 100–200 мл (с 2 лет); расчёт по массе"
+    },
+    chiqarish: "Порошок для приготовления раствора для приёма внутрь (пакеты)"
+  },
+  en: {
+    gruppa: "Antidehydration agents (rehydration salts)",
+    farmTasir: "Oral rehydration salts that restore water-electrolyte balance",
+    farmakodinamika: `Oral rehydration salts (ORS) are a mixture of glucose (or dextrose), sodium chloride, potassium chloride and sodium citrate/bicarbonate. They are based on the sodium-glucose cotransport mechanism in the bowel epithelium: glucose stimulates active sodium absorption, and sodium draws water with it — effectively restoring fluid and electrolytes lost through diarrhoea/vomiting. Citrate/bicarbonate corrects metabolic acidosis. It is not a curative agent but a means of preventing/correcting dehydration.`,
+    farmakokinetika: {
+      sorish: "The components are actively absorbed in the bowel (Na-glucose cotransport)",
+      tarqalish: "Distribute into body fluids and the interstitial space",
+      metabolizm: "Glucose is converted to energy, citrate to bicarbonate",
+      chiqarilish: "Excess electrolytes via the kidneys"
+    },
+    korsatmalar: [
+      "Prevention and treatment of dehydration in acute diarrhoea and vomiting",
+      "Fluid and electrolyte loss with heat/physical exertion",
+      "Rehydration in cholera, gastroenteritis and other intestinal infections",
+      "Mild-to-moderate dehydration (oral rehydration)"
+    ],
+    qarrshi: [
+      "Severe dehydration and shock (IV rehydration required)",
+      "Intractable vomiting, impaired intestinal absorption",
+      "Intestinal obstruction, paralytic ileus",
+      "Severe renal impairment, anuria (caution)"
+    ],
+    nojoya: {
+      "Metabolic": "Hypernatraemia (too much salt) or water intoxication (too little salt) if prepared incorrectly",
+      "Gastrointestinal": "Nausea, vomiting (if drunk too quickly)",
+      "Renal": "Risk of hyperkalaemia in renal failure"
+    },
+    dozadan: "Incorrect concentration causes hypernatraemia or oedema; monitor and correct electrolytes.",
+    ozarotasir: [
+      "Caution with sodium-containing/corticosteroid drugs (sodium load)",
+      "May be used with other drugs as indicated"
+    ],
+    qollash: {
+      kattalar: "After each loose stool/vomiting 200–400 mL of solution; calculated by degree of dehydration. Dissolve 1 sachet in the stated volume of water.",
+      bolalar: "After each loose stool 50–100 mL (under 2 years), 100–200 mL (from 2 years); dose by weight"
+    },
+    chiqarish: "Powder for oral solution (sachets)"
+  }
+},
+
+// ─── A07DA03 · Loperamid ──────────────────────────────────────────────────
+"A07DA03": {
+  uz: {
+    gruppa: "Diareyaga qarshi vositalar (ichak motorikasini sekinlashtiruvchi)",
+    farmTasir: "Ichak harakatini sekinlashtiruvchi diareyaga qarshi vosita",
+    farmakodinamika: `Loperamid — sintetik opioid hosilasi, lekin markaziy (analgetik/narkotik) ta'sirsiz (BBO dan deyarli o'tmaydi). Ichak devoridagi μ-opioid retseptorlariga bog'lanib, atsetilxolin va prostaglandin ajralishini kamaytiradi; bu ichak silliq mushaklari peristaltikasini sekinlashtiradi, najasning ichakда qolish vaqtini uzaytiradi, suv va elektrolitlarning so'rilishini oshiradi va najas hajmini kamaytiradi. Anal sfinkter tonusini oshiradi (defekatsiyaga chaqiriqni kamaytiradi). Simptomatik antidiareyk.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'riladi, lekin jigarning birinchi o'tish effekti tufayli tizimli biofaollik past (~1%)",
+      tarqalish: "Asosan ichak devorida ta'sir qiladi; BBO dan deyarli o'tmaydi (P-glikoprotein)",
+      metabolizm: "Jigarда CYP3A4/CYP2C8 orqali deyarli to'liq metabolizmga uchraydi",
+      chiqarilish: "Asosan najas bilan (o't orqali); T½ ~9–14 soat"
+    },
+    korsatmalar: [
+      "O'tkir va surunkali noinfeksion diareya (simptomatik davo)",
+      "Tirnashgan ichak sindromidagi diareya (IBS-D)",
+      "Ileostoma bilan najas hajmi va chastotasini tartibga solish",
+      "Sayohatchilar diareyasi (yengil holatlar)"
+    ],
+    qarrshi: [
+      "Loperamidга o'ta sezuvchanlik",
+      "Qonli/yiringli o'tkir dizenteriya, isitma bilan kechadigan bakterial enterokolit (Salmonella, Shigella, Campylobacter)",
+      "O'tkir yarali kolit, antibiotik bilan bog'liq psevdomembranoz kolit",
+      "Ichak tutilishi, qabziyat, paralitik ileus",
+      "2 yoshgacha bolalar"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ich qotishi (ko'p), qorin shishi, sanchiq, ko'ngil aynishi, og'iz qurishi",
+      "Asab tizimi": "Bosh aylanishi, uyquchanlik (kam)",
+      "Yurak": "Yuqori (suiiste'mol) dozada QT uzayishi va og'ir aritmiya xavfi",
+      "Boshqa": "Toksik megakolon (yallig'lanishli ichak kasalliklarida), allergik reaksiya"
+    },
+    dozadan: "Belgilar: paralitik ileus, MNS depressiyasi, yurak aritmiyasi (yuqori dozada). Antidot — nalokson; yurak nazorati, simptomatik.",
+    ozarotasir: [
+      "CYP3A4/P-gp inhibitorlari (ritonavir, ketokonazol, kinidin) loperamid konsentratsiyasini va yurak xavfini oshiradi",
+      "QT uzaytiruvchi preparatlar bilan aritmiya xavfi",
+      "MNS depressantlari ta'sirini kuchaytirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "Boshlang'ich 4 mg, keyin har suyuq najasdan keyin 2 mg; sutkalik maks. 16 mg, surunkali holatда 8 mg.",
+      bolalar: "2 yoshdan (faqat ko'rsatma bilan, ehtiyotkorlik): vaznга qarab kamaytirilgan dozada"
+    },
+    chiqarish: "Kapsulalar/tabletkalar 2 mg; og'izda eriydigan tabletkalar; eritma"
+  },
+  ru: {
+    gruppa: "Противодиарейные средства (замедляющие моторику кишечника)",
+    farmTasir: "Противодиарейное средство, замедляющее моторику кишечника",
+    farmakodinamika: `Лоперамид — синтетическое производное опиоидов, но без центрального (анальгетического/наркотического) действия (почти не проникает через ГЭБ). Связываясь с μ-опиоидными рецепторами стенки кишки, снижает высвобождение ацетилхолина и простагландинов; это замедляет перистальтику гладкой мускулатуры кишки, удлиняет время нахождения каловых масс в кишке, повышает всасывание воды и электролитов и уменьшает объём кала. Повышает тонус анального сфинктера (уменьшает позывы). Симптоматическое противодиарейное.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь, но из-за эффекта первого прохождения системная биодоступность низкая (~1%)",
+      tarqalish: "Действует преимущественно в стенке кишки; почти не проникает через ГЭБ (P-гликопротеин)",
+      metabolizm: "Почти полностью метаболизируется в печени через CYP3A4/CYP2C8",
+      chiqarilish: "Преимущественно с калом (через жёлчь); T½ ~9–14 ч"
+    },
+    korsatmalar: [
+      "Острая и хроническая неинфекционная диарея (симптоматическое лечение)",
+      "Диарея при синдроме раздражённого кишечника (СРК-Д)",
+      "Регуляция объёма и частоты стула при илеостоме",
+      "Диарея путешественников (лёгкие случаи)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к лоперамиду",
+      "Острая дизентерия с кровью/гноем, бактериальный энтероколит с лихорадкой (Salmonella, Shigella, Campylobacter)",
+      "Острый язвенный колит, антибиотикассоциированный псевдомембранозный колит",
+      "Кишечная непроходимость, запор, паралитический илеус",
+      "Дети до 2 лет"
+    ],
+    nojoya: {
+      "ЖКТ": "Запор (часто), вздутие, колика, тошнота, сухость во рту",
+      "ЦНС": "Головокружение, сонливость (редко)",
+      "Сердце": "При высоких (злоупотребление) дозах риск удлинения QT и тяжёлых аритмий",
+      "Прочие": "Токсический мегаколон (при воспалительных заболеваниях кишечника), аллергическая реакция"
+    },
+    dozadan: "Симптомы: паралитический илеус, депрессия ЦНС, сердечные аритмии (при высоких дозах). Антидот — налоксон; контроль сердца, симптоматически.",
+    ozarotasir: [
+      "Ингибиторы CYP3A4/P-gp (ритонавир, кетоконазол, хинидин) повышают концентрацию лоперамида и сердечный риск",
+      "С препаратами, удлиняющими QT, — риск аритмии",
+      "Может усиливать действие депрессантов ЦНС"
+    ],
+    qollash: {
+      kattalar: "Начальная 4 мг, затем по 2 мг после каждого жидкого стула; макс. 16 мг/сут, при хроническом — 8 мг.",
+      bolalar: "С 2 лет (только по показанию, с осторожностью): в сниженной дозе по массе"
+    },
+    chiqarish: "Капсулы/таблетки 2 мг; таблетки, диспергируемые во рту; раствор"
+  },
+  en: {
+    gruppa: "Antidiarrhoeals (slowing bowel motility)",
+    farmTasir: "Antidiarrhoeal that slows bowel motility",
+    farmakodinamika: `Loperamide is a synthetic opioid derivative but without central (analgesic/narcotic) action (it barely crosses the BBB). Binding to μ-opioid receptors of the bowel wall, it reduces release of acetylcholine and prostaglandins; this slows peristalsis of intestinal smooth muscle, prolongs the transit time of stool, increases absorption of water and electrolytes and reduces stool volume. It increases anal sphincter tone (reducing urgency). A symptomatic antidiarrhoeal.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally, but systemic bioavailability is low (~1%) due to the first-pass effect",
+      tarqalish: "Acts mainly in the bowel wall; barely crosses the BBB (P-glycoprotein)",
+      metabolizm: "Almost completely metabolised in the liver via CYP3A4/CYP2C8",
+      chiqarilish: "Mainly in faeces (via bile); T½ ~9–14 h"
+    },
+    korsatmalar: [
+      "Acute and chronic non-infectious diarrhoea (symptomatic treatment)",
+      "Diarrhoea in irritable bowel syndrome (IBS-D)",
+      "Regulating stool volume and frequency in ileostomy",
+      "Traveller's diarrhoea (mild cases)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to loperamide",
+      "Acute dysentery with blood/pus, febrile bacterial enterocolitis (Salmonella, Shigella, Campylobacter)",
+      "Acute ulcerative colitis, antibiotic-associated pseudomembranous colitis",
+      "Intestinal obstruction, constipation, paralytic ileus",
+      "Children under 2 years"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Constipation (common), bloating, colic, nausea, dry mouth",
+      "CNS": "Dizziness, drowsiness (rare)",
+      "Cardiac": "At high (abuse) doses, risk of QT prolongation and serious arrhythmias",
+      "Other": "Toxic megacolon (in inflammatory bowel disease), allergic reaction"
+    },
+    dozadan: "Symptoms: paralytic ileus, CNS depression, cardiac arrhythmias (at high doses). Antidote — naloxone; cardiac monitoring, symptomatic.",
+    ozarotasir: [
+      "CYP3A4/P-gp inhibitors (ritonavir, ketoconazole, quinidine) raise loperamide concentration and cardiac risk",
+      "Arrhythmia risk with QT-prolonging drugs",
+      "May enhance the effect of CNS depressants"
+    ],
+    qollash: {
+      kattalar: "Initial 4 mg, then 2 mg after each loose stool; max 16 mg/day, 8 mg in chronic use.",
+      bolalar: "From 2 years (only on indication, with caution): reduced dose by weight"
+    },
+    chiqarish: "Capsules/tablets 2 mg; orodispersible tablets; solution"
+  }
+},
+
+// ─── A07EC02 · Mesalazin ──────────────────────────────────────────────────
+"A07EC02": {
+  uz: {
+    gruppa: "Ichak yallig'lanishiga qarshi vositalar (aminosalitsilatlar)",
+    farmTasir: "Ichak shilliq pardasiga mahalliy yallig'lanishga qarshi vosita",
+    farmakodinamika: `Mesalazin (5-aminosalitsil kislota, 5-ASK) — ichak yallig'lanishiga qarshi aminosalitsilat. Ichak shilliq pardasiga mahalliy ta'sir qiladi: siklooksigenaza va lipoksigenaza yo'llarini inhibe qilib prostaglandinlar va leykotrienlar sintezini kamaytiradi, neytrofillar xemotaksisi va faolligini bostiradi, erkin radikallarni bog'laydi (antioksidant). Bu yo'g'on va ingichka ichak shilliq pardasidagi yallig'lanishni kamaytiradi. Maxsus chiqarish (enterik, pH-bog'liq, uzaytirilgan) shakllar dorini yallig'lanish o'chog'iga yetkazadi.`,
+    farmakokinetika: {
+      sorish: "Chiqarish shakliga bog'liq; mahalliy ta'sir uchun ichakда ajraladi, qisman so'riladi",
+      tarqalish: "Ichak shilliq pardasida yuqori mahalliy konsentratsiya",
+      metabolizm: "Ichak devori va jigarда N-asetillanadi (N-asetil-5-ASK)",
+      chiqarilish: "Asosan najas va siydik bilan; T½ ~0,5–1,5 soat (asetil-metabolit uzunroq)"
+    },
+    korsatmalar: [
+      "Yarali kolit (o'tkir bosqich davosi va remissiyani saqlash)",
+      "Kron kasalligi (yengil-o'rta og'irlikda, remissiyani saqlash)",
+      "Distal kolit/proktit (rektal shakllar — svecha, klizma)",
+      "Ichak yallig'lanishli kasalliklarining profilaktik davosi"
+    ],
+    qarrshi: [
+      "Mesalazin yoki salitsilatlarga o'ta sezuvchanlik",
+      "Og'ir jigar va buyrak yetishmovchiligi",
+      "Qon ivishi buzilishlari (gemorragik diatez)",
+      "Oshqozon-ichak yarasi zo'rayishi; 2 yoshgacha bolalar"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, diareya, meteorizm, pankreatit (kam)",
+      "Buyrak": "Interstitsial nefrit, buyrak funksiyasi buzilishi (nazorat zarur)",
+      "Qon tizimi": "Leykopeniya, agranulotsitoz, trombotsitopeniya, anemiya (kam)",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi",
+      "Allergiya": "Toshma, isitma, kamdan-kam mioperikardit, pulmonit"
+    },
+    dozadan: "Salitsilat intoksikatsiyasi belgilari (kam, so'rilish past). Davolash: simptomatik, suyuqlik/elektrolit nazorati.",
+    ozarotasir: [
+      "Antikoagulyantlar (varfarin) ta'sirini o'zgartirishi mumkin",
+      "Boshqa nefrotoksik dorilar (NSAID) bilan buyrak xavfi oshadi",
+      "Azatioprin/6-merkaptopurin bilan suyak ko'migi bostirilishi xavfi oshadi",
+      "Laktuloza ichak pH ini pasaytirib mesalazin ajralishini kamaytirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "O'tkir bosqich: 2–4 g/sut bo'lib (og'iz). Remissiyani saqlash: 1,5–2 g/sut. Distal shakllarда: svecha 0,5–1 g yoki klizma 2–4 g kechqurun.",
+      bolalar: "Vaznга qarab 30–50 mg/kg/sut (o'tkir), saqlash kamroq"
+    },
+    chiqarish: "Uzaytirilgan/enterik tabletkalar va granulalar 0,5 g, 1 g, 1,5 g, 2 g, 3 g; rektal svechalar; klizma"
+  },
+  ru: {
+    gruppa: "Кишечные противовоспалительные средства (аминосалицилаты)",
+    farmTasir: "Местное противовоспалительное средство для слизистой кишечника",
+    farmakodinamika: `Месалазин (5-аминосалициловая кислота, 5-АСК) — противовоспалительный аминосалицилат. Действует местно на слизистую кишечника: ингибируя циклооксигеназный и липоксигеназный пути, снижает синтез простагландинов и лейкотриенов, подавляет хемотаксис и активность нейтрофилов, связывает свободные радикалы (антиоксидант). Это уменьшает воспаление слизистой толстой и тонкой кишки. Специальные формы высвобождения (энтеросолюбильные, pH-зависимые, пролонгированные) доставляют препарат в очаг воспаления.`,
+    farmakokinetika: {
+      sorish: "Зависит от формы высвобождения; для местного действия высвобождается в кишке, частично всасывается",
+      tarqalish: "Высокая местная концентрация в слизистой кишки",
+      metabolizm: "N-ацетилируется в стенке кишки и печени (N-ацетил-5-АСК)",
+      chiqarilish: "Преимущественно с калом и мочой; T½ ~0,5–1,5 ч (ацетил-метаболит дольше)"
+    },
+    korsatmalar: [
+      "Язвенный колит (лечение острой стадии и поддержание ремиссии)",
+      "Болезнь Крона (лёгкая-умеренная, поддержание ремиссии)",
+      "Дистальный колит/проктит (ректальные формы — свечи, клизмы)",
+      "Профилактическое лечение воспалительных заболеваний кишечника"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к месалазину или салицилатам",
+      "Тяжёлая печёночная и почечная недостаточность",
+      "Нарушения свёртывания крови (геморрагический диатез)",
+      "Обострение язвы ЖКТ; дети до 2 лет"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, боль в животе, диарея, метеоризм, панкреатит (редко)",
+      "Почки": "Интерстициальный нефрит, нарушение функции почек (нужен контроль)",
+      "Кроветворение": "Лейкопения, агранулоцитоз, тромбоцитопения, анемия (редко)",
+      "ЦНС": "Головная боль, головокружение",
+      "Аллергические": "Сыпь, лихорадка, редко миоперикардит, пульмонит"
+    },
+    dozadan: "Признаки салицилатной интоксикации (редко, всасывание низкое). Лечение: симптоматическое, контроль жидкости/электролитов.",
+    ozarotasir: [
+      "Может изменять действие антикоагулянтов (варфарин)",
+      "С другими нефротоксичными препаратами (НПВП) повышается почечный риск",
+      "С азатиоприном/6-меркаптопурином повышается риск угнетения костного мозга",
+      "Лактулоза, снижая pH кишки, может уменьшать высвобождение месалазина"
+    ],
+    qollash: {
+      kattalar: "Острая стадия: 2–4 г/сут дробно (внутрь). Поддержание ремиссии: 1,5–2 г/сут. При дистальных формах: свеча 0,5–1 г или клизма 2–4 г на ночь.",
+      bolalar: "По массе тела 30–50 мг/кг/сут (острая), поддержание меньше"
+    },
+    chiqarish: "Пролонгированные/энтеросолюбильные таблетки и гранулы 0,5 г, 1 г, 1,5 г, 2 г, 3 г; ректальные свечи; клизма"
+  },
+  en: {
+    gruppa: "Intestinal anti-inflammatory agents (aminosalicylates)",
+    farmTasir: "Local anti-inflammatory agent for the intestinal mucosa",
+    farmakodinamika: `Mesalazine (5-aminosalicylic acid, 5-ASA) is an anti-inflammatory aminosalicylate. It acts locally on the intestinal mucosa: by inhibiting the cyclooxygenase and lipoxygenase pathways it reduces prostaglandin and leukotriene synthesis, suppresses neutrophil chemotaxis and activity, and scavenges free radicals (antioxidant). This reduces inflammation of the colonic and small-bowel mucosa. Special release forms (enteric, pH-dependent, prolonged) deliver the drug to the site of inflammation.`,
+    farmakokinetika: {
+      sorish: "Depends on the release form; released in the bowel for local action, partly absorbed",
+      tarqalish: "High local concentration in the intestinal mucosa",
+      metabolizm: "N-acetylated in the bowel wall and liver (N-acetyl-5-ASA)",
+      chiqarilish: "Mainly in faeces and urine; T½ ~0.5–1.5 h (the acetyl metabolite longer)"
+    },
+    korsatmalar: [
+      "Ulcerative colitis (treatment of the acute stage and maintenance of remission)",
+      "Crohn's disease (mild-moderate, maintenance of remission)",
+      "Distal colitis/proctitis (rectal forms — suppositories, enemas)",
+      "Preventive treatment of inflammatory bowel disease"
+    ],
+    qarrshi: [
+      "Hypersensitivity to mesalazine or salicylates",
+      "Severe hepatic and renal impairment",
+      "Coagulation disorders (haemorrhagic diathesis)",
+      "Exacerbation of GI ulcer; children under 2 years"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, abdominal pain, diarrhoea, flatulence, pancreatitis (rare)",
+      "Renal": "Interstitial nephritis, renal dysfunction (monitoring required)",
+      "Haematological": "Leucopenia, agranulocytosis, thrombocytopenia, anaemia (rare)",
+      "CNS": "Headache, dizziness",
+      "Hypersensitivity": "Rash, fever, rarely myopericarditis, pneumonitis"
+    },
+    dozadan: "Signs of salicylate intoxication (rare, absorption low). Treatment: symptomatic, monitor fluids/electrolytes.",
+    ozarotasir: [
+      "May alter the effect of anticoagulants (warfarin)",
+      "Renal risk increases with other nephrotoxic drugs (NSAIDs)",
+      "Bone marrow suppression risk increases with azathioprine/6-mercaptopurine",
+      "Lactulose, by lowering bowel pH, may reduce mesalazine release"
+    ],
+    qollash: {
+      kattalar: "Acute stage: 2–4 g/day in divided doses (oral). Maintenance: 1.5–2 g/day. For distal forms: suppository 0.5–1 g or enema 2–4 g at night.",
+      bolalar: "By body weight 30–50 mg/kg/day (acute), maintenance lower"
+    },
+    chiqarish: "Prolonged/enteric tablets and granules 0.5 g, 1 g, 1.5 g, 2 g, 3 g; rectal suppositories; enema"
+  }
+},
+
+// ─── A07FA02 · Saccharomyces boulardii ────────────────────────────────────
+"A07FA02": {
+  uz: {
+    gruppa: "Diareyaga qarshi mikroorganizmlar (probiotiklar)",
+    farmTasir: "Probiotik xamirturush — ichak florasini tiklovchi diareyaga qarshi vosita",
+    farmakodinamika: `Saccharomyces boulardii — tibbiy probiotik xamirturush (zamburug'). Antibiotiklarga tabiiy chidamli bo'lgani uchun antibiotik davosi fonida ham ichakда yashaydi. Patogen bakteriya va токsinlarni (jumladan Clostridioides difficile токsin A) bog'laydi va zararsizlantiradi, ichak shilliq pardasidagi IgA va himoya fermentlari sekretsiyasini rag'batlantiradi (immunomodulyator), enterotsitlar fermentlari (disaxaridazalar) faolligini oshiradi va normal mikrofloraning tiklanishiga yordam beradi. Antibiotik kursi tugagach tabiiy ravishda ichakdan chiqib ketadi.`,
+    farmakokinetika: {
+      sorish: "So'rilmaydi; ichak luminида yashaydi va ta'sir qiladi",
+      tarqalish: "Tizimli taqsimlanish yo'q (sog'lom shilliq pardada)",
+      metabolizm: "Tirik mikroorganizm — metabolizmga uchramaydi",
+      chiqarilish: "Najas bilan; kurs tugagach 2–5 kunда yo'qoladi"
+    },
+    korsatmalar: [
+      "O'tkir infeksion diareya (kattalar va bolalar)",
+      "Antibiotik bilan bog'liq diareya profilaktikasi va davosi",
+      "Clostridioides difficile koliti (yordamchi, retsidiv profilaktikasi)",
+      "Tirnashgan ichak sindromi va disbakterioz",
+      "Sayohatchilar diareyasi profilaktikasi"
+    ],
+    qarrshi: [
+      "Preparatga (xamirturushga) o'ta sezuvchanlik",
+      "Markaziy venoz kateterli bemorlar (fungemiya xavfi)",
+      "Og'ir immunotanqislik holatlari, kritik holatdagi bemorlar"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Meteorizm, qorin noxushligi (kam)",
+      "Infeksion": "Juda kam — immunotanqis yoki venoz kateterli bemorlarda fungemiya",
+      "Allergiya": "Toshma, qichishish, kamdan-kam Kvinke shishi"
+    },
+    dozadan: "Past toksiklik; ko'p dozada meteorizm — simptomatik.",
+    ozarotasir: [
+      "Tizimli zamburug'larga qarshi preparatlar (flukonazol, nistatin) probiotik xamirturushni o'ldiradi — birga bermang",
+      "Antibiotiklar bilan birga qo'llanishi mumkin (chidamli)"
+    ],
+    qollash: {
+      kattalar: "250–500 mg kuniga 1–2 marta; diareyada 5–7 kun, profilaktikada antibiotik kursi davomida.",
+      bolalar: "250 mg kuniga 1–2 marta (paketcha suvда/oziqada eritiladi; issiq suyuqlik bilan emas)"
+    },
+    chiqarish: "Kapsulalar 250 mg; og'iz uchun kukun/granula (paketlar) 250 mg"
+  },
+  ru: {
+    gruppa: "Противодиарейные микроорганизмы (пробиотики)",
+    farmTasir: "Пробиотические дрожжи — противодиарейное средство, восстанавливающее флору",
+    farmakodinamika: `Saccharomyces boulardii — медицинские пробиотические дрожжи (грибок). Будучи естественно устойчивыми к антибиотикам, выживают в кишечнике даже на фоне антибиотикотерапии. Связывают и обезвреживают патогенные бактерии и токсины (в т.ч. токсин A Clostridioides difficile), стимулируют секрецию IgA и защитных ферментов слизистой (иммуномодуляция), повышают активность ферментов энтероцитов (дисахаридаз) и способствуют восстановлению нормальной микрофлоры. После завершения курса естественно выводятся из кишечника.`,
+    farmakokinetika: {
+      sorish: "Не всасывается; живут и действуют в просвете кишки",
+      tarqalish: "Системного распределения нет (при здоровой слизистой)",
+      metabolizm: "Живой микроорганизм — не метаболизируется",
+      chiqarilish: "С калом; после курса исчезают за 2–5 дней"
+    },
+    korsatmalar: [
+      "Острая инфекционная диарея (взрослые и дети)",
+      "Профилактика и лечение антибиотикассоциированной диареи",
+      "Колит, вызванный Clostridioides difficile (вспомогательно, профилактика рецидивов)",
+      "Синдром раздражённого кишечника и дисбактериоз",
+      "Профилактика диареи путешественников"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к препарату (дрожжам)",
+      "Пациенты с центральным венозным катетером (риск фунгемии)",
+      "Тяжёлый иммунодефицит, пациенты в критическом состоянии"
+    ],
+    nojoya: {
+      "ЖКТ": "Метеоризм, дискомфорт в животе (редко)",
+      "Инфекционные": "Очень редко — фунгемия у иммунодефицитных или с венозным катетером",
+      "Аллергические": "Сыпь, зуд, редко отёк Квинке"
+    },
+    dozadan: "Низкая токсичность; при больших дозах метеоризм — симптоматически.",
+    ozarotasir: [
+      "Системные противогрибковые (флуконазол, нистатин) убивают пробиотические дрожжи — не давать вместе",
+      "Можно применять с антибиотиками (устойчивы)"
+    ],
+    qollash: {
+      kattalar: "250–500 мг 1–2 раза в день; при диарее 5–7 дней, для профилактики в течение курса антибиотиков.",
+      bolalar: "250 мг 1–2 раза в день (пакетик растворяют в воде/пище; не в горячей жидкости)"
+    },
+    chiqarish: "Капсулы 250 мг; порошок/гранулы для приёма внутрь (пакеты) 250 мг"
+  },
+  en: {
+    gruppa: "Antidiarrhoeal microorganisms (probiotics)",
+    farmTasir: "Probiotic yeast — antidiarrhoeal that restores the flora",
+    farmakodinamika: `Saccharomyces boulardii is a medicinal probiotic yeast (fungus). Being naturally resistant to antibiotics, it survives in the bowel even during antibiotic therapy. It binds and neutralises pathogenic bacteria and toxins (including Clostridioides difficile toxin A), stimulates secretion of IgA and protective mucosal enzymes (immunomodulation), increases enterocyte enzyme (disaccharidase) activity and helps restore the normal microflora. After the course it is naturally cleared from the bowel.`,
+    farmakokinetika: {
+      sorish: "Not absorbed; lives and acts in the bowel lumen",
+      tarqalish: "No systemic distribution (with a healthy mucosa)",
+      metabolizm: "A live microorganism — not metabolised",
+      chiqarilish: "In faeces; cleared within 2–5 days after the course"
+    },
+    korsatmalar: [
+      "Acute infectious diarrhoea (adults and children)",
+      "Prophylaxis and treatment of antibiotic-associated diarrhoea",
+      "Clostridioides difficile colitis (adjunct, recurrence prophylaxis)",
+      "Irritable bowel syndrome and dysbiosis",
+      "Prophylaxis of traveller's diarrhoea"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the preparation (yeast)",
+      "Patients with a central venous catheter (fungaemia risk)",
+      "Severe immunodeficiency, critically ill patients"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Flatulence, abdominal discomfort (rare)",
+      "Infectious": "Very rarely — fungaemia in immunodeficient or catheterised patients",
+      "Hypersensitivity": "Rash, itching, rarely angioedema"
+    },
+    dozadan: "Low toxicity; flatulence at large doses — symptomatic.",
+    ozarotasir: [
+      "Systemic antifungals (fluconazole, nystatin) kill the probiotic yeast — do not give together",
+      "May be used with antibiotics (resistant)"
+    ],
+    qollash: {
+      kattalar: "250–500 mg once or twice daily; 5–7 days for diarrhoea, during the antibiotic course for prophylaxis.",
+      bolalar: "250 mg once or twice daily (dissolve the sachet in water/food; not in hot liquid)"
+    },
+    chiqarish: "Capsules 250 mg; powder/granules for oral use (sachets) 250 mg"
+  }
 }
 
 };
