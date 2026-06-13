@@ -18,6 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
   renderUserInTopbar(user);
   renderDropdownUser(user);
 
+  // Hero greeting — foydalanuvchi ismi
+  const heroName = document.getElementById("heroUserName");
+  if (heroName) {
+    heroName.textContent = user.given_name || user.name || "Foydalanuvchi";
+  }
+
   // Sidebar holatini tiklash
   initSidebarState();
 
@@ -76,6 +82,7 @@ function navigateTo(page) {
   document.getElementById("breadcrumb").textContent = BREADCRUMBS[page] || page;
   if (page === "favorites")  renderFavs();
   if (page === "dashboard")  { renderRecentRow(); updateStats(); }
+  hideSearchDropdown();
   closeMobileSidebar();
 }
 
@@ -471,18 +478,23 @@ function renderSideRow(label, text) {
 }
 
 function renderPharmaTab(drug) {
-  // ATX bo'yicha qidirish (to'liq moslik)
   if (typeof PHARMA_DATA === 'undefined') {
-    return `<div class="pharma-nodata"><span class="pharma-nodata-icon">🔬</span>Ma'lumot yuklanmadi.</div>`;
+    return `<div class="pharma-nodata"><span class="pharma-nodata-icon">🔬</span>${t('pharma_noload')}</div>`;
   }
-  const pd = PHARMA_DATA[drug.atx] || null;
+  // ATX kodini normallashtirish: ba'zi yozuvlarda ortiqcha nuqta/bo'shliq bor
+  // (masalan "J01DD62." → "J01DD62"), bu moslikni buzadi
+  const atxKey = (drug.atx || '').trim().replace(/[.\s]+$/, '');
+  const entry = PHARMA_DATA[atxKey] || PHARMA_DATA[drug.atx] || null;
 
-  if (!pd) {
+  if (!entry) {
     return `<div class="pharma-nodata">
       <span class="pharma-nodata-icon">🔬</span>
-      Ushbu preparat uchun farmakologiya ma'lumotlari hozircha mavjud emas.
+      ${t('pharma_nodata')}
     </div>`;
   }
+
+  // Ko'p tilli strukturani qo'llab-quvvatlash: entry.uz / entry.ru / entry.en yoki eski flat format
+  const pd = entry[LANG] || entry['uz'] || entry;
 
   let html = '';
 
@@ -497,17 +509,17 @@ function renderPharmaTab(drug) {
 
   // ── 1. Farmakodinamika
   if (pd.farmakodinamika) {
-    html += pharmaBlock('⚗️', 'Farmakodinamika', `<p>${pd.farmakodinamika}</p>`, true);
+    html += pharmaBlock('⚗️', t('pharma_dinamika'), `<p>${pd.farmakodinamika}</p>`, true);
   }
 
   // ── 2. Farmakokinetika
   if (pd.farmakokinetika) {
     const fk = pd.farmakokinetika;
     const fkCards = [
-      { lbl: '📥 So\'rilish', val: fk.sorish },
-      { lbl: '🌐 Tarqalish', val: fk.tarqalish },
-      { lbl: '🔄 Metabolizm', val: fk.metabolizm },
-      { lbl: '💧 Chiqarilish', val: fk.chiqarilish },
+      { lbl: t('pharma_sorish'),      val: fk.sorish },
+      { lbl: t('pharma_tarqalish'),   val: fk.tarqalish },
+      { lbl: t('pharma_metabolizm'),  val: fk.metabolizm },
+      { lbl: t('pharma_chiqarilish'), val: fk.chiqarilish },
     ].filter(c => c.val);
     const fkHtml = `<div class="pharma-fk-grid">
       ${fkCards.map(c => `<div class="pharma-fk-card">
@@ -515,7 +527,7 @@ function renderPharmaTab(drug) {
         <div class="pharma-fk-card-val">${c.val}</div>
       </div>`).join('')}
     </div>`;
-    html += pharmaBlock('📊', 'Farmakokinetika', fkHtml, true);
+    html += pharmaBlock('📊', t('pharma_kinetika'), fkHtml, true);
   }
 
   // ── 3. Ko'rsatmalar
@@ -523,7 +535,7 @@ function renderPharmaTab(drug) {
     const listHtml = `<ul class="pharma-list green">
       ${pd.korsatmalar.map(i => `<li>${i}</li>`).join('')}
     </ul>`;
-    html += pharmaBlock('✅', 'Ko\'rsatmalar (Indikatsiyalar)', listHtml, true);
+    html += pharmaBlock('✅', t('pharma_korsatma'), listHtml, true);
   }
 
   // ── 4. Qarshi ko'rsatmalar
@@ -531,7 +543,7 @@ function renderPharmaTab(drug) {
     const listHtml = `<ul class="pharma-list orange">
       ${pd.qarrshi.map(i => `<li>${i}</li>`).join('')}
     </ul>`;
-    html += pharmaBlock('🚫', 'Qarshi ko\'rsatmalar', listHtml);
+    html += pharmaBlock('🚫', t('pharma_qarrshi'), listHtml);
   }
 
   // ── 5. Nojo'ya ta'sirlar
@@ -539,22 +551,22 @@ function renderPharmaTab(drug) {
     const sideHtml = `<div class="pharma-side-grid">
       ${Object.entries(pd.nojoya).map(([k,v]) => renderSideRow(k, v)).join('')}
     </div>`;
-    html += pharmaBlock('⚠️', 'Nojo\'ya ta\'sirlar', sideHtml);
+    html += pharmaBlock('⚠️', t('pharma_nojoya'), sideHtml);
   }
 
   // ── 6. Qo'llash usuli & Dozalash
   if (pd.qollash) {
     const doseHtml = `<div class="pharma-dose-cards">
       ${pd.qollash.kattalar ? `<div class="pharma-dose-card">
-        <div class="pharma-dose-card-lbl">👤 Kattalar</div>
+        <div class="pharma-dose-card-lbl">${t('pharma_kattalar')}</div>
         <div class="pharma-dose-card-val">${pd.qollash.kattalar}</div>
       </div>` : ''}
       ${pd.qollash.bolalar ? `<div class="pharma-dose-card">
-        <div class="pharma-dose-card-lbl">👶 Bolalar</div>
+        <div class="pharma-dose-card-lbl">${t('pharma_bolalar')}</div>
         <div class="pharma-dose-card-val">${pd.qollash.bolalar}</div>
       </div>` : ''}
     </div>`;
-    html += pharmaBlock('💉', 'Qo\'llash usuli va dozalash', doseHtml, true);
+    html += pharmaBlock('💉', t('pharma_qollash'), doseHtml, true);
   }
 
   // ── 7. Dori-dori o'zaro ta'siri
@@ -565,7 +577,7 @@ function renderPharmaTab(drug) {
         <span>${i}</span>
       </div>`).join('')}
     </div>`;
-    html += pharmaBlock('🔗', 'Dori-dori o\'zaro ta\'siri', interHtml);
+    html += pharmaBlock('🔗', t('pharma_ozaro'), interHtml);
   }
 
   // ── 8. Dozadan oshib ketish
@@ -574,14 +586,14 @@ function renderPharmaTab(drug) {
       <span class="pharma-overdose-icon">🚨</span>
       <span>${pd.dozadan}</span>
     </div>`;
-    html += pharmaBlock('🚨', 'Dozadan oshib ketish', odHtml);
+    html += pharmaBlock('🚨', t('pharma_dozadan'), odHtml);
   }
 
   // ── 9. Chiqarish shakli
   if (pd.chiqarish) {
     const forms = pd.chiqarish.split(';').map(f => f.trim()).filter(Boolean);
     const formHtml = forms.map(f => `<span class="pharma-form-badge">📦 ${f}</span>`).join('');
-    html += pharmaBlock('📦', 'Chiqarish shakli', `<div style="display:flex;flex-wrap:wrap;gap:4px;padding-top:2px">${formHtml}</div>`);
+    html += pharmaBlock('📦', t('pharma_chiqarish'), `<div style="display:flex;flex-wrap:wrap;gap:4px;padding-top:2px">${formHtml}</div>`);
   }
 
   return html;
@@ -711,26 +723,55 @@ function handleSearch(query) {
     ? `<div class="sd-empty">Natija topilmadi</div>`
     : res.map(d => {
         const g = GROUPS.find(g => g.id === d.group);
+        const isMob = window.innerWidth <= 640;
+        const maxLen = isMob ? 30 : 40;
+        const metaLen = isMob ? 28 : 50;
+        const metaText = (g?.name || '') + (d.atx || d.inn ? ' · ' + (d.atx||d.inn) : '');
         return `<div class="sd-item" onclick="searchSelect(${d.id})">
-          <div class="sd-pill" style="background:${g?.bg};color:${g?.color}">${g?.icon||"💊"}</div>
-          <div>
-            <div class="sd-name">${d.name.substring(0,40)}</div>
-            <div class="sd-meta">${g?.name} · ${d.atx||d.inn||""}</div>
+          <div class="sd-pill" style="background:${g?.bg||'#f3f4f6'};color:${g?.color||'#6b7280'}">${g?.icon||"💊"}</div>
+          <div class="sd-info">
+            <div class="sd-name">${d.name.length > maxLen ? d.name.substring(0, maxLen) + '…' : d.name}</div>
+            <div class="sd-meta">${metaText.length > metaLen ? metaText.substring(0, metaLen) + '…' : metaText}</div>
           </div>
         </div>`;
       }).join("");
   dd.classList.add("show");
+  showSearchOverlay();
 }
 
 function searchSelect(id) {
-  document.getElementById("searchDropdown").classList.remove("show");
-  document.getElementById("globalSearch").value = "";
+  hideSearchDropdown();
   openDrug(id);
 }
 
+function showSearchOverlay() {
+  if (window.innerWidth > 640) return;
+  let ov = document.getElementById("searchBgOverlay");
+  if (!ov) {
+    ov = document.createElement("div");
+    ov.id = "searchBgOverlay";
+    ov.style.cssText = `
+      position:fixed;inset:0;top:54px;
+      background:rgba(0,0,0,.35);backdrop-filter:blur(2px);
+      z-index:499;
+    `;
+    ov.onclick = hideSearchDropdown;
+    document.body.appendChild(ov);
+  }
+  ov.style.display = "block";
+}
+
+function hideSearchDropdown() {
+  document.getElementById("searchDropdown")?.classList.remove("show");
+  document.getElementById("globalSearch").value = "";
+  const ov = document.getElementById("searchBgOverlay");
+  if (ov) ov.style.display = "none";
+}
+
 document.addEventListener("click", e => {
-  if (!e.target.closest(".global-search-wrap"))
-    document.getElementById("searchDropdown").classList.remove("show");
+  if (!e.target.closest(".global-search-wrap") && !e.target.closest("#searchDropdown")) {
+    hideSearchDropdown();
+  }
 });
 
 // ════════════════════════════════════════════

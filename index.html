@@ -4,13 +4,100 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MedCore — Tibbiyot Platformasi</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#e8193c" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="MedCore" />
+  <meta name="application-name" content="MedCore" />
+  <meta name="msapplication-TileColor" content="#e8193c" />
+  <meta name="msapplication-TileImage" content="icons/icon-144x144.png" />
+
+  <!-- Favicon & Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/icon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="icons/icon-192x192.png" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script src="i18n.js"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  <!-- ══════════════════════════════════════════════════════════
+       Web Push (VAPID) — o'zimizning push tizimi, OneSignalsiz
+       Maxfiy kalit hech qachon bu yerda emas — faqat GitHub Secrets'da
+       ══════════════════════════════════════════════════════════ -->
+  <script>
+    // VAPID ochiq kalit (push obunasi uchun)
+    const VAPID_PUBLIC_KEY = "BJGIrkQeyTx2miUTO67BHbnUgS4v6wyOg6Gkmf8O_OyTF_o3o4iMEHR1syvfduGQo6vKxr8BemN1YndGAn5En5I";
+    // Obunalarni saqlovchi endpoint (Cloudflare Worker). Deploy qilgach to'ldiriladi.
+    const PUSH_API = "https://medcore-push.xumoyunmirzoai.workers.dev";
+  </script>
+
+  <!-- Bildirishnoma markazi (qo'ng'iroqcha) uslublari -->
+  <style>
+    .notif-bell-btn { position: relative; }
+    .notif-count {
+      position: absolute; top: -4px; right: -4px;
+      min-width: 16px; height: 16px; padding: 0 4px;
+      background: #e8193c; color: #fff; border-radius: 9px;
+      font-size: 10px; font-weight: 800; line-height: 1;
+      align-items: center; justify-content: center;
+      display: none; box-shadow: 0 0 0 2px #fff;
+    }
+    .notif-center {
+      position: fixed; top: 64px; right: 16px; z-index: 3500;
+      width: 360px; max-width: calc(100vw - 24px); max-height: 70vh;
+      background: #fff; border: 1px solid #eef0f3; border-radius: 16px;
+      box-shadow: 0 16px 48px rgba(0,0,0,.16), 0 2px 8px rgba(0,0,0,.06);
+      display: flex; flex-direction: column; overflow: hidden;
+      transform: translateY(-8px) scale(.98); opacity: 0; pointer-events: none;
+      transition: all .2s cubic-bezier(.34,1.4,.64,1);
+    }
+    .notif-center.open { transform: none; opacity: 1; pointer-events: auto; }
+    .nc-head {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 16px; border-bottom: 1px solid #f1f2f4; flex-shrink: 0;
+    }
+    .nc-title { font-weight: 800; font-size: 15px; color: #111; }
+    .nc-toggle {
+      border: 1px solid #e5e7eb; background: #fff; color: #6b7280;
+      border-radius: 9px; padding: 6px 12px; font-size: 12px; font-weight: 700;
+      cursor: pointer; transition: all .15s;
+    }
+    .nc-toggle.on { background: #ecfdf5; border-color: #a7f3d0; color: #059669; }
+    .nc-list { overflow-y: auto; flex: 1; }
+    .nc-item {
+      display: flex; gap: 12px; padding: 13px 16px;
+      border-bottom: 1px solid #f6f7f8; transition: background .15s;
+    }
+    .nc-item:hover { background: #fafbfc; }
+    .nc-item.unread { background: #fef2f4; }
+    .nc-item.unread:hover { background: #fde8ec; }
+    .nc-item-icon {
+      width: 38px; height: 38px; flex-shrink: 0; border-radius: 11px;
+      background: linear-gradient(135deg,#fde3e8,#fff0f2);
+      display: flex; align-items: center; justify-content: center; font-size: 18px;
+    }
+    .nc-item-body { flex: 1; min-width: 0; }
+    .nc-item-title { font-weight: 700; font-size: 13.5px; color: #111; margin-bottom: 2px; }
+    .nc-item-text { font-size: 12.5px; color: #6b7280; line-height: 1.45; }
+    .nc-item-time { font-size: 11px; color: #9ca3af; margin-top: 5px; }
+    .nc-empty { padding: 40px 20px; text-align: center; color: #9ca3af; font-size: 13.5px; }
+    @media (max-width: 480px) {
+      .notif-center { top: 60px; right: 8px; left: 8px; width: auto; max-width: none; }
+    }
+  </style>
 </head>
 <body>
+
+<!-- Sidebar overlay (mobile) -->
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
 
 <!-- ═══════════ SIDEBAR ═══════════ -->
 <aside class="sidebar" id="sidebar">
@@ -125,10 +212,16 @@
         <button class="lang-btn" data-lang="en"  onclick="setLanguage('en')">EN</button>
       </div>
 
+      <!-- PWA O'rnatish tugmasi -->
+      <button id="pwaInstallBtn" class="action-btn pwa-install-btn" onclick="installPWA()" title="Ilovani o'rnatish" style="display:none;gap:6px;padding:7px 14px;border-radius:10px;background:linear-gradient(135deg,#e8193c,#c0122c);color:#fff;font-size:12.5px;font-weight:700;border:none;cursor:pointer;align-items:center;">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        O'rnatish
+      </button>
       <div class="topbar-divider"></div>
-      <button class="action-btn" title="Bildirishnomalar">
+      <button class="action-btn notif-bell-btn" id="notifBellBtn" title="Bildirishnomalar" onclick="toggleNotifCenter(event)">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
-        <span class="notif-dot"></span>
+        <span class="notif-dot" id="notifDot"></span>
+        <span class="notif-count" id="notifCount" style="display:none"></span>
       </button>
       <div class="topbar-divider"></div>
 
@@ -181,29 +274,6 @@
             <rect width="64" height="64" rx="18" fill="rgba(255,255,255,0.12)"/>
             <path d="M32 14v36M14 32h36" stroke="white" stroke-width="6" stroke-linecap="round"/>
           </svg>
-        </div>
-      </div>
-
-      <div class="stats-row">
-        <div class="stat-tile t-red">
-          <div class="stat-tile-icon red"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v3"/><circle cx="18" cy="18" r="3"/><path d="m22 22-1.5-1.5"/></svg></div>
-          <div class="stat-tile-data"><span class="stat-val" id="statDrugs">8649</span><span class="stat-lbl" data-i18n="stat_drugs">Dorilar</span></div>
-          <span class="stat-trend up" data-i18n="stat_uzb">O'zbekiston</span>
-        </div>
-        <div class="stat-tile t-rose">
-          <div class="stat-tile-icon rose"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
-          <div class="stat-tile-data"><span class="stat-val">14</span><span class="stat-lbl" data-i18n="stat_groups">Farmakol. guruhlar</span></div>
-          <span class="stat-trend" data-i18n="stat_atx">ATX bo'yicha</span>
-        </div>
-        <div class="stat-tile t-amber">
-          <div class="stat-tile-icon amber"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
-          <div class="stat-tile-data"><span class="stat-val">6</span><span class="stat-lbl" data-i18n="stat_interact">O'zaro ta'sirlar</span></div>
-          <span class="stat-trend warn" data-i18n="stat_warning">Diqqat!</span>
-        </div>
-        <div class="stat-tile t-purple">
-          <div class="stat-tile-icon purple"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
-          <div class="stat-tile-data"><span class="stat-val" id="statFavs">0</span><span class="stat-lbl" data-i18n="stat_favs">Sevimlilar</span></div>
-          <span class="stat-trend" id="statFavTrend" data-i18n="stat_no_favs">Hali yo'q</span>
         </div>
       </div>
 
@@ -375,7 +445,420 @@
 
 <script src="data.js"></script>
 <script src="pharma_data.js"></script>
+<!-- ═══════════ MOBILE BOTTOM NAV ═══════════ -->
+<nav class="mobile-bottom-nav" id="mobileBottomNav">
+  <div class="mbn-inner">
+    <button class="mbn-item active" id="mbn-dashboard" onclick="mbnNav('dashboard')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      <span class="mbn-item-label">Bosh sahifa</span>
+    </button>
+    <button class="mbn-item" id="mbn-drugs" onclick="mbnNav('drugs')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18"/></svg>
+      <span class="mbn-item-label">Dorilar</span>
+      <span class="mbn-badge">8649</span>
+    </button>
+    <button class="mbn-item" id="mbn-search" onclick="openMobileSearch()">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <span class="mbn-item-label">Qidiruv</span>
+    </button>
+    <button class="mbn-item" id="mbn-favorites" onclick="mbnNav('favorites')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span class="mbn-item-label">Saqlangan</span>
+    </button>
+    <button class="mbn-item" id="mbn-menu" onclick="toggleSidebar()">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      <span class="mbn-item-label">Menyu</span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════ PWA MOBILE BANNER ═══════════ -->
+<div class="pwa-mobile-banner" id="pwaMobileBanner">
+  <div class="pwa-banner-icon">
+    <img src="icons/icon-48x48.png" width="28" height="28" alt="MedCore" style="border-radius:6px"/>
+  </div>
+  <div class="pwa-banner-text">
+    <div class="pwa-banner-title">MedCore ni o'rnatish</div>
+    <div class="pwa-banner-sub">Telefonga yuklab oling — bepul!</div>
+  </div>
+  <div class="pwa-banner-actions">
+    <button class="pwa-banner-btn secondary" onclick="hidePwaBanner()">Keyinroq</button>
+    <button class="pwa-banner-btn primary" onclick="installPWA()">O'rnatish</button>
+  </div>
+</div>
+
 <script src="auth.js"></script>
 <script src="app.js"></script>
+
+<!-- PWA: Service Worker, Install & Mobile nav -->
+<script>
+  // ── Service Worker ──
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js').catch(() => {});
+    });
+  }
+
+  // ── PWA Install ──
+  let deferredInstallPrompt = null;
+  const isMobile = () => window.innerWidth <= 900;
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+    if (isMobile()) {
+      // Mobile: banner ko'rsatish
+      const banner = document.getElementById('pwaMobileBanner');
+      if (banner && !sessionStorage.getItem('pwa_banner_dismissed')) {
+        setTimeout(() => banner.classList.add('show'), 1500);
+      }
+    } else {
+      // Desktop: topbar tugma
+      const btn = document.getElementById('pwaInstallBtn');
+      if (btn) btn.style.display = 'flex';
+    }
+  });
+
+  window.addEventListener('appinstalled', () => {
+    deferredInstallPrompt = null;
+    const btn = document.getElementById('pwaInstallBtn');
+    if (btn) btn.style.display = 'none';
+    hidePwaBanner();
+  });
+
+  function installPWA() {
+    if (!deferredInstallPrompt) return;
+    deferredInstallPrompt.prompt();
+    deferredInstallPrompt.userChoice.then(() => {
+      deferredInstallPrompt = null;
+      const btn = document.getElementById('pwaInstallBtn');
+      if (btn) btn.style.display = 'none';
+      hidePwaBanner();
+    });
+  }
+
+  function hidePwaBanner() {
+    const banner = document.getElementById('pwaMobileBanner');
+    if (banner) { banner.classList.remove('show'); }
+    sessionStorage.setItem('pwa_banner_dismissed', '1');
+  }
+
+  // ── Mobile Bottom Nav ──
+  function mbnNav(page) {
+    // Sahifani ochish (app.js dagi navigateTo funksiyasiga murojaat)
+    if (typeof navigateTo === 'function') navigateTo(page);
+    else {
+      // fallback: nav-item larni topib bosish
+      const navItem = document.querySelector(`.nav-item[data-page="${page}"]`);
+      if (navItem) navItem.click();
+    }
+    // Active holatni yangilash
+    document.querySelectorAll('.mbn-item').forEach(el => el.classList.remove('active'));
+    const activeBtn = document.getElementById('mbn-' + page);
+    if (activeBtn) activeBtn.classList.add('active');
+    // Mobile sidebar ochiq bo'lsa yopish
+    closeSidebar();
+  }
+
+  function openMobileSearch() {
+    // Global search inputni focus qilish
+    const input = document.getElementById('globalSearchInput');
+    if (input) { input.focus(); input.select(); }
+    // Agar sahifa ko'rinmasa, drugs sahifasiga o'tish
+    mbnNav('drugs');
+    setTimeout(() => { if (input) input.focus(); }, 200);
+  }
+
+  // ══════════════════════════════════════════
+  // BILDIRISHNOMALAR (Push Notifications)
+  // ══════════════════════════════════════════
+  // base64url VAPID kalitni Uint8Array ga aylantirish
+  function urlBase64ToUint8Array(base64String) {
+    const padding = '='.repeat((4 - base64String.length % 4) % 4);
+    const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+    const raw = atob(base64);
+    const arr = new Uint8Array(raw.length);
+    for (let i = 0; i < raw.length; i++) arr[i] = raw.charCodeAt(i);
+    return arr;
+  }
+
+  async function toggleNotifications() {
+    if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
+      showNotifToast('❌ Brauzer qo\'llamaydi', 'Chrome yoki yangiroq brauzer ishlatib ko\'ring.');
+      return;
+    }
+    try {
+      const reg = await navigator.serviceWorker.ready;
+      const existing = await reg.pushManager.getSubscription();
+      if (existing) {
+        // Allaqachon obuna — holatni ko'rsatish
+        showNotifPanel();
+      } else {
+        await subscribeToNotifications();
+      }
+    } catch (e) {
+      console.warn('toggleNotifications error:', e);
+      showNotifToast('❌ Xatolik', 'Bildirishnomani ochib bo\'lmadi.');
+    }
+  }
+
+  async function subscribeToNotifications() {
+    if (!('Notification' in window)) {
+      showNotifToast('❌ Brauzer qo\'llamaydi', 'Chrome yoki yangiroq brauzer ishlatib ko\'ring.');
+      return;
+    }
+    try {
+      const permission = await Notification.requestPermission();
+      if (permission !== 'granted') {
+        showNotifToast('❌ Bildirishnomalar bloklangan', 'Brauzer manzil qatoridagi 🔒 belgidan yoqing.');
+        return;
+      }
+      const reg = await navigator.serviceWorker.ready;
+      const sub = await reg.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
+      });
+      await sendSubscriptionToServer(sub);
+      localStorage.setItem('mc_notif_enabled', '1');
+      showNotifToast('✅ Bildirishnomalar yoqildi!', 'Yangi dori ma\'lumotlari haqida xabar olasiz.');
+      updateNotifBell(true);
+    } catch (e) {
+      console.warn('Push subscribe error:', e);
+      showNotifToast('❌ Xatolik', 'Bildirishnomani yoqib bo\'lmadi.');
+    }
+  }
+
+  // Obunani serverga (Cloudflare Worker) yuborish
+  async function sendSubscriptionToServer(sub) {
+    if (!PUSH_API) {
+      console.warn('PUSH_API hali sozlanmagan — obuna faqat brauzerda saqlandi');
+      return;
+    }
+    try {
+      await fetch(PUSH_API.replace(/\/$/, '') + '/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(sub)
+      });
+    } catch (e) {
+      console.warn('Obunani yuklab bo\'lmadi:', e);
+    }
+  }
+
+  function updateNotifBell(enabled) {
+    const dot  = document.getElementById('notifDot');
+    const bell = document.getElementById('notifBellBtn');
+    if (!dot || !bell) return;
+    const isEnabled = enabled !== undefined
+      ? enabled
+      : (localStorage.getItem('mc_notif_enabled') === '1' || Notification.permission === 'granted');
+    if (isEnabled) {
+      dot.style.background = '#22c55e';  // Yashil — yoqilgan
+      bell.style.color = '#e8193c';
+      bell.title = 'Bildirishnomalar yoqilgan ✅';
+    } else {
+      dot.style.background = '';
+      bell.style.color = '';
+      bell.title = 'Bildirishnomalarni yoqish';
+    }
+  }
+
+  function showNotifPanel() {
+    toggleNotifCenter();
+  }
+
+  // ══════════════════════════════════════════
+  // BILDIRISHNOMA MARKAZI (in-app, qo'ng'iroqcha)
+  // ══════════════════════════════════════════
+  let _mcNotifs = [];
+
+  function notifReadIds() {
+    try { return JSON.parse(localStorage.getItem('mc_notif_read') || '[]'); }
+    catch (e) { return []; }
+  }
+  function markAllNotifsRead() {
+    const ids = _mcNotifs.map(n => n.id);
+    localStorage.setItem('mc_notif_read', JSON.stringify(ids));
+    renderNotifBadge();
+  }
+  function unreadNotifCount() {
+    const read = notifReadIds();
+    return _mcNotifs.filter(n => !read.includes(n.id)).length;
+  }
+
+  function renderNotifBadge() {
+    const dot = document.getElementById('notifDot');
+    const cnt = document.getElementById('notifCount');
+    const n = unreadNotifCount();
+    if (cnt) {
+      if (n > 0) { cnt.textContent = n > 9 ? '9+' : String(n); cnt.style.display = 'flex'; }
+      else cnt.style.display = 'none';
+    }
+    if (dot) dot.style.display = n > 0 ? 'none' : '';
+  }
+
+  async function loadNotifications() {
+    try {
+      const res = await fetch('notifications.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) return;
+      const data = await res.json();
+      if (Array.isArray(data)) {
+        _mcNotifs = data.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+        renderNotifBadge();
+      }
+    } catch (e) { /* offline yoki fayl yo'q — e'tiborsiz */ }
+  }
+
+  function timeAgo(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr);
+    if (isNaN(d)) return dateStr;
+    const diff = (Date.now() - d.getTime()) / 1000;
+    if (diff < 3600) return Math.max(1, Math.floor(diff / 60)) + ' daqiqa oldin';
+    if (diff < 86400) return Math.floor(diff / 3600) + ' soat oldin';
+    if (diff < 604800) return Math.floor(diff / 86400) + ' kun oldin';
+    return d.toLocaleDateString('uz-UZ', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  function toggleNotifCenter(ev) {
+    if (ev) ev.stopPropagation();
+    let panel = document.getElementById('notifCenter');
+    if (panel && panel.classList.contains('open')) { closeNotifCenter(); return; }
+    if (!panel) {
+      panel = document.createElement('div');
+      panel.id = 'notifCenter';
+      panel.className = 'notif-center';
+      document.body.appendChild(panel);
+      // tashqariga bosilganda yopish
+      document.addEventListener('click', (e) => {
+        const p = document.getElementById('notifCenter');
+        const bell = document.getElementById('notifBellBtn');
+        if (p && p.classList.contains('open') &&
+            !p.contains(e.target) && bell && !bell.contains(e.target)) {
+          closeNotifCenter();
+        }
+      });
+    }
+    renderNotifCenter(panel);
+    panel.classList.add('open');
+    markAllNotifsRead();
+  }
+
+  function closeNotifCenter() {
+    const panel = document.getElementById('notifCenter');
+    if (panel) panel.classList.remove('open');
+  }
+
+  function renderNotifCenter(panel) {
+    const pushOn = (localStorage.getItem('mc_notif_enabled') === '1') ||
+      (('Notification' in window) && Notification.permission === 'granted');
+    const read = notifReadIds();
+    const items = _mcNotifs.length ? _mcNotifs.map(n => {
+      const isUnread = !read.includes(n.id);
+      const clickable = n.page ? `onclick="notifGoto('${n.page}')" style="cursor:pointer"` : '';
+      return `
+        <div class="nc-item ${isUnread ? 'unread' : ''}" ${clickable}>
+          <div class="nc-item-icon">${n.icon || '💊'}</div>
+          <div class="nc-item-body">
+            <div class="nc-item-title">${n.title || 'Yangilik'}</div>
+            <div class="nc-item-text">${n.body || ''}</div>
+            <div class="nc-item-time">${timeAgo(n.date)}</div>
+          </div>
+        </div>`;
+    }).join('') : `<div class="nc-empty">🔔 Hozircha bildirishnomalar yo'q</div>`;
+
+    panel.innerHTML = `
+      <div class="nc-head">
+        <span class="nc-title">Bildirishnomalar</span>
+        <button class="nc-toggle ${pushOn ? 'on' : ''}" onclick="subscribeToNotifications()">
+          ${pushOn ? '🔔 Yoqilgan' : '🔕 Yoqish'}
+        </button>
+      </div>
+      <div class="nc-list">${items}</div>`;
+  }
+
+  function notifGoto(page) {
+    closeNotifCenter();
+    if (typeof navigateTo === 'function') navigateTo(page);
+  }
+
+  let _notifToastTimer = null;
+  function showNotifToast(title, msg) {
+    let toast = document.getElementById('notifToast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'notifToast';
+      toast.style.cssText = `
+        position:fixed; top:72px; right:20px; z-index:3000;
+        background:#fff; border-radius:14px;
+        box-shadow:0 8px 32px rgba(0,0,0,.14),0 2px 8px rgba(232,25,60,.1);
+        padding:14px 18px; max-width:320px; min-width:240px;
+        border:1.5px solid #f3f4f6;
+        transform:translateY(-10px) scale(.97); opacity:0;
+        transition:all .22s cubic-bezier(.34,1.56,.64,1);
+      `;
+      document.body.appendChild(toast);
+    }
+    toast.innerHTML = `
+      <div style="font-weight:800;font-size:13.5px;color:#111;margin-bottom:4px">${title}</div>
+      <div style="font-size:12.5px;color:#6b7280;line-height:1.5">${msg}</div>
+    `;
+    requestAnimationFrame(() => {
+      toast.style.transform = 'none';
+      toast.style.opacity = '1';
+    });
+    clearTimeout(_notifToastTimer);
+    _notifToastTimer = setTimeout(() => {
+      toast.style.transform = 'translateY(-10px) scale(.97)';
+      toast.style.opacity = '0';
+    }, 3500);
+  }
+
+  // Bell holatini sahifa yuklanishida tekshirish
+  window.addEventListener('load', () => {
+    setTimeout(updateNotifBell, 1000);
+    loadNotifications();
+    // har 5 daqiqada yangi bildirishnomalarni tekshirish
+    setInterval(loadNotifications, 5 * 60 * 1000);
+  });
+
+  function closeSidebar() {
+    const sidebar  = document.getElementById('sidebar');
+    const overlay  = document.getElementById('sidebarOverlay');
+    if (sidebar)  sidebar.classList.remove('open');
+    if (overlay)  overlay.classList.remove('show');
+    document.body.style.overflow = '';
+  }
+
+  // Override toggleSidebar to handle overlay
+  const _origToggle = window.toggleSidebar;
+  window.toggleSidebar = function() {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('sidebarOverlay');
+    if (window.innerWidth <= 900) {
+      const isOpen = sidebar && sidebar.classList.contains('open');
+      if (isOpen) {
+        closeSidebar();
+      } else {
+        if (sidebar) sidebar.classList.add('open');
+        if (overlay) overlay.classList.add('show');
+        document.body.style.overflow = 'hidden';
+      }
+    } else {
+      if (typeof _origToggle === 'function') _origToggle();
+    }
+  };
+
+  // Sync bottom nav with page changes
+  document.addEventListener('click', (e) => {
+    const navItem = e.target.closest('.nav-item[data-page]');
+    if (navItem) {
+      const page = navItem.dataset.page;
+      document.querySelectorAll('.mbn-item').forEach(el => el.classList.remove('active'));
+      const activeBtn = document.getElementById('mbn-' + page);
+      if (activeBtn) activeBtn.classList.add('active');
+    }
+  });
+</script>
 </body>
 </html>

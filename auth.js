@@ -12,7 +12,7 @@
 // 4) Authorized origins ga localhost va
 //    faylingiz manzilini qo'shing
 // ══════════════════════════════════════════
-const GOOGLE_CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID";
+const GOOGLE_CLIENT_ID = "940738533350-52qg92i39i9q71vfnkmrkk4k3tsto9v7.apps.googleusercontent.com";
 // Masalan: "123456789-abcde.apps.googleusercontent.com"
 
 const AUTH_KEY   = "mc_auth_user";
@@ -135,23 +135,6 @@ function handleTokenResponse(tokenResponse) {
   });
 }
 
-// ─── DEMO MODE ───
-function signInDemo() {
-  showLoading("Demo rejimiga kirilmoqda...");
-  const demoUser = {
-    id:         "demo_user_001",
-    name:       "Dr. Demo Foydalanuvchi",
-    email:      "demo@medcore.uz",
-    picture:    null,
-    given_name: "Demo",
-    loginType:  "demo",
-    loginAt:    new Date().toISOString(),
-  };
-  saveUser(demoUser);
-  showLoading("Demo rejimiga xush kelibsiz! 👋");
-  setTimeout(redirectToApp, 1000);
-}
-
 // ─── Setup Modal (when no client ID) ───
 function showSetupModal() {
   const overlay = document.createElement("div");
@@ -181,12 +164,8 @@ function showSetupModal() {
       </div>
       <div style="display:flex;gap:10px">
         <button onclick="this.closest('div[style]').parentElement.remove()"
-          style="flex:1;padding:12px;border-radius:10px;border:1.5px solid #e5e7eb;background:#fff;font-size:13.5px;font-weight:600;cursor:pointer;color:#374151">
-          Yopish
-        </button>
-        <button onclick="signInDemo();this.closest('div[style]').parentElement.remove()"
           style="flex:1;padding:12px;border-radius:10px;border:none;background:#e11d48;color:#fff;font-size:13.5px;font-weight:600;cursor:pointer">
-          Demo rejimida kirish
+          Yopish
         </button>
       </div>
     </div>
@@ -272,7 +251,7 @@ function renderUserInTopbar(user) {
   }
 
   if (sidebarUser)   sidebarUser.textContent  = user.name;
-  if (sidebarRole)   sidebarRole.textContent  = user.loginType === "demo" ? "Demo foydalanuvchi" : "Shifokor";
+  if (sidebarRole)   sidebarRole.textContent  = "Shifokor";
   if (sidebarAvatar) {
     if (user.picture) {
       sidebarAvatar.innerHTML = `<img src="${user.picture}" style="width:36px;height:36px;border-radius:9px;object-fit:cover" referrerpolicy="no-referrer"/>`;
