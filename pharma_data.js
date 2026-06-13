@@ -17407,6 +17407,605 @@ const PHARMA_DATA = {
     },
     chiqarish: "Powder/solution for IV and IM injection 0.5 g, 1 g; oral tablets (bowel sterilisation)"
   }
+},
+
+// ─── J01CE08 · Benzatin benzilpenitsillin ─────────────────────────────────
+"J01CE08": {
+  uz: {
+    gruppa: "Beta-laktamazaga sezgir penitsillinlar (depo shakl)",
+    farmTasir: "Uzoq ta'sirli (depo) penitsillin antibiotik",
+    farmakodinamika: `Benzatin benzilpenitsillin — benzilpenitsillinning benzatin bilan kam eriydigan tuzi (depo shakl). Bakteriya hujayra devori (peptidoglikan) sintezini penitsillinbog'lovchi oqsillarni bloklab buzadi — bakteritsid ta'sir. Mushak ichiga yuborilganда in'eksiya joyidan sekin so'rilib, qonда past, lekin uzoq (haftalar) davom etadigan konsentratsiya hosil qiladi. Asosan gram-musbat bakteriyalarга (Streptococcus pyogenes, S. pneumoniae) va Treponema pallidum (zaxm) ga faol. Beta-laktamaza ishlab chiqaruvchi shtammlarга (stafilokokk) ta'sir qilmaydi.`,
+    farmakokinetika: {
+      sorish: "Faqat mushak ichiga (v/m); v/v qat'iyan taqiqlanadi (embolik xavf). In'eksiya joyidan juda sekin so'riladi",
+      tarqalish: "To'qima va suyuqliklarga tarqaladi; past, lekin uzoq qonда konsentratsiya",
+      metabolizm: "Qisman metabolizmga uchraydi",
+      chiqarilish: "Asosan buyrak orqali; ta'sir 1 in'eksiyaдan keyin 2–4 hafta"
+    },
+    korsatmalar: [
+      "Streptokokk (S. pyogenes) faringiti/tonzilliti",
+      "O'tkir revmatik isitma va uning qaytalanishi profilaktikasi (uzoq muddatli)",
+      "Zaxm (sifilis) — barcha bosqichlari",
+      " Skarlatina, rojа; streptokokk infeksiyalari profilaktikasi"
+    ],
+    qarrshi: [
+      "Penitsillin yoki sefalosporinlarга o'ta sezuvchanlik",
+      "V/v yuborish (mutlaq qarshi — embolik/toksik xavf)",
+      "Ehtiyotkorlik: og'ir allergik anamnez, astma"
+    ],
+    nojoya: {
+      "Allergiya": "Toshma, eshakemi, isitma, anafilaksiya (penitsillinга xos), zardob kasalligi",
+      "Mahalliy": "In'eksiya joyida og'riq, infiltrat (Hoigne/Nikolau sindromi — tasodifan tomirga tushganда)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, diareya (kam)",
+      "Boshqa": "Yarisch-Gerksgeymer reaksiyasi (zaxм davosi boshida)"
+    },
+    dozadan: "Belgilar: allergik reaksiya; juda yuqori dozada MNS qo'zg'aluvchanligi/tirishish. Davolash: anafilaksiyada adrenalin, simptomatik.",
+    ozarotasir: [
+      "Probenetsid — penitsillin chiqarilishini sekinlashtiradi (konsentratsiya oshadi)",
+      "Bakteriostatik antibiotiklar (tetratsiklin) bilan antagonizm",
+      "Peroral kontratseptivlar samaradorligini kamaytirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "Revmatizm profilaktikasi: 1,2 mln ХБ v/m har 3–4 haftada. Zaxм: 2,4 mln ХБ v/m (bosqichга qarab 1 yoki bir necha marta). Streptokokk faringiti: 1,2 mln ХБ bir marta.",
+      bolalar: "Vaznга qarab 0,6–1,2 mln ХБ v/m (revmatizm profilaktikasi/streptokokk)"
+    },
+    chiqarish: "V/m inyeksiya uchun suspenziya kukuni 0,6 mln; 1,2 mln; 2,4 mln ХБ (flakonlar)"
+  },
+  ru: {
+    gruppa: "Чувствительные к бета-лактамазе пенициллины (депо-форма)",
+    farmTasir: "Пенициллиновый антибиотик длительного действия (депо)",
+    farmakodinamika: `Бензатина бензилпенициллин — малорастворимая соль бензилпенициллина с бензатином (депо-форма). Нарушает синтез клеточной стенки (пептидогликана) бактерий, блокируя пенициллинсвязывающие белки — бактерицидное действие. При в/м введении медленно всасывается из места инъекции, создавая низкую, но длительную (недели) концентрацию в крови. Активен преимущественно против грамположительных бактерий (Streptococcus pyogenes, S. pneumoniae) и Treponema pallidum (сифилис). Не действует на бета-лактамазопродуцирующие штаммы (стафилококки).`,
+    farmakokinetika: {
+      sorish: "Только в/м; в/в строго запрещено (риск эмболии). Очень медленно всасывается из места инъекции",
+      tarqalish: "Распределяется в ткани и жидкости; низкая, но длительная концентрация в крови",
+      metabolizm: "Частично метаболизируется",
+      chiqarilish: "Преимущественно почками; действие после 1 инъекции 2–4 недели"
+    },
+    korsatmalar: [
+      "Стрептококковый (S. pyogenes) фарингит/тонзиллит",
+      "Острая ревматическая лихорадка и профилактика её рецидивов (длительно)",
+      "Сифилис — все стадии",
+      "Скарлатина, рожа; профилактика стрептококковых инфекций"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к пенициллинам или цефалоспоринам",
+      "Внутривенное введение (абсолютно противопоказано — эмболический/токсический риск)",
+      "Осторожно: тяжёлый аллергоанамнез, астма"
+    ],
+    nojoya: {
+      "Аллергические": "Сыпь, крапивница, лихорадка, анафилаксия (характерна для пенициллинов), сывороточная болезнь",
+      "Местные": "Боль, инфильтрат в месте инъекции (синдром Уанье/Николау — при случайном попадании в сосуд)",
+      "ЖКТ": "Тошнота, диарея (редко)",
+      "Прочие": "Реакция Яриша–Герксгеймера (в начале лечения сифилиса)"
+    },
+    dozadan: "Симптомы: аллергическая реакция; при очень высоких дозах возбудимость ЦНС/судороги. Лечение: при анафилаксии адреналин, симптоматически.",
+    ozarotasir: [
+      "Пробенецид — замедляет выведение пенициллина (повышение концентрации)",
+      "Антагонизм с бактериостатическими антибиотиками (тетрациклин)",
+      "Может снижать эффективность пероральных контрацептивов"
+    ],
+    qollash: {
+      kattalar: "Профилактика ревматизма: 1,2 млн ЕД в/м каждые 3–4 недели. Сифилис: 2,4 млн ЕД в/м (по стадии 1 или несколько раз). Стрептококковый фарингит: 1,2 млн ЕД однократно.",
+      bolalar: "По массе 0,6–1,2 млн ЕД в/м (профилактика ревматизма/стрептококк)"
+    },
+    chiqarish: "Порошок для приготовления суспензии для в/м инъекций 0,6 млн; 1,2 млн; 2,4 млн ЕД (флаконы)"
+  },
+  en: {
+    gruppa: "Beta-lactamase-sensitive penicillins (depot form)",
+    farmTasir: "Long-acting (depot) penicillin antibiotic",
+    farmakodinamika: `Benzathine benzylpenicillin is a poorly soluble salt of benzylpenicillin with benzathine (a depot form). It disrupts bacterial cell wall (peptidoglycan) synthesis by blocking penicillin-binding proteins — a bactericidal effect. Given intramuscularly, it is absorbed slowly from the injection site, producing a low but prolonged (weeks) blood concentration. It is active mainly against Gram-positive bacteria (Streptococcus pyogenes, S. pneumoniae) and Treponema pallidum (syphilis). It does not act on beta-lactamase-producing strains (staphylococci).`,
+    farmakokinetika: {
+      sorish: "IM only; IV strictly prohibited (embolism risk). Absorbed very slowly from the injection site",
+      tarqalish: "Distributes into tissues and fluids; low but prolonged blood concentration",
+      metabolizm: "Partly metabolised",
+      chiqarilish: "Mainly renally; effect lasts 2–4 weeks after one injection"
+    },
+    korsatmalar: [
+      "Streptococcal (S. pyogenes) pharyngitis/tonsillitis",
+      "Acute rheumatic fever and prophylaxis of its recurrence (long-term)",
+      "Syphilis — all stages",
+      "Scarlet fever, erysipelas; prophylaxis of streptococcal infections"
+    ],
+    qarrshi: [
+      "Hypersensitivity to penicillins or cephalosporins",
+      "Intravenous administration (absolutely contraindicated — embolic/toxic risk)",
+      "Caution: severe allergy history, asthma"
+    ],
+    nojoya: {
+      "Hypersensitivity": "Rash, urticaria, fever, anaphylaxis (characteristic of penicillins), serum sickness",
+      "Local": "Pain, infiltrate at the injection site (Hoigné/Nicolau syndrome — with accidental intravascular injection)",
+      "Gastrointestinal": "Nausea, diarrhoea (rare)",
+      "Other": "Jarisch–Herxheimer reaction (at the start of syphilis treatment)"
+    },
+    dozadan: "Symptoms: allergic reaction; CNS excitability/seizures at very high doses. Treatment: adrenaline for anaphylaxis, symptomatic.",
+    ozarotasir: [
+      "Probenecid — slows penicillin excretion (raises concentration)",
+      "Antagonism with bacteriostatic antibiotics (tetracycline)",
+      "May reduce oral contraceptive efficacy"
+    ],
+    qollash: {
+      kattalar: "Rheumatic prophylaxis: 1.2 million U IM every 3–4 weeks. Syphilis: 2.4 million U IM (1 or several times by stage). Streptococcal pharyngitis: 1.2 million U single dose.",
+      bolalar: "By weight 0.6–1.2 million U IM (rheumatic prophylaxis/streptococcal)"
+    },
+    chiqarish: "Powder for suspension for IM injection 0.6 million; 1.2 million; 2.4 million U (vials)"
+  }
+},
+
+// ─── J01CR03 · Tikartsillin + Klavulan kislota ────────────────────────────
+"J01CR03": {
+  uz: {
+    gruppa: "Penitsillinlar (karboksipenitsillin) + beta-laktamaza ingibitori",
+    farmTasir: "Keng spektrli, beta-laktamazaga chidamli bakteritsid antibiotik",
+    farmakodinamika: `Tikartsillin va klavulan kislota kombinatsiyasi. Tikartsillin — keng spektrli karboksipenitsillin; bakteriya hujayra devori sintezini buzib bakteritsid ta'sir qiladi, gram-manfiy (Pseudomonas aeruginosa ham) va anaeroblarга faol, lekin beta-laktamaza bilan parchalanadi. Klavulan kislota — beta-laktamaza ingibitori; tikartsillinni himoyalab spektrini kengaytiradi (beta-laktamaza ishlab chiqaruvchi stafilokokk, H. influenzae, Klebsiella, Bacteroides). Og'ir aralash va nozokomial infeksiyalarда qo'llaniladi.`,
+    farmakokinetika: {
+      sorish: "Faqat parenteral (v/v); og'iz orqali so'rilmaydi",
+      tarqalish: "Oqsilga past-o'rtacha bog'lanadi; to'qima va suyuqliklarga tarqaladi",
+      metabolizm: "Qisman metabolizmga uchraydi",
+      chiqarilish: "Asosan buyrak orqali; T½ ~1 soat"
+    },
+    korsatmalar: [
+      "Og'ir nozokomial infeksiyalar (sepsis, pnevmoniya)",
+      "Murakkab qorin bo'shlig'i, ginekologik, siydik yo'llari infeksiyalari",
+      "Teri-yumshoq to'qima, suyak-bo'g'im infeksiyalari",
+      "Neytropenik bemorlarда infeksiyalar (kombinatsiyada)"
+    ],
+    qarrshi: [
+      "Penitsillin, sefalosporin yoki klavulanatga o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi (doza moslash)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Diareya, ko'ngil aynishi, psevdomembranoz kolit",
+      "Allergiya": "Toshma, eshakemi, isitma, kamdan-kam anafilaksiya",
+      "Elektrolit": "Gipokaliemiya, gipernatriemiya (natriy yuki — yurak yetishmovchiligida)",
+      "Qon tizimi": "Leykopeniya, trombotsitopeniya, qon ivishi buzilishi (yuqori dozada)",
+      "Jigar": "Transaminazalar oshishi, xolestaz"
+    },
+    dozadan: "Belgilar: MNS qo'zg'aluvchanligi, tirishishlar, elektrolit buzilishi. Davolash: simptomatik, gemodializ olib tashlaydi.",
+    ozarotasir: [
+      "Aminoglikozidlar bilan bir shприцда aralashtirmang (inaktivatsiya)",
+      "Probenetsid — chiqarilishini sekinlashtiradi",
+      "Antikoagulyantlar/trombotsitlarга ta'sir qiluvchilar — qon ketish xavfini oshiradi"
+    ],
+    qollash: {
+      kattalar: "3,1 g (tikartsillin 3 g + klavulanat 0,1 g) har 4–6 soatda v/v (infuziya); buyrak yetishmovchiligida doza moslash.",
+      bolalar: "Vaznга qarab 200–300 mg/kg/sut (tikartsillinга) bo'lib"
+    },
+    chiqarish: "V/v infuziya uchun kukun (tikartsillin+klavulanat, flakonlar)"
+  },
+  ru: {
+    gruppa: "Пенициллины (карбоксипенициллин) + ингибитор бета-лактамазы",
+    farmTasir: "Бактерицидный антибиотик широкого спектра, устойчивый к бета-лактамазе",
+    farmakodinamika: `Комбинация тикарциллина и клавулановой кислоты. Тикарциллин — карбоксипенициллин широкого спектра; нарушая синтез клеточной стенки бактерий, оказывает бактерицидное действие, активен против грамотрицательных (включая Pseudomonas aeruginosa) и анаэробов, но разрушается бета-лактамазами. Клавулановая кислота — ингибитор бета-лактамаз; защищает тикарциллин и расширяет спектр (бета-лактамазопродуцирующие стафилококки, H. influenzae, Klebsiella, Bacteroides). Применяется при тяжёлых смешанных и нозокомиальных инфекциях.`,
+    farmakokinetika: {
+      sorish: "Только парентерально (в/в); внутрь не всасывается",
+      tarqalish: "Низкая-умеренная связь с белками; распределяется в ткани и жидкости",
+      metabolizm: "Частично метаболизируется",
+      chiqarilish: "Преимущественно почками; T½ ~1 ч"
+    },
+    korsatmalar: [
+      "Тяжёлые нозокомиальные инфекции (сепсис, пневмония)",
+      "Осложнённые абдоминальные, гинекологические, мочевые инфекции",
+      "Инфекции кожи и мягких тканей, костей и суставов",
+      "Инфекции у нейтропенических больных (в комбинации)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к пенициллинам, цефалоспоринам или клавуланату",
+      "Тяжёлая почечная недостаточность (коррекция дозы)"
+    ],
+    nojoya: {
+      "ЖКТ": "Диарея, тошнота, псевдомембранозный колит",
+      "Аллергические": "Сыпь, крапивница, лихорадка, редко анафилаксия",
+      "Электролиты": "Гипокалиемия, гипернатриемия (натриевая нагрузка — при сердечной недостаточности)",
+      "Кроветворение": "Лейкопения, тромбоцитопения, нарушение свёртывания (при высоких дозах)",
+      "Печень": "Повышение трансаминаз, холестаз"
+    },
+    dozadan: "Симптомы: возбудимость ЦНС, судороги, электролитные нарушения. Лечение: симптоматическое, гемодиализ выводит.",
+    ozarotasir: [
+      "Не смешивать в одном шприце с аминогликозидами (инактивация)",
+      "Пробенецид — замедляет выведение",
+      "Антикоагулянты/антиагреганты — повышают риск кровотечения"
+    ],
+    qollash: {
+      kattalar: "3,1 г (тикарциллин 3 г + клавуланат 0,1 г) каждые 4–6 ч в/в (инфузия); при почечной недостаточности коррекция дозы.",
+      bolalar: "По массе 200–300 мг/кг/сут (по тикарциллину) дробно"
+    },
+    chiqarish: "Порошок для в/в инфузий (тикарциллин+клавуланат, флаконы)"
+  },
+  en: {
+    gruppa: "Penicillins (carboxypenicillin) + beta-lactamase inhibitor",
+    farmTasir: "Broad-spectrum, beta-lactamase-resistant bactericidal antibiotic",
+    farmakodinamika: `A combination of ticarcillin and clavulanic acid. Ticarcillin is a broad-spectrum carboxypenicillin; by disrupting bacterial cell wall synthesis it is bactericidal, active against Gram-negatives (including Pseudomonas aeruginosa) and anaerobes, but degraded by beta-lactamases. Clavulanic acid is a beta-lactamase inhibitor; it protects ticarcillin and broadens the spectrum (beta-lactamase-producing staphylococci, H. influenzae, Klebsiella, Bacteroides). Used for severe mixed and nosocomial infections.`,
+    farmakokinetika: {
+      sorish: "Parenteral only (IV); not absorbed orally",
+      tarqalish: "Low-to-moderate protein binding; distributes into tissues and fluids",
+      metabolizm: "Partly metabolised",
+      chiqarilish: "Mainly renally; T½ ~1 h"
+    },
+    korsatmalar: [
+      "Severe nosocomial infections (sepsis, pneumonia)",
+      "Complicated abdominal, gynaecological, urinary infections",
+      "Skin and soft tissue, bone and joint infections",
+      "Infections in neutropenic patients (in combination)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to penicillins, cephalosporins or clavulanate",
+      "Severe renal impairment (dose adjustment)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Diarrhoea, nausea, pseudomembranous colitis",
+      "Hypersensitivity": "Rash, urticaria, fever, rarely anaphylaxis",
+      "Electrolyte": "Hypokalaemia, hypernatraemia (sodium load — in heart failure)",
+      "Haematological": "Leucopenia, thrombocytopenia, coagulation disturbance (at high doses)",
+      "Hepatic": "Raised transaminases, cholestasis"
+    },
+    dozadan: "Symptoms: CNS excitability, seizures, electrolyte disturbance. Treatment: symptomatic, haemodialysis removes it.",
+    ozarotasir: [
+      "Do not mix in one syringe with aminoglycosides (inactivation)",
+      "Probenecid — slows excretion",
+      "Anticoagulants/antiplatelets — increase bleeding risk"
+    ],
+    qollash: {
+      kattalar: "3.1 g (ticarcillin 3 g + clavulanate 0.1 g) every 4–6 h IV (infusion); dose adjustment in renal impairment.",
+      bolalar: "By weight 200–300 mg/kg/day (as ticarcillin) divided"
+    },
+    chiqarish: "Powder for IV infusion (ticarcillin+clavulanate, vials)"
+  }
+},
+
+// ─── J01MA15 · Gemifloksatsin ─────────────────────────────────────────────
+"J01MA15": {
+  uz: {
+    gruppa: "Ftorxinolonlar (IV avlod, «respirator»)",
+    farmTasir: "Nafas yo'llariga yo'naltirilgan keng spektrli bakteritsid antibiotik",
+    farmakodinamika: `Gemifloksatsin — to'rtinchi avlod («respirator») ftorxinoloni. Bakteriya ДНК-giraza va topoizomeraza IV ni inhibe qilib ДНК sintezini buzadi (bakteritsid). Gram-musbatlarга, ayniqsa Streptococcus pneumoniae (penitsillin/makrolidga chidamli shtammlar ham) yuqori faollik; gram-manfiy (H. influenzae, Moraxella, Enterobacteriaceae) va atipik (Mycoplasma, Chlamydia, Legionella) patogenlarга ham faol. Asosan nafas yo'llari infeksiyalarida qo'llaniladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi (biofaollik ~70%); ovqat ta'sir qilmaydi",
+      tarqalish: "Oqsilga ~60–70% bog'lanadi; o'pka to'qimasiga yuqori konsentratsiyada tarqaladi",
+      metabolizm: "Jigarда qisman metabolizmga uchraydi",
+      chiqarilish: "Najas va siydik bilan; T½ ~7 soat (kuniga 1 marta)"
+    },
+    korsatmalar: [
+      "Surunkali bronxitning o'tkir bakterial zo'rayishi",
+      "Jamoада orttirilgan pnevmoniya (yengil-o'rta, jumladan rezistent pnevmokokk)"
+    ],
+    qarrshi: [
+      "Gemifloksatsin yoki ftorxinolonlarга o'ta sezuvchanlik",
+      "18 yoshgacha bolalar; homiladorlik va emizish davri",
+      "Uzun QT sindromi, elektrolit buzilishlari; pay zararlanishi anamnezi"
+    ],
+    nojoya: {
+      "Teri": "Toshma (gemifloksatsinda boshqa ftorxinolonlardan ko'proq — ayniqsa yosh ayollarда, uzoq kursda)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, diareya, qorin og'rig'i, psevdomembranoz kolit",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyqusizlik, tirishishlar",
+      "Tayanch-harakat": "Tendinit, pay uzilishi xavfi, artralgiya",
+      "Yurak": "QT intervalining uzayishi (kam)"
+    },
+    dozadan: "Belgilar: tirishishlar, QT uzayishi. Davolash: simptomatik, yurak nazorati; gemodializ qisman.",
+    ozarotasir: [
+      "Antatsidlar, temir, sink, kalsiy, sukralfat — so'rilishini kamaytiradi (2–3 soat farq)",
+      "QT uzaytiruvchi preparatlar — aritmiya xavfi",
+      "Varfarin — ta'sirini kuchaytirishi mumkin; NSAID — tirishish xavfi"
+    ],
+    qollash: {
+      kattalar: "320 mg kuniga 1 marta; bronxit zo'rayishida 5 kun, pnevmoniyada 5–7 kun.",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "Pardali tabletkalar 320 mg"
+  },
+  ru: {
+    gruppa: "Фторхинолоны (IV поколение, «респираторные»)",
+    farmTasir: "Бактерицидный антибиотик широкого спектра с акцентом на дыхательные пути",
+    farmakodinamika: `Гемифлоксацин — фторхинолон четвёртого («респираторного») поколения. Ингибируя ДНК-гиразу и топоизомеразу IV, нарушает синтез ДНК (бактерицидно). Высокая активность против грамположительных, особенно Streptococcus pneumoniae (в т.ч. устойчивых к пенициллину/макролидам); активен и против грамотрицательных (H. influenzae, Moraxella, Enterobacteriaceae) и атипичных (Mycoplasma, Chlamydia, Legionella). Применяется преимущественно при инфекциях дыхательных путей.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь (биодоступность ~70%); пища не влияет",
+      tarqalish: "Связь с белками ~60–70%; высокие концентрации в лёгочной ткани",
+      metabolizm: "Частично метаболизируется в печени",
+      chiqarilish: "С калом и мочой; T½ ~7 ч (1 раз в день)"
+    },
+    korsatmalar: [
+      "Острое бактериальное обострение хронического бронхита",
+      "Внебольничная пневмония (лёгкая-умеренная, включая резистентный пневмококк)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к гемифлоксацину или фторхинолонам",
+      "Возраст до 18 лет; беременность и период лактации",
+      "Синдром удлинённого QT, электролитные нарушения; поражение сухожилий в анамнезе"
+    ],
+    nojoya: {
+      "Кожа": "Сыпь (у гемифлоксацина чаще, чем у других фторхинолонов — особенно у молодых женщин, при длительном курсе)",
+      "ЖКТ": "Тошнота, диарея, боль в животе, псевдомембранозный колит",
+      "ЦНС": "Головная боль, головокружение, бессонница, судороги",
+      "ОДА": "Тендинит, риск разрыва сухожилия, артралгия",
+      "Сердце": "Удлинение QT (редко)"
+    },
+    dozadan: "Симптомы: судороги, удлинение QT. Лечение: симптоматическое, контроль сердца; гемодиализ частично.",
+    ozarotasir: [
+      "Антациды, железо, цинк, кальций, сукральфат — снижают всасывание (интервал 2–3 часа)",
+      "Препараты, удлиняющие QT — риск аритмии",
+      "Варфарин — может усиливать действие; НПВП — риск судорог"
+    ],
+    qollash: {
+      kattalar: "320 мг 1 раз в день; при обострении бронхита 5 дней, при пневмонии 5–7 дней.",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 320 мг"
+  },
+  en: {
+    gruppa: "Fluoroquinolones (4th generation, respiratory)",
+    farmTasir: "Broad-spectrum bactericidal antibiotic with a respiratory focus",
+    farmakodinamika: `Gemifloxacin is a fourth-generation (respiratory) fluoroquinolone. By inhibiting DNA gyrase and topoisomerase IV, it disrupts DNA synthesis (bactericidal). It has high activity against Gram-positives, especially Streptococcus pneumoniae (including penicillin/macrolide-resistant strains); it is also active against Gram-negatives (H. influenzae, Moraxella, Enterobacteriaceae) and atypicals (Mycoplasma, Chlamydia, Legionella). It is used mainly for respiratory tract infections.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally (bioavailability ~70%); food has no effect",
+      tarqalish: "Protein binding ~60–70%; high concentrations in lung tissue",
+      metabolizm: "Partly metabolised in the liver",
+      chiqarilish: "In faeces and urine; T½ ~7 h (once daily)"
+    },
+    korsatmalar: [
+      "Acute bacterial exacerbation of chronic bronchitis",
+      "Community-acquired pneumonia (mild-moderate, including resistant pneumococcus)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to gemifloxacin or fluoroquinolones",
+      "Age under 18 years; pregnancy and lactation",
+      "Long QT syndrome, electrolyte disturbances; history of tendon disorders"
+    ],
+    nojoya: {
+      "Dermatological": "Rash (more common with gemifloxacin than other fluoroquinolones — especially in young women, with prolonged courses)",
+      "Gastrointestinal": "Nausea, diarrhoea, abdominal pain, pseudomembranous colitis",
+      "CNS": "Headache, dizziness, insomnia, seizures",
+      "Musculoskeletal": "Tendinitis, tendon rupture risk, arthralgia",
+      "Cardiac": "QT prolongation (rare)"
+    },
+    dozadan: "Symptoms: seizures, QT prolongation. Treatment: symptomatic, cardiac monitoring; haemodialysis partially.",
+    ozarotasir: [
+      "Antacids, iron, zinc, calcium, sucralfate — reduce absorption (separate by 2–3 hours)",
+      "QT-prolonging drugs — arrhythmia risk",
+      "Warfarin — may enhance the effect; NSAIDs — seizure risk"
+    ],
+    qollash: {
+      kattalar: "320 mg once daily; 5 days for bronchitis exacerbation, 5–7 days for pneumonia.",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Film-coated tablets 320 mg"
+  }
+},
+
+// ─── J01MB04 · Pipemid kislota ────────────────────────────────────────────
+"J01MB04": {
+  uz: {
+    gruppa: "Xinolonlar (ftorlanmagan, I avlod)",
+    farmTasir: "Siydik yo'llariга ta'sir qiluvchi antibakterial vosita",
+    farmakodinamika: `Pipemid kislota — ftorlanmagan birinchi avlod xinoloni. Bakteriya ДНК-girazani inhibe qilib ДНК replikatsiyasini buzadi — bakteritsid ta'sir (gram-manfiy bakteriyalarga). E. coli, Klebsiella, Proteus, Enterobacter, ba'zi Pseudomonas va Serratia ga faol; gram-musbat va anaeroblarга zaif. Tizimli to'qimaда past, lekin siydikда yuqori konsentratsiya hosil qiladi — shu sababli siydik yo'llari va prostata infeksiyalarида qo'llaniladi. Zamonaviy ftorxinolonlardan kuchsizroq.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi",
+      tarqalish: "Buyrak va prostata to'qimasiga tarqaladi; siydikда yuqori konsentratsiya",
+      metabolizm: "Jigarда qisman metabolizmga uchraydi",
+      chiqarilish: "Asosan buyrak orqali; T½ ~3–4 soat"
+    },
+    korsatmalar: [
+      "O'tkir va surunkali siydik yo'llari infeksiyalari (sistit, pielonefrit)",
+      "Surunkali bakterial prostatit",
+      "Siydik yo'llari instrumental aralashuvi oldidan profilaktika"
+    ],
+    qarrshi: [
+      "Xinolonlarга o'ta sezuvchanlik",
+      "18 yoshgacha bolalar; homiladorlik va emizish davri",
+      "Og'ir buyrak/jigar yetishmovchiligi; MNS kasalliklari (epilepsiya)",
+      "G6FD yetishmovchiligi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, diareya, ishtaha pasayishi",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, ko'rish buzilishi, tirishishlar (kam)",
+      "Allergiya": "Toshma, fotosensibilizatsiya, qichishish",
+      "Boshqa": "Eozinofiliya, transaminazalar oshishi (kam)"
+    },
+    dozadan: "Belgilar: ko'ngil aynishi, bosh aylanishi, tirishishlar. Davolash: simptomatik, ko'p suyuqlik.",
+    ozarotasir: [
+      "Antatsidlar (Al/Mg), temir — so'rilishini kamaytiradi (2 soat farq)",
+      "Teofillin, kofein — konsentratsiyasini oshiradi",
+      "Antikoagulyantlar ta'sirini kuchaytirishi mumkin; NSAID — tirishish xavfi"
+    ],
+    qollash: {
+      kattalar: "400 mg kuniga 2 marta ovqat bilan, ko'p suv bilan; kurs 10 kun (prostatitда uzoqroq).",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "Kapsulalar/tabletkalar 200 mg, 400 mg"
+  },
+  ru: {
+    gruppa: "Хинолоны (нефторированные, I поколение)",
+    farmTasir: "Антибактериальное средство, действующее в мочевых путях",
+    farmakodinamika: `Пипемидовая кислота — нефторированный хинолон первого поколения. Ингибируя ДНК-гиразу бактерий, нарушает репликацию ДНК — бактерицидное действие (на грамотрицательные бактерии). Активна против E. coli, Klebsiella, Proteus, Enterobacter, некоторых Pseudomonas и Serratia; слабо против грамположительных и анаэробов. Создаёт низкую концентрацию в системных тканях, но высокую в моче — поэтому применяется при инфекциях мочевых путей и простаты. Слабее современных фторхинолонов.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь",
+      tarqalish: "Распределяется в почки и ткань простаты; высокая концентрация в моче",
+      metabolizm: "Частично метаболизируется в печени",
+      chiqarilish: "Преимущественно почками; T½ ~3–4 ч"
+    },
+    korsatmalar: [
+      "Острые и хронические инфекции мочевых путей (цистит, пиелонефрит)",
+      "Хронический бактериальный простатит",
+      "Профилактика перед инструментальным вмешательством на мочевых путях"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к хинолонам",
+      "Возраст до 18 лет; беременность и период лактации",
+      "Тяжёлая почечная/печёночная недостаточность; заболевания ЦНС (эпилепсия)",
+      "Дефицит Г6ФД"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, боль в животе, диарея, снижение аппетита",
+      "ЦНС": "Головная боль, головокружение, нарушение зрения, судороги (редко)",
+      "Аллергические": "Сыпь, фотосенсибилизация, зуд",
+      "Прочие": "Эозинофилия, повышение трансаминаз (редко)"
+    },
+    dozadan: "Симптомы: тошнота, головокружение, судороги. Лечение: симптоматическое, обильное питьё.",
+    ozarotasir: [
+      "Антациды (Al/Mg), железо — снижают всасывание (интервал 2 часа)",
+      "Теофиллин, кофеин — повышение концентрации",
+      "Может усиливать действие антикоагулянтов; НПВП — риск судорог"
+    ],
+    qollash: {
+      kattalar: "400 мг 2 раза в день с едой, запивая водой; курс 10 дней (при простатите дольше).",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Капсулы/таблетки 200 мг, 400 мг"
+  },
+  en: {
+    gruppa: "Quinolones (non-fluorinated, 1st generation)",
+    farmTasir: "Antibacterial acting in the urinary tract",
+    farmakodinamika: `Pipemidic acid is a non-fluorinated first-generation quinolone. By inhibiting bacterial DNA gyrase, it disrupts DNA replication — a bactericidal effect (against Gram-negative bacteria). It is active against E. coli, Klebsiella, Proteus, Enterobacter, some Pseudomonas and Serratia; weak against Gram-positives and anaerobes. It produces low systemic tissue concentrations but high urinary concentrations — so it is used for urinary tract and prostate infections. It is weaker than modern fluoroquinolones.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally",
+      tarqalish: "Distributes into kidneys and prostate tissue; high urinary concentration",
+      metabolizm: "Partly metabolised in the liver",
+      chiqarilish: "Mainly renally; T½ ~3–4 h"
+    },
+    korsatmalar: [
+      "Acute and chronic urinary tract infections (cystitis, pyelonephritis)",
+      "Chronic bacterial prostatitis",
+      "Prophylaxis before urinary tract instrumentation"
+    ],
+    qarrshi: [
+      "Hypersensitivity to quinolones",
+      "Age under 18 years; pregnancy and lactation",
+      "Severe renal/hepatic impairment; CNS disorders (epilepsy)",
+      "G6PD deficiency"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, abdominal pain, diarrhoea, decreased appetite",
+      "CNS": "Headache, dizziness, visual disturbance, seizures (rare)",
+      "Hypersensitivity": "Rash, photosensitisation, itching",
+      "Other": "Eosinophilia, raised transaminases (rare)"
+    },
+    dozadan: "Symptoms: nausea, dizziness, seizures. Treatment: symptomatic, ample fluids.",
+    ozarotasir: [
+      "Antacids (Al/Mg), iron — reduce absorption (separate by 2 hours)",
+      "Theophylline, caffeine — raised concentration",
+      "May enhance the effect of anticoagulants; NSAIDs — seizure risk"
+    ],
+    qollash: {
+      kattalar: "400 mg twice daily with food, with water; course 10 days (longer for prostatitis).",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Capsules/tablets 200 mg, 400 mg"
+  }
+},
+
+// ─── J01XD · Metronidazol + Mikonazol + Lidokain (vaginal) ────────────────
+"J01XD": {
+  uz: {
+    gruppa: "Kombinatsiyalangan vaginal antiinfeksion vositalar",
+    farmTasir: "Aralash vaginal infeksiyalarга qarshi mahalliy kombinatsiya",
+    farmakodinamika: `Metronidazol, mikonazol va lidokain kombinatsiyasi (vaginal). Metronidazol — 5-nitroimidazol; anaerob bakteriyalar va Trichomonas, Gardnerella vaginalis ning ДНК sini buzib halok qiladi (bakterial vaginoz, trixomoniaz). Mikonazol — imidazol antifungal; zamburug' ergosterol sintezini buzadi, Candida (vulvovaginal kandidoz) ga faol. Lidokain — mahalliy anestetik; achishish, og'riq va qichishishni kamaytiradi. Kombinatsiya aralash etiologiyali (bakterial + zamburug' + protozoan) vaginitlarда mahalliy ta'sir ko'rsatadi.`,
+    farmakokinetika: {
+      sorish: "Vaginal qo'llashda mahalliy ta'sir; metronidazol qisman tizimli so'riladi",
+      tarqalish: "Vaginal shilliq pardada ta'sir qiladi",
+      metabolizm: "So'rilgan metronidazol jigarда metabolizmga uchraydi",
+      chiqarilish: "So'rilgan qism asosan buyrak orqali"
+    },
+    korsatmalar: [
+      "Aralash vaginal infeksiyalar (bakterial vaginoz + kandidoz + trixomoniaz)",
+      "Noaniq etiologiyali vaginit/vulvovaginit",
+      "Qaytalanuvchi vaginal infeksiyalar (mahalliy davo)"
+    ],
+    qarrshi: [
+      "Komponentlarга (metronidazol/nitroimidazol, mikonazol/imidazol, lidokain) o'ta sezuvchanlik",
+      "Homiladorlikning I trimestri; emizish davri (metronidazol)",
+      "16/18 yoshgacha (jinsiy faoliyat boshlanmaganlarда) — shaklга qarab",
+      "Og'ir jigar yetishmovchiligi; etanol iste'moli (metronidazol — disulfiramsimon reaksiya)"
+    ],
+    nojoya: {
+      "Mahalliy": "Vaginal achishish, qichishish, tirnashish, qizarish",
+      "Tizimli (kam)": "Ko'ngil aynishi, ta'm o'zgarishi (metall), bosh og'rig'i (metronidazol so'rilishida)",
+      "Allergiya": "Toshma, qichishish, kontakt dermatit"
+    },
+    dozadan: "Mahalliy qo'llashda ehtimoli past; tasodifan yutilganда metronidazol/lidokain belgilari — simptomatik.",
+    ozarotasir: [
+      "Etanol bilan metronidazol — disulfiramsimon reaksiya (davo davomida va keyin spirtdan saqlaning)",
+      "Varfarin — metronidazol antikoagulyant ta'sirini kuchaytiradi",
+      "Mikonazol so'rilganда varfarin/ba'zi statinlar bilan ta'sir; lateks prezervativ/diafragmani zaiflashtirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "1 vaginal tabletka/kapsula kechqurun (uxlash oldidan) qinга chuqur kiritiladi; kurs odatda 7–10 kun.",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "Vaginal tabletkalar/kapsulalar (metronidazol + mikonazol + lidokain)"
+  },
+  ru: {
+    gruppa: "Комбинированные вагинальные противоинфекционные средства",
+    farmTasir: "Местная комбинация против смешанных вагинальных инфекций",
+    farmakodinamika: `Комбинация метронидазола, миконазола и лидокаина (вагинальная). Метронидазол — 5-нитроимидазол; разрушает ДНК анаэробных бактерий, Trichomonas и Gardnerella vaginalis (бактериальный вагиноз, трихомониаз). Миконазол — имидазольный антимикотик; нарушает синтез эргостерола грибов, активен против Candida (вульвовагинальный кандидоз). Лидокаин — местный анестетик; уменьшает жжение, боль и зуд. Комбинация оказывает местное действие при вагинитах смешанной этиологии (бактериальной + грибковой + протозойной).`,
+    farmakokinetika: {
+      sorish: "При вагинальном применении местное действие; метронидазол частично всасывается системно",
+      tarqalish: "Действует на слизистой влагалища",
+      metabolizm: "Всосавшийся метронидазол метаболизируется в печени",
+      chiqarilish: "Всосавшаяся часть преимущественно почками"
+    },
+    korsatmalar: [
+      "Смешанные вагинальные инфекции (бактериальный вагиноз + кандидоз + трихомониаз)",
+      "Вагинит/вульвовагинит неясной этиологии",
+      "Рецидивирующие вагинальные инфекции (местное лечение)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к компонентам (метронидазол/нитроимидазол, миконазол/имидазол, лидокаин)",
+      "I триместр беременности; период лактации (метронидазол)",
+      "До 16/18 лет (не живущим половой жизнью) — в зависимости от формы",
+      "Тяжёлая печёночная недостаточность; употребление этанола (метронидазол — дисульфирамоподобная реакция)"
+    ],
+    nojoya: {
+      "Местные": "Вагинальное жжение, зуд, раздражение, покраснение",
+      "Системные (редко)": "Тошнота, изменение вкуса (металлический), головная боль (при всасывании метронидазола)",
+      "Аллергические": "Сыпь, зуд, контактный дерматит"
+    },
+    dozadan: "При местном применении маловероятна; при случайном проглатывании — симптомы метронидазола/лидокаина — симптоматически.",
+    ozarotasir: [
+      "С этанолом метронидазол — дисульфирамоподобная реакция (избегать алкоголя во время и после лечения)",
+      "Варфарин — метронидазол усиливает антикоагулянтное действие",
+      "При всасывании миконазол взаимодействует с варфарином/некоторыми статинами; может ослаблять латексные презервативы/диафрагмы"
+    ],
+    qollash: {
+      kattalar: "1 вагинальная таблетка/капсула на ночь (перед сном) глубоко во влагалище; курс обычно 7–10 дней.",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Вагинальные таблетки/капсулы (метронидазол + миконазол + лидокаин)"
+  },
+  en: {
+    gruppa: "Combined vaginal anti-infective agents",
+    farmTasir: "Local combination against mixed vaginal infections",
+    farmakodinamika: `A combination of metronidazole, miconazole and lidocaine (vaginal). Metronidazole is a 5-nitroimidazole; it destroys the DNA of anaerobic bacteria, Trichomonas and Gardnerella vaginalis (bacterial vaginosis, trichomoniasis). Miconazole is an imidazole antifungal; it disrupts fungal ergosterol synthesis, active against Candida (vulvovaginal candidiasis). Lidocaine is a local anaesthetic; it reduces burning, pain and itching. The combination acts locally in vaginitis of mixed aetiology (bacterial + fungal + protozoal).`,
+    farmakokinetika: {
+      sorish: "Local action with vaginal use; metronidazole is partly absorbed systemically",
+      tarqalish: "Acts on the vaginal mucosa",
+      metabolizm: "Absorbed metronidazole is metabolised in the liver",
+      chiqarilish: "The absorbed fraction mainly renally"
+    },
+    korsatmalar: [
+      "Mixed vaginal infections (bacterial vaginosis + candidiasis + trichomoniasis)",
+      "Vaginitis/vulvovaginitis of uncertain aetiology",
+      "Recurrent vaginal infections (local treatment)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to the components (metronidazole/nitroimidazole, miconazole/imidazole, lidocaine)",
+      "First trimester of pregnancy; lactation (metronidazole)",
+      "Under 16/18 years (not sexually active) — depending on the form",
+      "Severe hepatic impairment; ethanol intake (metronidazole — disulfiram-like reaction)"
+    ],
+    nojoya: {
+      "Local": "Vaginal burning, itching, irritation, redness",
+      "Systemic (rare)": "Nausea, taste change (metallic), headache (with metronidazole absorption)",
+      "Hypersensitivity": "Rash, itching, contact dermatitis"
+    },
+    dozadan: "Unlikely with local use; if accidentally swallowed — metronidazole/lidocaine symptoms — symptomatic.",
+    ozarotasir: [
+      "With ethanol metronidazole causes a disulfiram-like reaction (avoid alcohol during and after treatment)",
+      "Warfarin — metronidazole enhances the anticoagulant effect",
+      "When absorbed, miconazole interacts with warfarin/some statins; may weaken latex condoms/diaphragms"
+    ],
+    qollash: {
+      kattalar: "1 vaginal tablet/capsule at night (before sleep) inserted deep into the vagina; course usually 7–10 days.",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Vaginal tablets/capsules (metronidazole + miconazole + lidocaine)"
+  }
 }
 
 };
