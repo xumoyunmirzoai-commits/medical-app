@@ -18006,6 +18006,620 @@ const PHARMA_DATA = {
     },
     chiqarish: "Vaginal tablets/capsules (metronidazole + miconazole + lidocaine)"
   }
+},
+
+// ─── J01CE30 · Benzilpenitsillin kombinatsiyasi (Na+benzatin+prokain) ──────
+"J01CE30": {
+  uz: {
+    gruppa: "Beta-laktamazaga sezgir penitsillinlar (kombinatsiyalangan/depo)",
+    farmTasir: "Tez va uzoq ta'sirni birlashtirgan penitsillin antibiotik",
+    farmakodinamika: `Benzilpenitsillinning uchta tuzi kombinatsiyasi: natriy tuzi (tez, qisqa ta'sir), prokain tuzi (o'rtacha) va benzatin tuzi (uzoq, depo). Barchasi bakteriya hujayra devori (peptidoglikan) sintezini penitsillinbog'lovchi oqsillarni bloklab buzadi — bakteritsid ta'sir. Kombinatsiya bir in'eksiyada ham tez (bir necha soat ichida yuqori), ham uzoq (kunlar/haftalar davom etadigan) qonда konsentratsiyani ta'minlaydi. Gram-musbat (streptokokk, S. pneumoniae) va Treponema pallidum (zaxм) ga faol; beta-laktamaza ishlab chiqaruvchi shtammlarга ta'sir qilmaydi.`,
+    farmakokinetika: {
+      sorish: "Faqat mushak ichiga (v/m); natriy qismi tez, benzatin qismi juda sekin so'riladi",
+      tarqalish: "To'qima va suyuqliklarga tarqaladi; platsentadan o'tadi",
+      metabolizm: "Qisman metabolizmga uchraydi",
+      chiqarilish: "Asosan buyrak orqali; ta'sir tezda boshlanib uzoq davom etadi"
+    },
+    korsatmalar: [
+      "Streptokokk infeksiyalari (faringit, tonzillit, skarlatina, rojа)",
+      "Zaxм (sifilis), o'tkir revmatik isitma profilaktikasi",
+      "Sezgir gram-musbat infeksiyalar (kombinatsiyalangan tez+uzoq ta'sir kerak bo'lganда)"
+    ],
+    qarrshi: [
+      "Penitsillin, sefalosporin yoki prokainга o'ta sezuvchanlik",
+      "V/v yuborish (mutlaq qarshi)",
+      "Ehtiyotkorlik: og'ir allergik anamnez, astma"
+    ],
+    nojoya: {
+      "Allergiya": "Toshma, eshakemi, isitma, anafilaksiya, zardob kasalligi",
+      "Mahalliy": "In'eksiya joyida og'riq, infiltrat; tomirga tasodifan tushganда reaksiyalar",
+      "Boshqa": "Yarisch-Gerksgeymer reaksiyasi (zaxм davosida), prokainга reaksiya (xavotir, bosh aylanishi)"
+    },
+    dozadan: "Belgilar: allergik reaksiya, yuqori dozada MNS qo'zg'aluvchanligi. Davolash: anafilaksiyada adrenalin, simptomatik.",
+    ozarotasir: [
+      "Probenetsid — penitsillin chiqarilishini sekinlashtiradi",
+      "Bakteriostatik antibiotiklar (tetratsiklin) bilan antagonizm",
+      "Peroral kontratseptivlar samaradorligini kamaytirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "300 000 – 1,2 mln ХБ v/m kuniga 1 marta yoki har bir necha kunда (preparat tarkibi va ko'rsatmага qarab).",
+      bolalar: "Vaznга qarab v/m, shifokor tavsiyasi bilan"
+    },
+    chiqarish: "V/m inyeksiya uchun suspenziya kukuni (benzilpenitsillin Na + benzatin + prokain, har xil nisbatlarda)"
+  },
+  ru: {
+    gruppa: "Чувствительные к бета-лактамазе пенициллины (комбинированные/депо)",
+    farmTasir: "Пенициллин, сочетающий быстрое и длительное действие",
+    farmakodinamika: `Комбинация трёх солей бензилпенициллина: натриевой (быстрое, короткое действие), прокаиновой (среднее) и бензатиновой (длительное, депо). Все нарушают синтез клеточной стенки (пептидогликана) бактерий, блокируя пенициллинсвязывающие белки — бактерицидное действие. Комбинация в одной инъекции обеспечивает как быструю (высокую в первые часы), так и длительную (на дни/недели) концентрацию в крови. Активна против грамположительных (стрептококки, S. pneumoniae) и Treponema pallidum (сифилис); не действует на бета-лактамазопродуцирующие штаммы.`,
+    farmakokinetika: {
+      sorish: "Только в/м; натриевая часть всасывается быстро, бензатиновая — очень медленно",
+      tarqalish: "Распределяется в ткани и жидкости; проникает через плаценту",
+      metabolizm: "Частично метаболизируется",
+      chiqarilish: "Преимущественно почками; действие наступает быстро и длится долго"
+    },
+    korsatmalar: [
+      "Стрептококковые инфекции (фарингит, тонзиллит, скарлатина, рожа)",
+      "Сифилис, профилактика острой ревматической лихорадки",
+      "Чувствительные грамположительные инфекции (когда нужно сочетание быстрого+длительного действия)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к пенициллинам, цефалоспоринам или прокаину",
+      "Внутривенное введение (абсолютно противопоказано)",
+      "Осторожно: тяжёлый аллергоанамнез, астма"
+    ],
+    nojoya: {
+      "Аллергические": "Сыпь, крапивница, лихорадка, анафилаксия, сывороточная болезнь",
+      "Местные": "Боль, инфильтрат в месте инъекции; реакции при случайном попадании в сосуд",
+      "Прочие": "Реакция Яриша–Герксгеймера (при лечении сифилиса), реакция на прокаин (тревога, головокружение)"
+    },
+    dozadan: "Симптомы: аллергическая реакция, при высоких дозах возбудимость ЦНС. Лечение: при анафилаксии адреналин, симптоматически.",
+    ozarotasir: [
+      "Пробенецид — замедляет выведение пенициллина",
+      "Антагонизм с бактериостатическими антибиотиками (тетрациклин)",
+      "Может снижать эффективность пероральных контрацептивов"
+    ],
+    qollash: {
+      kattalar: "300 000 – 1,2 млн ЕД в/м 1 раз в день или раз в несколько дней (в зависимости от состава и показания).",
+      bolalar: "По массе в/м, по рекомендации врача"
+    },
+    chiqarish: "Порошок для суспензии для в/м инъекций (бензилпенициллин Na + бензатин + прокаин, в разных соотношениях)"
+  },
+  en: {
+    gruppa: "Beta-lactamase-sensitive penicillins (combined/depot)",
+    farmTasir: "Penicillin combining fast and prolonged action",
+    farmakodinamika: `A combination of three benzylpenicillin salts: sodium (fast, short action), procaine (intermediate) and benzathine (long, depot). All disrupt bacterial cell wall (peptidoglycan) synthesis by blocking penicillin-binding proteins — a bactericidal effect. In a single injection the combination provides both rapid (high in the first hours) and prolonged (over days/weeks) blood concentrations. It is active against Gram-positives (streptococci, S. pneumoniae) and Treponema pallidum (syphilis); it does not act on beta-lactamase-producing strains.`,
+    farmakokinetika: {
+      sorish: "IM only; the sodium part is absorbed rapidly, the benzathine part very slowly",
+      tarqalish: "Distributes into tissues and fluids; crosses the placenta",
+      metabolizm: "Partly metabolised",
+      chiqarilish: "Mainly renally; onset rapid and action prolonged"
+    },
+    korsatmalar: [
+      "Streptococcal infections (pharyngitis, tonsillitis, scarlet fever, erysipelas)",
+      "Syphilis, prophylaxis of acute rheumatic fever",
+      "Susceptible Gram-positive infections (when combined fast+prolonged action is needed)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to penicillins, cephalosporins or procaine",
+      "Intravenous administration (absolutely contraindicated)",
+      "Caution: severe allergy history, asthma"
+    ],
+    nojoya: {
+      "Hypersensitivity": "Rash, urticaria, fever, anaphylaxis, serum sickness",
+      "Local": "Pain, infiltrate at the injection site; reactions with accidental intravascular injection",
+      "Other": "Jarisch–Herxheimer reaction (in syphilis treatment), procaine reaction (anxiety, dizziness)"
+    },
+    dozadan: "Symptoms: allergic reaction, CNS excitability at high doses. Treatment: adrenaline for anaphylaxis, symptomatic.",
+    ozarotasir: [
+      "Probenecid — slows penicillin excretion",
+      "Antagonism with bacteriostatic antibiotics (tetracycline)",
+      "May reduce oral contraceptive efficacy"
+    ],
+    qollash: {
+      kattalar: "300,000 – 1.2 million U IM once daily or every few days (depending on composition and indication).",
+      bolalar: "By weight IM, on medical advice"
+    },
+    chiqarish: "Powder for suspension for IM injection (benzylpenicillin Na + benzathine + procaine, in various ratios)"
+  }
+},
+
+// ─── J01RA07 · Norfloksatsin + Tinidazol ──────────────────────────────────
+"J01RA07": {
+  uz: {
+    gruppa: "Antibakterial preparatlar kombinatsiyasi (ftorxinolon + nitroimidazol)",
+    farmTasir: "Aerob va anaerob/protozoan infeksiyalarга qarshi kombinatsiya",
+    farmakodinamika: `Norfloksatsin va tinidazol kombinatsiyasi. Norfloksatsin — ikkinchi avlod ftorxinoloni; bakteriya ДНК-giraza va topoizomeraza IV ni inhibe qilib ДНК sintezini buzadi (bakteritsid), gram-manfiy ichak/siydik patogenlarга faol. Tinidazol — 5-nitroimidazol; anaerob bakteriyalar va sodda jonivorlar (Trichomonas, Giardia, Entamoeba) ДНК sini buzib halok qiladi. Kombinatsiya aerob + anaerob/protozoan qo'zg'atuvchilar ishtirokidagi aralash ichak va siydik-jinsiy infeksiyalarni qamrab oladi.`,
+    farmakokinetika: {
+      sorish: "Norfloksatsin og'iz orqali qisman (~30–40%), tinidazol yaxshi so'riladi",
+      tarqalish: "Norfloksatsin siydik/ichakда, tinidazol to'qima va suyuqliklarда (BBO/platsenta ham)",
+      metabolizm: "Tinidazol jigarда metabolizmga uchraydi",
+      chiqarilish: "Norfloksatsin buyrak/o't; tinidazol siydik (T½ ~12–14 soat)"
+    },
+    korsatmalar: [
+      "Aralash bakterial-protozoan ichak infeksiyalari (diareya, dizenteriya, amebiaz, lyamblioz)",
+      "Aralash siydik-jinsiy infeksiyalar",
+      "Anaerob va aerob qo'zg'atuvchilar ishtirokidagi infeksiyalar"
+    ],
+    qarrshi: [
+      "Ftorxinolon yoki nitroimidazollarга o'ta sezuvchanlik",
+      "18 yoshgacha bolalar; homiladorlik (I trimestr) va emizish davri",
+      "MNS kasalliklari (epilepsiya), pay zararlanishi anamnezi",
+      "Qon kasalliklari; etanol iste'moli (tinidazol — disulfiramsimon reaksiya)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, diareya, ta'm o'zgarishi (metall)",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyquchanlik, periferik neyropatiya, tirishishlar (kam)",
+      "Tayanch-harakat": "Tendinit, pay uzilishi xavfi",
+      "Allergiya": "Toshma, fotosensibilizatsiya, qichishish"
+    },
+    dozadan: "Belgilar: tirishishlar, periferik neyrit, ko'ngil aynishi. Davolash: simptomatik, tirishishda diazepam.",
+    ozarotasir: [
+      "Antatsidlar, temir — norfloksatsin so'rilishini kamaytiradi (2 soat farq)",
+      "Etanol — tinidazol bilan disulfiramsimon reaksiya",
+      "Varfarin — ikkala komponent ham ta'sirini kuchaytiradi (INR nazorati)",
+      "Teofillin — norfloksatsin konsentratsiyasini oshiradi"
+    ],
+    qollash: {
+      kattalar: "1 tabletka (norfloksatsin 400 mg + tinidazol 600 mg) kuniga 2 marta ovqatdan keyin; kurs 3–5 kun (ko'rsatmага qarab).",
+      bolalar: "18 yoshgacha qarshi ko'rsatilgan"
+    },
+    chiqarish: "Pardali tabletkalar (norfloksatsin + tinidazol)"
+  },
+  ru: {
+    gruppa: "Комбинации антибактериальных препаратов (фторхинолон + нитроимидазол)",
+    farmTasir: "Комбинация против аэробных и анаэробных/протозойных инфекций",
+    farmakodinamika: `Комбинация норфлоксацина и тинидазола. Норфлоксацин — фторхинолон второго поколения; ингибируя ДНК-гиразу и топоизомеразу IV, нарушает синтез ДНК (бактерицидно), активен против грамотрицательных кишечных/мочевых патогенов. Тинидазол — 5-нитроимидазол; разрушает ДНК анаэробных бактерий и простейших (Trichomonas, Giardia, Entamoeba). Комбинация охватывает смешанные кишечные и мочеполовые инфекции с участием аэробных + анаэробных/протозойных возбудителей.`,
+    farmakokinetika: {
+      sorish: "Норфлоксацин внутрь частично (~30–40%), тинидазол хорошо всасывается",
+      tarqalish: "Норфлоксацин в моче/кишке, тинидазол в тканях и жидкостях (ГЭБ/плацента)",
+      metabolizm: "Тинидазол метаболизируется в печени",
+      chiqarilish: "Норфлоксацин почками/жёлчью; тинидазол с мочой (T½ ~12–14 ч)"
+    },
+    korsatmalar: [
+      "Смешанные бактериально-протозойные кишечные инфекции (диарея, дизентерия, амебиаз, лямблиоз)",
+      "Смешанные мочеполовые инфекции",
+      "Инфекции с участием анаэробных и аэробных возбудителей"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к фторхинолонам или нитроимидазолам",
+      "Возраст до 18 лет; беременность (I триместр) и лактация",
+      "Заболевания ЦНС (эпилепсия), поражение сухожилий в анамнезе",
+      "Болезни крови; употребление этанола (тинидазол — дисульфирамоподобная реакция)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, боль в животе, диарея, изменение вкуса (металлический)",
+      "ЦНС": "Головная боль, головокружение, сонливость, периферическая невропатия, судороги (редко)",
+      "ОДА": "Тендинит, риск разрыва сухожилия",
+      "Аллергические": "Сыпь, фотосенсибилизация, зуд"
+    },
+    dozadan: "Симптомы: судороги, периферический неврит, тошнота. Лечение: симптоматическое, при судорогах диазепам.",
+    ozarotasir: [
+      "Антациды, железо — снижают всасывание норфлоксацина (интервал 2 часа)",
+      "Этанол — дисульфирамоподобная реакция с тинидазолом",
+      "Варфарин — оба компонента усиливают действие (контроль МНО)",
+      "Теофиллин — норфлоксацин повышает его концентрацию"
+    ],
+    qollash: {
+      kattalar: "1 таблетка (норфлоксацин 400 мг + тинидазол 600 мг) 2 раза в день после еды; курс 3–5 дней (по показанию).",
+      bolalar: "Противопоказан до 18 лет"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой (норфлоксацин + тинидазол)"
+  },
+  en: {
+    gruppa: "Antibacterial combinations (fluoroquinolone + nitroimidazole)",
+    farmTasir: "Combination against aerobic and anaerobic/protozoal infections",
+    farmakodinamika: `A combination of norfloxacin and tinidazole. Norfloxacin is a second-generation fluoroquinolone; by inhibiting DNA gyrase and topoisomerase IV, it disrupts DNA synthesis (bactericidal), active against Gram-negative intestinal/urinary pathogens. Tinidazole is a 5-nitroimidazole; it destroys the DNA of anaerobic bacteria and protozoa (Trichomonas, Giardia, Entamoeba). The combination covers mixed intestinal and genitourinary infections involving aerobic + anaerobic/protozoal pathogens.`,
+    farmakokinetika: {
+      sorish: "Norfloxacin partly orally (~30–40%), tinidazole well absorbed",
+      tarqalish: "Norfloxacin in urine/gut, tinidazole in tissues and fluids (BBB/placenta)",
+      metabolizm: "Tinidazole is hepatically metabolised",
+      chiqarilish: "Norfloxacin renally/biliary; tinidazole in urine (T½ ~12–14 h)"
+    },
+    korsatmalar: [
+      "Mixed bacterial-protozoal intestinal infections (diarrhoea, dysentery, amoebiasis, giardiasis)",
+      "Mixed genitourinary infections",
+      "Infections involving anaerobic and aerobic pathogens"
+    ],
+    qarrshi: [
+      "Hypersensitivity to fluoroquinolones or nitroimidazoles",
+      "Age under 18 years; pregnancy (first trimester) and lactation",
+      "CNS disorders (epilepsy), history of tendon disorders",
+      "Blood disorders; ethanol intake (tinidazole — disulfiram-like reaction)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, abdominal pain, diarrhoea, taste change (metallic)",
+      "CNS": "Headache, dizziness, drowsiness, peripheral neuropathy, seizures (rare)",
+      "Musculoskeletal": "Tendinitis, tendon rupture risk",
+      "Hypersensitivity": "Rash, photosensitisation, itching"
+    },
+    dozadan: "Symptoms: seizures, peripheral neuritis, nausea. Treatment: symptomatic, diazepam for seizures.",
+    ozarotasir: [
+      "Antacids, iron — reduce norfloxacin absorption (separate by 2 hours)",
+      "Ethanol — disulfiram-like reaction with tinidazole",
+      "Warfarin — both components enhance the effect (monitor INR)",
+      "Theophylline — norfloxacin raises its concentration"
+    ],
+    qollash: {
+      kattalar: "1 tablet (norfloxacin 400 mg + tinidazole 600 mg) twice daily after food; course 3–5 days (per indication).",
+      bolalar: "Contraindicated under 18 years"
+    },
+    chiqarish: "Film-coated tablets (norfloxacin + tinidazole)"
+  }
+},
+
+// ─── J01RA12 · Siprofloksatsin + Ornidazol ────────────────────────────────
+"J01RA12": {
+  uz: {
+    gruppa: "Antibakterial preparatlar kombinatsiyasi (ftorxinolon + nitroimidazol)",
+    farmTasir: "Aerob va anaerob/protozoan infeksiyalarга qarshi kombinatsiya",
+    farmakodinamika: `Siprofloksatsin va ornidazol kombinatsiyasi. Siprofloksatsin — ikkinchi avlod ftorxinoloni; bakteriya ДНК-giraza va topoizomeraza IV ni inhibe qilib ДНК sintezini buzadi (bakteritsid), keng spektrli (gram-manfiy, jumladan Pseudomonas; gram-musbat; atipik) faollik. Ornidazol — 5-nitroimidazol; anaerob bakteriyalar va sodda jonivorlar (Trichomonas, Giardia, Entamoeba) ДНК sini buzib halok qiladi. Kombinatsiya aralash aerob-anaerob/protozoan infeksiyalarni qamrab oladi.`,
+    farmakokinetika: {
+      sorish: "Siprofloksatsin (~70%) va ornidazol (~90%) og'iz orqali yaxshi so'riladi",
+      tarqalish: "To'qima va suyuqliklarga keng tarqaladi; ornidazol BBO va platsentadan o'tadi",
+      metabolizm: "Ikkalasi jigarда qisman metabolizmga uchraydi (siprofloksatsin CYP1A2 ni inhibe qiladi)",
+      chiqarilish: "Siprofloksatsin buyrak (T½ ~3–5 soat); ornidazol siydik/najas (T½ ~12–14 soat)"
+    },
+    korsatmalar: [
+      "Aralash aerob-anaerob/protozoan ichak infeksiyalari (diareya, dizenteriya, amebiaz)",
+      "Qorin bo'shlig'i va kichik chanoq infeksiyalari",
+      "Siydik-jinsiy va ginekologik aralash infeksiyalar"
+    ],
+    qarrshi: [
+      "Ftorxinolon yoki nitroimidazollarга o'ta sezuvchanlik",
+      "18 yoshgacha bolalar; homiladorlik va emizish davri",
+      "MNS kasalliklari (epilepsiya), pay zararlanishi anamnezi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, diareya, qorin og'rig'i, ta'm o'zgarishi (metall)",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyqusizlik, periferik neyropatiya, tirishishlar (kam)",
+      "Tayanch-harakat": "Tendinit, pay uzilishi xavfi",
+      "Allergiya": "Toshma, fotosensibilizatsiya"
+    },
+    dozadan: "Belgilar: tirishishlar, periferik neyrit. Davolash: simptomatik, tirishishda diazepam.",
+    ozarotasir: [
+      "Antatsidlar, temir, sink, kalsiy — siprofloksatsin so'rilishini kamaytiradi (2 soat farq)",
+      "Teofillin/kofein — siprofloksatsin konsentratsiyasini oshiradi",
+      "Varfarin — ikkala komponent ham ta'sirini kuchaytiradi (INR nazorati)"
+    ],
+    qollash: {
+      kattalar: "1 tabletka (siprofloksatsin 500 mg + ornidazol 500 mg) kuniga 2 marta ovqatdan keyin; kurs 5–10 kun.",
+      bolalar: "18 yoshgacha qarshi ko'rsatilgan"
+    },
+    chiqarish: "Pardali tabletkalar (siprofloksatsin + ornidazol)"
+  },
+  ru: {
+    gruppa: "Комбинации антибактериальных препаратов (фторхинолон + нитроимидазол)",
+    farmTasir: "Комбинация против аэробных и анаэробных/протозойных инфекций",
+    farmakodinamika: `Комбинация ципрофлоксацина и орнидазола. Ципрофлоксацин — фторхинолон второго поколения; ингибируя ДНК-гиразу и топоизомеразу IV, нарушает синтез ДНК (бактерицидно), широкий спектр (грамотрицательные, включая Pseudomonas; грамположительные; атипичные). Орнидазол — 5-нитроимидазол; разрушает ДНК анаэробных бактерий и простейших (Trichomonas, Giardia, Entamoeba). Комбинация охватывает смешанные аэробно-анаэробные/протозойные инфекции.`,
+    farmakokinetika: {
+      sorish: "Ципрофлоксацин (~70%) и орнидазол (~90%) хорошо всасываются внутрь",
+      tarqalish: "Широко распределяются в ткани и жидкости; орнидазол через ГЭБ и плаценту",
+      metabolizm: "Оба частично метаболизируются в печени (ципрофлоксацин ингибирует CYP1A2)",
+      chiqarilish: "Ципрофлоксацин почками (T½ ~3–5 ч); орнидазол с мочой/калом (T½ ~12–14 ч)"
+    },
+    korsatmalar: [
+      "Смешанные аэробно-анаэробные/протозойные кишечные инфекции (диарея, дизентерия, амебиаз)",
+      "Инфекции брюшной полости и малого таза",
+      "Смешанные мочеполовые и гинекологические инфекции"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к фторхинолонам или нитроимидазолам",
+      "Возраст до 18 лет; беременность и период лактации",
+      "Заболевания ЦНС (эпилепсия), поражение сухожилий в анамнезе"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, диарея, боль в животе, изменение вкуса (металлический)",
+      "ЦНС": "Головная боль, головокружение, бессонница, периферическая невропатия, судороги (редко)",
+      "ОДА": "Тендинит, риск разрыва сухожилия",
+      "Аллергические": "Сыпь, фотосенсибилизация"
+    },
+    dozadan: "Симптомы: судороги, периферический неврит. Лечение: симптоматическое, при судорогах диазепам.",
+    ozarotasir: [
+      "Антациды, железо, цинк, кальций — снижают всасывание ципрофлоксацина (интервал 2 часа)",
+      "Теофиллин/кофеин — ципрофлоксацин повышает их концентрацию",
+      "Варфарин — оба компонента усиливают действие (контроль МНО)"
+    ],
+    qollash: {
+      kattalar: "1 таблетка (ципрофлоксацин 500 мг + орнидазол 500 мг) 2 раза в день после еды; курс 5–10 дней.",
+      bolalar: "Противопоказан до 18 лет"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой (ципрофлоксацин + орнидазол)"
+  },
+  en: {
+    gruppa: "Antibacterial combinations (fluoroquinolone + nitroimidazole)",
+    farmTasir: "Combination against aerobic and anaerobic/protozoal infections",
+    farmakodinamika: `A combination of ciprofloxacin and ornidazole. Ciprofloxacin is a second-generation fluoroquinolone; by inhibiting DNA gyrase and topoisomerase IV, it disrupts DNA synthesis (bactericidal), with a broad spectrum (Gram-negatives, including Pseudomonas; Gram-positives; atypicals). Ornidazole is a 5-nitroimidazole; it destroys the DNA of anaerobic bacteria and protozoa (Trichomonas, Giardia, Entamoeba). The combination covers mixed aerobic-anaerobic/protozoal infections.`,
+    farmakokinetika: {
+      sorish: "Ciprofloxacin (~70%) and ornidazole (~90%) are well absorbed orally",
+      tarqalish: "Widely distributed into tissues and fluids; ornidazole crosses the BBB and placenta",
+      metabolizm: "Both are partly metabolised in the liver (ciprofloxacin inhibits CYP1A2)",
+      chiqarilish: "Ciprofloxacin renally (T½ ~3–5 h); ornidazole in urine/faeces (T½ ~12–14 h)"
+    },
+    korsatmalar: [
+      "Mixed aerobic-anaerobic/protozoal intestinal infections (diarrhoea, dysentery, amoebiasis)",
+      "Abdominal and pelvic infections",
+      "Mixed genitourinary and gynaecological infections"
+    ],
+    qarrshi: [
+      "Hypersensitivity to fluoroquinolones or nitroimidazoles",
+      "Age under 18 years; pregnancy and lactation",
+      "CNS disorders (epilepsy), history of tendon disorders"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, diarrhoea, abdominal pain, taste change (metallic)",
+      "CNS": "Headache, dizziness, insomnia, peripheral neuropathy, seizures (rare)",
+      "Musculoskeletal": "Tendinitis, tendon rupture risk",
+      "Hypersensitivity": "Rash, photosensitisation"
+    },
+    dozadan: "Symptoms: seizures, peripheral neuritis. Treatment: symptomatic, diazepam for seizures.",
+    ozarotasir: [
+      "Antacids, iron, zinc, calcium — reduce ciprofloxacin absorption (separate by 2 hours)",
+      "Theophylline/caffeine — ciprofloxacin raises their concentration",
+      "Warfarin — both components enhance the effect (monitor INR)"
+    ],
+    qollash: {
+      kattalar: "1 tablet (ciprofloxacin 500 mg + ornidazole 500 mg) twice daily after food; course 5–10 days.",
+      bolalar: "Contraindicated under 18 years"
+    },
+    chiqarish: "Film-coated tablets (ciprofloxacin + ornidazole)"
+  }
+},
+
+// ─── J01RA11 · Siprofloksatsin + Tinidazol ────────────────────────────────
+"J01RA11": {
+  uz: {
+    gruppa: "Antibakterial preparatlar kombinatsiyasi (ftorxinolon + nitroimidazol)",
+    farmTasir: "Aerob va anaerob/protozoan infeksiyalarга qarshi kombinatsiya",
+    farmakodinamika: `Siprofloksatsin va tinidazol kombinatsiyasi. Siprofloksatsin — keng spektrli ikkinchi avlod ftorxinoloni; ДНК-giraza/topoizomeraza IV ni inhibe qilib ДНК sintezini buzadi (bakteritsid). Tinidazol — 5-nitroimidazol; anaerob bakteriyalar va sodda jonivorlar (Trichomonas, Giardia, Entamoeba) ni halok qiladi. Kombinatsiya aralash aerob-anaerob/protozoan infeksiyalarni — ayniqsa qorin bo'shlig'i, ichak va siydik-jinsiy yo'llardagi — qamrab oladi.`,
+    farmakokinetika: {
+      sorish: "Siprofloksatsin (~70%) va tinidazol og'iz orqali yaxshi so'riladi",
+      tarqalish: "To'qima va suyuqliklarga keng; tinidazol BBO va platsentadan o'tadi",
+      metabolizm: "Ikkalasi jigarда qisman metabolizmga uchraydi",
+      chiqarilish: "Siprofloksatsin buyrak; tinidazol siydik (T½ ~12–14 soat)"
+    },
+    korsatmalar: [
+      "Aralash aerob-anaerob/protozoan ichak infeksiyalari (diareya, dizenteriya, amebiaz, lyamblioz)",
+      "Qorin bo'shlig'i va kichik chanoq infeksiyalari",
+      "Siydik-jinsiy va ginekologik aralash infeksiyalar"
+    ],
+    qarrshi: [
+      "Ftorxinolon yoki nitroimidazollarга o'ta sezuvchanlik",
+      "18 yoshgacha bolalar; homiladorlik (I trimestr) va emizish davri",
+      "MNS kasalliklari, pay zararlanishi anamnezi; etanol iste'moli (tinidazol)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, diareya, qorin og'rig'i, ta'm o'zgarishi (metall)",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, periferik neyropatiya, tirishishlar (kam)",
+      "Tayanch-harakat": "Tendinit, pay uzilishi xavfi",
+      "Allergiya": "Toshma, fotosensibilizatsiya"
+    },
+    dozadan: "Belgilar: tirishishlar, periferik neyrit. Davolash: simptomatik, tirishishda diazepam.",
+    ozarotasir: [
+      "Antatsidlar, temir, sink, kalsiy — siprofloksatsin so'rilishini kamaytiradi (2 soat farq)",
+      "Etanol — tinidazol bilan disulfiramsimon reaksiya",
+      "Teofillin — siprofloksatsin konsentratsiyasini oshiradi; varfarin — ta'sir kuchayadi"
+    ],
+    qollash: {
+      kattalar: "1 tabletka (siprofloksatsin 500 mg + tinidazol 600 mg) kuniga 2 marta ovqatdan keyin; kurs 5–7 kun.",
+      bolalar: "18 yoshgacha qarshi ko'rsatilgan"
+    },
+    chiqarish: "Pardali tabletkalar (siprofloksatsin + tinidazol)"
+  },
+  ru: {
+    gruppa: "Комбинации антибактериальных препаратов (фторхинолон + нитроимидазол)",
+    farmTasir: "Комбинация против аэробных и анаэробных/протозойных инфекций",
+    farmakodinamika: `Комбинация ципрофлоксацина и тинидазола. Ципрофлоксацин — фторхинолон второго поколения широкого спектра; ингибируя ДНК-гиразу/топоизомеразу IV, нарушает синтез ДНК (бактерицидно). Тинидазол — 5-нитроимидазол; уничтожает анаэробные бактерии и простейшие (Trichomonas, Giardia, Entamoeba). Комбинация охватывает смешанные аэробно-анаэробные/протозойные инфекции — особенно брюшной полости, кишечника и мочеполовых путей.`,
+    farmakokinetika: {
+      sorish: "Ципрофлоксацин (~70%) и тинидазол хорошо всасываются внутрь",
+      tarqalish: "Широко в ткани и жидкости; тинидазол через ГЭБ и плаценту",
+      metabolizm: "Оба частично метаболизируются в печени",
+      chiqarilish: "Ципрофлоксацин почками; тинидазол с мочой (T½ ~12–14 ч)"
+    },
+    korsatmalar: [
+      "Смешанные аэробно-анаэробные/протозойные кишечные инфекции (диарея, дизентерия, амебиаз, лямблиоз)",
+      "Инфекции брюшной полости и малого таза",
+      "Смешанные мочеполовые и гинекологические инфекции"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к фторхинолонам или нитроимидазолам",
+      "Возраст до 18 лет; беременность (I триместр) и лактация",
+      "Заболевания ЦНС, поражение сухожилий в анамнезе; употребление этанола (тинидазол)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, диарея, боль в животе, изменение вкуса (металлический)",
+      "ЦНС": "Головная боль, головокружение, периферическая невропатия, судороги (редко)",
+      "ОДА": "Тендинит, риск разрыва сухожилия",
+      "Аллергические": "Сыпь, фотосенсибилизация"
+    },
+    dozadan: "Симптомы: судороги, периферический неврит. Лечение: симптоматическое, при судорогах диазепам.",
+    ozarotasir: [
+      "Антациды, железо, цинк, кальций — снижают всасывание ципрофлоксацина (интервал 2 часа)",
+      "Этанол — дисульфирамоподобная реакция с тинидазолом",
+      "Теофиллин — ципрофлоксацин повышает его концентрацию; варфарин — усиление действия"
+    ],
+    qollash: {
+      kattalar: "1 таблетка (ципрофлоксацин 500 мг + тинидазол 600 мг) 2 раза в день после еды; курс 5–7 дней.",
+      bolalar: "Противопоказан до 18 лет"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой (ципрофлоксацин + тинидазол)"
+  },
+  en: {
+    gruppa: "Antibacterial combinations (fluoroquinolone + nitroimidazole)",
+    farmTasir: "Combination against aerobic and anaerobic/protozoal infections",
+    farmakodinamika: `A combination of ciprofloxacin and tinidazole. Ciprofloxacin is a broad-spectrum second-generation fluoroquinolone; by inhibiting DNA gyrase/topoisomerase IV, it disrupts DNA synthesis (bactericidal). Tinidazole is a 5-nitroimidazole; it kills anaerobic bacteria and protozoa (Trichomonas, Giardia, Entamoeba). The combination covers mixed aerobic-anaerobic/protozoal infections — especially of the abdomen, intestine and genitourinary tract.`,
+    farmakokinetika: {
+      sorish: "Ciprofloxacin (~70%) and tinidazole are well absorbed orally",
+      tarqalish: "Widely into tissues and fluids; tinidazole crosses the BBB and placenta",
+      metabolizm: "Both are partly metabolised in the liver",
+      chiqarilish: "Ciprofloxacin renally; tinidazole in urine (T½ ~12–14 h)"
+    },
+    korsatmalar: [
+      "Mixed aerobic-anaerobic/protozoal intestinal infections (diarrhoea, dysentery, amoebiasis, giardiasis)",
+      "Abdominal and pelvic infections",
+      "Mixed genitourinary and gynaecological infections"
+    ],
+    qarrshi: [
+      "Hypersensitivity to fluoroquinolones or nitroimidazoles",
+      "Age under 18 years; pregnancy (first trimester) and lactation",
+      "CNS disorders, history of tendon disorders; ethanol intake (tinidazole)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, diarrhoea, abdominal pain, taste change (metallic)",
+      "CNS": "Headache, dizziness, peripheral neuropathy, seizures (rare)",
+      "Musculoskeletal": "Tendinitis, tendon rupture risk",
+      "Hypersensitivity": "Rash, photosensitisation"
+    },
+    dozadan: "Symptoms: seizures, peripheral neuritis. Treatment: symptomatic, diazepam for seizures.",
+    ozarotasir: [
+      "Antacids, iron, zinc, calcium — reduce ciprofloxacin absorption (separate by 2 hours)",
+      "Ethanol — disulfiram-like reaction with tinidazole",
+      "Theophylline — ciprofloxacin raises its concentration; warfarin — enhanced effect"
+    ],
+    qollash: {
+      kattalar: "1 tablet (ciprofloxacin 500 mg + tinidazole 600 mg) twice daily after food; course 5–7 days.",
+      bolalar: "Contraindicated under 18 years"
+    },
+    chiqarish: "Film-coated tablets (ciprofloxacin + tinidazole)"
+  }
+},
+
+// ─── J01RA · Seknidazol + Azitromitsin + Flukonazol (STI to'plami) ─────────
+"J01RA": {
+  uz: {
+    gruppa: "Antibakterial/antiprotozoan/antifungal kombinatsiya (to'plam)",
+    farmTasir: "Aralash jinsiy infeksiyalar uchun bir martalik kombinatsiyalangan davo",
+    farmakodinamika: `Seknidazol, azitromitsin va flukonazolдan iborat kombinatsiyalangan to'plam (kit). Seknidazol — 5-nitroimidazol; anaerob bakteriyalar va sodda jonivorlar (Trichomonas vaginalis, Gardnerella — bakterial vaginoz) ДНК sini buzadi. Azitromitsin — azalid makrolid; ribosoma 50S subbirligiga bog'lanib oqsil sintezini bloklaydi, Chlamydia trachomatis, gonokokk va boshqa atipiklarга faol. Flukonazol — triazol antifungal; Candida (vulvovaginal kandidoz) ergosterol sintezini buzadi. To'plam aralash etiologiyali (bakterial + protozoan + xlamidiya + zamburug') jinsiy infeksiyalarni bir martalik sxemada qamrab oladi.`,
+    farmakokinetika: {
+      sorish: "Uchala komponent og'iz orqali yaxshi so'riladi",
+      tarqalish: "To'qima va suyuqliklarga keng tarqaladi (azitromitsin to'qimaда uzoq qoladi)",
+      metabolizm: "Seknidazol va flukonazol jigarда; azitromitsin minimal",
+      chiqarilish: "Seknidazol/flukonazol — siydik; azitromitsin — asosan o't (T½ uzun)"
+    },
+    korsatmalar: [
+      "Aralash etiologiyali jinsiy infeksiyalar / vaginit (bakterial vaginoz + trixomoniaz + kandidoz + xlamidiya)",
+      "Sindromli yondashuvда uretral/vaginal ajralma davosi",
+      "Empirik bir martalik kombinatsiyalangan davo (mahalliy protokollar bo'yicha)"
+    ],
+    qarrshi: [
+      "Komponentlardан biriga (nitroimidazol, makrolid, azol) o'ta sezuvchanlik",
+      "Homiladorlik va emizish davri; uzun QT sindromi (azitromitsin/flukonazol)",
+      "Og'ir jigar yetishmovchiligi; etanol iste'moli (seknidazol — disulfiramsimon)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, diareya, ta'm o'zgarishi (metall — seknidazol)",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi",
+      "Yurak": "QT intervalining uzayishi (azitromitsin/flukonazol kombinatsiyasida — ehtiyotkorlik)",
+      "Allergiya": "Toshma, qichishish; jigar fermentlari oshishi"
+    },
+    dozadan: "Belgilar: oshqozon-ichak buzilishi, QT uzayishi. Davolash: simptomatik, yurak nazorati.",
+    ozarotasir: [
+      "Etanol — seknidazol bilan disulfiramsimon reaksiya",
+      "QT uzaytiruvchi preparatlar — azitromitsin/flukonazol bilan aritmiya xavfi",
+      "Flukonazol — varfarin, ba'zi statinlar, CYP substratlari konsentratsiyasini oshiradi"
+    ],
+    qollash: {
+      kattalar: "To'plam bo'yicha bir martalik sxema: odatda seknidazol 1 g + azitromitsin 1 g + flukonazol 150 mg birgalikda (ko'rsatma va ishlab chiqaruvchi sxemasiga qarab).",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "Kombinatsiyalangan to'plam (seknidazol + azitromitsin + flukonazol tabletkalari)"
+  },
+  ru: {
+    gruppa: "Антибактериальная/антипротозойная/противогрибковая комбинация (набор)",
+    farmTasir: "Однократное комбинированное лечение смешанных половых инфекций",
+    farmakodinamika: `Комбинированный набор (kit) из секнидазола, азитромицина и флуконазола. Секнидазол — 5-нитроимидазол; разрушает ДНК анаэробных бактерий и простейших (Trichomonas vaginalis, Gardnerella — бактериальный вагиноз). Азитромицин — азалидный макролид; связываясь с 50S субъединицей рибосомы, блокирует синтез белка, активен против Chlamydia trachomatis, гонококка и других атипичных. Флуконазол — триазольный антимикотик; нарушает синтез эргостерола Candida (вульвовагинальный кандидоз). Набор охватывает половые инфекции смешанной этиологии (бактериальные + протозойные + хламидийные + грибковые) в однократной схеме.`,
+    farmakokinetika: {
+      sorish: "Все три компонента хорошо всасываются внутрь",
+      tarqalish: "Широко распределяются в ткани и жидкости (азитромицин долго удерживается в тканях)",
+      metabolizm: "Секнидазол и флуконазол в печени; азитромицин минимально",
+      chiqarilish: "Секнидазол/флуконазол — с мочой; азитромицин — преимущественно с жёлчью (длинный T½)"
+    },
+    korsatmalar: [
+      "Половые инфекции/вагинит смешанной этиологии (бактериальный вагиноз + трихомониаз + кандидоз + хламидиоз)",
+      "Лечение уретральных/вагинальных выделений при синдромном подходе",
+      "Эмпирическое однократное комбинированное лечение (по местным протоколам)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к одному из компонентов (нитроимидазол, макролид, азол)",
+      "Беременность и лактация; синдром удлинённого QT (азитромицин/флуконазол)",
+      "Тяжёлая печёночная недостаточность; употребление этанола (секнидазол — дисульфирамоподобно)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, боль в животе, диарея, изменение вкуса (металлический — секнидазол)",
+      "ЦНС": "Головная боль, головокружение",
+      "Сердце": "Удлинение QT (в комбинации азитромицин/флуконазол — осторожно)",
+      "Аллергические": "Сыпь, зуд; повышение печёночных ферментов"
+    },
+    dozadan: "Симптомы: расстройство ЖКТ, удлинение QT. Лечение: симптоматическое, контроль сердца.",
+    ozarotasir: [
+      "Этанол — дисульфирамоподобная реакция с секнидазолом",
+      "Препараты, удлиняющие QT — риск аритмии с азитромицином/флуконазолом",
+      "Флуконазол повышает концентрацию варфарина, некоторых статинов, субстратов CYP"
+    ],
+    qollash: {
+      kattalar: "Однократная схема по набору: обычно секнидазол 1 г + азитромицин 1 г + флуконазол 150 мг вместе (по показанию и схеме производителя).",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Комбинированный набор (таблетки секнидазола + азитромицина + флуконазола)"
+  },
+  en: {
+    gruppa: "Antibacterial/antiprotozoal/antifungal combination (kit)",
+    farmTasir: "Single-dose combined treatment for mixed genital infections",
+    farmakodinamika: `A combined kit of secnidazole, azithromycin and fluconazole. Secnidazole is a 5-nitroimidazole; it destroys the DNA of anaerobic bacteria and protozoa (Trichomonas vaginalis, Gardnerella — bacterial vaginosis). Azithromycin is an azalide macrolide; by binding to the 50S ribosomal subunit, it blocks protein synthesis, active against Chlamydia trachomatis, gonococcus and other atypicals. Fluconazole is a triazole antifungal; it disrupts ergosterol synthesis in Candida (vulvovaginal candidiasis). The kit covers genital infections of mixed aetiology (bacterial + protozoal + chlamydial + fungal) in a single-dose regimen.`,
+    farmakokinetika: {
+      sorish: "All three components are well absorbed orally",
+      tarqalish: "Widely distributed into tissues and fluids (azithromycin persists long in tissues)",
+      metabolizm: "Secnidazole and fluconazole in the liver; azithromycin minimally",
+      chiqarilish: "Secnidazole/fluconazole — in urine; azithromycin — mainly in bile (long T½)"
+    },
+    korsatmalar: [
+      "Genital infections/vaginitis of mixed aetiology (bacterial vaginosis + trichomoniasis + candidiasis + chlamydia)",
+      "Treatment of urethral/vaginal discharge in a syndromic approach",
+      "Empirical single-dose combined treatment (per local protocols)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to one of the components (nitroimidazole, macrolide, azole)",
+      "Pregnancy and lactation; long QT syndrome (azithromycin/fluconazole)",
+      "Severe hepatic impairment; ethanol intake (secnidazole — disulfiram-like)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, abdominal pain, diarrhoea, taste change (metallic — secnidazole)",
+      "CNS": "Headache, dizziness",
+      "Cardiac": "QT prolongation (with the azithromycin/fluconazole combination — caution)",
+      "Hypersensitivity": "Rash, itching; raised liver enzymes"
+    },
+    dozadan: "Symptoms: GI disturbance, QT prolongation. Treatment: symptomatic, cardiac monitoring.",
+    ozarotasir: [
+      "Ethanol — disulfiram-like reaction with secnidazole",
+      "QT-prolonging drugs — arrhythmia risk with azithromycin/fluconazole",
+      "Fluconazole raises the concentration of warfarin, some statins, CYP substrates"
+    ],
+    qollash: {
+      kattalar: "Single-dose regimen per the kit: usually secnidazole 1 g + azithromycin 1 g + fluconazole 150 mg together (per indication and the manufacturer's regimen).",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Combined kit (secnidazole + azithromycin + fluconazole tablets)"
+  }
 }
 
 };
+
+// ═══════════════════════════════════════════════════════════
+// ALIASLAR — bir xil modda boshqa/dublikat ATX kodi ostida
+// (ilovada o'sha dorilar mavjud yozuvni ko'rsatadi)
+// ═══════════════════════════════════════════════════════════
+PHARMA_DATA["J01AA"]            = PHARMA_DATA["J01AA07"];  // tetratsiklin
+PHARMA_DATA["J01CA51"]          = PHARMA_DATA["J01CR01"];  // ampitsillin + sulbaktam
+PHARMA_DATA["J01SR01"]          = PHARMA_DATA["J01CR01"];  // ampitsillin + sulbaktam
+PHARMA_DATA["J01DA04"]          = PHARMA_DATA["J01DB04"];  // sefazolin
+PHARMA_DATA["J01DA06"]          = PHARMA_DATA["J01DC02"];  // sefuroksim
+PHARMA_DATA["J01DC01"]          = PHARMA_DATA["J01DC02"];  // sefuroksim
+PHARMA_DATA["J01DA63"]          = PHARMA_DATA["J01DD54"];  // seftriakson + sulbaktam
+PHARMA_DATA["J01DD51"]          = PHARMA_DATA["J01DD01"];  // sefotaksim (+ sulbaktam)
+PHARMA_DATA["J01DE"]            = PHARMA_DATA["J01DA24"];  // sefepim (+ sulbaktam)
+PHARMA_DATA["J01DE10"]          = PHARMA_DATA["J01DA24"];  // sefepim + tazobaktam
+PHARMA_DATA["J01EB03"]          = PHARMA_DATA["J01EB06"];  // sulfanilamid
+PHARMA_DATA["J01M"]             = PHARMA_DATA["J01RA09"];  // ofloksatsin + ornidazol
+PHARMA_DATA["J01RA"]            = PHARMA_DATA["J01RA"]     || PHARMA_DATA["J01RA09"];
+PHARMA_DATA["J01"]              = PHARMA_DATA["J01RA12"];  // siprofloksatsin + ornidazol
+PHARMA_DATA["J01MA01; G01AF06"] = PHARMA_DATA["J01RA09"];  // ofloksatsin + ornidazol
+PHARMA_DATA["J01ҒA10"]     = PHARMA_DATA["J01FA10"];  // azitromitsin (kirill harfli kod)
