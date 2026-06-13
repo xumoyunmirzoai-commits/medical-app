@@ -18599,6 +18599,847 @@ const PHARMA_DATA = {
     },
     chiqarish: "Combined kit (secnidazole + azithromycin + fluconazole tablets)"
   }
+},
+
+// ─── J02AC02 · Itrakonazol ────────────────────────────────────────────────
+"J02AC02": {
+  uz: {
+    gruppa: "Zamburug'larga qarshi preparatlar (triazollar)",
+    farmTasir: "Keng spektrli tizimli antifungal vosita",
+    farmakodinamika: `Itrakonazol — triazol guruhiga mansub keng spektrli antifungal preparat. Zamburug' sitoxromi P450 ga bog'liq 14α-demetilaza fermentini inhibe qilib, ergosterol biosintezini buzadi; hujayra membranasi yaxlitligi va o'tkazuvchanligi izdan chiqib zamburug' o'sishi to'xtaydi (fungistatik, yuqori konsentratsiyada fungitsid). Dermatofitlar (Trichophyton, Microsporum), xachamir zamburug'lari (Candida), mog'or zamburug'lari (Aspergillus) va endemik mikoz qo'zg'atuvchilariga (Histoplasma, Blastomyces) faol. Keratin tutuvchi to'qimaga (teri, tirnoq) yuqori darajada to'planadi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'rilish ovqatga bog'liq (kapsula — to'q ovqat bilan, eritma — ochlik holatida); kislotali muhit kerak",
+      tarqalish: "Oqsilga juda yuqori bog'lanadi (~99%); keratin to'qimalarда va yog'da to'planadi, BBO dan kam o'tadi",
+      metabolizm: "Jigarда CYP3A4 orqali (faol metaboliti — gidroksiitrakonazol); CYP3A4 ni kuchli inhibe qiladi",
+      chiqarilish: "Metabolitlar najas va siydik bilan; T½ ~21 soat (to'qimaда uzoqroq)"
+    },
+    korsatmalar: [
+      "Tirnoq zamburug'i (onixomikoz), teri va shilliq parda dermatomikozlari",
+      "Vulvovaginal va og'iz-qizilo'ngach kandidozi",
+      "Tizimli mikozlar: aspergillyoz (boshqa davoga chidamli), gistoplazmoz, blastomikoz",
+      "Pitiriaz (otrubasimon temiratki)"
+    ],
+    qarrshi: [
+      "Itrakonazol yoki azollarга o'ta sezuvchanlik",
+      "Konjestiv yurak yetishmovchiligi anamnezi (manfiy inotrop ta'sir)",
+      "Homiladorlik (teratogen); bir vaqtda CYP3A4 substratlari — tsizaprid, pimozid, kinidin, ba'zi statinlar (lovastatin, simvastatin), triazolam, ergot alkaloidlari"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, diareya, dispepsiya",
+      "Jigar": "Transaminazalar oshishi, gepatotoksiklik (og'ir — kam, jigar nazorati zarur)",
+      "Yurak": "Konjestiv yurak yetishmovchiligi, shish (manfiy inotrop)",
+      "Asab/teri": "Bosh og'rig'i, bosh aylanishi, toshma, qichishish",
+      "Metabolik": "Gipokaliemiya, uzoq qo'llashda neyropatiya"
+    },
+    dozadan: "Belgilar: oshqozon-ichak va jigar belgilari. Davolash: simptomatik; gemodializ samarasiz (oqsilга yuqori bog'lanadi).",
+    ozarotasir: [
+      "Kuchli CYP3A4 inhibitori — statinlar (rabdomioliz), midazolam/triazolam, tsizaprid, pimozid, ergot, kinidin, takrolimus/siklosporin, antikoagulyantlar konsentratsiyasini oshiradi",
+      "CYP3A4 induktorlari (rifampitsin, fenitoin, karbamazepin) itrakonazol darajasini keskin tushiradi",
+      "Oshqozon pH ni oshiruvchilar (PPI, antatsid, H2-blokator) kapsula so'rilishini kamaytiradi"
+    ],
+    qollash: {
+      kattalar: "Onixomikoz: 200 mg kuniga 2 marta 1 hafta, 3 oy davomida puls-terapiya (yoki 200 mg/sut 3 oy). Vaginal kandidoz: 200 mg kuniga 2 marta 1 kun. Tizimli mikoz: 200 mg kuniga 1–2 marta.",
+      bolalar: "Cheklangan ma'lumot; faqat alohida ko'rsatmalarda, vaznга qarab"
+    },
+    chiqarish: "Kapsulalar 100 mg; og'iz uchun eritma 10 mg/ml; i/v eritma (ba'zi mamlakatlarда)"
+  },
+  ru: {
+    gruppa: "Противогрибковые препараты (триазолы)",
+    farmTasir: "Системное противогрибковое средство широкого спектра",
+    farmakodinamika: `Итраконазол — противогрибковый препарат группы триазолов широкого спектра. Ингибируя зависимую от цитохрома Р450 14α-деметилазу грибов, нарушает биосинтез эргостерола; целостность и проницаемость клеточной мембраны нарушаются, и рост гриба прекращается (фунгистатически, в высоких концентрациях фунгицидно). Активен в отношении дерматофитов (Trichophyton, Microsporum), дрожжевых грибов (Candida), плесневых грибов (Aspergillus) и возбудителей эндемических микозов (Histoplasma, Blastomyces). Высоко накапливается в кератинсодержащих тканях (кожа, ногти).`,
+    farmakokinetika: {
+      sorish: "Всасывание внутрь зависит от пищи (капсулы — с жирной пищей, раствор — натощак); нужна кислая среда",
+      tarqalish: "Очень высокая связь с белками (~99%); накапливается в кератиновых тканях и жире, плохо через ГЭБ",
+      metabolizm: "В печени через CYP3A4 (активный метаболит — гидроксиитраконазол); сильно ингибирует CYP3A4",
+      chiqarilish: "Метаболиты с калом и мочой; T½ ~21 ч (в тканях дольше)"
+    },
+    korsatmalar: [
+      "Онихомикоз, дерматомикозы кожи и слизистых",
+      "Вульвовагинальный и орофарингеальный/пищеводный кандидоз",
+      "Системные микозы: аспергиллёз (резистентный), гистоплазмоз, бластомикоз",
+      "Отрубевидный лишай"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к итраконазолу или азолам",
+      "Застойная сердечная недостаточность в анамнезе (отрицательное инотропное действие)",
+      "Беременность (тератогенность); одновременно субстраты CYP3A4 — цизаприд, пимозид, хинидин, некоторые статины (ловастатин, симвастатин), триазолам, алкалоиды спорыньи"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, боль в животе, диарея, диспепсия",
+      "Печень": "Повышение трансаминаз, гепатотоксичность (тяжёлая — редко, нужен контроль печени)",
+      "Сердце": "Застойная сердечная недостаточность, отёки (отрицательное инотропное)",
+      "ЦНС/кожа": "Головная боль, головокружение, сыпь, зуд",
+      "Метаболические": "Гипокалиемия, нейропатия при длительном применении"
+    },
+    dozadan: "Симптомы: ЖКТ- и печёночные симптомы. Лечение: симптоматическое; гемодиализ неэффективен (высокая связь с белками).",
+    ozarotasir: [
+      "Сильный ингибитор CYP3A4 — повышает концентрацию статинов (рабдомиолиз), мидазолама/триазолама, цизаприда, пимозида, спорыньи, хинидина, такролимуса/циклоспорина, антикоагулянтов",
+      "Индукторы CYP3A4 (рифампицин, фенитоин, карбамазепин) резко снижают уровень итраконазола",
+      "Повышающие pH желудка (ИПП, антациды, H2-блокаторы) снижают всасывание капсул"
+    ],
+    qollash: {
+      kattalar: "Онихомикоз: 200 мг 2 раза в день 1 неделю, пульс-терапия 3 месяца (или 200 мг/сут 3 месяца). Вагинальный кандидоз: 200 мг 2 раза в день 1 день. Системный микоз: 200 мг 1–2 раза в день.",
+      bolalar: "Ограниченные данные; только по особым показаниям, по массе"
+    },
+    chiqarish: "Капсулы 100 мг; раствор для приёма внутрь 10 мг/мл; раствор для в/в (в некоторых странах)"
+  },
+  en: {
+    gruppa: "Antifungal agents (triazoles)",
+    farmTasir: "Broad-spectrum systemic antifungal",
+    farmakodinamika: `Itraconazole is a broad-spectrum triazole antifungal. By inhibiting fungal cytochrome P450-dependent 14α-demethylase, it disrupts ergosterol biosynthesis; membrane integrity and permeability are impaired and fungal growth stops (fungistatic, fungicidal at high concentrations). It is active against dermatophytes (Trichophyton, Microsporum), yeasts (Candida), moulds (Aspergillus) and endemic mycosis pathogens (Histoplasma, Blastomyces). It accumulates highly in keratin-containing tissues (skin, nails).`,
+    farmakokinetika: {
+      sorish: "Oral absorption is food-dependent (capsules — with fatty food, solution — fasting); an acidic environment is needed",
+      tarqalish: "Very high protein binding (~99%); accumulates in keratin tissues and fat, poorly across the BBB",
+      metabolizm: "Hepatic via CYP3A4 (active metabolite — hydroxyitraconazole); a strong CYP3A4 inhibitor",
+      chiqarilish: "Metabolites in faeces and urine; T½ ~21 h (longer in tissues)"
+    },
+    korsatmalar: [
+      "Onychomycosis, dermatomycoses of skin and mucosa",
+      "Vulvovaginal and oropharyngeal/oesophageal candidiasis",
+      "Systemic mycoses: aspergillosis (refractory), histoplasmosis, blastomycosis",
+      "Pityriasis versicolor"
+    ],
+    qarrshi: [
+      "Hypersensitivity to itraconazole or azoles",
+      "History of congestive heart failure (negative inotropic effect)",
+      "Pregnancy (teratogenic); concomitant CYP3A4 substrates — cisapride, pimozide, quinidine, some statins (lovastatin, simvastatin), triazolam, ergot alkaloids"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, abdominal pain, diarrhoea, dyspepsia",
+      "Hepatic": "Raised transaminases, hepatotoxicity (severe — rare, monitor liver)",
+      "Cardiac": "Congestive heart failure, oedema (negative inotropic)",
+      "CNS/skin": "Headache, dizziness, rash, itching",
+      "Metabolic": "Hypokalaemia, neuropathy with prolonged use"
+    },
+    dozadan: "Symptoms: GI and hepatic symptoms. Treatment: symptomatic; haemodialysis ineffective (highly protein-bound).",
+    ozarotasir: [
+      "Strong CYP3A4 inhibitor — raises concentration of statins (rhabdomyolysis), midazolam/triazolam, cisapride, pimozide, ergot, quinidine, tacrolimus/ciclosporin, anticoagulants",
+      "CYP3A4 inducers (rifampicin, phenytoin, carbamazepine) markedly lower itraconazole levels",
+      "Gastric pH-raising agents (PPIs, antacids, H2 blockers) reduce capsule absorption"
+    ],
+    qollash: {
+      kattalar: "Onychomycosis: 200 mg twice daily for 1 week, pulse therapy over 3 months (or 200 mg/day for 3 months). Vaginal candidiasis: 200 mg twice daily for 1 day. Systemic mycosis: 200 mg once or twice daily.",
+      bolalar: "Limited data; only for special indications, by weight"
+    },
+    chiqarish: "Capsules 100 mg; oral solution 10 mg/mL; IV solution (in some countries)"
+  }
+},
+
+// ─── J02AB02 · Ketokonazol ────────────────────────────────────────────────
+"J02AB02": {
+  uz: {
+    gruppa: "Zamburug'larga qarshi preparatlar (imidazollar)",
+    farmTasir: "Keng spektrli antifungal vosita",
+    farmakodinamika: `Ketokonazol — imidazol guruhiga mansub antifungal preparat. Zamburug' sitoxromi P450 ga bog'liq 14α-demetilaza fermentini inhibe qilib ergosterol sintezini buzadi, hujayra membranasi o'tkazuvchanligini izdan chiqaradi (fungistatik/fungitsid). Dermatofitlar, Candida, Malassezia, dimorf zamburug'larга faol. Eslatma: tizimli (og'iz orqali) qo'llashda og'ir gepatotoksiklik va buyrak usti gormonlari sintezini bostirish xavfi tufayli ko'p mamlakatlarda tizimli shakli cheklangan — asosan mahalliy (shampun, krem) ishlatiladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'rilish kislotali muhit talab qiladi; mahalliy qo'llashda tizimli so'rilish minimal",
+      tarqalish: "Oqsilga yuqori bog'lanadi (~99%); BBO dan kam o'tadi",
+      metabolizm: "Jigarда metabolizmga uchraydi; CYP3A4 ni kuchli inhibe qiladi",
+      chiqarilish: "Asosan o't (najas) bilan; T½ ~8 soat"
+    },
+    korsatmalar: [
+      "Mahalliy: pitiriaz (otrubasimon temiratki), seboreyali dermatit, teri kandidozi va dermatomikozlar (shampun/krem)",
+      "Tizimli (faqat boshqa davo samarasiz/mos kelmaganда, qat'iy nazoratда): endemik mikozlar, og'ir dermatomikozlar"
+    ],
+    qarrshi: [
+      "Ketokonazol yoki azollarга o'ta sezuvchanlik",
+      "O'tkir yoki surunkali jigar kasalliklari (tizimli shakl uchun)",
+      "Bir vaqtda gepatotoksik dorilar, CYP3A4 substratlari (tsizaprid, pimozid, ba'zi statinlar, triazolam)"
+    ],
+    nojoya: {
+      "Jigar": "Gepatotoksiklik (og'ir, ba'zan o'limga olib keluvchi — tizimli shaklда asosiy cheklov)",
+      "Endokrin": "Testosteron va kortizol sintezining bostirilishi (ginekomastiya, libido pasayishi, buyrak usti yetishmovchiligi)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, diareya",
+      "Mahalliy (teri shakllari)": "Tirnashish, qichishish, achishish (kam)",
+      "Allergiya": "Toshma, qichishish"
+    },
+    dozadan: "Belgilar: jigar va endokrin buzilishlar. Davolash: simptomatik; gemodializ samarasiz.",
+    ozarotasir: [
+      "Kuchli CYP3A4 inhibitori — statinlar, midazolam/triazolam, tsizaprid, takrolimus konsentratsiyasini oshiradi",
+      "Oshqozon pH ni oshiruvchilar (PPI, antatsid) so'rilishini kamaytiradi",
+      "Etanol bilan disulfiramsimon reaksiya mumkin; rifampitsin darajasini tushiradi"
+    ],
+    qollash: {
+      kattalar: "Mahalliy: shampun (2%) haftada 2 marta (pitiriaz/seboreya); krem zararlangan sohaga kuniga 1–2 marta. Tizimli: faqat mutaxassis nazoratida, jigar funksiyasini kuzatib.",
+      bolalar: "Asosan mahalliy shakllar, shifokor tavsiyasi bilan"
+    },
+    chiqarish: "Shampun 2%; krem/malham 2%; tabletkalar 200 mg (tizimli — cheklangan)"
+  },
+  ru: {
+    gruppa: "Противогрибковые препараты (имидазолы)",
+    farmTasir: "Противогрибковое средство широкого спектра",
+    farmakodinamika: `Кетоконазол — противогрибковый препарат группы имидазолов. Ингибируя зависимую от цитохрома Р450 14α-деметилазу грибов, нарушает синтез эргостерола и проницаемость клеточной мембраны (фунгистатически/фунгицидно). Активен против дерматофитов, Candida, Malassezia, диморфных грибов. Примечание: из-за риска тяжёлой гепатотоксичности и подавления синтеза надпочечниковых гормонов при системном (пероральном) применении во многих странах системная форма ограничена — применяется преимущественно местно (шампунь, крем).`,
+    farmakokinetika: {
+      sorish: "Всасывание внутрь требует кислой среды; при местном применении системная абсорбция минимальна",
+      tarqalish: "Высокая связь с белками (~99%); плохо через ГЭБ",
+      metabolizm: "Метаболизируется в печени; сильно ингибирует CYP3A4",
+      chiqarilish: "Преимущественно с жёлчью (калом); T½ ~8 ч"
+    },
+    korsatmalar: [
+      "Местно: отрубевидный лишай, себорейный дерматит, кандидоз кожи и дерматомикозы (шампунь/крем)",
+      "Системно (только при неэффективности/непереносимости другого лечения, под строгим контролем): эндемические микозы, тяжёлые дерматомикозы"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к кетоконазолу или азолам",
+      "Острые или хронические заболевания печени (для системной формы)",
+      "Одновременно гепатотоксичные препараты, субстраты CYP3A4 (цизаприд, пимозид, некоторые статины, триазолам)"
+    ],
+    nojoya: {
+      "Печень": "Гепатотоксичность (тяжёлая, иногда фатальная — основное ограничение системной формы)",
+      "Эндокринные": "Подавление синтеза тестостерона и кортизола (гинекомастия, снижение либидо, надпочечниковая недостаточность)",
+      "ЖКТ": "Тошнота, боль в животе, диарея",
+      "Местные (кожные формы)": "Раздражение, зуд, жжение (редко)",
+      "Аллергические": "Сыпь, зуд"
+    },
+    dozadan: "Симптомы: печёночные и эндокринные нарушения. Лечение: симптоматическое; гемодиализ неэффективен.",
+    ozarotasir: [
+      "Сильный ингибитор CYP3A4 — повышает концентрацию статинов, мидазолама/триазолама, цизаприда, такролимуса",
+      "Повышающие pH желудка (ИПП, антациды) снижают всасывание",
+      "С этанолом возможна дисульфирамоподобная реакция; рифампицин снижает уровень"
+    ],
+    qollash: {
+      kattalar: "Местно: шампунь (2%) 2 раза в неделю (лишай/себорея); крем на поражённый участок 1–2 раза в день. Системно: только под контролем специалиста с мониторингом функции печени.",
+      bolalar: "Преимущественно местные формы, по рекомендации врача"
+    },
+    chiqarish: "Шампунь 2%; крем/мазь 2%; таблетки 200 мг (системно — ограниченно)"
+  },
+  en: {
+    gruppa: "Antifungal agents (imidazoles)",
+    farmTasir: "Broad-spectrum antifungal",
+    farmakodinamika: `Ketoconazole is an imidazole antifungal. By inhibiting fungal cytochrome P450-dependent 14α-demethylase, it disrupts ergosterol synthesis and membrane permeability (fungistatic/fungicidal). It is active against dermatophytes, Candida, Malassezia and dimorphic fungi. Note: owing to the risk of severe hepatotoxicity and suppression of adrenal hormone synthesis with systemic (oral) use, the systemic form is restricted in many countries — it is used mainly topically (shampoo, cream).`,
+    farmakokinetika: {
+      sorish: "Oral absorption requires an acidic environment; topical systemic absorption is minimal",
+      tarqalish: "High protein binding (~99%); poorly across the BBB",
+      metabolizm: "Hepatically metabolised; a strong CYP3A4 inhibitor",
+      chiqarilish: "Mainly in bile (faeces); T½ ~8 h"
+    },
+    korsatmalar: [
+      "Topical: pityriasis versicolor, seborrhoeic dermatitis, skin candidiasis and dermatomycoses (shampoo/cream)",
+      "Systemic (only when other treatment is ineffective/not tolerated, under strict monitoring): endemic mycoses, severe dermatomycoses"
+    ],
+    qarrshi: [
+      "Hypersensitivity to ketoconazole or azoles",
+      "Acute or chronic liver disease (for the systemic form)",
+      "Concomitant hepatotoxic drugs, CYP3A4 substrates (cisapride, pimozide, some statins, triazolam)"
+    ],
+    nojoya: {
+      "Hepatic": "Hepatotoxicity (severe, sometimes fatal — the main limitation of the systemic form)",
+      "Endocrine": "Suppression of testosterone and cortisol synthesis (gynaecomastia, reduced libido, adrenal insufficiency)",
+      "Gastrointestinal": "Nausea, abdominal pain, diarrhoea",
+      "Local (skin forms)": "Irritation, itching, burning (rare)",
+      "Hypersensitivity": "Rash, itching"
+    },
+    dozadan: "Symptoms: hepatic and endocrine disturbances. Treatment: symptomatic; haemodialysis ineffective.",
+    ozarotasir: [
+      "Strong CYP3A4 inhibitor — raises concentration of statins, midazolam/triazolam, cisapride, tacrolimus",
+      "Gastric pH-raising agents (PPIs, antacids) reduce absorption",
+      "A disulfiram-like reaction is possible with ethanol; rifampicin lowers its level"
+    ],
+    qollash: {
+      kattalar: "Topical: shampoo (2%) twice weekly (versicolor/seborrhoea); cream to the affected area once or twice daily. Systemic: only under specialist supervision with liver function monitoring.",
+      bolalar: "Mainly topical forms, on medical advice"
+    },
+    chiqarish: "Shampoo 2%; cream/ointment 2%; tablets 200 mg (systemic — restricted)"
+  }
+},
+
+// ─── J05AB11 · Valatsiklovir ──────────────────────────────────────────────
+"J05AB11": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (nukleozid analoglari)",
+    farmTasir: "Gerpes viruslariga qarshi vosita (atsiklovir prodorisi)",
+    farmakodinamika: `Valatsiklovir — atsiklovirning L-valil efiri (prodori). Organizmда tez va deyarli to'liq atsiklovirга aylanadi. Atsiklovir virusli timidinkinaza tomonidan fosforlanib faol atsiklovir-trifosfatga aylanadi, u virusли ДНК-polimerazani inhibe qiladi va virusли ДНК zanjiriga qo'shilib uning sintezini to'xtatadi. Herpes simplex (HSV-1, HSV-2) va Varicella zoster (VZV) viruslariga tanlab ta'sir qiladi — faqat virus zararlagan hujayralarда faollashadi (selektivlik). Valatsiklovir atsiklovirга nisbatan biofaolligi yuqoriroq — kamroq qabul qilish imkonini beradi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi; atsiklovirга aylanganда biofaollik ~54% (atsiklovirning o'zidan 3–5 baravar yuqori)",
+      tarqalish: "Oqsilga past bog'lanadi; to'qima va suyuqliklarga keng tarqaladi",
+      metabolizm: "Ichak/jigarда tez atsiklovir va L-valinga gidroliz bo'ladi",
+      chiqarilish: "Asosan buyrak orqali (atsiklovir); T½ ~3 soat (buyrak yetishmovchiligida uzayadi)"
+    },
+    korsatmalar: [
+      "Belbog' temiratki (Herpes zoster)",
+      "Lab va jinsiy gerpes (HSV) — davolash va qaytalanishlar profilaktikasi",
+      "Suvchechak (immunokomprometatsiyalanmagan)",
+      "Sitomegalovirus (CMV) infeksiyasi profilaktikasi (transplantatsiyada)"
+    ],
+    qarrshi: [
+      "Valatsiklovir/atsiklovirга o'ta sezuvchanlik",
+      "Og'ir immunotanqislikда yuqori dozaда — trombotik mikroangiopatiya xavfi",
+      "Buyrak yetishmovchiligida doza moslash; ehtiyotkorlik: degidratatsiya"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, diareya",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi; yuqori dozada/buyrak yetishmovchiligida — chalkashlik, gallyutsinatsiya, tirishish",
+      "Buyrak": "Kristalluriya, o'tkir buyrak shikastlanishi (degidratatsiyada — ko'p suv ichish kerak)",
+      "Qon tizimi": "Trombotik trombositopenik purpura/gemolitik-uremik sindrom (immunotanqisда, yuqori dozada)",
+      "Allergiya": "Toshma, qichishish"
+    },
+    dozadan: "Belgilar: buyrak shikastlanishi, neyrologik (chalkashlik, tirishish). Davolash: suyuqlik, gemodializ atsiklovirni olib tashlaydi.",
+    ozarotasir: [
+      "Nefrotoksik dorilar (NSAID, aminoglikozidlar) — buyrak xavfini oshiradi",
+      "Probenetsid, simetidin — atsiklovir chiqarilishini sekinlashtiradi (konsentratsiya oshadi)"
+    ],
+    qollash: {
+      kattalar: "Herpes zoster: 1 g kuniga 3 marta 7 kun. Jinsiy gerpes (epizod): 500 mg kuniga 2 marta 3–5 kun; profilaktika 500 mg kuniga 1 marta. Lab gerpesi: 2 g kuniga 2 marta 1 kun. Buyrak yetishmovchiligida doza moslash.",
+      bolalar: "Suvchechak (12 yoshdan): 20 mg/kg kuniga 3 marta (maks. 1 g/doza)"
+    },
+    chiqarish: "Pardali tabletkalar 500 mg, 1000 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (аналоги нуклеозидов)",
+    farmTasir: "Средство против вирусов герпеса (пролекарство ацикловира)",
+    farmakodinamika: `Валацикловир — L-валиловый эфир ацикловира (пролекарство). В организме быстро и почти полностью превращается в ацикловир. Ацикловир фосфорилируется вирусной тимидинкиназой в активный ацикловир-трифосфат, который ингибирует вирусную ДНК-полимеразу и встраивается в цепь вирусной ДНК, прекращая её синтез. Избирательно действует на вирусы Herpes simplex (HSV-1, HSV-2) и Varicella zoster (VZV) — активируется только в инфицированных вирусом клетках (селективность). Валацикловир имеет более высокую биодоступность, чем ацикловир, что позволяет реже принимать препарат.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь; при превращении в ацикловир биодоступность ~54% (в 3–5 раз выше, чем у самого ацикловира)",
+      tarqalish: "Низкая связь с белками; широко распределяется в ткани и жидкости",
+      metabolizm: "Быстро гидролизуется в кишке/печени до ацикловира и L-валина",
+      chiqarilish: "Преимущественно почками (ацикловир); T½ ~3 ч (удлиняется при почечной недостаточности)"
+    },
+    korsatmalar: [
+      "Опоясывающий лишай (Herpes zoster)",
+      "Лабиальный и генитальный герпес (HSV) — лечение и профилактика рецидивов",
+      "Ветряная оспа (у иммунокомпетентных)",
+      "Профилактика цитомегаловирусной (ЦМВ) инфекции (при трансплантации)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к валацикловиру/ацикловиру",
+      "При тяжёлом иммунодефиците в высоких дозах — риск тромботической микроангиопатии",
+      "При почечной недостаточности коррекция дозы; осторожно: дегидратация"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, боль в животе, диарея",
+      "ЦНС": "Головная боль, головокружение; при высоких дозах/почечной недостаточности — спутанность, галлюцинации, судороги",
+      "Почки": "Кристаллурия, острое почечное повреждение (при дегидратации — нужно обильное питьё)",
+      "Кроветворение": "Тромботическая тромбоцитопеническая пурпура/гемолитико-уремический синдром (при иммунодефиците, высоких дозах)",
+      "Аллергические": "Сыпь, зуд"
+    },
+    dozadan: "Симптомы: почечное повреждение, неврологические (спутанность, судороги). Лечение: жидкость, гемодиализ выводит ацикловир.",
+    ozarotasir: [
+      "Нефротоксичные препараты (НПВП, аминогликозиды) — повышают почечный риск",
+      "Пробенецид, циметидин — замедляют выведение ацикловира (повышение концентрации)"
+    ],
+    qollash: {
+      kattalar: "Herpes zoster: 1 г 3 раза в день 7 дней. Генитальный герпес (эпизод): 500 мг 2 раза в день 3–5 дней; профилактика 500 мг 1 раз в день. Лабиальный герпес: 2 г 2 раза в день 1 день. При почечной недостаточности коррекция дозы.",
+      bolalar: "Ветряная оспа (с 12 лет): 20 мг/кг 3 раза в день (макс. 1 г/доза)"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 500 мг, 1000 мг"
+  },
+  en: {
+    gruppa: "Antiviral agents (nucleoside analogues)",
+    farmTasir: "Agent against herpes viruses (aciclovir prodrug)",
+    farmakodinamika: `Valaciclovir is the L-valyl ester of aciclovir (a prodrug). In the body it is rapidly and almost completely converted to aciclovir. Aciclovir is phosphorylated by viral thymidine kinase to active aciclovir triphosphate, which inhibits viral DNA polymerase and is incorporated into the viral DNA chain, halting its synthesis. It selectively acts on Herpes simplex (HSV-1, HSV-2) and Varicella zoster (VZV) viruses — activated only in virus-infected cells (selectivity). Valaciclovir has higher bioavailability than aciclovir, allowing less frequent dosing.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally; converted to aciclovir with bioavailability ~54% (3–5 times higher than aciclovir itself)",
+      tarqalish: "Low protein binding; widely distributed into tissues and fluids",
+      metabolizm: "Rapidly hydrolysed in the gut/liver to aciclovir and L-valine",
+      chiqarilish: "Mainly renally (aciclovir); T½ ~3 h (prolonged in renal impairment)"
+    },
+    korsatmalar: [
+      "Shingles (Herpes zoster)",
+      "Labial and genital herpes (HSV) — treatment and recurrence prophylaxis",
+      "Chickenpox (in immunocompetent patients)",
+      "Prophylaxis of cytomegalovirus (CMV) infection (in transplantation)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to valaciclovir/aciclovir",
+      "High doses in severe immunodeficiency — risk of thrombotic microangiopathy",
+      "Dose adjustment in renal impairment; caution: dehydration"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, abdominal pain, diarrhoea",
+      "CNS": "Headache, dizziness; at high doses/renal impairment — confusion, hallucinations, seizures",
+      "Renal": "Crystalluria, acute kidney injury (with dehydration — ample fluids needed)",
+      "Haematological": "Thrombotic thrombocytopenic purpura/haemolytic-uraemic syndrome (in immunodeficiency, high doses)",
+      "Hypersensitivity": "Rash, itching"
+    },
+    dozadan: "Symptoms: renal injury, neurological (confusion, seizures). Treatment: fluids, haemodialysis removes aciclovir.",
+    ozarotasir: [
+      "Nephrotoxic drugs (NSAIDs, aminoglycosides) — increase renal risk",
+      "Probenecid, cimetidine — slow aciclovir excretion (raise concentration)"
+    ],
+    qollash: {
+      kattalar: "Herpes zoster: 1 g three times daily for 7 days. Genital herpes (episode): 500 mg twice daily for 3–5 days; prophylaxis 500 mg once daily. Labial herpes: 2 g twice daily for 1 day. Dose adjustment in renal impairment.",
+      bolalar: "Chickenpox (from 12 years): 20 mg/kg three times daily (max 1 g/dose)"
+    },
+    chiqarish: "Film-coated tablets 500 mg, 1000 mg"
+  }
+},
+
+// ─── J05AH02 · Oseltamivir ────────────────────────────────────────────────
+"J05AH02": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (neyraminidaza inhibitorlari)",
+    farmTasir: "Grippга qarshi vosita (neyraminidaza inhibitori)",
+    farmakodinamika: `Oseltamivir — gripp virusi neyraminidaza fermentining inhibitori (prodori — oseltamivir karboksilatga aylanadi). Neyraminidaza yangi hosil bo'lgan virus zarrachalarining zararlangan hujayradan ajralib chiqishi va boshqa hujayralarга tarqalishi uchun zarur. Oseltamivir bu fermentni bloklab, virusning ko'payishi va tarqalishini cheklaydi. A va B tipidagi gripp viruslariga ta'sir qiladi. Belgilar boshlangandan keyin 48 soat ichida boshlanganда eng samarali — kasallik davomiyligi va og'irligini kamaytiradi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi; faol metabolitга (oseltamivir karboksilat) aylanadi, biofaollik ~80%",
+      tarqalish: "Oqsilga past bog'lanadi; nafas yo'llari shilliq pardasiga tarqaladi",
+      metabolizm: "Jigar esterazalari tomonidan faol shaklga (CYP ga bog'liq emas)",
+      chiqarilish: "Asosan buyrak orqali; T½ (faol metabolit) ~6–10 soat"
+    },
+    korsatmalar: [
+      "A va B gripp davolash (belgilardan keyin 48 soat ichida)",
+      "Gripp profilaktikasi (kontaktдан keyin yoki epidemiya davrida)",
+      "Pandemik gripp shtammlari (mahalliy protokollar bo'yicha)"
+    ],
+    qarrshi: [
+      "Oseltamivirга o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi (KFR < 10 ml/daq — doza moslash/cheklov)",
+      "1 yoshgacha (profilaktika uchun) — ehtiyotkorlik"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish (ko'p — ovqat bilan kamayadi), qorin og'rig'i, diareya",
+      "Asab tizimi": "Bosh og'rig'i, uyqusizlik; kamdan-kam neyropsixik reaksiyalar (chalkashlik, xulq-atvor o'zgarishi — ayniqsa bolalarда/o'smirlarда, kuzatuv kerak)",
+      "Allergiya": "Toshma, kamdan-kam og'ir teri reaksiyalari (Stivens-Johnson)",
+      "Boshqa": "Bosh aylanishi, charchoq"
+    },
+    dozadan: "Belgilar: ko'ngil aynishi, qusish. Davolash: simptomatik.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir kam (CYP ga bog'liq emas)",
+      "Tirik attenuirlangan gripp vaksinasi bilan birga tavsiya etilmaydi (davo paytida samaradorlik kamayadi)"
+    ],
+    qollash: {
+      kattalar: "Davolash: 75 mg kuniga 2 marta 5 kun. Profilaktika: 75 mg kuniga 1 marta 10 kun (yoki epidemiyada 6 haftagача). Buyrak yetishmovchiligida doza kamaytiriladi.",
+      bolalar: "1 yoshdan, vaznга qarab: 30–75 mg kuniga 2 marta (davolash); suspenziya shaklida"
+    },
+    chiqarish: "Kapsulalar 30 mg, 45 mg, 75 mg; og'iz uchun suspenziya 6 mg/ml"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (ингибиторы нейраминидазы)",
+    farmTasir: "Средство против гриппа (ингибитор нейраминидазы)",
+    farmakodinamika: `Озельтамивир — ингибитор фермента нейраминидазы вируса гриппа (пролекарство — превращается в озельтамивира карбоксилат). Нейраминидаза необходима для высвобождения новообразованных вирусных частиц из инфицированной клетки и их распространения на другие клетки. Озельтамивир блокирует этот фермент, ограничивая размножение и распространение вируса. Действует на вирусы гриппа типов A и B. Наиболее эффективен при начале в течение 48 часов от появления симптомов — уменьшает длительность и тяжесть заболевания.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь; превращается в активный метаболит (озельтамивира карбоксилат), биодоступность ~80%",
+      tarqalish: "Низкая связь с белками; распределяется в слизистую дыхательных путей",
+      metabolizm: "Эстеразами печени в активную форму (не зависит от CYP)",
+      chiqarilish: "Преимущественно почками; T½ (активный метаболит) ~6–10 ч"
+    },
+    korsatmalar: [
+      "Лечение гриппа A и B (в течение 48 часов от симптомов)",
+      "Профилактика гриппа (после контакта или в эпидемический период)",
+      "Пандемические штаммы гриппа (по местным протоколам)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к озельтамивиру",
+      "Тяжёлая почечная недостаточность (СКФ < 10 мл/мин — коррекция дозы/ограничение)",
+      "До 1 года (для профилактики) — с осторожностью"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, рвота (часто — уменьшается с едой), боль в животе, диарея",
+      "ЦНС": "Головная боль, бессонница; редко нейропсихические реакции (спутанность, изменение поведения — особенно у детей/подростков, нужно наблюдение)",
+      "Аллергические": "Сыпь, редко тяжёлые кожные реакции (Стивенса–Джонсона)",
+      "Прочие": "Головокружение, утомляемость"
+    },
+    dozadan: "Симптомы: тошнота, рвота. Лечение: симптоматическое.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий мало (не зависит от CYP)",
+      "Не рекомендуется с живой аттенуированной гриппозной вакциной (снижение её эффективности во время лечения)"
+    ],
+    qollash: {
+      kattalar: "Лечение: 75 мг 2 раза в день 5 дней. Профилактика: 75 мг 1 раз в день 10 дней (или до 6 недель при эпидемии). При почечной недостаточности дозу снижают.",
+      bolalar: "С 1 года, по массе: 30–75 мг 2 раза в день (лечение); в виде суспензии"
+    },
+    chiqarish: "Капсулы 30 мг, 45 мг, 75 мг; суспензия для приёма внутрь 6 мг/мл"
+  },
+  en: {
+    gruppa: "Antiviral agents (neuraminidase inhibitors)",
+    farmTasir: "Anti-influenza agent (neuraminidase inhibitor)",
+    farmakodinamika: `Oseltamivir is an inhibitor of the influenza virus neuraminidase enzyme (a prodrug — converted to oseltamivir carboxylate). Neuraminidase is needed for release of newly formed virus particles from the infected cell and their spread to other cells. Oseltamivir blocks this enzyme, limiting viral replication and spread. It acts on influenza A and B viruses. It is most effective when started within 48 hours of symptom onset — reducing duration and severity of illness.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally; converted to the active metabolite (oseltamivir carboxylate), bioavailability ~80%",
+      tarqalish: "Low protein binding; distributes to the respiratory mucosa",
+      metabolizm: "By hepatic esterases to the active form (CYP-independent)",
+      chiqarilish: "Mainly renally; T½ (active metabolite) ~6–10 h"
+    },
+    korsatmalar: [
+      "Treatment of influenza A and B (within 48 hours of symptoms)",
+      "Prophylaxis of influenza (after contact or during an epidemic)",
+      "Pandemic influenza strains (per local protocols)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to oseltamivir",
+      "Severe renal impairment (eGFR < 10 mL/min — dose adjustment/restriction)",
+      "Under 1 year (for prophylaxis) — caution"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, vomiting (common — reduced with food), abdominal pain, diarrhoea",
+      "CNS": "Headache, insomnia; rarely neuropsychiatric reactions (confusion, behavioural change — especially in children/adolescents, monitoring needed)",
+      "Hypersensitivity": "Rash, rarely severe skin reactions (Stevens–Johnson)",
+      "Other": "Dizziness, fatigue"
+    },
+    dozadan: "Symptoms: nausea, vomiting. Treatment: symptomatic.",
+    ozarotasir: [
+      "Few clinically significant interactions (CYP-independent)",
+      "Not recommended with live attenuated influenza vaccine (reduced vaccine efficacy during treatment)"
+    ],
+    qollash: {
+      kattalar: "Treatment: 75 mg twice daily for 5 days. Prophylaxis: 75 mg once daily for 10 days (or up to 6 weeks during an epidemic). Reduce dose in renal impairment.",
+      bolalar: "From 1 year, by weight: 30–75 mg twice daily (treatment); as a suspension"
+    },
+    chiqarish: "Capsules 30 mg, 45 mg, 75 mg; oral suspension 6 mg/mL"
+  }
+},
+
+// ─── J04AB02 · Rifampitsin ────────────────────────────────────────────────
+"J04AB02": {
+  uz: {
+    gruppa: "Silga qarshi preparatlar (rifamitsinlar)",
+    farmTasir: "Silga qarshi birinchi qator bakteritsid antibiotik",
+    farmakodinamika: `Rifampitsin — rifamitsin guruhiga mansub keng spektrli antibiotik, silga qarshi davoning asosiy (birinchi qator) preparati. Bakteriya ДНК-bog'liq РНК-polimeraza fermentining beta-subbirligiga bog'lanib, РНК sintezini bloklaydi va bakteriya o'limiga olib keladi (bakteritsid). Mycobacterium tuberculosis, M. leprae va ko'plab gram-musbat (stafilokokk) hamda ba'zi gram-manfiy bakteriyalarga (Neisseria meningitidis) faol; hujayra ichidagi va bo'linmayotgan mikobakteriyalarga ham ta'sir qiladi. Yakka qo'llanganда tez chidamlilik rivojlanadi — shuning uchun har doim kombinatsiyada beriladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi (bo'sh oshqozonga); ovqat so'rilishni kamaytiradi",
+      tarqalish: "To'qima va suyuqliklarga keng tarqaladi (o'pka, suyak, BOM); hujayra ichiga kiradi; platsenta va sutга o'tadi",
+      metabolizm: "Jigarда dezatsetillanadi; jigar fermentlarini (CYP3A4 va boshqalar) kuchli induktsiya qiladi (avtoinduksiya ham)",
+      chiqarilish: "Asosan o't (najas), qisman buyrak; T½ ~3–5 soat"
+    },
+    korsatmalar: [
+      "Sil (barcha shakllari) — kombinatsiyalangan davoда (izoniazid, pirazinamid, etambutol bilan)",
+      "Moxov (leprа) — kombinatsiyada",
+      "Meningokokk tashuvchanligi profilaktikasi",
+      "Og'ir stafilokokk infeksiyalari (kombinatsiyada), bruselloz, legionellyoz (yordamchi)"
+    ],
+    qarrshi: [
+      "Rifamitsinlarга o'ta sezuvchanlik",
+      "Og'ir jigar yetishmovchiligi, sariqlik",
+      "Bir vaqtda HIV proteaza inhibitorlari/ba'zi antiretrovirus dorilar (induksiya), voriconazol",
+      "Homiladorlikning birinchi davri (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Jigar": "Gepatotoksiklik (transaminazalar oshishi, sariqlik — izoniazid bilan birga xavf ortadi; jigar nazorati)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish, ishtaha pasayishi, diareya",
+      "Immunologik (oraliq dozaда)": "Grippsimon sindrom, gemolitik anemiya, trombotsitopeniya, o'tkir buyrak shikastlanishi",
+      "Boshqa": "Siydik, ter, ko'z yoshi va kontakt linzalarning qizg'ish-to'q sariq rangга bo'yalishi (zararsiz, lekin ogohlantirish kerak)"
+    },
+    dozadan: "Belgilar: jigar shikastlanishi, «qizil odam sindromi» (terining qizarishi), ko'ngil aynishi. Davolash: simptomatik, oshqozonni yuvish, jigar nazorati.",
+    ozarotasir: [
+      "Kuchli ferment induktori — peroral kontratseptivlar, varfarin, peroral antidiabetiklar, GKS, siklosporin, takrolimus, ba'zi antiretroviruslar, digoksin, verapamil ta'sirini KAMAYTIRADI (doza moslash kerak)",
+      "Izoniazid, pirazinamid bilan gepatotoksiklik kuchayadi",
+      "Antatsidlar so'rilishini kamaytiradi (1 soat farq)"
+    ],
+    qollash: {
+      kattalar: "Sil: 10 mg/kg/sut (odatda 450–600 mg) kuniga 1 marta bo'sh oshqozonga (nonushtaдан 30–60 daqiqa oldin). Meningokokk profilaktikasi: 600 mg kuniga 2 marta 2 kun.",
+      bolalar: "10–20 mg/kg/sut (maks. 600 mg) kuniga 1 marta"
+    },
+    chiqarish: "Kapsulalar/tabletkalar 150 mg, 300 mg, 450 mg, 600 mg; i/v infuziya uchun kukun; suspenziya"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные препараты (рифамицины)",
+    farmTasir: "Бактерицидный противотуберкулёзный антибиотик первого ряда",
+    farmakodinamika: `Рифампицин — антибиотик широкого спектра группы рифамицинов, основной (первого ряда) препарат противотуберкулёзной терапии. Связываясь с бета-субъединицей ДНК-зависимой РНК-полимеразы бактерий, блокирует синтез РНК и вызывает гибель бактерии (бактерицидно). Активен в отношении Mycobacterium tuberculosis, M. leprae, многих грамположительных (стафилококки) и некоторых грамотрицательных (Neisseria meningitidis) бактерий; действует и на внутриклеточные и непролиферирующие микобактерии. При монотерапии быстро развивается резистентность — поэтому всегда назначается в комбинации.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь (натощак); пища снижает всасывание",
+      tarqalish: "Широко распределяется в ткани и жидкости (лёгкие, кости, СМЖ); проникает в клетки; через плаценту и в молоко",
+      metabolizm: "Деацетилируется в печени; сильно индуцирует печёночные ферменты (CYP3A4 и др.; в т.ч. аутоиндукция)",
+      chiqarilish: "Преимущественно с жёлчью (калом), частично почками; T½ ~3–5 ч"
+    },
+    korsatmalar: [
+      "Туберкулёз (все формы) — в комбинированной терапии (с изониазидом, пиразинамидом, этамбутолом)",
+      "Лепра (проказа) — в комбинации",
+      "Профилактика менингококкового носительства",
+      "Тяжёлые стафилококковые инфекции (в комбинации), бруцеллёз, легионеллёз (вспомогательно)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к рифамицинам",
+      "Тяжёлая печёночная недостаточность, желтуха",
+      "Одновременно ингибиторы протеазы ВИЧ/некоторые антиретровирусные (индукция), вориконазол",
+      "Ранний период беременности (с осторожностью)"
+    ],
+    nojoya: {
+      "Печень": "Гепатотоксичность (повышение трансаминаз, желтуха — с изониазидом риск выше; контроль печени)",
+      "ЖКТ": "Тошнота, рвота, снижение аппетита, диарея",
+      "Иммунологические (при интермиттирующем дозировании)": "Гриппоподобный синдром, гемолитическая анемия, тромбоцитопения, острое почечное повреждение",
+      "Прочие": "Окрашивание мочи, пота, слёз и контактных линз в красно-оранжевый цвет (безвредно, но нужно предупредить)"
+    },
+    dozadan: "Симптомы: поражение печени, «синдром красного человека» (покраснение кожи), тошнота. Лечение: симптоматическое, промывание желудка, контроль печени.",
+    ozarotasir: [
+      "Сильный индуктор ферментов — СНИЖАЕТ действие пероральных контрацептивов, варфарина, пероральных антидиабетиков, ГКС, циклоспорина, такролимуса, некоторых антиретровирусных, дигоксина, верапамила (нужна коррекция дозы)",
+      "С изониазидом, пиразинамидом усиливается гепатотоксичность",
+      "Антациды снижают всасывание (интервал 1 час)"
+    ],
+    qollash: {
+      kattalar: "Туберкулёз: 10 мг/кг/сут (обычно 450–600 мг) 1 раз в день натощак (за 30–60 минут до завтрака). Профилактика менингококка: 600 мг 2 раза в день 2 дня.",
+      bolalar: "10–20 мг/кг/сут (макс. 600 мг) 1 раз в день"
+    },
+    chiqarish: "Капсулы/таблетки 150 мг, 300 мг, 450 мг, 600 мг; порошок для в/в инфузий; суспензия"
+  },
+  en: {
+    gruppa: "Antituberculosis agents (rifamycins)",
+    farmTasir: "First-line bactericidal antituberculosis antibiotic",
+    farmakodinamika: `Rifampicin is a broad-spectrum rifamycin antibiotic, the principal (first-line) drug of antituberculosis therapy. By binding to the beta-subunit of bacterial DNA-dependent RNA polymerase, it blocks RNA synthesis and kills the bacterium (bactericidal). It is active against Mycobacterium tuberculosis, M. leprae, many Gram-positives (staphylococci) and some Gram-negatives (Neisseria meningitidis); it also acts on intracellular and non-proliferating mycobacteria. Resistance develops rapidly with monotherapy — so it is always given in combination.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally (fasting); food reduces absorption",
+      tarqalish: "Widely distributed into tissues and fluids (lungs, bone, CSF); enters cells; crosses the placenta and into milk",
+      metabolizm: "Deacetylated in the liver; a strong inducer of hepatic enzymes (CYP3A4 etc.; including auto-induction)",
+      chiqarilish: "Mainly in bile (faeces), partly renally; T½ ~3–5 h"
+    },
+    korsatmalar: [
+      "Tuberculosis (all forms) — in combination therapy (with isoniazid, pyrazinamide, ethambutol)",
+      "Leprosy — in combination",
+      "Prophylaxis of meningococcal carriage",
+      "Severe staphylococcal infections (in combination), brucellosis, legionellosis (adjunct)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to rifamycins",
+      "Severe hepatic impairment, jaundice",
+      "Concomitant HIV protease inhibitors/some antiretrovirals (induction), voriconazole",
+      "Early pregnancy (caution)"
+    ],
+    nojoya: {
+      "Hepatic": "Hepatotoxicity (raised transaminases, jaundice — higher risk with isoniazid; monitor liver)",
+      "Gastrointestinal": "Nausea, vomiting, decreased appetite, diarrhoea",
+      "Immunological (with intermittent dosing)": "Flu-like syndrome, haemolytic anaemia, thrombocytopenia, acute kidney injury",
+      "Other": "Red-orange discolouration of urine, sweat, tears and contact lenses (harmless, but warn the patient)"
+    },
+    dozadan: "Symptoms: liver injury, red man syndrome (skin flushing), nausea. Treatment: symptomatic, gastric lavage, liver monitoring.",
+    ozarotasir: [
+      "Strong enzyme inducer — REDUCES the effect of oral contraceptives, warfarin, oral antidiabetics, corticosteroids, ciclosporin, tacrolimus, some antiretrovirals, digoxin, verapamil (dose adjustment needed)",
+      "Hepatotoxicity increases with isoniazid, pyrazinamide",
+      "Antacids reduce absorption (separate by 1 hour)"
+    ],
+    qollash: {
+      kattalar: "Tuberculosis: 10 mg/kg/day (usually 450–600 mg) once daily fasting (30–60 minutes before breakfast). Meningococcal prophylaxis: 600 mg twice daily for 2 days.",
+      bolalar: "10–20 mg/kg/day (max 600 mg) once daily"
+    },
+    chiqarish: "Capsules/tablets 150 mg, 300 mg, 450 mg, 600 mg; powder for IV infusion; suspension"
+  }
+},
+
+// ─── J04AC01 · Izoniazid ──────────────────────────────────────────────────
+"J04AC01": {
+  uz: {
+    gruppa: "Silga qarshi preparatlar (gidrazidlar)",
+    farmTasir: "Silga qarshi birinchi qator bakteritsid vosita",
+    farmakodinamika: `Izoniazid (izonikotin kislota gidrazidi) — silga qarshi davoning asosiy (birinchi qator) preparati. Mikobakteriya hujayra devorining muhim komponenti — mikol kislotalar sintezini buzadi (faollashishi uchun mikobakterial katalaza-peroksidaza fermenti kerak). Faol ko'payayotgan Mycobacterium tuberculosis ga bakteritsid, sekin/dam olayotgan mikobakteriyalarga bakteriostatik ta'sir qiladi. Faqat mikobakteriyalarga tanlab ta'sir qiladi (boshqa bakteriyalarga emas). Yakka qo'llanganда chidamlilik rivojlanadi — kombinatsiyada beriladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali tez va to'liq so'riladi (bo'sh oshqozonga); ovqat va antatsidlar so'rilishni kamaytiradi",
+      tarqalish: "To'qima va suyuqliklarga keng tarqaladi (BOM, kazeoz o'choqlar); hujayra ichiga kiradi",
+      metabolizm: "Jigarда atsetillanadi (N-asetiltransferaza); «tez» va «sekin» asetilyatorlar — genetik polimorfizm",
+      chiqarilish: "Asosan buyrak orqali; T½ tez asetilyatorlarда ~1 soat, sekinlarда ~3 soat"
+    },
+    korsatmalar: [
+      "Sil (barcha shakllari) — kombinatsiyalangan davoда",
+      "Latent sil infeksiyasi davosi/profilaktikasi (monoterapiya — alohida holatда)",
+      "Sil bilan kontaktда bo'lganlarда profilaktika"
+    ],
+    qarrshi: [
+      "Izoniazidга o'ta sezuvchanlik",
+      "O'tkir jigar kasalligi, oldingi izoniazidга bog'liq gepatit",
+      "Epilepsiya, og'ir periferik neyropatiya, psixoz (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Jigar": "Gepatotoksiklik (transaminazalar oshishi, gepatit — yosh, alkogol, rifampitsin bilan xavf ortadi; nazorat zarur)",
+      "Asab tizimi": "Periferik neyropatiya (B6 vitamini — piridoksin yetishmovchiligi tufayli; piridoksin bilan oldini olinadi), tirishishlar, optik neyrit, psixik buzilishlar",
+      "Allergiya": "Toshma, isitma, kamdan-kam volchankasimon sindrom",
+      "Qon tizimi": "Anemiya, agranulotsitoz (kam)"
+    },
+    dozadan: "Belgilar: ko'ngil aynishi, tirishishlar, metabolik atsidoz, koma (og'ir). Antidot — piridoksin (B6) yuqori dozada; tirishishда diazepam, simptomatik, gemodializ.",
+    ozarotasir: [
+      "Rifampitsin, alkogol — gepatotoksiklikni kuchaytiradi",
+      "Fenitoin, karbamazepin, teofillin — metabolizmini sekinlashtirib konsentratsiyasini oshiradi (toksiklik)",
+      "Antatsidlar (Al) so'rilishini kamaytiradi (1 soat farq)",
+      "Tiramin/gistamin tutuvchi ovqatlarга reaksiya (MAO/diaminoksidaza inhibitsiyasi)"
+    ],
+    qollash: {
+      kattalar: "Sil: 5 mg/kg/sut (odatda 300 mg) kuniga 1 marta bo'sh oshqozonga; neyropatiyani oldini olish uchun piridoksin (B6) 10–25 mg/sut qo'shiladi. Latent infeksiya: 300 mg/sut 6–9 oy.",
+      bolalar: "10 mg/kg/sut (maks. 300 mg) kuniga 1 marta + piridoksin"
+    },
+    chiqarish: "Tabletkalar 100 mg, 200 mg, 300 mg; inyeksiya eritmasi; sirop"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные препараты (гидразиды)",
+    farmTasir: "Бактерицидное противотуберкулёзное средство первого ряда",
+    farmakodinamika: `Изониазид (гидразид изоникотиновой кислоты) — основной (первого ряда) препарат противотуберкулёзной терапии. Нарушает синтез миколовых кислот — важного компонента клеточной стенки микобактерий (для активации нужен микобактериальный фермент каталаза-пероксидаза). Оказывает бактерицидное действие на активно размножающиеся Mycobacterium tuberculosis и бактериостатическое — на медленно/покоящиеся микобактерии. Действует избирательно только на микобактерии. При монотерапии развивается резистентность — назначается в комбинации.`,
+    farmakokinetika: {
+      sorish: "Быстро и полно всасывается внутрь (натощак); пища и антациды снижают всасывание",
+      tarqalish: "Широко распределяется в ткани и жидкости (СМЖ, казеозные очаги); проникает в клетки",
+      metabolizm: "Ацетилируется в печени (N-ацетилтрансфераза); «быстрые» и «медленные» ацетиляторы — генетический полиморфизм",
+      chiqarilish: "Преимущественно почками; T½ у быстрых ацетиляторов ~1 ч, у медленных ~3 ч"
+    },
+    korsatmalar: [
+      "Туберкулёз (все формы) — в комбинированной терапии",
+      "Лечение/профилактика латентной туберкулёзной инфекции (монотерапия — в отдельных случаях)",
+      "Профилактика у контактировавших с туберкулёзом"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к изониазиду",
+      "Острое заболевание печени, гепатит, связанный с изониазидом в анамнезе",
+      "Эпилепсия, тяжёлая периферическая невропатия, психоз (с осторожностью)"
+    ],
+    nojoya: {
+      "Печень": "Гепатотоксичность (повышение трансаминаз, гепатит — риск выше при возрасте, алкоголе, рифампицине; нужен контроль)",
+      "ЦНС": "Периферическая невропатия (из-за дефицита витамина B6 — пиридоксина; предупреждается пиридоксином), судороги, оптический неврит, психические нарушения",
+      "Аллергические": "Сыпь, лихорадка, редко волчаночноподобный синдром",
+      "Кроветворение": "Анемия, агранулоцитоз (редко)"
+    },
+    dozadan: "Симптомы: тошнота, судороги, метаболический ацидоз, кома (тяжёлая). Антидот — пиридоксин (B6) в высоких дозах; при судорогах диазепам, симптоматически, гемодиализ.",
+    ozarotasir: [
+      "Рифампицин, алкоголь — усиливают гепатотоксичность",
+      "Фенитоин, карбамазепин, теофиллин — замедляет их метаболизм, повышая концентрацию (токсичность)",
+      "Антациды (Al) снижают всасывание (интервал 1 час)",
+      "Реакция на пищу с тирамином/гистамином (ингибирование МАО/диаминоксидазы)"
+    ],
+    qollash: {
+      kattalar: "Туберкулёз: 5 мг/кг/сут (обычно 300 мг) 1 раз в день натощак; для профилактики невропатии добавляют пиридоксин (B6) 10–25 мг/сут. Латентная инфекция: 300 мг/сут 6–9 месяцев.",
+      bolalar: "10 мг/кг/сут (макс. 300 мг) 1 раз в день + пиридоксин"
+    },
+    chiqarish: "Таблетки 100 мг, 200 мг, 300 мг; раствор для инъекций; сироп"
+  },
+  en: {
+    gruppa: "Antituberculosis agents (hydrazides)",
+    farmTasir: "First-line bactericidal antituberculosis agent",
+    farmakodinamika: `Isoniazid (isonicotinic acid hydrazide) is the principal (first-line) drug of antituberculosis therapy. It disrupts synthesis of mycolic acids — an essential component of the mycobacterial cell wall (it requires the mycobacterial enzyme catalase-peroxidase for activation). It is bactericidal against actively replicating Mycobacterium tuberculosis and bacteriostatic against slow/dormant mycobacteria. It acts selectively only on mycobacteria. Resistance develops with monotherapy — it is given in combination.`,
+    farmakokinetika: {
+      sorish: "Rapidly and completely absorbed orally (fasting); food and antacids reduce absorption",
+      tarqalish: "Widely distributed into tissues and fluids (CSF, caseous foci); enters cells",
+      metabolizm: "Acetylated in the liver (N-acetyltransferase); 'fast' and 'slow' acetylators — genetic polymorphism",
+      chiqarilish: "Mainly renally; T½ ~1 h in fast acetylators, ~3 h in slow ones"
+    },
+    korsatmalar: [
+      "Tuberculosis (all forms) — in combination therapy",
+      "Treatment/prophylaxis of latent tuberculosis infection (monotherapy — in selected cases)",
+      "Prophylaxis in tuberculosis contacts"
+    ],
+    qarrshi: [
+      "Hypersensitivity to isoniazid",
+      "Acute liver disease, previous isoniazid-associated hepatitis",
+      "Epilepsy, severe peripheral neuropathy, psychosis (caution)"
+    ],
+    nojoya: {
+      "Hepatic": "Hepatotoxicity (raised transaminases, hepatitis — higher risk with age, alcohol, rifampicin; monitoring needed)",
+      "CNS": "Peripheral neuropathy (due to vitamin B6 — pyridoxine deficiency; prevented by pyridoxine), seizures, optic neuritis, psychiatric disturbances",
+      "Hypersensitivity": "Rash, fever, rarely a lupus-like syndrome",
+      "Haematological": "Anaemia, agranulocytosis (rare)"
+    },
+    dozadan: "Symptoms: nausea, seizures, metabolic acidosis, coma (severe). Antidote — pyridoxine (B6) in high doses; diazepam for seizures, symptomatic, haemodialysis.",
+    ozarotasir: [
+      "Rifampicin, alcohol — increase hepatotoxicity",
+      "Phenytoin, carbamazepine, theophylline — their metabolism is slowed, raising concentration (toxicity)",
+      "Antacids (Al) reduce absorption (separate by 1 hour)",
+      "Reaction to tyramine/histamine-rich foods (MAO/diamine oxidase inhibition)"
+    ],
+    qollash: {
+      kattalar: "Tuberculosis: 5 mg/kg/day (usually 300 mg) once daily fasting; pyridoxine (B6) 10–25 mg/day is added to prevent neuropathy. Latent infection: 300 mg/day for 6–9 months.",
+      bolalar: "10 mg/kg/day (max 300 mg) once daily + pyridoxine"
+    },
+    chiqarish: "Tablets 100 mg, 200 mg, 300 mg; injection solution; syrup"
+  }
+},
+
+// ─── J04AK02 · Etambutol ──────────────────────────────────────────────────
+"J04AK02": {
+  uz: {
+    gruppa: "Silga qarshi preparatlar (boshqa)",
+    farmTasir: "Silga qarshi birinchi qator bakteriostatik vosita",
+    farmakodinamika: `Etambutol — silga qarshi davoning birinchi qator preparati. Mikobakteriya hujayra devorining arabinogalaktan sintezi uchun zarur arabinoziltransferaza fermentini inhibe qiladi, hujayra devori shakllanishini buzadi — faol ko'payayotgan Mycobacterium tuberculosis ga bakteriostatik ta'sir. Asosan boshqa silга qarshi preparatlarга (izoniazid, rifampitsin) chidamlilik rivojlanishini sekinlashtirish uchun kombinatsiyada qo'shiladi. Faqat mikobakteriyalarга ta'sir qiladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi (~80%); ovqat sezilarli ta'sir qilmaydi",
+      tarqalish: "To'qima va suyuqliklarga tarqaladi; yallig'langan miya pardasidan qisman o'tadi",
+      metabolizm: "Jigarда qisman metabolizmga uchraydi",
+      chiqarilish: "Asosan buyrak orqali o'zgarmagan holda; T½ ~3–4 soat (buyrak yetishmovchiligida uzayadi)"
+    },
+    korsatmalar: [
+      "Sil (barcha shakllari) — kombinatsiyalangan davoда",
+      "Atipik mikobakterial infeksiyalar (M. avium kompleksi — kombinatsiyada)"
+    ],
+    qarrshi: [
+      "Etambutolга o'ta sezuvchanlik",
+      "Ko'ruv nervi yallig'lanishi (optik neyrit), ko'rishni baholab bo'lmaydigan holatlar",
+      "Og'ir buyrak yetishmovchiligi (doza moslash, nazorat)",
+      "5 yoshgacha bolalar (ko'rishni baholash qiyin)"
+    ],
+    nojoya: {
+      "Ko'rish": "Retrobulbar (optik) neyrit — eng muhim: ko'rish o'tkirligi pasayishi, rang (qizil-yashil) ko'rishi buzilishi, ko'rish maydoni torayishi (doza-bog'liq, odatda qaytar — muntazam ko'rish nazorati zarur)",
+      "Asab tizimi": "Periferik neyropatiya, bosh og'rig'i, bosh aylanishi",
+      "Metabolik": "Giperurikemiya (siydik kislotasi oshishi — podagra zo'rayishi)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i (kam)",
+      "Allergiya": "Toshma, qichishish (kam)"
+    },
+    dozadan: "Belgilar: ko'rish buzilishi, oshqozon-ichak belgilari. Davolash: preparatni to'xtatish (ko'rish belgilarида), simptomatik; gemodializ qisman.",
+    ozarotasir: [
+      "Alyuminiy tutuvchi antatsidlar — so'rilishini kamaytiradi (4 soat farq)",
+      "Boshqa neyrotoksik dorilar bilan ehtiyotkorlik"
+    ],
+    qollash: {
+      kattalar: "15–20 mg/kg/sut kuniga 1 marta (yoki intermittent rejimда 30 mg/kg haftada 3 marta). Davo davomida har oy ko'rish o'tkirligi va rang ko'rishini tekshirish.",
+      bolalar: "15–20 mg/kg/sut (5 yoshdan, ko'rishni baholash mumkin bo'lganда)"
+    },
+    chiqarish: "Tabletkalar 100 mg, 400 mg; kombinatsiyalangan silга qarshi tabletkalar tarkibida"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные препараты (прочие)",
+    farmTasir: "Бактериостатическое противотуберкулёзное средство первого ряда",
+    farmakodinamika: `Этамбутол — препарат первого ряда противотуберкулёзной терапии. Ингибирует фермент арабинозилтрансферазу, необходимый для синтеза арабиногалактана клеточной стенки микобактерий, нарушая её формирование — оказывает бактериостатическое действие на активно размножающиеся Mycobacterium tuberculosis. Добавляется в комбинацию преимущественно для замедления развития резистентности к другим противотуберкулёзным препаратам (изониазиду, рифампицину). Действует только на микобактерии.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь (~80%); пища существенно не влияет",
+      tarqalish: "Распределяется в ткани и жидкости; частично проникает через воспалённые мозговые оболочки",
+      metabolizm: "Частично метаболизируется в печени",
+      chiqarilish: "Преимущественно почками в неизменённом виде; T½ ~3–4 ч (удлиняется при почечной недостаточности)"
+    },
+    korsatmalar: [
+      "Туберкулёз (все формы) — в комбинированной терапии",
+      "Атипичные микобактериальные инфекции (комплекс M. avium — в комбинации)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к этамбутолу",
+      "Неврит зрительного нерва (оптический неврит), невозможность оценки зрения",
+      "Тяжёлая почечная недостаточность (коррекция дозы, контроль)",
+      "Дети до 5 лет (трудно оценить зрение)"
+    ],
+    nojoya: {
+      "Зрение": "Ретробульбарный (оптический) неврит — важнейшее: снижение остроты зрения, нарушение цветовосприятия (красно-зелёного), сужение поля зрения (дозозависимо, обычно обратимо — нужен регулярный контроль зрения)",
+      "ЦНС": "Периферическая невропатия, головная боль, головокружение",
+      "Метаболические": "Гиперурикемия (повышение мочевой кислоты — обострение подагры)",
+      "ЖКТ": "Тошнота, боль в животе (редко)",
+      "Аллергические": "Сыпь, зуд (редко)"
+    },
+    dozadan: "Симптомы: нарушение зрения, ЖКТ-симптомы. Лечение: отмена препарата (при зрительных симптомах), симптоматически; гемодиализ частично.",
+    ozarotasir: [
+      "Алюминийсодержащие антациды — снижают всасывание (интервал 4 часа)",
+      "Осторожно с другими нейротоксичными препаратами"
+    ],
+    qollash: {
+      kattalar: "15–20 мг/кг/сут 1 раз в день (или в интермиттирующем режиме 30 мг/кг 3 раза в неделю). Во время лечения ежемесячно проверять остроту зрения и цветовосприятие.",
+      bolalar: "15–20 мг/кг/сут (с 5 лет, когда можно оценить зрение)"
+    },
+    chiqarish: "Таблетки 100 мг, 400 мг; в составе комбинированных противотуберкулёзных таблеток"
+  },
+  en: {
+    gruppa: "Antituberculosis agents (other)",
+    farmTasir: "First-line bacteriostatic antituberculosis agent",
+    farmakodinamika: `Ethambutol is a first-line antituberculosis drug. It inhibits arabinosyltransferase, an enzyme needed for synthesis of arabinogalactan in the mycobacterial cell wall, disrupting its formation — bacteriostatic against actively replicating Mycobacterium tuberculosis. It is added to combinations mainly to slow development of resistance to other antituberculosis drugs (isoniazid, rifampicin). It acts only on mycobacteria.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally (~80%); food has no significant effect",
+      tarqalish: "Distributes into tissues and fluids; partly penetrates inflamed meninges",
+      metabolizm: "Partly metabolised in the liver",
+      chiqarilish: "Mainly renally unchanged; T½ ~3–4 h (prolonged in renal impairment)"
+    },
+    korsatmalar: [
+      "Tuberculosis (all forms) — in combination therapy",
+      "Atypical mycobacterial infections (M. avium complex — in combination)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to ethambutol",
+      "Optic neuritis, inability to assess vision",
+      "Severe renal impairment (dose adjustment, monitoring)",
+      "Children under 5 years (vision hard to assess)"
+    ],
+    nojoya: {
+      "Visual": "Retrobulbar (optic) neuritis — the most important: reduced visual acuity, impaired (red-green) colour vision, visual field constriction (dose-dependent, usually reversible — regular vision monitoring needed)",
+      "CNS": "Peripheral neuropathy, headache, dizziness",
+      "Metabolic": "Hyperuricaemia (raised uric acid — gout flare)",
+      "Gastrointestinal": "Nausea, abdominal pain (rare)",
+      "Hypersensitivity": "Rash, itching (rare)"
+    },
+    dozadan: "Symptoms: visual disturbance, GI symptoms. Treatment: discontinue (for visual symptoms), symptomatic; haemodialysis partially.",
+    ozarotasir: [
+      "Aluminium-containing antacids — reduce absorption (separate by 4 hours)",
+      "Caution with other neurotoxic drugs"
+    ],
+    qollash: {
+      kattalar: "15–20 mg/kg/day once daily (or intermittent 30 mg/kg three times weekly). Check visual acuity and colour vision monthly during treatment.",
+      bolalar: "15–20 mg/kg/day (from 5 years, when vision can be assessed)"
+    },
+    chiqarish: "Tablets 100 mg, 400 mg; within combined antituberculosis tablets"
+  }
 }
 
 };
