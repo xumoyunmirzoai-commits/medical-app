@@ -16191,6 +16191,1222 @@ const PHARMA_DATA = {
     },
     chiqarish: "Film-coated tablets (levofloxacin + ornidazole)"
   }
+},
+
+// ─── J01MA13 · Levofloksatsin ─────────────────────────────────────────────
+"J01MA13": {
+  uz: {
+    gruppa: "Ftorxinolonlar (III avlod, «respirator»)",
+    farmTasir: "Keng spektrli bakteritsid antibiotik",
+    farmakodinamika: `Levofloksatsin — uchinchi avlod («respirator») ftorxinoloni, ofloksatsinning faol levovrashchayushiy (S) izomeri. Bakteriya ДНК-giraza (topoizomeraza II) va topoizomeraza IV ni inhibe qiladi, ДНК replikatsiyasi va transkripsiyasini buzib bakteriya o'limiga olib keladi (bakteritsid). Keng spektrli — gram-musbat (S. pneumoniae, jumladan penitsillinга chidamli, S. aureus — MSSA), gram-manfiy (H. influenzae, Moraxella, Enterobacteriaceae, Pseudomonas) va atipik (Mycoplasma, Chlamydia, Legionella) patogenlarга faol.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali deyarli to'liq so'riladi (biofaollik ~99%); ovqat ta'sir qilmaydi",
+      tarqalish: "Oqsilga ~30–40% bog'lanadi; to'qimaga (o'pka, sinus, prostata, siydik) yuqori konsentratsiyada tarqaladi",
+      metabolizm: "Minimal metabolizmga uchraydi",
+      chiqarilish: "Asosan buyrak orqali o'zgarmagan holda; T½ ~6–8 soat (kuniga 1 marta)"
+    },
+    korsatmalar: [
+      "Jamoada orttirilgan pnevmoniya, surunkali bronxit zo'rayishi, o'tkir sinusit",
+      "Murakkab va asoratsiz siydik yo'llari infeksiyalari, pielonefrit, prostatit",
+      "Teri va yumshoq to'qima infeksiyalari",
+      "Kuydirgi (Anthrax) profilaktikasi; sil (rezistent — kombinatsiyada, zaxira)"
+    ],
+    qarrshi: [
+      "Levofloksatsin yoki ftorxinolonlarга o'ta sezuvchanlik",
+      "Epilepsiya, pay zararlanishi anamnezi",
+      "18 yoshgacha bolalar; homiladorlik va emizish davri",
+      "Uzun QT sindromi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, diareya, qusish, qorin og'rig'i, psevdomembranoz kolit",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyqusizlik, tirishishlar, periferik neyropatiya",
+      "Tayanch-harakat": "Tendinit, pay (Axill) uzilishi xavfi (keksalar/GKS bilan), artralgiya",
+      "Yurak": "QT intervalining uzayishi, aritmiya (kam)",
+      "Metabolik": "Gipo/giperglikemiya (diabetiklarда); allergiya — fotosensibilizatsiya, anafilaksiya"
+    },
+    dozadan: "Belgilar: tirishishlar, QT uzayishi, MNS ta'siri. Davolash: simptomatik, yurak nazorati; gemodializ samarasiz.",
+    ozarotasir: [
+      "Antatsidlar, temir, sink, kalsiy, sukralfat — so'rilishini kamaytiradi (2 soat farq)",
+      "NSAID — tirishish xavfini oshiradi",
+      "Varfarin — antikoagulyant ta'sirini kuchaytiradi (INR nazorati)",
+      "Antidiabetiklar — gликemiyani nazorat qiling; QT uzaytiruvchilar — aritmiya xavfi"
+    ],
+    qollash: {
+      kattalar: "250–750 mg kuniga 1 marta (og'iz yoki v/v), infeksiyaga qarab; kurs 5–14 kun. Buyrak yetishmovchiligida doza moslash.",
+      bolalar: "Tavsiya etilmaydi (faqat kuydirgi kabi alohida holatlarда)"
+    },
+    chiqarish: "Pardali tabletkalar 250 mg, 500 mg, 750 mg; infuziya eritmasi 5 mg/ml; ko'z tomchilari 0,5%"
+  },
+  ru: {
+    gruppa: "Фторхинолоны (III поколение, «респираторные»)",
+    farmTasir: "Бактерицидный антибиотик широкого спектра",
+    farmakodinamika: `Левофлоксацин — фторхинолон третьего («респираторного») поколения, активный левовращающий (S) изомер офлоксацина. Ингибирует ДНК-гиразу (топоизомеразу II) и топоизомеразу IV бактерий, нарушая репликацию и транскрипцию ДНК, что ведёт к гибели бактерии (бактерицидно). Широкий спектр — активен против грамположительных (S. pneumoniae, включая пенициллинрезистентные, S. aureus — MSSA), грамотрицательных (H. influenzae, Moraxella, Enterobacteriaceae, Pseudomonas) и атипичных (Mycoplasma, Chlamydia, Legionella) возбудителей.`,
+    farmakokinetika: {
+      sorish: "Почти полностью всасывается внутрь (биодоступность ~99%); пища не влияет",
+      tarqalish: "Связь с белками ~30–40%; высокие концентрации в тканях (лёгкие, синусы, простата, моча)",
+      metabolizm: "Минимально метаболизируется",
+      chiqarilish: "Преимущественно почками в неизменённом виде; T½ ~6–8 ч (1 раз в день)"
+    },
+    korsatmalar: [
+      "Внебольничная пневмония, обострение хронического бронхита, острый синусит",
+      "Осложнённые и неосложнённые инфекции мочевых путей, пиелонефрит, простатит",
+      "Инфекции кожи и мягких тканей",
+      "Профилактика сибирской язвы; туберкулёз (резистентный — в комбинации, резерв)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к левофлоксацину или фторхинолонам",
+      "Эпилепсия, поражение сухожилий в анамнезе",
+      "Возраст до 18 лет; беременность и период лактации",
+      "Синдром удлинённого QT (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, диарея, рвота, боль в животе, псевдомембранозный колит",
+      "ЦНС": "Головная боль, головокружение, бессонница, судороги, периферическая невропатия",
+      "ОДА": "Тендинит, риск разрыва (ахиллова) сухожилия (у пожилых/с ГКС), артралгия",
+      "Сердце": "Удлинение QT, аритмия (редко)",
+      "Метаболические": "Гипо-/гипергликемия (у диабетиков); аллергия — фотосенсибилизация, анафилаксия"
+    },
+    dozadan: "Симптомы: судороги, удлинение QT, действие на ЦНС. Лечение: симптоматическое, контроль сердца; гемодиализ неэффективен.",
+    ozarotasir: [
+      "Антациды, железо, цинк, кальций, сукральфат — снижают всасывание (интервал 2 часа)",
+      "НПВП — повышают риск судорог",
+      "Варфарин — усиление антикоагулянтного действия (контроль МНО)",
+      "Антидиабетики — контроль гликемии; препараты, удлиняющие QT — риск аритмии"
+    ],
+    qollash: {
+      kattalar: "250–750 мг 1 раз в день (внутрь или в/в), по инфекции; курс 5–14 дней. При почечной недостаточности коррекция дозы.",
+      bolalar: "Не рекомендуется (только в особых случаях, например при сибирской язве)"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 250 мг, 500 мг, 750 мг; раствор для инфузий 5 мг/мл; глазные капли 0,5%"
+  },
+  en: {
+    gruppa: "Fluoroquinolones (3rd generation, respiratory)",
+    farmTasir: "Broad-spectrum bactericidal antibiotic",
+    farmakodinamika: `Levofloxacin is a third-generation (respiratory) fluoroquinolone, the active levorotatory (S) isomer of ofloxacin. It inhibits bacterial DNA gyrase (topoisomerase II) and topoisomerase IV, disrupting DNA replication and transcription, leading to bacterial death (bactericidal). Broad spectrum — active against Gram-positives (S. pneumoniae, including penicillin-resistant, S. aureus — MSSA), Gram-negatives (H. influenzae, Moraxella, Enterobacteriaceae, Pseudomonas) and atypicals (Mycoplasma, Chlamydia, Legionella).`,
+    farmakokinetika: {
+      sorish: "Almost completely absorbed orally (bioavailability ~99%); food has no effect",
+      tarqalish: "Protein binding ~30–40%; high concentrations in tissues (lungs, sinuses, prostate, urine)",
+      metabolizm: "Minimally metabolised",
+      chiqarilish: "Mainly renally unchanged; T½ ~6–8 h (once daily)"
+    },
+    korsatmalar: [
+      "Community-acquired pneumonia, acute exacerbation of chronic bronchitis, acute sinusitis",
+      "Complicated and uncomplicated urinary tract infections, pyelonephritis, prostatitis",
+      "Skin and soft tissue infections",
+      "Anthrax prophylaxis; tuberculosis (resistant — in combination, reserve)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to levofloxacin or fluoroquinolones",
+      "Epilepsy, history of tendon disorders",
+      "Age under 18 years; pregnancy and lactation",
+      "Long QT syndrome (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, diarrhoea, vomiting, abdominal pain, pseudomembranous colitis",
+      "CNS": "Headache, dizziness, insomnia, seizures, peripheral neuropathy",
+      "Musculoskeletal": "Tendinitis, (Achilles) tendon rupture risk (elderly/with corticosteroids), arthralgia",
+      "Cardiac": "QT prolongation, arrhythmia (rare)",
+      "Metabolic": "Hypo-/hyperglycaemia (in diabetics); allergy — photosensitisation, anaphylaxis"
+    },
+    dozadan: "Symptoms: seizures, QT prolongation, CNS effects. Treatment: symptomatic, cardiac monitoring; haemodialysis ineffective.",
+    ozarotasir: [
+      "Antacids, iron, zinc, calcium, sucralfate — reduce absorption (separate by 2 hours)",
+      "NSAIDs — increase seizure risk",
+      "Warfarin — enhanced anticoagulant effect (monitor INR)",
+      "Antidiabetics — monitor glycaemia; QT-prolonging drugs — arrhythmia risk"
+    ],
+    qollash: {
+      kattalar: "250–750 mg once daily (oral or IV), by infection; course 5–14 days. Dose adjustment in renal impairment.",
+      bolalar: "Not recommended (only in special cases such as anthrax)"
+    },
+    chiqarish: "Film-coated tablets 250 mg, 500 mg, 750 mg; infusion solution 5 mg/mL; eye drops 0.5%"
+  }
+},
+
+// ─── J01FF01 · Klindamitsin ───────────────────────────────────────────────
+"J01FF01": {
+  uz: {
+    gruppa: "Linkosamidlar",
+    farmTasir: "Gram-musbat va anaeroblarга qarshi antibiotik",
+    farmakodinamika: `Klindamitsin — linkosamidlar guruhiga mansub antibiotik (linkomitsinning xlorlangan hosilasi, undan faolroq). Bakteriya ribosomasining 50S subbirligiga bog'lanib, oqsil sintezini bloklaydi — bakteriostatik (yuqori konsentratsiyada bakteritsid). Gram-musbat (stafilokokk, jumladan ba'zi MRSA, streptokokk) va anaerob bakteriyalarga (Bacteroides, Peptostreptococcus, Clostridium — C. difficile bundan mustasno) yuqori faollik; Toxoplasma va Plasmodium ga ham (kombinatsiyada). Bakterial токsin (eksotoksin) ishlab chiqarilishini kamaytiradi — og'ir streptokokk/stafilokokk infeksiyalarида foydali.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi (~90%); ovqat sezilarli ta'sir qilmaydi. Parenteral ham mavjud",
+      tarqalish: "Oqsilga yuqori bog'lanadi; suyak va ko'pchilik to'qimaga yaxshi tarqaladi; BBO dan kam o'tadi",
+      metabolizm: "Jigarда metabolizmga uchraydi (faol va faolsiz metabolitlar)",
+      chiqarilish: "O't va siydik bilan; T½ ~2,4–3 soat"
+    },
+    korsatmalar: [
+      "Og'ir teri va yumshoq to'qima infeksiyalari (jumladan nekrozlovchi fassiit, токsik shok — токsin kamaytirish)",
+      "Suyak va bo'g'im infeksiyalari (osteomielit)",
+      "Anaerob infeksiyalar (qorin bo'shlig'i, kichik chanoq, aspiratsion pnevmoniya, abstsess)",
+      "Akne (mahalliy), bakterial vaginoz (mahalliy); toksoplazmoz/malariya (kombinatsiyada)",
+      "Penitsillinга allergiyada endokardit profilaktikasi"
+    ],
+    qarrshi: [
+      "Klindamitsin yoki linkomitsinга o'ta sezuvchanlik",
+      "Yallig'lanishli ichak kasalliklari/antibiotik bilan bog'liq kolit anamnezi",
+      "Og'ir jigar yetishmovchiligi; 1 oygacha chaqaloqlar"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Diareya; psevdomembranoz kolit (Clostridioides difficile) — klindamitsin uchun xarakterli va og'ir nojo'ya ta'sir; ko'ngil aynishi, qusish",
+      "Allergiya": "Toshma, eshakemi, kamdan-kam Stivens-Johnson sindromi, DRESS, anafilaksiya",
+      "Qon tizimi": "Neytropeniya, eozinofiliya, trombotsitopeniya (kam)",
+      "Jigar": "Transaminazalar oshishi, sariqlik",
+      "Mahalliy": "Tez v/v yuborishda gipotenziya/aritmiya; inyeksiya joyida og'riq"
+    },
+    dozadan: "Belgilar: oshqozon-ichak buzilishi. Davolash: simptomatik; kolitда vankomitsin/metronidazol (antiperistaltik vositalar berilmaydi); gemodializ samarasiz.",
+    ozarotasir: [
+      "Eritromitsin (makrolidlar) bilan antagonizm — birga bermang",
+      "Mushak relaksantlari (kurar tipidagi) — nerv-mushak blokadasini kuchaytiradi",
+      "CYP3A4 induktorlari (rifampitsin) konsentratsiyasini kamaytiradi"
+    ],
+    qollash: {
+      kattalar: "Og'iz: 150–450 mg har 6 soatda. Parenteral: 600 mg – 1,2 g har 8–12 soatda v/m yoki v/v (sekin infuziya); og'ir infeksiyada 2,7 g/sut gача.",
+      bolalar: "1 oydan: og'iz 8–25 mg/kg/sut; parenteral 15–40 mg/kg/sut bo'lib"
+    },
+    chiqarish: "Kapsulalar 150 mg, 300 mg; inyeksiya eritmasi 150 mg/ml; mahalliy gel/eritma; vaginal krem"
+  },
+  ru: {
+    gruppa: "Линкозамиды",
+    farmTasir: "Антибиотик против грамположительных и анаэробов",
+    farmakodinamika: `Клиндамицин — антибиотик группы линкозамидов (хлорированное производное линкомицина, активнее него). Связываясь с 50S субъединицей рибосомы, блокирует синтез белка — бактериостатически (в высоких концентрациях бактерицидно). Высокая активность против грамположительных (стафилококки, включая некоторые MRSA, стрептококки) и анаэробных бактерий (Bacteroides, Peptostreptococcus, Clostridium — кроме C. difficile); также против Toxoplasma и Plasmodium (в комбинации). Снижает продукцию бактериальных токсинов (экзотоксинов) — полезно при тяжёлых стрепто-/стафилококковых инфекциях.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь (~90%); пища существенно не влияет. Есть парентеральная форма",
+      tarqalish: "Высокая связь с белками; хорошо распределяется в кости и большинство тканей; плохо через ГЭБ",
+      metabolizm: "Метаболизируется в печени (активные и неактивные метаболиты)",
+      chiqarilish: "С жёлчью и мочой; T½ ~2,4–3 ч"
+    },
+    korsatmalar: [
+      "Тяжёлые инфекции кожи и мягких тканей (в т.ч. некротизирующий фасциит, токсический шок — снижение токсинов)",
+      "Инфекции костей и суставов (остеомиелит)",
+      "Анаэробные инфекции (брюшная полость, малый таз, аспирационная пневмония, абсцесс)",
+      "Акне (местно), бактериальный вагиноз (местно); токсоплазмоз/малярия (в комбинации)",
+      "Профилактика эндокардита при аллергии на пенициллин"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к клиндамицину или линкомицину",
+      "Воспалительные заболевания кишечника/антибиотикассоциированный колит в анамнезе",
+      "Тяжёлая печёночная недостаточность; дети до 1 месяца"
+    ],
+    nojoya: {
+      "ЖКТ": "Диарея; псевдомембранозный колит (Clostridioides difficile) — характерное и тяжёлое нежелательное явление для клиндамицина; тошнота, рвота",
+      "Аллергические": "Сыпь, крапивница, редко синдром Стивенса–Джонсона, DRESS, анафилаксия",
+      "Кроветворение": "Нейтропения, эозинофилия, тромбоцитопения (редко)",
+      "Печень": "Повышение трансаминаз, желтуха",
+      "Местные": "При быстром в/в введении гипотензия/аритмия; боль в месте инъекции"
+    },
+    dozadan: "Симптомы: расстройство ЖКТ. Лечение: симптоматическое; при колите ванкомицин/метронидазол (антиперистальтические средства не давать); гемодиализ неэффективен.",
+    ozarotasir: [
+      "Антагонизм с эритромицином (макролидами) — не назначать вместе",
+      "Миорелаксанты (курареподобные) — усиление нервно-мышечной блокады",
+      "Индукторы CYP3A4 (рифампицин) снижают концентрацию"
+    ],
+    qollash: {
+      kattalar: "Внутрь: 150–450 мг каждые 6 ч. Парентерально: 600 мг – 1,2 г каждые 8–12 ч в/м или в/в (медленная инфузия); при тяжёлой инфекции до 2,7 г/сут.",
+      bolalar: "С 1 месяца: внутрь 8–25 мг/кг/сут; парентерально 15–40 мг/кг/сут дробно"
+    },
+    chiqarish: "Капсулы 150 мг, 300 мг; раствор для инъекций 150 мг/мл; гель/раствор местно; вагинальный крем"
+  },
+  en: {
+    gruppa: "Lincosamides",
+    farmTasir: "Antibiotic against Gram-positives and anaerobes",
+    farmakodinamika: `Clindamycin is a lincosamide antibiotic (a chlorinated derivative of lincomycin, more active than it). By binding to the 50S ribosomal subunit, it blocks protein synthesis — bacteriostatic (bactericidal at high concentrations). It has high activity against Gram-positives (staphylococci, including some MRSA, streptococci) and anaerobic bacteria (Bacteroides, Peptostreptococcus, Clostridium — except C. difficile); also against Toxoplasma and Plasmodium (in combination). It reduces bacterial toxin (exotoxin) production — useful in severe strepto-/staphylococcal infections.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally (~90%); food has no significant effect. A parenteral form exists",
+      tarqalish: "High protein binding; distributes well into bone and most tissues; poorly across the BBB",
+      metabolizm: "Metabolised in the liver (active and inactive metabolites)",
+      chiqarilish: "In bile and urine; T½ ~2.4–3 h"
+    },
+    korsatmalar: [
+      "Severe skin and soft tissue infections (including necrotising fasciitis, toxic shock — toxin reduction)",
+      "Bone and joint infections (osteomyelitis)",
+      "Anaerobic infections (abdominal, pelvic, aspiration pneumonia, abscess)",
+      "Acne (topical), bacterial vaginosis (topical); toxoplasmosis/malaria (in combination)",
+      "Endocarditis prophylaxis in penicillin allergy"
+    ],
+    qarrshi: [
+      "Hypersensitivity to clindamycin or lincomycin",
+      "History of inflammatory bowel disease/antibiotic-associated colitis",
+      "Severe hepatic impairment; infants under 1 month"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Diarrhoea; pseudomembranous colitis (Clostridioides difficile) — a characteristic and serious adverse effect of clindamycin; nausea, vomiting",
+      "Hypersensitivity": "Rash, urticaria, rarely Stevens–Johnson syndrome, DRESS, anaphylaxis",
+      "Haematological": "Neutropenia, eosinophilia, thrombocytopenia (rare)",
+      "Hepatic": "Raised transaminases, jaundice",
+      "Local": "Hypotension/arrhythmia with rapid IV; injection-site pain"
+    },
+    dozadan: "Symptoms: GI disturbance. Treatment: symptomatic; for colitis vancomycin/metronidazole (do not give antiperistaltic agents); haemodialysis ineffective.",
+    ozarotasir: [
+      "Antagonism with erythromycin (macrolides) — do not co-administer",
+      "Muscle relaxants (curare-type) — enhanced neuromuscular blockade",
+      "CYP3A4 inducers (rifampicin) reduce concentration"
+    ],
+    qollash: {
+      kattalar: "Oral: 150–450 mg every 6 h. Parenteral: 600 mg – 1.2 g every 8–12 h IM or IV (slow infusion); up to 2.7 g/day in severe infection.",
+      bolalar: "From 1 month: oral 8–25 mg/kg/day; parenteral 15–40 mg/kg/day divided"
+    },
+    chiqarish: "Capsules 150 mg, 300 mg; injection solution 150 mg/mL; topical gel/solution; vaginal cream"
+  }
+},
+
+// ─── J01MA06 · Norfloksatsin ──────────────────────────────────────────────
+"J01MA06": {
+  uz: {
+    gruppa: "Ftorxinolonlar (II avlod)",
+    farmTasir: "Siydik-ichak yo'llariга yo'naltirilgan bakteritsid antibiotik",
+    farmakodinamika: `Norfloksatsin — ikkinchi avlod ftorxinoloni. Bakteriya ДНК-giraza va topoizomeraza IV ni inhibe qilib ДНК sintezini buzadi (bakteritsid). Gram-manfiy bakteriyalarga (E. coli, Klebsiella, Proteus, Enterobacter, N. gonorrhoeae, Pseudomonas) va ba'zi gram-musbatlarга faol. Tizimli to'qimaдa konsentratsiyasi past, lekin siydik va ichak luminида yuqori — shu sababli asosan siydik yo'llari va ichak infeksiyalarida qo'llaniladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali qisman so'riladi (~30–40%); ovqat so'rilishni kamaytiradi",
+      tarqalish: "Oqsilga ~15% bog'lanadi; buyrak, prostata va siydik yo'llarида yuqori konsentratsiya",
+      metabolizm: "Jigarда qisman metabolizmga uchraydi",
+      chiqarilish: "Buyrak va o't bilan; T½ ~3–4 soat"
+    },
+    korsatmalar: [
+      "O'tkir va surunkali siydik yo'llari infeksiyalari (sistit, pielonefrit, prostatit)",
+      "Bakterial gastroenterit, sayohatchilar diareyasi (Shigella, Salmonella, E. coli)",
+      "Asoratsiz gonoreya",
+      "Sirroz fonidagi spontan bakterial peritonit profilaktikasi"
+    ],
+    qarrshi: [
+      "Norfloksatsin yoki ftorxinolonlarга o'ta sezuvchanlik",
+      "18 yoshgacha bolalar; homiladorlik va emizish davri",
+      "Pay zararlanishi anamnezi; epilepsiya (ehtiyotkorlik)",
+      "G6FD yetishmovchiligi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, diareya, psevdomembranoz kolit",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyqusizlik, tirishishlar (kam)",
+      "Tayanch-harakat": "Tendinit, pay uzilishi xavfi, artralgiya",
+      "Allergiya": "Toshma, fotosensibilizatsiya, kamdan-kam anafilaksiya",
+      "Buyrak": "Kristalluriya (kam suv ichganда)"
+    },
+    dozadan: "Belgilar: tirishishlar, bosh aylanishi. Davolash: simptomatik, ko'p suyuqlik; gemodializ samarasiz.",
+    ozarotasir: [
+      "Antatsidlar, temir, sink, kalsiy, sukralfat — so'rilishini kamaytiradi (2 soat farq)",
+      "Teofillin, kofein — konsentratsiyasini oshiradi",
+      "Varfarin — ta'sirini kuchaytiradi; NSAID — tirishish xavfi",
+      "Siklosporin — nefrotoksiklik xavfini oshiradi"
+    ],
+    qollash: {
+      kattalar: "400 mg kuniga 2 marta bo'sh oshqozonga (ovqatdan 1 soat oldin/2 soat keyin); sistitда 3 kun, pielonefritда 7–10 kun, prostatitда 28 kungача. Gonoreya: 800 mg bir marta.",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "Pardali tabletkalar 400 mg; ko'z tomchilari (mahalliy)"
+  },
+  ru: {
+    gruppa: "Фторхинолоны (II поколение)",
+    farmTasir: "Бактерицидный антибиотик с акцентом на мочевые и кишечные пути",
+    farmakodinamika: `Норфлоксацин — фторхинолон второго поколения. Ингибируя ДНК-гиразу и топоизомеразу IV, нарушает синтез ДНК (бактерицидно). Активен против грамотрицательных бактерий (E. coli, Klebsiella, Proteus, Enterobacter, N. gonorrhoeae, Pseudomonas) и некоторых грамположительных. Низкая концентрация в системных тканях, но высокая в моче и просвете кишки — поэтому применяется преимущественно при инфекциях мочевых путей и кишечника.`,
+    farmakokinetika: {
+      sorish: "Частично всасывается внутрь (~30–40%); пища снижает всасывание",
+      tarqalish: "Связь с белками ~15%; высокие концентрации в почках, простате и мочевых путях",
+      metabolizm: "Частично метаболизируется в печени",
+      chiqarilish: "С мочой и жёлчью; T½ ~3–4 ч"
+    },
+    korsatmalar: [
+      "Острые и хронические инфекции мочевых путей (цистит, пиелонефрит, простатит)",
+      "Бактериальный гастроэнтерит, диарея путешественников (Shigella, Salmonella, E. coli)",
+      "Неосложнённая гонорея",
+      "Профилактика спонтанного бактериального перитонита при циррозе"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к норфлоксацину или фторхинолонам",
+      "Возраст до 18 лет; беременность и период лактации",
+      "Поражение сухожилий в анамнезе; эпилепсия (с осторожностью)",
+      "Дефицит Г6ФД"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, боль в животе, диарея, псевдомембранозный колит",
+      "ЦНС": "Головная боль, головокружение, бессонница, судороги (редко)",
+      "ОДА": "Тендинит, риск разрыва сухожилия, артралгия",
+      "Аллергические": "Сыпь, фотосенсибилизация, редко анафилаксия",
+      "Почки": "Кристаллурия (при недостатке жидкости)"
+    },
+    dozadan: "Симптомы: судороги, головокружение. Лечение: симптоматическое, обильное питьё; гемодиализ неэффективен.",
+    ozarotasir: [
+      "Антациды, железо, цинк, кальций, сукральфат — снижают всасывание (интервал 2 часа)",
+      "Теофиллин, кофеин — повышение концентрации",
+      "Варфарин — усиление действия; НПВП — риск судорог",
+      "Циклоспорин — повышает риск нефротоксичности"
+    ],
+    qollash: {
+      kattalar: "400 мг 2 раза в день натощак (за 1 ч до/через 2 ч после еды); при цистите 3 дня, пиелонефрите 7–10 дней, простатите до 28 дней. Гонорея: 800 мг однократно.",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 400 мг; глазные капли (местно)"
+  },
+  en: {
+    gruppa: "Fluoroquinolones (2nd generation)",
+    farmTasir: "Bactericidal antibiotic with a urinary/intestinal focus",
+    farmakodinamika: `Norfloxacin is a second-generation fluoroquinolone. By inhibiting DNA gyrase and topoisomerase IV, it disrupts DNA synthesis (bactericidal). It is active against Gram-negative bacteria (E. coli, Klebsiella, Proteus, Enterobacter, N. gonorrhoeae, Pseudomonas) and some Gram-positives. Concentrations in systemic tissues are low but high in urine and the bowel lumen — so it is used mainly for urinary and intestinal infections.`,
+    farmakokinetika: {
+      sorish: "Partly absorbed orally (~30–40%); food reduces absorption",
+      tarqalish: "Protein binding ~15%; high concentrations in kidneys, prostate and urinary tract",
+      metabolizm: "Partly metabolised in the liver",
+      chiqarilish: "In urine and bile; T½ ~3–4 h"
+    },
+    korsatmalar: [
+      "Acute and chronic urinary tract infections (cystitis, pyelonephritis, prostatitis)",
+      "Bacterial gastroenteritis, traveller's diarrhoea (Shigella, Salmonella, E. coli)",
+      "Uncomplicated gonorrhoea",
+      "Prophylaxis of spontaneous bacterial peritonitis in cirrhosis"
+    ],
+    qarrshi: [
+      "Hypersensitivity to norfloxacin or fluoroquinolones",
+      "Age under 18 years; pregnancy and lactation",
+      "History of tendon disorders; epilepsy (caution)",
+      "G6PD deficiency"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, abdominal pain, diarrhoea, pseudomembranous colitis",
+      "CNS": "Headache, dizziness, insomnia, seizures (rare)",
+      "Musculoskeletal": "Tendinitis, tendon rupture risk, arthralgia",
+      "Hypersensitivity": "Rash, photosensitisation, rarely anaphylaxis",
+      "Renal": "Crystalluria (with inadequate fluids)"
+    },
+    dozadan: "Symptoms: seizures, dizziness. Treatment: symptomatic, ample fluids; haemodialysis ineffective.",
+    ozarotasir: [
+      "Antacids, iron, zinc, calcium, sucralfate — reduce absorption (separate by 2 hours)",
+      "Theophylline, caffeine — raised concentration",
+      "Warfarin — enhanced effect; NSAIDs — seizure risk",
+      "Ciclosporin — increases nephrotoxicity risk"
+    ],
+    qollash: {
+      kattalar: "400 mg twice daily on an empty stomach (1 h before/2 h after food); cystitis 3 days, pyelonephritis 7–10 days, prostatitis up to 28 days. Gonorrhoea: 800 mg single dose.",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Film-coated tablets 400 mg; eye drops (topical)"
+  }
+},
+
+// ─── J01XA02 · Teykoplanin ────────────────────────────────────────────────
+"J01XA02": {
+  uz: {
+    gruppa: "Glikopeptid antibiotiklari",
+    farmTasir: "Rezistent gram-musbatlarга qarshi bakteritsid antibiotik",
+    farmakodinamika: `Teykoplanin — glikopeptid antibiotik (vankomitsinга o'xshash). Bakteriya hujayra devori peptidoglikan prekursorining D-alanil-D-alanin terminal qismiga bog'lanib, hujayra devori sintezini to'sadi — bakteritsid ta'sir (faqat gram-musbatlarga, chunki molekulasi yirik va gram-manfiy tashqi membranadan o'tmaydi). Stafilokokk (MRSA ham), streptokokk, enterokokk va Clostridioides difficile ga faol. Vankomitsindan farqi — uzunroq ta'sir (kuniga 1 marta), kamroq nefrotoksik va «qizil bo'yin sindromi» kamroq, v/m yuborish mumkin.`,
+    farmakokinetika: {
+      sorish: "Parenteral (v/v, v/m); og'iz orqali so'rilmaydi (C. difficile kolitida og'iz orqali mahalliy)",
+      tarqalish: "Oqsilga yuqori bog'lanadi (~90%); to'qimaga tarqaladi, BBO dan kam o'tadi",
+      metabolizm: "Deyarli metabolizmga uchramaydi",
+      chiqarilish: "Asosan buyrak orqali; T½ juda uzun (~70–100 soat)"
+    },
+    korsatmalar: [
+      "Og'ir gram-musbat infeksiyalar (MRSA, metitsillin-rezistent stafilokokk): sepsis, endokardit",
+      "Suyak-bo'g'im infeksiyalari, teri-yumshoq to'qima infeksiyalari, pnevmoniya",
+      "Peritonit (peritoneal dializда), endokardit profilaktikasi (penitsillin allergiyasida)",
+      "Clostridioides difficile koliti (og'iz orqali — muqobil)"
+    ],
+    qarrshi: [
+      "Teykoplanin yoki vankomitsinга o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi (doza moslash)",
+      "Eshitish buzilishi anamnezi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Allergiya": "Toshma, isitma, eshakemi, kamdan-kam anafilaksiya; «qizil bo'yin sindromi» (vankomitsindan kamroq)",
+      "Buyrak": "Nefrotoksiklik (vankomitsindan kamroq)",
+      "Sezgi": "Ototoksiklik (kam)",
+      "Qon tizimi": "Trombotsitopeniya, leykopeniya, eozinofiliya",
+      "Mahalliy": "Inyeksiya joyida og'riq, flebit"
+    },
+    dozadan: "Belgilar: toksiklik (buyrak, eshitish). Davolash: simptomatik; gemodializ samarasiz (oqsilga yuqori bog'lanadi).",
+    ozarotasir: [
+      "Boshqa nefro/ototoksik dorilar (aminoglikozidlar, amfoteritsin B, sisplatin, petlali diuretiklar) — toksiklikni kuchaytiradi"
+    ],
+    qollash: {
+      kattalar: "Yuklama: 400 mg (yoki 6 mg/kg) har 12 soatda 3 doza, keyin 400 mg (6 mg/kg) kuniga 1 marta. Og'ir infeksiyada yuqoriroq. Buyrak yetishmovchiligida doza moslash.",
+      bolalar: "Yuklama 10 mg/kg har 12 soatda 3 doza, keyin 6–10 mg/kg kuniga 1 marta"
+    },
+    chiqarish: "V/v va v/m inyeksiya uchun kukun 200 mg, 400 mg (flakonlar)"
+  },
+  ru: {
+    gruppa: "Антибиотики группы гликопептидов",
+    farmTasir: "Бактерицидный антибиотик против резистентных грамположительных",
+    farmakodinamika: `Тейкопланин — гликопептидный антибиотик (сходен с ванкомицином). Связываясь с терминальным D-аланил-D-аланином предшественника пептидогликана клеточной стенки, блокирует её синтез — бактерицидное действие (только на грамположительные, так как крупная молекула не проникает через наружную мембрану грамотрицательных). Активен против стафилококков (включая MRSA), стрептококков, энтерококков и Clostridioides difficile. Отличие от ванкомицина — более длительное действие (1 раз в день), меньшая нефротоксичность и реже «синдром красной шеи», возможно в/м введение.`,
+    farmakokinetika: {
+      sorish: "Парентерально (в/в, в/м); внутрь не всасывается (при колите C. difficile — внутрь местно)",
+      tarqalish: "Высокая связь с белками (~90%); распределяется в ткани, плохо через ГЭБ",
+      metabolizm: "Почти не метаболизируется",
+      chiqarilish: "Преимущественно почками; T½ очень длинный (~70–100 ч)"
+    },
+    korsatmalar: [
+      "Тяжёлые грамположительные инфекции (MRSA, метициллинрезистентные стафилококки): сепсис, эндокардит",
+      "Инфекции костей и суставов, кожи и мягких тканей, пневмония",
+      "Перитонит (при перитонеальном диализе), профилактика эндокардита (при аллергии на пенициллин)",
+      "Колит Clostridioides difficile (внутрь — альтернатива)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к тейкопланину или ванкомицину",
+      "Тяжёлая почечная недостаточность (коррекция дозы)",
+      "Нарушение слуха в анамнезе (с осторожностью)"
+    ],
+    nojoya: {
+      "Аллергические": "Сыпь, лихорадка, крапивница, редко анафилаксия; «синдром красной шеи» (реже, чем у ванкомицина)",
+      "Почки": "Нефротоксичность (меньше, чем у ванкомицина)",
+      "Органы чувств": "Ототоксичность (редко)",
+      "Кроветворение": "Тромбоцитопения, лейкопения, эозинофилия",
+      "Местные": "Боль в месте инъекции, флебит"
+    },
+    dozadan: "Симптомы: токсичность (почки, слух). Лечение: симптоматическое; гемодиализ неэффективен (высокая связь с белками).",
+    ozarotasir: [
+      "Другие нефро-/ототоксичные препараты (аминогликозиды, амфотерицин В, цисплатин, петлевые диуретики) — усиление токсичности"
+    ],
+    qollash: {
+      kattalar: "Нагрузка: 400 мг (или 6 мг/кг) каждые 12 ч 3 дозы, затем 400 мг (6 мг/кг) 1 раз в день. При тяжёлой инфекции выше. При почечной недостаточности коррекция дозы.",
+      bolalar: "Нагрузка 10 мг/кг каждые 12 ч 3 дозы, затем 6–10 мг/кг 1 раз в день"
+    },
+    chiqarish: "Порошок для в/в и в/м инъекций 200 мг, 400 мг (флаконы)"
+  },
+  en: {
+    gruppa: "Glycopeptide antibiotics",
+    farmTasir: "Bactericidal antibiotic against resistant Gram-positives",
+    farmakodinamika: `Teicoplanin is a glycopeptide antibiotic (similar to vancomycin). By binding to the terminal D-alanyl-D-alanine of the peptidoglycan precursor of the cell wall, it blocks cell wall synthesis — bactericidal (only against Gram-positives, as the large molecule does not cross the Gram-negative outer membrane). It is active against staphylococci (including MRSA), streptococci, enterococci and Clostridioides difficile. Unlike vancomycin it has longer action (once daily), less nephrotoxicity and less "red man syndrome", and can be given IM.`,
+    farmakokinetika: {
+      sorish: "Parenteral (IV, IM); not absorbed orally (oral local use in C. difficile colitis)",
+      tarqalish: "High protein binding (~90%); distributes into tissues, poorly across the BBB",
+      metabolizm: "Barely metabolised",
+      chiqarilish: "Mainly renally; T½ very long (~70–100 h)"
+    },
+    korsatmalar: [
+      "Severe Gram-positive infections (MRSA, methicillin-resistant staphylococci): sepsis, endocarditis",
+      "Bone and joint infections, skin and soft tissue infections, pneumonia",
+      "Peritonitis (in peritoneal dialysis), endocarditis prophylaxis (in penicillin allergy)",
+      "Clostridioides difficile colitis (oral — alternative)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to teicoplanin or vancomycin",
+      "Severe renal impairment (dose adjustment)",
+      "History of hearing impairment (caution)"
+    ],
+    nojoya: {
+      "Hypersensitivity": "Rash, fever, urticaria, rarely anaphylaxis; red man syndrome (less than vancomycin)",
+      "Renal": "Nephrotoxicity (less than vancomycin)",
+      "Sensory": "Ototoxicity (rare)",
+      "Haematological": "Thrombocytopenia, leucopenia, eosinophilia",
+      "Local": "Injection-site pain, phlebitis"
+    },
+    dozadan: "Symptoms: toxicity (renal, auditory). Treatment: symptomatic; haemodialysis ineffective (highly protein-bound).",
+    ozarotasir: [
+      "Other nephro-/ototoxic drugs (aminoglycosides, amphotericin B, cisplatin, loop diuretics) — enhanced toxicity"
+    ],
+    qollash: {
+      kattalar: "Loading: 400 mg (or 6 mg/kg) every 12 h for 3 doses, then 400 mg (6 mg/kg) once daily. Higher in severe infection. Dose adjustment in renal impairment.",
+      bolalar: "Loading 10 mg/kg every 12 h for 3 doses, then 6–10 mg/kg once daily"
+    },
+    chiqarish: "Powder for IV and IM injection 200 mg, 400 mg (vials)"
+  }
+},
+
+// ─── J01XB01 · Kolistin (polimiksin E) ────────────────────────────────────
+"J01XB01": {
+  uz: {
+    gruppa: "Polimiksinlar",
+    farmTasir: "Multirezistent gram-manfiylarга qarshi zaxira bakteritsid antibiotik",
+    farmakodinamika: `Kolistin (polimiksin E) — polimiksinlar guruhiga mansub siklik polipeptid antibiotik. Kation (musbat zaryadli) molekulasi gram-manfiy bakteriya tashqi membranasidagi lipopolisaxarid (LPS) fosfat guruhlariga bog'lanib, membrana yaxlitligini buzadi, hujayra komponentlari chiqib ketadi va bakteriya halok bo'ladi (bakteritsid, deterjentга o'xshash ta'sir). Multirezistent gram-manfiy bakteriyalarга (Pseudomonas aeruginosa, Acinetobacter baumannii, Klebsiella — jumladan karbapenem-rezistent) faol. Gram-musbat va anaeroblarга ta'sir qilmaydi. Toksikligi sababli zaxira («so'nggi chora») antibiotigi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan so'rilmaydi; parenteral (kolistimetat natriy — prodori) yoki ingalyatsion. Og'iz — faqat ichakni sterillash uchun",
+      tarqalish: "To'qimaga cheklangan tarqaladi; BBO dan yomon o'tadi",
+      metabolizm: "Kolistimetat faol kolistinga gidroliz bo'ladi",
+      chiqarilish: "Asosan buyrak orqali; doza buyrak funksiyasiga qarab moslanadi"
+    },
+    korsatmalar: [
+      "Multirezistent gram-manfiy bakteriyalar keltirib chiqargan og'ir infeksiyalar (nozokomial pnevmoniya, sepsis, siydik yo'llari)",
+      "Kistoz fibrozда Pseudomonas o'pka infeksiyasi (ingalyatsion)",
+      "Ichakni selektiv dekontaminatsiya qilish (og'iz orqali)",
+      "Mahalliy: ko'z, teri, quloq infeksiyalari (kombinatsiyalarda)"
+    ],
+    qarrshi: [
+      "Polimiksinlarга o'ta sezuvchanlik",
+      "Miasteniya (nerv-mushak blokadasi)",
+      "Og'ir buyrak yetishmovchiligi (ehtiyotkorlik, doza moslash)"
+    ],
+    nojoya: {
+      "Buyrak": "Nefrotoksiklik (doza-bog'liq, qaytar — eng muhim cheklovchi ta'sir)",
+      "Asab tizimi": "Neyrotoksiklik — paresteziya, bosh aylanishi, ataksiya, nerv-mushak blokadasi (nafas falaji xavfi)",
+      "Nafas": "Ingalyatsion shaklда bronxospazm, yo'tal",
+      "Allergiya": "Toshma, qichishish, isitma"
+    },
+    dozadan: "Belgilar: o'tkir buyrak shikastlanishi, nerv-mushak blokadasi (nafas falaji). Davolash: preparatni to'xtatish, nafas qo'llab-quvvatlash; kalsiy tuzlari blokadaда; gemodializ qisman.",
+    ozarotasir: [
+      "Boshqa nefrotoksik dorilar (aminoglikozidlar, vankomitsin, amfoteritsin B) — nefrotoksiklikni kuchaytiradi",
+      "Mushak relaksantlari, anesteziya, aminoglikozidlar — nerv-mushak blokadasini kuchaytiradi"
+    ],
+    qollash: {
+      kattalar: "Doza xalqaro birlik (MID) yoki kolistin asosiga (CBA) hisoblanadi; odatda yuklama keyin 9 mln MID/sut 2–3 qabulда v/v (og'ir infeksiya). Buyrak funksiyasiga qarab aniq moslanadi. Faqat statsionar/mutaxassis nazoratida.",
+      bolalar: "Vaznга va buyrak funksiyasiga qarab, mutaxassis nazoratida"
+    },
+    chiqarish: "V/v inyeksiya uchun kukun (kolistimetat natriy); ingalyatsion shakl; mahalliy preparatlar"
+  },
+  ru: {
+    gruppa: "Полимиксины",
+    farmTasir: "Резервный бактерицидный антибиотик против мультирезистентных грамотрицательных",
+    farmakodinamika: `Колистин (полимиксин E) — циклический полипептидный антибиотик группы полимиксинов. Катионная (положительно заряженная) молекула связывается с фосфатными группами липополисахарида (ЛПС) наружной мембраны грамотрицательных бактерий, нарушает целостность мембраны, компоненты клетки выходят, и бактерия погибает (бактерицидно, по типу детергента). Активен против мультирезистентных грамотрицательных бактерий (Pseudomonas aeruginosa, Acinetobacter baumannii, Klebsiella — включая карбапенемрезистентные). Не действует на грамположительные и анаэробы. Из-за токсичности — резервный антибиотик («последней линии»).`,
+    farmakokinetika: {
+      sorish: "Не всасывается из ЖКТ; парентерально (колистиметат натрия — пролекарство) или ингаляционно. Внутрь — только для стерилизации кишечника",
+      tarqalish: "Ограниченно распределяется в ткани; плохо через ГЭБ",
+      metabolizm: "Колистиметат гидролизуется до активного колистина",
+      chiqarilish: "Преимущественно почками; доза корректируется по функции почек"
+    },
+    korsatmalar: [
+      "Тяжёлые инфекции, вызванные мультирезистентными грамотрицательными бактериями (нозокомиальная пневмония, сепсис, мочевые пути)",
+      "Лёгочная инфекция Pseudomonas при муковисцидозе (ингаляционно)",
+      "Селективная деконтаминация кишечника (внутрь)",
+      "Местно: инфекции глаз, кожи, ушей (в комбинациях)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к полимиксинам",
+      "Миастения (нервно-мышечная блокада)",
+      "Тяжёлая почечная недостаточность (с осторожностью, коррекция дозы)"
+    ],
+    nojoya: {
+      "Почки": "Нефротоксичность (дозозависимая, обратимая — главный ограничивающий эффект)",
+      "ЦНС": "Нейротоксичность — парестезии, головокружение, атаксия, нервно-мышечная блокада (риск паралича дыхания)",
+      "Дыхательная": "При ингаляции бронхоспазм, кашель",
+      "Аллергические": "Сыпь, зуд, лихорадка"
+    },
+    dozadan: "Симптомы: острое почечное повреждение, нервно-мышечная блокада (паралич дыхания). Лечение: отмена препарата, дыхательная поддержка; соли кальция при блокаде; гемодиализ частично.",
+    ozarotasir: [
+      "Другие нефротоксичные препараты (аминогликозиды, ванкомицин, амфотерицин В) — усиление нефротоксичности",
+      "Миорелаксанты, анестезия, аминогликозиды — усиление нервно-мышечной блокады"
+    ],
+    qollash: {
+      kattalar: "Доза в международных единицах (МЕ) или по колистиновому основанию; обычно нагрузочная, затем 9 млн МЕ/сут в 2–3 приёма в/в (тяжёлая инфекция). Точно корректируется по функции почек. Только под контролем стационара/специалиста.",
+      bolalar: "По массе и функции почек, под контролем специалиста"
+    },
+    chiqarish: "Порошок для в/в инъекций (колистиметат натрия); ингаляционная форма; местные препараты"
+  },
+  en: {
+    gruppa: "Polymyxins",
+    farmTasir: "Reserve bactericidal antibiotic against multidrug-resistant Gram-negatives",
+    farmakodinamika: `Colistin (polymyxin E) is a cyclic polypeptide antibiotic of the polymyxin group. Its cationic (positively charged) molecule binds to the phosphate groups of lipopolysaccharide (LPS) in the Gram-negative outer membrane, disrupts membrane integrity, cell components leak out, and the bacterium dies (bactericidal, detergent-like action). It is active against multidrug-resistant Gram-negative bacteria (Pseudomonas aeruginosa, Acinetobacter baumannii, Klebsiella — including carbapenem-resistant). It does not act on Gram-positives or anaerobes. Owing to its toxicity it is a reserve ("last-line") antibiotic.`,
+    farmakokinetika: {
+      sorish: "Not absorbed from the GI tract; parenteral (colistimethate sodium — prodrug) or inhaled. Oral use only for bowel sterilisation",
+      tarqalish: "Limited tissue distribution; poorly across the BBB",
+      metabolizm: "Colistimethate is hydrolysed to active colistin",
+      chiqarilish: "Mainly renally; dose adjusted to renal function"
+    },
+    korsatmalar: [
+      "Severe infections caused by multidrug-resistant Gram-negative bacteria (nosocomial pneumonia, sepsis, urinary tract)",
+      "Pseudomonas lung infection in cystic fibrosis (inhaled)",
+      "Selective bowel decontamination (oral)",
+      "Topical: eye, skin, ear infections (in combinations)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to polymyxins",
+      "Myasthenia (neuromuscular blockade)",
+      "Severe renal impairment (caution, dose adjustment)"
+    ],
+    nojoya: {
+      "Renal": "Nephrotoxicity (dose-dependent, reversible — the main limiting effect)",
+      "CNS": "Neurotoxicity — paraesthesia, dizziness, ataxia, neuromuscular blockade (respiratory paralysis risk)",
+      "Respiratory": "Bronchospasm, cough with inhalation",
+      "Hypersensitivity": "Rash, itching, fever"
+    },
+    dozadan: "Symptoms: acute kidney injury, neuromuscular blockade (respiratory paralysis). Treatment: discontinue, respiratory support; calcium salts for blockade; haemodialysis partially.",
+    ozarotasir: [
+      "Other nephrotoxic drugs (aminoglycosides, vancomycin, amphotericin B) — enhanced nephrotoxicity",
+      "Muscle relaxants, anaesthesia, aminoglycosides — enhanced neuromuscular blockade"
+    ],
+    qollash: {
+      kattalar: "Dose in international units (IU) or as colistin base; usually a loading dose then 9 million IU/day in 2–3 divided doses IV (severe infection). Adjusted precisely to renal function. Only under inpatient/specialist supervision.",
+      bolalar: "By weight and renal function, under specialist supervision"
+    },
+    chiqarish: "Powder for IV injection (colistimethate sodium); inhaled form; topical preparations"
+  }
+},
+
+// ─── J01XB02 · Polimiksin B ───────────────────────────────────────────────
+"J01XB02": {
+  uz: {
+    gruppa: "Polimiksinlar",
+    farmTasir: "Gram-manfiylarга qarshi zaxira bakteritsid antibiotik",
+    farmakodinamika: `Polimiksin B — polimiksinlar guruhiga mansub siklik polipeptid antibiotik. Kation molekulasi gram-manfiy bakteriya tashqi membranasidagi lipopolisaxarid fosfat guruhlariga bog'lanib, membrana o'tkazuvchanligini buzadi (deterjentга o'xshash), hujayra komponentlari chiqib ketadi va bakteriya halok bo'ladi (bakteritsid). Shuningdek endotoksin (LPS) ni bog'lab zararsizlantiradi. Pseudomonas aeruginosa, Acinetobacter, Klebsiella, E. coli (jumladan multirezistent) ga faol; Proteus, gram-musbat va anaeroblarга ta'sir qilmaydi. Toksikligi sababli zaxira antibiotigi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan so'rilmaydi; parenteral (v/v, v/m) yoki mahalliy",
+      tarqalish: "To'qimaga cheklangan tarqaladi; BBO dan yomon o'tadi",
+      metabolizm: "Deyarli metabolizmga uchramaydi",
+      chiqarilish: "Asosan buyrak orqali (sekin); doza buyrak funksiyasiga qarab"
+    },
+    korsatmalar: [
+      "Multirezistent gram-manfiy bakteriyalar keltirib chiqargan og'ir infeksiyalar (sepsis, siydik yo'llari, meningit — intratekal)",
+      "Mahalliy: ko'z, quloq, teri infeksiyalari (ko'pincha kombinatsiyalarda)",
+      "Endotoksemiya/sepsis (LPS bog'lash — yordamchi)"
+    ],
+    qarrshi: [
+      "Polimiksinlarга o'ta sezuvchanlik",
+      "Miasteniya (nerv-mushak blokadasi)",
+      "Og'ir buyrak yetishmovchiligi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Buyrak": "Nefrotoksiklik (doza-bog'liq — asosiy cheklovchi ta'sir)",
+      "Asab tizimi": "Neyrotoksiklik — paresteziya, bosh aylanishi, nerv-mushak blokadasi (nafas falaji xavfi)",
+      "Allergiya": "Toshma, qichishish, isitma, gistamin chiqishi (mahalliy)",
+      "Mahalliy": "Inyeksiya joyida og'riq, tromboflebit"
+    },
+    dozadan: "Belgilar: o'tkir buyrak shikastlanishi, nerv-mushak blokadasi (nafas falaji). Davolash: preparatni to'xtatish, nafas qo'llab-quvvatlash, kalsiy tuzlari; gemodializ qisman.",
+    ozarotasir: [
+      "Boshqa nefrotoksik dorilar (aminoglikozidlar, vankomitsin, amfoteritsin B) — nefrotoksiklikni kuchaytiradi",
+      "Mushak relaksantlari, anesteziya, aminoglikozidlar — nerv-mushak blokadasini kuchaytiradi"
+    ],
+    qollash: {
+      kattalar: "V/v: 15 000–25 000 ХБ/kg/sut 2 qabulда (maks. 2 mln ХБ/sut); buyrak funksiyasiga qarab moslanadi. Faqat statsionar nazoratida.",
+      bolalar: "Vaznга va buyrak funksiyasiga qarab, mutaxassis nazoratida"
+    },
+    chiqarish: "V/v va v/m inyeksiya uchun kukun (flakonlar); mahalliy preparatlar (ko'z/quloq tomchilari, malham)"
+  },
+  ru: {
+    gruppa: "Полимиксины",
+    farmTasir: "Резервный бактерицидный антибиотик против грамотрицательных",
+    farmakodinamika: `Полимиксин B — циклический полипептидный антибиотик группы полимиксинов. Катионная молекула связывается с фосфатными группами липополисахарида наружной мембраны грамотрицательных бактерий, нарушает проницаемость мембраны (по типу детергента), компоненты клетки выходят, и бактерия погибает (бактерицидно). Также связывает и нейтрализует эндотоксин (ЛПС). Активен против Pseudomonas aeruginosa, Acinetobacter, Klebsiella, E. coli (включая мультирезистентные); не действует на Proteus, грамположительные и анаэробы. Из-за токсичности — резервный антибиотик.`,
+    farmakokinetika: {
+      sorish: "Не всасывается из ЖКТ; парентерально (в/в, в/м) или местно",
+      tarqalish: "Ограниченно распределяется в ткани; плохо через ГЭБ",
+      metabolizm: "Почти не метаболизируется",
+      chiqarilish: "Преимущественно почками (медленно); доза по функции почек"
+    },
+    korsatmalar: [
+      "Тяжёлые инфекции, вызванные мультирезистентными грамотрицательными бактериями (сепсис, мочевые пути, менингит — интратекально)",
+      "Местно: инфекции глаз, ушей, кожи (часто в комбинациях)",
+      "Эндотоксемия/сепсис (связывание ЛПС — вспомогательно)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к полимиксинам",
+      "Миастения (нервно-мышечная блокада)",
+      "Тяжёлая почечная недостаточность (с осторожностью)"
+    ],
+    nojoya: {
+      "Почки": "Нефротоксичность (дозозависимая — главный ограничивающий эффект)",
+      "ЦНС": "Нейротоксичность — парестезии, головокружение, нервно-мышечная блокада (риск паралича дыхания)",
+      "Аллергические": "Сыпь, зуд, лихорадка, высвобождение гистамина (местно)",
+      "Местные": "Боль в месте инъекции, тромбофлебит"
+    },
+    dozadan: "Симптомы: острое почечное повреждение, нервно-мышечная блокада (паралич дыхания). Лечение: отмена, дыхательная поддержка, соли кальция; гемодиализ частично.",
+    ozarotasir: [
+      "Другие нефротоксичные препараты (аминогликозиды, ванкомицин, амфотерицин В) — усиление нефротоксичности",
+      "Миорелаксанты, анестезия, аминогликозиды — усиление нервно-мышечной блокады"
+    ],
+    qollash: {
+      kattalar: "В/в: 15 000–25 000 ЕД/кг/сут в 2 приёма (макс. 2 млн ЕД/сут); коррекция по функции почек. Только под контролем стационара.",
+      bolalar: "По массе и функции почек, под контролем специалиста"
+    },
+    chiqarish: "Порошок для в/в и в/м инъекций (флаконы); местные препараты (глазные/ушные капли, мазь)"
+  },
+  en: {
+    gruppa: "Polymyxins",
+    farmTasir: "Reserve bactericidal antibiotic against Gram-negatives",
+    farmakodinamika: `Polymyxin B is a cyclic polypeptide antibiotic of the polymyxin group. Its cationic molecule binds to the phosphate groups of lipopolysaccharide in the Gram-negative outer membrane, disrupts membrane permeability (detergent-like), cell components leak out, and the bacterium dies (bactericidal). It also binds and neutralises endotoxin (LPS). It is active against Pseudomonas aeruginosa, Acinetobacter, Klebsiella, E. coli (including multidrug-resistant); it does not act on Proteus, Gram-positives or anaerobes. Owing to its toxicity it is a reserve antibiotic.`,
+    farmakokinetika: {
+      sorish: "Not absorbed from the GI tract; parenteral (IV, IM) or topical",
+      tarqalish: "Limited tissue distribution; poorly across the BBB",
+      metabolizm: "Barely metabolised",
+      chiqarilish: "Mainly renally (slowly); dose by renal function"
+    },
+    korsatmalar: [
+      "Severe infections caused by multidrug-resistant Gram-negative bacteria (sepsis, urinary tract, meningitis — intrathecal)",
+      "Topical: eye, ear, skin infections (often in combinations)",
+      "Endotoxaemia/sepsis (LPS binding — adjunct)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to polymyxins",
+      "Myasthenia (neuromuscular blockade)",
+      "Severe renal impairment (caution)"
+    ],
+    nojoya: {
+      "Renal": "Nephrotoxicity (dose-dependent — the main limiting effect)",
+      "CNS": "Neurotoxicity — paraesthesia, dizziness, neuromuscular blockade (respiratory paralysis risk)",
+      "Hypersensitivity": "Rash, itching, fever, histamine release (topical)",
+      "Local": "Injection-site pain, thrombophlebitis"
+    },
+    dozadan: "Symptoms: acute kidney injury, neuromuscular blockade (respiratory paralysis). Treatment: discontinue, respiratory support, calcium salts; haemodialysis partially.",
+    ozarotasir: [
+      "Other nephrotoxic drugs (aminoglycosides, vancomycin, amphotericin B) — enhanced nephrotoxicity",
+      "Muscle relaxants, anaesthesia, aminoglycosides — enhanced neuromuscular blockade"
+    ],
+    qollash: {
+      kattalar: "IV: 15,000–25,000 U/kg/day in 2 doses (max 2 million U/day); adjusted to renal function. Only under inpatient supervision.",
+      bolalar: "By weight and renal function, under specialist supervision"
+    },
+    chiqarish: "Powder for IV and IM injection (vials); topical preparations (eye/ear drops, ointment)"
+  }
+},
+
+// ─── J01XX09 · Daptomitsin ────────────────────────────────────────────────
+"J01XX09": {
+  uz: {
+    gruppa: "Boshqa antibakterial vositalar (siklik lipopeptidlar)",
+    farmTasir: "Rezistent gram-musbatlarга qarshi bakteritsid antibiotik",
+    farmakodinamika: `Daptomitsin — siklik lipopeptid antibiotik. Kalsiy ioni ishtirokida bakteriya sitoplazmatik membranasiga kirib oligomer hosil qiladi va membranada teshiklar ochib, kaliy ionlarining tez chiqib ketishiga olib keladi; bu membrana potensiali tezda yo'qolib, ДНК, RNK va oqsil sintezi to'xtaydi — kontsentratsiyaga bog'liq bakteritsid ta'sir. Faqat gram-musbat bakteriyalarга faol: Staphylococcus aureus (MRSA ham), streptokokk, enterokokk (jumladan VRE). Eslatma: o'pka surfaktanti uni inaktivlaydi — shuning uchun pnevmoniyada ishlatilmaydi.`,
+    farmakokinetika: {
+      sorish: "Faqat v/v; og'iz orqali so'rilmaydi",
+      tarqalish: "Oqsilga yuqori bog'lanadi (~90%); to'qimaga cheklangan tarqaladi",
+      metabolizm: "Sezilarli metabolizmga uchramaydi",
+      chiqarilish: "Asosan buyrak orqali; T½ ~8–9 soat (kuniga 1 marta)"
+    },
+    korsatmalar: [
+      "Murakkab teri va yumshoq to'qima infeksiyalari (gram-musbat, jumladan MRSA)",
+      "S. aureus bakteriemiyasi va o'ng yurak endokarditi",
+      "VRE va boshqa rezistent gram-musbat infeksiyalar (zaxira)"
+    ],
+    qarrshi: [
+      "Daptomitsinга o'ta sezuvchanlik",
+      "Pnevmoniya (surfaktant inaktivlaydi — samarasiz)",
+      "Ehtiyotkorlik: mavjud mushak kasalliklari (miopatiya xavfi)"
+    ],
+    nojoya: {
+      "Mushak": "KFK (kreatinkinaza) oshishi, miopatiya, rabdomioliz (haftalik KFK nazorati zarur)",
+      "Asab tizimi": "Periferik neyropatiya (kam), bosh og'rig'i",
+      "Nafas": "Eozinofilik pnevmoniya (kam, lekin jiddiy)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, diareya, transaminazalar oshishi",
+      "Allergiya": "Toshma, kamdan-kam anafilaksiya/DRESS"
+    },
+    dozadan: "Belgilar: mushak toksikligi. Davolash: simptomatik, KFK nazorati; gemodializ qisman olib tashlaydi.",
+    ozarotasir: [
+      "Statinlar (HMG-CoA reduktaza inhibitorlari) — miopatiya/rabdomioliz xavfini oshiradi (imkon bo'lsa statinни vaqtincha to'xtating)",
+      "Tobramitsin konsentratsiyasiga ta'sir qilishi mumkin"
+    ],
+    qollash: {
+      kattalar: "Teri infeksiyasi: 4 mg/kg kuniga 1 marta v/v; bakteriemiya/endokardit: 6 mg/kg kuniga 1 marta (yoki yuqoriroq). Buyrak yetishmovchiligida intervalni uzaytirish.",
+      bolalar: "Yoshга/vaznга qarab (1 yoshdan), mutaxassis nazoratida"
+    },
+    chiqarish: "V/v inyeksiya/infuziya uchun kukun 350 mg, 500 mg (flakonlar)"
+  },
+  ru: {
+    gruppa: "Прочие антибактериальные средства (циклические липопептиды)",
+    farmTasir: "Бактерицидный антибиотик против резистентных грамположительных",
+    farmakodinamika: `Даптомицин — циклический липопептидный антибиотик. В присутствии ионов кальция встраивается в цитоплазматическую мембрану бактерий, образует олигомеры и открывает поры, что вызывает быстрый выход ионов калия; мембранный потенциал стремительно теряется, и синтез ДНК, РНК и белка прекращается — концентрационно-зависимое бактерицидное действие. Активен только против грамположительных бактерий: Staphylococcus aureus (включая MRSA), стрептококки, энтерококки (в т.ч. VRE). Примечание: лёгочный сурфактант инактивирует его — поэтому при пневмонии не применяется.`,
+    farmakokinetika: {
+      sorish: "Только в/в; внутрь не всасывается",
+      tarqalish: "Высокая связь с белками (~90%); ограниченно распределяется в ткани",
+      metabolizm: "Существенно не метаболизируется",
+      chiqarilish: "Преимущественно почками; T½ ~8–9 ч (1 раз в день)"
+    },
+    korsatmalar: [
+      "Осложнённые инфекции кожи и мягких тканей (грамположительные, включая MRSA)",
+      "Бактериемия S. aureus и правосторонний эндокардит",
+      "VRE и другие резистентные грамположительные инфекции (резерв)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к даптомицину",
+      "Пневмония (сурфактант инактивирует — неэффективен)",
+      "Осторожно: имеющиеся мышечные заболевания (риск миопатии)"
+    ],
+    nojoya: {
+      "Мышцы": "Повышение КФК (креатинкиназы), миопатия, рабдомиолиз (нужен еженедельный контроль КФК)",
+      "ЦНС": "Периферическая невропатия (редко), головная боль",
+      "Дыхательная": "Эозинофильная пневмония (редко, но серьёзно)",
+      "ЖКТ": "Тошнота, диарея, повышение трансаминаз",
+      "Аллергические": "Сыпь, редко анафилаксия/DRESS"
+    },
+    dozadan: "Симптомы: мышечная токсичность. Лечение: симптоматическое, контроль КФК; гемодиализ частично выводит.",
+    ozarotasir: [
+      "Статины (ингибиторы ГМГ-КоА-редуктазы) — повышают риск миопатии/рабдомиолиза (по возможности временно отменить статин)",
+      "Может влиять на концентрацию тобрамицина"
+    ],
+    qollash: {
+      kattalar: "Инфекция кожи: 4 мг/кг 1 раз в день в/в; бактериемия/эндокардит: 6 мг/кг 1 раз в день (или выше). При почечной недостаточности удлинение интервала.",
+      bolalar: "По возрасту/массе (с 1 года), под контролем специалиста"
+    },
+    chiqarish: "Порошок для в/в инъекций/инфузий 350 мг, 500 мг (флаконы)"
+  },
+  en: {
+    gruppa: "Other antibacterials (cyclic lipopeptides)",
+    farmTasir: "Bactericidal antibiotic against resistant Gram-positives",
+    farmakodinamika: `Daptomycin is a cyclic lipopeptide antibiotic. In the presence of calcium ions it inserts into the bacterial cytoplasmic membrane, forms oligomers and opens pores, causing rapid efflux of potassium ions; the membrane potential is swiftly lost and DNA, RNA and protein synthesis cease — a concentration-dependent bactericidal effect. It is active only against Gram-positive bacteria: Staphylococcus aureus (including MRSA), streptococci, enterococci (including VRE). Note: pulmonary surfactant inactivates it — so it is not used for pneumonia.`,
+    farmakokinetika: {
+      sorish: "IV only; not absorbed orally",
+      tarqalish: "High protein binding (~90%); limited tissue distribution",
+      metabolizm: "Not significantly metabolised",
+      chiqarilish: "Mainly renally; T½ ~8–9 h (once daily)"
+    },
+    korsatmalar: [
+      "Complicated skin and soft tissue infections (Gram-positive, including MRSA)",
+      "S. aureus bacteraemia and right-sided endocarditis",
+      "VRE and other resistant Gram-positive infections (reserve)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to daptomycin",
+      "Pneumonia (surfactant inactivates it — ineffective)",
+      "Caution: pre-existing muscle disease (myopathy risk)"
+    ],
+    nojoya: {
+      "Muscular": "Raised CK (creatine kinase), myopathy, rhabdomyolysis (weekly CK monitoring needed)",
+      "CNS": "Peripheral neuropathy (rare), headache",
+      "Respiratory": "Eosinophilic pneumonia (rare but serious)",
+      "Gastrointestinal": "Nausea, diarrhoea, raised transaminases",
+      "Hypersensitivity": "Rash, rarely anaphylaxis/DRESS"
+    },
+    dozadan: "Symptoms: muscle toxicity. Treatment: symptomatic, CK monitoring; haemodialysis partially removes it.",
+    ozarotasir: [
+      "Statins (HMG-CoA reductase inhibitors) — increase myopathy/rhabdomyolysis risk (withhold the statin temporarily if possible)",
+      "May affect tobramycin concentration"
+    ],
+    qollash: {
+      kattalar: "Skin infection: 4 mg/kg once daily IV; bacteraemia/endocarditis: 6 mg/kg once daily (or higher). Prolong the interval in renal impairment.",
+      bolalar: "By age/weight (from 1 year), under specialist supervision"
+    },
+    chiqarish: "Powder for IV injection/infusion 350 mg, 500 mg (vials)"
+  }
+},
+
+// ─── J01XX07 · Nitroksolin ────────────────────────────────────────────────
+"J01XX07": {
+  uz: {
+    gruppa: "Boshqa antibakterial vositalar (oksixinolin hosilalari)",
+    farmTasir: "Siydik yo'llariga ta'sir qiluvchi antibakterial vosita",
+    farmakodinamika: `Nitroksolin — 8-oksixinolin hosilasi, siydik yo'llari antiseptigi. Metall ionlari (ayniqsa magniy, marganets) bilan xelat kompleks hosil qilib, bakteriya fermentlari va ДНК sintezini buzadi — bakteriostatik ta'sir. Gram-musbat va gram-manfiy siydik yo'llari qo'zg'atuvchilarига (E. coli, Enterococcus, Staphylococcus, Klebsiella, Proteus) va ba'zi zamburug'larга (Candida) faol. Siydikда yuqori konsentratsiya hosil qiladi — faqat siydik yo'llari infeksiyalarida ishlatiladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi",
+      tarqalish: "To'qimaga kam tarqaladi; qonда past konsentratsiya",
+      metabolizm: "Jigarда qisman metabolizmga uchraydi",
+      chiqarilish: "Asosan buyrak orqali (siydikда yuqori konsentratsiya, sarg'ish rang beradi)"
+    },
+    korsatmalar: [
+      "O'tkir va surunkali siydik yo'llari infeksiyalari (sistit, uretrit, pielonefrit, prostatit)",
+      "Qaytalanuvchi siydik yo'llari infeksiyasi profilaktikasi",
+      "Siydik yo'llari operatsiyasi/instrumental aralashuvi oldidan profilaktika"
+    ],
+    qarrshi: [
+      "Nitroksolin yoki oksixinolinlarга o'ta sezuvchanlik",
+      "Og'ir buyrak/jigar yetishmovchiligi, anuriya",
+      "Katarakta, neyrit; homiladorlik (I trimestr) va emizish davri",
+      "G6FD yetishmovchiligi"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish, ishtaha pasayishi",
+      "Asab tizimi": "Bosh og'rig'i, paresteziya, periferik neyropatiya (uzoq qo'llashda)",
+      "Allergiya": "Toshma, qichishish",
+      "Boshqa": "Siydikning to'q sarg'ish rangга bo'yalishi (zararsiz), taxikardiya (kam)"
+    },
+    dozadan: "Belgilar: ko'ngil aynishi, neyropatiya (uzoq qo'llashda). Davolash: ko'p suyuqlik, simptomatik.",
+    ozarotasir: [
+      "Antatsidlar (metall ionlari) — ta'sirini o'zgartirishi mumkin",
+      "Nitrofuranlar bilan birga neyrotoksiklik xavfi oshishi mumkin"
+    ],
+    qollash: {
+      kattalar: "100 mg kuniga 3–4 marta ovqat bilan; kurs 2–3 hafta (surunkalida takroriy kurslar).",
+      bolalar: "Yoshга qarab 50–100 mg kuniga 2–3 marta"
+    },
+    chiqarish: "Pardali tabletkalar/dragelar 50 mg, 100 mg"
+  },
+  ru: {
+    gruppa: "Прочие антибактериальные средства (производные оксихинолина)",
+    farmTasir: "Антибактериальное средство, действующее в мочевых путях",
+    farmakodinamika: `Нитроксолин — производное 8-оксихинолина, уроантисептик. Образуя хелатные комплексы с ионами металлов (особенно магния, марганца), нарушает ферменты и синтез ДНК бактерий — бактериостатическое действие. Активен против грамположительных и грамотрицательных уропатогенов (E. coli, Enterococcus, Staphylococcus, Klebsiella, Proteus) и некоторых грибов (Candida). Создаёт высокую концентрацию в моче — применяется только при инфекциях мочевых путей.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь",
+      tarqalish: "Мало распределяется в ткани; низкая концентрация в крови",
+      metabolizm: "Частично метаболизируется в печени",
+      chiqarilish: "Преимущественно почками (высокая концентрация в моче, окрашивает в жёлтый)"
+    },
+    korsatmalar: [
+      "Острые и хронические инфекции мочевых путей (цистит, уретрит, пиелонефрит, простатит)",
+      "Профилактика рецидивирующей инфекции мочевых путей",
+      "Профилактика перед операцией/инструментальным вмешательством на мочевых путях"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к нитроксолину или оксихинолинам",
+      "Тяжёлая почечная/печёночная недостаточность, анурия",
+      "Катаракта, неврит; беременность (I триместр) и период лактации",
+      "Дефицит Г6ФД"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота, рвота, снижение аппетита",
+      "ЦНС": "Головная боль, парестезии, периферическая невропатия (при длительном применении)",
+      "Аллергические": "Сыпь, зуд",
+      "Прочие": "Окрашивание мочи в тёмно-жёлтый цвет (безвредно), тахикардия (редко)"
+    },
+    dozadan: "Симптомы: тошнота, невропатия (при длительном применении). Лечение: обильное питьё, симптоматически.",
+    ozarotasir: [
+      "Антациды (ионы металлов) — могут изменять действие",
+      "С нитрофуранами возможно повышение нейротоксичности"
+    ],
+    qollash: {
+      kattalar: "100 мг 3–4 раза в день с едой; курс 2–3 недели (при хроническом — повторные курсы).",
+      bolalar: "По возрасту 50–100 мг 2–3 раза в день"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой/драже 50 мг, 100 мг"
+  },
+  en: {
+    gruppa: "Other antibacterials (oxyquinoline derivatives)",
+    farmTasir: "Antibacterial acting in the urinary tract",
+    farmakodinamika: `Nitroxoline is an 8-hydroxyquinoline derivative, a urinary antiseptic. By forming chelate complexes with metal ions (especially magnesium, manganese), it disrupts bacterial enzymes and DNA synthesis — a bacteriostatic effect. It is active against Gram-positive and Gram-negative uropathogens (E. coli, Enterococcus, Staphylococcus, Klebsiella, Proteus) and some fungi (Candida). It achieves high urinary concentrations — used only for urinary tract infections.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally",
+      tarqalish: "Little tissue distribution; low blood concentration",
+      metabolizm: "Partly metabolised in the liver",
+      chiqarilish: "Mainly renally (high urinary concentration, colours urine yellow)"
+    },
+    korsatmalar: [
+      "Acute and chronic urinary tract infections (cystitis, urethritis, pyelonephritis, prostatitis)",
+      "Prophylaxis of recurrent urinary tract infection",
+      "Prophylaxis before urinary tract surgery/instrumentation"
+    ],
+    qarrshi: [
+      "Hypersensitivity to nitroxoline or oxyquinolines",
+      "Severe renal/hepatic impairment, anuria",
+      "Cataract, neuritis; pregnancy (first trimester) and lactation",
+      "G6PD deficiency"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea, vomiting, decreased appetite",
+      "CNS": "Headache, paraesthesia, peripheral neuropathy (with prolonged use)",
+      "Hypersensitivity": "Rash, itching",
+      "Other": "Dark-yellow discolouration of urine (harmless), tachycardia (rare)"
+    },
+    dozadan: "Symptoms: nausea, neuropathy (with prolonged use). Treatment: ample fluids, symptomatic.",
+    ozarotasir: [
+      "Antacids (metal ions) — may alter the effect",
+      "Neurotoxicity may increase with nitrofurans"
+    ],
+    qollash: {
+      kattalar: "100 mg 3–4 times daily with food; course 2–3 weeks (repeated courses in chronic cases).",
+      bolalar: "By age 50–100 mg 2–3 times daily"
+    },
+    chiqarish: "Film-coated tablets/dragees 50 mg, 100 mg"
+  }
+},
+
+// ─── J01AA12 · Tigesiklin ─────────────────────────────────────────────────
+"J01AA12": {
+  uz: {
+    gruppa: "Glitsiltsiklinlar (tetratsiklin hosilalari)",
+    farmTasir: "O'ta keng spektrli zaxira bakteriostatik antibiotik",
+    farmakodinamika: `Tigesiklin — glitsiltsiklinlar guruhiga mansub, minotsiklinning hosilasi. Bakteriya ribosomasining 30S subbirligiga bog'lanib, aminoatsil-tRNK ning birikishini to'sadi va oqsil sintezini bloklaydi (bakteriostatik). Tetratsiklinlarга chidamlilikning asosiy mexanizmlarini (efflyuks pompalari, ribosomal himoya) yengib o'tadi, shuning uchun o'ta keng spektrli — gram-musbat (MRSA, VRE ham), gram-manfiy (ESBL ishlab chiqaruvchilar, Acinetobacter) va anaeroblarга faol. Pseudomonas va Proteus ga tabiiy chidamli. Zaxira antibiotigi.`,
+    farmakokinetika: {
+      sorish: "Faqat v/v; og'iz orqali so'rilmaydi",
+      tarqalish: "Oqsilga yuqori bog'lanadi; to'qimaga keng tarqaladi (qonда past konsentratsiya — bakteriemiyada cheklov)",
+      metabolizm: "Minimal metabolizmga uchraydi",
+      chiqarilish: "Asosan o't (najas) bilan, qisman buyrak; T½ ~27–42 soat"
+    },
+    korsatmalar: [
+      "Murakkab teri va yumshoq to'qima infeksiyalari (rezistent qo'zg'atuvchilar)",
+      "Murakkab qorin bo'shlig'i infeksiyalari (aralash, ESBL)",
+      "Jamoada orttirilgan og'ir pnevmoniya (alohida holatlarда)",
+      "Boshqa antibiotiklar samarasiz bo'lgan multirezistent infeksiyalar"
+    ],
+    qarrshi: [
+      "Tigesiklin yoki tetratsiklinlarга o'ta sezuvchanlik",
+      "Homiladorlik va emizish davri; 8 (18) yoshgacha bolalar (tish/suyak)",
+      "Ehtiyotkorlik: og'ir jigar yetishmovchiligi, qon ketishi xavfi (qonда past konsentratsiya — sepsisда ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Ko'ngil aynishi va qusish (juda ko'p), diareya, qorin og'rig'i, pankreatit",
+      "Jigar": "Transaminazalar oshishi, giperbilirubinemiya, jigar yetishmovchiligi",
+      "Gemostaz": "Gipofibrinogenemiya, qon ketishi, protrombin vaqti uzayishi",
+      "Boshqa": "Letallik xavfining ortishi (ba'zi tahlillarda — og'ir infeksiyalarда ehtiyotkorlik), tish dog'lanishi (bolalarda)"
+    },
+    dozadan: "Belgilar: ko'ngil aynishi, qusish. Davolash: simptomatik; gemodializ sezilarli olib tashlamaydi.",
+    ozarotasir: [
+      "Varfarin — protrombin vaqtini uzaytirib qon ketish xavfini oshiradi (INR nazorati)",
+      "Peroral kontratseptivlar samaradorligini kamaytirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "Yuklama 100 mg v/v, keyin 50 mg har 12 soatda (infuziya 30–60 daqiqa); kurs 5–14 kun. Og'ir jigar yetishmovchiligida (Child-Pugh C) doza kamaytiriladi.",
+      bolalar: "Tavsiya etilmaydi"
+    },
+    chiqarish: "V/v infuziya uchun kukun 50 mg (flakonlar)"
+  },
+  ru: {
+    gruppa: "Глицилциклины (производные тетрациклина)",
+    farmTasir: "Резервный бактериостатический антибиотик сверхширокого спектра",
+    farmakodinamika: `Тигециклин — производное миноциклина из группы глицилциклинов. Связываясь с 30S субъединицей рибосомы, препятствует присоединению аминоацил-тРНК и блокирует синтез белка (бактериостатически). Преодолевает основные механизмы резистентности к тетрациклинам (эффлюксные насосы, рибосомальную защиту), поэтому имеет сверхширокий спектр — активен против грамположительных (включая MRSA, VRE), грамотрицательных (продуценты ESBL, Acinetobacter) и анаэробов. Природно устойчивы Pseudomonas и Proteus. Резервный антибиотик.`,
+    farmakokinetika: {
+      sorish: "Только в/в; внутрь не всасывается",
+      tarqalish: "Высокая связь с белками; широко распределяется в ткани (низкая концентрация в крови — ограничение при бактериемии)",
+      metabolizm: "Минимально метаболизируется",
+      chiqarilish: "Преимущественно с жёлчью (калом), частично почками; T½ ~27–42 ч"
+    },
+    korsatmalar: [
+      "Осложнённые инфекции кожи и мягких тканей (резистентные возбудители)",
+      "Осложнённые абдоминальные инфекции (смешанные, ESBL)",
+      "Тяжёлая внебольничная пневмония (в отдельных случаях)",
+      "Мультирезистентные инфекции при неэффективности других антибиотиков"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к тигециклину или тетрациклинам",
+      "Беременность и лактация; дети до 8 (18) лет (зубы/кости)",
+      "Осторожно: тяжёлая печёночная недостаточность, риск кровотечения (низкая концентрация в крови — осторожность при сепсисе)"
+    ],
+    nojoya: {
+      "ЖКТ": "Тошнота и рвота (очень часто), диарея, боль в животе, панкреатит",
+      "Печень": "Повышение трансаминаз, гипербилирубинемия, печёночная недостаточность",
+      "Гемостаз": "Гипофибриногенемия, кровотечение, удлинение протромбинового времени",
+      "Прочие": "Повышение риска летальности (по некоторым анализам — осторожность при тяжёлых инфекциях), окрашивание зубов (у детей)"
+    },
+    dozadan: "Симптомы: тошнота, рвота. Лечение: симптоматическое; гемодиализ существенно не выводит.",
+    ozarotasir: [
+      "Варфарин — удлиняет протромбиновое время, повышая риск кровотечения (контроль МНО)",
+      "Может снижать эффективность пероральных контрацептивов"
+    ],
+    qollash: {
+      kattalar: "Нагрузка 100 мг в/в, затем 50 мг каждые 12 ч (инфузия 30–60 мин); курс 5–14 дней. При тяжёлой печёночной недостаточности (Child-Pugh C) дозу снижают.",
+      bolalar: "Не рекомендуется"
+    },
+    chiqarish: "Порошок для в/в инфузий 50 мг (флаконы)"
+  },
+  en: {
+    gruppa: "Glycylcyclines (tetracycline derivatives)",
+    farmTasir: "Ultra-broad-spectrum reserve bacteriostatic antibiotic",
+    farmakodinamika: `Tigecycline is a minocycline derivative of the glycylcycline group. By binding to the 30S ribosomal subunit, it prevents attachment of aminoacyl-tRNA and blocks protein synthesis (bacteriostatic). It overcomes the main mechanisms of tetracycline resistance (efflux pumps, ribosomal protection), so it has an ultra-broad spectrum — active against Gram-positives (including MRSA, VRE), Gram-negatives (ESBL producers, Acinetobacter) and anaerobes. Pseudomonas and Proteus are intrinsically resistant. A reserve antibiotic.`,
+    farmakokinetika: {
+      sorish: "IV only; not absorbed orally",
+      tarqalish: "High protein binding; widely distributed into tissues (low blood concentration — a limitation in bacteraemia)",
+      metabolizm: "Minimally metabolised",
+      chiqarilish: "Mainly in bile (faeces), partly renally; T½ ~27–42 h"
+    },
+    korsatmalar: [
+      "Complicated skin and soft tissue infections (resistant pathogens)",
+      "Complicated abdominal infections (mixed, ESBL)",
+      "Severe community-acquired pneumonia (in selected cases)",
+      "Multidrug-resistant infections when other antibiotics fail"
+    ],
+    qarrshi: [
+      "Hypersensitivity to tigecycline or tetracyclines",
+      "Pregnancy and lactation; children under 8 (18) years (teeth/bone)",
+      "Caution: severe hepatic impairment, bleeding risk (low blood concentration — caution in sepsis)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Nausea and vomiting (very common), diarrhoea, abdominal pain, pancreatitis",
+      "Hepatic": "Raised transaminases, hyperbilirubinaemia, hepatic failure",
+      "Haemostasis": "Hypofibrinogenaemia, bleeding, prolonged prothrombin time",
+      "Other": "Increased mortality risk (in some analyses — caution in severe infections), tooth staining (in children)"
+    },
+    dozadan: "Symptoms: nausea, vomiting. Treatment: symptomatic; haemodialysis does not remove it significantly.",
+    ozarotasir: [
+      "Warfarin — prolongs prothrombin time, increasing bleeding risk (monitor INR)",
+      "May reduce oral contraceptive efficacy"
+    ],
+    qollash: {
+      kattalar: "Loading 100 mg IV, then 50 mg every 12 h (infuse over 30–60 min); course 5–14 days. Reduce dose in severe hepatic impairment (Child-Pugh C).",
+      bolalar: "Not recommended"
+    },
+    chiqarish: "Powder for IV infusion 50 mg (vials)"
+  }
+},
+
+// ─── J01GB04 · Kanamitsin ─────────────────────────────────────────────────
+"J01GB04": {
+  uz: {
+    gruppa: "Aminoglikozidlar",
+    farmTasir: "Gram-manfiy va sil mikobakteriyasiga qarshi bakteritsid antibiotik",
+    farmakodinamika: `Kanamitsin — aminoglikozid antibiotik. Bakteriya ribosomasining 30S subbirligiga qaytmas bog'lanib, genetik kodning noto'g'ri o'qilishi va oqsil sintezining buzilishiga olib keladi — bakteritsid ta'sir. Aerob gram-manfiy bakteriyalarга (E. coli, Klebsiella, Proteus, Enterobacter) va Mycobacterium tuberculosis ga faol (ikkinchi qator silга qarshi vosita); ba'zi stafilokokkга ham. Pseudomonas va anaeroblarга ta'sir qilmaydi. Hozir gentamitsin/amikatsin bilan ko'p o'rin almashgan, lekin silда va ichakni sterillashda qo'llaniladi.`,
+    farmakokinetika: {
+      sorish: "Oshqozon-ichakdan so'rilmaydi — parenteral (v/m, v/v); og'iz — faqat ichakni sterillash uchun",
+      tarqalish: "Oqsilga past bog'lanadi; hujayradan tashqari suyuqlikда; buyrak po'stlog'i va ichki quloqда to'planadi",
+      metabolizm: "Metabolizmga uchramaydi",
+      chiqarilish: "Buyrak orqali o'zgarmagan holda; T½ ~2–4 soat (buyrak yetishmovchiligida uzayadi)"
+    },
+    korsatmalar: [
+      "Og'ir gram-manfiy infeksiyalar (sezgir qo'zg'atuvchilar bilan)",
+      "Sil (Mycobacterium tuberculosis) — ikkinchi qator, kombinatsiyada",
+      "Operatsiya oldidan ichakni sterillash (og'iz orqali)",
+      "Mahalliy infeksiyalar"
+    ],
+    qarrshi: [
+      "Kanamitsin yoki aminoglikozidlarга o'ta sezuvchanlik",
+      "Eshitish nervi nevriti, vestibular/eshitish buzilishlari",
+      "Og'ir buyrak yetishmovchiligi; miasteniya; homiladorlik (ototoksiklik homilaga)"
+    ],
+    nojoya: {
+      "Sezgi organlari": "Ototoksiklik — eshitish (qaytmas kar bo'lish) va vestibular shikastlanish (kanamitsin ayniqsa eshitishga toksik)",
+      "Buyrak": "Nefrotoksiklik (qaytar, kreatinin oshishi)",
+      "Nerv-mushak": "Nerv-mushak blokadasi (nafas falaji — relaksant/anesteziya bilan)",
+      "Allergiya": "Toshma, isitma, eozinofiliya",
+      "Oshqozon-ichak": "Ko'ngil aynishi, og'iz orqali — malabsorbsiya"
+    },
+    dozadan: "Belgilar: ototoksiklik, nefrotoksiklik, nerv-mushak blokadasi. Davolash: gemodializ olib tashlaydi, kalsiy tuzlari (blokada), simptomatik. Qon konsentratsiyasini nazorat qiling.",
+    ozarotasir: [
+      "Boshqa nefro/ototoksik dorilar (vankomitsin, amfoteritsin B, sisplatin, petlali diuretiklar) — toksiklikni kuchaytiradi",
+      "Mushak relaksantlari, anesteziya — nerv-mushak blokadasini kuchaytiradi",
+      "Beta-laktamlar bilan bir shприцда aralashtirmang (inaktivatsiya)"
+    ],
+    qollash: {
+      kattalar: "V/m yoki v/v: 15 mg/kg/sut 2–3 qabulда (maks. 1,5 g/sut); silда 15 mg/kg/sut. Qon konsentratsiyasi va buyrak funksiyasi nazoratда; kurs cheklangan.",
+      bolalar: "15–30 mg/kg/sut bo'lib (yoshга qarab), nazorat ostida"
+    },
+    chiqarish: "V/v va v/m inyeksiya uchun kukun/eritma 0,5 g, 1 g; og'iz uchun tabletkalar (ichakni sterillash)"
+  },
+  ru: {
+    gruppa: "Аминогликозиды",
+    farmTasir: "Бактерицидный антибиотик против грамотрицательных и микобактерий туберкулёза",
+    farmakodinamika: `Канамицин — аминогликозидный антибиотик. Необратимо связываясь с 30S субъединицей рибосомы, вызывает неправильное считывание генетического кода и нарушение синтеза белка — бактерицидное действие. Активен против аэробных грамотрицательных бактерий (E. coli, Klebsiella, Proteus, Enterobacter) и Mycobacterium tuberculosis (противотуберкулёзное средство второго ряда); и против некоторых стафилококков. Не действует на Pseudomonas и анаэробы. Сейчас во многом вытеснен гентамицином/амикацином, но применяется при туберкулёзе и для стерилизации кишечника.`,
+    farmakokinetika: {
+      sorish: "Не всасывается из ЖКТ — парентерально (в/м, в/в); внутрь — только для стерилизации кишечника",
+      tarqalish: "Низкая связь с белками; во внеклеточной жидкости; накапливается в корковом слое почек и внутреннем ухе",
+      metabolizm: "Не метаболизируется",
+      chiqarilish: "Почками в неизменённом виде; T½ ~2–4 ч (удлиняется при почечной недостаточности)"
+    },
+    korsatmalar: [
+      "Тяжёлые грамотрицательные инфекции (при чувствительных возбудителях)",
+      "Туберкулёз (Mycobacterium tuberculosis) — второй ряд, в комбинации",
+      "Стерилизация кишечника перед операцией (внутрь)",
+      "Местные инфекции"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к канамицину или аминогликозидам",
+      "Неврит слухового нерва, вестибулярные/слуховые нарушения",
+      "Тяжёлая почечная недостаточность; миастения; беременность (ототоксичность для плода)"
+    ],
+    nojoya: {
+      "Органы чувств": "Ототоксичность — слуховое (необратимая глухота) и вестибулярное поражение (канамицин особенно токсичен для слуха)",
+      "Почки": "Нефротоксичность (обратимая, повышение креатинина)",
+      "Нервно-мышечные": "Нервно-мышечная блокада (паралич дыхания — с релаксантами/анестезией)",
+      "Аллергические": "Сыпь, лихорадка, эозинофилия",
+      "ЖКТ": "Тошнота, при приёме внутрь — мальабсорбция"
+    },
+    dozadan: "Симптомы: ототоксичность, нефротоксичность, нервно-мышечная блокада. Лечение: гемодиализ выводит, соли кальция (при блокаде), симптоматически. Контроль концентрации в крови.",
+    ozarotasir: [
+      "Другие нефро-/ототоксичные препараты (ванкомицин, амфотерицин В, цисплатин, петлевые диуретики) — усиление токсичности",
+      "Миорелаксанты, анестезия — усиление нервно-мышечной блокады",
+      "Не смешивать в одном шприце с бета-лактамами (инактивация)"
+    ],
+    qollash: {
+      kattalar: "В/м или в/в: 15 мг/кг/сут в 2–3 приёма (макс. 1,5 г/сут); при туберкулёзе 15 мг/кг/сут. Контроль концентрации в крови и функции почек; курс ограничен.",
+      bolalar: "15–30 мг/кг/сут дробно (по возрасту), под контролем"
+    },
+    chiqarish: "Порошок/раствор для в/в и в/м инъекций 0,5 г, 1 г; таблетки внутрь (стерилизация кишечника)"
+  },
+  en: {
+    gruppa: "Aminoglycosides",
+    farmTasir: "Bactericidal antibiotic against Gram-negatives and M. tuberculosis",
+    farmakodinamika: `Kanamycin is an aminoglycoside antibiotic. By irreversibly binding to the 30S ribosomal subunit, it causes misreading of the genetic code and disruption of protein synthesis — a bactericidal effect. It is active against aerobic Gram-negative bacteria (E. coli, Klebsiella, Proteus, Enterobacter) and Mycobacterium tuberculosis (a second-line antituberculosis agent); and against some staphylococci. It does not act on Pseudomonas or anaerobes. It has largely been replaced by gentamicin/amikacin but is used in tuberculosis and for bowel sterilisation.`,
+    farmakokinetika: {
+      sorish: "Not absorbed from the GI tract — parenteral (IM, IV); oral only for bowel sterilisation",
+      tarqalish: "Low protein binding; in extracellular fluid; accumulates in the renal cortex and inner ear",
+      metabolizm: "Not metabolised",
+      chiqarilish: "Renally unchanged; T½ ~2–4 h (prolonged in renal impairment)"
+    },
+    korsatmalar: [
+      "Severe Gram-negative infections (with susceptible pathogens)",
+      "Tuberculosis (Mycobacterium tuberculosis) — second-line, in combination",
+      "Bowel sterilisation before surgery (oral)",
+      "Local infections"
+    ],
+    qarrshi: [
+      "Hypersensitivity to kanamycin or aminoglycosides",
+      "Auditory nerve neuritis, vestibular/auditory disorders",
+      "Severe renal impairment; myasthenia; pregnancy (fetal ototoxicity)"
+    ],
+    nojoya: {
+      "Sensory": "Ototoxicity — auditory (irreversible deafness) and vestibular damage (kanamycin is especially auditory-toxic)",
+      "Renal": "Nephrotoxicity (reversible, raised creatinine)",
+      "Neuromuscular": "Neuromuscular blockade (respiratory paralysis — with relaxants/anaesthesia)",
+      "Hypersensitivity": "Rash, fever, eosinophilia",
+      "Gastrointestinal": "Nausea; malabsorption with oral use"
+    },
+    dozadan: "Symptoms: ototoxicity, nephrotoxicity, neuromuscular blockade. Treatment: haemodialysis removes it, calcium salts (for blockade), symptomatic. Monitor blood levels.",
+    ozarotasir: [
+      "Other nephro-/ototoxic drugs (vancomycin, amphotericin B, cisplatin, loop diuretics) — enhanced toxicity",
+      "Muscle relaxants, anaesthesia — enhanced neuromuscular blockade",
+      "Do not mix in one syringe with beta-lactams (inactivation)"
+    ],
+    qollash: {
+      kattalar: "IM or IV: 15 mg/kg/day in 2–3 doses (max 1.5 g/day); for tuberculosis 15 mg/kg/day. Monitor blood levels and renal function; limited course.",
+      bolalar: "15–30 mg/kg/day divided (by age), under monitoring"
+    },
+    chiqarish: "Powder/solution for IV and IM injection 0.5 g, 1 g; oral tablets (bowel sterilisation)"
+  }
 }
 
 };
