@@ -19440,6 +19440,838 @@ const PHARMA_DATA = {
     },
     chiqarish: "Tablets 100 mg, 400 mg; within combined antituberculosis tablets"
   }
+},
+
+// ─── J05AB06 · Ganciklovir ────────────────────────────────────────────────
+"J05AB06": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (nukleozid analoglari)",
+    farmTasir: "Sitomegalovirus (CMV) ga qarshi vosita",
+    farmakodinamika: `Ganciklovir — atsiklovirga o'xshash sintetik nukleozid (guanozin) analogi. Virusли (CMV — UL97 kinaza) va hujayraviy kinazalar tomonidan fosforlanib faol ganciklovir-trifosfatga aylanadi, u virusли ДНК-polimerazani inhibe qiladi va virusли ДНК zanjiriga qo'shilib uning sintezini to'xtatadi. Sitomegalovirusга (CMV) yuqori faollik, shuningdek boshqa gerpes viruslariга (HSV, VZV, EBV) ham ta'sir qiladi. Atsiklovirdan kuchliroq CMV ga, lekin toksikroq (suyak ko'migi).`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali biofaollik past (~6%); valganciklovir (prodori) yaxshiroq so'riladi. Asosan v/v",
+      tarqalish: "Oqsilga past bog'lanadi; to'qima va suyuqliklarga, BOM va ko'zга tarqaladi",
+      metabolizm: "Sezilarli metabolizmga uchramaydi",
+      chiqarilish: "Asosan buyrak orqali o'zgarmagan holda; T½ ~3–4 soat"
+    },
+    korsatmalar: [
+      "CMV retiniti (OITS bemorlarda)",
+      "Transplantatsiyadan keyin CMV infeksiyasi davolash va profilaktikasi",
+      "Immunotanqis bemorlarda hayot uchun xavfli CMV infeksiyalari"
+    ],
+    qarrshi: [
+      "Ganciklovir/valganciklovir yoki atsiklovirга o'ta sezuvchanlik",
+      "Og'ir neytropeniya (<500/mkl) yoki trombotsitopeniya (<25 000/mkl)",
+      "Homiladorlik va emizish davri (teratogen/kanserogen potensial)"
+    ],
+    nojoya: {
+      "Qon tizimi": "Miyelosupressiya — neytropeniya, anemiya, trombotsitopeniya (eng muhim — muntazam qon nazorati)",
+      "Asab tizimi": "Bosh og'rig'i, chalkashlik, tirishishlar, periferik neyropatiya",
+      "Buyrak": "Kreatinin oshishi, buyrak funksiyasi buzilishi",
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish, diareya, transaminazalar oshishi",
+      "Boshqa": "Isitma, toshma; uzoq muddatda reproduktiv toksiklik"
+    },
+    dozadan: "Belgilar: og'ir miyelosupressiya, buyrak/jigar shikastlanishi. Davolash: qon nazorati, gemodializ olib tashlaydi, gidratatsiya.",
+    ozarotasir: [
+      "Boshqa miyelosupressiv/nefrotoksik dorilar (zidovudin, kotrimoksazol, amfoteritsin B) — toksiklikni kuchaytiradi",
+      "Imipenem-silastatin bilan — tirishish xavfi",
+      "Probenetsid, mikofenolat — ganciklovir konsentratsiyasini oshiradi"
+    ],
+    qollash: {
+      kattalar: "Induksiya: 5 mg/kg har 12 soatda v/v 14–21 kun; ta'minlash: 5 mg/kg/sut. Buyrak yetishmovchiligida doza moslash. (Og'iz uchun valganciklovir afzal.)",
+      bolalar: "Faqat alohida ko'rsatmalarda, mutaxassis nazoratida"
+    },
+    chiqarish: "V/v infuziya uchun kukun 500 mg; ko'z implanti; (valganciklovir — tabletka)"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (аналоги нуклеозидов)",
+    farmTasir: "Средство против цитомегаловируса (ЦМВ)",
+    farmakodinamika: `Ганцикловир — синтетический аналог нуклеозида (гуанозина), подобный ацикловиру. Фосфорилируется вирусными (ЦМВ — киназа UL97) и клеточными киназами в активный ганцикловир-трифосфат, который ингибирует вирусную ДНК-полимеразу и встраивается в цепь вирусной ДНК, прекращая её синтез. Высокоактивен против цитомегаловируса (ЦМВ), действует и на другие герпесвирусы (HSV, VZV, EBV). Сильнее ацикловира против ЦМВ, но токсичнее (костный мозг).`,
+    farmakokinetika: {
+      sorish: "Низкая биодоступность внутрь (~6%); валганцикловир (пролекарство) всасывается лучше. Преимущественно в/в",
+      tarqalish: "Низкая связь с белками; распределяется в ткани и жидкости, СМЖ и глаз",
+      metabolizm: "Существенно не метаболизируется",
+      chiqarilish: "Преимущественно почками в неизменённом виде; T½ ~3–4 ч"
+    },
+    korsatmalar: [
+      "ЦМВ-ретинит (у больных СПИДом)",
+      "Лечение и профилактика ЦМВ-инфекции после трансплантации",
+      "Угрожающие жизни ЦМВ-инфекции у иммунодефицитных больных"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к ганцикловиру/валганцикловиру или ацикловиру",
+      "Тяжёлая нейтропения (<500/мкл) или тромбоцитопения (<25 000/мкл)",
+      "Беременность и лактация (тератогенный/канцерогенный потенциал)"
+    ],
+    nojoya: {
+      "Кроветворение": "Миелосупрессия — нейтропения, анемия, тромбоцитопения (важнейшее — регулярный контроль крови)",
+      "ЦНС": "Головная боль, спутанность, судороги, периферическая невропатия",
+      "Почки": "Повышение креатинина, нарушение функции почек",
+      "ЖКТ": "Тошнота, рвота, диарея, повышение трансаминаз",
+      "Прочие": "Лихорадка, сыпь; репродуктивная токсичность при длительном применении"
+    },
+    dozadan: "Симптомы: тяжёлая миелосупрессия, поражение почек/печени. Лечение: контроль крови, гемодиализ выводит, гидратация.",
+    ozarotasir: [
+      "Другие миелосупрессивные/нефротоксичные препараты (зидовудин, котримоксазол, амфотерицин В) — усиление токсичности",
+      "С имипенемом-циластатином — риск судорог",
+      "Пробенецид, микофенолат — повышают концентрацию ганцикловира"
+    ],
+    qollash: {
+      kattalar: "Индукция: 5 мг/кг каждые 12 ч в/в 14–21 день; поддержка: 5 мг/кг/сут. При почечной недостаточности коррекция дозы. (Внутрь предпочтителен валганцикловир.)",
+      bolalar: "Только по особым показаниям, под контролем специалиста"
+    },
+    chiqarish: "Порошок для в/в инфузий 500 мг; глазной имплант; (валганцикловир — таблетки)"
+  },
+  en: {
+    gruppa: "Antiviral agents (nucleoside analogues)",
+    farmTasir: "Agent against cytomegalovirus (CMV)",
+    farmakodinamika: `Ganciclovir is a synthetic nucleoside (guanosine) analogue similar to aciclovir. It is phosphorylated by viral (CMV — UL97 kinase) and cellular kinases to active ganciclovir triphosphate, which inhibits viral DNA polymerase and is incorporated into the viral DNA chain, halting its synthesis. It is highly active against cytomegalovirus (CMV) and also acts on other herpesviruses (HSV, VZV, EBV). It is more potent than aciclovir against CMV but more toxic (bone marrow).`,
+    farmakokinetika: {
+      sorish: "Low oral bioavailability (~6%); valganciclovir (prodrug) is better absorbed. Mainly IV",
+      tarqalish: "Low protein binding; distributes into tissues and fluids, CSF and eye",
+      metabolizm: "Not significantly metabolised",
+      chiqarilish: "Mainly renally unchanged; T½ ~3–4 h"
+    },
+    korsatmalar: [
+      "CMV retinitis (in AIDS patients)",
+      "Treatment and prophylaxis of CMV infection after transplantation",
+      "Life-threatening CMV infections in immunodeficient patients"
+    ],
+    qarrshi: [
+      "Hypersensitivity to ganciclovir/valganciclovir or aciclovir",
+      "Severe neutropenia (<500/µL) or thrombocytopenia (<25,000/µL)",
+      "Pregnancy and lactation (teratogenic/carcinogenic potential)"
+    ],
+    nojoya: {
+      "Haematological": "Myelosuppression — neutropenia, anaemia, thrombocytopenia (the most important — regular blood monitoring)",
+      "CNS": "Headache, confusion, seizures, peripheral neuropathy",
+      "Renal": "Raised creatinine, renal dysfunction",
+      "Gastrointestinal": "Nausea, vomiting, diarrhoea, raised transaminases",
+      "Other": "Fever, rash; reproductive toxicity with prolonged use"
+    },
+    dozadan: "Symptoms: severe myelosuppression, renal/hepatic injury. Treatment: blood monitoring, haemodialysis removes it, hydration.",
+    ozarotasir: [
+      "Other myelosuppressive/nephrotoxic drugs (zidovudine, cotrimoxazole, amphotericin B) — enhanced toxicity",
+      "With imipenem-cilastatin — seizure risk",
+      "Probenecid, mycophenolate — raise ganciclovir concentration"
+    ],
+    qollash: {
+      kattalar: "Induction: 5 mg/kg every 12 h IV for 14–21 days; maintenance: 5 mg/kg/day. Dose adjustment in renal impairment. (Oral valganciclovir is preferred.)",
+      bolalar: "Only for special indications, under specialist supervision"
+    },
+    chiqarish: "Powder for IV infusion 500 mg; ocular implant; (valganciclovir — tablets)"
+  }
+},
+
+// ─── J05AF05 · Lamivudin ──────────────────────────────────────────────────
+"J05AF05": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (nukleozid teskari transkriptaza inhibitorlari)",
+    farmTasir: "OIV va gepatit B ga qarshi antiretrovirus vosita",
+    farmakodinamika: `Lamivudin — nukleozid teskari transkriptaza inhibitori (NRTI), sitidin analogi. Hujayra ichida fosforlanib faol trifosfatga aylanadi, u OIV teskari transkriptaza fermentini inhibe qiladi va virusли ДНК zanjiriga qo'shilib uning cho'zilishini to'xtatadi (chain terminator). Gepatit B virusi (HBV) ДНК-polimerazasini ham inhibe qiladi. OIV-1, OIV-2 va HBV ga faol. Doimo boshqa antiretrovirus dorilar bilan kombinatsiyada beriladi (yakka qo'llanganда chidamlilik tez rivojlanadi).`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi (biofaollik ~80–85%); ovqat sezilarli ta'sir qilmaydi",
+      tarqalish: "Oqsilga past bog'lanadi (<36%); to'qima va suyuqliklarga tarqaladi",
+      metabolizm: "Minimal metabolizmga uchraydi",
+      chiqarilish: "Asosan buyrak orqali o'zgarmagan holda; T½ ~5–7 soat"
+    },
+    korsatmalar: [
+      "OIV infeksiyasi — kombinatsiyalangan antiretrovirus terapiya (ART) tarkibida",
+      "Surunkali gepatit B (faol replikatsiya bilan)"
+    ],
+    qarrshi: [
+      "Lamivudinга o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi (doza moslash)",
+      "Ehtiyotkorlik: pankreatit anamnezi, jigar dekompensatsiyasi"
+    ],
+    nojoya: {
+      "Umumiy": "Bosh og'rig'i, charchoq, ko'ngil aynishi, diareya, qorin og'rig'i (odatda yengil)",
+      "Metabolik": "Laktatsidoz va og'ir gepatomegaliya (steatoz bilan) — kam, lekin jiddiy (NRTI sinfiga xos)",
+      "Oshqozon osti": "Pankreatit (ayniqsa bolalarда)",
+      "Qon tizimi": "Neytropeniya, anemiya (kam)",
+      "Boshqa": "Gepatit B davosini to'xtatganда gepatit zo'rayishi (HBV reaktivatsiyasi)"
+    },
+    dozadan: "Ma'lumot cheklangan; simptomatik davolash, gemodializ qisman olib tashlaydi.",
+    ozarotasir: [
+      "Kotrimoksazol (trimetoprim) — lamivudin konsentratsiyasini oshiradi",
+      "Zaltsitabin bilan birga tavsiya etilmaydi (antagonizm)",
+      "Boshqa nefrotoksik dorilar bilan ehtiyotkorlik"
+    ],
+    qollash: {
+      kattalar: "OIV: 150 mg kuniga 2 marta yoki 300 mg kuniga 1 marta (kombinatsiyada). Gepatit B: 100 mg kuniga 1 marta. Buyrak yetishmovchiligida doza moslash.",
+      bolalar: "Vaznга qarab 4 mg/kg kuniga 2 marta (maks. 150 mg)"
+    },
+    chiqarish: "Tabletkalar 100 mg, 150 mg, 300 mg; og'iz uchun eritma 10 mg/ml"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (нуклеозидные ингибиторы обратной транскриптазы)",
+    farmTasir: "Антиретровирусное средство против ВИЧ и гепатита B",
+    farmakodinamika: `Ламивудин — нуклеозидный ингибитор обратной транскриптазы (НИОТ), аналог цитидина. Внутри клетки фосфорилируется в активный трифосфат, который ингибирует обратную транскриптазу ВИЧ и встраивается в цепь вирусной ДНК, прекращая её удлинение (терминатор цепи). Также ингибирует ДНК-полимеразу вируса гепатита B (HBV). Активен против ВИЧ-1, ВИЧ-2 и HBV. Всегда назначается в комбинации с другими антиретровирусными препаратами (при монотерапии быстро развивается резистентность).`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь (биодоступность ~80–85%); пища существенно не влияет",
+      tarqalish: "Низкая связь с белками (<36%); распределяется в ткани и жидкости",
+      metabolizm: "Минимально метаболизируется",
+      chiqarilish: "Преимущественно почками в неизменённом виде; T½ ~5–7 ч"
+    },
+    korsatmalar: [
+      "ВИЧ-инфекция — в составе комбинированной антиретровирусной терапии (АРТ)",
+      "Хронический гепатит B (с активной репликацией)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к ламивудину",
+      "Тяжёлая почечная недостаточность (коррекция дозы)",
+      "Осторожно: панкреатит в анамнезе, декомпенсация печени"
+    ],
+    nojoya: {
+      "Общие": "Головная боль, утомляемость, тошнота, диарея, боль в животе (обычно лёгкие)",
+      "Метаболические": "Лактатацидоз и тяжёлая гепатомегалия (со стеатозом) — редко, но серьёзно (характерно для класса НИОТ)",
+      "Поджелудочная": "Панкреатит (особенно у детей)",
+      "Кроветворение": "Нейтропения, анемия (редко)",
+      "Прочие": "Обострение гепатита при отмене лечения гепатита B (реактивация HBV)"
+    },
+    dozadan: "Данные ограничены; симптоматическое лечение, гемодиализ частично выводит.",
+    ozarotasir: [
+      "Котримоксазол (триметоприм) — повышает концентрацию ламивудина",
+      "Не рекомендуется с залцитабином (антагонизм)",
+      "Осторожно с другими нефротоксичными препаратами"
+    ],
+    qollash: {
+      kattalar: "ВИЧ: 150 мг 2 раза в день или 300 мг 1 раз в день (в комбинации). Гепатит B: 100 мг 1 раз в день. При почечной недостаточности коррекция дозы.",
+      bolalar: "По массе 4 мг/кг 2 раза в день (макс. 150 мг)"
+    },
+    chiqarish: "Таблетки 100 мг, 150 мг, 300 мг; раствор для приёма внутрь 10 мг/мл"
+  },
+  en: {
+    gruppa: "Antiviral agents (nucleoside reverse transcriptase inhibitors)",
+    farmTasir: "Antiretroviral against HIV and hepatitis B",
+    farmakodinamika: `Lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI), a cytidine analogue. Inside the cell it is phosphorylated to the active triphosphate, which inhibits HIV reverse transcriptase and is incorporated into the viral DNA chain, halting its elongation (chain terminator). It also inhibits hepatitis B virus (HBV) DNA polymerase. It is active against HIV-1, HIV-2 and HBV. It is always given in combination with other antiretrovirals (resistance develops rapidly with monotherapy).`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally (bioavailability ~80–85%); food has no significant effect",
+      tarqalish: "Low protein binding (<36%); distributes into tissues and fluids",
+      metabolizm: "Minimally metabolised",
+      chiqarilish: "Mainly renally unchanged; T½ ~5–7 h"
+    },
+    korsatmalar: [
+      "HIV infection — as part of combination antiretroviral therapy (ART)",
+      "Chronic hepatitis B (with active replication)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to lamivudine",
+      "Severe renal impairment (dose adjustment)",
+      "Caution: history of pancreatitis, hepatic decompensation"
+    ],
+    nojoya: {
+      "General": "Headache, fatigue, nausea, diarrhoea, abdominal pain (usually mild)",
+      "Metabolic": "Lactic acidosis and severe hepatomegaly (with steatosis) — rare but serious (characteristic of the NRTI class)",
+      "Pancreatic": "Pancreatitis (especially in children)",
+      "Haematological": "Neutropenia, anaemia (rare)",
+      "Other": "Hepatitis flare on stopping hepatitis B treatment (HBV reactivation)"
+    },
+    dozadan: "Data limited; symptomatic treatment, haemodialysis partially removes it.",
+    ozarotasir: [
+      "Cotrimoxazole (trimethoprim) — raises lamivudine concentration",
+      "Not recommended with zalcitabine (antagonism)",
+      "Caution with other nephrotoxic drugs"
+    ],
+    qollash: {
+      kattalar: "HIV: 150 mg twice daily or 300 mg once daily (in combination). Hepatitis B: 100 mg once daily. Dose adjustment in renal impairment.",
+      bolalar: "By weight 4 mg/kg twice daily (max 150 mg)"
+    },
+    chiqarish: "Tablets 100 mg, 150 mg, 300 mg; oral solution 10 mg/mL"
+  }
+},
+
+// ─── J05AF01 · Zidovudin ──────────────────────────────────────────────────
+"J05AF01": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (nukleozid teskari transkriptaza inhibitorlari)",
+    farmTasir: "OIV ga qarshi antiretrovirus vosita (birinchi ARV preparati)",
+    farmakodinamika: `Zidovudin (AZT, azidotimidin) — birinchi yaratilgan nukleozid teskari transkriptaza inhibitori (NRTI), timidin analogi. Hujayra ichida fosforlanib faol trifosfatga aylanadi, u OIV teskari transkriptazani inhibe qiladi va virusли ДНК zanjiriga qo'shilib uning cho'zilishini to'xtatadi (chain terminator). OIV-1 va OIV-2 ga faol. Doimo kombinatsiyada beriladi. OIV ning onadan bolaga o'tishini (vertikal yuqishni) kamaytirishda muhim o'rin tutadi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali tez so'riladi (biofaollik ~60%, jigar birinchi o'tishi)",
+      tarqalish: "Oqsilga past bog'lanadi; BOM dan o'tadi (BBO yaxshi o'tkazuvchanlik); platsentaдан o'tadi",
+      metabolizm: "Jigarда glyukuronidlanadi",
+      chiqarilish: "Asosan buyrak orqali (metabolit); T½ ~1 soat (hujayra ichidagi faol shakl uzunroq)"
+    },
+    korsatmalar: [
+      "OIV infeksiyasi — kombinatsiyalangan ART tarkibida",
+      "OIV ning onadan bolaga o'tishi profilaktikasi (homiladorlik, tug'ruq, yangi tug'ilganда)"
+    ],
+    qarrshi: [
+      "Zidovudinга o'ta sezuvchanlik",
+      "Og'ir anemiya (Hb < 7,5 g/dl) yoki neytropeniya (<0,75×10⁹/l)",
+      "Ehtiyotkorlik: suyak ko'migi depressiyasi, jigar yetishmovchiligi"
+    ],
+    nojoya: {
+      "Qon tizimi": "Miyelosupressiya — anemiya, neytropeniya (eng muhim, doza-bog'liq; muntazam qon nazorati)",
+      "Mushak": "Miopatiya (uzoq qo'llashda), KFK oshishi",
+      "Metabolik": "Laktatsidoz va steatozli gepatomegaliya (NRTI sinfiga xos), lipodistrofiya",
+      "Asab/oshqozon": "Bosh og'rig'i, uyqusizlik, ko'ngil aynishi, qusish",
+      "Boshqa": "Tirnoq/teri pigmentatsiyasi"
+    },
+    dozadan: "Belgilar: gematologik va oshqozon-ichak belgilari. Davolash: qon nazorati, simptomatik; gemodializ glyukuronidni qisman olib tashlaydi.",
+    ozarotasir: [
+      "Boshqa miyelosupressiv dorilar (ganciklovir, kotrimoksazol) — gematologik toksiklikni kuchaytiradi",
+      "Stavudin bilan antagonizm (birga bermang)",
+      "Probenetsid, flukonazol, valproat — konsentratsiyasini oshiradi"
+    ],
+    qollash: {
+      kattalar: "300 mg kuniga 2 marta (kombinatsiyada). Vertikal yuqish profilaktikasi: homiladorlikда va tug'ruqда maxsus sxema bo'yicha.",
+      bolalar: "Vaznга/yuzaга qarab; yangi tug'ilganda profilaktika sxemasi"
+    },
+    chiqarish: "Kapsulalar/tabletkalar 100 mg, 300 mg; sirop 10 mg/ml; i/v eritma"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (нуклеозидные ингибиторы обратной транскриптазы)",
+    farmTasir: "Антиретровирусное средство против ВИЧ (первый АРВ-препарат)",
+    farmakodinamika: `Зидовудин (AZT, азидотимидин) — первый созданный нуклеозидный ингибитор обратной транскриптазы (НИОТ), аналог тимидина. Внутри клетки фосфорилируется в активный трифосфат, который ингибирует обратную транскриптазу ВИЧ и встраивается в цепь вирусной ДНК, прекращая её удлинение (терминатор цепи). Активен против ВИЧ-1 и ВИЧ-2. Всегда назначается в комбинации. Играет важную роль в снижении передачи ВИЧ от матери ребёнку (вертикальной передачи).`,
+    farmakokinetika: {
+      sorish: "Быстро всасывается внутрь (биодоступность ~60%, первое прохождение через печень)",
+      tarqalish: "Низкая связь с белками; проникает в СМЖ (хорошая проницаемость ГЭБ); через плаценту",
+      metabolizm: "Глюкуронируется в печени",
+      chiqarilish: "Преимущественно почками (метаболит); T½ ~1 ч (внутриклеточная активная форма дольше)"
+    },
+    korsatmalar: [
+      "ВИЧ-инфекция — в составе комбинированной АРТ",
+      "Профилактика передачи ВИЧ от матери ребёнку (беременность, роды, новорождённый)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к зидовудину",
+      "Тяжёлая анемия (Hb < 7,5 г/дл) или нейтропения (<0,75×10⁹/л)",
+      "Осторожно: депрессия костного мозга, печёночная недостаточность"
+    ],
+    nojoya: {
+      "Кроветворение": "Миелосупрессия — анемия, нейтропения (важнейшее, дозозависимо; регулярный контроль крови)",
+      "Мышцы": "Миопатия (при длительном применении), повышение КФК",
+      "Метаболические": "Лактатацидоз и гепатомегалия со стеатозом (характерно для НИОТ), липодистрофия",
+      "ЦНС/ЖКТ": "Головная боль, бессонница, тошнота, рвота",
+      "Прочие": "Пигментация ногтей/кожи"
+    },
+    dozadan: "Симптомы: гематологические и ЖКТ-симптомы. Лечение: контроль крови, симптоматически; гемодиализ частично выводит глюкуронид.",
+    ozarotasir: [
+      "Другие миелосупрессивные препараты (ганцикловир, котримоксазол) — усиление гематологической токсичности",
+      "Антагонизм со ставудином (не назначать вместе)",
+      "Пробенецид, флуконазол, вальпроат — повышают концентрацию"
+    ],
+    qollash: {
+      kattalar: "300 мг 2 раза в день (в комбинации). Профилактика вертикальной передачи: при беременности и в родах по специальной схеме.",
+      bolalar: "По массе/поверхности тела; у новорождённых схема профилактики"
+    },
+    chiqarish: "Капсулы/таблетки 100 мг, 300 мг; сироп 10 мг/мл; раствор для в/в"
+  },
+  en: {
+    gruppa: "Antiviral agents (nucleoside reverse transcriptase inhibitors)",
+    farmTasir: "Antiretroviral against HIV (the first ARV drug)",
+    farmakodinamika: `Zidovudine (AZT, azidothymidine) was the first nucleoside reverse transcriptase inhibitor (NRTI) developed, a thymidine analogue. Inside the cell it is phosphorylated to the active triphosphate, which inhibits HIV reverse transcriptase and is incorporated into the viral DNA chain, halting its elongation (chain terminator). It is active against HIV-1 and HIV-2. It is always given in combination. It plays an important role in reducing mother-to-child (vertical) transmission of HIV.`,
+    farmakokinetika: {
+      sorish: "Rapidly absorbed orally (bioavailability ~60%, hepatic first pass)",
+      tarqalish: "Low protein binding; penetrates CSF (good BBB penetration); crosses the placenta",
+      metabolizm: "Glucuronidated in the liver",
+      chiqarilish: "Mainly renally (metabolite); T½ ~1 h (intracellular active form longer)"
+    },
+    korsatmalar: [
+      "HIV infection — as part of combination ART",
+      "Prevention of mother-to-child HIV transmission (pregnancy, labour, neonate)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to zidovudine",
+      "Severe anaemia (Hb < 7.5 g/dL) or neutropenia (<0.75×10⁹/L)",
+      "Caution: bone marrow depression, hepatic impairment"
+    ],
+    nojoya: {
+      "Haematological": "Myelosuppression — anaemia, neutropenia (the most important, dose-dependent; regular blood monitoring)",
+      "Muscular": "Myopathy (with prolonged use), raised CK",
+      "Metabolic": "Lactic acidosis and hepatomegaly with steatosis (characteristic of NRTIs), lipodystrophy",
+      "CNS/GI": "Headache, insomnia, nausea, vomiting",
+      "Other": "Nail/skin pigmentation"
+    },
+    dozadan: "Symptoms: haematological and GI symptoms. Treatment: blood monitoring, symptomatic; haemodialysis partially removes the glucuronide.",
+    ozarotasir: [
+      "Other myelosuppressive drugs (ganciclovir, cotrimoxazole) — enhance haematological toxicity",
+      "Antagonism with stavudine (do not co-administer)",
+      "Probenecid, fluconazole, valproate — raise concentration"
+    ],
+    qollash: {
+      kattalar: "300 mg twice daily (in combination). Vertical transmission prophylaxis: during pregnancy and labour per a special regimen.",
+      bolalar: "By weight/body surface; a prophylaxis regimen in neonates"
+    },
+    chiqarish: "Capsules/tablets 100 mg, 300 mg; syrup 10 mg/mL; IV solution"
+  }
+},
+
+// ─── J05AX13 · Umifenovir ─────────────────────────────────────────────────
+"J05AX13": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (boshqa)",
+    farmTasir: "Grippга qarshi va immunomodulyator antivirus vosita",
+    farmakodinamika: `Umifenovir — antivirus preparat. Virus qobig'i (gemagglutinin) bilan ta'sirlashib, virus zarrachasining hujayra membranasi bilan birikishini (fuziyasini) to'sadi — bu virusning hujayraga kirishini va ko'payishini cheklaydi. A va B tipidagi gripp viruslariga, shuningdek ba'zi boshqa nafas yo'llari viruslarga ta'sir ko'rsatadi. Shuningdek interferon ishlab chiqarilishini rag'batlantiradi va makrofaglar faolligini oshiradi (immunomodulyator), antioksidant ta'sirga ega. Asosan MDH mamlakatlarида gripp va ORVI da qo'llaniladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'riladi; Cmax ~1–1,5 soat",
+      tarqalish: "To'qima va a'zolarga tez tarqaladi",
+      metabolizm: "Jigarда metabolizmga uchraydi",
+      chiqarilish: "Asosan o't (najas), qisman buyrak; T½ ~17–21 soat"
+    },
+    korsatmalar: [
+      "A va B gripp hamda boshqa o'tkir nafas yo'llari virusli infeksiyalari (ORVI) davolash va profilaktikasi",
+      "Bronxit, pnevmoniyaning kompleks davosi (yordamchi)",
+      "Qaytalanuvchi gerpes infeksiyasining kompleks davosi",
+      "Operatsiyadan keyingi immunitetni qo'llab-quvvatlash (yordamchi)"
+    ],
+    qarrshi: [
+      "Umifenovirга o'ta sezuvchanlik",
+      "2 (3) yoshgacha bolalar (shaklга qarab)",
+      "Homiladorlikning I trimestri (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Allergiya": "Allergik reaksiyalar (toshma, qichishish) — kam",
+      "Umumiy": "Odatda yaxshi ko'tariladi"
+    },
+    dozadan: "Past toksiklik; ma'lumot cheklangan, simptomatik davolash.",
+    ozarotasir: [
+      "Klinik ahamiyatga ega o'zaro ta'sir kam aniqlangan"
+    ],
+    qollash: {
+      kattalar: "Davolash: 200 mg kuniga 4 marta 5 kun. Profilaktika: 200 mg kuniga 1–2 marta (kontaktда yoki epidemiyada 10–14 kun).",
+      bolalar: "Yoshга qarab 50–100 mg kuniga 4 marta"
+    },
+    chiqarish: "Kapsulalar/tabletkalar 50 mg, 100 mg, 200 mg; suspenziya"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (прочие)",
+    farmTasir: "Противогриппозное и иммуномодулирующее противовирусное средство",
+    farmakodinamika: `Умифеновир — противовирусный препарат. Взаимодействуя с оболочкой вируса (гемагглютинином), препятствует слиянию (фузии) вирусной частицы с клеточной мембраной — это ограничивает проникновение вируса в клетку и его размножение. Действует на вирусы гриппа A и B, а также на некоторые другие респираторные вирусы. Также стимулирует выработку интерферона и повышает активность макрофагов (иммуномодулятор), обладает антиоксидантным действием. Применяется преимущественно в странах СНГ при гриппе и ОРВИ.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь; Cmax ~1–1,5 ч",
+      tarqalish: "Быстро распределяется в ткани и органы",
+      metabolizm: "Метаболизируется в печени",
+      chiqarilish: "Преимущественно с жёлчью (калом), частично почками; T½ ~17–21 ч"
+    },
+    korsatmalar: [
+      "Лечение и профилактика гриппа A и B и других ОРВИ",
+      "Комплексное лечение бронхита, пневмонии (вспомогательно)",
+      "Комплексное лечение рецидивирующей герпетической инфекции",
+      "Поддержка иммунитета после операций (вспомогательно)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к умифеновиру",
+      "Детский возраст до 2 (3) лет (в зависимости от формы)",
+      "I триместр беременности (с осторожностью)"
+    ],
+    nojoya: {
+      "Аллергические": "Аллергические реакции (сыпь, зуд) — редко",
+      "Общие": "Обычно хорошо переносится"
+    },
+    dozadan: "Низкая токсичность; данные ограничены, симптоматическое лечение.",
+    ozarotasir: [
+      "Клинически значимых взаимодействий выявлено мало"
+    ],
+    qollash: {
+      kattalar: "Лечение: 200 мг 4 раза в день 5 дней. Профилактика: 200 мг 1–2 раза в день (при контакте или в эпидемию 10–14 дней).",
+      bolalar: "По возрасту 50–100 мг 4 раза в день"
+    },
+    chiqarish: "Капсулы/таблетки 50 мг, 100 мг, 200 мг; суспензия"
+  },
+  en: {
+    gruppa: "Antiviral agents (other)",
+    farmTasir: "Anti-influenza and immunomodulatory antiviral",
+    farmakodinamika: `Umifenovir is an antiviral agent. By interacting with the viral envelope (haemagglutinin), it prevents fusion of the virus particle with the cell membrane — limiting viral entry into the cell and its replication. It acts on influenza A and B viruses and some other respiratory viruses. It also stimulates interferon production and increases macrophage activity (immunomodulator) and has antioxidant action. It is used mainly in CIS countries for influenza and ARVI.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally; Cmax ~1–1.5 h",
+      tarqalish: "Rapidly distributed into tissues and organs",
+      metabolizm: "Metabolised in the liver",
+      chiqarilish: "Mainly in bile (faeces), partly renally; T½ ~17–21 h"
+    },
+    korsatmalar: [
+      "Treatment and prophylaxis of influenza A and B and other ARVI",
+      "Adjunctive treatment of bronchitis, pneumonia",
+      "Combination treatment of recurrent herpes infection",
+      "Immune support after surgery (adjunct)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to umifenovir",
+      "Children under 2 (3) years (depending on the form)",
+      "First trimester of pregnancy (caution)"
+    ],
+    nojoya: {
+      "Hypersensitivity": "Allergic reactions (rash, itching) — rare",
+      "General": "Usually well tolerated"
+    },
+    dozadan: "Low toxicity; data limited, symptomatic treatment.",
+    ozarotasir: [
+      "Few clinically significant interactions identified"
+    ],
+    qollash: {
+      kattalar: "Treatment: 200 mg four times daily for 5 days. Prophylaxis: 200 mg 1–2 times daily (10–14 days after contact or during an epidemic).",
+      bolalar: "By age 50–100 mg four times daily"
+    },
+    chiqarish: "Capsules/tablets 50 mg, 100 mg, 200 mg; suspension"
+  }
+},
+
+// ─── J05AX27 · Favipiravir ────────────────────────────────────────────────
+"J05AX27": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (boshqa)",
+    farmTasir: "RNK-viruslarga qarshi keng spektrli antivirus vosita",
+    farmakodinamika: `Favipiravir — RNK-bog'liq РНК-polimeraza (RdRp) inhibitori bo'lgan antivirus preparat. Hujayra ichida ribozilfosforillanib faol favipiravir-ribofuranozil-trifosfatga aylanadi, u virusли RdRp fermentini bloklab virusли RNK sintezini to'xtatadi (purin nukleotidi sifatida noto'g'ri qo'shilib). Keng spektrli — gripp (jumladan rezistent shtammlar), shuningdek boshqa RNK-viruslariga (jumladan SARS-CoV-2) ta'sir ko'rsatadi. Pandemiya davrida gripp va COVID-19 da qo'llanilgan.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi (biofaollik yuqori); ovqat Cmax ni biroz kamaytiradi",
+      tarqalish: "Oqsilga o'rtacha bog'lanadi; to'qimaga tarqaladi",
+      metabolizm: "Jigarда aldegiddoksidaza (AO) orqali; o'zi AO ni inhibe qiladi",
+      chiqarilish: "Asosan buyrak orqali (metabolit); T½ ~2–5,5 soat"
+    },
+    korsatmalar: [
+      "Yangi yoki qayta paydo bo'lgan gripp (boshqa antivirus dorilarga javob bermaganда)",
+      "COVID-19 (yengil-o'rta — mahalliy protokollar bo'yicha, ba'zi mamlakatlarда)"
+    ],
+    qarrshi: [
+      "Favipiravirга o'ta sezuvchanlik",
+      "Homiladorlik va emizish davri (teratogen — mutlaq qarshi)",
+      "Reproduktiv yoshdagilarда ishonchli kontratsepsiyasiz qo'llash (davo davomida va keyin)",
+      "Og'ir jigar/buyrak yetishmovchiligi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Metabolik": "Giperurikemiya (siydik kislotasi oshishi — ko'p uchraydi)",
+      "Oshqozon-ichak": "Diareya, ko'ngil aynishi, qusish, transaminazalar oshishi",
+      "Asab tizimi": "Bosh og'rig'i",
+      "Boshqa": "QT intervalining uzayishi (kam); teratogenlik (homilaga)"
+    },
+    dozadan: "Ma'lumot cheklangan; simptomatik davolash, giperurikemiya nazorati.",
+    ozarotasir: [
+      "Aldegiddoksidaza substratlari/inhibitorlari bilan ta'sir",
+      "Pirazinamid — siydik kislotasini yanada oshiradi",
+      "Repaglinid (CYP2C8 substrati) konsentratsiyasini oshiradi; teofillin ta'sir qiladi"
+    ],
+    qollash: {
+      kattalar: "Odatda 1-kun yuklama 1600–1800 mg kuniga 2 marta, keyin 600–800 mg kuniga 2 marta (ko'rsatma va protokolга qarab); kurs 5–10 kun.",
+      bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)"
+    },
+    chiqarish: "Tabletkalar 200 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (прочие)",
+    farmTasir: "Противовирусное средство широкого спектра против РНК-вирусов",
+    farmakodinamika: `Фавипиравир — противовирусный препарат, ингибитор РНК-зависимой РНК-полимеразы (RdRp). Внутри клетки рибозилфосфорилируется в активный фавипиравир-рибофуранозил-трифосфат, который блокирует вирусную RdRp и прекращает синтез вирусной РНК (ошибочно встраиваясь как пуриновый нуклеотид). Широкий спектр — действует на грипп (в т.ч. резистентные штаммы) и другие РНК-вирусы (включая SARS-CoV-2). Применялся при гриппе и COVID-19 в период пандемии.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь (высокая биодоступность); пища несколько снижает Cmax",
+      tarqalish: "Умеренная связь с белками; распределяется в ткани",
+      metabolizm: "В печени через альдегидоксидазу (АО); сам ингибирует АО",
+      chiqarilish: "Преимущественно почками (метаболит); T½ ~2–5,5 ч"
+    },
+    korsatmalar: [
+      "Новый или повторно возникший грипп (при отсутствии ответа на другие противовирусные)",
+      "COVID-19 (лёгкий-умеренный — по местным протоколам, в некоторых странах)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к фавипиравиру",
+      "Беременность и лактация (тератогенен — абсолютно противопоказан)",
+      "Применение без надёжной контрацепции у лиц репродуктивного возраста (во время и после лечения)",
+      "Тяжёлая печёночная/почечная недостаточность (с осторожностью)"
+    ],
+    nojoya: {
+      "Метаболические": "Гиперурикемия (повышение мочевой кислоты — часто)",
+      "ЖКТ": "Диарея, тошнота, рвота, повышение трансаминаз",
+      "ЦНС": "Головная боль",
+      "Прочие": "Удлинение QT (редко); тератогенность (для плода)"
+    },
+    dozadan: "Данные ограничены; симптоматическое лечение, контроль гиперурикемии.",
+    ozarotasir: [
+      "Взаимодействие с субстратами/ингибиторами альдегидоксидазы",
+      "Пиразинамид — дополнительно повышает мочевую кислоту",
+      "Повышает концентрацию репаглинида (субстрат CYP2C8); влияет на теофиллин"
+    ],
+    qollash: {
+      kattalar: "Обычно в 1-й день нагрузка 1600–1800 мг 2 раза, затем 600–800 мг 2 раза в день (по показанию и протоколу); курс 5–10 дней.",
+      bolalar: "Не рекомендуется (данные ограничены)"
+    },
+    chiqarish: "Таблетки 200 мг"
+  },
+  en: {
+    gruppa: "Antiviral agents (other)",
+    farmTasir: "Broad-spectrum antiviral against RNA viruses",
+    farmakodinamika: `Favipiravir is an antiviral agent, an inhibitor of RNA-dependent RNA polymerase (RdRp). Inside the cell it is ribosylphosphorylated to the active favipiravir-ribofuranosyl-triphosphate, which blocks viral RdRp and halts viral RNA synthesis (being erroneously incorporated as a purine nucleotide). It has a broad spectrum — acting on influenza (including resistant strains) and other RNA viruses (including SARS-CoV-2). It was used for influenza and COVID-19 during the pandemic.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally (high bioavailability); food slightly lowers Cmax",
+      tarqalish: "Moderate protein binding; distributes into tissues",
+      metabolizm: "Hepatic via aldehyde oxidase (AO); itself inhibits AO",
+      chiqarilish: "Mainly renally (metabolite); T½ ~2–5.5 h"
+    },
+    korsatmalar: [
+      "Novel or re-emerging influenza (when not responding to other antivirals)",
+      "COVID-19 (mild-moderate — per local protocols, in some countries)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to favipiravir",
+      "Pregnancy and lactation (teratogenic — absolutely contraindicated)",
+      "Use without reliable contraception in those of reproductive age (during and after treatment)",
+      "Severe hepatic/renal impairment (caution)"
+    ],
+    nojoya: {
+      "Metabolic": "Hyperuricaemia (raised uric acid — common)",
+      "Gastrointestinal": "Diarrhoea, nausea, vomiting, raised transaminases",
+      "CNS": "Headache",
+      "Other": "QT prolongation (rare); teratogenicity (to the fetus)"
+    },
+    dozadan: "Data limited; symptomatic treatment, monitor hyperuricaemia.",
+    ozarotasir: [
+      "Interaction with aldehyde oxidase substrates/inhibitors",
+      "Pyrazinamide — further raises uric acid",
+      "Raises repaglinide concentration (CYP2C8 substrate); affects theophylline"
+    ],
+    qollash: {
+      kattalar: "Usually day-1 loading 1600–1800 mg twice, then 600–800 mg twice daily (per indication and protocol); course 5–10 days.",
+      bolalar: "Not recommended (limited data)"
+    },
+    chiqarish: "Tablets 200 mg"
+  }
+},
+
+// ─── J05AX05 · Inozin pranobeks ───────────────────────────────────────────
+"J05AX05": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (immunostimulyatorlar)",
+    farmTasir: "Antivirus immunomodulyator vosita",
+    farmakodinamika: `Inozin pranobeks (metisoprinol) — inozin va dimepranol asetamidobenzoat tuzining kombinatsiyasi. Ikki yo'nalishli ta'sir: (1) bevosita antivirus — virusли RNK sintezini buzib virus ko'payishini cheklaydi; (2) immunomodulyator — T-limfotsitlar (T-xelper va T-supressor), tabiiy killer hujayralar va makrofaglar faolligini oshiradi, sitokin (interleykin) ishlab chiqarilishini me'yorlashtiradi, antitana sintezini kuchaytiradi. Hujayraviy immunitet susaygan holatlarда virusли infeksiyalarда qo'llaniladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali tez va to'liq so'riladi",
+      tarqalish: "To'qimaga tarqaladi",
+      metabolizm: "Tez metabolizmga uchraydi (inozin — siydik kislotasiga; dimepranol)",
+      chiqarilish: "Asosan buyrak orqali (metabolitlar, jumladan siydik kislotasi); T½ qisqa"
+    },
+    korsatmalar: [
+      "Gerpes infeksiyalari (lab, jinsiy, belbog' temiratki), suvchechak",
+      "O'tkir nafas yo'llari virusli infeksiyalari (ORVI), gripp",
+      "Inson papilloma virusi (HPV) infeksiyasi — kondiloma, displaziya (kompleks davoда)",
+      "O'tkir/yarim o'tkir sklerozlovchi panensefalit (SSPE — qizamiq virusi)",
+      "Immunitet susaygan bemorlarда virusli infeksiyalar"
+    ],
+    qarrshi: [
+      "Inozin pranobeksга o'ta sezuvchanlik",
+      "Podagra va giperurikemiya (siydik kislotasi oshadi)",
+      "Siydik-tosh kasalligi; og'ir buyrak yetishmovchiligi",
+      "Aritmiyalar; homiladorlik va emizish davri (ma'lumot cheklangan)"
+    ],
+    nojoya: {
+      "Metabolik": "Giperurikemiya, siydikда siydik kislotasi oshishi (eng ko'p uchraydigan)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i, transaminazalar oshishi",
+      "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, charchoq, uyqu buzilishi",
+      "Allergiya": "Toshma, qichishish",
+      "Buyrak": "Poliuriya, uzoq qo'llashda buyrak xavfi"
+    },
+    dozadan: "Belgilar: giperurikemiya. Davolash: ko'p suyuqlik, simptomatik, siydik kislotasi nazorati.",
+    ozarotasir: [
+      "Immunosupressantlar — immunomodulyator ta'sirini susaytiradi",
+      "Siydik kislotasini oshiruvchilar (tiazid diuretiklar, petlali diuretiklar) — giperurikemiyani kuchaytiradi",
+      "Zidovudin konsentratsiyasini oshirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "50 mg/kg/sut 3–4 qabulга bo'lib (odatda 1 g kuniga 3–4 marta); og'ir holatda yuqoriroq; kurs kasallikка qarab 5–14 kun (SSPE da uzoq).",
+      bolalar: "50 mg/kg/sut bo'lib (1 yoshdan)"
+    },
+    chiqarish: "Tabletkalar 500 mg; sirop 250 mg/5 ml"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (иммуностимуляторы)",
+    farmTasir: "Противовирусное иммуномодулирующее средство",
+    farmakodinamika: `Инозин пранобекс (метисопринол) — комбинация инозина и соли диметиламино-2-пропанола с ацетамидобензоатом. Двунаправленное действие: (1) прямое противовирусное — нарушает синтез вирусной РНК, ограничивая размножение вируса; (2) иммуномодулирующее — повышает активность Т-лимфоцитов (Т-хелперов и Т-супрессоров), естественных киллеров и макрофагов, нормализует продукцию цитокинов (интерлейкинов), усиливает синтез антител. Применяется при вирусных инфекциях на фоне сниженного клеточного иммунитета.`,
+    farmakokinetika: {
+      sorish: "Быстро и полно всасывается внутрь",
+      tarqalish: "Распределяется в ткани",
+      metabolizm: "Быстро метаболизируется (инозин — до мочевой кислоты; диметиламинопропанол)",
+      chiqarilish: "Преимущественно почками (метаболиты, включая мочевую кислоту); T½ короткий"
+    },
+    korsatmalar: [
+      "Герпетические инфекции (лабиальный, генитальный, опоясывающий лишай), ветряная оспа",
+      "Острые респираторные вирусные инфекции (ОРВИ), грипп",
+      "Инфекция вирусом папилломы человека (ВПЧ) — кондиломы, дисплазия (в комплексной терапии)",
+      "Острый/подострый склерозирующий панэнцефалит (ПСПЭ — вирус кори)",
+      "Вирусные инфекции у больных со сниженным иммунитетом"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к инозину пранобексу",
+      "Подагра и гиперурикемия (повышает мочевую кислоту)",
+      "Мочекаменная болезнь; тяжёлая почечная недостаточность",
+      "Аритмии; беременность и период лактации (данные ограничены)"
+    ],
+    nojoya: {
+      "Метаболические": "Гиперурикемия, повышение мочевой кислоты в моче (наиболее частое)",
+      "ЖКТ": "Тошнота, боль в животе, повышение трансаминаз",
+      "ЦНС": "Головная боль, головокружение, утомляемость, нарушение сна",
+      "Аллергические": "Сыпь, зуд",
+      "Почки": "Полиурия, почечный риск при длительном применении"
+    },
+    dozadan: "Симптомы: гиперурикемия. Лечение: обильное питьё, симптоматически, контроль мочевой кислоты.",
+    ozarotasir: [
+      "Иммуносупрессанты — ослабляют иммуномодулирующее действие",
+      "Повышающие мочевую кислоту (тиазидные, петлевые диуретики) — усиливают гиперурикемию",
+      "Может повышать концентрацию зидовудина"
+    ],
+    qollash: {
+      kattalar: "50 мг/кг/сут в 3–4 приёма (обычно 1 г 3–4 раза в день); при тяжёлом течении выше; курс по заболеванию 5–14 дней (при ПСПЭ длительно).",
+      bolalar: "50 мг/кг/сут дробно (с 1 года)"
+    },
+    chiqarish: "Таблетки 500 мг; сироп 250 мг/5 мл"
+  },
+  en: {
+    gruppa: "Antiviral agents (immunostimulants)",
+    farmTasir: "Antiviral immunomodulatory agent",
+    farmakodinamika: `Inosine pranobex (methisoprinol) is a combination of inosine and the dimepranol acetamidobenzoate salt. It has a dual action: (1) direct antiviral — it disrupts viral RNA synthesis, limiting viral replication; (2) immunomodulatory — it increases the activity of T-lymphocytes (T-helpers and T-suppressors), natural killer cells and macrophages, normalises cytokine (interleukin) production and enhances antibody synthesis. It is used for viral infections in the setting of reduced cellular immunity.`,
+    farmakokinetika: {
+      sorish: "Rapidly and completely absorbed orally",
+      tarqalish: "Distributes into tissues",
+      metabolizm: "Rapidly metabolised (inosine — to uric acid; dimepranol)",
+      chiqarilish: "Mainly renally (metabolites, including uric acid); short T½"
+    },
+    korsatmalar: [
+      "Herpes infections (labial, genital, herpes zoster), chickenpox",
+      "Acute respiratory viral infections (ARVI), influenza",
+      "Human papillomavirus (HPV) infection — condylomata, dysplasia (in combination)",
+      "Acute/subacute sclerosing panencephalitis (SSPE — measles virus)",
+      "Viral infections in immunocompromised patients"
+    ],
+    qarrshi: [
+      "Hypersensitivity to inosine pranobex",
+      "Gout and hyperuricaemia (raises uric acid)",
+      "Urolithiasis; severe renal impairment",
+      "Arrhythmias; pregnancy and lactation (limited data)"
+    ],
+    nojoya: {
+      "Metabolic": "Hyperuricaemia, raised urinary uric acid (the most common)",
+      "Gastrointestinal": "Nausea, abdominal pain, raised transaminases",
+      "CNS": "Headache, dizziness, fatigue, sleep disturbance",
+      "Hypersensitivity": "Rash, itching",
+      "Renal": "Polyuria, renal risk with prolonged use"
+    },
+    dozadan: "Symptoms: hyperuricaemia. Treatment: ample fluids, symptomatic, monitor uric acid.",
+    ozarotasir: [
+      "Immunosuppressants — weaken the immunomodulatory effect",
+      "Uric acid-raising agents (thiazide, loop diuretics) — worsen hyperuricaemia",
+      "May raise zidovudine concentration"
+    ],
+    qollash: {
+      kattalar: "50 mg/kg/day in 3–4 doses (usually 1 g 3–4 times daily); higher in severe cases; course 5–14 days by disease (long-term in SSPE).",
+      bolalar: "50 mg/kg/day divided (from 1 year)"
+    },
+    chiqarish: "Tablets 500 mg; syrup 250 mg/5 mL"
+  }
+},
+
+// ─── J04AM02 · Rifampitsin + Izoniazid (kombinatsiya) ─────────────────────
+"J04AM02": {
+  uz: {
+    gruppa: "Silga qarshi preparatlar (kombinatsiyalar)",
+    farmTasir: "Silga qarshi birinchi qator kombinatsiyalangan bakteritsid vosita",
+    farmakodinamika: `Rifampitsin va izoniazidning belgilangan dozali kombinatsiyasi — silга qarshi standart davoning asosi. Rifampitsin bakteriya ДНК-bog'liq РНК-polimerazani bloklab РНК sintezini to'xtatadi (bakteritsid, jumladan dam olayotgan mikobakteriyalarga). Izoniazid mikol kislotalar sintezini buzib hujayra devorini izdan chiqaradi (faol ko'payayotgan mikobakteriyalarga bakteritsid). Birgalikda sinergistik ta'sir ko'rsatadi va chidamlilik rivojlanishini sekinlashtiradi — bu kombinatsiyaning asosiy maqsadi. Bitta tabletkaда berish davo rejimiga rioya qilishni osonlashtiradi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi (bo'sh oshqozonga); ovqat so'rilishni kamaytiradi",
+      tarqalish: "Ikkala komponent to'qima va suyuqliklarga, hujayra ichiga keng tarqaladi",
+      metabolizm: "Rifampitsin jigarда (ferment induktori); izoniazid asetillanadi",
+      chiqarilish: "Rifampitsin o't; izoniazid buyrak orqali"
+    },
+    korsatmalar: [
+      "Sil (barcha shakllari) — davolashning intensiv va davom etuvchi fazalari",
+      "Latent sil infeksiyasini davolash (3 oylik rifampitsin+izoniazid rejimi)"
+    ],
+    qarrshi: [
+      "Rifamitsin yoki izoniazidга o'ta sezuvchanlik",
+      "Og'ir jigar yetishmovchiligi, faol jigar kasalligi, sariqlik",
+      "Bir vaqtda HIV proteaza inhibitorlari (rifampitsin induksiyasi)",
+      "Epilepsiya, og'ir periferik neyropatiya (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Jigar": "Gepatotoksiklik (ikkala komponent — birga xavf yuqori; muntazam jigar nazorati shart)",
+      "Asab tizimi": "Periferik neyropatiya (izoniazid — piridoksin bilan oldini olinadi)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish, ishtaha pasayishi",
+      "Boshqa": "Siydik/ter/ko'z yoshining qizg'ish rangга bo'yalishi (rifampitsin); grippsimon sindrom, gematologik buzilishlar"
+    },
+    dozadan: "Belgilar: jigar shikastlanishi, izoniazid tirishishlari. Davolash: piridoksin (izoniazid), simptomatik, jigar nazorati, gemodializ.",
+    ozarotasir: [
+      "Rifampitsin — kuchli ferment induktori (kontratseptivlar, varfarin, antiretroviruslar, GKS ta'sirini kamaytiradi)",
+      "Izoniazid — fenitoin, karbamazepin, teofillin konsentratsiyasini oshiradi",
+      "Alkogol — gepatotoksiklikni kuchaytiradi; antatsidlar so'rilishini kamaytiradi"
+    ],
+    qollash: {
+      kattalar: "Vaznга qarab belgilangan dozali tabletka(lar) kuniga 1 marta bo'sh oshqozonga (odatda rifampitsin 10 mg/kg + izoniazid 5 mg/kg ga ekvivalent); piridoksin qo'shiladi.",
+      bolalar: "Vaznга qarab pediatrik kombinatsiyalangan tabletkalar"
+    },
+    chiqarish: "Kombinatsiyalangan tabletkalar (masalan rifampitsin 150/300 mg + izoniazid 75/150 mg)"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные препараты (комбинации)",
+    farmTasir: "Комбинированное бактерицидное противотуберкулёзное средство первого ряда",
+    farmakodinamika: `Фиксированная дозовая комбинация рифампицина и изониазида — основа стандартной противотуберкулёзной терапии. Рифампицин блокирует ДНК-зависимую РНК-полимеразу бактерий, прекращая синтез РНК (бактерицидно, в т.ч. на покоящиеся микобактерии). Изониазид нарушает синтез миколовых кислот и клеточную стенку (бактерицидно на активно размножающиеся микобактерии). Вместе оказывают синергичное действие и замедляют развитие резистентности — главная цель комбинации. Приём в одной таблетке улучшает приверженность лечению.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь (натощак); пища снижает всасывание",
+      tarqalish: "Оба компонента широко распределяются в ткани и жидкости, внутрь клеток",
+      metabolizm: "Рифампицин в печени (индуктор ферментов); изониазид ацетилируется",
+      chiqarilish: "Рифампицин с жёлчью; изониазид почками"
+    },
+    korsatmalar: [
+      "Туберкулёз (все формы) — интенсивная и продолжающая фазы лечения",
+      "Лечение латентной туберкулёзной инфекции (3-месячный режим рифампицин+изониазид)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к рифамицинам или изониазиду",
+      "Тяжёлая печёночная недостаточность, активное заболевание печени, желтуха",
+      "Одновременно ингибиторы протеазы ВИЧ (индукция рифампицином)",
+      "Эпилепсия, тяжёлая периферическая невропатия (с осторожностью)"
+    ],
+    nojoya: {
+      "Печень": "Гепатотоксичность (оба компонента — риск выше вместе; обязателен регулярный контроль печени)",
+      "ЦНС": "Периферическая невропатия (изониазид — предупреждается пиридоксином)",
+      "ЖКТ": "Тошнота, рвота, снижение аппетита",
+      "Прочие": "Окрашивание мочи/пота/слёз в красный цвет (рифампицин); гриппоподобный синдром, гематологические нарушения"
+    },
+    dozadan: "Симптомы: поражение печени, судороги от изониазида. Лечение: пиридоксин (изониазид), симптоматически, контроль печени, гемодиализ.",
+    ozarotasir: [
+      "Рифампицин — сильный индуктор ферментов (снижает действие контрацептивов, варфарина, антиретровирусных, ГКС)",
+      "Изониазид — повышает концентрацию фенитоина, карбамазепина, теофиллина",
+      "Алкоголь — усиливает гепатотоксичность; антациды снижают всасывание"
+    ],
+    qollash: {
+      kattalar: "По массе фиксированные дозовые таблетки 1 раз в день натощак (обычно эквивалент рифампицин 10 мг/кг + изониазид 5 мг/кг); добавляют пиридоксин.",
+      bolalar: "По массе педиатрические комбинированные таблетки"
+    },
+    chiqarish: "Комбинированные таблетки (например рифампицин 150/300 мг + изониазид 75/150 мг)"
+  },
+  en: {
+    gruppa: "Antituberculosis agents (combinations)",
+    farmTasir: "First-line combined bactericidal antituberculosis agent",
+    farmakodinamika: `A fixed-dose combination of rifampicin and isoniazid — the backbone of standard antituberculosis therapy. Rifampicin blocks bacterial DNA-dependent RNA polymerase, halting RNA synthesis (bactericidal, including against dormant mycobacteria). Isoniazid disrupts mycolic acid synthesis and the cell wall (bactericidal against actively replicating mycobacteria). Together they act synergistically and slow resistance development — the main purpose of the combination. Single-tablet dosing improves treatment adherence.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally (fasting); food reduces absorption",
+      tarqalish: "Both components distribute widely into tissues and fluids, intracellularly",
+      metabolizm: "Rifampicin hepatically (enzyme inducer); isoniazid is acetylated",
+      chiqarilish: "Rifampicin in bile; isoniazid renally"
+    },
+    korsatmalar: [
+      "Tuberculosis (all forms) — intensive and continuation phases of treatment",
+      "Treatment of latent tuberculosis infection (3-month rifampicin+isoniazid regimen)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to rifamycins or isoniazid",
+      "Severe hepatic impairment, active liver disease, jaundice",
+      "Concomitant HIV protease inhibitors (rifampicin induction)",
+      "Epilepsy, severe peripheral neuropathy (caution)"
+    ],
+    nojoya: {
+      "Hepatic": "Hepatotoxicity (both components — higher risk together; regular liver monitoring is mandatory)",
+      "CNS": "Peripheral neuropathy (isoniazid — prevented by pyridoxine)",
+      "Gastrointestinal": "Nausea, vomiting, decreased appetite",
+      "Other": "Red discolouration of urine/sweat/tears (rifampicin); flu-like syndrome, haematological disturbances"
+    },
+    dozadan: "Symptoms: liver injury, isoniazid seizures. Treatment: pyridoxine (isoniazid), symptomatic, liver monitoring, haemodialysis.",
+    ozarotasir: [
+      "Rifampicin — strong enzyme inducer (reduces the effect of contraceptives, warfarin, antiretrovirals, corticosteroids)",
+      "Isoniazid — raises concentration of phenytoin, carbamazepine, theophylline",
+      "Alcohol — increases hepatotoxicity; antacids reduce absorption"
+    ],
+    qollash: {
+      kattalar: "Weight-based fixed-dose tablet(s) once daily fasting (usually equivalent to rifampicin 10 mg/kg + isoniazid 5 mg/kg); pyridoxine is added.",
+      bolalar: "Weight-based paediatric combination tablets"
+    },
+    chiqarish: "Combination tablets (e.g. rifampicin 150/300 mg + isoniazid 75/150 mg)"
+  }
 }
 
 };
