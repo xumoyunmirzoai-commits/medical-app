@@ -390,6 +390,237 @@ const LAB_TESTS = [
       en: ["Improper sampling (eating before the test)", "Dehydration", "Elevated albumin", "Acidosis"]
     },
     note: { uz: "Infeksiya belgilari — Bakterial/zamburug'li: neytrofillar, monotsitlar, leykotsitlar ↑, limfotsitlar ↓, ECHT ↑. Virusli: limfotsitlar, monotsitlar ↑, neytrofillar, leykotsitlar ↓, ECHT ↑. Virusli infeksiyada antibiotiklar qo'llanilmaydi.", ru: "Признаки инфекции — Бактериальная/грибковая: нейтрофилы, моноциты, лейкоциты ↑, лимфоциты ↓, СОЭ ↑. Вирусная: лимфоциты, моноциты ↑, нейтрофилы, лейкоциты ↓, СОЭ ↑. При вирусной инфекции антибиотики не применяются.", en: "Signs of infection — Bacterial/fungal: neutrophils, monocytes, leukocytes ↑, lymphocytes ↓, ESR ↑. Viral: lymphocytes, monocytes ↑, neutrophils, leukocytes ↓, ESR ↑. Antibiotics are not used for viral infection." }
+  },
+
+  // ─────────── Biokimyo: temir va yallig'lanish ───────────
+  {
+    id: "ferritin", cat: "biochem", abbr: "Ferritin",
+    name: { uz: "Ferritin", ru: "Ферритин", en: "Ferritin" },
+    unit: { uz: "mkg/l", ru: "мкг/л", en: "µg/L" },
+    norms: {
+      uz: [["Yangi tug'ilgan – 6 oy", "70–300"], ["6 oy – 15 yosh", "50–100"], ["Ayollar", "50–100"], ["Erkaklar", "70–150"]],
+      ru: [["новорожд. – 6 мес.", "70–300"], ["6 мес. – 15 лет", "50–100"], ["Женщины", "50–100"], ["Мужчины", "70–150"]],
+      en: [["newborn – 6 mo", "70–300"], ["6 mo – 15 yrs", "50–100"], ["Women", "50–100"], ["Men", "70–150"]]
+    },
+    optimum: { uz: "100 dan oshmasligi (sog'lom hayz ko'radigan ayollarда ~50–70)", ru: "не выше 100 (у здоровых менструирующих женщин ~50–70)", en: "not above 100 (in healthy menstruating women ~50–70)" },
+    high: {
+      uz: ["Aniqlanmagan joylashuvli yashirin yallig'lanish (infeksiyalar, autoimmun kasalliklar)", "Gemoxromatoz", "Jigarning o'tkir yoki surункali kasalliklari", "Semizlikda metabolik sindrom", "Qandli diabet", "Homiladorlik", "Gemolitik anemiyalar (B12-tanqislik anemiyasi, talassemiya)", "Ko'p marta qon quyish, mushak ichiga temir yuborish, tabletka temir preparatlari"],
+      ru: ["Скрытое воспаление неясной локализации (инфекции, аутоиммунные заболевания)", "Гемохроматоз", "Острые или хронические заболевания печени", "Метаболический синдром при ожирении", "Сахарный диабет", "Беременность", "Гемолитические анемии (B12-дефицитная, талассемия)", "Множественные переливания крови, в/м железо, таблетированные препараты железа"],
+      en: ["Latent inflammation of unclear origin (infections, autoimmune diseases)", "Hemochromatosis", "Acute or chronic liver disease", "Metabolic syndrome in obesity", "Diabetes mellitus", "Pregnancy", "Hemolytic anemias (B12-deficiency, thalassemia)", "Multiple transfusions, IM iron, oral iron preparations"]
+    },
+    low: {
+      uz: ["Temir tanqisligi", "Endokrin disfunksiya (50 mkg/l dan past qiymat T4→T3 konversiyasini qiyinlashtiradi)", "Qalqonsimon bez gormonlari tanqisligi temir tanqisligiga olib keladi"],
+      ru: ["Дефицит железа", "Эндокринная дисфункция (значение ниже 50 мкг/л создаёт проблемы с конверсией Т4 в Т3)", "Дефицит гормонов щитовидной железы ведёт к железодефициту"],
+      en: ["Iron deficiency", "Endocrine dysfunction (value below 50 µg/L impairs T4→T3 conversion)", "Thyroid hormone deficiency leads to iron deficiency"]
+    },
+    note: { uz: "MCV, MCH, RDW ko'rsatkichlari ko'proq ma'lumot beradi. Yallig'lanishning o'tkir fazasida ferritin oshishi mavjud temir tanqisligini niqoblashi mumkin.", ru: "Более показательны MCV, MCH, RDW. Повышение ферритина в острой фазе воспаления может маскировать имеющийся дефицит железа.", en: "MCV, MCH, RDW are more informative. A rise in ferritin during acute inflammation can mask an existing iron deficiency." }
+  },
+
+  {
+    id: "transferrin", cat: "biochem", abbr: "Transferrin",
+    name: { uz: "Transferrin", ru: "Трансферрин", en: "Transferrin" },
+    unit: { uz: "g/l", ru: "г/л", en: "g/L" },
+    norms: {
+      uz: [["0–2 yosh", "2–3,5"], ["2 yoshdan katta va kattalar", "2–3"]],
+      ru: [["0–2 года", "2–3,5"], ["дети от 2 лет и взрослые", "2–3"]],
+      en: [["0–2 yrs", "2–3.5"], ["over 2 yrs and adults", "2–3"]]
+    },
+    optimum: { uz: "2–3 g/l", ru: "2–3 г/л", en: "2–3 g/L" },
+    high: {
+      uz: ["Temir tanqisligi anemiyasi"],
+      ru: ["Железодефицитная анемия"],
+      en: ["Iron-deficiency anemia"]
+    },
+    low: {
+      uz: ["Sink tanqisligi", "Oqsil tanqisligi", "Jigarning sintetik funksiyasi buzilishi"],
+      ru: ["Дефицит цинка", "Дефицит белка", "Нарушение синтетической функции печени"],
+      en: ["Zinc deficiency", "Protein deficiency", "Impaired hepatic synthetic function"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "tsat", cat: "biochem", abbr: "TSAT",
+    name: { uz: "Transferrinning temir bilan to'yinishi", ru: "Насыщение трансферрина железом", en: "Transferrin saturation with iron" },
+    unit: { uz: "%", ru: "%", en: "%" },
+    norms: {
+      uz: [["Barcha yoshlar", "30–40"]],
+      ru: [["Все возрасты", "30–40"]],
+      en: [["All ages", "30–40"]]
+    },
+    optimum: { uz: "35 %", ru: "35 %", en: "35 %" },
+    high: {
+      uz: ["45 % dan yuqori — temir bilan ortiqcha yuklanish"],
+      ru: ["Выше 45 % — перегрузка железом"],
+      en: ["Above 45 % — iron overload"]
+    },
+    low: {
+      uz: ["25 % dan past — temir tanqisligi", "16 % dan past — aniq temir tanqisligi anemiyasi"],
+      ru: ["Ниже 25 % — дефицит железа", "Ниже 16 % — явная железодефицитная анемия"],
+      en: ["Below 25 % — iron deficiency", "Below 16 % — overt iron-deficiency anemia"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "feserum", cat: "biochem", abbr: "Fe",
+    name: { uz: "Zardobdagi temir konsentratsiyasi", ru: "Железо сыворотки", en: "Serum iron" },
+    unit: { uz: "mkmol/l", ru: "мкмоль/л", en: "µmol/L" },
+    norms: {
+      uz: [["Barcha yoshlar", "15–30"]],
+      ru: [["Все возрасты", "15–30"]],
+      en: [["All ages", "15–30"]]
+    },
+    optimum: { uz: "15–30 mkmol/l", ru: "15–30 мкмоль/л", en: "15–30 µmol/L" },
+    high: {
+      uz: ["Temir preparatlari fonida (kuzatuv qiymati)", "Temir bilan ortiqcha yuklanish"],
+      ru: ["На фоне приёма препаратов железа (контрольное значение)", "Перегрузка железом"],
+      en: ["On iron supplementation (control value)", "Iron overload"]
+    },
+    low: {
+      uz: ["Ratsionda temir kamligi", "Ichakда temirning so'rilishi buzilishi", "B guruh vitaminlari tanqisligi", "Mis tanqisligi", "Vitamin C tanqisligi"],
+      ru: ["Мало железа в рационе", "Проблемы с усвоением железа в кишечнике", "Дефицит витаминов группы В", "Дефицит меди", "Дефицит витамина С"],
+      en: ["Low dietary iron", "Impaired intestinal iron absorption", "B-group vitamin deficiency", "Copper deficiency", "Vitamin C deficiency"]
+    },
+    note: { uz: "Temir preparatlari fonida ko'rsatkich oshishi kerak. Agar oshmasa — ichakda temir so'rilishida muammo bor.", ru: "На фоне приёма препаратов железа показатель должен расти. Если этого не происходит — есть проблемы с усвоением железа в кишечнике.", en: "On iron supplementation the value should rise. If it does not, there is an intestinal iron-absorption problem." }
+  },
+
+  {
+    id: "tibc", cat: "biochem", abbr: "TIBC",
+    name: { uz: "Temir bog'lashning umumiy qobiliyati (TBUQ)", ru: "ОЖСС (общая железосвязывающая способность)", en: "Total iron-binding capacity" },
+    unit: { uz: "mkmol/l", ru: "мкмоль/л", en: "µmol/L" },
+    norms: {
+      uz: [["0–2 yosh", "50–65"], ["2 yoshdan katta va kattalar", "45–55"]],
+      ru: [["0–2 года", "50–65"], ["от 2 лет и взрослые", "45–55"]],
+      en: [["0–2 yrs", "50–65"], ["over 2 yrs and adults", "45–55"]]
+    },
+    optimum: { uz: "Normaning yuqori chegarasiga yaqin", ru: "Ближе к верхней границе нормы", en: "Closer to the upper limit of normal" },
+    high: {
+      uz: ["Temir tanqisligi", "Gipoxrom anemiya", "Homiladorlikning kech muddatlari"],
+      ru: ["Дефицит железа", "Гипохромная анемия", "Беременность на поздних сроках"],
+      en: ["Iron deficiency", "Hypochromic anemia", "Late pregnancy"]
+    },
+    low: {
+      uz: ["Gemolitik va ba'zi boshqa anemiyalar", "Pernitsioz anemiya (B12 tanqisligi)", "Gemoxromatoz / temir ortiqchaligi", "Talassemiya", "Oqsil tanqisligi", "O'tkir infeksion yoki bakterial kasalliklar"],
+      ru: ["Гемолитическая и некоторые другие виды анемий", "Пернициозная анемия (дефицит В12)", "Гемохроматоз / избыток железа", "Талассемия", "Дефицит белка", "Острые инфекционные или бактериальные заболевания"],
+      en: ["Hemolytic and some other anemias", "Pernicious anemia (B12 deficiency)", "Hemochromatosis / iron excess", "Thalassemia", "Protein deficiency", "Acute infectious or bacterial diseases"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "homocysteine", cat: "biochem", abbr: "HCY",
+    name: { uz: "Gomotsistein", ru: "Гомоцистеин", en: "Homocysteine" },
+    unit: { uz: "mkmol/l", ru: "мкмоль/л", en: "µmol/L" },
+    norms: {
+      uz: [["Barcha yoshlar (optimal)", "5–7"], ["Qizlar 12–19 yosh", "3,3–7,2"], ["Ayollar 60 yoshdan katta", "4,9–11,6"], ["O'g'illar 12–19 yosh", "4,3–9,9"], ["Erkaklar 60 yoshdan katta", "5,9–15,3"]],
+      ru: [["Все возрасты (оптимально)", "5–7"], ["Ж 12–19 лет", "3,3–7,2"], ["Ж старше 60 лет", "4,9–11,6"], ["М 12–19 лет", "4,3–9,9"], ["М старше 60 лет", "5,9–15,3"]],
+      en: [["All ages (optimal)", "5–7"], ["Girls 12–19 yrs", "3.3–7.2"], ["Women over 60 yrs", "4.9–11.6"], ["Boys 12–19 yrs", "4.3–9.9"], ["Men over 60 yrs", "5.9–15.3"]]
+    },
+    optimum: { uz: "≈6, 7 dan oshmasligi", ru: "≈6, не выше 7", en: "≈6, not above 7" },
+    high: {
+      uz: ["Tanqislik: B12/B9", "Betain (trimetilglitsin) tanqisligi", "Tanqislik: inozitol (B8)/xolin (B4)/B6", "MTHFR genining mutatsiyasi", "Ratsionda kofe ortiqchaligi", "Ovqatda metionin ortiqchaligi", "Chekish", "Buyrak yetishmovchiligi", "Dorilar (metotreksat, fenitoin, azot oksidi, metformin, eufillin, gormonal kontratseptivlar)"],
+      ru: ["Дефицит В12/В9", "Дефицит бетаина (триметилглицина)", "Дефицит инозитола (В8)/холина (В4)/В6", "Мутация гена MTHFR", "Избыток кофе в рационе", "Избыток метионина в еде", "Курение", "Почечная недостаточность", "Приём лекарств (метотрексат, фенитоин, закись азота, метформин, эуфиллин, гормональные контрацептивы)"],
+      en: ["B12/B9 deficiency", "Betaine (trimethylglycine) deficiency", "Inositol (B8)/choline (B4)/B6 deficiency", "MTHFR gene mutation", "Excess dietary coffee", "Excess dietary methionine", "Smoking", "Renal failure", "Drugs (methotrexate, phenytoin, nitrous oxide, metformin, aminophylline, hormonal contraceptives)"]
+    },
+    low: {
+      uz: ["Glutation tanqisligi", "Ovqatda metionin tanqisligi", "Homiladorlik"],
+      ru: ["Дефицит глутатиона", "Дефицит метионина в еде", "Беременность"],
+      en: ["Glutathione deficiency", "Dietary methionine deficiency", "Pregnancy"]
+    },
+    note: { uz: "Gomotsisteinning oshishi patologik tromb hosil bo'lishiga olib keladi. 10–20 — yengil, 20–29 — o'rta, 30 dan yuqori — og'ir daraja. 13 dan yuqori — yurak-qon tomir kasalliklari xavfi yuqori.", ru: "Повышение гомоцистеина ведёт к патологическому тромбообразованию. 10–20 — лёгкое, 20–29 — умеренное, 30 и выше — тяжёлое. Выше 13 — высокий риск сердечно-сосудистых заболеваний.", en: "Elevated homocysteine promotes pathological thrombosis. 10–20 mild, 20–29 moderate, 30+ severe. Above 13 indicates high cardiovascular risk." }
+  },
+
+  {
+    id: "cpeptide", cat: "biochem", abbr: "C-Pept",
+    name: { uz: "C-peptid", ru: "С-пептид", en: "C-peptide" },
+    unit: { uz: "ng/ml", ru: "нг/мл", en: "ng/mL" },
+    norms: {
+      uz: [["Barcha yoshlar", "2,5–3 (yoki referens o'rtasi)"]],
+      ru: [["Все возрасты", "2,5–3 (или середина референса)"]],
+      en: [["All ages", "2.5–3 (or mid-reference)"]]
+    },
+    optimum: { uz: "2,5–3 ng/ml", ru: "2,5–3 нг/мл", en: "2.5–3 ng/mL" },
+    high: {
+      uz: ["Buyrak yetishmovchiligi", "Tuxumdon polikistozi", "Homiladorlik", "Semizlik", "2-tip qandli diabet"],
+      ru: ["Почечная недостаточность", "Поликистоз яичников", "Беременность", "Ожирение", "Сахарный диабет 2 типа"],
+      en: ["Renal failure", "Polycystic ovary syndrome", "Pregnancy", "Obesity", "Type 2 diabetes mellitus"]
+    },
+    low: {
+      uz: ["1-tip qandli diabet", "Sun'iy gipoglikemiya"],
+      ru: ["Сахарный диабет 1 типа", "Искусственная гипогликемия"],
+      en: ["Type 1 diabetes mellitus", "Factitious hypoglycemia"]
+    },
+    note: { uz: "Normadan qancha past bo'lsa, insulinrezistentlik shunchalik kuchli ifodalangan.", ru: "Чем ниже нормы, тем выраженнее инсулинорезистентность.", en: "The lower below normal, the more pronounced the insulin resistance." }
+  },
+
+  {
+    id: "crp", cat: "biochem", abbr: "CRP",
+    name: { uz: "C-reaktiv oqsil", ru: "С-реактивный белок", en: "C-reactive protein" },
+    unit: { uz: "mg/l", ru: "мг/л", en: "mg/L" },
+    norms: {
+      uz: [["Bolalar", "1,6 dan kam"], ["Ayollar", "1,0 dan kam"], ["Erkaklar", "0,55 dan kam"]],
+      ru: [["Дети", "менее 1,6"], ["Женщины", "менее 1,0"], ["Мужчины", "менее 0,55"]],
+      en: [["Children", "less than 1.6"], ["Women", "less than 1.0"], ["Men", "less than 0.55"]]
+    },
+    optimum: { uz: "0 ga yaqin (1 mg/l gacha)", ru: "ближе к 0 (до 1 мг/л)", en: "close to 0 (up to 1 mg/L)" },
+    high: {
+      uz: ["Organizmdagi tizimli yallig'lanish (qo'shimcha umumiy oqsil, albumin, KFK, fibrinogen topshiring)", "Leptinrezistentlik", "Homiladorlik"],
+      ru: ["Системное воспаление в организме (дополнительно сдать общий белок, альбумин, КФК, фибриноген)", "Лептинорезистентность", "Беременность"],
+      en: ["Systemic inflammation (additionally test total protein, albumin, CK, fibrinogen)", "Leptin resistance", "Pregnancy"]
+    },
+    low: {
+      uz: ["Past qiymat — norma"],
+      ru: ["Низкое значение — норма"],
+      en: ["Low value is normal"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "fibrinogen", cat: "biochem", abbr: "FIB",
+    name: { uz: "Fibrinogen", ru: "Фибриноген", en: "Fibrinogen" },
+    unit: { uz: "g/l", ru: "г/л", en: "g/L" },
+    norms: {
+      uz: [["Yangi tug'ilgan", "1,25–3"], ["Bolalar va kattalar", "2–4"]],
+      ru: [["новорожденные", "1,25–3"], ["дети и взрослые", "2–4"]],
+      en: [["newborns", "1.25–3"], ["children and adults", "2–4"]]
+    },
+    optimum: { uz: "2–3 g/l (2 gacha — yallig'lanish markeri sifatida)", ru: "2–3 г/л (до 2 — как маркер воспаления)", en: "2–3 g/L (up to 2 — as inflammation marker)" },
+    high: {
+      uz: ["Homiladorlik", "Infeksion, yallig'lanish jarayoni", "Gipotireoz", "Chekish", "KOK, estrogenlar qabuli", "Qandli diabet, ateroskleroz"],
+      ru: ["Беременность", "Инфекционный, воспалительный процесс", "Гипотиреоз", "Курение", "Приём КОК, эстрогенов", "Сахарный диабет, атеросклероз"],
+      en: ["Pregnancy", "Infectious, inflammatory process", "Hypothyroidism", "Smoking", "COC, estrogen use", "Diabetes mellitus, atherosclerosis"]
+    },
+    low: {
+      uz: ["B12/vitamin C tanqisligi", "Nomutanosib vegetarianlik", "Eritrotsitlarning patologik oshishi", "Homiladorlikda toksikoz", "Baliq yog'i dozasi oshishi"],
+      ru: ["Дефицит В12/витамина С", "Несбалансированное вегетарианство", "Патологическое повышение эритроцитов", "Токсикоз при беременности", "Передозировка рыбьего жира"],
+      en: ["B12/vitamin C deficiency", "Unbalanced vegetarianism", "Pathological erythrocytosis", "Toxicosis in pregnancy", "Fish oil overdose"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "ecp", cat: "biochem", abbr: "ECP",
+    name: { uz: "Eozinofil kation oqsili (EKB)", ru: "Эозинофильный катионный белок (ЭКБ)", en: "Eosinophil cationic protein" },
+    unit: { uz: "mkg/l", ru: "мкг/л", en: "µg/L" },
+    norms: {
+      uz: [["Barcha yoshlar", "0–24"]],
+      ru: [["Все возрасты", "0–24"]],
+      en: [["All ages", "0–24"]]
+    },
+    optimum: { uz: "0–7 (qancha past — shuncha yaxshi)", ru: "0–7 (чем ниже — тем лучше)", en: "0–7 (the lower, the better)" },
+    high: {
+      uz: ["Eozinofillar oshganda: EKB normadan yuqori, IgE norma — parazitoz ehtimoli yuqori", "EKB va IgE birga oshgan — turli joylashuvdagi allergik reaksiya (mavsumiy allergiyadan yashirin oziq-ovqat toqatsizligigacha)"],
+      ru: ["При повышении эозинофилов: ЭКБ выше нормы, IgE в норме — вероятнее паразитоз", "ЭКБ и IgE повышены — аллергическая реакция разных локаций (от сезонных аллергий до скрытой пищевой непереносимости)"],
+      en: ["With elevated eosinophils: ECP above normal, IgE normal — parasitosis more likely", "ECP and IgE both elevated — allergic reaction of various sites (from seasonal allergy to hidden food intolerance)"]
+    },
+    low: {
+      uz: ["Past qiymat — norma (qancha past — shuncha yaxshi)"],
+      ru: ["Низкое значение — норма (чем ниже — тем лучше)"],
+      en: ["Low value is normal (the lower, the better)"]
+    },
+    note: { uz: "", ru: "", en: "" }
   }
 
 ];
