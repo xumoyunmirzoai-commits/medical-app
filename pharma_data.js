@@ -20272,6 +20272,805 @@ const PHARMA_DATA = {
     },
     chiqarish: "Combination tablets (e.g. rifampicin 150/300 mg + isoniazid 75/150 mg)"
   }
+},
+
+// ─── J05AX15 · Sofosbuvir ─────────────────────────────────────────────────
+"J05AX15": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (to'g'ridan-to'g'ri ta'sirli, NS5B inhibitori)",
+    farmTasir: "Surunkali gepatit C ga qarshi to'g'ridan-to'g'ri ta'sirli antivirus vosita",
+    farmakodinamika: `Sofosbuvir — gepatit C virusi (HCV) ga qarshi to'g'ridan-to'g'ri ta'sirli preparat (DAA), nukleotid analog prodorisi. Hujayra ichida faol uridin trifosfat shakliga aylanadi, u HCV NS5B РНК-bog'liq РНК-polimeraza fermentini inhibe qiladi va virusли RNK zanjiriga qo'shilib uning sintezini to'xtatadi (chain terminator). Barcha asosiy HCV genotiplariga (1–6) faol. Doimo boshqa DAA (ledipasvir, velpatasvir, daklatasvir) bilan kombinatsiyada beriladi — bu zamonaviy sxemalar HCV ni deyarli to'liq (>95%) tuzatadi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi; ovqat bilan ham qabul mumkin",
+      tarqalish: "Oqsilga o'rtacha bog'lanadi; jigarда faollashadi",
+      metabolizm: "Jigarда faol metabolitga (GS-461203) aylanadi, keyin inaktiv GS-331007 ga",
+      chiqarilish: "Asosan buyrak orqali (metabolit GS-331007); T½ (sofosbuvir) ~0,5 soat, metabolit ~27 soat"
+    },
+    korsatmalar: [
+      "Surunkali gepatit C (barcha genotiplar) — boshqa DAA bilan kombinatsiyada",
+      "Sirroz va jigar transplantatsiyasidan oldin/keyin HCV davosi (sxemага qarab)"
+    ],
+    qarrshi: [
+      "Sofosbuvirга o'ta sezuvchanlik",
+      "Kuchli P-glikoprotein induktorlari bilan birga (rifampitsin, dalachoy/St John's wort, karbamazepin — samaradorlik tushadi)",
+      "Og'ir buyrak yetishmovchiligi (KFR < 30 — ehtiyotkorlik, ma'lumot cheklangan)"
+    ],
+    nojoya: {
+      "Umumiy": "Charchoq, bosh og'rig'i, ko'ngil aynishi, uyqusizlik (odatda yengil — ribavirin/interferon bilan ko'proq)",
+      "Yurak": "Amiodaron bilan birga — og'ir bradikardiya/yurak blokadasi (xavfli kombinatsiya)",
+      "Boshqa": "Anemiya (ribavirin bilan sxemада), toshma"
+    },
+    dozadan: "Ma'lumot cheklangan; simptomatik davolash.",
+    ozarotasir: [
+      "Amiodaron — og'ir simptomatik bradikardiya (birga tavsiya etilmaydi)",
+      "P-gp induktorlari (rifampitsin, karbamazepin, dalachoy) — sofosbuvir darajasini tushiradi",
+      "Ba'zi antiretroviruslar (tipranavir) bilan ta'sir"
+    ],
+    qollash: {
+      kattalar: "400 mg kuniga 1 marta (kombinatsiyada), kuniga bir vaqtда. Kurs odatda 12 hafta (genotip va sirroz holatiga qarab 8–24 hafta).",
+      bolalar: "3 yoshdan, vaznга qarab (ko'rsatma bo'yicha)"
+    },
+    chiqarish: "Tabletkalar 400 mg (yoki kombinatsiyalangan tabletkalar tarkibida)"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (прямого действия, ингибитор NS5B)",
+    farmTasir: "Противовирусное средство прямого действия против хронического гепатита C",
+    farmakodinamika: `Софосбувир — препарат прямого действия (ПППД) против вируса гепатита C (HCV), пролекарство аналога нуклеотида. Внутри клетки превращается в активную уридинтрифосфатную форму, которая ингибирует фермент NS5B РНК-зависимую РНК-полимеразу HCV и встраивается в цепь вирусной РНК, прекращая её синтез (терминатор цепи). Активен против всех основных генотипов HCV (1–6). Всегда назначается в комбинации с другими ПППД (ледипасвир, велпатасвир, даклатасвир) — современные схемы излечивают HCV практически полностью (>95%).`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь; можно принимать с пищей",
+      tarqalish: "Умеренная связь с белками; активируется в печени",
+      metabolizm: "В печени превращается в активный метаболит (GS-461203), затем в неактивный GS-331007",
+      chiqarilish: "Преимущественно почками (метаболит GS-331007); T½ (софосбувир) ~0,5 ч, метаболит ~27 ч"
+    },
+    korsatmalar: [
+      "Хронический гепатит C (все генотипы) — в комбинации с другими ПППД",
+      "Лечение HCV при циррозе и до/после трансплантации печени (по схеме)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к софосбувиру",
+      "Одновременно с сильными индукторами P-гликопротеина (рифампицин, зверобой, карбамазепин — снижают эффективность)",
+      "Тяжёлая почечная недостаточность (СКФ < 30 — с осторожностью, данные ограничены)"
+    ],
+    nojoya: {
+      "Общие": "Утомляемость, головная боль, тошнота, бессонница (обычно лёгкие — больше с рибавирином/интерфероном)",
+      "Сердце": "С амиодароном — тяжёлая брадикардия/сердечная блокада (опасная комбинация)",
+      "Прочие": "Анемия (в схеме с рибавирином), сыпь"
+    },
+    dozadan: "Данные ограничены; симптоматическое лечение.",
+    ozarotasir: [
+      "Амиодарон — тяжёлая симптоматическая брадикардия (не рекомендуется вместе)",
+      "Индукторы P-gp (рифампицин, карбамазепин, зверобой) — снижают уровень софосбувира",
+      "Взаимодействие с некоторыми антиретровирусными (типранавир)"
+    ],
+    qollash: {
+      kattalar: "400 мг 1 раз в день (в комбинации), в одно и то же время. Курс обычно 12 недель (8–24 недели в зависимости от генотипа и цирроза).",
+      bolalar: "С 3 лет, по массе (по показанию)"
+    },
+    chiqarish: "Таблетки 400 мг (или в составе комбинированных таблеток)"
+  },
+  en: {
+    gruppa: "Antiviral agents (direct-acting, NS5B inhibitor)",
+    farmTasir: "Direct-acting antiviral against chronic hepatitis C",
+    farmakodinamika: `Sofosbuvir is a direct-acting antiviral (DAA) against hepatitis C virus (HCV), a nucleotide analogue prodrug. Inside the cell it is converted to the active uridine triphosphate form, which inhibits the HCV NS5B RNA-dependent RNA polymerase and is incorporated into the viral RNA chain, halting its synthesis (chain terminator). It is active against all major HCV genotypes (1–6). It is always given in combination with other DAAs (ledipasvir, velpatasvir, daclatasvir) — modern regimens cure HCV almost completely (>95%).`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally; may be taken with food",
+      tarqalish: "Moderate protein binding; activated in the liver",
+      metabolizm: "Converted in the liver to the active metabolite (GS-461203), then to inactive GS-331007",
+      chiqarilish: "Mainly renally (metabolite GS-331007); T½ (sofosbuvir) ~0.5 h, metabolite ~27 h"
+    },
+    korsatmalar: [
+      "Chronic hepatitis C (all genotypes) — in combination with other DAAs",
+      "HCV treatment in cirrhosis and before/after liver transplantation (per regimen)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to sofosbuvir",
+      "Concomitant strong P-glycoprotein inducers (rifampicin, St John's wort, carbamazepine — reduce efficacy)",
+      "Severe renal impairment (eGFR < 30 — caution, limited data)"
+    ],
+    nojoya: {
+      "General": "Fatigue, headache, nausea, insomnia (usually mild — more with ribavirin/interferon)",
+      "Cardiac": "With amiodarone — severe bradycardia/heart block (a dangerous combination)",
+      "Other": "Anaemia (in a ribavirin regimen), rash"
+    },
+    dozadan: "Data limited; symptomatic treatment.",
+    ozarotasir: [
+      "Amiodarone — severe symptomatic bradycardia (not recommended together)",
+      "P-gp inducers (rifampicin, carbamazepine, St John's wort) — lower sofosbuvir levels",
+      "Interaction with some antiretrovirals (tipranavir)"
+    ],
+    qollash: {
+      kattalar: "400 mg once daily (in combination), at the same time each day. Course usually 12 weeks (8–24 weeks depending on genotype and cirrhosis).",
+      bolalar: "From 3 years, by weight (per indication)"
+    },
+    chiqarish: "Tablets 400 mg (or within combination tablets)"
+  }
+},
+
+// ─── J05AF07 · Tenofovir dizoproksil ──────────────────────────────────────
+"J05AF07": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (nukleotid teskari transkriptaza inhibitorlari)",
+    farmTasir: "OIV va gepatit B ga qarshi antiretrovirus vosita",
+    farmakodinamika: `Tenofovir dizoproksil fumarat (TDF) — nukleotid teskari transkriptaza inhibitori (NtRTI), adenozin monofosfat analogi prodorisi. Hujayra ichida faol tenofovir difosfatga aylanadi, u OIV teskari transkriptaza va gepatit B virusi (HBV) ДНК-polimerazasini inhibe qiladi va virusли ДНК zanjiriga qo'shilib uning sintezini to'xtatadi. OIV-1, OIV-2 va HBV ga faol. Kombinatsiyalangan ART va gepatit B davosida asosiy preparatlardan biri.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'riladi (TDF prodori); ovqat biofaollikni oshiradi",
+      tarqalish: "Oqsilga past bog'lanadi; to'qimaga tarqaladi",
+      metabolizm: "TDF tez tenofovirга gidroliz bo'ladi, keyin hujayra ichida fosforlanadi",
+      chiqarilish: "Asosan buyrak orqali (klubochka filtratsiyasi va kanalcha sekretsiyasi); T½ ~12–18 soat"
+    },
+    korsatmalar: [
+      "OIV infeksiyasi — kombinatsiyalangan ART tarkibida",
+      "Surunkali gepatit B",
+      "OIV ga ekspozitsiyadan oldingi/keyingi profilaktika (PrEP/PEP — kombinatsiyada)"
+    ],
+    qarrshi: [
+      "Tenofovirга o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi (doza moslash; nefrotoksiklik xavfi)",
+      "Ehtiyotkorlik: osteoporoz/suyak kasalliklari, mavjud buyrak disfunksiyasi"
+    ],
+    nojoya: {
+      "Buyrak": "Nefrotoksiklik — kreatinin oshishi, proksimal kanalchaли disfunksiya (Fankoni sindromi), o'tkir buyrak shikastlanishi (TDF da xavf yuqoriroq)",
+      "Suyak": "Suyak mineral zichligi pasayishi, osteomalatsiya",
+      "Metabolik": "Laktatsidoz, steatozli gepatomegaliya (kam)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, diareya, qorin og'rig'i",
+      "Boshqa": "Gepatit B davosini to'xtatganда gepatit zo'rayishi"
+    },
+    dozadan: "Belgilar: buyrak va oshqozon-ichak belgilari. Davolash: buyrak nazorati, gemodializ qisman olib tashlaydi.",
+    ozarotasir: [
+      "Nefrotoksik dorilar (NSAID, aminoglikozidlar, ganciklovir) — buyrak xavfini oshiradi",
+      "Didanozin — konsentratsiyasini oshiradi (toksiklik; birga tavsiya etilmaydi)",
+      "Atazanavir/ritonavir bilan ta'sir"
+    ],
+    qollash: {
+      kattalar: "300 mg kuniga 1 marta ovqat bilan (kombinatsiyada). Buyrak yetishmovchiligida interval moslanadi.",
+      bolalar: "2 yoshdan, vaznга qarab (yoki kombinatsiyalangan tabletkalar)"
+    },
+    chiqarish: "Tabletkalar 300 mg (yoki kombinatsiyalangan ART tabletkalar tarkibida)"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (нуклеотидные ингибиторы обратной транскриптазы)",
+    farmTasir: "Антиретровирусное средство против ВИЧ и гепатита B",
+    farmakodinamika: `Тенофовира дизопроксила фумарат (TDF) — нуклеотидный ингибитор обратной транскриптазы (НтИОТ), пролекарство аналога аденозинмонофосфата. Внутри клетки превращается в активный тенофовира дифосфат, который ингибирует обратную транскриптазу ВИЧ и ДНК-полимеразу вируса гепатита B (HBV) и встраивается в цепь вирусной ДНК, прекращая её синтез. Активен против ВИЧ-1, ВИЧ-2 и HBV. Один из основных препаратов в комбинированной АРТ и лечении гепатита B.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь (пролекарство TDF); пища повышает биодоступность",
+      tarqalish: "Низкая связь с белками; распределяется в ткани",
+      metabolizm: "TDF быстро гидролизуется в тенофовир, затем фосфорилируется внутри клетки",
+      chiqarilish: "Преимущественно почками (клубочковая фильтрация и канальцевая секреция); T½ ~12–18 ч"
+    },
+    korsatmalar: [
+      "ВИЧ-инфекция — в составе комбинированной АРТ",
+      "Хронический гепатит B",
+      "Доконтактная/постконтактная профилактика ВИЧ (PrEP/PEP — в комбинации)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к тенофовиру",
+      "Тяжёлая почечная недостаточность (коррекция дозы; риск нефротоксичности)",
+      "Осторожно: остеопороз/болезни костей, имеющаяся почечная дисфункция"
+    ],
+    nojoya: {
+      "Почки": "Нефротоксичность — повышение креатинина, проксимальная канальцевая дисфункция (синдром Фанкони), острое почечное повреждение (у TDF риск выше)",
+      "Кости": "Снижение минеральной плотности костей, остеомаляция",
+      "Метаболические": "Лактатацидоз, гепатомегалия со стеатозом (редко)",
+      "ЖКТ": "Тошнота, диарея, боль в животе",
+      "Прочие": "Обострение гепатита при отмене лечения гепатита B"
+    },
+    dozadan: "Симптомы: почечные и ЖКТ-симптомы. Лечение: контроль почек, гемодиализ частично выводит.",
+    ozarotasir: [
+      "Нефротоксичные препараты (НПВП, аминогликозиды, ганцикловир) — повышают почечный риск",
+      "Диданозин — повышает его концентрацию (токсичность; не рекомендуется вместе)",
+      "Взаимодействие с атазанавиром/ритонавиром"
+    ],
+    qollash: {
+      kattalar: "300 мг 1 раз в день с пищей (в комбинации). При почечной недостаточности корректируют интервал.",
+      bolalar: "С 2 лет, по массе (или комбинированные таблетки)"
+    },
+    chiqarish: "Таблетки 300 мг (или в составе комбинированных таблеток АРТ)"
+  },
+  en: {
+    gruppa: "Antiviral agents (nucleotide reverse transcriptase inhibitors)",
+    farmTasir: "Antiretroviral against HIV and hepatitis B",
+    farmakodinamika: `Tenofovir disoproxil fumarate (TDF) is a nucleotide reverse transcriptase inhibitor (NtRTI), an adenosine monophosphate analogue prodrug. Inside the cell it is converted to the active tenofovir diphosphate, which inhibits HIV reverse transcriptase and hepatitis B virus (HBV) DNA polymerase and is incorporated into the viral DNA chain, halting its synthesis. It is active against HIV-1, HIV-2 and HBV. It is one of the principal drugs in combination ART and hepatitis B treatment.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally (TDF prodrug); food increases bioavailability",
+      tarqalish: "Low protein binding; distributes into tissues",
+      metabolizm: "TDF is rapidly hydrolysed to tenofovir, then phosphorylated within the cell",
+      chiqarilish: "Mainly renally (glomerular filtration and tubular secretion); T½ ~12–18 h"
+    },
+    korsatmalar: [
+      "HIV infection — as part of combination ART",
+      "Chronic hepatitis B",
+      "Pre-/post-exposure HIV prophylaxis (PrEP/PEP — in combination)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to tenofovir",
+      "Severe renal impairment (dose adjustment; nephrotoxicity risk)",
+      "Caution: osteoporosis/bone disease, existing renal dysfunction"
+    ],
+    nojoya: {
+      "Renal": "Nephrotoxicity — raised creatinine, proximal tubular dysfunction (Fanconi syndrome), acute kidney injury (higher risk with TDF)",
+      "Bone": "Reduced bone mineral density, osteomalacia",
+      "Metabolic": "Lactic acidosis, hepatomegaly with steatosis (rare)",
+      "Gastrointestinal": "Nausea, diarrhoea, abdominal pain",
+      "Other": "Hepatitis flare on stopping hepatitis B treatment"
+    },
+    dozadan: "Symptoms: renal and GI symptoms. Treatment: renal monitoring, haemodialysis partially removes it.",
+    ozarotasir: [
+      "Nephrotoxic drugs (NSAIDs, aminoglycosides, ganciclovir) — increase renal risk",
+      "Didanosine — raises its concentration (toxicity; not recommended together)",
+      "Interaction with atazanavir/ritonavir"
+    ],
+    qollash: {
+      kattalar: "300 mg once daily with food (in combination). Adjust the interval in renal impairment.",
+      bolalar: "From 2 years, by weight (or combination tablets)"
+    },
+    chiqarish: "Tablets 300 mg (or within combination ART tablets)"
+  }
+},
+
+// ─── J05AF13 · Tenofovir alafenamid ───────────────────────────────────────
+"J05AF13": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (nukleotid teskari transkriptaza inhibitorlari)",
+    farmTasir: "OIV va gepatit B ga qarshi yangi avlod tenofovir prodorisi",
+    farmakodinamika: `Tenofovir alafenamid (TAF) — tenofovirning yangi avlod prodorisi. TDF dan farqi — u limfotsit va jigar hujayralarига kirgach faollashadi, shu sababli qonда tenofovir konsentratsiyasi ancha past bo'ladi, lekin hujayra ichidagi faol metabolit miqdori yetarli. Bu buyrak va suyakка toksik ta'sirni sezilarli kamaytiradi (TDF ga nisbatan). Faol tenofovir difosfat OIV teskari transkriptaza va HBV ДНК-polimerazasini inhibe qiladi (chain terminator). OIV-1, OIV-2 va HBV ga faol.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'riladi (kichik doza yetarli — 25 mg)",
+      tarqalish: "Asosan limfa to'qimasi va jigar hujayralarида faollashadi; qonда tenofovir past",
+      metabolizm: "Hujayra ichidagi katepsin A/karboksilesteraza orqali faollashadi",
+      chiqarilish: "Asosan o't (najas), buyrak orqali kam (TDF dan farqli — buyrakka kamroq yuk)"
+    },
+    korsatmalar: [
+      "OIV infeksiyasi — kombinatsiyalangan ART tarkibida (ko'pincha bitta tabletkalik rejimда)",
+      "Surunkali gepatit B"
+    ],
+    qarrshi: [
+      "Tenofovir alafenamidга o'ta sezuvchanlik",
+      "Kuchli P-gp induktorlari (rifampitsin, karbamazepin, dalachoy) — samaradorlikni tushiradi",
+      "Ehtiyotkorlik: dekompensatsiyalangan jigar kasalligi"
+    ],
+    nojoya: {
+      "Umumiy": "Bosh og'rig'i, diareya, ko'ngil aynishi, charchoq (odatda yengil)",
+      "Metabolik": "Vazn va lipid (xolesterin) ko'rsatkichlari ortishi (TDF dan ko'proq)",
+      "Buyrak/suyak": "TDF ga nisbatan ancha kam toksik (asosiy afzallik)",
+      "Boshqa": "Gepatit B davosini to'xtatganда gepatit zo'rayishi"
+    },
+    dozadan: "Ma'lumot cheklangan; simptomatik davolash, gemodializ samarasiz.",
+    ozarotasir: [
+      "P-gp induktorlari (rifampitsin, dalachoy, karbamazepin) — TAF darajasini tushiradi (birga tavsiya etilmaydi)",
+      "P-gp inhibitorlari (ketokonazol) — TAF darajasini oshirishi mumkin"
+    ],
+    qollash: {
+      kattalar: "25 mg kuniga 1 marta (yoki kombinatsiyalangan tabletka tarkibida 10/25 mg); ovqat bilan.",
+      bolalar: "6 yoshdan/vazn ≥25 kg, ko'rsatma bo'yicha"
+    },
+    chiqarish: "Tabletkalar 25 mg (yoki kombinatsiyalangan ART/gepatit B tabletkalar tarkibida)"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (нуклеотидные ингибиторы обратной транскриптазы)",
+    farmTasir: "Пролекарство тенофовира нового поколения против ВИЧ и гепатита B",
+    farmakodinamika: `Тенофовира алафенамид (TAF) — пролекарство тенофовира нового поколения. Отличие от TDF — активируется после проникновения в лимфоциты и клетки печени, поэтому концентрация тенофовира в крови значительно ниже, но внутриклеточного активного метаболита достаточно. Это существенно снижает токсичность для почек и костей (по сравнению с TDF). Активный тенофовира дифосфат ингибирует обратную транскриптазу ВИЧ и ДНК-полимеразу HBV (терминатор цепи). Активен против ВИЧ-1, ВИЧ-2 и HBV.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь (достаточно малой дозы — 25 мг)",
+      tarqalish: "Активируется преимущественно в лимфоидной ткани и клетках печени; тенофовир в крови низкий",
+      metabolizm: "Активируется внутриклеточно катепсином A/карбоксилэстеразой",
+      chiqarilish: "Преимущественно с жёлчью (калом), почками мало (в отличие от TDF — меньше нагрузка на почки)"
+    },
+    korsatmalar: [
+      "ВИЧ-инфекция — в составе комбинированной АРТ (часто в режиме одной таблетки)",
+      "Хронический гепатит B"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к тенофовира алафенамиду",
+      "Сильные индукторы P-gp (рифампицин, карбамазепин, зверобой) — снижают эффективность",
+      "Осторожно: декомпенсированное заболевание печени"
+    ],
+    nojoya: {
+      "Общие": "Головная боль, диарея, тошнота, утомляемость (обычно лёгкие)",
+      "Метаболические": "Повышение массы тела и показателей липидов (холестерина) (больше, чем у TDF)",
+      "Почки/кости": "Значительно менее токсичен, чем TDF (основное преимущество)",
+      "Прочие": "Обострение гепатита при отмене лечения гепатита B"
+    },
+    dozadan: "Данные ограничены; симптоматическое лечение, гемодиализ неэффективен.",
+    ozarotasir: [
+      "Индукторы P-gp (рифампицин, зверобой, карбамазепин) — снижают уровень TAF (не рекомендуется вместе)",
+      "Ингибиторы P-gp (кетоконазол) — могут повышать уровень TAF"
+    ],
+    qollash: {
+      kattalar: "25 мг 1 раз в день (или в составе комбинированной таблетки 10/25 мг); с пищей.",
+      bolalar: "С 6 лет/масса ≥25 кг, по показанию"
+    },
+    chiqarish: "Таблетки 25 мг (или в составе комбинированных таблеток АРТ/гепатита B)"
+  },
+  en: {
+    gruppa: "Antiviral agents (nucleotide reverse transcriptase inhibitors)",
+    farmTasir: "Next-generation tenofovir prodrug against HIV and hepatitis B",
+    farmakodinamika: `Tenofovir alafenamide (TAF) is a next-generation tenofovir prodrug. Unlike TDF, it is activated after entering lymphocytes and liver cells, so blood tenofovir concentrations are much lower while intracellular active metabolite levels are sufficient. This substantially reduces renal and bone toxicity (compared with TDF). The active tenofovir diphosphate inhibits HIV reverse transcriptase and HBV DNA polymerase (chain terminator). It is active against HIV-1, HIV-2 and HBV.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally (a small dose — 25 mg — is sufficient)",
+      tarqalish: "Activated mainly in lymphoid tissue and liver cells; blood tenofovir is low",
+      metabolizm: "Activated intracellularly by cathepsin A/carboxylesterase",
+      chiqarilish: "Mainly in bile (faeces), little renally (unlike TDF — less renal burden)"
+    },
+    korsatmalar: [
+      "HIV infection — as part of combination ART (often as a single-tablet regimen)",
+      "Chronic hepatitis B"
+    ],
+    qarrshi: [
+      "Hypersensitivity to tenofovir alafenamide",
+      "Strong P-gp inducers (rifampicin, carbamazepine, St John's wort) — reduce efficacy",
+      "Caution: decompensated liver disease"
+    ],
+    nojoya: {
+      "General": "Headache, diarrhoea, nausea, fatigue (usually mild)",
+      "Metabolic": "Increased body weight and lipid (cholesterol) parameters (more than TDF)",
+      "Renal/bone": "Considerably less toxic than TDF (the main advantage)",
+      "Other": "Hepatitis flare on stopping hepatitis B treatment"
+    },
+    dozadan: "Data limited; symptomatic treatment, haemodialysis ineffective.",
+    ozarotasir: [
+      "P-gp inducers (rifampicin, St John's wort, carbamazepine) — lower TAF levels (not recommended together)",
+      "P-gp inhibitors (ketoconazole) — may raise TAF levels"
+    ],
+    qollash: {
+      kattalar: "25 mg once daily (or within a combination tablet 10/25 mg); with food.",
+      bolalar: "From 6 years/weight ≥25 kg, per indication"
+    },
+    chiqarish: "Tablets 25 mg (or within combination ART/hepatitis B tablets)"
+  }
+},
+
+// ─── J05AX12 · Dolutegravir ───────────────────────────────────────────────
+"J05AX12": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (integraza inhibitorlari)",
+    farmTasir: "OIV ga qarshi integraza ipini uzatish inhibitori (INSTI)",
+    farmakodinamika: `Dolutegravir — OIV integraza ipini uzatish inhibitori (INSTI). Virusли integraza fermentini bloklab, virusли ДНК ning xo'jayin hujayrasi xromosomasiga birikishi (integratsiyasi) bosqichini to'xtatadi — bu OIV replikatsiyasining muhim bosqichi. Natijada virus ko'payishi to'xtaydi. Yuqori chidamlilik to'sig'iga ega (rezistentlik kam rivojlanadi) va kuniga 1 marta qabul qilinadi. Zamonaviy OIV davosida birinchi qator preparatlardan biri; doimo kombinatsiyada beriladi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi; ovqat bilan ham mumkin",
+      tarqalish: "Oqsilga yuqori bog'lanadi (~99%)",
+      metabolizm: "Jigarда UGT1A1 (asosan) va CYP3A4 orqali",
+      chiqarilish: "Asosan najas (metabolitlar); T½ ~14 soat (kuniga 1 marta)"
+    },
+    korsatmalar: [
+      "OIV-1 infeksiyasi — kombinatsiyalangan ART tarkibida (ko'pincha bitta tabletkalik rejimда)"
+    ],
+    qarrshi: [
+      "Dolutegravirга o'ta sezuvchanlik",
+      "Dofetilid bilan birga (aritmiya xavfi)",
+      "Ehtiyotkorlik: homiladorlikning erta davri (nerv naychasi nuqsoni xavfi — sxema individual baholanadi)"
+    ],
+    nojoya: {
+      "Asab tizimi": "Bosh og'rig'i, uyqusizlik, bosh aylanishi; kamdan-kam depressiya/o'z joniga qasd fikrlari (mavjud psixik kasalliklarда)",
+      "Oshqozon-ichak": "Ko'ngil aynishi, diareya",
+      "Metabolik": "Vazn ortishi, transaminazalar oshishi",
+      "Buyrak": "Kreatinin sekretsiyasi blokirovkasi tufayli kreatinin biroz ko'tariladi (haqiqiy buyrak funksiyasi o'zgarmaydi)",
+      "Allergiya": "Toshma, kamdan-kam o'ta sezuvchanlik reaksiyasi (jigar bilan)"
+    },
+    dozadan: "Ma'lumot cheklangan; simptomatik davolash, gemodializ samarasiz (oqsilга yuqori bog'lanadi).",
+    ozarotasir: [
+      "Ko'p valentli kationlar (Mg/Al antatsid, kalsiy, temir) — so'rilishini keskin kamaytiradi (2 soat oldin yoki 6 soat keyin)",
+      "Metformin konsentratsiyasini oshiradi (doza moslash)",
+      "Ferment induktorlari (rifampitsin, karbamazepin, dalachoy) — dozani oshirishni talab qiladi",
+      "Dofetilid — qarshi ko'rsatma"
+    ],
+    qollash: {
+      kattalar: "50 mg kuniga 1 marta (ba'zi rezistentlik/ta'sirlarда kuniga 2 marta). Kombinatsiyalangan tabletkalar tarkibida ham.",
+      bolalar: "Vazn ≥20 kg dan (ko'rsatma bo'yicha)"
+    },
+    chiqarish: "Tabletkalar 50 mg; dispergerlanuvchi tabletkalar (bolalar); kombinatsiyalangan tabletkalar"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (ингибиторы интегразы)",
+    farmTasir: "Ингибитор переноса цепи интегразы ВИЧ (INSTI)",
+    farmakodinamika: `Долутегравир — ингибитор переноса цепи интегразы ВИЧ (INSTI). Блокируя фермент интегразу вируса, останавливает этап интеграции вирусной ДНК в хромосому клетки-хозяина — важный этап репликации ВИЧ. В результате размножение вируса прекращается. Имеет высокий барьер резистентности (резистентность развивается редко) и принимается 1 раз в день. Один из препаратов первой линии в современной терапии ВИЧ; всегда назначается в комбинации.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь; можно с пищей",
+      tarqalish: "Высокая связь с белками (~99%)",
+      metabolizm: "В печени через UGT1A1 (преимущественно) и CYP3A4",
+      chiqarilish: "Преимущественно с калом (метаболиты); T½ ~14 ч (1 раз в день)"
+    },
+    korsatmalar: [
+      "ВИЧ-1-инфекция — в составе комбинированной АРТ (часто в режиме одной таблетки)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к долутегравиру",
+      "Одновременно с дофетилидом (риск аритмии)",
+      "Осторожно: ранний срок беременности (риск дефекта нервной трубки — схема оценивается индивидуально)"
+    ],
+    nojoya: {
+      "ЦНС": "Головная боль, бессонница, головокружение; редко депрессия/суицидальные мысли (при имеющихся психических заболеваниях)",
+      "ЖКТ": "Тошнота, диарея",
+      "Метаболические": "Прибавка массы, повышение трансаминаз",
+      "Почки": "Из-за блокады секреции креатинина креатинин слегка повышается (истинная функция почек не меняется)",
+      "Аллергические": "Сыпь, редко реакция гиперчувствительности (с печенью)"
+    },
+    dozadan: "Данные ограничены; симптоматическое лечение, гемодиализ неэффективен (высокая связь с белками).",
+    ozarotasir: [
+      "Поливалентные катионы (Mg/Al антациды, кальций, железо) — резко снижают всасывание (за 2 ч до или через 6 ч после)",
+      "Повышает концентрацию метформина (коррекция дозы)",
+      "Индукторы ферментов (рифампицин, карбамазепин, зверобой) — требуют повышения дозы",
+      "Дофетилид — противопоказание"
+    ],
+    qollash: {
+      kattalar: "50 мг 1 раз в день (при некоторой резистентности/взаимодействиях 2 раза в день). Также в составе комбинированных таблеток.",
+      bolalar: "С массы ≥20 кг (по показанию)"
+    },
+    chiqarish: "Таблетки 50 мг; диспергируемые таблетки (детские); комбинированные таблетки"
+  },
+  en: {
+    gruppa: "Antiviral agents (integrase inhibitors)",
+    farmTasir: "HIV integrase strand transfer inhibitor (INSTI)",
+    farmakodinamika: `Dolutegravir is an HIV integrase strand transfer inhibitor (INSTI). By blocking the viral integrase enzyme, it halts integration of viral DNA into the host cell chromosome — an essential step of HIV replication. Viral replication is thereby stopped. It has a high barrier to resistance (resistance rarely develops) and is taken once daily. It is one of the first-line drugs in modern HIV therapy; it is always given in combination.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally; may be taken with food",
+      tarqalish: "High protein binding (~99%)",
+      metabolizm: "Hepatic via UGT1A1 (mainly) and CYP3A4",
+      chiqarilish: "Mainly in faeces (metabolites); T½ ~14 h (once daily)"
+    },
+    korsatmalar: [
+      "HIV-1 infection — as part of combination ART (often as a single-tablet regimen)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to dolutegravir",
+      "Concomitant dofetilide (arrhythmia risk)",
+      "Caution: early pregnancy (neural tube defect risk — the regimen is assessed individually)"
+    ],
+    nojoya: {
+      "CNS": "Headache, insomnia, dizziness; rarely depression/suicidal ideation (in those with pre-existing psychiatric illness)",
+      "Gastrointestinal": "Nausea, diarrhoea",
+      "Metabolic": "Weight gain, raised transaminases",
+      "Renal": "Creatinine rises slightly due to blockade of creatinine secretion (true renal function is unchanged)",
+      "Hypersensitivity": "Rash, rarely a hypersensitivity reaction (with hepatic involvement)"
+    },
+    dozadan: "Data limited; symptomatic treatment, haemodialysis ineffective (highly protein-bound).",
+    ozarotasir: [
+      "Polyvalent cations (Mg/Al antacids, calcium, iron) — sharply reduce absorption (2 h before or 6 h after)",
+      "Raises metformin concentration (dose adjustment)",
+      "Enzyme inducers (rifampicin, carbamazepine, St John's wort) — require a dose increase",
+      "Dofetilide — contraindicated"
+    ],
+    qollash: {
+      kattalar: "50 mg once daily (twice daily with certain resistance/interactions). Also within combination tablets.",
+      bolalar: "From weight ≥20 kg (per indication)"
+    },
+    chiqarish: "Tablets 50 mg; dispersible tablets (paediatric); combination tablets"
+  }
+},
+
+// ─── J05AR10 · Lopinavir + Ritonavir ──────────────────────────────────────
+"J05AR10": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (proteaza inhibitorlari, kombinatsiya)",
+    farmTasir: "OIV ga qarshi proteaza inhibitori kombinatsiyasi",
+    farmakodinamika: `Lopinavir va ritonavir belgilangan dozali kombinatsiyasi. Lopinavir — OIV proteaza inhibitori; virusли proteaza fermentini bloklab, yangi hosil bo'layotgan virus oqsillarining yetilishi (kesilishi) ni to'xtatadi — natijada yetilmagan, yuqumsiz virus zarrachalari hosil bo'ladi. Ritonavir bu kombinatsiyada o'zi antivirus emas, balki «farmakokinetik kuchaytiruvchi» (booster): jigar CYP3A4 ni kuchli inhibe qilib lopinavir parchalanishini sekinlashtiradi va uning qondagi darajasini terapevtik darajada ushlab turadi. OIV-1 va OIV-2 ga faol.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali so'riladi; ovqat bilan biofaollik oshadi (eritma/tabletka shakliga qarab)",
+      tarqalish: "Oqsilga juda yuqori bog'lanadi (~98–99%)",
+      metabolizm: "Jigarда CYP3A4 orqali (ritonavir uni inhibe qiladi)",
+      chiqarilish: "Asosan najas; T½ ~5–6 soat"
+    },
+    korsatmalar: [
+      "OIV infeksiyasi — kombinatsiyalangan ART tarkibida (ikkinchi qator/alternativa)"
+    ],
+    qarrshi: [
+      "Lopinavir/ritonavirга o'ta sezuvchanlik",
+      "Og'ir jigar yetishmovchiligi",
+      "Bir vaqtда kuchli CYP3A4 substratlari (tsizaprid, pimozid, ergot, ba'zi statinlar — lovastatin/simvastatin, triazolam, kvetiapin yuqori dozada)",
+      "Uzun QT/PR sindromi (ehtiyotkorlik)"
+    ],
+    nojoya: {
+      "Oshqozon-ichak": "Diareya (ko'p), ko'ngil aynishi, qusish, qorin og'rig'i",
+      "Metabolik": "Giperlipidemiya (xolesterin/triglitseridlar oshishi), insulinга rezistentlik/diabet, lipodistrofiya",
+      "Jigar": "Transaminazalar oshishi, gepatit, pankreatit",
+      "Yurak": "PR/QT intervalining uzayishi (kam)",
+      "Allergiya": "Toshma, kamdan-kam og'ir teri reaksiyalari"
+    },
+    dozadan: "Belgilar: oshqozon-ichak, metabolik buzilishlar. Davolash: simptomatik; gemodializ samarasiz (oqsilга yuqori bog'lanadi).",
+    ozarotasir: [
+      "Ritonavir kuchli CYP3A4 inhibitori — ko'plab dorilar (statinlar — rabdomioliz; tsizaprid, ergot, sildenafil, ba'zi sedativlar) konsentratsiyasini xavfli oshiradi",
+      "Ferment induktorlari (rifampitsin, dalachoy) — lopinavir darajasini tushiradi",
+      "Peroral kontratseptivlar samaradorligini kamaytiradi"
+    ],
+    qollash: {
+      kattalar: "Lopinavir 400 mg + ritonavir 100 mg kuniga 2 marta (yoki 800/200 mg kuniga 1 marta — sxemага qarab), ovqat bilan.",
+      bolalar: "Vaznга/yuzaга qarab (eritma yoki tabletka)"
+    },
+    chiqarish: "Tabletkalar 200/50 mg, 100/25 mg; og'iz uchun eritma 80/20 mg/ml"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (ингибиторы протеазы, комбинация)",
+    farmTasir: "Комбинация ингибиторов протеазы против ВИЧ",
+    farmakodinamika: `Фиксированная дозовая комбинация лопинавира и ритонавира. Лопинавир — ингибитор протеазы ВИЧ; блокируя фермент протеазу вируса, останавливает созревание (расщепление) новообразующихся вирусных белков — в результате образуются незрелые, неинфекционные вирусные частицы. Ритонавир в этой комбинации не противовирусный, а «фармакокинетический усилитель» (бустер): сильно ингибируя печёночный CYP3A4, замедляет распад лопинавира и удерживает его уровень в крови на терапевтическом уровне. Активен против ВИЧ-1 и ВИЧ-2.`,
+    farmakokinetika: {
+      sorish: "Всасывается внутрь; пища повышает биодоступность (зависит от формы)",
+      tarqalish: "Очень высокая связь с белками (~98–99%)",
+      metabolizm: "В печени через CYP3A4 (ритонавир его ингибирует)",
+      chiqarilish: "Преимущественно с калом; T½ ~5–6 ч"
+    },
+    korsatmalar: [
+      "ВИЧ-инфекция — в составе комбинированной АРТ (второй ряд/альтернатива)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к лопинавиру/ритонавиру",
+      "Тяжёлая печёночная недостаточность",
+      "Одновременно сильные субстраты CYP3A4 (цизаприд, пимозид, спорынья, некоторые статины — ловастатин/симвастатин, триазолам, кветиапин в высоких дозах)",
+      "Синдром удлинённого QT/PR (с осторожностью)"
+    ],
+    nojoya: {
+      "ЖКТ": "Диарея (часто), тошнота, рвота, боль в животе",
+      "Метаболические": "Гиперлипидемия (повышение холестерина/триглицеридов), инсулинорезистентность/диабет, липодистрофия",
+      "Печень": "Повышение трансаминаз, гепатит, панкреатит",
+      "Сердце": "Удлинение PR/QT (редко)",
+      "Аллергические": "Сыпь, редко тяжёлые кожные реакции"
+    },
+    dozadan: "Симптомы: ЖКТ, метаболические нарушения. Лечение: симптоматическое; гемодиализ неэффективен (высокая связь с белками).",
+    ozarotasir: [
+      "Ритонавир — сильный ингибитор CYP3A4 — опасно повышает концентрацию многих препаратов (статины — рабдомиолиз; цизаприд, спорынья, силденафил, некоторые седативные)",
+      "Индукторы ферментов (рифампицин, зверобой) — снижают уровень лопинавира",
+      "Снижает эффективность пероральных контрацептивов"
+    ],
+    qollash: {
+      kattalar: "Лопинавир 400 мг + ритонавир 100 мг 2 раза в день (или 800/200 мг 1 раз в день — по схеме), с пищей.",
+      bolalar: "По массе/поверхности тела (раствор или таблетки)"
+    },
+    chiqarish: "Таблетки 200/50 мг, 100/25 мг; раствор для приёма внутрь 80/20 мг/мл"
+  },
+  en: {
+    gruppa: "Antiviral agents (protease inhibitors, combination)",
+    farmTasir: "Protease inhibitor combination against HIV",
+    farmakodinamika: `A fixed-dose combination of lopinavir and ritonavir. Lopinavir is an HIV protease inhibitor; by blocking the viral protease enzyme, it halts maturation (cleavage) of newly formed viral proteins — producing immature, non-infectious virus particles. Ritonavir in this combination is not antiviral but a "pharmacokinetic booster": by strongly inhibiting hepatic CYP3A4, it slows lopinavir breakdown and keeps its blood level therapeutic. It is active against HIV-1 and HIV-2.`,
+    farmakokinetika: {
+      sorish: "Absorbed orally; food increases bioavailability (depending on the form)",
+      tarqalish: "Very high protein binding (~98–99%)",
+      metabolizm: "Hepatic via CYP3A4 (ritonavir inhibits it)",
+      chiqarilish: "Mainly in faeces; T½ ~5–6 h"
+    },
+    korsatmalar: [
+      "HIV infection — as part of combination ART (second-line/alternative)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to lopinavir/ritonavir",
+      "Severe hepatic impairment",
+      "Concomitant strong CYP3A4 substrates (cisapride, pimozide, ergot, some statins — lovastatin/simvastatin, triazolam, high-dose quetiapine)",
+      "Long QT/PR syndrome (caution)"
+    ],
+    nojoya: {
+      "Gastrointestinal": "Diarrhoea (common), nausea, vomiting, abdominal pain",
+      "Metabolic": "Hyperlipidaemia (raised cholesterol/triglycerides), insulin resistance/diabetes, lipodystrophy",
+      "Hepatic": "Raised transaminases, hepatitis, pancreatitis",
+      "Cardiac": "PR/QT prolongation (rare)",
+      "Hypersensitivity": "Rash, rarely severe skin reactions"
+    },
+    dozadan: "Symptoms: GI, metabolic disturbances. Treatment: symptomatic; haemodialysis ineffective (highly protein-bound).",
+    ozarotasir: [
+      "Ritonavir — strong CYP3A4 inhibitor — dangerously raises concentration of many drugs (statins — rhabdomyolysis; cisapride, ergot, sildenafil, some sedatives)",
+      "Enzyme inducers (rifampicin, St John's wort) — lower lopinavir levels",
+      "Reduces oral contraceptive efficacy"
+    ],
+    qollash: {
+      kattalar: "Lopinavir 400 mg + ritonavir 100 mg twice daily (or 800/200 mg once daily — per regimen), with food.",
+      bolalar: "By weight/body surface (solution or tablets)"
+    },
+    chiqarish: "Tablets 200/50 mg, 100/25 mg; oral solution 80/20 mg/mL"
+  }
+},
+
+// ─── J05AX14 · Daklatasvir ────────────────────────────────────────────────
+"J05AX14": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (to'g'ridan-to'g'ri ta'sirli, NS5A inhibitori)",
+    farmTasir: "Surunkali gepatit C ga qarshi to'g'ridan-to'g'ri ta'sirli antivirus vosita",
+    farmakodinamika: `Daklatasvir — gepatit C virusi (HCV) ga qarshi to'g'ridan-to'g'ri ta'sirli preparat (DAA), NS5A oqsili inhibitori. HCV NS5A oqsiliga bog'lanib, ham virusли RNK replikatsiyasini, ham virus zarrachalarining yig'ilishini (assembly) bir vaqtda to'xtatadi — bu ikki yo'nalishli ta'sir virus ko'payishini tez bostiradi. Keng genotipli faollik. Doimo sofosbuvir bilan (ba'zan ribavirin qo'shilib) kombinatsiyada beriladi — bu sxema HCV ni yuqori darajada tuzatadi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi; ovqat bilan ham mumkin",
+      tarqalish: "Oqsilga yuqori bog'lanadi (~99%)",
+      metabolizm: "Jigarда CYP3A4 orqali; P-glikoprotein substrati",
+      chiqarilish: "Asosan najas (o't), qisman buyrak; T½ ~12–15 soat"
+    },
+    korsatmalar: [
+      "Surunkali gepatit C — sofosbuvir bilan kombinatsiyada (± ribavirin)"
+    ],
+    qarrshi: [
+      "Daklatasvirга o'ta sezuvchanlik",
+      "Kuchli CYP3A4 induktorlari bilan birga (rifampitsin, karbamazepin, dalachoy — samaradorlik tushadi)"
+    ],
+    nojoya: {
+      "Umumiy": "Charchoq, bosh og'rig'i, ko'ngil aynishi, diareya (odatda yengil)",
+      "Yurak": "Sofosbuvir + amiodaron bilan — og'ir bradikardiya xavfi",
+      "Boshqa": "Uyqusizlik, anemiya (ribavirin bilan)"
+    },
+    dozadan: "Ma'lumot cheklangan; simptomatik davolash.",
+    ozarotasir: [
+      "Kuchli CYP3A4 induktorlari — daklatasvir darajasini tushiradi (birga tavsiya etilmaydi)",
+      "Kuchli CYP3A4 inhibitorlari — darajasini oshiradi (doza yarmiga kamaytiriladi)",
+      "Amiodaron (sofosbuvir bilan birga) — og'ir bradikardiya"
+    ],
+    qollash: {
+      kattalar: "60 mg kuniga 1 marta (sofosbuvir bilan); CYP3A4 inhibitor/induktor bilan doza 30 yoki 90 mg ga moslanadi. Kurs 12 hafta.",
+      bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)"
+    },
+    chiqarish: "Pardali tabletkalar 30 mg, 60 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (прямого действия, ингибитор NS5A)",
+    farmTasir: "Противовирусное средство прямого действия против хронического гепатита C",
+    farmakodinamika: `Даклатасвир — препарат прямого действия (ПППД) против вируса гепатита C (HCV), ингибитор белка NS5A. Связываясь с белком NS5A HCV, одновременно останавливает и репликацию вирусной РНК, и сборку (assembly) вирусных частиц — это двойное действие быстро подавляет размножение вируса. Широкая генотипическая активность. Всегда назначается в комбинации с софосбувиром (иногда с добавлением рибавирина) — эта схема с высокой эффективностью излечивает HCV.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь; можно с пищей",
+      tarqalish: "Высокая связь с белками (~99%)",
+      metabolizm: "В печени через CYP3A4; субстрат P-гликопротеина",
+      chiqarilish: "Преимущественно с калом (жёлчь), частично почками; T½ ~12–15 ч"
+    },
+    korsatmalar: [
+      "Хронический гепатит C — в комбинации с софосбувиром (± рибавирин)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к даклатасвиру",
+      "Одновременно с сильными индукторами CYP3A4 (рифампицин, карбамазепин, зверобой — снижают эффективность)"
+    ],
+    nojoya: {
+      "Общие": "Утомляемость, головная боль, тошнота, диарея (обычно лёгкие)",
+      "Сердце": "С софосбувиром + амиодароном — риск тяжёлой брадикардии",
+      "Прочие": "Бессонница, анемия (с рибавирином)"
+    },
+    dozadan: "Данные ограничены; симптоматическое лечение.",
+    ozarotasir: [
+      "Сильные индукторы CYP3A4 — снижают уровень даклатасвира (не рекомендуется вместе)",
+      "Сильные ингибиторы CYP3A4 — повышают уровень (доза снижается вдвое)",
+      "Амиодарон (с софосбувиром) — тяжёлая брадикардия"
+    ],
+    qollash: {
+      kattalar: "60 мг 1 раз в день (с софосбувиром); при ингибиторе/индукторе CYP3A4 доза 30 или 90 мг. Курс 12 недель.",
+      bolalar: "Не рекомендуется (данные ограничены)"
+    },
+    chiqarish: "Таблетки, покрытые оболочкой, 30 мг, 60 мг"
+  },
+  en: {
+    gruppa: "Antiviral agents (direct-acting, NS5A inhibitor)",
+    farmTasir: "Direct-acting antiviral against chronic hepatitis C",
+    farmakodinamika: `Daclatasvir is a direct-acting antiviral (DAA) against hepatitis C virus (HCV), an NS5A protein inhibitor. By binding to the HCV NS5A protein, it simultaneously halts both viral RNA replication and assembly of virus particles — this dual action rapidly suppresses viral replication. It has broad genotypic activity. It is always given in combination with sofosbuvir (sometimes with added ribavirin) — this regimen cures HCV with high efficacy.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally; may be taken with food",
+      tarqalish: "High protein binding (~99%)",
+      metabolizm: "Hepatic via CYP3A4; a P-glycoprotein substrate",
+      chiqarilish: "Mainly in faeces (bile), partly renally; T½ ~12–15 h"
+    },
+    korsatmalar: [
+      "Chronic hepatitis C — in combination with sofosbuvir (± ribavirin)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to daclatasvir",
+      "Concomitant strong CYP3A4 inducers (rifampicin, carbamazepine, St John's wort — reduce efficacy)"
+    ],
+    nojoya: {
+      "General": "Fatigue, headache, nausea, diarrhoea (usually mild)",
+      "Cardiac": "With sofosbuvir + amiodarone — risk of severe bradycardia",
+      "Other": "Insomnia, anaemia (with ribavirin)"
+    },
+    dozadan: "Data limited; symptomatic treatment.",
+    ozarotasir: [
+      "Strong CYP3A4 inducers — lower daclatasvir levels (not recommended together)",
+      "Strong CYP3A4 inhibitors — raise levels (dose halved)",
+      "Amiodarone (with sofosbuvir) — severe bradycardia"
+    ],
+    qollash: {
+      kattalar: "60 mg once daily (with sofosbuvir); dose 30 or 90 mg with a CYP3A4 inhibitor/inducer. Course 12 weeks.",
+      bolalar: "Not recommended (limited data)"
+    },
+    chiqarish: "Film-coated tablets 30 mg, 60 mg"
+  }
+},
+
+// ─── J05AB16 · Remdesivir ─────────────────────────────────────────────────
+"J05AB16": {
+  uz: {
+    gruppa: "Viruslarga qarshi preparatlar (nukleotid analoglari)",
+    farmTasir: "COVID-19 ga qarshi keng spektrli antivirus vosita",
+    farmakodinamika: `Remdesivir — nukleotid analog prodorisi bo'lgan keng spektrli antivirus preparat. Hujayra ichida faol nukleozid trifosfat shakliga aylanadi, u virusли RNK-bog'liq РНК-polimeraza (RdRp) fermentini inhibe qiladi va o'sayotgan RNK zanjiriga qo'shilib uning sintezini sekinlashtirib to'xtatadi. SARS-CoV-2 (COVID-19), shuningdek boshqa koronavirus va RNK-viruslarga ta'sir ko'rsatadi. COVID-19 da kasallikning erta bosqichida (kasalxonada yotgan yoki og'irlashish xavfi yuqori bemorlarда) qo'llaniladi.`,
+    farmakokinetika: {
+      sorish: "Faqat v/v (infuziya); og'iz orqali ishlatilmaydi",
+      tarqalish: "Oqsilga bog'lanadi; hujayra ichiga kirib faollashadi",
+      metabolizm: "Faol metabolit (GS-441524) ga aylanadi; esteraza/fosfataza ishtirokida",
+      chiqarilish: "Asosan buyrak orqali (metabolit)"
+    },
+    korsatmalar: [
+      "COVID-19 (SARS-CoV-2) — kasalxonaда yotgan, qo'shimcha kislorod talab qiladigan yoki og'irlashish xavfi yuqori bemorlarда (erta boshlash)"
+    ],
+    qarrshi: [
+      "Remdesivirга o'ta sezuvchanlik",
+      "Og'ir buyrak yetishmovchiligi (KFR < 30 — ehtiyotkorlik, yordamchi modda to'planishi)",
+      "Sezilarli jigar fermentlari oshishi (ALT >5N — to'xtatish kerak bo'lishi mumkin)"
+    ],
+    nojoya: {
+      "Jigar": "Transaminazalar oshishi (jigar fermentlarini nazorat qilish)",
+      "Allergiya/infuzion": "Infuziya bilan bog'liq reaksiyalar (gipotenziya, ko'ngil aynishi, titroq), o'ta sezuvchanlik",
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish",
+      "Yurak": "Bradikardiya (kam)",
+      "Buyrak": "Kreatinin oshishi (kam)"
+    },
+    dozadan: "Ma'lumot cheklangan; simptomatik davolash, jigar/buyrak nazorati.",
+    ozarotasir: [
+      "Xlorokin/gidroksixlorokin — remdesivir faollashishini kamaytirishi mumkin (birga tavsiya etilmaydi)",
+      "Kuchli ferment induktorlari bilan ehtiyotkorlik"
+    ],
+    qollash: {
+      kattalar: "1-kun yuklama 200 mg v/v (infuziya), keyin 100 mg/sut; kurs odatda 5 kun (kerak bo'lsa 10 kun). Faqat statsionar/nazorat ostida.",
+      bolalar: "Vaznга qarab (≥3,5 kg dan, ko'rsatma bo'yicha)"
+    },
+    chiqarish: "V/v infuziya uchun kukun/konsentrat 100 mg (flakonlar)"
+  },
+  ru: {
+    gruppa: "Противовирусные препараты (аналоги нуклеотидов)",
+    farmTasir: "Противовирусное средство широкого спектра против COVID-19",
+    farmakodinamika: `Ремдесивир — противовирусный препарат широкого спектра, пролекарство аналога нуклеотида. Внутри клетки превращается в активную нуклеозидтрифосфатную форму, которая ингибирует вирусную РНК-зависимую РНК-полимеразу (RdRp) и встраивается в растущую цепь РНК, замедляя и прекращая её синтез. Действует на SARS-CoV-2 (COVID-19), а также на другие коронавирусы и РНК-вирусы. Применяется при COVID-19 на раннем этапе болезни (у госпитализированных или с высоким риском прогрессирования).`,
+    farmakokinetika: {
+      sorish: "Только в/в (инфузия); внутрь не применяется",
+      tarqalish: "Связывается с белками; проникает в клетки и активируется",
+      metabolizm: "Превращается в активный метаболит (GS-441524) при участии эстераз/фосфатаз",
+      chiqarilish: "Преимущественно почками (метаболит)"
+    },
+    korsatmalar: [
+      "COVID-19 (SARS-CoV-2) — у госпитализированных, нуждающихся в кислороде или с высоким риском прогрессирования (раннее начало)"
+    ],
+    qarrshi: [
+      "Гиперчувствительность к ремдесивиру",
+      "Тяжёлая почечная недостаточность (СКФ < 30 — с осторожностью, накопление вспомогательного вещества)",
+      "Значительное повышение печёночных ферментов (АЛТ >5N — может потребоваться отмена)"
+    ],
+    nojoya: {
+      "Печень": "Повышение трансаминаз (контроль печёночных ферментов)",
+      "Аллергические/инфузионные": "Инфузионные реакции (гипотензия, тошнота, озноб), гиперчувствительность",
+      "ЖКТ": "Тошнота, рвота",
+      "Сердце": "Брадикардия (редко)",
+      "Почки": "Повышение креатинина (редко)"
+    },
+    dozadan: "Данные ограничены; симптоматическое лечение, контроль печени/почек.",
+    ozarotasir: [
+      "Хлорохин/гидроксихлорохин — могут снижать активацию ремдесивира (не рекомендуется вместе)",
+      "Осторожно с сильными индукторами ферментов"
+    ],
+    qollash: {
+      kattalar: "В 1-й день нагрузка 200 мг в/в (инфузия), затем 100 мг/сут; курс обычно 5 дней (при необходимости 10 дней). Только в стационаре/под контролем.",
+      bolalar: "По массе (с ≥3,5 кг, по показанию)"
+    },
+    chiqarish: "Порошок/концентрат для в/в инфузий 100 мг (флаконы)"
+  },
+  en: {
+    gruppa: "Antiviral agents (nucleotide analogues)",
+    farmTasir: "Broad-spectrum antiviral against COVID-19",
+    farmakodinamika: `Remdesivir is a broad-spectrum antiviral, a nucleotide analogue prodrug. Inside the cell it is converted to the active nucleoside triphosphate form, which inhibits viral RNA-dependent RNA polymerase (RdRp) and is incorporated into the growing RNA chain, slowing and halting its synthesis. It acts on SARS-CoV-2 (COVID-19) as well as other coronaviruses and RNA viruses. It is used in COVID-19 in the early phase of disease (in hospitalised patients or those at high risk of progression).`,
+    farmakokinetika: {
+      sorish: "IV (infusion) only; not used orally",
+      tarqalish: "Protein-bound; enters cells and is activated",
+      metabolizm: "Converted to the active metabolite (GS-441524) via esterases/phosphatases",
+      chiqarilish: "Mainly renally (metabolite)"
+    },
+    korsatmalar: [
+      "COVID-19 (SARS-CoV-2) — in hospitalised patients, those needing oxygen, or at high risk of progression (early start)"
+    ],
+    qarrshi: [
+      "Hypersensitivity to remdesivir",
+      "Severe renal impairment (eGFR < 30 — caution, excipient accumulation)",
+      "Significant rise in liver enzymes (ALT >5×ULN — discontinuation may be required)"
+    ],
+    nojoya: {
+      "Hepatic": "Raised transaminases (monitor liver enzymes)",
+      "Hypersensitivity/infusion": "Infusion-related reactions (hypotension, nausea, chills), hypersensitivity",
+      "Gastrointestinal": "Nausea, vomiting",
+      "Cardiac": "Bradycardia (rare)",
+      "Renal": "Raised creatinine (rare)"
+    },
+    dozadan: "Data limited; symptomatic treatment, liver/renal monitoring.",
+    ozarotasir: [
+      "Chloroquine/hydroxychloroquine — may reduce remdesivir activation (not recommended together)",
+      "Caution with strong enzyme inducers"
+    ],
+    qollash: {
+      kattalar: "Day 1 loading 200 mg IV (infusion), then 100 mg/day; course usually 5 days (up to 10 days if needed). Only in hospital/under supervision.",
+      bolalar: "By weight (from ≥3.5 kg, per indication)"
+    },
+    chiqarish: "Powder/concentrate for IV infusion 100 mg (vials)"
+  }
 }
 
 };
