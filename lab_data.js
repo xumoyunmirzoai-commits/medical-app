@@ -1155,6 +1155,145 @@ const LAB_TESTS = [
       en: ["Prolonged use of ascorbic acid (inorganic vitamin C)", "Hypothyroidism", "Use of certain medications"]
     },
     note: { uz: "O't turg'unligi va detoksikatsiya jarayonlarini ko'rsatuvchi eng aniq marker.", ru: "Наиболее точный маркер, показывающий застой жёлчи и процессов детоксикации.", en: "The most accurate marker of bile stasis and detoxification processes." }
+  },
+
+  // ─────────── Qalqonsimon bez gormonlari ───────────
+  {
+    id: "tsh", cat: "thyroid", abbr: "TSH",
+    name: { uz: "Tireotrop gormon (TTG)", ru: "ТТГ (тиреотропный гормон)", en: "Thyroid-stimulating hormone" },
+    unit: { uz: "mMB/l", ru: "мМЕ/л", en: "mIU/L" },
+    norms: {
+      uz: [["Bolalar", "0,4–2,5"], ["Kattalar", "0,5–2"], ["60 yoshdan katta", "0,5–2,5"]],
+      ru: [["дети", "0,4–2,5"], ["взрослые", "0,5–2"], ["старше 60 л.", "0,5–2,5"]],
+      en: [["children", "0.4–2.5"], ["adults", "0.5–2"], ["over 60 yrs", "0.5–2.5"]]
+    },
+    optimum: { uz: "1,5–2 mMB/l", ru: "1,5–2 мМЕ/л", en: "1.5–2 mIU/L" },
+    high: {
+      uz: ["Yod tanqisligi", "Oqsil tanqisligi", "Temir zaxiralari tanqisligi", "Gipotireoz", "Insulin/leptinrezistentlik", "Subklinik buyrakusti bezi disfunksiyasi (stress)", "Homiladorlik"],
+      ru: ["Дефицит йода", "Дефицит белка", "Дефицит запасов железа", "Гипотиреоз", "Инсулино/лептинорезистентность", "Субклиническая надпочечниковая дисфункция (стресс)", "Беременность"],
+      en: ["Iodine deficiency", "Protein deficiency", "Depleted iron stores", "Hypothyroidism", "Insulin/leptin resistance", "Subclinical adrenal dysfunction (stress)", "Pregnancy"]
+    },
+    low: {
+      uz: ["Qalqonsimon bez giperfunksiyasi", "Referens chegarasidan past — gipertireoz (T4 erkin tekshiring)"],
+      ru: ["Гиперфункция щитовидной железы", "Ниже границы референса — гипертиреоз (проверить Т4 свободный)"],
+      en: ["Thyroid hyperfunction", "Below the reference limit — hyperthyroidism (check free T4)"]
+    },
+    note: { uz: "6 yoshgacha bolalarda TTG fiziologik ravishda 3,5–4 (ba'zan 6,5) gacha oshishi mumkin. Oshgan qiymat (>2) o'rnini bosuvchi gormonal terapiya uchun ko'rsatma emas.", ru: "У детей до 6 лет ТТГ может быть физиологически повышен до 3,5–4 (иногда до 6,5). Повышенное значение (>2) не является показанием для заместительной гормональной терапии.", en: "In children under 6, TSH may be physiologically elevated to 3.5–4 (sometimes 6.5). An elevated value (>2) is not an indication for hormone replacement therapy." }
+  },
+
+  {
+    id: "ft4", cat: "thyroid", abbr: "FT4",
+    name: { uz: "T4 erkin (tiroksin)", ru: "Т4 свободный", en: "Free thyroxine (FT4)" },
+    unit: { uz: "ng/dl · pmol/l", ru: "нг/дл · пмоль/л", en: "ng/dL · pmol/L" },
+    norms: {
+      uz: [["ng/dl", "1,16–1,7"], ["pmol/l", "15–22"]],
+      ru: [["нг/дл", "1,16–1,7"], ["пмоль/л", "15–22"]],
+      en: [["ng/dL", "1.16–1.7"], ["pmol/L", "15–22"]]
+    },
+    optimum: { uz: "Referens diapazonining yuqori uchdan biri", ru: "Верхняя треть референсного диапазона", en: "Upper third of the reference range" },
+    high: {
+      uz: ["Ochlik / keskin vazn yo'qotish", "Tireotoksikoz", "Qalqonsimon bez gormonlari dozasi oshishi", "Gipertireoz"],
+      ru: ["Голодание / резкая потеря веса", "Тиреотоксикоз", "Передозировка гормонов щитовидной железы", "Гипертиреоз"],
+      en: ["Fasting / rapid weight loss", "Thyrotoxicosis", "Thyroid hormone overdose", "Hyperthyroidism"]
+    },
+    low: {
+      uz: ["Referens diapazonining quyi 30% iga tushsa — gipotireoz", "Homiladorlik", "Bez tashqarisidagi muammo: yod/temir/sink/B12 tanqisligi, surункali yallig'lanish (FT4 referens o'rtasida, lekin gipotireoz bo'lsa)"],
+      ru: ["Падение до нижних 30% референса — гипотиреоз", "Беременность", "Проблема за пределами железы: дефицит йода/железа/цинка/B12, хроническое воспаление (если FT4 посередине, но есть гипотиреоз)"],
+      en: ["Drop to the lower 30% of reference — hypothyroidism", "Pregnancy", "Problem outside the gland: iodine/iron/zinc/B12 deficiency, chronic inflammation (if FT4 mid-range but hypothyroidism present)"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "ft3", cat: "thyroid", abbr: "FT3",
+    name: { uz: "T3 erkin (triyodtironin)", ru: "Т3 свободный", en: "Free triiodothyronine (FT3)" },
+    unit: { uz: "pg/ml · pmol/l", ru: "пг/мл · пмоль/л", en: "pg/mL · pmol/L" },
+    norms: {
+      uz: [["pg/ml", "3,25–4,55"], ["pmol/l", "5–7"]],
+      ru: [["пг/мл", "3,25–4,55"], ["пмоль/л", "5–7"]],
+      en: [["pg/mL", "3.25–4.55"], ["pmol/L", "5–7"]]
+    },
+    optimum: { uz: "Referens diapazonining yuqori ¾ qismi", ru: "Верхняя ¾ референсного диапазона", en: "Upper three-quarters of the reference range" },
+    high: {
+      uz: ["Gipertireoz belgisi"],
+      ru: ["Симптом гипертиреоза"],
+      en: ["Sign of hyperthyroidism"]
+    },
+    low: {
+      uz: ["Gipotireoz belgisi", "T4→T3 konversiyasi buzilishi (yod, selen tanqisligi)", "Tireostatiklar qabuli", "Qalqonsimon bezni yoki uning qismini olib tashlash"],
+      ru: ["Симптом гипотиреоза", "Нарушение конверсии Т4 в Т3 (дефицит йода, селена)", "Применение тиреостатиков", "Удаление щитовидной железы или её части"],
+      en: ["Sign of hypothyroidism", "Impaired T4→T3 conversion (iodine, selenium deficiency)", "Thyrostatic use", "Removal of thyroid or part of it"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "rt3", cat: "thyroid", abbr: "RT3",
+    name: { uz: "T3 reversiv (teskari)", ru: "Т3 реверсивный", en: "Reverse T3" },
+    unit: { uz: "ng/dl", ru: "нг/дл", en: "ng/dL" },
+    norms: {
+      uz: [["Barcha yoshlar", "11–18"]],
+      ru: [["Все возрасты", "11–18"]],
+      en: [["All ages", "11–18"]]
+    },
+    optimum: { uz: "Erkin T3 / reversiv T3 nisbati 10:1 va undan ko'p", ru: "Соотношение свободного к реверсивному Т3 — 10:1 и больше", en: "Free T3 to reverse T3 ratio — 10:1 or more" },
+    high: {
+      uz: ["Temir tanqisligi", "Past kortizol", "Yod tanqisligi", "Yashirin yallig'lanish", "B12 tanqisligi"],
+      ru: ["Дефицит железа", "Низкий кортизол", "Дефицит йода", "Скрытое воспаление", "Дефицит B12"],
+      en: ["Iron deficiency", "Low cortisol", "Iodine deficiency", "Latent inflammation", "B12 deficiency"]
+    },
+    low: {
+      uz: ["Erkin T3 ning 10% igacha bo'lgan kichik miqdori — norma"],
+      ru: ["Небольшое количество (до 10% от Т3 свободного) — норма"],
+      en: ["A small amount (up to 10% of free T3) is normal"]
+    },
+    note: { uz: "Erkin T3 bilan bir vaqtda topshiriladi. Nisbat RT3 tomon o'zgarsa — TTG, erkin T4 va T3 normada bo'lganda to'qima darajasida tanqislik bo'lishi mumkin.", ru: "Делается одновременно с Т3 свободным. Изменение соотношения в сторону РТ3 — при норме ТТГ, свободных Т4 и Т3 возможны проявления тканевого дефицита.", en: "Tested together with free T3. A shift of the ratio toward rT3 — with normal TSH, free T4 and T3 — may indicate tissue-level deficiency." }
+  },
+
+  {
+    id: "ft4_ft3", cat: "thyroid", abbr: "T4/T3",
+    name: { uz: "T4/T3 nisbati", ru: "Т4/Т3", en: "T4/T3 ratio" },
+    unit: { uz: "", ru: "", en: "" },
+    norms: {
+      uz: [["Norma", "0,27–0,33"]],
+      ru: [["Норма", "0,27–0,33"]],
+      en: [["Normal", "0.27–0.33"]]
+    },
+    optimum: { uz: "0,27–0,33", ru: "0,27–0,33", en: "0.27–0.33" },
+    high: {
+      uz: ["T4 pasayishi hisobiga 0,33 dan yuqori — yod, oqsil, sink, selen, vitamin D, C, E, B2, B3, B6 tanqisligini tekshiring"],
+      ru: ["Выше 0,33 из-за снижения Т4 — разобраться с дефицитом йода, белка, цинка, селена, витамина D, С, Е, В2, В3, В6"],
+      en: ["Above 0.33 due to low T4 — assess deficiency of iodine, protein, zinc, selenium, vitamin D, C, E, B2, B3, B6"]
+    },
+    low: {
+      uz: ["T3 pasayishi hisobiga (T4→T3 konversiyasi buzilishi) 0,33 dan past — selen/sink/mis tanqisligini tekshiring"],
+      ru: ["Ниже 0,33 из-за снижения Т3 (нарушение конверсии Т4 в Т3) — разобраться с дефицитом селена/цинка/меди"],
+      en: ["Below 0.33 due to low T3 (impaired T4→T3 conversion) — assess selenium/zinc/copper deficiency"]
+    },
+    note: { uz: "Kichikrоq qiymatni kattarog'iga bo'lib hisoblanadi.", ru: "Рассчитывается делением меньшего значения на большее.", en: "Calculated by dividing the smaller value by the larger." }
+  },
+
+  {
+    id: "anti_tpo_tg", cat: "thyroid", abbr: "TPO/TG",
+    name: { uz: "TPO va TG ga antitelolar", ru: "Антитела к ТПО и ТГ", en: "Anti-TPO and anti-TG antibodies" },
+    unit: { uz: "ng/dl", ru: "нг/дл", en: "ng/dL" },
+    norms: {
+      uz: [["Barcha yoshlar", "2 dan past"]],
+      ru: [["Все возрасты", "ниже 2"]],
+      en: [["All ages", "below 2"]]
+    },
+    optimum: { uz: "0 ga intilishi kerak", ru: "должны стремиться к нулю", en: "should approach zero" },
+    high: {
+      uz: ["Autoimmun tireoidit (AIT)", "Xashimoto tireoiditi", "Diffuz toksik bo'qoq", "Tug'ruqdan keyingi tireoidit", "Disbakterioz", "Stress ortishida ham bo'lishi mumkin (kortizol va DGEA-S tekshiring)"],
+      ru: ["Аутоиммунный тиреоидит (АИТ)", "Тиреоидит Хашимото", "Диффузный токсический зоб", "Послеродовый тиреоидит", "Дисбактериоз", "Возможно при повышенном уровне стресса (проверить кортизол и ДГЭА-С)"],
+      en: ["Autoimmune thyroiditis (AIT)", "Hashimoto's thyroiditis", "Diffuse toxic goiter", "Postpartum thyroiditis", "Dysbiosis", "Possible with elevated stress (check cortisol and DHEA-S)"]
+    },
+    low: {
+      uz: ["Past qiymat — norma"],
+      ru: ["Низкое значение — норма"],
+      en: ["Low value is normal"]
+    },
+    note: { uz: "Antitelolar qancha yuqori bo'lsa, autoimmun jarayon shunchalik kuchli. Ular boshqa qon tahlillaridagi o'zgarishlardan ancha oldin aniqlanishi mumkin; dinamikani kuzatib borish muhim.", ru: "Чем выше антитела, тем сильнее аутоиммунный процесс. Могут быть обнаружены намного раньше изменений в других анализах; важно следить за динамикой.", en: "The higher the antibodies, the stronger the autoimmune process. They may appear much earlier than changes in other tests; monitoring the trend is important." }
   }
 
 ];
