@@ -495,6 +495,171 @@
   </div>
 </div>
 
+<!-- ═══════════ TAKLIF VA MUROJAATLAR (FEEDBACK) ═══════════ -->
+<style>
+  .fb-fab {
+    position: fixed; right: 18px; bottom: 84px; z-index: 3400;
+    width: 52px; height: 52px; border-radius: 50%; border: none; cursor: pointer;
+    background: linear-gradient(135deg,#e8193c,#c0122c); color: #fff;
+    box-shadow: 0 8px 24px rgba(232,25,60,.4); display: flex;
+    align-items: center; justify-content: center; transition: transform .15s;
+  }
+  .fb-fab:hover { transform: scale(1.08); }
+  @media (min-width: 1024px) { .fb-fab { bottom: 24px; } }
+  .fb-overlay {
+    position: fixed; inset: 0; z-index: 4000; background: rgba(17,24,39,.5);
+    backdrop-filter: blur(3px); display: none; align-items: flex-end; justify-content: center;
+  }
+  .fb-overlay.open { display: flex; }
+  @media (min-width: 640px) { .fb-overlay.open { align-items: center; } }
+  .fb-modal {
+    background: #fff; width: 100%; max-width: 440px; border-radius: 20px 20px 0 0;
+    box-shadow: 0 -8px 40px rgba(0,0,0,.2); overflow: hidden;
+    animation: fbUp .25s cubic-bezier(.34,1.3,.64,1);
+  }
+  @media (min-width: 640px) { .fb-modal { border-radius: 20px; } }
+  @keyframes fbUp { from { transform: translateY(24px); opacity: .6; } to { transform: none; opacity: 1; } }
+  .fb-head {
+    display: flex; align-items: center; gap: 12px; padding: 18px 20px;
+    background: linear-gradient(135deg,#e8193c,#c0122c); color: #fff;
+  }
+  .fb-head-icon { font-size: 22px; }
+  .fb-head-txt h3 { font-size: 16px; font-weight: 800; margin: 0; }
+  .fb-head-txt p { font-size: 12px; opacity: .9; margin: 2px 0 0; }
+  .fb-close { margin-left: auto; background: rgba(255,255,255,.2); border: none; color: #fff;
+    width: 30px; height: 30px; border-radius: 8px; cursor: pointer; font-size: 16px; }
+  .fb-body { padding: 18px 20px; }
+  .fb-field { margin-bottom: 14px; }
+  .fb-field label { display: block; font-size: 12.5px; font-weight: 700; color: #374151; margin-bottom: 6px; }
+  .fb-field input, .fb-field textarea, .fb-field select {
+    width: 100%; border: 1.5px solid #e5e7eb; border-radius: 11px; padding: 11px 13px;
+    font-size: 14px; font-family: inherit; color: #111; box-sizing: border-box; transition: border .15s;
+  }
+  .fb-field input:focus, .fb-field textarea:focus, .fb-field select:focus {
+    outline: none; border-color: #e8193c;
+  }
+  .fb-field textarea { resize: vertical; min-height: 96px; }
+  .fb-send {
+    width: 100%; padding: 13px; border: none; border-radius: 12px; cursor: pointer;
+    background: linear-gradient(135deg,#e8193c,#c0122c); color: #fff; font-size: 14.5px; font-weight: 700;
+  }
+  .fb-send:disabled { opacity: .6; cursor: default; }
+  .fb-note { font-size: 11.5px; color: #9ca3af; text-align: center; margin-top: 12px; }
+  .fb-result { text-align: center; padding: 28px 20px; }
+  .fb-result .ic { font-size: 44px; }
+  .fb-result h4 { font-size: 17px; font-weight: 800; color: #111; margin: 12px 0 6px; }
+  .fb-result p { font-size: 13.5px; color: #6b7280; margin: 0; }
+</style>
+
+<button class="fb-fab" id="fbFab" onclick="openFeedback()" title="Taklif va murojaatlar" aria-label="Taklif va murojaatlar">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+</button>
+
+<div class="fb-overlay" id="fbOverlay" onclick="if(event.target===this)closeFeedback()">
+  <div class="fb-modal" role="dialog" aria-modal="true" aria-labelledby="fbTitle">
+    <div class="fb-head">
+      <span class="fb-head-icon">💬</span>
+      <div class="fb-head-txt">
+        <h3 id="fbTitle">Taklif va murojaatlar</h3>
+        <p>Fikr-mulohaza, xato yoki taklifingizni yuboring</p>
+      </div>
+      <button class="fb-close" onclick="closeFeedback()" aria-label="Yopish">✕</button>
+    </div>
+
+    <div class="fb-body" id="fbForm">
+      <div class="fb-field">
+        <label for="fbName">Ismingiz (ixtiyoriy)</label>
+        <input type="text" id="fbName" placeholder="Ismingiz" autocomplete="name" />
+      </div>
+      <div class="fb-field">
+        <label for="fbEmail">Email (javob olish uchun)</label>
+        <input type="email" id="fbEmail" placeholder="siz@email.com" autocomplete="email" />
+      </div>
+      <div class="fb-field">
+        <label for="fbType">Murojaat turi</label>
+        <select id="fbType">
+          <option value="Taklif">💡 Taklif</option>
+          <option value="Xato/Muammo">🐞 Xato yoki muammo</option>
+          <option value="Dori so'rovi">💊 Dori ma'lumoti so'rovi</option>
+          <option value="Boshqa">📨 Boshqa</option>
+        </select>
+      </div>
+      <div class="fb-field">
+        <label for="fbMsg">Xabaringiz</label>
+        <textarea id="fbMsg" placeholder="Fikr, taklif yoki muammoni batafsil yozing..."></textarea>
+      </div>
+      <button class="fb-send" id="fbSend" onclick="sendFeedback()">Yuborish</button>
+      <p class="fb-note">Xabaringiz to'g'ridan-to'g'ri ishlab chiquvchiga yuboriladi.</p>
+    </div>
+
+    <div class="fb-body fb-result" id="fbSuccess" style="display:none">
+      <div class="ic">✅</div>
+      <h4>Rahmat!</h4>
+      <p>Murojaatingiz yuborildi. Tez orada ko'rib chiqamiz.</p>
+      <button class="fb-send" style="margin-top:18px" onclick="closeFeedback()">Yopish</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ── Taklif va murojaatlar — FormSubmit orqali to'g'ridan-to'g'ri emailga ──
+  // Eslatma: birinchi yuborishdan keyin emailga tasdiqlash xati keladi — uni bosib faollashtiring.
+  const FEEDBACK_EMAIL = "xumoyunmirzoai@gmail.com";
+
+  function openFeedback() {
+    // Login bo'lgan foydalanuvchi emailini avtomatik to'ldirish
+    try {
+      var u = (typeof getStoredUser === 'function') ? getStoredUser() : null;
+      if (u) {
+        if (u.email && !document.getElementById('fbEmail').value) document.getElementById('fbEmail').value = u.email;
+        if (u.name && !document.getElementById('fbName').value) document.getElementById('fbName').value = u.name;
+      }
+    } catch (e) {}
+    document.getElementById('fbForm').style.display = '';
+    document.getElementById('fbSuccess').style.display = 'none';
+    document.getElementById('fbOverlay').classList.add('open');
+  }
+  function closeFeedback() {
+    document.getElementById('fbOverlay').classList.remove('open');
+  }
+  async function sendFeedback() {
+    const name = document.getElementById('fbName').value.trim();
+    const email = document.getElementById('fbEmail').value.trim();
+    const type = document.getElementById('fbType').value;
+    const msg = document.getElementById('fbMsg').value.trim();
+    if (!msg) { alert("Iltimos, xabaringizni yozing."); return; }
+
+    const btn = document.getElementById('fbSend');
+    btn.disabled = true; btn.textContent = 'Yuborilmoqda...';
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/' + FEEDBACK_EMAIL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          name: name || 'Anonim',
+          email: email || 'kiritilmagan',
+          _subject: 'MedCore murojaat: ' + type,
+          Tur: type,
+          Xabar: msg,
+          _template: 'table'
+        })
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && (data.success === 'true' || data.success === true || res.status === 200)) {
+        document.getElementById('fbForm').style.display = 'none';
+        document.getElementById('fbSuccess').style.display = '';
+        document.getElementById('fbMsg').value = '';
+      } else {
+        throw new Error('send failed');
+      }
+    } catch (e) {
+      alert("Yuborishda xatolik. Internet aloqasini tekshiring yoki keyinroq urinib ko'ring.");
+    } finally {
+      btn.disabled = false; btn.textContent = 'Yuborish';
+    }
+  }
+</script>
+
 <script src="auth.js"></script>
 <script src="app.js"></script>
 
