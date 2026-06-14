@@ -1080,6 +1080,131 @@
     }, { passive: true });
     sidebar.addEventListener('touchend', () => { tracking = false; }, { passive: true });
   })();
+
+  // ══════════════════════════════════════════
+  // MOBIL "ORQAGA" TUGMASI — navigatsiya tarixi (History API)
+  //  • Orqaga bosilganda: ochiq oyna/modal yopiladi yoki bitta sahifa
+  //    orqaga qaytadi; oxirida dashboardga; dashboardda esa ilovadan chiqadi.
+  //  • Ilova yopilib qayta ochilsa — oxirgi sahifadan davom etadi.
+  // ══════════════════════════════════════════
+  (function initAppHistory() {
+    const PAGE_KEY = 'mc_last_page';
+    const DRUG_KEY = 'mc_last_drug';
+    const KNOWN = ['dashboard','drugs','diseases','lab','calculators','interactions','favorites'];
+    let popping = false;
+
+    function isOpen(id) { const e = document.getElementById(id); return !!(e && e.classList.contains('open')); }
+    function sidebarOpen() { return isOpen('sidebar') && window.innerWidth <= 900; }
+
+    // Saqlangan original funksiyalar
+    const _nav       = window.navigateTo;
+    const _openDrug  = window.openDrug;
+    const _closeDrug = window.closeDrugModal;
+
+    // Ochiq oynalar — ustuvorlik bo'yicha (eng ustki birinchi)
+    const overlays = [
+      { name: 'feedback', open: () => isOpen('fbOverlay'),    close: () => { if (typeof closeFeedback === 'function') closeFeedback(); } },
+      { name: 'notif',    open: () => isOpen('notifCenter'),  close: () => { if (typeof closeNotifCenter === 'function') closeNotifCenter(); } },
+      { name: 'drug',     open: () => isOpen('modalOverlay'), close: () => { _closeDrug(); try { localStorage.removeItem(DRUG_KEY); } catch (e) {} } },
+      { name: 'sidebar',  open: () => sidebarOpen(),          close: () => { if (typeof closeSidebar === 'function') closeSidebar(); } }
+    ];
+    function topOverlay() { return overlays.find(o => o.open()); }
+    function anyOverlayOpen() { return !!topOverlay(); }
+
+    function persistPage(p) { try { localStorage.setItem(PAGE_KEY, p); localStorage.removeItem(DRUG_KEY); } catch (e) {} }
+
+    // navigateTo → sahifa o'zgarganda tarixga yozamiz
+    window.navigateTo = function (page) {
+      // sahifa almashishidan oldin ochiq modal/oynani yopamiz
+      const t = topOverlay();
+      if (t) { popping = true; t.close(); popping = false; }
+      _nav(page);
+      persistPage(page);
+      if (!popping) history.pushState({ kind: 'page', page: page }, '', '#' + page);
+    };
+
+    // openDrug → modal ochilganda tarixga yozamiz
+    window.openDrug = function (id) {
+      _openDrug(id);
+      try { localStorage.setItem(DRUG_KEY, String(id)); } catch (e) {}
+      if (!popping) history.pushState({ kind: 'drug', id: id, page: (document.querySelector('.page.active') || {}).id }, '', '#drug-' + id);
+    };
+
+    // UI orqali yopish (X tugma, overlayga bosish) → tarixни ham orqaga suramiz
+    window.closeDrugModal = function () {
+      if (!popping && history.state && history.state.kind === 'drug') { history.back(); }
+      else { _closeDrug(); try { localStorage.removeItem(DRUG_KEY); } catch (e) {} }
+    };
+
+    // Navigatsiyasiz ochiladigan oynalar uchun tarix yozuvi
+    function pushOverlay(name) { if (!popping) history.pushState({ kind: 'overlay', name: name, page: (document.querySelector('.page.active') || {}).id }, ''); }
+    function uiCloseOverlay() { if (!popping && history.state && history.state.kind === 'overlay') history.back(); }
+
+    // Feedback (taklif/murojaat) oynasi
+    if (typeof window.openFeedback === 'function') {
+      const _of = window.openFeedback;
+      window.openFeedback = function () { _of(); if (isOpen('fbOverlay')) pushOverlay('feedback'); };
+    }
+    if (typeof window.closeFeedback === 'function') {
+      const _cf = window.closeFeedback;
+      window.closeFeedback = function () { if (!popping && history.state && history.state.kind === 'overlay') history.back(); else _cf(); };
+    }
+
+    // Bildirishnoma markazi
+    if (typeof window.toggleNotifCenter === 'function') {
+      const _tn = window.toggleNotifCenter;
+      window.toggleNotifCenter = function (ev) {
+        if (isOpen('notifCenter')) { if (ev && ev.stopPropagation) ev.stopPropagation(); uiCloseOverlay(); }
+        else { _tn(ev); if (isOpen('notifCenter')) pushOverlay('notif'); }
+      };
+    }
+
+    // Sidebar (mobil menyu) — ochilganda tarix yozuvi
+    const _toggleSidebar = window.toggleSidebar;
+    window.toggleSidebar = function () {
+      const wasOpen = isOpen('sidebar');
+      _toggleSidebar();
+      if (!wasOpen && isOpen('sidebar') && window.innerWidth <= 900) pushOverlay('sidebar');
+    };
+
+    // ── ORQAGA tugmasi bosilganda ──
+    window.addEventListener('popstate', function (e) {
+      // 1) Ochiq oyna bo'lsa — uni yopamiz (orqaga bosishni "yeydi")
+      const t = topOverlay();
+      if (t) { popping = true; t.close(); popping = false; return; }
+      // 2) Aks holda — kelgan holatdagi sahifani ko'rsatamiz
+      popping = true;
+      const st = e.state;
+      if (st && st.kind === 'drug') {
+        _openDrug(st.id);
+      } else if (st && st.kind === 'page') {
+        _nav(st.page || 'dashboard');
+        try { localStorage.setItem(PAGE_KEY, st.page || 'dashboard'); } catch (_) {}
+      } else {
+        _nav('dashboard');
+      }
+      popping = false;
+    });
+
+    // ── Boshlang'ich holat + oxirgi sahifani tiklash ──
+    function start() {
+      let page = 'dashboard', drug = null;
+      try { page = localStorage.getItem(PAGE_KEY) || 'dashboard'; drug = localStorage.getItem(DRUG_KEY); } catch (e) {}
+      if (KNOWN.indexOf(page) === -1) page = 'dashboard';
+      // Ildiz yozuvi — har doim dashboardga qaytib chiqish uchun
+      history.replaceState({ kind: 'page', page: 'dashboard' }, '', '#dashboard');
+      popping = true; _nav('dashboard'); popping = false;
+      // Oxirgi sahifa dashboard bo'lmasa — uni tarixga qo'shamiz (orqaga → dashboard)
+      if (page !== 'dashboard') window.navigateTo(page);
+      // Oxirida ochiq dori bo'lsa — uni qayta ochamiz
+      if (drug && typeof DRUGS !== 'undefined') {
+        const id = isNaN(+drug) ? drug : +drug;
+        if (DRUGS.find(d => d.id === id)) window.openDrug(id);
+      }
+    }
+    if (document.readyState === 'complete') setTimeout(start, 150);
+    else window.addEventListener('load', function () { setTimeout(start, 250); });
+  })();
 </script>
 </body>
 </html>
