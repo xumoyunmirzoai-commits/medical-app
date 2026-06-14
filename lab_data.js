@@ -621,6 +621,192 @@ const LAB_TESTS = [
       en: ["Low value is normal (the lower, the better)"]
     },
     note: { uz: "", ru: "", en: "" }
+  },
+
+  // ─────────── Oqsil almashinuvi ───────────
+  {
+    id: "protein_total", cat: "protein", abbr: "TP",
+    name: { uz: "Umumiy oqsil", ru: "Общий белок", en: "Total protein" },
+    unit: { uz: "g/l", ru: "г/л", en: "g/L" },
+    norms: {
+      uz: [["1 yoshgacha", "51–73"], ["1–20 yosh", "62–76"], ["20–34 yosh", "75–82"], ["34–60 yosh", "76–80"], ["61–75 yosh", "74–78"]],
+      ru: [["до года", "51–73"], ["1–20 л.", "62–76"], ["20–34 л.", "75–82"], ["34–60 л.", "76–80"], ["61–75 л.", "74–78"]],
+      en: [["under 1 yr", "51–73"], ["1–20 yrs", "62–76"], ["20–34 yrs", "75–82"], ["34–60 yrs", "76–80"], ["61–75 yrs", "74–78"]]
+    },
+    optimum: { uz: "77–80 g/l (bolalar 5 yoshgacha >65, 5 yoshdan keyin 70–75)", ru: "77–80 г/л (дети до 5 лет >65, после 5 лет 70–75)", en: "77–80 g/L (children <5 yrs >65, over 5 yrs 70–75)" },
+    high: {
+      uz: ["Bitta tahlil asosida sababini aniqlash mumkin emas — shifokor bilan maslahat zarur", "Aniqlash uchun oqsil fraksiyalari va yallig'lanish ko'rsatkichlarini tekshiring"],
+      ru: ["Установить на основе одного анализа невозможно — нужна консультация врача", "Для уточнения проверить белковые фракции и показатели воспаления"],
+      en: ["Cannot be established from a single test — physician consultation needed", "Check protein fractions and inflammation markers to clarify"]
+    },
+    low: {
+      uz: ["Temir tanqisligi", "Albumin oshishi", "Oshqozon kislotaliligi pasayishi", "Nomutanosib veganlik/vegetarianlik", "Homiladorlik", "Jigar va buyrak funksiyasi buzilishi"],
+      ru: ["Железодефицит", "Повышенный альбумин", "Пониженная кислотность желудка", "Несбалансированное веганство/вегетарианство", "Беременность", "Нарушение функции печени и почек"],
+      en: ["Iron deficiency", "Elevated albumin", "Low gastric acidity", "Unbalanced veganism/vegetarianism", "Pregnancy", "Impaired liver and kidney function"]
+    },
+    note: { uz: "Past qiymatlar ratsionda oqsil tanqisligi, uning so'rilmasligi, kislotalilik pasayishi, o't oqimi buzilishi, oshqozonosti bezi fermentlari yetishmasligi yoki jigar sintetik funksiyasi buzilishi bilan bog'liq.", ru: "Низкие значения связаны с дефицитом белка в рационе, его неусвоением, пониженной кислотностью, нарушением оттока жёлчи, недостатком ферментов поджелудочной железы или нарушением синтетической функции печени.", en: "Low values relate to dietary protein deficiency, malabsorption, low acidity, impaired bile flow, pancreatic enzyme deficiency, or impaired hepatic synthetic function." }
+  },
+
+  {
+    id: "albumin", cat: "protein", abbr: "ALB",
+    name: { uz: "Albumin", ru: "Альбумин", en: "Albumin" },
+    unit: { uz: "g/l", ru: "г/л", en: "g/L" },
+    norms: {
+      uz: [["14 yoshgacha bolalar", "54 gacha"], ["Kattalar", "40–52"], ["Keksalar", "35–46"]],
+      ru: [["дети до 14 лет", "до 54"], ["взрослые", "40–52"], ["пожилые", "35–46"]],
+      en: [["children under 14 yrs", "up to 54"], ["adults", "40–52"], ["elderly", "35–46"]]
+    },
+    optimum: { uz: "45 dan yuqori (umumiy oqsilning ~60% ini tashkil etishi kerak)", ru: "выше 45 (должен составлять ~60% от общего белка)", en: "above 45 (should be ~60% of total protein)" },
+    high: {
+      uz: ["Umumiy oqsil tanqisligi (aminokislota zaxiralari kamayganda organizm oqsilni albumin hisobiga ushlab turadi)", "Suvsizlanish", "Buyrak kasalliklari", "Intoksikatsiya"],
+      ru: ["Дефицит общего белка (при истощении аминокислотных пулов организм поддерживает белок за счёт альбумина)", "Обезвоживание", "Заболевания почек", "Интоксикация"],
+      en: ["Total protein deficiency (with depleted amino-acid pools the body maintains protein via albumin)", "Dehydration", "Kidney disease", "Intoxication"]
+    },
+    low: {
+      uz: ["Suyuqlik ortiqchaligi", "Infeksiyalar", "Yurak yetishmovchiligi", "Jigar zaxiralari tugashi", "Homiladorlik"],
+      ru: ["Избыток жидкости", "Инфекции", "Сердечная недостаточность", "Истощение ресурсов печени", "Беременность"],
+      en: ["Fluid excess", "Infections", "Heart failure", "Depletion of liver reserves", "Pregnancy"]
+    },
+    note: { uz: "Albumin jigar oqsil-sintetik funksiyasi va nutritiv holatni baholash uchun ishlatiladi.", ru: "Альбумин используется для оценки белково-синтетической функции печени и нутритивного статуса.", en: "Albumin is used to assess hepatic protein-synthetic function and nutritional status." }
+  },
+
+  {
+    id: "crea", cat: "protein", abbr: "CREA",
+    name: { uz: "Kreatinin (qonda)", ru: "Креатинин (в крови)", en: "Creatinine (serum)" },
+    unit: { uz: "mkmol/l", ru: "мкмоль/л", en: "µmol/L" },
+    norms: {
+      uz: [["1–12 yosh", "24–62"], ["13–18 yosh", "44–88"], ["Ayollar", "53–97"], ["Erkaklar", "80–115"]],
+      ru: [["дети 1–12 лет", "24–62"], ["13–18 лет", "44–88"], ["Женщины", "53–97"], ["Мужчины", "80–115"]],
+      en: [["1–12 yrs", "24–62"], ["13–18 yrs", "44–88"], ["Women", "53–97"], ["Men", "80–115"]]
+    },
+    optimum: { uz: "Laboratoriya referensining o'rtasi", ru: "Середина референса лаборатории", en: "Mid-range of the laboratory reference" },
+    high: {
+      uz: ["Buyrak kasalliklari", "Suvsizlanish", "Ratsionda go'sht ortiqchaligi", "O'sish gormoni ortiqchaligi", "Diabet", "Gipertireoz"],
+      ru: ["Заболевания почек", "Обезвоживание", "Избыток мясной пищи в рационе", "Избыток гормона роста", "Диабет", "Гипертиреоз"],
+      en: ["Kidney disease", "Dehydration", "Excess dietary meat", "Excess growth hormone", "Diabetes", "Hyperthyroidism"]
+    },
+    low: {
+      uz: ["Ratsionda oqsil tanqisligi", "Ochlik yoki kasallik tufayli mushak massasi kamayishi", "Homiladorlik", "Gipergidratatsiya"],
+      ru: ["Дефицит белка в рационе", "Уменьшение мышечной массы из-за голодания или болезни", "Беременность", "Гипергидратация"],
+      en: ["Dietary protein deficiency", "Reduced muscle mass from fasting or illness", "Pregnancy", "Overhydration"]
+    },
+    note: { uz: "Kreatinin buyraklar faoliyatining muhim ko'rsatkichi.", ru: "Креатинин — важный показатель деятельности почек.", en: "Creatinine is an important marker of kidney function." }
+  },
+
+  {
+    id: "urea", cat: "protein", abbr: "UREA",
+    name: { uz: "Mochevina", ru: "Мочевина", en: "Urea" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["14 yoshgacha bolalar", "1,8–4,9"], ["Ayollar", "2,3–6,6"], ["Erkaklar", "2,4–6,5"]],
+      ru: [["дети 14 лет", "1,8–4,9"], ["Женщины", "2,3–6,6"], ["Мужчины", "2,4–6,5"]],
+      en: [["children under 14 yrs", "1.8–4.9"], ["Women", "2.3–6.6"], ["Men", "2.4–6.5"]]
+    },
+    optimum: { uz: "Bolalar 4 gacha, ayollar 3 gacha, erkaklar 4 gacha", ru: "Дети до 4, женщины до 3, мужчины до 4", en: "Children up to 4, women up to 3, men up to 4" },
+    high: {
+      uz: ["Jigar patologiyalari", "Yallig'lanish jarayoni", "Ratsionda oqsil ortiqchaligi", "Qalqonsimon bez ishi buzilishi", "Buyrak yetishmovchiligi", "Ochlik"],
+      ru: ["Патологии печени", "Воспалительный процесс", "Избыток белка в рационе", "Нарушение работы щитовидной железы", "Почечная недостаточность", "Голодание"],
+      en: ["Liver pathology", "Inflammatory process", "Excess dietary protein", "Thyroid dysfunction", "Renal failure", "Fasting"]
+    },
+    low: {
+      uz: ["Ratsionda oqsil yetishmasligi", "Gipergidratatsiya", "Homiladorlik", "Tuzsiz parhez"],
+      ru: ["Нехватка белка в рационе", "Гипергидратация", "Беременность", "Бессолевая диета"],
+      en: ["Insufficient dietary protein", "Overhydration", "Pregnancy", "Salt-free diet"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "uric_acid", cat: "protein", abbr: "UA",
+    name: { uz: "Siydik kislotasi", ru: "Мочевая кислота", en: "Uric acid" },
+    unit: { uz: "mkmol/l", ru: "мкмоль/л", en: "µmol/L" },
+    norms: {
+      uz: [["Bolalar", "120–290"], ["Ayollar", "160–320"], ["Erkaklar", "200–400"]],
+      ru: [["дети", "120–290"], ["Женщины", "160–320"], ["Мужчины", "200–400"]],
+      en: [["children", "120–290"], ["Women", "160–320"], ["Men", "200–400"]]
+    },
+    optimum: { uz: "Ayollar ≤357, erkaklar ≤428 (insulinrezistentlik baholashda)", ru: "Женщины ≤357, мужчины ≤428 (при оценке инсулинорезистентности)", en: "Women ≤357, men ≤428 (when assessing insulin resistance)" },
+    high: {
+      uz: ["Yuqori dozali B12 qabuli", "Ratsionda oqsil ortiqchaligi", "Jigar ishidagi buzilishlar", "Buyrak chiqaruv funksiyasi pasayishi", "Og'ir jismoniy yuklamalar", "Uzoq davom etgan ochlik", "Atsidoz", "Qandli diabet"],
+      ru: ["Приём высоких доз витамина В12", "Избыток белка в рационе", "Нарушения в работе печени", "Снижение выводящей функции почек", "Тяжёлые физические нагрузки", "Длительное голодание", "Ацидоз", "Сахарный диабет"],
+      en: ["High-dose B12 intake", "Excess dietary protein", "Liver dysfunction", "Reduced renal excretory function", "Heavy physical exertion", "Prolonged fasting", "Acidosis", "Diabetes mellitus"]
+    },
+    low: {
+      uz: ["Ratsionda oqsil tanqisligi", "Buyrak va ichakning giperfunksiyasi", "Jigarda hosil bo'lish jarayoni buzilishi", "Homiladorlik"],
+      ru: ["Дефицит белка в рационе", "Гиперфункциональность почек и кишечника", "Нарушение процесса образования в печени", "Беременность"],
+      en: ["Dietary protein deficiency", "Hyperfunction of kidneys and intestine", "Impaired hepatic synthesis", "Pregnancy"]
+    },
+    note: { uz: "Doimiy yuqori siydik kislotasi podagra (bo'g'imlar yallig'lanishi) va siydik yo'llarida urat toshlari hosil bo'lishiga sabab bo'lishi mumkin.", ru: "Постоянно повышенный уровень мочевой кислоты может вызывать подагру (воспаление суставов) и образование уратных камней в мочевыделительной системе.", en: "Persistently high uric acid can cause gout (joint inflammation) and urate stone formation in the urinary tract." }
+  },
+
+  // ─────────── Uglevod almashinuvi ───────────
+  {
+    id: "glu", cat: "carb", abbr: "GLU",
+    name: { uz: "Glyukoza (och qoringa)", ru: "Глюкоза (натощак)", en: "Glucose (fasting)" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["1–5 yosh", "3,3–5"], ["5 yoshdan katta va kattalar", "3,9–5,5"]],
+      ru: [["дети 1–5 лет", "3,3–5"], ["от 5 лет и взрослые", "3,9–5,5"]],
+      en: [["1–5 yrs", "3.3–5"], ["over 5 yrs and adults", "3.9–5.5"]]
+    },
+    optimum: { uz: "4,6–4,8 mmol/l", ru: "4,6–4,8 ммоль/л", en: "4.6–4.8 mmol/L" },
+    high: {
+      uz: ["5,6 dan yuqori — giperglikemiya", "Homiladorlik"],
+      ru: ["Выше 5,6 — гипергликемия", "Беременность"],
+      en: ["Above 5.6 — hyperglycemia", "Pregnancy"]
+    },
+    low: {
+      uz: ["3,9 dan past — gipoglikemiya"],
+      ru: ["Ниже 3,9 — гипогликемия"],
+      en: ["Below 3.9 — hypoglycemia"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "hba1c", cat: "carb", abbr: "HbA1c",
+    name: { uz: "Glikatsiyalangan gemoglobin", ru: "Гликированный гемоглобин", en: "Glycated hemoglobin" },
+    unit: { uz: "%", ru: "%", en: "%" },
+    norms: {
+      uz: [["Barcha yoshlar", "4,6–5,5"]],
+      ru: [["Все возрасты", "4,6–5,5"]],
+      en: [["All ages", "4.6–5.5"]]
+    },
+    optimum: { uz: "5 % dan oshmasligi", ru: "не выше 5 %", en: "not above 5 %" },
+    high: {
+      uz: ["5,5 % dan yuqori — insulinrezistentlik belgisi", "Temir tanqisligi anemiyasida soxta yuqori bo'lishi mumkin (fruktozamin tahlili tavsiya etiladi)"],
+      ru: ["Выше 5,5 % — признак инсулинорезистентности", "Может быть ложно повышен при железодефицитной анемии (рекомендован анализ на фруктозамин)"],
+      en: ["Above 5.5 % — sign of insulin resistance", "May be falsely elevated in iron-deficiency anemia (fructosamine test recommended)"]
+    },
+    low: {
+      uz: ["4,6 % dan past — gipoglikemiya belgisi"],
+      ru: ["Ниже 4,6 % — признак гипогликемии"],
+      en: ["Below 4.6 % — sign of hypoglycemia"]
+    },
+    note: { uz: "Oxirgi 2–3 oydagi o'rtacha qon glyukozasini aks ettiradi.", ru: "Отражает среднее содержание глюкозы в крови за последние 2–3 месяца.", en: "Reflects average blood glucose over the past 2–3 months." }
+  },
+
+  {
+    id: "insulin", cat: "carb", abbr: "INS",
+    name: { uz: "Insulin (och qoringa)", ru: "Инсулин (натощак)", en: "Insulin (fasting)" },
+    unit: { uz: "mkBd/ml", ru: "МкЕд/мл", en: "µIU/mL" },
+    norms: {
+      uz: [["Barcha yoshlar", "2–6"]],
+      ru: [["Все возрасты", "2–6"]],
+      en: [["All ages", "2–6"]]
+    },
+    optimum: { uz: "3–5 mkBd/ml", ru: "3–5 МкЕд/мл", en: "3–5 µIU/mL" },
+    high: {
+      uz: ["6 dan yuqori — insulinrezistentlik ehtimoli, stress ortishi", "Ratsionda uglevod va hayvon oqsillari ortiqchaligi", "Bo'lib-bo'lib ovqatlanish", "Tanqislik: vitamin D/magniy/xrom/vanadiy", "Laktatsiya davri (6,5–7 dan oshmasligi)"],
+      ru: ["Выше 6 — вероятна инсулинорезистентность, повышенный стресс", "Избыток углеводов и животных белков в рационе", "Дробное питание", "Дефицит витамина D/магния/хрома/ванадия", "Период лактации (не выше 6,5–7)"],
+      en: ["Above 6 — likely insulin resistance, increased stress", "Excess dietary carbohydrates and animal protein", "Frequent small meals", "Deficiency of vitamin D/magnesium/chromium/vanadium", "Lactation period (not above 6.5–7)"]
+    },
+    low: {
+      uz: ["2 dan past — insulin ishlab chiqarilishi buzilishi ehtimoli (C-peptid topshiring; past bo'lsa 1-tip diabet tekshiruvi)", "Ketoz holatida bo'lishi mumkin"],
+      ru: ["Ниже 2 — вероятно нарушение производства инсулина (сдать с-пептид; если понижен — обследование на диабет 1 типа)", "Возможно в состоянии кетоза"],
+      en: ["Below 2 — likely impaired insulin production (test C-peptide; if low — evaluate for type 1 diabetes)", "Possible in ketosis"]
+    },
+    note: { uz: "", ru: "", en: "" }
   }
 
 ];
