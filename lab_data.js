@@ -1016,6 +1016,145 @@ const LAB_TESTS = [
       en: ["No clinical significance"]
     },
     note: { uz: "", ru: "", en: "" }
+  },
+
+  // ─────────── Jigar va oshqozonosti bezi ───────────
+  {
+    id: "ast", cat: "liver", abbr: "AST",
+    name: { uz: "Aspartataminotransferaza (AST)", ru: "АСТ", en: "Aspartate aminotransferase" },
+    unit: { uz: "Bd/l", ru: "ме/л", en: "IU/L" },
+    norms: {
+      uz: [["6 kun – 6 oy", "84 dan past"], ["6–12 oy", "89 dan past"], ["1–3 yosh", "56 dan past"], ["4–6 yosh", "39 dan past"], ["7–12 yosh", "38 dan past"], ["13–17 yosh", "35 dan past"], ["Ayollar", "35 dan past"], ["Erkaklar", "41 dan past"]],
+      ru: [["6 дн – 6 мес", "ниже 84"], ["6–12 мес", "ниже 89"], ["1–3 года", "ниже 56"], ["4–6 лет", "ниже 39"], ["7–12 лет", "ниже 38"], ["13–17 лет", "ниже 35"], ["Женщины", "ниже 35"], ["Мужчины", "ниже 41"]],
+      en: [["6 d – 6 mo", "below 84"], ["6–12 mo", "below 89"], ["1–3 yrs", "below 56"], ["4–6 yrs", "below 39"], ["7–12 yrs", "below 38"], ["13–17 yrs", "below 35"], ["Women", "below 35"], ["Men", "below 41"]]
+    },
+    optimum: { uz: "≈30 Bd/l", ru: "≈30 ме/л", en: "≈30 IU/L" },
+    high: {
+      uz: ["Xolestaz", "Pankreatit", "Homiladorlik"],
+      ru: ["Холестаз", "Панкреатит", "Беременность"],
+      en: ["Cholestasis", "Pancreatitis", "Pregnancy"]
+    },
+    low: {
+      uz: ["20 Bd/l dan past — oqsil tanqisligining bilvosita belgisi", "Vitamin B6 yetishmasligi", "Jigar ishidagi muammolar", "Oshqozonosti bezi muammolari"],
+      ru: ["Значение ниже 20 ме/л — косвенный признак дефицита белка", "Недостаток витамина В6", "Проблемы в работе печени", "Проблемы с поджелудочной железой"],
+      en: ["Below 20 IU/L — indirect sign of protein deficiency", "Vitamin B6 deficiency", "Liver problems", "Pancreatic problems"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "alt", cat: "liver", abbr: "ALT",
+    name: { uz: "Alaninaminotransferaza (ALT)", ru: "АЛТ", en: "Alanine aminotransferase" },
+    unit: { uz: "Bd/l", ru: "ме/л", en: "IU/L" },
+    norms: {
+      uz: [["6 kun – 6 oy", "60 dan past"], ["6–12 oy", "57 dan past"], ["1–3 yosh", "39 dan past"], ["4–6 yosh", "29 dan past"], ["7–12 yosh", "37 dan past"], ["13–17 yosh", "26 dan past"], ["Ayollar", "25 dan past"], ["Erkaklar", "33 dan past"]],
+      ru: [["6 дн – 6 мес", "ниже 60"], ["6–12 мес", "ниже 57"], ["1–3 года", "ниже 39"], ["4–6 лет", "ниже 29"], ["7–12 лет", "ниже 37"], ["13–17 лет", "ниже 26"], ["Женщины", "ниже 25"], ["Мужчины", "ниже 33"]],
+      en: [["6 d – 6 mo", "below 60"], ["6–12 mo", "below 57"], ["1–3 yrs", "below 39"], ["4–6 yrs", "below 29"], ["7–12 yrs", "below 37"], ["13–17 yrs", "below 26"], ["Women", "below 25"], ["Men", "below 33"]]
+    },
+    optimum: { uz: "≈20 Bd/l", ru: "≈20 ме/л", en: "≈20 IU/L" },
+    high: {
+      uz: ["Oddiy uglevodlar ortiqchaligi", "Jigar kasalliklari", "Homiladorlik"],
+      ru: ["Избыток простых углеводов", "Заболевания печени", "Беременность"],
+      en: ["Excess simple carbohydrates", "Liver disease", "Pregnancy"]
+    },
+    low: {
+      uz: ["20 Bd/l dan past — oqsil tanqisligining bilvosita belgisi", "Vitamin B6 yetishmasligi", "Jigar ishidagi muammolar", "Oshqozonosti bezi muammolari"],
+      ru: ["Значение ниже 20 ме/л — косвенный признак дефицита белка", "Недостаток витамина В6", "Проблемы в работе печени", "Проблемы с поджелудочной железой"],
+      en: ["Below 20 IU/L — indirect sign of protein deficiency", "Vitamin B6 deficiency", "Liver problems", "Pancreatic problems"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "ast_alt", cat: "liver", abbr: "AST/ALT",
+    name: { uz: "AST/ALT nisbati (de Ritis koeffitsiyenti)", ru: "АСТ/АЛТ (коэффициент де Ритиса)", en: "AST/ALT ratio (De Ritis)" },
+    unit: { uz: "", ru: "", en: "" },
+    norms: {
+      uz: [["Optimum", "1,3–1,6"], ["Norma", "1,5–1,75"]],
+      ru: [["Оптимум", "1,3–1,6"], ["Норма", "1,5–1,75"]],
+      en: [["Optimal", "1.3–1.6"], ["Normal", "1.5–1.75"]]
+    },
+    optimum: { uz: "1,3–1,6 (AST > ALT bo'lishi kerak)", ru: "1,3–1,6 (АСТ должен быть больше АЛТ)", en: "1.3–1.6 (AST should exceed ALT)" },
+    high: {
+      uz: ["2 dan yuqori — yurak shikastlanishi", "AST/ALT > 2 — ratsionда uglevod ortiqchaligi va oqsil tanqisligi"],
+      ru: ["Больше 2 — поражение сердца", "АСТ/АЛТ > 2 — избыток углеводов в рационе и недостаток белка"],
+      en: ["Above 2 — cardiac injury", "AST/ALT > 2 — dietary carbohydrate excess and protein deficiency"]
+    },
+    low: {
+      uz: ["1 dan kam — jigar shikastlanishi", "AST = ALT yoki ALT > AST (norma ichida) — glyukoza, glikatsiyalangan gemoglobin, triglitseridlarni tekshiring"],
+      ru: ["Меньше 1 — поражение печени", "АСТ = АЛТ или АЛТ > АСТ (в пределах нормы) — проверить глюкозу, гликированный гемоглобин, триглицериды"],
+      en: ["Below 1 — liver injury", "AST = ALT or ALT > AST (within range) — check glucose, HbA1c, triglycerides"]
+    },
+    note: { uz: "ALT va AST glyukoza utilizatsiyasi metabolizmi va oqsil almashinuvini ko'rsatadi.", ru: "АЛТ и АСТ показывают метаболизм утилизации глюкозы и белковый обмен.", en: "ALT and AST reflect glucose-utilization metabolism and protein metabolism." }
+  },
+
+  {
+    id: "amyl", cat: "liver", abbr: "AMYL",
+    name: { uz: "Amilaza", ru: "Амилаза", en: "Amylase" },
+    unit: { uz: "Bd/l", ru: "ед/л", en: "U/L" },
+    norms: {
+      uz: [["Alfa-amilaza: 2 yoshgacha", "5–65"], ["Alfa-amilaza: 2 yoshdan katta va kattalar", "25–100"], ["Pankreatik: 1–6 oy", "1–12"], ["Pankreatik: 6–12 oy", "1–23"], ["Pankreatik: 2–18 yosh", "4–31"], ["Pankreatik: kattalar", "25–55"]],
+      ru: [["Альфа-амилаза: дети до 2 лет", "5–65"], ["Альфа-амилаза: после 2 лет и взрослые", "25–100"], ["Панкреатическая: 1–6 мес", "1–12"], ["Панкреатическая: 6–12 мес", "1–23"], ["Панкреатическая: 2–18 лет", "4–31"], ["Панкреатическая: взрослые", "25–55"]],
+      en: [["Alpha-amylase: under 2 yrs", "5–65"], ["Alpha-amylase: over 2 yrs and adults", "25–100"], ["Pancreatic: 1–6 mo", "1–12"], ["Pancreatic: 6–12 mo", "1–23"], ["Pancreatic: 2–18 yrs", "4–31"], ["Pancreatic: adults", "25–55"]]
+    },
+    optimum: { uz: "Alfa-amilaza ≤40, pankreatik ≤30 (kattalar)", ru: "Альфа-амилаза ≤40, панкреатическая ≤30 (взрослые)", en: "Alpha-amylase ≤40, pancreatic ≤30 (adults)" },
+    high: {
+      uz: ["Oshqozonosti bezi ishidagi buzilishlar", "Pankreatit", "Diabet", "Buyrak yetishmovchiligi"],
+      ru: ["Нарушения работы поджелудочной железы", "Панкреатит", "Диабет", "Почечная недостаточность"],
+      en: ["Pancreatic dysfunction", "Pancreatitis", "Diabetes", "Renal failure"]
+    },
+    low: {
+      uz: ["Oshqozonosti bezi ferment faolligi pasayishi", "Yuqori xolesterin"],
+      ru: ["Снижение ферментативной активности поджелудочной железы", "Высокий холестерин"],
+      en: ["Reduced pancreatic enzyme activity", "High cholesterol"]
+    },
+    note: { uz: "Og'ish deb normaning 2 va undan ko'p barobar oshishi hisoblanadi, chunki fermentning fiziologik oshishi mumkin.", ru: "Отклонением считается превышение нормы в 2 и более раз, так как возможно физиологическое повышение фермента.", en: "A deviation is a 2-fold or greater rise above normal, since physiological elevation of the enzyme is possible." }
+  },
+
+  {
+    id: "alp", cat: "liver", abbr: "ALP",
+    name: { uz: "Ishqoriy fosfataza", ru: "Щелочная фосфатаза", en: "Alkaline phosphatase" },
+    unit: { uz: "Bd/l", ru: "ед/л", en: "U/L" },
+    norms: {
+      uz: [["10 kun", "150–380"], ["11 kun – 12 oy", "130–700"], ["1–3 yosh", "350–600"], ["3–9 yosh", "400–700"], ["10–18 yosh", "155–500"], ["Kattalar (37 °C)", "≈98–279"]],
+      ru: [["10 дней", "150–380"], ["11 дней – 12 мес", "130–700"], ["1–3 года", "350–600"], ["3–9 лет", "400–700"], ["10–18 лет", "155–500"], ["Взрослые (37 °C)", "≈98–279"]],
+      en: [["10 days", "150–380"], ["11 d – 12 mo", "130–700"], ["1–3 yrs", "350–600"], ["3–9 yrs", "400–700"], ["10–18 yrs", "155–500"], ["Adults (37 °C)", "≈98–279"]]
+    },
+    optimum: { uz: "Referens chegarasида (yosh bilan pasayadi)", ru: "В пределах референса (с возрастом снижается)", en: "Within reference (decreases with age)" },
+    high: {
+      uz: ["Bolada faol o'sish davri (dinamikada kuzatish tavsiya etiladi)", "Kaltsiy va/yoki fosfor yetishmasligi", "Homiladorlik (2, 3-trimestr)", "Vitamin D dozasi oshishi", "Xolestaz (GGT oshgan bo'ladi)", "Jigar kasalliklari (ALT, AST oshgan bo'ladi)"],
+      ru: ["Период активного роста у ребёнка (рекомендуется смотреть в динамике)", "Нехватка кальция и/или фосфора", "Беременность (2, 3 триместр)", "Передозировка витамина D", "Холестаз (будет повышен ГГТ)", "Заболевания печени (будут повышены АЛТ, АСТ)"],
+      en: ["Active growth period in a child (monitor over time)", "Calcium and/or phosphorus deficiency", "Pregnancy (2nd, 3rd trimester)", "Vitamin D overdose", "Cholestasis (GGT will be elevated)", "Liver disease (ALT, AST will be elevated)"]
+    },
+    low: {
+      uz: ["Sink tanqisligi", "Magniy tanqisligi", "Folat tanqisligi bilan bog'liq anemiya", "Vitamin C dozasi oshishi yoki tanqisligi", "Mis tanqisligi", "Gipotireoz, gipoparatireoz", "Vitamin D tanqisligi (har doim emas)"],
+      ru: ["Дефицит цинка", "Дефицит магния", "Анемия, связанная с дефицитом фолатов", "Передозировка или дефицит витамина С", "Дефицит меди", "Гипотиреоз, гипопаратиреоз", "Дефицит витамина D (не всегда)"],
+      en: ["Zinc deficiency", "Magnesium deficiency", "Folate-deficiency anemia", "Vitamin C overdose or deficiency", "Copper deficiency", "Hypothyroidism, hypoparathyroidism", "Vitamin D deficiency (not always)"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "ggt", cat: "liver", abbr: "GGT",
+    name: { uz: "Gamma-glutamiltransferaza (GGT)", ru: "ГГТ (гамма-глутамилтрансфераза)", en: "Gamma-glutamyl transferase" },
+    unit: { uz: "Bd/l", ru: "ед/л", en: "U/L" },
+    norms: {
+      uz: [["0–6 oy", "200 gacha"], ["6 oy – 1 yosh", "35 gacha"], ["3–6 yosh", "23 gacha"], ["7–12 yosh", "15–17"], ["Qizlar 12–18 yosh", "30 gacha"], ["O'g'illar 12–18 yosh", "45 gacha"], ["Ayollar (18 yoshdan)", "32 gacha"], ["Erkaklar (18 yoshdan)", "50 gacha"]],
+      ru: [["0–6 мес", "до 200"], ["6 мес – 1 г.", "до 35"], ["3–6 лет", "до 23"], ["7–12 лет", "15–17"], ["Ж 12–18 лет", "до 30"], ["М 12–18 лет", "до 45"], ["Женщины (от 18 л.)", "до 32"], ["Мужчины (от 18 л.)", "до 50"]],
+      en: [["0–6 mo", "up to 200"], ["6 mo – 1 yr", "up to 35"], ["3–6 yrs", "up to 23"], ["7–12 yrs", "15–17"], ["Girls 12–18 yrs", "up to 30"], ["Boys 12–18 yrs", "up to 45"], ["Women (from 18 yrs)", "up to 32"], ["Men (from 18 yrs)", "up to 50"]]
+    },
+    optimum: { uz: "15–20 Bd/l", ru: "15–20 ед/л", en: "15–20 U/L" },
+    high: {
+      uz: ["GGT ning boshqa xolestaz markerlarisiz (bilirubin, xolesterin, ishqoriy fosfataza) oshishi — intoksikatsiya belgisi", "O't yo'llari kasalliklari", "Gipertireoz", "Diabet"],
+      ru: ["Повышение ГГТ без повышения других маркеров холестаза (билирубин, холестерин, щелочная фосфатаза) — признак интоксикации", "Заболевания желчевыводящих путей", "Гипертиреоз", "Диабет"],
+      en: ["Rise in GGT without other cholestasis markers (bilirubin, cholesterol, ALP) — sign of intoxication", "Biliary tract disease", "Hyperthyroidism", "Diabetes"]
+    },
+    low: {
+      uz: ["Askorbin kislotasini (vitamin C noorganik shakli) uzoq qabul qilish", "Gipotireoz", "Ba'zi dorilar qabuli"],
+      ru: ["Длительный приём аскорбиновой кислоты (неорганической формы витамина С)", "Гипотиреоз", "Приём некоторых лекарственных препаратов"],
+      en: ["Prolonged use of ascorbic acid (inorganic vitamin C)", "Hypothyroidism", "Use of certain medications"]
+    },
+    note: { uz: "O't turg'unligi va detoksikatsiya jarayonlarini ko'rsatuvchi eng aniq marker.", ru: "Наиболее точный маркер, показывающий застой жёлчи и процессов детоксикации.", en: "The most accurate marker of bile stasis and detoxification processes." }
   }
 
 ];
