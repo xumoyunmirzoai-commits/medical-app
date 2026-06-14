@@ -807,6 +807,215 @@ const LAB_TESTS = [
       en: ["Below 2 — likely impaired insulin production (test C-peptide; if low — evaluate for type 1 diabetes)", "Possible in ketosis"]
     },
     note: { uz: "", ru: "", en: "" }
+  },
+
+  // ─────────── Lipidogramma ───────────
+  {
+    id: "chol_total", cat: "lipid", abbr: "CHOL",
+    name: { uz: "Umumiy xolesterin", ru: "Общий холестерин", en: "Total cholesterol" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["11–12 yosh", "3,12–5,17"], ["12–19 yosh", "3,12–5,43"], ["Kattalar 45 yoshgacha", "3,63–5,2"], ["45 yoshdan keyin", "3,63–6"], ["75–80 yosh", "3,63–7"]],
+      ru: [["дети 11–12 л.", "3,12–5,17"], ["12–19 л.", "3,12–5,43"], ["взрослые до 45 л.", "3,63–5,2"], ["после 45 л.", "3,63–6"], ["75–80 л.", "3,63–7"]],
+      en: [["11–12 yrs", "3.12–5.17"], ["12–19 yrs", "3.12–5.43"], ["adults under 45 yrs", "3.63–5.2"], ["over 45 yrs", "3.63–6"], ["75–80 yrs", "3.63–7"]]
+    },
+    optimum: { uz: "Yoshga mos referens ichida", ru: "В пределах возрастного референса", en: "Within the age-specific reference" },
+    high: {
+      uz: ["Vitamin D tanqisligi", "Yuqori gomotsistein", "Insulinrezistentlik", "Yallig'lanish jarayoni", "Xolestaz", "Gipotireoz", "Omega-3 tanqisligi", "Jinsiy gormonlar tanqisligi", "Homiladorlik"],
+      ru: ["Дефицит витамина D", "Высокий уровень гомоцистеина", "Инсулинорезистентность", "Воспалительный процесс", "Холестаз", "Гипотиреоз", "Дефицит омега-3", "Дефицит половых гормонов", "Беременность"],
+      en: ["Vitamin D deficiency", "High homocysteine", "Insulin resistance", "Inflammatory process", "Cholestasis", "Hypothyroidism", "Omega-3 deficiency", "Sex hormone deficiency", "Pregnancy"]
+    },
+    low: {
+      uz: ["Ratsionda yog' tanqisligi", "Temir tanqisligi anemiyasi", "Gipertireoz", "Oshqozon-ichak kasalliklari (yog' so'rilishi muammosi)", "Genetika", "Marganets tanqisligi (xolesterin sintezida ishtirok etuvchi skvalen kofaktori)"],
+      ru: ["Дефицит жиров в рационе", "Железодефицитная анемия", "Гипертиреоз", "Болезни ЖКТ (проблема усвоения жиров)", "Генетика", "Дефицит марганца (кофактор сквалена в синтезе холестерина)"],
+      en: ["Dietary fat deficiency", "Iron-deficiency anemia", "Hyperthyroidism", "GI disease (fat malabsorption)", "Genetics", "Manganese deficiency (cofactor of squalene in cholesterol synthesis)"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "hdl", cat: "lipid", abbr: "HDL",
+    name: { uz: "Yuqori zichlikdagi lipoproteidlar (YZLP)", ru: "ЛПВП", en: "HDL cholesterol" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["12 yoshgacha bolalar", "0,78–1,68"], ["12–18 yosh", "0,9–1,9"], ["Ayollar", "1,29 dan yuqori"], ["Erkaklar", "1,03 dan yuqori"]],
+      ru: [["дети до 12 л.", "0,78–1,68"], ["12–18 л.", "0,9–1,9"], ["Женщины", "выше 1,29"], ["Мужчины", "выше 1,03"]],
+      en: [["children under 12 yrs", "0.78–1.68"], ["12–18 yrs", "0.9–1.9"], ["Women", "above 1.29"], ["Men", "above 1.03"]]
+    },
+    optimum: { uz: "1,55–1,8 mmol/l", ru: "1,55–1,8 ммоль/л", en: "1.55–1.8 mmol/L" },
+    high: {
+      uz: ["Homiladorlik"],
+      ru: ["Беременность"],
+      en: ["Pregnancy"]
+    },
+    low: {
+      uz: ["Semizlik", "Tseliakiya", "Gipotireoz", "Omega-3 tanqisligi", "Hujayra ichi almashinuvi buzilishi", "(past bo'lsa — umumiy oqsil, albumin, omega-3 indeks topshiring)"],
+      ru: ["Ожирение", "Целиакия", "Гипотиреоз", "Дефицит омега-3", "Нарушение внутриклеточного обмена", "(если понижены — сдать общий белок, альбумин, омега-3 индекс)"],
+      en: ["Obesity", "Celiac disease", "Hypothyroidism", "Omega-3 deficiency", "Impaired intracellular metabolism", "(if low — test total protein, albumin, omega-3 index)"]
+    },
+    note: { uz: "Infarkt va insult xavfini baholash indeksi: umumiy xolesterin/YZLP ≤3 bo'lishi kerak; 3 dan yuqori — xavf omili.", ru: "Индекс оценки рисков инфаркта и инсульта: общий холестерин/ЛПВП должен быть ≤3; выше 3 — фактор риска.", en: "Risk index for heart attack and stroke: total cholesterol/HDL should be ≤3; above 3 is a risk factor." }
+  },
+
+  {
+    id: "ldl", cat: "lipid", abbr: "LDL",
+    name: { uz: "Past zichlikdagi lipoproteidlar (PZLP)", ru: "ЛПНП", en: "LDL cholesterol" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["12 yoshgacha bolalar", "1,55–3,63"], ["Ayollar", "2,6–3,89"], ["Erkaklar", "2,6–3,89"]],
+      ru: [["дети до 12 л.", "1,55–3,63"], ["Женщины", "2,6–3,89"], ["Мужчины", "2,6–3,89"]],
+      en: [["children under 12 yrs", "1.55–3.63"], ["Women", "2.6–3.89"], ["Men", "2.6–3.89"]]
+    },
+    optimum: { uz: "3 dan oshmasligi", ru: "не выше 3", en: "not above 3" },
+    high: {
+      uz: ["Yuqori gomotsistein", "Noratsional ovqatlanish", "Gipotireoz", "Qandli diabet", "Chekish", "Xolestaz", "Jinsiy gormonlar tanqisligi", "Og'iz kontratseptivlari qabuli", "Homiladorlik"],
+      ru: ["Высокий уровень гомоцистеина", "Нерациональное питание", "Гипотиреоз", "Сахарный диабет", "Курение", "Холестаз", "Дефицит половых гормонов", "Приём ОК", "Беременность"],
+      en: ["High homocysteine", "Poor diet", "Hypothyroidism", "Diabetes mellitus", "Smoking", "Cholestasis", "Sex hormone deficiency", "Oral contraceptive use", "Pregnancy"]
+    },
+    low: {
+      uz: ["Yog'lar so'rilishi buzilishi", "Ratsionda yog' tanqisligi"],
+      ru: ["Нарушения всасывания жиров", "Дефицит жиров в рационе"],
+      en: ["Fat malabsorption", "Dietary fat deficiency"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "vldl", cat: "lipid", abbr: "VLDL",
+    name: { uz: "Juda past zichlikdagi lipoproteidlar (JPZLP)", ru: "ЛПОНП", en: "VLDL cholesterol" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["Barcha yoshlar", "0,5 dan kam"]],
+      ru: [["Все возрасты", "менее 0,5"]],
+      en: [["All ages", "less than 0.5"]]
+    },
+    optimum: { uz: "0,5 dan kam", ru: "менее 0,5", en: "less than 0.5" },
+    high: {
+      uz: ["PZLP (LDL) ko'rsatkichlariga qarang"],
+      ru: ["См. показатели ЛПНП"],
+      en: ["See LDL parameters"]
+    },
+    low: {
+      uz: ["PZLP (LDL) ko'rsatkichlariga qarang"],
+      ru: ["См. показатели ЛПНП"],
+      en: ["See LDL parameters"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "trig", cat: "lipid", abbr: "TRIG",
+    name: { uz: "Triglitseridlar", ru: "Триглицериды", en: "Triglycerides" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["0–1 yosh", "0,2–0,86"], ["1 yoshdan katta va kattalar", "0,41–1,0"]],
+      ru: [["0–1 год", "0,2–0,86"], ["после 1 г. и взрослые", "0,41–1,0"]],
+      en: [["0–1 yr", "0.2–0.86"], ["over 1 yr and adults", "0.41–1.0"]]
+    },
+    optimum: { uz: "0,7 mmol/l (1 dan oshmasligi)", ru: "0,7 ммоль/л (не выше 1)", en: "0.7 mmol/L (not above 1)" },
+    high: {
+      uz: ["Ratsionda tez uglevodlar ortiqchaligi (glyukoza, glikatsiyalangan gemoglobin, insulin topshiring)"],
+      ru: ["Избыток быстрых углеводов в рационе (сдать глюкозу, гликированный гемоглобин, инсулин)"],
+      en: ["Excess fast carbohydrates in diet (test glucose, HbA1c, insulin)"]
+    },
+    low: {
+      uz: ["0,3 dan past — oqsil tanqisligining bilvosita belgisi", "Yog'lar so'rilishi buzilishi", "Jigar kasalliklari", "Gipertireoz, tireotoksikoz", "Ratsionda yog' tanqisligi"],
+      ru: ["Ниже 0,3 — косвенный признак дефицита белка", "Нарушения всасывания жиров", "Заболевания печени", "Гипертиреоз, тиреотоксикоз", "Дефицит жиров в рационе"],
+      en: ["Below 0.3 — indirect sign of protein deficiency", "Fat malabsorption", "Liver disease", "Hyperthyroidism, thyrotoxicosis", "Dietary fat deficiency"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "catr", cat: "lipid", abbr: "CATR",
+    name: { uz: "Aterogenlik koeffitsiyenti (AK)", ru: "Коэффициент атерогенности (КА)", en: "Atherogenic coefficient" },
+    unit: { uz: "", ru: "", en: "" },
+    norms: {
+      uz: [["Barcha yoshlar", "2–3"]],
+      ru: [["Все возрасты", "2–3"]],
+      en: [["All ages", "2–3"]]
+    },
+    optimum: { uz: "Ayollar 2,2 dan past, erkaklar 2,5 dan past", ru: "Женщины ниже 2,2, мужчины ниже 2,5", en: "Women below 2.2, men below 2.5" },
+    high: {
+      uz: ["Nomutanosib parhez", "Diabet", "Semizlik", "Jigar kasalliklari", "Yuqori arterial bosim"],
+      ru: ["Несбалансированная диета", "Диабет", "Ожирение", "Заболевания печени", "Высокое артериальное давление"],
+      en: ["Unbalanced diet", "Diabetes", "Obesity", "Liver disease", "High blood pressure"]
+    },
+    low: {
+      uz: ["Nomutanosib vegetarian parhez", "Og'ir jismoniy yuklamalar", "Ochlik"],
+      ru: ["Несбалансированная вегетарианская диета", "Тяжёлые физические нагрузки", "Голодание"],
+      en: ["Unbalanced vegetarian diet", "Heavy physical exertion", "Fasting"]
+    },
+    note: { uz: "3–4 — muammolar boshlanishi (parhez va turmush tarzi bilan tuzatiladi); 4 dan yuqori — ateroskleroz/yurak ishemik kasalligi rivojlanishining yuqori xavfi.", ru: "3–4 — начало проблем (корректируется диетой и образом жизни); выше 4 — высокий риск развития атеросклероза/ишемической болезни сердца.", en: "3–4 — onset of problems (correctable with diet and lifestyle); above 4 — high risk of atherosclerosis/coronary heart disease." }
+  },
+
+  // ─────────── Bilirubin va fraksiyalari ───────────
+  {
+    id: "bil_total", cat: "bilirubin", abbr: "BIL-T",
+    name: { uz: "Umumiy bilirubin", ru: "Билирубин общий", en: "Total bilirubin" },
+    unit: { uz: "mkmol/l", ru: "мкмоль/л", en: "µmol/L" },
+    norms: {
+      uz: [["1 oy – 14 yosh", "3,4–13,7"], ["Ayollar", "3,2–17,0"], ["Erkaklar", "3,4–17,1"]],
+      ru: [["1 мес – 14 л.", "3,4–13,7"], ["Женщины", "3,2–17,0"], ["Мужчины", "3,4–17,1"]],
+      en: [["1 mo – 14 yrs", "3.4–13.7"], ["Women", "3.2–17.0"], ["Men", "3.4–17.1"]]
+    },
+    optimum: { uz: "≈10 mkmol/l", ru: "≈10 мкмоль/л", en: "≈10 µmol/L" },
+    high: {
+      uz: ["O't turg'unligi (xolestaz)", "Detoksikatsiyaning 2-fazasi buzilishi (Jilber sindromiga tekshiring)", "Eritrotsitlarning tezlashgan parchalanishi", "Homiladorlik", "O't-tosh kasalligi", "Parazitoz"],
+      ru: ["Застой жёлчи", "Нарушения 2 фазы детоксикации (проверить на синдром Жильбера)", "Ускоренный распад эритроцитов", "Беременность", "Желчекаменная болезнь", "Паразитоз"],
+      en: ["Bile stasis (cholestasis)", "Impaired phase 2 detoxification (check for Gilbert syndrome)", "Accelerated red-cell breakdown", "Pregnancy", "Gallstone disease", "Parasitosis"]
+    },
+    low: {
+      uz: ["Tahlilga noto'g'ri tayyorgarlik", "Oqsil tanqisligi", "Anemiya", "Buyrak yetishmovchiligi"],
+      ru: ["Неправильная подготовка к анализу", "Дефицит белка", "Анемия", "Почечная недостаточность"],
+      en: ["Improper test preparation", "Protein deficiency", "Anemia", "Renal failure"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "bil_direct", cat: "bilirubin", abbr: "D-BIL",
+    name: { uz: "To'g'ri bilirubin", ru: "Билирубин прямой", en: "Direct bilirubin" },
+    unit: { uz: "mkmol/l", ru: "мкмоль/л", en: "µmol/L" },
+    norms: {
+      uz: [["1 oy – 14 yosh", "0,86–3,4"], ["Ayollar", "1,5–4,7"], ["Erkaklar", "1,7–5,1"]],
+      ru: [["1 мес – 14 л.", "0,86–3,4"], ["Женщины", "1,5–4,7"], ["Мужчины", "1,7–5,1"]],
+      en: [["1 mo – 14 yrs", "0.86–3.4"], ["Women", "1.5–4.7"], ["Men", "1.7–5.1"]]
+    },
+    optimum: { uz: "3,4 dan kam (umumiy bilirubinning 20–23% i)", ru: "меньше 3,4 (20–23% от общего билирубина)", en: "less than 3.4 (20–23% of total bilirubin)" },
+    high: {
+      uz: ["Jigar patologiyalari", "Homiladorlik"],
+      ru: ["Патологии печени", "Беременность"],
+      en: ["Liver pathology", "Pregnancy"]
+    },
+    low: {
+      uz: ["Antibiotiklar bilan davolanish", "Glyukokortikosteroidlar qabuli", "Alkogolni suiiste'mol qilish"],
+      ru: ["Лечение антибиотиками", "Приём глюкокортикостероидов", "Злоупотребление алкоголем"],
+      en: ["Antibiotic treatment", "Glucocorticosteroid use", "Alcohol abuse"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "bil_indirect", cat: "bilirubin", abbr: "ID-BIL",
+    name: { uz: "Bilvosita (egri) bilirubin", ru: "Билирубин непрямой", en: "Indirect bilirubin" },
+    unit: { uz: "mkmol/l", ru: "мкмоль/л", en: "µmol/L" },
+    norms: {
+      uz: [["1 oy – 14 yosh", "2,57–10,3"], ["Ayollar", "3,2–12,0"], ["Erkaklar", "3,5–12,5"]],
+      ru: [["1 мес – 14 л.", "2,57–10,3"], ["Женщины", "3,2–12,0"], ["Мужчины", "3,5–12,5"]],
+      en: [["1 mo – 14 yrs", "2.57–10.3"], ["Women", "3.2–12.0"], ["Men", "3.5–12.5"]]
+    },
+    optimum: { uz: "Referens chegarasида", ru: "В пределах референса", en: "Within reference range" },
+    high: {
+      uz: ["Jilber sindromi va boshqa genetik kasalliklar", "Anemiya", "B12 tanqisligi", "Parazitoz", "Xoletsistit, o't pufagi diskineziyasi", "Gemolitik anemiya", "Gepatitlar"],
+      ru: ["Синдром Жильбера и другие генетические заболевания", "Анемия", "Дефицит B12", "Паразитоз", "Холецистит, дискинезия жёлчного пузыря", "Гемолитическая анемия", "Гепатиты"],
+      en: ["Gilbert syndrome and other genetic diseases", "Anemia", "B12 deficiency", "Parasitosis", "Cholecystitis, biliary dyskinesia", "Hemolytic anemia", "Hepatitis"]
+    },
+    low: {
+      uz: ["Klinik ahamiyatga ega emas"],
+      ru: ["Не имеет клинического значения"],
+      en: ["No clinical significance"]
+    },
+    note: { uz: "", ru: "", en: "" }
   }
 
 ];
