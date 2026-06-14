@@ -22148,6 +22148,1980 @@ const PHARMA_DATA = {
     },
     chiqarish: "Film-coated tablets (R 150 / H 75 / E 275 / Z 400 mg)"
   }
+},
+
+"J02AC18": {
+  uz: {
+    gruppa: "Zamburug'ga qarshi vositalar — imidazol hosilalari (mahalliy)",
+    farmTasir: "Lokal zamburug'ga qarshi",
+    farmakodinamika: `Lulikonazol — imidazol guruhiga mansub mahalliy zamburug'ga qarshi modda. Ergosterol sintezini (lanosterol 14α-demetilaza) inhibilab, zamburug' hujayra membranasi yaxlitligini buzadi. Dermatofitlarga (Trichophyton, Epidermophyton, Microsporum) yuqori faollik ko'rsatadi; uzoq saqlanuvchi ta'siri tufayli qisqa kurslarда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Mahalliy; tizimli so'rilish juda past", tarqalish: "Teri muguz qavatida yuqori konsentratsiya", metabolizm: "Tizimli ahamiyatsiz", chiqarilish: "Mahalliy ta'sir" },
+    korsatmalar: ["Oyoq, tana va chov dermatofitiyasi (tinea pedis, corporis, cruris)", "Pitiriaz (rangli temiratki)"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik"],
+    nojoya: { "Mahalliy": "Qo'llash joyida qichishish, qizarish, achishish (kamdan-kam)" },
+    dozadan: "Mahalliy qo'llashda toksiklik ehtimoli juda past.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar deyarli yo'q"],
+    qollash: { kattalar: "1% krem: zararlangan va atrofdagi sohaga kuniga 1 marta; tinea pedis — 2 hafta, corporis/cruris — 1 hafta.", bolalar: "Shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Krem 1%; eritma 1%"
+  },
+  ru: {
+    gruppa: "Противогрибковые средства — производные имидазола (местные)",
+    farmTasir: "Местное противогрибковое средство",
+    farmakodinamika: `Лулliconazol (лулiconazole) — местный противогрибковый препарат группы имидазола. Ингибирует синтез эргостерола (ланостерол-14α-деметилазу), нарушая целостность мембраны грибковой клетки. Высокоактивен в отношении дерматофитов (Trichophyton, Epidermophyton, Microsporum); благодаря длительному удержанию в коже применяется короткими курсами.`,
+    farmakokinetika: { sorish: "Местно; системное всасывание очень низкое", tarqalish: "Высокая концентрация в роговом слое кожи", metabolizm: "Системно не значим", chiqarilish: "Местное действие" },
+    korsatmalar: ["Дерматофития стоп, тела и паха (tinea pedis, corporis, cruris)", "Отрубевидный (разноцветный) лишай"],
+    qarrshi: ["Гиперчувствительность к компонентам"],
+    nojoya: { "Местные": "Зуд, покраснение, жжение в месте нанесения (редко)" },
+    dozadan: "При местном применении вероятность токсичности крайне низкая.",
+    ozarotasir: ["Клинически значимые взаимодействия практически отсутствуют"],
+    qollash: { kattalar: "Крем 1%: на поражённый участок и вокруг 1 раз в сутки; tinea pedis — 2 недели, corporis/cruris — 1 неделя.", bolalar: "По назначению врача" },
+    chiqarish: "Крем 1%; раствор 1%"
+  },
+  en: {
+    gruppa: "Antifungals — imidazole derivatives (topical)",
+    farmTasir: "Topical antifungal",
+    farmakodinamika: `Luliconazole is a topical imidazole antifungal. It inhibits ergosterol synthesis (lanosterol 14α-demethylase), disrupting fungal cell-membrane integrity. It is highly active against dermatophytes (Trichophyton, Epidermophyton, Microsporum); its long skin retention allows short courses.`,
+    farmakokinetika: { sorish: "Topical; very low systemic absorption", tarqalish: "High concentration in the stratum corneum", metabolizm: "Not systemically relevant", chiqarilish: "Local action" },
+    korsatmalar: ["Tinea pedis, corporis and cruris", "Pityriasis (tinea) versicolor"],
+    qarrshi: ["Hypersensitivity to components"],
+    nojoya: { "Local": "Itching, redness, burning at the application site (rare)" },
+    dozadan: "Toxicity is very unlikely with topical use.",
+    ozarotasir: ["Clinically significant interactions are essentially absent"],
+    qollash: { kattalar: "1% cream: to the affected area and surrounding skin once daily; tinea pedis — 2 weeks, corporis/cruris — 1 week.", bolalar: "As prescribed" },
+    chiqarish: "Cream 1%; solution 1%"
+  }
+},
+
+"J02AX06": {
+  uz: {
+    gruppa: "Tizimli zamburug'ga qarshi vositalar — exinokandinlar",
+    farmTasir: "Fungitsid exinokandin",
+    farmakodinamika: `Anidulafungin — exinokandin guruhidan; zamburug' hujayra devori β-(1,3)-D-glyukan sintazasini noraqobatli inhibilab, osmotik beqarorlik va hujayra lizisiga olib keladi. Candida turlariga (jumladan azolga chidamli shtammlarga) fungitsid faollik ko'rsatadi. O'ziga xosligi — fermentsiz, kimyoviy (sekin biotransformatsiya) yo'l bilan parchalanadi.`,
+    farmakokinetika: { sorish: "Faqat venaga; biokirish 100%", tarqalish: "Plazma oqsillariga ~99% bog'lanadi", metabolizm: "Jigarsiz — qonда sekin kimyoviy degradatsiya (CYP ishtirokisiz)", chiqarilish: "Asosan najas bilan; T½ ~24–26 soat" },
+    korsatmalar: ["Kattalarda invaziv kandidoz va kandidemiya", "Yutqun-qizilo'ngach kandidozi"],
+    qarrshi: ["Anidulafungin yoki boshqa exinokandinlarga yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Infuziya bilan bog'liq (gistamin) reaksiyalar", "Jigar": "Transaminazalar oshishi", "Boshqa": "Diareya, gipokaliemiya, toshma" },
+    dozadan: "Maxsus antidot yo'q; simptomatik davo. Dializ bilan chiqarilmaydi.",
+    ozarotasir: ["Klinik ahamiyatga ega CYP/P-gp o'zaro ta'sirlari kam (jigarsiz metabolizm)"],
+    qollash: { kattalar: "1-kun to'yintiruvchi doza 200 mg IV, keyin 100 mg/sutkada; qizilo'ngач kandidozида 100 mg keyin 50 mg.", bolalar: "Vaznga ko'ra (ma'lumotlar cheklangan)" },
+    chiqarish: "Infuziya eritmasi uchun liofilizat 100 mg (flakon)"
+  },
+  ru: {
+    gruppa: "Системные противогрибковые средства — эхинокандины",
+    farmTasir: "Фунгицидный эхинокандин",
+    farmakodinamika: `Анидулафунгин — эхинокандин; неконкурентно ингибирует β-(1,3)-D-глюкансинтазу клеточной стенки гриба, что приводит к осмотической нестабильности и лизису клетки. Проявляет фунгицидную активность против Candida spp. (включая азолрезистентные штаммы). Особенность — деградирует не ферментативным, а химическим путём (медленная биотрансформация).`,
+    farmakokinetika: { sorish: "Только внутривенно; биодоступность 100%", tarqalish: "Связь с белками плазмы ~99%", metabolizm: "Без участия печени — медленная химическая деградация в крови (без CYP)", chiqarilish: "Преимущественно с калом; T½ ~24–26 ч" },
+    korsatmalar: ["Инвазивный кандидоз и кандидемия у взрослых", "Кандидоз пищевода"],
+    qarrshi: ["Гиперчувствительность к анидулафунгину или другим эхинокандинам"],
+    nojoya: { "Сосудистые": "Инфузионные (гистамин-опосредованные) реакции", "Печень": "Повышение трансаминаз", "Прочее": "Диарея, гипокалиемия, сыпь" },
+    dozadan: "Специфического антидота нет; симптоматическая терапия. Диализом не выводится.",
+    ozarotasir: ["Клинически значимых CYP/P-gp взаимодействий мало (метаболизм без печени)"],
+    qollash: { kattalar: "В 1-й день нагрузочная доза 200 мг в/в, затем 100 мг/сут; при кандидозе пищевода 100 мг затем 50 мг.", bolalar: "По массе тела (данные ограничены)" },
+    chiqarish: "Лиофилизат для раствора для инфузий 100 мг (флакон)"
+  },
+  en: {
+    gruppa: "Systemic antifungals — echinocandins",
+    farmTasir: "Fungicidal echinocandin",
+    farmakodinamika: `Anidulafungin is an echinocandin that noncompetitively inhibits β-(1,3)-D-glucan synthase in the fungal cell wall, causing osmotic instability and cell lysis. It is fungicidal against Candida spp. (including azole-resistant strains). Uniquely, it is degraded by slow chemical (non-enzymatic) biotransformation rather than hepatic metabolism.`,
+    farmakokinetika: { sorish: "Intravenous only; bioavailability 100%", tarqalish: "Plasma protein binding ~99%", metabolizm: "Non-hepatic — slow chemical degradation in blood (CYP-independent)", chiqarilish: "Mainly faecal; T½ ~24–26 h" },
+    korsatmalar: ["Invasive candidiasis and candidaemia in adults", "Oesophageal candidiasis"],
+    qarrshi: ["Hypersensitivity to anidulafungin or other echinocandins"],
+    nojoya: { "Vascular": "Infusion-related (histamine-mediated) reactions", "Liver": "Raised transaminases", "Other": "Diarrhoea, hypokalaemia, rash" },
+    dozadan: "No specific antidote; supportive care. Not dialysable.",
+    ozarotasir: ["Few clinically significant CYP/P-gp interactions (non-hepatic metabolism)"],
+    qollash: { kattalar: "Day 1 loading dose 200 mg IV, then 100 mg/day; for oesophageal candidiasis 100 mg then 50 mg.", bolalar: "Weight-based (limited data)" },
+    chiqarish: "Powder for solution for infusion 100 mg (vial)"
+  }
+},
+
+"J02XD01": {
+  uz: {
+    gruppa: "Antimikrob va antiprotozoy vositalar — nitroimidazollar",
+    farmTasir: "Anaerob bakteriya va sodda jonivorlarga qarshi",
+    farmakodinamika: `Metronidazol — 5-nitroimidazol hosilasi. Anaerob mikroorganizm va sodda jonivorlar hujayrasiga kirib, nitroguruhi tiklanadi va faol metabolitlari mikrob DNK strukturasini buzadi, nuklein kislota sintezini to'xtatadi (bakteritsid/protozootsid ta'sir). Anaeroblar (Bacteroides, Clostridium), Trichomonas, Giardia, Entamoeba va Helicobacter pylori ga faol.`,
+    farmakokinetika: { sorish: "Og'izdan to'liq so'riladi (~80–100%)", tarqalish: "To'qima va suyuqliklarga, jumladan OMS, safro, suyak, abssessga keng o'tadi", metabolizm: "Jigarda oksidlanish va glyukuronlanish", chiqarilish: "Asosan buyrak orqali (siydikni to'q rangga bo'yashi mumkin); T½ ~8 soat" },
+    korsatmalar: ["Anaerob infeksiyalar (intraabdominal, ginekologik, abssesslar)", "Trixomoniaz, gyardioz, amyobiaz", "Helicobacter pylori eradikatsiyasi (kombinatsiyada)", "Psevdomembranoz kolit (C. difficile)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Homiladorlikning 1-trimestri (ehtiyotkorlik)", "Markaziy asab tizimi organik kasalliklari", "Qon kasalliklari"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, metall ta'mi, og'iz qurishi", "Asab": "Bosh og'rig'i, periferik neyropatiya (uzoq qo'llaganда)", "Boshqa": "Leykopeniya, siydik to'qlashishi, alkogol bilan disulfiramsimon reaksiya" },
+    dozadan: "Simptomatik davo; og'ir holatда gemodializ metronidazolni chiqaradi.",
+    ozarotasir: ["Etanol bilan — disulfiramsimon reaksiya (qabul davomida va 48 soat ichida spirtli ichimlik man etiladi)", "Varfarin ta'sirini kuchaytiradi", "Litiy, fenitoin darajasiga ta'sir qiladi"],
+    qollash: { kattalar: "Infeksiyaga qarab 500 mg×2–3 ichга yoki IV; trixomoniaz — 2 g bir marta yoki 500 mg×2, 7 kun.", bolalar: "20–30 mg/kg/sutkada, bo'lib" },
+    chiqarish: "Tabletkalar 250 mg, 500 mg; infuziya eritmasi 500 mg/100 ml; vaginal shamlar/gel"
+  },
+  ru: {
+    gruppa: "Противомикробные и противопротозойные средства — нитроимидазолы",
+    farmTasir: "Средство против анаэробных бактерий и простейших",
+    farmakodinamika: `Метронидазол — производное 5-нитроимидазола. Проникает в клетки анаэробов и простейших, где его нитрогруппа восстанавливается, а активные метаболиты повреждают структуру ДНК микроба и подавляют синтез нуклеиновых кислот (бактерицидное/протоцидное действие). Активен против анаэробов (Bacteroides, Clostridium), Trichomonas, Giardia, Entamoeba и Helicobacter pylori.`,
+    farmakokinetika: { sorish: "Полно всасывается внутрь (~80–100%)", tarqalish: "Широко проникает в ткани и жидкости, включая ликвор, жёлчь, кость, абсцесс", metabolizm: "В печени — окисление и глюкуронирование", chiqarilish: "Преимущественно почками (может окрашивать мочу в тёмный цвет); T½ ~8 ч" },
+    korsatmalar: ["Анаэробные инфекции (интраабдоминальные, гинекологические, абсцессы)", "Трихомониаз, лямблиоз, амёбиаз", "Эрадикация Helicobacter pylori (в комбинации)", "Псевдомембранозный колит (C. difficile)"],
+    qarrshi: ["Гиперчувствительность", "I триместр беременности (осторожно)", "Органические заболевания ЦНС", "Заболевания крови"],
+    nojoya: { "ЖКТ": "Тошнота, металлический привкус, сухость во рту", "Нервная система": "Головная боль, периферическая нейропатия (при длительном применении)", "Прочее": "Лейкопения, потемнение мочи, дисульфирамоподобная реакция с алкоголем" },
+    dozadan: "Симптоматическая терапия; в тяжёлых случаях гемодиализ выводит метронидазол.",
+    ozarotasir: ["С этанолом — дисульфирамоподобная реакция (запрещён алкоголь во время приёма и 48 ч после)", "Усиливает действие варфарина", "Влияет на уровень лития, фенитоина"],
+    qollash: { kattalar: "В зависимости от инфекции 500 мг×2–3 внутрь или в/в; трихомониаз — 2 г однократно или 500 мг×2, 7 дней.", bolalar: "20–30 мг/кг/сут в несколько приёмов" },
+    chiqarish: "Таблетки 250 мг, 500 мг; раствор для инфузий 500 мг/100 мл; вагинальные суппозитории/гель"
+  },
+  en: {
+    gruppa: "Antimicrobial and antiprotozoal agents — nitroimidazoles",
+    farmTasir: "Agent against anaerobic bacteria and protozoa",
+    farmakodinamika: `Metronidazole is a 5-nitroimidazole derivative. It enters anaerobic and protozoal cells where its nitro group is reduced, and the active metabolites damage microbial DNA structure and inhibit nucleic-acid synthesis (bactericidal/protozoacidal). It is active against anaerobes (Bacteroides, Clostridium), Trichomonas, Giardia, Entamoeba and Helicobacter pylori.`,
+    farmakokinetika: { sorish: "Completely absorbed orally (~80–100%)", tarqalish: "Widely distributed into tissues and fluids, including CSF, bile, bone, abscess", metabolizm: "Hepatic — oxidation and glucuronidation", chiqarilish: "Mainly renal (may darken urine); T½ ~8 h" },
+    korsatmalar: ["Anaerobic infections (intra-abdominal, gynaecological, abscesses)", "Trichomoniasis, giardiasis, amoebiasis", "Helicobacter pylori eradication (in combination)", "Pseudomembranous colitis (C. difficile)"],
+    qarrshi: ["Hypersensitivity", "First trimester of pregnancy (caution)", "Organic CNS disease", "Blood disorders"],
+    nojoya: { "GI": "Nausea, metallic taste, dry mouth", "Nervous system": "Headache, peripheral neuropathy (with prolonged use)", "Other": "Leukopenia, darkened urine, disulfiram-like reaction with alcohol" },
+    dozadan: "Supportive care; in severe cases haemodialysis removes metronidazole.",
+    ozarotasir: ["With ethanol — disulfiram-like reaction (avoid alcohol during and for 48 h after)", "Potentiates warfarin", "Affects lithium and phenytoin levels"],
+    qollash: { kattalar: "Per infection 500 mg×2–3 orally or IV; trichomoniasis — 2 g single dose or 500 mg×2 for 7 days.", bolalar: "20–30 mg/kg/day in divided doses" },
+    chiqarish: "Tablets 250 mg, 500 mg; solution for infusion 500 mg/100 mL; vaginal pessaries/gel"
+  }
+},
+
+"J04AB01": {
+  uz: {
+    gruppa: "Sil kasalligiga qarshi vositalar — antibiotiklar (ikkinchi qator)",
+    farmTasir: "Tuberkulostatik (ikkinchi qator)",
+    farmakodinamika: `Sikloserin — keng spektrli antibiotik, D-alanin strukturaviy analogi. Bakteriya hujayra devori sintezida ishtirok etuvchi D-alanin-D-alanin-ligaza va alanin-ratsemaza fermentlarini inhibilab, peptidoglikan hosil bo'lishini buzadi (bakteriostatik). Ko'p dorilarga chidamli sil (MDR-TB) davosida zaxira vosita sifatida ishlatiladi.`,
+    farmakokinetika: { sorish: "Og'izdan yaxshi so'riladi", tarqalish: "To'qima va suyuqliklarga, jumladan OMS ga yaxshi o'tadi", metabolizm: "Qisman jigarda", chiqarilish: "Asosan buyrak orqali o'zgarmagan holda; T½ ~10 soat" },
+    korsatmalar: ["Ko'p dorilarga chidamli o'pka va o'pkadan tashqari sil (kombinatsiyada)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Epilepsiya, depressiya/psixoz, qattiq xavotir", "Og'ir buyrak yetishmovchiligi", "Alkogolizm"],
+    nojoya: { "Asab-ruhiy": "Bosh og'rig'i, tremor, depressiya, psixoz, talvasa (B6 bilan kamaytiriladi)", "Boshqa": "Allergik toshma, periferik neyropatiya" },
+    dozadan: "Talvasaда piridoksin (B6) va diazepam; gemodializ chiqaradi.",
+    ozarotasir: ["Izoniazid, etionamid bilan asab tizimi nojo'yaliklari kuchayadi", "Alkogol talvasa xavfini oshiradi"],
+    qollash: { kattalar: "10–15 mg/kg/sutkada (odatda 500–750 mg) 2 ga bo'lib; B6 bilan birga.", bolalar: "10–20 mg/kg/sutkada" },
+    chiqarish: "Kapsulalar 250 mg"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные средства — антибиотики (второй ряд)",
+    farmTasir: "Туберкулостатик (второй ряд)",
+    farmakodinamika: `Циклосерин — антибиотик широкого спектра, структурный аналог D-аланина. Ингибирует ферменты D-аланин-D-аланин-лигазу и аланинрацемазу, участвующие в синтезе клеточной стенки, нарушая образование пептидогликана (бактериостатическое действие). Применяется как резервное средство при туберкулёзе с множественной лекарственной устойчивостью (МЛУ-ТБ).`,
+    farmakokinetika: { sorish: "Хорошо всасывается внутрь", tarqalish: "Хорошо проникает в ткани и жидкости, включая ликвор", metabolizm: "Частично в печени", chiqarilish: "Преимущественно почками в неизменённом виде; T½ ~10 ч" },
+    korsatmalar: ["Туберкулёз лёгких и внелёгочный с множественной устойчивостью (в комбинации)"],
+    qarrshi: ["Гиперчувствительность", "Эпилепсия, депрессия/психоз, выраженная тревога", "Тяжёлая почечная недостаточность", "Алкоголизм"],
+    nojoya: { "Нейропсихические": "Головная боль, тремор, депрессия, психоз, судороги (снижаются приёмом В6)", "Прочее": "Аллергическая сыпь, периферическая нейропатия" },
+    dozadan: "При судорогах — пиридоксин (В6) и диазепам; выводится гемодиализом.",
+    ozarotasir: ["С изониазидом, этионамидом усиливаются неврологические нежелательные эффекты", "Алкоголь повышает риск судорог"],
+    qollash: { kattalar: "10–15 мг/кг/сут (обычно 500–750 мг) в 2 приёма; вместе с В6.", bolalar: "10–20 мг/кг/сут" },
+    chiqarish: "Капсулы 250 мг"
+  },
+  en: {
+    gruppa: "Antituberculosis agents — antibiotics (second line)",
+    farmTasir: "Tuberculostatic (second line)",
+    farmakodinamika: `Cycloserine is a broad-spectrum antibiotic and a structural analogue of D-alanine. It inhibits D-alanine-D-alanine ligase and alanine racemase involved in cell-wall synthesis, disrupting peptidoglycan formation (bacteriostatic). It is used as a reserve agent in multidrug-resistant tuberculosis (MDR-TB).`,
+    farmakokinetika: { sorish: "Well absorbed orally", tarqalish: "Penetrates tissues and fluids well, including CSF", metabolizm: "Partly hepatic", chiqarilish: "Mainly renal unchanged; T½ ~10 h" },
+    korsatmalar: ["Multidrug-resistant pulmonary and extrapulmonary tuberculosis (in combination)"],
+    qarrshi: ["Hypersensitivity", "Epilepsy, depression/psychosis, severe anxiety", "Severe renal impairment", "Alcoholism"],
+    nojoya: { "Neuropsychiatric": "Headache, tremor, depression, psychosis, seizures (reduced by B6)", "Other": "Allergic rash, peripheral neuropathy" },
+    dozadan: "For seizures — pyridoxine (B6) and diazepam; removed by haemodialysis.",
+    ozarotasir: ["With isoniazid and ethionamide neurological adverse effects increase", "Alcohol raises seizure risk"],
+    qollash: { kattalar: "10–15 mg/kg/day (usually 500–750 mg) in 2 doses; with B6.", bolalar: "10–20 mg/kg/day" },
+    chiqarish: "Capsules 250 mg"
+  }
+},
+
+"J04AB30": {
+  uz: {
+    gruppa: "Sil kasalligiga qarshi vositalar — antibiotiklar (ikkinchi qator)",
+    farmTasir: "Tuberkulostatik polipeptid antibiotik",
+    farmakodinamika: `Kapreomitsin — Streptomyces capreolus dan olingan polipeptid antibiotik. Mikobakteriya ribosomalarида oqsil sintezini buzib bakteriostatik ta'sir ko'rsatadi. Aminoglikozidlarga (streptomitsin, kanamitsin) chidamli shtammlarga faol bo'lishi mumkin; ko'p dorilarga chidamli sil davosида inyeksion zaxira vosita.`,
+    farmakokinetika: { sorish: "Ichakdan so'rilmaydi — faqat parenteral (m/i)", tarqalish: "Hujayradan tashqari suyuqlikда taqsimlanadi", metabolizm: "Amalda metabolizatsiyalanmaydi", chiqarilish: "Asosan buyrak orqali o'zgarmagan holda; T½ ~4–6 soat" },
+    korsatmalar: ["Ko'p dorilarga chidamli o'pka sili (boshqa tuberkulostatiklar bilan birga)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Og'ir buyrak yetishmovchiligi", "Eshitish nervi shikasti", "Ehtiyotkorlik — homiladorlik"],
+    nojoya: { "Buyrak": "Nefrotoksiklik", "Eshituv/muvozanat": "Ototoksiklik (eshitish pasayishi, vestibulyar buzilish)", "Elektrolit": "Gipokaliemiya, gipomagniemiya", "Mahalliy": "Inyeksiya joyida og'riq/infiltrat" },
+    dozadan: "Buyrak va eshitish funksiyasini nazorat qilish; simptomatik davo, gemodializ.",
+    ozarotasir: ["Aminoglikozidlar va halqali diuretiklar (furosemid) bilan oto-/nefrotoksiklik kuchayadi", "Mushak bo'shashtiruvchilar ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "15 mg/kg/sutkada (maks. 1 g) m/i, kuniga 1 marta; keyin haftada 2–3 marta.", bolalar: "15–30 mg/kg/sutkada (maks. 1 g)" },
+    chiqarish: "Inyeksiya uchun liofilizat 1 g (flakon)"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные средства — антибиотики (второй ряд)",
+    farmTasir: "Туберкулостатический полипептидный антибиотик",
+    farmakodinamika: `Капреомицин — полипептидный антибиотик из Streptomyces capreolus. Нарушает синтез белка на рибосомах микобактерий, оказывая бактериостатическое действие. Может быть активен в отношении штаммов, устойчивых к аминогликозидам (стрептомицин, канамицин); инъекционное резервное средство при МЛУ-ТБ.`,
+    farmakokinetika: { sorish: "Не всасывается из кишечника — только парентерально (в/м)", tarqalish: "Распределяется во внеклеточной жидкости", metabolizm: "Практически не метаболизируется", chiqarilish: "Преимущественно почками в неизменённом виде; T½ ~4–6 ч" },
+    korsatmalar: ["Туберкулёз лёгких с множественной устойчивостью (в комбинации с другими туберкулостатиками)"],
+    qarrshi: ["Гиперчувствительность", "Тяжёлая почечная недостаточность", "Поражение слухового нерва", "Осторожно — беременность"],
+    nojoya: { "Почки": "Нефротоксичность", "Слух/равновесие": "Ототоксичность (снижение слуха, вестибулярные нарушения)", "Электролиты": "Гипокалиемия, гипомагниемия", "Местные": "Боль/инфильтрат в месте инъекции" },
+    dozadan: "Контроль функции почек и слуха; симптоматическая терапия, гемодиализ.",
+    ozarotasir: ["С аминогликозидами и петлевыми диуретиками (фуросемид) усиливается ото-/нефротоксичность", "Усиливает действие миорелаксантов"],
+    qollash: { kattalar: "15 мг/кг/сут (макс. 1 г) в/м 1 раз в сутки; затем 2–3 раза в неделю.", bolalar: "15–30 мг/кг/сут (макс. 1 г)" },
+    chiqarish: "Лиофилизат для инъекций 1 г (флакон)"
+  },
+  en: {
+    gruppa: "Antituberculosis agents — antibiotics (second line)",
+    farmTasir: "Tuberculostatic polypeptide antibiotic",
+    farmakodinamika: `Capreomycin is a polypeptide antibiotic from Streptomyces capreolus. It disrupts protein synthesis on mycobacterial ribosomes, giving a bacteriostatic effect. It may be active against strains resistant to aminoglycosides (streptomycin, kanamycin); an injectable reserve agent in MDR-TB.`,
+    farmakokinetika: { sorish: "Not absorbed from the gut — parenteral only (IM)", tarqalish: "Distributed in extracellular fluid", metabolizm: "Essentially not metabolised", chiqarilish: "Mainly renal unchanged; T½ ~4–6 h" },
+    korsatmalar: ["Multidrug-resistant pulmonary tuberculosis (with other tuberculostatics)"],
+    qarrshi: ["Hypersensitivity", "Severe renal impairment", "Auditory nerve damage", "Caution — pregnancy"],
+    nojoya: { "Renal": "Nephrotoxicity", "Hearing/balance": "Ototoxicity (hearing loss, vestibular disturbance)", "Electrolytes": "Hypokalaemia, hypomagnesaemia", "Local": "Injection-site pain/infiltrate" },
+    dozadan: "Monitor renal and auditory function; supportive care, haemodialysis.",
+    ozarotasir: ["With aminoglycosides and loop diuretics (furosemide) oto-/nephrotoxicity increases", "Potentiates neuromuscular blockers"],
+    qollash: { kattalar: "15 mg/kg/day (max 1 g) IM once daily; then 2–3 times weekly.", bolalar: "15–30 mg/kg/day (max 1 g)" },
+    chiqarish: "Powder for injection 1 g (vial)"
+  }
+},
+
+"J04AD01": {
+  uz: {
+    gruppa: "Sil kasalligiga qarshi vositalar — tioamid hosilalari",
+    farmTasir: "Tuberkulostatik (ikkinchi qator)",
+    farmakodinamika: `Protionamid — izonikotin kislota tioamid hosilasi (etionamidga yaqin). Mikobakteriyada mikol kislotalari sintezini buzib, hujayra devori shakllanishini to'xtatadi (bakteriostatik, yuqori konsentratsiyada bakteritsid). Ko'p dorilarga chidamli sil davosida ikkinchi qator vosita.`,
+    farmakokinetika: { sorish: "Og'izdan yaxshi so'riladi", tarqalish: "To'qimalarga, jumladan OMS ga keng o'tadi", metabolizm: "Jigarda faol va nofaol metabolitlarga", chiqarilish: "Asosan buyrak orqali; T½ ~2 soat" },
+    korsatmalar: ["Ko'p dorilarga chidamli o'pka va o'pkadan tashqari sil (kombinatsiyada)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Og'ir jigar yetishmovchiligi", "Homiladorlik", "Alkogolizm"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, qusish, ishtaha pasayishi, metall ta'mi", "Jigar": "Gepatotoksiklik, transaminazalar oshishi", "Boshqa": "Periferik neyropatiya (B6 bilan kamaytiriladi), gipotireoz, gipoglikemiya" },
+    dozadan: "Simptomatik davo; jigar funksiyasi nazorati, piridoksin.",
+    ozarotasir: ["Izoniazid, sikloserin bilan asab tizimi nojo'yaliklari kuchayadi", "Boshqa gepatotoksik dorilar bilan jigar zararlanishi ortadi"],
+    qollash: { kattalar: "15–20 mg/kg/sutkada (odatda 500–750 mg) 1–3 ga bo'lib; B6 bilan.", bolalar: "15–20 mg/kg/sutkada" },
+    chiqarish: "Tabletkalar (qoplamali) 250 mg"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные средства — производные тиоамида",
+    farmTasir: "Туберкулостатик (второй ряд)",
+    farmakodinamika: `Протионамид — тиоамидное производное изоникотиновой кислоты (близок к этионамиду). Нарушает синтез миколовых кислот в микобактерии, подавляя образование клеточной стенки (бактериостатическое, в высоких концентрациях бактерицидное действие). Средство второго ряда при МЛУ-ТБ.`,
+    farmakokinetika: { sorish: "Хорошо всасывается внутрь", tarqalish: "Широко проникает в ткани, включая ликвор", metabolizm: "В печени до активных и неактивных метаболитов", chiqarilish: "Преимущественно почками; T½ ~2 ч" },
+    korsatmalar: ["Туберкулёз лёгких и внелёгочный с множественной устойчивостью (в комбинации)"],
+    qarrshi: ["Гиперчувствительность", "Тяжёлая печёночная недостаточность", "Беременность", "Алкоголизм"],
+    nojoya: { "ЖКТ": "Тошнота, рвота, снижение аппетита, металлический привкус", "Печень": "Гепатотоксичность, повышение трансаминаз", "Прочее": "Периферическая нейропатия (снижается В6), гипотиреоз, гипогликемия" },
+    dozadan: "Симптоматическая терапия; контроль функции печени, пиридоксин.",
+    ozarotasir: ["С изониазидом, циклосерином усиливаются неврологические эффекты", "С другими гепатотоксичными препаратами возрастает поражение печени"],
+    qollash: { kattalar: "15–20 мг/кг/сут (обычно 500–750 мг) в 1–3 приёма; с В6.", bolalar: "15–20 мг/кг/сут" },
+    chiqarish: "Таблетки (покрытые) 250 мг"
+  },
+  en: {
+    gruppa: "Antituberculosis agents — thioamide derivatives",
+    farmTasir: "Tuberculostatic (second line)",
+    farmakodinamika: `Protionamide (prothionamide) is a thioamide derivative of isonicotinic acid (close to ethionamide). It disrupts mycolic-acid synthesis in mycobacteria, inhibiting cell-wall formation (bacteriostatic; bactericidal at high concentrations). A second-line agent in MDR-TB.`,
+    farmakokinetika: { sorish: "Well absorbed orally", tarqalish: "Widely distributed into tissues, including CSF", metabolizm: "Hepatic to active and inactive metabolites", chiqarilish: "Mainly renal; T½ ~2 h" },
+    korsatmalar: ["Multidrug-resistant pulmonary and extrapulmonary tuberculosis (in combination)"],
+    qarrshi: ["Hypersensitivity", "Severe hepatic impairment", "Pregnancy", "Alcoholism"],
+    nojoya: { "GI": "Nausea, vomiting, anorexia, metallic taste", "Liver": "Hepatotoxicity, raised transaminases", "Other": "Peripheral neuropathy (reduced by B6), hypothyroidism, hypoglycaemia" },
+    dozadan: "Supportive care; monitor liver function, pyridoxine.",
+    ozarotasir: ["With isoniazid and cycloserine neurological effects increase", "With other hepatotoxic drugs liver injury increases"],
+    qollash: { kattalar: "15–20 mg/kg/day (usually 500–750 mg) in 1–3 doses; with B6.", bolalar: "15–20 mg/kg/day" },
+    chiqarish: "Tablets (coated) 250 mg"
+  }
+},
+
+"J04AK06": {
+  uz: {
+    gruppa: "Sil kasalligiga qarshi vositalar — boshqa preparatlar (nitrodigidroimidazooksazol)",
+    farmTasir: "Ko'p dorilarga chidamli silga qarshi",
+    farmakodinamika: `Delamanid — nitro-digidro-imidazooksazol hosilasi. Mikobakteriya hujayra devorining metoksi- va keto-mikol kislotalari sintezini inhibilab, bakteritsid ta'sir ko'rsatadi. Ko'p dorilarga chidamli o'pka sili (MDR-TB) davosida kombinatsiyalangan rejim tarkibida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ovqat bilan so'rilishi ortadi", tarqalish: "Plazma oqsillariga >99% bog'lanadi", metabolizm: "Asosan plazma albumini va CYP3A4 ishtirokida", chiqarilish: "Asosan najas bilan; T½ ~30–38 soat" },
+    korsatmalar: ["Kattalar, o'smir va bolalarda ko'p dorilarga chidamli o'pka sili (kombinatsiyada)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Albuminemiya <2,8 g/dl", "Ehtiyotkorlik — QT uzayishi"],
+    nojoya: { "Yurak": "QT oralig'i uzayishi (EKG nazorati)", "Asab": "Bosh aylanishi, parasteziya, xavotir/uyqusizlik", "Boshqa": "Ko'ngil aynishi, qusish" },
+    dozadan: "Maxsus antidot yo'q; EKG va elektrolitlar nazorati, simptomatik davo.",
+    ozarotasir: ["Kuchli CYP3A4 induktorlari (rifampitsin) konsentratsiyani kamaytiradi", "QT uzaytiruvchi dorilar (ftorxinolonlar, bedakvilin) bilan ehtiyotkorlik"],
+    qollash: { kattalar: "100 mg×2 sutkada, 24 hafta; faqat kombinatsiyada va nazorat ostida.", bolalar: "Vaznga ko'ra mos dozada" },
+    chiqarish: "Tabletkalar 50 mg"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные средства — прочие (нитродигидроимидазооксазол)",
+    farmTasir: "Средство против МЛУ-туберкулёза",
+    farmakodinamika: `Деламанид — производное нитро-дигидро-имидазооксазола. Ингибирует синтез метокси- и кето-миколовых кислот клеточной стенки микобактерий, оказывая бактерицидное действие. Применяется при туберкулёзе лёгких с множественной устойчивостью (МЛУ-ТБ) в составе комбинированной схемы.`,
+    farmakokinetika: { sorish: "Всасывание увеличивается с пищей", tarqalish: "Связь с белками плазмы >99%", metabolizm: "Преимущественно альбумином плазмы и CYP3A4", chiqarilish: "Преимущественно с калом; T½ ~30–38 ч" },
+    korsatmalar: ["Туберкулёз лёгких с множественной устойчивостью у взрослых, подростков и детей (в комбинации)"],
+    qarrshi: ["Гиперчувствительность", "Альбумин <2,8 г/дл", "Осторожно — удлинение QT"],
+    nojoya: { "Сердце": "Удлинение интервала QT (контроль ЭКГ)", "Нервная система": "Головокружение, парестезия, тревога/бессонница", "Прочее": "Тошнота, рвота" },
+    dozadan: "Специфического антидота нет; контроль ЭКГ и электролитов, симптоматическая терапия.",
+    ozarotasir: ["Сильные индукторы CYP3A4 (рифампицин) снижают концентрацию", "Осторожно с препаратами, удлиняющими QT (фторхинолоны, бедаквилин)"],
+    qollash: { kattalar: "100 мг×2 в сутки, 24 недели; только в комбинации и под контролем.", bolalar: "В дозе по массе тела" },
+    chiqarish: "Таблетки 50 мг"
+  },
+  en: {
+    gruppa: "Antituberculosis agents — other (nitro-dihydro-imidazooxazole)",
+    farmTasir: "Agent for MDR tuberculosis",
+    farmakodinamika: `Delamanid is a nitro-dihydro-imidazooxazole derivative. It inhibits synthesis of methoxy- and keto-mycolic acids of the mycobacterial cell wall, giving a bactericidal effect. It is used for multidrug-resistant pulmonary tuberculosis (MDR-TB) within a combination regimen.`,
+    farmakokinetika: { sorish: "Absorption increases with food", tarqalish: "Plasma protein binding >99%", metabolizm: "Mainly by plasma albumin and CYP3A4", chiqarilish: "Mainly faecal; T½ ~30–38 h" },
+    korsatmalar: ["Multidrug-resistant pulmonary tuberculosis in adults, adolescents and children (in combination)"],
+    qarrshi: ["Hypersensitivity", "Albumin <2.8 g/dL", "Caution — QT prolongation"],
+    nojoya: { "Cardiac": "QT prolongation (ECG monitoring)", "Nervous system": "Dizziness, paraesthesia, anxiety/insomnia", "Other": "Nausea, vomiting" },
+    dozadan: "No specific antidote; monitor ECG and electrolytes, supportive care.",
+    ozarotasir: ["Strong CYP3A4 inducers (rifampicin) lower levels", "Caution with QT-prolonging drugs (fluoroquinolones, bedaquiline)"],
+    qollash: { kattalar: "100 mg twice daily for 24 weeks; only in combination and under supervision.", bolalar: "Weight-based dose" },
+    chiqarish: "Tablets 50 mg"
+  }
+},
+
+"J04AK08": {
+  uz: {
+    gruppa: "Sil kasalligiga qarshi vositalar — boshqa preparatlar (nitroimidazooksazin)",
+    farmTasir: "Chidamli silga qarshi (BPaL/BPaLM rejimi)",
+    farmakodinamika: `Pretomanid — nitroimidazooksazin hosilasi. Aerob sharoitда mikol kislotalari sintezini, anaerob (kislorodsiz) sharoitда nitrik oksid hosil qilish orqali ATF nafasini buzadi — shu sababli faol va sokin mikobakteriyalarga ham ta'sir qiladi. Faqat bedakvilin va linezolid (± moksifloksatsin) bilan birga — BPaL/BPaLM rejimida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ovqat bilan so'rilishi ortadi", tarqalish: "Plazma oqsillariga ~86% bog'lanadi", metabolizm: "Bir nechta yo'l, qisman CYP3A4", chiqarilish: "Siydik va najas bilan; T½ ~17 soat" },
+    korsatmalar: ["Keng dorilarga chidamli (XDR) yoki davoga chidamli MDR o'pka sili — bedakvilin va linezolid bilan birga"],
+    qarrshi: ["Yuqori sezuvchanlik", "Faqat tasdiqlangan rejim tarkibida (yakka qo'llanmaydi)"],
+    nojoya: { "Asab": "Periferik neyropatiya (linezolid bilan)", "Jigar": "Gepatotoksiklik, transaminazalar oshishi", "Yurak": "QT uzayishi", "Qon": "Anemiya (linezolid bilan)" },
+    dozadan: "Maxsus antidot yo'q; jigar, EKG va qon ko'rsatkichlari nazorati.",
+    ozarotasir: ["Kuchli CYP3A4 induktorlari (rifampitsin, efavirenz) konsentratsiyani kamaytiradi", "QT uzaytiruvchi vositalar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "200 mg sutkada 1 marta, 26 hafta; bedakvilin + linezolid (± moksifloksatsin) bilan birga.", bolalar: "Xavfsizligi o'rganilmoqda" },
+    chiqarish: "Tabletkalar 200 mg"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные средства — прочие (нитроимидазооксазин)",
+    farmTasir: "Средство против устойчивого туберкулёза (режим BPaL/BPaLM)",
+    farmakodinamika: `Претоманид — производное нитроимидазооксазина. В аэробных условиях нарушает синтез миколовых кислот, в анаэробных (без кислорода) — образование оксида азота и АТФ-дыхание, поэтому действует и на активные, и на покоящиеся микобактерии. Применяется только вместе с бедаквилином и линезолидом (± моксифлоксацин) — в режиме BPaL/BPaLM.`,
+    farmakokinetika: { sorish: "Всасывание увеличивается с пищей", tarqalish: "Связь с белками плазмы ~86%", metabolizm: "Несколько путей, частично CYP3A4", chiqarilish: "С мочой и калом; T½ ~17 ч" },
+    korsatmalar: ["Туберкулёз лёгких с широкой устойчивостью (ШЛУ) или устойчивый к лечению МЛУ — с бедаквилином и линезолидом"],
+    qarrshi: ["Гиперчувствительность", "Только в составе утверждённого режима (не применяется отдельно)"],
+    nojoya: { "Нервы": "Периферическая нейропатия (с линезолидом)", "Печень": "Гепатотоксичность, повышение трансаминаз", "Сердце": "Удлинение QT", "Кровь": "Анемия (с линезолидом)" },
+    dozadan: "Специфического антидота нет; контроль печени, ЭКГ и показателей крови.",
+    ozarotasir: ["Сильные индукторы CYP3A4 (рифампицин, эфавиренз) снижают концентрацию", "Осторожно с препаратами, удлиняющими QT"],
+    qollash: { kattalar: "200 мг 1 раз в сутки, 26 недель; вместе с бедаквилином + линезолидом (± моксифлоксацин).", bolalar: "Безопасность изучается" },
+    chiqarish: "Таблетки 200 мг"
+  },
+  en: {
+    gruppa: "Antituberculosis agents — other (nitroimidazooxazine)",
+    farmTasir: "Agent for resistant tuberculosis (BPaL/BPaLM regimen)",
+    farmakodinamika: `Pretomanid is a nitroimidazooxazine derivative. Under aerobic conditions it inhibits mycolic-acid synthesis; under anaerobic conditions it disrupts ATP respiration via nitric-oxide release — thus acting on both active and dormant mycobacteria. It is used only with bedaquiline and linezolid (± moxifloxacin) — the BPaL/BPaLM regimen.`,
+    farmakokinetika: { sorish: "Absorption increases with food", tarqalish: "Plasma protein binding ~86%", metabolizm: "Multiple pathways, partly CYP3A4", chiqarilish: "Urine and faeces; T½ ~17 h" },
+    korsatmalar: ["Extensively drug-resistant (XDR) or treatment-intolerant MDR pulmonary TB — with bedaquiline and linezolid"],
+    qarrshi: ["Hypersensitivity", "Only as part of the approved regimen (not used alone)"],
+    nojoya: { "Nerves": "Peripheral neuropathy (with linezolid)", "Liver": "Hepatotoxicity, raised transaminases", "Cardiac": "QT prolongation", "Blood": "Anaemia (with linezolid)" },
+    dozadan: "No specific antidote; monitor liver, ECG and blood counts.",
+    ozarotasir: ["Strong CYP3A4 inducers (rifampicin, efavirenz) lower levels", "Caution with QT-prolonging agents"],
+    qollash: { kattalar: "200 mg once daily for 26 weeks; together with bedaquiline + linezolid (± moxifloxacin).", bolalar: "Safety under study" },
+    chiqarish: "Tablets 200 mg"
+  }
+},
+
+"J04AM07": {
+  uz: {
+    gruppa: "Sil kasalligiga qarshi vositalar — kombinatsiyalar",
+    farmTasir: "Sil davosi uchun 3 komponentli kombinatsiya",
+    farmakodinamika: `Rifampitsin + izoniazid + etambutol — uch komponentli barqaror dozali kombinatsiya. Rifampitsin mikobakteriya RNK-polimerazasini, izoniazid mikol kislotalari sintezini, etambutol hujayra devori arabinogalaktan sintezini inhibilaydi. Pirazinamidsiz rejim (masalan, pirazinamid ko'tarilmaganда yoki davom faza uchun) qo'llaniladi; turli mexanizmlar chidamlilikni kamaytiradi.`,
+    farmakokinetika: { sorish: "Og'izdan so'riladi (rifampitsin och qoringa yaxshiroq)", tarqalish: "To'qima va suyuqliklarga keng taqsimlanadi", metabolizm: "Jigarda (rifampitsin — ferment induktori; izoniazid — atsetillanish)", chiqarilish: "Buyrak va jigar (safro) orqali" },
+    korsatmalar: ["O'pka va o'pkadan tashqari sil (davom fazasi yoki pirazinamid mumkin bo'lmaganда)"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik", "Og'ir jigar yetishmovchiligi", "Ko'ruv nervi neyriti (etambutol)"],
+    nojoya: { "Jigar": "Gepatotoksiklik", "Asab/ko'z": "Periferik neyropatiya (izoniazid — B6 bilan oldini olinadi), ko'ruv neyriti (etambutol)", "Boshqa": "Siydik/ter qizg'ish rang (rifampitsin), oshqozon-ichak nojo'yaliklari" },
+    dozadan: "Simptomatik davo; izoniazid uchun piridoksin (B6) antidot; jigar nazorati.",
+    ozarotasir: ["Rifampitsin ko'p dorilar (KOK, antikoagulyantlar, ARV) konsentratsiyasini kamaytiradi", "Izoniazid fenitoin, karbamazepin darajasini oshiradi", "Antatsidlar etambutol so'rilishini kamaytiradi"],
+    qollash: { kattalar: "Tana vazniga ko'ra, och qoringa, sutkada 1 marta; izoniazid bilan B6 tavsiya etiladi.", bolalar: "Bolalar uchun mos nisbatdagi alohida kombinatsiya" },
+    chiqarish: "Plyonka qoplamali tabletkalar (R 150 / H 75 / E 275 mg)"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные средства — комбинации",
+    farmTasir: "Трёхкомпонентная комбинация для лечения туберкулёза",
+    farmakodinamika: `Рифампицин + изониазид + этамбутол — трёхкомпонентная комбинация с фиксированной дозой. Рифампицин ингибирует РНК-полимеразу микобактерий, изониазид — синтез миколовых кислот, этамбутол — синтез арабиногалактана клеточной стенки. Применяется в режиме без пиразинамида (например, при непереносимости пиразинамида или в фазе продолжения); разные механизмы снижают устойчивость.`,
+    farmakokinetika: { sorish: "Всасывается внутрь (рифампицин лучше натощак)", tarqalish: "Широко распределяется в тканях и жидкостях", metabolizm: "В печени (рифампицин — индуктор ферментов; изониазид — ацетилирование)", chiqarilish: "Почками и печенью (желчь)" },
+    korsatmalar: ["Туберкулёз лёгких и внелёгочный (фаза продолжения или при невозможности пиразинамида)"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Тяжёлая печёночная недостаточность", "Неврит зрительного нерва (этамбутол)"],
+    nojoya: { "Печень": "Гепатотоксичность", "Нервы/глаза": "Периферическая нейропатия (изониазид — профилактика В6), неврит зрительного нерва (этамбутол)", "Прочее": "Красноватая окраска мочи/пота (рифампицин), ЖКТ-нарушения" },
+    dozadan: "Симптоматическая терапия; для изониазида антидот — пиридоксин (В6); контроль печени.",
+    ozarotasir: ["Рифампицин снижает концентрацию многих препаратов (КОК, антикоагулянты, АРВ)", "Изониазид повышает уровень фенитоина, карбамазепина", "Антациды снижают всасывание этамбутола"],
+    qollash: { kattalar: "По массе тела, натощак, 1 раз в сутки; с изониазидом рекомендуется В6.", bolalar: "Отдельная детская комбинация с соответствующим соотношением" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой (R 150 / H 75 / E 275 мг)"
+  },
+  en: {
+    gruppa: "Antituberculosis agents — combinations",
+    farmTasir: "Three-drug combination for TB treatment",
+    farmakodinamika: `Rifampicin + isoniazid + ethambutol is a three-drug fixed-dose combination. Rifampicin inhibits mycobacterial RNA polymerase, isoniazid mycolic-acid synthesis, and ethambutol cell-wall arabinogalactan synthesis. It is used in pyrazinamide-free regimens (e.g. pyrazinamide intolerance or the continuation phase); the different mechanisms reduce resistance.`,
+    farmakokinetika: { sorish: "Absorbed orally (rifampicin better fasting)", tarqalish: "Widely distributed in tissues and fluids", metabolizm: "Hepatic (rifampicin an enzyme inducer; isoniazid acetylation)", chiqarilish: "Renal and hepatic (bile)" },
+    korsatmalar: ["Pulmonary and extrapulmonary tuberculosis (continuation phase or when pyrazinamide is unsuitable)"],
+    qarrshi: ["Hypersensitivity to components", "Severe hepatic impairment", "Optic neuritis (ethambutol)"],
+    nojoya: { "Liver": "Hepatotoxicity", "Nerves/eyes": "Peripheral neuropathy (isoniazid — prevented by B6), optic neuritis (ethambutol)", "Other": "Reddish urine/sweat (rifampicin), GI disturbances" },
+    dozadan: "Supportive care; for isoniazid the antidote is pyridoxine (B6); monitor liver.",
+    ozarotasir: ["Rifampicin lowers levels of many drugs (COCs, anticoagulants, ARVs)", "Isoniazid raises phenytoin and carbamazepine levels", "Antacids reduce ethambutol absorption"],
+    qollash: { kattalar: "By body weight, fasting, once daily; B6 recommended with isoniazid.", bolalar: "A separate paediatric combination with appropriate ratios" },
+    chiqarish: "Film-coated tablets (R 150 / H 75 / E 275 mg)"
+  }
+},
+
+"J04BA01": {
+  uz: {
+    gruppa: "Moxov (lepra) va silga qarshi vositalar — fenazin bo'yog'i",
+    farmTasir: "Moxovga qarshi va yallig'lanishga qarshi",
+    farmakodinamika: `Klofazimin — fenazin guruhiga mansub bo'yoq modda. Mikobakteriya DNK siga bog'lanib, replikatsiyasini buzadi va reaktiv kislorod shakllarini hosil qiladi (sekin bakteritsid). Shuningdek yallig'lanishga qarshi (immunomodulator) ta'siri bor. Moxov (lepra) va ko'p dorilarga chidamli sil davosida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Og'izdan o'zgaruvchan so'riladi (ovqat bilan yaxshiroq)", tarqalish: "Yog' to'qimasi va makrofaglarда to'planadi", metabolizm: "Qisman jigarda", chiqarilish: "Asosan najas bilan; T½ juda uzun (~70 kun)" },
+    korsatmalar: ["Moxov (lepra), jumladan multibatsillyar shakl (kombinatsiyada)", "Ko'p dorilarga chidamli sil (rejim tarkibida)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — QT uzayishi, jigar/buyrak yetishmovchiligi"],
+    nojoya: { "Teri": "Teri va shilliq qavatning qizg'ish-jigarrang bo'yalishi (qaytariladigan), quruqlik", "Oshqozon-ichak": "Qorin og'rig'i, diareya (yuqori dozada — ichak kristallari)", "Yurak": "QT uzayishi" },
+    dozadan: "Simptomatik davo; EKG nazorati.",
+    ozarotasir: ["QT uzaytiruvchi dorilar (bedakvilin, ftorxinolonlar) bilan ehtiyotkorlik"],
+    qollash: { kattalar: "Lepra: 50 mg/sutkada + oyiga 300 mg; sil: 100 mg/sutkada (rejimga ko'ra).", bolalar: "Vaznga ko'ra" },
+    chiqarish: "Yumshoq kapsulalar 50 mg, 100 mg"
+  },
+  ru: {
+    gruppa: "Средства против проказы (лепры) и туберкулёза — феназиновый краситель",
+    farmTasir: "Противолепрозное и противовоспалительное средство",
+    farmakodinamika: `Клофазимин — красящее вещество группы феназина. Связывается с ДНК микобактерий, нарушая репликацию, и образует реактивные формы кислорода (медленное бактерицидное действие). Обладает также противовоспалительным (иммуномодулирующим) эффектом. Применяется при лепре и МЛУ-туберкулёзе.`,
+    farmakokinetika: { sorish: "Вариабельное всасывание внутрь (лучше с пищей)", tarqalish: "Накапливается в жировой ткани и макрофагах", metabolizm: "Частично в печени", chiqarilish: "Преимущественно с калом; T½ очень длинный (~70 дней)" },
+    korsatmalar: ["Лепра, в том числе мультибациллярная форма (в комбинации)", "МЛУ-туберкулёз (в составе режима)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — удлинение QT, печёночная/почечная недостаточность"],
+    nojoya: { "Кожа": "Красновато-коричневое окрашивание кожи и слизистых (обратимое), сухость", "ЖКТ": "Боль в животе, диарея (в высоких дозах — кишечные кристаллы)", "Сердце": "Удлинение QT" },
+    dozadan: "Симптоматическая терапия; контроль ЭКГ.",
+    ozarotasir: ["Осторожно с препаратами, удлиняющими QT (бедаквилин, фторхинолоны)"],
+    qollash: { kattalar: "Лепра: 50 мг/сут + 300 мг 1 раз в месяц; туберкулёз: 100 мг/сут (по режиму).", bolalar: "По массе тела" },
+    chiqarish: "Мягкие капсулы 50 мг, 100 мг"
+  },
+  en: {
+    gruppa: "Anti-leprosy and antituberculosis agents — phenazine dye",
+    farmTasir: "Anti-leprosy and anti-inflammatory agent",
+    farmakodinamika: `Clofazimine is a phenazine dye. It binds mycobacterial DNA, disrupting replication, and generates reactive oxygen species (slow bactericidal action). It also has anti-inflammatory (immunomodulatory) effects. Used in leprosy and MDR-tuberculosis.`,
+    farmakokinetika: { sorish: "Variable oral absorption (better with food)", tarqalish: "Accumulates in adipose tissue and macrophages", metabolizm: "Partly hepatic", chiqarilish: "Mainly faecal; very long T½ (~70 days)" },
+    korsatmalar: ["Leprosy, including multibacillary disease (in combination)", "MDR-tuberculosis (as part of a regimen)"],
+    qarrshi: ["Hypersensitivity", "Caution — QT prolongation, hepatic/renal impairment"],
+    nojoya: { "Skin": "Reddish-brown discoloration of skin and mucosa (reversible), dryness", "GI": "Abdominal pain, diarrhoea (at high doses — intestinal crystals)", "Cardiac": "QT prolongation" },
+    dozadan: "Supportive care; ECG monitoring.",
+    ozarotasir: ["Caution with QT-prolonging drugs (bedaquiline, fluoroquinolones)"],
+    qollash: { kattalar: "Leprosy: 50 mg/day + 300 mg once monthly; TB: 100 mg/day (per regimen).", bolalar: "By body weight" },
+    chiqarish: "Soft capsules 50 mg, 100 mg"
+  }
+},
+
+"J04BX": {
+  uz: {
+    gruppa: "Sil kasalligiga qarshi qo'shimcha vositalar — o'simlik (fitopreparat)",
+    farmTasir: "Yordamchi immunomodulyator/gepatoprotektor fitopreparat",
+    farmakodinamika: `Ko'p komponentli o'simlik (Ayurveda an'anasi) preparati (Bauhinia variegata, Tribulus terrestris, Commiphora mukul, Curcuma zedoaria, Boerhavia diffusa, Zingiber officinale, Piper longum, Piper nigrum va boshqalar). Asosiy ta'siri — immunostimullovchi, yallig'lanishga qarshi va jigarni qo'llab-quvvatlovchi; sil davosida asosiy tuberkulostatiklarga yordamchi (adjuvant) sifatida qo'llaniladi. Ta'siri sintetik vositalardek aniq isbotlanmagan, asosiy davo o'rnini bosmaydi.`,
+    farmakokinetika: { sorish: "Ko'p komponentli — aniq farmakokinetika belgilanmagan", tarqalish: "Ma'lumot cheklangan", metabolizm: "Ma'lumot cheklangan", chiqarilish: "Ma'lumot cheklangan" },
+    korsatmalar: ["Sil davosида yordamchi vosita (asosiy tuberkulostatiklar bilan birga), umumiy holatni qo'llab-quvvatlash"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik", "Homiladorlik va laktatsiya (ehtiyotkorlik)"],
+    nojoya: { "Oshqozon-ichak": "Kamdan-kam — dispepsiya", "Allergik": "Toshma, qichishish" },
+    dozadan: "Maxsus ma'lumot yo'q; simptomatik davo.",
+    ozarotasir: ["Aniq o'rganilmagan; asosiy tuberkulostatiklar bilan birga shifokor nazoratida"],
+    qollash: { kattalar: "Ishlab chiqaruvchi ko'rsatmasiga ko'ra (odatda 1–2 tabletka kuniga 2 marta).", bolalar: "Shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Tabletkalar (o'simlik ekstraktlari)"
+  },
+  ru: {
+    gruppa: "Вспомогательные средства при туберкулёзе — растительное (фитопрепарат)",
+    farmTasir: "Вспомогательный иммуномодулятор/гепатопротектор (фитопрепарат)",
+    farmakodinamika: `Многокомпонентный растительный (аюрведический) препарат (Bauhinia variegata, Tribulus terrestris, Commiphora mukul, Curcuma zedoaria, Boerhavia diffusa, Zingiber officinale, Piper longum, Piper nigrum и др.). Основное действие — иммуностимулирующее, противовоспалительное и поддерживающее функцию печени; применяется как вспомогательное (адъювантное) средство к основным туберкулостатикам. Эффективность не доказана столь же строго, как у синтетических средств, и не заменяет основное лечение.`,
+    farmakokinetika: { sorish: "Многокомпонентный — фармакокинетика чётко не определена", tarqalish: "Данные ограничены", metabolizm: "Данные ограничены", chiqarilish: "Данные ограничены" },
+    korsatmalar: ["Вспомогательное средство при лечении туберкулёза (вместе с основными туберкулостатиками), поддержка общего состояния"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Беременность и лактация (осторожно)"],
+    nojoya: { "ЖКТ": "Редко — диспепсия", "Аллергические": "Сыпь, зуд" },
+    dozadan: "Специальных данных нет; симптоматическая терапия.",
+    ozarotasir: ["Чётко не изучены; вместе с основными туберкулостатиками под контролем врача"],
+    qollash: { kattalar: "По указанию производителя (обычно 1–2 таблетки 2 раза в сутки).", bolalar: "По назначению врача" },
+    chiqarish: "Таблетки (растительные экстракты)"
+  },
+  en: {
+    gruppa: "Adjuvant agents in tuberculosis — herbal (phytopreparation)",
+    farmTasir: "Adjuvant immunomodulator/hepatoprotector (herbal)",
+    farmakodinamika: `A multi-component herbal (Ayurvedic) preparation (Bauhinia variegata, Tribulus terrestris, Commiphora mukul, Curcuma zedoaria, Boerhavia diffusa, Zingiber officinale, Piper longum, Piper nigrum and others). Its main actions are immunostimulant, anti-inflammatory and liver-supportive; it is used as an adjuvant to the main tuberculostatics. Efficacy is not as rigorously proven as for synthetic agents and it does not replace primary therapy.`,
+    farmakokinetika: { sorish: "Multi-component — pharmacokinetics not clearly defined", tarqalish: "Limited data", metabolizm: "Limited data", chiqarilish: "Limited data" },
+    korsatmalar: ["Adjuvant in tuberculosis treatment (with the main tuberculostatics), general supportive care"],
+    qarrshi: ["Hypersensitivity to components", "Pregnancy and lactation (caution)"],
+    nojoya: { "GI": "Rarely dyspepsia", "Allergic": "Rash, itching" },
+    dozadan: "No specific data; supportive care.",
+    ozarotasir: ["Not well studied; use with the main tuberculostatics under medical supervision"],
+    qollash: { kattalar: "As directed by the manufacturer (usually 1–2 tablets twice daily).", bolalar: "As prescribed" },
+    chiqarish: "Tablets (herbal extracts)"
+  }
+},
+
+"J05": {
+  uz: {
+    gruppa: "Virusga qarshi vositalar — mahalliy (oksolin)",
+    farmTasir: "Mahalliy virusga qarshi",
+    farmakodinamika: `Oksolin — virusga qarshi mahalliy ta'sir qiluvchi modda (naftalin hosilasi). Virus zarralarini hujayra membranasiga bog'lanishini bloklaydi va ularning hujayra ichiga kirishiga to'sqinlik qiladi, asosan gripp viruslari va oddiy gerpesga nisbatan. Profilaktik maqsadda burun shilliq qavatiga surtiladi.`,
+    farmakokinetika: { sorish: "Mahalliy; burun shilliq qavatidan ~20% so'riladi", tarqalish: "Tizimli to'planmaydi", metabolizm: "Tizimli ahamiyatsiz", chiqarilish: "24 soat ichida buyrak orqali (so'rilgani)" },
+    korsatmalar: ["Gripp va o'tkir respirator virusли infeksiyalar profilaktikasi (epidemik mavsumda)", "Virusли rinit", "Oddiy va o'rab oluvchi temiratki (yordamchi)"],
+    qarrshi: ["Yuqori sezuvchanlik"],
+    nojoya: { "Mahalliy": "Qo'llash joyida qisqa muddatli achishish, burundan ajralma, terining ko'k rangga bo'yalishi (yuviladi)" },
+    dozadan: "Mahalliy; toksiklik ehtimoli juda past.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar aniqlanmagan"],
+    qollash: { kattalar: "0,25% burun malhami: epidemik davrда kuniga 2–3 marta burun ichiga; teriда 1–3% malham.", bolalar: "0,25% burun malhami, shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Burun malhami 0,25%; teri malhami 1%, 3%"
+  },
+  ru: {
+    gruppa: "Противовирусные средства — местные (оксолин)",
+    farmTasir: "Местное противовирусное средство",
+    farmakodinamika: `Оксолин — противовирусное средство местного действия (производное нафталина). Блокирует связывание вирусных частиц с клеточной мембраной и препятствует их проникновению в клетку, преимущественно в отношении вирусов гриппа и простого герпеса. С профилактической целью наносится на слизистую носа.`,
+    farmakokinetika: { sorish: "Местно; со слизистой носа всасывается ~20%", tarqalish: "Системно не накапливается", metabolizm: "Системно не значим", chiqarilish: "В течение 24 ч почками (всосавшаяся часть)" },
+    korsatmalar: ["Профилактика гриппа и ОРВИ (в эпидемический сезон)", "Вирусный ринит", "Простой и опоясывающий лишай (вспомогательно)"],
+    qarrshi: ["Гиперчувствительность"],
+    nojoya: { "Местные": "Кратковременное жжение в месте нанесения, ринорея, синеватое окрашивание кожи (смывается)" },
+    dozadan: "Местно; вероятность токсичности очень низкая.",
+    ozarotasir: ["Клинически значимые взаимодействия не выявлены"],
+    qollash: { kattalar: "0,25% назальная мазь: в эпидсезон 2–3 раза в сутки в нос; на кожу 1–3% мазь.", bolalar: "0,25% назальная мазь по назначению врача" },
+    chiqarish: "Назальная мазь 0,25%; мазь для кожи 1%, 3%"
+  },
+  en: {
+    gruppa: "Antivirals — topical (oxolin)",
+    farmTasir: "Topical antiviral",
+    farmakodinamika: `Oxolin (oxolinic acid as antiviral) is a topical antiviral (naphthalene derivative). It blocks binding of viral particles to the cell membrane and prevents their entry into the cell, mainly against influenza viruses and herpes simplex. It is applied to the nasal mucosa for prophylaxis.`,
+    farmakokinetika: { sorish: "Topical; ~20% absorbed from the nasal mucosa", tarqalish: "No systemic accumulation", metabolizm: "Not systemically relevant", chiqarilish: "Within 24 h renally (absorbed fraction)" },
+    korsatmalar: ["Prophylaxis of influenza and acute respiratory viral infections (epidemic season)", "Viral rhinitis", "Herpes simplex and zoster (adjunctive)"],
+    qarrshi: ["Hypersensitivity"],
+    nojoya: { "Local": "Brief burning at the site, rhinorrhoea, bluish skin staining (washes off)" },
+    dozadan: "Topical; toxicity is very unlikely.",
+    ozarotasir: ["No clinically significant interactions identified"],
+    qollash: { kattalar: "0.25% nasal ointment: in epidemic season 2–3 times daily into the nose; 1–3% ointment on skin.", bolalar: "0.25% nasal ointment as prescribed" },
+    chiqarish: "Nasal ointment 0.25%; skin ointment 1%, 3%"
+  }
+},
+
+"J05AB09": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — nukleozidlar (gerpesga qarshi)",
+    farmTasir: "Gerpesviruslarga qarshi",
+    farmakodinamika: `Famtsiklovir — pensiklovirning og'iz orqali qabul qilinadigan prodorisi. Organizmда tez pensiklovirga aylanadi; virus timidinkinazasi orqali fosforillanib, peniklovir trifosfat virus DNK-polimerazasini inhibilaydi va DNK sintezini to'xtatadi. Herpes simplex (HSV-1, HSV-2) va Varicella zoster viruslariga faol.`,
+    farmakokinetika: { sorish: "Og'izdan yaxshi so'riladi, biokirish ~77%", tarqalish: "To'qimalarga taqsimlanadi, oqsilga past bog'lanadi", metabolizm: "Pensiklovirga aylanadi", chiqarilish: "Asosan buyrak orqali; hujayra ichidagi T½ uzoq" },
+    korsatmalar: ["Oddiy gerpes (labial va genital)", "O'rab oluvchi temiratki (herpes zoster)", "Immun tanqisligi bo'lgan bemorlarda gerpes infeksiyalari"],
+    qarrshi: ["Famtsiklovir yoki pensiklovirga yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Bosh og'rig'i, bosh aylanishi", "Oshqozon-ichak": "Ko'ngil aynishi, diareya", "Boshqa": "Toshma, charchoq" },
+    dozadan: "Simptomatik davo; gemodializ pensiklovirni chiqaradi.",
+    ozarotasir: ["Probenetsid pensiklovir konsentratsiyasini oshirishi mumkin"],
+    qollash: { kattalar: "Herpes zoster: 500 mg×3, 7 kun; genital gerpes residiv: 125 mg×2, 5 kun (buyrak funksiyasiga ko'ra moslanadi).", bolalar: "Xavfsizligi cheklangan o'rganilgan" },
+    chiqarish: "Plyonka qoplamali tabletkalar 125 mg, 250 mg, 500 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — нуклеозиды (против герпеса)",
+    farmTasir: "Средство против вирусов герпеса",
+    farmakodinamika: `Фамцикловир — пероральное пролекарство пенцикловира. В организме быстро превращается в пенцикловир; фосфорилируется вирусной тимидинкиназой, и пенцикловира трифосфат ингибирует ДНК-полимеразу вируса, прекращая синтез ДНК. Активен в отношении Herpes simplex (HSV-1, HSV-2) и Varicella zoster.`,
+    farmakokinetika: { sorish: "Хорошо всасывается внутрь, биодоступность ~77%", tarqalish: "Распределяется в тканях, низкая связь с белками", metabolizm: "Превращается в пенцикловир", chiqarilish: "Преимущественно почками; внутриклеточный T½ длинный" },
+    korsatmalar: ["Простой герпес (лабиальный и генитальный)", "Опоясывающий лишай (herpes zoster)", "Герпетические инфекции у пациентов с иммунодефицитом"],
+    qarrshi: ["Гиперчувствительность к фамцикловиру или пенцикловиру"],
+    nojoya: { "Нервная система": "Головная боль, головокружение", "ЖКТ": "Тошнота, диарея", "Прочее": "Сыпь, утомляемость" },
+    dozadan: "Симптоматическая терапия; гемодиализ выводит пенцикловир.",
+    ozarotasir: ["Пробенецид может повышать концентрацию пенцикловира"],
+    qollash: { kattalar: "Herpes zoster: 500 мг×3, 7 дней; рецидив генитального герпеса: 125 мг×2, 5 дней (коррекция по функции почек).", bolalar: "Безопасность изучена ограниченно" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 125 мг, 250 мг, 500 мг"
+  },
+  en: {
+    gruppa: "Systemic antivirals — nucleosides (anti-herpes)",
+    farmTasir: "Agent against herpes viruses",
+    farmakodinamika: `Famciclovir is an oral prodrug of penciclovir. It is rapidly converted to penciclovir; phosphorylated by viral thymidine kinase, penciclovir triphosphate inhibits viral DNA polymerase and halts DNA synthesis. It is active against Herpes simplex (HSV-1, HSV-2) and Varicella zoster.`,
+    farmakokinetika: { sorish: "Well absorbed orally, bioavailability ~77%", tarqalish: "Distributed into tissues, low protein binding", metabolizm: "Converted to penciclovir", chiqarilish: "Mainly renal; long intracellular T½" },
+    korsatmalar: ["Herpes simplex (labial and genital)", "Herpes zoster (shingles)", "Herpetic infections in immunocompromised patients"],
+    qarrshi: ["Hypersensitivity to famciclovir or penciclovir"],
+    nojoya: { "Nervous system": "Headache, dizziness", "GI": "Nausea, diarrhoea", "Other": "Rash, fatigue" },
+    dozadan: "Supportive care; haemodialysis removes penciclovir.",
+    ozarotasir: ["Probenecid may raise penciclovir levels"],
+    qollash: { kattalar: "Herpes zoster: 500 mg×3 for 7 days; recurrent genital herpes: 125 mg×2 for 5 days (adjust to renal function).", bolalar: "Limited safety data" },
+    chiqarish: "Film-coated tablets 125 mg, 250 mg, 500 mg"
+  }
+},
+
+"J05AB14": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — nukleozidlar (sitomegalovirusga qarshi)",
+    farmTasir: "Sitomegalovirusga (CMV) qarshi",
+    farmakodinamika: `Valgansiklovir — gansiklovirning og'iz orqali qabul qilinadigan L-valil prodorisi. Ichakда va jigarda tez gansiklovirga aylanadi; virus fermenti orqali fosforillanib, gansiklovir trifosfat CMV DNK-polimerazasini inhibilaydi va DNK zanjirini uzadi. Gansiklovirga nisbatan og'izdan biokirishi ancha yuqori.`,
+    farmakokinetika: { sorish: "Ovqat bilan biokirish ~60% (gansiklovirga nisbatan ~10 baravar yuqori)", tarqalish: "To'qimalarga, jumladan ko'z to'riga taqsimlanadi", metabolizm: "Gansiklovirga gidrolizlanadi", chiqarilish: "Asosan buyrak orqali; T½ (gansiklovir) ~4 soat" },
+    korsatmalar: ["OITS yoki immun tanqisligi bo'lgan bemorlarda CMV retiniti davosi", "Organ transplantatsiyasida CMV kasalligi profilaktikasi"],
+    qarrshi: ["Gansiklovir/valgansiklovirga yuqori sezuvchanlik", "Og'ir neytropeniya/trombotsitopeniya", "Homiladorlik va laktatsiya"],
+    nojoya: { "Qon": "Neytropeniya, anemiya, trombotsitopeniya", "Oshqozon-ichak": "Diareya, ko'ngil aynishi", "Boshqa": "Isitma, bosh og'rig'i; potensial teratogenlik va kanserogenlik" },
+    dozadan: "Qon ko'rsatkichlari nazorati; gemodializ gansiklovirni chiqaradi.",
+    ozarotasir: ["Zidovudin bilan gematotoksiklik kuchayadi", "Probenetsid, mikofenolat konsentratsiyani oshiradi", "Buyrak toksik dorilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "CMV retiniti: induksiya 900 mg×2, 21 kun; saqlash 900 mg/sutkada; buyrakка ko'ra moslanadi.", bolalar: "Transplantatsiyada tana yuzasi va buyrak funksiyasiga ko'ra hisoblanadi" },
+    chiqarish: "Plyonka qoplamali tabletkalar 450 mg; og'iz uchun kukun (eritma)"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — нуклеозиды (против ЦМВ)",
+    farmTasir: "Средство против цитомегаловируса (ЦМВ)",
+    farmakodinamika: `Валганцикловир — пероральное L-валиловое пролекарство ганцикловира. В кишечнике и печени быстро превращается в ганцикловир; фосфорилируется вирусным ферментом, и ганцикловира трифосфат ингибирует ДНК-полимеразу ЦМВ, вызывая обрыв цепи ДНК. Пероральная биодоступность значительно выше, чем у ганцикловира.`,
+    farmakokinetika: { sorish: "С пищей биодоступность ~60% (в ~10 раз выше, чем у ганцикловира)", tarqalish: "Распределяется в ткани, включая сетчатку", metabolizm: "Гидролизуется до ганцикловира", chiqarilish: "Преимущественно почками; T½ (ганцикловир) ~4 ч" },
+    korsatmalar: ["Лечение ЦМВ-ретинита у больных СПИДом или с иммунодефицитом", "Профилактика ЦМВ-болезни при трансплантации органов"],
+    qarrshi: ["Гиперчувствительность к ганцикловиру/валганцикловиру", "Тяжёлая нейтропения/тромбоцитопения", "Беременность и лактация"],
+    nojoya: { "Кровь": "Нейтропения, анемия, тромбоцитопения", "ЖКТ": "Диарея, тошнота", "Прочее": "Лихорадка, головная боль; потенциальная тератогенность и канцерогенность" },
+    dozadan: "Контроль показателей крови; гемодиализ выводит ганцикловир.",
+    ozarotasir: ["С зидовудином усиливается гематотоксичность", "Пробенецид, микофенолат повышают концентрацию", "Осторожно с нефротоксичными препаратами"],
+    qollash: { kattalar: "ЦМВ-ретинит: индукция 900 мг×2, 21 день; поддержка 900 мг/сут; коррекция по функции почек.", bolalar: "При трансплантации рассчитывается по площади тела и функции почек" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 450 мг; порошок для приёма внутрь (раствор)"
+  },
+  en: {
+    gruppa: "Systemic antivirals — nucleosides (anti-CMV)",
+    farmTasir: "Agent against cytomegalovirus (CMV)",
+    farmakodinamika: `Valganciclovir is an oral L-valyl prodrug of ganciclovir. It is rapidly converted to ganciclovir in the gut and liver; phosphorylated by a viral enzyme, ganciclovir triphosphate inhibits CMV DNA polymerase and causes DNA chain termination. Oral bioavailability is much higher than ganciclovir's.`,
+    farmakokinetika: { sorish: "With food bioavailability ~60% (~10× higher than ganciclovir)", tarqalish: "Distributed to tissues, including the retina", metabolizm: "Hydrolysed to ganciclovir", chiqarilish: "Mainly renal; T½ (ganciclovir) ~4 h" },
+    korsatmalar: ["Treatment of CMV retinitis in AIDS or immunocompromised patients", "Prophylaxis of CMV disease in organ transplantation"],
+    qarrshi: ["Hypersensitivity to ganciclovir/valganciclovir", "Severe neutropenia/thrombocytopenia", "Pregnancy and lactation"],
+    nojoya: { "Blood": "Neutropenia, anaemia, thrombocytopenia", "GI": "Diarrhoea, nausea", "Other": "Fever, headache; potential teratogenicity and carcinogenicity" },
+    dozadan: "Monitor blood counts; haemodialysis removes ganciclovir.",
+    ozarotasir: ["With zidovudine haematotoxicity increases", "Probenecid and mycophenolate raise levels", "Caution with nephrotoxic drugs"],
+    qollash: { kattalar: "CMV retinitis: induction 900 mg×2 for 21 days; maintenance 900 mg/day; adjust to renal function.", bolalar: "In transplantation, dosed by body surface area and renal function" },
+    chiqarish: "Film-coated tablets 450 mg; powder for oral solution"
+  }
+},
+
+"J05AX17": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — boshqa preparatlar",
+    farmTasir: "Gripp va ORVIga qarshi virusга qarshi",
+    farmakodinamika: `Enisamiy yodid — gripp va boshqa o'tkir respirator virusли infeksiyalarga qarshi vosita. Virusning hujayra ichida ko'payishini bostiradi, interferon induksiyasini kuchaytiradi va yallig'lanishga qarshi ta'sir ko'rsatadi. Gripp A va B viruslarига nisbatan faollik ko'rsatadi; kasallik davomiyligi va og'irligini kamaytirishda qo'llaniladi.`,
+    farmakokinetika: { sorish: "Og'izdan so'riladi", tarqalish: "To'qimalarga taqsimlanadi", metabolizm: "Jigarda", chiqarilish: "Asosan buyrak orqali" },
+    korsatmalar: ["Gripp va o'tkir respirator virusли infeksiyalar davosi va profilaktikasi"],
+    qarrshi: ["Yuqori sezuvchanlik", "Og'ir jigar/buyrak yetishmovchiligi", "Homiladorlik va laktatsiya (ma'lumot cheklangan)"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, epigastriyда noqulaylik", "Allergik": "Toshma, qichishish" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Klinik ahamiyatga ega aniq o'zaro ta'sirlar belgilanmagan"],
+    qollash: { kattalar: "500 mg (250 mg×2 yoki 500 mg×1) sutkada, 5–7 kun (ishlab chiqaruvchi ko'rsatmasiga ko'ra).", bolalar: "Yoshga ko'ra mos dozada" },
+    chiqarish: "Kapsulalar/tabletkalar 250 mg, 500 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — прочие препараты",
+    farmTasir: "Противовирусное средство против гриппа и ОРВИ",
+    farmakodinamika: `Энисамия йодид — средство против гриппа и других острых респираторных вирусных инфекций. Подавляет внутриклеточное размножение вируса, усиливает индукцию интерферона и оказывает противовоспалительное действие. Проявляет активность в отношении вирусов гриппа А и В; применяется для уменьшения длительности и тяжести заболевания.`,
+    farmakokinetika: { sorish: "Всасывается внутрь", tarqalish: "Распределяется в тканях", metabolizm: "В печени", chiqarilish: "Преимущественно почками" },
+    korsatmalar: ["Лечение и профилактика гриппа и острых респираторных вирусных инфекций"],
+    qarrshi: ["Гиперчувствительность", "Тяжёлая печёночная/почечная недостаточность", "Беременность и лактация (данные ограничены)"],
+    nojoya: { "ЖКТ": "Тошнота, дискомфорт в эпигастрии", "Аллергические": "Сыпь, зуд" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Клинически значимые взаимодействия чётко не установлены"],
+    qollash: { kattalar: "500 мг (250 мг×2 или 500 мг×1) в сутки, 5–7 дней (по указанию производителя).", bolalar: "В дозе по возрасту" },
+    chiqarish: "Капсулы/таблетки 250 мг, 500 мг"
+  },
+  en: {
+    gruppa: "Systemic antivirals — other drugs",
+    farmTasir: "Antiviral against influenza and ARVI",
+    farmakodinamika: `Enisamium iodide is an agent against influenza and other acute respiratory viral infections. It suppresses intracellular viral replication, enhances interferon induction and has anti-inflammatory effects. It is active against influenza A and B viruses and is used to reduce the duration and severity of illness.`,
+    farmakokinetika: { sorish: "Absorbed orally", tarqalish: "Distributed into tissues", metabolizm: "Hepatic", chiqarilish: "Mainly renal" },
+    korsatmalar: ["Treatment and prophylaxis of influenza and acute respiratory viral infections"],
+    qarrshi: ["Hypersensitivity", "Severe hepatic/renal impairment", "Pregnancy and lactation (limited data)"],
+    nojoya: { "GI": "Nausea, epigastric discomfort", "Allergic": "Rash, itching" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["No clearly established clinically significant interactions"],
+    qollash: { kattalar: "500 mg (250 mg×2 or 500 mg×1) daily for 5–7 days (per manufacturer).", bolalar: "Age-appropriate dose" },
+    chiqarish: "Capsules/tablets 250 mg, 500 mg"
+  }
+},
+
+"J05AR": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — OIV uchun to'liq rejim (STR)",
+    farmTasir: "OIV infeksiyasiga qarshi yagona tabletkali rejim",
+    farmakodinamika: `Tenofovir dizoproksil + lamivudin + efavirenz — bitta tabletkadagi to'liq antiretrovirus rejim. Tenofovir va lamivudin — teskari transkriptaza ingibitorlari (NtRTI/NRTI), zanjirni uzadi; efavirenz — nonukleozid teskari transkriptaza ingibitori (NNRTI), fermentга to'g'ridan-to'g'ri bog'lanib uни bloklaydi. Uch mexanizm yuqori virusologik nazoratni ta'minlaydi.`,
+    farmakokinetika: { sorish: "Og'izdan so'riladi (efavirenz yog'li ovqat bilan ko'proq so'riladi — kechqurun och qoringa tavsiya etiladi)", tarqalish: "Efavirenz oqsilga >99% bog'lanadi", metabolizm: "Efavirenz CYP2B6/3A4 orqali; tenofovir/lamivudin minimal", chiqarilish: "Tenofovir va lamivudin asosan buyrak orqali" },
+    korsatmalar: ["Kattalar va o'smirlarda OIV-1 infeksiyasi — to'liq rejim sifatida"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik", "Og'ir jigar yetishmovchiligi", "Og'ir buyrak yetishmovchiligi (barqaror doza mos emas)"],
+    nojoya: { "Asab-ruhiy": "Bosh aylanishi, uyqu buzilishi, tushlar, depressiya (efavirenz)", "Buyrak/suyak": "Tenofovir DF ta'siri", "Teri": "Toshma; kamdan-kam — og'ir teri reaksiyalari" },
+    dozadan: "Simptomatik davo; tenofovir/lamivudin gemodializ bilan qisman chiqariladi.",
+    ozarotasir: ["Rifampitsin, karbamazepin samarani pasaytiradi", "Efavirenz ko'p dorilar (metadon, KOK, varfarin) metabolizmiga ta'sir qiladi"],
+    qollash: { kattalar: "1 tabletka (tenofovir DF 300 mg / lamivudin 300 mg / efavirenz 600 mg) kuniga 1 marta, kechqurun.", bolalar: "≥40 kg vaznда kattalar dozasi" },
+    chiqarish: "Plyonka qoplamali tabletkalar 300 mg/300 mg/600 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — полный режим для ВИЧ (STR)",
+    farmTasir: "Однотаблеточный режим против ВИЧ-инфекции",
+    farmakodinamika: `Тенофовира дизопроксил + ламивудин + эфавиренз — полный антиретровирусный режим в одной таблетке. Тенофовир и ламивудин — ингибиторы обратной транскриптазы (НтИОТ/НИОТ), вызывают обрыв цепи; эфавиренз — ненуклеозидный ингибитор обратной транскриптазы (ННИОТ), прямо связывается с ферментом и блокирует его. Три механизма обеспечивают высокий вирусологический контроль.`,
+    farmakokinetika: { sorish: "Внутрь (эфавиренз лучше всасывается с жирной пищей — рекомендуется вечером натощак)", tarqalish: "Эфавиренз связывается с белками >99%", metabolizm: "Эфавиренз через CYP2B6/3A4; тенофовир/ламивудин минимально", chiqarilish: "Тенофовир и ламивудин преимущественно почками" },
+    korsatmalar: ["ВИЧ-1 инфекция у взрослых и подростков — как полный режим"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Тяжёлая печёночная недостаточность", "Тяжёлая почечная недостаточность (фиксированная доза не подходит)"],
+    nojoya: { "Нейропсихические": "Головокружение, нарушения сна, яркие сны, депрессия (эфавиренз)", "Почки/кости": "Влияние тенофовира дизопроксила", "Кожа": "Сыпь; редко — тяжёлые кожные реакции" },
+    dozadan: "Симптоматическая терапия; тенофовир/ламивудин частично выводятся гемодиализом.",
+    ozarotasir: ["Рифампицин, карбамазепин снижают эффективность", "Эфавиренз влияет на метаболизм многих препаратов (метадон, КОК, варфарин)"],
+    qollash: { kattalar: "1 таблетка (тенофовира дизопроксил 300 мг / ламивудин 300 мг / эфавиренз 600 мг) 1 раз в сутки, вечером.", bolalar: "При массе ≥40 кг — доза взрослых" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 300 мг/300 мг/600 мг"
+  },
+  en: {
+    gruppa: "Systemic antivirals — complete HIV regimen (STR)",
+    farmTasir: "Single-tablet regimen for HIV infection",
+    farmakodinamika: `Tenofovir disoproxil + lamivudine + efavirenz is a complete antiretroviral regimen in one tablet. Tenofovir and lamivudine are reverse transcriptase inhibitors (NtRTI/NRTI) causing chain termination; efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI) that binds the enzyme directly and blocks it. The three mechanisms provide strong virologic control.`,
+    farmakokinetika: { sorish: "Oral (efavirenz absorbed more with fatty food — taken at bedtime on an empty stomach)", tarqalish: "Efavirenz is >99% protein bound", metabolizm: "Efavirenz via CYP2B6/3A4; tenofovir/lamivudine minimal", chiqarilish: "Tenofovir and lamivudine mainly renal" },
+    korsatmalar: ["HIV-1 infection in adults and adolescents — as a complete regimen"],
+    qarrshi: ["Hypersensitivity to components", "Severe hepatic impairment", "Severe renal impairment (fixed dose unsuitable)"],
+    nojoya: { "Neuropsychiatric": "Dizziness, sleep disturbance, vivid dreams, depression (efavirenz)", "Renal/bone": "Tenofovir disoproxil effects", "Skin": "Rash; rarely severe skin reactions" },
+    dozadan: "Supportive care; tenofovir/lamivudine partly removed by haemodialysis.",
+    ozarotasir: ["Rifampicin, carbamazepine reduce efficacy", "Efavirenz affects metabolism of many drugs (methadone, COCs, warfarin)"],
+    qollash: { kattalar: "1 tablet (tenofovir disoproxil 300 mg / lamivudine 300 mg / efavirenz 600 mg) once daily at bedtime.", bolalar: "Weight ≥40 kg adult dose" },
+    chiqarish: "Film-coated tablets 300 mg/300 mg/600 mg"
+  }
+},
+
+"J05AX; L03AX": {
+  uz: {
+    gruppa: "Virusga qarshi va immunomodulyator vositalar — o'simlik flavonoidlari",
+    farmTasir: "Virusga qarshi va interferon induktori (fitopreparat)",
+    farmakodinamika: `Yovvoyi g'alladoshlar (Deschampsia caespitosa va Calamagrostis epigeios) o'simlik ekstrakti — bioflavonoidlar majmuasi. Virusли DNK/RNK replikatsiyasini bostiradi, endogen interferon ishlab chiqarilishini rag'batlantiradi va immunomodulyator/antioksidant ta'sir ko'rsatadi. Gerpesviruslar va papillomavirusга qarshi yordamchi davoда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Tashqi/shilliq qavatga qo'llanganда mahalliy; tizimli ma'lumot cheklangan", tarqalish: "Ma'lumot cheklangan", metabolizm: "Ma'lumot cheklangan", chiqarilish: "Ma'lumot cheklangan" },
+    korsatmalar: ["Oddiy va genital gerpes", "Papillomavirus infeksiyasi (kondilomalar)", "Boshqa virusли teri/shilliq qavat kasalliklarида yordamchi davo"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik", "Homiladorlik va laktatsiya (ehtiyotkorlik)"],
+    nojoya: { "Mahalliy": "Qo'llash joyида qisqa muddatli achishish, qizarish", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Maxsus ma'lumot yo'q; simptomatik davo.",
+    ozarotasir: ["Aniq o'rganilmagan"],
+    qollash: { kattalar: "Geldan tashqi/shilliq qavatga kuniga bir necha marta; spray/eritma — ishlab chiqaruvchi ko'rsatmasiga ko'ra.", bolalar: "Shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Gel, spray, tomchi (o'simlik ekstrakti)"
+  },
+  ru: {
+    gruppa: "Противовирусные и иммуномодулирующие средства — растительные флавоноиды",
+    farmTasir: "Противовирусное средство и индуктор интерферона (фитопрепарат)",
+    farmakodinamika: `Экстракт дикорастущих злаков (Deschampsia caespitosa и Calamagrostis epigeios) — комплекс биофлавоноидов. Подавляет репликацию вирусной ДНК/РНК, стимулирует выработку эндогенного интерферона и оказывает иммуномодулирующее/антиоксидантное действие. Применяется во вспомогательной терапии при герпесвирусах и папилломавирусе.`,
+    farmakokinetika: { sorish: "При нанесении на кожу/слизистую — местно; системные данные ограничены", tarqalish: "Данные ограничены", metabolizm: "Данные ограничены", chiqarilish: "Данные ограничены" },
+    korsatmalar: ["Простой и генитальный герпес", "Папилломавирусная инфекция (кондиломы)", "Вспомогательная терапия других вирусных поражений кожи/слизистых"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Беременность и лактация (осторожно)"],
+    nojoya: { "Местные": "Кратковременное жжение, покраснение в месте нанесения", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Специальных данных нет; симптоматическая терапия.",
+    ozarotasir: ["Чётко не изучены"],
+    qollash: { kattalar: "Гель на кожу/слизистую несколько раз в сутки; спрей/раствор — по указанию производителя.", bolalar: "По назначению врача" },
+    chiqarish: "Гель, спрей, капли (растительный экстракт)"
+  },
+  en: {
+    gruppa: "Antiviral and immunomodulatory agents — plant flavonoids",
+    farmTasir: "Antiviral and interferon inducer (herbal)",
+    farmakodinamika: `An extract of wild grasses (Deschampsia caespitosa and Calamagrostis epigeios) — a complex of bioflavonoids. It suppresses viral DNA/RNA replication, stimulates endogenous interferon production and has immunomodulatory/antioxidant effects. Used in adjunctive therapy for herpesviruses and papillomavirus.`,
+    farmakokinetika: { sorish: "Topical on skin/mucosa; systemic data limited", tarqalish: "Limited data", metabolizm: "Limited data", chiqarilish: "Limited data" },
+    korsatmalar: ["Herpes simplex and genital herpes", "Papillomavirus infection (condylomas)", "Adjunctive therapy of other viral skin/mucosal lesions"],
+    qarrshi: ["Hypersensitivity to components", "Pregnancy and lactation (caution)"],
+    nojoya: { "Local": "Brief burning, redness at the application site", "Allergic": "Rash (rare)" },
+    dozadan: "No specific data; supportive care.",
+    ozarotasir: ["Not well studied"],
+    qollash: { kattalar: "Gel to skin/mucosa several times daily; spray/solution per manufacturer.", bolalar: "As prescribed" },
+    chiqarish: "Gel, spray, drops (plant extract)"
+  }
+},
+
+"J05AX, L03A": {
+  uz: {
+    gruppa: "Virusga qarshi va immunomodulyator vositalar — peptid (alloferon)",
+    farmTasir: "Virusga qarshi immunomodulyator peptid",
+    farmakodinamika: `Alloferon — tabiiy oligopeptid (gistidil-glitsil-valil-seril-... -glitsin). Tabiiy killer (NK) hujayralar faolligini va endogen interferon sintezini rag'batlantirib, virusга qarshi immunitetni kuchaytiradi. Gerpesvirus va papillomavirus infeksiyalarida immunomodulyator sifatida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Parenteral (teri ostiga); peptid tez taqsimlanadi", tarqalish: "To'qimalarga o'tadi", metabolizm: "Peptidazalar orqali aminokislotalarga parchalanadi", chiqarilish: "Metabolitlar sifatida" },
+    korsatmalar: ["Residivlanuvchi gerpes infeksiyasi", "Papillomavirus infeksiyasi", "Immun javobni qo'llab-quvvatlash (kompleks davoda)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Autoimmun kasalliklar (ehtiyotkorlik)", "Homiladorlik va laktatsiya"],
+    nojoya: { "Mahalliy": "Inyeksiya joyида qizarish", "Umumiy": "Kamdan-kam — bosh og'rig'i, allergik reaksiya" },
+    dozadan: "Maxsus ma'lumot yo'q; simptomatik davo.",
+    ozarotasir: ["Aniq o'rganilmagan"],
+    qollash: { kattalar: "Teri ostiga 1 mg, kursда bir necha inyeksiya (ishlab chiqaruvchi sxemasiga ko'ra).", bolalar: "Xavfsizligi yetarli o'rganilmagan" },
+    chiqarish: "Inyeksiya eritmasi uchun liofilizat 1 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные и иммуномодулирующие средства — пептид (аллоферон)",
+    farmTasir: "Противовирусный иммуномодулирующий пептид",
+    farmakodinamika: `Аллоферон — природный олигопептид (гистидил-глицил-валил-серил-… -глицин). Стимулирует активность естественных киллеров (NK) и синтез эндогенного интерферона, усиливая противовирусный иммунитет. Применяется как иммуномодулятор при герпесвирусных и папилломавирусных инфекциях.`,
+    farmakokinetika: { sorish: "Парентерально (подкожно); пептид быстро распределяется", tarqalish: "Проникает в ткани", metabolizm: "Расщепляется пептидазами до аминокислот", chiqarilish: "В виде метаболитов" },
+    korsatmalar: ["Рецидивирующая герпетическая инфекция", "Папилломавирусная инфекция", "Поддержка иммунного ответа (в комплексной терапии)"],
+    qarrshi: ["Гиперчувствительность", "Аутоиммунные заболевания (осторожно)", "Беременность и лактация"],
+    nojoya: { "Местные": "Покраснение в месте инъекции", "Общие": "Редко — головная боль, аллергическая реакция" },
+    dozadan: "Специальных данных нет; симптоматическая терапия.",
+    ozarotasir: ["Чётко не изучены"],
+    qollash: { kattalar: "Подкожно 1 мг, несколько инъекций на курс (по схеме производителя).", bolalar: "Безопасность недостаточно изучена" },
+    chiqarish: "Лиофилизат для приготовления раствора для инъекций 1 мг"
+  },
+  en: {
+    gruppa: "Antiviral and immunomodulatory agents — peptide (alloferon)",
+    farmTasir: "Antiviral immunomodulatory peptide",
+    farmakodinamika: `Alloferon is a natural oligopeptide (histidyl-glycyl-valyl-seryl-…-glycine). It stimulates natural killer (NK) cell activity and endogenous interferon synthesis, enhancing antiviral immunity. It is used as an immunomodulator in herpesvirus and papillomavirus infections.`,
+    farmakokinetika: { sorish: "Parenteral (subcutaneous); the peptide distributes rapidly", tarqalish: "Penetrates tissues", metabolizm: "Cleaved by peptidases to amino acids", chiqarilish: "As metabolites" },
+    korsatmalar: ["Recurrent herpes infection", "Papillomavirus infection", "Support of the immune response (in combination therapy)"],
+    qarrshi: ["Hypersensitivity", "Autoimmune disease (caution)", "Pregnancy and lactation"],
+    nojoya: { "Local": "Redness at the injection site", "General": "Rarely headache, allergic reaction" },
+    dozadan: "No specific data; supportive care.",
+    ozarotasir: ["Not well studied"],
+    qollash: { kattalar: "Subcutaneously 1 mg, several injections per course (per manufacturer's schedule).", bolalar: "Safety not adequately established" },
+    chiqarish: "Powder for solution for injection 1 mg"
+  }
+},
+
+"J06AA02": {
+  uz: {
+    gruppa: "Immun zardoblar va antitoksinlar — qoqshol antitoksini",
+    farmTasir: "Passiv immunizatsiya (qoqsholga qarshi)",
+    farmakodinamika: `Qoqshol antitoksini — qoqshol anatoksini bilan immunizatsiya qilingan ot zardobidan olingan tozalangan immunoglobulinlar (geterolog antitoksin). Tayyor antitanalar qonda aylanib yurgan qoqshol toksinini (tetanospazmin) bog'lab zararsizlantiradi (passiv immunitet). Faqat hali asab to'qimasiga bog'lanmagan toksinga ta'sir qiladi.`,
+    farmakokinetika: { sorish: "Parenteral (m/i, og'ir holatда v/i)", tarqalish: "Qon zardobi va to'qimalararo suyuqlikда taqsimlanadi", metabolizm: "Oqsil sifatida parchalanadi", chiqarilish: "Geterolog oqsil ~1–2 hafta ichida chiqariladi" },
+    korsatmalar: ["Qoqsholning shoshilinch profilaktikasi (vaksinatsiya tarixi noma'lum/to'liqmas jarohatda)", "Rivojlangan qoqsholni davolash (kompleksда)"],
+    qarrshi: ["Ot oqsiliga og'ir allergik reaksiya tarixi (qat'iy ehtiyotkorlik; inson immunoglobulini afzal)"],
+    nojoya: { "Allergik": "Anafilaksiya, zardob kasalligi (isitma, toshma, artralgiya)", "Mahalliy": "Inyeksiya joyида og'riq, qizarish" },
+    dozadan: "Anafilaksiyaда adrenalin va shoshilinch yordam; zardobni Bezredka usulida bo'lib yuborish.",
+    ozarotasir: ["Tirik vaksinalar bilan birga immunizatsiya samarasini pasaytirishi mumkin"],
+    qollash: { kattalar: "Profilaktika: 3000 XB m/i (Bezredka usulida sinama bilan); davo: yuqori dozada shifokor nazoratida.", bolalar: "Tana vazni va ko'rsatmaga ko'ra" },
+    chiqarish: "Inyeksiya uchun eritma (ampula, XB da)"
+  },
+  ru: {
+    gruppa: "Иммунные сыворотки и антитоксины — противостолбнячный антитоксин",
+    farmTasir: "Пассивная иммунизация (против столбняка)",
+    farmakodinamika: `Противостолбнячный антитоксин — очищенные иммуноглобулины из сыворотки лошади, иммунизированной столбнячным анатоксином (гетерологичный антитоксин). Готовые антитела связывают и нейтрализуют циркулирующий столбнячный токсин (тетаноспазмин) — пассивный иммунитет. Действует только на токсин, ещё не связавшийся с нервной тканью.`,
+    farmakokinetika: { sorish: "Парентерально (в/м, в тяжёлых случаях в/в)", tarqalish: "Распределяется в сыворотке и межтканевой жидкости", metabolizm: "Расщепляется как белок", chiqarilish: "Гетерологичный белок выводится за ~1–2 недели" },
+    korsatmalar: ["Экстренная профилактика столбняка (при неизвестном/неполном прививочном анамнезе и ранении)", "Лечение развившегося столбняка (в комплексе)"],
+    qarrshi: ["Тяжёлые аллергические реакции на белок лошади в анамнезе (строгая осторожность; предпочтителен человеческий иммуноглобулин)"],
+    nojoya: { "Аллергические": "Анафилаксия, сывороточная болезнь (лихорадка, сыпь, артралгия)", "Местные": "Боль, покраснение в месте инъекции" },
+    dozadan: "При анафилаксии — адреналин и неотложная помощь; сыворотку вводят дробно по Безредке.",
+    ozarotasir: ["Может снижать эффективность одновременной иммунизации живыми вакцинами"],
+    qollash: { kattalar: "Профилактика: 3000 МЕ в/м (с пробой по Безредке); лечение: в высокой дозе под контролем врача.", bolalar: "По массе тела и показаниям" },
+    chiqarish: "Раствор для инъекций (ампулы, в МЕ)"
+  },
+  en: {
+    gruppa: "Immune sera and antitoxins — tetanus antitoxin",
+    farmTasir: "Passive immunization (against tetanus)",
+    farmakodinamika: `Tetanus antitoxin consists of purified immunoglobulins from the serum of a horse immunized with tetanus toxoid (a heterologous antitoxin). The ready-made antibodies bind and neutralize circulating tetanus toxin (tetanospasmin) — passive immunity. It acts only on toxin not yet bound to nervous tissue.`,
+    farmakokinetika: { sorish: "Parenteral (IM; IV in severe cases)", tarqalish: "Distributed in serum and interstitial fluid", metabolizm: "Degraded as a protein", chiqarilish: "Heterologous protein cleared over ~1–2 weeks" },
+    korsatmalar: ["Emergency prophylaxis of tetanus (unknown/incomplete vaccination history with a wound)", "Treatment of established tetanus (as part of management)"],
+    qarrshi: ["History of severe allergy to horse protein (strict caution; human immunoglobulin preferred)"],
+    nojoya: { "Allergic": "Anaphylaxis, serum sickness (fever, rash, arthralgia)", "Local": "Pain, redness at the injection site" },
+    dozadan: "For anaphylaxis — adrenaline and emergency care; give serum in divided doses (Besredka method).",
+    ozarotasir: ["May reduce efficacy of concurrent live-vaccine immunization"],
+    qollash: { kattalar: "Prophylaxis: 3000 IU IM (with a Besredka test dose); treatment: high dose under medical supervision.", bolalar: "By body weight and indication" },
+    chiqarish: "Solution for injection (ampoules, in IU)"
+  }
+},
+
+"J06AA03": {
+  uz: {
+    gruppa: "Immun zardoblar va antitoksinlar — ilon zahriga qarshi zardob",
+    farmTasir: "Passiv immunizatsiya (ilon chaqishiga qarshi)",
+    farmakodinamika: `Ilon (gyurza/koptcha) zahriga qarshi zardob — zahar bilan immunizatsiya qilingan ot zardobidan olingan tozalangan, konsentrlangan antitoksik immunoglobulinlar. Qondagi ilon zaharining toksik komponentlarini (gemotoksin, neyrotoksin, sitotoksin) bog'lab zararsizlantiradi.`,
+    farmakokinetika: { sorish: "Parenteral (m/i, og'ir holatда v/i)", tarqalish: "Qon va to'qimalararo suyuqlikда taqsimlanadi", metabolizm: "Oqsil sifatida parchalanadi", chiqarilish: "Geterolog oqsil sifatida sekin chiqariladi" },
+    korsatmalar: ["Zaharli ilon chaqishida zaharlanish (gyurza va boshqalar) davosi"],
+    qarrshi: ["Ot oqsiliga og'ir allergiya tarixi (zaharlanish og'irligini hisobga olib, hayot ko'rsatmasiga ko'ra ehtiyotkorlik bilan)"],
+    nojoya: { "Allergik": "Anafilaksiya, zardob kasalligi", "Mahalliy": "Inyeksiya joyида reaksiya" },
+    dozadan: "Anafilaksiyaда adrenalin; Bezredka usulida bo'lib yuborish.",
+    ozarotasir: ["Tirik vaksinalar samarasini pasaytirishi mumkin"],
+    qollash: { kattalar: "Zaharlanish og'irligiga ko'ra 500–1500 XB va undan ko'p m/i (sinama bilan), shifokor nazoratida.", bolalar: "Bolaларда doza kattalardagidek (zahar miqdoriga ko'ra)" },
+    chiqarish: "Inyeksiya uchun eritma (ampula, XB da)"
+  },
+  ru: {
+    gruppa: "Иммунные сыворотки и антитоксины — сыворотка против яда змей",
+    farmTasir: "Пассивная иммунизация (против укуса змей)",
+    farmakodinamika: `Сыворотка против яда гадюки (гюрзы) — очищенные концентрированные антитоксические иммуноглобулины из сыворотки лошади, иммунизированной ядом. Связывает и нейтрализует токсические компоненты змеиного яда (гемотоксины, нейротоксины, цитотоксины) в крови.`,
+    farmakokinetika: { sorish: "Парентерально (в/м, в тяжёлых случаях в/в)", tarqalish: "Распределяется в крови и межтканевой жидкости", metabolizm: "Расщепляется как белок", chiqarilish: "Выводится медленно как гетерологичный белок" },
+    korsatmalar: ["Лечение отравления при укусе ядовитых змей (гюрза и др.)"],
+    qarrshi: ["Тяжёлая аллергия на белок лошади в анамнезе (с осторожностью по жизненным показаниям с учётом тяжести отравления)"],
+    nojoya: { "Аллергические": "Анафилаксия, сывороточная болезнь", "Местные": "Реакция в месте инъекции" },
+    dozadan: "При анафилаксии — адреналин; вводят дробно по Безредке.",
+    ozarotasir: ["Может снижать эффективность живых вакцин"],
+    qollash: { kattalar: "В зависимости от тяжести 500–1500 МЕ и более в/м (с пробой), под контролем врача.", bolalar: "Доза как у взрослых (по количеству яда)" },
+    chiqarish: "Раствор для инъекций (ампулы, в МЕ)"
+  },
+  en: {
+    gruppa: "Immune sera and antitoxins — snake antivenom",
+    farmTasir: "Passive immunization (against snakebite)",
+    farmakodinamika: `Snake (viper) antivenom consists of purified, concentrated antitoxic immunoglobulins from the serum of a horse immunized with venom. It binds and neutralizes the toxic components of snake venom (haemotoxins, neurotoxins, cytotoxins) in the blood.`,
+    farmakokinetika: { sorish: "Parenteral (IM; IV in severe cases)", tarqalish: "Distributed in blood and interstitial fluid", metabolizm: "Degraded as a protein", chiqarilish: "Cleared slowly as a heterologous protein" },
+    korsatmalar: ["Treatment of envenomation from venomous snakebite (viper and others)"],
+    qarrshi: ["History of severe allergy to horse protein (cautiously, by vital indication given envenomation severity)"],
+    nojoya: { "Allergic": "Anaphylaxis, serum sickness", "Local": "Injection-site reaction" },
+    dozadan: "For anaphylaxis — adrenaline; give in divided doses (Besredka method).",
+    ozarotasir: ["May reduce efficacy of live vaccines"],
+    qollash: { kattalar: "By severity 500–1500 IU or more IM (with a test dose), under medical supervision.", bolalar: "Same dose as adults (per venom amount)" },
+    chiqarish: "Solution for injection (ampoules, in IU)"
+  }
+},
+
+"J06AA04": {
+  uz: {
+    gruppa: "Immun zardoblar va antitoksinlar — botulizm antitoksini",
+    farmTasir: "Passiv immunizatsiya (botulizmga qarshi)",
+    farmakodinamika: `Botulizm antitoksini — botulizm toksini turlari (A, B, E) bilan immunizatsiya qilingan ot zardobidan olingan tozalangan antitoksik immunoglobulinlar. Qondagi erkin botulotoksinни bog'lab zararsizlantiradi va uning nerv-mushak uchlarига bog'lanishining oldini oladi. Allaqachon bog'langan toksinga ta'sir qilmaydi — shu sababli erta yuborish muhim.`,
+    farmakokinetika: { sorish: "Parenteral (v/i yoki m/i)", tarqalish: "Qon va to'qimalararo suyuqlikда taqsimlanadi", metabolizm: "Oqsil sifatida parchalanadi", chiqarilish: "Geterolog oqsil sifatida chiqariladi" },
+    korsatmalar: ["Botulizmni davolash va shubhada profilaktika (zudlik bilan)"],
+    qarrshi: ["Ot oqsiliga og'ir allergiya tarixi (hayot ko'rsatmasiga ko'ra ehtiyotkorlik bilan)"],
+    nojoya: { "Allergik": "Anafilaksiya, zardob kasalligi", "Mahalliy": "Inyeksiya joyида reaksiya" },
+    dozadan: "Anafilaksiyaда adrenalin; Bezredka usulида bo'lib yuborish.",
+    ozarotasir: ["Tirik vaksinalar samarasini pasaytirishi mumkin"],
+    qollash: { kattalar: "Tip aniqlanmaganда poliovalent (A, B, E) antitoksin; har bir tip XB da, shifokor nazoratида.", bolalar: "Ko'rsatmaga ko'ra (zudlik bilan)" },
+    chiqarish: "Inyeksiya uchun eritma (poliovalent, ampula)"
+  },
+  ru: {
+    gruppa: "Иммунные сыворотки и антитоксины — противоботулиническая сыворотка",
+    farmTasir: "Пассивная иммунизация (против ботулизма)",
+    farmakodinamika: `Противоботулинический антитоксин — очищенные антитоксические иммуноглобулины из сыворотки лошади, иммунизированной типами ботулотоксина (A, B, E). Связывает и нейтрализует свободный ботулотоксин в крови и предотвращает его связывание с нервно-мышечными окончаниями. Не действует на уже связавшийся токсин — поэтому важно раннее введение.`,
+    farmakokinetika: { sorish: "Парентерально (в/в или в/м)", tarqalish: "Распределяется в крови и межтканевой жидкости", metabolizm: "Расщепляется как белок", chiqarilish: "Выводится как гетерологичный белок" },
+    korsatmalar: ["Лечение ботулизма и профилактика при подозрении (немедленно)"],
+    qarrshi: ["Тяжёлая аллергия на белок лошади в анамнезе (с осторожностью по жизненным показаниям)"],
+    nojoya: { "Аллергические": "Анафилаксия, сывороточная болезнь", "Местные": "Реакция в месте инъекции" },
+    dozadan: "При анафилаксии — адреналин; вводят дробно по Безредке.",
+    ozarotasir: ["Может снижать эффективность живых вакцин"],
+    qollash: { kattalar: "При неустановленном типе — поливалентный (A, B, E) антитоксин; каждый тип в МЕ, под контролем врача.", bolalar: "По показаниям (немедленно)" },
+    chiqarish: "Раствор для инъекций (поливалентный, ампулы)"
+  },
+  en: {
+    gruppa: "Immune sera and antitoxins — botulinum antitoxin",
+    farmTasir: "Passive immunization (against botulism)",
+    farmakodinamika: `Botulinum antitoxin consists of purified antitoxic immunoglobulins from the serum of a horse immunized with botulinum toxin types (A, B, E). It binds and neutralizes free botulinum toxin in the blood and prevents its binding to neuromuscular endings. It does not act on already-bound toxin — so early administration is essential.`,
+    farmakokinetika: { sorish: "Parenteral (IV or IM)", tarqalish: "Distributed in blood and interstitial fluid", metabolizm: "Degraded as a protein", chiqarilish: "Cleared as a heterologous protein" },
+    korsatmalar: ["Treatment of botulism and prophylaxis on suspicion (immediately)"],
+    qarrshi: ["History of severe allergy to horse protein (cautiously, by vital indication)"],
+    nojoya: { "Allergic": "Anaphylaxis, serum sickness", "Local": "Injection-site reaction" },
+    dozadan: "For anaphylaxis — adrenaline; give in divided doses (Besredka method).",
+    ozarotasir: ["May reduce efficacy of live vaccines"],
+    qollash: { kattalar: "When the type is unknown — polyvalent (A, B, E) antitoxin; each type in IU, under medical supervision.", bolalar: "By indication (immediately)" },
+    chiqarish: "Solution for injection (polyvalent, ampoules)"
+  }
+},
+
+"J06AA05": {
+  uz: {
+    gruppa: "Immun zardoblar va antitoksinlar — gazli gangrenaga qarshi zardob",
+    farmTasir: "Passiv immunizatsiya (anaerob gangrenaga qarshi)",
+    farmakodinamika: `Gazli gangrena (anaerob infeksiya) antitoksini — Clostridium turlari (perfringens, oedematiens, septicum) toksinlari bilan immunizatsiya qilingan ot zardobidan olingan tozalangan poliovalent antitoksik immunoglobulinlar. Qondagi klostridiya ekzotoksinlarini bog'lab zararsizlantiradi.`,
+    farmakokinetika: { sorish: "Parenteral (v/i tomchilab yoki m/i)", tarqalish: "Qon va to'qimalararo suyuqlikда taqsimlanadi", metabolizm: "Oqsil sifatida parchalanadi", chiqarilish: "Geterolog oqsil sifatida chiqariladi" },
+    korsatmalar: ["Gazli gangrenani davolash va og'ir ifloslangan jarohatlarда profilaktika"],
+    qarrshi: ["Ot oqsiliga og'ir allergiya tarixi (hayot ko'rsatmasiga ko'ra ehtiyotkorlik bilan)"],
+    nojoya: { "Allergik": "Anafilaksiya, zardob kasalligi", "Mahalliy": "Inyeksiya joyида reaksiya" },
+    dozadan: "Anafilaksiyaда adrenalin; Bezredka usulида bo'lib yuborish.",
+    ozarotasir: ["Tirik vaksinalar samarasini pasaytirishi mumkin"],
+    qollash: { kattalar: "Profilaktika va davo: poliovalent antitoksin XB da, og'irligiga ko'ra, shifokor nazoratида.", bolalar: "Ko'rsatmaga ko'ra" },
+    chiqarish: "Inyeksiya uchun eritma (poliovalent, ampula)"
+  },
+  ru: {
+    gruppa: "Иммунные сыворотки и антитоксины — противогангренозная сыворотка",
+    farmTasir: "Пассивная иммунизация (против анаэробной гангрены)",
+    farmakodinamika: `Противогангренозный антитоксин — очищенные поливалентные антитоксические иммуноглобулины из сыворотки лошади, иммунизированной токсинами клостридий (perfringens, oedematiens, septicum). Связывает и нейтрализует клостридиальные экзотоксины в крови.`,
+    farmakokinetika: { sorish: "Парентерально (в/в капельно или в/м)", tarqalish: "Распределяется в крови и межтканевой жидкости", metabolizm: "Расщепляется как белок", chiqarilish: "Выводится как гетерологичный белок" },
+    korsatmalar: ["Лечение газовой гангрены и профилактика при тяжело загрязнённых ранах"],
+    qarrshi: ["Тяжёлая аллергия на белок лошади в анамнезе (с осторожностью по жизненным показаниям)"],
+    nojoya: { "Аллергические": "Анафилаксия, сывороточная болезнь", "Местные": "Реакция в месте инъекции" },
+    dozadan: "При анафилаксии — адреналин; вводят дробно по Безредке.",
+    ozarotasir: ["Может снижать эффективность живых вакцин"],
+    qollash: { kattalar: "Профилактика и лечение: поливалентный антитоксин в МЕ, по тяжести, под контролем врача.", bolalar: "По показаниям" },
+    chiqarish: "Раствор для инъекций (поливалентный, ампулы)"
+  },
+  en: {
+    gruppa: "Immune sera and antitoxins — gas-gangrene antitoxin",
+    farmTasir: "Passive immunization (against anaerobic gangrene)",
+    farmakodinamika: `Gas-gangrene antitoxin consists of purified polyvalent antitoxic immunoglobulins from the serum of a horse immunized with clostridial toxins (perfringens, oedematiens, septicum). It binds and neutralizes clostridial exotoxins in the blood.`,
+    farmakokinetika: { sorish: "Parenteral (IV infusion or IM)", tarqalish: "Distributed in blood and interstitial fluid", metabolizm: "Degraded as a protein", chiqarilish: "Cleared as a heterologous protein" },
+    korsatmalar: ["Treatment of gas gangrene and prophylaxis for heavily contaminated wounds"],
+    qarrshi: ["History of severe allergy to horse protein (cautiously, by vital indication)"],
+    nojoya: { "Allergic": "Anaphylaxis, serum sickness", "Local": "Injection-site reaction" },
+    dozadan: "For anaphylaxis — adrenaline; give in divided doses (Besredka method).",
+    ozarotasir: ["May reduce efficacy of live vaccines"],
+    qollash: { kattalar: "Prophylaxis and treatment: polyvalent antitoxin in IU, by severity, under medical supervision.", bolalar: "By indication" },
+    chiqarish: "Solution for injection (polyvalent, ampoules)"
+  }
+},
+
+"J06AA": {
+  uz: {
+    gruppa: "Immun zardoblar va antitoksinlar — qoraqurt zahriga qarshi zardob",
+    farmTasir: "Passiv immunizatsiya (qoraqurt chaqishiga qarshi)",
+    farmakodinamika: `Qoraqurt (Latrodectus tredecimguttatus) zahriga qarshi zardob — o'rgimchak zahari bilan immunizatsiya qilingan ot zardobidan olingan tozalangan antitoksik immunoglobulinlar. Qondagi neyrotoksik o'rgimchak zaharini (latrotoksin) bog'lab zararsizlantiradi va zaharlanish belgilarini (mushak og'rig'i, spazm, vegetativ buzilishlar) kamaytiradi.`,
+    farmakokinetika: { sorish: "Parenteral (m/i, og'ir holatда v/i)", tarqalish: "Qon va to'qimalararo suyuqlikда taqsimlanadi", metabolizm: "Oqsil sifatida parchalanadi", chiqarilish: "Geterolog oqsil sifatida chiqariladi" },
+    korsatmalar: ["Qoraqurt chaqishi natijasida og'ir zaharlanish (latrodektizm) davosi"],
+    qarrshi: ["Ot oqsiliga og'ir allergiya tarixi (hayot ko'rsatmasiga ko'ra ehtiyotkorlik bilan)"],
+    nojoya: { "Allergik": "Anafilaksiya, zardob kasalligi", "Mahalliy": "Inyeksiya joyида reaksiya" },
+    dozadan: "Anafilaksiyaда adrenalin; Bezredka usulида bo'lib yuborish.",
+    ozarotasir: ["Tirik vaksinalar samarasini pasaytirishi mumkin"],
+    qollash: { kattalar: "Zaharlanish og'irligiga ko'ra m/i (sinama bilan), shifokor nazoratида.", bolalar: "Ko'rsatmaga ko'ra" },
+    chiqarish: "Inyeksiya uchun eritma (ampula)"
+  },
+  ru: {
+    gruppa: "Иммунные сыворотки и антитоксины — сыворотка против яда каракурта",
+    farmTasir: "Пассивная иммунизация (против укуса каракурта)",
+    farmakodinamika: `Сыворотка против яда каракурта (Latrodectus tredecimguttatus) — очищенные антитоксические иммуноглобулины из сыворотки лошади, иммунизированной ядом паука. Связывает и нейтрализует нейротоксический яд паука (латротоксин) в крови и уменьшает признаки отравления (мышечная боль, спазм, вегетативные нарушения).`,
+    farmakokinetika: { sorish: "Парентерально (в/м, в тяжёлых случаях в/в)", tarqalish: "Распределяется в крови и межтканевой жидкости", metabolizm: "Расщепляется как белок", chiqarilish: "Выводится как гетерологичный белок" },
+    korsatmalar: ["Лечение тяжёлого отравления при укусе каракурта (латродектизм)"],
+    qarrshi: ["Тяжёлая аллергия на белок лошади в анамнезе (с осторожностью по жизненным показаниям)"],
+    nojoya: { "Аллергические": "Анафилаксия, сывороточная болезнь", "Местные": "Реакция в месте инъекции" },
+    dozadan: "При анафилаксии — адреналин; вводят дробно по Безредке.",
+    ozarotasir: ["Может снижать эффективность живых вакцин"],
+    qollash: { kattalar: "По тяжести отравления в/м (с пробой), под контролем врача.", bolalar: "По показаниям" },
+    chiqarish: "Раствор для инъекций (ампулы)"
+  },
+  en: {
+    gruppa: "Immune sera and antitoxins — widow-spider antivenom",
+    farmTasir: "Passive immunization (against widow-spider bite)",
+    farmakodinamika: `Antivenom against the widow spider (Latrodectus tredecimguttatus) consists of purified antitoxic immunoglobulins from the serum of a horse immunized with spider venom. It binds and neutralizes the neurotoxic spider venom (latrotoxin) in the blood and reduces signs of envenomation (muscle pain, spasm, autonomic disturbances).`,
+    farmakokinetika: { sorish: "Parenteral (IM; IV in severe cases)", tarqalish: "Distributed in blood and interstitial fluid", metabolizm: "Degraded as a protein", chiqarilish: "Cleared as a heterologous protein" },
+    korsatmalar: ["Treatment of severe envenomation from widow-spider bite (latrodectism)"],
+    qarrshi: ["History of severe allergy to horse protein (cautiously, by vital indication)"],
+    nojoya: { "Allergic": "Anaphylaxis, serum sickness", "Local": "Injection-site reaction" },
+    dozadan: "For anaphylaxis — adrenaline; give in divided doses (Besredka method).",
+    ozarotasir: ["May reduce efficacy of live vaccines"],
+    qollash: { kattalar: "By severity of envenomation IM (with a test dose), under medical supervision.", bolalar: "By indication" },
+    chiqarish: "Solution for injection (ampoules)"
+  }
+},
+
+"J06BA01": {
+  uz: {
+    gruppa: "Immunoglobulinlar — normal inson immunoglobulini",
+    farmTasir: "Passiv immunizatsiya / immun o'rnини bosuvchi",
+    farmakodinamika: `Normal inson immunoglobulini — sog'lom donorlar plazmasidan olingan, asosan IgG dan iborat tozalangan oqsil. Keng spektrli antitanalar to'plamini ta'minlab passiv immunitet beradi (infeksiyaga qarshi himoya) hamda immun tanqisligida antitanalar o'rnини bosadi. Yuqori dozada immunomodulyator ta'sir ko'rsatadi.`,
+    farmakokinetika: { sorish: "M/i yoki v/i; v/i da biokirish 100%", tarqalish: "Tomir ichi va to'qimalararo bo'shliqда taqsimlanadi", metabolizm: "Oqsil sifatida parchalanadi", chiqarilish: "IgG yarim yemirilish davri ~3–4 hafta" },
+    korsatmalar: ["Birlamchi va ikkilamchi immun tanqisligi (o'rin bosuvchi davo)", "Ba'zi infeksiyalar profilaktikasi (qizamiq, A gepatiti — kontaktда)", "Immunomodulyator (ITP, Kavasaki, Giyen-Barre va boshqalar — yuqori dozada)"],
+    qarrshi: ["Inson immunoglobulinlariga yuqori sezuvchanlik", "Selektiv IgA tanqisligi (anti-IgA antitanalar bilan)"],
+    nojoya: { "Umumiy": "Isitma, titroq, bosh og'rig'i, ko'ngil aynishi (infuziya tezligiga bog'liq)", "Kamdan-kam": "Tromboembolik hodisalar, buyrak funksiyasi buzilishi, aseptik meningit" },
+    dozadan: "Infuziya tezligini kamaytirish; gidratatsiya va nazorat.",
+    ozarotasir: ["Tirik vaksinalar (qizamiq, parotit, qizilcha) samarasini 3 oygacha pasaytiradi"],
+    qollash: { kattalar: "Ko'rsatmaga ko'ra: o'rin bosuvchi 0,2–0,8 g/kg/oy v/i; immunomodulyator 1–2 g/kg kurs.", bolalar: "Tana vazni va ko'rsatmaga ko'ra" },
+    chiqarish: "V/i infuziya uchun eritma; m/i uchun eritma (flakon/ampula)"
+  },
+  ru: {
+    gruppa: "Иммуноглобулины — нормальный иммуноглобулин человека",
+    farmTasir: "Пассивная иммунизация / заместительная терапия",
+    farmakodinamika: `Нормальный иммуноглобулин человека — очищенный белок (преимущественно IgG) из плазмы здоровых доноров. Обеспечивает пассивный иммунитет за счёт широкого спектра антител (защита от инфекций) и замещает антитела при иммунодефиците. В высоких дозах оказывает иммуномодулирующее действие.`,
+    farmakokinetika: { sorish: "В/м или в/в; при в/в биодоступность 100%", tarqalish: "Распределяется внутрисосудисто и в межтканевом пространстве", metabolizm: "Расщепляется как белок", chiqarilish: "Период полувыведения IgG ~3–4 недели" },
+    korsatmalar: ["Первичный и вторичный иммунодефицит (заместительная терапия)", "Профилактика некоторых инфекций (корь, гепатит А — при контакте)", "Иммуномодуляция (ИТП, Кавасаки, Гийена–Барре и др. — в высоких дозах)"],
+    qarrshi: ["Гиперчувствительность к иммуноглобулинам человека", "Селективный дефицит IgA (с анти-IgA антителами)"],
+    nojoya: { "Общие": "Лихорадка, озноб, головная боль, тошнота (зависят от скорости инфузии)", "Редко": "Тромбоэмболические события, нарушение функции почек, асептический менингит" },
+    dozadan: "Снизить скорость инфузии; гидратация и наблюдение.",
+    ozarotasir: ["Снижает эффективность живых вакцин (корь, паротит, краснуха) на срок до 3 месяцев"],
+    qollash: { kattalar: "По показаниям: заместительно 0,2–0,8 г/кг/мес в/в; иммуномодуляция 1–2 г/кг на курс.", bolalar: "По массе тела и показаниям" },
+    chiqarish: "Раствор для в/в инфузий; раствор для в/м введения (флакон/ампула)"
+  },
+  en: {
+    gruppa: "Immunoglobulins — normal human immunoglobulin",
+    farmTasir: "Passive immunization / replacement therapy",
+    farmakodinamika: `Normal human immunoglobulin is a purified protein (mainly IgG) from the plasma of healthy donors. It provides passive immunity through a broad spectrum of antibodies (protection against infection) and replaces antibodies in immunodeficiency. At high doses it has an immunomodulatory effect.`,
+    farmakokinetika: { sorish: "IM or IV; with IV bioavailability 100%", tarqalish: "Distributed intravascularly and in the interstitial space", metabolizm: "Degraded as a protein", chiqarilish: "IgG half-life ~3–4 weeks" },
+    korsatmalar: ["Primary and secondary immunodeficiency (replacement therapy)", "Prophylaxis of some infections (measles, hepatitis A — on exposure)", "Immunomodulation (ITP, Kawasaki, Guillain–Barré, etc. — high dose)"],
+    qarrshi: ["Hypersensitivity to human immunoglobulins", "Selective IgA deficiency (with anti-IgA antibodies)"],
+    nojoya: { "General": "Fever, chills, headache, nausea (infusion-rate dependent)", "Rare": "Thromboembolic events, renal impairment, aseptic meningitis" },
+    dozadan: "Reduce infusion rate; hydration and monitoring.",
+    ozarotasir: ["Reduces efficacy of live vaccines (measles, mumps, rubella) for up to 3 months"],
+    qollash: { kattalar: "Per indication: replacement 0.2–0.8 g/kg/month IV; immunomodulation 1–2 g/kg per course.", bolalar: "By body weight and indication" },
+    chiqarish: "Solution for IV infusion; solution for IM injection (vial/ampoule)"
+  }
+},
+
+"J06BB01": {
+  uz: {
+    gruppa: "Maxsus immunoglobulinlar — anti-D (Rh0) immunoglobulin",
+    farmTasir: "Rezus-sensibilizatsiya profilaktikasi",
+    farmakodinamika: `Anti-D immunoglobulin — Rh musbat eritrotsitlarning D-antigeniga qarshi inson IgG si. Rh manfiy onaning qoniga tushgan homila Rh musbat eritrotsitlarini "yashirin" yo'q qiladi va onaning o'z anti-D antitanalar ishlab chiqarishini (sensibilizatsiyani) oldini oladi. Shu orqali keyingi homiladorlikда homila/yangi tug'ilgan chaqaloq gemolitik kasalligini kamaytiradi.`,
+    farmakokinetika: { sorish: "M/i yoki v/i", tarqalish: "Qonда taqsimlanadi", metabolizm: "Oqsil sifatida parchalanadi", chiqarilish: "IgG yarim yemirilish davri ~3–4 hafta" },
+    korsatmalar: ["Rh manfiy ayolда rezus-sensibilizatsiya profilaktikasi (homiladorlikning 28-haftasида va Rh musbat bola tug'ilgandan keyin 72 soat ichida)", "Abort, tashqi homiladorlik, amniotsentez, qorin jarohatidан keyin"],
+    qarrshi: ["Inson immunoglobulinlariga yuqori sezuvchanlik", "Rh musbat ayolда yoki allaqachon anti-D bilan sensibilizatsiyalanganда samarasiz"],
+    nojoya: { "Mahalliy": "Inyeksiya joyида og'riq", "Umumiy": "Kamdan-kam — isitma, allergik reaksiya" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Tirik vaksinalar (qizamiq, qizilcha) samarasini 3 oygacha pasaytirishi mumkin"],
+    qollash: { kattalar: "Standart doza 1500 XB (300 mkg) m/i; tug'ruqдан keyin 72 soat ichida; homila-ona qon aralashuviга ko'ra qo'shimcha.", bolalar: "Qo'llanilmaydi (akusherlik ko'rsatmasi)" },
+    chiqarish: "Inyeksiya uchun eritma (oldindan to'ldirilgan shprits/ampula)"
+  },
+  ru: {
+    gruppa: "Специфические иммуноглобулины — анти-D (Rh0) иммуноглобулин",
+    farmTasir: "Профилактика резус-сенсибилизации",
+    farmakodinamika: `Анти-D иммуноглобулин — человеческий IgG против D-антигена резус-положительных эритроцитов. «Скрыто» удаляет попавшие в кровь резус-отрицательной матери резус-положительные эритроциты плода и предотвращает выработку у матери собственных анти-D антител (сенсибилизацию). Тем самым снижает риск гемолитической болезни плода/новорождённого при последующей беременности.`,
+    farmakokinetika: { sorish: "В/м или в/в", tarqalish: "Распределяется в крови", metabolizm: "Расщепляется как белок", chiqarilish: "Период полувыведения IgG ~3–4 недели" },
+    korsatmalar: ["Профилактика резус-сенсибилизации у резус-отрицательной женщины (на 28-й неделе беременности и в течение 72 ч после рождения резус-положительного ребёнка)", "После аборта, внематочной беременности, амниоцентеза, травмы живота"],
+    qarrshi: ["Гиперчувствительность к иммуноглобулинам человека", "Неэффективен у резус-положительной женщины или при уже состоявшейся сенсибилизации"],
+    nojoya: { "Местные": "Боль в месте инъекции", "Общие": "Редко — лихорадка, аллергическая реакция" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Может снижать эффективность живых вакцин (корь, краснуха) на срок до 3 месяцев"],
+    qollash: { kattalar: "Стандартная доза 1500 МЕ (300 мкг) в/м; в течение 72 ч после родов; дополнительно по объёму фето-материнского кровотечения.", bolalar: "Не применяется (акушерское показание)" },
+    chiqarish: "Раствор для инъекций (предзаполненный шприц/ампула)"
+  },
+  en: {
+    gruppa: "Specific immunoglobulins — anti-D (Rh0) immunoglobulin",
+    farmTasir: "Prevention of rhesus sensitization",
+    farmakodinamika: `Anti-D immunoglobulin is human IgG against the D antigen of Rh-positive red cells. It "silently" removes fetal Rh-positive red cells that have entered the Rh-negative mother's blood and prevents the mother from producing her own anti-D antibodies (sensitization). This reduces the risk of haemolytic disease of the fetus/newborn in a subsequent pregnancy.`,
+    farmakokinetika: { sorish: "IM or IV", tarqalish: "Distributed in blood", metabolizm: "Degraded as a protein", chiqarilish: "IgG half-life ~3–4 weeks" },
+    korsatmalar: ["Prevention of rhesus sensitization in an Rh-negative woman (at 28 weeks of pregnancy and within 72 h after birth of an Rh-positive baby)", "After abortion, ectopic pregnancy, amniocentesis, abdominal trauma"],
+    qarrshi: ["Hypersensitivity to human immunoglobulins", "Ineffective in an Rh-positive woman or once sensitization has occurred"],
+    nojoya: { "Local": "Injection-site pain", "General": "Rarely fever, allergic reaction" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["May reduce efficacy of live vaccines (measles, rubella) for up to 3 months"],
+    qollash: { kattalar: "Standard dose 1500 IU (300 µg) IM; within 72 h after delivery; additional per volume of feto-maternal haemorrhage.", bolalar: "Not used (obstetric indication)" },
+    chiqarish: "Solution for injection (pre-filled syringe/ampoule)"
+  }
+},
+
+"J06BB05": {
+  uz: {
+    gruppa: "Maxsus immunoglobulinlar — quturishga qarshi monoklonal antitana",
+    farmTasir: "Passiv immunizatsiya (quturish — post-ekspozitsion)",
+    farmakodinamika: `Quturish virusiga qarshi inson monoklonal antitanasi (rekombinant) — quturish virusining glikoproteinига maxsus bog'lanib, uни neytrallaydi. Jarohat sohasига yuborilganда virusning nerv to'qimasига kirishigacha uни bostiradi. Quturishga qarshi vaksina bilan birga post-ekspozitsion profilaktikaда qo'llaniladi (mahalliy immunoglobulin o'rnига).`,
+    farmakokinetika: { sorish: "Jarohat atrofiга infiltratsiya + m/i", tarqalish: "Mahalliy va tizimli taqsimlanadi", metabolizm: "Oqsil sifatida parchalanadi", chiqarilish: "IgG yarim yemirilish davri uzoq (haftalar)" },
+    korsatmalar: ["Quturish post-ekspozitsion profilaktikasi (vaksina bilan birga, III darajali kontaktда)"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik", "Avval to'liq quturishga qarshi vaksinatsiya olganларда tavsiya etilmaydi"],
+    nojoya: { "Mahalliy": "Inyeksiya joyида og'riq, qizarish", "Umumiy": "Bosh og'rig'i, isitma (kamdan-kam)" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Faqat tasdiqlangan vaksina bilan birga; boshqa immunoglobulin bilan birga yuborilmaydi"],
+    qollash: { kattalar: "Tana vazniга ko'ra (XB/kg) — barcha jarohatlar atrofiга infiltratsiya, qolgani m/i; 0-kunда vaksina bilan.", bolalar: "Tana vazniга ko'ra" },
+    chiqarish: "Inyeksiya uchun eritma (flakon)"
+  },
+  ru: {
+    gruppa: "Специфические иммуноглобулины — моноклональные антитела против бешенства",
+    farmTasir: "Пассивная иммунизация (бешенство — постэкспозиционная)",
+    farmakodinamika: `Человеческие моноклональные антитела против вируса бешенства (рекомбинантные) специфически связывают гликопротеин вируса бешенства и нейтрализуют его. При введении в область раны подавляют вирус до его проникновения в нервную ткань. Применяются в постэкспозиционной профилактике вместе с антирабической вакциной (вместо иммуноглобулина).`,
+    farmakokinetika: { sorish: "Инфильтрация вокруг раны + в/м", tarqalish: "Местное и системное распределение", metabolizm: "Расщепляется как белок", chiqarilish: "Период полувыведения IgG длительный (недели)" },
+    korsatmalar: ["Постэкспозиционная профилактика бешенства (вместе с вакциной, при контакте III категории)"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Не рекомендуется ранее полностью вакцинированным против бешенства"],
+    nojoya: { "Местные": "Боль, покраснение в месте инъекции", "Общие": "Головная боль, лихорадка (редко)" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Только вместе с утверждённой вакциной; не вводят с другим иммуноглобулином"],
+    qollash: { kattalar: "По массе тела (МЕ/кг) — инфильтрация вокруг всех ран, остаток в/м; в день 0 с вакциной.", bolalar: "По массе тела" },
+    chiqarish: "Раствор для инъекций (флакон)"
+  },
+  en: {
+    gruppa: "Specific immunoglobulins — anti-rabies monoclonal antibody",
+    farmTasir: "Passive immunization (rabies — post-exposure)",
+    farmakodinamika: `Human monoclonal antibodies against rabies virus (recombinant) bind specifically to the rabies virus glycoprotein and neutralize it. Injected into the wound area, they suppress the virus before it enters nervous tissue. Used in post-exposure prophylaxis together with rabies vaccine (in place of immunoglobulin).`,
+    farmakokinetika: { sorish: "Infiltration around the wound + IM", tarqalish: "Local and systemic distribution", metabolizm: "Degraded as a protein", chiqarilish: "IgG half-life prolonged (weeks)" },
+    korsatmalar: ["Post-exposure prophylaxis of rabies (with vaccine, category III exposure)"],
+    qarrshi: ["Hypersensitivity to components", "Not recommended in those previously fully rabies-vaccinated"],
+    nojoya: { "Local": "Pain, redness at the injection site", "General": "Headache, fever (rare)" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Only with the approved vaccine; not given with another immunoglobulin"],
+    qollash: { kattalar: "By body weight (IU/kg) — infiltrate around all wounds, remainder IM; on day 0 with vaccine.", bolalar: "By body weight" },
+    chiqarish: "Solution for injection (vial)"
+  }
+},
+
+"J06BB16": {
+  uz: {
+    gruppa: "Maxsus immunoglobulinlar — palivizumab (monoklonal antitana)",
+    farmTasir: "RSV profilaktikasi (passiv immunizatsiya)",
+    farmakodinamika: `Palivizumab — respirator sinsitial virus (RSV) F-oqsiliga qarshi gumanizatsiyalangan monoklonal antitana. Virusning hujayraга kirishi va sinsitiy hosil qilishini bloklaydi, RSV replikatsiyasini bostiradi. Faqat profilaktika uchun — yuqori xavfli go'daklarда og'ir RSV-bronxiolitini oldini oladi (davolovchi vosita emas).`,
+    farmakokinetika: { sorish: "M/i; biokirish yuqori", tarqalish: "Qonда taqsimlanadi", metabolizm: "Oqsil sifatida parchalanadi", chiqarilish: "Yarim yemirilish davri ~20 kun" },
+    korsatmalar: ["RSV mavsumида yuqori xavfli go'daklarда og'ir RSV infeksiyasi profilaktikasi (chala tug'ilgan, bronxopulmonal displaziya, gemodinamik ahamiyatli tug'ma yurak nuqsoni)"],
+    qarrshi: ["Palivizumab yoki boshqa gumanizatsiyalangan antitanalarга yuqori sezuvchanlik"],
+    nojoya: { "Mahalliy": "Inyeksiya joyида reaksiya", "Umumiy": "Isitma, toshma; kamdan-kam — anafilaksiya" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Tirik vaksinalarга sezilarli ta'sir qilmaydi (monoklonal, faqat RSV ga xos)"],
+    qollash: { kattalar: "Qo'llanilmaydi (pediatrik vosita)", bolalar: "15 mg/kg m/i, RSV mavsumида oyiga 1 marta (odatda 5 doza)" },
+    chiqarish: "Inyeksiya uchun eritma/liofilizat 50 mg, 100 mg (flakon)"
+  },
+  ru: {
+    gruppa: "Специфические иммуноглобулины — паливизумаб (моноклональное антитело)",
+    farmTasir: "Профилактика РСВ (пассивная иммунизация)",
+    farmakodinamika: `Паливизумаб — гуманизированное моноклональное антитело против F-белка респираторно-синцитиального вируса (РСВ). Блокирует проникновение вируса в клетку и образование синцития, подавляя репликацию РСВ. Применяется только для профилактики — предотвращает тяжёлый РСВ-бронхиолит у младенцев высокого риска (не является лечебным средством).`,
+    farmakokinetika: { sorish: "В/м; высокая биодоступность", tarqalish: "Распределяется в крови", metabolizm: "Расщепляется как белок", chiqarilish: "Период полувыведения ~20 дней" },
+    korsatmalar: ["Профилактика тяжёлой РСВ-инфекции в сезон РСВ у младенцев высокого риска (недоношенность, бронхолёгочная дисплазия, гемодинамически значимый врождённый порок сердца)"],
+    qarrshi: ["Гиперчувствительность к паливизумабу или другим гуманизированным антителам"],
+    nojoya: { "Местные": "Реакция в месте инъекции", "Общие": "Лихорадка, сыпь; редко — анафилаксия" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Существенно не влияет на живые вакцины (моноклональное, специфично только к РСВ)"],
+    qollash: { kattalar: "Не применяется (педиатрическое средство)", bolalar: "15 мг/кг в/м 1 раз в месяц в сезон РСВ (обычно 5 доз)" },
+    chiqarish: "Раствор/лиофилизат для инъекций 50 мг, 100 мг (флакон)"
+  },
+  en: {
+    gruppa: "Specific immunoglobulins — palivizumab (monoclonal antibody)",
+    farmTasir: "RSV prophylaxis (passive immunization)",
+    farmakodinamika: `Palivizumab is a humanized monoclonal antibody against the F protein of respiratory syncytial virus (RSV). It blocks viral cell entry and syncytium formation, suppressing RSV replication. It is for prophylaxis only — preventing severe RSV bronchiolitis in high-risk infants (it is not a treatment).`,
+    farmakokinetika: { sorish: "IM; high bioavailability", tarqalish: "Distributed in blood", metabolizm: "Degraded as a protein", chiqarilish: "Half-life ~20 days" },
+    korsatmalar: ["Prophylaxis of severe RSV infection during the RSV season in high-risk infants (prematurity, bronchopulmonary dysplasia, haemodynamically significant congenital heart disease)"],
+    qarrshi: ["Hypersensitivity to palivizumab or other humanized antibodies"],
+    nojoya: { "Local": "Injection-site reaction", "General": "Fever, rash; rarely anaphylaxis" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Does not significantly affect live vaccines (monoclonal, RSV-specific only)"],
+    qollash: { kattalar: "Not used (paediatric agent)", bolalar: "15 mg/kg IM once monthly during the RSV season (usually 5 doses)" },
+    chiqarish: "Solution/powder for injection 50 mg, 100 mg (vial)"
+  }
+},
+
+"J07AN01": {
+  uz: {
+    gruppa: "Vaksinalar — silga qarshi (BCG)",
+    farmTasir: "Faol immunizatsiya (sil)",
+    farmakodinamika: `BCG — Mycobacterium bovis ning zaiflashtirilgan (attenuatsiyalangan) tirik shtammidan tayyorlangan vaksina. Organizmда mikobakteriyaга qarshi hujayraviy immunitetni (T-limfotsitlar) shakllantirib, sil infeksiyasining og'ir tarqalgan shakllarini (sil meningiti, milliar sil) oldini oladi.`,
+    farmakokinetika: { sorish: "Teri ichiga; mahalliy immun javob", tarqalish: "Mahalliy limfa tugunlariга", metabolizm: "—", chiqarilish: "Immunitet bir necha hafta ichida shakllanadi" },
+    korsatmalar: ["Sil profilaktikasi (yangi tug'ilgan chaqaloqlar va revaksinatsiya, milliy kalendarга ko'ra)"],
+    qarrshi: ["Immun tanqisligi (tug'ma, OIV, immunosupressiya)", "Avvalgi dozaдан generallashgan BCG-infeksiya", "O'tkir kasallik (vaqtincha)", "Chala tug'ilgan (vazn <2000 g — vaqtincha)"],
+    nojoya: { "Mahalliy": "Inyeksiya joyида infiltrat, yara, chandiq (normal jarayon), regional limfadenit", "Kamdan-kam": "BCG-it, osteit, generallashgan BCG-infeksiya (immun tanqisligida)" },
+    dozadan: "Mahalliy asorat — ftiziatr nazoratида; generallashganда silga qarshi davo.",
+    ozarotasir: ["Immunosupressantlar va nurlanish javobni pasaytiradi", "Boshqa tirik vaksinalar bilan muvofiqlashtiriladi"],
+    qollash: { kattalar: "Revaksinatsiya ko'rsatmага va Mantu sinamasiga ko'ra", bolalar: "Yangi tug'ilganда 0,05 mg teri ichiga (chap yelka), kalendarга ko'ra" },
+    chiqarish: "Teri ichiga yuborish uchun liofilizat (erituvchi bilan)"
+  },
+  ru: {
+    gruppa: "Вакцины — против туберкулёза (БЦЖ)",
+    farmTasir: "Активная иммунизация (туберкулёз)",
+    farmakodinamika: `БЦЖ — вакцина из живого ослабленного (аттенуированного) штамма Mycobacterium bovis. Формирует клеточный иммунитет (Т-лимфоциты) против микобактерий, предупреждая тяжёлые распространённые формы туберкулёза (туберкулёзный менингит, милиарный туберкулёз).`,
+    farmakokinetika: { sorish: "Внутрикожно; местный иммунный ответ", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Иммунитет формируется в течение нескольких недель" },
+    korsatmalar: ["Профилактика туберкулёза (новорождённые и ревакцинация по национальному календарю)"],
+    qarrshi: ["Иммунодефицит (врождённый, ВИЧ, иммуносупрессия)", "Генерализованная БЦЖ-инфекция после предыдущей дозы", "Острое заболевание (временно)", "Недоношенность (масса <2000 г — временно)"],
+    nojoya: { "Местные": "Инфильтрат, язвочка, рубчик в месте введения (нормальный процесс), регионарный лимфаденит", "Редко": "БЦЖ-ит, остит, генерализованная БЦЖ-инфекция (при иммунодефиците)" },
+    dozadan: "Местные осложнения — под контролем фтизиатра; при генерализации — противотуберкулёзная терапия.",
+    ozarotasir: ["Иммуносупрессанты и облучение снижают ответ", "Согласуется с другими живыми вакцинами"],
+    qollash: { kattalar: "Ревакцинация по показаниям и пробе Манту", bolalar: "Новорождённым 0,05 мг внутрикожно (левое плечо), по календарю" },
+    chiqarish: "Лиофилизат для внутрикожного введения (с растворителем)"
+  },
+  en: {
+    gruppa: "Vaccines — antituberculosis (BCG)",
+    farmTasir: "Active immunization (tuberculosis)",
+    farmakodinamika: `BCG is a vaccine made from a live attenuated strain of Mycobacterium bovis. It induces cell-mediated immunity (T lymphocytes) against mycobacteria, preventing severe disseminated forms of tuberculosis (TB meningitis, miliary TB).`,
+    farmakokinetika: { sorish: "Intradermal; local immune response", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Immunity develops over several weeks" },
+    korsatmalar: ["Tuberculosis prophylaxis (newborns and revaccination per the national schedule)"],
+    qarrshi: ["Immunodeficiency (congenital, HIV, immunosuppression)", "Generalized BCG infection after a previous dose", "Acute illness (temporary)", "Prematurity (weight <2000 g — temporary)"],
+    nojoya: { "Local": "Infiltrate, small ulcer, scar at the site (normal process), regional lymphadenitis", "Rare": "BCG-itis, osteitis, generalized BCG infection (in immunodeficiency)" },
+    dozadan: "Local complications — under a phthisiologist; for generalization — antituberculosis therapy.",
+    ozarotasir: ["Immunosuppressants and irradiation reduce the response", "Coordinated with other live vaccines"],
+    qollash: { kattalar: "Revaccination by indication and Mantoux test", bolalar: "Newborns 0.05 mg intradermally (left upper arm), per schedule" },
+    chiqarish: "Powder for intradermal injection (with diluent)"
+  }
+},
+
+"J07AM01": {
+  uz: {
+    gruppa: "Vaksinalar — qoqsholга qarshi (anatoksin)",
+    farmTasir: "Faol immunizatsiya (qoqshol)",
+    farmakodinamika: `Qoqshol anatoksini — formaldegid bilan zararsizlantirilgan qoqshol toksini (toksoid), adsorbentга (alyuminiy gidroksidi) o'tkazilgan. Organizmда qoqshol toksiniга qarshi o'ziga xos antitanalar (antitoksin) ishlab chiqarilishini rag'batlantirib, faol uzoq muddatli immunitet hosil qiladi.`,
+    farmakokinetika: { sorish: "M/i yoki teri ostiga; sekin so'rilish (adsorbat)", tarqalish: "Mahalliy va regional limfaга", metabolizm: "—", chiqarilish: "Antitanalar 2–4 hafta ichida shakllanadi" },
+    korsatmalar: ["Qoqshol profilaktikasi (rejali immunizatsiya va jarohatда shoshilinch profilaktika)"],
+    qarrshi: ["Avvalgi dozага og'ir reaksiya/allergiya", "O'tkir kasallik yoki surunkali kasallik avj olishi (vaqtincha)"],
+    nojoya: { "Mahalliy": "Inyeksiya joyида og'riq, qizarish, infiltrat", "Umumiy": "Isitma, holsizlik; kamdan-kam — allergik reaksiya" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi", "Boshqa anatoksin/vaksinalar bilan birlashtiriladi (ADS, AKDS)"],
+    qollash: { kattalar: "Revaksinatsiya har 10 yilда 0,5 ml m/i; jarohatда ko'rsatmага ko'ra anatoksin ± immunoglobulin.", bolalar: "Milliy kalendarга ko'ra (odatda kombinatsiyalangan vaksina tarkibida)" },
+    chiqarish: "M/i/teri ostiga yuborish uchun suspenziya 0,5 ml (adsorbat)"
+  },
+  ru: {
+    gruppa: "Вакцины — против столбняка (анатоксин)",
+    farmTasir: "Активная иммунизация (столбняк)",
+    farmakodinamika: `Столбнячный анатоксин — обезвреженный формальдегидом столбнячный токсин (токсоид), сорбированный на адсорбенте (гидроксид алюминия). Стимулирует выработку специфических антител (антитоксина) против столбнячного токсина, формируя активный длительный иммунитет.`,
+    farmakokinetika: { sorish: "В/м или подкожно; медленное всасывание (сорбат)", tarqalish: "Местно и в регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Антитела формируются за 2–4 недели" },
+    korsatmalar: ["Профилактика столбняка (плановая иммунизация и экстренная профилактика при ранении)"],
+    qarrshi: ["Тяжёлая реакция/аллергия на предыдущую дозу", "Острое заболевание или обострение хронического (временно)"],
+    nojoya: { "Местные": "Боль, покраснение, инфильтрат в месте инъекции", "Общие": "Лихорадка, недомогание; редко — аллергическая реакция" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ", "Комбинируется с другими анатоксинами/вакцинами (АДС, АКДС)"],
+    qollash: { kattalar: "Ревакцинация каждые 10 лет 0,5 мл в/м; при ранении — анатоксин ± иммуноглобулин по показаниям.", bolalar: "По национальному календарю (обычно в составе комбинированной вакцины)" },
+    chiqarish: "Суспензия для в/м/подкожного введения 0,5 мл (сорбат)"
+  },
+  en: {
+    gruppa: "Vaccines — against tetanus (toxoid)",
+    farmTasir: "Active immunization (tetanus)",
+    farmakodinamika: `Tetanus toxoid is tetanus toxin inactivated with formaldehyde (a toxoid), adsorbed onto an adjuvant (aluminium hydroxide). It stimulates production of specific antibodies (antitoxin) against tetanus toxin, forming active long-lasting immunity.`,
+    farmakokinetika: { sorish: "IM or subcutaneous; slow release (adsorbate)", tarqalish: "Locally and to regional lymph nodes", metabolizm: "—", chiqarilish: "Antibodies develop over 2–4 weeks" },
+    korsatmalar: ["Tetanus prophylaxis (routine immunization and emergency prophylaxis after a wound)"],
+    qarrshi: ["Severe reaction/allergy to a previous dose", "Acute illness or exacerbation of chronic disease (temporary)"],
+    nojoya: { "Local": "Pain, redness, infiltrate at the injection site", "General": "Fever, malaise; rarely allergic reaction" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Immunosuppressants reduce the response", "Combined with other toxoids/vaccines (DT, DTP)"],
+    qollash: { kattalar: "Revaccination every 10 years 0.5 mL IM; for a wound — toxoid ± immunoglobulin by indication.", bolalar: "Per the national schedule (usually within a combination vaccine)" },
+    chiqarish: "Suspension for IM/subcutaneous injection 0.5 mL (adsorbate)"
+  }
+},
+
+"J07AM51": {
+  uz: {
+    gruppa: "Vaksinalar — difteriya va qoqshol anatoksini (ADS)",
+    farmTasir: "Faol immunizatsiya (difteriya + qoqshol)",
+    farmakodinamika: `Difteriya va qoqshol anatoksinlari kombinatsiyasi (ADS/ADS-M) — formaldegid bilan zararsizlantirilgan difteriya va qoqshol toksoidlari, adsorbentга o'tkazilgan. Ikkala kasallik toksiniга qarshi antitoksik immunitet hosil qiladi. ADS-M — kamaytirilgan antigen miqdorли, kattalar va revaksinatsiya uchun.`,
+    farmakokinetika: { sorish: "M/i yoki teri ostiga; sekin so'rilish (adsorbat)", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Antitanalar 2–4 hafta ichida shakllanadi" },
+    korsatmalar: ["Difteriya va qoqshol profilaktikasi (koklyush komponenti man etilganda yoki revaksinatsiyaда)"],
+    qarrshi: ["Avvalgi dozага og'ir reaksiya/allergiya", "O'tkir kasallik (vaqtincha)"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish, infiltrat", "Umumiy": "Isitma, holsizlik; kamdan-kam — allergik reaksiya" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi"],
+    qollash: { kattalar: "ADS-M 0,5 ml m/i, revaksinatsiya har 10 yilда.", bolalar: "Milliy kalendarга ko'ra (ADS — koklyush man etilganда)" },
+    chiqarish: "M/i yuborish uchun suspenziya 0,5 ml (ADS, ADS-M)"
+  },
+  ru: {
+    gruppa: "Вакцины — дифтерийно-столбнячный анатоксин (АДС)",
+    farmTasir: "Активная иммунизация (дифтерия + столбняк)",
+    farmakodinamika: `Комбинация дифтерийного и столбнячного анатоксинов (АДС/АДС-М) — обезвреженные формальдегидом токсоиды дифтерии и столбняка, сорбированные на адсорбенте. Формирует антитоксический иммунитет против обоих заболеваний. АДС-М — с уменьшенным содержанием антигена, для взрослых и ревакцинации.`,
+    farmakokinetika: { sorish: "В/м или подкожно; медленное всасывание (сорбат)", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Антитела формируются за 2–4 недели" },
+    korsatmalar: ["Профилактика дифтерии и столбняка (при противопоказании коклюшного компонента или для ревакцинации)"],
+    qarrshi: ["Тяжёлая реакция/аллергия на предыдущую дозу", "Острое заболевание (временно)"],
+    nojoya: { "Местные": "Боль, покраснение, инфильтрат", "Общие": "Лихорадка, недомогание; редко — аллергическая реакция" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ"],
+    qollash: { kattalar: "АДС-М 0,5 мл в/м, ревакцинация каждые 10 лет.", bolalar: "По национальному календарю (АДС — при противопоказании коклюша)" },
+    chiqarish: "Суспензия для в/м введения 0,5 мл (АДС, АДС-М)"
+  },
+  en: {
+    gruppa: "Vaccines — diphtheria-tetanus toxoid (DT)",
+    farmTasir: "Active immunization (diphtheria + tetanus)",
+    farmakodinamika: `A combination of diphtheria and tetanus toxoids (DT/Td) — formaldehyde-inactivated diphtheria and tetanus toxoids adsorbed onto an adjuvant. It produces antitoxic immunity against both diseases. Td has reduced antigen content, for adults and revaccination.`,
+    farmakokinetika: { sorish: "IM or subcutaneous; slow release (adsorbate)", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Antibodies develop over 2–4 weeks" },
+    korsatmalar: ["Diphtheria and tetanus prophylaxis (when the pertussis component is contraindicated, or for revaccination)"],
+    qarrshi: ["Severe reaction/allergy to a previous dose", "Acute illness (temporary)"],
+    nojoya: { "Local": "Pain, redness, infiltrate", "General": "Fever, malaise; rarely allergic reaction" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Immunosuppressants reduce the response"],
+    qollash: { kattalar: "Td 0.5 mL IM, revaccination every 10 years.", bolalar: "Per the national schedule (DT when pertussis is contraindicated)" },
+    chiqarish: "Suspension for IM injection 0.5 mL (DT, Td)"
+  }
+},
+
+"J07AJ51": {
+  uz: {
+    gruppa: "Vaksinalar — difteriya, qoqshol, ko'kyo'tal (AKDS/DTP)",
+    farmTasir: "Faol immunizatsiya (3 ta infeksiya)",
+    farmakodinamika: `DTP (AKDS) — difteriya va qoqshol anatoksinlari hamda ko'kyo'tal (pertussis) komponenti (butun hujayrali yoki atsellyulyar) kombinatsiyasi, adsorbentга o'tkazilgan. Uch kasallik qo'zg'atuvchisi/toksiniга qarshi faol immunitet hosil qiladi.`,
+    farmakokinetika: { sorish: "M/i; sekin so'rilish (adsorbat)", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Antitanalar bir necha hafta ichida shakllanadi" },
+    korsatmalar: ["Difteriya, qoqshol va ko'kyo'tal profilaktikasi (chaqaloqlar bazaviy immunizatsiyasi)"],
+    qarrshi: ["Avvalgi dozага og'ir reaksiya (ensefalopatiya, anafilaksiya)", "Progressiv asab kasalligi (koklyush komponenti uchun)", "O'tkir kasallik (vaqtincha)"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish, infiltrat", "Umumiy": "Isitma, injiqlik, ishtaha pasayishi; kamdan-kam — talvasa, davomli yig'i (koklyush komponenti)" },
+    dozadan: "Simptomatik davo; antipiretiklar.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi"],
+    qollash: { kattalar: "Odatda qo'llanilmaydi (atsellyulyar past dozali variantlar — kattalar uchun)", bolalar: "Milliy kalendarга ko'ra 0,5 ml m/i (bazaviy 3 doza + revaksinatsiya)" },
+    chiqarish: "M/i yuborish uchun suspenziya 0,5 ml"
+  },
+  ru: {
+    gruppa: "Вакцины — дифтерия, столбняк, коклюш (АКДС/DTP)",
+    farmTasir: "Активная иммунизация (3 инфекции)",
+    farmakodinamika: `АКДС (DTP) — комбинация дифтерийного и столбнячного анатоксинов с коклюшным (цельноклеточным или ацеллюлярным) компонентом, сорбированная на адсорбенте. Формирует активный иммунитет против трёх заболеваний.`,
+    farmakokinetika: { sorish: "В/м; медленное всасывание (сорбат)", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Антитела формируются за несколько недель" },
+    korsatmalar: ["Профилактика дифтерии, столбняка и коклюша (базовая иммунизация детей)"],
+    qarrshi: ["Тяжёлая реакция на предыдущую дозу (энцефалопатия, анафилаксия)", "Прогрессирующее заболевание ЦНС (для коклюшного компонента)", "Острое заболевание (временно)"],
+    nojoya: { "Местные": "Боль, покраснение, инфильтрат", "Общие": "Лихорадка, капризность, снижение аппетита; редко — судороги, длительный плач (коклюшный компонент)" },
+    dozadan: "Симптоматическая терапия; антипиретики.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ"],
+    qollash: { kattalar: "Обычно не применяется (ацеллюлярные низкодозные варианты — для взрослых)", bolalar: "По национальному календарю 0,5 мл в/м (базовые 3 дозы + ревакцинация)" },
+    chiqarish: "Суспензия для в/м введения 0,5 мл"
+  },
+  en: {
+    gruppa: "Vaccines — diphtheria, tetanus, pertussis (DTP)",
+    farmTasir: "Active immunization (3 infections)",
+    farmakodinamika: `DTP combines diphtheria and tetanus toxoids with a pertussis component (whole-cell or acellular), adsorbed onto an adjuvant. It produces active immunity against the three diseases.`,
+    farmakokinetika: { sorish: "IM; slow release (adsorbate)", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Antibodies develop over several weeks" },
+    korsatmalar: ["Prophylaxis of diphtheria, tetanus and pertussis (primary childhood immunization)"],
+    qarrshi: ["Severe reaction to a previous dose (encephalopathy, anaphylaxis)", "Progressive CNS disease (for the pertussis component)", "Acute illness (temporary)"],
+    nojoya: { "Local": "Pain, redness, infiltrate", "General": "Fever, irritability, decreased appetite; rarely seizures, persistent crying (pertussis component)" },
+    dozadan: "Supportive care; antipyretics.",
+    ozarotasir: ["Immunosuppressants reduce the response"],
+    qollash: { kattalar: "Usually not used (low-dose acellular variants — for adults)", bolalar: "Per the national schedule 0.5 mL IM (3 primary doses + booster)" },
+    chiqarish: "Suspension for IM injection 0.5 mL"
+  }
+},
+
+"J07AH04": {
+  uz: {
+    gruppa: "Vaksinalar — meningokokkga qarshi",
+    farmTasir: "Faol immunizatsiya (meningokokk infeksiyasi)",
+    farmakodinamika: `Meningokokk vaksinasi — Neisseria meningitidis ning kapsula polisaxaridlaridan (A, C, W, Y seroguruhlari; konyugat yoki polisaxarid) tayyorlangan. Seroguruhга xos antitanalar ishlab chiqarilishini rag'batlantirib, meningokokkли meningit va sepsisning oldini oladi. Konyugat shakl bolalarda ham samarali va immun xotira beradi.`,
+    farmakokinetika: { sorish: "M/i (konyugat) yoki teri ostiga (polisaxarid)", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Himoya darajasидаги antitanalar ~10 kun ichida" },
+    korsatmalar: ["Meningokokk infeksiyasi profilaktikasi (epidemik hudud, xavf guruhlari, sayohatchilar, immun tanqisligi)"],
+    qarrshi: ["Komponentlarga og'ir allergiya", "O'tkir kasallik (vaqtincha)"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish", "Umumiy": "Isitma, bosh og'rig'i, holsizlik" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi"],
+    qollash: { kattalar: "0,5 ml m/i yoki teri ostiga (mahsulot turiга ko'ra), ko'rsatmага ko'ra.", bolalar: "Yoshга va mahsulotга ko'ra (konyugat — go'daklikдан)" },
+    chiqarish: "Inyeksiya uchun eritma/liofilizat 0,5 ml"
+  },
+  ru: {
+    gruppa: "Вакцины — против менингококка",
+    farmTasir: "Активная иммунизация (менингококковая инфекция)",
+    farmakodinamika: `Менингококковая вакцина изготовлена из капсульных полисахаридов Neisseria meningitidis (серогруппы A, C, W, Y; конъюгированная или полисахаридная). Стимулирует выработку серогруппоспецифических антител, предупреждая менингококковый менингит и сепсис. Конъюгированная форма эффективна и у детей и даёт иммунную память.`,
+    farmakokinetika: { sorish: "В/м (конъюгированная) или подкожно (полисахаридная)", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Защитные антитела через ~10 дней" },
+    korsatmalar: ["Профилактика менингококковой инфекции (эпидрегион, группы риска, путешественники, иммунодефицит)"],
+    qarrshi: ["Тяжёлая аллергия на компоненты", "Острое заболевание (временно)"],
+    nojoya: { "Местные": "Боль, покраснение", "Общие": "Лихорадка, головная боль, недомогание" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ"],
+    qollash: { kattalar: "0,5 мл в/м или подкожно (по типу препарата), по показаниям.", bolalar: "По возрасту и препарату (конъюгированная — с грудного возраста)" },
+    chiqarish: "Раствор/лиофилизат для инъекций 0,5 мл"
+  },
+  en: {
+    gruppa: "Vaccines — against meningococcus",
+    farmTasir: "Active immunization (meningococcal disease)",
+    farmakodinamika: `Meningococcal vaccine is made from the capsular polysaccharides of Neisseria meningitidis (serogroups A, C, W, Y; conjugate or polysaccharide). It stimulates serogroup-specific antibodies, preventing meningococcal meningitis and sepsis. The conjugate form is effective in children and provides immune memory.`,
+    farmakokinetika: { sorish: "IM (conjugate) or subcutaneous (polysaccharide)", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Protective antibodies by ~10 days" },
+    korsatmalar: ["Prophylaxis of meningococcal disease (epidemic region, risk groups, travellers, immunodeficiency)"],
+    qarrshi: ["Severe allergy to components", "Acute illness (temporary)"],
+    nojoya: { "Local": "Pain, redness", "General": "Fever, headache, malaise" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Immunosuppressants reduce the response"],
+    qollash: { kattalar: "0.5 mL IM or subcutaneous (per product), by indication.", bolalar: "By age and product (conjugate — from infancy)" },
+    chiqarish: "Solution/powder for injection 0.5 mL"
+  }
+},
+
+"J07AL02": {
+  uz: {
+    gruppa: "Vaksinalar — pnevmokokkga qarshi (konyugat)",
+    farmTasir: "Faol immunizatsiya (pnevmokokk infeksiyasi)",
+    farmakodinamika: `Pnevmokokk konyugat vaksinasi — Streptococcus pneumoniae ning eng ko'p tarqalgan serotiplari kapsula polisaxaridlari oqsil tashuvchiга konyugatlangan. T-bog'liq immun javob va immun xotira hosil qilib, pnevmokokkли pnevmoniya, meningit, otit va bakteriemiyaning oldini oladi. Go'daklarda ham samarali.`,
+    farmakokinetika: { sorish: "M/i", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Antitanalar bir necha hafta ichida shakllanadi" },
+    korsatmalar: ["Pnevmokokk infeksiyasi profilaktikasi (go'daklar, keksalar, surunkali kasalliklар, immun tanqisligi)"],
+    qarrshi: ["Komponentlar (jumladan difteriya tashuvchi oqsil)га og'ir allergiya", "O'tkir kasallik (vaqtincha)"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish, shish", "Umumiy": "Isitma, injiqlik, uyquchanlik, ishtaha pasayishi" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi"],
+    qollash: { kattalar: "0,5 ml m/i (1 doza; ko'rsatmага ko'ra polisaxarid vaksina bilan ketma-ketlik).", bolalar: "Milliy kalendarга ko'ra (odatда 2–3 doza + revaksinatsiya)" },
+    chiqarish: "M/i yuborish uchun suspenziya 0,5 ml (oldindan to'ldirilgan shprits)"
+  },
+  ru: {
+    gruppa: "Вакцины — против пневмококка (конъюгированная)",
+    farmTasir: "Активная иммунизация (пневмококковая инфекция)",
+    farmakodinamika: `Пневмококковая конъюгированная вакцина — капсульные полисахариды наиболее распространённых серотипов Streptococcus pneumoniae, конъюгированные с белком-носителем. Формирует Т-зависимый иммунный ответ и иммунную память, предупреждая пневмококковые пневмонию, менингит, отит и бактериемию. Эффективна и у грудных детей.`,
+    farmakokinetika: { sorish: "В/м", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Антитела формируются за несколько недель" },
+    korsatmalar: ["Профилактика пневмококковой инфекции (грудные дети, пожилые, хронические болезни, иммунодефицит)"],
+    qarrshi: ["Тяжёлая аллергия на компоненты (в т.ч. дифтерийный белок-носитель)", "Острое заболевание (временно)"],
+    nojoya: { "Местные": "Боль, покраснение, отёк", "Общие": "Лихорадка, капризность, сонливость, снижение аппетита" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ"],
+    qollash: { kattalar: "0,5 мл в/м (1 доза; по показаниям — последовательность с полисахаридной вакциной).", bolalar: "По национальному календарю (обычно 2–3 дозы + ревакцинация)" },
+    chiqarish: "Суспензия для в/м введения 0,5 мл (предзаполненный шприц)"
+  },
+  en: {
+    gruppa: "Vaccines — against pneumococcus (conjugate)",
+    farmTasir: "Active immunization (pneumococcal disease)",
+    farmakodinamika: `Pneumococcal conjugate vaccine consists of the capsular polysaccharides of the most common Streptococcus pneumoniae serotypes conjugated to a carrier protein. It produces a T-dependent immune response and immune memory, preventing pneumococcal pneumonia, meningitis, otitis and bacteraemia. It is effective even in infants.`,
+    farmakokinetika: { sorish: "IM", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Antibodies develop over several weeks" },
+    korsatmalar: ["Prophylaxis of pneumococcal disease (infants, the elderly, chronic disease, immunodeficiency)"],
+    qarrshi: ["Severe allergy to components (incl. diphtheria carrier protein)", "Acute illness (temporary)"],
+    nojoya: { "Local": "Pain, redness, swelling", "General": "Fever, irritability, drowsiness, decreased appetite" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Immunosuppressants reduce the response"],
+    qollash: { kattalar: "0.5 mL IM (1 dose; per indication a sequence with polysaccharide vaccine).", bolalar: "Per the national schedule (usually 2–3 doses + booster)" },
+    chiqarish: "Suspension for IM injection 0.5 mL (pre-filled syringe)"
+  }
+},
+
+"J07AX": {
+  uz: {
+    gruppa: "Vaksinalar — bakterial lizat (immunostimulyator)",
+    farmTasir: "Maxsus bo'lmagan immunostimulyatsiya (respirator)",
+    farmakodinamika: `Bakterial lizatlar — nafas yo'llari infeksiyalarining eng ko'p qo'zg'atuvchilari (Staphylococcus aureus, Streptococcus pyogenes, Klebsiella pneumoniae, Haemophilus influenzae, Streptococcus pneumoniae va boshqalar) ning liofillangan lizatlari aralashmasi. Mahalliy va umumiy immunitetни (sekretor IgA, makrofaglar, T/B-limfotsitlar) rag'batlantirib, takroriy respirator infeksiyalар chastotasini kamaytiradi.`,
+    farmakokinetika: { sorish: "Og'iz orqali yoki sublingval; mahalliy immun stimulyatsiya", tarqalish: "Shilliq qavat bilan bog'liq limfoid to'qima", metabolizm: "—", chiqarilish: "—" },
+    korsatmalar: ["Yuqori va quyi nafas yo'llari takroriy infeksiyalari profilaktikasi va kompleks davosi"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik", "Autoimmun kasalliklar (ehtiyotkorlik)"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i", "Allergik": "Toshma, qichishish (kamdan-kam)" },
+    dozadan: "Maxsus ma'lumot yo'q; simptomatik davo.",
+    ozarotasir: ["Sezilarli o'zaro ta'sirlar belgilanmagan"],
+    qollash: { kattalar: "1 kapsula/tabletka kuniga 1 marta och qoringa, kurslarда (ishlab chiqaruvchi sxemasiga ko'ra).", bolalar: "Yoshга ko'ra (odatда 6 oydan)" },
+    chiqarish: "Kapsulalar; sublingval tabletkalar"
+  },
+  ru: {
+    gruppa: "Вакцины — бактериальный лизат (иммуностимулятор)",
+    farmTasir: "Неспецифическая иммуностимуляция (респираторная)",
+    farmakodinamika: `Бактериальные лизаты — смесь лиофилизированных лизатов наиболее частых возбудителей респираторных инфекций (Staphylococcus aureus, Streptococcus pyogenes, Klebsiella pneumoniae, Haemophilus influenzae, Streptococcus pneumoniae и др.). Стимулируют местный и общий иммунитет (секреторный IgA, макрофаги, Т/В-лимфоциты), снижая частоту повторных респираторных инфекций.`,
+    farmakokinetika: { sorish: "Внутрь или сублингвально; местная иммуностимуляция", tarqalish: "Лимфоидная ткань слизистых", metabolizm: "—", chiqarilish: "—" },
+    korsatmalar: ["Профилактика и комплексное лечение повторных инфекций верхних и нижних дыхательных путей"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Аутоиммунные заболевания (осторожно)"],
+    nojoya: { "ЖКТ": "Тошнота, боль в животе", "Аллергические": "Сыпь, зуд (редко)" },
+    dozadan: "Специальных данных нет; симптоматическая терапия.",
+    ozarotasir: ["Значимые взаимодействия не установлены"],
+    qollash: { kattalar: "1 капсула/таблетка 1 раз в сутки натощак, курсами (по схеме производителя).", bolalar: "По возрасту (обычно с 6 месяцев)" },
+    chiqarish: "Капсулы; сублингвальные таблетки"
+  },
+  en: {
+    gruppa: "Vaccines — bacterial lysate (immunostimulant)",
+    farmTasir: "Non-specific immunostimulation (respiratory)",
+    farmakodinamika: `Bacterial lysates are a mixture of lyophilized lysates of the most frequent respiratory pathogens (Staphylococcus aureus, Streptococcus pyogenes, Klebsiella pneumoniae, Haemophilus influenzae, Streptococcus pneumoniae and others). They stimulate local and systemic immunity (secretory IgA, macrophages, T/B lymphocytes), reducing the frequency of recurrent respiratory infections.`,
+    farmakokinetika: { sorish: "Oral or sublingual; local immunostimulation", tarqalish: "Mucosa-associated lymphoid tissue", metabolizm: "—", chiqarilish: "—" },
+    korsatmalar: ["Prophylaxis and adjunctive treatment of recurrent upper and lower respiratory tract infections"],
+    qarrshi: ["Hypersensitivity to components", "Autoimmune disease (caution)"],
+    nojoya: { "GI": "Nausea, abdominal pain", "Allergic": "Rash, itching (rare)" },
+    dozadan: "No specific data; supportive care.",
+    ozarotasir: ["No significant interactions established"],
+    qollash: { kattalar: "1 capsule/tablet once daily on an empty stomach, in courses (per manufacturer's schedule).", bolalar: "By age (usually from 6 months)" },
+    chiqarish: "Capsules; sublingual tablets"
+  }
+},
+
+"J03": {
+  uz: {
+    gruppa: "Vaksinalar — DTP va Hib (kombinatsiya)",
+    farmTasir: "Faol immunizatsiya (difteriya, qoqshol, ko'kyo'tal, Hib)",
+    farmakodinamika: `Kombinatsiyalangan vaksina — difteriya va qoqshol anatoksinlari, ko'kyo'tal komponenti hamda Haemophilus influenzae tip b (Hib) konyugat polisaxaridi. To'rt qo'zg'atuvchi/toksinга qarshi faol immunitet hosil qiladi; Hib komponenti go'daklarда meningit va epiglottitни oldini oladi.`,
+    farmakokinetika: { sorish: "M/i; sekin so'rilish (adsorbat)", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Antitanalar bir necha hafta ichida shakllanadi" },
+    korsatmalar: ["Difteriya, qoqshol, ko'kyo'tal va Hib infeksiyasi profilaktikasi (chaqaloqlar bazaviy immunizatsiyasi)"],
+    qarrshi: ["Avvalgi dozага og'ir reaksiya (ensefalopatiya, anafilaksiya)", "Progressiv asab kasalligi (koklyush komponenti)", "O'tkir kasallik (vaqtincha)"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish, infiltrat", "Umumiy": "Isitma, injiqlik; kamdan-kam — talvasa, davomli yig'i" },
+    dozadan: "Simptomatik davo; antipiretiklar.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi"],
+    qollash: { kattalar: "Qo'llanilmaydi (pediatrik)", bolalar: "Milliy kalendarга ko'ra 0,5 ml m/i (bazaviy 3 doza + revaksinatsiya)" },
+    chiqarish: "M/i yuborish uchun suspenziya 0,5 ml (± Hib liofilizati)"
+  },
+  ru: {
+    gruppa: "Вакцины — АКДС и Hib (комбинация)",
+    farmTasir: "Активная иммунизация (дифтерия, столбняк, коклюш, Hib)",
+    farmakodinamika: `Комбинированная вакцина — дифтерийный и столбнячный анатоксины, коклюшный компонент и конъюгированный полисахарид Haemophilus influenzae типа b (Hib). Формирует активный иммунитет против четырёх возбудителей; Hib-компонент предупреждает менингит и эпиглоттит у грудных детей.`,
+    farmakokinetika: { sorish: "В/м; медленное всасывание (сорбат)", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Антитела формируются за несколько недель" },
+    korsatmalar: ["Профилактика дифтерии, столбняка, коклюша и Hib-инфекции (базовая иммунизация детей)"],
+    qarrshi: ["Тяжёлая реакция на предыдущую дозу (энцефалопатия, анафилаксия)", "Прогрессирующее заболевание ЦНС (коклюшный компонент)", "Острое заболевание (временно)"],
+    nojoya: { "Местные": "Боль, покраснение, инфильтрат", "Общие": "Лихорадка, капризность; редко — судороги, длительный плач" },
+    dozadan: "Симптоматическая терапия; антипиретики.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ"],
+    qollash: { kattalar: "Не применяется (педиатрическая)", bolalar: "По национальному календарю 0,5 мл в/м (базовые 3 дозы + ревакцинация)" },
+    chiqarish: "Суспензия для в/м введения 0,5 мл (± лиофилизат Hib)"
+  },
+  en: {
+    gruppa: "Vaccines — DTP and Hib (combination)",
+    farmTasir: "Active immunization (diphtheria, tetanus, pertussis, Hib)",
+    farmakodinamika: `A combination vaccine of diphtheria and tetanus toxoids, a pertussis component and conjugated Haemophilus influenzae type b (Hib) polysaccharide. It produces active immunity against four pathogens; the Hib component prevents meningitis and epiglottitis in infants.`,
+    farmakokinetika: { sorish: "IM; slow release (adsorbate)", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Antibodies develop over several weeks" },
+    korsatmalar: ["Prophylaxis of diphtheria, tetanus, pertussis and Hib disease (primary childhood immunization)"],
+    qarrshi: ["Severe reaction to a previous dose (encephalopathy, anaphylaxis)", "Progressive CNS disease (pertussis component)", "Acute illness (temporary)"],
+    nojoya: { "Local": "Pain, redness, infiltrate", "General": "Fever, irritability; rarely seizures, persistent crying" },
+    dozadan: "Supportive care; antipyretics.",
+    ozarotasir: ["Immunosuppressants reduce the response"],
+    qollash: { kattalar: "Not used (paediatric)", bolalar: "Per the national schedule 0.5 mL IM (3 primary doses + booster)" },
+    chiqarish: "Suspension for IM injection 0.5 mL (± Hib powder)"
+  }
+},
+
+"J07X": {
+  uz: {
+    gruppa: "Vaksinalar — boshqa (immunizatsiya vositasi)",
+    farmTasir: "Faol immunizatsiya",
+    farmakodinamika: `Ushbu guruh boshqa vaksina/immunizatsiya preparatlarini o'z ichiga oladi. Umumiy tamoyil — antigen (zaiflashtirilgan/o'ldirilgan qo'zg'atuvchi, uning bo'lagi yoki toksoid) kiritilib, organizmда o'ziga xos antitanalar va immun xotira shakllantiriladi (faol immunitet). Aniq tarkib va sxema mahsulot yo'riqnomasига ko'ra belgilanadi.`,
+    farmakokinetika: { sorish: "Mahsulotга ko'ra (odatда m/i yoki teri ostiga)", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Immunitet bir necha hafta ichida shakllanadi" },
+    korsatmalar: ["Tegishli infeksiya profilaktikasi (mahsulot ko'rsatmasiga ko'ra)"],
+    qarrshi: ["Komponentlarга og'ir allergiya", "O'tkir kasallik (vaqtincha)", "Tirik vaksinaларда immun tanqisligi va homiladorlik"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish", "Umumiy": "Isitma, holsizlik; kamdan-kam — allergik reaksiya" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Immunosupressantlar va immunoglobulinlar javobni pasaytirishi mumkin"],
+    qollash: { kattalar: "Mahsulot yo'riqnomasига ko'ra", bolalar: "Yoshга va mahsulotга ko'ra" },
+    chiqarish: "Inyeksiya uchun eritma/suspenziya/liofilizat"
+  },
+  ru: {
+    gruppa: "Вакцины — прочие (средство иммунизации)",
+    farmTasir: "Активная иммунизация",
+    farmakodinamika: `Данная группа включает прочие вакцины/средства иммунизации. Общий принцип — введение антигена (ослабленный/убитый возбудитель, его фрагмент или токсоид) для формирования специфических антител и иммунной памяти (активный иммунитет). Точный состав и схема определяются инструкцией к препарату.`,
+    farmakokinetika: { sorish: "По препарату (обычно в/м или подкожно)", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Иммунитет формируется за несколько недель" },
+    korsatmalar: ["Профилактика соответствующей инфекции (по показаниям препарата)"],
+    qarrshi: ["Тяжёлая аллергия на компоненты", "Острое заболевание (временно)", "Для живых вакцин — иммунодефицит и беременность"],
+    nojoya: { "Местные": "Боль, покраснение", "Общие": "Лихорадка, недомогание; редко — аллергическая реакция" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Иммуносупрессанты и иммуноглобулины могут снижать ответ"],
+    qollash: { kattalar: "По инструкции к препарату", bolalar: "По возрасту и препарату" },
+    chiqarish: "Раствор/суспензия/лиофилизат для инъекций"
+  },
+  en: {
+    gruppa: "Vaccines — other (immunizing agent)",
+    farmTasir: "Active immunization",
+    farmakodinamika: `This group includes other vaccines/immunizing agents. The general principle is administration of an antigen (attenuated/killed pathogen, its fragment or a toxoid) to generate specific antibodies and immune memory (active immunity). The exact composition and schedule are defined by the product information.`,
+    farmakokinetika: { sorish: "Per product (usually IM or subcutaneous)", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Immunity develops over several weeks" },
+    korsatmalar: ["Prophylaxis of the relevant infection (per the product indication)"],
+    qarrshi: ["Severe allergy to components", "Acute illness (temporary)", "For live vaccines — immunodeficiency and pregnancy"],
+    nojoya: { "Local": "Pain, redness", "General": "Fever, malaise; rarely allergic reaction" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Immunosuppressants and immunoglobulins may reduce the response"],
+    qollash: { kattalar: "Per the product information", bolalar: "By age and product" },
+    chiqarish: "Solution/suspension/powder for injection"
+  }
+},
+
+"J07BB02": {
+  uz: {
+    gruppa: "Vaksinalar — grippга qarshi",
+    farmTasir: "Faol immunizatsiya (gripp)",
+    farmakodinamika: `Gripp vaksinasi — joriy mavsum uchun tavsiya etilgan gripp virusi shtammlarining inaktivatsiyalangan antigenlari (bo'lingan/subbirlik) yoki tirik attenuatsiyalangan shtammlari. Virus gemagglyutininiга qarshi antitanalar ishlab chiqarilishini rag'batlantirib, grippga qarshi mavsumiy himoya hosil qiladi. Shtamm tarkibi har yili yangilanadi.`,
+    farmakokinetika: { sorish: "M/i yoki teri ostiga (inaktivatsiyalangan), intranazal (tirik)", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Himoya darajасидаги antitanalar ~2–3 hafta ichida" },
+    korsatmalar: ["Mavsumiy gripp profilaktikasi (ayniqsa keksalar, surunkali kasalliklар, homiladorlar, tibbiyot xodimlari, bolalar)"],
+    qarrshi: ["Tuxum oqsili yoki komponentlарга og'ir allergiya", "O'tkir kasallik (vaqtincha)", "Tirik intranazal shaklда — immun tanqisligi, homiladorlik"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish", "Umumiy": "Isitma, holsizlik, mialgiya (1–2 kun)" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi"],
+    qollash: { kattalar: "0,5 ml m/i, yiliga 1 marta (mavsum oldidan).", bolalar: "Yoshга ko'ra 0,25–0,5 ml; birinchi yil 2 doza (4 hafta oraliq)" },
+    chiqarish: "Inyeksiya uchun suspenziya 0,5 ml (oldindan to'ldirilgan shprits); intranazal sprey"
+  },
+  ru: {
+    gruppa: "Вакцины — против гриппа",
+    farmTasir: "Активная иммунизация (грипп)",
+    farmakodinamika: `Вакцина против гриппа — инактивированные антигены (расщеплённые/субъединичные) или живые аттенуированные штаммы вирусов гриппа, рекомендованные на текущий сезон. Стимулирует выработку антител к гемагглютинину вируса, формируя сезонную защиту. Штаммовый состав обновляется ежегодно.`,
+    farmakokinetika: { sorish: "В/м или подкожно (инактивированная), интраназально (живая)", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Защитные антитела через ~2–3 недели" },
+    korsatmalar: ["Профилактика сезонного гриппа (особенно пожилые, хронические болезни, беременные, медработники, дети)"],
+    qarrshi: ["Тяжёлая аллергия на белок яйца или компоненты", "Острое заболевание (временно)", "Для живой интраназальной формы — иммунодефицит, беременность"],
+    nojoya: { "Местные": "Боль, покраснение", "Общие": "Лихорадка, недомогание, миалгия (1–2 дня)" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ"],
+    qollash: { kattalar: "0,5 мл в/м, 1 раз в год (перед сезоном).", bolalar: "По возрасту 0,25–0,5 мл; в первый год 2 дозы (интервал 4 недели)" },
+    chiqarish: "Суспензия для инъекций 0,5 мл (предзаполненный шприц); интраназальный спрей"
+  },
+  en: {
+    gruppa: "Vaccines — against influenza",
+    farmTasir: "Active immunization (influenza)",
+    farmakodinamika: `Influenza vaccine contains inactivated antigens (split/subunit) or live attenuated strains of the influenza viruses recommended for the current season. It stimulates antibodies to the viral haemagglutinin, providing seasonal protection. The strain composition is updated annually.`,
+    farmakokinetika: { sorish: "IM or subcutaneous (inactivated), intranasal (live)", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Protective antibodies by ~2–3 weeks" },
+    korsatmalar: ["Prophylaxis of seasonal influenza (especially the elderly, chronic disease, pregnant women, healthcare workers, children)"],
+    qarrshi: ["Severe allergy to egg protein or components", "Acute illness (temporary)", "For the live intranasal form — immunodeficiency, pregnancy"],
+    nojoya: { "Local": "Pain, redness", "General": "Fever, malaise, myalgia (1–2 days)" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Immunosuppressants reduce the response"],
+    qollash: { kattalar: "0.5 mL IM once a year (before the season).", bolalar: "By age 0.25–0.5 mL; in the first year 2 doses (4-week interval)" },
+    chiqarish: "Suspension for injection 0.5 mL (pre-filled syringe); intranasal spray"
+  }
+},
+
+"J07BC01": {
+  uz: {
+    gruppa: "Vaksinalar — B gepatitiga qarshi",
+    farmTasir: "Faol immunizatsiya (B gepatiti)",
+    farmakodinamika: `B gepatiti vaksinasi — rekombinant texnologiya bilan olingan virusning sirt antigeni (HBsAg), adsorbentга o'tkazilgan. HBsAg ga qarshi antitanalar (anti-HBs) ishlab chiqarilishini rag'batlantirib, B gepatiti virusi bilan zararlanishdан himoya qiladi.`,
+    farmakokinetika: { sorish: "M/i; sekin so'rilish (adsorbat)", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Himoya darajасидаги anti-HBs to'liq kursdан so'ng" },
+    korsatmalar: ["B gepatiti profilaktikasi (yangi tug'ilganlar, xavf guruhlari, tibbiyot xodimlari, dializ bemorlari)"],
+    qarrshi: ["Achitqi yoki komponentlарга og'ir allergiya", "O'tkir kasallik (vaqtincha)"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish", "Umumiy": "Isitma, holsizlik, bosh og'rig'i" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi (yuqori doza/qo'shimcha doza kerak bo'lishi mumkin)"],
+    qollash: { kattalar: "0–1–6 oy sxemasида 1,0 ml m/i (deltaga).", bolalar: "Yangi tug'ilganда birinchi 24 soatда, keyin kalendarга ko'ra; 0,5 ml" },
+    chiqarish: "M/i yuborish uchun suspenziya 0,5 ml (bolalar), 1,0 ml (kattalar)"
+  },
+  ru: {
+    gruppa: "Вакцины — против гепатита В",
+    farmTasir: "Активная иммунизация (гепатит В)",
+    farmakodinamika: `Вакцина против гепатита В — поверхностный антиген вируса (HBsAg), полученный рекомбинантным путём и сорбированный на адсорбенте. Стимулирует выработку антител (анти-HBs) к HBsAg, защищая от заражения вирусом гепатита В.`,
+    farmakokinetika: { sorish: "В/м; медленное всасывание (сорбат)", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Защитный уровень анти-HBs после полного курса" },
+    korsatmalar: ["Профилактика гепатита В (новорождённые, группы риска, медработники, пациенты на диализе)"],
+    qarrshi: ["Тяжёлая аллергия на дрожжи или компоненты", "Острое заболевание (временно)"],
+    nojoya: { "Местные": "Боль, покраснение", "Общие": "Лихорадка, недомогание, головная боль" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ (может требоваться более высокая/дополнительная доза)"],
+    qollash: { kattalar: "По схеме 0–1–6 мес 1,0 мл в/м (в дельтовидную мышцу).", bolalar: "Новорождённым в первые 24 ч, затем по календарю; 0,5 мл" },
+    chiqarish: "Суспензия для в/м введения 0,5 мл (дети), 1,0 мл (взрослые)"
+  },
+  en: {
+    gruppa: "Vaccines — against hepatitis B",
+    farmTasir: "Active immunization (hepatitis B)",
+    farmakodinamika: `Hepatitis B vaccine is the viral surface antigen (HBsAg) produced by recombinant technology and adsorbed onto an adjuvant. It stimulates antibodies (anti-HBs) to HBsAg, protecting against hepatitis B virus infection.`,
+    farmakokinetika: { sorish: "IM; slow release (adsorbate)", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Protective anti-HBs level after the full course" },
+    korsatmalar: ["Hepatitis B prophylaxis (newborns, risk groups, healthcare workers, dialysis patients)"],
+    qarrshi: ["Severe allergy to yeast or components", "Acute illness (temporary)"],
+    nojoya: { "Local": "Pain, redness", "General": "Fever, malaise, headache" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Immunosuppressants reduce the response (higher/additional dose may be needed)"],
+    qollash: { kattalar: "0–1–6 month schedule, 1.0 mL IM (deltoid).", bolalar: "Newborns within the first 24 h, then per schedule; 0.5 mL" },
+    chiqarish: "Suspension for IM injection 0.5 mL (children), 1.0 mL (adults)"
+  }
+},
+
+"J07BC02": {
+  uz: {
+    gruppa: "Vaksinalar — A gepatitiga qarshi",
+    farmTasir: "Faol immunizatsiya (A gepatiti)",
+    farmakodinamika: `A gepatiti vaksinasi — inaktivatsiyalangan (o'ldirilgan) A gepatiti virusi, adsorbentга o'tkazilgan. Virusга qarshi antitanalar ishlab chiqarilishini rag'batlantirib, A gepatiti bilan zararlanishdан uzoq muddatli himoya hosil qiladi.`,
+    farmakokinetika: { sorish: "M/i; sekin so'rilish (adsorbat)", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Himoya darajасидаги antitanalar ~2–4 hafta ichida" },
+    korsatmalar: ["A gepatiti profilaktikasi (endemik hudud, xavf guruhlari, sayohatchilar, oziq-ovqat sohasi xodimlari)"],
+    qarrshi: ["Komponentlарга og'ir allergiya", "O'tkir kasallik (vaqtincha)"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish", "Umumiy": "Isitma, holsizlik, bosh og'rig'i" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi"],
+    qollash: { kattalar: "0 va 6–12 oy sxemasида 1,0 ml m/i.", bolalar: "≥1 yoshдан 0,5 ml, 2 doza (0 va 6–12 oy)" },
+    chiqarish: "M/i yuborish uchun suspenziya 0,5 ml (bolalar), 1,0 ml (kattalar)"
+  },
+  ru: {
+    gruppa: "Вакцины — против гепатита А",
+    farmTasir: "Активная иммунизация (гепатит А)",
+    farmakodinamika: `Вакцина против гепатита А — инактивированный (убитый) вирус гепатита А, сорбированный на адсорбенте. Стимулирует выработку антител против вируса, формируя длительную защиту от заражения гепатитом А.`,
+    farmakokinetika: { sorish: "В/м; медленное всасывание (сорбат)", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Защитные антитела через ~2–4 недели" },
+    korsatmalar: ["Профилактика гепатита А (эндемичный регион, группы риска, путешественники, работники пищевой сферы)"],
+    qarrshi: ["Тяжёлая аллергия на компоненты", "Острое заболевание (временно)"],
+    nojoya: { "Местные": "Боль, покраснение", "Общие": "Лихорадка, недомогание, головная боль" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ"],
+    qollash: { kattalar: "По схеме 0 и 6–12 мес 1,0 мл в/м.", bolalar: "С 1 года 0,5 мл, 2 дозы (0 и 6–12 мес)" },
+    chiqarish: "Суспензия для в/м введения 0,5 мл (дети), 1,0 мл (взрослые)"
+  },
+  en: {
+    gruppa: "Vaccines — against hepatitis A",
+    farmTasir: "Active immunization (hepatitis A)",
+    farmakodinamika: `Hepatitis A vaccine is the inactivated (killed) hepatitis A virus adsorbed onto an adjuvant. It stimulates antibodies against the virus, providing long-lasting protection from hepatitis A infection.`,
+    farmakokinetika: { sorish: "IM; slow release (adsorbate)", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Protective antibodies by ~2–4 weeks" },
+    korsatmalar: ["Hepatitis A prophylaxis (endemic region, risk groups, travellers, food handlers)"],
+    qarrshi: ["Severe allergy to components", "Acute illness (temporary)"],
+    nojoya: { "Local": "Pain, redness", "General": "Fever, malaise, headache" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Immunosuppressants reduce the response"],
+    qollash: { kattalar: "0 and 6–12 month schedule, 1.0 mL IM.", bolalar: "From 1 year 0.5 mL, 2 doses (0 and 6–12 months)" },
+    chiqarish: "Suspension for IM injection 0.5 mL (children), 1.0 mL (adults)"
+  }
+},
+
+"J07BD01": {
+  uz: {
+    gruppa: "Vaksinalar — qizamiqга qarshi (tirik)",
+    farmTasir: "Faol immunizatsiya (qizamiq)",
+    farmakodinamika: `Qizamiq vaksinasi — qizamiq virusining tirik attenuatsiyalangan (zaiflashtirilgan) shtammi. Organizmда yengil, simptomsiz infeksiyaни taqlid qilib, virusга qarshi uzoq muddatli antitanalar va hujayraviy immunitet hosil qiladi.`,
+    farmakokinetika: { sorish: "Teri ostiga", tarqalish: "Regional limfa va qonда cheklangan virus replikatsiyasi", metabolizm: "—", chiqarilish: "Immunitet ~2–3 hafta ichida shakllanadi" },
+    korsatmalar: ["Qizamiq profilaktikasi (milliy kalendar; ko'pincha MMR tarkibida)"],
+    qarrshi: ["Immun tanqisligi (tug'ma, OIV/OITS og'ir bosqichi, immunosupressiya)", "Homiladorlik", "Tuxum/neomitsinга og'ir allergiya", "Yaqinda immunoglobulin/qon olingani"],
+    nojoya: { "Umumiy": "5–12-kunда isitma, yengil toshma, limfadenit", "Kamdan-kam": "Talvasa (isitma fonida), allergik reaksiya" },
+    dozadan: "Simptomatik davo; antipiretiklar.",
+    ozarotasir: ["Immunoglobulin va qon mahsulotlari javobni pasaytiradi (≥3 oy interval)", "Boshqa tirik vaksinalar bilan bir kunда yoki ≥4 hafta interval"],
+    qollash: { kattalar: "Immunitet bo'lmaganларда 0,5 ml teri ostiga (zarurда 2 doza)", bolalar: "12 oyда va 6 yoshда (MMR tarkibida), 0,5 ml" },
+    chiqarish: "Teri ostiga yuborish uchun liofilizat (erituvchi bilan)"
+  },
+  ru: {
+    gruppa: "Вакцины — против кори (живая)",
+    farmTasir: "Активная иммунизация (корь)",
+    farmakodinamika: `Коревая вакцина — живой аттенуированный (ослабленный) штамм вируса кори. Имитируя лёгкую бессимптомную инфекцию, формирует длительные антитела и клеточный иммунитет против вируса.`,
+    farmakokinetika: { sorish: "Подкожно", tarqalish: "Ограниченная репликация вируса в регионарных лимфоузлах и крови", metabolizm: "—", chiqarilish: "Иммунитет формируется за ~2–3 недели" },
+    korsatmalar: ["Профилактика кори (национальный календарь; чаще в составе MMR)"],
+    qarrshi: ["Иммунодефицит (врождённый, тяжёлая стадия ВИЧ/СПИД, иммуносупрессия)", "Беременность", "Тяжёлая аллергия на яйцо/неомицин", "Недавнее введение иммуноглобулина/крови"],
+    nojoya: { "Общие": "На 5–12-й день лихорадка, лёгкая сыпь, лимфаденит", "Редко": "Судороги (на фоне лихорадки), аллергическая реакция" },
+    dozadan: "Симптоматическая терапия; антипиретики.",
+    ozarotasir: ["Иммуноглобулин и препараты крови снижают ответ (интервал ≥3 мес)", "С другими живыми вакцинами — в один день или интервал ≥4 недели"],
+    qollash: { kattalar: "Не имеющим иммунитета 0,5 мл подкожно (при необходимости 2 дозы)", bolalar: "В 12 мес и 6 лет (в составе MMR), 0,5 мл" },
+    chiqarish: "Лиофилизат для подкожного введения (с растворителем)"
+  },
+  en: {
+    gruppa: "Vaccines — against measles (live)",
+    farmTasir: "Active immunization (measles)",
+    farmakodinamika: `Measles vaccine is a live attenuated strain of measles virus. By mimicking a mild asymptomatic infection it generates long-lasting antibodies and cell-mediated immunity against the virus.`,
+    farmakokinetika: { sorish: "Subcutaneous", tarqalish: "Limited viral replication in regional lymph nodes and blood", metabolizm: "—", chiqarilish: "Immunity develops over ~2–3 weeks" },
+    korsatmalar: ["Measles prophylaxis (national schedule; usually within MMR)"],
+    qarrshi: ["Immunodeficiency (congenital, advanced HIV/AIDS, immunosuppression)", "Pregnancy", "Severe allergy to egg/neomycin", "Recent immunoglobulin/blood product"],
+    nojoya: { "General": "Fever, mild rash, lymphadenitis on days 5–12", "Rare": "Febrile seizures, allergic reaction" },
+    dozadan: "Supportive care; antipyretics.",
+    ozarotasir: ["Immunoglobulin and blood products reduce the response (≥3-month interval)", "With other live vaccines — same day or ≥4-week interval"],
+    qollash: { kattalar: "If non-immune, 0.5 mL subcutaneous (2 doses if needed)", bolalar: "At 12 months and 6 years (within MMR), 0.5 mL" },
+    chiqarish: "Powder for subcutaneous injection (with diluent)"
+  }
+},
+
+"J07BD52": {
+  uz: {
+    gruppa: "Vaksinalar — qizamiq, tepki, qizilcha (MMR, tirik)",
+    farmTasir: "Faol immunizatsiya (3 ta virusли infeksiya)",
+    farmakodinamika: `MMR — qizamiq, tepki (parotit) va qizilcha (qizamiqcha) viruslarining tirik attenuatsiyalangan shtammlari kombinatsiyasi. Uchala virusга qarshi bir vaqtning o'zida uzoq muddatli antitanalar va hujayraviy immunitet hosil qiladi.`,
+    farmakokinetika: { sorish: "Teri ostiga", tarqalish: "Regional limfaда cheklangan replikatsiya", metabolizm: "—", chiqarilish: "Immunitet ~2–3 hafta ichida shakllanadi" },
+    korsatmalar: ["Qizamiq, tepki va qizilcha profilaktikasi (milliy kalendar)"],
+    qarrshi: ["Immun tanqisligi (og'ir)", "Homiladorlik (va keyingi 1 oy)", "Tuxum/neomitsinга og'ir allergiya", "Yaqinda immunoglobulin/qon olingani"],
+    nojoya: { "Umumiy": "5–12-kunда isitma, yengil toshma, parotit, limfadenit", "Kamdan-kam": "Vaqtincha artralgiya (qizilcha komponenti), talvasa, trombotsitopeniya" },
+    dozadan: "Simptomatik davo; antipiretiklar.",
+    ozarotasir: ["Immunoglobulin/qon mahsulotlari javobni pasaytiradi (≥3 oy interval)", "Boshqa tirik vaksinalар bilan bir kunда yoki ≥4 hafta interval"],
+    qollash: { kattalar: "Immunitet bo'lmaganларда 0,5 ml teri ostiga (2 doza)", bolalar: "12 oyда va 6 yoshда 0,5 ml teri ostiga" },
+    chiqarish: "Teri ostiga yuborish uchun liofilizat (erituvchi bilan)"
+  },
+  ru: {
+    gruppa: "Вакцины — корь, паротит, краснуха (MMR, живая)",
+    farmTasir: "Активная иммунизация (3 вирусные инфекции)",
+    farmakodinamika: `MMR — комбинация живых аттенуированных штаммов вирусов кори, эпидемического паротита и краснухи. Одновременно формирует длительные антитела и клеточный иммунитет против всех трёх вирусов.`,
+    farmakokinetika: { sorish: "Подкожно", tarqalish: "Ограниченная репликация в регионарных лимфоузлах", metabolizm: "—", chiqarilish: "Иммунитет формируется за ~2–3 недели" },
+    korsatmalar: ["Профилактика кори, паротита и краснухи (национальный календарь)"],
+    qarrshi: ["Тяжёлый иммунодефицит", "Беременность (и 1 месяц после)", "Тяжёлая аллергия на яйцо/неомицин", "Недавнее введение иммуноглобулина/крови"],
+    nojoya: { "Общие": "На 5–12-й день лихорадка, лёгкая сыпь, паротит, лимфаденит", "Редко": "Преходящая артралгия (краснушный компонент), судороги, тромбоцитопения" },
+    dozadan: "Симптоматическая терапия; антипиретики.",
+    ozarotasir: ["Иммуноглобулин/препараты крови снижают ответ (интервал ≥3 мес)", "С другими живыми вакцинами — в один день или интервал ≥4 недели"],
+    qollash: { kattalar: "Не имеющим иммунитета 0,5 мл подкожно (2 дозы)", bolalar: "В 12 мес и 6 лет 0,5 мл подкожно" },
+    chiqarish: "Лиофилизат для подкожного введения (с растворителем)"
+  },
+  en: {
+    gruppa: "Vaccines — measles, mumps, rubella (MMR, live)",
+    farmTasir: "Active immunization (3 viral infections)",
+    farmakodinamika: `MMR combines live attenuated strains of the measles, mumps and rubella viruses. It simultaneously generates long-lasting antibodies and cell-mediated immunity against all three viruses.`,
+    farmakokinetika: { sorish: "Subcutaneous", tarqalish: "Limited replication in regional lymph nodes", metabolizm: "—", chiqarilish: "Immunity develops over ~2–3 weeks" },
+    korsatmalar: ["Prophylaxis of measles, mumps and rubella (national schedule)"],
+    qarrshi: ["Severe immunodeficiency", "Pregnancy (and 1 month after)", "Severe allergy to egg/neomycin", "Recent immunoglobulin/blood product"],
+    nojoya: { "General": "Fever, mild rash, parotitis, lymphadenitis on days 5–12", "Rare": "Transient arthralgia (rubella component), seizures, thrombocytopenia" },
+    dozadan: "Supportive care; antipyretics.",
+    ozarotasir: ["Immunoglobulin/blood products reduce the response (≥3-month interval)", "With other live vaccines — same day or ≥4-week interval"],
+    qollash: { kattalar: "If non-immune, 0.5 mL subcutaneous (2 doses)", bolalar: "At 12 months and 6 years, 0.5 mL subcutaneous" },
+    chiqarish: "Powder for subcutaneous injection (with diluent)"
+  }
+},
+
+"J07BF04": {
+  uz: {
+    gruppa: "Vaksinalar — poliomielitга qarshi (og'iz orqali, tirik)",
+    farmTasir: "Faol immunizatsiya (poliomielit)",
+    farmakodinamika: `Og'iz orqali poliomielit vaksinasi (OPV) — poliovirusning tirik attenuatsiyalangan shtammlari (Sabin tip 1, 3 — bivalent). Ichakда ko'payib, qonда antitanalar va ichakда mahalliy (sekretor IgA) immunitet hosil qiladi — bu virus tarqalishini ham kamaytiradi.`,
+    farmakokinetika: { sorish: "Og'iz orqali; ichak shilliq qavatida replikatsiya", tarqalish: "Ichak limfoid to'qimasi va qonга", metabolizm: "—", chiqarilish: "Vaktsina virusi najas bilan chiqishi mumkin" },
+    korsatmalar: ["Poliomielit profilaktikasi (milliy kalendar; ko'pincha IPV bilan ketma-ketlikда)"],
+    qarrshi: ["Immun tanqisligi (bola yoki uy a'zolarида) — IPV afzal", "O'tkir kasallik (vaqtincha)"],
+    nojoya: { "Umumiy": "Odatда yaxshi ko'tariladi", "Juda kamdan-kam": "Vaktsina bilan bog'liq paralitik poliomielit (VAPP)" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi", "Boshqa kalendar vaksinalar bilan birga beriladi"],
+    qollash: { kattalar: "Odatда qo'llanilmaydi (epidemiologik ko'rsatmага ko'ra)", bolalar: "Milliy kalendarга ko'ra og'iz orqali tomchilab (IPV bilan sxema)" },
+    chiqarish: "Og'iz orqali qabul qilish uchun tomchi (flakon)"
+  },
+  ru: {
+    gruppa: "Вакцины — против полиомиелита (оральная, живая)",
+    farmTasir: "Активная иммунизация (полиомиелит)",
+    farmakodinamika: `Оральная полиомиелитная вакцина (ОПВ) — живые аттенуированные штаммы полиовируса (Сэбина типов 1, 3 — бивалентная). Размножаясь в кишечнике, формирует антитела в крови и местный (секреторный IgA) иммунитет в кишечнике, что также снижает циркуляцию вируса.`,
+    farmakokinetika: { sorish: "Внутрь; репликация в слизистой кишечника", tarqalish: "В лимфоидную ткань кишечника и кровь", metabolizm: "—", chiqarilish: "Вакцинный вирус может выделяться с калом" },
+    korsatmalar: ["Профилактика полиомиелита (национальный календарь; часто в последовательности с ИПВ)"],
+    qarrshi: ["Иммунодефицит (у ребёнка или членов семьи) — предпочтительна ИПВ", "Острое заболевание (временно)"],
+    nojoya: { "Общие": "Обычно хорошо переносится", "Очень редко": "Вакциноассоциированный паралитический полиомиелит (ВАПП)" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ", "Вводится вместе с другими календарными вакцинами"],
+    qollash: { kattalar: "Обычно не применяется (по эпидпоказаниям)", bolalar: "По национальному календарю внутрь в каплях (схема с ИПВ)" },
+    chiqarish: "Капли для приёма внутрь (флакон)"
+  },
+  en: {
+    gruppa: "Vaccines — against poliomyelitis (oral, live)",
+    farmTasir: "Active immunization (poliomyelitis)",
+    farmakodinamika: `Oral poliomyelitis vaccine (OPV) contains live attenuated poliovirus strains (Sabin types 1 and 3 — bivalent). Replicating in the gut, it generates blood antibodies and local (secretory IgA) intestinal immunity, which also reduces viral circulation.`,
+    farmakokinetika: { sorish: "Oral; replication in the intestinal mucosa", tarqalish: "To gut lymphoid tissue and blood", metabolizm: "—", chiqarilish: "Vaccine virus may be shed in faeces" },
+    korsatmalar: ["Poliomyelitis prophylaxis (national schedule; often in sequence with IPV)"],
+    qarrshi: ["Immunodeficiency (in the child or household) — IPV preferred", "Acute illness (temporary)"],
+    nojoya: { "General": "Usually well tolerated", "Very rare": "Vaccine-associated paralytic poliomyelitis (VAPP)" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Immunosuppressants reduce the response", "Given with other scheduled vaccines"],
+    qollash: { kattalar: "Usually not used (by epidemiological indication)", bolalar: "Per the national schedule, oral drops (sequence with IPV)" },
+    chiqarish: "Oral drops (vial)"
+  }
+},
+
+"J07BG01": {
+  uz: {
+    gruppa: "Vaksinalar — quturishга qarshi",
+    farmTasir: "Faol immunizatsiya (quturish)",
+    farmakodinamika: `Quturish vaksinasi — hujayra kulturasida (Vero) o'stirilgan inaktivatsiyalangan quturish virusi. Virusга qarshi neytrallovchi antitanalar ishlab chiqarilishini rag'batlantiradi. Post-ekspozitsion (chaqishdан keyin) va ekspozitsiyaгacha (xavf guruhlari) profilaktikада qo'llaniladi.`,
+    farmakokinetika: { sorish: "M/i (deltaga); regional immun javob", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Neytrallovchi antitanalar ~7–14 kun ichida" },
+    korsatmalar: ["Quturish post-ekspozitsion profilaktikasi (hayvon chaqishi/tirnashi)", "Ekspozitsiyаgacha profilaktika (veterinarlar, laborantlar, xavfli hudud)"],
+    qarrshi: ["Post-ekspozitsion holatда mutlaq qarshi ko'rsatma yo'q (hayot xavfi)", "Profilaktik holatда — o'tkir kasallik, og'ir allergiya"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish", "Umumiy": "Isitma, bosh og'rig'i, mialgiya" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Immunosupressantlar va malyariyaга qarshi xlorokin javobni pasaytirishi mumkin"],
+    qollash: { kattalar: "Post-ekspozitsiya: 0, 3, 7, 14 (va 28) kunларда 1 ml m/i (± quturishга qarshi immunoglobulin); profilaktika: 0, 7, 21/28 kun.", bolalar: "Doza kattalardagidek (m/i)" },
+    chiqarish: "M/i yuborish uchun liofilizat (erituvchi bilan)"
+  },
+  ru: {
+    gruppa: "Вакцины — против бешенства",
+    farmTasir: "Активная иммунизация (бешенство)",
+    farmakodinamika: `Антирабическая вакцина — инактивированный вирус бешенства, выращенный в клеточной культуре (Vero). Стимулирует выработку нейтрализующих антител против вируса. Применяется для постэкспозиционной (после укуса) и предэкспозиционной (группы риска) профилактики.`,
+    farmakokinetika: { sorish: "В/м (в дельтовидную мышцу); регионарный иммунный ответ", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Нейтрализующие антитела через ~7–14 дней" },
+    korsatmalar: ["Постэкспозиционная профилактика бешенства (укус/царапина животного)", "Предэкспозиционная профилактика (ветеринары, лаборанты, опасный регион)"],
+    qarrshi: ["При постэкспозиции абсолютных противопоказаний нет (угроза жизни)", "Для профилактики — острое заболевание, тяжёлая аллергия"],
+    nojoya: { "Местные": "Боль, покраснение", "Общие": "Лихорадка, головная боль, миалгия" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Иммуносупрессанты и противомалярийный хлорохин могут снижать ответ"],
+    qollash: { kattalar: "Постэкспозиция: в дни 0, 3, 7, 14 (и 28) по 1 мл в/м (± антирабический иммуноглобулин); профилактика: дни 0, 7, 21/28.", bolalar: "Доза как у взрослых (в/м)" },
+    chiqarish: "Лиофилизат для в/м введения (с растворителем)"
+  },
+  en: {
+    gruppa: "Vaccines — against rabies",
+    farmTasir: "Active immunization (rabies)",
+    farmakodinamika: `Rabies vaccine is inactivated rabies virus grown in cell culture (Vero). It stimulates neutralizing antibodies against the virus. It is used for post-exposure (after a bite) and pre-exposure (risk groups) prophylaxis.`,
+    farmakokinetika: { sorish: "IM (deltoid); regional immune response", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Neutralizing antibodies by ~7–14 days" },
+    korsatmalar: ["Post-exposure rabies prophylaxis (animal bite/scratch)", "Pre-exposure prophylaxis (veterinarians, laboratory staff, high-risk regions)"],
+    qarrshi: ["No absolute contraindication post-exposure (life-threatening)", "For prophylaxis — acute illness, severe allergy"],
+    nojoya: { "Local": "Pain, redness", "General": "Fever, headache, myalgia" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Immunosuppressants and antimalarial chloroquine may reduce the response"],
+    qollash: { kattalar: "Post-exposure: days 0, 3, 7, 14 (and 28), 1 mL IM (± rabies immunoglobulin); prophylaxis: days 0, 7, 21/28.", bolalar: "Same dose as adults (IM)" },
+    chiqarish: "Powder for IM injection (with diluent)"
+  }
+},
+
+"J07BH02": {
+  uz: {
+    gruppa: "Vaksinalar — rotavirusга qarshi (og'iz orqali, tirik)",
+    farmTasir: "Faol immunizatsiya (rotavirusли gastroenterit)",
+    farmakodinamika: `Rotavirus vaksinasi — tirik attenuatsiyalangan rotavirus shtammlari (og'iz orqali). Ichakда ko'payib, rotavirusга qarshi mahalliy va umumiy immunitet hosil qiladi, og'ir rotavirusли diareya (gastroenterit) va degidratatsiyani oldini oladi.`,
+    farmakokinetika: { sorish: "Og'iz orqali; ichak shilliq qavatида replikatsiya", tarqalish: "Ichak limfoid to'qimasi", metabolizm: "—", chiqarilish: "Vaktsina virusi najas bilan chiqishi mumkin" },
+    korsatmalar: ["Go'daklarда rotavirusли gastroenterit profilaktikasi"],
+    qarrshi: ["Og'ir kombinatsiyalangan immun tanqisligi", "Anamnezда ichak invaginatsiyasi yoki uни keltirib chiqaruvchi nuqson", "O'tkir gastroenterit (vaqtincha)"],
+    nojoya: { "Oshqozon-ichak": "Yengil diareya, qusish, injiqlik", "Juda kamdan-kam": "Ichak invaginatsiyasi" },
+    dozadan: "Simptomatik davo; gidratatsiya.",
+    ozarotasir: ["Immunosupressantlar va immunoglobulin javobni pasaytirishi mumkin"],
+    qollash: { kattalar: "Qo'llanilmaydi (faqat go'daklar)", bolalar: "Yoshга ko'ra 2–3 doza og'iz orqali (1-doza 6–12 haftalikда, kursni odatда 6–8 oygacha tugatish)" },
+    chiqarish: "Og'iz orqali qabul qilish uchun eritma/suspenziya"
+  },
+  ru: {
+    gruppa: "Вакцины — против ротавируса (оральная, живая)",
+    farmTasir: "Активная иммунизация (ротавирусный гастроэнтерит)",
+    farmakodinamika: `Ротавирусная вакцина — живые аттенуированные штаммы ротавируса (внутрь). Размножаясь в кишечнике, формирует местный и общий иммунитет против ротавируса, предупреждая тяжёлую ротавирусную диарею (гастроэнтерит) и обезвоживание.`,
+    farmakokinetika: { sorish: "Внутрь; репликация в слизистой кишечника", tarqalish: "В лимфоидную ткань кишечника", metabolizm: "—", chiqarilish: "Вакцинный вирус может выделяться с калом" },
+    korsatmalar: ["Профилактика ротавирусного гастроэнтерита у грудных детей"],
+    qarrshi: ["Тяжёлый комбинированный иммунодефицит", "Инвагинация кишечника в анамнезе или порок, предрасполагающий к ней", "Острый гастроэнтерит (временно)"],
+    nojoya: { "ЖКТ": "Лёгкая диарея, рвота, капризность", "Очень редко": "Инвагинация кишечника" },
+    dozadan: "Симптоматическая терапия; гидратация.",
+    ozarotasir: ["Иммуносупрессанты и иммуноглобулин могут снижать ответ"],
+    qollash: { kattalar: "Не применяется (только грудные дети)", bolalar: "По возрасту 2–3 дозы внутрь (1-я доза в 6–12 недель, завершение курса обычно до 6–8 месяцев)" },
+    chiqarish: "Раствор/суспензия для приёма внутрь"
+  },
+  en: {
+    gruppa: "Vaccines — against rotavirus (oral, live)",
+    farmTasir: "Active immunization (rotavirus gastroenteritis)",
+    farmakodinamika: `Rotavirus vaccine contains live attenuated rotavirus strains (oral). Replicating in the gut, it generates local and systemic immunity against rotavirus, preventing severe rotavirus diarrhoea (gastroenteritis) and dehydration.`,
+    farmakokinetika: { sorish: "Oral; replication in the intestinal mucosa", tarqalish: "To gut lymphoid tissue", metabolizm: "—", chiqarilish: "Vaccine virus may be shed in faeces" },
+    korsatmalar: ["Prophylaxis of rotavirus gastroenteritis in infants"],
+    qarrshi: ["Severe combined immunodeficiency", "History of intussusception or a predisposing malformation", "Acute gastroenteritis (temporary)"],
+    nojoya: { "GI": "Mild diarrhoea, vomiting, irritability", "Very rare": "Intussusception" },
+    dozadan: "Supportive care; hydration.",
+    ozarotasir: ["Immunosuppressants and immunoglobulin may reduce the response"],
+    qollash: { kattalar: "Not used (infants only)", bolalar: "By age 2–3 oral doses (first dose at 6–12 weeks; complete the course usually by 6–8 months)" },
+    chiqarish: "Oral solution/suspension"
+  }
+},
+
+"J07BM01": {
+  uz: {
+    gruppa: "Vaksinalar — odam papillomavirusiга qarshi (HPV)",
+    farmTasir: "Faol immunizatsiya (HPV, onkoprofilaktika)",
+    farmakodinamika: `HPV vaksinasi — odam papillomavirusining (kvadrivalent: 6, 11, 16, 18 tiplari) kapsid oqsilidan (L1) rekombinant texnologiya bilan olingan virusга o'xshash zarrachalar (VLP). Yuqori onkogen tiplarга (16, 18) qarshi antitanalar hosil qilib, bachadon bo'yni va boshqa anogenital saratonlarni, 6/11 tiplar esa anogenital siğillarni oldini oladi. Yuqumli virusли material yo'q.`,
+    farmakokinetika: { sorish: "M/i; sekin so'rilish (adsorbat)", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Antitanalar to'liq kursdан so'ng yuqori darajага yetadi" },
+    korsatmalar: ["Bachadon bo'yni va boshqa HPV-bog'liq saratonlar hamda anogenital siğillar profilaktikasi (asosan o'smir qiz va o'g'illar)"],
+    qarrshi: ["Komponentlарga og'ir allergiya", "O'tkir kasallik (vaqtincha)", "Homiladorlik (tavsiya etilmaydi)"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish, shish", "Umumiy": "Bosh og'rig'i, isitma, bosh aylanishi/hushdan ketish (o'smirlarда — yotqizib yuborish)" },
+    dozadan: "Simptomatik davo.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi"],
+    qollash: { kattalar: "≤26 yosh (ba'zi holatда 45 gacha): 3 doza (0, 2, 6 oy) 0,5 ml m/i.", bolalar: "9–14 yosh: 2 doza (0, 6–12 oy); ≥15 yosh: 3 doza" },
+    chiqarish: "M/i yuborish uchun suspenziya 0,5 ml (oldindan to'ldirilgan shprits)"
+  },
+  ru: {
+    gruppa: "Вакцины — против вируса папилломы человека (ВПЧ)",
+    farmTasir: "Активная иммунизация (ВПЧ, онкопрофилактика)",
+    farmakodinamika: `Вакцина против ВПЧ — вирусоподобные частицы (VLP) из капсидного белка (L1) вируса папилломы человека (квадривалентная: типы 6, 11, 16, 18), полученные рекомбинантно. Формирует антитела против высокоонкогенных типов (16, 18), предупреждая рак шейки матки и другие аногенитальные раки, а типы 6/11 — аногенитальные кондиломы. Инфекционного вирусного материала не содержит.`,
+    farmakokinetika: { sorish: "В/м; медленное всасывание (сорбат)", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Антитела достигают высокого уровня после полного курса" },
+    korsatmalar: ["Профилактика рака шейки матки и других ВПЧ-ассоциированных раков и аногенитальных кондилом (преимущественно девочки и мальчики-подростки)"],
+    qarrshi: ["Тяжёлая аллергия на компоненты", "Острое заболевание (временно)", "Беременность (не рекомендуется)"],
+    nojoya: { "Местные": "Боль, покраснение, отёк", "Общие": "Головная боль, лихорадка, головокружение/обморок (у подростков — вводить лёжа)" },
+    dozadan: "Симптоматическая терапия.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ"],
+    qollash: { kattalar: "≤26 лет (в отдельных случаях до 45): 3 дозы (0, 2, 6 мес) 0,5 мл в/м.", bolalar: "9–14 лет: 2 дозы (0, 6–12 мес); ≥15 лет: 3 дозы" },
+    chiqarish: "Суспензия для в/м введения 0,5 мл (предзаполненный шприц)"
+  },
+  en: {
+    gruppa: "Vaccines — against human papillomavirus (HPV)",
+    farmTasir: "Active immunization (HPV, cancer prevention)",
+    farmakodinamika: `HPV vaccine consists of virus-like particles (VLPs) of the capsid protein (L1) of human papillomavirus (quadrivalent: types 6, 11, 16, 18) produced recombinantly. It generates antibodies against the high-oncogenic types (16, 18), preventing cervical and other anogenital cancers, while types 6/11 prevent anogenital warts. It contains no infectious viral material.`,
+    farmakokinetika: { sorish: "IM; slow release (adsorbate)", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Antibodies reach high levels after the full course" },
+    korsatmalar: ["Prevention of cervical and other HPV-associated cancers and anogenital warts (mainly adolescent girls and boys)"],
+    qarrshi: ["Severe allergy to components", "Acute illness (temporary)", "Pregnancy (not recommended)"],
+    nojoya: { "Local": "Pain, redness, swelling", "General": "Headache, fever, dizziness/syncope (in adolescents — administer seated/lying)" },
+    dozadan: "Supportive care.",
+    ozarotasir: ["Immunosuppressants reduce the response"],
+    qollash: { kattalar: "≤26 years (up to 45 in some cases): 3 doses (0, 2, 6 months) 0.5 mL IM.", bolalar: "9–14 years: 2 doses (0, 6–12 months); ≥15 years: 3 doses" },
+    chiqarish: "Suspension for IM injection 0.5 mL (pre-filled syringe)"
+  }
+},
+
+"J07CA02": {
+  uz: {
+    gruppa: "Vaksinalar — DTaP-IPV (kombinatsiya)",
+    farmTasir: "Faol immunizatsiya (difteriya, qoqshol, ko'kyo'tal, poliomielit)",
+    farmakodinamika: `Kombinatsiyalangan vaksina — difteriya va qoqshol anatoksinlari, atsellyulyar ko'kyo'tal komponenti va inaktivatsiyalangan poliovirus (IPV). To'rt infeksiyaга qarshi faol immunitet hosil qiladi; IPV tirik OPV o'rniga xavfsiz inaktivatsiyalangan poliokomponentni beradi.`,
+    farmakokinetika: { sorish: "M/i; sekin so'rilish (adsorbat)", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Antitanalar bir necha hafta ichida shakllanadi" },
+    korsatmalar: ["Difteriya, qoqshol, ko'kyo'tal va poliomielit profilaktikasi (bazaviy immunizatsiya va revaksinatsiya)"],
+    qarrshi: ["Avvalgi dozага og'ir reaksiya (ensefalopatiya, anafilaksiya)", "Progressiv asab kasalligi (koklyush komponenti)", "O'tkir kasallik (vaqtincha)"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish, infiltrat", "Umumiy": "Isitma, injiqlik, ishtaha pasayishi" },
+    dozadan: "Simptomatik davo; antipiretiklar.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi"],
+    qollash: { kattalar: "Past dozali (Tdap-IPV) variant — revaksinatsiyaда 0,5 ml m/i", bolalar: "Milliy kalendarга ko'ra 0,5 ml m/i (bazaviy 3 doza + revaksinatsiya)" },
+    chiqarish: "M/i yuborish uchun suspenziya 0,5 ml (oldindan to'ldirilgan shprits)"
+  },
+  ru: {
+    gruppa: "Вакцины — АаКДС-ИПВ (комбинация)",
+    farmTasir: "Активная иммунизация (дифтерия, столбняк, коклюш, полиомиелит)",
+    farmakodinamika: `Комбинированная вакцина — дифтерийный и столбнячный анатоксины, ацеллюлярный коклюшный компонент и инактивированный полиовирус (ИПВ). Формирует активный иммунитет против четырёх инфекций; ИПВ обеспечивает безопасный инактивированный полиокомпонент вместо живой ОПВ.`,
+    farmakokinetika: { sorish: "В/м; медленное всасывание (сорбат)", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Антитела формируются за несколько недель" },
+    korsatmalar: ["Профилактика дифтерии, столбняка, коклюша и полиомиелита (базовая иммунизация и ревакцинация)"],
+    qarrshi: ["Тяжёлая реакция на предыдущую дозу (энцефалопатия, анафилаксия)", "Прогрессирующее заболевание ЦНС (коклюшный компонент)", "Острое заболевание (временно)"],
+    nojoya: { "Местные": "Боль, покраснение, инфильтрат", "Общие": "Лихорадка, капризность, снижение аппетита" },
+    dozadan: "Симптоматическая терапия; антипиретики.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ"],
+    qollash: { kattalar: "Низкодозный вариант (Tdap-ИПВ) — при ревакцинации 0,5 мл в/м", bolalar: "По национальному календарю 0,5 мл в/м (базовые 3 дозы + ревакцинация)" },
+    chiqarish: "Суспензия для в/м введения 0,5 мл (предзаполненный шприц)"
+  },
+  en: {
+    gruppa: "Vaccines — DTaP-IPV (combination)",
+    farmTasir: "Active immunization (diphtheria, tetanus, pertussis, poliomyelitis)",
+    farmakodinamika: `A combination vaccine of diphtheria and tetanus toxoids, an acellular pertussis component and inactivated poliovirus (IPV). It produces active immunity against four infections; IPV provides a safe inactivated polio component instead of live OPV.`,
+    farmakokinetika: { sorish: "IM; slow release (adsorbate)", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Antibodies develop over several weeks" },
+    korsatmalar: ["Prophylaxis of diphtheria, tetanus, pertussis and poliomyelitis (primary immunization and revaccination)"],
+    qarrshi: ["Severe reaction to a previous dose (encephalopathy, anaphylaxis)", "Progressive CNS disease (pertussis component)", "Acute illness (temporary)"],
+    nojoya: { "Local": "Pain, redness, infiltrate", "General": "Fever, irritability, decreased appetite" },
+    dozadan: "Supportive care; antipyretics.",
+    ozarotasir: ["Immunosuppressants reduce the response"],
+    qollash: { kattalar: "Low-dose (Tdap-IPV) variant — for revaccination 0.5 mL IM", bolalar: "Per the national schedule 0.5 mL IM (3 primary doses + booster)" },
+    chiqarish: "Suspension for IM injection 0.5 mL (pre-filled syringe)"
+  }
+},
+
+"J07CA09": {
+  uz: {
+    gruppa: "Vaksinalar — geksavalent kombinatsiya (DTaP-HepB-IPV-Hib)",
+    farmTasir: "Faol immunizatsiya (6 ta infeksiya)",
+    farmakodinamika: `Geksavalent kombinatsiyalangan vaksina — difteriya, qoqshol anatoksinlari, atsellyulyar ko'kyo'tal, rekombinant B gepatiti (HBsAg), inaktivatsiyalangan poliovirus (IPV) va Haemophilus influenzae tip b (Hib) konyugat polisaxaridi. Bitta inyeksiyaда olti infeksiyага qarshi faol immunitet hosil qilib, inyeksiyalar sonini kamaytiradi.`,
+    farmakokinetika: { sorish: "M/i; sekin so'rilish (adsorbat)", tarqalish: "Regional limfaга", metabolizm: "—", chiqarilish: "Antitanalar bir necha hafta ichida shakllanadi" },
+    korsatmalar: ["Difteriya, qoqshol, ko'kyo'tal, B gepatiti, poliomielit va Hib infeksiyasi profilaktikasi (go'daklar bazaviy immunizatsiyasi)"],
+    qarrshi: ["Avvalgi dozага og'ir reaksiya (ensefalopatiya, anafilaksiya)", "Progressiv asab kasalligi (koklyush komponenti)", "O'tkir kasallik (vaqtincha)"],
+    nojoya: { "Mahalliy": "Og'riq, qizarish, shish", "Umumiy": "Isitma, injiqlik, uyquchanlik, ishtaha pasayishi" },
+    dozadan: "Simptomatik davo; antipiretiklar.",
+    ozarotasir: ["Immunosupressantlar javobni pasaytiradi"],
+    qollash: { kattalar: "Qo'llanilmaydi (pediatrik)", bolalar: "Milliy kalendarга ko'ra 0,5 ml m/i (bazaviy 2–3 doza + revaksinatsiya)" },
+    chiqarish: "M/i yuborish uchun suspenziya 0,5 ml (± Hib liofilizati, oldindan to'ldirilgan shprits)"
+  },
+  ru: {
+    gruppa: "Вакцины — гексавалентная комбинация (АаКДС-ГепВ-ИПВ-Hib)",
+    farmTasir: "Активная иммунизация (6 инфекций)",
+    farmakodinamika: `Гексавалентная комбинированная вакцина — дифтерийный и столбнячный анатоксины, ацеллюлярный коклюш, рекомбинантный гепатит В (HBsAg), инактивированный полиовирус (ИПВ) и конъюгированный полисахарид Haemophilus influenzae типа b (Hib). За одну инъекцию формирует активный иммунитет против шести инфекций, уменьшая число инъекций.`,
+    farmakokinetika: { sorish: "В/м; медленное всасывание (сорбат)", tarqalish: "В регионарные лимфоузлы", metabolizm: "—", chiqarilish: "Антитела формируются за несколько недель" },
+    korsatmalar: ["Профилактика дифтерии, столбняка, коклюша, гепатита В, полиомиелита и Hib-инфекции (базовая иммунизация грудных детей)"],
+    qarrshi: ["Тяжёлая реакция на предыдущую дозу (энцефалопатия, анафилаксия)", "Прогрессирующее заболевание ЦНС (коклюшный компонент)", "Острое заболевание (временно)"],
+    nojoya: { "Местные": "Боль, покраснение, отёк", "Общие": "Лихорадка, капризность, сонливость, снижение аппетита" },
+    dozadan: "Симптоматическая терапия; антипиретики.",
+    ozarotasir: ["Иммуносупрессанты снижают ответ"],
+    qollash: { kattalar: "Не применяется (педиатрическая)", bolalar: "По национальному календарю 0,5 мл в/м (базовые 2–3 дозы + ревакцинация)" },
+    chiqarish: "Суспензия для в/м введения 0,5 мл (± лиофилизат Hib, предзаполненный шприц)"
+  },
+  en: {
+    gruppa: "Vaccines — hexavalent combination (DTaP-HepB-IPV-Hib)",
+    farmTasir: "Active immunization (6 infections)",
+    farmakodinamika: `A hexavalent combination vaccine — diphtheria and tetanus toxoids, acellular pertussis, recombinant hepatitis B (HBsAg), inactivated poliovirus (IPV) and conjugated Haemophilus influenzae type b (Hib) polysaccharide. In a single injection it produces active immunity against six infections, reducing the number of injections.`,
+    farmakokinetika: { sorish: "IM; slow release (adsorbate)", tarqalish: "To regional lymph nodes", metabolizm: "—", chiqarilish: "Antibodies develop over several weeks" },
+    korsatmalar: ["Prophylaxis of diphtheria, tetanus, pertussis, hepatitis B, poliomyelitis and Hib disease (primary infant immunization)"],
+    qarrshi: ["Severe reaction to a previous dose (encephalopathy, anaphylaxis)", "Progressive CNS disease (pertussis component)", "Acute illness (temporary)"],
+    nojoya: { "Local": "Pain, redness, swelling", "General": "Fever, irritability, drowsiness, decreased appetite" },
+    dozadan: "Supportive care; antipyretics.",
+    ozarotasir: ["Immunosuppressants reduce the response"],
+    qollash: { kattalar: "Not used (paediatric)", bolalar: "Per the national schedule 0.5 mL IM (2–3 primary doses + booster)" },
+    chiqarish: "Suspension for IM injection 0.5 mL (± Hib powder, pre-filled syringe)"
+  }
 }
 
 };
@@ -22175,3 +24149,19 @@ PHARMA_DATA["J01ҒA10"]     = PHARMA_DATA["J01FA10"];  // azitromitsin (kirill h
 PHARMA_DATA["J05AR13"]          = PHARMA_DATA["J05AX12"];  // dolutegravir natriy
 PHARMA_DATA["J02AC2"]           = PHARMA_DATA["J02AC02"];  // itrakonazol (qisqartirilgan kod)
 PHARMA_DATA["J0ICA04"]          = PHARMA_DATA["J01CA04"];  // amoksitsillin (terilgan xato kod)
+PHARMA_DATA["J041FA10"]         = PHARMA_DATA["J01FA10"];  // azitromitsin (terilgan xato kod)
+PHARMA_DATA["J0LCR05"]          = PHARMA_DATA["J01CR05"];  // piperatsillin + tazobaktam (terilgan xato kod)
+PHARMA_DATA["JO5AP55"]          = PHARMA_DATA["J05AP55"];  // sofosbuvir + velpatasvir (terilgan xato kod)
+PHARMA_DATA["J05A X05"]         = PHARMA_DATA["J05AX05"];  // inozin pranobeks (bo'shliqli kod)
+PHARMA_DATA["J05A X17"]         = PHARMA_DATA["J05AX17"];  // enisamiy yodid (bo'shliqli kod)
+PHARMA_DATA["J05AJ03"]          = PHARMA_DATA["J05AX12"];  // dolutegravir
+PHARMA_DATA["J06BA02"]          = PHARMA_DATA["J06BA01"];  // normal inson immunoglobulini (v/i)
+PHARMA_DATA["J06B A02"]         = PHARMA_DATA["J06BA01"];  // normal inson immunoglobulini (bo'shliqli kod)
+PHARMA_DATA["J06BB"]            = PHARMA_DATA["J06BB01"];  // anti-D immunoglobulin
+PHARMA_DATA["J05AX, G02CX"]     = PHARMA_DATA["J05AX; L03AX"];  // o'simlik flavonoid antiviral
+PHARMA_DATA["J05AX;L03AX"]      = PHARMA_DATA["J05AX; L03AX"];  // o'simlik flavonoid (bo'shliqsiz variant)
+PHARMA_DATA["J07A102"]          = PHARMA_DATA["J07BB02"];  // gripp vaksinasi (terilgan xato kod)
+PHARMA_DATA["J07BD53"]          = PHARMA_DATA["J07BD52"];  // qizamiq saqlovchi vaksina (qizamiq+qizilcha)
+PHARMA_DATA["J07BF"]            = PHARMA_DATA["J07BF04"];  // OPV (poliomielit, og'iz orqali)
+PHARMA_DATA["J07BH01"]          = PHARMA_DATA["J07BH02"];  // rotavirus vaksinasi
+PHARMA_DATA["J07CA11"]          = PHARMA_DATA["J07CA09"];  // ko'p valentli kombinatsiya vaksinasi
