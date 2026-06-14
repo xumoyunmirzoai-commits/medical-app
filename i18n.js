@@ -121,6 +121,9 @@ const TRANSLATIONS = {
 
     // Laboratoriya
     lab_title: "Laboratoriya Normalari",
+    lab_sub: "Tahlil ko'rsatkichlari, normalar va talqin — 3 tilda",
+    lab_search_ph: "Ko'rsatkich qidirish (HGB, ferritin, TSH...)",
+    lab_disclaimer: "⚕️ Ma'lumotlar faqat ta'lim maqsadida. Yakuniy tashxis va davoni shifokor belgilaydi.",
     lab_desc:  "Qon va siydik tahlili normalari, interpretatsiya qo'llanmasi tez orada.",
     lab_f1: "✓ Klinik qon tahlili",
     lab_f2: "✓ Biokimyoviy ko'rsatkichlar",
@@ -282,6 +285,9 @@ const TRANSLATIONS = {
     diseases_f4: "✓ Дифференциальная диагностика",
 
     lab_title: "Нормы лабораторных показателей",
+    lab_sub: "Показатели анализов, нормы и интерпретация — на 3 языках",
+    lab_search_ph: "Поиск показателя (HGB, ферритин, ТТГ...)",
+    lab_disclaimer: "⚕️ Информация только для образовательных целей. Окончательный диагноз и лечение определяет врач.",
     lab_desc:  "Нормы анализов крови и мочи, руководство по интерпретации — скоро.",
     lab_f1: "✓ Общий анализ крови",
     lab_f2: "✓ Биохимические показатели",
@@ -439,6 +445,9 @@ const TRANSLATIONS = {
     diseases_f4: "✓ Differential diagnosis",
 
     lab_title: "Laboratory Reference Values",
+    lab_sub: "Test parameters, reference ranges and interpretation — in 3 languages",
+    lab_search_ph: "Search a parameter (HGB, ferritin, TSH...)",
+    lab_disclaimer: "⚕️ For educational purposes only. Final diagnosis and treatment are determined by a physician.",
     lab_desc:  "Blood and urine test reference ranges and interpretation guide coming soon.",
     lab_f1: "✓ Complete blood count",
     lab_f2: "✓ Biochemical markers",
@@ -693,6 +702,12 @@ function setLanguage(lang) {
   const pharmaTab = document.getElementById("mpharma");
   if (pharmaTab && typeof currentDrug !== "undefined" && currentDrug) {
     pharmaTab.innerHTML = renderPharmaTab(currentDrug);
+  }
+
+  // Laboratoriya sahifasi ochiq bo'lsa — yangi tilda qayta render qil
+  const labPage = document.getElementById("page-lab");
+  if (labPage && labPage.classList.contains("active") && typeof renderLabPage === "function") {
+    renderLabPage();
   }
 }
 

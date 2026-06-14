@@ -81,6 +81,7 @@ function navigateTo(page) {
   if (pageEl) pageEl.classList.add("active");
   document.getElementById("breadcrumb").textContent = BREADCRUMBS[page] || page;
   if (page === "favorites")  renderFavs();
+  if (page === "lab")        renderLabPage();
   if (page === "dashboard")  { renderRecentRow(); updateStats(); }
   hideSearchDropdown();
   closeMobileSidebar();
@@ -813,4 +814,94 @@ function setupKeyboard() {
       document.getElementById("globalSearch").focus();
     }
   });
+}
+
+// ════════════════════════════════════════════
+// LABORATORIYA NORMALARI
+// ════════════════════════════════════════════
+function labLang() {
+  const L = (typeof LANG !== "undefined" && LANG) ? LANG : "uz";
+  return ["uz", "ru", "en"].includes(L) ? L : "uz";
+}
+function labTr(field) {
+  const L = labLang();
+  if (field == null) return "";
+  if (typeof field === "string") return field;
+  return field[L] || field.uz || field.ru || field.en || "";
+}
+
+function labToggleTest(id) {
+  const card = document.getElementById("lab-card-" + id);
+  if (card) card.classList.toggle("open");
+}
+
+function renderLabPage() {
+  const cont = document.getElementById("labContainer");
+  if (!cont || typeof LAB_TESTS === "undefined") return;
+  const L = labLang();
+  const q = (document.getElementById("labSearch")?.value || "").trim().toLowerCase();
+
+  const tests = LAB_TESTS.filter(t => {
+    if (!q) return true;
+    const hay = [t.abbr, labTr(t.name), t.name.uz, t.name.ru, t.name.en, t.id].join(" ").toLowerCase();
+    return hay.includes(q);
+  });
+
+  if (tests.length === 0) {
+    const msg = { uz: "Hech narsa topilmadi", ru: "Ничего не найдено", en: "Nothing found" }[L];
+    cont.innerHTML = `<div class="lab-empty">🔍 ${msg}</div>`;
+    return;
+  }
+
+  const labels = {
+    norm:    { uz: "Normalar", ru: "Нормы", en: "Reference ranges" },
+    opt:     { uz: "Optimum", ru: "Оптимум", en: "Optimum" },
+    high:    { uz: "Oshishi sabablari", ru: "Причины повышения", en: "Causes of elevation" },
+    low:     { uz: "Pasayishi sabablari", ru: "Причины снижения", en: "Causes of decrease" },
+    tests:   { uz: "ta ko'rsatkich", ru: "показателей", en: "tests" }
+  };
+
+  let html = "";
+  LAB_CATEGORIES.forEach(cat => {
+    const inCat = tests.filter(t => t.cat === cat.id);
+    if (!inCat.length) return;
+    html += `<div class="lab-cat">
+      <div class="lab-cat-head" style="--cat-bg:${cat.bg};--cat-color:${cat.color}">
+        <span class="lab-cat-icon">${cat.icon}</span>
+        <span class="lab-cat-name">${labTr(cat.name)}</span>
+        <span class="lab-cat-count">${inCat.length} ${labels.tests[L]}</span>
+      </div>
+      <div class="lab-cat-body">`;
+
+    inCat.forEach(t => {
+      const normRows = (t.norms?.[L] || []).map(r =>
+        `<tr><td class="ln-label">${r[0]}</td><td class="ln-val">${r[1]}</td></tr>`).join("");
+      const highList = (t.high?.[L] || []).map(x => `<li>${x}</li>`).join("");
+      const lowList  = (t.low?.[L]  || []).map(x => `<li>${x}</li>`).join("");
+      const opt  = labTr(t.optimum);
+      const note = labTr(t.note);
+      const unit = labTr(t.unit);
+
+      html += `<div class="lab-card" id="lab-card-${t.id}">
+        <button class="lab-card-head" onclick="labToggleTest('${t.id}')">
+          <span class="lab-abbr">${t.abbr}</span>
+          <span class="lab-card-name">${labTr(t.name)}${unit ? ` <span class="lab-unit">${unit}</span>` : ""}</span>
+          <svg class="lab-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="lab-card-body">
+          ${normRows ? `<div class="lab-block"><div class="lab-block-t">${labels.norm[L]}</div><table class="lab-norms">${normRows}</table></div>` : ""}
+          ${opt ? `<div class="lab-opt"><b>${labels.opt[L]}:</b> ${opt}</div>` : ""}
+          <div class="lab-causes">
+            ${highList ? `<div class="lab-cause-col high"><div class="lab-cause-t">▲ ${labels.high[L]}</div><ul>${highList}</ul></div>` : ""}
+            ${lowList  ? `<div class="lab-cause-col low"><div class="lab-cause-t">▼ ${labels.low[L]}</div><ul>${lowList}</ul></div>` : ""}
+          </div>
+          ${note ? `<div class="lab-note">${note}</div>` : ""}
+        </div>
+      </div>`;
+    });
+
+    html += `</div></div>`;
+  });
+
+  cont.innerHTML = html;
 }

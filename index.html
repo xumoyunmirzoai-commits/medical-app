@@ -395,17 +395,20 @@
 
     <!-- LABORATORIYA -->
     <section class="page" id="page-lab">
-      <div class="coming-soon-page">
-        <div class="cs-icon">🧪</div>
-        <h2 data-i18n="lab_title">Laboratoriya Normalari</h2>
-        <p data-i18n="lab_desc">Qon va siydik tahlili normalari tez orada.</p>
-        <div class="cs-features">
-          <span data-i18n="lab_f1">✓ Klinik qon tahlili</span>
-          <span data-i18n="lab_f2">✓ Biokimyoviy ko'rsatkichlar</span>
-          <span data-i18n="lab_f3">✓ Siydik tahlili</span>
-          <span data-i18n="lab_f4">✓ Normalar jadvali</span>
+      <div class="page-top">
+        <div class="page-title-wrap">
+          <div class="page-title-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6v2l-1 1v4l5.5 9.5A1 1 0 0 1 18.6 21H5.4a1 1 0 0 1-.9-1.5L10 10V6L9 5z"/><line x1="7" y1="16" x2="17" y2="16"/></svg></div>
+          <div><h1 class="page-title" data-i18n="lab_title">Laboratoriya Normalari</h1><p class="page-sub" data-i18n="lab_sub">Tahlil ko'rsatkichlari, normalar va talqin — 3 tilda</p></div>
         </div>
       </div>
+      <div class="lab-toolbar">
+        <div class="lab-search-wrap">
+          <svg class="lab-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="labSearch" data-i18n-ph="lab_search_ph" placeholder="Ko'rsatkich qidirish (HGB, ferritin, TSH...)" oninput="renderLabPage()" autocomplete="off" />
+        </div>
+      </div>
+      <div class="lab-disclaimer" data-i18n="lab_disclaimer">⚕️ Ma'lumotlar faqat ta'lim maqsadida. Yakuniy tashxis va davoni shifokor belgilaydi.</div>
+      <div class="lab-container" id="labContainer"></div>
     </section>
 
     <!-- KALKULYATORLAR -->
@@ -457,6 +460,7 @@
 
 <script src="data.js"></script>
 <script src="pharma_data.js"></script>
+<script src="lab_data.js"></script>
 <!-- ═══════════ MOBILE BOTTOM NAV ═══════════ -->
 <nav class="mobile-bottom-nav" id="mobileBottomNav">
   <div class="mbn-inner">
