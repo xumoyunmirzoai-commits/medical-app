@@ -1294,6 +1294,215 @@ const LAB_TESTS = [
       en: ["Low value is normal"]
     },
     note: { uz: "Antitelolar qancha yuqori bo'lsa, autoimmun jarayon shunchalik kuchli. Ular boshqa qon tahlillaridagi o'zgarishlardan ancha oldin aniqlanishi mumkin; dinamikani kuzatib borish muhim.", ru: "Чем выше антитела, тем сильнее аутоиммунный процесс. Могут быть обнаружены намного раньше изменений в других анализах; важно следить за динамикой.", en: "The higher the antibodies, the stronger the autoimmune process. They may appear much earlier than changes in other tests; monitoring the trend is important." }
+  },
+
+  // ─────────── Vitaminlar ───────────
+  {
+    id: "vit_d", cat: "vitamins", abbr: "25-OH D",
+    name: { uz: "25-OH vitamin D", ru: "25-OH витамин D", en: "25-OH vitamin D" },
+    unit: { uz: "ng/ml", ru: "нг/мл", en: "ng/mL" },
+    norms: {
+      uz: [["Barcha yoshlar", "30–100"]],
+      ru: [["Все возрасты", "30–100"]],
+      en: [["All ages", "30–100"]]
+    },
+    optimum: { uz: "80–100 ng/ml (XMS usuli bo'yicha 50–70)", ru: "80–100 нг/мл (методом ХМС 50–70)", en: "80–100 ng/mL (by LC-MS 50–70)" },
+    high: {
+      uz: ["Vitamin D preparatlari dozasi oshishi", "100 dan yuqori qiymatda dozaning oshib ketishini nazorat qilish uchun ionlangan kaltsiy topshirish kerak"],
+      ru: ["Передозировка препаратов витамина D", "При значении >100 для контроля передозировки нужно сдать кальций ионизированный"],
+      en: ["Vitamin D supplement overdose", "If value >100, test ionized calcium to monitor for overdose"]
+    },
+    low: {
+      uz: ["Temir tanqisligi anemiyasi", "Insulinrezistentlik", "Kam harakatli turmush tarzi", "Buyrak va jigar kasalliklari", "Keksalik", "Qalqonsimon yonbosh bez o'smasi (kaltsiy oshgan bo'ladi)", "30 ng/ml dan past — immunosupressiya ko'rsatkichi"],
+      ru: ["Железодефицитная анемия", "Инсулинорезистентность", "Малоподвижный образ жизни", "Болезни почек и печени", "Пожилой возраст", "Опухоль околощитовидной железы (кальций будет повышен)", "Менее 30 нг/мл — индикатор иммуносупрессии"],
+      en: ["Iron-deficiency anemia", "Insulin resistance", "Sedentary lifestyle", "Kidney and liver disease", "Old age", "Parathyroid tumor (calcium will be elevated)", "Below 30 ng/mL — indicator of immunosuppression"]
+    },
+    note: { uz: "50 ng/ml dan past — tanqislik; 35 dan past — magniy, kaltsiy, sink va boshqa mikroelementlar so'rilmaydi; 20 dan past — autoimmun kasalliklar, depressiya, infeksiyalar, semizlik, diabet xavfini oshiruvchi jiddiy yetishmovchilik. Yaxshi so'rilishi uchun kofaktor — magniy.", ru: "Менее 50 нг/мл — дефицит; менее 35 — не усваиваются магний, кальций, цинк и другие микроэлементы; менее 20 — серьёзная недостаточность, повышающая риск аутоиммунных заболеваний, депрессии, инфекций, ожирения, диабета. Кофактор усвоения — магний.", en: "Below 50 ng/mL — deficiency; below 35 — magnesium, calcium, zinc and other trace elements are not absorbed; below 20 — serious deficiency raising risk of autoimmune disease, depression, infections, obesity, diabetes. Cofactor for absorption — magnesium." }
+  },
+
+  {
+    id: "b12", cat: "vitamins", abbr: "B12",
+    name: { uz: "Vitamin B12 (kobalamin)", ru: "Витамин В12 (кобаламин)", en: "Vitamin B12 (cobalamin)" },
+    unit: { uz: "pg/ml", ru: "пг/мл", en: "pg/mL" },
+    norms: {
+      uz: [["Umumiy B12", "500–800"], ["Faol B12 (Holotranskobalamin)", "70–125 pmol/l"]],
+      ru: [["Общий В12", "500–800"], ["Активный В12 (Холотранскобаламин)", "70–125 пмоль/л"]],
+      en: [["Total B12", "500–800"], ["Active B12 (Holotranscobalamin)", "70–125 pmol/L"]]
+    },
+    optimum: { uz: "600–800 pg/ml (referensning yuqori qismi)", ru: "600–800 пг/мл (верхняя часть референса)", en: "600–800 pg/mL (upper part of reference)" },
+    high: {
+      uz: ["Yuqori dozali B12 preparatlari, oxirgi 2 oyda B12 in'eksiyalari", "Ortiqcha bakterial o'sish", "Juda yuqori B12 (1100 dan yuqori) — jiddiy hujayra ichi tanqislikni bildirishi mumkin (gomotsistein topshiring)"],
+      ru: ["Высокие дозы препаратов В12, инъекции В12 за последние 2 месяца", "Избыточный бактериальный рост", "Очень высокий В12 (выше 1100) — может означать серьёзный внутриклеточный дефицит (сдать гомоцистеин)"],
+      en: ["High-dose B12 supplements, B12 injections in the past 2 months", "Bacterial overgrowth", "Very high B12 (above 1100) may indicate serious intracellular deficiency (test homocysteine)"]
+    },
+    low: {
+      uz: ["Ovqat bilan yetarli kelmasligi", "Ichakda so'rilishi buzilishi", "Organizmda ko'p ishlatilishi", "B12 almashinuvini buzuvchi genetik mutatsiyalar", "Parazitar infeksiyalar", "Keksalik", "Kasl ichki omili hosil bo'lishi buzilishi"],
+      ru: ["Недостаточное поступление с пищей", "Нарушение всасывания в кишечнике", "Повышенное использование витамина в организме", "Генетические мутации, нарушающие обмен В12", "Паразитарные инфекции", "Пожилой возраст", "Нарушение образования внутреннего фактора Касла"],
+      en: ["Insufficient dietary intake", "Impaired intestinal absorption", "Increased bodily use", "Genetic mutations affecting B12 metabolism", "Parasitic infections", "Old age", "Impaired formation of intrinsic factor of Castle"]
+    },
+    note: { uz: "400–200 pg/ml — mo''tadil tanqislik, 200 dan past — kuchli tanqislik. Tanqislikni MCV >92, MCH >32–33, gomotsistein >7 bo'lganda gumon qilish mumkin. Temir va B12 birga tanqis bo'lsa MCV/MCH norma bo'lib, RDW oshadi.", ru: "400–200 пг/мл — умеренный дефицит, ниже 200 — сильный дефицит. Дефицит можно заподозрить при MCV >92, MCH >32–33, гомоцистеин >7. При одновременном дефиците железа и В12 MCV/MCH могут быть в норме, но повысится RDW.", en: "400–200 pg/mL — moderate deficiency, below 200 — severe deficiency. Suspect deficiency if MCV >92, MCH >32–33, homocysteine >7. With concurrent iron and B12 deficiency, MCV/MCH may be normal but RDW rises." }
+  },
+
+  {
+    id: "b9", cat: "vitamins", abbr: "B9",
+    name: { uz: "Folat kislotasi (B9)", ru: "Фолиевая кислота (B9)", en: "Folic acid (B9)" },
+    unit: { uz: "nmol/l · ng/ml", ru: "нмоль/л · нг/мл", en: "nmol/L · ng/mL" },
+    norms: {
+      uz: [["Zardobda", "15–35 nmol/l (6,6–15,4 ng/ml)"], ["Eritrotsitlarda", "399–640"]],
+      ru: [["в сыворотке", "15–35 нмоль/л (6,6–15,4 нг/мл)"], ["в эритроцитах", "399–640"]],
+      en: [["serum", "15–35 nmol/L (6.6–15.4 ng/mL)"], ["erythrocyte", "399–640"]]
+    },
+    optimum: { uz: "Norma diapazonining yuqori chegarasi", ru: "Верхняя граница диапазона нормы", en: "Upper limit of the normal range" },
+    high: {
+      uz: ["B12 tanqisligi", "Ingichka ichak funksiyalari buzilishi", "Folat kislotasi vitaminlari dozasi oshishi", "Nomutanosib vegetarian parhez"],
+      ru: ["Дефицит В12", "Нарушения функций тонкого кишечника", "Передозировка витаминов фолиевой кислоты", "Несбалансированная вегетарианская диета"],
+      en: ["B12 deficiency", "Small-intestine dysfunction", "Folic acid supplement overdose", "Unbalanced vegetarian diet"]
+    },
+    low: {
+      uz: ["Ovqatda yetishmasligi", "MTHFR genlaridagi mutatsiyalar (C677T, A1298C)", "Malabsorbsiya (jumladan tseliakiya)", "Alkogolizm"],
+      ru: ["Недостаток в пище", "Мутации в генах MTHFR (C677T, A1298C)", "Мальабсорбция (в том числе целиакия)", "Алкоголизм"],
+      en: ["Dietary insufficiency", "MTHFR gene mutations (C677T, A1298C)", "Malabsorption (including celiac disease)", "Alcoholism"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "b6", cat: "vitamins", abbr: "B6",
+    name: { uz: "Vitamin B6 (piridoksin)", ru: "Витамин В6", en: "Vitamin B6" },
+    unit: { uz: "nmol/l", ru: "нмоль/л", en: "nmol/L" },
+    norms: {
+      uz: [["Barcha yoshlar", "60–100"]],
+      ru: [["Все возрасты", "60–100"]],
+      en: [["All ages", "60–100"]]
+    },
+    optimum: { uz: "60–100 nmol/l", ru: "60–100 нмоль/л", en: "60–100 nmol/L" },
+    high: {
+      uz: ["Vitamin qo'shimchalarini qabul qilish"],
+      ru: ["Приём витаминных добавок"],
+      en: ["Vitamin supplement use"]
+    },
+    low: {
+      uz: ["So'rilishi buzilishi", "Ovqat bilan yetarli kelmasligi", "Homiladorlik"],
+      ru: ["Нарушение всасываемости", "Недостаточное поступление с пищей", "Беременность"],
+      en: ["Impaired absorption", "Insufficient dietary intake", "Pregnancy"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  // ─────────── Minerallar ───────────
+  {
+    id: "cu", cat: "minerals", abbr: "Cu",
+    name: { uz: "Mis (qonda)", ru: "Медь (в крови)", en: "Copper (blood)" },
+    unit: { uz: "mkg/dl", ru: "мкг/дл", en: "µg/dL" },
+    norms: {
+      uz: [["6 yoshgacha bolalar", "90–190"], ["12 yoshgacha bolalar", "80–160"], ["Ayollar", "80–155"], ["Erkaklar", "70–140"]],
+      ru: [["дети до 6 лет", "90–190"], ["дети до 12 лет", "80–160"], ["женщины", "80–155"], ["мужчины", "70–140"]],
+      en: [["children under 6 yrs", "90–190"], ["children under 12 yrs", "80–160"], ["women", "80–155"], ["men", "70–140"]]
+    },
+    optimum: { uz: "To'g'ri Cu/Zn (mis/sink) nisbati", ru: "Правильное соотношение Cu/Zn (медь/цинк)", en: "Correct Cu/Zn (copper/zinc) ratio" },
+    high: {
+      uz: ["Suv va havo bilan ortiqcha kelishi", "Temir/B12 tanqisligi", "Gipotireoz", "Gipertireoz", "Gemoxromatoz", "Limfoma", "Leykoz", "Homiladorlik"],
+      ru: ["Избыточное поступление с водой, воздухом", "Дефицит железа/B12", "Гипотиреоз", "Гипертиреоз", "Гемохроматоз", "Лимфома", "Лейкоз", "Беременность"],
+      en: ["Excess intake from water and air", "Iron/B12 deficiency", "Hypothyroidism", "Hyperthyroidism", "Hemochromatosis", "Lymphoma", "Leukemia", "Pregnancy"]
+    },
+    low: {
+      uz: ["Turli jigar kasalliklari", "Buyrak kasalliklari", "Birlamchi osteoporoz", "Malabsorbsiya"],
+      ru: ["Различные заболевания печени", "Заболевания почек", "Первичный остеопороз", "Мальабсорбция"],
+      en: ["Various liver diseases", "Kidney disease", "Primary osteoporosis", "Malabsorption"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "zn", cat: "minerals", abbr: "Zn",
+    name: { uz: "Sink (qonda)", ru: "Цинк (в крови)", en: "Zinc (blood)" },
+    unit: { uz: "mkg/dl", ru: "мкг/дл", en: "µg/dL" },
+    norms: {
+      uz: [["Kattalar va 1 oydan katta bolalar", "75–120 (11,47–18,35 mkmol/l)"]],
+      ru: [["взрослые и дети после 1 месяца", "75–120 (11,47–18,35 мкмоль/л)"]],
+      en: [["adults and children over 1 month", "75–120 (11.47–18.35 µmol/L)"]]
+    },
+    optimum: { uz: "85 mkg/dl dan yuqori (13 mkmol/l dan yuqori)", ru: "выше 85 мкг/дл (выше 13 мкмоль/л)", en: "above 85 µg/dL (above 13 µmol/L)" },
+    high: {
+      uz: ["Havo bilan ortiqcha kelishi", "BAD (qo'shimchalar) ni suiiste'mol qilish"],
+      ru: ["Избыточное поступление с воздухом", "Злоупотребление БАДами"],
+      en: ["Excess intake from air", "Supplement abuse"]
+    },
+    low: {
+      uz: ["Malabsorbsiya", "Talassemiya", "O'tkir infeksion jarayon", "Stress", "Diabet", "Qalqonsimon bez ishi buzilishi", "Seboreya, psoriaz", "Homiladorlik"],
+      ru: ["Мальабсорбция", "Талассемия", "Острый инфекционный процесс", "Стресс", "Диабет", "Нарушения функционирования щитовидной железы", "Себорея, псориаз", "Беременность"],
+      en: ["Malabsorption", "Thalassemia", "Acute infectious process", "Stress", "Diabetes", "Thyroid dysfunction", "Seborrhea, psoriasis", "Pregnancy"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "cu_zn", cat: "minerals", abbr: "Cu/Zn",
+    name: { uz: "Cu/Zn nisbati (mis/sink)", ru: "Соотношение Cu/Zn (медь/цинк)", en: "Cu/Zn ratio (copper/zinc)" },
+    unit: { uz: "", ru: "", en: "" },
+    norms: {
+      uz: [["Norma", "0,8–1,2"]],
+      ru: [["Норма", "0,8–1,2"]],
+      en: [["Normal", "0.8–1.2"]]
+    },
+    optimum: { uz: "0,8–1,2", ru: "0,8–1,2", en: "0.8–1.2" },
+    high: {
+      uz: ["Immun tizimi disfunksiyasi", "Yuqori oksidlovchi stress darajasi", "Yallig'lanish jarayoni", "Insulin darajasi oshishi"],
+      ru: ["Дисфункция иммунной системы", "Высокий уровень окислительного стресса", "Воспалительный процесс", "Повышенный уровень инсулина"],
+      en: ["Immune system dysfunction", "High oxidative stress", "Inflammatory process", "Elevated insulin"]
+    },
+    low: {
+      uz: ["Klinik ahamiyatga ega emas"],
+      ru: ["Не имеет клинического значения"],
+      en: ["No clinical significance"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "magnesium", cat: "minerals", abbr: "Mg",
+    name: { uz: "Magniy", ru: "Магний", en: "Magnesium" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["Barcha yoshlar", "0,9–1,1"]],
+      ru: [["Все возрасты", "0,9–1,1"]],
+      en: [["All ages", "0.9–1.1"]]
+    },
+    optimum: { uz: "1 dan yuqori", ru: "выше 1", en: "above 1" },
+    high: {
+      uz: ["Buyrak yetishmovchiligi", "BAD (qo'shimchalar) ni suiiste'mol qilish", "Gipotireoz", "Suvsizlanish", "Vitamin D dozasi oshishi"],
+      ru: ["Почечная недостаточность", "Злоупотребление БАДами", "Гипотиреоз", "Обезвоживание", "Передозировка витамина D"],
+      en: ["Renal failure", "Supplement abuse", "Hypothyroidism", "Dehydration", "Vitamin D overdose"]
+    },
+    low: {
+      uz: ["Homiladorlik", "Ratsionda hayvon oqsili ortiqchaligi", "Diabet, insulinrezistentlik", "Semizlik", "Stress", "Surункali charchoq", "Qusish, diareya"],
+      ru: ["Беременность", "Избыток животного белка в рационе", "Диабет, инсулинорезистентность", "Ожирение", "Стресс", "Переутомление", "Рвота, диарея"],
+      en: ["Pregnancy", "Excess dietary animal protein", "Diabetes, insulin resistance", "Obesity", "Stress", "Overwork", "Vomiting, diarrhea"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "iodine", cat: "minerals", abbr: "I",
+    name: { uz: "Yod (siydikda)", ru: "Йод (в моче)", en: "Iodine (urine)" },
+    unit: { uz: "mkg/l", ru: "мкг/л", en: "µg/L" },
+    norms: {
+      uz: [["Siydikda", "100–300"], ["Sochda", "0,25–10 mkg/g"]],
+      ru: [["в моче", "100–300"], ["в волосах", "0,25–10 мкг/г"]],
+      en: [["urine", "100–300"], ["hair", "0.25–10 µg/g"]]
+    },
+    optimum: { uz: "200–300 mkg/l", ru: "200–300 мкг/л", en: "200–300 µg/L" },
+    high: {
+      uz: ["Ovqatda yod miqdori oshishi", "Qalqonsimon bez funksiyasi oshishi (tireoidit, tireotoksikoz)", "Genetik kasalliklar (Plammer kasalligi, Pendred sindromi)"],
+      ru: ["Увеличение содержания йода в пище", "Повышение функции щитовидной железы (тиреоидит, тиреотоксикоз)", "Генетически обусловленные заболевания (болезнь Пламмера, синдром Пендреда)"],
+      en: ["Increased dietary iodine", "Thyroid hyperfunction (thyroiditis, thyrotoxicosis)", "Genetic disorders (Plummer's disease, Pendred syndrome)"]
+    },
+    low: {
+      uz: ["Mo''tadil tanqislik: siydikda 50–100 mkg/l", "Og'ir tanqislik: siydikda 50 dan past", "Ovqatda yod kamligi", "Qalqonsimon bez kasalliklari (endemik bo'qoq, kretinizm, miksedema, Xashimoto sindromi)"],
+      ru: ["Умеренный дефицит: 50–100 мкг/л в моче", "Тяжёлый дефицит: ниже 50 мкг/л в моче", "Низкое содержание йода в пище", "Заболевания щитовидной железы (эндемический зоб, кретинизм, микседема, синдром Хашимото)"],
+      en: ["Moderate deficiency: 50–100 µg/L in urine", "Severe deficiency: below 50 µg/L in urine", "Low dietary iodine", "Thyroid diseases (endemic goiter, cretinism, myxedema, Hashimoto syndrome)"]
+    },
+    note: { uz: "", ru: "", en: "" }
   }
 
 ];
