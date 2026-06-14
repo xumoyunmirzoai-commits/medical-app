@@ -91,7 +91,8 @@ function toggleSidebar() {
   const sidebar = document.getElementById("sidebar");
   const overlay = document.getElementById("sidebarOverlay");
   const isOpen  = sidebar.classList.toggle("open");
-  if (overlay) overlay.classList.toggle("active", isOpen);
+  if (overlay) overlay.classList.toggle("show", isOpen);
+  document.body.style.overflow = isOpen ? "hidden" : "";
 }
 
 // ── Desktop uchun yig'ish/kengaytirish ──
@@ -125,11 +126,11 @@ function updateTooltips() {
   });
 }
 function closeMobileSidebar() {
-  if (window.innerWidth <= 900) {
-    document.getElementById("sidebar").classList.remove("open");
-    const overlay = document.getElementById("sidebarOverlay");
-    if (overlay) overlay.classList.remove("active");
-  }
+  const sidebar = document.getElementById("sidebar");
+  if (sidebar) sidebar.classList.remove("open");
+  const overlay = document.getElementById("sidebarOverlay");
+  if (overlay) overlay.classList.remove("show", "active");
+  document.body.style.overflow = "";
 }
 
 // ════════════════════════════════════════════
@@ -753,7 +754,7 @@ function showSearchOverlay() {
     ov.style.cssText = `
       position:fixed;inset:0;top:54px;
       background:rgba(0,0,0,.35);backdrop-filter:blur(2px);
-      z-index:499;
+      z-index:90;
     `;
     ov.onclick = hideSearchDropdown;
     document.body.appendChild(ov);

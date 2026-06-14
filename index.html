@@ -104,9 +104,6 @@
 </head>
 <body>
 
-<!-- Sidebar overlay (mobile) -->
-<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
-
 <!-- ═══════════ SIDEBAR ═══════════ -->
 <aside class="sidebar" id="sidebar">
 
@@ -167,6 +164,13 @@
       <span class="nav-badge fav-count" id="navFavCount" style="display:none">0</span>
     </a>
   </nav>
+
+  <!-- Til tanlash (faqat mobil — topbardagi yashiringani uchun) -->
+  <div class="sidebar-lang">
+    <button class="lang-btn active" data-lang="uz" onclick="setLanguage('uz')">UZ</button>
+    <button class="lang-btn" data-lang="ru" onclick="setLanguage('ru')">RU</button>
+    <button class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
+  </div>
 
   <div class="sidebar-user">
     <div class="user-avatar">KTS</div>
@@ -734,12 +738,17 @@
   }
 
   function openMobileSearch() {
-    // Global search inputni focus qilish
-    const input = document.getElementById('globalSearchInput');
-    if (input) { input.focus(); input.select(); }
-    // Agar sahifa ko'rinmasa, drugs sahifasiga o'tish
-    mbnNav('drugs');
-    setTimeout(() => { if (input) input.focus(); }, 200);
+    // Sahifani o'zgartirmasdan faqat qidiruv panelini ochamiz.
+    // Mobil sidebar ochiq bo'lsa yopamiz (qidiruvga xalaqit bermasligi uchun).
+    if (typeof closeSidebar === 'function') closeSidebar();
+    const input = document.getElementById('globalSearch');
+    if (!input) return;
+    // Topbarni ko'rinadigan joyga olib chiqamiz, so'ng inputni faollashtiramiz
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setTimeout(() => {
+      input.focus({ preventScroll: true });
+      input.select();
+    }, 60);
   }
 
   // ══════════════════════════════════════════
