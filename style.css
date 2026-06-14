@@ -1244,8 +1244,9 @@ body {
   z-index: 198;
   transition: opacity .28s;
   opacity: 0;
+  pointer-events: none;
 }
-.sidebar-overlay.show { display: block; opacity: 1; }
+.sidebar-overlay.show { display: block; opacity: 1; pointer-events: auto; }
 
 /* Sidebar ichidagi til tanlash — faqat mobil */
 .sidebar-lang { display: none; }

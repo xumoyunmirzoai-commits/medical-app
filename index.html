@@ -1045,6 +1045,41 @@
       if (activeBtn) activeBtn.classList.add('active');
     }
   });
+
+  // ── Mobil: sidebar tashqarisiga bosilganda yopish (qo'shimcha himoya) ──
+  document.addEventListener('pointerdown', (e) => {
+    if (window.innerWidth > 900) return;
+    const sidebar = document.getElementById('sidebar');
+    if (!sidebar || !sidebar.classList.contains('open')) return;
+    // sidebar ichida yoki menyu/ochish tugmasi bo'lsa — yopmaymiz
+    if (e.target.closest('#sidebar')) return;
+    if (e.target.closest('#menuBtn') || e.target.closest('#mbn-menu')) return;
+    closeSidebar();
+  });
+
+  // ── Mobil: sidebarni chapga surib (swipe) yopish ──
+  (function initSidebarSwipe() {
+    const sidebar = document.getElementById('sidebar');
+    if (!sidebar) return;
+    let startX = 0, startY = 0, tracking = false;
+    sidebar.addEventListener('touchstart', (e) => {
+      if (window.innerWidth > 900 || !sidebar.classList.contains('open')) return;
+      const t = e.touches[0];
+      startX = t.clientX; startY = t.clientY; tracking = true;
+    }, { passive: true });
+    sidebar.addEventListener('touchmove', (e) => {
+      if (!tracking) return;
+      const t = e.touches[0];
+      const dx = t.clientX - startX;
+      const dy = t.clientY - startY;
+      // Asosan gorizontal va chapga harakat bo'lsa — yopamiz
+      if (dx < -55 && Math.abs(dx) > Math.abs(dy)) {
+        tracking = false;
+        closeSidebar();
+      }
+    }, { passive: true });
+    sidebar.addEventListener('touchend', () => { tracking = false; }, { passive: true });
+  })();
 </script>
 </body>
 </html>
