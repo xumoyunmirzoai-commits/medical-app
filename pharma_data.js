@@ -21071,6 +21071,465 @@ const PHARMA_DATA = {
     },
     chiqarish: "Powder/concentrate for IV infusion 100 mg (vials)"
   }
+},
+
+"J02AX04": {
+  uz: {
+    gruppa: "Tizimli zamburug'ga qarshi vositalar — exinokandinlar",
+    farmTasir: "Fungitsid/fungistatik exinokandin",
+    farmakodinamika: `Kaspofungin — exinokandinlar guruhiga mansub yarim sintetik lipopeptid. U zamburug' hujayra devorining muhim komponenti bo'lgan β-(1,3)-D-glyukan sintezini (1,3-β-glyukan-sintaza fermentini) noraqobatli inhibilaydi. Sutemizuvchilar hujayrasida bunday nishon bo'lmagani uchun tanlanish yuqori. Candida turlariga (jumladan azollarga rezistent shtammlarga) fungitsid, Aspergillus turlariga fungistatik ta'sir ko'rsatadi.`,
+    farmakokinetika: {
+      sorish: "Faqat venaga; biokirish 100%",
+      tarqalish: "Plazma oqsillariga ~97% bog'lanadi; to'qimalarga yaxshi taqsimlanadi",
+      metabolizm: "Jigarda gidroliz va N-atsetillanish yo'li bilan sekin parchalanadi (sitoxrom P450 ishtirokisiz)",
+      chiqarilish: "Asosan najas va siydik bilan; T½ ~9–11 soat"
+    },
+    korsatmalar: ["Invaziv kandidoz va kandidemiya", "Invaziv aspergillyoz (boshqa terapiyaga chidamli holatlarda)", "Neytropeniyali bemorlarda taxmin qilingan zamburug'li infeksiyaning empirik davosi", "Yutqun-qizilo'ngach kandidozi"],
+    qarrshi: ["Kaspofunginga yuqori sezuvchanlik", "Ehtiyotkorlik — og'ir jigar yetishmovchiligi"],
+    nojoya: {
+      "Umumiy": "Isitma, bosh og'rig'i, titroq",
+      "Oshqozon-ichak": "Ko'ngil aynishi, qusish, diareya, transaminazalar oshishi",
+      "Tomir": "Infuziya joyidagi reaksiya, flebit, gistamin bog'liq reaksiyalar"
+    },
+    dozadan: "Maxsus antidot yo'q; simptomatik davo. Gemodializ bilan chiqarilmaydi.",
+    ozarotasir: ["Siklosporin — kaspofungin va transaminaza darajasini oshiradi", "Rifampitsin, efavirenz, fenitoin (induktorlar) — kaspofungin konsentratsiyasini kamaytiradi (qo'llab dozani 70 mg ga oshirish mumkin)", "Takrolimus konsentratsiyasini kamaytirishi mumkin"],
+    qollash: {
+      kattalar: "1-kun to'yintiruvchi doza 70 mg IV, keyin 50 mg/sutkada (vazn >80 kg yoki induktorlar bilan — 70 mg). Sekin infuziya ~1 soat.",
+      bolalar: "3 oydan: tana yuzasiga ko'ra 70 mg/m² (1-kun), keyin 50 mg/m²/sutka (maks. 70 mg)"
+    },
+    chiqarish: "Infuziya eritmasi uchun liofilizat 50 mg, 70 mg (flakon)"
+  },
+  ru: {
+    gruppa: "Системные противогрибковые средства — эхинокандины",
+    farmTasir: "Фунгицидный/фунгистатический эхинокандин",
+    farmakodinamika: `Каспофунгин — полусинтетический липопептид из группы эхинокандинов. Неконкурентно ингибирует синтез β-(1,3)-D-глюкана (фермент 1,3-β-глюкансинтазу) — ключевого компонента клеточной стенки грибов. Поскольку у клеток млекопитающих такой мишени нет, селективность высока. Оказывает фунгицидное действие на Candida spp. (включая азолрезистентные штаммы) и фунгистатическое — на Aspergillus spp.`,
+    farmakokinetika: {
+      sorish: "Только внутривенно; биодоступность 100%",
+      tarqalish: "Связь с белками плазмы ~97%; хорошо распределяется в тканях",
+      metabolizm: "Медленно метаболизируется в печени путём гидролиза и N-ацетилирования (без участия цитохрома P450)",
+      chiqarilish: "Преимущественно с калом и мочой; T½ ~9–11 ч"
+    },
+    korsatmalar: ["Инвазивный кандидоз и кандидемия", "Инвазивный аспергиллёз (при резистентности к другой терапии)", "Эмпирическая терапия предполагаемой грибковой инфекции у пациентов с нейтропенией", "Кандидоз пищевода"],
+    qarrshi: ["Гиперчувствительность к каспофунгину", "Осторожно — тяжёлая печёночная недостаточность"],
+    nojoya: {
+      "Общие": "Лихорадка, головная боль, озноб",
+      "ЖКТ": "Тошнота, рвота, диарея, повышение трансаминаз",
+      "Сосудистые": "Реакция в месте инфузии, флебит, гистамин-опосредованные реакции"
+    },
+    dozadan: "Специфического антидота нет; симптоматическая терапия. Гемодиализом не выводится.",
+    ozarotasir: ["Циклоспорин — повышает концентрацию каспофунгина и уровень трансаминаз", "Рифампицин, эфавиренз, фенитоин (индукторы) — снижают концентрацию (возможно увеличение дозы до 70 мг)", "Может снижать концентрацию такролимуса"],
+    qollash: {
+      kattalar: "В 1-й день нагрузочная доза 70 мг в/в, затем 50 мг/сут (при массе >80 кг или приёме индукторов — 70 мг). Медленная инфузия ~1 ч.",
+      bolalar: "С 3 мес: 70 мг/м² (1-й день), затем 50 мг/м²/сут (макс. 70 мг)"
+    },
+    chiqarish: "Лиофилизат для приготовления раствора для инфузий 50 мг, 70 мг (флакон)"
+  },
+  en: {
+    gruppa: "Systemic antifungals — echinocandins",
+    farmTasir: "Fungicidal/fungistatic echinocandin",
+    farmakodinamika: `Caspofungin is a semisynthetic lipopeptide echinocandin. It noncompetitively inhibits synthesis of β-(1,3)-D-glucan (the enzyme 1,3-β-glucan synthase), an essential component of the fungal cell wall. As mammalian cells lack this target, selectivity is high. It is fungicidal against Candida spp. (including azole-resistant strains) and fungistatic against Aspergillus spp.`,
+    farmakokinetika: {
+      sorish: "Intravenous only; bioavailability 100%",
+      tarqalish: "Plasma protein binding ~97%; well distributed into tissues",
+      metabolizm: "Slowly metabolised in the liver by hydrolysis and N-acetylation (CYP-independent)",
+      chiqarilish: "Mainly in faeces and urine; T½ ~9–11 h"
+    },
+    korsatmalar: ["Invasive candidiasis and candidaemia", "Invasive aspergillosis (refractory to other therapy)", "Empirical therapy of presumed fungal infection in neutropenic patients", "Oesophageal candidiasis"],
+    qarrshi: ["Hypersensitivity to caspofungin", "Caution — severe hepatic impairment"],
+    nojoya: {
+      "General": "Fever, headache, chills",
+      "GI": "Nausea, vomiting, diarrhoea, raised transaminases",
+      "Vascular": "Infusion-site reaction, phlebitis, histamine-mediated reactions"
+    },
+    dozadan: "No specific antidote; supportive care. Not dialysable.",
+    ozarotasir: ["Ciclosporin — raises caspofungin levels and transaminases", "Rifampicin, efavirenz, phenytoin (inducers) — lower caspofungin levels (dose increase to 70 mg may be needed)", "May reduce tacrolimus levels"],
+    qollash: {
+      kattalar: "Day 1 loading dose 70 mg IV, then 50 mg/day (70 mg if >80 kg or on inducers). Slow infusion over ~1 h.",
+      bolalar: "From 3 months: 70 mg/m² (day 1), then 50 mg/m²/day (max 70 mg)"
+    },
+    chiqarish: "Powder for solution for infusion 50 mg, 70 mg (vial)"
+  }
+},
+
+"J02AX05": {
+  uz: {
+    gruppa: "Tizimli zamburug'ga qarshi vositalar — exinokandinlar",
+    farmTasir: "Fungitsid exinokandin",
+    farmakodinamika: `Mikafungin — exinokandin guruhidan; zamburug' hujayra devori β-(1,3)-D-glyukan sintezini noraqobatli inhibilaydi, bu osmotik beqarorlik va hujayra lizisiga olib keladi. Candida turlariga (jumladan C. glabrata, C. krusei) fungitsid faollik ko'rsatadi; biofilmlarga ham ta'sirchan.`,
+    farmakokinetika: {
+      sorish: "Faqat venaga; biokirish 100%",
+      tarqalish: "Plazma oqsillariga >99% bog'lanadi",
+      metabolizm: "Jigarda arilsulfataza va katexol-O-metiltransferaza orqali; CYP3A ishtiroki minimal",
+      chiqarilish: "Asosan najas bilan; T½ ~14–17 soat"
+    },
+    korsatmalar: ["Invaziv kandidoz va kandidemiya", "Yutqun-qizilo'ngach kandidozi", "Gemopoetik o'zak hujayra transplantatsiyasida kandidoz profilaktikasi"],
+    qarrshi: ["Mikafungin yoki boshqa exinokandinlarga yuqori sezuvchanlik", "Ehtiyotkorlik — jigar funksiyasi buzilishi"],
+    nojoya: {
+      "Qon": "Leykopeniya, neytropeniya, gemoliz",
+      "Jigar": "Transaminazalar va bilirubin oshishi, kamdan-kam — og'ir jigar shikasti",
+      "Umumiy": "Isitma, bosh og'rig'i, toshma, infuziya reaksiyasi"
+    },
+    dozadan: "Maxsus antidot yo'q; simptomatik davo. Dializ bilan chiqarilmaydi.",
+    ozarotasir: ["Sirolimus, nifedipin, itrakonazol — ularning konsentratsiyasini oshirishi mumkin (kuzatuv talab etiladi)"],
+    qollash: {
+      kattalar: "Kandidemiya/invaziv kandidoz: 100 mg/sutkada IV; qizilo'ngach kandidozi: 150 mg/sutkada; profilaktika: 50 mg/sutkada.",
+      bolalar: "Vaznga ko'ra 1–4 mg/kg/sutkada"
+    },
+    chiqarish: "Infuziya eritmasi uchun liofilizat 50 mg, 100 mg (flakon)"
+  },
+  ru: {
+    gruppa: "Системные противогрибковые средства — эхинокандины",
+    farmTasir: "Фунгицидный эхинокандин",
+    farmakodinamika: `Микафунгин — эхинокандин; неконкурентно ингибирует синтез β-(1,3)-D-глюкана клеточной стенки грибов, что приводит к осмотической нестабильности и лизису клетки. Проявляет фунгицидную активность против Candida spp. (включая C. glabrata, C. krusei) и действует на биоплёнки.`,
+    farmakokinetika: {
+      sorish: "Только внутривенно; биодоступность 100%",
+      tarqalish: "Связь с белками плазмы >99%",
+      metabolizm: "В печени через арилсульфатазу и катехол-O-метилтрансферазу; участие CYP3A минимально",
+      chiqarilish: "Преимущественно с калом; T½ ~14–17 ч"
+    },
+    korsatmalar: ["Инвазивный кандидоз и кандидемия", "Кандидоз пищевода", "Профилактика кандидоза при трансплантации гемопоэтических стволовых клеток"],
+    qarrshi: ["Гиперчувствительность к микафунгину или другим эхинокандинам", "Осторожно — нарушение функции печени"],
+    nojoya: {
+      "Кровь": "Лейкопения, нейтропения, гемолиз",
+      "Печень": "Повышение трансаминаз и билирубина, редко — тяжёлое поражение печени",
+      "Общие": "Лихорадка, головная боль, сыпь, инфузионные реакции"
+    },
+    dozadan: "Специфического антидота нет; симптоматическая терапия. Диализом не выводится.",
+    ozarotasir: ["Сиролимус, нифедипин, итраконазол — возможно повышение их концентрации (требуется мониторинг)"],
+    qollash: {
+      kattalar: "Кандидемия/инвазивный кандидоз: 100 мг/сут в/в; кандидоз пищевода: 150 мг/сут; профилактика: 50 мг/сут.",
+      bolalar: "По массе 1–4 мг/кг/сут"
+    },
+    chiqarish: "Лиофилизат для приготовления раствора для инфузий 50 мг, 100 мг (флакон)"
+  },
+  en: {
+    gruppa: "Systemic antifungals — echinocandins",
+    farmTasir: "Fungicidal echinocandin",
+    farmakodinamika: `Micafungin is an echinocandin that noncompetitively inhibits β-(1,3)-D-glucan synthesis in the fungal cell wall, causing osmotic instability and cell lysis. It is fungicidal against Candida spp. (including C. glabrata and C. krusei) and active against biofilms.`,
+    farmakokinetika: {
+      sorish: "Intravenous only; bioavailability 100%",
+      tarqalish: "Plasma protein binding >99%",
+      metabolizm: "Hepatic, via arylsulfatase and catechol-O-methyltransferase; minimal CYP3A involvement",
+      chiqarilish: "Mainly faecal; T½ ~14–17 h"
+    },
+    korsatmalar: ["Invasive candidiasis and candidaemia", "Oesophageal candidiasis", "Prophylaxis of candidiasis in haematopoietic stem cell transplantation"],
+    qarrshi: ["Hypersensitivity to micafungin or other echinocandins", "Caution — hepatic impairment"],
+    nojoya: {
+      "Blood": "Leukopenia, neutropenia, haemolysis",
+      "Liver": "Raised transaminases and bilirubin, rarely severe hepatic injury",
+      "General": "Fever, headache, rash, infusion reactions"
+    },
+    dozadan: "No specific antidote; supportive care. Not dialysable.",
+    ozarotasir: ["Sirolimus, nifedipine, itraconazole — their levels may rise (monitoring required)"],
+    qollash: {
+      kattalar: "Candidaemia/invasive candidiasis: 100 mg/day IV; oesophageal candidiasis: 150 mg/day; prophylaxis: 50 mg/day.",
+      bolalar: "By weight 1–4 mg/kg/day"
+    },
+    chiqarish: "Powder for solution for infusion 50 mg, 100 mg (vial)"
+  }
+},
+
+"J05AC02": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — adamantan hosilalari",
+    farmTasir: "A grippiga qarshi virusga qarshi vosita",
+    farmakodinamika: `Rimantadin — adamantan hosilasi. U A grippi virusining M2 oqsil ion kanalini blokirovka qiladi, natijada virusning hujayra ichida «yechilishi» (uncoating) va genom ozod bo'lishi to'xtaydi. B grippiga ta'sir qilmaydi. Profilaktik va erta davo ta'siri bor; M2 mutatsiyalari tufayli rezistentlik keng tarqalgan.`,
+    farmakokinetika: {
+      sorish: "Ichakdan to'liq so'riladi",
+      tarqalish: "To'qimalarga yaxshi taqsimlanadi, burun sekretsiyasida yuqori konsentratsiya",
+      metabolizm: "Jigarda keng metabolizmga uchraydi",
+      chiqarilish: "Asosan buyrak orqali metabolitlar va o'zgarmagan holda; T½ ~24–36 soat"
+    },
+    korsatmalar: ["A grippi profilaktikasi va erta davosi (belgilar boshlanganidan keyin 24–48 soat ichida)"],
+    qarrshi: ["Yuqori sezuvchanlik", "O'tkir jigar kasalliklari", "O'tkir va surunkali buyrak yetishmovchiligi", "Homiladorlik va laktatsiya", "1 yoshgacha bolalar"],
+    nojoya: {
+      "Asab tizimi": "Bosh og'rig'i, uyqusizlik, asabiylik, diqqat buzilishi",
+      "Oshqozon-ichak": "Ko'ngil aynishi, og'iz qurishi, ishtaha pasayishi"
+    },
+    dozadan: "Qo'zg'alish, gallyutsinatsiya, aritmiya bo'lishi mumkin; simptomatik davo, fizostigmin ehtiyotkorlik bilan.",
+    ozarotasir: ["Paratsetamol, atsetilsalitsil kislota — rimantadin konsentratsiyasini pasaytiradi", "Siydik haydovchi va ishqorlovchi vositalar chiqarilishini sekinlashtiradi"],
+    qollash: {
+      kattalar: "Davo: 1-kun 100 mg×2 (yoki 100 mg×3), keyin kamaytirib, jami 5 kun; profilaktika: 50–100 mg/sutkada 10–15 kun.",
+      bolalar: "7–10 yosh: 50 mg×2; >10 yosh: kattalar dozasi"
+    },
+    chiqarish: "Tabletkalar 50 mg; sirop (bolalar uchun)"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — производные адамантана",
+    farmTasir: "Противовирусное средство против гриппа А",
+    farmakodinamika: `Римантадин — производное адамантана. Блокирует ионный канал белка M2 вируса гриппа А, нарушая «раздевание» (uncoating) вируса и высвобождение генома. На вирус гриппа В не действует. Обладает профилактическим и ранним лечебным эффектом; вследствие мутаций M2 устойчивость широко распространена.`,
+    farmakokinetika: {
+      sorish: "Полно всасывается из кишечника",
+      tarqalish: "Хорошо распределяется в тканях, высокие концентрации в носовом секрете",
+      metabolizm: "Подвергается интенсивному метаболизму в печени",
+      chiqarilish: "Преимущественно почками в виде метаболитов и в неизменённом виде; T½ ~24–36 ч"
+    },
+    korsatmalar: ["Профилактика и раннее лечение гриппа А (в течение 24–48 ч от начала симптомов)"],
+    qarrshi: ["Гиперчувствительность", "Острые заболевания печени", "Острая и хроническая почечная недостаточность", "Беременность и лактация", "Дети до 1 года"],
+    nojoya: {
+      "Нервная система": "Головная боль, бессонница, нервозность, нарушение концентрации",
+      "ЖКТ": "Тошнота, сухость во рту, снижение аппетита"
+    },
+    dozadan: "Возможны возбуждение, галлюцинации, аритмия; симптоматическая терапия, физостигмин с осторожностью.",
+    ozarotasir: ["Парацетамол, ацетилсалициловая кислота — снижают концентрацию римантадина", "Мочегонные и ощелачивающие средства замедляют выведение"],
+    qollash: {
+      kattalar: "Лечение: 1-й день 100 мг×2 (или 100 мг×3), затем со снижением, всего 5 дней; профилактика: 50–100 мг/сут 10–15 дней.",
+      bolalar: "7–10 лет: 50 мг×2; >10 лет: доза взрослых"
+    },
+    chiqarish: "Таблетки 50 мг; сироп (для детей)"
+  },
+  en: {
+    gruppa: "Systemic antivirals — adamantane derivatives",
+    farmTasir: "Anti-influenza A antiviral",
+    farmakodinamika: `Rimantadine is an adamantane derivative. It blocks the M2 protein ion channel of influenza A virus, impairing viral uncoating and genome release. It has no activity against influenza B. It has prophylactic and early-treatment effect; resistance is widespread due to M2 mutations.`,
+    farmakokinetika: {
+      sorish: "Completely absorbed from the gut",
+      tarqalish: "Well distributed in tissues, high concentrations in nasal secretions",
+      metabolizm: "Extensively metabolised in the liver",
+      chiqarilish: "Mainly renal as metabolites and unchanged drug; T½ ~24–36 h"
+    },
+    korsatmalar: ["Prophylaxis and early treatment of influenza A (within 24–48 h of symptom onset)"],
+    qarrshi: ["Hypersensitivity", "Acute liver disease", "Acute and chronic renal failure", "Pregnancy and lactation", "Children under 1 year"],
+    nojoya: {
+      "Nervous system": "Headache, insomnia, nervousness, impaired concentration",
+      "GI": "Nausea, dry mouth, decreased appetite"
+    },
+    dozadan: "Agitation, hallucinations, arrhythmia possible; supportive care, physostigmine with caution.",
+    ozarotasir: ["Paracetamol, acetylsalicylic acid — lower rimantadine levels", "Diuretics and alkalinising agents slow elimination"],
+    qollash: {
+      kattalar: "Treatment: day 1 100 mg×2 (or 100 mg×3), then tapering, total 5 days; prophylaxis: 50–100 mg/day for 10–15 days.",
+      bolalar: "7–10 y: 50 mg×2; >10 y: adult dose"
+    },
+    chiqarish: "Tablets 50 mg; syrup (for children)"
+  }
+},
+
+"J05AX65": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — to'g'ridan-to'g'ri ta'sir qiluvchi (DAA), kombinatsiya",
+    farmTasir: "Surunkali C gepatitiga qarshi kombinatsiyalangan vosita",
+    farmakodinamika: `Ledipasvir + sofosbuvir — surunkali C gepatiti (HCV) davosida qo'llaniladigan barqaror dozali kombinatsiya. Ledipasvir HCV NS5A oqsilini inhibilaydi (virus replikatsiyasi va virion yig'ilishi uchun zarur). Sofosbuvir — NS5B RNK-bog'liq RNK-polimerazaning nukleotid ingibitori bo'lib, faol metaboliti zanjirni uzadi. Ikki mexanizm pangenotipga yaqin, ayniqsa 1, 4, 5, 6 genotiplariga kuchli ta'sir beradi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali; ledipasvir so'rilishi pH ga bog'liq (kislota muhitida yaxshi)",
+      tarqalish: "Ledipasvir plazma oqsillariga >99,8%, sofosbuvir ~61–65% bog'lanadi",
+      metabolizm: "Sofosbuvir jigarda faol GS-461203 ga aylanadi; ledipasvir minimal metabolizm",
+      chiqarilish: "Sofosbuvir asosan siydik bilan (metabolit GS-331007), ledipasvir asosan najas bilan; T½ sofosbuvir ~0,5 soat, ledipasvir ~47 soat"
+    },
+    korsatmalar: ["Kattalarda va o'smirlarda surunkali C gepatiti (1, 4, 5, 6 genotiplar; ba'zi holatlarda 3)"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik", "Rifampitsin, St. John's wort (kuchli P-gp induktorlari) bilan birga qo'llash"],
+    nojoya: {
+      "Umumiy": "Charchoq, bosh og'rig'i",
+      "Boshqa": "Ko'ngil aynishi, uyqusizlik, diareya (odatda yengil)"
+    },
+    dozadan: "Maxsus antidot yo'q; simptomatik davo. Sofosbuvir metaboliti gemodializ bilan chiqariladi.",
+    ozarotasir: ["Amiodaron bilan — og'ir bradikardiya xavfi (qo'shma qo'llash tavsiya etilmaydi)", "P-gp/CYP induktorlari (rifampitsin, karbamazepin, fenitoin) — samarani kamaytiradi", "Antatsidlar va proton pompasi ingibitorlari ledipasvir so'rilishini kamaytiradi (vaqt ajratish kerak)"],
+    qollash: {
+      kattalar: "1 tabletka (ledipasvir 90 mg / sofosbuvir 400 mg) sutkada 1 marta; davomiyligi 8–24 hafta (genotip, sirroz, oldingi davoga qarab).",
+      bolalar: "≥3 yosh / vaznga ko'ra mos dozada (mutaxassis nazoratida)"
+    },
+    chiqarish: "Plyonka qoplamali tabletkalar 90 mg/400 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — препараты прямого действия (DAA), комбинация",
+    farmTasir: "Комбинированное средство против хронического гепатита С",
+    farmakodinamika: `Ледипасвир + софосбувир — комбинация с фиксированной дозой для лечения хронического гепатита С (HCV). Ледипасвир ингибирует белок NS5A HCV (необходим для репликации вируса и сборки вирионов). Софосбувир — нуклеотидный ингибитор NS5B РНК-зависимой РНК-полимеразы, активный метаболит которого вызывает обрыв цепи. Два механизма обеспечивают активность, близкую к пангенотипической, особенно при генотипах 1, 4, 5, 6.`,
+    farmakokinetika: {
+      sorish: "Внутрь; всасывание ледипасвира зависит от pH (лучше в кислой среде)",
+      tarqalish: "Связь с белками плазмы: ледипасвир >99,8%, софосбувир ~61–65%",
+      metabolizm: "Софосбувир превращается в печени в активный GS-461203; ледипасвир метаболизируется минимально",
+      chiqarilish: "Софосбувир преимущественно с мочой (метаболит GS-331007), ледипасвир преимущественно с калом; T½ софосбувир ~0,5 ч, ледипасвир ~47 ч"
+    },
+    korsatmalar: ["Хронический гепатит С у взрослых и подростков (генотипы 1, 4, 5, 6; в отдельных случаях 3)"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Совместный приём с рифампицином, зверобоем (сильные индукторы P-gp)"],
+    nojoya: {
+      "Общие": "Утомляемость, головная боль",
+      "Прочие": "Тошнота, бессонница, диарея (обычно лёгкие)"
+    },
+    dozadan: "Специфического антидота нет; симптоматическая терапия. Метаболит софосбувира выводится гемодиализом.",
+    ozarotasir: ["С амиодароном — риск тяжёлой брадикардии (совместное применение не рекомендуется)", "Индукторы P-gp/CYP (рифампицин, карбамазепин, фенитоин) — снижают эффективность", "Антациды и ингибиторы протонной помпы снижают всасывание ледипасвира (требуется разнесение по времени)"],
+    qollash: {
+      kattalar: "1 таблетка (ледипасвир 90 мг / софосбувир 400 мг) 1 раз в сутки; длительность 8–24 недели (в зависимости от генотипа, цирроза, предшествующей терапии).",
+      bolalar: "≥3 лет / в дозе по массе тела (под контролем специалиста)"
+    },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 90 мг/400 мг"
+  },
+  en: {
+    gruppa: "Systemic antivirals — direct-acting antivirals (DAA), combination",
+    farmTasir: "Combination agent for chronic hepatitis C",
+    farmakodinamika: `Ledipasvir + sofosbuvir is a fixed-dose combination for chronic hepatitis C (HCV). Ledipasvir inhibits the HCV NS5A protein (required for viral replication and virion assembly). Sofosbuvir is a nucleotide inhibitor of NS5B RNA-dependent RNA polymerase whose active metabolite causes chain termination. The two mechanisms give near-pangenotypic activity, especially against genotypes 1, 4, 5, 6.`,
+    farmakokinetika: {
+      sorish: "Oral; ledipasvir absorption is pH-dependent (better in acidic medium)",
+      tarqalish: "Plasma protein binding: ledipasvir >99.8%, sofosbuvir ~61–65%",
+      metabolizm: "Sofosbuvir is converted in the liver to active GS-461203; ledipasvir is minimally metabolised",
+      chiqarilish: "Sofosbuvir mainly in urine (metabolite GS-331007), ledipasvir mainly in faeces; T½ sofosbuvir ~0.5 h, ledipasvir ~47 h"
+    },
+    korsatmalar: ["Chronic hepatitis C in adults and adolescents (genotypes 1, 4, 5, 6; selected genotype 3)"],
+    qarrshi: ["Hypersensitivity to components", "Co-administration with rifampicin, St John's wort (strong P-gp inducers)"],
+    nojoya: {
+      "General": "Fatigue, headache",
+      "Other": "Nausea, insomnia, diarrhoea (usually mild)"
+    },
+    dozadan: "No specific antidote; supportive care. Sofosbuvir metabolite is removed by haemodialysis.",
+    ozarotasir: ["With amiodarone — risk of severe bradycardia (co-use not recommended)", "P-gp/CYP inducers (rifampicin, carbamazepine, phenytoin) — reduce efficacy", "Antacids and proton-pump inhibitors reduce ledipasvir absorption (separate dosing)"],
+    qollash: {
+      kattalar: "1 tablet (ledipasvir 90 mg / sofosbuvir 400 mg) once daily; duration 8–24 weeks (by genotype, cirrhosis, prior therapy).",
+      bolalar: "≥3 years / weight-based dose (under specialist supervision)"
+    },
+    chiqarish: "Film-coated tablets 90 mg/400 mg"
+  }
+},
+
+"J05AP55": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — DAA, pangenotip kombinatsiya",
+    farmTasir: "Surunkali C gepatitiga qarshi pangenotip kombinatsiya",
+    farmakodinamika: `Sofosbuvir + velpatasvir — barcha asosiy HCV genotiplariga (1–6) ta'sir qiluvchi barqaror dozali kombinatsiya. Sofosbuvir NS5B polimerazani inhibilaydi (zanjirni uzuvchi nukleotid), velpatasvir esa NS5A oqsilini inhibilaydi. Bu kombinatsiya yuqori bardoshlilik bilan genotipga qaramay yuqori SVR (barqaror virusologik javob) beradi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali; velpatasrir so'rilishi pH ga bog'liq",
+      tarqalish: "Velpatasvir plazma oqsillariga >99,5%, sofosbuvir ~61–65% bog'lanadi",
+      metabolizm: "Sofosbuvir faol metabolitga aylanadi; velpatasvir CYP2B6/2C8/3A4 orqali qisman",
+      chiqarilish: "Sofosbuvir asosan siydik bilan, velpatasvir asosan najas bilan; T½ velpatasvir ~15 soat"
+    },
+    korsatmalar: ["Kattalarda surunkali C gepatiti (1–6 genotiplar), kompensatsiyalangan yoki dekompensatsiyalangan sirroz bilan/siz (ribavirin bilan birga)"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik", "Kuchli P-gp/CYP induktorlari (rifampitsin, St. John's wort) bilan"],
+    nojoya: {
+      "Umumiy": "Bosh og'rig'i, charchoq",
+      "Boshqa": "Ko'ngil aynishi (odatda yengil)"
+    },
+    dozadan: "Maxsus antidot yo'q; simptomatik davo.",
+    ozarotasir: ["Amiodaron — bradikardiya xavfi", "Antatsidlar, H2-blokerlar, PPI — velpatasvir so'rilishini kamaytiradi", "Rifampitsin, karbamazepin, fenitoin — samarani pasaytiradi"],
+    qollash: {
+      kattalar: "1 tabletka (sofosbuvir 400 mg / velpatasvir 100 mg) sutkada 1 marta, 12 hafta; dekompensatsiyalangan sirrozda ribavirin bilan.",
+      bolalar: "≥3 yosh / vaznga ko'ra (mutaxassis nazoratida)"
+    },
+    chiqarish: "Plyonka qoplamali tabletkalar 400 mg/100 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — DAA, пангенотипная комбинация",
+    farmTasir: "Пангенотипная комбинация против хронического гепатита С",
+    farmakodinamika: `Софосбувир + велпатасвир — комбинация с фиксированной дозой, активная против всех основных генотипов HCV (1–6). Софосбувир ингибирует полимеразу NS5B (нуклеотид, вызывающий обрыв цепи), велпатасвир ингибирует белок NS5A. Комбинация обеспечивает высокий устойчивый вирусологический ответ (SVR) независимо от генотипа при хорошей переносимости.`,
+    farmakokinetika: {
+      sorish: "Внутрь; всасывание велпатасвира зависит от pH",
+      tarqalish: "Связь с белками плазмы: велпатасвир >99,5%, софосбувир ~61–65%",
+      metabolizm: "Софосбувир превращается в активный метаболит; велпатасвир частично через CYP2B6/2C8/3A4",
+      chiqarilish: "Софосбувир преимущественно с мочой, велпатасвир преимущественно с калом; T½ велпатасвира ~15 ч"
+    },
+    korsatmalar: ["Хронический гепатит С у взрослых (генотипы 1–6), с компенсированным или декомпенсированным циррозом или без него (с рибавирином)"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Сильные индукторы P-gp/CYP (рифампицин, зверобой)"],
+    nojoya: {
+      "Общие": "Головная боль, утомляемость",
+      "Прочие": "Тошнота (обычно лёгкая)"
+    },
+    dozadan: "Специфического антидота нет; симптоматическая терапия.",
+    ozarotasir: ["Амиодарон — риск брадикардии", "Антациды, H2-блокаторы, ИПП — снижают всасывание велпатасвира", "Рифампицин, карбамазепин, фенитоин — снижают эффективность"],
+    qollash: {
+      kattalar: "1 таблетка (софосбувир 400 мг / велпатасвир 100 мг) 1 раз в сутки, 12 недель; при декомпенсированном циррозе — с рибавирином.",
+      bolalar: "≥3 лет / по массе тела (под контролем специалиста)"
+    },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 400 мг/100 мг"
+  },
+  en: {
+    gruppa: "Systemic antivirals — DAA, pangenotypic combination",
+    farmTasir: "Pangenotypic combination for chronic hepatitis C",
+    farmakodinamika: `Sofosbuvir + velpatasvir is a fixed-dose combination active against all major HCV genotypes (1–6). Sofosbuvir inhibits the NS5B polymerase (a chain-terminating nucleotide); velpatasvir inhibits the NS5A protein. The combination achieves high sustained virologic response (SVR) regardless of genotype with good tolerability.`,
+    farmakokinetika: {
+      sorish: "Oral; velpatasvir absorption is pH-dependent",
+      tarqalish: "Plasma protein binding: velpatasvir >99.5%, sofosbuvir ~61–65%",
+      metabolizm: "Sofosbuvir is converted to an active metabolite; velpatasvir partly via CYP2B6/2C8/3A4",
+      chiqarilish: "Sofosbuvir mainly in urine, velpatasvir mainly in faeces; T½ velpatasvir ~15 h"
+    },
+    korsatmalar: ["Chronic hepatitis C in adults (genotypes 1–6), with or without compensated or decompensated cirrhosis (with ribavirin)"],
+    qarrshi: ["Hypersensitivity to components", "Strong P-gp/CYP inducers (rifampicin, St John's wort)"],
+    nojoya: {
+      "General": "Headache, fatigue",
+      "Other": "Nausea (usually mild)"
+    },
+    dozadan: "No specific antidote; supportive care.",
+    ozarotasir: ["Amiodarone — bradycardia risk", "Antacids, H2-blockers, PPIs — reduce velpatasvir absorption", "Rifampicin, carbamazepine, phenytoin — reduce efficacy"],
+    qollash: {
+      kattalar: "1 tablet (sofosbuvir 400 mg / velpatasvir 100 mg) once daily for 12 weeks; with ribavirin in decompensated cirrhosis.",
+      bolalar: "≥3 years / weight-based (under specialist supervision)"
+    },
+    chiqarish: "Film-coated tablets 400 mg/100 mg"
+  }
+},
+
+"J05AG01": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — nukleozid teskari transkriptaza ingibitorlari (NRTI), kombinatsiya",
+    farmTasir: "OIV infeksiyasiga qarshi kombinatsiyalangan vosita",
+    farmakodinamika: `Zidovudin + lamivudin — ikkita nukleozid teskari transkriptaza ingibitorining (NRTI) barqaror dozali kombinatsiyasi. Ikkala modda ham hujayra ichida fosforillanib, OIV teskari transkriptazasini inhibilaydi va zanjirni uzadi (chain termination). Bir-birini to'ldiruvchi rezistentlik profili va sinergik ta'sir tufayli antiretrovirus terapiyaning «umurtqa pog'onasi» sifatida ishlatiladi (uchinchi modda bilan birga).`,
+    farmakokinetika: {
+      sorish: "Ikkalasi og'izdan yaxshi so'riladi (zidovudin ~64%, lamivudin ~86%)",
+      tarqalish: "Markaziy asab tizimiga kiradi; oqsilga bog'lanish past",
+      metabolizm: "Zidovudin jigarda glyukuronlanadi; lamivudin minimal metabolizm",
+      chiqarilish: "Asosan buyrak orqali; zidovudin T½ ~1 soat, lamivudin ~5–7 soat (hujayra ichidagi faollik uzoqroq)"
+    },
+    korsatmalar: ["Kattalar va bolalarda OIV-1 infeksiyasi (kombinatsiyalangan antiretrovirus terapiya tarkibida)"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik", "Og'ir neytropeniya yoki anemiya (zidovudin)", "Og'ir buyrak yetishmovchiligi (doza sozlash kerak)"],
+    nojoya: {
+      "Qon": "Anemiya, neytropeniya (zidovudin)",
+      "Umumiy": "Bosh og'rig'i, charchoq, ko'ngil aynishi",
+      "Metabolik": "Laktat atsidozi, jigar steatozi (NRTI sinfiga xos, kamdan-kam), lipodistrofiya"
+    },
+    dozadan: "Simptomatik davo; gemodializ lamivudinni qisman chiqaradi.",
+    ozarotasir: ["Ganciclovir, ribavirin — zidovudin gematologik toksikligini kuchaytiradi", "Trimetoprim lamivudin konsentratsiyasini oshiradi", "Stavudin bilan birga qo'llanilmaydi (antagonizm)"],
+    qollash: {
+      kattalar: "1 tabletka (zidovudin 300 mg / lamivudin 150 mg) kuniga 2 marta.",
+      bolalar: "Vazn ≥30 kg da kattalar dozasi; kichik vaznda alohida komponentlar"
+    },
+    chiqarish: "Plyonka qoplamali tabletkalar 300 mg/150 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — нуклеозидные ингибиторы обратной транскриптазы (НИОТ), комбинация",
+    farmTasir: "Комбинированное средство против ВИЧ-инфекции",
+    farmakodinamika: `Зидовудин + ламивудин — комбинация с фиксированной дозой двух нуклеозидных ингибиторов обратной транскриптазы (НИОТ). Оба вещества фосфорилируются внутриклеточно и ингибируют обратную транскриптазу ВИЧ, вызывая обрыв цепи. Благодаря взаимодополняющему профилю резистентности и синергизму используется как «основа» антиретровирусной терапии (вместе с третьим компонентом).`,
+    farmakokinetika: {
+      sorish: "Оба хорошо всасываются внутрь (зидовудин ~64%, ламивудин ~86%)",
+      tarqalish: "Проникает в ЦНС; связь с белками низкая",
+      metabolizm: "Зидовудин глюкуронируется в печени; ламивудин метаболизируется минимально",
+      chiqarilish: "Преимущественно почками; T½ зидовудина ~1 ч, ламивудина ~5–7 ч (внутриклеточная активность дольше)"
+    },
+    korsatmalar: ["ВИЧ-1 инфекция у взрослых и детей (в составе комбинированной антиретровирусной терапии)"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Тяжёлая нейтропения или анемия (зидовудин)", "Тяжёлая почечная недостаточность (требуется коррекция дозы)"],
+    nojoya: {
+      "Кровь": "Анемия, нейтропения (зидовудин)",
+      "Общие": "Головная боль, утомляемость, тошнота",
+      "Метаболические": "Лактоацидоз, стеатоз печени (класс-эффект НИОТ, редко), липодистрофия"
+    },
+    dozadan: "Симптоматическая терапия; гемодиализ частично выводит ламивудин.",
+    ozarotasir: ["Ганцикловир, рибавирин — усиливают гематотоксичность зидовудина", "Триметоприм повышает концентрацию ламивудина", "Не применять со ставудином (антагонизм)"],
+    qollash: {
+      kattalar: "1 таблетка (зидовудин 300 мг / ламивудин 150 мг) 2 раза в сутки.",
+      bolalar: "При массе ≥30 кг — доза взрослых; при меньшей массе — отдельные компоненты"
+    },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 300 мг/150 мг"
+  },
+  en: {
+    gruppa: "Systemic antivirals — nucleoside reverse transcriptase inhibitors (NRTI), combination",
+    farmTasir: "Combination agent for HIV infection",
+    farmakodinamika: `Zidovudine + lamivudine is a fixed-dose combination of two nucleoside reverse transcriptase inhibitors (NRTIs). Both are phosphorylated intracellularly and inhibit HIV reverse transcriptase, causing chain termination. Owing to complementary resistance profiles and synergy, it serves as a "backbone" of antiretroviral therapy (with a third agent).`,
+    farmakokinetika: {
+      sorish: "Both well absorbed orally (zidovudine ~64%, lamivudine ~86%)",
+      tarqalish: "Penetrates the CNS; low protein binding",
+      metabolizm: "Zidovudine is glucuronidated in the liver; lamivudine is minimally metabolised",
+      chiqarilish: "Mainly renal; T½ zidovudine ~1 h, lamivudine ~5–7 h (intracellular activity longer)"
+    },
+    korsatmalar: ["HIV-1 infection in adults and children (as part of combination antiretroviral therapy)"],
+    qarrshi: ["Hypersensitivity to components", "Severe neutropenia or anaemia (zidovudine)", "Severe renal impairment (dose adjustment required)"],
+    nojoya: {
+      "Blood": "Anaemia, neutropenia (zidovudine)",
+      "General": "Headache, fatigue, nausea",
+      "Metabolic": "Lactic acidosis, hepatic steatosis (NRTI class effect, rare), lipodystrophy"
+    },
+    dozadan: "Supportive care; haemodialysis partly removes lamivudine.",
+    ozarotasir: ["Ganciclovir, ribavirin — increase zidovudine haematotoxicity", "Trimethoprim raises lamivudine levels", "Do not use with stavudine (antagonism)"],
+    qollash: {
+      kattalar: "1 tablet (zidovudine 300 mg / lamivudine 150 mg) twice daily.",
+      bolalar: "Weight ≥30 kg adult dose; lower weight use separate components"
+    },
+    chiqarish: "Film-coated tablets 300 mg/150 mg"
+  }
 }
 
 };
@@ -21095,3 +21554,4 @@ PHARMA_DATA["J01RA"]            = PHARMA_DATA["J01RA"]     || PHARMA_DATA["J01RA
 PHARMA_DATA["J01"]              = PHARMA_DATA["J01RA12"];  // siprofloksatsin + ornidazol
 PHARMA_DATA["J01MA01; G01AF06"] = PHARMA_DATA["J01RA09"];  // ofloksatsin + ornidazol
 PHARMA_DATA["J01ҒA10"]     = PHARMA_DATA["J01FA10"];  // azitromitsin (kirill harfli kod)
+PHARMA_DATA["J05AR13"]          = PHARMA_DATA["J05AX12"];  // dolutegravir natriy
