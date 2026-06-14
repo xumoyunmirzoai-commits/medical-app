@@ -29,6 +29,7 @@ const TRANSLATIONS = {
     nav_interactions: "O'zaro Ta'sir",
     nav_favorites:    "Sevimlilar",
     nav_soon:         "Tez",
+    nav_new:          "Yangi",
 
     // Topbar
     search_placeholder: "Dori, kasallik, belgi qidiring...",
@@ -202,6 +203,7 @@ const TRANSLATIONS = {
     nav_interactions: "Взаимодействия",
     nav_favorites:    "Избранное",
     nav_soon:         "Скор.",
+    nav_new:          "Новое",
 
     search_placeholder: "Препарат, заболевание, симптом...",
     search_kbd:         "Ctrl K",
@@ -362,6 +364,7 @@ const TRANSLATIONS = {
     nav_interactions: "Drug Interactions",
     nav_favorites:    "Favorites",
     nav_soon:         "Soon",
+    nav_new:          "New",
 
     search_placeholder: "Search drug, disease, symptom...",
     search_kbd:         "Ctrl K",
