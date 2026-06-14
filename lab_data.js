@@ -1503,6 +1503,145 @@ const LAB_TESTS = [
       en: ["Moderate deficiency: 50–100 µg/L in urine", "Severe deficiency: below 50 µg/L in urine", "Low dietary iodine", "Thyroid diseases (endemic goiter, cretinism, myxedema, Hashimoto syndrome)"]
     },
     note: { uz: "", ru: "", en: "" }
+  },
+
+  // ─────────── Elektrolitlar ───────────
+  {
+    id: "potassium", cat: "electrolytes", abbr: "K",
+    name: { uz: "Kaliy", ru: "Калий", en: "Potassium" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["Barcha yoshlar", "3,5–5,2"]],
+      ru: [["Все возрасты", "3,5–5,2"]],
+      en: [["All ages", "3.5–5.2"]]
+    },
+    optimum: { uz: "3,5–5,2 mmol/l", ru: "3,5–5,2 ммоль/л", en: "3.5–5.2 mmol/L" },
+    high: {
+      uz: ["Diareya", "Qusish", "Ko'p terlash", "Aldosteron oshishi", "Steroid gormonlar qabuli", "Siydik haydovchilar qabuli"],
+      ru: ["Диарея", "Рвота", "Повышенное потоотделение", "Повышение альдостерона", "Приём стероидных гормонов", "Приём мочегонных"],
+      en: ["Diarrhea", "Vomiting", "Excessive sweating", "Elevated aldosterone", "Steroid hormone use", "Diuretic use"]
+    },
+    low: {
+      uz: ["Bosimni tushiruvchi dorilar qabuli", "Subklinik buyrakusti bezi yetishmovchiligi (kortizol tanqisligi)", "AAF ingibitorlari qabuli", "Qon olishda eritrotsitlar gemolizi (tahlilni qayta topshirish ma'qul)", "Homiladorlik"],
+      ru: ["Приём лекарств для снижения давления", "Субклиническая надпочечниковая недостаточность (дефицит кортизола)", "Приём антигипертензивных средств группы ИАПФ", "Гемолиз эритроцитов при заборе крови (анализ лучше пересдать)", "Беременность"],
+      en: ["Antihypertensive drug use", "Subclinical adrenal insufficiency (cortisol deficiency)", "ACE-inhibitor use", "Erythrocyte hemolysis during sampling (better to retest)", "Pregnancy"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "calcium_total", cat: "electrolytes", abbr: "Ca",
+    name: { uz: "Umumiy kaltsiy", ru: "Кальций общий", en: "Total calcium" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["Barcha yoshlar", "2,2–2,6"]],
+      ru: [["Все возрасты", "2,2–2,6"]],
+      en: [["All ages", "2.2–2.6"]]
+    },
+    optimum: { uz: "2,2–2,6 mmol/l", ru: "2,2–2,6 ммоль/л", en: "2.2–2.6 mmol/L" },
+    high: {
+      uz: ["Gipertireoz", "Vitamin D dozasi oshishi", "Buyrakusti bezi keskin yetishmovchiligi", "Qon kasalliklari", "Buyrak yetishmovchiligi"],
+      ru: ["Гипертиреоз", "Передозировка витамина D", "Выраженная недостаточность надпочечников", "Заболевания крови", "Почечная недостаточность"],
+      en: ["Hyperthyroidism", "Vitamin D overdose", "Marked adrenal insufficiency", "Blood diseases", "Renal failure"]
+    },
+    low: {
+      uz: ["Chuqur, ilgarilab ketgan osteoporoz", "Homiladorlik"],
+      ru: ["Глубокий, запущенный остеопороз", "Беременность"],
+      en: ["Deep, advanced osteoporosis", "Pregnancy"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "calcium_ion", cat: "electrolytes", abbr: "Ca²⁺",
+    name: { uz: "Ionlangan kaltsiy", ru: "Кальций ионизированный", en: "Ionized calcium" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["Barcha yoshlar", "1,1–1,4"]],
+      ru: [["Все возрасты", "1,1–1,4"]],
+      en: [["All ages", "1.1–1.4"]]
+    },
+    optimum: { uz: "1,1–1,4 mmol/l", ru: "1,1–1,4 ммоль/л", en: "1.1–1.4 mmol/L" },
+    high: {
+      uz: ["Osteoporoz", "Siydik bilan kaltsiy ajralishi kamayishi", "Qalqonsimon yonbosh bezlar funksiyasi oshishi (paratgormon tahlilini topshiring)", "Estrogen tanqisligi", "Vitamin D ortiqchaligi"],
+      ru: ["Остеопороз", "Пониженное выделение кальция с мочой", "Повышенная функция паращитовидных желез (сдать анализ на паратгормон)", "Дефицит эстрогена", "Избыток витамина D"],
+      en: ["Osteoporosis", "Reduced urinary calcium excretion", "Increased parathyroid function (test parathyroid hormone)", "Estrogen deficiency", "Vitamin D excess"]
+    },
+    low: {
+      uz: ["Magniy tanqisligi", "Vitamin D tanqisligi", "Alkaloz", "Qalqonsimon yonbosh bezlar funksiyasi pasayishi (paratgormon tahlilini topshiring)"],
+      ru: ["Дефицит магния", "Дефицит витамина D", "Алкалоз", "Пониженная функция паращитовидных желез (сдать анализ на паратгормон)"],
+      en: ["Magnesium deficiency", "Vitamin D deficiency", "Alkalosis", "Reduced parathyroid function (test parathyroid hormone)"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "phosphorus", cat: "electrolytes", abbr: "P",
+    name: { uz: "Fosfor", ru: "Фосфор", en: "Phosphorus" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["2 yoshgacha", "1,19–2,78"], ["2–12 yosh", "1,45–1,78"], ["12 yoshdan katta", "0,87–1,45"], ["Ayollar 60 yoshgacha", "0,9–1,5"], ["Ayollar 60 yoshdan keyin", "0,9–1,32"], ["Erkaklar 60 yoshgacha", "0,81–1,45"], ["Erkaklar 60 yoshdan keyin", "0,75–1,2"]],
+      ru: [["до 2 лет", "1,19–2,78"], ["2–12 лет", "1,45–1,78"], ["старше 12 л.", "0,87–1,45"], ["Ж до 60 л.", "0,9–1,5"], ["Ж после 60 л.", "0,9–1,32"], ["М до 60 л.", "0,81–1,45"], ["М после 60 л.", "0,75–1,2"]],
+      en: [["under 2 yrs", "1.19–2.78"], ["2–12 yrs", "1.45–1.78"], ["over 12 yrs", "0.87–1.45"], ["Women under 60 yrs", "0.9–1.5"], ["Women over 60 yrs", "0.9–1.32"], ["Men under 60 yrs", "0.81–1.45"], ["Men over 60 yrs", "0.75–1.2"]]
+    },
+    optimum: { uz: "1 dan yuqori (kattalarда fosfor:umumiy kaltsiy 1:2)", ru: "выше 1 (у взрослых фосфор:общий кальций 1:2)", en: "above 1 (adults phosphorus:total calcium 1:2)" },
+    high: {
+      uz: ["Ovqat bilan ortiqcha kelishi", "Homiladorlikning 1-trimestri", "Gipoparatireoz", "Kaltsiy tanqisligi", "Buyrak funksiyasi buzilishi (kreatinin, mochevina oshgan bo'ladi)", "Buyrakusti bezi gormonlari yetarli ishlab chiqarilmasligi", "Qandli diabet"],
+      ru: ["Избыток поступления с пищей", "Беременность в первом триместре", "Гипопаратиреоз", "Дефицит кальция", "Нарушения функционирования почек (будут повышены креатинин, мочевина)", "Недостаточная выработка гормонов надпочечниками", "Сахарный диабет"],
+      en: ["Excess dietary intake", "First trimester of pregnancy", "Hypoparathyroidism", "Calcium deficiency", "Impaired renal function (creatinine, urea will be elevated)", "Insufficient adrenal hormone production", "Diabetes mellitus"]
+    },
+    low: {
+      uz: ["Magniy preparatlarini uzoq qabul qilish", "Kaltsiy/alyuminiy ortiqchaligi", "Vitamin A/vitamin D/oqsil tanqisligi", "Modda almashinuvi buzilishi"],
+      ru: ["Длительный приём препаратов с магнием", "Избыток кальция/алюминия", "Дефицит витамина А/витамина D/белка", "Нарушение обмена веществ"],
+      en: ["Prolonged magnesium supplementation", "Excess calcium/aluminum", "Vitamin A/vitamin D/protein deficiency", "Metabolic disorder"]
+    },
+    note: { uz: "Bolalarда fosfor:umumiy kaltsiy nisbati 1:1,2–1:1,5.", ru: "У детей оптимальная пропорция фосфора с общим кальцием 1:1,2–1:1,5.", en: "In children the optimal phosphorus:total calcium ratio is 1:1.2–1:1.5." }
+  },
+
+  {
+    id: "sodium", cat: "electrolytes", abbr: "Na",
+    name: { uz: "Natriy", ru: "Натрий", en: "Sodium" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["Barcha yoshlar", "136–145"]],
+      ru: [["Все возрасты", "136–145"]],
+      en: [["All ages", "136–145"]]
+    },
+    optimum: { uz: "136–145 mmol/l", ru: "136–145 ммоль/л", en: "136–145 mmol/L" },
+    high: {
+      uz: ["Subklinik buyrakusti bezi yetishmovchiligi", "Kortizol ko'p hosil bo'lishi", "Homiladorlik"],
+      ru: ["Субклиническая надпочечниковая недостаточность", "Повышенное образование кортизола", "Беременность"],
+      en: ["Subclinical adrenal insufficiency", "Increased cortisol production", "Pregnancy"]
+    },
+    low: {
+      uz: ["Suv iste'molining yetishmasligi", "Qusish", "Diareya"],
+      ru: ["Недостаток потребления воды", "Рвота", "Диарея"],
+      en: ["Insufficient water intake", "Vomiting", "Diarrhea"]
+    },
+    note: { uz: "", ru: "", en: "" }
+  },
+
+  {
+    id: "chloride", cat: "electrolytes", abbr: "Cl",
+    name: { uz: "Xlor", ru: "Хлор", en: "Chloride" },
+    unit: { uz: "mmol/l", ru: "ммоль/л", en: "mmol/L" },
+    norms: {
+      uz: [["Barcha yoshlar", "98–106"]],
+      ru: [["Все возрасты", "98–106"]],
+      en: [["All ages", "98–106"]]
+    },
+    optimum: { uz: "98–106 mmol/l", ru: "98–106 ммоль/л", en: "98–106 mmol/L" },
+    high: {
+      uz: ["Homiladorlik", "Suvsizlanish", "Tuzni haddan ortiq iste'mol qilish", "Yuqori jismoniy yuklamalar", "Atsidoz"],
+      ru: ["Беременность", "Обезвоживание", "Чрезмерное потребление соли", "Высокие физические нагрузки", "Ацидоз"],
+      en: ["Pregnancy", "Dehydration", "Excessive salt intake", "High physical exertion", "Acidosis"]
+    },
+    low: {
+      uz: ["Suv va xlor yo'qotish", "Qusish, diareya", "Alkaloz"],
+      ru: ["Потеря воды и хлора", "Рвота, диарея", "Алкалоз"],
+      en: ["Loss of water and chloride", "Vomiting, diarrhea", "Alkalosis"]
+    },
+    note: { uz: "", ru: "", en: "" }
   }
 
 ];
