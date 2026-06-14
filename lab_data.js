@@ -1642,6 +1642,122 @@ const LAB_TESTS = [
       en: ["Loss of water and chloride", "Vomiting, diarrhea", "Alkalosis"]
     },
     note: { uz: "", ru: "", en: "" }
+  },
+
+  // ─────────── Siydik, najas va sxemalar ───────────
+  {
+    id: "stool", cat: "other", abbr: "Stool",
+    name: { uz: "Koprogramma (najas tahlili)", ru: "Копрограмма", en: "Stool analysis (coprogram)" },
+    unit: { uz: "", ru: "", en: "" },
+    norms: {
+      uz: [["Shakl", "shakllangan"], ["Rang", "jigarrang"], ["pH", "7,0"], ["Sterkobilin", "musbat"], ["Bilirubin", "manfiy"], ["Mushak tolalari / biriktiruvchi to'qima", "yo'q"], ["Neytral yog'", "yo'q"], ["Hazm bo'lmaydigan o'simlik tolasi", "bor"], ["Gijja, sodda, zamburug'", "yo'q"]],
+      ru: [["Форма", "оформленный"], ["Цвет", "коричневый"], ["pH", "7,0"], ["Стеркобилин", "положительный"], ["Билирубин", "отрицательный"], ["Мышечные волокна / соединительная ткань", "нет"], ["Нейтральный жир", "нет"], ["Неперевариваемая клетчатка", "есть"], ["Гельминты, простейшие, грибы", "нет"]],
+      en: [["Form", "formed"], ["Color", "brown"], ["pH", "7.0"], ["Stercobilin", "positive"], ["Bilirubin", "negative"], ["Muscle fibers / connective tissue", "none"], ["Neutral fat", "none"], ["Indigestible fiber", "present"], ["Helminths, protozoa, fungi", "none"]]
+    },
+    optimum: { uz: "", ru: "", en: "" },
+    high: {
+      uz: ["pH 7,8–8,8 — ingichka ichakda hazm buzilishi", "pH ≥8,0 — ichakda chirish jarayonlari (anaerob flora, klostridiyalar)", "Neytral yog' — oshqozonosti bezi yetishmovchiligi", "Mushak tolalari / biriktiruvchi to'qima — oshqozon kislotaliligi pasayishi", "Hujayra ichi kraxmal — peristaltika buzilishi, tez evakuatsiya", "Eritrotsitlar — yallig'lanish, allergiya"],
+      ru: ["pH 7,8–8,8 — нарушение переваривания в тонком кишечнике", "pH ≥8,0 — гнилостные процессы в кишечнике (анаэробная флора, клостридии)", "Нейтральный жир — недостаточная функция поджелудочной железы", "Мышечные волокна / соединительная ткань — сниженная кислотность желудка", "Внутриклеточный крахмал — нарушение перистальтики, быстрая эвакуация", "Эритроциты — воспаление, аллергия"],
+      en: ["pH 7.8–8.8 — impaired digestion in the small intestine", "pH ≥8.0 — putrefactive processes (anaerobic flora, clostridia)", "Neutral fat — pancreatic insufficiency", "Muscle fibers / connective tissue — low gastric acidity", "Intracellular starch — impaired peristalsis, rapid transit", "Erythrocytes — inflammation, allergy"]
+    },
+    low: {
+      uz: ["pH pasayishi — ingichka va yo'g'on ichakda zamburug' florasi o'sishi"],
+      ru: ["Снижение pH — рост грибковой флоры в тонком и толстом кишечнике"],
+      en: ["pH decrease — fungal flora overgrowth in the small and large intestine"]
+    },
+    note: { uz: "Rang: sariq — o't turg'unligi/disbioz/kandida; kulrang — jigar patologiyasi; yashil — tsitrobakter, klebsiella; to'q sariq — stafilokokk; to'q jigarrang — klostridiyalar. Najas hajmi oshishi yoki shilimshiq: ichak infeksiyasi, oziq-ovqat toqatsizligi/allergiyasi, laktaza tanqisligi, tseliakiya, Kron kasalligi/YaNK.", ru: "Цвет: жёлтый — застой жёлчи/дисбиоз/кандида; сероватый — патология печени; зелёный — цитробактер, клебсиелла; оранжевый — стафилококк; тёмно-коричневый — клостридии. Увеличение объёма кала или слизь: кишечная инфекция, пищевая непереносимость/аллергия, лактазная недостаточность, целиакия, болезнь Крона/НЯК.", en: "Color: yellow — bile stasis/dysbiosis/candida; grayish — liver pathology; green — citrobacter, klebsiella; orange — staphylococcus; dark brown — clostridia. Increased stool volume or mucus: intestinal infection, food intolerance/allergy, lactase deficiency, celiac disease, Crohn's/UC." }
+  },
+
+  {
+    id: "urine", cat: "other", abbr: "Urine",
+    name: { uz: "Siydikning umumiy tahlili", ru: "Общий анализ мочи", en: "Urinalysis" },
+    unit: { uz: "", ru: "", en: "" },
+    norms: {
+      uz: [["Rang", "somon-sariq"], ["Tiniqlik", "tiniq"], ["Zichlik", "1010–1025"], ["pH", "6,0–6,5"], ["Oqsil", "yo'q"], ["Glyukoza", "yo'q"], ["Bilirubin", "yo'q"], ["Ketonlar", "yo'q"], ["Nitritlar", "yo'q"], ["Eritrotsitlar / leykotsitlar", "yo'q"]],
+      ru: [["Цвет", "соломенно-жёлтый"], ["Прозрачность", "прозрачная"], ["Плотность", "1010–1025"], ["pH", "6,0–6,5"], ["Белок", "нет"], ["Глюкоза", "нет"], ["Билирубин", "нет"], ["Кетоны", "нет"], ["Нитриты", "нет"], ["Эритроциты / лейкоциты", "нет"]],
+      en: [["Color", "straw-yellow"], ["Transparency", "clear"], ["Density", "1010–1025"], ["pH", "6.0–6.5"], ["Protein", "none"], ["Glucose", "none"], ["Bilirubin", "none"], ["Ketones", "none"], ["Nitrites", "none"], ["Erythrocytes / leukocytes", "none"]]
+    },
+    optimum: { uz: "", ru: "", en: "" },
+    high: {
+      uz: ["Zichlik oshishi — suvsizlanish, kaliy tanqisligi, atsidoz", "Oqsil — buyrak patologiyasi", "Glyukoza — qandli diabet", "Bilirubin — jigar patologiyasi", "Ketonlar — glyukoza utilizatsiyasi buzilishi (past insulin, gipoglikemiya)", "Nitritlar / leykotsitlar — siydik yo'llari infeksiyasi", "Eritrotsitlar — buyrak patologiyasi"],
+      ru: ["Повышение плотности — обезвоживание, дефицит калия, ацидоз", "Белок — патология почек", "Глюкоза — сахарный диабет", "Билирубин — патология печени", "Кетоны — нарушение утилизации глюкозы (низкий инсулин, гипогликемия)", "Нитриты / лейкоциты — инфекция мочевыводящих путей", "Эритроциты — патология почек"],
+      en: ["Increased density — dehydration, potassium deficiency, acidosis", "Protein — kidney pathology", "Glucose — diabetes mellitus", "Bilirubin — liver pathology", "Ketones — impaired glucose utilization (low insulin, hypoglycemia)", "Nitrites / leukocytes — urinary tract infection", "Erythrocytes — kidney pathology"]
+    },
+    low: {
+      uz: ["Zichlik pasayishi — virus yuklamasi, intoksikatsiya, buyrakusti bezi toliqishi", "Rang ochroq — buyrakda siydik konsentratsiyasi pastligi, natriy yo'qotish"],
+      ru: ["Снижение плотности — вирусная нагрузка, интоксикация, истощение надпочечников", "Более светлый цвет — низкая концентрация мочи, потеря натрия"],
+      en: ["Decreased density — viral load, intoxication, adrenal exhaustion", "Lighter color — low urine concentration, sodium loss"]
+    },
+    note: { uz: "pH oshishi — siydik yo'llari infeksiyasi, suv va xlor yo'qotish, oshqozon kislotaliligi oshishi, giperkaliemiya. pH pasayishi — kislotali ovqat/atsidoz, gipokaliemiya, jismoniy yuklamalar, buyrak kasalliklari, diabet. Tuzlar: oksalatlar (kislotali muhit, pH ≤6), uratlar (pH 5–5,5), fosfatlar (ishqoriy muhit pH 7–9, ko'pincha bakterial infeksiya).", ru: "Повышение pH — инфекция мочевыводящих путей, потеря воды и хлора, повышенная кислотность желудка, гиперкалиемия. Снижение pH — кислая пища/ацидоз, гипокалиемия, физические нагрузки, болезни почек, диабет. Соли: оксалаты (кислая среда, pH ≤6), ураты (pH 5–5,5), фосфаты (щелочная среда pH 7–9, часто бактериальная инфекция).", en: "pH rise — urinary tract infection, loss of water and chloride, increased gastric acidity, hyperkalemia. pH fall — acidic food/acidosis, hypokalemia, exertion, kidney disease, diabetes. Salts: oxalates (acidic, pH ≤6), urates (pH 5–5.5), phosphates (alkaline pH 7–9, often bacterial infection)." }
+  },
+
+  {
+    id: "ir_panel", cat: "other", abbr: "IR-panel",
+    name: { uz: "Insulinrezistentlik diagnostikasi", ru: "Диагностика инсулинорезистентности", en: "Insulin resistance work-up" },
+    unit: { uz: "", ru: "", en: "" },
+    norms: {
+      uz: [["HOMA-IR indeksi", "≤2,7"], ["CARO indeksi", ">0,33"], ["Glikatsiyalangan gemoglobin", "≤5,5"], ["Och qoringa insulin", "≤5"], ["Och qoringa glyukoza", "<5,6"], ["Siydik kislotasi", "ayol ≤357, erkak ≤428"]],
+      ru: [["Индекс HOMA-IR", "≤2,7"], ["Индекс CARO", ">0,33"], ["Гликированный гемоглобин", "≤5,5"], ["Инсулин натощак", "≤5"], ["Глюкоза натощак", "<5,6"], ["Мочевая кислота", "ж ≤357, м ≤428"]],
+      en: [["HOMA-IR index", "≤2.7"], ["CARO index", ">0.33"], ["Glycated hemoglobin", "≤5.5"], ["Fasting insulin", "≤5"], ["Fasting glucose", "<5.6"], ["Uric acid", "F ≤357, M ≤428"]]
+    },
+    optimum: { uz: "", ru: "", en: "" },
+    high: {
+      uz: ["Insulinrezistentlikda oshadi: umumiy xolesterin", "Triglitseridlar", "PZLP (LDL)", "JPZLP (VLDL)"],
+      ru: ["При ИР повышаются: общий холестерин", "Триглицериды", "ЛПНП", "ЛПОНП"],
+      en: ["Elevated in IR: total cholesterol", "Triglycerides", "LDL", "VLDL"]
+    },
+    low: {
+      uz: ["Insulinrezistentlikda pasayadi: YZLP (HDL)", "C-peptid (qancha past — shuncha kuchli IR)"],
+      ru: ["При ИР понижаются: ЛПВП", "С-пептид (чем ниже — тем выраженнее ИР)"],
+      en: ["Decreased in IR: HDL", "C-peptide (the lower, the more pronounced the IR)"]
+    },
+    note: { uz: "AST/ALT nisbati: agar ALT > AST bo'lsa, glyukoza utilizatsiyasi metabolizmi buzilgan.", ru: "Соотношение АСТ/АЛТ: если АЛТ больше АСТ — нарушен метаболизм утилизации глюкозы.", en: "AST/ALT ratio: if ALT exceeds AST, glucose-utilization metabolism is impaired." }
+  },
+
+  {
+    id: "anemia_panel", cat: "other", abbr: "Anemia",
+    name: { uz: "Temir tanqisligi va anemiya diagnostikasi", ru: "Диагностика железодефицита и анемии", en: "Iron deficiency & anemia work-up" },
+    unit: { uz: "", ru: "", en: "" },
+    norms: {
+      uz: [["1-qadam", "Ferritin"], ["2-qadam", "OAK: HGB, RBC, MCV, MCH, RDW, HCT"], ["3-qadam", "Umumiy oqsil, B9/B6/B12, transferrin, gomotsistein, sink/mis/marganets"]],
+      ru: [["Шаг 1", "Ферритин"], ["Шаг 2", "ОАК: HGB, RBC, MCV, MCH, RDW, HCT"], ["Шаг 3", "Общий белок, B9/B6/B12, трансферрин, гомоцистеин, цинк/медь/марганец"]],
+      en: [["Step 1", "Ferritin"], ["Step 2", "CBC: HGB, RBC, MCV, MCH, RDW, HCT"], ["Step 3", "Total protein, B9/B6/B12, transferrin, homocysteine, zinc/copper/manganese"]]
+    },
+    optimum: { uz: "", ru: "", en: "" },
+    high: {
+      uz: ["Yuqori ferritin gemoxromatozni ko'rsatishi mumkin", "MCV >91 — B9, B12 tanqisligi ehtimoli"],
+      ru: ["Высокий ферритин может указывать на гемохроматоз", "MCV >91 — вероятен дефицит В9, В12"],
+      en: ["High ferritin may indicate hemochromatosis", "MCV >91 — likely B9, B12 deficiency"]
+    },
+    low: {
+      uz: ["MCV <85 — temir, sink, mis, marganets, vitamin C tanqisligi", "Past ferritin — temir tanqisligi"],
+      ru: ["MCV <85 — дефицит железа, цинка, меди, марганца, витамина С", "Низкий ферритин — дефицит железа"],
+      en: ["MCV <85 — iron, zinc, copper, manganese, vitamin C deficiency", "Low ferritin — iron deficiency"]
+    },
+    note: { uz: "1-qadam odatda kichik bolalar uchun yetarli. 1, 2 va 3-qadamlar ayollar va o'smirlar uchun ayniqsa dolzarb.", ru: "Шаг 1 как правило достаточен для маленьких детей. Шаги 1, 2 и 3 особенно актуальны женщинам и подросткам.", en: "Step 1 is usually sufficient for small children. Steps 1, 2 and 3 are especially relevant for women and adolescents." }
+  },
+
+  {
+    id: "inflammation_panel", cat: "other", abbr: "Inflamm",
+    name: { uz: "Organizmda yallig'lanishni aniqlash", ru: "Выявление воспаления в организме", en: "Detecting inflammation in the body" },
+    unit: { uz: "", ru: "", en: "" },
+    norms: {
+      uz: [["C-reaktiv oqsil", "≤1 mg/l"], ["Fibrinogen", "≤2 g/l"], ["Tseruloplazmin", "referens ichida"], ["Ferritin", "referens ichida"]],
+      ru: [["С-реактивный белок", "≤1 мг/л"], ["Фибриноген", "≤2 г/л"], ["Церулоплазмин", "в пределах референса"], ["Ферритин", "в пределах референса"]],
+      en: [["C-reactive protein", "≤1 mg/L"], ["Fibrinogen", "≤2 g/L"], ["Ceruloplasmin", "within reference"], ["Ferritin", "within reference"]]
+    },
+    optimum: { uz: "", ru: "", en: "" },
+    high: {
+      uz: ["Yallig'lanishda oshadi: C-reaktiv oqsil", "Fibrinogen", "Tseruloplazmin", "Ferritin"],
+      ru: ["При воспалении повышаются: С-реактивный белок", "Фибриноген", "Церулоплазмин", "Ферритин"],
+      en: ["Elevated in inflammation: C-reactive protein", "Fibrinogen", "Ceruloplasmin", "Ferritin"]
+    },
+    low: {
+      uz: ["Klinik ahamiyatga ega emas"],
+      ru: ["Не имеет клинического значения"],
+      en: ["No clinical significance"]
+    },
+    note: { uz: "Bitta ko'rsatkich oshganda qolganlarini ham topshirib, yallig'lanish jarayonining sababini shifokor bilan birga izlash kerak.", ru: "При повышении одного показателя сдать дополнительно остальные и искать причину воспалительного процесса с врачом.", en: "If one marker is elevated, test the others as well and investigate the cause of inflammation together with a physician." }
   }
 
 ];
