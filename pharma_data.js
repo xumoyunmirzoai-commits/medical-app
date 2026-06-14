@@ -21530,6 +21530,624 @@ const PHARMA_DATA = {
     },
     chiqarish: "Film-coated tablets 300 mg/150 mg"
   }
+},
+
+"J04AK01": {
+  uz: {
+    gruppa: "Sil kasalligiga qarshi vositalar — boshqa preparatlar",
+    farmTasir: "Sil tayoqchasiga qarshi (tuberkulostatik)",
+    farmakodinamika: `Pirazinamid — nikotinamid hosilasi bo'lib, Mycobacterium tuberculosis ga qarshi faol. U kislotali muhitda (pH ~5,5, masalan kazeoz o'choqlar va makrofaglar ichida) eng yuqori bakteritsid ta'sir ko'rsatadi. Bakteriyada pirazinamidaza fermenti orqali faol pirazin kislotaga aylanadi; bu mikrob membrana energetikasi va yog' kislotasi sintazasi (FAS I) faoliyatini buzadi. Sekin metabolizatsiyalanuvchi, "yarim uyqudagi" mikobakteriyalarga ta'sir qilgani uchun davo muddatini qisqartirishda muhim.`,
+    farmakokinetika: {
+      sorish: "Ichakdan to'liq so'riladi",
+      tarqalish: "To'qima va suyuqliklarga, jumladan orqa miya suyuqligiga yaxshi o'tadi",
+      metabolizm: "Jigarda pirazin kislota va keyin 5-gidroksipirazin kislotaga aylanadi",
+      chiqarilish: "Asosan buyrak orqali; T½ ~9–10 soat"
+    },
+    korsatmalar: ["O'pka va o'pkadan tashqari sil (intensiv faza, boshqa tuberkulostatiklar bilan birga)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Og'ir jigar yetishmovchiligi", "O'tkir podagra", "Giperurikemiya (ehtiyotkorlik)"],
+    nojoya: {
+      "Jigar": "Gepatotoksiklik (dozaga bog'liq), transaminazalar oshishi",
+      "Modda almashinuvi": "Giperurikemiya, podagra xuruji, artralgiya",
+      "Boshqa": "Ko'ngil aynishi, fotosensibilizatsiya, toshma"
+    },
+    dozadan: "Maxsus antidot yo'q; jigar funksiyasini nazorat qilish, simptomatik davo.",
+    ozarotasir: ["Allopurinol va siydik kislotani kamaytiruvchi vositalar samarasini pasaytiradi", "Boshqa gepatotoksik dorilar (jumladan izoniazid, rifampitsin) bilan jigar zararlanishi xavfi ortadi"],
+    qollash: {
+      kattalar: "20–30 mg/kg/sutkada (odatda 1,5–2 g), kuniga 1 marta; faqat kombinatsiyada.",
+      bolalar: "30–35 mg/kg/sutkada (kuniga 1 marta)"
+    },
+    chiqarish: "Tabletkalar 500 mg"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные средства — прочие препараты",
+    farmTasir: "Противотуберкулёзное (туберкулостатическое) средство",
+    farmakodinamika: `Пиразинамид — производное никотинамида, активен в отношении Mycobacterium tuberculosis. Максимальное бактерицидное действие проявляет в кислой среде (pH ~5,5 — в казеозных очагах и внутри макрофагов). В микобактерии под действием пиразинамидазы превращается в активную пиразиновую кислоту, нарушающую мембранную энергетику и работу синтазы жирных кислот (FAS I). Действует на медленно метаболизирующие, «дремлющие» микобактерии, что важно для сокращения сроков терапии.`,
+    farmakokinetika: {
+      sorish: "Полностью всасывается из кишечника",
+      tarqalish: "Хорошо проникает в ткани и жидкости, включая ликвор",
+      metabolizm: "В печени до пиразиновой, затем 5-гидроксипиразиновой кислоты",
+      chiqarilish: "Преимущественно почками; T½ ~9–10 ч"
+    },
+    korsatmalar: ["Туберкулёз лёгких и внелёгочный (интенсивная фаза, в комбинации с другими туберкулостатиками)"],
+    qarrshi: ["Гиперчувствительность", "Тяжёлая печёночная недостаточность", "Острая подагра", "Гиперурикемия (осторожно)"],
+    nojoya: {
+      "Печень": "Гепатотоксичность (дозозависимая), повышение трансаминаз",
+      "Обмен веществ": "Гиперурикемия, приступ подагры, артралгия",
+      "Прочее": "Тошнота, фотосенсибилизация, сыпь"
+    },
+    dozadan: "Специфического антидота нет; контроль функции печени, симптоматическая терапия.",
+    ozarotasir: ["Снижает эффективность аллопуринола и урикозурических средств", "С другими гепатотоксичными препаратами (изониазид, рифампицин) возрастает риск поражения печени"],
+    qollash: {
+      kattalar: "20–30 мг/кг/сут (обычно 1,5–2 г) однократно; только в комбинации.",
+      bolalar: "30–35 мг/кг/сут (однократно)"
+    },
+    chiqarish: "Таблетки 500 мг"
+  },
+  en: {
+    gruppa: "Antituberculosis agents — other drugs",
+    farmTasir: "Antituberculosis (tuberculostatic) agent",
+    farmakodinamika: `Pyrazinamide is a nicotinamide derivative active against Mycobacterium tuberculosis. Its bactericidal effect is greatest in an acidic environment (pH ~5.5, e.g. caseous foci and inside macrophages). Within the bacterium pyrazinamidase converts it to active pyrazinoic acid, which disrupts membrane energetics and fatty-acid synthase (FAS I). It acts on slowly metabolising "dormant" mycobacteria, which is key to shortening therapy.`,
+    farmakokinetika: {
+      sorish: "Completely absorbed from the gut",
+      tarqalish: "Penetrates tissues and fluids well, including CSF",
+      metabolizm: "Hepatic to pyrazinoic then 5-hydroxypyrazinoic acid",
+      chiqarilish: "Mainly renal; T½ ~9–10 h"
+    },
+    korsatmalar: ["Pulmonary and extrapulmonary tuberculosis (intensive phase, combined with other tuberculostatics)"],
+    qarrshi: ["Hypersensitivity", "Severe hepatic impairment", "Acute gout", "Hyperuricaemia (caution)"],
+    nojoya: {
+      "Liver": "Hepatotoxicity (dose-dependent), raised transaminases",
+      "Metabolic": "Hyperuricaemia, gout attack, arthralgia",
+      "Other": "Nausea, photosensitivity, rash"
+    },
+    dozadan: "No specific antidote; monitor liver function, supportive care.",
+    ozarotasir: ["Reduces efficacy of allopurinol and uricosuric agents", "Risk of liver injury increases with other hepatotoxic drugs (isoniazid, rifampicin)"],
+    qollash: {
+      kattalar: "20–30 mg/kg/day (usually 1.5–2 g) once daily; only in combination.",
+      bolalar: "30–35 mg/kg/day (once daily)"
+    },
+    chiqarish: "Tablets 500 mg"
+  }
+},
+
+"J04AK": {
+  uz: {
+    gruppa: "Sil kasalligiga qarshi vositalar — diarilxinolinlar",
+    farmTasir: "Ko'p dorilarga chidamli silga qarshi (MDR-TB)",
+    farmakodinamika: `Bedakvilin — diarilxinolin sinfining birinchi vakili. U mikobakteriya ATF-sintazasining (proton nasosi) oligomik c subbirligini maxsus inhibilaydi, natijada hujayra energiya (ATF) ishlab chiqarishi to'xtaydi. Faol va sokin mikobakteriyalarga ham ta'sir qiladi; ko'p dorilarga chidamli sil (MDR/RR-TB) davosida qo'llaniladi.`,
+    farmakokinetika: {
+      sorish: "Ovqat bilan so'rilishi ~2 baravar ortadi",
+      tarqalish: "Plazma oqsillariga >99,9% bog'lanadi; to'qimalarda yig'iladi",
+      metabolizm: "Jigarda CYP3A4 orqali faol N-monodesmetil metabolitiga",
+      chiqarilish: "Asosan najas bilan; terminal T½ juda uzun (~5,5 oy)"
+    },
+    korsatmalar: ["Kattalar va bolalarda ko'p dorilarga chidamli o'pka sili (kombinatsiyalangan rejim tarkibida)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — QT oralig'i uzayishi, og'ir jigar/buyrak yetishmovchiligi"],
+    nojoya: {
+      "Yurak": "QT oralig'i uzayishi (EKG nazorati zarur)",
+      "Jigar": "Transaminazalar oshishi",
+      "Boshqa": "Ko'ngil aynishi, bosh og'rig'i, artralgiya"
+    },
+    dozadan: "Maxsus antidot yo'q; EKG va elektrolitlar nazorati, simptomatik davo.",
+    ozarotasir: ["Kuchli CYP3A4 induktorlari (rifampitsin) konsentratsiyani kamaytiradi — birga qo'llanmaydi", "QT uzaytiruvchi dorilar (ftorxinolonlar, klofazimin) bilan ehtiyotkorlik"],
+    qollash: {
+      kattalar: "1–2 hafta: 400 mg/sutkada; keyin 200 mg haftada 3 marta (jami 24 hafta), faqat kombinatsiyada va nazorat ostida.",
+      bolalar: "Vaznga ko'ra mos dozada (mutaxassis nazoratida)"
+    },
+    chiqarish: "Tabletkalar 100 mg, 20 mg"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные средства — диарилхинолины",
+    farmTasir: "Средство против туберкулёза с множественной лекарственной устойчивостью (МЛУ-ТБ)",
+    farmakodinamika: `Бедаквилин — первый представитель класса диарилхинолинов. Специфически ингибирует олигомерную субъединицу c АТФ-синтазы микобактерий (протонный насос), прекращая выработку энергии (АТФ) в клетке. Действует как на активные, так и на покоящиеся микобактерии; применяется при туберкулёзе с множественной лекарственной устойчивостью (МЛУ/РУ-ТБ).`,
+    farmakokinetika: {
+      sorish: "Всасывание возрастает ~вдвое при приёме с пищей",
+      tarqalish: "Связь с белками плазмы >99,9%; накапливается в тканях",
+      metabolizm: "В печени через CYP3A4 до активного N-монодесметил-метаболита",
+      chiqarilish: "Преимущественно с калом; терминальный T½ очень длинный (~5,5 мес)"
+    },
+    korsatmalar: ["Туберкулёз лёгких с множественной лекарственной устойчивостью у взрослых и детей (в составе комбинированной схемы)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — удлинение интервала QT, тяжёлая печёночная/почечная недостаточность"],
+    nojoya: {
+      "Сердце": "Удлинение интервала QT (необходим контроль ЭКГ)",
+      "Печень": "Повышение трансаминаз",
+      "Прочее": "Тошнота, головная боль, артралгия"
+    },
+    dozadan: "Специфического антидота нет; контроль ЭКГ и электролитов, симптоматическая терапия.",
+    ozarotasir: ["Сильные индукторы CYP3A4 (рифампицин) снижают концентрацию — не применять вместе", "Осторожно с препаратами, удлиняющими QT (фторхинолоны, клофазимин)"],
+    qollash: {
+      kattalar: "1–2 нед: 400 мг/сут; затем 200 мг 3 раза в неделю (всего 24 нед), только в комбинации и под контролем.",
+      bolalar: "В дозе по массе тела (под контролем специалиста)"
+    },
+    chiqarish: "Таблетки 100 мг, 20 мг"
+  },
+  en: {
+    gruppa: "Antituberculosis agents — diarylquinolines",
+    farmTasir: "Agent for multidrug-resistant tuberculosis (MDR-TB)",
+    farmakodinamika: `Bedaquiline is the first diarylquinoline. It specifically inhibits the oligomeric c subunit of mycobacterial ATP synthase (proton pump), halting cellular energy (ATP) production. It acts on both active and dormant mycobacteria and is used for multidrug-resistant tuberculosis (MDR/RR-TB).`,
+    farmakokinetika: {
+      sorish: "Absorption roughly doubles when taken with food",
+      tarqalish: "Plasma protein binding >99.9%; accumulates in tissues",
+      metabolizm: "Hepatic via CYP3A4 to active N-monodesmethyl metabolite",
+      chiqarilish: "Mainly faecal; very long terminal T½ (~5.5 months)"
+    },
+    korsatmalar: ["Multidrug-resistant pulmonary tuberculosis in adults and children (as part of a combination regimen)"],
+    qarrshi: ["Hypersensitivity", "Caution — QT prolongation, severe hepatic/renal impairment"],
+    nojoya: {
+      "Cardiac": "QT prolongation (ECG monitoring required)",
+      "Liver": "Raised transaminases",
+      "Other": "Nausea, headache, arthralgia"
+    },
+    dozadan: "No specific antidote; monitor ECG and electrolytes, supportive care.",
+    ozarotasir: ["Strong CYP3A4 inducers (rifampicin) lower levels — do not co-administer", "Caution with QT-prolonging drugs (fluoroquinolones, clofazimine)"],
+    qollash: {
+      kattalar: "Weeks 1–2: 400 mg/day; then 200 mg three times weekly (24 weeks total), only in combination and under supervision.",
+      bolalar: "Weight-based dose (under specialist supervision)"
+    },
+    chiqarish: "Tablets 100 mg, 20 mg"
+  }
+},
+
+"J02A": {
+  uz: {
+    gruppa: "Zamburug'ga qarshi vositalar — imidazol hosilalari",
+    farmTasir: "Lokal (mahalliy) zamburug'ga qarshi",
+    farmakodinamika: `Sertakonazol — imidazol va benzotiofen tarkibiga ega ikki yo'nalishli zamburug'ga qarshi modda. U ergosterol sintezini (lanosterol 14α-demetilazani) inhibilab fungistatik ta'sir beradi, yuqori konsentratsiyada esa benzotiofen halqasi orqali zamburug' membranasiga to'g'ridan-to'g'ri fungitsid ta'sir ko'rsatadi. Dermatofitlar, achitqilar (Candida) va ba'zi grammusbat bakteriyalarga faol.`,
+    farmakokinetika: {
+      sorish: "Mahalliy qo'llaganда tizimli so'rilish amalda yo'q",
+      tarqalish: "Teri va shilliq qavatning yuqori qatlamlarida to'planadi",
+      metabolizm: "Tizimli ahamiyatga ega emas",
+      chiqarilish: "Mahalliy ta'sir; tizimli chiqarilish minimal"
+    },
+    korsatmalar: ["Teri dermatomikozlari (dermatofitiya, pitiriaz)", "Teri va shilliq qavat kandidozi", "Vulvovaginal kandidoz (vaginal shakl)"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik"],
+    nojoya: {
+      "Mahalliy": "Qo'llash joyida qichishish, qizarish, achishish (kamdan-kam)"
+    },
+    dozadan: "Mahalliy qo'llashda toksiklik ehtimoli juda past.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar deyarli yo'q (tizimli so'rilish past)"],
+    qollash: {
+      kattalar: "Krem: zararlangan sohaga kuniga 1–2 marta, 2–4 hafta; vaginal sham: 300 mg bir marta (zarurat bo'lsa takror).",
+      bolalar: "Mahalliy, shifokor tavsiyasiga ko'ra"
+    },
+    chiqarish: "Krem 2%; vaginal shamlar 300 mg"
+  },
+  ru: {
+    gruppa: "Противогрибковые средства — производные имидазола",
+    farmTasir: "Местное противогрибковое средство",
+    farmakodinamika: `Сертаконазол — противогрибковое средство с двойным механизмом, содержащее имидазол и бензотиофен. Ингибирует синтез эргостерола (ланостерол-14α-деметилазу), оказывая фунгистатическое действие, а в высоких концентрациях за счёт бензотиофенового кольца прямо повреждает мембрану гриба (фунгицидное действие). Активен в отношении дерматофитов, дрожжей (Candida) и некоторых грамположительных бактерий.`,
+    farmakokinetika: {
+      sorish: "При местном применении системное всасывание практически отсутствует",
+      tarqalish: "Накапливается в верхних слоях кожи и слизистой",
+      metabolizm: "Системно не значим",
+      chiqarilish: "Местное действие; системное выведение минимально"
+    },
+    korsatmalar: ["Дерматомикозы кожи (дерматофития, отрубевидный лишай)", "Кандидоз кожи и слизистых", "Вульвовагинальный кандидоз (вагинальная форма)"],
+    qarrshi: ["Гиперчувствительность к компонентам"],
+    nojoya: {
+      "Местные": "Зуд, покраснение, жжение в месте нанесения (редко)"
+    },
+    dozadan: "При местном применении вероятность токсичности крайне низкая.",
+    ozarotasir: ["Клинически значимые взаимодействия практически отсутствуют (низкое системное всасывание)"],
+    qollash: {
+      kattalar: "Крем: на поражённый участок 1–2 раза в сутки, 2–4 недели; вагинальный суппозиторий: 300 мг однократно (при необходимости повтор).",
+      bolalar: "Местно, по назначению врача"
+    },
+    chiqarish: "Крем 2%; вагинальные суппозитории 300 мг"
+  },
+  en: {
+    gruppa: "Antifungals — imidazole derivatives",
+    farmTasir: "Topical antifungal",
+    farmakodinamika: `Sertaconazole is a dual-action antifungal containing imidazole and benzothiophene moieties. It inhibits ergosterol synthesis (lanosterol 14α-demethylase) for a fungistatic effect, and at higher concentrations the benzothiophene ring directly damages the fungal membrane (fungicidal action). It is active against dermatophytes, yeasts (Candida) and some Gram-positive bacteria.`,
+    farmakokinetika: {
+      sorish: "Negligible systemic absorption with topical use",
+      tarqalish: "Accumulates in the upper layers of skin and mucosa",
+      metabolizm: "Not systemically relevant",
+      chiqarilish: "Local action; minimal systemic elimination"
+    },
+    korsatmalar: ["Cutaneous dermatomycoses (dermatophytosis, pityriasis versicolor)", "Cutaneous and mucosal candidiasis", "Vulvovaginal candidiasis (vaginal form)"],
+    qarrshi: ["Hypersensitivity to components"],
+    nojoya: {
+      "Local": "Itching, redness, burning at the application site (rare)"
+    },
+    dozadan: "Toxicity is very unlikely with topical use.",
+    ozarotasir: ["Clinically significant interactions are essentially absent (low systemic absorption)"],
+    qollash: {
+      kattalar: "Cream: to the affected area 1–2 times daily for 2–4 weeks; vaginal pessary: 300 mg once (repeat if needed).",
+      bolalar: "Topically, as prescribed"
+    },
+    chiqarish: "Cream 2%; vaginal pessaries 300 mg"
+  }
+},
+
+"J05AF08": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — nukleotid teskari transkriptaza ingibitorlari",
+    farmTasir: "Surunkali B gepatitiga qarshi",
+    farmakodinamika: `Adefovir dipivoksil — adefovirning og'iz orqali qabul qilinadigan prodorisi (asetil efiri). Hujayrada adefovir difosfatga fosforillanadi va B gepatiti virusi (HBV) DNK-polimerazasini (teskari transkriptaza) inhibilab, DNK zanjirini uzadi. Lamivudinga chidamli HBV shtammlariga ham faol.`,
+    farmakokinetika: {
+      sorish: "Prodori tez gidrolizlanib adefovirga aylanadi; biokirish ~59%",
+      tarqalish: "Plazma oqsillariga bog'lanish past (≤4%)",
+      metabolizm: "Qo'shimcha metabolizmga uchramaydi",
+      chiqarilish: "Asosan buyrak orqali (filtratsiya + faol sekretsiya); T½ ~7,5 soat"
+    },
+    korsatmalar: ["Kattalarda HBV replikatsiyasi faol bo'lgan surunkali B gepatiti (jumladan lamivudinga chidamli holatlar)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — buyrak funksiyasi buzilishi (doza sozlash)"],
+    nojoya: {
+      "Buyrak": "Nefrotoksiklik (kreatinin oshishi), uzoq qo'llaganда — buyrak kanalchalari disfunksiyasi",
+      "Boshqa": "Asteniya, bosh og'rig'i, oshqozon-ichak nojo'yaliklari",
+      "Jigar": "Davoni to'xtatgandan keyin gepatit kuchayishi mumkin"
+    },
+    dozadan: "Maxsus antidot yo'q; buyrak funksiyasini nazorat qilish; gemodializ adefovirni qisman chiqaradi.",
+    ozarotasir: ["Buyrak orqali chiqadigan yoki nefrotoksik dorilar (masalan, takrolimus, NPVD) konsentratsiya va toksiklikni oshiradi"],
+    qollash: {
+      kattalar: "10 mg sutkada 1 marta; buyrak funksiyasiga qarab interval o'zgartiriladi.",
+      bolalar: "Xavfsizligi yetarli o'rganilmagan"
+    },
+    chiqarish: "Tabletkalar 10 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — нуклеотидные ингибиторы обратной транскриптазы",
+    farmTasir: "Средство против хронического гепатита В",
+    farmakodinamika: `Адефовира дипивоксил — пероральное пролекарство (ацетиловый эфир) адефовира. В клетке фосфорилируется до адефовира дифосфата, который ингибирует ДНК-полимеразу (обратную транскриптазу) вируса гепатита В (HBV) и вызывает обрыв цепи ДНК. Активен и в отношении ламивудин-резистентных штаммов HBV.`,
+    farmakokinetika: {
+      sorish: "Пролекарство быстро гидролизуется до адефовира; биодоступность ~59%",
+      tarqalish: "Низкая связь с белками плазмы (≤4%)",
+      metabolizm: "Дальнейшему метаболизму не подвергается",
+      chiqarilish: "Преимущественно почками (фильтрация + активная секреция); T½ ~7,5 ч"
+    },
+    korsatmalar: ["Хронический гепатит В с активной репликацией HBV у взрослых (в том числе при резистентности к ламивудину)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — нарушение функции почек (коррекция дозы)"],
+    nojoya: {
+      "Почки": "Нефротоксичность (рост креатинина), при длительном применении — дисфункция почечных канальцев",
+      "Прочее": "Астения, головная боль, желудочно-кишечные нарушения",
+      "Печень": "После отмены возможно обострение гепатита"
+    },
+    dozadan: "Специфического антидота нет; контроль функции почек; гемодиализ частично выводит адефовир.",
+    ozarotasir: ["Препараты, выводимые почками, или нефротоксичные (такролимус, НПВП) повышают концентрацию и токсичность"],
+    qollash: {
+      kattalar: "10 мг 1 раз в сутки; интервал корректируется по функции почек.",
+      bolalar: "Безопасность недостаточно изучена"
+    },
+    chiqarish: "Таблетки 10 мг"
+  },
+  en: {
+    gruppa: "Systemic antivirals — nucleotide reverse transcriptase inhibitors",
+    farmTasir: "Agent for chronic hepatitis B",
+    farmakodinamika: `Adefovir dipivoxil is an oral prodrug (acetyl ester) of adefovir. Intracellularly it is phosphorylated to adefovir diphosphate, which inhibits hepatitis B virus (HBV) DNA polymerase (reverse transcriptase) and causes DNA chain termination. It is also active against lamivudine-resistant HBV strains.`,
+    farmakokinetika: {
+      sorish: "Prodrug rapidly hydrolysed to adefovir; bioavailability ~59%",
+      tarqalish: "Low plasma protein binding (≤4%)",
+      metabolizm: "Not further metabolised",
+      chiqarilish: "Mainly renal (filtration + active secretion); T½ ~7.5 h"
+    },
+    korsatmalar: ["Chronic hepatitis B with active HBV replication in adults (including lamivudine-resistant cases)"],
+    qarrshi: ["Hypersensitivity", "Caution — renal impairment (dose adjustment)"],
+    nojoya: {
+      "Renal": "Nephrotoxicity (rising creatinine); with long-term use, renal tubular dysfunction",
+      "Other": "Asthenia, headache, GI disturbances",
+      "Liver": "Hepatitis flare possible after discontinuation"
+    },
+    dozadan: "No specific antidote; monitor renal function; haemodialysis partly removes adefovir.",
+    ozarotasir: ["Renally excreted or nephrotoxic drugs (tacrolimus, NSAIDs) increase levels and toxicity"],
+    qollash: {
+      kattalar: "10 mg once daily; interval adjusted to renal function.",
+      bolalar: "Safety not adequately established"
+    },
+    chiqarish: "Tablets 10 mg"
+  }
+},
+
+"J05AR03": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — OIV NRTI kombinatsiyasi",
+    farmTasir: "OIV infeksiyasiga qarshi kombinatsiya",
+    farmakodinamika: `Emtritsitabin + tenofovir alafenamid — ikki nukleozid/nukleotid teskari transkriptaza ingibitorining barqaror dozali kombinatsiyasi. Emtritsitabin (sitidin analogi) va tenofovir (adenozin nukleotidi analogi) hujayrada faol difosfat/trifosfatga aylanib, OIV teskari transkriptazasini inhibilaydi va zanjirni uzadi. Tenofovir alafenamid — tenofovirning yangi prodorisi bo'lib, plazmada past, hujayra ichida yuqori konsentratsiya beradi (buyrak va suyakka toksiklik kamroq).`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi",
+      tarqalish: "Emtritsitabin oqsilga past, tenofovir alafenamid o'rtacha bog'lanadi",
+      metabolizm: "Tenofovir alafenamid hujayra ichida katepsin A orqali faollashadi",
+      chiqarilish: "Emtritsitabin asosan buyrak orqali; T½ hujayra ichida uzoq"
+    },
+    korsatmalar: ["Kattalar va o'smirlarda OIV-1 infeksiyasi (boshqa antiretrovirus vositalar bilan birga)", "PrEP — ba'zi rejimlarda profilaktika"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik"],
+    nojoya: {
+      "Umumiy": "Bosh og'rig'i, ko'ngil aynishi, diareya",
+      "Metabolik": "Lipidlar oshishi; kamdan-kam — laktat atsidozi",
+      "Boshqa": "Davoni to'xtatgandan keyin HBV bilan birga infeksiyada gepatit kuchayishi mumkin"
+    },
+    dozadan: "Simptomatik davo; emtritsitabin gemodializ bilan qisman chiqariladi.",
+    ozarotasir: ["Rifampitsin, karbamazepin (P-gp induktorlari) tenofovir alafenamid samarasini kamaytiradi", "Nefrotoksik dorilar bilan ehtiyotkorlik"],
+    qollash: {
+      kattalar: "1 tabletka (emtritsitabin 200 mg / tenofovir alafenamid 25 mg) sutkada 1 marta.",
+      bolalar: "≥25 kg vaznда kattalar dozasi"
+    },
+    chiqarish: "Plyonka qoplamali tabletkalar 200 mg/25 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — комбинация НИОТ для ВИЧ",
+    farmTasir: "Комбинированное средство против ВИЧ-инфекции",
+    farmakodinamika: `Эмтрицитабин + тенофовира алафенамид — комбинация с фиксированной дозой двух нуклеозидного/нуклеотидного ингибиторов обратной транскриптазы. Эмтрицитабин (аналог цитидина) и тенофовир (аналог нуклеотида аденозина) внутриклеточно превращаются в активные ди-/трифосфаты, ингибируют обратную транскриптазу ВИЧ и вызывают обрыв цепи. Тенофовира алафенамид — новое пролекарство тенофовира, обеспечивающее низкую концентрацию в плазме и высокую внутриклеточно (меньше токсичность для почек и костей).`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь",
+      tarqalish: "Эмтрицитабин — низкая, тенофовира алафенамид — умеренная связь с белками",
+      metabolizm: "Тенофовира алафенамид активируется внутриклеточно катепсином А",
+      chiqarilish: "Эмтрицитабин преимущественно почками; внутриклеточный T½ длинный"
+    },
+    korsatmalar: ["ВИЧ-1 инфекция у взрослых и подростков (в комбинации с другими антиретровирусными средствами)", "Доконтактная профилактика (PrEP) в отдельных схемах"],
+    qarrshi: ["Гиперчувствительность к компонентам"],
+    nojoya: {
+      "Общие": "Головная боль, тошнота, диарея",
+      "Метаболические": "Повышение липидов; редко — лактоацидоз",
+      "Прочее": "После отмены при ко-инфекции HBV возможно обострение гепатита"
+    },
+    dozadan: "Симптоматическая терапия; эмтрицитабин частично выводится гемодиализом.",
+    ozarotasir: ["Рифампицин, карбамазепин (индукторы P-gp) снижают эффективность тенофовира алафенамида", "Осторожно с нефротоксичными препаратами"],
+    qollash: {
+      kattalar: "1 таблетка (эмтрицитабин 200 мг / тенофовира алафенамид 25 мг) 1 раз в сутки.",
+      bolalar: "При массе ≥25 кг — доза взрослых"
+    },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 200 мг/25 мг"
+  },
+  en: {
+    gruppa: "Systemic antivirals — HIV NRTI combination",
+    farmTasir: "Combination agent for HIV infection",
+    farmakodinamika: `Emtricitabine + tenofovir alafenamide is a fixed-dose combination of a nucleoside and a nucleotide reverse transcriptase inhibitor. Emtricitabine (a cytidine analogue) and tenofovir (an adenosine nucleotide analogue) are converted intracellularly to active di-/triphosphates that inhibit HIV reverse transcriptase and cause chain termination. Tenofovir alafenamide is a newer tenofovir prodrug giving low plasma but high intracellular concentrations (less renal and bone toxicity).`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally",
+      tarqalish: "Emtricitabine low, tenofovir alafenamide moderate protein binding",
+      metabolizm: "Tenofovir alafenamide is activated intracellularly by cathepsin A",
+      chiqarilish: "Emtricitabine mainly renal; intracellular T½ long"
+    },
+    korsatmalar: ["HIV-1 infection in adults and adolescents (with other antiretrovirals)", "Pre-exposure prophylaxis (PrEP) in selected regimens"],
+    qarrshi: ["Hypersensitivity to components"],
+    nojoya: {
+      "General": "Headache, nausea, diarrhoea",
+      "Metabolic": "Raised lipids; rarely lactic acidosis",
+      "Other": "Hepatitis flare possible after stopping in HBV co-infection"
+    },
+    dozadan: "Supportive care; emtricitabine partly removed by haemodialysis.",
+    ozarotasir: ["Rifampicin, carbamazepine (P-gp inducers) reduce tenofovir alafenamide efficacy", "Caution with nephrotoxic drugs"],
+    qollash: {
+      kattalar: "1 tablet (emtricitabine 200 mg / tenofovir alafenamide 25 mg) once daily.",
+      bolalar: "Weight ≥25 kg adult dose"
+    },
+    chiqarish: "Film-coated tablets 200 mg/25 mg"
+  }
+},
+
+"J05AR02": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — OIV NRTI kombinatsiyasi",
+    farmTasir: "OIV infeksiyasiga qarshi kombinatsiya",
+    farmakodinamika: `Abakavir + lamivudin — ikki nukleozid teskari transkriptaza ingibitorining barqaror dozali kombinatsiyasi. Ikkala modda hujayra ichida fosforillanib, OIV teskari transkriptazasini inhibilaydi va viral DNK zanjirini uzadi. Antiretrovirus terapiyaning "umurtqa pog'onasi" sifatida uchinchi modda bilan birga qo'llaniladi.`,
+    farmakokinetika: {
+      sorish: "Ikkalasi og'izdan yaxshi so'riladi (abakavir ~83%, lamivudin ~86%)",
+      tarqalish: "Markaziy asab tizimiga o'tadi; oqsilga bog'lanish o'rtacha/past",
+      metabolizm: "Abakavir alkogol-degidrogenaza va glyukuronlanish orqali; lamivudin minimal",
+      chiqarilish: "Abakavir asosan metabolitlar, lamivudin asosan o'zgarmagan holda buyrak orqali"
+    },
+    korsatmalar: ["Kattalar va bolalarda OIV-1 infeksiyasi (kombinatsiyalangan terapiya tarkibida)"],
+    qarrshi: ["Abakavirga yuqori sezuvchanlik (HLA-B*5701 musbat bemorlarда qat'iy man etiladi)", "Og'ir jigar yetishmovchiligi"],
+    nojoya: {
+      "Immun": "Abakavirga yuqori sezuvchanlik reaksiyasi (isitma, toshma, OIIT, nafas a'zolari) — hayot uchun xavfli",
+      "Umumiy": "Bosh og'rig'i, ko'ngil aynishi, charchoq",
+      "Metabolik": "Laktat atsidozi (kamdan-kam), lipid o'zgarishlari"
+    },
+    dozadan: "Simptomatik davo; abakavir gemodializ bilan sezilarli chiqarilmaydi.",
+    ozarotasir: ["Etanol abakavir konsentratsiyasini oshiradi", "Trimetoprim/sulfametoksazol lamivudin darajasini oshiradi"],
+    qollash: {
+      kattalar: "1 tabletka (abakavir 600 mg / lamivudin 300 mg) sutkada 1 marta; boshlashdan oldin HLA-B*5701 tekshiriladi.",
+      bolalar: "Vazn ≥25 kg da kattalar dozasi"
+    },
+    chiqarish: "Plyonka qoplamali tabletkalar 600 mg/300 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — комбинация НИОТ для ВИЧ",
+    farmTasir: "Комбинированное средство против ВИЧ-инфекции",
+    farmakodinamika: `Абакавир + ламивудин — комбинация с фиксированной дозой двух нуклеозидных ингибиторов обратной транскриптазы. Оба вещества фосфорилируются внутриклеточно, ингибируют обратную транскриптазу ВИЧ и вызывают обрыв цепи вирусной ДНК. Применяется как «основа» антиретровирусной терапии вместе с третьим компонентом.`,
+    farmakokinetika: {
+      sorish: "Оба хорошо всасываются внутрь (абакавир ~83%, ламивудин ~86%)",
+      tarqalish: "Проникают в ЦНС; связь с белками умеренная/низкая",
+      metabolizm: "Абакавир — через алкогольдегидрогеназу и глюкуронирование; ламивудин минимально",
+      chiqarilish: "Абакавир преимущественно метаболитами, ламивудин преимущественно в неизменённом виде почками"
+    },
+    korsatmalar: ["ВИЧ-1 инфекция у взрослых и детей (в составе комбинированной терапии)"],
+    qarrshi: ["Гиперчувствительность к абакавиру (строго противопоказан при HLA-B*5701-положительном статусе)", "Тяжёлая печёночная недостаточность"],
+    nojoya: {
+      "Иммунные": "Реакция гиперчувствительности к абакавиру (лихорадка, сыпь, ЖКТ, дыхательные симптомы) — опасна для жизни",
+      "Общие": "Головная боль, тошнота, утомляемость",
+      "Метаболические": "Лактоацидоз (редко), изменения липидов"
+    },
+    dozadan: "Симптоматическая терапия; абакавир существенно не выводится гемодиализом.",
+    ozarotasir: ["Этанол повышает концентрацию абакавира", "Триметоприм/сульфаметоксазол повышает уровень ламивудина"],
+    qollash: {
+      kattalar: "1 таблетка (абакавир 600 мг / ламивудин 300 мг) 1 раз в сутки; до начала проверяют HLA-B*5701.",
+      bolalar: "При массе ≥25 кг — доза взрослых"
+    },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 600 мг/300 мг"
+  },
+  en: {
+    gruppa: "Systemic antivirals — HIV NRTI combination",
+    farmTasir: "Combination agent for HIV infection",
+    farmakodinamika: `Abacavir + lamivudine is a fixed-dose combination of two nucleoside reverse transcriptase inhibitors. Both are phosphorylated intracellularly, inhibit HIV reverse transcriptase and cause viral DNA chain termination. It is used as a "backbone" of antiretroviral therapy together with a third agent.`,
+    farmakokinetika: {
+      sorish: "Both well absorbed orally (abacavir ~83%, lamivudine ~86%)",
+      tarqalish: "Penetrate the CNS; moderate/low protein binding",
+      metabolizm: "Abacavir via alcohol dehydrogenase and glucuronidation; lamivudine minimal",
+      chiqarilish: "Abacavir mainly as metabolites, lamivudine mainly unchanged renally"
+    },
+    korsatmalar: ["HIV-1 infection in adults and children (as part of combination therapy)"],
+    qarrshi: ["Hypersensitivity to abacavir (strictly contraindicated if HLA-B*5701 positive)", "Severe hepatic impairment"],
+    nojoya: {
+      "Immune": "Abacavir hypersensitivity reaction (fever, rash, GI, respiratory symptoms) — life-threatening",
+      "General": "Headache, nausea, fatigue",
+      "Metabolic": "Lactic acidosis (rare), lipid changes"
+    },
+    dozadan: "Supportive care; abacavir not appreciably removed by haemodialysis.",
+    ozarotasir: ["Ethanol raises abacavir levels", "Trimethoprim/sulfamethoxazole raises lamivudine levels"],
+    qollash: {
+      kattalar: "1 tablet (abacavir 600 mg / lamivudine 300 mg) once daily; test HLA-B*5701 before starting.",
+      bolalar: "Weight ≥25 kg adult dose"
+    },
+    chiqarish: "Film-coated tablets 600 mg/300 mg"
+  }
+},
+
+"J05AR27": {
+  uz: {
+    gruppa: "Tizimli virusga qarshi vositalar — OIV uchun to'liq rejim (STR)",
+    farmTasir: "OIV infeksiyasiga qarshi yagona tabletkali rejim",
+    farmakodinamika: `Dolutegravir + lamivudin + tenofovir dizoproksil — bitta tabletkada to'liq antiretrovirus rejim. Dolutegravir — integraza zanjirini ko'chirish ingibitori (INSTI), virus DNK sining xost genomiga integratsiyasini bloklaydi. Lamivudin va tenofovir — teskari transkriptaza ingibitorlari (NRTI/NtRTI), zanjirni uzadi. Uch mexanizm yuqori virusologik samaradorlik beradi.`,
+    farmakokinetika: {
+      sorish: "Og'iz orqali yaxshi so'riladi",
+      tarqalish: "Dolutegravir oqsilga >99% bog'lanadi",
+      metabolizm: "Dolutegravir UGT1A1 va CYP3A orqali; lamivudin/tenofovir minimal",
+      chiqarilish: "Lamivudin va tenofovir asosan buyrak orqali"
+    },
+    korsatmalar: ["Kattalar va o'smirlarda (≥25 kg) OIV-1 infeksiyasi — to'liq rejim sifatida"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik", "Og'ir buyrak yetishmovchiligi (KrKl <50 ml/min — barqaror doza mos emas)"],
+    nojoya: {
+      "Asab tizimi": "Bosh og'rig'i, uyqusizlik, bosh aylanishi",
+      "Buyrak/suyak": "Tenofovir DF — buyrak va suyak zichligiga ta'sir",
+      "Metabolik": "Tana vazni oshishi; kamdan-kam — laktat atsidozi"
+    },
+    dozadan: "Simptomatik davo; dolutegravir gemodializ bilan kam chiqariladi.",
+    ozarotasir: ["Antatsidlar, temir/kalsiy preparatlari dolutegravir so'rilishini kamaytiradi (vaqt ajratish)", "Rifampitsin, karbamazepin samarani pasaytiradi", "Metforminni nazorat qilish (dolutegravir uning darajasini oshiradi)"],
+    qollash: {
+      kattalar: "1 tabletka (dolutegravir 50 mg / lamivudin 300 mg / tenofovir DF 300 mg) sutkada 1 marta.",
+      bolalar: "≥25 kg vaznда kattalar dozasi"
+    },
+    chiqarish: "Plyonka qoplamali tabletkalar 50 mg/300 mg/300 mg"
+  },
+  ru: {
+    gruppa: "Противовирусные средства системного действия — полный режим для ВИЧ (STR)",
+    farmTasir: "Однотаблеточный режим против ВИЧ-инфекции",
+    farmakodinamika: `Долутегравир + ламивудин + тенофовира дизопроксил — полный антиретровирусный режим в одной таблетке. Долутегравир — ингибитор переноса цепи интегразой (INSTI), блокирует интеграцию вирусной ДНК в геном хозяина. Ламивудин и тенофовир — ингибиторы обратной транскриптазы (НИОТ/НтИОТ), вызывают обрыв цепи. Три механизма обеспечивают высокую вирусологическую эффективность.`,
+    farmakokinetika: {
+      sorish: "Хорошо всасывается внутрь",
+      tarqalish: "Долутегравир связывается с белками >99%",
+      metabolizm: "Долутегравир через UGT1A1 и CYP3A; ламивудин/тенофовир минимально",
+      chiqarilish: "Ламивудин и тенофовир преимущественно почками"
+    },
+    korsatmalar: ["ВИЧ-1 инфекция у взрослых и подростков (≥25 кг) — как полный режим"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Тяжёлая почечная недостаточность (КлКр <50 мл/мин — фиксированная доза не подходит)"],
+    nojoya: {
+      "Нервная система": "Головная боль, бессонница, головокружение",
+      "Почки/кости": "Тенофовира дизопроксил — влияние на почки и плотность костей",
+      "Метаболические": "Прибавка массы тела; редко — лактоацидоз"
+    },
+    dozadan: "Симптоматическая терапия; долутегравир мало выводится гемодиализом.",
+    ozarotasir: ["Антациды, препараты железа/кальция снижают всасывание долутегравира (разнести по времени)", "Рифампицин, карбамазепин снижают эффективность", "Контроль метформина (долутегравир повышает его уровень)"],
+    qollash: {
+      kattalar: "1 таблетка (долутегравир 50 мг / ламивудин 300 мг / тенофовира дизопроксил 300 мг) 1 раз в сутки.",
+      bolalar: "При массе ≥25 кг — доза взрослых"
+    },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 50 мг/300 мг/300 мг"
+  },
+  en: {
+    gruppa: "Systemic antivirals — complete HIV regimen (STR)",
+    farmTasir: "Single-tablet regimen for HIV infection",
+    farmakodinamika: `Dolutegravir + lamivudine + tenofovir disoproxil is a complete antiretroviral regimen in one tablet. Dolutegravir is an integrase strand-transfer inhibitor (INSTI) that blocks integration of viral DNA into the host genome. Lamivudine and tenofovir are reverse transcriptase inhibitors (NRTI/NtRTI) causing chain termination. The three mechanisms provide high virologic efficacy.`,
+    farmakokinetika: {
+      sorish: "Well absorbed orally",
+      tarqalish: "Dolutegravir is >99% protein bound",
+      metabolizm: "Dolutegravir via UGT1A1 and CYP3A; lamivudine/tenofovir minimal",
+      chiqarilish: "Lamivudine and tenofovir mainly renal"
+    },
+    korsatmalar: ["HIV-1 infection in adults and adolescents (≥25 kg) — as a complete regimen"],
+    qarrshi: ["Hypersensitivity to components", "Severe renal impairment (CrCl <50 mL/min — fixed dose unsuitable)"],
+    nojoya: {
+      "Nervous system": "Headache, insomnia, dizziness",
+      "Renal/bone": "Tenofovir disoproxil — effects on kidney and bone density",
+      "Metabolic": "Weight gain; rarely lactic acidosis"
+    },
+    dozadan: "Supportive care; dolutegravir is poorly removed by haemodialysis.",
+    ozarotasir: ["Antacids, iron/calcium products reduce dolutegravir absorption (separate dosing)", "Rifampicin, carbamazepine reduce efficacy", "Monitor metformin (dolutegravir raises its levels)"],
+    qollash: {
+      kattalar: "1 tablet (dolutegravir 50 mg / lamivudine 300 mg / tenofovir disoproxil 300 mg) once daily.",
+      bolalar: "Weight ≥25 kg adult dose"
+    },
+    chiqarish: "Film-coated tablets 50 mg/300 mg/300 mg"
+  }
+},
+
+"J04AM06": {
+  uz: {
+    gruppa: "Sil kasalligiga qarshi vositalar — kombinatsiyalar",
+    farmTasir: "Sil davosining intensiv fazasi uchun 4 komponentli kombinatsiya",
+    farmakodinamika: `Rifampitsin + izoniazid + etambutol + pirazinamid — silning intensiv fazasi uchun barqaror dozali to'rt komponentli kombinatsiya. Rifampitsin mikobakteriya RNK-polimerazasini, izoniazid mikol kislotalari sintezini, etambutol hujayra devori arabinogalaktan sintezini inhibilaydi, pirazinamid esa kislotali muhitda "dremlovchi" mikobakteriyalarga ta'sir qiladi. Birgalikda turli mexanizmlar chidamlilik rivojini kamaytiradi va davoni samarali qiladi.`,
+    farmakokinetika: {
+      sorish: "Komponentlar og'izdan so'riladi (rifampitsin och qoringa yaxshiroq)",
+      tarqalish: "To'qima va suyuqliklarga keng taqsimlanadi",
+      metabolizm: "Jigarda (rifampitsin — kuchli ferment induktori; izoniazid — atsetillanish)",
+      chiqarilish: "Buyrak va jigar (safro) orqali"
+    },
+    korsatmalar: ["Yangi aniqlangan o'pka va o'pkadan tashqari silning intensiv (boshlang'ich) fazasi"],
+    qarrshi: ["Komponentlarga yuqori sezuvchanlik", "Og'ir jigar yetishmovchiligi", "Ko'ruv nervi neyriti (etambutol)", "O'tkir podagra (pirazinamid)"],
+    nojoya: {
+      "Jigar": "Gepatotoksiklik (barcha komponentlar hissa qo'shadi)",
+      "Asab": "Periferik neyropatiya (izoniazid — B6 bilan oldini olinadi), ko'ruv neyriti (etambutol)",
+      "Boshqa": "Giperurikemiya, oshqozon-ichak nojo'yaliklari, siydik/ter qizg'ish rang (rifampitsin)"
+    },
+    dozadan: "Simptomatik davo; izoniazid dozadan oshishida piridoksin (B6) antidot sifatida; jigar nazorati.",
+    ozarotasir: ["Rifampitsin ko'p dorilar (KOK, antikoagulyantlar, ARV) konsentratsiyasini kamaytiradi", "Izoniazid — fenitoin, karbamazepin darajasini oshiradi", "Antatsidlar etambutol so'rilishini kamaytiradi"],
+    qollash: {
+      kattalar: "Tana vazniga ko'ra (masalan, 30–37 kg: 2 tab; 38–54 kg: 3 tab; 55–70 kg: 4 tab) och qoringa, sutkada 1 marta; izoniazid bilan B6 tavsiya etiladi.",
+      bolalar: "Bolalar uchun mos nisbatdagi alohida kombinatsiya ishlatiladi"
+    },
+    chiqarish: "Plyonka qoplamali tabletkalar (R 150 / H 75 / E 275 / Z 400 mg)"
+  },
+  ru: {
+    gruppa: "Противотуберкулёзные средства — комбинации",
+    farmTasir: "Четырёхкомпонентная комбинация для интенсивной фазы лечения туберкулёза",
+    farmakodinamika: `Рифампицин + изониазид + этамбутол + пиразинамид — четырёхкомпонентная комбинация с фиксированной дозой для интенсивной фазы туберкулёза. Рифампицин ингибирует РНК-полимеразу микобактерий, изониазид — синтез миколовых кислот, этамбутол — синтез арабиногалактана клеточной стенки, пиразинамид действует на «дремлющие» микобактерии в кислой среде. Сочетание разных механизмов снижает развитие устойчивости и повышает эффективность.`,
+    farmakokinetika: {
+      sorish: "Компоненты всасываются внутрь (рифампицин лучше натощак)",
+      tarqalish: "Широко распределяются в тканях и жидкостях",
+      metabolizm: "В печени (рифампицин — сильный индуктор ферментов; изониазид — ацетилирование)",
+      chiqarilish: "Почками и печенью (желчь)"
+    },
+    korsatmalar: ["Интенсивная (начальная) фаза впервые выявленного туберкулёза лёгких и внелёгочного"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Тяжёлая печёночная недостаточность", "Неврит зрительного нерва (этамбутол)", "Острая подагра (пиразинамид)"],
+    nojoya: {
+      "Печень": "Гепатотоксичность (вклад всех компонентов)",
+      "Нервы": "Периферическая нейропатия (изониазид — профилактика В6), неврит зрительного нерва (этамбутол)",
+      "Прочее": "Гиперурикемия, желудочно-кишечные нарушения, красноватая окраска мочи/пота (рифампицин)"
+    },
+    dozadan: "Симптоматическая терапия; при передозировке изониазида антидот — пиридоксин (В6); контроль печени.",
+    ozarotasir: ["Рифампицин снижает концентрацию многих препаратов (КОК, антикоагулянты, АРВ)", "Изониазид повышает уровень фенитоина, карбамазепина", "Антациды снижают всасывание этамбутола"],
+    qollash: {
+      kattalar: "По массе тела (например, 30–37 кг: 2 таб; 38–54 кг: 3 таб; 55–70 кг: 4 таб) натощак, 1 раз в сутки; с изониазидом рекомендуется В6.",
+      bolalar: "Для детей применяют отдельную комбинацию с соответствующим соотношением"
+    },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой (R 150 / H 75 / E 275 / Z 400 мг)"
+  },
+  en: {
+    gruppa: "Antituberculosis agents — combinations",
+    farmTasir: "Four-drug combination for the intensive phase of TB treatment",
+    farmakodinamika: `Rifampicin + isoniazid + ethambutol + pyrazinamide is a fixed-dose four-drug combination for the intensive phase of tuberculosis. Rifampicin inhibits mycobacterial RNA polymerase, isoniazid mycolic-acid synthesis, ethambutol cell-wall arabinogalactan synthesis, and pyrazinamide acts on "dormant" mycobacteria in an acidic environment. Combining different mechanisms reduces resistance and improves efficacy.`,
+    farmakokinetika: {
+      sorish: "Components absorbed orally (rifampicin better on an empty stomach)",
+      tarqalish: "Widely distributed in tissues and fluids",
+      metabolizm: "Hepatic (rifampicin a strong enzyme inducer; isoniazid acetylation)",
+      chiqarilish: "Renal and hepatic (bile)"
+    },
+    korsatmalar: ["Intensive (initial) phase of newly diagnosed pulmonary and extrapulmonary tuberculosis"],
+    qarrshi: ["Hypersensitivity to components", "Severe hepatic impairment", "Optic neuritis (ethambutol)", "Acute gout (pyrazinamide)"],
+    nojoya: {
+      "Liver": "Hepatotoxicity (contribution from all components)",
+      "Nerves": "Peripheral neuropathy (isoniazid — prevented by B6), optic neuritis (ethambutol)",
+      "Other": "Hyperuricaemia, GI disturbances, reddish urine/sweat (rifampicin)"
+    },
+    dozadan: "Supportive care; for isoniazid overdose the antidote is pyridoxine (B6); monitor liver.",
+    ozarotasir: ["Rifampicin lowers levels of many drugs (COCs, anticoagulants, ARVs)", "Isoniazid raises phenytoin and carbamazepine levels", "Antacids reduce ethambutol absorption"],
+    qollash: {
+      kattalar: "By body weight (e.g. 30–37 kg: 2 tabs; 38–54 kg: 3 tabs; 55–70 kg: 4 tabs) on an empty stomach, once daily; B6 recommended with isoniazid.",
+      bolalar: "A separate paediatric combination with appropriate ratios is used"
+    },
+    chiqarish: "Film-coated tablets (R 150 / H 75 / E 275 / Z 400 mg)"
+  }
 }
 
 };
@@ -21555,3 +22173,5 @@ PHARMA_DATA["J01"]              = PHARMA_DATA["J01RA12"];  // siprofloksatsin + 
 PHARMA_DATA["J01MA01; G01AF06"] = PHARMA_DATA["J01RA09"];  // ofloksatsin + ornidazol
 PHARMA_DATA["J01ҒA10"]     = PHARMA_DATA["J01FA10"];  // azitromitsin (kirill harfli kod)
 PHARMA_DATA["J05AR13"]          = PHARMA_DATA["J05AX12"];  // dolutegravir natriy
+PHARMA_DATA["J02AC2"]           = PHARMA_DATA["J02AC02"];  // itrakonazol (qisqartirilgan kod)
+PHARMA_DATA["J0ICA04"]          = PHARMA_DATA["J01CA04"];  // amoksitsillin (terilgan xato kod)
