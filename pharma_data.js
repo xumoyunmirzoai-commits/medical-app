@@ -31262,6 +31262,300 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Loading 0.5 mg/kg IV (over 1 min), then infusion 0.05–0.2 mg/kg/min; only under monitoring.", bolalar: "Only under supervision, by weight" },
     chiqarish: "Concentrate/solution for infusion 10, 250 mg/mL"
   }
+},
+
+"C08CA01": {
+  uz: {
+    gruppa: "Kaltsiy kanal blokerlari — dihidropiridinlar",
+    farmTasir: "Qon bosimini pasaytiruvchi (kaltsiy antagonisti)",
+    farmakodinamika: `Amlodipin — uzoq ta'sirли dihidropiridin guruhидаги kaltsiy kanal blokeri. Tomir silliq mushak hujayralariга kaltsiy kirishini bloklaб arteriolalarni kengaytiradi, periferik qarshilik va qon bosimini pasaytiradi; koronar tomirlarни ham kengaytiradi (stenokardiyada). Yurak qisqarishi va o'tkazuvchanligiга deyarli ta'sir qilmaydi.`,
+    farmakokinetika: { sorish: "Ichakdan sekin (biokirish ~60–80%)", tarqalish: "Oqsilга ~98%", metabolizm: "Jigarда CYP3A4", chiqarilish: "Buyrak orqали; T½ ~35–50 soat (juda uzun)" },
+    korsatmalar: ["Arterial gipertenziya", "Barqaror va vazospastik stenokardiya"],
+    qarrshi: ["Og'ir gipotenziya, kardiogen shok", "Og'ir aort stenozi", "Beqaror stenokardiya (o'tkir faza)", "Yuqori sezuvchanlik (dihidropiridinlar)"],
+    nojoya: { "Tomir": "Oyoq-to'piq shishi (periferik), yuzning qizishi, bosh og'rig'i", "Yurak": "Taxikardiya (refleks)", "Boshqa": "Bosh aylanishi, charchoq, qabziyat" },
+    dozadan: "Og'ir gipotenziya, refleks taxikardiya; suyuqlik, vazopressorlar, kaltsiy, simptomatik davo.",
+    ozarotasir: ["CYP3A4 ingibitorlari (makrolidlar, azollar, greypfrut) konsentratsiyani oshiradi", "Simvastatin dozasini cheklaydi (miopatiya)", "Boshqa antigipertenziv vositalar ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "5 mg/sutkaдан boshlab, 10 mg gacha (kuniga 1 marta).", bolalar: "≥6 yosh, 2,5–5 mg/sutka" },
+    chiqarish: "Tabletkalar 5, 10 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы кальциевых каналов — дигидропиридины",
+    farmTasir: "Снижающее АД (антагонист кальция)",
+    farmakodinamika: `Амлодипин — дигидропиридиновый блокатор кальциевых каналов длительного действия. Блокируя вход кальция в гладкомышечные клетки сосудов, расширяет артериолы, снижает периферическое сопротивление и АД; также расширяет коронарные сосуды (при стенокардии). Практически не влияет на сократимость и проводимость сердца.`,
+    farmakokinetika: { sorish: "Из кишечника медленно (биодоступность ~60–80%)", tarqalish: "С белками ~98%", metabolizm: "В печени CYP3A4", chiqarilish: "Почками; T½ ~35–50 ч (очень длинный)" },
+    korsatmalar: ["Артериальная гипертензия", "Стабильная и вазоспастическая стенокардия"],
+    qarrshi: ["Тяжёлая гипотензия, кардиогенный шок", "Тяжёлый аортальный стеноз", "Нестабильная стенокардия (острая фаза)", "Гиперчувствительность (дигидропиридины)"],
+    nojoya: { "Сосудистые": "Отёки лодыжек (периферические), покраснение лица, головная боль", "Сердце": "Тахикардия (рефлекторная)", "Прочее": "Головокружение, утомляемость, запор" },
+    dozadan: "Тяжёлая гипотензия, рефлекторная тахикардия; жидкость, вазопрессоры, кальций, симптоматическая терапия.",
+    ozarotasir: ["Ингибиторы CYP3A4 (макролиды, азолы, грейпфрут) повышают концентрацию", "Ограничивает дозу симвастатина (миопатия)", "Усиливает действие других гипотензивных"],
+    qollash: { kattalar: "С 5 мг/сут, до 10 мг (раз в сутки).", bolalar: "С 6 лет, 2,5–5 мг/сут" },
+    chiqarish: "Таблетки 5, 10 мг"
+  },
+  en: {
+    gruppa: "Calcium channel blockers — dihydropyridines",
+    farmTasir: "Blood-pressure-lowering (calcium antagonist)",
+    farmakodinamika: `Amlodipine is a long-acting dihydropyridine calcium channel blocker. By blocking calcium entry into vascular smooth muscle cells it dilates arterioles, lowering peripheral resistance and blood pressure; it also dilates coronary vessels (in angina). It has almost no effect on cardiac contractility or conduction.`,
+    farmakokinetika: { sorish: "Slow from the gut (bioavailability ~60–80%)", tarqalish: "~98% protein bound", metabolizm: "Hepatic CYP3A4", chiqarilish: "Renal; T½ ~35–50 h (very long)" },
+    korsatmalar: ["Arterial hypertension", "Stable and vasospastic angina"],
+    qarrshi: ["Severe hypotension, cardiogenic shock", "Severe aortic stenosis", "Unstable angina (acute phase)", "Hypersensitivity (dihydropyridines)"],
+    nojoya: { "Vascular": "Ankle oedema (peripheral), facial flushing, headache", "Cardiac": "Reflex tachycardia", "Other": "Dizziness, fatigue, constipation" },
+    dozadan: "Severe hypotension, reflex tachycardia; fluids, vasopressors, calcium, supportive care.",
+    ozarotasir: ["CYP3A4 inhibitors (macrolides, azoles, grapefruit) raise levels", "Caps the simvastatin dose (myopathy)", "Enhances other antihypertensives"],
+    qollash: { kattalar: "From 5 mg/day, to 10 mg (once daily).", bolalar: "From 6 years, 2.5–5 mg/day" },
+    chiqarish: "Tablets 5, 10 mg"
+  }
+},
+
+"C08CA05": {
+  uz: {
+    gruppa: "Kaltsiy kanal blokerlari — dihidropiridinlar",
+    farmTasir: "Qon bosimini pasaytiruvchi (kaltsiy antagonisti)",
+    farmakodinamika: `Nifedipin — dihidropiridin kaltsiy kanal blokeri. Tomir silliq mushaklarига kaltsiy kirishini bloklaб arteriolalarni kuchли kengaytiradi va qon bosimini pasaytiradi; koronar spazmда foydali. Tez ta'sir qiluvchi shaklи refleks taxikardiya beradi — shu sababli uzaytirilgan (retard) shakli afzal.`,
+    farmakokinetika: { sorish: "Ichakdan tez (oddiy shakl)", tarqalish: "Oqsilга yuqori", metabolizm: "Jigarда CYP3A4", chiqarilish: "Buyrak orqали; T½ qisqa (retard — uzaytirilgan)" },
+    korsatmalar: ["Arterial gipertenziya (uzaytirilgan shakl)", "Barqaror va vazospastik (Prinzmetal) stenokardiya", "Reyno fenomeni"],
+    qarrshi: ["Kardiogen shok, og'ir gipotenziya", "Beqaror stenokardiya, o'tkir miokard infarkti (tez shakl)", "Og'ir aort stenozi", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Yuzning qizishi, bosh og'rig'i, oyoq shishi", "Yurak": "Refleks taxikardiya (tez shaklда)", "Boshqa": "Bosh aylanishi, milk giperplaziyasi (uzoq qabulда)" },
+    dozadan: "Og'ir gipotenziya, taxikardiya; kaltsiy, vazopressorlar, simptomatik davo.",
+    ozarotasir: ["CYP3A4 ingibitorlari/greypfrut konsentratsiyani oshiradi", "Beta-blokerlar bilan gipotenziya kuchayadi", "Rifampitsin samarani keskin pasaytiradi"],
+    qollash: { kattalar: "Uzaytirilgan: 30–60 mg/sutka (1–2 ga bo'lib).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Uzaytirilgan tabletkalar 20, 30, 60 mg; kapsulalar 10 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы кальциевых каналов — дигидропиридины",
+    farmTasir: "Снижающее АД (антагонист кальция)",
+    farmakodinamika: `Нифедипин — дигидропиридиновый блокатор кальциевых каналов. Блокируя вход кальция в гладкие мышцы сосудов, сильно расширяет артериолы и снижает АД; полезен при коронарном спазме. Быстродействующая форма вызывает рефлекторную тахикардию — поэтому предпочтительна пролонгированная (ретард) форма.`,
+    farmakokinetika: { sorish: "Из кишечника быстро (обычная форма)", tarqalish: "Высокая связь с белками", metabolizm: "В печени CYP3A4", chiqarilish: "Почками; T½ короткий (ретард — пролонгированный)" },
+    korsatmalar: ["Артериальная гипертензия (пролонгированная форма)", "Стабильная и вазоспастическая (Принцметала) стенокардия", "Феномен Рейно"],
+    qarrshi: ["Кардиогенный шок, тяжёлая гипотензия", "Нестабильная стенокардия, острый инфаркт миокарда (быстрая форма)", "Тяжёлый аортальный стеноз", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Покраснение лица, головная боль, отёки ног", "Сердце": "Рефлекторная тахикардия (быстрая форма)", "Прочее": "Головокружение, гиперплазия дёсен (при длительном приёме)" },
+    dozadan: "Тяжёлая гипотензия, тахикардия; кальций, вазопрессоры, симптоматическая терапия.",
+    ozarotasir: ["Ингибиторы CYP3A4/грейпфрут повышают концентрацию", "С бета-блокаторами усиливается гипотензия", "Рифампицин резко снижает эффект"],
+    qollash: { kattalar: "Пролонгированная: 30–60 мг/сут (в 1–2 приёма).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки пролонгированные 20, 30, 60 мг; капсулы 10 мг"
+  },
+  en: {
+    gruppa: "Calcium channel blockers — dihydropyridines",
+    farmTasir: "Blood-pressure-lowering (calcium antagonist)",
+    farmakodinamika: `Nifedipine is a dihydropyridine calcium channel blocker. By blocking calcium entry into vascular smooth muscle it strongly dilates arterioles and lowers blood pressure; it is useful in coronary spasm. The fast-acting form causes reflex tachycardia — so the prolonged (retard) form is preferred.`,
+    farmakokinetika: { sorish: "Rapid from the gut (immediate form)", tarqalish: "High protein binding", metabolizm: "Hepatic CYP3A4", chiqarilish: "Renal; short T½ (retard — prolonged)" },
+    korsatmalar: ["Arterial hypertension (prolonged form)", "Stable and vasospastic (Prinzmetal) angina", "Raynaud phenomenon"],
+    qarrshi: ["Cardiogenic shock, severe hypotension", "Unstable angina, acute myocardial infarction (fast form)", "Severe aortic stenosis", "Hypersensitivity"],
+    nojoya: { "Vascular": "Facial flushing, headache, leg oedema", "Cardiac": "Reflex tachycardia (fast form)", "Other": "Dizziness, gum hyperplasia (with long-term use)" },
+    dozadan: "Severe hypotension, tachycardia; calcium, vasopressors, supportive care.",
+    ozarotasir: ["CYP3A4 inhibitors/grapefruit raise levels", "With beta-blockers hypotension increases", "Rifampicin sharply reduces the effect"],
+    qollash: { kattalar: "Prolonged: 30–60 mg/day (in 1–2 doses).", bolalar: "Not recommended" },
+    chiqarish: "Prolonged-release tablets 20, 30, 60 mg; capsules 10 mg"
+  }
+},
+
+"C08CA06": {
+  uz: {
+    gruppa: "Kaltsiy kanal blokerlari — dihidropiridinlar (miya tomirlari)",
+    farmTasir: "Miya tomir spazmiga qarshi (kaltsiy antagonisti)",
+    farmakodinamika: `Nimodipin — yog'да yaxshi eriydigan dihidropiridin kaltsiy kanal blokeri bo'lib, miya qon tomirlariга tanlangan ta'sir qiladi. Subaraxnoidal qon ketishдан keyin yuzaga keladigan miya tomir spazmini kamaytiradi va ishemik shikastlanишни oldini oladi (neyroprotektiv).`,
+    farmakokinetika: { sorish: "Ichakdan (birinchi o'tish yuqori); v/i", tarqalish: "Yog'да eriydi, OMS ga o'tadi", metabolizm: "Jigarда CYP3A4", chiqarilish: "Buyrak/safro; T½ qisqa" },
+    korsatmalar: ["Subaraxnoidal qon ketishдан keyin miya tomir spazmini oldini olish va davolash"],
+    qarrshi: ["Og'ir gipotenziya", "Miya shishi, bosh ichi bosimining keskin oshishi (ehtiyotkorlik)", "Kuchли CYP3A4 ingibitorlari bilan", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Gipotenziya, yuzning qizishi", "Yurak": "Taxikardiya", "Boshqa": "Bosh og'rig'i, ko'ngil aynishi, transaminazalar oshishi" },
+    dozadan: "Og'ir gipotenziya; suyuqlik, kaltsiy, simptomatik davo.",
+    ozarotasir: ["CYP3A4 ingibitorlari (makrolidlar, azollar, greypfrut) — gipotenziya kuchayadi (man etiladi)", "Boshqa antigipertenziv vositalar bilan gipotenziya"],
+    qollash: { kattalar: "60 mg har 4 soat ich (21 kun) yoki boshda v/i infuziya; neyroreanimatsiya nazoratида.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 30 mg; infuziya eritmasi 0,2 mg/ml"
+  },
+  ru: {
+    gruppa: "Блокаторы кальциевых каналов — дигидропиридины (сосуды мозга)",
+    farmTasir: "Против спазма сосудов мозга (антагонист кальция)",
+    farmakodinamika: `Нимодипин — жирорастворимый дигидропиридиновый блокатор кальциевых каналов с избирательным действием на сосуды мозга. Уменьшает спазм мозговых сосудов после субарахноидального кровоизлияния и предотвращает ишемическое повреждение (нейропротекция).`,
+    farmakokinetika: { sorish: "Из кишечника (высокий первичный пас); в/в", tarqalish: "Жирорастворим, проникает в ЦНС", metabolizm: "В печени CYP3A4", chiqarilish: "Почками/с желчью; T½ короткий" },
+    korsatmalar: ["Профилактика и лечение спазма сосудов мозга после субарахноидального кровоизлияния"],
+    qarrshi: ["Тяжёлая гипотензия", "Отёк мозга, резкое повышение внутричерепного давления (осторожно)", "С сильными ингибиторами CYP3A4", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Гипотензия, покраснение лица", "Сердце": "Тахикардия", "Прочее": "Головная боль, тошнота, повышение трансаминаз" },
+    dozadan: "Тяжёлая гипотензия; жидкость, кальций, симптоматическая терапия.",
+    ozarotasir: ["Ингибиторы CYP3A4 (макролиды, азолы, грейпфрут) — усиление гипотензии (противопоказано)", "С другими гипотензивными гипотензия"],
+    qollash: { kattalar: "60 мг каждые 4 ч внутрь (21 день) или вначале в/в инфузия; под контролем нейрореанимации.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 30 мг; раствор для инфузий 0,2 мг/мл"
+  },
+  en: {
+    gruppa: "Calcium channel blockers — dihydropyridines (cerebral vessels)",
+    farmTasir: "Anti-cerebral-vasospasm (calcium antagonist)",
+    farmakodinamika: `Nimodipine is a lipid-soluble dihydropyridine calcium channel blocker with selective action on cerebral vessels. It reduces cerebral vasospasm after subarachnoid haemorrhage and prevents ischaemic injury (neuroprotection).`,
+    farmakokinetika: { sorish: "From the gut (high first-pass); IV", tarqalish: "Lipid-soluble, crosses into the CNS", metabolizm: "Hepatic CYP3A4", chiqarilish: "Renal/biliary; short T½" },
+    korsatmalar: ["Prevention and treatment of cerebral vasospasm after subarachnoid haemorrhage"],
+    qarrshi: ["Severe hypotension", "Cerebral oedema, sharply raised intracranial pressure (caution)", "With strong CYP3A4 inhibitors", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension, facial flushing", "Cardiac": "Tachycardia", "Other": "Headache, nausea, raised transaminases" },
+    dozadan: "Severe hypotension; fluids, calcium, supportive care.",
+    ozarotasir: ["CYP3A4 inhibitors (macrolides, azoles, grapefruit) — increased hypotension (contraindicated)", "With other antihypertensives hypotension"],
+    qollash: { kattalar: "60 mg every 4 h orally (21 days) or initially IV infusion; under neuro-ICU monitoring.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 30 mg; solution for infusion 0.2 mg/mL"
+  }
+},
+
+"C08CA13": {
+  uz: {
+    gruppa: "Kaltsiy kanal blokerlari — dihidropiridinlar",
+    farmTasir: "Qon bosimini pasaytiruvchi (kaltsiy antagonisti)",
+    farmakodinamika: `Lerkanidipin — uchinchi avlod, lipofil dihidropiridin kaltsiy kanal blokeri. Tomir silliq mushaklariга kaltsiy kirishini bloklaб arteriolalarni asta va uzoq kengaytiradi; ta'sir sekin boshlanadi, shu sababli refleks taxikardiya va periferik shish boshqa dihidropiridinlardан kamroq.`,
+    farmakokinetika: { sorish: "Ichakdan (ovqat so'rilishni oshiradi)", tarqalish: "Oqsilга >98%; membranaга to'planadi", metabolizm: "Jigarда CYP3A4", chiqarilish: "Buyrak/najas; tomirдаги ta'sir uzun" },
+    korsatmalar: ["Yengil-o'rtacha arterial gipertenziya"],
+    qarrshi: ["Og'ir gipotenziya, kardiogen shok", "Davolanmagan yurak yetishmovchiligi, beqaror stenokardiya", "Og'ir jigar/buyrak yetishmovchiligi", "Kuchли CYP3A4 ingibitorlari/greypfrut bilan"],
+    nojoya: { "Tomir": "Yuzning qizishi, oyoq shishi (kam), bosh og'rig'i", "Yurak": "Taxikardiya (kam)", "Boshqa": "Bosh aylanishi" },
+    dozadan: "Gipotenziya, taxikardiya; kaltsiy, vazopressorlar, simptomatik davo.",
+    ozarotasir: ["CYP3A4 ingibitorlari/greypfrut konsentratsiyani oshiradi (man etiladi)", "Siklosporin bilan o'zaro ta'sir", "Boshqa antigipertenziv vositalar ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "10 mg/sutka (ovqatdан 15 daqiqа oldin), 20 mg gacha.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Plyonka qoplamali tabletkalar 10, 20 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы кальциевых каналов — дигидропиридины",
+    farmTasir: "Снижающее АД (антагонист кальция)",
+    farmakodinamika: `Лерканидипин — липофильный дигидропиридиновый блокатор кальциевых каналов третьего поколения. Блокируя вход кальция в гладкие мышцы сосудов, медленно и длительно расширяет артериолы; действие наступает медленно, поэтому рефлекторная тахикардия и периферические отёки реже, чем у других дигидропиридинов.`,
+    farmakokinetika: { sorish: "Из кишечника (пища повышает всасывание)", tarqalish: "С белками >98%; накапливается в мембране", metabolizm: "В печени CYP3A4", chiqarilish: "Почками/калом; действие на сосуды длительное" },
+    korsatmalar: ["Лёгкая-умеренная артериальная гипертензия"],
+    qarrshi: ["Тяжёлая гипотензия, кардиогенный шок", "Нелеченая сердечная недостаточность, нестабильная стенокардия", "Тяжёлая печёночная/почечная недостаточность", "С сильными ингибиторами CYP3A4/грейпфрутом"],
+    nojoya: { "Сосудистые": "Покраснение лица, отёки ног (реже), головная боль", "Сердце": "Тахикардия (реже)", "Прочее": "Головокружение" },
+    dozadan: "Гипотензия, тахикардия; кальций, вазопрессоры, симптоматическая терапия.",
+    ozarotasir: ["Ингибиторы CYP3A4/грейпфрут повышают концентрацию (противопоказано)", "Взаимодействие с циклоспорином", "Усиливает действие других гипотензивных"],
+    qollash: { kattalar: "10 мг/сут (за 15 мин до еды), до 20 мг.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 10, 20 мг"
+  },
+  en: {
+    gruppa: "Calcium channel blockers — dihydropyridines",
+    farmTasir: "Blood-pressure-lowering (calcium antagonist)",
+    farmakodinamika: `Lercanidipine is a third-generation lipophilic dihydropyridine calcium channel blocker. By blocking calcium entry into vascular smooth muscle it dilates arterioles slowly and durably; the slow onset means reflex tachycardia and peripheral oedema are less than with other dihydropyridines.`,
+    farmakokinetika: { sorish: "From the gut (food increases absorption)", tarqalish: ">98% protein bound; accumulates in the membrane", metabolizm: "Hepatic CYP3A4", chiqarilish: "Renal/faecal; vascular action prolonged" },
+    korsatmalar: ["Mild-moderate arterial hypertension"],
+    qarrshi: ["Severe hypotension, cardiogenic shock", "Untreated heart failure, unstable angina", "Severe hepatic/renal impairment", "With strong CYP3A4 inhibitors/grapefruit"],
+    nojoya: { "Vascular": "Facial flushing, leg oedema (less), headache", "Cardiac": "Tachycardia (less)", "Other": "Dizziness" },
+    dozadan: "Hypotension, tachycardia; calcium, vasopressors, supportive care.",
+    ozarotasir: ["CYP3A4 inhibitors/grapefruit raise levels (contraindicated)", "Interaction with ciclosporin", "Enhances other antihypertensives"],
+    qollash: { kattalar: "10 mg/day (15 min before food), up to 20 mg.", bolalar: "Not recommended" },
+    chiqarish: "Film-coated tablets 10, 20 mg"
+  }
+},
+
+"C08CA02": {
+  uz: {
+    gruppa: "Kaltsiy kanal blokerlari — dihidropiridinlar",
+    farmTasir: "Qon bosimini pasaytiruvchi (kaltsiy antagonisti)",
+    farmakodinamika: `Felodipin — tomirга tanlangan dihidropiridin kaltsiy kanal blokeri. Arteriolalarni kengaytirib periferik qarshilik va qon bosimini pasaytiradi; yurak qisqarishiга ta'siri kam. Uzaytirilgan shaklда sutkада bir marta qabul qilinadi.`,
+    farmakokinetika: { sorish: "Ichakdan (birinchi o'tish yuqori)", tarqalish: "Oqsilга >99%", metabolizm: "Jigarда CYP3A4", chiqarilish: "Buyrak orqали; uzaytirilgan ta'sir" },
+    korsatmalar: ["Arterial gipertenziya", "Barqaror stenokardiya"],
+    qarrshi: ["Og'ir gipotenziya, kardiogen shok", "Dekompensatsiyalangan yurak yetishmovchiligi, beqaror stenokardiya", "Og'ir aort stenozi", "Homiladorlik"],
+    nojoya: { "Tomir": "Oyoq shishi, yuzning qizishi, bosh og'rig'i", "Yurak": "Refleks taxikardiya", "Boshqa": "Bosh aylanishi, milk giperplaziyasi" },
+    dozadan: "Gipotenziya, taxikardiya; kaltsiy, vazopressorlar, simptomatik davo.",
+    ozarotasir: ["CYP3A4 ingibitorlari/greypfrut konsentratsiyani oshiradi", "Induktorlar (karbamazepin, rifampitsin) samarani pasaytiradi", "Boshqa antigipertenziv vositalar bilan gipotenziya"],
+    qollash: { kattalar: "5 mg/sutkaдан boshlab, 10 mg gacha (uzaytirilgan, kuniga 1 marta).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Uzaytirilgan tabletkalar 2,5, 5, 10 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы кальциевых каналов — дигидропиридины",
+    farmTasir: "Снижающее АД (антагонист кальция)",
+    farmakodinamika: `Фелодипин — сосудоселективный дигидропиридиновый блокатор кальциевых каналов. Расширяя артериолы, снижает периферическое сопротивление и АД; влияние на сократимость сердца невелико. В пролонгированной форме принимается раз в сутки.`,
+    farmakokinetika: { sorish: "Из кишечника (высокий первичный пас)", tarqalish: "С белками >99%", metabolizm: "В печени CYP3A4", chiqarilish: "Почками; пролонгированное действие" },
+    korsatmalar: ["Артериальная гипертензия", "Стабильная стенокардия"],
+    qarrshi: ["Тяжёлая гипотензия, кардиогенный шок", "Декомпенсированная сердечная недостаточность, нестабильная стенокардия", "Тяжёлый аортальный стеноз", "Беременность"],
+    nojoya: { "Сосудистые": "Отёки ног, покраснение лица, головная боль", "Сердце": "Рефлекторная тахикардия", "Прочее": "Головокружение, гиперплазия дёсен" },
+    dozadan: "Гипотензия, тахикардия; кальций, вазопрессоры, симптоматическая терапия.",
+    ozarotasir: ["Ингибиторы CYP3A4/грейпфрут повышают концентрацию", "Индукторы (карбамазепин, рифампицин) снижают эффект", "С другими гипотензивными гипотензия"],
+    qollash: { kattalar: "С 5 мг/сут, до 10 мг (пролонгированная, раз в сутки).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки пролонгированные 2,5, 5, 10 мг"
+  },
+  en: {
+    gruppa: "Calcium channel blockers — dihydropyridines",
+    farmTasir: "Blood-pressure-lowering (calcium antagonist)",
+    farmakodinamika: `Felodipine is a vascular-selective dihydropyridine calcium channel blocker. By dilating arterioles it lowers peripheral resistance and blood pressure; its effect on cardiac contractility is small. In the prolonged form it is taken once daily.`,
+    farmakokinetika: { sorish: "From the gut (high first-pass)", tarqalish: ">99% protein bound", metabolizm: "Hepatic CYP3A4", chiqarilish: "Renal; prolonged action" },
+    korsatmalar: ["Arterial hypertension", "Stable angina"],
+    qarrshi: ["Severe hypotension, cardiogenic shock", "Decompensated heart failure, unstable angina", "Severe aortic stenosis", "Pregnancy"],
+    nojoya: { "Vascular": "Leg oedema, facial flushing, headache", "Cardiac": "Reflex tachycardia", "Other": "Dizziness, gum hyperplasia" },
+    dozadan: "Hypotension, tachycardia; calcium, vasopressors, supportive care.",
+    ozarotasir: ["CYP3A4 inhibitors/grapefruit raise levels", "Inducers (carbamazepine, rifampicin) reduce the effect", "With other antihypertensives hypotension"],
+    qollash: { kattalar: "From 5 mg/day, to 10 mg (prolonged-release, once daily).", bolalar: "Not recommended" },
+    chiqarish: "Prolonged-release tablets 2.5, 5, 10 mg"
+  }
+},
+
+"C08CA08": {
+  uz: {
+    gruppa: "Kaltsiy kanal blokerlari — dihidropiridinlar",
+    farmTasir: "Qon bosimini pasaytiruvchi (kaltsiy antagonisti)",
+    farmakodinamika: `Nitrendipin — dihidropiridin kaltsiy kanal blokeri. Tomir silliq mushaklariга kaltsiy kirishini bloklaб arteriolalarni kengaytiradi va qon bosimini pasaytiradi; yurak o'tkazuvchanligiга ta'siri kam. Keksalarда izolyatsiyalangan sistolik gipertenziyada samarali.`,
+    farmakokinetika: { sorish: "Ichakdan (birinchi o'tish yuqori)", tarqalish: "Oqsilга >96%", metabolizm: "Jigarда CYP3A4", chiqarilish: "Buyrak orqали; T½ ~8–12 soat" },
+    korsatmalar: ["Arterial gipertenziya (jumladan keksalarда sistolik)"],
+    qarrshi: ["Og'ir gipotenziya, kardiogen shok", "Beqaror stenokardiya, o'tkir miokard infarkti", "Og'ir aort stenozi", "Homiladorlik"],
+    nojoya: { "Tomir": "Yuzning qizishi, oyoq shishi, bosh og'rig'i", "Yurak": "Refleks taxikardiya", "Boshqa": "Bosh aylanishi" },
+    dozadan: "Gipotenziya, taxikardiya; kaltsiy, vazopressorlar, simptomatik davo.",
+    ozarotasir: ["CYP3A4 ingibitorlari/greypfrut konsentratsiyani oshiradi", "Beta-blokerlar bilan gipotenziya kuchayadi", "Digoksin darajasini oshirishi mumkin"],
+    qollash: { kattalar: "10–20 mg/sutka (1–2 ga bo'lib).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 10, 20 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы кальциевых каналов — дигидропиридины",
+    farmTasir: "Снижающее АД (антагонист кальция)",
+    farmakodinamika: `Нитрендипин — дигидропиридиновый блокатор кальциевых каналов. Блокируя вход кальция в гладкие мышцы сосудов, расширяет артериолы и снижает АД; влияние на проводимость сердца невелико. Эффективен при изолированной систолической гипертензии у пожилых.`,
+    farmakokinetika: { sorish: "Из кишечника (высокий первичный пас)", tarqalish: "С белками >96%", metabolizm: "В печени CYP3A4", chiqarilish: "Почками; T½ ~8–12 ч" },
+    korsatmalar: ["Артериальная гипертензия (в т.ч. систолическая у пожилых)"],
+    qarrshi: ["Тяжёлая гипотензия, кардиогенный шок", "Нестабильная стенокардия, острый инфаркт миокарда", "Тяжёлый аортальный стеноз", "Беременность"],
+    nojoya: { "Сосудистые": "Покраснение лица, отёки ног, головная боль", "Сердце": "Рефлекторная тахикардия", "Прочее": "Головокружение" },
+    dozadan: "Гипотензия, тахикардия; кальций, вазопрессоры, симптоматическая терапия.",
+    ozarotasir: ["Ингибиторы CYP3A4/грейпфрут повышают концентрацию", "С бета-блокаторами усиливается гипотензия", "Может повышать уровень дигоксина"],
+    qollash: { kattalar: "10–20 мг/сут (в 1–2 приёма).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 10, 20 мг"
+  },
+  en: {
+    gruppa: "Calcium channel blockers — dihydropyridines",
+    farmTasir: "Blood-pressure-lowering (calcium antagonist)",
+    farmakodinamika: `Nitrendipine is a dihydropyridine calcium channel blocker. By blocking calcium entry into vascular smooth muscle it dilates arterioles and lowers blood pressure; its effect on cardiac conduction is small. It is effective in isolated systolic hypertension in the elderly.`,
+    farmakokinetika: { sorish: "From the gut (high first-pass)", tarqalish: ">96% protein bound", metabolizm: "Hepatic CYP3A4", chiqarilish: "Renal; T½ ~8–12 h" },
+    korsatmalar: ["Arterial hypertension (incl. systolic in the elderly)"],
+    qarrshi: ["Severe hypotension, cardiogenic shock", "Unstable angina, acute myocardial infarction", "Severe aortic stenosis", "Pregnancy"],
+    nojoya: { "Vascular": "Facial flushing, leg oedema, headache", "Cardiac": "Reflex tachycardia", "Other": "Dizziness" },
+    dozadan: "Hypotension, tachycardia; calcium, vasopressors, supportive care.",
+    ozarotasir: ["CYP3A4 inhibitors/grapefruit raise levels", "With beta-blockers hypotension increases", "May raise digoxin levels"],
+    qollash: { kattalar: "10–20 mg/day (in 1–2 doses).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 10, 20 mg"
+  }
+},
+
+"C08DA01": {
+  uz: {
+    gruppa: "Kaltsiy kanal blokerlari — fenilalkilaminlar",
+    farmTasir: "Antiaritmik va qon bosimini pasaytiruvchi (kaltsiy antagonisti)",
+    farmakodinamika: `Verapamil — fenilalkilamin guruhидаги kaltsiy kanal blokeri. Dihidropiridinlardан farqli — asosан yurakга ta'sir qiladi: SA va AV tugunlarда o'tkazuvchanlikни sekinlashtiradi, yurak urishini va qisqarish kuchini kamaytiradi (manfiy xrono/ino/dromotrop). Supraventrikulyar taxiaritmiya, stenokardiya va gipertenziyada qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (birinchi o'tish yuqori)", tarqalish: "Oqsilга ~90%", metabolizm: "Jigarда CYP3A4 (faol norverapamil)", chiqarilish: "Buyrak orqali; T½ ~5–12 soat" },
+    korsatmalar: ["Supraventrikulyar taxikardiya/taxiaritmiya (jumladan hilpillovchi aritmiyaда urish nazorati)", "Stenokardiya (jumladan vazospastik)", "Arterial gipertenziya"],
+    qarrshi: ["Og'ir bradikardiya, SA/AV-blokada (II–III)", "Og'ir yurak yetishmovchiligi, kardiogen shok", "WPW sindromи bilan hilpillovchi aritmiya", "Beta-blokerlar bilan v/i birga (man etiladi)"],
+    nojoya: { "Yurak": "Bradikardiya, AV-blokada, gipotenziya, yurak yetishmovchiligi kuchayishi", "Oshqozon-ichak": "Qabziyat (ko'p)", "Boshqa": "Yuzning qizishi, oyoq shishi, milk giperplaziyasi" },
+    dozadan: "Bradikardiya, AV-blokada, gipotenziya; kaltsiy, atropin, kardiostimulyatsiya, simptomatik davo.",
+    ozarotasir: ["Beta-blokerlar bilan og'ir bradikardiya/blokada (ayniqsa v/i)", "Digoksin darajasini oshiradi", "CYP3A4 ingibitorlari/greypfrut konsentratsiyani oshiradi; simvastatin dozasini cheklaydi"],
+    qollash: { kattalar: "40–80 mg×3 ich yoki uzaytirilgan 120–240 mg; o'tkir aritmiyada 5 mg v/i sekin (monitoring ostида).", bolalar: "Faqat nazorat ostида, vaznга ko'ra" },
+    chiqarish: "Tabletkalar 40, 80 mg; uzaytirilgan 120, 240 mg; inyeksiya eritmasi 2,5 mg/ml"
+  },
+  ru: {
+    gruppa: "Блокаторы кальциевых каналов — фенилалкиламины",
+    farmTasir: "Антиаритмическое и снижающее АД (антагонист кальция)",
+    farmakodinamika: `Верапамил — блокатор кальциевых каналов из группы фенилалкиламинов. В отличие от дигидропиридинов действует преимущественно на сердце: замедляет проводимость в СА- и AV-узлах, уменьшает ЧСС и силу сокращения (отрицательное хроно/ино/дромотропное действие). Применяется при суправентрикулярных тахиаритмиях, стенокардии и гипертензии.`,
+    farmakokinetika: { sorish: "Из кишечника (высокий первичный пас)", tarqalish: "С белками ~90%", metabolizm: "В печени CYP3A4 (активный норверапамил)", chiqarilish: "Почками; T½ ~5–12 ч" },
+    korsatmalar: ["Суправентрикулярная тахикардия/тахиаритмия (в т.ч. контроль ЧСС при фибрилляции предсердий)", "Стенокардия (в т.ч. вазоспастическая)", "Артериальная гипертензия"],
+    qarrshi: ["Тяжёлая брадикардия, СА/AV-блокада (II–III)", "Тяжёлая сердечная недостаточность, кардиогенный шок", "Фибрилляция предсердий при синдроме WPW", "С бета-блокаторами в/в совместно (противопоказано)"],
+    nojoya: { "Сердце": "Брадикардия, AV-блокада, гипотензия, усиление сердечной недостаточности", "ЖКТ": "Запор (часто)", "Прочее": "Покраснение лица, отёки ног, гиперплазия дёсен" },
+    dozadan: "Брадикардия, AV-блокада, гипотензия; кальций, атропин, кардиостимуляция, симптоматическая терапия.",
+    ozarotasir: ["С бета-блокаторами тяжёлая брадикардия/блокада (особенно в/в)", "Повышает уровень дигоксина", "Ингибиторы CYP3A4/грейпфрут повышают концентрацию; ограничивает дозу симвастатина"],
+    qollash: { kattalar: "40–80 мг×3 внутрь или пролонг. 120–240 мг; при острой аритмии 5 мг в/в медленно (под мониторингом).", bolalar: "Только под контролем, по массе" },
+    chiqarish: "Таблетки 40, 80 мг; пролонг. 120, 240 мг; раствор для инъекций 2,5 мг/мл"
+  },
+  en: {
+    gruppa: "Calcium channel blockers — phenylalkylamines",
+    farmTasir: "Antiarrhythmic and blood-pressure-lowering (calcium antagonist)",
+    farmakodinamika: `Verapamil is a phenylalkylamine calcium channel blocker. Unlike dihydropyridines it acts mainly on the heart: it slows conduction in the SA and AV nodes and reduces heart rate and contractility (negative chrono/ino/dromotropic effects). It is used for supraventricular tachyarrhythmias, angina and hypertension.`,
+    farmakokinetika: { sorish: "From the gut (high first-pass)", tarqalish: "~90% protein bound", metabolizm: "Hepatic CYP3A4 (active norverapamil)", chiqarilish: "Renal; T½ ~5–12 h" },
+    korsatmalar: ["Supraventricular tachycardia/tachyarrhythmia (incl. rate control in atrial fibrillation)", "Angina (incl. vasospastic)", "Arterial hypertension"],
+    qarrshi: ["Severe bradycardia, SA/AV block (II–III)", "Severe heart failure, cardiogenic shock", "Atrial fibrillation with WPW syndrome", "With beta-blockers IV together (contraindicated)"],
+    nojoya: { "Cardiac": "Bradycardia, AV block, hypotension, worsening heart failure", "GI": "Constipation (common)", "Other": "Facial flushing, leg oedema, gum hyperplasia" },
+    dozadan: "Bradycardia, AV block, hypotension; calcium, atropine, cardiac pacing, supportive care.",
+    ozarotasir: ["With beta-blockers severe bradycardia/block (especially IV)", "Raises digoxin levels", "CYP3A4 inhibitors/grapefruit raise levels; caps the simvastatin dose"],
+    qollash: { kattalar: "40–80 mg×3 orally or prolonged 120–240 mg; acute arrhythmia 5 mg IV slowly (under monitoring).", bolalar: "Only under supervision, by weight" },
+    chiqarish: "Tablets 40, 80 mg; prolonged 120, 240 mg; solution for injection 2.5 mg/mL"
+  }
 }
 
 };
