@@ -29666,6 +29666,384 @@ const PHARMA_DATA = {
     qollash: { kattalar: "By weight/area subcutaneously once daily (evening); under endocrinologist supervision.", bolalar: "0.025–0.05 mg/kg/day subcutaneously" },
     chiqarish: "Powder/solution for injection (cartridge, pen)"
   }
+},
+
+"N01CC02": {
+  uz: {
+    gruppa: "Gonadotropin-rilizing gormon (GnRH) antagonistlari",
+    farmTasir: "GnRH antagonisti (reproduktiv tibbiyot)",
+    farmakodinamika: `Setroreliks — sintetik gonadotropin-rilizing gormon (GnRH) antagonisti. Gipofizдаги GnRH retseptorlarini darhol bloklaб lyuteinlovchi gormon (LH) chiqishini to'xtatadi va vaqtdан oldin ovulyatsiyani oldini oladi. Ekstrakorporal urug'lantirish (EKO) protokollarида follikullarni nazorat ostida o'stirish uchun qo'llaniladi.`,
+    farmakokinetika: { sorish: "Teri ostiga in'eksiya", tarqalish: "To'qimalarга", metabolizm: "Peptidazalar orqали", chiqarilish: "Safro/buyrak orqали; T½ ~5–60 soat (dozaга qarab)" },
+    korsatmalar: ["Nazorat ostida tuxumdon stimulyatsiyasида vaqtdан oldin ovulyatsiyani oldini olish (EKO/IVF)"],
+    qarrshi: ["Homiladorlik va laktatsiya", "Og'ir buyrak/jigar yetishmovchiligi", "Yuqori sezuvchanlik (GnRH analoglariga)"],
+    nojoya: { "Mahalliy": "Inyeksiya joyida qizarish, qichishish", "Umumiy": "Ko'ngil aynishi, bosh og'rig'i", "Reproduktiv": "Tuxumdon giperstimulyatsiyasi sindromi (kompleks davoда)" },
+    dozadan: "Toksiklik kam; simptomatik davo.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "0,25 mg/sutka teri ostiga (kunlik protokol) yoki 3 mg bir martalik; reproduktolog nazoratида.", bolalar: "Qo'llanilmaydi" },
+    chiqarish: "Inyeksiya uchun poroshok 0,25 mg, 3 mg (flakon)"
+  },
+  ru: {
+    gruppa: "Антагонисты гонадотропин-рилизинг гормона (ГнРГ)",
+    farmTasir: "Антагонист ГнРГ (репродуктивная медицина)",
+    farmakodinamika: `Цетрореликс — синтетический антагонист гонадотропин-рилизинг гормона (ГнРГ). Немедленно блокирует рецепторы ГнРГ в гипофизе, прекращая выброс лютеинизирующего гормона (ЛГ) и предотвращая преждевременную овуляцию. Применяется в протоколах ЭКО для контролируемого роста фолликулов.`,
+    farmakokinetika: { sorish: "Подкожная инъекция", tarqalish: "В ткани", metabolizm: "Пептидазами", chiqarilish: "С желчью/почками; T½ ~5–60 ч (в зависимости от дозы)" },
+    korsatmalar: ["Предотвращение преждевременной овуляции при контролируемой стимуляции яичников (ЭКО/IVF)"],
+    qarrshi: ["Беременность и лактация", "Тяжёлая почечная/печёночная недостаточность", "Гиперчувствительность (к аналогам ГнРГ)"],
+    nojoya: { "Местные": "Покраснение, зуд в месте инъекции", "Общие": "Тошнота, головная боль", "Репродуктивные": "Синдром гиперстимуляции яичников (в комплексном лечении)" },
+    dozadan: "Токсичность мала; симптоматическая терапия.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "0,25 мг/сут подкожно (дневной протокол) или 3 мг однократно; под контролем репродуктолога.", bolalar: "Не применяется" },
+    chiqarish: "Порошок для инъекций 0,25 мг, 3 мг (флакон)"
+  },
+  en: {
+    gruppa: "Gonadotropin-releasing hormone (GnRH) antagonists",
+    farmTasir: "GnRH antagonist (reproductive medicine)",
+    farmakodinamika: `Cetrorelix is a synthetic gonadotropin-releasing hormone (GnRH) antagonist. It immediately blocks pituitary GnRH receptors, halting luteinising hormone (LH) release and preventing premature ovulation. It is used in IVF protocols for controlled follicular growth.`,
+    farmakokinetika: { sorish: "Subcutaneous injection", tarqalish: "Into tissues", metabolizm: "By peptidases", chiqarilish: "Biliary/renal; T½ ~5–60 h (dose-dependent)" },
+    korsatmalar: ["Prevention of premature ovulation during controlled ovarian stimulation (IVF)"],
+    qarrshi: ["Pregnancy and lactation", "Severe renal/hepatic impairment", "Hypersensitivity (to GnRH analogues)"],
+    nojoya: { "Local": "Redness, itching at the injection site", "General": "Nausea, headache", "Reproductive": "Ovarian hyperstimulation syndrome (within combined treatment)" },
+    dozadan: "Toxicity is low; supportive care.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "0.25 mg/day subcutaneously (daily protocol) or 3 mg single dose; under fertility specialist supervision.", bolalar: "Not used" },
+    chiqarish: "Powder for injection 0.25 mg, 3 mg (vial)"
+  }
+},
+
+"N01CB02": {
+  uz: {
+    gruppa: "Gipotalamus gormonlari — somatostatin analoglari",
+    farmTasir: "Somatostatin analogi (gormon sekretsiyasini bostiruvchi)",
+    farmakodinamika: `Oktreotid — somatostatinning sintetik uzoq ta'sirли analogi. Somatostatin retseptorlariga bog'lanib o'sish gormoni (GH), shuningdek oshqozon-ichak gormonlari (gastrin, glyukagon, insulin, serotonin, VIP va boshq.) sekretsiyasини bostiradi. Akromegaliya, gormon ishlab chiqaruvchi o'smalар va og'ir diareyaда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Teri ostiga/v/i; depo — m/i", tarqalish: "To'qimalarга", metabolizm: "Jigar/buyrakda", chiqarilish: "Buyrak/safro; T½ ~1,5 soat (depo — haftalar)" },
+    korsatmalar: ["Akromegaliya (operatsiya/nurlanish samarasiz bo'lганда)", "Gormonal faol neyroendokrin o'smalar (karsinoid, VIPoma, glyukagonoma)", "O'tkir variksli qon ketish, og'ir sekretor diareya"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — o't tosh kasalligi, qandli diabet, homiladorlik"],
+    nojoya: { "Oshqozon-ichak": "Diareya, qorin og'rig'i, ko'ngil aynishi, o't toshlari (uzoq qabulда)", "Endokrin": "Qand almashinuvi buzilishi (gipo-/giperglikemiya)", "Yurak": "Bradikardiya" },
+    dozadan: "Gipoglikemiya yoki giperglikemiya, bradikardiya; simptomatik davo.",
+    ozarotasir: ["Insulin/peroral qand kamaytiruvchi doza ehtiyojini o'zgartiradi", "Siklosporin darajasini pasaytiradi", "Oshqozon-ichak so'rilishini sekinlashtiradi"],
+    qollash: { kattalar: "Teri ostiga 50–200 mkg×2–3; yoki depo (LAR) 20–30 mg har 4 hafta m/i.", bolalar: "Faqat mutaxassis nazoratида" },
+    chiqarish: "Inyeksiya eritmasi 50, 100 mkg/ml; depo-poroshok (LAR)"
+  },
+  ru: {
+    gruppa: "Гормоны гипоталамуса — аналоги соматостатина",
+    farmTasir: "Аналог соматостатина (подавляет секрецию гормонов)",
+    farmakodinamika: `Октреотид — синтетический длительно действующий аналог соматостатина. Связываясь с рецепторами соматостатина, подавляет секрецию гормона роста (ГР), а также гормонов ЖКТ (гастрин, глюкагон, инсулин, серотонин, ВИП и др.). Применяется при акромегалии, гормонпродуцирующих опухолях и тяжёлой диарее.`,
+    farmakokinetika: { sorish: "Подкожно/в/в; депо — в/м", tarqalish: "В ткани", metabolizm: "В печени/почках", chiqarilish: "Почками/с желчью; T½ ~1,5 ч (депо — недели)" },
+    korsatmalar: ["Акромегалия (при неэффективности операции/облучения)", "Гормонально-активные нейроэндокринные опухоли (карциноид, ВИПома, глюкагонома)", "Острое варикозное кровотечение, тяжёлая секреторная диарея"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — желчнокаменная болезнь, сахарный диабет, беременность"],
+    nojoya: { "ЖКТ": "Диарея, боль в животе, тошнота, камни желчного пузыря (при длительном приёме)", "Эндокринные": "Нарушение углеводного обмена (гипо-/гипергликемия)", "Сердце": "Брадикардия" },
+    dozadan: "Гипогликемия или гипергликемия, брадикардия; симптоматическая терапия.",
+    ozarotasir: ["Изменяет потребность в дозе инсулина/пероральных сахароснижающих", "Снижает уровень циклоспорина", "Замедляет всасывание в ЖКТ"],
+    qollash: { kattalar: "Подкожно 50–200 мкг×2–3; или депо (ЛАР) 20–30 мг каждые 4 недели в/м.", bolalar: "Только под контролем специалиста" },
+    chiqarish: "Раствор для инъекций 50, 100 мкг/мл; депо-порошок (ЛАР)"
+  },
+  en: {
+    gruppa: "Hypothalamic hormones — somatostatin analogues",
+    farmTasir: "Somatostatin analogue (suppresses hormone secretion)",
+    farmakodinamika: `Octreotide is a synthetic long-acting analogue of somatostatin. Binding somatostatin receptors, it suppresses secretion of growth hormone (GH) and GI hormones (gastrin, glucagon, insulin, serotonin, VIP, etc.). It is used in acromegaly, hormone-producing tumours and severe diarrhoea.`,
+    farmakokinetika: { sorish: "Subcutaneous/IV; depot — IM", tarqalish: "Into tissues", metabolizm: "Hepatic/renal", chiqarilish: "Renal/biliary; T½ ~1.5 h (depot — weeks)" },
+    korsatmalar: ["Acromegaly (when surgery/radiation is ineffective)", "Hormonally active neuroendocrine tumours (carcinoid, VIPoma, glucagonoma)", "Acute variceal bleeding, severe secretory diarrhoea"],
+    qarrshi: ["Hypersensitivity", "Caution — gallstone disease, diabetes, pregnancy"],
+    nojoya: { "GI": "Diarrhoea, abdominal pain, nausea, gallstones (with long-term use)", "Endocrine": "Disturbed glucose metabolism (hypo-/hyperglycaemia)", "Cardiac": "Bradycardia" },
+    dozadan: "Hypoglycaemia or hyperglycaemia, bradycardia; supportive care.",
+    ozarotasir: ["Changes the requirement for insulin/oral hypoglycaemics", "Lowers ciclosporin levels", "Slows GI absorption"],
+    qollash: { kattalar: "Subcutaneous 50–200 µg×2–3; or depot (LAR) 20–30 mg every 4 weeks IM.", bolalar: "Only under specialist supervision" },
+    chiqarish: "Solution for injection 50, 100 µg/mL; depot powder (LAR)"
+  }
+},
+
+"N01BB03": {
+  uz: {
+    gruppa: "Akusherlik gormonlari — oksitotsin analoglari",
+    farmTasir: "Uzoq ta'sirli uterotonik (oksitotsin analogi)",
+    farmakodinamika: `Karbetotsin — oksitotsinning uzoq ta'sirли sintetik analogi. Bachadon silliq mushagidagi oksitotsin retseptorlarini stimullaб barqaror qisqarishni keltiradi. Bir martalik in'eksiya bilan uzoq ta'sir berib, tug'ruqдан keyingi bachadon atoniyasini va qon ketishni oldini oladi (asosан kesar kesimidan keyin).`,
+    farmakokinetika: { sorish: "V/i yoki m/i in'eksiya", tarqalish: "To'qimalarга", metabolizm: "Fermentativ parchalanish", chiqarilish: "Buyrak orqали; T½ ~40 daqiqa (oksitotsinдан uzoqroq)" },
+    korsatmalar: ["Tug'ruqдан keyingi qon ketishni oldini olish — bachadon atoniyasi profilaktikasi (kesar kesimi/vaginal tug'ruq keyin)"],
+    qarrshi: ["Tug'ruq/homiladorlik davom etayotganда (bola tug'ilишдан oldin)", "Og'ir yurak-tomir kasalligi", "Preeklampsiya/eklampsiya (ehtiyotkorlik)", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Gipotenziya, taxikardiya, yuzning qizishi", "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i", "Boshqa": "Bosh og'rig'i, titroq" },
+    dozadan: "Suvли intoksikatsiya (gipoNatriemiya) — ehtiyotkorlik; simptomatik davo.",
+    ozarotasir: ["Boshqa uterotoniklar (oksitotsin, prostaglandinlar) bilan ta'sir kuchayadi"],
+    qollash: { kattalar: "100 mkg bir martalik v/i (sekin) yoki m/i, bola tug'ilгандан keyin; faqat akusher nazoratида.", bolalar: "Qo'llanilmaydi" },
+    chiqarish: "Inyeksiya eritmasi 100 mkg/ml (ampula)"
+  },
+  ru: {
+    gruppa: "Акушерские гормоны — аналоги окситоцина",
+    farmTasir: "Длительно действующий утеротоник (аналог окситоцина)",
+    farmakodinamika: `Карбетоцин — длительно действующий синтетический аналог окситоцина. Стимулирует окситоциновые рецепторы гладкой мускулатуры матки, вызывая устойчивое сокращение. Однократная инъекция даёт длительный эффект, предотвращая послеродовую атонию матки и кровотечение (преимущественно после кесарева сечения).`,
+    farmakokinetika: { sorish: "В/в или в/м инъекция", tarqalish: "В ткани", metabolizm: "Ферментативный распад", chiqarilish: "Почками; T½ ~40 мин (дольше окситоцина)" },
+    korsatmalar: ["Профилактика послеродового кровотечения — профилактика атонии матки (после кесарева/вагинальных родов)"],
+    qarrshi: ["Во время продолжающихся родов/беременности (до рождения ребёнка)", "Тяжёлые сердечно-сосудистые болезни", "Преэклампсия/эклампсия (осторожно)", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Гипотензия, тахикардия, приливы", "ЖКТ": "Тошнота, боль в животе", "Прочее": "Головная боль, озноб" },
+    dozadan: "Водная интоксикация (гипонатриемия) — осторожно; симптоматическая терапия.",
+    ozarotasir: ["С другими утеротониками (окситоцин, простагландины) действие усиливается"],
+    qollash: { kattalar: "100 мкг однократно в/в (медленно) или в/м, после рождения ребёнка; только под контролем акушера.", bolalar: "Не применяется" },
+    chiqarish: "Раствор для инъекций 100 мкг/мл (ампулы)"
+  },
+  en: {
+    gruppa: "Obstetric hormones — oxytocin analogues",
+    farmTasir: "Long-acting uterotonic (oxytocin analogue)",
+    farmakodinamika: `Carbetocin is a long-acting synthetic analogue of oxytocin. It stimulates oxytocin receptors in uterine smooth muscle, producing sustained contraction. A single injection gives a prolonged effect, preventing postpartum uterine atony and bleeding (mainly after caesarean section).`,
+    farmakokinetika: { sorish: "IV or IM injection", tarqalish: "Into tissues", metabolizm: "Enzymatic breakdown", chiqarilish: "Renal; T½ ~40 min (longer than oxytocin)" },
+    korsatmalar: ["Prevention of postpartum haemorrhage — prevention of uterine atony (after caesarean/vaginal delivery)"],
+    qarrshi: ["During ongoing labour/pregnancy (before delivery)", "Severe cardiovascular disease", "Pre-eclampsia/eclampsia (caution)", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension, tachycardia, flushing", "GI": "Nausea, abdominal pain", "Other": "Headache, shivering" },
+    dozadan: "Water intoxication (hyponatraemia) — caution; supportive care.",
+    ozarotasir: ["With other uterotonics (oxytocin, prostaglandins) effects increase"],
+    qollash: { kattalar: "100 µg single dose IV (slowly) or IM, after delivery; only under obstetric supervision.", bolalar: "Not used" },
+    chiqarish: "Solution for injection 100 µg/mL (ampoules)"
+  }
+},
+
+"N07XB52": {
+  uz: {
+    gruppa: "Boshqa asab tizimi vositalari — neyrotrop B vitaminlari kombinatsiyasi",
+    farmTasir: "Neyrotrop (B guruh vitaminlari)",
+    farmakodinamika: `Tiamin (B1) + piridoksin (B6) + sianokobalamin (B12) kombinatsiyasi. B guruh vitaminlari nerv to'qimasi metabolizmida koferment vazifasini bajaradi: B1 — uglevod/energiya almashinuvi va impuls o'tkazilishi, B6 — neyromediatorlar sintezi, B12 — miyelin qobig'i va aksonal regeneratsiya. Birgalikda neyropatiya va nerv shikastlanишларда trofik ta'sir beradi.`,
+    farmakokinetika: { sorish: "Ich va parenteral", tarqalish: "Nerv to'qimasiga", metabolizm: "Tabiiy almashinuv", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Periferik neyropatiyalar (diabetik, alkogol), neyrit, nevralgiya", "Radikulit, polineyropatiya (kompleks davoда)"],
+    qarrshi: ["Komponentlarга yuqori sezuvchanlik", "Og'ir/o'tkir yurak yetishmovchiligi (parenteral — ehtiyotkorlik)"],
+    nojoya: { "Allergik": "Toshma, qichishish, anafilaksiya (kamdan-kam, parenteral)", "Mahalliy": "Inyeksiya joyidagi og'riq", "Boshqa": "Yuqori dozaли B6 uzoq qabulда — sensor neyropatiya" },
+    dozadan: "Uzoq yuqori B6 — neyropatiya; dozani kamaytirish.",
+    ozarotasir: ["B6 levodopa ta'sirini pasaytiradi (sof levodopa bilan)", "Levodopa/karbidopa kombinatsiyaси bilan ahamiyatsiz"],
+    qollash: { kattalar: "O'tkir: 1 ampula/sutka m/i, keyin haftада 2–3 marta yoki tabletka kuniga 1–3 marta.", bolalar: "Yoshга ko'ra, shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Inyeksiya eritmasi (ampula); plyonka qoplamali tabletkalar"
+  },
+  ru: {
+    gruppa: "Прочие средства для нервной системы — нейротропная комбинация витаминов группы В",
+    farmTasir: "Нейротропное (витамины группы В)",
+    farmakodinamika: `Комбинация тиамина (В1) + пиридоксина (В6) + цианокобаламина (В12). Витамины группы В выполняют роль коферментов в метаболизме нервной ткани: В1 — углеводно-энергетический обмен и проведение импульса, В6 — синтез нейромедиаторов, В12 — миелиновая оболочка и регенерация аксона. Вместе оказывают трофическое действие при невропатиях и повреждениях нервов.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально", tarqalish: "В нервную ткань", metabolizm: "Естественный обмен", chiqarilish: "Почками" },
+    korsatmalar: ["Периферические невропатии (диабетическая, алкогольная), неврит, невралгия", "Радикулит, полиневропатия (в комплексном лечении)"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Тяжёлая/острая сердечная недостаточность (парентерально — осторожно)"],
+    nojoya: { "Аллергические": "Сыпь, зуд, анафилаксия (редко, парентерально)", "Местные": "Боль в месте инъекции", "Прочее": "Высокие дозы В6 при длительном приёме — сенсорная невропатия" },
+    dozadan: "Длительный высокий В6 — невропатия; снижение дозы.",
+    ozarotasir: ["В6 снижает действие леводопы (с чистой леводопой)", "С комбинацией леводопа/карбидопа незначимо"],
+    qollash: { kattalar: "Остро: 1 ампула/сут в/м, затем 2–3 раза в неделю или таблетка 1–3 раза в сутки.", bolalar: "По возрасту, по назначению врача" },
+    chiqarish: "Раствор для инъекций (ампулы); таблетки, покрытые плёночной оболочкой"
+  },
+  en: {
+    gruppa: "Other nervous system drugs — neurotropic B-vitamin combination",
+    farmTasir: "Neurotropic (B-group vitamins)",
+    farmakodinamika: `A combination of thiamine (B1) + pyridoxine (B6) + cyanocobalamin (B12). B-group vitamins act as coenzymes in nerve tissue metabolism: B1 — carbohydrate/energy metabolism and impulse conduction, B6 — neurotransmitter synthesis, B12 — myelin sheath and axonal regeneration. Together they give a trophic effect in neuropathies and nerve injuries.`,
+    farmakokinetika: { sorish: "Oral and parenteral", tarqalish: "Into nerve tissue", metabolizm: "Natural metabolism", chiqarilish: "Renal" },
+    korsatmalar: ["Peripheral neuropathies (diabetic, alcoholic), neuritis, neuralgia", "Radiculitis, polyneuropathy (in combination therapy)"],
+    qarrshi: ["Hypersensitivity to components", "Severe/acute heart failure (parenteral — caution)"],
+    nojoya: { "Allergic": "Rash, itching, anaphylaxis (rare, parenteral)", "Local": "Injection-site pain", "Other": "High-dose B6 with long-term use — sensory neuropathy" },
+    dozadan: "Prolonged high-dose B6 — neuropathy; reduce the dose.",
+    ozarotasir: ["B6 reduces the effect of levodopa (with plain levodopa)", "Negligible with the levodopa/carbidopa combination"],
+    qollash: { kattalar: "Acute: 1 ampoule/day IM, then 2–3 times weekly or a tablet 1–3 times daily.", bolalar: "By age, as prescribed" },
+    chiqarish: "Solution for injection (ampoules); film-coated tablets"
+  }
+},
+
+"N05CX10": {
+  uz: {
+    gruppa: "Uxlatuvchi va tinchlantiruvchi vositalar — kombinatsiya (o'simlik + vitaminlar)",
+    farmTasir: "Yengil tinchlantiruvchi (o'simlik + B vitaminlari)",
+    farmakodinamika: `O'simlik tinchlantiruvchi ekstrakti + piridoksin (B6) + nikotinamid (PP) kombinatsiyasi. O'simlik komponentlari markaziy asab tizimига yumshoq tinchlantiruvchi ta'sir ko'rsatadi; piridoksin neyromediatorlar (serotonin, GABA, dofamin) sintezi uchun zarur kofermentni, nikotinamid esa nerv hujayrasi energiya almashinuvini qo'llab-quvvatlaydi. Asab tarangligi va yengil uyqu buzilishida ishlatiladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qima va miyaга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Asab qo'zg'aluvchanligi, taranglik, yengil tashvish", "Yengil uyqu buzilishi, astenik holatlar"],
+    qarrshi: ["Komponentlarга yuqori sezuvchanlik", "Ehtiyotkorlik — homiladorlik va laktatsiya"],
+    nojoya: { "Asab": "Uyquchanlik (kunduzi)", "Oshqozon-ichak": "Dispepsiya (kamdan-kam)", "Allergik": "Toshma" },
+    dozadan: "Sedatsiya; toksiklik ehtimoli past, simptomatik davo.",
+    ozarotasir: ["Boshqa tinchlantiruvchi/uxlatuvchi vositalar va alkogol ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "Mahsulot ko'rsatmasiga ko'ra, odatda kuniga 2–3 marta yoki yotishдан oldin.", bolalar: "Yoshга ko'ra (ko'pincha cheklangan)" },
+    chiqarish: "Tabletkalar/eritma (o'simlik ekstrakti + B6 + PP)"
+  },
+  ru: {
+    gruppa: "Снотворные и седативные — комбинация (растительное + витамины)",
+    farmTasir: "Мягкое седативное (растительное + витамины группы В)",
+    farmakodinamika: `Комбинация растительного седативного экстракта + пиридоксин (В6) + никотинамид (РР). Растительные компоненты оказывают мягкое успокаивающее действие на ЦНС; пиридоксин обеспечивает кофермент для синтеза нейромедиаторов (серотонин, ГАМК, дофамин), а никотинамид поддерживает энергетический обмен нервной клетки. Применяется при нервном напряжении и лёгких нарушениях сна.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани и мозг", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Нервная возбудимость, напряжение, лёгкая тревога", "Лёгкие нарушения сна, астенические состояния"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Осторожно — беременность и лактация"],
+    nojoya: { "Нервная система": "Сонливость (днём)", "ЖКТ": "Диспепсия (редко)", "Аллергические": "Сыпь" },
+    dozadan: "Седация; вероятность токсичности низкая, симптоматическая терапия.",
+    ozarotasir: ["Усиливает действие других седативных/снотворных средств и алкоголя"],
+    qollash: { kattalar: "По инструкции к препарату, обычно 2–3 раза в сутки или перед сном.", bolalar: "По возрасту (часто ограничено)" },
+    chiqarish: "Таблетки/раствор (растительный экстракт + В6 + РР)"
+  },
+  en: {
+    gruppa: "Hypnotics and sedatives — combination (herbal + vitamins)",
+    farmTasir: "Mild sedative (herbal + B vitamins)",
+    farmakodinamika: `A combination of a herbal sedative extract + pyridoxine (B6) + nicotinamide (PP). The herbal components have a mild calming effect on the CNS; pyridoxine provides the coenzyme for neurotransmitter synthesis (serotonin, GABA, dopamine), and nicotinamide supports nerve cell energy metabolism. It is used for nervous tension and mild sleep disturbance.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues and the brain", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Nervous excitability, tension, mild anxiety", "Mild sleep disturbance, asthenic states"],
+    qarrshi: ["Hypersensitivity to components", "Caution — pregnancy and lactation"],
+    nojoya: { "Nervous system": "Daytime drowsiness", "GI": "Dyspepsia (rare)", "Allergic": "Rash" },
+    dozadan: "Sedation; toxicity unlikely, supportive care.",
+    ozarotasir: ["Enhances other sedatives/hypnotics and alcohol"],
+    qollash: { kattalar: "Per product information, usually 2–3 times daily or before bed.", bolalar: "By age (often limited)" },
+    chiqarish: "Tablets/solution (herbal extract + B6 + PP)"
+  }
+},
+
+"N07X": {
+  uz: {
+    gruppa: "Boshqa asab tizimi vositalari — o'simlik kombinatsiyasi (toniklovchi-tinchlantiruvchi)",
+    farmTasir: "O'simlik adaptogen-tinchlantiruvchi kombinatsiya",
+    farmakodinamika: `O'simlik ekstraktlari kombinatsiyasi (masalan, suli/avena sativa, qahva/coffea, passiflora va rux izovalerianati). Komponentlar markaziy asab tizimини muvozanatlashtiradi: passiflora va rux tuzi yumshoq tinchlantiruvchi, suli ekstraktи umumiy toniklovchi-quvvatlovchi ta'sir beradi. Asab charchog'i, taranglik va yengil uyqu buzilishida ishlatiladi.`,
+    farmakokinetika: { sorish: "Ichakdan (faol moddalar aralashmasi)", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak/najas" },
+    korsatmalar: ["Asab charchog'i, taranglik, qo'zg'aluvchanlik", "Yengil uyqu buzilishi, astenik holatlar"],
+    qarrshi: ["Komponentlarга yuqori sezuvchanlik", "Ehtiyotkorlik — homiladorlik va laktatsiya, bolalar"],
+    nojoya: { "Asab": "Uyquchanlik yoki yengil qo'zg'alish (kofein komponentи)", "Oshqozon-ichak": "Dispepsiya (kamdan-kam)", "Allergik": "Toshma" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Markaziy depressantlar/stimulyatorlar ta'sirini o'zgartirishi mumkin"],
+    qollash: { kattalar: "Mahsulot ko'rsatmasiga ko'ra (tomchi/tabletka), odatda kuniga 2–3 marta.", bolalar: "Yoshга ko'ra" },
+    chiqarish: "Tomchilar/tabletkalar (o'simlik kombinatsiyasi)"
+  },
+  ru: {
+    gruppa: "Прочие средства для нервной системы — растительная комбинация (тонизирующе-седативная)",
+    farmTasir: "Растительная адаптогенно-седативная комбинация",
+    farmakodinamika: `Комбинация растительных экстрактов (например, овёс/avena sativa, кофе/coffea, пассифлора и цинка изовалерианат). Компоненты балансируют ЦНС: пассифлора и соль цинка дают мягкий седативный эффект, экстракт овса — общетонизирующее действие. Применяется при нервном утомлении, напряжении и лёгких нарушениях сна.`,
+    farmakokinetika: { sorish: "Из кишечника (смесь действующих веществ)", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками/калом" },
+    korsatmalar: ["Нервное утомление, напряжение, возбудимость", "Лёгкие нарушения сна, астенические состояния"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Осторожно — беременность и лактация, дети"],
+    nojoya: { "Нервная система": "Сонливость или лёгкое возбуждение (кофеиновый компонент)", "ЖКТ": "Диспепсия (редко)", "Аллергические": "Сыпь" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Может изменять действие центральных депрессантов/стимуляторов"],
+    qollash: { kattalar: "По инструкции к препарату (капли/таблетки), обычно 2–3 раза в сутки.", bolalar: "По возрасту" },
+    chiqarish: "Капли/таблетки (растительная комбинация)"
+  },
+  en: {
+    gruppa: "Other nervous system drugs — herbal combination (tonic-sedative)",
+    farmTasir: "Herbal adaptogen-sedative combination",
+    farmakodinamika: `A combination of plant extracts (e.g. oat/avena sativa, coffee/coffea, passionflower and zinc isovalerianate). The components balance the CNS: passionflower and the zinc salt give a mild sedative effect, while oat extract is generally tonic. It is used for nervous fatigue, tension and mild sleep disturbance.`,
+    farmakokinetika: { sorish: "From the gut (mixture of active substances)", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal/faecal" },
+    korsatmalar: ["Nervous fatigue, tension, excitability", "Mild sleep disturbance, asthenic states"],
+    qarrshi: ["Hypersensitivity to components", "Caution — pregnancy and lactation, children"],
+    nojoya: { "Nervous system": "Drowsiness or mild stimulation (caffeine component)", "GI": "Dyspepsia (rare)", "Allergic": "Rash" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["May alter the action of central depressants/stimulants"],
+    qollash: { kattalar: "Per product information (drops/tablets), usually 2–3 times daily.", bolalar: "By age" },
+    chiqarish: "Drops/tablets (herbal combination)"
+  }
+},
+
+"N06BX": {
+  uz: {
+    gruppa: "Psixostimulyatorlar va nootroplar — boshqa nootroplar (relizli-faollashtirilgan)",
+    farmTasir: "Anksiolitik-nootrop (S-100 oqsiliga antitelolar)",
+    farmakodinamika: `Miyaning maxsus S-100 oqsiliga affin tozalangan antitelolarning relizли-faollashtirilgan (juda past dozaли) shakli. S-100 oqsili neyronlar faoliyati va sinaptik plastiklikни modullaydi; preparatning ta'siri shu oqsil funksiyasini moslashtirish orqали — yengil anksiolitik, tinchlantiruvchi va nootrop (xotira/diqqatni qo'llab-quvvatlovchi) ta'sir sifatида namoyon bo'ladi. Sedatsiya va mushak bo'shashishi keltirmaydi.`,
+    farmakokinetika: { sorish: "Til ostiga so'rilib (so'rilish poroshogi)", tarqalish: "—", metabolizm: "—", chiqarilish: "—" },
+    korsatmalar: ["Tashvish-nevrotik holatlar, asab tarangligi, qo'zg'aluvchanlik", "Vegetativ buzilishlar, xotira/diqqat pasayishi (yengil)"],
+    qarrshi: ["Komponentlarга yuqori sezuvchanlik", "Laktoza intoleransi (tarkibidagi laktoza)", "Bolalар uchun yosh cheklovi (mahsulotga ko'ra)"],
+    nojoya: { "Allergik": "Yuqori sezuvchanlik reaksiyalari (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli juda past; simptomatik davo.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar aniqlanmagan"],
+    qollash: { kattalar: "1 tabletka til ostiga kuniga 1–3 marta (ovqatdан tashqari); kursли.", bolalar: "Bolalar shakli mavjud (yoshга ko'ra)" },
+    chiqarish: "So'rilish tabletkalari (til osti)"
+  },
+  ru: {
+    gruppa: "Психостимуляторы и ноотропы — прочие ноотропы (релиз-активные)",
+    farmTasir: "Анксиолитик-ноотроп (антитела к белку S-100)",
+    farmakodinamika: `Релиз-активная (сверхнизкодозовая) форма аффинно очищенных антител к мозгоспецифическому белку S-100. Белок S-100 модулирует активность нейронов и синаптическую пластичность; действие препарата реализуется через настройку функции этого белка — проявляется как мягкое анксиолитическое, успокаивающее и ноотропное (поддерживающее память/внимание) действие. Не вызывает седации и миорелаксации.`,
+    farmakokinetika: { sorish: "Рассасывание под языком (таблетки для рассасывания)", tarqalish: "—", metabolizm: "—", chiqarilish: "—" },
+    korsatmalar: ["Тревожно-невротические состояния, нервное напряжение, возбудимость", "Вегетативные расстройства, лёгкое снижение памяти/внимания"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Непереносимость лактозы (в составе лактоза)", "Возрастные ограничения для детей (по препарату)"],
+    nojoya: { "Аллергические": "Реакции гиперчувствительности (редко)" },
+    dozadan: "Вероятность токсичности очень низкая; симптоматическая терапия.",
+    ozarotasir: ["Клинически значимых взаимодействий не выявлено"],
+    qollash: { kattalar: "1 таблетка под язык 1–3 раза в сутки (вне приёма пищи); курсом.", bolalar: "Существует детская форма (по возрасту)" },
+    chiqarish: "Таблетки для рассасывания (подъязычные)"
+  },
+  en: {
+    gruppa: "Psychostimulants and nootropics — other nootropics (release-active)",
+    farmTasir: "Anxiolytic-nootropic (antibodies to S-100 protein)",
+    farmakodinamika: `A release-active (ultra-low-dose) form of affinity-purified antibodies to the brain-specific S-100 protein. S-100 protein modulates neuronal activity and synaptic plasticity; the product's effect is realised by tuning this protein's function — manifesting as a mild anxiolytic, calming and nootropic (memory/attention-supporting) effect. It does not cause sedation or muscle relaxation.`,
+    farmakokinetika: { sorish: "Sublingual dissolution (lozenge)", tarqalish: "—", metabolizm: "—", chiqarilish: "—" },
+    korsatmalar: ["Anxiety-neurotic states, nervous tension, excitability", "Autonomic disorders, mild decline in memory/attention"],
+    qarrshi: ["Hypersensitivity to components", "Lactose intolerance (contains lactose)", "Age limits for children (per product)"],
+    nojoya: { "Allergic": "Hypersensitivity reactions (rare)" },
+    dozadan: "Toxicity is very unlikely; supportive care.",
+    ozarotasir: ["No clinically significant interactions identified"],
+    qollash: { kattalar: "1 lozenge sublingually 1–3 times daily (away from meals); as a course.", bolalar: "A paediatric form exists (by age)" },
+    chiqarish: "Lozenges (sublingual)"
+  }
+},
+
+"N07XX": {
+  uz: {
+    gruppa: "Boshqa asab tizimi vositalari — boshqa preparatlar",
+    farmTasir: "Asab tizimining boshqa (turli) vositalari",
+    farmakodinamika: `Bu guruh ("boshqa asab tizimi vositalari") tarkibiga turli mexanizmли preparatlar kiradi — neyroprotektorlar, metabolik va tomir vositalari, ba'zi maxsus dorilar. Ular asosан nerv hujayrasi metabolizmi, qon aylanishi yoki himoyaси orqali ta'sir qiladi; aniq ta'sir mexanizmi va xususiyatlari har bir konkret dori uchun alohida belgilanadi. Iltimos, aniq ma'lumot uchun dorining nomi va yo'riqnomasiga murojaat qiling.`,
+    farmakokinetika: { sorish: "Dori shakliga bog'liq", tarqalish: "Dori shakliga bog'liq", metabolizm: "Asosан jigarда", chiqarilish: "Asosан buyrak orqали" },
+    korsatmalar: ["Asab tizimining turli buzilishlari (neyroprotektsiya, kognitiv/tomir buzilishlari) — konkret dori ko'rsatmasiga ko'ra"],
+    qarrshi: ["Komponentlarга yuqori sezuvchanlik", "Konkret dori yo'riqnomasiga ko'ra qarshi ko'rsatmalar"],
+    nojoya: { "Umumiy": "Konkret doriga bog'liq (ko'pincha allergik reaksiyalar, oshqozon-ichak noxushligi)" },
+    dozadan: "Konkret dori yo'riqnomasiga ko'ra; odatda simptomatik davo.",
+    ozarotasir: ["Konkret dori yo'riqnomasiga ko'ra"],
+    qollash: { kattalar: "Konkret dori va shifokor ko'rsatmasiga ko'ra.", bolalar: "Shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Turli (tabletka, in'eksiya, eritma — dori turига qarab)"
+  },
+  ru: {
+    gruppa: "Прочие средства для нервной системы — прочие препараты",
+    farmTasir: "Прочие (разные) средства для нервной системы",
+    farmakodinamika: `В эту группу («прочие средства для нервной системы») входят препараты с разными механизмами — нейропротекторы, метаболические и сосудистые средства, отдельные специальные препараты. Они действуют преимущественно через метаболизм нервной клетки, кровообращение или защиту; точный механизм и свойства определяются для каждого конкретного препарата. Для точной информации обратитесь к названию препарата и инструкции.`,
+    farmakokinetika: { sorish: "Зависит от лекарственной формы", tarqalish: "Зависит от формы", metabolizm: "Преимущественно в печени", chiqarilish: "Преимущественно почками" },
+    korsatmalar: ["Различные нарушения нервной системы (нейропротекция, когнитивные/сосудистые расстройства) — по показаниям конкретного препарата"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Противопоказания по инструкции конкретного препарата"],
+    nojoya: { "Общие": "Зависят от конкретного препарата (чаще аллергические реакции, дискомфорт ЖКТ)" },
+    dozadan: "По инструкции конкретного препарата; обычно симптоматическая терапия.",
+    ozarotasir: ["По инструкции конкретного препарата"],
+    qollash: { kattalar: "По конкретному препарату и назначению врача.", bolalar: "По назначению врача" },
+    chiqarish: "Разные (таблетки, инъекции, раствор — в зависимости от препарата)"
+  },
+  en: {
+    gruppa: "Other nervous system drugs — other agents",
+    farmTasir: "Other (miscellaneous) nervous system agents",
+    farmakodinamika: `This group ('other nervous system drugs') contains agents with various mechanisms — neuroprotectants, metabolic and vascular agents, and some special medicines. They act mainly through nerve cell metabolism, circulation or protection; the precise mechanism and properties are defined for each specific drug. For accurate information, refer to the drug's name and package leaflet.`,
+    farmakokinetika: { sorish: "Depends on the dosage form", tarqalish: "Depends on the form", metabolizm: "Mainly hepatic", chiqarilish: "Mainly renal" },
+    korsatmalar: ["Various nervous system disorders (neuroprotection, cognitive/vascular disorders) — per the specific drug's indications"],
+    qarrshi: ["Hypersensitivity to components", "Contraindications per the specific drug's leaflet"],
+    nojoya: { "General": "Depend on the specific drug (often allergic reactions, GI discomfort)" },
+    dozadan: "Per the specific drug's leaflet; usually supportive care.",
+    ozarotasir: ["Per the specific drug's leaflet"],
+    qollash: { kattalar: "Per the specific drug and physician's instructions.", bolalar: "As prescribed" },
+    chiqarish: "Various (tablets, injection, solution — depending on the drug)"
+  }
+},
+
+"N05CM09": {
+  uz: {
+    gruppa: "Uxlatuvchi va tinchlantiruvchi vositalar — o'simlik (valeriana)",
+    farmTasir: "Yengil tinchlantiruvchi (o'simlik sedativi)",
+    farmakodinamika: `Valeriana officinalis (valeriana, pixmonjon ildizi) ekstrakti. Tarkibidagi valeren kislota va boshqa moddalar GABA-ergik o'tkazuvchanlikни kuchaytirib markaziy asab tizimига yumshoq tinchlantiruvchi ta'sir ko'rsatadi, asab qo'zg'aluvchanligini kamaytiradi va uyquга ketishni osonlashtiradi. Ta'siri yumshoq va to'planuvchan (kursли qabulда yaqqolroq).`,
+    farmakokinetika: { sorish: "Ichakdan (faol moddalar aralashmasi)", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak/najas" },
+    korsatmalar: ["Asab qo'zg'aluvchanligi, taranglik, yengil tashvish", "Yengil uyqu buzilishi (uyquга ketish qiyinligi)", "Funksional yurak-tomir va oshqozon-ichak buzilishlari (yordamchi)"],
+    qarrshi: ["Komponentlarга yuqori sezuvchanlik", "Ehtiyotkorlik — homiladorlik va laktatsiya, 3 yoshgacha bolalar"],
+    nojoya: { "Asab": "Uyquchanlik, sustlik (kunduzi)", "Oshqozon-ichak": "Dispepsiya (kamdan-kam)", "Allergik": "Toshma" },
+    dozadan: "Sedatsiya, sustlik; toksiklik ehtimoli past, simptomatik davo.",
+    ozarotasir: ["Boshqa tinchlantiruvchi/uxlatuvchi vositalar va alkogol ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "Ekstrakt/dragee kuniga 2–3 marta yoki yotishдан oldin; tomchilar suvда.", bolalar: "≥3 yosh, yoshга ko'ra" },
+    chiqarish: "Tabletkalar/dragee; tomchilar; o'simlik xomashyosi (damlama)"
+  },
+  ru: {
+    gruppa: "Снотворные и седативные — растительное (валериана)",
+    farmTasir: "Мягкое седативное (растительное)",
+    farmakodinamika: `Экстракт Valeriana officinalis (валерианы, корень). Содержащиеся валереновая кислота и другие вещества усиливают ГАМК-ергическую передачу, оказывая мягкое успокаивающее действие на ЦНС, снижают нервную возбудимость и облегчают засыпание. Действие мягкое и накопительное (выраженнее при курсовом приёме).`,
+    farmakokinetika: { sorish: "Из кишечника (смесь действующих веществ)", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками/калом" },
+    korsatmalar: ["Нервная возбудимость, напряжение, лёгкая тревога", "Лёгкие нарушения сна (трудности засыпания)", "Функциональные сердечно-сосудистые и ЖКТ расстройства (вспомогательно)"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Осторожно — беременность и лактация, дети до 3 лет"],
+    nojoya: { "Нервная система": "Сонливость, вялость (днём)", "ЖКТ": "Диспепсия (редко)", "Аллергические": "Сыпь" },
+    dozadan: "Седация, вялость; вероятность токсичности низкая, симптоматическая терапия.",
+    ozarotasir: ["Усиливает действие других седативных/снотворных средств и алкоголя"],
+    qollash: { kattalar: "Экстракт/драже 2–3 раза в сутки или перед сном; капли в воде.", bolalar: "С 3 лет, по возрасту" },
+    chiqarish: "Таблетки/драже; капли; растительное сырьё (настой)"
+  },
+  en: {
+    gruppa: "Hypnotics and sedatives — herbal (valerian)",
+    farmTasir: "Mild sedative (herbal)",
+    farmakodinamika: `An extract of Valeriana officinalis (valerian root). Its valerenic acid and other constituents enhance GABAergic transmission, giving a mild calming effect on the CNS, reducing nervous excitability and easing falling asleep. The effect is mild and cumulative (more marked with course use).`,
+    farmakokinetika: { sorish: "From the gut (mixture of active substances)", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal/faecal" },
+    korsatmalar: ["Nervous excitability, tension, mild anxiety", "Mild sleep disturbance (difficulty falling asleep)", "Functional cardiovascular and GI disorders (adjunct)"],
+    qarrshi: ["Hypersensitivity to components", "Caution — pregnancy and lactation, children under 3 years"],
+    nojoya: { "Nervous system": "Drowsiness, daytime sluggishness", "GI": "Dyspepsia (rare)", "Allergic": "Rash" },
+    dozadan: "Sedation, sluggishness; toxicity unlikely, supportive care.",
+    ozarotasir: ["Enhances other sedatives/hypnotics and alcohol"],
+    qollash: { kattalar: "Extract/dragee 2–3 times daily or before bed; drops in water.", bolalar: "From 3 years, by age" },
+    chiqarish: "Tablets/dragees; drops; herbal raw material (infusion)"
+  }
 }
 
 };
@@ -29674,6 +30052,15 @@ const PHARMA_DATA = {
 // ALIASLAR — bir xil modda boshqa/dublikat ATX kodi ostida
 // (ilovada o'sha dorilar mavjud yozuvni ko'rsatadi)
 // ═══════════════════════════════════════════════════════════
+PHARMA_DATA["N03CA01"]          = PHARMA_DATA["N03CA"];    // kaliy yodid
+PHARMA_DATA["N01AH"]            = PHARMA_DATA["N02AX"];    // trimeperidin
+PHARMA_DATA["N01AH01"]          = PHARMA_DATA["N02AB03"];  // fentanil
+PHARMA_DATA["N06AA22"]          = PHARMA_DATA["N06AX16"];  // venlafaksin
+PHARMA_DATA["N03AA05"]          = PHARMA_DATA["N03AA"];    // benzobarbital
+PHARMA_DATA["N05CN01"]          = PHARMA_DATA["N05CH01"];  // melatonin
+PHARMA_DATA["N07X X"]           = PHARMA_DATA["N07XX"];    // boshqa NS vositalari (bo'sh joyli kod)
+PHARMA_DATA["N05BX.N06BX"]      = PHARMA_DATA["N06BX"];    // S-100 antitelolari (Tenoten)
+PHARMA_DATA["N06BX, N06DX, N05BX,"] = PHARMA_DATA["N06BX"]; // S-100 + eNOS antitelolari (kombinatsiya)
 PHARMA_DATA["N05BX"]            = PHARMA_DATA["N06BX22"];  // fenibut
 PHARMA_DATA["N07AA"]            = PHARMA_DATA["N06DA05"];  // ipidakrin
 PHARMA_DATA["N02BF02"]          = PHARMA_DATA["N03AX16"];  // pregabalin
