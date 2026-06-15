@@ -30,6 +30,7 @@ const TRANSLATIONS = {
     nav_favorites:    "Sevimlilar",
     nav_soon:         "Tez",
     nav_new:          "Yangi",
+    tg_title:         "Telegram kanal",
 
     // Topbar
     search_placeholder: "Dori, kasallik, belgi qidiring...",
@@ -204,6 +205,7 @@ const TRANSLATIONS = {
     nav_favorites:    "Избранное",
     nav_soon:         "Скор.",
     nav_new:          "Новое",
+    tg_title:         "Telegram канал",
 
     search_placeholder: "Препарат, заболевание, симптом...",
     search_kbd:         "Ctrl K",
@@ -365,6 +367,7 @@ const TRANSLATIONS = {
     nav_favorites:    "Favorites",
     nav_soon:         "Soon",
     nav_new:          "New",
+    tg_title:         "Telegram channel",
 
     search_placeholder: "Search drug, disease, symptom...",
     search_kbd:         "Ctrl K",

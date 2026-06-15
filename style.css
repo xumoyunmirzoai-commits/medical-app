@@ -1248,6 +1248,31 @@ body {
 }
 .sidebar-overlay.show { display: block; opacity: 1; pointer-events: auto; }
 
+/* Telegram kanal havolasi (sidebar) */
+.sidebar-telegram {
+  display: flex; align-items: center; gap: 11px;
+  margin: 10px 16px 0; padding: 10px 12px;
+  border-radius: 12px; text-decoration: none;
+  background: linear-gradient(135deg, #2AABEE, #229ED9);
+  box-shadow: 0 4px 14px rgba(34,158,217,.32);
+  transition: transform .15s, box-shadow .15s;
+}
+.sidebar-telegram:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(34,158,217,.42); }
+.sidebar-telegram .tg-icon {
+  flex-shrink: 0; width: 34px; height: 34px; border-radius: 9px;
+  background: rgba(255,255,255,.2); color: #fff;
+  display: flex; align-items: center; justify-content: center;
+}
+.sidebar-telegram .tg-text { display: flex; flex-direction: column; line-height: 1.25; overflow: hidden; }
+.sidebar-telegram .tg-title { font-size: 12.5px; font-weight: 800; color: #fff; }
+.sidebar-telegram .tg-handle { font-size: 10.5px; font-weight: 600; color: rgba(255,255,255,.85); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sidebar.collapsed .sidebar-telegram { padding: 10px; justify-content: center; }
+.sidebar.collapsed .sidebar-telegram .tg-text { display: none; }
+
+/* Telegram tugma (topbar) */
+.tg-btn { color: #229ED9; }
+.tg-btn:hover { background: #e8f6fd; color: #1c8dc4; }
+
 /* Sidebar ichidagi til tanlash — faqat mobil */
 .sidebar-lang { display: none; }
 @media (max-width: 640px) {
