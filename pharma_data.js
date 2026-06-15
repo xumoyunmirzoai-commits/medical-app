@@ -32732,6 +32732,300 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Oral: 100 mg×3; IV/IM: 2–4 mL of 2.5% solution/day, as a course.", bolalar: "By weight, as prescribed" },
     chiqarish: "Tablets 100 mg; solution for injection 2.5%"
   }
+},
+
+"C04AD03": {
+  uz: {
+    gruppa: "Periferik vazodilatatorlar — purin hosilalari",
+    farmTasir: "Qon mikrosirkulyatsiyasini yaxshilovchi",
+    farmakodinamika: `Pentoksifillin — ksantin (purin) hosilasi. Fosfodiesterazani inhibilaб hujayra ichi sAMF ni oshiradi; eritrotsitlar egiluvchanligini yaxshilaydi, trombotsitlar agregatsiyasini va qon qovushqoqligini kamaytiradi — natijada to'qima mikrosirkulyatsiyasi va kislorod ta'minoti yaxshilanadi. Tomirlarni yengil kengaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan (birinchi o'tish yuqori)", tarqalish: "To'qimalarга", metabolizm: "Jigarда (faol metabolitlar)", chiqarilish: "Buyrak orqали; T½ qisqa" },
+    korsatmalar: ["Periferik qon aylanishi buzilishi (oqsoqlanish, diabetik angiopatiya, Reyno)", "Miya qon aylanishi buzilishi (ishemik), ko'z/quloq tomir buzilishlari"],
+    qarrshi: ["O'tkir miokard infarkti, katta qon ketish", "Miyaga qon quyilishi, ko'z to'r pardasiga qon ketish", "Og'ir aritmiya", "Yuqori sezuvchanlik (ksantinlar)"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, dispepsiya", "Tomir": "Yuzning qizishi, gipotenziya, taxikardiya, bosh aylanishi", "Qon": "Qon ketish xavfi (kamdan-kam)" },
+    dozadan: "Gipotenziya, qo'zg'alish, tirishish; simptomatik davo.",
+    ozarotasir: ["Antikoagulyantlar/antiagregantlar bilan qon ketish xavfi ortadi", "Antigipertenziv vositalar ta'sirini kuchaytiradi", "Teofillin darajasini oshirishi mumkin"],
+    qollash: { kattalar: "Ich: 100–200 mg×3 (uzaytirilgan 400 mg×2–3); v/i infuziya og'ir holatда.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 100 mg; uzaytirilgan 400 mg; infuziya konsentrati 20 mg/ml"
+  },
+  ru: {
+    gruppa: "Периферические вазодилататоры — производные пурина",
+    farmTasir: "Улучшающее микроциркуляцию",
+    farmakodinamika: `Пентоксифиллин — производное ксантина (пурина). Ингибируя фосфодиэстеразу, повышает внутриклеточный цАМФ; улучшает деформируемость эритроцитов, снижает агрегацию тромбоцитов и вязкость крови — в результате улучшаются микроциркуляция и снабжение тканей кислородом. Слегка расширяет сосуды.`,
+    farmakokinetika: { sorish: "Из кишечника (высокий первичный пас)", tarqalish: "В ткани", metabolizm: "В печени (активные метаболиты)", chiqarilish: "Почками; T½ короткий" },
+    korsatmalar: ["Нарушения периферического кровообращения (перемежающаяся хромота, диабетическая ангиопатия, Рейно)", "Нарушения мозгового кровообращения (ишемические), сосудистые расстройства глаз/ушей"],
+    qarrshi: ["Острый инфаркт миокарда, массивное кровотечение", "Кровоизлияние в мозг, кровоизлияние в сетчатку", "Тяжёлая аритмия", "Гиперчувствительность (ксантины)"],
+    nojoya: { "ЖКТ": "Тошнота, диспепсия", "Сосудистые": "Покраснение лица, гипотензия, тахикардия, головокружение", "Кровь": "Риск кровотечения (редко)" },
+    dozadan: "Гипотензия, возбуждение, судороги; симптоматическая терапия.",
+    ozarotasir: ["С антикоагулянтами/антиагрегантами возрастает риск кровотечений", "Усиливает действие гипотензивных", "Может повышать уровень теофиллина"],
+    qollash: { kattalar: "Внутрь: 100–200 мг×3 (пролонг. 400 мг×2–3); в/в инфузия при тяжёлых состояниях.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 100 мг; пролонг. 400 мг; концентрат для инфузий 20 мг/мл"
+  },
+  en: {
+    gruppa: "Peripheral vasodilators — purine derivatives",
+    farmTasir: "Microcirculation enhancer",
+    farmakodinamika: `Pentoxifylline is a xanthine (purine) derivative. By inhibiting phosphodiesterase it raises intracellular cAMP; it improves red cell deformability and reduces platelet aggregation and blood viscosity — improving tissue microcirculation and oxygen supply. It mildly dilates vessels.`,
+    farmakokinetika: { sorish: "From the gut (high first-pass)", tarqalish: "Into tissues", metabolizm: "Hepatic (active metabolites)", chiqarilish: "Renal; short T½" },
+    korsatmalar: ["Peripheral circulatory disorders (intermittent claudication, diabetic angiopathy, Raynaud)", "Cerebrovascular disorders (ischaemic), ocular/aural vascular disorders"],
+    qarrshi: ["Acute myocardial infarction, massive bleeding", "Cerebral haemorrhage, retinal haemorrhage", "Severe arrhythmia", "Hypersensitivity (xanthines)"],
+    nojoya: { "GI": "Nausea, dyspepsia", "Vascular": "Facial flushing, hypotension, tachycardia, dizziness", "Blood": "Bleeding risk (rare)" },
+    dozadan: "Hypotension, agitation, seizures; supportive care.",
+    ozarotasir: ["With anticoagulants/antiplatelets bleeding risk increases", "Enhances antihypertensives", "May raise theophylline levels"],
+    qollash: { kattalar: "Oral: 100–200 mg×3 (prolonged 400 mg×2–3); IV infusion in severe states.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 100 mg; prolonged 400 mg; infusion concentrate 20 mg/mL"
+  }
+},
+
+"C04AE02": {
+  uz: {
+    gruppa: "Periferik vazodilatatorlar — ergot alkaloidlari",
+    farmTasir: "Miya/periferik qon aylanishini yaxshilovchi (alfa-blokator)",
+    farmakodinamika: `Nitsergolin — yarim sintetik ergolin (ergot) hosilasi. Alfa-1 adrenoretseptorlarni bloklaб tomirlarni kengaytiradi, miya va periferik qon oqimini yaxshilaydi; trombotsitlar agregatsiyasini kamaytiradi va neyromediatorlar (xolinergik, dofaminergik) faolligini qo'llab-quvvatlaydi (nootrop element). Yoshга bog'liq kognitiv va tomir buzilishларда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan to'liq (birinchi o'tish yuqori)", tarqalish: "Oqsilга yuqori", metabolizm: "Jigarда (faol metabolit)", chiqarilish: "Asosан buyrak orqали" },
+    korsatmalar: ["Miya qon aylanishi yetishmovchiligi, yoshга bog'liq kognitiv buzilishlar", "Periferik qon aylanishi buzilishi (Reyno, oqsoqlanish)", "Vestibular buzilishlar, ko'z to'r pardasi qon aylanishi"],
+    qarrshi: ["Yaqinда o'tkazilgan miokard infarkti, o'tkir qon ketish", "Og'ir bradikardiya, ortostatik gipotenziya", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik (ergot)"],
+    nojoya: { "Tomir": "Gipotenziya (ayniqsa ortostatik), yuzning qizishi", "Oshqozon-ichak": "Dispepsiya", "Asab": "Bosh aylanishi, uyqusizlik yoki uyquchanlik" },
+    dozadan: "Gipotenziya; gorizontal holat, simptomatik davo.",
+    ozarotasir: ["Antigipertenziv vositalar ta'sirini kuchaytiradi", "Beta-blokerlar bilan bradikardiya", "Antikoagulyantlar bilan qon ketish xavfi"],
+    qollash: { kattalar: "5–10 mg×3 ich (yoki 30 mg×2 uzaytirilgan), kurs bilan.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 5, 10, 30 mg; inyeksiya uchun poroshok"
+  },
+  ru: {
+    gruppa: "Периферические вазодилататоры — алкалоиды спорыньи",
+    farmTasir: "Улучшающее мозговое/периферическое кровообращение (альфа-блокатор)",
+    farmakodinamika: `Ницерголин — полусинтетическое производное эрголина (спорыньи). Блокируя альфа-1 адренорецепторы, расширяет сосуды, улучшает мозговой и периферический кровоток; снижает агрегацию тромбоцитов и поддерживает активность нейромедиаторов (холинергических, дофаминергических) — ноотропный компонент. Применяется при возрастных когнитивных и сосудистых нарушениях.`,
+    farmakokinetika: { sorish: "Полно из кишечника (высокий первичный пас)", tarqalish: "Высокая связь с белками", metabolizm: "В печени (активный метаболит)", chiqarilish: "Преимущественно почками" },
+    korsatmalar: ["Недостаточность мозгового кровообращения, возрастные когнитивные нарушения", "Нарушения периферического кровообращения (Рейно, хромота)", "Вестибулярные нарушения, кровообращение сетчатки"],
+    qarrshi: ["Недавний инфаркт миокарда, острое кровотечение", "Тяжёлая брадикардия, ортостатическая гипотензия", "Беременность и лактация", "Гиперчувствительность (спорынья)"],
+    nojoya: { "Сосудистые": "Гипотензия (особенно ортостатическая), покраснение лица", "ЖКТ": "Диспепсия", "Нервная система": "Головокружение, бессонница или сонливость" },
+    dozadan: "Гипотензия; горизонтальное положение, симптоматическая терапия.",
+    ozarotasir: ["Усиливает действие гипотензивных", "С бета-блокаторами брадикардия", "С антикоагулянтами риск кровотечений"],
+    qollash: { kattalar: "5–10 мг×3 внутрь (или 30 мг×2 пролонг.), курсом.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 5, 10, 30 мг; порошок для инъекций"
+  },
+  en: {
+    gruppa: "Peripheral vasodilators — ergot alkaloids",
+    farmTasir: "Cerebral/peripheral circulation enhancer (alpha-blocker)",
+    farmakodinamika: `Nicergoline is a semisynthetic ergoline (ergot) derivative. By blocking alpha-1 adrenoceptors it dilates vessels, improving cerebral and peripheral blood flow; it reduces platelet aggregation and supports neurotransmitter (cholinergic, dopaminergic) activity (a nootropic component). It is used in age-related cognitive and vascular disorders.`,
+    farmakokinetika: { sorish: "Complete from the gut (high first-pass)", tarqalish: "High protein binding", metabolizm: "Hepatic (active metabolite)", chiqarilish: "Mainly renal" },
+    korsatmalar: ["Cerebrovascular insufficiency, age-related cognitive disorders", "Peripheral circulatory disorders (Raynaud, claudication)", "Vestibular disorders, retinal circulation"],
+    qarrshi: ["Recent myocardial infarction, acute bleeding", "Severe bradycardia, orthostatic hypotension", "Pregnancy and lactation", "Hypersensitivity (ergot)"],
+    nojoya: { "Vascular": "Hypotension (especially orthostatic), facial flushing", "GI": "Dyspepsia", "Nervous system": "Dizziness, insomnia or drowsiness" },
+    dozadan: "Hypotension; supine position, supportive care.",
+    ozarotasir: ["Enhances antihypertensives", "With beta-blockers bradycardia", "With anticoagulants bleeding risk"],
+    qollash: { kattalar: "5–10 mg×3 orally (or 30 mg×2 prolonged), as a course.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 5, 10, 30 mg; powder for injection"
+  }
+},
+
+"C04AX": {
+  uz: {
+    gruppa: "Periferik vazodilatatorlar — boshqa periferik vazodilatatorlar",
+    farmTasir: "Tomir kengaytiruvchi va spazmolitik (bendazol)",
+    farmakodinamika: `Bendazol (dibazol) — imidazol hosilasi. Tomir va ichki a'zolar silliq mushaklarini bo'shashtirib spazmni kamaytiradi va qon bosimini pasaytiradi; orqa miyada qo'zg'aluvchi sinaptik o'tkazilishni osonlashtiradi (neyron faolligini stimullaydi) va immunomodulyator ta'sir ko'rsatadi. Gipertonik kriz, spazm va ba'zi nevrologik holatlarda qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich va parenteral", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Gipertonik kriz, arterial gipertenziya (yengil)", "Silliq mushak spazmi (oshqozon, ichak, qon tomir)", "Periferik nerv kasalliklari oqibatlari (yuz nervi falaji), immunostimulyatsiya (yordamchi)"],
+    qarrshi: ["Og'ir gipotenziya", "Mushak tonusi pasaygan holatlar (keksaларда ehtiyotkorlik)", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Qon bosimi pasayishi, bosh aylanishi", "Boshqa": "Terlash, allergik reaksiyalar (kamdan-kam)" },
+    dozadan: "Gipotenziya; gorizontal holat, simptomatik davo.",
+    ozarotasir: ["Boshqa antigipertenziv/spazmolitik vositalar ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "Gipertonik kriz: 1–2 ml 1% v/i/m/i; ich: 20–50 mg×2–3.", bolalar: "Vaznга ko'ra, kam dozада" },
+    chiqarish: "Tabletkalar 20 mg; inyeksiya eritmasi 0,5%, 1%"
+  },
+  ru: {
+    gruppa: "Периферические вазодилататоры — прочие периферические вазодилататоры",
+    farmTasir: "Сосудорасширяющее и спазмолитическое (бендазол)",
+    farmakodinamika: `Бендазол (дибазол) — производное имидазола. Расслабляет гладкие мышцы сосудов и внутренних органов, уменьшая спазм и снижая АД; облегчает возбуждающую синаптическую передачу в спинном мозге (стимулирует активность нейронов) и оказывает иммуномодулирующее действие. Применяется при гипертоническом кризе, спазмах и некоторых неврологических состояниях.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Гипертонический криз, артериальная гипертензия (лёгкая)", "Спазм гладкой мускулатуры (желудок, кишечник, сосуды)", "Последствия болезней периферических нервов (паралич лицевого нерва), иммуностимуляция (вспомогательно)"],
+    qarrshi: ["Тяжёлая гипотензия", "Состояния со сниженным мышечным тонусом (у пожилых осторожно)", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Снижение АД, головокружение", "Прочее": "Потливость, аллергические реакции (редко)" },
+    dozadan: "Гипотензия; горизонтальное положение, симптоматическая терапия.",
+    ozarotasir: ["Усиливает действие других гипотензивных/спазмолитических средств"],
+    qollash: { kattalar: "Гипертонический криз: 1–2 мл 1% в/в/в/м; внутрь: 20–50 мг×2–3.", bolalar: "По массе, в малой дозе" },
+    chiqarish: "Таблетки 20 мг; раствор для инъекций 0,5%, 1%"
+  },
+  en: {
+    gruppa: "Peripheral vasodilators — other peripheral vasodilators",
+    farmTasir: "Vasodilator and spasmolytic (bendazole)",
+    farmakodinamika: `Bendazole (dibazole) is an imidazole derivative. It relaxes vascular and visceral smooth muscle, reducing spasm and lowering blood pressure; it facilitates excitatory synaptic transmission in the spinal cord (stimulating neuronal activity) and has an immunomodulatory effect. It is used for hypertensive crisis, spasm and some neurological conditions.`,
+    farmakokinetika: { sorish: "Oral and parenteral", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Hypertensive crisis, arterial hypertension (mild)", "Smooth muscle spasm (stomach, bowel, vessels)", "Sequelae of peripheral nerve disease (facial nerve palsy), immunostimulation (adjunct)"],
+    qarrshi: ["Severe hypotension", "Conditions with reduced muscle tone (caution in the elderly)", "Hypersensitivity"],
+    nojoya: { "Vascular": "Lowered blood pressure, dizziness", "Other": "Sweating, allergic reactions (rare)" },
+    dozadan: "Hypotension; supine position, supportive care.",
+    ozarotasir: ["Enhances other antihypertensive/spasmolytic agents"],
+    qollash: { kattalar: "Hypertensive crisis: 1–2 mL of 1% IV/IM; oral: 20–50 mg×2–3.", bolalar: "By weight, at low doses" },
+    chiqarish: "Tablets 20 mg; solution for injection 0.5%, 1%"
+  }
+},
+
+"C04AC01": {
+  uz: {
+    gruppa: "Periferik vazodilatatorlar — nikotin kislota va hosilalari",
+    farmTasir: "Tomir kengaytiruvchi (niatsin)",
+    farmakodinamika: `Nikotin kislota (niatsin, vitamin B3) — periferik vazodilatator sifatида prostaglandin orqали teri va periferik mayda tomirlarni kengaytiradi (yuzning qizishi). Vitamin sifatида to'qima oksidlanish-qaytarilish reaksiyalarида koferment (NAD/NADP). Yuqori dozада lipidlarni ham kamaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Periferik va miya qon aylanishi buzilishi (yengil)", "Pellagra (B3 tanqisligi) profilaktikasi va davosi"],
+    qarrshi: ["Faol oshqozon yara kasalligi", "Og'ir jigar kasalligi, podagra (yuqori doza)", "Og'ir gipotenziya", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Yuzning qizishi va issiqlik hissi, gipotenziya", "Oshqozon-ichak": "Dispepsiya", "Metabolik": "Giperurikemiya, giperglikemiya (yuqori doza)" },
+    dozadan: "Qizarish, gipotenziya; gorizontal holat, simptomatik davo.",
+    ozarotasir: ["Antigipertenziv vositalar ta'sirini kuchaytiradi", "Statinlar bilan miopatiya xavfi (yuqori doza)"],
+    qollash: { kattalar: "Vitamin/vazodilatator: 50–100 mg×1–3; pellagrada yuqoriroq.", bolalar: "Yoshга ko'ra (vitamin sifatида)" },
+    chiqarish: "Tabletkalar 50 mg; inyeksiya eritmasi 1%"
+  },
+  ru: {
+    gruppa: "Периферические вазодилататоры — никотиновая кислота и производные",
+    farmTasir: "Сосудорасширяющее (ниацин)",
+    farmakodinamika: `Никотиновая кислота (ниацин, витамин В3) как периферический вазодилататор через простагландины расширяет мелкие сосуды кожи и периферии (покраснение лица). Как витамин — кофермент (НАД/НАДФ) в окислительно-восстановительных реакциях тканей. В высоких дозах также снижает липиды.`,
+    farmakokinetika: { sorish: "Быстро из кишечника", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Нарушения периферического и мозгового кровообращения (лёгкие)", "Профилактика и лечение пеллагры (дефицит В3)"],
+    qarrshi: ["Активная язвенная болезнь желудка", "Тяжёлое заболевание печени, подагра (высокая доза)", "Тяжёлая гипотензия", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Покраснение лица и чувство жара, гипотензия", "ЖКТ": "Диспепсия", "Метаболические": "Гиперурикемия, гипергликемия (высокая доза)" },
+    dozadan: "Покраснение, гипотензия; горизонтальное положение, симптоматическая терапия.",
+    ozarotasir: ["Усиливает действие гипотензивных", "Со статинами риск миопатии (высокая доза)"],
+    qollash: { kattalar: "Витамин/вазодилататор: 50–100 мг×1–3; при пеллагре выше.", bolalar: "По возрасту (как витамин)" },
+    chiqarish: "Таблетки 50 мг; раствор для инъекций 1%"
+  },
+  en: {
+    gruppa: "Peripheral vasodilators — nicotinic acid and derivatives",
+    farmTasir: "Vasodilator (niacin)",
+    farmakodinamika: `Nicotinic acid (niacin, vitamin B3) as a peripheral vasodilator dilates small skin and peripheral vessels through prostaglandins (facial flushing). As a vitamin it is a coenzyme (NAD/NADP) in tissue redox reactions. At high doses it also lowers lipids.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Peripheral and cerebral circulatory disorders (mild)", "Prevention and treatment of pellagra (B3 deficiency)"],
+    qarrshi: ["Active gastric ulcer", "Severe liver disease, gout (high dose)", "Severe hypotension", "Hypersensitivity"],
+    nojoya: { "Vascular": "Facial flushing and warmth, hypotension", "GI": "Dyspepsia", "Metabolic": "Hyperuricaemia, hyperglycaemia (high dose)" },
+    dozadan: "Flushing, hypotension; supine position, supportive care.",
+    ozarotasir: ["Enhances antihypertensives", "With statins myopathy risk (high dose)"],
+    qollash: { kattalar: "Vitamin/vasodilator: 50–100 mg×1–3; higher in pellagra.", bolalar: "By age (as a vitamin)" },
+    chiqarish: "Tablets 50 mg; solution for injection 1%"
+  }
+},
+
+"C04AX07": {
+  uz: {
+    gruppa: "Periferik vazodilatatorlar — boshqa periferik vazodilatatorlar",
+    farmTasir: "Miya qon aylanishini yaxshilovchi (vinkamin)",
+    farmakodinamika: `Vinkamin — barvinok (Vinca) o'simligi alkaloidi. Miya qon tomirlarini tanlab kengaytiradi va miyaning kislorod/glyukoza so'rilishini yaxshilaydi, qon mikrosirkulyatsiyasini optimallaштiradi. Yoshга bog'liq miya qon aylanishi va kognitiv buzilishларда qo'llaniladi (vinpotsetinning tabiiy "ona moddasi").`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Miyaga o'tadi", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Miya qon aylanishi yetishmovchiligi, yoshга bog'liq kognitiv buzilishlar", "Bosh aylanishi, quloq shang'illashi (tomir kelib chiqishли)"],
+    qarrshi: ["O'tkir gemorragik insult (o'tkir faza)", "Og'ir aritmiya, QT uzayishi", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Yurak": "Taxikardiya, qon bosimi pasayishi, EKG o'zgarishi", "Asab": "Bosh og'rig'i, uyqu buzilishi", "Oshqozon-ichak": "Ko'ngil aynishi" },
+    dozadan: "Gipotenziya, taxikardiya; simptomatik davo.",
+    ozarotasir: ["Antiaritmik/QT uzaytiruvchi dorilar bilan ehtiyotkorlik", "Antigipertenziv vositalar ta'sirini kuchaytirishi mumkin"],
+    qollash: { kattalar: "30 mg×2 yoki uzaytirilgan shakl, kurs bilan.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Kapsulalar/tabletkalar 30 mg"
+  },
+  ru: {
+    gruppa: "Периферические вазодилататоры — прочие периферические вазодилататоры",
+    farmTasir: "Улучшающее мозговое кровообращение (винкамин)",
+    farmakodinamika: `Винкамин — алкалоид растения барвинок (Vinca). Избирательно расширяет сосуды мозга и улучшает усвоение мозгом кислорода/глюкозы, оптимизирует микроциркуляцию. Применяется при возрастных нарушениях мозгового кровообращения и когнитивных расстройствах (природный «прародитель» винпоцетина).`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Проникает в мозг", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Недостаточность мозгового кровообращения, возрастные когнитивные нарушения", "Головокружение, шум в ушах (сосудистого генеза)"],
+    qarrshi: ["Острый геморрагический инсульт (острая фаза)", "Тяжёлая аритмия, удлинение QT", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "Сердце": "Тахикардия, снижение АД, изменения ЭКГ", "Нервная система": "Головная боль, нарушение сна", "ЖКТ": "Тошнота" },
+    dozadan: "Гипотензия, тахикардия; симптоматическая терапия.",
+    ozarotasir: ["Осторожно с антиаритмическими/QT-удлиняющими препаратами", "Может усиливать действие гипотензивных"],
+    qollash: { kattalar: "30 мг×2 или пролонгированная форма, курсом.", bolalar: "Не рекомендуется" },
+    chiqarish: "Капсулы/таблетки 30 мг"
+  },
+  en: {
+    gruppa: "Peripheral vasodilators — other peripheral vasodilators",
+    farmTasir: "Cerebral circulation enhancer (vincamine)",
+    farmakodinamika: `Vincamine is an alkaloid of the periwinkle plant (Vinca). It selectively dilates cerebral vessels and improves brain oxygen/glucose uptake, optimising microcirculation. It is used in age-related cerebral circulatory and cognitive disorders (the natural 'parent' of vinpocetine).`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Enters the brain", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Cerebrovascular insufficiency, age-related cognitive disorders", "Vertigo, tinnitus (vascular origin)"],
+    qarrshi: ["Acute haemorrhagic stroke (acute phase)", "Severe arrhythmia, QT prolongation", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "Cardiac": "Tachycardia, lowered blood pressure, ECG changes", "Nervous system": "Headache, sleep disturbance", "GI": "Nausea" },
+    dozadan: "Hypotension, tachycardia; supportive care.",
+    ozarotasir: ["Caution with antiarrhythmic/QT-prolonging drugs", "May enhance antihypertensives"],
+    qollash: { kattalar: "30 mg×2 or a prolonged form, as a course.", bolalar: "Not recommended" },
+    chiqarish: "Capsules/tablets 30 mg"
+  }
+},
+
+"C04AX11": {
+  uz: {
+    gruppa: "Periferik vazodilatatorlar — boshqa periferik vazodilatatorlar",
+    farmTasir: "Tomir kengaytiruvchi va spazmolitik (bentsiklan)",
+    farmakodinamika: `Bentsiklan — miotrop spazmolitik va vazodilatator. Silliq mushaklarга to'g'ridan-to'g'ri ta'sir qilib (kaltsiy antagonisti va fosfodiesteraza ingibitori) tomir va ichki a'zolar spazmini kamaytiradi, miya va periferik qon oqimini yaxshilaydi; trombotsitlar agregatsiyasini ham kamaytiradi.`,
+    farmakokinetika: { sorish: "Ich va parenteral", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Miya va periferik qon aylanishi buzilishi", "Ichki a'zolar silliq mushak spazmi (oshqozon-ichak, siydik yo'llari)"],
+    qarrshi: ["Yaqinда o'tkazilgan miokard infarkti, og'ir koronar/miya tomir kasalligi", "Epilepsiya (tirishish bo'sag'asini pasaytiradi)", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Yurak-tomir": "Taxikardiya, qon bosimi pasayishi", "Asab": "Bosh aylanishi, bosh og'rig'i, tremor", "Oshqozon-ichak": "Og'iz qurishi, ko'ngil aynishi" },
+    dozadan: "Taxikardiya, tirishish, gipotenziya; simptomatik davo.",
+    ozarotasir: ["Antigipertenziv vositalar ta'sirini kuchaytiradi", "Tirishish bo'sag'asini pasaytiruvchi dorilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "100 mg×3 ich (yoki parenteral), kurs bilan.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 100 mg; inyeksiya eritmasi"
+  },
+  ru: {
+    gruppa: "Периферические вазодилататоры — прочие периферические вазодилататоры",
+    farmTasir: "Сосудорасширяющее и спазмолитическое (бенциклан)",
+    farmakodinamika: `Бенциклан — миотропный спазмолитик и вазодилататор. Действуя прямо на гладкие мышцы (антагонист кальция и ингибитор фосфодиэстеразы), уменьшает спазм сосудов и внутренних органов, улучшает мозговой и периферический кровоток; также снижает агрегацию тромбоцитов.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Нарушения мозгового и периферического кровообращения", "Спазм гладкой мускулатуры внутренних органов (ЖКТ, мочевые пути)"],
+    qarrshi: ["Недавний инфаркт миокарда, тяжёлые болезни коронарных/мозговых сосудов", "Эпилепсия (снижает порог судорог)", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "Сердечно-сосудистые": "Тахикардия, снижение АД", "Нервная система": "Головокружение, головная боль, тремор", "ЖКТ": "Сухость во рту, тошнота" },
+    dozadan: "Тахикардия, судороги, гипотензия; симптоматическая терапия.",
+    ozarotasir: ["Усиливает действие гипотензивных", "Осторожно с препаратами, снижающими порог судорог"],
+    qollash: { kattalar: "100 мг×3 внутрь (или парентерально), курсом.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 100 мг; раствор для инъекций"
+  },
+  en: {
+    gruppa: "Peripheral vasodilators — other peripheral vasodilators",
+    farmTasir: "Vasodilator and spasmolytic (bencyclane)",
+    farmakodinamika: `Bencyclane is a myotropic spasmolytic and vasodilator. Acting directly on smooth muscle (calcium antagonist and phosphodiesterase inhibitor) it reduces vascular and visceral spasm, improves cerebral and peripheral blood flow and also reduces platelet aggregation.`,
+    farmakokinetika: { sorish: "Oral and parenteral", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Cerebral and peripheral circulatory disorders", "Visceral smooth muscle spasm (GI tract, urinary tract)"],
+    qarrshi: ["Recent myocardial infarction, severe coronary/cerebral vascular disease", "Epilepsy (lowers the seizure threshold)", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "Cardiovascular": "Tachycardia, lowered blood pressure", "Nervous system": "Dizziness, headache, tremor", "GI": "Dry mouth, nausea" },
+    dozadan: "Tachycardia, seizures, hypotension; supportive care.",
+    ozarotasir: ["Enhances antihypertensives", "Caution with drugs lowering the seizure threshold"],
+    qollash: { kattalar: "100 mg×3 orally (or parenteral), as a course.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 100 mg; solution for injection"
+  }
+},
+
+"C04AA01": {
+  uz: {
+    gruppa: "Periferik vazodilatatorlar — 2-amino-1-fenil­etanol hosilalari",
+    farmTasir: "Tomir kengaytiruvchi (beta-adrenomimetik, izoksuprin)",
+    farmakodinamika: `Izoksuprin — beta-adrenomimetik xususiyatли periferik vazodilatator. Beta-2 retseptorlarni qo'zg'atib skelet mushaklari va periferik tomirlarni kengaytiradi, qon oqimini yaxshilaydi; bachadon silliq mushagini bo'shashtirib qisqarishini kamaytiradi (tokolitik). Periferik tomir buzilishlari va muddatidan oldin tug'ruq xavfida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Periferik qon aylanishi buzilishi (Reyno, oqsoqlanish)", "Muddatidan oldin tug'ruq xavfi (tokolitik, yordamchi)"],
+    qarrshi: ["O'tkir qon ketish, yaqinда o'tkazilgan miokard infarkti", "Taxiaritmiya, og'ir gipotenziya", "Tug'ruqдан keyin darhol (qon ketish xavfi)", "Yuqori sezuvchanlik"],
+    nojoya: { "Yurak-tomir": "Taxikardiya, gipotenziya, yuzning qizishi", "Asab": "Tremor, bosh aylanishi", "Oshqozon-ichak": "Ko'ngil aynishi" },
+    dozadan: "Taxikardiya, gipotenziya, tremor; beta-blokator (ehtiyotkorlik), simptomatik davo.",
+    ozarotasir: ["Boshqa simpatomimetiklar bilan taxikardiya/gipertenziya", "Beta-blokerlar ta'sirini pasaytiradi", "Antigipertenziv vositalar bilan gipotenziya"],
+    qollash: { kattalar: "Ich: 10–20 mg×3–4; tokoliz: shifokor sxemasi bo'yicha.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 20 mg; inyeksiya eritmasi"
+  },
+  ru: {
+    gruppa: "Периферические вазодилататоры — производные 2-амино-1-фенилэтанола",
+    farmTasir: "Сосудорасширяющее (бета-адреномиметик, изоксуприн)",
+    farmakodinamika: `Изоксуприн — периферический вазодилататор с бета-адреномиметическими свойствами. Возбуждая бета-2 рецепторы, расширяет сосуды скелетных мышц и периферии, улучшает кровоток; расслабляет гладкую мышцу матки, снижая её сокращения (токолитик). Применяется при нарушениях периферического кровообращения и угрозе преждевременных родов.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Нарушения периферического кровообращения (Рейно, хромота)", "Угроза преждевременных родов (токолитик, вспомогательно)"],
+    qarrshi: ["Острое кровотечение, недавний инфаркт миокарда", "Тахиаритмия, тяжёлая гипотензия", "Сразу после родов (риск кровотечения)", "Гиперчувствительность"],
+    nojoya: { "Сердечно-сосудистые": "Тахикардия, гипотензия, покраснение лица", "Нервная система": "Тремор, головокружение", "ЖКТ": "Тошнота" },
+    dozadan: "Тахикардия, гипотензия, тремор; бета-блокатор (осторожно), симптоматическая терапия.",
+    ozarotasir: ["С другими симпатомиметиками тахикардия/гипертензия", "Снижает действие бета-блокаторов", "С гипотензивными гипотензия"],
+    qollash: { kattalar: "Внутрь: 10–20 мг×3–4; токолиз: по схеме врача.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 20 мг; раствор для инъекций"
+  },
+  en: {
+    gruppa: "Peripheral vasodilators — 2-amino-1-phenylethanol derivatives",
+    farmTasir: "Vasodilator (beta-adrenergic agonist, isoxsuprine)",
+    farmakodinamika: `Isoxsuprine is a peripheral vasodilator with beta-adrenergic properties. By stimulating beta-2 receptors it dilates skeletal muscle and peripheral vessels, improving blood flow; it relaxes uterine smooth muscle, reducing contractions (tocolytic). It is used for peripheral circulatory disorders and threatened preterm labour.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Peripheral circulatory disorders (Raynaud, claudication)", "Threatened preterm labour (tocolytic, adjunct)"],
+    qarrshi: ["Acute bleeding, recent myocardial infarction", "Tachyarrhythmia, severe hypotension", "Immediately after delivery (bleeding risk)", "Hypersensitivity"],
+    nojoya: { "Cardiovascular": "Tachycardia, hypotension, facial flushing", "Nervous system": "Tremor, dizziness", "GI": "Nausea" },
+    dozadan: "Tachycardia, hypotension, tremor; beta-blocker (caution), supportive care.",
+    ozarotasir: ["With other sympathomimetics tachycardia/hypertension", "Reduces the effect of beta-blockers", "With antihypertensives hypotension"],
+    qollash: { kattalar: "Oral: 10–20 mg×3–4; tocolysis: per physician's regimen.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 20 mg; solution for injection"
+  }
 }
 
 };
