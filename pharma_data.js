@@ -30968,6 +30968,300 @@ const PHARMA_DATA = {
     qollash: { kattalar: "From 40 mg/day, to 80 mg (once daily).", bolalar: "Not recommended" },
     chiqarish: "Tablets 40, 80 mg"
   }
+},
+
+"C07AB07": {
+  uz: {
+    gruppa: "Beta-adrenoblokatorlar — selektiv (β1)",
+    farmTasir: "Qon bosimi va yurak urishini pasaytiruvchi (β1-blokator)",
+    farmakodinamika: `Bisoprolol — yuqori selektivli β1-adrenoblokator. Yurakдаги β1-retseptorlarni tanlab bloklaб yurak urishini sekinlashtiradi, qisqarish kuchini va miokard kislorod ehtiyojini kamaytiradi, renin ajralishini pasaytiradi. Bu qon bosimi va stenokardiya xurujlarini kamaytiradi; surункали yurak yetishmovchiligida prognozni yaxshilaydi.`,
+    farmakokinetika: { sorish: "Ichakdan (biokirish ~90%)", tarqalish: "Oqsilга ~30%", metabolizm: "Jigarда qisman", chiqarilish: "Buyrak va jigar (teng); T½ ~10–12 soat" },
+    korsatmalar: ["Arterial gipertenziya, stenokardiya", "Surункali yurak yetishmovchiligi (asta titrlanadi)"],
+    qarrshi: ["Og'ir bradikardiya, SA/AV-blokada (II–III)", "Dekompensatsiyalangan yurak yetishmovchiligi", "Bronxial astma og'ir shakli", "Og'ir periferik qon aylanishi buzilishi"],
+    nojoya: { "Yurak": "Bradikardiya, AV-o'tkazuvchanlik sekinlashishi, gipotenziya", "Asab": "Charchoq, bosh aylanishi", "Boshqa": "Sovuq oyoq-qo'l; to'satдан to'xtatishда stenokardiya kuchayishi (rebound)" },
+    dozadan: "Bradikardiya, gipotenziya, bronxospazm; atropin, beta-agonist/glyukagon, simptomatik davo.",
+    ozarotasir: ["Kaltsiy antagonistlari (verapamil/diltiazem) bilan og'ir bradikardiya/blokada", "Antiaritmiklar bilan kardiodepressiya", "Insulin/qand kamaytiruvchilar bilan gipoglikemiya belgilarini yashiradi"],
+    qollash: { kattalar: "Gipertenziya: 5 mg/sutka, 10 mg gacha; yurak yetishmovchiligi: 1,25 mg dan juda sekin titrlanadi.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 2,5, 5, 10 mg"
+  },
+  ru: {
+    gruppa: "Бета-адреноблокаторы — селективные (β1)",
+    farmTasir: "Снижающее АД и ЧСС (β1-блокатор)",
+    farmakodinamika: `Бисопролол — высокоселективный β1-адреноблокатор. Избирательно блокирует β1-рецепторы сердца, замедляя ЧСС, уменьшая силу сокращения и потребность миокарда в кислороде, снижая выработку ренина. Это уменьшает АД и приступы стенокардии; при хронической сердечной недостаточности улучшает прогноз.`,
+    farmakokinetika: { sorish: "Из кишечника (биодоступность ~90%)", tarqalish: "С белками ~30%", metabolizm: "Частично в печени", chiqarilish: "Почками и печенью (поровну); T½ ~10–12 ч" },
+    korsatmalar: ["Артериальная гипертензия, стенокардия", "Хроническая сердечная недостаточность (медленное титрование)"],
+    qarrshi: ["Тяжёлая брадикардия, СА/AV-блокада (II–III)", "Декомпенсированная сердечная недостаточность", "Тяжёлая бронхиальная астма", "Тяжёлые нарушения периферического кровообращения"],
+    nojoya: { "Сердце": "Брадикардия, замедление AV-проводимости, гипотензия", "Нервная система": "Утомляемость, головокружение", "Прочее": "Холодные конечности; усиление стенокардии при резкой отмене (рикошет)" },
+    dozadan: "Брадикардия, гипотензия, бронхоспазм; атропин, бета-агонист/глюкагон, симптоматическая терапия.",
+    ozarotasir: ["С антагонистами кальция (верапамил/дилтиазем) тяжёлая брадикардия/блокада", "С антиаритмиками кардиодепрессия", "С инсулином/сахароснижающими маскирует симптомы гипогликемии"],
+    qollash: { kattalar: "Гипертензия: 5 мг/сут, до 10 мг; сердечная недостаточность: с 1,25 мг с очень медленным титрованием.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 2,5, 5, 10 мг"
+  },
+  en: {
+    gruppa: "Beta-blockers — selective (β1)",
+    farmTasir: "Blood-pressure- and heart-rate-lowering (β1-blocker)",
+    farmakodinamika: `Bisoprolol is a highly selective β1-blocker. It selectively blocks cardiac β1 receptors, slowing heart rate, reducing contractility and myocardial oxygen demand, and lowering renin release. This reduces blood pressure and angina attacks; in chronic heart failure it improves prognosis.`,
+    farmakokinetika: { sorish: "From the gut (bioavailability ~90%)", tarqalish: "~30% protein bound", metabolizm: "Partly hepatic", chiqarilish: "Renal and hepatic (equal); T½ ~10–12 h" },
+    korsatmalar: ["Arterial hypertension, angina", "Chronic heart failure (slow titration)"],
+    qarrshi: ["Severe bradycardia, SA/AV block (II–III)", "Decompensated heart failure", "Severe bronchial asthma", "Severe peripheral circulatory disorders"],
+    nojoya: { "Cardiac": "Bradycardia, slowed AV conduction, hypotension", "Nervous system": "Fatigue, dizziness", "Other": "Cold extremities; rebound angina with abrupt withdrawal" },
+    dozadan: "Bradycardia, hypotension, bronchospasm; atropine, beta-agonist/glucagon, supportive care.",
+    ozarotasir: ["With calcium antagonists (verapamil/diltiazem) severe bradycardia/block", "With antiarrhythmics cardiodepression", "With insulin/hypoglycaemics masks hypoglycaemia symptoms"],
+    qollash: { kattalar: "Hypertension: 5 mg/day, up to 10 mg; heart failure: from 1.25 mg with very slow titration.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 2.5, 5, 10 mg"
+  }
+},
+
+"C07AB12": {
+  uz: {
+    gruppa: "Beta-adrenoblokatorlar — selektiv (β1)",
+    farmTasir: "Qon bosimini pasaytiruvchi (β1-blokator + NO)",
+    farmakodinamika: `Nebivolol — yuqori selektivli β1-adrenoblokator bo'lib, qo'shimcha ravishda endoteliyда azot oksidi (NO) ajralishini rag'batlantiradi — bu tomirlarni kengaytiradi (vazodilatatsiya). Natijada yurak urishi va qon bosimi pasayadi, periferik qarshilik kamayadi; metabolik jihatdan neytral.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsilга yuqori", metabolizm: "Jigarда CYP2D6 (faol metabolitlar)", chiqarilish: "Buyrak/najas; T½ ~10 soat (sekin metabolizatorlarда uzunroq)" },
+    korsatmalar: ["Arterial gipertenziya", "Surункали yurak yetishmovchiligi (keksalarда, qo'shimcha)"],
+    qarrshi: ["Og'ir bradikardiya, SA/AV-blokada (II–III)", "Dekompensatsiyalangan yurak yetishmovchiligi", "Og'ir bronxospazm", "Og'ir jigar yetishmovchiligi"],
+    nojoya: { "Yurak": "Bradikardiya, gipotenziya", "Asab": "Bosh og'rig'i, charchoq, bosh aylanishi", "Boshqa": "Sovuq oyoq-qo'l (boshqa β-blokerlardан kam)" },
+    dozadan: "Bradikardiya, gipotenziya, bronxospazm; atropin, glyukagon, simptomatik davo.",
+    ozarotasir: ["Verapamil/diltiazem bilan og'ir bradikardiya/blokada", "Antiaritmiklar bilan kardiodepressiya", "CYP2D6 ingibitorlari (paroksetin, fluoksetin) konsentratsiyani oshiradi"],
+    qollash: { kattalar: "5 mg/sutka (kuniga 1 marta); keksalарда 2,5 mg dan boshlanadi.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 5 mg"
+  },
+  ru: {
+    gruppa: "Бета-адреноблокаторы — селективные (β1)",
+    farmTasir: "Снижающее АД (β1-блокатор + NO)",
+    farmakodinamika: `Небиволол — высокоселективный β1-адреноблокатор, дополнительно стимулирующий высвобождение оксида азота (NO) в эндотелии, что расширяет сосуды (вазодилатация). В результате снижаются ЧСС и АД, уменьшается периферическое сопротивление; метаболически нейтрален.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Высокая связь с белками", metabolizm: "В печени CYP2D6 (активные метаболиты)", chiqarilish: "Почками/калом; T½ ~10 ч (у медленных метаболизаторов дольше)" },
+    korsatmalar: ["Артериальная гипертензия", "Хроническая сердечная недостаточность (у пожилых, дополнительно)"],
+    qarrshi: ["Тяжёлая брадикардия, СА/AV-блокада (II–III)", "Декомпенсированная сердечная недостаточность", "Тяжёлый бронхоспазм", "Тяжёлая печёночная недостаточность"],
+    nojoya: { "Сердце": "Брадикардия, гипотензия", "Нервная система": "Головная боль, утомляемость, головокружение", "Прочее": "Холодные конечности (меньше, чем у других β-блокаторов)" },
+    dozadan: "Брадикардия, гипотензия, бронхоспазм; атропин, глюкагон, симптоматическая терапия.",
+    ozarotasir: ["С верапамилом/дилтиаземом тяжёлая брадикардия/блокада", "С антиаритмиками кардиодепрессия", "Ингибиторы CYP2D6 (пароксетин, флуоксетин) повышают концентрацию"],
+    qollash: { kattalar: "5 мг/сут (раз в сутки); у пожилых начинают с 2,5 мг.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 5 мг"
+  },
+  en: {
+    gruppa: "Beta-blockers — selective (β1)",
+    farmTasir: "Blood-pressure-lowering (β1-blocker + NO)",
+    farmakodinamika: `Nebivolol is a highly selective β1-blocker that additionally stimulates nitric oxide (NO) release in the endothelium, dilating vessels (vasodilation). This lowers heart rate and blood pressure and reduces peripheral resistance; it is metabolically neutral.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "High protein binding", metabolizm: "Hepatic CYP2D6 (active metabolites)", chiqarilish: "Renal/faecal; T½ ~10 h (longer in slow metabolisers)" },
+    korsatmalar: ["Arterial hypertension", "Chronic heart failure (in the elderly, add-on)"],
+    qarrshi: ["Severe bradycardia, SA/AV block (II–III)", "Decompensated heart failure", "Severe bronchospasm", "Severe hepatic impairment"],
+    nojoya: { "Cardiac": "Bradycardia, hypotension", "Nervous system": "Headache, fatigue, dizziness", "Other": "Cold extremities (less than other β-blockers)" },
+    dozadan: "Bradycardia, hypotension, bronchospasm; atropine, glucagon, supportive care.",
+    ozarotasir: ["With verapamil/diltiazem severe bradycardia/block", "With antiarrhythmics cardiodepression", "CYP2D6 inhibitors (paroxetine, fluoxetine) raise levels"],
+    qollash: { kattalar: "5 mg/day (once daily); start at 2.5 mg in the elderly.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 5 mg"
+  }
+},
+
+"C07AB02": {
+  uz: {
+    gruppa: "Beta-adrenoblokatorlar — selektiv (β1)",
+    farmTasir: "Qon bosimi va yurak urishini pasaytiruvchi (β1-blokator)",
+    farmakodinamika: `Metoprolol — selektiv β1-adrenoblokator. Yurak β1-retseptorlarini bloklaб yurak urishini, qisqarish kuchini va miokard kislorod ehtiyojини kamaytiradi. Gipertenziya, stenokardiya, aritmiya va miokard infarktidан keyin qo'llaniladi; surункali yurak yetishmovchiligida (suksinat shakли) prognozni yaxshilaydi.`,
+    farmakokinetika: { sorish: "Ichakdan (birinchi o'tish yuqori)", tarqalish: "To'qimalarга", metabolizm: "Jigarда CYP2D6", chiqarilish: "Buyrak orqали; T½ ~3–7 soat (suksinat — uzaytirilgan)" },
+    korsatmalar: ["Arterial gipertenziya, stenokardiya", "Taxiaritmiyalar, miokard infarkti (va keyin)", "Surункали yurak yetishmovchiligi (suksinat), migren profilaktikasi"],
+    qarrshi: ["Og'ir bradikardiya, SA/AV-blokada (II–III)", "Dekompensatsiyalangan yurak yetishmovchiligi", "Og'ir bronxial astma", "Kardiogen shok"],
+    nojoya: { "Yurak": "Bradikardiya, gipotenziya, AV-blokada", "Asab": "Charchoq, bosh aylanishi, depressiya", "Boshqa": "Sovuq oyoq-qo'l, bronxospazm" },
+    dozadan: "Bradikardiya, gipotenziya, bronxospazm; atropin, glyukagon, simptomatik davo.",
+    ozarotasir: ["Verapamil/diltiazem bilan og'ir bradikardiya/blokada", "CYP2D6 ingibitorlari (paroksetin, fluoksetin) konsentratsiyani oshiradi", "Gipoglikemiya belgilarini yashiradi"],
+    qollash: { kattalar: "Tartrat: 50–100 mg×1–2; suksinat (uzaytirilgan): 50–200 mg/sutka 1 marta.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar (tartrat) 50, 100 mg; uzaytirilgan tabletkalar (suksinat) 25, 50, 100 mg"
+  },
+  ru: {
+    gruppa: "Бета-адреноблокаторы — селективные (β1)",
+    farmTasir: "Снижающее АД и ЧСС (β1-блокатор)",
+    farmakodinamika: `Метопролол — селективный β1-адреноблокатор. Блокируя β1-рецепторы сердца, уменьшает ЧСС, силу сокращения и потребность миокарда в кислороде. Применяется при гипертензии, стенокардии, аритмиях и после инфаркта миокарда; при хронической сердечной недостаточности (форма сукцината) улучшает прогноз.`,
+    farmakokinetika: { sorish: "Из кишечника (высокий первичный пас)", tarqalish: "В ткани", metabolizm: "В печени CYP2D6", chiqarilish: "Почками; T½ ~3–7 ч (сукцинат — пролонгированный)" },
+    korsatmalar: ["Артериальная гипертензия, стенокардия", "Тахиаритмии, инфаркт миокарда (и после)", "Хроническая сердечная недостаточность (сукцинат), профилактика мигрени"],
+    qarrshi: ["Тяжёлая брадикардия, СА/AV-блокада (II–III)", "Декомпенсированная сердечная недостаточность", "Тяжёлая бронхиальная астма", "Кардиогенный шок"],
+    nojoya: { "Сердце": "Брадикардия, гипотензия, AV-блокада", "Нервная система": "Утомляемость, головокружение, депрессия", "Прочее": "Холодные конечности, бронхоспазм" },
+    dozadan: "Брадикардия, гипотензия, бронхоспазм; атропин, глюкагон, симптоматическая терапия.",
+    ozarotasir: ["С верапамилом/дилтиаземом тяжёлая брадикардия/блокада", "Ингибиторы CYP2D6 (пароксетин, флуоксетин) повышают концентрацию", "Маскирует симптомы гипогликемии"],
+    qollash: { kattalar: "Тартрат: 50–100 мг×1–2; сукцинат (пролонг.): 50–200 мг/сут 1 раз.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки (тартрат) 50, 100 мг; таблетки пролонгированные (сукцинат) 25, 50, 100 мг"
+  },
+  en: {
+    gruppa: "Beta-blockers — selective (β1)",
+    farmTasir: "Blood-pressure- and heart-rate-lowering (β1-blocker)",
+    farmakodinamika: `Metoprolol is a selective β1-blocker. By blocking cardiac β1 receptors it reduces heart rate, contractility and myocardial oxygen demand. It is used in hypertension, angina, arrhythmias and after myocardial infarction; in chronic heart failure (succinate form) it improves prognosis.`,
+    farmakokinetika: { sorish: "From the gut (high first-pass)", tarqalish: "Into tissues", metabolizm: "Hepatic CYP2D6", chiqarilish: "Renal; T½ ~3–7 h (succinate — extended-release)" },
+    korsatmalar: ["Arterial hypertension, angina", "Tachyarrhythmias, myocardial infarction (and after)", "Chronic heart failure (succinate), migraine prophylaxis"],
+    qarrshi: ["Severe bradycardia, SA/AV block (II–III)", "Decompensated heart failure", "Severe bronchial asthma", "Cardiogenic shock"],
+    nojoya: { "Cardiac": "Bradycardia, hypotension, AV block", "Nervous system": "Fatigue, dizziness, depression", "Other": "Cold extremities, bronchospasm" },
+    dozadan: "Bradycardia, hypotension, bronchospasm; atropine, glucagon, supportive care.",
+    ozarotasir: ["With verapamil/diltiazem severe bradycardia/block", "CYP2D6 inhibitors (paroxetine, fluoxetine) raise levels", "Masks hypoglycaemia symptoms"],
+    qollash: { kattalar: "Tartrate: 50–100 mg×1–2; succinate (XR): 50–200 mg/day once.", bolalar: "Not recommended" },
+    chiqarish: "Tablets (tartrate) 50, 100 mg; prolonged-release tablets (succinate) 25, 50, 100 mg"
+  }
+},
+
+"C07AG02": {
+  uz: {
+    gruppa: "Beta-adrenoblokatorlar — alfa va beta blokator",
+    farmTasir: "Qon bosimini pasaytiruvchi (α+β-blokator)",
+    farmakodinamika: `Karvedilol — noselektiv β-adrenoblokator bo'lib, qo'shimcha α1-blokatorlik (tomir kengaytiruvchi) va antioksidant ta'sirга ega. Yurak urishini sekinlashtiradi va periferik tomir qarshiligini kamaytiradi; surункali yurak yetishmovchiligida o'lim va kasalxonaга yotqizishni kamaytirishда kuchли isboti bor.`,
+    farmakokinetika: { sorish: "Ichakdan (birinchi o'tish yuqori)", tarqalish: "Oqsilга ~98%", metabolizm: "Jigarда CYP2D6/2C9", chiqarilish: "Asosан safro/najas; T½ ~6–10 soat" },
+    korsatmalar: ["Surункали yurak yetishmovchiligi (asta titrlanadi)", "Arterial gipertenziya, barqaror stenokardiya", "Chap qorincha disfunksiyasi (infarktdан keyin)"],
+    qarrshi: ["Dekompensatsiyalangan yurak yetishmovchiligi", "Og'ir bradikardiya, SA/AV-blokada (II–III)", "Bronxial astma", "Og'ir jigar yetishmovchiligi"],
+    nojoya: { "Yurak": "Bradikardiya, gipotenziya (ayniqsa ortostatik)", "Asab": "Bosh aylanishi, charchoq", "Boshqa": "Vazn ortishi/shish, giperglikemiya" },
+    dozadan: "Bradikardiya, gipotenziya, bronxospazm; atropin, glyukagon, simptomatik davo.",
+    ozarotasir: ["Verapamil/diltiazem bilan og'ir bradikardiya/blokada", "Digoksin darajasini oshiradi", "Insulin/qand kamaytiruvchilar bilan gipoglikemiya belgilarini yashiradi"],
+    qollash: { kattalar: "3,125 mg×2 dan boshlab, 2 haftaда oshirib 25 mg×2 gacha (yurak yetishmovchiligi); gipertenziya: 12,5–50 mg/sutka.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 3,125, 6,25, 12,5, 25 mg"
+  },
+  ru: {
+    gruppa: "Бета-адреноблокаторы — альфа- и бета-блокатор",
+    farmTasir: "Снижающее АД (α+β-блокатор)",
+    farmakodinamika: `Карведилол — неселективный β-адреноблокатор с дополнительным α1-блокирующим (сосудорасширяющим) и антиоксидантным действием. Замедляет ЧСС и снижает периферическое сосудистое сопротивление; при хронической сердечной недостаточности имеет сильные доказательства снижения смертности и госпитализаций.`,
+    farmakokinetika: { sorish: "Из кишечника (высокий первичный пас)", tarqalish: "С белками ~98%", metabolizm: "В печени CYP2D6/2C9", chiqarilish: "Преимущественно с желчью/калом; T½ ~6–10 ч" },
+    korsatmalar: ["Хроническая сердечная недостаточность (медленное титрование)", "Артериальная гипертензия, стабильная стенокардия", "Дисфункция левого желудочка (после инфаркта)"],
+    qarrshi: ["Декомпенсированная сердечная недостаточность", "Тяжёлая брадикардия, СА/AV-блокада (II–III)", "Бронхиальная астма", "Тяжёлая печёночная недостаточность"],
+    nojoya: { "Сердце": "Брадикардия, гипотензия (особенно ортостатическая)", "Нервная система": "Головокружение, утомляемость", "Прочее": "Прибавка массы/отёки, гипергликемия" },
+    dozadan: "Брадикардия, гипотензия, бронхоспазм; атропин, глюкагон, симптоматическая терапия.",
+    ozarotasir: ["С верапамилом/дилтиаземом тяжёлая брадикардия/блокада", "Повышает уровень дигоксина", "С инсулином/сахароснижающими маскирует симптомы гипогликемии"],
+    qollash: { kattalar: "С 3,125 мг×2, повышая каждые 2 нед до 25 мг×2 (сердечная недостаточность); гипертензия: 12,5–50 мг/сут.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 3,125, 6,25, 12,5, 25 мг"
+  },
+  en: {
+    gruppa: "Beta-blockers — alpha- and beta-blocker",
+    farmTasir: "Blood-pressure-lowering (α+β-blocker)",
+    farmakodinamika: `Carvedilol is a non-selective β-blocker with additional α1-blocking (vasodilator) and antioxidant action. It slows heart rate and reduces peripheral vascular resistance; in chronic heart failure it has strong evidence for reducing mortality and hospitalisations.`,
+    farmakokinetika: { sorish: "From the gut (high first-pass)", tarqalish: "~98% protein bound", metabolizm: "Hepatic CYP2D6/2C9", chiqarilish: "Mainly biliary/faecal; T½ ~6–10 h" },
+    korsatmalar: ["Chronic heart failure (slow titration)", "Arterial hypertension, stable angina", "Left ventricular dysfunction (after infarction)"],
+    qarrshi: ["Decompensated heart failure", "Severe bradycardia, SA/AV block (II–III)", "Bronchial asthma", "Severe hepatic impairment"],
+    nojoya: { "Cardiac": "Bradycardia, hypotension (especially orthostatic)", "Nervous system": "Dizziness, fatigue", "Other": "Weight gain/oedema, hyperglycaemia" },
+    dozadan: "Bradycardia, hypotension, bronchospasm; atropine, glucagon, supportive care.",
+    ozarotasir: ["With verapamil/diltiazem severe bradycardia/block", "Raises digoxin levels", "With insulin/hypoglycaemics masks hypoglycaemia symptoms"],
+    qollash: { kattalar: "From 3.125 mg×2, increasing every 2 weeks to 25 mg×2 (heart failure); hypertension: 12.5–50 mg/day.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 3.125, 6.25, 12.5, 25 mg"
+  }
+},
+
+"C07AA05": {
+  uz: {
+    gruppa: "Beta-adrenoblokatorlar — noselektiv",
+    farmTasir: "Noselektiv beta-blokator",
+    farmakodinamika: `Propranolol — birinchi va prototip noselektiv β-adrenoblokator (β1 va β2). Yurak urishi, qisqarish kuchi va miokard kislorod ehtiyojини kamaytiradi, renin ajralishini pasaytiradi, tremor va tashvishning somatik belgilarini kamaytiradi. Migren va essensial tremorда ham qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (birinchi o'tish yuqori)", tarqalish: "Yog'да eriydi, OMS ga o'tadi", metabolizm: "Jigarда CYP2D6/1A2", chiqarilish: "Buyrak orqали; T½ ~3–6 soat" },
+    korsatmalar: ["Arterial gipertenziya, stenokardiya, taxiaritmiyalar", "Migren va essensial tremor profilaktikasi", "Tireotoksikoz (simptomatik), feoxromasitoma (alfa-blokator bilan)"],
+    qarrshi: ["Bronxial astma/OO'SK (β2 blokadasi — bronxospazm)", "Og'ir bradikardiya, SA/AV-blokada (II–III)", "Dekompensatsiyalangan yurak yetishmovchiligi", "Kardiogen shok"],
+    nojoya: { "Yurak": "Bradikardiya, gipotenziya, AV-blokada", "Nafas": "Bronxospazm", "Asab": "Charchoq, uyqu buzilishi, depressiya", "Metabolik": "Gipoglikemiya belgilarini yashiradi" },
+    dozadan: "Bradikardiya, gipotenziya, bronxospazm, gipoglikemiya; atropin, glyukagon, simptomatik davo.",
+    ozarotasir: ["Verapamil/diltiazem bilan og'ir bradikardiya/blokada", "CYP2D6/1A2 ingibitorlari konsentratsiyani oshiradi", "NPVD antigipertenziv ta'sirini pasaytiradi"],
+    qollash: { kattalar: "40 mg×2–3 dan boshlab, holatga ko'ra 160–320 mg/sutkagacha.", bolalar: "Vaznга ko'ra (aritmiya/migren), nazorat ostида" },
+    chiqarish: "Tabletkalar 10, 40 mg; inyeksiya eritmasi"
+  },
+  ru: {
+    gruppa: "Бета-адреноблокаторы — неселективные",
+    farmTasir: "Неселективный бета-блокатор",
+    farmakodinamika: `Пропранолол — первый и прототипный неселективный β-адреноблокатор (β1 и β2). Уменьшает ЧСС, силу сокращения и потребность миокарда в кислороде, снижает выработку ренина, уменьшает тремор и соматические симптомы тревоги. Применяется также при мигрени и эссенциальном треморе.`,
+    farmakokinetika: { sorish: "Из кишечника (высокий первичный пас)", tarqalish: "Жирорастворим, проникает в ЦНС", metabolizm: "В печени CYP2D6/1A2", chiqarilish: "Почками; T½ ~3–6 ч" },
+    korsatmalar: ["Артериальная гипертензия, стенокардия, тахиаритмии", "Профилактика мигрени и эссенциального тремора", "Тиреотоксикоз (симптоматически), феохромоцитома (с альфа-блокатором)"],
+    qarrshi: ["Бронхиальная астма/ХОБЛ (блокада β2 — бронхоспазм)", "Тяжёлая брадикардия, СА/AV-блокада (II–III)", "Декомпенсированная сердечная недостаточность", "Кардиогенный шок"],
+    nojoya: { "Сердце": "Брадикардия, гипотензия, AV-блокада", "Дыхание": "Бронхоспазм", "Нервная система": "Утомляемость, нарушение сна, депрессия", "Метаболизм": "Маскирует симптомы гипогликемии" },
+    dozadan: "Брадикардия, гипотензия, бронхоспазм, гипогликемия; атропин, глюкагон, симптоматическая терапия.",
+    ozarotasir: ["С верапамилом/дилтиаземом тяжёлая брадикардия/блокада", "Ингибиторы CYP2D6/1A2 повышают концентрацию", "НПВП снижают гипотензивное действие"],
+    qollash: { kattalar: "С 40 мг×2–3, до 160–320 мг/сут по состоянию.", bolalar: "По массе (аритмия/мигрень), под контролем" },
+    chiqarish: "Таблетки 10, 40 мг; раствор для инъекций"
+  },
+  en: {
+    gruppa: "Beta-blockers — non-selective",
+    farmTasir: "Non-selective beta-blocker",
+    farmakodinamika: `Propranolol is the first, prototypical non-selective β-blocker (β1 and β2). It reduces heart rate, contractility and myocardial oxygen demand, lowers renin release and reduces tremor and somatic anxiety symptoms. It is also used for migraine and essential tremor.`,
+    farmakokinetika: { sorish: "From the gut (high first-pass)", tarqalish: "Lipid-soluble, crosses into the CNS", metabolizm: "Hepatic CYP2D6/1A2", chiqarilish: "Renal; T½ ~3–6 h" },
+    korsatmalar: ["Arterial hypertension, angina, tachyarrhythmias", "Prophylaxis of migraine and essential tremor", "Thyrotoxicosis (symptomatic), phaeochromocytoma (with an alpha-blocker)"],
+    qarrshi: ["Bronchial asthma/COPD (β2 blockade — bronchospasm)", "Severe bradycardia, SA/AV block (II–III)", "Decompensated heart failure", "Cardiogenic shock"],
+    nojoya: { "Cardiac": "Bradycardia, hypotension, AV block", "Respiratory": "Bronchospasm", "Nervous system": "Fatigue, sleep disturbance, depression", "Metabolic": "Masks hypoglycaemia symptoms" },
+    dozadan: "Bradycardia, hypotension, bronchospasm, hypoglycaemia; atropine, glucagon, supportive care.",
+    ozarotasir: ["With verapamil/diltiazem severe bradycardia/block", "CYP2D6/1A2 inhibitors raise levels", "NSAIDs reduce the antihypertensive effect"],
+    qollash: { kattalar: "From 40 mg×2–3, up to 160–320 mg/day by condition.", bolalar: "By weight (arrhythmia/migraine), under supervision" },
+    chiqarish: "Tablets 10, 40 mg; solution for injection"
+  }
+},
+
+"C07AB03": {
+  uz: {
+    gruppa: "Beta-adrenoblokatorlar — selektiv (β1)",
+    farmTasir: "Qon bosimi va yurak urishini pasaytiruvchi (β1-blokator)",
+    farmakodinamika: `Atenolol — suvда eriydigan selektiv β1-adrenoblokator. Yurak β1-retseptorlarini bloklaб yurak urishini va miokard kislorod ehtiyojини kamaytiradi, renin ajralishini pasaytiradi. Suvда eriydigani uchun OMS ga kam o'tadi — markaziy nojo'ya ta'sir (uyqu buzilishi) kamroq. Asosан buyrak orqали chiqariladi.`,
+    farmakokinetika: { sorish: "Ichakdan (~50%)", tarqalish: "Oqsilга past; OMS ga kam", metabolizm: "Deyarli metabolizmga uchramaydi", chiqarilish: "Asosан buyrak orqали o'zgarmagan; T½ ~6–9 soat" },
+    korsatmalar: ["Arterial gipertenziya, stenokardiya", "Taxiaritmiyalar, miokard infarkti"],
+    qarrshi: ["Og'ir bradikardiya, SA/AV-blokada (II–III)", "Dekompensatsiyalangan yurak yetishmovchiligi", "Bronxial astma og'ir shakli", "Og'ir buyrak yetishmovchiligi (doza sozlash)"],
+    nojoya: { "Yurak": "Bradikardiya, gipotenziya", "Asab": "Charchoq, sovuq oyoq-qo'l", "Metabolik": "Gipoglikemiya belgilarini yashiradi" },
+    dozadan: "Bradikardiya, gipotenziya, bronxospazm; atropin, glyukagon, gemodializ (suvда eruvchi).",
+    ozarotasir: ["Verapamil/diltiazem bilan og'ir bradikardiya/blokada", "NPVD antigipertenziv ta'sirini pasaytiradi", "Klonidin bilan to'xtatishда rebound gipertenziya"],
+    qollash: { kattalar: "25–50 mg/sutka, 100 mg gacha (kuniga 1 marta).", bolalar: "Vaznга ko'ra, ehtiyotkorlik bilan" },
+    chiqarish: "Tabletkalar 25, 50, 100 mg"
+  },
+  ru: {
+    gruppa: "Бета-адреноблокаторы — селективные (β1)",
+    farmTasir: "Снижающее АД и ЧСС (β1-блокатор)",
+    farmakodinamika: `Атенолол — водорастворимый селективный β1-адреноблокатор. Блокируя β1-рецепторы сердца, уменьшает ЧСС и потребность миокарда в кислороде, снижает выработку ренина. Будучи водорастворимым, мало проникает в ЦНС — меньше центральных побочных эффектов (нарушений сна). Выводится преимущественно почками.`,
+    farmakokinetika: { sorish: "Из кишечника (~50%)", tarqalish: "С белками низко; мало в ЦНС", metabolizm: "Практически не метаболизируется", chiqarilish: "Преимущественно почками в неизменённом виде; T½ ~6–9 ч" },
+    korsatmalar: ["Артериальная гипертензия, стенокардия", "Тахиаритмии, инфаркт миокарда"],
+    qarrshi: ["Тяжёлая брадикардия, СА/AV-блокада (II–III)", "Декомпенсированная сердечная недостаточность", "Тяжёлая бронхиальная астма", "Тяжёлая почечная недостаточность (коррекция дозы)"],
+    nojoya: { "Сердце": "Брадикардия, гипотензия", "Нервная система": "Утомляемость, холодные конечности", "Метаболизм": "Маскирует симптомы гипогликемии" },
+    dozadan: "Брадикардия, гипотензия, бронхоспазм; атропин, глюкагон, гемодиализ (водорастворимый).",
+    ozarotasir: ["С верапамилом/дилтиаземом тяжёлая брадикардия/блокада", "НПВП снижают гипотензивное действие", "С клонидином при отмене рикошетная гипертензия"],
+    qollash: { kattalar: "25–50 мг/сут, до 100 мг (раз в сутки).", bolalar: "По массе, с осторожностью" },
+    chiqarish: "Таблетки 25, 50, 100 мг"
+  },
+  en: {
+    gruppa: "Beta-blockers — selective (β1)",
+    farmTasir: "Blood-pressure- and heart-rate-lowering (β1-blocker)",
+    farmakodinamika: `Atenolol is a water-soluble selective β1-blocker. By blocking cardiac β1 receptors it reduces heart rate and myocardial oxygen demand and lowers renin release. Being water-soluble it crosses little into the CNS — fewer central side effects (sleep disturbance). It is eliminated mainly by the kidneys.`,
+    farmakokinetika: { sorish: "From the gut (~50%)", tarqalish: "Low protein binding; little CNS entry", metabolizm: "Essentially not metabolised", chiqarilish: "Mainly renal unchanged; T½ ~6–9 h" },
+    korsatmalar: ["Arterial hypertension, angina", "Tachyarrhythmias, myocardial infarction"],
+    qarrshi: ["Severe bradycardia, SA/AV block (II–III)", "Decompensated heart failure", "Severe bronchial asthma", "Severe renal impairment (dose adjustment)"],
+    nojoya: { "Cardiac": "Bradycardia, hypotension", "Nervous system": "Fatigue, cold extremities", "Metabolic": "Masks hypoglycaemia symptoms" },
+    dozadan: "Bradycardia, hypotension, bronchospasm; atropine, glucagon, haemodialysis (water-soluble).",
+    ozarotasir: ["With verapamil/diltiazem severe bradycardia/block", "NSAIDs reduce the antihypertensive effect", "With clonidine, rebound hypertension on withdrawal"],
+    qollash: { kattalar: "25–50 mg/day, up to 100 mg (once daily).", bolalar: "By weight, cautiously" },
+    chiqarish: "Tablets 25, 50, 100 mg"
+  }
+},
+
+"C07AB09": {
+  uz: {
+    gruppa: "Beta-adrenoblokatorlar — selektiv (β1), ultraqisqa",
+    farmTasir: "Ultraqisqa ta'sirли β1-blokator (v/i)",
+    farmakodinamika: `Esmolol — ultraqisqa ta'sirли selektiv β1-adrenoblokator. Yurak β1-retseptorlarini bloklaб yurak urishini va qon bosimini tez pasaytiradi. Qonда esterazalar tomonidan juda tez parchalanadi (T½ ~9 daqiqa), shu sababli ta'siri tez boshlanadi va tez tugaydi — operatsiya/reanimatsiyada o'tkir taxikardiya nazoratида qulay.`,
+    farmakokinetika: { sorish: "Faqat v/i infuziya", tarqalish: "To'qimalarга", metabolizm: "Eritrotsit esterazalar orqали tez", chiqarilish: "Buyrak orqали; T½ ~9 daqiqa" },
+    korsatmalar: ["O'tkir supraventrikulyar taxikardiya/taxiaritmiya (operatsiya davrida)", "Operatsiya/intubatsiya davridagi gipertenziya va taxikardiya"],
+    qarrshi: ["Og'ir bradikardiya, SA/AV-blokada (II–III)", "Kardiogen shok, dekompensatsiyalangan yurak yetishmovchiligi", "Og'ir gipotenziya", "Bronxospazm (og'ir)"],
+    nojoya: { "Yurak": "Gipotenziya (ko'p), bradikardiya", "Mahalliy": "Inyeksiya joyidagi reaksiya", "Asab": "Bosh aylanishi, ko'ngil aynishi" },
+    dozadan: "Gipotenziya, bradikardiya — infuziyani to'xtatish (tez tugaydi), atropin/glyukagon.",
+    ozarotasir: ["Verapamil/diltiazem bilan og'ir bradikardiya/gipotenziya", "Boshqa antigipertenziv vositalar ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "To'yintiruvchi 0,5 mg/kg v/i (1 daqiqа), keyin 0,05–0,2 mg/kg/daqiqa infuziya; faqat monitoring ostида.", bolalar: "Faqat nazorat ostида, vaznга ko'ra" },
+    chiqarish: "Infuziya uchun konsentrat/eritma 10, 250 mg/ml"
+  },
+  ru: {
+    gruppa: "Бета-адреноблокаторы — селективные (β1), ультракороткие",
+    farmTasir: "Ультракороткий β1-блокатор (в/в)",
+    farmakodinamika: `Эсмолол — ультракороткий селективный β1-адреноблокатор. Блокируя β1-рецепторы сердца, быстро снижает ЧСС и АД. Очень быстро разрушается эстеразами крови (T½ ~9 мин), поэтому действие начинается и прекращается быстро — удобен для контроля острой тахикардии в операционной/реанимации.`,
+    farmakokinetika: { sorish: "Только в/в инфузия", tarqalish: "В ткани", metabolizm: "Быстро эстеразами эритроцитов", chiqarilish: "Почками; T½ ~9 мин" },
+    korsatmalar: ["Острая суправентрикулярная тахикардия/тахиаритмия (периоперационно)", "Гипертензия и тахикардия при операции/интубации"],
+    qarrshi: ["Тяжёлая брадикардия, СА/AV-блокада (II–III)", "Кардиогенный шок, декомпенсированная сердечная недостаточность", "Тяжёлая гипотензия", "Тяжёлый бронхоспазм"],
+    nojoya: { "Сердце": "Гипотензия (часто), брадикардия", "Местные": "Реакция в месте инъекции", "Нервная система": "Головокружение, тошнота" },
+    dozadan: "Гипотензия, брадикардия — прекратить инфузию (быстро проходит), атропин/глюкагон.",
+    ozarotasir: ["С верапамилом/дилтиаземом тяжёлая брадикардия/гипотензия", "Усиливает действие других гипотензивных"],
+    qollash: { kattalar: "Нагрузочно 0,5 мг/кг в/в (за 1 мин), затем инфузия 0,05–0,2 мг/кг/мин; только под мониторингом.", bolalar: "Только под контролем, по массе" },
+    chiqarish: "Концентрат/раствор для инфузий 10, 250 мг/мл"
+  },
+  en: {
+    gruppa: "Beta-blockers — selective (β1), ultra-short-acting",
+    farmTasir: "Ultra-short-acting β1-blocker (IV)",
+    farmakodinamika: `Esmolol is an ultra-short-acting selective β1-blocker. By blocking cardiac β1 receptors it rapidly lowers heart rate and blood pressure. It is very quickly broken down by blood esterases (T½ ~9 min), so onset and offset are fast — convenient for controlling acute tachycardia in the operating room/ICU.`,
+    farmakokinetika: { sorish: "IV infusion only", tarqalish: "Into tissues", metabolizm: "Rapidly by red-cell esterases", chiqarilish: "Renal; T½ ~9 min" },
+    korsatmalar: ["Acute supraventricular tachycardia/tachyarrhythmia (perioperative)", "Hypertension and tachycardia during surgery/intubation"],
+    qarrshi: ["Severe bradycardia, SA/AV block (II–III)", "Cardiogenic shock, decompensated heart failure", "Severe hypotension", "Severe bronchospasm"],
+    nojoya: { "Cardiac": "Hypotension (common), bradycardia", "Local": "Injection-site reaction", "Nervous system": "Dizziness, nausea" },
+    dozadan: "Hypotension, bradycardia — stop the infusion (resolves quickly), atropine/glucagon.",
+    ozarotasir: ["With verapamil/diltiazem severe bradycardia/hypotension", "Enhances other antihypertensives"],
+    qollash: { kattalar: "Loading 0.5 mg/kg IV (over 1 min), then infusion 0.05–0.2 mg/kg/min; only under monitoring.", bolalar: "Only under supervision, by weight" },
+    chiqarish: "Concentrate/solution for infusion 10, 250 mg/mL"
+  }
 }
 
 };
