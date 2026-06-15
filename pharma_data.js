@@ -32060,6 +32060,342 @@ const PHARMA_DATA = {
     qollash: { kattalar: "0.25 mg (0.5 mL of 0.05%) IV slowly (diluted), 1–2 times daily; only under monitoring.", bolalar: "Only under supervision, by weight" },
     chiqarish: "Solution for injection 0.025%, 0.05% (ampoules)"
   }
+},
+
+"C01DA02": {
+  uz: {
+    gruppa: "Yurak vositalari — organik nitratlar",
+    farmTasir: "Tomir kengaytiruvchi (antianginal)",
+    farmakodinamika: `Nitroglitserin — organik nitrat. Organizmda azot oksidi (NO) ajratib, silliq mushak hujayralarida guanilatsiklazani faollashtiradi va sGMP ni oshiradi — bu tomirlarni bo'shashtiradi. Asosан venalarni kengaytirib yurakка qaytuvchi qonni (preload) kamaytiradi, koronar tomirlarni kengaytiradi — stenokardiya xurujini tez bartaraf etadi.`,
+    farmakokinetika: { sorish: "Til ostiga/transdermal/v/i (birinchi o'tish yuqori)", tarqalish: "To'qimalarга", metabolizm: "Jigarда tez", chiqarilish: "Buyrak orqали; ta'sir tez va qisqa (til osti)" },
+    korsatmalar: ["Stenokardiya xurujini bartaraf etish va profilaktikasi", "O'tkir koronar sindrom, o'pka shishi, gipertonik kriz (v/i)"],
+    qarrshi: ["Og'ir gipotenziya, gipovolemiya", "Fosfodiesteraza-5 ingibitorlari (sildenafil va boshq.) bilan birga (xavfli gipotenziya)", "Bosh ichi bosimining oshishi", "Gipertrofik obstruktiv kardiomiopatiya"],
+    nojoya: { "Tomir": "Bosh og'rig'i (xos), yuzning qizishi, ortostatik gipotenziya, refleks taxikardiya", "Boshqa": "Uzoq qabulда tolerantlik (nitratsiz interval kerak)" },
+    dozadan: "Og'ir gipotenziya, methemoglobinemiya; gorizontal holat, suyuqlik, metilen ko'ki.",
+    ozarotasir: ["PDE-5 ingibitorlari (sildenafil, tadalafil) bilan hayot uchun xavfli gipotenziya (man etiladi)", "Boshqa antigipertenziv/vazodilatatorlar bilan gipotenziya kuchayadi"],
+    qollash: { kattalar: "Xuruj: 0,5 mg til ostiga (5 daqiqada takror, maks. 3 marta); profilaktika: plastir/uzaytirilgan; v/i infuziya titrlanadi.", bolalar: "Faqat nazorat ostида" },
+    chiqarish: "Til osti tabletkalari 0,5 mg; sprey; transdermal plastir; infuziya konsentrati"
+  },
+  ru: {
+    gruppa: "Сердечные средства — органические нитраты",
+    farmTasir: "Сосудорасширяющее (антиангинальное)",
+    farmakodinamika: `Нитроглицерин — органический нитрат. Высвобождая в организме оксид азота (NO), активирует гуанилатциклазу в гладкомышечных клетках и повышает цГМФ — это расслабляет сосуды. Преимущественно расширяет вены, уменьшая возврат крови к сердцу (преднагрузку), и расширяет коронарные сосуды — быстро купирует приступ стенокардии.`,
+    farmakokinetika: { sorish: "Под язык/трансдермально/в/в (высокий первичный пас)", tarqalish: "В ткани", metabolizm: "Быстро в печени", chiqarilish: "Почками; действие быстрое и короткое (под язык)" },
+    korsatmalar: ["Купирование и профилактика приступа стенокардии", "Острый коронарный синдром, отёк лёгких, гипертонический криз (в/в)"],
+    qarrshi: ["Тяжёлая гипотензия, гиповолемия", "С ингибиторами фосфодиэстеразы-5 (силденафил и др.) (опасная гипотензия)", "Повышение внутричерепного давления", "Гипертрофическая обструктивная кардиомиопатия"],
+    nojoya: { "Сосудистые": "Головная боль (характерно), покраснение лица, ортостатическая гипотензия, рефлекторная тахикардия", "Прочее": "Толерантность при длительном приёме (нужен безнитратный интервал)" },
+    dozadan: "Тяжёлая гипотензия, метгемоглобинемия; горизонтальное положение, жидкость, метиленовый синий.",
+    ozarotasir: ["С ингибиторами ФДЭ-5 (силденафил, тадалафил) опасная для жизни гипотензия (противопоказано)", "С другими гипотензивными/вазодилататорами гипотензия усиливается"],
+    qollash: { kattalar: "Приступ: 0,5 мг под язык (повтор через 5 мин, макс. 3 раза); профилактика: пластырь/пролонг.; в/в инфузия титруется.", bolalar: "Только под контролем" },
+    chiqarish: "Таблетки подъязычные 0,5 мг; спрей; трансдермальный пластырь; концентрат для инфузий"
+  },
+  en: {
+    gruppa: "Cardiac drugs — organic nitrates",
+    farmTasir: "Vasodilator (antianginal)",
+    farmakodinamika: `Nitroglycerin is an organic nitrate. By releasing nitric oxide (NO) in the body it activates guanylate cyclase in smooth muscle cells and raises cGMP — relaxing vessels. It mainly dilates veins, reducing venous return to the heart (preload), and dilates coronary vessels — rapidly relieving an angina attack.`,
+    farmakokinetika: { sorish: "Sublingual/transdermal/IV (high first-pass)", tarqalish: "Into tissues", metabolizm: "Rapidly hepatic", chiqarilish: "Renal; action fast and short (sublingual)" },
+    korsatmalar: ["Relief and prevention of angina attacks", "Acute coronary syndrome, pulmonary oedema, hypertensive crisis (IV)"],
+    qarrshi: ["Severe hypotension, hypovolaemia", "With phosphodiesterase-5 inhibitors (sildenafil etc.) (dangerous hypotension)", "Raised intracranial pressure", "Hypertrophic obstructive cardiomyopathy"],
+    nojoya: { "Vascular": "Headache (characteristic), facial flushing, orthostatic hypotension, reflex tachycardia", "Other": "Tolerance with prolonged use (nitrate-free interval needed)" },
+    dozadan: "Severe hypotension, methaemoglobinaemia; supine position, fluids, methylene blue.",
+    ozarotasir: ["With PDE-5 inhibitors (sildenafil, tadalafil) life-threatening hypotension (contraindicated)", "With other antihypertensives/vasodilators hypotension increases"],
+    qollash: { kattalar: "Attack: 0.5 mg sublingually (repeat after 5 min, max 3 times); prophylaxis: patch/prolonged; IV infusion titrated.", bolalar: "Only under supervision" },
+    chiqarish: "Sublingual tablets 0.5 mg; spray; transdermal patch; infusion concentrate"
+  }
+},
+
+"C01DA08": {
+  uz: {
+    gruppa: "Yurak vositalari — organik nitratlar",
+    farmTasir: "Tomir kengaytiruvchi (antianginal)",
+    farmakodinamika: `Izosorbid dinitrat — organik nitrat, nitroglitseringa nisbatan uzoqroq ta'sir qiladi. Azot oksidi (NO) orqали tomirlarni (asosан venalarni) kengaytiradi, yurak preload va koronar qarshilikни kamaytiradi. Stenokardiya profilaktikasi va surункali yurak yetishmovchiligida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Til ostiga/ich (birinchi o'tish yuqori)", tarqalish: "To'qimalarга", metabolizm: "Jigarда faol izosorbid mononitratga", chiqarilish: "Buyrak orqали; ta'sir o'rtacha uzun" },
+    korsatmalar: ["Stenokardiya profilaktikasi (uzaytirilgan)", "Surункali yurak yetishmovchiligi (qo'shimcha), o'tkir holatда til ostiga"],
+    qarrshi: ["Og'ir gipotenziya, gipovolemiya", "PDE-5 ingibitorlari bilan birga", "Bosh ichi bosimining oshishi", "Gipertrofik obstruktiv kardiomiopatiya"],
+    nojoya: { "Tomir": "Bosh og'rig'i, yuzning qizishi, ortostatik gipotenziya, refleks taxikardiya", "Boshqa": "Tolerantlik (nitratsiz interval kerak)" },
+    dozadan: "Gipotenziya, methemoglobinemiya; gorizontal holat, suyuqlik, metilen ko'ki.",
+    ozarotasir: ["PDE-5 ingibitorlari bilan xavfli gipotenziya (man etiladi)", "Boshqa antigipertenziv/vazodilatatorlar bilan gipotenziya"],
+    qollash: { kattalar: "Til ostiga 5 mg (xuruj); profilaktika: 20–40 mg×2–3 yoki uzaytirilgan 40–80 mg/sutka.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 5, 10, 20 mg; uzaytirilgan shakl; sprey; infuziya konsentrati"
+  },
+  ru: {
+    gruppa: "Сердечные средства — органические нитраты",
+    farmTasir: "Сосудорасширяющее (антиангинальное)",
+    farmakodinamika: `Изосорбида динитрат — органический нитрат, действует дольше нитроглицерина. Через оксид азота (NO) расширяет сосуды (преимущественно вены), уменьшая преднагрузку и коронарное сопротивление. Применяется для профилактики стенокардии и при хронической сердечной недостаточности.`,
+    farmakokinetika: { sorish: "Под язык/внутрь (высокий первичный пас)", tarqalish: "В ткани", metabolizm: "В печени до активного изосорбида мононитрата", chiqarilish: "Почками; действие умеренно длительное" },
+    korsatmalar: ["Профилактика стенокардии (пролонгированная форма)", "Хроническая сердечная недостаточность (дополнительно), при острых состояниях под язык"],
+    qarrshi: ["Тяжёлая гипотензия, гиповолемия", "С ингибиторами ФДЭ-5", "Повышение внутричерепного давления", "Гипертрофическая обструктивная кардиомиопатия"],
+    nojoya: { "Сосудистые": "Головная боль, покраснение лица, ортостатическая гипотензия, рефлекторная тахикардия", "Прочее": "Толерантность (нужен безнитратный интервал)" },
+    dozadan: "Гипотензия, метгемоглобинемия; горизонтальное положение, жидкость, метиленовый синий.",
+    ozarotasir: ["С ингибиторами ФДЭ-5 опасная гипотензия (противопоказано)", "С другими гипотензивными/вазодилататорами гипотензия"],
+    qollash: { kattalar: "Под язык 5 мг (приступ); профилактика: 20–40 мг×2–3 или пролонг. 40–80 мг/сут.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 5, 10, 20 мг; пролонгированная форма; спрей; концентрат для инфузий"
+  },
+  en: {
+    gruppa: "Cardiac drugs — organic nitrates",
+    farmTasir: "Vasodilator (antianginal)",
+    farmakodinamika: `Isosorbide dinitrate is an organic nitrate, longer-acting than nitroglycerin. Through nitric oxide (NO) it dilates vessels (mainly veins), reducing preload and coronary resistance. It is used for angina prophylaxis and in chronic heart failure.`,
+    farmakokinetika: { sorish: "Sublingual/oral (high first-pass)", tarqalish: "Into tissues", metabolizm: "Hepatic to active isosorbide mononitrate", chiqarilish: "Renal; moderately long action" },
+    korsatmalar: ["Angina prophylaxis (prolonged form)", "Chronic heart failure (add-on), sublingual in acute states"],
+    qarrshi: ["Severe hypotension, hypovolaemia", "With PDE-5 inhibitors", "Raised intracranial pressure", "Hypertrophic obstructive cardiomyopathy"],
+    nojoya: { "Vascular": "Headache, facial flushing, orthostatic hypotension, reflex tachycardia", "Other": "Tolerance (nitrate-free interval needed)" },
+    dozadan: "Hypotension, methaemoglobinaemia; supine position, fluids, methylene blue.",
+    ozarotasir: ["With PDE-5 inhibitors dangerous hypotension (contraindicated)", "With other antihypertensives/vasodilators hypotension"],
+    qollash: { kattalar: "Sublingual 5 mg (attack); prophylaxis: 20–40 mg×2–3 or prolonged 40–80 mg/day.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 5, 10, 20 mg; prolonged form; spray; infusion concentrate"
+  }
+},
+
+"C01DA": {
+  uz: {
+    gruppa: "Yurak vositalari — organik nitratlar",
+    farmTasir: "Uzoq ta'sirли tomir kengaytiruvchi (antianginal)",
+    farmakodinamika: `Pentaeritritil tetranitrat — uzoq ta'sirли organik nitrat. Azot oksidi (NO) orqали tomirlarni (asosан venalarni) kengaytiradi, yurak preload va miokard kislorod ehtiyojini kamaytiradi. Ta'siri sekin boshlanadi va uzoq davom etadi — stenokardiya profilaktikasида qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда faol metabolitларга", chiqarilish: "Buyrak orqали; ta'sir uzun" },
+    korsatmalar: ["Surункali ishemik yurak kasalligida stenokardiya xurujini oldini olish"],
+    qarrshi: ["Og'ir gipotenziya, gipovolemiya", "PDE-5 ingibitorlari bilan birga", "O'tkir miokard infarkti og'ir gipotenziya bilan", "Bosh ichi bosimining oshishi"],
+    nojoya: { "Tomir": "Bosh og'rig'i, yuzning qizishi, ortostatik gipotenziya", "Boshqa": "Tolerantlik (uzoq qabulда)" },
+    dozadan: "Gipotenziya, methemoglobinemiya; gorizontal holat, simptomatik davo.",
+    ozarotasir: ["PDE-5 ingibitorlari bilan xavfli gipotenziya (man etiladi)", "Boshqa antigipertenziv vositalar bilan gipotenziya"],
+    qollash: { kattalar: "Profilaktika: 50–100 mg/sutka (bo'lib), ovqatдан oldin.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 50 mg; uzaytirilgan tabletkalar"
+  },
+  ru: {
+    gruppa: "Сердечные средства — органические нитраты",
+    farmTasir: "Длительно действующее сосудорасширяющее (антиангинальное)",
+    farmakodinamika: `Пентаэритритила тетранитрат — органический нитрат длительного действия. Через оксид азота (NO) расширяет сосуды (преимущественно вены), уменьшая преднагрузку и потребность миокарда в кислороде. Действие наступает медленно и длится долго — применяется для профилактики стенокардии.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени до активных метаболитов", chiqarilish: "Почками; действие длительное" },
+    korsatmalar: ["Профилактика приступов стенокардии при хронической ИБС"],
+    qarrshi: ["Тяжёлая гипотензия, гиповолемия", "С ингибиторами ФДЭ-5", "Острый инфаркт миокарда с тяжёлой гипотензией", "Повышение внутричерепного давления"],
+    nojoya: { "Сосудистые": "Головная боль, покраснение лица, ортостатическая гипотензия", "Прочее": "Толерантность (при длительном приёме)" },
+    dozadan: "Гипотензия, метгемоглобинемия; горизонтальное положение, симптоматическая терапия.",
+    ozarotasir: ["С ингибиторами ФДЭ-5 опасная гипотензия (противопоказано)", "С другими гипотензивными гипотензия"],
+    qollash: { kattalar: "Профилактика: 50–100 мг/сут (дробно), до еды.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 50 мг; таблетки пролонгированные"
+  },
+  en: {
+    gruppa: "Cardiac drugs — organic nitrates",
+    farmTasir: "Long-acting vasodilator (antianginal)",
+    farmakodinamika: `Pentaerithrityl tetranitrate is a long-acting organic nitrate. Through nitric oxide (NO) it dilates vessels (mainly veins), reducing preload and myocardial oxygen demand. Onset is slow and the effect lasts long — used for angina prophylaxis.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic to active metabolites", chiqarilish: "Renal; prolonged action" },
+    korsatmalar: ["Prevention of angina attacks in chronic ischaemic heart disease"],
+    qarrshi: ["Severe hypotension, hypovolaemia", "With PDE-5 inhibitors", "Acute myocardial infarction with severe hypotension", "Raised intracranial pressure"],
+    nojoya: { "Vascular": "Headache, facial flushing, orthostatic hypotension", "Other": "Tolerance (with prolonged use)" },
+    dozadan: "Hypotension, methaemoglobinaemia; supine position, supportive care.",
+    ozarotasir: ["With PDE-5 inhibitors dangerous hypotension (contraindicated)", "With other antihypertensives hypotension"],
+    qollash: { kattalar: "Prophylaxis: 50–100 mg/day (divided), before meals.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 50 mg; prolonged-release tablets"
+  }
+},
+
+"C01CA24": {
+  uz: {
+    gruppa: "Yurak stimulyatorlari — adrenergik va dofaminergik vositalar",
+    farmTasir: "Adrenomimetik (vazopressor, yurak stimulyatori)",
+    farmakodinamika: `Adrenalin (epinefrin) — tabiiy katexolamin, alfa va beta adrenoretseptorlarни qo'zg'atadi. Yurak urishi va qisqarish kuchini oshiradi (β1), bronxlarni kengaytiradi (β2), tomirlarни toraytiradi (α1, qon bosimini ko'taradi). Anafilaksiya va yurak to'xtashida hayot saqlovchi vosita.`,
+    farmakokinetika: { sorish: "Parenteral (m/i, v/i, teri ostiga)", tarqalish: "To'qimalarга", metabolizm: "MAO/KOMT orqали tez", chiqarilish: "Buyrak orqали; ta'sir juda qisqa" },
+    korsatmalar: ["Anafilaktik shok/og'ir allergik reaksiya (birinchi tanlov, m/i)", "Yurak to'xtashi (reanimatsiya)", "Og'ir bronxospazm; mahalliy anestetik bilan (vazokonstriktor)"],
+    qarrshi: ["Yuqori sezuvchanlik (nisbiy — hayotni saqlashда qarshi ko'rsatma yo'q)", "Ehtiyotkorlik — ishemik yurak kasalligi, gipertireoz, feoxromasitoma"],
+    nojoya: { "Yurak": "Taxikardiya, aritmiya, qon bosimi oshishi, stenokardiya", "Asab": "Tashvish, tremor, bosh og'rig'i", "Boshqa": "Giperglikemiya, oqarish" },
+    dozadan: "Og'ir gipertenziya, aritmiya, miya qon ketishi; alfa/beta-blokator, simptomatik davo.",
+    ozarotasir: ["MAO ingibitorlari, tritsiklik antidepressantlar bilan og'ir gipertenziya", "Noselektiv beta-blokerlar bilan paradoksal gipertenziya", "Galogenli anestetiklar bilan aritmiya"],
+    qollash: { kattalar: "Anafilaksiya: 0,3–0,5 mg (1:1000) m/i son tashqi yuzasiga, zarurда takror; yurak to'xtashida 1 mg v/i.", bolalar: "0,01 mg/kg m/i (maks. 0,3–0,5 mg)" },
+    chiqarish: "Inyeksiya eritmasi 1 mg/ml (1:1000); avtoinyektor"
+  },
+  ru: {
+    gruppa: "Стимуляторы сердца — адренергические и дофаминергические средства",
+    farmTasir: "Адреномиметик (вазопрессор, стимулятор сердца)",
+    farmakodinamika: `Адреналин (эпинефрин) — естественный катехоламин, возбуждает альфа- и бета-адренорецепторы. Повышает ЧСС и силу сокращения (β1), расширяет бронхи (β2), суживает сосуды (α1, повышает АД). Жизнеспасающее средство при анафилаксии и остановке сердца.`,
+    farmakokinetika: { sorish: "Парентерально (в/м, в/в, подкожно)", tarqalish: "В ткани", metabolizm: "Быстро МАО/КОМТ", chiqarilish: "Почками; действие очень короткое" },
+    korsatmalar: ["Анафилактический шок/тяжёлая аллергическая реакция (первый выбор, в/м)", "Остановка сердца (реанимация)", "Тяжёлый бронхоспазм; с местным анестетиком (вазоконстриктор)"],
+    qarrshi: ["Гиперчувствительность (относительно — при спасении жизни противопоказаний нет)", "Осторожно — ИБС, гипертиреоз, феохромоцитома"],
+    nojoya: { "Сердце": "Тахикардия, аритмия, повышение АД, стенокардия", "Нервная система": "Тревога, тремор, головная боль", "Прочее": "Гипергликемия, бледность" },
+    dozadan: "Тяжёлая гипертензия, аритмия, кровоизлияние в мозг; альфа/бета-блокатор, симптоматическая терапия.",
+    ozarotasir: ["С ингибиторами МАО, трициклическими антидепрессантами тяжёлая гипертензия", "С неселективными бета-блокаторами парадоксальная гипертензия", "С галогенированными анестетиками аритмия"],
+    qollash: { kattalar: "Анафилаксия: 0,3–0,5 мг (1:1000) в/м в наружную поверхность бедра, при необходимости повтор; при остановке сердца 1 мг в/в.", bolalar: "0,01 мг/кг в/м (макс. 0,3–0,5 мг)" },
+    chiqarish: "Раствор для инъекций 1 мг/мл (1:1000); автоинъектор"
+  },
+  en: {
+    gruppa: "Cardiac stimulants — adrenergic and dopaminergic agents",
+    farmTasir: "Adrenergic agonist (vasopressor, cardiac stimulant)",
+    farmakodinamika: `Adrenaline (epinephrine) is a natural catecholamine that stimulates alpha and beta adrenoceptors. It increases heart rate and contractility (β1), dilates the bronchi (β2) and constricts vessels (α1, raising blood pressure). It is a life-saving agent in anaphylaxis and cardiac arrest.`,
+    farmakokinetika: { sorish: "Parenteral (IM, IV, subcutaneous)", tarqalish: "Into tissues", metabolizm: "Rapidly by MAO/COMT", chiqarilish: "Renal; very short action" },
+    korsatmalar: ["Anaphylactic shock/severe allergic reaction (first-line, IM)", "Cardiac arrest (resuscitation)", "Severe bronchospasm; with a local anaesthetic (vasoconstrictor)"],
+    qarrshi: ["Hypersensitivity (relative — no contraindications in life-saving use)", "Caution — ischaemic heart disease, hyperthyroidism, phaeochromocytoma"],
+    nojoya: { "Cardiac": "Tachycardia, arrhythmia, raised blood pressure, angina", "Nervous system": "Anxiety, tremor, headache", "Other": "Hyperglycaemia, pallor" },
+    dozadan: "Severe hypertension, arrhythmia, cerebral haemorrhage; alpha/beta-blocker, supportive care.",
+    ozarotasir: ["With MAO inhibitors, tricyclic antidepressants severe hypertension", "With non-selective beta-blockers paradoxical hypertension", "With halogenated anaesthetics arrhythmia"],
+    qollash: { kattalar: "Anaphylaxis: 0.3–0.5 mg (1:1000) IM into the outer thigh, repeat if needed; cardiac arrest 1 mg IV.", bolalar: "0.01 mg/kg IM (max 0.3–0.5 mg)" },
+    chiqarish: "Solution for injection 1 mg/mL (1:1000); auto-injector"
+  }
+},
+
+"C01CA03": {
+  uz: {
+    gruppa: "Yurak stimulyatorlari — adrenergik va dofaminergik vositalar",
+    farmTasir: "Vazopressor (alfa-adrenomimetik)",
+    farmakodinamika: `Noradrenalin (norepinefrin) — tabiiy katexolamin, asosан alfa-1 adrenoretseptorlarни kuchли qo'zg'atadi (β1 ga kamroq). Tomirlarни kuchли toraytiradi va qon bosimini ko'taradi; periferik qarshilik oshadi. Septik va boshqa distributiv shokда birinchi tanlov vazopressor.`,
+    farmakokinetika: { sorish: "Faqat v/i infuziya", tarqalish: "To'qimalarга", metabolizm: "MAO/KOMT orqали tez", chiqarilish: "Buyrak orqали; ta'sir juda qisqa" },
+    korsatmalar: ["O'tkir gipotenziya/shok (ayniqsa septik shok)", "Reanimatsiyada qon bosimini qo'llab-quvvatlash"],
+    qarrshi: ["Gipovolemiya tuzatilmagan (avval suyuqlik)", "Ehtiyotkorlik — mezenterial/periferik tomir trombozi", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Og'ir gipertenziya, periferik/organ ishemiyasi (yuqori doza)", "Yurak": "Bradikardiya (refleks), aritmiya", "Mahalliy": "Tashqariga chiqsa to'qima nekrozi (xavfli)" },
+    dozadan: "Og'ir gipertenziya, ishemiya; infuziyani kamaytirish, alfa-blokator (fentolamin) ekstravazatsiyada.",
+    ozarotasir: ["MAO ingibitorlari/tritsiklik antidepressantlar bilan og'ir gipertenziya", "Galogenli anestetiklar bilan aritmiya"],
+    qollash: { kattalar: "0,05–0,3 mkg/kg/daqiqa v/i infuziya (markaziy vena orqали), qon bosimiga titrlanadi; faqat monitoring ostida.", bolalar: "Faqat nazorat ostида, vaznга ko'ra" },
+    chiqarish: "Infuziya uchun konsentrat 1, 2 mg/ml"
+  },
+  ru: {
+    gruppa: "Стимуляторы сердца — адренергические и дофаминергические средства",
+    farmTasir: "Вазопрессор (альфа-адреномиметик)",
+    farmakodinamika: `Норадреналин (норэпинефрин) — естественный катехоламин, сильно возбуждает преимущественно альфа-1 адренорецепторы (меньше β1). Сильно суживает сосуды и повышает АД; растёт периферическое сопротивление. Вазопрессор первого выбора при септическом и другом дистрибутивном шоке.`,
+    farmakokinetika: { sorish: "Только в/в инфузия", tarqalish: "В ткани", metabolizm: "Быстро МАО/КОМТ", chiqarilish: "Почками; действие очень короткое" },
+    korsatmalar: ["Острая гипотензия/шок (особенно септический шок)", "Поддержка АД в реанимации"],
+    qarrshi: ["Некорригированная гиповолемия (сначала жидкость)", "Осторожно — тромбоз мезентериальных/периферических сосудов", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Тяжёлая гипертензия, ишемия периферии/органов (высокая доза)", "Сердце": "Брадикардия (рефлекторная), аритмия", "Местные": "При попадании под кожу некроз тканей (опасно)" },
+    dozadan: "Тяжёлая гипертензия, ишемия; снижение инфузии, альфа-блокатор (фентоламин) при экстравазации.",
+    ozarotasir: ["С ингибиторами МАО/трициклическими антидепрессантами тяжёлая гипертензия", "С галогенированными анестетиками аритмия"],
+    qollash: { kattalar: "0,05–0,3 мкг/кг/мин в/в инфузия (через центральную вену), титруется по АД; только под мониторингом.", bolalar: "Только под контролем, по массе" },
+    chiqarish: "Концентрат для инфузий 1, 2 мг/мл"
+  },
+  en: {
+    gruppa: "Cardiac stimulants — adrenergic and dopaminergic agents",
+    farmTasir: "Vasopressor (alpha-adrenergic agonist)",
+    farmakodinamika: `Noradrenaline (norepinephrine) is a natural catecholamine that strongly stimulates mainly alpha-1 adrenoceptors (less β1). It strongly constricts vessels and raises blood pressure; peripheral resistance rises. It is the first-choice vasopressor in septic and other distributive shock.`,
+    farmakokinetika: { sorish: "IV infusion only", tarqalish: "Into tissues", metabolizm: "Rapidly by MAO/COMT", chiqarilish: "Renal; very short action" },
+    korsatmalar: ["Acute hypotension/shock (especially septic shock)", "Blood pressure support in intensive care"],
+    qarrshi: ["Uncorrected hypovolaemia (fluids first)", "Caution — mesenteric/peripheral vascular thrombosis", "Hypersensitivity"],
+    nojoya: { "Vascular": "Severe hypertension, peripheral/organ ischaemia (high dose)", "Cardiac": "Bradycardia (reflex), arrhythmia", "Local": "Tissue necrosis if extravasated (dangerous)" },
+    dozadan: "Severe hypertension, ischaemia; reduce infusion, alpha-blocker (phentolamine) for extravasation.",
+    ozarotasir: ["With MAO inhibitors/tricyclic antidepressants severe hypertension", "With halogenated anaesthetics arrhythmia"],
+    qollash: { kattalar: "0.05–0.3 µg/kg/min IV infusion (via a central vein), titrated to blood pressure; only under monitoring.", bolalar: "Only under supervision, by weight" },
+    chiqarish: "Concentrate for infusion 1, 2 mg/mL"
+  }
+},
+
+"C01CA04": {
+  uz: {
+    gruppa: "Yurak stimulyatorlari — adrenergik va dofaminergik vositalar",
+    farmTasir: "Inotrop/vazopressor (dofaminergik, dozaга bog'liq)",
+    farmakodinamika: `Dopamin — tabiiy katexolamin, ta'siri dozaга bog'liq: past dozаda dofamin retseptorlarini qo'zg'atib buyrak/mezenterial qon oqimini oshiradi; o'rta dozаda β1 orqали yurak qisqarishi va urishini kuchaytiradi; yuqori dozаda α1 orqали tomirlarни toraytirib qon bosimini ko'taradi. Shokда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Faqat v/i infuziya", tarqalish: "To'qimalarга", metabolizm: "MAO/KOMT orqали tez", chiqarilish: "Buyrak orqали; ta'sir juda qisqa" },
+    korsatmalar: ["O'tkir yurak yetishmovchiligi/shok (kardiogen, septik)", "Qon bosimi va diurezni qo'llab-quvvatlash"],
+    qarrshi: ["Feoxromasitoma", "Tuzatilmagan taxiaritmiya/qorincha fibrillyatsiyasi", "Tuzatilmagan gipovolemiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Yurak": "Taxikardiya, aritmiya, stenokardiya", "Tomir": "Yuqori dozада periferik ishemiya, gipertenziya", "Mahalliy": "Ekstravazatsiyada to'qima nekrozi" },
+    dozadan: "Taxiaritmiya, og'ir gipertenziya; infuziyani kamaytirish, fentolamin (ekstravazatsiya).",
+    ozarotasir: ["MAO ingibitorlari bilan ta'sir keskin kuchayadi (doza ~1/10)", "Galogenli anestetiklar bilan aritmiya", "Beta-blokerlar inotrop ta'sirini pasaytiradi"],
+    qollash: { kattalar: "2–20 mkg/kg/daqiqa v/i infuziya, javobга titrlanadi; faqat monitoring ostida.", bolalar: "Faqat nazorat ostида, vaznга ko'ra" },
+    chiqarish: "Infuziya uchun konsentrat 5, 40 mg/ml"
+  },
+  ru: {
+    gruppa: "Стимуляторы сердца — адренергические и дофаминергические средства",
+    farmTasir: "Инотроп/вазопрессор (дофаминергический, дозозависимый)",
+    farmakodinamika: `Дофамин — естественный катехоламин, действие дозозависимо: в низких дозах возбуждает дофаминовые рецепторы, повышая почечный/мезентериальный кровоток; в средних — через β1 усиливает сокращение и ЧСС; в высоких — через α1 суживает сосуды и повышает АД. Применяется при шоке.`,
+    farmakokinetika: { sorish: "Только в/в инфузия", tarqalish: "В ткани", metabolizm: "Быстро МАО/КОМТ", chiqarilish: "Почками; действие очень короткое" },
+    korsatmalar: ["Острая сердечная недостаточность/шок (кардиогенный, септический)", "Поддержка АД и диуреза"],
+    qarrshi: ["Феохромоцитома", "Некорригированная тахиаритмия/фибрилляция желудочков", "Некорригированная гиповолемия", "Гиперчувствительность"],
+    nojoya: { "Сердце": "Тахикардия, аритмия, стенокардия", "Сосудистые": "При высокой дозе ишемия периферии, гипертензия", "Местные": "При экстравазации некроз тканей" },
+    dozadan: "Тахиаритмия, тяжёлая гипертензия; снижение инфузии, фентоламин (экстравазация).",
+    ozarotasir: ["С ингибиторами МАО действие резко усиливается (доза ~1/10)", "С галогенированными анестетиками аритмия", "Бета-блокаторы снижают инотропное действие"],
+    qollash: { kattalar: "2–20 мкг/кг/мин в/в инфузия, титруется по ответу; только под мониторингом.", bolalar: "Только под контролем, по массе" },
+    chiqarish: "Концентрат для инфузий 5, 40 мг/мл"
+  },
+  en: {
+    gruppa: "Cardiac stimulants — adrenergic and dopaminergic agents",
+    farmTasir: "Inotrope/vasopressor (dopaminergic, dose-dependent)",
+    farmakodinamika: `Dopamine is a natural catecholamine with dose-dependent action: low doses stimulate dopamine receptors, increasing renal/mesenteric blood flow; medium doses act via β1 to increase contractility and heart rate; high doses act via α1 to constrict vessels and raise blood pressure. It is used in shock.`,
+    farmakokinetika: { sorish: "IV infusion only", tarqalish: "Into tissues", metabolizm: "Rapidly by MAO/COMT", chiqarilish: "Renal; very short action" },
+    korsatmalar: ["Acute heart failure/shock (cardiogenic, septic)", "Support of blood pressure and diuresis"],
+    qarrshi: ["Phaeochromocytoma", "Uncorrected tachyarrhythmia/ventricular fibrillation", "Uncorrected hypovolaemia", "Hypersensitivity"],
+    nojoya: { "Cardiac": "Tachycardia, arrhythmia, angina", "Vascular": "At high dose peripheral ischaemia, hypertension", "Local": "Tissue necrosis if extravasated" },
+    dozadan: "Tachyarrhythmia, severe hypertension; reduce infusion, phentolamine (extravasation).",
+    ozarotasir: ["With MAO inhibitors the effect is sharply enhanced (dose ~1/10)", "With halogenated anaesthetics arrhythmia", "Beta-blockers reduce the inotropic effect"],
+    qollash: { kattalar: "2–20 µg/kg/min IV infusion, titrated to response; only under monitoring.", bolalar: "Only under supervision, by weight" },
+    chiqarish: "Concentrate for infusion 5, 40 mg/mL"
+  }
+},
+
+"C01CA07": {
+  uz: {
+    gruppa: "Yurak stimulyatorlari — adrenergik va dofaminergik vositalar",
+    farmTasir: "Inotrop (β1-adrenomimetik)",
+    farmakodinamika: `Dobutamin — sintetik katexolamin, asosан β1-adrenoretseptorlarни qo'zg'atadi. Yurak qisqarish kuchini sezilarli oshiradi (musbat inotrop) va yurak chiqishini ko'paytiradi; β2 ta'siri tufayli periferik qarshilikني biroz kamaytiradi. Past yurak chiqishли yurak yetishmovchiligida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Faqat v/i infuziya", tarqalish: "To'qimalarга", metabolizm: "Tez (KOMT)", chiqarilish: "Buyrak orqали; ta'sir juda qisqa (T½ ~2 daqiqа)" },
+    korsatmalar: ["O'tkir dekompensatsiyalangan yurak yetishmovchiligi (past chiqish)", "Kardiogen shok (qo'shimcha), stress-exokardiografiya"],
+    qarrshi: ["Gipertrofik obstruktiv kardiomiopatiya", "Tuzatilmagan taxiaritmiya, og'ir aort stenozi", "Tuzatilmagan gipovolemiya", "Yuqori sezuvchanlik (sulfit)"],
+    nojoya: { "Yurak": "Taxikardiya, aritmiya, qon bosimi oshishi yoki pasayishi, stenokardiya", "Boshqa": "Bosh og'rig'i, ko'ngil aynishi" },
+    dozadan: "Taxiaritmiya, gipertenziya/gipotenziya; infuziyani kamaytirish, simptomatik davo.",
+    ozarotasir: ["Beta-blokerlar inotrop ta'sirini pasaytiradi", "MAO ingibitorlari bilan ta'sir kuchayadi", "Galogenli anestetiklar bilan aritmiya"],
+    qollash: { kattalar: "2–20 mkg/kg/daqiqa v/i infuziya, javobга titrlanadi; faqat monitoring ostida.", bolalar: "Faqat nazorat ostида, vaznга ko'ra" },
+    chiqarish: "Infuziya uchun konsentrat 12,5 mg/ml (250 mg flakon)"
+  },
+  ru: {
+    gruppa: "Стимуляторы сердца — адренергические и дофаминергические средства",
+    farmTasir: "Инотроп (β1-адреномиметик)",
+    farmakodinamika: `Добутамин — синтетический катехоламин, возбуждает преимущественно β1-адренорецепторы. Заметно усиливает силу сокращения сердца (положительное инотропное действие) и увеличивает сердечный выброс; за счёт β2 несколько снижает периферическое сопротивление. Применяется при сердечной недостаточности с низким выбросом.`,
+    farmakokinetika: { sorish: "Только в/в инфузия", tarqalish: "В ткани", metabolizm: "Быстро (КОМТ)", chiqarilish: "Почками; действие очень короткое (T½ ~2 мин)" },
+    korsatmalar: ["Острая декомпенсированная сердечная недостаточность (низкий выброс)", "Кардиогенный шок (дополнительно), стресс-эхокардиография"],
+    qarrshi: ["Гипертрофическая обструктивная кардиомиопатия", "Некорригированная тахиаритмия, тяжёлый аортальный стеноз", "Некорригированная гиповолемия", "Гиперчувствительность (сульфиты)"],
+    nojoya: { "Сердце": "Тахикардия, аритмия, повышение или снижение АД, стенокардия", "Прочее": "Головная боль, тошнота" },
+    dozadan: "Тахиаритмия, гипертензия/гипотензия; снижение инфузии, симптоматическая терапия.",
+    ozarotasir: ["Бета-блокаторы снижают инотропное действие", "С ингибиторами МАО действие усиливается", "С галогенированными анестетиками аритмия"],
+    qollash: { kattalar: "2–20 мкг/кг/мин в/в инфузия, титруется по ответу; только под мониторингом.", bolalar: "Только под контролем, по массе" },
+    chiqarish: "Концентрат для инфузий 12,5 мг/мл (флакон 250 мг)"
+  },
+  en: {
+    gruppa: "Cardiac stimulants — adrenergic and dopaminergic agents",
+    farmTasir: "Inotrope (β1-adrenergic agonist)",
+    farmakodinamika: `Dobutamine is a synthetic catecholamine that stimulates mainly β1-adrenoceptors. It markedly increases cardiac contractility (positive inotropy) and cardiac output; through β2 it slightly reduces peripheral resistance. It is used in low-output heart failure.`,
+    farmakokinetika: { sorish: "IV infusion only", tarqalish: "Into tissues", metabolizm: "Rapidly (COMT)", chiqarilish: "Renal; very short action (T½ ~2 min)" },
+    korsatmalar: ["Acute decompensated heart failure (low output)", "Cardiogenic shock (add-on), stress echocardiography"],
+    qarrshi: ["Hypertrophic obstructive cardiomyopathy", "Uncorrected tachyarrhythmia, severe aortic stenosis", "Uncorrected hypovolaemia", "Hypersensitivity (sulfites)"],
+    nojoya: { "Cardiac": "Tachycardia, arrhythmia, raised or lowered blood pressure, angina", "Other": "Headache, nausea" },
+    dozadan: "Tachyarrhythmia, hypertension/hypotension; reduce infusion, supportive care.",
+    ozarotasir: ["Beta-blockers reduce the inotropic effect", "With MAO inhibitors the effect increases", "With halogenated anaesthetics arrhythmia"],
+    qollash: { kattalar: "2–20 µg/kg/min IV infusion, titrated to response; only under monitoring.", bolalar: "Only under supervision, by weight" },
+    chiqarish: "Concentrate for infusion 12.5 mg/mL (250 mg vial)"
+  }
+},
+
+"C01CA06": {
+  uz: {
+    gruppa: "Yurak stimulyatorlari — adrenergik va dofaminergik vositalar",
+    farmTasir: "Vazopressor (alfa-1 adrenomimetik)",
+    farmakodinamika: `Fenilefrin — selektiv alfa-1 adrenomimetik. Tomirlarни toraytirib qon bosimini ko'taradi; bevosita yurakка ta'sir qilmaydi (refleks bradikardiya bo'lishi mumkin). Anesteziya/o't kasalligida gipotenziyani tuzatishда va mahalliy (burun, ko'z) tomir toraytiruvchi sifatида ishlatiladi.`,
+    farmakokinetika: { sorish: "Parenteral; mahalliy", tarqalish: "To'qimalarга", metabolizm: "MAO orqали", chiqarilish: "Buyrak orqали; ta'sir qisqa" },
+    korsatmalar: ["Anesteziya/operatsiya davridagi gipotenziya", "Burun bitishi (mahalliy), ko'z qorachig'ini kengaytirish (mahalliy)"],
+    qarrshi: ["Og'ir gipertenziya, og'ir koronar/periferik tomir kasalligi", "Yopiq burchakli glaukoma (mahalliy)", "Feoxromasitoma", "Yuqori sezuvchanlik"],
+    nojoya: { "Yurak-tomir": "Qon bosimi oshishi, refleks bradikardiya", "Asab": "Bosh og'rig'i, tashvish, tremor", "Mahalliy": "Burun shilliq qavatining quruqshashi/qaytar bitishi" },
+    dozadan: "Og'ir gipertenziya, bradikardiya; alfa-blokator (fentolamin), simptomatik davo.",
+    ozarotasir: ["MAO ingibitorlari/tritsiklik antidepressantlar bilan og'ir gipertenziya", "Noselektiv beta-blokerlar bilan gipertenziya"],
+    qollash: { kattalar: "Gipotenziya: 50–100 mkg v/i bolus yoki infuziya, titrlanadi; mahalliy preparatlar ko'rsatmaga ko'ra.", bolalar: "Faqat nazorat ostида" },
+    chiqarish: "Inyeksiya eritmasi; burun tomchilari/spreyi; ko'z tomchilari"
+  },
+  ru: {
+    gruppa: "Стимуляторы сердца — адренергические и дофаминергические средства",
+    farmTasir: "Вазопрессор (альфа-1 адреномиметик)",
+    farmakodinamika: `Фенилэфрин — селективный альфа-1 адреномиметик. Суживая сосуды, повышает АД; прямого действия на сердце нет (возможна рефлекторная брадикардия). Применяется для коррекции гипотензии при анестезии и как местное сосудосуживающее (нос, глаз).`,
+    farmakokinetika: { sorish: "Парентерально; местно", tarqalish: "В ткани", metabolizm: "МАО", chiqarilish: "Почками; действие короткое" },
+    korsatmalar: ["Гипотензия при анестезии/операции", "Заложенность носа (местно), расширение зрачка (местно)"],
+    qarrshi: ["Тяжёлая гипертензия, тяжёлые болезни коронарных/периферических сосудов", "Закрытоугольная глаукома (местно)", "Феохромоцитома", "Гиперчувствительность"],
+    nojoya: { "Сердечно-сосудистые": "Повышение АД, рефлекторная брадикардия", "Нервная система": "Головная боль, тревога, тремор", "Местные": "Сухость/реактивная заложенность слизистой носа" },
+    dozadan: "Тяжёлая гипертензия, брадикардия; альфа-блокатор (фентоламин), симптоматическая терапия.",
+    ozarotasir: ["С ингибиторами МАО/трициклическими антидепрессантами тяжёлая гипертензия", "С неселективными бета-блокаторами гипертензия"],
+    qollash: { kattalar: "Гипотензия: 50–100 мкг в/в болюс или инфузия, титруется; местные препараты по инструкции.", bolalar: "Только под контролем" },
+    chiqarish: "Раствор для инъекций; назальные капли/спрей; глазные капли"
+  },
+  en: {
+    gruppa: "Cardiac stimulants — adrenergic and dopaminergic agents",
+    farmTasir: "Vasopressor (alpha-1 adrenergic agonist)",
+    farmakodinamika: `Phenylephrine is a selective alpha-1 adrenergic agonist. By constricting vessels it raises blood pressure; it has no direct cardiac action (reflex bradycardia may occur). It is used to correct hypotension during anaesthesia and as a topical vasoconstrictor (nose, eye).`,
+    farmakokinetika: { sorish: "Parenteral; topical", tarqalish: "Into tissues", metabolizm: "By MAO", chiqarilish: "Renal; short action" },
+    korsatmalar: ["Hypotension during anaesthesia/surgery", "Nasal congestion (topical), pupil dilation (topical)"],
+    qarrshi: ["Severe hypertension, severe coronary/peripheral vascular disease", "Angle-closure glaucoma (topical)", "Phaeochromocytoma", "Hypersensitivity"],
+    nojoya: { "Cardiovascular": "Raised blood pressure, reflex bradycardia", "Nervous system": "Headache, anxiety, tremor", "Local": "Dryness/rebound congestion of the nasal mucosa" },
+    dozadan: "Severe hypertension, bradycardia; alpha-blocker (phentolamine), supportive care.",
+    ozarotasir: ["With MAO inhibitors/tricyclic antidepressants severe hypertension", "With non-selective beta-blockers hypertension"],
+    qollash: { kattalar: "Hypotension: 50–100 µg IV bolus or infusion, titrated; topical products per label.", bolalar: "Only under supervision" },
+    chiqarish: "Solution for injection; nasal drops/spray; eye drops"
+  }
 }
 
 };
