@@ -30674,6 +30674,300 @@ const PHARMA_DATA = {
     qollash: { kattalar: "From 7.5–15 mg/day, to 30–60 mg/day (once daily).", bolalar: "Not recommended" },
     chiqarish: "Tablets 7.5 mg, 30 mg"
   }
+},
+
+"C09CA01": {
+  uz: {
+    gruppa: "Angiotenzin II retseptor blokerlari (sartanlar)",
+    farmTasir: "Qon bosimini pasaytiruvchi (ARB)",
+    farmakodinamika: `Losartan — birinchi peroral angiotenzin II retseptor blokeri (ARB). Angiotenzin II ning AT1 retseptorlarini tanlab bloklaydi; natijada tomir torayishi, aldosteron ajralishi va natriy/suv ushlanishи kamayadi, qon bosimi pasayadi. AAF ingibitorlaridан farqli — bradikininни to'plamaydi, shu sababli quruq yo'tal kam. Siydik kislotani biroz kamaytiruvchi qo'shimcha ta'siri bor.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsilга yuqori", metabolizm: "Jigarда CYP2C9/3A4 (faol E-3174 metaboliti)", chiqarilish: "Buyrak/safro; faol metabolit T½ ~6–9 soat" },
+    korsatmalar: ["Arterial gipertenziya", "Chap qorincha gipertrofiyasi bilan insult profilaktikasi", "Diabetik nefropatiya (2-tip)"],
+    qarrshi: ["Homiladorlik (teratogen)", "Og'ir jigar yetishmovchiligi", "Ikki tomonlama buyrak arteriyasi stenozi", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Gipotenziya, bosh aylanishi", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Kamdan-kam — angionevrotik shish (AAF dан kam)" },
+    dozadan: "Gipotenziya, taxikardiya yoki bradikardiya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar/kaliy bilan giperkaliemiya", "NPVD samarani pasaytiradi va buyrakка zarar", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "50 mg/sutkaдан boshlab, 100 mg gacha (kuniga 1 marta).", bolalar: "≥6 yosh, vaznга ko'ra" },
+    chiqarish: "Plyonka qoplamali tabletkalar 25, 50, 100 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы рецепторов ангиотензина II (сартаны)",
+    farmTasir: "Снижающее АД (БРА)",
+    farmakodinamika: `Лозартан — первый пероральный блокатор рецепторов ангиотензина II (БРА). Избирательно блокирует AT1-рецепторы ангиотензина II; в результате уменьшаются сужение сосудов, выброс альдостерона и задержка натрия/воды, снижается АД. В отличие от ингибиторов АПФ не накапливает брадикинин, поэтому сухой кашель редок. Обладает дополнительным урикозурическим (снижение мочевой кислоты) действием.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Высокая связь с белками", metabolizm: "В печени CYP2C9/3A4 (активный метаболит E-3174)", chiqarilish: "Почками/с желчью; T½ активного метаболита ~6–9 ч" },
+    korsatmalar: ["Артериальная гипертензия", "Профилактика инсульта при гипертрофии левого желудочка", "Диабетическая нефропатия (2 тип)"],
+    qarrshi: ["Беременность (тератоген)", "Тяжёлая печёночная недостаточность", "Двусторонний стеноз почечных артерий", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Гипотензия, головокружение", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Редко — ангионевротический отёк (реже, чем на АПФ)" },
+    dozadan: "Гипотензия, тахикардия или брадикардия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками/калием гиперкалиемия", "НПВП снижают эффект и повреждают почки", "Повышает уровень лития"],
+    qollash: { kattalar: "С 50 мг/сут, до 100 мг (раз в сутки).", bolalar: "С 6 лет, по массе" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 25, 50, 100 мг"
+  },
+  en: {
+    gruppa: "Angiotensin II receptor blockers (sartans)",
+    farmTasir: "Blood-pressure-lowering (ARB)",
+    farmakodinamika: `Losartan is the first oral angiotensin II receptor blocker (ARB). It selectively blocks AT1 receptors of angiotensin II; this reduces vasoconstriction, aldosterone release and sodium/water retention, lowering blood pressure. Unlike ACE inhibitors it does not accumulate bradykinin, so dry cough is rare. It has an additional uricosuric (uric acid-lowering) effect.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "High protein binding", metabolizm: "Hepatic CYP2C9/3A4 (active metabolite E-3174)", chiqarilish: "Renal/biliary; active metabolite T½ ~6–9 h" },
+    korsatmalar: ["Arterial hypertension", "Stroke prevention with left ventricular hypertrophy", "Diabetic nephropathy (type 2)"],
+    qarrshi: ["Pregnancy (teratogen)", "Severe hepatic impairment", "Bilateral renal artery stenosis", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension, dizziness", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Rarely angioedema (less than with ACE inhibitors)" },
+    dozadan: "Hypotension, tachycardia or bradycardia; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics/potassium hyperkalaemia", "NSAIDs reduce the effect and harm the kidneys", "Raises lithium levels"],
+    qollash: { kattalar: "From 50 mg/day, to 100 mg (once daily).", bolalar: "From 6 years, by weight" },
+    chiqarish: "Film-coated tablets 25, 50, 100 mg"
+  }
+},
+
+"C09CA03": {
+  uz: {
+    gruppa: "Angiotenzin II retseptor blokerlari (sartanlar)",
+    farmTasir: "Qon bosimini pasaytiruvchi (ARB)",
+    farmakodinamika: `Valsartan — selektiv angiotenzin II AT1 retseptor blokeri. Angiotenzin II ning tomir toraytiruvchi va aldosteron oshiruvchi ta'sirини to'sib qon bosimini pasaytiradi. Yurak yetishmovchiligi va miokard infarktidан keyin yurak qayta tuzilишини (remodelling) kamaytiradi va prognozni yaxshilaydi.`,
+    farmakokinetika: { sorish: "Ichakdan (~23%)", tarqalish: "Oqsilга ~95%", metabolizm: "Minimal", chiqarilish: "Asosан safro/najas; T½ ~6 soat" },
+    korsatmalar: ["Arterial gipertenziya", "Surункали yurak yetishmovchiligi", "Yaqinда o'tkazilgan miokard infarkti (chap qorincha disfunksiyasi bilan)"],
+    qarrshi: ["Homiladorlik (teratogen)", "Og'ir jigar yetishmovchiligi, o't yo'li tutilishi", "Ikki tomonlama buyrak arteriyasi stenozi", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Gipotenziya, bosh aylanishi", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Charchoq; kamdan-kam angionevrotik shish" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "80 mg/sutkaдан boshlab, 160–320 mg gacha (kuniga 1 marta).", bolalar: "≥6 yosh, vaznга ko'ra" },
+    chiqarish: "Plyonka qoplamali tabletkalar 40, 80, 160 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы рецепторов ангиотензина II (сартаны)",
+    farmTasir: "Снижающее АД (БРА)",
+    farmakodinamika: `Валсартан — селективный блокатор AT1-рецепторов ангиотензина II. Блокируя сосудосуживающее и альдостерон-стимулирующее действие ангиотензина II, снижает АД. При сердечной недостаточности и после инфаркта миокарда уменьшает ремоделирование сердца и улучшает прогноз.`,
+    farmakokinetika: { sorish: "Из кишечника (~23%)", tarqalish: "С белками ~95%", metabolizm: "Минимальный", chiqarilish: "Преимущественно с желчью/калом; T½ ~6 ч" },
+    korsatmalar: ["Артериальная гипертензия", "Хроническая сердечная недостаточность", "Недавний инфаркт миокарда (с дисфункцией левого желудочка)"],
+    qarrshi: ["Беременность (тератоген)", "Тяжёлая печёночная недостаточность, обструкция желчевыводящих путей", "Двусторонний стеноз почечных артерий", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Гипотензия, головокружение", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Утомляемость; редко ангионевротический отёк" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект", "Повышает уровень лития"],
+    qollash: { kattalar: "С 80 мг/сут, до 160–320 мг (раз в сутки).", bolalar: "С 6 лет, по массе" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 40, 80, 160 мг"
+  },
+  en: {
+    gruppa: "Angiotensin II receptor blockers (sartans)",
+    farmTasir: "Blood-pressure-lowering (ARB)",
+    farmakodinamika: `Valsartan is a selective angiotensin II AT1 receptor blocker. By blocking the vasoconstrictor and aldosterone-stimulating action of angiotensin II it lowers blood pressure. In heart failure and after myocardial infarction it reduces cardiac remodelling and improves prognosis.`,
+    farmakokinetika: { sorish: "From the gut (~23%)", tarqalish: "~95% protein bound", metabolizm: "Minimal", chiqarilish: "Mainly biliary/faecal; T½ ~6 h" },
+    korsatmalar: ["Arterial hypertension", "Chronic heart failure", "Recent myocardial infarction (with left ventricular dysfunction)"],
+    qarrshi: ["Pregnancy (teratogen)", "Severe hepatic impairment, biliary obstruction", "Bilateral renal artery stenosis", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension, dizziness", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Fatigue; rarely angioedema" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect", "Raises lithium levels"],
+    qollash: { kattalar: "From 80 mg/day, to 160–320 mg (once daily).", bolalar: "From 6 years, by weight" },
+    chiqarish: "Film-coated tablets 40, 80, 160 mg"
+  }
+},
+
+"C09CA04": {
+  uz: {
+    gruppa: "Angiotenzin II retseptor blokerlari (sartanlar)",
+    farmTasir: "Qon bosimini pasaytiruvchi (ARB)",
+    farmakodinamika: `Irbesartan — uzoq ta'sirли selektiv AT1 retseptor blokeri. Angiotenzin II ta'sirини to'sib tomirlarni kengaytiradi va qon bosimini pasaytiradi; 2-tip qandli diabetда buyrakни himoya qiladi (nefroprotektiv). Sutkada bir marta qabul qilinadi.`,
+    farmakokinetika: { sorish: "Ichakdan (biokirish ~60–80%)", tarqalish: "Oqsilга ~96%", metabolizm: "Jigarда CYP2C9", chiqarilish: "Asosан safro/najas; T½ ~11–15 soat" },
+    korsatmalar: ["Arterial gipertenziya", "2-tip diabetда diabetik nefropatiya"],
+    qarrshi: ["Homiladorlik (teratogen)", "Ikki tomonlama buyrak arteriyasi stenozi", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Gipotenziya, bosh aylanishi", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Charchoq" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "150 mg/sutkaдан boshlab, 300 mg gacha (kuniga 1 marta).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 150, 300 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы рецепторов ангиотензина II (сартаны)",
+    farmTasir: "Снижающее АД (БРА)",
+    farmakodinamika: `Ирбесартан — селективный блокатор AT1-рецепторов длительного действия. Блокируя действие ангиотензина II, расширяет сосуды и снижает АД; при сахарном диабете 2 типа защищает почки (нефропротекция). Принимается раз в сутки.`,
+    farmakokinetika: { sorish: "Из кишечника (биодоступность ~60–80%)", tarqalish: "С белками ~96%", metabolizm: "В печени CYP2C9", chiqarilish: "Преимущественно с желчью/калом; T½ ~11–15 ч" },
+    korsatmalar: ["Артериальная гипертензия", "Диабетическая нефропатия при диабете 2 типа"],
+    qarrshi: ["Беременность (тератоген)", "Двусторонний стеноз почечных артерий", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Гипотензия, головокружение", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Утомляемость" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект", "Повышает уровень лития"],
+    qollash: { kattalar: "С 150 мг/сут, до 300 мг (раз в сутки).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 150, 300 мг"
+  },
+  en: {
+    gruppa: "Angiotensin II receptor blockers (sartans)",
+    farmTasir: "Blood-pressure-lowering (ARB)",
+    farmakodinamika: `Irbesartan is a long-acting selective AT1 receptor blocker. By blocking angiotensin II it dilates vessels and lowers blood pressure; in type 2 diabetes it protects the kidneys (nephroprotection). It is taken once daily.`,
+    farmakokinetika: { sorish: "From the gut (bioavailability ~60–80%)", tarqalish: "~96% protein bound", metabolizm: "Hepatic CYP2C9", chiqarilish: "Mainly biliary/faecal; T½ ~11–15 h" },
+    korsatmalar: ["Arterial hypertension", "Diabetic nephropathy in type 2 diabetes"],
+    qarrshi: ["Pregnancy (teratogen)", "Bilateral renal artery stenosis", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension, dizziness", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Fatigue" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect", "Raises lithium levels"],
+    qollash: { kattalar: "From 150 mg/day, to 300 mg (once daily).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 150, 300 mg"
+  }
+},
+
+"C09CA06": {
+  uz: {
+    gruppa: "Angiotenzin II retseptor blokerlari (sartanlar)",
+    farmTasir: "Qon bosimini pasaytiruvchi (ARB)",
+    farmakodinamika: `Kandesartan — kuchли va uzoq ta'sirли selektiv AT1 retseptor blokeri (prodori — kandesartan sileksetil). Angiotenzin II ni to'sib tomirlarni kengaytiradi va qon bosimini bir sutka davomida barqaror nazorat qiladi. Yurak yetishmovchiligida prognozni yaxshilaydi.`,
+    farmakokinetika: { sorish: "Ichakdan, faol kandesartanga aylanadi", tarqalish: "Oqsilга >99%", metabolizm: "Minimal", chiqarilish: "Buyrak/safro; T½ ~9 soat" },
+    korsatmalar: ["Arterial gipertenziya", "Surункали yurak yetishmovchiligi (chap qorincha disfunksiyasi)"],
+    qarrshi: ["Homiladorlik (teratogen)", "Og'ir jigar yetishmovchiligi/xolestaz", "Ikki tomonlama buyrak arteriyasi stenozi", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Gipotenziya, bosh aylanishi", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Bosh og'rig'i" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "Gipertenziya: 8 mg/sutkaдан boshlab, 16–32 mg gacha; yurak yetishmovchiligi: 4 mg dan asta titrlanadi.", bolalar: "≥6 yosh, vaznга ko'ra" },
+    chiqarish: "Tabletkalar 8, 16, 32 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы рецепторов ангиотензина II (сартаны)",
+    farmTasir: "Снижающее АД (БРА)",
+    farmakodinamika: `Кандесартан — сильный и длительно действующий селективный блокатор AT1-рецепторов (пролекарство — кандесартана цилексетил). Блокируя ангиотензин II, расширяет сосуды и стабильно контролирует АД в течение суток. При сердечной недостаточности улучшает прогноз.`,
+    farmakokinetika: { sorish: "Из кишечника, превращается в активный кандесартан", tarqalish: "С белками >99%", metabolizm: "Минимальный", chiqarilish: "Почками/с желчью; T½ ~9 ч" },
+    korsatmalar: ["Артериальная гипертензия", "Хроническая сердечная недостаточность (дисфункция левого желудочка)"],
+    qarrshi: ["Беременность (тератоген)", "Тяжёлая печёночная недостаточность/холестаз", "Двусторонний стеноз почечных артерий", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Гипотензия, головокружение", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Головная боль" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект", "Повышает уровень лития"],
+    qollash: { kattalar: "Гипертензия: с 8 мг/сут, до 16–32 мг; сердечная недостаточность: с 4 мг с титрованием.", bolalar: "С 6 лет, по массе" },
+    chiqarish: "Таблетки 8, 16, 32 мг"
+  },
+  en: {
+    gruppa: "Angiotensin II receptor blockers (sartans)",
+    farmTasir: "Blood-pressure-lowering (ARB)",
+    farmakodinamika: `Candesartan is a potent, long-acting selective AT1 receptor blocker (prodrug — candesartan cilexetil). By blocking angiotensin II it dilates vessels and controls blood pressure steadily over 24 h. In heart failure it improves prognosis.`,
+    farmakokinetika: { sorish: "From the gut, converted to active candesartan", tarqalish: ">99% protein bound", metabolizm: "Minimal", chiqarilish: "Renal/biliary; T½ ~9 h" },
+    korsatmalar: ["Arterial hypertension", "Chronic heart failure (left ventricular dysfunction)"],
+    qarrshi: ["Pregnancy (teratogen)", "Severe hepatic impairment/cholestasis", "Bilateral renal artery stenosis", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension, dizziness", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Headache" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect", "Raises lithium levels"],
+    qollash: { kattalar: "Hypertension: from 8 mg/day, to 16–32 mg; heart failure: from 4 mg with titration.", bolalar: "From 6 years, by weight" },
+    chiqarish: "Tablets 8, 16, 32 mg"
+  }
+},
+
+"C09CA07": {
+  uz: {
+    gruppa: "Angiotenzin II retseptor blokerlari (sartanlar)",
+    farmTasir: "Qon bosimini pasaytiruvchi (ARB)",
+    farmakodinamika: `Telmisartan — eng uzoq ta'sirли ARB (T½ ~24 soat). Angiotenzin II AT1 retseptorlarini to'sib tomirlarni kengaytiradi; qisman PPAR-gamma retseptorlarini ham faollashtiradi (metabolik foyda). Sutka davomida barqaror qon bosimini nazorat qiladi va yuqori xavfли bemorlarда yurak-tomir asoratlарини kamaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsilга >99%", metabolizm: "Glyukuronlanish (CYP ishtirokisiz)", chiqarilish: "Asosан safro/najas; T½ ~24 soat" },
+    korsatmalar: ["Arterial gipertenziya", "Yuqori yurak-tomir xavfини kamaytirish (asorat profilaktikasi)"],
+    qarrshi: ["Homiladorlik (teratogen)", "O't yo'li tutilishi, og'ir jigar yetishmovchiligi", "Ikki tomonlama buyrak arteriyasi stenozi", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Gipotenziya, bosh aylanishi", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Bel/mushak og'rig'i" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "Digoksin darajasini oshiradi", "NPVD samarani pasaytiradi"],
+    qollash: { kattalar: "40 mg/sutkaдан boshlab, 80 mg gacha (kuniga 1 marta).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 40, 80 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы рецепторов ангиотензина II (сартаны)",
+    farmTasir: "Снижающее АД (БРА)",
+    farmakodinamika: `Телмисартан — БРА с наибольшей длительностью действия (T½ ~24 ч). Блокируя AT1-рецепторы ангиотензина II, расширяет сосуды; частично активирует и PPAR-гамма рецепторы (метаболическая польза). Стабильно контролирует АД в течение суток и снижает сердечно-сосудистые осложнения у пациентов высокого риска.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "С белками >99%", metabolizm: "Глюкуронирование (без участия CYP)", chiqarilish: "Преимущественно с желчью/калом; T½ ~24 ч" },
+    korsatmalar: ["Артериальная гипертензия", "Снижение высокого сердечно-сосудистого риска (профилактика осложнений)"],
+    qarrshi: ["Беременность (тератоген)", "Обструкция желчевыводящих путей, тяжёлая печёночная недостаточность", "Двусторонний стеноз почечных артерий", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Гипотензия, головокружение", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Боль в спине/мышцах" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "Повышает уровень дигоксина", "НПВП снижают эффект"],
+    qollash: { kattalar: "С 40 мг/сут, до 80 мг (раз в сутки).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 40, 80 мг"
+  },
+  en: {
+    gruppa: "Angiotensin II receptor blockers (sartans)",
+    farmTasir: "Blood-pressure-lowering (ARB)",
+    farmakodinamika: `Telmisartan is the longest-acting ARB (T½ ~24 h). By blocking angiotensin II AT1 receptors it dilates vessels; it partly activates PPAR-gamma receptors too (metabolic benefit). It controls blood pressure steadily over 24 h and reduces cardiovascular events in high-risk patients.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: ">99% protein bound", metabolizm: "Glucuronidation (no CYP involvement)", chiqarilish: "Mainly biliary/faecal; T½ ~24 h" },
+    korsatmalar: ["Arterial hypertension", "Reducing high cardiovascular risk (event prevention)"],
+    qarrshi: ["Pregnancy (teratogen)", "Biliary obstruction, severe hepatic impairment", "Bilateral renal artery stenosis", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension, dizziness", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Back/muscle pain" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "Raises digoxin levels", "NSAIDs reduce the effect"],
+    qollash: { kattalar: "From 40 mg/day, to 80 mg (once daily).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 40, 80 mg"
+  }
+},
+
+"C09CA08": {
+  uz: {
+    gruppa: "Angiotenzin II retseptor blokerlari (sartanlar)",
+    farmTasir: "Qon bosimini pasaytiruvchi (ARB)",
+    farmakodinamika: `Olmesartan medoksomil — prodori, ichakда faol olmesartanga aylanadi. Selektiv AT1 retseptor blokeri sifatида angiotenzin II ta'sirини to'sib tomirlarni kengaytiradi va qon bosimini sutka davomida pasaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan, faol olmesartanga aylanadi", tarqalish: "Oqsilга ~99%", metabolizm: "Qo'shimcha metabolizmga uchramaydi", chiqarilish: "Buyrak/safro; T½ ~13 soat" },
+    korsatmalar: ["Arterial gipertenziya"],
+    qarrshi: ["Homiladorlik (teratogen)", "O't yo'li tutilishi", "Ikki tomonlama buyrak arteriyasi stenozi", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Gipotenziya, bosh aylanishi", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Oshqozon-ichak": "Kamdan-kam — sprue-ga o'xshash enteropatiya (surункali diareya)" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "20 mg/sutkaдан boshlab, 40 mg gacha (kuniga 1 marta).", bolalar: "≥6 yosh, vaznга ko'ra" },
+    chiqarish: "Tabletkalar 10, 20, 40 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы рецепторов ангиотензина II (сартаны)",
+    farmTasir: "Снижающее АД (БРА)",
+    farmakodinamika: `Олмесартана медоксомил — пролекарство, в кишечнике превращается в активный олмесартан. Как селективный блокатор AT1-рецепторов блокирует действие ангиотензина II, расширяет сосуды и снижает АД в течение суток.`,
+    farmakokinetika: { sorish: "Из кишечника, превращается в активный олмесартан", tarqalish: "С белками ~99%", metabolizm: "Дальнейшему метаболизму не подвергается", chiqarilish: "Почками/с желчью; T½ ~13 ч" },
+    korsatmalar: ["Артериальная гипертензия"],
+    qarrshi: ["Беременность (тератоген)", "Обструкция желчевыводящих путей", "Двусторонний стеноз почечных артерий", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Гипотензия, головокружение", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "ЖКТ": "Редко — спру-подобная энтеропатия (хроническая диарея)" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект", "Повышает уровень лития"],
+    qollash: { kattalar: "С 20 мг/сут, до 40 мг (раз в сутки).", bolalar: "С 6 лет, по массе" },
+    chiqarish: "Таблетки 10, 20, 40 мг"
+  },
+  en: {
+    gruppa: "Angiotensin II receptor blockers (sartans)",
+    farmTasir: "Blood-pressure-lowering (ARB)",
+    farmakodinamika: `Olmesartan medoxomil is a prodrug converted in the gut to active olmesartan. As a selective AT1 receptor blocker it blocks angiotensin II, dilates vessels and lowers blood pressure over 24 h.`,
+    farmakokinetika: { sorish: "From the gut, converted to active olmesartan", tarqalish: "~99% protein bound", metabolizm: "Not further metabolised", chiqarilish: "Renal/biliary; T½ ~13 h" },
+    korsatmalar: ["Arterial hypertension"],
+    qarrshi: ["Pregnancy (teratogen)", "Biliary obstruction", "Bilateral renal artery stenosis", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension, dizziness", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "GI": "Rarely sprue-like enteropathy (chronic diarrhoea)" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect", "Raises lithium levels"],
+    qollash: { kattalar: "From 20 mg/day, to 40 mg (once daily).", bolalar: "From 6 years, by weight" },
+    chiqarish: "Tablets 10, 20, 40 mg"
+  }
+},
+
+"C09DA09": {
+  uz: {
+    gruppa: "Angiotenzin II retseptor blokerlari (sartanlar)",
+    farmTasir: "Qon bosimini pasaytiruvchi (ARB)",
+    farmakodinamika: `Azilsartan medoksomil — kuchли, uzoq ta'sirли selektiv AT1 retseptor blokeri (prodori). Angiotenzin II ta'sirини qattiq va uzoq to'sib tomirlarni kengaytiradi; bir qator sartanlardан ko'ra qon bosimini kuchliroq pasaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan, faol azilsartanga aylanadi", tarqalish: "Oqsilга >99%", metabolizm: "Jigarда (CYP2C9)", chiqarilish: "Najas/buyrak; T½ ~11 soat" },
+    korsatmalar: ["Arterial gipertenziya"],
+    qarrshi: ["Homiladorlik (teratogen)", "Ikki tomonlama buyrak arteriyasi stenozi", "Aliskiren bilan birga (diabet/buyrak yetishmovchiligida)", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Gipotenziya, bosh aylanishi", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Diareya (kamdan-kam)" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "40 mg/sutkaдан boshlab, 80 mg gacha (kuniga 1 marta).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 40, 80 mg"
+  },
+  ru: {
+    gruppa: "Блокаторы рецепторов ангиотензина II (сартаны)",
+    farmTasir: "Снижающее АД (БРА)",
+    farmakodinamika: `Азилсартана медоксомил — сильный, длительно действующий селективный блокатор AT1-рецепторов (пролекарство). Прочно и долго блокирует действие ангиотензина II, расширяет сосуды; снижает АД сильнее ряда других сартанов.`,
+    farmakokinetika: { sorish: "Из кишечника, превращается в активный азилсартан", tarqalish: "С белками >99%", metabolizm: "В печени (CYP2C9)", chiqarilish: "С калом/почками; T½ ~11 ч" },
+    korsatmalar: ["Артериальная гипертензия"],
+    qarrshi: ["Беременность (тератоген)", "Двусторонний стеноз почечных артерий", "С алискиреном (при диабете/почечной недостаточности)", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Гипотензия, головокружение", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Диарея (редко)" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект", "Повышает уровень лития"],
+    qollash: { kattalar: "С 40 мг/сут, до 80 мг (раз в сутки).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 40, 80 мг"
+  },
+  en: {
+    gruppa: "Angiotensin II receptor blockers (sartans)",
+    farmTasir: "Blood-pressure-lowering (ARB)",
+    farmakodinamika: `Azilsartan medoxomil is a potent, long-acting selective AT1 receptor blocker (prodrug). It tightly and durably blocks angiotensin II, dilates vessels and lowers blood pressure more than several other sartans.`,
+    farmakokinetika: { sorish: "From the gut, converted to active azilsartan", tarqalish: ">99% protein bound", metabolizm: "Hepatic (CYP2C9)", chiqarilish: "Faecal/renal; T½ ~11 h" },
+    korsatmalar: ["Arterial hypertension"],
+    qarrshi: ["Pregnancy (teratogen)", "Bilateral renal artery stenosis", "With aliskiren (in diabetes/renal impairment)", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension, dizziness", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Diarrhoea (rare)" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect", "Raises lithium levels"],
+    qollash: { kattalar: "From 40 mg/day, to 80 mg (once daily).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 40, 80 mg"
+  }
 }
 
 };
