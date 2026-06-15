@@ -31808,6 +31808,258 @@ const PHARMA_DATA = {
     qollash: { kattalar: "From 25 mg/day, to 50 mg (per potassium level).", bolalar: "Not recommended" },
     chiqarish: "Tablets 25, 50 mg"
   }
+},
+
+"C01BD01": {
+  uz: {
+    gruppa: "Antiaritmiklar — III sinf (kaliy kanal blokerlari)",
+    farmTasir: "Keng spektrли antiaritmik",
+    farmakodinamika: `Amiodaron — asosан III sinf antiaritmik, lekin barcha to'rt sinf xususiyatига ega. Kaliy kanallarini bloklaб harakat potensiali va refrakter davrini uzaytiradi; shuningdek natriy/kaltsiy kanallari va beta-retseptorlarga ta'sir qiladi. Bo'lmacha va qorincha aritmiyalarида samarali. Yodга boy, juda uzoq yarim umrли.`,
+    farmakokinetika: { sorish: "Ichakdan o'zgaruvchan", tarqalish: "To'qimalarга keng to'planadi (yog', jigar, o'pka)", metabolizm: "Jigarда (faol desetilamiodaron)", chiqarilish: "Asosан safro; T½ juda uzun (~20–100 kun)" },
+    korsatmalar: ["Hayot uchun xavfli qorincha taxiaritmiyalari", "Bo'lmacha hilpillashi/titrashi (ritm/urish nazorati)", "Boshqa vositalar samarasiz aritmiyalar"],
+    qarrshi: ["SA/AV-blokada, og'ir bradikardiya (kardiostimulyatorsiz)", "Qalqonsimon bez kasalliklari", "QT uzayishi sindromи", "Yodга yuqori sezuvchanlik"],
+    nojoya: { "Qalqonsimon bez": "Gipo- yoki gipertireoz (yod)", "O'pka": "O'pka fibrozi (xavfli)", "Boshqa": "Ko'z shox pardasi cho'kmasi, teri ko'karishi, fotosensibilizatsiya, jigar shikasti, QT uzayishi" },
+    dozadan: "Bradikardiya, gipotenziya, QT uzayishi; atropin, kardiostimulyatsiya, simptomatik davo.",
+    ozarotasir: ["Varfarin va digoksin darajasini keskin oshiradi (doza kamaytiriladi)", "QT uzaytiruvchi dorilar bilan aritmiya", "Beta-blokerlar/kaltsiy antagonistlari bilan bradikardiya"],
+    qollash: { kattalar: "To'yintiruvchi 200 mg×3 (1 hafta), keyin qo'llab-quvvatlash 100–200 mg/sutka; o'tkir holatда v/i.", bolalar: "Faqat nazorat ostида, vaznга ko'ra" },
+    chiqarish: "Tabletkalar 200 mg; inyeksiya eritmasi 50 mg/ml"
+  },
+  ru: {
+    gruppa: "Антиаритмики — III класс (блокаторы калиевых каналов)",
+    farmTasir: "Антиаритмик широкого спектра",
+    farmakodinamika: `Амиодарон — преимущественно антиаритмик III класса, но обладает свойствами всех четырёх классов. Блокирует калиевые каналы, удлиняя потенциал действия и рефрактерный период; также влияет на натриевые/кальциевые каналы и бета-рецепторы. Эффективен при предсердных и желудочковых аритмиях. Богат йодом, с очень длинным периодом полувыведения.`,
+    farmakokinetika: { sorish: "Из кишечника вариабельно", tarqalish: "Широко накапливается в тканях (жир, печень, лёгкие)", metabolizm: "В печени (активный дезэтиламиодарон)", chiqarilish: "Преимущественно с желчью; T½ очень длинный (~20–100 дней)" },
+    korsatmalar: ["Опасные для жизни желудочковые тахиаритмии", "Фибрилляция/трепетание предсердий (контроль ритма/ЧСС)", "Аритмии при неэффективности других средств"],
+    qarrshi: ["СА/AV-блокада, тяжёлая брадикардия (без кардиостимулятора)", "Болезни щитовидной железы", "Синдром удлинённого QT", "Гиперчувствительность к йоду"],
+    nojoya: { "Щитовидная железа": "Гипо- или гипертиреоз (йод)", "Лёгкие": "Фиброз лёгких (опасно)", "Прочее": "Отложения в роговице, синюшность кожи, фотосенсибилизация, поражение печени, удлинение QT" },
+    dozadan: "Брадикардия, гипотензия, удлинение QT; атропин, кардиостимуляция, симптоматическая терапия.",
+    ozarotasir: ["Резко повышает уровень варфарина и дигоксина (доза снижается)", "С QT-удлиняющими препаратами аритмия", "С бета-блокаторами/антагонистами кальция брадикардия"],
+    qollash: { kattalar: "Нагрузочно 200 мг×3 (1 неделя), затем поддержание 100–200 мг/сут; при острых состояниях в/в.", bolalar: "Только под контролем, по массе" },
+    chiqarish: "Таблетки 200 мг; раствор для инъекций 50 мг/мл"
+  },
+  en: {
+    gruppa: "Antiarrhythmics — class III (potassium channel blockers)",
+    farmTasir: "Broad-spectrum antiarrhythmic",
+    farmakodinamika: `Amiodarone is mainly a class III antiarrhythmic but has properties of all four classes. By blocking potassium channels it prolongs the action potential and refractory period; it also affects sodium/calcium channels and beta receptors. It is effective in atrial and ventricular arrhythmias. It is iodine-rich with a very long half-life.`,
+    farmakokinetika: { sorish: "Variable from the gut", tarqalish: "Widely accumulates in tissues (fat, liver, lungs)", metabolizm: "Hepatic (active desethylamiodarone)", chiqarilish: "Mainly biliary; very long T½ (~20–100 days)" },
+    korsatmalar: ["Life-threatening ventricular tachyarrhythmias", "Atrial fibrillation/flutter (rhythm/rate control)", "Arrhythmias refractory to other agents"],
+    qarrshi: ["SA/AV block, severe bradycardia (without pacemaker)", "Thyroid disease", "Long QT syndrome", "Iodine hypersensitivity"],
+    nojoya: { "Thyroid": "Hypo- or hyperthyroidism (iodine)", "Lungs": "Pulmonary fibrosis (dangerous)", "Other": "Corneal deposits, skin discolouration, photosensitivity, liver injury, QT prolongation" },
+    dozadan: "Bradycardia, hypotension, QT prolongation; atropine, pacing, supportive care.",
+    ozarotasir: ["Sharply raises warfarin and digoxin levels (reduce dose)", "With QT-prolonging drugs arrhythmia", "With beta-blockers/calcium antagonists bradycardia"],
+    qollash: { kattalar: "Loading 200 mg×3 (1 week), then maintenance 100–200 mg/day; IV in acute states.", bolalar: "Only under supervision, by weight" },
+    chiqarish: "Tablets 200 mg; solution for injection 50 mg/mL"
+  }
+},
+
+"C01BC03": {
+  uz: {
+    gruppa: "Antiaritmiklar — Ic sinf (natriy kanal blokerlari)",
+    farmTasir: "Antiaritmik (Ic sinf)",
+    farmakodinamika: `Propafenon — Ic sinf antiaritmik. Voltajга bog'liq natriy kanallarini kuchли bloklaб miokard o'tkazuvchanligini sekinlashtiradi; qisman beta-blokator va kaltsiy kanal blokator ta'siri ham bor. Supraventrikulyar (jumladan bo'lmacha hilpillashi) va ba'zi qorincha aritmiyalarида qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (birinchi o'tish yuqori)", tarqalish: "Oqsilга yuqori", metabolizm: "Jigarда CYP2D6", chiqarilish: "Buyrak/safro; T½ ~2–10 soat (metabolizatorga qarab)" },
+    korsatmalar: ["Paroksizmal bo'lmacha hilpillashi/titrashi (ritmni tiklash/saqlash)", "AV-tugun yoki qo'shimcha yo'l bilan bog'liq supraventrikulyar taxikardiya", "Hayot uchun xavfli qorincha aritmiyalari"],
+    qarrshi: ["Strukturaviy yurak kasalligi (infarkt, yurak yetishmovchiligi)", "SA/AV-blokada, og'ir bradikardiya", "Bronxospastik kasalliklar", "Og'ir gipotenziya"],
+    nojoya: { "Yurak": "Proaritmiya (xavfli), bradikardiya, o'tkazuvchanlik buzilishi", "Asab": "Bosh aylanishi, ko'rish xiralashishi, metall ta'm", "Boshqa": "Ko'ngil aynishi" },
+    dozadan: "Proaritmiya, o'tkazuvchanlik buzilishi, gipotenziya; natriy bikarbonat, kardiostimulyatsiya, simptomatik davo.",
+    ozarotasir: ["Digoksin va varfarin darajasini oshiradi", "Beta-blokerlar/kaltsiy antagonistlari bilan kardiodepressiya", "CYP2D6 ingibitorlari konsentratsiyani oshiradi"],
+    qollash: { kattalar: "150 mg×3 dan boshlab, 300 mg×3 gacha; faqat strukturaviy yurak kasalligi yo'qligida.", bolalar: "Faqat nazorat ostида" },
+    chiqarish: "Tabletkalar 150, 300 mg; inyeksiya eritmasi"
+  },
+  ru: {
+    gruppa: "Антиаритмики — Ic класс (блокаторы натриевых каналов)",
+    farmTasir: "Антиаритмик (Ic класс)",
+    farmakodinamika: `Пропафенон — антиаритмик Ic класса. Сильно блокирует потенциалзависимые натриевые каналы, замедляя проводимость миокарда; частично обладает бета-блокирующим и кальций-блокирующим действием. Применяется при суправентрикулярных (в т.ч. фибрилляция предсердий) и некоторых желудочковых аритмиях.`,
+    farmakokinetika: { sorish: "Из кишечника (высокий первичный пас)", tarqalish: "Высокая связь с белками", metabolizm: "В печени CYP2D6", chiqarilish: "Почками/с желчью; T½ ~2–10 ч (зависит от метаболизатора)" },
+    korsatmalar: ["Пароксизмальная фибрилляция/трепетание предсердий (восстановление/сохранение ритма)", "Суправентрикулярная тахикардия с участием AV-узла или дополнительного пути", "Опасные для жизни желудочковые аритмии"],
+    qarrshi: ["Структурная болезнь сердца (инфаркт, сердечная недостаточность)", "СА/AV-блокада, тяжёлая брадикардия", "Бронхоспастические заболевания", "Тяжёлая гипотензия"],
+    nojoya: { "Сердце": "Проаритмия (опасно), брадикардия, нарушение проводимости", "Нервная система": "Головокружение, нечёткость зрения, металлический привкус", "Прочее": "Тошнота" },
+    dozadan: "Проаритмия, нарушение проводимости, гипотензия; бикарбонат натрия, кардиостимуляция, симптоматическая терапия.",
+    ozarotasir: ["Повышает уровень дигоксина и варфарина", "С бета-блокаторами/антагонистами кальция кардиодепрессия", "Ингибиторы CYP2D6 повышают концентрацию"],
+    qollash: { kattalar: "С 150 мг×3, до 300 мг×3; только при отсутствии структурной болезни сердца.", bolalar: "Только под контролем" },
+    chiqarish: "Таблетки 150, 300 мг; раствор для инъекций"
+  },
+  en: {
+    gruppa: "Antiarrhythmics — class Ic (sodium channel blockers)",
+    farmTasir: "Antiarrhythmic (class Ic)",
+    farmakodinamika: `Propafenone is a class Ic antiarrhythmic. It strongly blocks voltage-gated sodium channels, slowing myocardial conduction; it has partial beta-blocking and calcium-blocking action. It is used in supraventricular (incl. atrial fibrillation) and some ventricular arrhythmias.`,
+    farmakokinetika: { sorish: "From the gut (high first-pass)", tarqalish: "High protein binding", metabolizm: "Hepatic CYP2D6", chiqarilish: "Renal/biliary; T½ ~2–10 h (depends on metaboliser)" },
+    korsatmalar: ["Paroxysmal atrial fibrillation/flutter (restore/maintain rhythm)", "Supraventricular tachycardia involving the AV node or an accessory pathway", "Life-threatening ventricular arrhythmias"],
+    qarrshi: ["Structural heart disease (infarction, heart failure)", "SA/AV block, severe bradycardia", "Bronchospastic disease", "Severe hypotension"],
+    nojoya: { "Cardiac": "Proarrhythmia (dangerous), bradycardia, conduction disturbance", "Nervous system": "Dizziness, blurred vision, metallic taste", "Other": "Nausea" },
+    dozadan: "Proarrhythmia, conduction disturbance, hypotension; sodium bicarbonate, pacing, supportive care.",
+    ozarotasir: ["Raises digoxin and warfarin levels", "With beta-blockers/calcium antagonists cardiodepression", "CYP2D6 inhibitors raise levels"],
+    qollash: { kattalar: "From 150 mg×3, to 300 mg×3; only if no structural heart disease.", bolalar: "Only under supervision" },
+    chiqarish: "Tablets 150, 300 mg; solution for injection"
+  }
+},
+
+"C01DC09": {
+  uz: {
+    gruppa: "Antiaritmiklar — Ic sinf (natriy kanal blokerlari)",
+    farmTasir: "Antiaritmik (Ic sinf)",
+    farmakodinamika: `Etatsizin — fenotiazin hosilasi Ic sinf antiaritmik. Voltajга bog'liq natriy kanallarini bloklaб miokard o'tkazuvchanligini sekinlashtiradi va o'choqли (ektopik) qo'zg'alishni bostiradi; qisman antixolinergik ta'siri ham bor. Supraventrikulyar va qorincha ekstrasistoliya/taxikardiyada qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Supraventrikulyar va qorincha ekstrasistoliya", "Paroksizmal supraventrikulyar/qorincha taxikardiya"],
+    qarrshi: ["Strukturaviy yurak kasalligi, infarktdан keyin", "SA/AV-blokada, ichki o'tkazuvchanlik buzilishi", "Yurak yetishmovchiligi, kardiogen shok", "Og'ir jigar/buyrak yetishmovchiligi"],
+    nojoya: { "Yurak": "Proaritmiya (xavfli), o'tkazuvchanlik sekinlashishi, bradikardiya", "Asab": "Bosh aylanishi, ko'rish xiralashishi", "Boshqa": "Ko'ngil aynishi" },
+    dozadan: "Proaritmiya, o'tkazuvchanlik buzilishi; natriy bikarbonat, kardiostimulyatsiya, simptomatik davo.",
+    ozarotasir: ["Boshqa antiaritmiklar/beta-blokerlar bilan kardiodepressiya kuchayadi", "Proaritmik ta'sirini oshiruvchi dorilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "50 mg×2–3 (kuniga 100–200 mg), nazorat ostида.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 50 mg"
+  },
+  ru: {
+    gruppa: "Антиаритмики — Ic класс (блокаторы натриевых каналов)",
+    farmTasir: "Антиаритмик (Ic класс)",
+    farmakodinamika: `Этацизин — антиаритмик Ic класса, производное фенотиазина. Блокирует потенциалзависимые натриевые каналы, замедляя проводимость миокарда и подавляя эктопическое возбуждение; частично обладает антихолинергическим действием. Применяется при суправентрикулярной и желудочковой экстрасистолии/тахикардии.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Суправентрикулярная и желудочковая экстрасистолия", "Пароксизмальная суправентрикулярная/желудочковая тахикардия"],
+    qarrshi: ["Структурная болезнь сердца, после инфаркта", "СА/AV-блокада, нарушение внутрижелудочковой проводимости", "Сердечная недостаточность, кардиогенный шок", "Тяжёлая печёночная/почечная недостаточность"],
+    nojoya: { "Сердце": "Проаритмия (опасно), замедление проводимости, брадикардия", "Нервная система": "Головокружение, нечёткость зрения", "Прочее": "Тошнота" },
+    dozadan: "Проаритмия, нарушение проводимости; бикарбонат натрия, кардиостимуляция, симптоматическая терапия.",
+    ozarotasir: ["С другими антиаритмиками/бета-блокаторами усиливается кардиодепрессия", "Осторожно с препаратами, усиливающими проаритмию"],
+    qollash: { kattalar: "50 мг×2–3 (100–200 мг/сут), под контролем.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 50 мг"
+  },
+  en: {
+    gruppa: "Antiarrhythmics — class Ic (sodium channel blockers)",
+    farmTasir: "Antiarrhythmic (class Ic)",
+    farmakodinamika: `Ethacizine is a class Ic antiarrhythmic, a phenothiazine derivative. It blocks voltage-gated sodium channels, slowing myocardial conduction and suppressing ectopic excitation; it has partial anticholinergic action. It is used for supraventricular and ventricular extrasystole/tachycardia.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Supraventricular and ventricular extrasystole", "Paroxysmal supraventricular/ventricular tachycardia"],
+    qarrshi: ["Structural heart disease, post-infarction", "SA/AV block, intraventricular conduction disturbance", "Heart failure, cardiogenic shock", "Severe hepatic/renal impairment"],
+    nojoya: { "Cardiac": "Proarrhythmia (dangerous), slowed conduction, bradycardia", "Nervous system": "Dizziness, blurred vision", "Other": "Nausea" },
+    dozadan: "Proarrhythmia, conduction disturbance; sodium bicarbonate, pacing, supportive care.",
+    ozarotasir: ["With other antiarrhythmics/beta-blockers cardiodepression increases", "Caution with drugs increasing proarrhythmia"],
+    qollash: { kattalar: "50 mg×2–3 (100–200 mg/day), under monitoring.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 50 mg"
+  }
+},
+
+"C01BG": {
+  uz: {
+    gruppa: "Antiaritmiklar — Ic sinf (boshqa)",
+    farmTasir: "Antiaritmik (o'simlik alkaloidi)",
+    farmakodinamika: `Allapinin (lappakonitin gidrobromid) — akonit o'simligi alkaloidlaridан olingan Ic sinf antiaritmik. Voltajга bog'liq natriy kanallarini bloklaб miokard o'tkazuvchanligini sekinlashtiradi va ektopik o'choqlarni bostiradi. Supraventrikulyar va qorincha ekstrasistoliya/taxikardiyada qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Supraventrikulyar va qorincha ekstrasistoliya", "Paroksizmal supraventrikulyar/qorincha taxikardiya, WPW sindromi"],
+    qarrshi: ["Strukturaviy yurak kasalligi, infarktdан keyin", "SA/AV-blokada, ichki o'tkazuvchanlik buzilishi", "Yurak yetishmovchiligi, kardiogen shok", "Og'ir jigar/buyrak yetishmovchiligi"],
+    nojoya: { "Yurak": "Proaritmiya, o'tkazuvchanlik buzilishi", "Asab": "Bosh aylanishi, bosh og'rig'i, ataksiya, diplopiya", "Boshqa": "Yuzning qizishi" },
+    dozadan: "Proaritmiya, o'tkazuvchanlik buzilishi, markaziy belgilar; simptomatik davo, kardiostimulyatsiya.",
+    ozarotasir: ["Boshqa antiaritmiklar/beta-blokerlar bilan kardiodepressiya kuchayadi", "Markaziy depressantlar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "25 mg×3 (kuniga 75–100 mg), nazorat ostида.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 25 mg"
+  },
+  ru: {
+    gruppa: "Антиаритмики — Ic класс (прочие)",
+    farmTasir: "Антиаритмик (растительный алкалоид)",
+    farmakodinamika: `Аллапинин (лаппаконитина гидробромид) — антиаритмик Ic класса из алкалоидов растения аконит. Блокирует потенциалзависимые натриевые каналы, замедляя проводимость миокарда и подавляя эктопические очаги. Применяется при суправентрикулярной и желудочковой экстрасистолии/тахикардии.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Суправентрикулярная и желудочковая экстрасистолия", "Пароксизмальная суправентрикулярная/желудочковая тахикардия, синдром WPW"],
+    qarrshi: ["Структурная болезнь сердца, после инфаркта", "СА/AV-блокада, нарушение внутрижелудочковой проводимости", "Сердечная недостаточность, кардиогенный шок", "Тяжёлая печёночная/почечная недостаточность"],
+    nojoya: { "Сердце": "Проаритмия, нарушение проводимости", "Нервная система": "Головокружение, головная боль, атаксия, диплопия", "Прочее": "Покраснение лица" },
+    dozadan: "Проаритмия, нарушение проводимости, центральные симптомы; симптоматическая терапия, кардиостимуляция.",
+    ozarotasir: ["С другими антиаритмиками/бета-блокаторами усиливается кардиодепрессия", "Осторожно с центральными депрессантами"],
+    qollash: { kattalar: "25 мг×3 (75–100 мг/сут), под контролем.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 25 мг"
+  },
+  en: {
+    gruppa: "Antiarrhythmics — class Ic (others)",
+    farmTasir: "Antiarrhythmic (plant alkaloid)",
+    farmakodinamika: `Allapinin (lappaconitine hydrobromide) is a class Ic antiarrhythmic derived from aconite alkaloids. It blocks voltage-gated sodium channels, slowing myocardial conduction and suppressing ectopic foci. It is used for supraventricular and ventricular extrasystole/tachycardia.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Supraventricular and ventricular extrasystole", "Paroxysmal supraventricular/ventricular tachycardia, WPW syndrome"],
+    qarrshi: ["Structural heart disease, post-infarction", "SA/AV block, intraventricular conduction disturbance", "Heart failure, cardiogenic shock", "Severe hepatic/renal impairment"],
+    nojoya: { "Cardiac": "Proarrhythmia, conduction disturbance", "Nervous system": "Dizziness, headache, ataxia, diplopia", "Other": "Facial flushing" },
+    dozadan: "Proarrhythmia, conduction disturbance, central symptoms; supportive care, pacing.",
+    ozarotasir: ["With other antiarrhythmics/beta-blockers cardiodepression increases", "Caution with central depressants"],
+    qollash: { kattalar: "25 mg×3 (75–100 mg/day), under monitoring.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 25 mg"
+  }
+},
+
+"C01AA05": {
+  uz: {
+    gruppa: "Yurak glikozidlari — digitalis glikozidlari",
+    farmTasir: "Yurak qisqarishini kuchaytiruvchi (kardiotonik)",
+    farmakodinamika: `Digoksin — yurak glikozidi. Hujayra membranasидаги Na/K-ATFaza nasosini inhibilaб hujayra ichi natriyini, undan keyin kaltsiyini oshiradi — bu yurak qisqarish kuchini oshiradi (musbat inotrop). Bundan tashqari vagus nervini faollashtirib AV-tugun orqали o'tkazuvchanlikни sekinlashtiradi va yurak urishini kamaytiradi. Terapevtik oraliq tor.`,
+    farmakokinetika: { sorish: "Ichakdan (~70%)", tarqalish: "To'qimalarга keng", metabolizm: "Kam (asosан o'zgarmagan)", chiqarilish: "Asosан buyrak orqали; T½ ~36–48 soat" },
+    korsatmalar: ["Surункали yurak yetishmovchiligi (sistolik)", "Bo'lmacha hilpillashi/titrashida yurak urishini nazorat qilish"],
+    qarrshi: ["Glikozid intoksikatsiyasi", "SA/AV-blokada (II–III, kardiostimulyatorsiz)", "WPW sindromi bilan bo'lmacha hilpillashi", "Gipertrofik obstruktiv kardiomiopatiya"],
+    nojoya: { "Yurak": "Aritmiyalar, AV-blokada, bradikardiya (intoksikatsiya)", "Oshqozon-ichak": "Ko'ngil aynishi, qusish, ishtaha pasayishi", "Asab/ko'z": "Bosh og'rig'i, ko'rish buzilishi (sariq-yashil halo), chalkashlik" },
+    dozadan: "Glikozid intoksikatsiyasi (xavfli aritmiya, giperkaliemiya); digoksin-spetsifik antitelolar (Fab), kaliy korreksiyasi, EKG nazorati.",
+    ozarotasir: ["Gipokaliemiya (diuretiklar) toksiklikni keskin oshiradi", "Amiodaron, verapamil, xinidin digoksin darajasini oshiradi", "Kaltsiy (v/i) aritmiya xavfini oshiradi"],
+    qollash: { kattalar: "Qo'llab-quvvatlash 0,125–0,25 mg/sutka (buyrak funksiyasiga qarab); doza individuallashtiriladi.", bolalar: "Vaznга ko'ra, qattiq nazorat ostида" },
+    chiqarish: "Tabletkalar 0,25 mg; inyeksiya eritmasi 0,25 mg/ml"
+  },
+  ru: {
+    gruppa: "Сердечные гликозиды — гликозиды наперстянки",
+    farmTasir: "Усиливающее сокращение сердца (кардиотоник)",
+    farmakodinamika: `Дигоксин — сердечный гликозид. Ингибируя насос Na/K-АТФазу мембраны клетки, повышает внутриклеточный натрий, а затем кальций — это усиливает силу сокращения сердца (положительное инотропное действие). Кроме того, активируя блуждающий нерв, замедляет проводимость через AV-узел и уменьшает ЧСС. Узкий терапевтический диапазон.`,
+    farmakokinetika: { sorish: "Из кишечника (~70%)", tarqalish: "Широко в ткани", metabolizm: "Мало (в основном неизменён)", chiqarilish: "Преимущественно почками; T½ ~36–48 ч" },
+    korsatmalar: ["Хроническая сердечная недостаточность (систолическая)", "Контроль ЧСС при фибрилляции/трепетании предсердий"],
+    qarrshi: ["Гликозидная интоксикация", "СА/AV-блокада (II–III, без кардиостимулятора)", "Фибрилляция предсердий при синдроме WPW", "Гипертрофическая обструктивная кардиомиопатия"],
+    nojoya: { "Сердце": "Аритмии, AV-блокада, брадикардия (интоксикация)", "ЖКТ": "Тошнота, рвота, снижение аппетита", "Нервная система/глаза": "Головная боль, нарушение зрения (жёлто-зелёный ореол), спутанность" },
+    dozadan: "Гликозидная интоксикация (опасные аритмии, гиперкалиемия); дигоксин-специфические антитела (Fab), коррекция калия, контроль ЭКГ.",
+    ozarotasir: ["Гипокалиемия (диуретики) резко повышает токсичность", "Амиодарон, верапамил, хинидин повышают уровень дигоксина", "Кальций (в/в) повышает риск аритмий"],
+    qollash: { kattalar: "Поддержание 0,125–0,25 мг/сут (по функции почек); доза индивидуальна.", bolalar: "По массе, под строгим контролем" },
+    chiqarish: "Таблетки 0,25 мг; раствор для инъекций 0,25 мг/мл"
+  },
+  en: {
+    gruppa: "Cardiac glycosides — digitalis glycosides",
+    farmTasir: "Cardiac contractility enhancer (cardiotonic)",
+    farmakodinamika: `Digoxin is a cardiac glycoside. By inhibiting the membrane Na/K-ATPase pump it raises intracellular sodium and then calcium — increasing cardiac contractility (positive inotropy). It also activates the vagus nerve, slowing AV node conduction and reducing heart rate. The therapeutic range is narrow.`,
+    farmakokinetika: { sorish: "From the gut (~70%)", tarqalish: "Widely into tissues", metabolizm: "Little (mostly unchanged)", chiqarilish: "Mainly renal; T½ ~36–48 h" },
+    korsatmalar: ["Chronic heart failure (systolic)", "Rate control in atrial fibrillation/flutter"],
+    qarrshi: ["Glycoside toxicity", "SA/AV block (II–III, without pacemaker)", "Atrial fibrillation with WPW syndrome", "Hypertrophic obstructive cardiomyopathy"],
+    nojoya: { "Cardiac": "Arrhythmias, AV block, bradycardia (toxicity)", "GI": "Nausea, vomiting, reduced appetite", "Nervous system/eyes": "Headache, visual disturbance (yellow-green halo), confusion" },
+    dozadan: "Glycoside toxicity (dangerous arrhythmias, hyperkalaemia); digoxin-specific antibody (Fab), potassium correction, ECG monitoring.",
+    ozarotasir: ["Hypokalaemia (diuretics) sharply increases toxicity", "Amiodarone, verapamil, quinidine raise digoxin levels", "Calcium (IV) increases arrhythmia risk"],
+    qollash: { kattalar: "Maintenance 0.125–0.25 mg/day (per renal function); dose individualised.", bolalar: "By weight, under strict monitoring" },
+    chiqarish: "Tablets 0.25 mg; solution for injection 0.25 mg/mL"
+  }
+},
+
+"C01AC01": {
+  uz: {
+    gruppa: "Yurak glikozidlari — strofant glikozidlari",
+    farmTasir: "Tez ta'sirли yurak glikozidi (kardiotonik)",
+    farmakodinamika: `Strofantin (G-strofantin/uabain) — tez va qisqa ta'sirли yurak glikozidi. Na/K-ATFazani inhibilaб miokard qisqarish kuchini oshiradi (musbat inotrop). Yog'да yomon eriydi, shu sababli faqat venага yuboriladi; ta'sir tez boshlanadi — o'tkir yurak yetishmovchiligida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Faqat v/i", tarqalish: "To'qimalarга", metabolizm: "Kam", chiqarilish: "Asosан buyrak orqали; ta'sir tez va qisqaroq (digoksinга nisbatan)" },
+    korsatmalar: ["O'tkir yurak yetishmovchiligi", "Surункali yurak yetishmovchiligi dekompensatsiyasi (parenteral)"],
+    qarrshi: ["Glikozid intoksikatsiyasi", "SA/AV-blokada (II–III)", "Gipertrofik obstruktiv kardiomiopatiya", "Og'ir gipokaliemiya"],
+    nojoya: { "Yurak": "Aritmiyalar, AV-blokada, bradikardiya (intoksikatsiya)", "Oshqozon-ichak": "Ko'ngil aynishi, qusish", "Asab/ko'z": "Bosh og'rig'i, ko'rish buzilishi" },
+    dozadan: "Glikozid intoksikatsiyasi; kaliy korreksiyasi, antiaritmik, EKG nazorati.",
+    ozarotasir: ["Gipokaliemiya (diuretiklar) toksiklikni oshiradi", "Kaltsiy (v/i) aritmiya xavfini oshiradi", "Boshqa antiaritmiklar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "0,25 mg (0,5 ml 0,05%) v/i sekin (suyultirib), kuniga 1–2 marta; faqat monitoring ostида.", bolalar: "Faqat nazorat ostида, vaznга ko'ra" },
+    chiqarish: "Inyeksiya eritmasi 0,025%, 0,05% (ampula)"
+  },
+  ru: {
+    gruppa: "Сердечные гликозиды — гликозиды строфанта",
+    farmTasir: "Быстродействующий сердечный гликозид (кардиотоник)",
+    farmakodinamika: `Строфантин (G-строфантин/уабаин) — быстро- и коротко действующий сердечный гликозид. Ингибируя Na/K-АТФазу, повышает силу сокращения миокарда (положительное инотропное действие). Плохо растворим в жирах, поэтому вводится только внутривенно; действие начинается быстро — применяется при острой сердечной недостаточности.`,
+    farmakokinetika: { sorish: "Только в/в", tarqalish: "В ткани", metabolizm: "Мало", chiqarilish: "Преимущественно почками; действие быстрое и более короткое (по сравнению с дигоксином)" },
+    korsatmalar: ["Острая сердечная недостаточность", "Декомпенсация хронической сердечной недостаточности (парентерально)"],
+    qarrshi: ["Гликозидная интоксикация", "СА/AV-блокада (II–III)", "Гипертрофическая обструктивная кардиомиопатия", "Тяжёлая гипокалиемия"],
+    nojoya: { "Сердце": "Аритмии, AV-блокада, брадикардия (интоксикация)", "ЖКТ": "Тошнота, рвота", "Нервная система/глаза": "Головная боль, нарушение зрения" },
+    dozadan: "Гликозидная интоксикация; коррекция калия, антиаритмик, контроль ЭКГ.",
+    ozarotasir: ["Гипокалиемия (диуретики) повышает токсичность", "Кальций (в/в) повышает риск аритмий", "Осторожно с другими антиаритмиками"],
+    qollash: { kattalar: "0,25 мг (0,5 мл 0,05%) в/в медленно (в разведении), 1–2 раза в сутки; только под мониторингом.", bolalar: "Только под контролем, по массе" },
+    chiqarish: "Раствор для инъекций 0,025%, 0,05% (ампулы)"
+  },
+  en: {
+    gruppa: "Cardiac glycosides — strophanthus glycosides",
+    farmTasir: "Fast-acting cardiac glycoside (cardiotonic)",
+    farmakodinamika: `Strophanthin (G-strophanthin/ouabain) is a fast, short-acting cardiac glycoside. By inhibiting Na/K-ATPase it increases myocardial contractility (positive inotropy). It is poorly lipid-soluble, so it is given only intravenously; onset is rapid — used in acute heart failure.`,
+    farmakokinetika: { sorish: "IV only", tarqalish: "Into tissues", metabolizm: "Little", chiqarilish: "Mainly renal; action fast and shorter (vs digoxin)" },
+    korsatmalar: ["Acute heart failure", "Decompensation of chronic heart failure (parenteral)"],
+    qarrshi: ["Glycoside toxicity", "SA/AV block (II–III)", "Hypertrophic obstructive cardiomyopathy", "Severe hypokalaemia"],
+    nojoya: { "Cardiac": "Arrhythmias, AV block, bradycardia (toxicity)", "GI": "Nausea, vomiting", "Nervous system/eyes": "Headache, visual disturbance" },
+    dozadan: "Glycoside toxicity; potassium correction, antiarrhythmic, ECG monitoring.",
+    ozarotasir: ["Hypokalaemia (diuretics) increases toxicity", "Calcium (IV) increases arrhythmia risk", "Caution with other antiarrhythmics"],
+    qollash: { kattalar: "0.25 mg (0.5 mL of 0.05%) IV slowly (diluted), 1–2 times daily; only under monitoring.", bolalar: "Only under supervision, by weight" },
+    chiqarish: "Solution for injection 0.025%, 0.05% (ampoules)"
+  }
 }
 
 };
