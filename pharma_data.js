@@ -28994,6 +28994,342 @@ const PHARMA_DATA = {
     qollash: { kattalar: "50 mg every 12 h (100 mg/day), on an empty stomach; with liver enzyme monitoring.", bolalar: "Not recommended" },
     chiqarish: "Tablets 50 mg"
   }
+},
+
+"N02BG": {
+  uz: {
+    gruppa: "Analgetik-antipiretiklar — kombinatsiya (shamollashga qarshi)",
+    farmTasir: "Shamollash belgilariga qarshi kombinatsiya",
+    farmakodinamika: `Paratsetamol + xlorfeniramin + kofein kombinatsiyasi. Paratsetamol og'riq va isitmani kamaytiradi; xlorfeniramin — H1-gistamin blokatori, burun oqishi, aksirish va allergik belgilarini bartaraf etadi; kofein analgetik ta'sirни kuchaytiradi va uyquchanlikни kamaytiradi. Birgalikda o'tkir respirator infeksiya belgilarini yengillashtiradi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Shamollash va gripp belgilari (isitma, og'riq, burun bitishi/oqishi)"],
+    qarrshi: ["Komponentlarга yuqori sezuvchanlik", "Og'ir jigar/buyrak yetishmovchiligi", "Yopiq burchakli glaukoma, prostata gipertrofiyasi (xlorfeniramin)", "Og'ir gipertoniya/aritmiya"],
+    nojoya: { "Asab": "Uyquchanlik (xlorfeniramin) yoki qo'zg'alish (kofein)", "Antixolinergik": "Og'iz qurishi", "Jigar": "Paratsetamol gepatotoksikligi (overdoz)" },
+    dozadan: "Paratsetamol overdozи — N-atsetilsistein; antixolinergik belgilar — simptomatik davo.",
+    ozarotasir: ["Markaziy depressantlar/alkogol bilan uyquchanlik kuchayadi", "Boshqa paratsetamolли vositalar bilan overdoz xavfi"],
+    qollash: { kattalar: "1 dona (poroshok/tabletka) kuniga 3–4 marta.", bolalar: "Yoshга ko'ra (mahsulot ko'rsatmasiga ko'ra)" },
+    chiqarish: "Eriydigan poroshok; tabletkalar (ko'p komponentli)"
+  },
+  ru: {
+    gruppa: "Анальгетики-антипиретики — комбинация (противопростудная)",
+    farmTasir: "Комбинация против симптомов простуды",
+    farmakodinamika: `Комбинация парацетамол + хлорфенамин + кофеин. Парацетамол снижает боль и лихорадку; хлорфенамин — блокатор H1-гистаминовых рецепторов, устраняет насморк, чихание и аллергические симптомы; кофеин усиливает анальгезию и уменьшает сонливость. Вместе облегчают симптомы острой респираторной инфекции.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Симптомы простуды и гриппа (лихорадка, боль, заложенность/насморк)"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Тяжёлая печёночная/почечная недостаточность", "Закрытоугольная глаукома, гипертрофия простаты (хлорфенамин)", "Тяжёлая гипертензия/аритмия"],
+    nojoya: { "Нервная система": "Сонливость (хлорфенамин) или возбуждение (кофеин)", "Антихолинергические": "Сухость во рту", "Печень": "Гепатотоксичность парацетамола (передозировка)" },
+    dozadan: "Передозировка парацетамола — N-ацетилцистеин; антихолинергические симптомы — симптоматическая терапия.",
+    ozarotasir: ["С центральными депрессантами/алкоголем усиливается сонливость", "С другими парацетамолсодержащими — риск передозировки"],
+    qollash: { kattalar: "1 шт (порошок/таблетка) 3–4 раза в сутки.", bolalar: "По возрасту (по инструкции)" },
+    chiqarish: "Растворимый порошок; таблетки (многокомпонентные)"
+  },
+  en: {
+    gruppa: "Analgesics-antipyretics — combination (cold remedy)",
+    farmTasir: "Combination for cold symptoms",
+    farmakodinamika: `A paracetamol + chlorphenamine + caffeine combination. Paracetamol reduces pain and fever; chlorphenamine is an H1-antihistamine relieving runny nose, sneezing and allergic symptoms; caffeine enhances analgesia and reduces drowsiness. Together they relieve symptoms of acute respiratory infection.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Cold and influenza symptoms (fever, pain, congestion/runny nose)"],
+    qarrshi: ["Hypersensitivity to components", "Severe hepatic/renal impairment", "Angle-closure glaucoma, prostatic hypertrophy (chlorphenamine)", "Severe hypertension/arrhythmia"],
+    nojoya: { "Nervous system": "Drowsiness (chlorphenamine) or stimulation (caffeine)", "Anticholinergic": "Dry mouth", "Liver": "Paracetamol hepatotoxicity (overdose)" },
+    dozadan: "Paracetamol overdose — N-acetylcysteine; anticholinergic symptoms — supportive care.",
+    ozarotasir: ["With central depressants/alcohol drowsiness increases", "With other paracetamol products overdose risk"],
+    qollash: { kattalar: "1 unit (powder/tablet) 3–4 times daily.", bolalar: "By age (per product information)" },
+    chiqarish: "Soluble powder; tablets (multi-component)"
+  }
+},
+
+"N02BG06": {
+  uz: {
+    gruppa: "Analgetiklar — boshqa analgetiklar va antipiretiklar",
+    farmTasir: "Markaziy ta'sirli nopioid analgetik",
+    farmakodinamika: `Nefopam — benzoksazotsin hosilasi, markaziy ta'sirli nopioid analgetik. Aniq mexanizmi to'liq ma'lum emas; serotonin, noradrenalin va dofamin qaytib so'rilishini bloklaб tushuvchi og'riq yo'llarini modullaydi. Opioid yoki NPVD emas — nafas depressiyasi, bog'lanish va oshqozon shilliq qavatига ta'sir bermaydi.`,
+    farmakokinetika: { sorish: "Ich va parenteral", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали; T½ ~4 soat" },
+    korsatmalar: ["O'tkir og'riq (jumladan postoperatsion)", "Operatsiyadan keyingi titroq (qaltirash) ni bartaraf etish"],
+    qarrshi: ["Tirishish/epilepsiya tarixi", "Yopiq burchakli glaukoma, siydik tutilishi (antixolinergik)", "MAO ingibitorlari bilan", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Bosh aylanishi, hayajonlanish, uyqusizlik", "Antixolinergik": "Og'iz qurishi, ko'p terlash, taxikardiya", "Oshqozon-ichak": "Ko'ngil aynishi" },
+    dozadan: "Taxikardiya, tirishish, gallyutsinatsiya; simptomatik davo.",
+    ozarotasir: ["MAO ingibitorlari — man etiladi", "Antixolinergiklar/simpatomimetiklar bilan ta'sir kuchayadi", "Tirishish bo'sag'asini pasaytiruvchi dorilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "30–90 mg×3 ich; yoki 20 mg m/i har 4–6 soat.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 30 mg; inyeksiya eritmasi 20 mg/ml"
+  },
+  ru: {
+    gruppa: "Анальгетики — прочие анальгетики и антипиретики",
+    farmTasir: "Центрально действующий неопиоидный анальгетик",
+    farmakodinamika: `Нефопам — производное бензоксазоцина, центрально действующий неопиоидный анальгетик. Точный механизм не до конца ясен; блокирует обратный захват серотонина, норадреналина и дофамина, модулируя нисходящие пути боли. Не опиоид и не НПВП — не вызывает угнетения дыхания, зависимости и не влияет на слизистую желудка.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками; T½ ~4 ч" },
+    korsatmalar: ["Острая боль (в т.ч. послеоперационная)", "Устранение послеоперационной дрожи (озноба)"],
+    qarrshi: ["Судороги/эпилепсия в анамнезе", "Закрытоугольная глаукома, задержка мочи (антихолинергик)", "С ингибиторами МАО", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Головокружение, возбуждение, бессонница", "Антихолинергические": "Сухость во рту, потливость, тахикардия", "ЖКТ": "Тошнота" },
+    dozadan: "Тахикардия, судороги, галлюцинации; симптоматическая терапия.",
+    ozarotasir: ["Ингибиторы МАО — противопоказано", "С антихолинергиками/симпатомиметиками действие усиливается", "Осторожно с препаратами, снижающими порог судорог"],
+    qollash: { kattalar: "30–90 мг×3 внутрь; или 20 мг в/м каждые 4–6 ч.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 30 мг; раствор для инъекций 20 мг/мл"
+  },
+  en: {
+    gruppa: "Analgesics — other analgesics and antipyretics",
+    farmTasir: "Centrally acting non-opioid analgesic",
+    farmakodinamika: `Nefopam is a benzoxazocine derivative, a centrally acting non-opioid analgesic. Its exact mechanism is not fully known; it blocks reuptake of serotonin, noradrenaline and dopamine, modulating descending pain pathways. It is neither an opioid nor an NSAID — it causes no respiratory depression or dependence and does not affect the gastric mucosa.`,
+    farmakokinetika: { sorish: "Oral and parenteral", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal; T½ ~4 h" },
+    korsatmalar: ["Acute pain (incl. postoperative)", "Relief of postoperative shivering"],
+    qarrshi: ["History of seizures/epilepsy", "Angle-closure glaucoma, urinary retention (anticholinergic)", "With MAO inhibitors", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Dizziness, agitation, insomnia", "Anticholinergic": "Dry mouth, sweating, tachycardia", "GI": "Nausea" },
+    dozadan: "Tachycardia, seizures, hallucinations; supportive care.",
+    ozarotasir: ["MAO inhibitors — contraindicated", "With anticholinergics/sympathomimetics effects increase", "Caution with drugs lowering the seizure threshold"],
+    qollash: { kattalar: "30–90 mg×3 orally; or 20 mg IM every 4–6 h.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 30 mg; solution for injection 20 mg/mL"
+  }
+},
+
+"NO2BE51": {
+  uz: {
+    gruppa: "Analgetik-antipiretiklar — kombinatsiya (NPVD + anilid)",
+    farmTasir: "Og'riq qoldiruvchi, isitma tushiruvchi, yallig'lanishga qarshi kombinatsiya",
+    farmakodinamika: `Ibuprofen + paratsetamol — ikki mexanizmли analgetik kombinatsiya. Ibuprofen — NPVD, periferik siklooksigenazani (TsOG) inhibilaб prostaglandinlar va yallig'lanishni kamaytiradi; paratsetamol markaziy yo'l bilan og'riq va isitmани pasaytiradi. Birgalikda har birини alohida qabul qilganдан kuchliroq og'riq qoldiradi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "To'qimalarга", metabolizm: "Jigarда (har bir komponent)", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Yengil-o'rtacha og'riq (bosh, tish, mushak-skelet, dismenoreya)", "Isitma"],
+    qarrshi: ["Oshqozon-ichak yara kasalligi/qon ketish (ibuprofen)", "Og'ir jigar/buyrak/yurak yetishmovchiligi", "'Aspirin astmasi'", "Homiladorlikning 3-trimestri", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Dispepsiya, eroziya/yara, qon ketish (ibuprofen)", "Buyrak": "Buyrak funksiyasi buzilishi (ibuprofen)", "Jigar": "Paratsetamol gepatotoksikligi (overdoz)" },
+    dozadan: "Ibuprofen — oshqozon/buyrak; paratsetamol — gepatotoksiklik (N-atsetilsistein); simptomatik davo.",
+    ozarotasir: ["Antikoagulyantlar/boshqa NPVD bilan qon ketish xavfi", "AAF ingibitorlari/diuretiklar samarasini pasaytiradi (ibuprofen)", "Boshqa paratsetamolли vositalar bilan overdoz"],
+    qollash: { kattalar: "1 tabletka (ibuprofen 200 mg + paratsetamol 500 mg) har 6–8 soat ovqatdан keyin.", bolalar: "Mahsulot ko'rsatmasiga ko'ra" },
+    chiqarish: "Tabletkalar (ibuprofen + paratsetamol)"
+  },
+  ru: {
+    gruppa: "Анальгетики-антипиретики — комбинация (НПВП + анилид)",
+    farmTasir: "Обезболивающее, жаропонижающее, противовоспалительное",
+    farmakodinamika: `Ибупрофен + парацетамол — анальгетическая комбинация с двумя механизмами. Ибупрофен — НПВП, ингибирует периферическую циклооксигеназу (ЦОГ), уменьшая простагландины и воспаление; парацетамол центрально снижает боль и лихорадку. Вместе обезболивают сильнее, чем каждый по отдельности.`,
+    farmakokinetika: { sorish: "Быстро из кишечника", tarqalish: "В ткани", metabolizm: "В печени (каждый компонент)", chiqarilish: "Почками" },
+    korsatmalar: ["Лёгкая-умеренная боль (головная, зубная, костно-мышечная, дисменорея)", "Лихорадка"],
+    qarrshi: ["Язвенная болезнь ЖКТ/кровотечение (ибупрофен)", "Тяжёлая печёночная/почечная/сердечная недостаточность", "«Аспириновая астма»", "III триместр беременности", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Диспепсия, эрозии/язвы, кровотечение (ибупрофен)", "Почки": "Нарушение функции почек (ибупрофен)", "Печень": "Гепатотоксичность парацетамола (передозировка)" },
+    dozadan: "Ибупрофен — желудок/почки; парацетамол — гепатотоксичность (N-ацетилцистеин); симптоматическая терапия.",
+    ozarotasir: ["С антикоагулянтами/другими НПВП риск кровотечений", "Снижает действие ингибиторов АПФ/диуретиков (ибупрофен)", "С другими парацетамолсодержащими — передозировка"],
+    qollash: { kattalar: "1 таблетка (ибупрофен 200 мг + парацетамол 500 мг) каждые 6–8 ч после еды.", bolalar: "По инструкции к препарату" },
+    chiqarish: "Таблетки (ибупрофен + парацетамол)"
+  },
+  en: {
+    gruppa: "Analgesics-antipyretics — combination (NSAID + anilide)",
+    farmTasir: "Analgesic, antipyretic, anti-inflammatory combination",
+    farmakodinamika: `Ibuprofen + paracetamol is a dual-mechanism analgesic combination. Ibuprofen is an NSAID that inhibits peripheral cyclooxygenase (COX), reducing prostaglandins and inflammation; paracetamol centrally reduces pain and fever. Together they relieve pain more than either alone.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Into tissues", metabolizm: "Hepatic (each component)", chiqarilish: "Renal" },
+    korsatmalar: ["Mild-moderate pain (headache, dental, musculoskeletal, dysmenorrhoea)", "Fever"],
+    qarrshi: ["Peptic ulcer disease/bleeding (ibuprofen)", "Severe hepatic/renal/cardiac impairment", "'Aspirin asthma'", "Third trimester of pregnancy", "Hypersensitivity"],
+    nojoya: { "GI": "Dyspepsia, erosions/ulcers, bleeding (ibuprofen)", "Renal": "Renal impairment (ibuprofen)", "Liver": "Paracetamol hepatotoxicity (overdose)" },
+    dozadan: "Ibuprofen — stomach/kidney; paracetamol — hepatotoxicity (N-acetylcysteine); supportive care.",
+    ozarotasir: ["With anticoagulants/other NSAIDs bleeding risk", "Reduces ACE inhibitors/diuretics (ibuprofen)", "With other paracetamol products overdose"],
+    qollash: { kattalar: "1 tablet (ibuprofen 200 mg + paracetamol 500 mg) every 6–8 h after meals.", bolalar: "Per product information" },
+    chiqarish: "Tablets (ibuprofen + paracetamol)"
+  }
+},
+
+"N07CA52": {
+  uz: {
+    gruppa: "Boshqa asab tizimi vositalari — antivertigo kombinatsiyasi",
+    farmTasir: "Bosh aylanishiga qarshi kombinatsiya",
+    farmakodinamika: `Sinnarizin + dimenhidrinat — bosh aylanishiga qarshi kombinatsiya. Sinnarizin kaltsiy kanallarini bloklaб vestibular apparatning haddан ortiq qo'zg'aluvchanligini kamaytiradi; dimenhidrinat — H1-gistamin blokatori, markaziy vestibular va qusuv markaziга ta'sir qiladi. Birgalikda turli kelib chiqishли bosh aylanishi va kinetozда samarali.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qima va miyaга", metabolizm: "Jigarда", chiqarilish: "Buyrak/najas" },
+    korsatmalar: ["Turli kelib chiqishли vestibular bosh aylanishi (Menyer, vestibular nevrit)", "Kinetoz (transportда tutilish)"],
+    qarrshi: ["Yopiq burchakli glaukoma, prostata gipertrofiyasi (dimenhidrinat)", "Parkinson kasalligi (sinnarizin)", "Epilepsiya, og'ir jigar/buyrak yetishmovchiligi", "Homiladorlik va laktatsiya"],
+    nojoya: { "Asab": "Uyquchanlik, sustlik", "Antixolinergik": "Og'iz qurishi, akkomodatsiya buzilishi", "Boshqa": "Uzoq qabulда ekstrapiramid belgilar (sinnarizin)" },
+    dozadan: "Sedatsiya, antixolinergik sindrom; simptomatik davo.",
+    ozarotasir: ["Markaziy depressantlar/alkogol bilan uyquchanlik kuchayadi", "Antixolinergiklar bilan ta'sir qo'shiladi"],
+    qollash: { kattalar: "1 tabletka (sinnarizin 20 mg + dimenhidrinat 40 mg) kuniga 3 marta, ovqatdан keyin.", bolalar: "≥12 yosh, ehtiyotkorlik bilan" },
+    chiqarish: "Tabletkalar (sinnarizin 20 mg + dimenhidrinat 40 mg)"
+  },
+  ru: {
+    gruppa: "Прочие средства для нервной системы — противоголовокружительная комбинация",
+    farmTasir: "Комбинация против головокружения",
+    farmakodinamika: `Циннаризин + дименгидринат — комбинация против головокружения. Циннаризин блокирует кальциевые каналы, снижая чрезмерную возбудимость вестибулярного аппарата; дименгидринат — блокатор H1-гистаминовых рецепторов, действует на центральные вестибулярные и рвотный центры. Вместе эффективны при головокружении различного генеза и укачивании.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани и мозг", metabolizm: "В печени", chiqarilish: "Почками/калом" },
+    korsatmalar: ["Вестибулярное головокружение различного генеза (Меньер, вестибулярный неврит)", "Укачивание (кинетоз)"],
+    qarrshi: ["Закрытоугольная глаукома, гипертрофия простаты (дименгидринат)", "Болезнь Паркинсона (циннаризин)", "Эпилепсия, тяжёлая печёночная/почечная недостаточность", "Беременность и лактация"],
+    nojoya: { "Нервная система": "Сонливость, вялость", "Антихолинергические": "Сухость во рту, нарушение аккомодации", "Прочее": "Экстрапирамидные симптомы при длительном приёме (циннаризин)" },
+    dozadan: "Седация, антихолинергический синдром; симптоматическая терапия.",
+    ozarotasir: ["С центральными депрессантами/алкоголем усиливается сонливость", "С антихолинергиками действие суммируется"],
+    qollash: { kattalar: "1 таблетка (циннаризин 20 мг + дименгидринат 40 мг) 3 раза в сутки после еды.", bolalar: "С 12 лет, с осторожностью" },
+    chiqarish: "Таблетки (циннаризин 20 мг + дименгидринат 40 мг)"
+  },
+  en: {
+    gruppa: "Other nervous system drugs — antivertigo combination",
+    farmTasir: "Anti-vertigo combination",
+    farmakodinamika: `Cinnarizine + dimenhydrinate is an anti-vertigo combination. Cinnarizine blocks calcium channels, reducing excessive excitability of the vestibular apparatus; dimenhydrinate is an H1-antihistamine acting on central vestibular and vomiting centres. Together they are effective for vertigo of various origins and motion sickness.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues and the brain", metabolizm: "Hepatic", chiqarilish: "Renal/faecal" },
+    korsatmalar: ["Vestibular vertigo of various origins (Ménière, vestibular neuritis)", "Motion sickness"],
+    qarrshi: ["Angle-closure glaucoma, prostatic hypertrophy (dimenhydrinate)", "Parkinson disease (cinnarizine)", "Epilepsy, severe hepatic/renal impairment", "Pregnancy and lactation"],
+    nojoya: { "Nervous system": "Drowsiness, sluggishness", "Anticholinergic": "Dry mouth, accommodation disturbance", "Other": "Extrapyramidal symptoms with long-term use (cinnarizine)" },
+    dozadan: "Sedation, anticholinergic syndrome; supportive care.",
+    ozarotasir: ["With central depressants/alcohol drowsiness increases", "With anticholinergics effects are additive"],
+    qollash: { kattalar: "1 tablet (cinnarizine 20 mg + dimenhydrinate 40 mg) 3 times daily after meals.", bolalar: "From 12 years, cautiously" },
+    chiqarish: "Tablets (cinnarizine 20 mg + dimenhydrinate 40 mg)"
+  }
+},
+
+"N02BA51": {
+  uz: {
+    gruppa: "Analgetik-antipiretiklar — salitsilatlar kombinatsiyasi",
+    farmTasir: "Og'riq qoldiruvchi, isitma tushiruvchi (bufferlangan ASA)",
+    farmakodinamika: `Atsetilsalitsil kislota asosидаги kombinatsiya (masalan, ASA + askorbin kislota yoki bufferlovchi/qoplovchi komponentlar bilan). ASA siklooksigenazani inhibilaб og'riq, isitma va yallig'lanishni kamaytiradi; qo'shimcha komponentlar oshqozonга ta'sirни yumshatadi yoki antioksidant qo'shadi. Past dozада antiagregant.`,
+    farmakokinetika: { sorish: "Oshqozon-ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда salitsil kislotagacha", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Yengil-o'rtacha og'riq va isitma", "Shamollашда og'riq/isitma; tromboz profilaktikasi (past doza)"],
+    qarrshi: ["Oshqozon-ichak yara kasalligi", "Qon ketish moyilligi", "'Aspirin astmasi'", "12 yoshgacha bolalar (Ray sindromi)", "Homiladorlikning 3-trimestri"],
+    nojoya: { "Oshqozon-ichak": "Gastrit, eroziya/yara, qon ketish", "Qon": "Qon ketish vaqtining uzayishi", "Allergik": "Bronxospazm, toshma" },
+    dozadan: "Salitsilizm (quloq shang'illashi, gipoventilyatsiya, atsidoz); ishqorlash, simptomatik davo.",
+    ozarotasir: ["Antikoagulyantlar/NPVD bilan qon ketish xavfi", "Metotreksat, peroral qand kamaytiruvchi ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "500 mg har 4–6 soat (maks. 3 g); antiagregant 75–150 mg/sutka.", bolalar: "Antipiretik sifatида tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar (bufferlangan/eriydigan, kombinatsiyalangan)"
+  },
+  ru: {
+    gruppa: "Анальгетики-антипиретики — комбинация салицилатов",
+    farmTasir: "Обезболивающее, жаропонижающее (буферизованная АСК)",
+    farmakodinamika: `Комбинация на основе ацетилсалициловой кислоты (например, АСК + аскорбиновая кислота или буферизующие/защитные компоненты). АСК ингибирует циклооксигеназу, уменьшая боль, лихорадку и воспаление; дополнительные компоненты смягчают действие на желудок или добавляют антиоксидант. В низких дозах — антиагрегант.`,
+    farmakokinetika: { sorish: "Из ЖКТ", tarqalish: "В ткани", metabolizm: "В печени до салициловой кислоты", chiqarilish: "Почками" },
+    korsatmalar: ["Лёгкая-умеренная боль и лихорадка", "Боль/лихорадка при простуде; профилактика тромбоза (низкая доза)"],
+    qarrshi: ["Язвенная болезнь ЖКТ", "Склонность к кровотечениям", "«Аспириновая астма»", "Дети до 12 лет (синдром Рейе)", "III триместр беременности"],
+    nojoya: { "ЖКТ": "Гастрит, эрозии/язвы, кровотечение", "Кровь": "Удлинение времени кровотечения", "Аллергические": "Бронхоспазм, сыпь" },
+    dozadan: "Салицилизм (шум в ушах, гиповентиляция, ацидоз); ощелачивание, симптоматическая терапия.",
+    ozarotasir: ["С антикоагулянтами/НПВП риск кровотечений", "Усиливает действие метотрексата, пероральных сахароснижающих"],
+    qollash: { kattalar: "500 мг каждые 4–6 ч (макс. 3 г); антиагрегант 75–150 мг/сут.", bolalar: "Как антипиретик не рекомендуется" },
+    chiqarish: "Таблетки (буферизованные/растворимые, комбинированные)"
+  },
+  en: {
+    gruppa: "Analgesics-antipyretics — salicylate combination",
+    farmTasir: "Analgesic, antipyretic (buffered ASA)",
+    farmakodinamika: `An acetylsalicylic acid-based combination (e.g. ASA + ascorbic acid or buffering/protective components). ASA inhibits cyclooxygenase, reducing pain, fever and inflammation; the added components soften the effect on the stomach or add an antioxidant. At low doses it is antiplatelet.`,
+    farmakokinetika: { sorish: "From the GI tract", tarqalish: "Into tissues", metabolizm: "Hepatic to salicylic acid", chiqarilish: "Renal" },
+    korsatmalar: ["Mild-moderate pain and fever", "Cold-related pain/fever; thrombosis prevention (low dose)"],
+    qarrshi: ["Peptic ulcer disease", "Bleeding tendency", "'Aspirin asthma'", "Children under 12 (Reye syndrome)", "Third trimester of pregnancy"],
+    nojoya: { "GI": "Gastritis, erosions/ulcers, bleeding", "Blood": "Prolonged bleeding time", "Allergic": "Bronchospasm, rash" },
+    dozadan: "Salicylism (tinnitus, hypoventilation, acidosis); alkalinization, supportive care.",
+    ozarotasir: ["With anticoagulants/NSAIDs bleeding risk", "Potentiates methotrexate, oral hypoglycaemics"],
+    qollash: { kattalar: "500 mg every 4–6 h (max 3 g); antiplatelet 75–150 mg/day.", bolalar: "Not recommended as an antipyretic" },
+    chiqarish: "Tablets (buffered/soluble, combined)"
+  }
+},
+
+"N06BB04": {
+  uz: {
+    gruppa: "Psixostimulyatorlar va nootroplar — kombinatsiya (neyrometabolik)",
+    farmTasir: "Neyroprotektor (sitikolin + elektrolitlar)",
+    farmakodinamika: `Sitikolin + elektrolit eritmasi (natriy/kaliy/kaltsiy xloridlar, natriy laktat) kombinatsiyasi. Sitikolin neyron membranasi fosfolipidlari (fosfatidilxolin) sintezini ta'minlaб membranani tiklaydi va atsetilxolin sintezini qo'llab-quvvatlaydi; elektrolit-bufer eritma suv-elektrolit muvozanatini saqlaydi va infuziya uchun fiziologik muhit yaratadi. O'tkir miya patologiyasida qo'llaniladi.`,
+    farmakokinetika: { sorish: "V/i infuziya", tarqalish: "Miyaga o'tadi (sitikolin)", metabolizm: "Xolin va sitidin orqали", chiqarilish: "O'pka (CO2) va buyrak orqали" },
+    korsatmalar: ["O'tkir ishemik insult va tiklanish davri", "Bosh miya jarohati oqibatları, kognitiv buzilishlar"],
+    qarrshi: ["Yuqori sezuvchanlik", "Vagotoniya kuchaygan holatlar (ehtiyotkorlik)", "Giperkaliemiya (elektrolit tarkibi tufayli — ehtiyotkorlik)"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi (kamdan-kam)", "Asab": "Bosh og'rig'i, uyqusizlik (kamdan-kam)", "Tomir": "Infuziya tezligiга bog'liq reaksiya" },
+    dozadan: "Toksiklik ehtimoli past; elektrolitlar nazorati, simptomatik davo.",
+    ozarotasir: ["Levodopa ta'sirini kuchaytirishi mumkin", "Meklofenoksat bilan birga qo'llanmaydi"],
+    qollash: { kattalar: "Tayyor eritma v/i infuziya (shifokor belgilagan tezlikда), kurs bilan.", bolalar: "Shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Infuziya uchun eritma (flakon/payket, sitikolin + elektrolitlar)"
+  },
+  ru: {
+    gruppa: "Психостимуляторы и ноотропы — комбинация (нейрометаболическая)",
+    farmTasir: "Нейропротектор (цитиколин + электролиты)",
+    farmakodinamika: `Комбинация цитиколина + электролитного раствора (хлориды натрия/калия/кальция, натрия лактат). Цитиколин обеспечивает синтез фосфолипидов мембраны нейрона (фосфатидилхолина), восстанавливая мембрану и поддерживая синтез ацетилхолина; электролитно-буферный раствор сохраняет водно-электролитный баланс и создаёт физиологическую среду для инфузии. Применяется при острой церебральной патологии.`,
+    farmakokinetika: { sorish: "В/в инфузия", tarqalish: "Цитиколин проникает в мозг", metabolizm: "Через холин и цитидин", chiqarilish: "Лёгкими (CO2) и почками" },
+    korsatmalar: ["Острый ишемический инсульт и период восстановления", "Последствия ЧМТ, когнитивные нарушения"],
+    qarrshi: ["Гиперчувствительность", "Состояния с выраженной ваготонией (осторожно)", "Гиперкалиемия (из-за электролитного состава — осторожно)"],
+    nojoya: { "ЖКТ": "Тошнота (редко)", "Нервная система": "Головная боль, бессонница (редко)", "Сосудистые": "Реакция, связанная со скоростью инфузии" },
+    dozadan: "Вероятность токсичности низкая; контроль электролитов, симптоматическая терапия.",
+    ozarotasir: ["Может усиливать действие леводопы", "Не применять вместе с меклофеноксатом"],
+    qollash: { kattalar: "Готовый раствор в/в инфузия (со скоростью по назначению врача), курсом.", bolalar: "По назначению врача" },
+    chiqarish: "Раствор для инфузий (флакон/пакет, цитиколин + электролиты)"
+  },
+  en: {
+    gruppa: "Psychostimulants and nootropics — combination (neurometabolic)",
+    farmTasir: "Neuroprotectant (citicoline + electrolytes)",
+    farmakodinamika: `A combination of citicoline + an electrolyte solution (sodium/potassium/calcium chlorides, sodium lactate). Citicoline supports synthesis of neuronal membrane phospholipids (phosphatidylcholine), restoring the membrane and supporting acetylcholine synthesis; the electrolyte-buffer solution maintains water-electrolyte balance and provides a physiological medium for infusion. It is used in acute cerebral pathology.`,
+    farmakokinetika: { sorish: "IV infusion", tarqalish: "Citicoline enters the brain", metabolizm: "Via choline and cytidine", chiqarilish: "Via lungs (CO2) and kidneys" },
+    korsatmalar: ["Acute ischaemic stroke and recovery period", "Sequelae of traumatic brain injury, cognitive impairment"],
+    qarrshi: ["Hypersensitivity", "Conditions with marked vagotonia (caution)", "Hyperkalaemia (due to electrolyte content — caution)"],
+    nojoya: { "GI": "Nausea (rare)", "Nervous system": "Headache, insomnia (rare)", "Vascular": "Infusion-rate-related reaction" },
+    dozadan: "Toxicity unlikely; electrolyte monitoring, supportive care.",
+    ozarotasir: ["May potentiate levodopa", "Do not use together with meclofenoxate"],
+    qollash: { kattalar: "Ready solution by IV infusion (at a rate set by the physician), as a course.", bolalar: "As prescribed" },
+    chiqarish: "Solution for infusion (vial/bag, citicoline + electrolytes)"
+  }
+},
+
+"N05BA": {
+  uz: {
+    gruppa: "Anksiolitiklar — benzodiazepin hosilalari",
+    farmTasir: "Kunduzgi anksiolitik (benzodiazepin)",
+    farmakodinamika: `Gidazepam — atipik benzodiazepin, «kunduzgi» trankvilizator. GABA-A retseptor kompleksiga bog'lanib GABA ta'sirini kuchaytiradi; anksiolitik ta'siri sezilarli, ammo sedativ va mushak bo'shashtiruvchi ta'siri klassik benzodiazepinlardан kamroq — shu sababli kunduzi qo'llashга qulay. Yengil aktivlovchi komponentга ega.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда (faol metabolit)", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Nevrotik va nevrozга o'xshash holatlar (tashvish, asabiylik)", "Migrenда profilaktika, alkogol abstinensiyaси (yordamchi)"],
+    qarrshi: ["Miasteniya", "Og'ir jigar/buyrak yetishmovchiligi", "Homiladorlik va laktatsiya", "Modda bog'liqligi", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Uyquchanlik, sustlik, bosh aylanishi (boshlanишда)", "Boshqa": "Bog'lanish/tolerantlik (uzoq qabulда), to'xtatishда abstinensiya" },
+    dozadan: "Markaziy depressiya; antidot — flumazenil, nafasни qo'llab-quvvatlash.",
+    ozarotasir: ["Alkogol/markaziy depressantlar bilan ta'sir kuchayadi"],
+    qollash: { kattalar: "20–50 mg×3 (kuniga 60–150 mg), kursли.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 20, 50 mg"
+  },
+  ru: {
+    gruppa: "Анксиолитики — производные бензодиазепина",
+    farmTasir: "Дневной анксиолитик (бензодиазепин)",
+    farmakodinamika: `Гидазепам — атипичный бензодиазепин, «дневной» транквилизатор. Связывается с ГАМК-А рецепторным комплексом, усиливая действие ГАМК; анксиолитическое действие выраженное, но седативное и миорелаксирующее меньше, чем у классических бензодиазепинов — поэтому удобен для дневного применения. Обладает лёгким активирующим компонентом.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени (активный метаболит)", chiqarilish: "Почками" },
+    korsatmalar: ["Невротические и неврозоподобные состояния (тревога, раздражительность)", "Профилактика при мигрени, алкогольная абстиненция (вспомогательно)"],
+    qarrshi: ["Миастения", "Тяжёлая печёночная/почечная недостаточность", "Беременность и лактация", "Зависимость", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Сонливость, вялость, головокружение (в начале)", "Прочее": "Зависимость/толерантность (при длительном приёме), абстиненция при отмене" },
+    dozadan: "Центральная депрессия; антидот — флумазенил, поддержка дыхания.",
+    ozarotasir: ["С алкоголем/центральными депрессантами действие усиливается"],
+    qollash: { kattalar: "20–50 мг×3 (60–150 мг/сут), курсом.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 20, 50 мг"
+  },
+  en: {
+    gruppa: "Anxiolytics — benzodiazepine derivatives",
+    farmTasir: "Daytime anxiolytic (benzodiazepine)",
+    farmakodinamika: `Gidazepam is an atypical benzodiazepine, a 'daytime' tranquilliser. It binds the GABA-A receptor complex, enhancing GABA action; its anxiolytic effect is marked but sedation and muscle relaxation are less than classic benzodiazepines — making it suitable for daytime use. It has a mild activating component.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic (active metabolite)", chiqarilish: "Renal" },
+    korsatmalar: ["Neurotic and neurosis-like states (anxiety, irritability)", "Migraine prophylaxis, alcohol withdrawal (adjunct)"],
+    qarrshi: ["Myasthenia gravis", "Severe hepatic/renal impairment", "Pregnancy and lactation", "Dependence", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Drowsiness, sluggishness, dizziness (initially)", "Other": "Dependence/tolerance (with long-term use), withdrawal on stopping" },
+    dozadan: "Central depression; antidote — flumazenil, respiratory support.",
+    ozarotasir: ["With alcohol/central depressants effects increase"],
+    qollash: { kattalar: "20–50 mg×3 (60–150 mg/day), as a course.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 20, 50 mg"
+  }
+},
+
+"N05C": {
+  uz: {
+    gruppa: "Uxlatuvchi va tinchlantiruvchi vositalar — o'simlik (gastrodin)",
+    farmTasir: "Tinchlantiruvchi, neyroprotektor (o'simlik)",
+    farmakodinamika: `Gastrodin — Gastrodia elata o'simligi faol komponenti (fenol glikozid). Markaziy asab tizimига yumshoq tinchlantiruvchi ta'sir ko'rsatadi, GABA-ergik o'tkazuvchanlikни modullaydi, miya qon aylanishini yaxshilaydi va antioksidant/neyroprotektiv ta'sir beradi. Bosh og'rig'i, bosh aylanishi va nevrotik holatlarда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich va parenteral", tarqalish: "Miyaga o'tadi", metabolizm: "Jigarда (gastrodigeninга)", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Bosh og'rig'i, migren, bosh aylanishi (vestibular)", "Nevrasteniya, uyqu buzilishi, qaltirash-tirishish holatlari (yordamchi)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Homiladorlik va laktatsiya (ehtiyotkorlik)"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, dispepsiya (kamdan-kam)", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Markaziy depressantlar ta'sirini kuchaytirishi mumkin"],
+    qollash: { kattalar: "Mahsulot ko'rsatmasiga ko'ra (tabletka/in'eksiya), kursли.", bolalar: "Shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Tabletkalar/kapsulalar; inyeksiya eritmasi"
+  },
+  ru: {
+    gruppa: "Снотворные и седативные — растительное (гастродин)",
+    farmTasir: "Седативное, нейропротектор (растительное)",
+    farmakodinamika: `Гастродин — активный компонент растения Gastrodia elata (фенольный гликозид). Оказывает мягкое успокаивающее действие на ЦНС, модулирует ГАМК-ергическую передачу, улучшает мозговое кровообращение и даёт антиоксидантный/нейропротективный эффект. Применяется при головной боли, головокружении и невротических состояниях.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально", tarqalish: "Проникает в мозг", metabolizm: "В печени (до гастродигенина)", chiqarilish: "Почками" },
+    korsatmalar: ["Головная боль, мигрень, головокружение (вестибулярное)", "Неврастения, нарушения сна, судорожно-дрожательные состояния (вспомогательно)"],
+    qarrshi: ["Гиперчувствительность", "Беременность и лактация (осторожно)"],
+    nojoya: { "ЖКТ": "Тошнота, диспепсия (редко)", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Может усиливать действие центральных депрессантов"],
+    qollash: { kattalar: "По инструкции к препарату (таблетки/инъекции), курсом.", bolalar: "По назначению врача" },
+    chiqarish: "Таблетки/капсулы; раствор для инъекций"
+  },
+  en: {
+    gruppa: "Hypnotics and sedatives — herbal (gastrodin)",
+    farmTasir: "Sedative, neuroprotectant (herbal)",
+    farmakodinamika: `Gastrodin is the active component of the plant Gastrodia elata (a phenolic glycoside). It has a mild calming effect on the CNS, modulates GABAergic transmission, improves cerebral blood flow and has an antioxidant/neuroprotective effect. It is used for headache, vertigo and neurotic states.`,
+    farmakokinetika: { sorish: "Oral and parenteral", tarqalish: "Enters the brain", metabolizm: "Hepatic (to gastrodigenin)", chiqarilish: "Renal" },
+    korsatmalar: ["Headache, migraine, vertigo (vestibular)", "Neurasthenia, sleep disturbance, convulsive-tremor states (adjunct)"],
+    qarrshi: ["Hypersensitivity", "Pregnancy and lactation (caution)"],
+    nojoya: { "GI": "Nausea, dyspepsia (rare)", "Allergic": "Rash (rare)" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["May enhance central depressants"],
+    qollash: { kattalar: "Per product information (tablets/injection), as a course.", bolalar: "As prescribed" },
+    chiqarish: "Tablets/capsules; solution for injection"
+  }
 }
 
 };
