@@ -31556,6 +31556,258 @@ const PHARMA_DATA = {
     qollash: { kattalar: "40–80 mg×3 orally or prolonged 120–240 mg; acute arrhythmia 5 mg IV slowly (under monitoring).", bolalar: "Only under supervision, by weight" },
     chiqarish: "Tablets 40, 80 mg; prolonged 120, 240 mg; solution for injection 2.5 mg/mL"
   }
+},
+
+"C03CA01": {
+  uz: {
+    gruppa: "Diuretiklar — pastadan ilmoq (Genle ilmog'i) diuretiklari",
+    farmTasir: "Kuchли siydik haydovchi (ilmoq diuretigi)",
+    farmakodinamika: `Furosemid — kuchли ilmoq diuretigi. Buyrak Genle ilmog'ining yo'g'on ko'tariluvchi qismidagi Na-K-2Cl tashuvchini bloklaб natriy, kaliy, xlor va suvning qayta so'rilishini keskin kamaytiradi; bu kuchли va tez diurezga olib keladi. Shish va o'tkir holatlarда qon hajmini va qon bosimini pasaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan (~50–70%); v/i tez", tarqalish: "Oqsilга yuqori", metabolizm: "Qisman jigarда", chiqarilish: "Buyrak orqали; T½ qisqa (~1,5 soat)" },
+    korsatmalar: ["Yurak, jigar, buyrak shishi (o'pka shishi — v/i)", "Arterial gipertenziya (ayniqsa buyrak yetishmovchiligida)", "Giperkalsemiya, majburiy diurez"],
+    qarrshi: ["Anuriya, og'ir gipovolemiya/dehidratatsiya", "Og'ir gipokaliemiya/giponatriemiya", "Sulfanilamidlarga yuqori sezuvchanlik", "Pechen komasi"],
+    nojoya: { "Suv-elektrolit": "Gipokaliemiya, giponatriemiya, gipomagniemiya, dehidratatsiya", "Metabolik": "Giperurikemiya (podagra), giperglikemiya", "Boshqa": "Ototoksiklik (tez v/i, yuqori doza), gipotenziya" },
+    dozadan: "Dehidratatsiya, elektrolit buzilishi, gipotenziya; suyuqlik/elektrolit korreksiyasi.",
+    ozarotasir: ["Aminoglikozidlar bilan oto-/nefrotoksiklik kuchayadi", "Yurak glikozidlari toksikligini oshiradi (gipokaliemiya)", "NPVD samarani pasaytiradi"],
+    qollash: { kattalar: "20–80 mg/sutka ich; o'tkir holatда 20–40 mg v/i (sekin), zarurда takror.", bolalar: "1–2 mg/kg/doza" },
+    chiqarish: "Tabletkalar 40 mg; inyeksiya eritmasi 10 mg/ml"
+  },
+  ru: {
+    gruppa: "Диуретики — петлевые (петли Генле)",
+    farmTasir: "Сильное мочегонное (петлевой диуретик)",
+    farmakodinamika: `Фуросемид — сильный петлевой диуретик. Блокирует переносчик Na-K-2Cl в толстом восходящем колене петли Генле, резко снижая обратное всасывание натрия, калия, хлора и воды; это даёт сильный и быстрый диурез. При отёках и острых состояниях снижает объём крови и АД.`,
+    farmakokinetika: { sorish: "Из кишечника (~50–70%); в/в быстро", tarqalish: "Высокая связь с белками", metabolizm: "Частично в печени", chiqarilish: "Почками; T½ короткий (~1,5 ч)" },
+    korsatmalar: ["Отёки при болезнях сердца, печени, почек (отёк лёгких — в/в)", "Артериальная гипертензия (особенно при почечной недостаточности)", "Гиперкальциемия, форсированный диурез"],
+    qarrshi: ["Анурия, тяжёлая гиповолемия/обезвоживание", "Тяжёлая гипокалиемия/гипонатриемия", "Гиперчувствительность к сульфаниламидам", "Печёночная кома"],
+    nojoya: { "Водно-электролитные": "Гипокалиемия, гипонатриемия, гипомагниемия, обезвоживание", "Метаболические": "Гиперурикемия (подагра), гипергликемия", "Прочее": "Ототоксичность (быстрое в/в, высокая доза), гипотензия" },
+    dozadan: "Обезвоживание, электролитные нарушения, гипотензия; коррекция жидкости/электролитов.",
+    ozarotasir: ["С аминогликозидами усиливается ото-/нефротоксичность", "Повышает токсичность сердечных гликозидов (гипокалиемия)", "НПВП снижают эффект"],
+    qollash: { kattalar: "20–80 мг/сут внутрь; при острых состояниях 20–40 мг в/в (медленно), при необходимости повтор.", bolalar: "1–2 мг/кг/доза" },
+    chiqarish: "Таблетки 40 мг; раствор для инъекций 10 мг/мл"
+  },
+  en: {
+    gruppa: "Diuretics — loop diuretics (loop of Henle)",
+    farmTasir: "Powerful diuretic (loop diuretic)",
+    farmakodinamika: `Furosemide is a powerful loop diuretic. It blocks the Na-K-2Cl cotransporter in the thick ascending limb of the loop of Henle, sharply reducing reabsorption of sodium, potassium, chloride and water; this produces strong, rapid diuresis. In oedema and acute states it lowers blood volume and blood pressure.`,
+    farmakokinetika: { sorish: "From the gut (~50–70%); IV rapid", tarqalish: "High protein binding", metabolizm: "Partly hepatic", chiqarilish: "Renal; short T½ (~1.5 h)" },
+    korsatmalar: ["Oedema of cardiac, hepatic, renal origin (pulmonary oedema — IV)", "Arterial hypertension (especially in renal impairment)", "Hypercalcaemia, forced diuresis"],
+    qarrshi: ["Anuria, severe hypovolaemia/dehydration", "Severe hypokalaemia/hyponatraemia", "Hypersensitivity to sulfonamides", "Hepatic coma"],
+    nojoya: { "Fluid-electrolyte": "Hypokalaemia, hyponatraemia, hypomagnesaemia, dehydration", "Metabolic": "Hyperuricaemia (gout), hyperglycaemia", "Other": "Ototoxicity (rapid IV, high dose), hypotension" },
+    dozadan: "Dehydration, electrolyte disturbance, hypotension; fluid/electrolyte correction.",
+    ozarotasir: ["With aminoglycosides oto-/nephrotoxicity increases", "Increases cardiac glycoside toxicity (hypokalaemia)", "NSAIDs reduce the effect"],
+    qollash: { kattalar: "20–80 mg/day orally; acute states 20–40 mg IV (slowly), repeat if needed.", bolalar: "1–2 mg/kg/dose" },
+    chiqarish: "Tablets 40 mg; solution for injection 10 mg/mL"
+  }
+},
+
+"C03CA04": {
+  uz: {
+    gruppa: "Diuretiklar — pastadan ilmoq diuretiklari",
+    farmTasir: "Uzoq ta'sirли siydik haydovchi (ilmoq diuretigi)",
+    farmakodinamika: `Torasemid — furosemidга o'xshash ilmoq diuretigi, lekin uzoqroq va barqarorroq ta'sir qiladi. Genle ilmog'idagi Na-K-2Cl tashuvchini bloklaydi; bundan tashqari aldosteronга qarshi qo'shimcha ta'siri tufayli kaliyni furosemidдан kamroq yo'qotadi. Biokirishi yuqori va barqaror.`,
+    farmakokinetika: { sorish: "Ichakdan (~80–90%, ovqatга bog'liq emas)", tarqalish: "Oqsilга yuqori", metabolizm: "Jigarда CYP2C9", chiqarilish: "Buyrak/jigar; T½ ~3,5 soat" },
+    korsatmalar: ["Yurak yetishmovchiligida shish", "Buyrak/jigar shishi", "Arterial gipertenziya"],
+    qarrshi: ["Anuriya, og'ir gipovolemiya", "Og'ir gipokaliemiya/giponatriemiya", "Sulfanilamidlarga yuqori sezuvchanlik", "Pechen komasi"],
+    nojoya: { "Suv-elektrolit": "Gipokaliemiya (furosemidдан kam), giponatriemiya, dehidratatsiya", "Metabolik": "Giperurikemiya, giperglikemiya", "Boshqa": "Bosh og'rig'i, gipotenziya" },
+    dozadan: "Dehidratatsiya, elektrolit buzilishi; suyuqlik/elektrolit korreksiyasi.",
+    ozarotasir: ["Aminoglikozidlar bilan oto-/nefrotoksiklik", "Yurak glikozidlari toksikligini oshiradi", "NPVD samarani pasaytiradi"],
+    qollash: { kattalar: "Gipertenziya: 5–10 mg/sutka; shish: 5–20 mg/sutka (yurak yetishmovchiligida 200 mg gacha).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 5, 10 mg"
+  },
+  ru: {
+    gruppa: "Диуретики — петлевые",
+    farmTasir: "Длительно действующее мочегонное (петлевой диуретик)",
+    farmakodinamika: `Торасемид — петлевой диуретик, подобный фуросемиду, но с более длительным и стабильным действием. Блокирует переносчик Na-K-2Cl в петле Генле; благодаря дополнительному антиальдостероновому действию теряет меньше калия, чем фуросемид. Высокая и стабильная биодоступность.`,
+    farmakokinetika: { sorish: "Из кишечника (~80–90%, независимо от пищи)", tarqalish: "Высокая связь с белками", metabolizm: "В печени CYP2C9", chiqarilish: "Почками/печенью; T½ ~3,5 ч" },
+    korsatmalar: ["Отёки при сердечной недостаточности", "Почечные/печёночные отёки", "Артериальная гипертензия"],
+    qarrshi: ["Анурия, тяжёлая гиповолемия", "Тяжёлая гипокалиемия/гипонатриемия", "Гиперчувствительность к сульфаниламидам", "Печёночная кома"],
+    nojoya: { "Водно-электролитные": "Гипокалиемия (меньше, чем у фуросемида), гипонатриемия, обезвоживание", "Метаболические": "Гиперурикемия, гипергликемия", "Прочее": "Головная боль, гипотензия" },
+    dozadan: "Обезвоживание, электролитные нарушения; коррекция жидкости/электролитов.",
+    ozarotasir: ["С аминогликозидами ото-/нефротоксичность", "Повышает токсичность сердечных гликозидов", "НПВП снижают эффект"],
+    qollash: { kattalar: "Гипертензия: 5–10 мг/сут; отёки: 5–20 мг/сут (при сердечной недостаточности до 200 мг).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 5, 10 мг"
+  },
+  en: {
+    gruppa: "Diuretics — loop diuretics",
+    farmTasir: "Long-acting diuretic (loop diuretic)",
+    farmakodinamika: `Torasemide is a loop diuretic similar to furosemide but with longer, more consistent action. It blocks the Na-K-2Cl cotransporter in the loop of Henle; thanks to additional anti-aldosterone action it loses less potassium than furosemide. Bioavailability is high and stable.`,
+    farmakokinetika: { sorish: "From the gut (~80–90%, independent of food)", tarqalish: "High protein binding", metabolizm: "Hepatic CYP2C9", chiqarilish: "Renal/hepatic; T½ ~3.5 h" },
+    korsatmalar: ["Oedema in heart failure", "Renal/hepatic oedema", "Arterial hypertension"],
+    qarrshi: ["Anuria, severe hypovolaemia", "Severe hypokalaemia/hyponatraemia", "Hypersensitivity to sulfonamides", "Hepatic coma"],
+    nojoya: { "Fluid-electrolyte": "Hypokalaemia (less than furosemide), hyponatraemia, dehydration", "Metabolic": "Hyperuricaemia, hyperglycaemia", "Other": "Headache, hypotension" },
+    dozadan: "Dehydration, electrolyte disturbance; fluid/electrolyte correction.",
+    ozarotasir: ["With aminoglycosides oto-/nephrotoxicity", "Increases cardiac glycoside toxicity", "NSAIDs reduce the effect"],
+    qollash: { kattalar: "Hypertension: 5–10 mg/day; oedema: 5–20 mg/day (up to 200 mg in heart failure).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 5, 10 mg"
+  }
+},
+
+"C03BA11": {
+  uz: {
+    gruppa: "Diuretiklar — tiazidga o'xshash (sulfonamidlar)",
+    farmTasir: "Qon bosimini pasaytiruvchi (tiazidga o'xshash diuretik)",
+    farmakodinamika: `Indapamid — tiazidga o'xshash diuretik. Distal kanalchaларда natriy qayta so'rilishini kamaytiradi (yengil diurez), lekin asosiy ta'siri — tomir silliq mushaklarini bo'shashtirish (kaltsiy oqimини modullash) orqali periferik qarshilik va qon bosimini pasaytirish. Past dozада metabolik jihatdan neytral.`,
+    farmakokinetika: { sorish: "Ichakdan to'liq", tarqalish: "Tomir devoriga to'planadi", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали; T½ ~14–18 soat" },
+    korsatmalar: ["Arterial gipertenziya"],
+    qarrshi: ["Og'ir buyrak/jigar yetishmovchiligi (pechen entsefalopatiyasi)", "Og'ir gipokaliemiya", "Sulfanilamidlarga yuqori sezuvchanlik", "Homiladorlik (ehtiyotkorlik)"],
+    nojoya: { "Suv-elektrolit": "Gipokaliemiya, giponatriemiya", "Metabolik": "Giperurikemiya, giperglikemiya (yuqori dozада), dislipidemiya", "Boshqa": "QT uzayishi (gipokaliemiyaда)" },
+    dozadan: "Elektrolit buzilishi, gipotenziya; korreksiya, simptomatik davo.",
+    ozarotasir: ["Boshqa QT uzaytiruvchi/gipokaliemik dorilar bilan aritmiya", "Litiy darajasini oshiradi", "NPVD samarani pasaytiradi"],
+    qollash: { kattalar: "1,5 mg (uzaytirilgan) yoki 2,5 mg/sutka (kuniga 1 marta, ertalab).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 2,5 mg; uzaytirilgan tabletkalar 1,5 mg"
+  },
+  ru: {
+    gruppa: "Диуретики — тиазидоподобные (сульфонамиды)",
+    farmTasir: "Снижающее АД (тиазидоподобный диуретик)",
+    farmakodinamika: `Индапамид — тиазидоподобный диуретик. Снижает обратное всасывание натрия в дистальных канальцах (мягкий диурез), но основное действие — расслабление гладких мышц сосудов (модуляция тока кальция), что снижает периферическое сопротивление и АД. В низких дозах метаболически нейтрален.`,
+    farmakokinetika: { sorish: "Полно из кишечника", tarqalish: "Накапливается в сосудистой стенке", metabolizm: "В печени", chiqarilish: "Почками; T½ ~14–18 ч" },
+    korsatmalar: ["Артериальная гипертензия"],
+    qarrshi: ["Тяжёлая почечная/печёночная недостаточность (печёночная энцефалопатия)", "Тяжёлая гипокалиемия", "Гиперчувствительность к сульфаниламидам", "Беременность (осторожно)"],
+    nojoya: { "Водно-электролитные": "Гипокалиемия, гипонатриемия", "Метаболические": "Гиперурикемия, гипергликемия (в высокой дозе), дислипидемия", "Прочее": "Удлинение QT (при гипокалиемии)" },
+    dozadan: "Электролитные нарушения, гипотензия; коррекция, симптоматическая терапия.",
+    ozarotasir: ["С другими QT-удлиняющими/гипокалиемическими препаратами аритмия", "Повышает уровень лития", "НПВП снижают эффект"],
+    qollash: { kattalar: "1,5 мг (пролонг.) или 2,5 мг/сут (раз в сутки, утром).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 2,5 мг; таблетки пролонгированные 1,5 мг"
+  },
+  en: {
+    gruppa: "Diuretics — thiazide-like (sulfonamides)",
+    farmTasir: "Blood-pressure-lowering (thiazide-like diuretic)",
+    farmakodinamika: `Indapamide is a thiazide-like diuretic. It reduces sodium reabsorption in the distal tubule (mild diuresis), but its main effect is relaxation of vascular smooth muscle (modulating calcium flux), lowering peripheral resistance and blood pressure. At low doses it is metabolically neutral.`,
+    farmakokinetika: { sorish: "Complete from the gut", tarqalish: "Accumulates in the vascular wall", metabolizm: "Hepatic", chiqarilish: "Renal; T½ ~14–18 h" },
+    korsatmalar: ["Arterial hypertension"],
+    qarrshi: ["Severe renal/hepatic impairment (hepatic encephalopathy)", "Severe hypokalaemia", "Hypersensitivity to sulfonamides", "Pregnancy (caution)"],
+    nojoya: { "Fluid-electrolyte": "Hypokalaemia, hyponatraemia", "Metabolic": "Hyperuricaemia, hyperglycaemia (high dose), dyslipidaemia", "Other": "QT prolongation (with hypokalaemia)" },
+    dozadan: "Electrolyte disturbance, hypotension; correction, supportive care.",
+    ozarotasir: ["With other QT-prolonging/hypokalaemic drugs arrhythmia", "Raises lithium levels", "NSAIDs reduce the effect"],
+    qollash: { kattalar: "1.5 mg (prolonged) or 2.5 mg/day (once daily, morning).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 2.5 mg; prolonged-release tablets 1.5 mg"
+  }
+},
+
+"C03AA03": {
+  uz: {
+    gruppa: "Diuretiklar — tiazid diuretiklari",
+    farmTasir: "Qon bosimini pasaytiruvchi (tiazid diuretigi)",
+    farmakodinamika: `Gidroxlortiazid — tiazid guruhидаги diuretik. Distal o'ralgan kanalchadagi Na-Cl tashuvchini bloklaб natriy va xlor qayta so'rilishini kamaytiradi (o'rtacha diurez); uzoq muddatда tomir qarshiligini ham pasaytiradi. Gipertenziya davosining asosiy vositalaridан biri.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Metabolizmga uchramaydi", chiqarilish: "Buyrak orqали o'zgarmagan; T½ ~6–15 soat" },
+    korsatmalar: ["Arterial gipertenziya (ko'pincha kombinatsiyaда)", "Yengil yurak/buyrak shishi", "Nefrogen bo'lmagan qandsiz diabet (paradoksal)"],
+    qarrshi: ["Anuriya, og'ir buyrak yetishmovchiligi", "Og'ir gipokaliemiya/giponatriemiya/giperkalsemiya", "Sulfanilamidlarga yuqori sezuvchanlik", "Podagra (ehtiyotkorlik)"],
+    nojoya: { "Suv-elektrolit": "Gipokaliemiya, giponatriemiya, gipomagniemiya, giperkalsemiya", "Metabolik": "Giperurikemiya (podagra), giperglikemiya, dislipidemiya", "Boshqa": "Ortostatik gipotenziya, fotosensibilizatsiya" },
+    dozadan: "Elektrolit buzilishi, dehidratatsiya, gipotenziya; korreksiya.",
+    ozarotasir: ["Yurak glikozidlari toksikligini oshiradi (gipokaliemiya)", "Litiy darajasini oshiradi", "NPVD samarani pasaytiradi"],
+    qollash: { kattalar: "12,5–25 mg/sutka (gipertenziya), 50 mg gacha (shish); ertalab.", bolalar: "1–2 mg/kg/sutka" },
+    chiqarish: "Tabletkalar 25, 50, 100 mg"
+  },
+  ru: {
+    gruppa: "Диуретики — тиазидные",
+    farmTasir: "Снижающее АД (тиазидный диуретик)",
+    farmakodinamika: `Гидрохлоротиазид — диуретик тиазидной группы. Блокирует переносчик Na-Cl в дистальном извитом канальце, снижая обратное всасывание натрия и хлора (умеренный диурез); при длительном применении снижает и сосудистое сопротивление. Одно из базовых средств лечения гипертензии.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "Не метаболизируется", chiqarilish: "Почками в неизменённом виде; T½ ~6–15 ч" },
+    korsatmalar: ["Артериальная гипертензия (часто в комбинации)", "Лёгкие сердечные/почечные отёки", "Ненефрогенный несахарный диабет (парадоксально)"],
+    qarrshi: ["Анурия, тяжёлая почечная недостаточность", "Тяжёлая гипокалиемия/гипонатриемия/гиперкальциемия", "Гиперчувствительность к сульфаниламидам", "Подагра (осторожно)"],
+    nojoya: { "Водно-электролитные": "Гипокалиемия, гипонатриемия, гипомагниемия, гиперкальциемия", "Метаболические": "Гиперурикемия (подагра), гипергликемия, дислипидемия", "Прочее": "Ортостатическая гипотензия, фотосенсибилизация" },
+    dozadan: "Электролитные нарушения, обезвоживание, гипотензия; коррекция.",
+    ozarotasir: ["Повышает токсичность сердечных гликозидов (гипокалиемия)", "Повышает уровень лития", "НПВП снижают эффект"],
+    qollash: { kattalar: "12,5–25 мг/сут (гипертензия), до 50 мг (отёки); утром.", bolalar: "1–2 мг/кг/сут" },
+    chiqarish: "Таблетки 25, 50, 100 мг"
+  },
+  en: {
+    gruppa: "Diuretics — thiazide diuretics",
+    farmTasir: "Blood-pressure-lowering (thiazide diuretic)",
+    farmakodinamika: `Hydrochlorothiazide is a thiazide diuretic. It blocks the Na-Cl cotransporter in the distal convoluted tubule, reducing sodium and chloride reabsorption (moderate diuresis); with long-term use it also lowers vascular resistance. It is one of the cornerstone agents for hypertension.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Not metabolised", chiqarilish: "Renal unchanged; T½ ~6–15 h" },
+    korsatmalar: ["Arterial hypertension (often in combination)", "Mild cardiac/renal oedema", "Nephrogenic-independent diabetes insipidus (paradoxical)"],
+    qarrshi: ["Anuria, severe renal impairment", "Severe hypokalaemia/hyponatraemia/hypercalcaemia", "Hypersensitivity to sulfonamides", "Gout (caution)"],
+    nojoya: { "Fluid-electrolyte": "Hypokalaemia, hyponatraemia, hypomagnesaemia, hypercalcaemia", "Metabolic": "Hyperuricaemia (gout), hyperglycaemia, dyslipidaemia", "Other": "Orthostatic hypotension, photosensitivity" },
+    dozadan: "Electrolyte disturbance, dehydration, hypotension; correction.",
+    ozarotasir: ["Increases cardiac glycoside toxicity (hypokalaemia)", "Raises lithium levels", "NSAIDs reduce the effect"],
+    qollash: { kattalar: "12.5–25 mg/day (hypertension), up to 50 mg (oedema); morning.", bolalar: "1–2 mg/kg/day" },
+    chiqarish: "Tablets 25, 50, 100 mg"
+  }
+},
+
+"C03DA01": {
+  uz: {
+    gruppa: "Diuretiklar — kaliy saqlovchi (aldosteron antagonistlari)",
+    farmTasir: "Kaliy saqlovchi siydik haydovchi (aldosteron antagonisti)",
+    farmakodinamika: `Spironolakton — aldosteronning raqobatли antagonisti. Distal kanalcha va yig'uvchi naychада aldosteron retseptorlarini bloklaб natriy/suv chiqarilishini oshiradi, lekin kaliyni ushlaб qoladi (kaliy saqlovchi). Yurak yetishmovchiligida prognozni yaxshilaydi; birlamchi giperaldosteronizmда asosiy vosita.`,
+    farmakokinetika: { sorish: "Ichakdan (ovqat bilan)", tarqalish: "Oqsilга yuqori", metabolizm: "Jigarда faol kanrenonga", chiqarilish: "Buyrak/safro; ta'sir sekin (kunlar)" },
+    korsatmalar: ["Surункали yurak yetishmovchiligi (qo'shimcha)", "Birlamchi/ikkilamchi giperaldosteronizm", "Sirroz/nefrotik shishда, rezistent gipertenziya"],
+    qarrshi: ["Og'ir giperkaliemiya", "Anuriya, og'ir buyrak yetishmovchiligi", "Addison kasalligi", "AAF/ARB bilan birga giperkaliemiya xavfi (ehtiyotkorlik)"],
+    nojoya: { "Elektrolit": "Giperkaliemiya (xavfli), giponatriemiya", "Endokrin": "Ginekomastiya, hayz buzilishi, impotensiya (antiandrogen ta'sir)", "Boshqa": "Ko'ngil aynishi, bosh aylanishi" },
+    dozadan: "Giperkaliemiya; kaliy nazorati, korreksiya (kaltsiy glyukonat, glyukoza-insulin).",
+    ozarotasir: ["AAF/ARB/kaliy bilan og'ir giperkaliemiya", "NPVD samarani pasaytiradi va giperkaliemiya", "Digoksin darajasini oshirishi mumkin"],
+    qollash: { kattalar: "Yurak yetishmovchiligi: 12,5–25 mg/sutka; giperaldosteronizm: 100–400 mg/sutka.", bolalar: "1–3 mg/kg/sutka" },
+    chiqarish: "Tabletkalar 25, 50, 100 mg"
+  },
+  ru: {
+    gruppa: "Диуретики — калийсберегающие (антагонисты альдостерона)",
+    farmTasir: "Калийсберегающее мочегонное (антагонист альдостерона)",
+    farmakodinamika: `Спиронолактон — конкурентный антагонист альдостерона. Блокируя альдостероновые рецепторы в дистальном канальце и собирательной трубочке, повышает выведение натрия/воды, но задерживает калий (калийсберегающий). При сердечной недостаточности улучшает прогноз; основное средство при первичном гиперальдостеронизме.`,
+    farmakokinetika: { sorish: "Из кишечника (с пищей)", tarqalish: "Высокая связь с белками", metabolizm: "В печени до активного канренона", chiqarilish: "Почками/с желчью; действие медленное (дни)" },
+    korsatmalar: ["Хроническая сердечная недостаточность (дополнительно)", "Первичный/вторичный гиперальдостеронизм", "Отёки при циррозе/нефротическом синдроме, резистентная гипертензия"],
+    qarrshi: ["Тяжёлая гиперкалиемия", "Анурия, тяжёлая почечная недостаточность", "Болезнь Аддисона", "С ИАПФ/БРА риск гиперкалиемии (осторожно)"],
+    nojoya: { "Электролитные": "Гиперкалиемия (опасно), гипонатриемия", "Эндокринные": "Гинекомастия, нарушение менструаций, импотенция (антиандрогенное действие)", "Прочее": "Тошнота, головокружение" },
+    dozadan: "Гиперкалиемия; контроль калия, коррекция (кальция глюконат, глюкоза-инсулин).",
+    ozarotasir: ["С ИАПФ/БРА/калием тяжёлая гиперкалиемия", "НПВП снижают эффект и гиперкалиемия", "Может повышать уровень дигоксина"],
+    qollash: { kattalar: "Сердечная недостаточность: 12,5–25 мг/сут; гиперальдостеронизм: 100–400 мг/сут.", bolalar: "1–3 мг/кг/сут" },
+    chiqarish: "Таблетки 25, 50, 100 мг"
+  },
+  en: {
+    gruppa: "Diuretics — potassium-sparing (aldosterone antagonists)",
+    farmTasir: "Potassium-sparing diuretic (aldosterone antagonist)",
+    farmakodinamika: `Spironolactone is a competitive aldosterone antagonist. By blocking aldosterone receptors in the distal tubule and collecting duct it increases sodium/water excretion while retaining potassium (potassium-sparing). In heart failure it improves prognosis; it is the mainstay in primary hyperaldosteronism.`,
+    farmakokinetika: { sorish: "From the gut (with food)", tarqalish: "High protein binding", metabolizm: "Hepatic to active canrenone", chiqarilish: "Renal/biliary; slow onset (days)" },
+    korsatmalar: ["Chronic heart failure (add-on)", "Primary/secondary hyperaldosteronism", "Oedema in cirrhosis/nephrotic syndrome, resistant hypertension"],
+    qarrshi: ["Severe hyperkalaemia", "Anuria, severe renal impairment", "Addison disease", "With ACE inhibitors/ARBs hyperkalaemia risk (caution)"],
+    nojoya: { "Electrolyte": "Hyperkalaemia (dangerous), hyponatraemia", "Endocrine": "Gynaecomastia, menstrual disturbance, impotence (antiandrogen effect)", "Other": "Nausea, dizziness" },
+    dozadan: "Hyperkalaemia; potassium monitoring, correction (calcium gluconate, glucose-insulin).",
+    ozarotasir: ["With ACE inhibitors/ARBs/potassium severe hyperkalaemia", "NSAIDs reduce the effect and cause hyperkalaemia", "May raise digoxin levels"],
+    qollash: { kattalar: "Heart failure: 12.5–25 mg/day; hyperaldosteronism: 100–400 mg/day.", bolalar: "1–3 mg/kg/day" },
+    chiqarish: "Tablets 25, 50, 100 mg"
+  }
+},
+
+"C03DA04": {
+  uz: {
+    gruppa: "Diuretiklar — kaliy saqlovchi (selektiv aldosteron antagonisti)",
+    farmTasir: "Selektiv aldosteron antagonisti",
+    farmakodinamika: `Eplerenon — selektiv aldosteron (mineralokortikoid) retseptor antagonisti. Spironolaktonга o'xshash natriy/suv chiqarib kaliyni saqlaydi, lekin androgen/progesteron retseptorlariga ta'sir qilmaydi — shu sababli ginekomastiya va jinsiy nojo'ya ta'sirlar deyarli yo'q. Yurak yetishmovchiligida prognozni yaxshilaydi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsilга ~50%", metabolizm: "Jigarда CYP3A4", chiqarilish: "Buyrak/najas; T½ ~4–6 soat" },
+    korsatmalar: ["Miokard infarktidан keyin chap qorincha disfunksiyasi va yurak yetishmovchiligi", "Surункали yurak yetishmovchiligi (qo'shimcha)"],
+    qarrshi: ["Og'ir giperkaliemiya", "Og'ir buyrak/jigar yetishmovchiligi", "Kuchли CYP3A4 ingibitorlari bilan", "Kaliy saqlovchi diuretiklar bilan birga"],
+    nojoya: { "Elektrolit": "Giperkaliemiya (xavfli)", "Boshqa": "Bosh aylanishi, gipotenziya, transaminazalar oshishi" },
+    dozadan: "Giperkaliemiya; kaliy nazorati, korreksiya.",
+    ozarotasir: ["AAF/ARB/kaliy bilan giperkaliemiya", "Kuchли CYP3A4 ingibitorlari (ketokonazol) konsentratsiyani keskin oshiradi (man etiladi)", "NPVD bilan giperkaliemiya"],
+    qollash: { kattalar: "25 mg/sutkaдан boshlab, 50 mg gacha (kaliy darajasiga qarab).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 25, 50 mg"
+  },
+  ru: {
+    gruppa: "Диуретики — калийсберегающие (селективный антагонист альдостерона)",
+    farmTasir: "Селективный антагонист альдостерона",
+    farmakodinamika: `Эплеренон — селективный антагонист альдостероновых (минералокортикоидных) рецепторов. Подобно спиронолактону выводит натрий/воду и сберегает калий, но не влияет на андрогеновые/прогестероновые рецепторы — поэтому гинекомастия и половые побочные эффекты практически отсутствуют. При сердечной недостаточности улучшает прогноз.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "С белками ~50%", metabolizm: "В печени CYP3A4", chiqarilish: "Почками/калом; T½ ~4–6 ч" },
+    korsatmalar: ["Дисфункция левого желудочка и сердечная недостаточность после инфаркта миокарда", "Хроническая сердечная недостаточность (дополнительно)"],
+    qarrshi: ["Тяжёлая гиперкалиемия", "Тяжёлая почечная/печёночная недостаточность", "С сильными ингибиторами CYP3A4", "С калийсберегающими диуретиками"],
+    nojoya: { "Электролитные": "Гиперкалиемия (опасно)", "Прочее": "Головокружение, гипотензия, повышение трансаминаз" },
+    dozadan: "Гиперкалиемия; контроль калия, коррекция.",
+    ozarotasir: ["С ИАПФ/БРА/калием гиперкалиемия", "Сильные ингибиторы CYP3A4 (кетоконазол) резко повышают концентрацию (противопоказано)", "С НПВП гиперкалиемия"],
+    qollash: { kattalar: "С 25 мг/сут, до 50 мг (по уровню калия).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 25, 50 мг"
+  },
+  en: {
+    gruppa: "Diuretics — potassium-sparing (selective aldosterone antagonist)",
+    farmTasir: "Selective aldosterone antagonist",
+    farmakodinamika: `Eplerenone is a selective aldosterone (mineralocorticoid) receptor antagonist. Like spironolactone it excretes sodium/water and spares potassium, but it does not affect androgen/progesterone receptors — so gynaecomastia and sexual side effects are essentially absent. In heart failure it improves prognosis.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "~50% protein bound", metabolizm: "Hepatic CYP3A4", chiqarilish: "Renal/faecal; T½ ~4–6 h" },
+    korsatmalar: ["Left ventricular dysfunction and heart failure after myocardial infarction", "Chronic heart failure (add-on)"],
+    qarrshi: ["Severe hyperkalaemia", "Severe renal/hepatic impairment", "With strong CYP3A4 inhibitors", "With potassium-sparing diuretics"],
+    nojoya: { "Electrolyte": "Hyperkalaemia (dangerous)", "Other": "Dizziness, hypotension, raised transaminases" },
+    dozadan: "Hyperkalaemia; potassium monitoring, correction.",
+    ozarotasir: ["With ACE inhibitors/ARBs/potassium hyperkalaemia", "Strong CYP3A4 inhibitors (ketoconazole) sharply raise levels (contraindicated)", "With NSAIDs hyperkalaemia"],
+    qollash: { kattalar: "From 25 mg/day, to 50 mg (per potassium level).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 25, 50 mg"
+  }
 }
 
 };
