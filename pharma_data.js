@@ -30044,6 +30044,636 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Extract/dragee 2–3 times daily or before bed; drops in water.", bolalar: "From 3 years, by age" },
     chiqarish: "Tablets/dragees; drops; herbal raw material (infusion)"
   }
+},
+
+"C10AA07": {
+  uz: {
+    gruppa: "Lipid kamaytiruvchi vositalar — HMG-CoA reduktaza ingibitorlari (statinlar)",
+    farmTasir: "Xolesterinни kamaytiruvchi (statin)",
+    farmakodinamika: `Rozuvastatin — kuchли statin. Jigarда xolesterin sintezining asosiy fermenti HMG-CoA reduktazani inhibilaydi. Natijada hujayra ichi xolesterini kamayadi, jigar yuzasidagi LDL-retseptorlari ko'payadi va qondан "yomon" xolesterin (LDL) faolroq olinadi. LDL va triglitseridlarni pasaytiradi, HDL ni biroz oshiradi; ateroskleroz va yurak-tomir asoratlари xavfini kamaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan (biokirish ~20%)", tarqalish: "Oqsilга ~90%; jigarга tanlangan", metabolizm: "Minimal (CYP2C9, asosан o'zgarmagan)", chiqarilish: "Asosан najas bilan; T½ ~19 soat" },
+    korsatmalar: ["Birlamchi giperxolesterinemiya, aralash dislipidemiya", "Yurak-tomir asoratlari (infarkt, insult) birlamchi va ikkilamchi profilaktikasi", "Oilaviy giperxolesterinemiya"],
+    qarrshi: ["Faol jigar kasalligi, transaminazalar doimiy oshishi", "Og'ir buyrak yetishmovchiligi (yuqori doza)", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Mushak": "Miyalgiya, miopatiya; kamdan-kam — rabdomioliz (xavfli)", "Jigar": "Transaminazalar oshishi", "Boshqa": "Bosh og'rig'i, dispepsiya, giperglikemiya (diabet xavfi biroz ortadi)" },
+    dozadan: "Maxsus antidot yo'q; jigar/mushak (KFK) nazorati, simptomatik davo.",
+    ozarotasir: ["Siklosporin, gemfibrozil konsentratsiyani keskin oshiradi (miopatiya)", "Antatsidlar so'rilishni kamaytiradi (2 soat oraliq)", "Varfarin (MNI) ta'sirini kuchaytirishi mumkin"],
+    qollash: { kattalar: "5–10 mg/sutkaдан boshlab, 20–40 mg gacha (kuniga 1 marta, istalgan vaqt).", bolalar: "≥6–10 yosh (oilaviy giperxolesterinemiya), mutaxassis nazoratида" },
+    chiqarish: "Plyonka qoplamali tabletkalar 5, 10, 20, 40 mg"
+  },
+  ru: {
+    gruppa: "Гиполипидемические средства — ингибиторы ГМГ-КоА-редуктазы (статины)",
+    farmTasir: "Снижающее холестерин (статин)",
+    farmakodinamika: `Розувастатин — сильный статин. Ингибирует ГМГ-КоА-редуктазу — ключевой фермент синтеза холестерина в печени. В результате снижается внутриклеточный холестерин, увеличивается число ЛПНП-рецепторов на поверхности печени и активнее захватывается «плохой» холестерин (ЛПНП) из крови. Снижает ЛПНП и триглицериды, немного повышает ЛПВП; уменьшает риск атеросклероза и сердечно-сосудистых осложнений.`,
+    farmakokinetika: { sorish: "Из кишечника (биодоступность ~20%)", tarqalish: "С белками ~90%; селективен к печени", metabolizm: "Минимальный (CYP2C9, в основном неизменён)", chiqarilish: "Преимущественно с калом; T½ ~19 ч" },
+    korsatmalar: ["Первичная гиперхолестеринемия, смешанная дислипидемия", "Первичная и вторичная профилактика сердечно-сосудистых осложнений (инфаркт, инсульт)", "Семейная гиперхолестеринемия"],
+    qarrshi: ["Активное заболевание печени, стойкое повышение трансаминаз", "Тяжёлая почечная недостаточность (высокая доза)", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "Мышцы": "Миалгия, миопатия; редко — рабдомиолиз (опасно)", "Печень": "Повышение трансаминаз", "Прочее": "Головная боль, диспепсия, гипергликемия (немного повышается риск диабета)" },
+    dozadan: "Специфического антидота нет; контроль печени/мышц (КФК), симптоматическая терапия.",
+    ozarotasir: ["Циклоспорин, гемфиброзил резко повышают концентрацию (миопатия)", "Антациды снижают всасывание (интервал 2 ч)", "Может усиливать действие варфарина (МНО)"],
+    qollash: { kattalar: "С 5–10 мг/сут, до 20–40 мг (раз в сутки, в любое время).", bolalar: "С 6–10 лет (семейная гиперхолестеринемия), под контролем специалиста" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 5, 10, 20, 40 мг"
+  },
+  en: {
+    gruppa: "Lipid-modifying agents — HMG-CoA reductase inhibitors (statins)",
+    farmTasir: "Cholesterol-lowering (statin)",
+    farmakodinamika: `Rosuvastatin is a potent statin. It inhibits HMG-CoA reductase, the key enzyme of hepatic cholesterol synthesis. This lowers intracellular cholesterol, upregulates LDL receptors on the liver surface and increases clearance of 'bad' cholesterol (LDL) from the blood. It lowers LDL and triglycerides and slightly raises HDL; it reduces the risk of atherosclerosis and cardiovascular events.`,
+    farmakokinetika: { sorish: "From the gut (bioavailability ~20%)", tarqalish: "~90% protein bound; liver-selective", metabolizm: "Minimal (CYP2C9, largely unchanged)", chiqarilish: "Mainly faecal; T½ ~19 h" },
+    korsatmalar: ["Primary hypercholesterolaemia, mixed dyslipidaemia", "Primary and secondary prevention of cardiovascular events (MI, stroke)", "Familial hypercholesterolaemia"],
+    qarrshi: ["Active liver disease, persistently raised transaminases", "Severe renal impairment (high dose)", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "Muscle": "Myalgia, myopathy; rarely rhabdomyolysis (dangerous)", "Liver": "Raised transaminases", "Other": "Headache, dyspepsia, hyperglycaemia (slightly increased diabetes risk)" },
+    dozadan: "No specific antidote; monitor liver/muscle (CK), supportive care.",
+    ozarotasir: ["Ciclosporin, gemfibrozil sharply raise levels (myopathy)", "Antacids reduce absorption (2 h interval)", "May potentiate warfarin (INR)"],
+    qollash: { kattalar: "From 5–10 mg/day, to 20–40 mg (once daily, any time).", bolalar: "From 6–10 years (familial hypercholesterolaemia), under specialist supervision" },
+    chiqarish: "Film-coated tablets 5, 10, 20, 40 mg"
+  }
+},
+
+"C10AA05": {
+  uz: {
+    gruppa: "Lipid kamaytiruvchi vositalar — HMG-CoA reduktaza ingibitorlari (statinlar)",
+    farmTasir: "Xolesterinни kamaytiruvchi (statin)",
+    farmakodinamika: `Atorvastatin — keng qo'llaniladigan statin. Jigarда HMG-CoA reduktazani inhibilaб xolesterin sintezini kamaytiradi va LDL-retseptorlari faolligini oshiradi; bu qondаги LDL va triglitseridlarni pasaytiradi, HDL ni biroz oshiradi. Yallig'lanишга qarshi va ateroskleroz pilakchasini barqarorlashtiruvchi qo'shimcha ("pleyotrop") ta'sirи bor.`,
+    farmakokinetika: { sorish: "Ichakdan (biokirish ~14%, birinchi o'tish yuqori)", tarqalish: "Oqsilга >98%", metabolizm: "Jigarда CYP3A4 (faol metabolitlar)", chiqarilish: "Asosан safro/najas; T½ ~14 soat (faol ta'sir uzunroq)" },
+    korsatmalar: ["Giperxolesterinemiya, aralash dislipidemiya", "Yurak-tomir asoratlari profilaktikasi (ham birlamchi, ham ikkilamchi)"],
+    qarrshi: ["Faol jigar kasalligi", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Mushak": "Miyalgiya, miopatiya; kamdan-kam rabdomioliz", "Jigar": "Transaminazalar oshishi", "Boshqa": "Dispepsiya, bosh og'rig'i, giperglikemiya" },
+    dozadan: "Maxsus antidot yo'q; jigar/mushak nazorati, simptomatik davo.",
+    ozarotasir: ["CYP3A4 ingibitorlari (makrolidlar, azollar, greypfrut sharbati) konsentratsiyani oshiradi (miopatiya)", "Gemfibrozil/fibratlar bilan miopatiya xavfi", "Digoksin darajasini oshiradi"],
+    qollash: { kattalar: "10–20 mg/sutkaдан boshlab, 80 mg gacha (kuniga 1 marta).", bolalar: "≥10 yosh (oilaviy giperxolesterinemiya)" },
+    chiqarish: "Plyonka qoplamali tabletkalar 10, 20, 40, 80 mg"
+  },
+  ru: {
+    gruppa: "Гиполипидемические средства — ингибиторы ГМГ-КоА-редуктазы (статины)",
+    farmTasir: "Снижающее холестерин (статин)",
+    farmakodinamika: `Аторвастатин — широко применяемый статин. Ингибирует ГМГ-КоА-редуктазу в печени, снижая синтез холестерина и повышая активность ЛПНП-рецепторов; это снижает ЛПНП и триглицериды в крови, немного повышает ЛПВП. Обладает дополнительным («плейотропным») противовоспалительным и стабилизирующим атеросклеротическую бляшку действием.`,
+    farmakokinetika: { sorish: "Из кишечника (биодоступность ~14%, высокий первичный пас)", tarqalish: "С белками >98%", metabolizm: "В печени CYP3A4 (активные метаболиты)", chiqarilish: "Преимущественно с желчью/калом; T½ ~14 ч (активность дольше)" },
+    korsatmalar: ["Гиперхолестеринемия, смешанная дислипидемия", "Профилактика сердечно-сосудистых осложнений (первичная и вторичная)"],
+    qarrshi: ["Активное заболевание печени", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "Мышцы": "Миалгия, миопатия; редко рабдомиолиз", "Печень": "Повышение трансаминаз", "Прочее": "Диспепсия, головная боль, гипергликемия" },
+    dozadan: "Специфического антидота нет; контроль печени/мышц, симптоматическая терапия.",
+    ozarotasir: ["Ингибиторы CYP3A4 (макролиды, азолы, грейпфрутовый сок) повышают концентрацию (миопатия)", "С гемфиброзилом/фибратами риск миопатии", "Повышает уровень дигоксина"],
+    qollash: { kattalar: "С 10–20 мг/сут, до 80 мг (раз в сутки).", bolalar: "С 10 лет (семейная гиперхолестеринемия)" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 10, 20, 40, 80 мг"
+  },
+  en: {
+    gruppa: "Lipid-modifying agents — HMG-CoA reductase inhibitors (statins)",
+    farmTasir: "Cholesterol-lowering (statin)",
+    farmakodinamika: `Atorvastatin is a widely used statin. It inhibits hepatic HMG-CoA reductase, reducing cholesterol synthesis and upregulating LDL receptors; this lowers blood LDL and triglycerides and slightly raises HDL. It has additional ('pleiotropic') anti-inflammatory and plaque-stabilising effects.`,
+    farmakokinetika: { sorish: "From the gut (bioavailability ~14%, high first-pass)", tarqalish: ">98% protein bound", metabolizm: "Hepatic CYP3A4 (active metabolites)", chiqarilish: "Mainly biliary/faecal; T½ ~14 h (activity longer)" },
+    korsatmalar: ["Hypercholesterolaemia, mixed dyslipidaemia", "Prevention of cardiovascular events (primary and secondary)"],
+    qarrshi: ["Active liver disease", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "Muscle": "Myalgia, myopathy; rarely rhabdomyolysis", "Liver": "Raised transaminases", "Other": "Dyspepsia, headache, hyperglycaemia" },
+    dozadan: "No specific antidote; monitor liver/muscle, supportive care.",
+    ozarotasir: ["CYP3A4 inhibitors (macrolides, azoles, grapefruit juice) raise levels (myopathy)", "With gemfibrozil/fibrates myopathy risk", "Raises digoxin levels"],
+    qollash: { kattalar: "From 10–20 mg/day, to 80 mg (once daily).", bolalar: "From 10 years (familial hypercholesterolaemia)" },
+    chiqarish: "Film-coated tablets 10, 20, 40, 80 mg"
+  }
+},
+
+"C10AA01": {
+  uz: {
+    gruppa: "Lipid kamaytiruvchi vositalar — HMG-CoA reduktaza ingibitorlari (statinlar)",
+    farmTasir: "Xolesterinни kamaytiruvchi (statin)",
+    farmakodinamika: `Simvastatin — birinchi avlod statinlaridan, prodori sifatида jigarда faol shaklга aylanadi. HMG-CoA reduktazani inhibilaб xolesterin sintezini kamaytiradi va LDL-retseptorlarini ko'paytiradi; LDL va triglitseridlarni pasaytiradi, HDL ni oshiradi. Kechqurun qabul qilinganда samaraliroq (xolesterin sintezi tunda yuqori).`,
+    farmakokinetika: { sorish: "Ichakdan (birinchi o'tish yuqori)", tarqalish: "Oqsilга ~95%", metabolizm: "Jigarда CYP3A4 (faol shaklга)", chiqarilish: "Asosан safro/najas; T½ qisqa" },
+    korsatmalar: ["Giperxolesterinemiya, aralash dislipidemiya", "Yurak-tomir asoratlари profilaktikasi"],
+    qarrshi: ["Faol jigar kasalligi", "Homiladorlik va laktatsiya", "Kuchли CYP3A4 ingibitorlari bilan birga", "Yuqori sezuvchanlik"],
+    nojoya: { "Mushak": "Miyalgiya, miopatiya; kamdan-kam rabdomioliz (ayniqsa yuqori dozаda)", "Jigar": "Transaminazalar oshishi", "Boshqa": "Dispepsiya, bosh og'rig'i" },
+    dozadan: "Maxsus antidot yo'q; jigar/mushak nazorati.",
+    ozarotasir: ["Kuchли CYP3A4 ingibitorlari (itrakonazol, klaritromitsin, greypfrut) — miopatiya (man etiladi)", "Amlodipin/diltiazem bilan doza cheklanadi", "Gemfibrozil bilan miopatiya xavfi"],
+    qollash: { kattalar: "10–20 mg/sutka kechqurun, 40 mg gacha (80 mg cheklangan).", bolalar: "≥10 yosh (oilaviy giperxolesterinemiya)" },
+    chiqarish: "Plyonka qoplamali tabletkalar 10, 20, 40 mg"
+  },
+  ru: {
+    gruppa: "Гиполипидемические средства — ингибиторы ГМГ-КоА-редуктазы (статины)",
+    farmTasir: "Снижающее холестерин (статин)",
+    farmakodinamika: `Симвастатин — статин первого поколения, пролекарство, превращающееся в печени в активную форму. Ингибирует ГМГ-КоА-редуктазу, снижая синтез холестерина и повышая число ЛПНП-рецепторов; снижает ЛПНП и триглицериды, повышает ЛПВП. Эффективнее при приёме вечером (синтез холестерина выше ночью).`,
+    farmakokinetika: { sorish: "Из кишечника (высокий первичный пас)", tarqalish: "С белками ~95%", metabolizm: "В печени CYP3A4 (в активную форму)", chiqarilish: "Преимущественно с желчью/калом; T½ короткий" },
+    korsatmalar: ["Гиперхолестеринемия, смешанная дислипидемия", "Профилактика сердечно-сосудистых осложнений"],
+    qarrshi: ["Активное заболевание печени", "Беременность и лактация", "С сильными ингибиторами CYP3A4", "Гиперчувствительность"],
+    nojoya: { "Мышцы": "Миалгия, миопатия; редко рабдомиолиз (особенно в высокой дозе)", "Печень": "Повышение трансаминаз", "Прочее": "Диспепсия, головная боль" },
+    dozadan: "Специфического антидота нет; контроль печени/мышц.",
+    ozarotasir: ["Сильные ингибиторы CYP3A4 (итраконазол, кларитромицин, грейпфрут) — миопатия (противопоказано)", "С амлодипином/дилтиаземом доза ограничивается", "С гемфиброзилом риск миопатии"],
+    qollash: { kattalar: "10–20 мг/сут вечером, до 40 мг (80 мг ограничено).", bolalar: "С 10 лет (семейная гиперхолестеринемия)" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 10, 20, 40 мг"
+  },
+  en: {
+    gruppa: "Lipid-modifying agents — HMG-CoA reductase inhibitors (statins)",
+    farmTasir: "Cholesterol-lowering (statin)",
+    farmakodinamika: `Simvastatin is a first-generation statin, a prodrug converted to its active form in the liver. It inhibits HMG-CoA reductase, reducing cholesterol synthesis and upregulating LDL receptors; it lowers LDL and triglycerides and raises HDL. It is more effective taken in the evening (cholesterol synthesis is higher at night).`,
+    farmakokinetika: { sorish: "From the gut (high first-pass)", tarqalish: "~95% protein bound", metabolizm: "Hepatic CYP3A4 (to active form)", chiqarilish: "Mainly biliary/faecal; short T½" },
+    korsatmalar: ["Hypercholesterolaemia, mixed dyslipidaemia", "Prevention of cardiovascular events"],
+    qarrshi: ["Active liver disease", "Pregnancy and lactation", "With strong CYP3A4 inhibitors", "Hypersensitivity"],
+    nojoya: { "Muscle": "Myalgia, myopathy; rarely rhabdomyolysis (especially at high dose)", "Liver": "Raised transaminases", "Other": "Dyspepsia, headache" },
+    dozadan: "No specific antidote; monitor liver/muscle.",
+    ozarotasir: ["Strong CYP3A4 inhibitors (itraconazole, clarithromycin, grapefruit) — myopathy (contraindicated)", "With amlodipine/diltiazem the dose is capped", "With gemfibrozil myopathy risk"],
+    qollash: { kattalar: "10–20 mg/day in the evening, up to 40 mg (80 mg restricted).", bolalar: "From 10 years (familial hypercholesterolaemia)" },
+    chiqarish: "Film-coated tablets 10, 20, 40 mg"
+  }
+},
+
+"C10AB05": {
+  uz: {
+    gruppa: "Lipid kamaytiruvchi vositalar — fibratlar",
+    farmTasir: "Triglitseridlarни kamaytiruvchi (fibrat)",
+    farmakodinamika: `Fenofibrat — fibrat guruhidan. Hujayra yadrosidagi PPAR-alfa retseptorlarini faollashtirib lipoprotein lipaza faolligini oshiradi va apolipoprotein C-III ni kamaytiradi; natijada triglitseridlar va VLDL keskin pasayadi, HDL oshadi, LDL zarralari kattalashadi. Asosан giper­triglitseridemiyada qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (ovqat bilan yaxshiroq)", tarqalish: "Oqsilга yuqori", metabolizm: "Faol fenofibrik kislotaga", chiqarilish: "Asosан buyrak orqали; T½ ~20 soat" },
+    korsatmalar: ["Og'ir gipertriglitseridemiya", "Aralash dislipidemiya (statin samarasiz yoki chidamsiz bo'lганда / qo'shimcha)"],
+    qarrshi: ["Og'ir jigar/buyrak yetishmovchiligi", "O't pufagi kasalligi", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Dispepsiya, o't toshlari", "Mushak": "Miyalgiya, miopatiya (ayniqsa statin bilan)", "Jigar/buyrak": "Transaminazalar va kreatinin oshishi" },
+    dozadan: "Maxsus antidot yo'q; simptomatik davo.",
+    ozarotasir: ["Statinlar bilan miopatiya/rabdomioliz xavfi (ayniqsa gemfibrozil)", "Peroral antikoagulyantlar ta'sirini kuchaytiradi (MNI nazorati)", "Siklosporin bilan nefrotoksiklik"],
+    qollash: { kattalar: "145–160 mg/sutka (mikronlangan shaklга qarab), kuniga 1 marta ovqat bilan.", bolalar: "Odatda tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar/kapsulalar 145, 160, 200 mg"
+  },
+  ru: {
+    gruppa: "Гиполипидемические средства — фибраты",
+    farmTasir: "Снижающее триглицериды (фибрат)",
+    farmakodinamika: `Фенофибрат — из группы фибратов. Активирует ядерные рецепторы PPAR-альфа, повышая активность липопротеинлипазы и снижая аполипопротеин C-III; в результате резко снижаются триглицериды и ЛПОНП, повышается ЛПВП, частицы ЛПНП укрупняются. Применяется в основном при гипертриглицеридемии.`,
+    farmakokinetika: { sorish: "Из кишечника (лучше с пищей)", tarqalish: "Высокая связь с белками", metabolizm: "До активной фенофиброевой кислоты", chiqarilish: "Преимущественно почками; T½ ~20 ч" },
+    korsatmalar: ["Тяжёлая гипертриглицеридемия", "Смешанная дислипидемия (при неэффективности/непереносимости статинов / дополнительно)"],
+    qarrshi: ["Тяжёлая печёночная/почечная недостаточность", "Болезни желчного пузыря", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Диспепсия, желчные камни", "Мышцы": "Миалгия, миопатия (особенно со статином)", "Печень/почки": "Повышение трансаминаз и креатинина" },
+    dozadan: "Специфического антидота нет; симптоматическая терапия.",
+    ozarotasir: ["Со статинами риск миопатии/рабдомиолиза (особенно гемфиброзил)", "Усиливает действие пероральных антикоагулянтов (контроль МНО)", "С циклоспорином нефротоксичность"],
+    qollash: { kattalar: "145–160 мг/сут (в зависимости от микронизированной формы), раз в сутки с пищей.", bolalar: "Обычно не рекомендуется" },
+    chiqarish: "Таблетки/капсулы 145, 160, 200 мг"
+  },
+  en: {
+    gruppa: "Lipid-modifying agents — fibrates",
+    farmTasir: "Triglyceride-lowering (fibrate)",
+    farmakodinamika: `Fenofibrate is a fibrate. It activates nuclear PPAR-alpha receptors, increasing lipoprotein lipase activity and reducing apolipoprotein C-III; this markedly lowers triglycerides and VLDL, raises HDL and enlarges LDL particles. It is used mainly for hypertriglyceridaemia.`,
+    farmakokinetika: { sorish: "From the gut (better with food)", tarqalish: "High protein binding", metabolizm: "To active fenofibric acid", chiqarilish: "Mainly renal; T½ ~20 h" },
+    korsatmalar: ["Severe hypertriglyceridaemia", "Mixed dyslipidaemia (statin ineffective/intolerant or add-on)"],
+    qarrshi: ["Severe hepatic/renal impairment", "Gallbladder disease", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "GI": "Dyspepsia, gallstones", "Muscle": "Myalgia, myopathy (especially with a statin)", "Liver/kidney": "Raised transaminases and creatinine" },
+    dozadan: "No specific antidote; supportive care.",
+    ozarotasir: ["With statins myopathy/rhabdomyolysis risk (especially gemfibrozil)", "Potentiates oral anticoagulants (INR monitoring)", "With ciclosporin nephrotoxicity"],
+    qollash: { kattalar: "145–160 mg/day (depending on micronised form), once daily with food.", bolalar: "Usually not recommended" },
+    chiqarish: "Tablets/capsules 145, 160, 200 mg"
+  }
+},
+
+"C10AC01": {
+  uz: {
+    gruppa: "Lipid kamaytiruvchi vositalar — o't kislotalarini bog'lovchilar",
+    farmTasir: "Xolesterinни kamaytiruvchi (sekvestrant)",
+    farmakodinamika: `Xolestiramin — anion almashinuvchi smola. Ichakда o't kislotalarini bog'lab najas bilan chiqaradi; bu jigarni xolesteriddan yangi o't kislotalari sintez qilishga majbur qiladi, natijada jigar xolesterinи kamayadi va LDL-retseptorlari faollashib qondаги LDL pasayadi. Qonга so'rilmaydi.`,
+    farmakokinetika: { sorish: "Qonга so'rilmaydi (ichakда ishlaydi)", tarqalish: "—", metabolizm: "—", chiqarilish: "Najas bilan" },
+    korsatmalar: ["Birlamchi giperxolesterinemiya (mono- yoki statin bilan)", "O't kislotalari to'planishi bilan kechuvchi qichishish (xolestaz)"],
+    qarrshi: ["To'liq o't yo'li tutilishi", "Disbetalipoproteinemiya (III tip)", "Og'ir qabziyat", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Qabziyat, meteorizm, dispepsiya", "Metabolik": "Yog'да eruvchi vitaminlar (A, D, E, K) va folat so'rilishi kamayishi (uzoq qabulда)" },
+    dozadan: "Ichak tutilishi xavfi; simptomatik davo.",
+    ozarotasir: ["Ko'p dorilar (varfarin, digoksin, levotiroksin, statinlar, tiazidlar) so'rilishini kamaytiradi — boshqa dorilar 1 soat oldin yoki 4 soat keyin qabul qilinadi"],
+    qollash: { kattalar: "4 g×1–2 dан boshlab, 8–24 g/sutkagacha (suyuqlikда aralashtirib).", bolalar: "Vaznга ko'ra, ehtiyotkorlik bilan" },
+    chiqarish: "Ichish uchun poroshok (paket) 4 g"
+  },
+  ru: {
+    gruppa: "Гиполипидемические средства — секвестранты желчных кислот",
+    farmTasir: "Снижающее холестерин (секвестрант)",
+    farmakodinamika: `Холестирамин — анионообменная смола. В кишечнике связывает желчные кислоты и выводит их с калом; это заставляет печень синтезировать новые желчные кислоты из холестерина, в результате снижается холестерин печени, активируются ЛПНП-рецепторы и падает ЛПНП в крови. Не всасывается в кровь.`,
+    farmakokinetika: { sorish: "Не всасывается в кровь (действует в кишечнике)", tarqalish: "—", metabolizm: "—", chiqarilish: "С калом" },
+    korsatmalar: ["Первичная гиперхолестеринемия (моно- или со статином)", "Зуд при накоплении желчных кислот (холестаз)"],
+    qarrshi: ["Полная обструкция желчных путей", "Дисбеталипопротеинемия (III тип)", "Тяжёлый запор", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Запор, метеоризм, диспепсия", "Метаболические": "Снижение всасывания жирорастворимых витаминов (A, D, E, K) и фолата (при длительном приёме)" },
+    dozadan: "Риск кишечной непроходимости; симптоматическая терапия.",
+    ozarotasir: ["Снижает всасывание многих препаратов (варфарин, дигоксин, левотироксин, статины, тиазиды) — другие препараты принимать за 1 ч до или через 4 ч после"],
+    qollash: { kattalar: "С 4 г×1–2, до 8–24 г/сут (размешав в жидкости).", bolalar: "По массе, с осторожностью" },
+    chiqarish: "Порошок для приёма внутрь (пакет) 4 г"
+  },
+  en: {
+    gruppa: "Lipid-modifying agents — bile acid sequestrants",
+    farmTasir: "Cholesterol-lowering (sequestrant)",
+    farmakodinamika: `Cholestyramine is an anion-exchange resin. In the gut it binds bile acids and excretes them in faeces; this forces the liver to synthesise new bile acids from cholesterol, lowering hepatic cholesterol, upregulating LDL receptors and reducing blood LDL. It is not absorbed into the blood.`,
+    farmakokinetika: { sorish: "Not absorbed into the blood (acts in the gut)", tarqalish: "—", metabolizm: "—", chiqarilish: "In faeces" },
+    korsatmalar: ["Primary hypercholesterolaemia (mono- or with a statin)", "Pruritus from bile acid accumulation (cholestasis)"],
+    qarrshi: ["Complete biliary obstruction", "Dysbetalipoproteinaemia (type III)", "Severe constipation", "Hypersensitivity"],
+    nojoya: { "GI": "Constipation, flatulence, dyspepsia", "Metabolic": "Reduced absorption of fat-soluble vitamins (A, D, E, K) and folate (with long-term use)" },
+    dozadan: "Risk of bowel obstruction; supportive care.",
+    ozarotasir: ["Reduces absorption of many drugs (warfarin, digoxin, levothyroxine, statins, thiazides) — take other drugs 1 h before or 4 h after"],
+    qollash: { kattalar: "From 4 g×1–2, to 8–24 g/day (mixed in liquid).", bolalar: "By weight, cautiously" },
+    chiqarish: "Powder for oral use (sachet) 4 g"
+  }
+},
+
+"C10AD02": {
+  uz: {
+    gruppa: "Lipid kamaytiruvchi vositalar — nikotin kislota va hosilalari",
+    farmTasir: "Lipidlarни kamaytiruvchi (niatsin)",
+    farmakodinamika: `Nikotin kislota (niatsin, vitamin B3 yuqori dozада) — yog' to'qimasida lipolizni bostirib jigarga erkin yog' kislotalari oqimini kamaytiradi; bu VLDL va triglitseridlar sintezini, natijada LDL ni pasaytiradi va HDL ni sezilarli oshiradi. Lipoprotein(a) ни ham kamaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Aralash dislipidemiya, gipertriglitseridemiya", "Past HDL bilan kechuvchi dislipidemiya (boshqa vositalar bilan)"],
+    qarrshi: ["Faol jigar kasalligi", "Faol oshqozon yara kasalligi", "Og'ir podagra/giperurikemiya", "Homiladorlik va laktatsiya"],
+    nojoya: { "Tomir": "Yuzning qizishi va issiqlik hissi (prostaglandin bog'liq, ASA bilan kamayadi)", "Metabolik": "Giperglikemiya, giperurikemiya", "Jigar": "Gepatotoksiklik (yuqori doza/uzaytirilgan shakl)" },
+    dozadan: "Qizarish, gipotenziya, gepatotoksiklik; dozani kamaytirish, simptomatik davo.",
+    ozarotasir: ["Statinlar bilan miopatiya xavfi (ehtiyotkorlik)", "Antigipertenziv vositalar ta'sirini kuchaytiradi", "Antidiabetik doza ehtiyojini o'zgartiradi"],
+    qollash: { kattalar: "Past dozаdан boshlab asta oshiriladi (qizarishни kamaytirish uchun); 1–2 g/sutkagacha (bo'lib).", bolalar: "Lipid maqsadида tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar; uzaytirilgan tabletkalar; inyeksiya eritmasi"
+  },
+  ru: {
+    gruppa: "Гиполипидемические средства — никотиновая кислота и производные",
+    farmTasir: "Снижающее липиды (ниацин)",
+    farmakodinamika: `Никотиновая кислота (ниацин, витамин В3 в высокой дозе) подавляет липолиз в жировой ткани, снижая приток свободных жирных кислот в печень; это уменьшает синтез ЛПОНП и триглицеридов, а значит и ЛПНП, и заметно повышает ЛПВП. Также снижает липопротеин(а).`,
+    farmakokinetika: { sorish: "Быстро из кишечника", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Смешанная дислипидемия, гипертриглицеридемия", "Дислипидемия с низким ЛПВП (с другими средствами)"],
+    qarrshi: ["Активное заболевание печени", "Активная язвенная болезнь желудка", "Тяжёлая подагра/гиперурикемия", "Беременность и лактация"],
+    nojoya: { "Сосудистые": "Покраснение лица и чувство жара (простагландин-зависимое, уменьшается с АСК)", "Метаболические": "Гипергликемия, гиперурикемия", "Печень": "Гепатотоксичность (высокая доза/пролонгированная форма)" },
+    dozadan: "Покраснение, гипотензия, гепатотоксичность; снижение дозы, симптоматическая терапия.",
+    ozarotasir: ["Со статинами риск миопатии (осторожно)", "Усиливает действие гипотензивных", "Изменяет потребность в антидиабетических средствах"],
+    qollash: { kattalar: "С низкой дозы постепенно повышая (чтобы уменьшить покраснение); до 1–2 г/сут (дробно).", bolalar: "С целью коррекции липидов не рекомендуется" },
+    chiqarish: "Таблетки; таблетки пролонгированные; раствор для инъекций"
+  },
+  en: {
+    gruppa: "Lipid-modifying agents — nicotinic acid and derivatives",
+    farmTasir: "Lipid-lowering (niacin)",
+    farmakodinamika: `Nicotinic acid (niacin, vitamin B3 at high dose) suppresses lipolysis in adipose tissue, reducing free fatty acid flux to the liver; this lowers VLDL and triglyceride synthesis (and thus LDL) and markedly raises HDL. It also lowers lipoprotein(a).`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Mixed dyslipidaemia, hypertriglyceridaemia", "Dyslipidaemia with low HDL (with other agents)"],
+    qarrshi: ["Active liver disease", "Active gastric ulcer", "Severe gout/hyperuricaemia", "Pregnancy and lactation"],
+    nojoya: { "Vascular": "Facial flushing and warmth (prostaglandin-mediated, reduced by ASA)", "Metabolic": "Hyperglycaemia, hyperuricaemia", "Liver": "Hepatotoxicity (high dose/extended-release)" },
+    dozadan: "Flushing, hypotension, hepatotoxicity; reduce the dose, supportive care.",
+    ozarotasir: ["With statins myopathy risk (caution)", "Enhances antihypertensives", "Changes antidiabetic requirement"],
+    qollash: { kattalar: "Start low and titrate up (to reduce flushing); up to 1–2 g/day (divided).", bolalar: "Not recommended for lipid lowering" },
+    chiqarish: "Tablets; prolonged-release tablets; solution for injection"
+  }
+},
+
+"C10AX06": {
+  uz: {
+    gruppa: "Lipid kamaytiruvchi vositalar — boshqa lipid vositalari",
+    farmTasir: "Triglitseridlarни kamaytiruvchi (omega-3)",
+    farmakodinamika: `Omega-3 ko'p to'yinmagan yog' kislotalari etil efirlari (EPA va DHA). Jigarда triglitseridlar (VLDL) sintezini kamaytiradi va yog' kislotalари oksidlanishini oshiradi; bundan tashqari antiaritmik, antitrombotik va yallig'lanишга qarshi ta'siri bor. Asosан yuqori triglitseridemiyada qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (ovqat bilan)", tarqalish: "Lipoproteinlarга qo'shiladi", metabolizm: "Tabiiy yog' almashinuvi", chiqarilish: "O'pka (CO2) va tabiiy yo'llar" },
+    korsatmalar: ["Og'ir gipertriglitseridemiya", "Miokard infarktidан keyin ikkilamchi profilaktika (yordamchi)"],
+    qarrshi: ["Yuqori sezuvchanlik (jumladan balig'ga)", "Ehtiyotkorlik — qon ketish moyilligi, antikoagulyant qabuli"],
+    nojoya: { "Oshqozon-ichak": "Baliq ta'mli kekirik, dispepsiya, diareya", "Qon": "Qon ketish vaqtining biroz uzayishi", "Boshqa": "Transaminazalar oshishi (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Antikoagulyantlar/antiagregantlar bilan qon ketish xavfi biroz ortadi"],
+    qollash: { kattalar: "2–4 g/sutka (triglitseridemiyada), kuniga 1–2 marta ovqat bilan.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Yumshoq kapsulalar 1000 mg"
+  },
+  ru: {
+    gruppa: "Гиполипидемические средства — прочие гиполипидемические",
+    farmTasir: "Снижающее триглицериды (омега-3)",
+    farmakodinamika: `Этиловые эфиры омега-3 полиненасыщенных жирных кислот (ЭПК и ДГК). Снижают синтез триглицеридов (ЛПОНП) в печени и усиливают окисление жирных кислот; кроме того, обладают антиаритмическим, антитромботическим и противовоспалительным действием. Применяются в основном при высокой триглицеридемии.`,
+    farmakokinetika: { sorish: "Из кишечника (с пищей)", tarqalish: "Включаются в липопротеины", metabolizm: "Естественный обмен жиров", chiqarilish: "Лёгкими (CO2) и естественными путями" },
+    korsatmalar: ["Тяжёлая гипертриглицеридемия", "Вторичная профилактика после инфаркта миокарда (вспомогательно)"],
+    qarrshi: ["Гиперчувствительность (в т.ч. к рыбе)", "Осторожно — склонность к кровотечениям, приём антикоагулянтов"],
+    nojoya: { "ЖКТ": "Отрыжка с рыбным привкусом, диспепсия, диарея", "Кровь": "Небольшое удлинение времени кровотечения", "Прочее": "Повышение трансаминаз (редко)" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["С антикоагулянтами/антиагрегантами немного возрастает риск кровотечений"],
+    qollash: { kattalar: "2–4 г/сут (при триглицеридемии), 1–2 раза в сутки с пищей.", bolalar: "Не рекомендуется" },
+    chiqarish: "Мягкие капсулы 1000 мг"
+  },
+  en: {
+    gruppa: "Lipid-modifying agents — other lipid-modifying agents",
+    farmTasir: "Triglyceride-lowering (omega-3)",
+    farmakodinamika: `Omega-3 polyunsaturated fatty acid ethyl esters (EPA and DHA). They reduce hepatic triglyceride (VLDL) synthesis and increase fatty acid oxidation; they also have antiarrhythmic, antithrombotic and anti-inflammatory effects. They are used mainly for high triglyceridaemia.`,
+    farmakokinetika: { sorish: "From the gut (with food)", tarqalish: "Incorporated into lipoproteins", metabolizm: "Natural fat metabolism", chiqarilish: "Via lungs (CO2) and natural pathways" },
+    korsatmalar: ["Severe hypertriglyceridaemia", "Secondary prevention after myocardial infarction (adjunct)"],
+    qarrshi: ["Hypersensitivity (incl. to fish)", "Caution — bleeding tendency, anticoagulant use"],
+    nojoya: { "GI": "Fishy belching, dyspepsia, diarrhoea", "Blood": "Slight prolongation of bleeding time", "Other": "Raised transaminases (rare)" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["With anticoagulants/antiplatelets bleeding risk increases slightly"],
+    qollash: { kattalar: "2–4 g/day (for triglyceridaemia), 1–2 times daily with food.", bolalar: "Not recommended" },
+    chiqarish: "Soft capsules 1000 mg"
+  }
+},
+
+"C10AX16": {
+  uz: {
+    gruppa: "Lipid kamaytiruvchi vositalar — boshqa lipid vositalari (siRNK)",
+    farmTasir: "PCSK9 sintezini bostiruvchi (kichik interferlovchi RNK)",
+    farmakodinamika: `Inklisiran — kichik interferlovchi RNK (siRNK) vositasi. Jigar hujayralarида PCSK9 oqsili sintezini RNK darajasида bostiradi. PCSK9 odatda LDL-retseptorlarini parchalaydi; uning kamayishi bilan LDL-retseptorlar ko'payadi va qondаги LDL keskin pasayadi. Bir in'eksiya bilan ta'sir bir necha oy davom etadi.`,
+    farmakokinetika: { sorish: "Teri ostiga in'eksiya", tarqalish: "Jigarга tanlangan (GalNAc konyugat)", metabolizm: "Nukleazalar orqали", chiqarilish: "Buyrak orqали; ta'siri uzoq (yiliga 2 in'eksiya)" },
+    korsatmalar: ["Birlamchi giperxolesterinemiya (oilaviy yoki nooilaviy) va aralash dislipidemiya — statin bilan birga, LDL maqsadига erishilmaганда"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — homiladorlik (ma'lumot cheklangan)"],
+    nojoya: { "Mahalliy": "Inyeksiya joyida reaksiya (qizarish, og'riq)", "Boshqa": "Yaxshi bardosh beriladi; tizimli nojo'ya ta'sir kam" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam (siRNK mexanizmи)"],
+    qollash: { kattalar: "284 mg teri ostiga; 1-kun, 3-oy, keyin har 6 oyда (mutaxassis tomonidan).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Oldindan to'ldirilgan shприts 284 mg/1,5 ml"
+  },
+  ru: {
+    gruppa: "Гиполипидемические средства — прочие (миРНК)",
+    farmTasir: "Подавляющее синтез PCSK9 (малая интерферирующая РНК)",
+    farmakodinamika: `Инклисиран — средство на основе малой интерферирующей РНК (миРНК). Подавляет синтез белка PCSK9 в клетках печени на уровне РНК. PCSK9 обычно разрушает ЛПНП-рецепторы; при его снижении число ЛПНП-рецепторов возрастает и ЛПНП в крови резко падает. Эффект одной инъекции длится несколько месяцев.`,
+    farmakokinetika: { sorish: "Подкожная инъекция", tarqalish: "Селективен к печени (GalNAc-конъюгат)", metabolizm: "Нуклеазами", chiqarilish: "Почками; действие длительное (2 инъекции в год)" },
+    korsatmalar: ["Первичная гиперхолестеринемия (семейная или несемейная) и смешанная дислипидемия — со статином, при недостижении цели ЛПНП"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — беременность (данные ограничены)"],
+    nojoya: { "Местные": "Реакция в месте инъекции (покраснение, боль)", "Прочее": "Хорошо переносится; системных побочных эффектов мало" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Клинически значимых взаимодействий мало (механизм миРНК)"],
+    qollash: { kattalar: "284 мг подкожно; в 1-й день, через 3 мес, затем каждые 6 мес (специалистом).", bolalar: "Не рекомендуется" },
+    chiqarish: "Предварительно заполненный шприц 284 мг/1,5 мл"
+  },
+  en: {
+    gruppa: "Lipid-modifying agents — other (siRNA)",
+    farmTasir: "PCSK9 synthesis suppressor (small interfering RNA)",
+    farmakodinamika: `Inclisiran is a small interfering RNA (siRNA) agent. It suppresses synthesis of the PCSK9 protein in liver cells at the RNA level. PCSK9 normally degrades LDL receptors; reducing it increases LDL receptors and sharply lowers blood LDL. The effect of one injection lasts several months.`,
+    farmakokinetika: { sorish: "Subcutaneous injection", tarqalish: "Liver-selective (GalNAc conjugate)", metabolizm: "By nucleases", chiqarilish: "Renal; long action (2 injections per year)" },
+    korsatmalar: ["Primary hypercholesterolaemia (familial or non-familial) and mixed dyslipidaemia — with a statin, when LDL target is not reached"],
+    qarrshi: ["Hypersensitivity", "Caution — pregnancy (limited data)"],
+    nojoya: { "Local": "Injection-site reaction (redness, pain)", "Other": "Well tolerated; few systemic side effects" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["Few clinically significant interactions (siRNA mechanism)"],
+    qollash: { kattalar: "284 mg subcutaneously; day 1, month 3, then every 6 months (by a specialist).", bolalar: "Not recommended" },
+    chiqarish: "Pre-filled syringe 284 mg/1.5 mL"
+  }
+},
+
+"C09AA01": {
+  uz: {
+    gruppa: "Angiotenzin aylantiruvchi ferment (AAF) ingibitorlari",
+    farmTasir: "Qon bosimini pasaytiruvchi (AAF ingibitori)",
+    farmakodinamika: `Kaptopril — birinchi AAF ingibitori, qisqa ta'sirли. Angiotenzin I ni kuchли tomir toraytiruvchi angiotenzin II ga aylantiruvchi fermentni bloklaydi; natijada tomirlar kengayadi, aldosteron ishlab chiqarilishi kamayadi (natriy/suv chiqariladi) va qon bosimi pasayadi. Bradikininни ham saqlaб qo'shimcha tomir kengaytiruvchi ta'sir beradi.`,
+    farmakokinetika: { sorish: "Ichakdan (ovqat so'rilishni kamaytiradi)", tarqalish: "To'qimalarга", metabolizm: "Jigarда qisman", chiqarilish: "Buyrak orqали; T½ qisqa (~2 soat)" },
+    korsatmalar: ["Arterial gipertenziya (jumladan gipertonik kriz — til ostiga)", "Surункали yurak yetishmovchiligi", "Diabetik nefropatiya"],
+    qarrshi: ["Angionevrotik shish tarixi (AAF bilan)", "Ikki tomonlama buyrak arteriyasi stenozi", "Homiladorlik (teratogen)", "Yuqori sezuvchanlik"],
+    nojoya: { "Nafas": "Quruq yo'tal (bradikinin)", "Tomir": "Birinchi doza gipotenziyasi", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Angionevrotik shish (xavfli), ta'm buzilishi" },
+    dozadan: "Gipotenziya; suyuqlik yuborish, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar/kaliy bilan giperkaliemiya", "NPVD samarani pasaytiradi va buyrakка zarar", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "12,5–25 mg×2–3 dan boshlab, 50–150 mg/sutkagacha; och qoringa.", bolalar: "Vaznга ko'ra, ehtiyotkorlik bilan" },
+    chiqarish: "Tabletkalar 25, 50 mg"
+  },
+  ru: {
+    gruppa: "Ингибиторы ангиотензинпревращающего фермента (АПФ)",
+    farmTasir: "Снижающее АД (ингибитор АПФ)",
+    farmakodinamika: `Каптоприл — первый ингибитор АПФ, короткого действия. Блокирует фермент, превращающий ангиотензин I в мощный вазоконстриктор ангиотензин II; в результате сосуды расширяются, снижается выработка альдостерона (выводятся натрий/вода) и падает АД. Сохраняя брадикинин, даёт дополнительное сосудорасширяющее действие.`,
+    farmakokinetika: { sorish: "Из кишечника (пища снижает всасывание)", tarqalish: "В ткани", metabolizm: "Частично в печени", chiqarilish: "Почками; T½ короткий (~2 ч)" },
+    korsatmalar: ["Артериальная гипертензия (в т.ч. гипертонический криз — под язык)", "Хроническая сердечная недостаточность", "Диабетическая нефропатия"],
+    qarrshi: ["Ангионевротический отёк в анамнезе (на АПФ)", "Двусторонний стеноз почечных артерий", "Беременность (тератоген)", "Гиперчувствительность"],
+    nojoya: { "Дыхание": "Сухой кашель (брадикинин)", "Сосудистые": "Гипотензия первой дозы", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Ангионевротический отёк (опасно), нарушение вкуса" },
+    dozadan: "Гипотензия; введение жидкости, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками/калием гиперкалиемия", "НПВП снижают эффект и повреждают почки", "Повышает уровень лития"],
+    qollash: { kattalar: "С 12,5–25 мг×2–3, до 50–150 мг/сут; натощак.", bolalar: "По массе, с осторожностью" },
+    chiqarish: "Таблетки 25, 50 мг"
+  },
+  en: {
+    gruppa: "Angiotensin-converting enzyme (ACE) inhibitors",
+    farmTasir: "Blood-pressure-lowering (ACE inhibitor)",
+    farmakodinamika: `Captopril is the first ACE inhibitor, short-acting. It blocks the enzyme converting angiotensin I to the potent vasoconstrictor angiotensin II; this dilates vessels, reduces aldosterone (excreting sodium/water) and lowers blood pressure. By preserving bradykinin it adds a vasodilator effect.`,
+    farmakokinetika: { sorish: "From the gut (food reduces absorption)", tarqalish: "Into tissues", metabolizm: "Partly hepatic", chiqarilish: "Renal; short T½ (~2 h)" },
+    korsatmalar: ["Arterial hypertension (incl. hypertensive crisis — sublingual)", "Chronic heart failure", "Diabetic nephropathy"],
+    qarrshi: ["History of angioedema (on ACE inhibitors)", "Bilateral renal artery stenosis", "Pregnancy (teratogen)", "Hypersensitivity"],
+    nojoya: { "Respiratory": "Dry cough (bradykinin)", "Vascular": "First-dose hypotension", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Angioedema (dangerous), taste disturbance" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics/potassium hyperkalaemia", "NSAIDs reduce the effect and harm the kidneys", "Raises lithium levels"],
+    qollash: { kattalar: "From 12.5–25 mg×2–3, to 50–150 mg/day; on an empty stomach.", bolalar: "By weight, cautiously" },
+    chiqarish: "Tablets 25, 50 mg"
+  }
+},
+
+"C09AA02": {
+  uz: {
+    gruppa: "Angiotenzin aylantiruvchi ferment (AAF) ingibitorlari",
+    farmTasir: "Qon bosimini pasaytiruvchi (AAF ingibitori)",
+    farmakodinamika: `Enalapril — uzoq ta'sirли AAF ingibitori prodorisi; jigarда faol enalaprilatga aylanadi. Angiotenzin II hosil bo'lishini kamaytirib tomirlarni kengaytiradi, aldosteronни pasaytiradi va qon bosimini bir sutka davomida nazorat qiladi. Yurak yetishmovchiligida yurak yukini kamaytiradi va prognozni yaxshilaydi.`,
+    farmakokinetika: { sorish: "Ichakdan (~60%)", tarqalish: "To'qimalarга", metabolizm: "Jigarда faol enalaprilatga", chiqarilish: "Asosан buyrak orqали; T½ ~11 soat" },
+    korsatmalar: ["Arterial gipertenziya", "Surункали yurak yetishmovchiligi", "Chap qorincha disfunksiyasi"],
+    qarrshi: ["Angionevrotik shish tarixi", "Ikki tomonlama buyrak arteriyasi stenozi", "Homiladorlik (teratogen)", "Yuqori sezuvchanlik"],
+    nojoya: { "Nafas": "Quruq yo'tal", "Tomir": "Gipotenziya, bosh aylanishi", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Angionevrotik shish" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "5 mg/sutkaдан boshlab, 10–40 mg/sutkagacha (1–2 ga bo'lib).", bolalar: "Vaznга ko'ra" },
+    chiqarish: "Tabletkalar 5, 10, 20 mg"
+  },
+  ru: {
+    gruppa: "Ингибиторы ангиотензинпревращающего фермента (АПФ)",
+    farmTasir: "Снижающее АД (ингибитор АПФ)",
+    farmakodinamika: `Эналаприл — пролекарство ингибитора АПФ длительного действия; в печени превращается в активный эналаприлат. Снижая образование ангиотензина II, расширяет сосуды, уменьшает альдостерон и контролирует АД в течение суток. При сердечной недостаточности уменьшает нагрузку на сердце и улучшает прогноз.`,
+    farmakokinetika: { sorish: "Из кишечника (~60%)", tarqalish: "В ткани", metabolizm: "В печени до активного эналаприлата", chiqarilish: "Преимущественно почками; T½ ~11 ч" },
+    korsatmalar: ["Артериальная гипертензия", "Хроническая сердечная недостаточность", "Дисфункция левого желудочка"],
+    qarrshi: ["Ангионевротический отёк в анамнезе", "Двусторонний стеноз почечных артерий", "Беременность (тератоген)", "Гиперчувствительность"],
+    nojoya: { "Дыхание": "Сухой кашель", "Сосудистые": "Гипотензия, головокружение", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Ангионевротический отёк" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект", "Повышает уровень лития"],
+    qollash: { kattalar: "С 5 мг/сут, до 10–40 мг/сут (в 1–2 приёма).", bolalar: "По массе" },
+    chiqarish: "Таблетки 5, 10, 20 мг"
+  },
+  en: {
+    gruppa: "Angiotensin-converting enzyme (ACE) inhibitors",
+    farmTasir: "Blood-pressure-lowering (ACE inhibitor)",
+    farmakodinamika: `Enalapril is a long-acting ACE inhibitor prodrug, converted in the liver to active enalaprilat. By reducing angiotensin II formation it dilates vessels, lowers aldosterone and controls blood pressure over 24 h. In heart failure it reduces cardiac load and improves prognosis.`,
+    farmakokinetika: { sorish: "From the gut (~60%)", tarqalish: "Into tissues", metabolizm: "Hepatic to active enalaprilat", chiqarilish: "Mainly renal; T½ ~11 h" },
+    korsatmalar: ["Arterial hypertension", "Chronic heart failure", "Left ventricular dysfunction"],
+    qarrshi: ["History of angioedema", "Bilateral renal artery stenosis", "Pregnancy (teratogen)", "Hypersensitivity"],
+    nojoya: { "Respiratory": "Dry cough", "Vascular": "Hypotension, dizziness", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Angioedema" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect", "Raises lithium levels"],
+    qollash: { kattalar: "From 5 mg/day, to 10–40 mg/day (in 1–2 doses).", bolalar: "By weight" },
+    chiqarish: "Tablets 5, 10, 20 mg"
+  }
+},
+
+"C09AA03": {
+  uz: {
+    gruppa: "Angiotenzin aylantiruvchi ferment (AAF) ingibitorlari",
+    farmTasir: "Qon bosimini pasaytiruvchi (AAF ingibitori)",
+    farmakodinamika: `Lizinopril — uzoq ta'sirли AAF ingibitori (prodori emas, o'zi faol). Angiotenzin II hosil bo'lishini kamaytirib tomirlarni kengaytiradi va aldosteronни pasaytiradi; sutkаda bir marta qabul qilinadi. Yurak yetishmovchiligi va miokard infarktidан keyin prognozni yaxshilaydi.`,
+    farmakokinetika: { sorish: "Ichakdan (~25%, ovqatga bog'liq emas)", tarqalish: "To'qimalarга", metabolizm: "Metabolizmga uchramaydi", chiqarilish: "Buyrak orqали o'zgarmagan; T½ ~12 soat" },
+    korsatmalar: ["Arterial gipertenziya", "Surункали yurak yetishmovchiligi", "O'tkir miokard infarkti (gemodinamik barqaror)", "Diabetik nefropatiya"],
+    qarrshi: ["Angionevrotik shish tarixi", "Ikki tomonlama buyrak arteriyasi stenozi", "Homiladorlik (teratogen)", "Yuqori sezuvchanlik"],
+    nojoya: { "Nafas": "Quruq yo'tal", "Tomir": "Gipotenziya", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Angionevrotik shish, bosh og'rig'i" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "10 mg/sutkaдан boshlab, 20–40 mg/sutkagacha (kuniga 1 marta).", bolalar: "≥6 yosh, vaznга ko'ra" },
+    chiqarish: "Tabletkalar 5, 10, 20 mg"
+  },
+  ru: {
+    gruppa: "Ингибиторы ангиотензинпревращающего фермента (АПФ)",
+    farmTasir: "Снижающее АД (ингибитор АПФ)",
+    farmakodinamika: `Лизиноприл — ингибитор АПФ длительного действия (не пролекарство, активен сам). Снижая образование ангиотензина II, расширяет сосуды и уменьшает альдостерон; принимается раз в сутки. Улучшает прогноз при сердечной недостаточности и после инфаркта миокарда.`,
+    farmakokinetika: { sorish: "Из кишечника (~25%, независимо от пищи)", tarqalish: "В ткани", metabolizm: "Не метаболизируется", chiqarilish: "Почками в неизменённом виде; T½ ~12 ч" },
+    korsatmalar: ["Артериальная гипертензия", "Хроническая сердечная недостаточность", "Острый инфаркт миокарда (гемодинамически стабильный)", "Диабетическая нефропатия"],
+    qarrshi: ["Ангионевротический отёк в анамнезе", "Двусторонний стеноз почечных артерий", "Беременность (тератоген)", "Гиперчувствительность"],
+    nojoya: { "Дыхание": "Сухой кашель", "Сосудистые": "Гипотензия", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Ангионевротический отёк, головная боль" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект", "Повышает уровень лития"],
+    qollash: { kattalar: "С 10 мг/сут, до 20–40 мг/сут (раз в сутки).", bolalar: "С 6 лет, по массе" },
+    chiqarish: "Таблетки 5, 10, 20 мг"
+  },
+  en: {
+    gruppa: "Angiotensin-converting enzyme (ACE) inhibitors",
+    farmTasir: "Blood-pressure-lowering (ACE inhibitor)",
+    farmakodinamika: `Lisinopril is a long-acting ACE inhibitor (not a prodrug, active itself). By reducing angiotensin II formation it dilates vessels and lowers aldosterone; it is taken once daily. It improves prognosis in heart failure and after myocardial infarction.`,
+    farmakokinetika: { sorish: "From the gut (~25%, independent of food)", tarqalish: "Into tissues", metabolizm: "Not metabolised", chiqarilish: "Renal unchanged; T½ ~12 h" },
+    korsatmalar: ["Arterial hypertension", "Chronic heart failure", "Acute myocardial infarction (haemodynamically stable)", "Diabetic nephropathy"],
+    qarrshi: ["History of angioedema", "Bilateral renal artery stenosis", "Pregnancy (teratogen)", "Hypersensitivity"],
+    nojoya: { "Respiratory": "Dry cough", "Vascular": "Hypotension", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Angioedema, headache" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect", "Raises lithium levels"],
+    qollash: { kattalar: "From 10 mg/day, to 20–40 mg/day (once daily).", bolalar: "From 6 years, by weight" },
+    chiqarish: "Tablets 5, 10, 20 mg"
+  }
+},
+
+"C09AA04": {
+  uz: {
+    gruppa: "Angiotenzin aylantiruvchi ferment (AAF) ingibitorlari",
+    farmTasir: "Qon bosimini pasaytiruvchi (AAF ingibitori)",
+    farmakodinamika: `Perindopril — uzoq ta'sirли AAF ingibitori prodorisi; faol perindoprilatga aylanadi. Angiotenzin II ni kamaytirib tomirlarni kengaytiradi, endotelial funksiyani yaxshilaydi; sutkаda bir marta qabul qilinadi. Yurak-tomir asoratlари (insult, koronar hodisalar) profilaktikasида isboti bor.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда faol perindoprilatga", chiqarilish: "Buyrak orqали; ta'sir uzun (kuniga 1 marta)" },
+    korsatmalar: ["Arterial gipertenziya", "Barqaror ishemik yurak kasalligi (asorat profilaktikasi)", "Surункали yurak yetishmovchiligi"],
+    qarrshi: ["Angionevrotik shish tarixi", "Ikki tomonlama buyrak arteriyasi stenozi", "Homiladorlik (teratogen)", "Yuqori sezuvchanlik"],
+    nojoya: { "Nafas": "Quruq yo'tal", "Tomir": "Gipotenziya", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Angionevrotik shish, bosh aylanishi" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "4 mg (perindopril erbumin) yoki 5 mg (arginin) /sutkaдан boshlab, 8–10 mg gacha; ertalab.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 4 mg, 8 mg (erbumin); 5 mg, 10 mg (arginin)"
+  },
+  ru: {
+    gruppa: "Ингибиторы ангиотензинпревращающего фермента (АПФ)",
+    farmTasir: "Снижающее АД (ингибитор АПФ)",
+    farmakodinamika: `Периндоприл — пролекарство ингибитора АПФ длительного действия; превращается в активный периндоприлат. Снижая ангиотензин II, расширяет сосуды и улучшает функцию эндотелия; принимается раз в сутки. Доказан в профилактике сердечно-сосудистых осложнений (инсульт, коронарные события).`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени до активного периндоприлата", chiqarilish: "Почками; действие длительное (раз в сутки)" },
+    korsatmalar: ["Артериальная гипертензия", "Стабильная ишемическая болезнь сердца (профилактика осложнений)", "Хроническая сердечная недостаточность"],
+    qarrshi: ["Ангионевротический отёк в анамнезе", "Двусторонний стеноз почечных артерий", "Беременность (тератоген)", "Гиперчувствительность"],
+    nojoya: { "Дыхание": "Сухой кашель", "Сосудистые": "Гипотензия", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Ангионевротический отёк, головокружение" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект", "Повышает уровень лития"],
+    qollash: { kattalar: "С 4 мг (периндоприла эрбумин) или 5 мг (аргинин)/сут, до 8–10 мг; утром.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 4 мг, 8 мг (эрбумин); 5 мг, 10 мг (аргинин)"
+  },
+  en: {
+    gruppa: "Angiotensin-converting enzyme (ACE) inhibitors",
+    farmTasir: "Blood-pressure-lowering (ACE inhibitor)",
+    farmakodinamika: `Perindopril is a long-acting ACE inhibitor prodrug converted to active perindoprilat. By reducing angiotensin II it dilates vessels and improves endothelial function; it is taken once daily. It has proven benefit in preventing cardiovascular events (stroke, coronary events).`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic to active perindoprilat", chiqarilish: "Renal; long action (once daily)" },
+    korsatmalar: ["Arterial hypertension", "Stable coronary artery disease (event prevention)", "Chronic heart failure"],
+    qarrshi: ["History of angioedema", "Bilateral renal artery stenosis", "Pregnancy (teratogen)", "Hypersensitivity"],
+    nojoya: { "Respiratory": "Dry cough", "Vascular": "Hypotension", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Angioedema, dizziness" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect", "Raises lithium levels"],
+    qollash: { kattalar: "From 4 mg (perindopril erbumine) or 5 mg (arginine)/day, to 8–10 mg; morning.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 4 mg, 8 mg (erbumine); 5 mg, 10 mg (arginine)"
+  }
+},
+
+"C09AA05": {
+  uz: {
+    gruppa: "Angiotenzin aylantiruvchi ferment (AAF) ingibitorlari",
+    farmTasir: "Qon bosimini pasaytiruvchi (AAF ingibitori)",
+    farmakodinamika: `Ramipril — uzoq ta'sirли AAF ingibitori prodorisi; faol ramiprilatga aylanadi. Angiotenzin II hosil bo'lishini kamaytirib tomirlarni kengaytiradi va aldosteronни pasaytiradi. Yuqori xavfли bemorlarда yurak-tomir asoratlари (infarkt, insult, o'lim) ni kamaytirishда kuchли isboti bor.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда faol ramiprilatga", chiqarilish: "Buyrak orqали; ta'sir uzun" },
+    korsatmalar: ["Arterial gipertenziya", "Surункали yurak yetishmovchiligi, infarktdан keyin", "Yuqori yurak-tomir xavfини kamaytirish, diabetik/nondiabetik nefropatiya"],
+    qarrshi: ["Angionevrotik shish tarixi", "Ikki tomonlama buyrak arteriyasi stenozi", "Homiladorlik (teratogen)", "Yuqori sezuvchanlik"],
+    nojoya: { "Nafas": "Quruq yo'tal", "Tomir": "Gipotenziya", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Angionevrotik shish, bosh aylanishi" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "1,25–2,5 mg/sutkaдан boshlab, 5–10 mg/sutkagacha (kuniga 1 marta).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar/kapsulalar 2,5, 5, 10 mg"
+  },
+  ru: {
+    gruppa: "Ингибиторы ангиотензинпревращающего фермента (АПФ)",
+    farmTasir: "Снижающее АД (ингибитор АПФ)",
+    farmakodinamika: `Рамиприл — пролекарство ингибитора АПФ длительного действия; превращается в активный рамиприлат. Снижая образование ангиотензина II, расширяет сосуды и уменьшает альдостерон. Имеет сильные доказательства снижения сердечно-сосудистых осложнений (инфаркт, инсульт, смерть) у пациентов высокого риска.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени до активного рамиприлата", chiqarilish: "Почками; действие длительное" },
+    korsatmalar: ["Артериальная гипертензия", "Хроническая сердечная недостаточность, после инфаркта", "Снижение высокого сердечно-сосудистого риска, диабетическая/недиабетическая нефропатия"],
+    qarrshi: ["Ангионевротический отёк в анамнезе", "Двусторонний стеноз почечных артерий", "Беременность (тератоген)", "Гиперчувствительность"],
+    nojoya: { "Дыхание": "Сухой кашель", "Сосудистые": "Гипотензия", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Ангионевротический отёк, головокружение" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект", "Повышает уровень лития"],
+    qollash: { kattalar: "С 1,25–2,5 мг/сут, до 5–10 мг/сут (раз в сутки).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки/капсулы 2,5, 5, 10 мг"
+  },
+  en: {
+    gruppa: "Angiotensin-converting enzyme (ACE) inhibitors",
+    farmTasir: "Blood-pressure-lowering (ACE inhibitor)",
+    farmakodinamika: `Ramipril is a long-acting ACE inhibitor prodrug converted to active ramiprilat. By reducing angiotensin II formation it dilates vessels and lowers aldosterone. It has strong evidence for reducing cardiovascular events (MI, stroke, death) in high-risk patients.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic to active ramiprilat", chiqarilish: "Renal; long action" },
+    korsatmalar: ["Arterial hypertension", "Chronic heart failure, post-infarction", "Reducing high cardiovascular risk, diabetic/non-diabetic nephropathy"],
+    qarrshi: ["History of angioedema", "Bilateral renal artery stenosis", "Pregnancy (teratogen)", "Hypersensitivity"],
+    nojoya: { "Respiratory": "Dry cough", "Vascular": "Hypotension", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Angioedema, dizziness" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect", "Raises lithium levels"],
+    qollash: { kattalar: "From 1.25–2.5 mg/day, to 5–10 mg/day (once daily).", bolalar: "Not recommended" },
+    chiqarish: "Tablets/capsules 2.5, 5, 10 mg"
+  }
+},
+
+"C09AA09": {
+  uz: {
+    gruppa: "Angiotenzin aylantiruvchi ferment (AAF) ingibitorlari",
+    farmTasir: "Qon bosimini pasaytiruvchi (AAF ingibitori)",
+    farmakodinamika: `Fozinopril — fosfin guruhли AAF ingibitori prodorisi; faol fozinoprilatga aylanadi. Angiotenzin II ni kamaytirib tomirlarni kengaytiradi. O'ziga xos xususiyati — ham jigar, ham buyrak orqали ikki yo'l bilan chiqariladi, shu sababli buyrak yetishmovchiligida doza kamroq sozlanadi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда faol fozinoprilatga", chiqarilish: "Jigar va buyrak (ikki yo'l); T½ ~12 soat" },
+    korsatmalar: ["Arterial gipertenziya", "Surункали yurak yetishmovchiligi"],
+    qarrshi: ["Angionevrotik shish tarixi", "Ikki tomonlama buyrak arteriyasi stenozi", "Homiladorlik (teratogen)", "Yuqori sezuvchanlik"],
+    nojoya: { "Nafas": "Quruq yo'tal", "Tomir": "Gipotenziya", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Angionevrotik shish" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "Antatsidlar so'rilishni kamaytiradi (2 soat oraliq)", "NPVD samarani pasaytiradi"],
+    qollash: { kattalar: "10 mg/sutkaдан boshlab, 20–40 mg/sutkagacha (kuniga 1 marta).", bolalar: "≥6 yosh, vaznга ko'ra" },
+    chiqarish: "Tabletkalar 10, 20 mg"
+  },
+  ru: {
+    gruppa: "Ингибиторы ангиотензинпревращающего фермента (АПФ)",
+    farmTasir: "Снижающее АД (ингибитор АПФ)",
+    farmakodinamika: `Фозиноприл — пролекарство ингибитора АПФ с фосфинатной группой; превращается в активный фозиноприлат. Снижая ангиотензин II, расширяет сосуды. Особенность — выводится двумя путями (печень и почки), поэтому при почечной недостаточности доза корректируется меньше.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени до активного фозиноприлата", chiqarilish: "Печенью и почками (два пути); T½ ~12 ч" },
+    korsatmalar: ["Артериальная гипертензия", "Хроническая сердечная недостаточность"],
+    qarrshi: ["Ангионевротический отёк в анамнезе", "Двусторонний стеноз почечных артерий", "Беременность (тератоген)", "Гиперчувствительность"],
+    nojoya: { "Дыхание": "Сухой кашель", "Сосудистые": "Гипотензия", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Ангионевротический отёк" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "Антациды снижают всасывание (интервал 2 ч)", "НПВП снижают эффект"],
+    qollash: { kattalar: "С 10 мг/сут, до 20–40 мг/сут (раз в сутки).", bolalar: "С 6 лет, по массе" },
+    chiqarish: "Таблетки 10, 20 мг"
+  },
+  en: {
+    gruppa: "Angiotensin-converting enzyme (ACE) inhibitors",
+    farmTasir: "Blood-pressure-lowering (ACE inhibitor)",
+    farmakodinamika: `Fosinopril is a phosphinate-group ACE inhibitor prodrug converted to active fosinoprilat. By reducing angiotensin II it dilates vessels. A feature is dual elimination (hepatic and renal), so the dose needs less adjustment in renal impairment.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic to active fosinoprilat", chiqarilish: "Hepatic and renal (dual); T½ ~12 h" },
+    korsatmalar: ["Arterial hypertension", "Chronic heart failure"],
+    qarrshi: ["History of angioedema", "Bilateral renal artery stenosis", "Pregnancy (teratogen)", "Hypersensitivity"],
+    nojoya: { "Respiratory": "Dry cough", "Vascular": "Hypotension", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Angioedema" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "Antacids reduce absorption (2 h interval)", "NSAIDs reduce the effect"],
+    qollash: { kattalar: "From 10 mg/day, to 20–40 mg/day (once daily).", bolalar: "From 6 years, by weight" },
+    chiqarish: "Tablets 10, 20 mg"
+  }
+},
+
+"C09AA15": {
+  uz: {
+    gruppa: "Angiotenzin aylantiruvchi ferment (AAF) ingibitorlari",
+    farmTasir: "Qon bosimini pasaytiruvchi (AAF ingibitori)",
+    farmakodinamika: `Zofenopril — sulfgidril guruhли AAF ingibitori prodorisi; faol zofenoprilatga aylanadi. Angiotenzin II ni kamaytirib tomirlarni kengaytiradi; sulfgidril guruhи tufayli antioksidant va yurakни himoya qiluvchi qo'shimcha ta'sirи bor. O'tkir miokard infarkti va gipertenziyada qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда faol zofenoprilatga", chiqarilish: "Buyrak/safro orqали; ta'sir uzun" },
+    korsatmalar: ["Arterial gipertenziya", "O'tkir miokard infarkti (birinchi 24 soatда, gemodinamik barqaror)"],
+    qarrshi: ["Angionevrotik shish tarixi", "Ikki tomonlama buyrak arteriyasi stenozi", "Og'ir jigar yetishmovchiligi", "Homiladorlik (teratogen)", "Yuqori sezuvchanlik"],
+    nojoya: { "Nafas": "Quruq yo'tal", "Tomir": "Gipotenziya, bosh aylanishi", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Angionevrotik shish" },
+    dozadan: "Gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "7,5–15 mg/sutkaдан boshlab, 30–60 mg/sutkagacha (kuniga 1 marta).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 7,5 mg, 30 mg"
+  },
+  ru: {
+    gruppa: "Ингибиторы ангиотензинпревращающего фермента (АПФ)",
+    farmTasir: "Снижающее АД (ингибитор АПФ)",
+    farmakodinamika: `Зофеноприл — пролекарство ингибитора АПФ с сульфгидрильной группой; превращается в активный зофеноприлат. Снижая ангиотензин II, расширяет сосуды; благодаря сульфгидрильной группе обладает дополнительным антиоксидантным и кардиопротективным действием. Применяется при остром инфаркте миокарда и гипертензии.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени до активного зофеноприлата", chiqarilish: "Почками/с желчью; действие длительное" },
+    korsatmalar: ["Артериальная гипертензия", "Острый инфаркт миокарда (в первые 24 ч, гемодинамически стабильный)"],
+    qarrshi: ["Ангионевротический отёк в анамнезе", "Двусторонний стеноз почечных артерий", "Тяжёлая печёночная недостаточность", "Беременность (тератоген)", "Гиперчувствительность"],
+    nojoya: { "Дыхание": "Сухой кашель", "Сосудистые": "Гипотензия, головокружение", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Ангионевротический отёк" },
+    dozadan: "Гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект", "Повышает уровень лития"],
+    qollash: { kattalar: "С 7,5–15 мг/сут, до 30–60 мг/сут (раз в сутки).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 7,5 мг, 30 мг"
+  },
+  en: {
+    gruppa: "Angiotensin-converting enzyme (ACE) inhibitors",
+    farmTasir: "Blood-pressure-lowering (ACE inhibitor)",
+    farmakodinamika: `Zofenopril is a sulfhydryl-group ACE inhibitor prodrug converted to active zofenoprilat. By reducing angiotensin II it dilates vessels; thanks to its sulfhydryl group it has additional antioxidant and cardioprotective effects. It is used in acute myocardial infarction and hypertension.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic to active zofenoprilat", chiqarilish: "Renal/biliary; long action" },
+    korsatmalar: ["Arterial hypertension", "Acute myocardial infarction (within 24 h, haemodynamically stable)"],
+    qarrshi: ["History of angioedema", "Bilateral renal artery stenosis", "Severe hepatic impairment", "Pregnancy (teratogen)", "Hypersensitivity"],
+    nojoya: { "Respiratory": "Dry cough", "Vascular": "Hypotension, dizziness", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Angioedema" },
+    dozadan: "Hypotension; fluids, supportive care.",
+    ozarotasir: ["With potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect", "Raises lithium levels"],
+    qollash: { kattalar: "From 7.5–15 mg/day, to 30–60 mg/day (once daily).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 7.5 mg, 30 mg"
+  }
 }
 
 };
