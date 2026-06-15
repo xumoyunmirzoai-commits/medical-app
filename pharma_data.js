@@ -26810,6 +26810,510 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Stimulant: 100–200 mg; 50–100 mg in migraine combinations.", bolalar: "Apnoea: caffeine citrate — loading 20 mg/kg, then 5 mg/kg/day (under neonatologist supervision)" },
     chiqarish: "Tablets; solution for injection; caffeine citrate solution (neonates)"
   }
+},
+
+"N04BB01": {
+  uz: {
+    gruppa: "Parkinsonizmga qarshi vositalar — adamantan hosilalari",
+    farmTasir: "Dofaminergik (parkinsonizm), virusга qarshi",
+    farmakodinamika: `Amantadin — adamantan hosilasi. Presinaptik uchlardан dofamin ajralishini oshiradi va qaytib so'rilishini kamaytiradi, shuningdek NMDA (glutamat) retseptorlarini bloklaydi. Bu Parkinson kasalligida harakat sustligi va rigidlikni kamaytiradi; levodopa keltirib chiqargan diskineziyani ham pasaytiradi. (Ilgari A grippiga qarshi ham ishlatilgan.)`,
+    farmakokinetika: { sorish: "Ichakdan to'liq", tarqalish: "Miyaga o'tadi", metabolizm: "Deyarli metabolizmga uchramaydi", chiqarilish: "Asosан buyrak orqали o'zgarmagan; T½ ~10–15 soat" },
+    korsatmalar: ["Parkinson kasalligi va parkinsonizm sindromi", "Levodopa diskineziyasi", "Neyroleptik parkinsonizm"],
+    qarrshi: ["Og'ir buyrak yetishmovchiligi", "Nazorat qilinmagan epilepsiya, tirishish", "Yopiq burchakli glaukoma", "Og'ir yurak yetishmovchiligi", "Homiladorlik va laktatsiya"],
+    nojoya: { "Asab": "Uyqusizlik, bosh aylanishi, gallyutsinatsiya, chalkashlik", "Teri": "Livedo reticularis, shish", "Yurak": "Ortostatik gipotenziya" },
+    dozadan: "Markaziy qo'zg'alish, gallyutsinatsiya, aritmiya; simptomatik davo (gemodializ samarasiz).",
+    ozarotasir: ["Antixolinergiklar bilan markaziy nojo'ya ta'sir kuchayadi", "Markaziy stimulyatorlar bilan qo'zg'alish kuchayadi", "Diuretiklar (triamteren) chiqarilishni sekinlashtiradi"],
+    qollash: { kattalar: "100 mg×1, asta 100 mg×2 gacha (ertalab/kunduzi).", bolalar: "Odatda tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar/kapsulalar 100 mg; infuziya eritmasi"
+  },
+  ru: {
+    gruppa: "Противопаркинсонические средства — производные адамантана",
+    farmTasir: "Дофаминергическое (паркинсонизм), противовирусное",
+    farmakodinamika: `Амантадин — производное адамантана. Повышает высвобождение дофамина из пресинаптических окончаний и снижает его обратный захват, а также блокирует NMDA (глутаматные) рецепторы. Это уменьшает гипокинезию и ригидность при болезни Паркинсона; снижает и леводопа-индуцированную дискинезию. (Ранее применялся и против гриппа А.)`,
+    farmakokinetika: { sorish: "Полно из кишечника", tarqalish: "Проникает в мозг", metabolizm: "Практически не метаболизируется", chiqarilish: "Преимущественно почками в неизменённом виде; T½ ~10–15 ч" },
+    korsatmalar: ["Болезнь Паркинсона и синдром паркинсонизма", "Леводопа-дискинезия", "Нейролептический паркинсонизм"],
+    qarrshi: ["Тяжёлая почечная недостаточность", "Неконтролируемая эпилепсия, судороги", "Закрытоугольная глаукома", "Тяжёлая сердечная недостаточность", "Беременность и лактация"],
+    nojoya: { "Нервная система": "Бессонница, головокружение, галлюцинации, спутанность", "Кожа": "Livedo reticularis, отёки", "Сердце": "Ортостатическая гипотензия" },
+    dozadan: "Центральное возбуждение, галлюцинации, аритмия; симптоматическая терапия (гемодиализ неэффективен).",
+    ozarotasir: ["С антихолинергиками усиливаются центральные побочные эффекты", "С центральными стимуляторами усиливается возбуждение", "Диуретики (триамтерен) замедляют выведение"],
+    qollash: { kattalar: "100 мг×1, постепенно до 100 мг×2 (утром/днём).", bolalar: "Обычно не рекомендуется" },
+    chiqarish: "Таблетки/капсулы 100 мг; раствор для инфузий"
+  },
+  en: {
+    gruppa: "Antiparkinsonian agents — adamantane derivatives",
+    farmTasir: "Dopaminergic (parkinsonism), antiviral",
+    farmakodinamika: `Amantadine is an adamantane derivative. It increases dopamine release from presynaptic terminals and reduces its reuptake, and also blocks NMDA (glutamate) receptors. This reduces hypokinesia and rigidity in Parkinson disease and also lessens levodopa-induced dyskinesia. (It was formerly used against influenza A.)`,
+    farmakokinetika: { sorish: "Complete from the gut", tarqalish: "Enters the brain", metabolizm: "Essentially not metabolised", chiqarilish: "Mainly renal unchanged; T½ ~10–15 h" },
+    korsatmalar: ["Parkinson disease and parkinsonism syndrome", "Levodopa dyskinesia", "Neuroleptic parkinsonism"],
+    qarrshi: ["Severe renal impairment", "Uncontrolled epilepsy, seizures", "Angle-closure glaucoma", "Severe heart failure", "Pregnancy and lactation"],
+    nojoya: { "Nervous system": "Insomnia, dizziness, hallucinations, confusion", "Skin": "Livedo reticularis, oedema", "Cardiac": "Orthostatic hypotension" },
+    dozadan: "Central agitation, hallucinations, arrhythmia; supportive care (haemodialysis ineffective).",
+    ozarotasir: ["With anticholinergics central side effects increase", "With central stimulants agitation increases", "Diuretics (triamterene) slow elimination"],
+    qollash: { kattalar: "100 mg×1, gradually to 100 mg×2 (morning/midday).", bolalar: "Usually not recommended" },
+    chiqarish: "Tablets/capsules 100 mg; solution for infusion"
+  }
+},
+
+"N04BA02": {
+  uz: {
+    gruppa: "Parkinsonizmga qarshi vositalar — dofa va hosilalari kombinatsiyasi",
+    farmTasir: "Parkinson kasalligi asosiy davosi",
+    farmakodinamika: `Levodopa + karbidopa kombinatsiyasi. Levodopa — dofamin prekursori bo'lib, gematoensefalik to'siqdан o'tib miyaда dofaminга aylanadi va uning yetishmovchiligini to'ldiradi. Karbidopa — periferik DOPA-dekarboksilazani inhibilaydi (miyaga o'tmaydi), shu sababli levodopaning periferiyada erta parchalanishini kamaytiradi: miyaga ko'proq yetadi, doza va periferik nojo'ya ta'sir (ko'ngil aynishi) kamayadi.`,
+    farmakokinetika: { sorish: "Ichakdan (oqsilли ovqat so'rilishni kamaytiradi)", tarqalish: "Levodopa miyaga o'tadi", metabolizm: "Dekarboksilatsiya (karbidopa periferida bloklaydi)", chiqarilish: "Buyrak orqали; levodopa T½ uzayadi" },
+    korsatmalar: ["Parkinson kasalligi va simptomatik parkinsonizm (neyroleptik bundan mustasno)"],
+    qarrshi: ["Yopiq burchakli glaukoma", "Og'ir yurak/jigar/buyrak kasalligi", "Melanoma yoki shubhaли teri o'zgarishlari", "MAO ingibitorlari (noselektiv) bilan", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Diskineziya, «on-off» fenomeni, gallyutsinatsiya, chalkashlik", "Oshqozon-ichak": "Ko'ngil aynishi, ishtaha pasayishi", "Yurak": "Ortostatik gipotenziya, aritmiya", "Boshqa": "Siydik/terni qizg'ish-jigarrang bo'yashi" },
+    dozadan: "Aritmiya, qo'zg'alish, diskineziya; simptomatik davo, EKG nazorati.",
+    ozarotasir: ["Noselektiv MAO ingibitorlari — gipertonik kriz (man etiladi)", "Antipsikotiklar (D2 blokatorlar) ta'sirini pasaytiradi", "Piridoksin (yuqori doza) sof levodopa ta'sirini kamaytiradi (karbidopa bilan ahamiyatsiz)"],
+    qollash: { kattalar: "Levodopa/karbidopa 100/25 mg×3 dан boshlab, javobga ko'ra titrlanadi.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 100/25 mg, 250/25 mg; uzaytirilgan shakl"
+  },
+  ru: {
+    gruppa: "Противопаркинсонические средства — комбинация дофа и производных",
+    farmTasir: "Основное лечение болезни Паркинсона",
+    farmakodinamika: `Комбинация леводопа + карбидопа. Леводопа — предшественник дофамина, проникает через ГЭБ и превращается в мозге в дофамин, восполняя его дефицит. Карбидопа ингибирует периферическую ДОФА-декарбоксилазу (не проникает в мозг), уменьшая преждевременный распад леводопы на периферии: больше доходит до мозга, снижаются доза и периферические побочные эффекты (тошнота).`,
+    farmakokinetika: { sorish: "Из кишечника (белковая пища снижает всасывание)", tarqalish: "Леводопа проникает в мозг", metabolizm: "Декарбоксилирование (карбидопа блокирует на периферии)", chiqarilish: "Почками; T½ леводопы удлиняется" },
+    korsatmalar: ["Болезнь Паркинсона и симптоматический паркинсонизм (кроме нейролептического)"],
+    qarrshi: ["Закрытоугольная глаукома", "Тяжёлые болезни сердца/печени/почек", "Меланома или подозрительные изменения кожи", "С ингибиторами МАО (неселективными)", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Дискинезия, феномен «вкл-выкл», галлюцинации, спутанность", "ЖКТ": "Тошнота, снижение аппетита", "Сердце": "Ортостатическая гипотензия, аритмия", "Прочее": "Окрашивание мочи/пота в красновато-бурый цвет" },
+    dozadan: "Аритмия, возбуждение, дискинезия; симптоматическая терапия, контроль ЭКГ.",
+    ozarotasir: ["Неселективные ингибиторы МАО — гипертонический криз (противопоказано)", "Антипсихотики (блокаторы D2) снижают действие", "Пиридоксин (высокая доза) уменьшает действие чистой леводопы (с карбидопой незначимо)"],
+    qollash: { kattalar: "Леводопа/карбидопа 100/25 мг×3, далее титруют по ответу.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 100/25 мг, 250/25 мг; пролонгированная форма"
+  },
+  en: {
+    gruppa: "Antiparkinsonian agents — dopa and derivatives combination",
+    farmTasir: "Mainstay treatment of Parkinson disease",
+    farmakodinamika: `A levodopa + carbidopa combination. Levodopa is a dopamine precursor that crosses the blood-brain barrier and is converted to dopamine in the brain, replacing the deficit. Carbidopa inhibits peripheral DOPA decarboxylase (it does not enter the brain), reducing premature breakdown of levodopa in the periphery: more reaches the brain, and the dose and peripheral side effects (nausea) are reduced.`,
+    farmakokinetika: { sorish: "From the gut (protein meals reduce absorption)", tarqalish: "Levodopa enters the brain", metabolizm: "Decarboxylation (carbidopa blocks it peripherally)", chiqarilish: "Renal; levodopa T½ prolonged" },
+    korsatmalar: ["Parkinson disease and symptomatic parkinsonism (except neuroleptic)"],
+    qarrshi: ["Angle-closure glaucoma", "Severe cardiac/hepatic/renal disease", "Melanoma or suspicious skin changes", "With (non-selective) MAO inhibitors", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Dyskinesia, 'on-off' phenomenon, hallucinations, confusion", "GI": "Nausea, reduced appetite", "Cardiac": "Orthostatic hypotension, arrhythmia", "Other": "Reddish-brown discolouration of urine/sweat" },
+    dozadan: "Arrhythmia, agitation, dyskinesia; supportive care, ECG monitoring.",
+    ozarotasir: ["Non-selective MAO inhibitors — hypertensive crisis (contraindicated)", "Antipsychotics (D2 blockers) reduce the effect", "High-dose pyridoxine reduces the effect of plain levodopa (negligible with carbidopa)"],
+    qollash: { kattalar: "Levodopa/carbidopa 100/25 mg×3, then titrate to response.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 100/25 mg, 250/25 mg; prolonged-release form"
+  }
+},
+
+"N04BC05": {
+  uz: {
+    gruppa: "Parkinsonizmga qarshi vositalar — dofamin agonistlari",
+    farmTasir: "Dofamin retseptor agonisti",
+    farmakodinamika: `Pramipeksol — selektiv dofamin D2/D3 retseptorlari agonisti. Miyaда dofamin ta'sirini bevosita taqlid qiladi (levodopaдан farqli — prekursorга bog'liq emas). Erta Parkinson kasalligida monoterapiya yoki kechiккан bosqichда levodopaга qo'shimcha; bezovta oyoqlar sindromida ham qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan tez va to'liq", tarqalish: "Oqsilга past", metabolizm: "Deyarli metabolizmga uchramaydi", chiqarilish: "Asosан buyrak orqали; T½ ~8–12 soat" },
+    korsatmalar: ["Parkinson kasalligi (mono- yoki levodopa bilan)", "O'rtacha-og'ir bezovta oyoqlar sindromi (idiopatik)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — buyrak yetishmovchiligi (doza sozlanadi), psixoz"],
+    nojoya: { "Asab": "Uyquchanlik (to'satдан uyqu xurujlari), bosh aylanishi, gallyutsinatsiya", "Psixika": "Impulsiv buzilishlar (qimor, xarid, giperseksuallik)", "Yurak": "Ortostatik gipotenziya" },
+    dozadan: "Gipotenziya, qusish, gallyutsinatsiya; simptomatik davo.",
+    ozarotasir: ["Antipsikotiklar (D2 blokatorlar) ta'sirini pasaytiradi", "Markaziy depressantlar/alkogol bilan uyquchanlik kuchayadi", "Simetidin chiqarilishni sekinlashtiradi"],
+    qollash: { kattalar: "0,125 mg×3 dan juda sekin oshirib, 1,5–4,5 mg/sutkagacha.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 0,125, 0,25, 1 mg; uzaytirilgan tabletkalar"
+  },
+  ru: {
+    gruppa: "Противопаркинсонические средства — агонисты дофамина",
+    farmTasir: "Агонист дофаминовых рецепторов",
+    farmakodinamika: `Прамипексол — селективный агонист дофаминовых D2/D3 рецепторов. Непосредственно имитирует действие дофамина в мозге (в отличие от леводопы — не зависит от предшественника). Применяется при ранней болезни Паркинсона как монотерапия или как дополнение к леводопе на поздней стадии; также при синдроме беспокойных ног.`,
+    farmakokinetika: { sorish: "Быстро и полно из кишечника", tarqalish: "С белками низко", metabolizm: "Практически не метаболизируется", chiqarilish: "Преимущественно почками; T½ ~8–12 ч" },
+    korsatmalar: ["Болезнь Паркинсона (моно- или с леводопой)", "Умеренно-тяжёлый синдром беспокойных ног (идиопатический)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — почечная недостаточность (коррекция дозы), психоз"],
+    nojoya: { "Нервная система": "Сонливость (внезапные приступы сна), головокружение, галлюцинации", "Психика": "Импульсивные расстройства (игра, покупки, гиперсексуальность)", "Сердце": "Ортостатическая гипотензия" },
+    dozadan: "Гипотензия, рвота, галлюцинации; симптоматическая терапия.",
+    ozarotasir: ["Антипсихотики (блокаторы D2) снижают действие", "С центральными депрессантами/алкоголем усиливается сонливость", "Циметидин замедляет выведение"],
+    qollash: { kattalar: "С 0,125 мг×3 очень медленно повышая, до 1,5–4,5 мг/сут.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 0,125, 0,25, 1 мг; пролонгированные таблетки"
+  },
+  en: {
+    gruppa: "Antiparkinsonian agents — dopamine agonists",
+    farmTasir: "Dopamine receptor agonist",
+    farmakodinamika: `Pramipexole is a selective dopamine D2/D3 receptor agonist. It directly mimics dopamine action in the brain (unlike levodopa, it does not depend on a precursor). It is used in early Parkinson disease as monotherapy or as add-on to levodopa later; also in restless legs syndrome.`,
+    farmakokinetika: { sorish: "Rapid and complete from the gut", tarqalish: "Low protein binding", metabolizm: "Essentially not metabolised", chiqarilish: "Mainly renal; T½ ~8–12 h" },
+    korsatmalar: ["Parkinson disease (mono- or with levodopa)", "Moderate-severe restless legs syndrome (idiopathic)"],
+    qarrshi: ["Hypersensitivity", "Caution — renal impairment (dose adjustment), psychosis"],
+    nojoya: { "Nervous system": "Drowsiness (sudden sleep attacks), dizziness, hallucinations", "Psychiatric": "Impulse-control disorders (gambling, shopping, hypersexuality)", "Cardiac": "Orthostatic hypotension" },
+    dozadan: "Hypotension, vomiting, hallucinations; supportive care.",
+    ozarotasir: ["Antipsychotics (D2 blockers) reduce the effect", "With central depressants/alcohol drowsiness increases", "Cimetidine slows elimination"],
+    qollash: { kattalar: "From 0.125 mg×3 increasing very slowly, to 1.5–4.5 mg/day.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 0.125, 0.25, 1 mg; prolonged-release tablets"
+  }
+},
+
+"N04AA01": {
+  uz: {
+    gruppa: "Parkinsonizmga qarshi vositalar — uchinchi darajали aminlar (xolinolitiklar)",
+    farmTasir: "Markaziy antixolinergik (parkinsonizm)",
+    farmakodinamika: `Trigeksifenidil (siklodol) — markaziy m-xolinoblokator. Parkinson kasalligida dofamin/atsetilxolin muvozanati buzilib, xolinergik faollik ortadi; trigeksifenidil markaziy xolinoretseptorlarni bloklaб bu muvozanatni tiklaydi va tremor hamda rigidlikni kamaytiradi. Neyroleptik parkinsonizmда ham qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Miyaga o'tadi", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Parkinson kasalligi (ayniqsa tremor ustun bo'lганda)", "Neyroleptik (dori keltirgan) ekstrapiramid buzilishlar"],
+    qarrshi: ["Yopiq burchakli glaukoma", "Prostata gipertrofiyasi, siydik tutilishi", "Mexanik ichak tutilishi", "Taxiaritmiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Antixolinergik": "Og'iz qurishi, qabziyat, akkomodatsiya buzilishi, siydik tutilishi", "Asab": "Chalkashlik, gallyutsinatsiya (keksalar), xotira buzilishi", "Yurak": "Taxikardiya" },
+    dozadan: "Antixolinergik sindrom (issiq quruq teri, mioz emas-midriaz, deliriy); fizostigmin, simptomatik davo.",
+    ozarotasir: ["Boshqa antixolinergiklar/antidepressantlar bilan ta'sir kuchayadi", "Antipsikotiklar ta'sirига qisman qarshilik", "Oshqozon harakatini sekinlashtirib boshqa dorilar so'rilishini o'zgartiradi"],
+    qollash: { kattalar: "1 mg/sutkaдан boshlab, asta 6–10 mg/sutkagacha (bo'lib).", bolalar: "Ehtiyotkorlik bilan, kam dozада" },
+    chiqarish: "Tabletkalar 2 mg, 5 mg"
+  },
+  ru: {
+    gruppa: "Противопаркинсонические средства — третичные амины (холинолитики)",
+    farmTasir: "Центральный антихолинергик (паркинсонизм)",
+    farmakodinamika: `Тригексифенидил (циклодол) — центральный м-холиноблокатор. При болезни Паркинсона нарушается баланс дофамин/ацетилхолин с усилением холинергической активности; тригексифенидил блокирует центральные холинорецепторы, восстанавливая баланс и уменьшая тремор и ригидность. Применяется и при нейролептическом паркинсонизме.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Проникает в мозг", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Болезнь Паркинсона (особенно при преобладании тремора)", "Нейролептические (лекарственные) экстрапирамидные расстройства"],
+    qarrshi: ["Закрытоугольная глаукома", "Гипертрофия простаты, задержка мочи", "Механическая кишечная непроходимость", "Тахиаритмия", "Гиперчувствительность"],
+    nojoya: { "Антихолинергические": "Сухость во рту, запор, нарушение аккомодации, задержка мочи", "Нервная система": "Спутанность, галлюцинации (пожилые), нарушение памяти", "Сердце": "Тахикардия" },
+    dozadan: "Антихолинергический синдром (горячая сухая кожа, мидриаз, делирий); физостигмин, симптоматическая терапия.",
+    ozarotasir: ["С другими антихолинергиками/антидепрессантами действие усиливается", "Частично противодействует антипсихотикам", "Замедляя моторику желудка, изменяет всасывание других препаратов"],
+    qollash: { kattalar: "С 1 мг/сут, постепенно до 6–10 мг/сут (дробно).", bolalar: "С осторожностью, в малой дозе" },
+    chiqarish: "Таблетки 2 мг, 5 мг"
+  },
+  en: {
+    gruppa: "Antiparkinsonian agents — tertiary amines (anticholinergics)",
+    farmTasir: "Central anticholinergic (parkinsonism)",
+    farmakodinamika: `Trihexyphenidyl (cyclodol) is a central anticholinergic. In Parkinson disease the dopamine/acetylcholine balance is disrupted with increased cholinergic activity; trihexyphenidyl blocks central cholinergic receptors, restoring balance and reducing tremor and rigidity. It is also used for neuroleptic parkinsonism.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Enters the brain", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Parkinson disease (especially when tremor predominates)", "Neuroleptic (drug-induced) extrapyramidal disorders"],
+    qarrshi: ["Angle-closure glaucoma", "Prostatic hypertrophy, urinary retention", "Mechanical bowel obstruction", "Tachyarrhythmia", "Hypersensitivity"],
+    nojoya: { "Anticholinergic": "Dry mouth, constipation, accommodation disturbance, urinary retention", "Nervous system": "Confusion, hallucinations (elderly), memory impairment", "Cardiac": "Tachycardia" },
+    dozadan: "Anticholinergic syndrome (hot dry skin, mydriasis, delirium); physostigmine, supportive care.",
+    ozarotasir: ["With other anticholinergics/antidepressants effects increase", "Partly counteracts antipsychotics", "By slowing gastric motility it alters absorption of other drugs"],
+    qollash: { kattalar: "From 1 mg/day, gradually to 6–10 mg/day (divided).", bolalar: "Cautiously, at low doses" },
+    chiqarish: "Tablets 2 mg, 5 mg"
+  }
+},
+
+"N04BD02": {
+  uz: {
+    gruppa: "Parkinsonizmga qarshi vositalar — MAO-B ingibitorlari",
+    farmTasir: "Selektiv MAO-B ingibitori",
+    farmakodinamika: `Rasagilin — selektiv qaytmas monoaminoksidaza tip B (MAO-B) ingibitori. Miyaда dofaminni parchalovchi MAO-B ni bloklaб, dofamin miqdorini va ta'sir muddatini oshiradi. Erta Parkinson kasalligida monoterapiya yoki kechki bosqichда levodopaга qo'shimcha sifatида qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "Oqsilга bog'lanadi", metabolizm: "Jigarда CYP1A2 (faol bo'lmagan aminoindan)", chiqarilish: "Buyrak orqали; T½ ~3 soat (ta'siri uzoq — qaytmas)" },
+    korsatmalar: ["Parkinson kasalligi (mono- yoki levodopa bilan)"],
+    qarrshi: ["Og'ir jigar yetishmovchiligi", "Boshqa MAO ingibitorlari yoki petidin bilan birga", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Bosh og'rig'i, bosh aylanishi, depressiya", "Oshqozon-ichak": "Dispepsiya", "Boshqa": "Levodopa bilan diskineziya kuchayishi, ortostatik gipotenziya" },
+    dozadan: "Gipertenziya yoki gipotenziya, qo'zg'alish; simptomatik davo, qon bosimi nazorati.",
+    ozarotasir: ["SSRI/SNRI, petidin bilan serotonin sindromi (man etiladi)", "Simpatomimetiklar bilan gipertenziya", "CYP1A2 ingibitorlari (siprofloksatsin) konsentratsiyani oshiradi"],
+    qollash: { kattalar: "1 mg/sutka (kuniga 1 marta).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 1 mg"
+  },
+  ru: {
+    gruppa: "Противопаркинсонические средства — ингибиторы МАО-B",
+    farmTasir: "Селективный ингибитор МАО-B",
+    farmakodinamika: `Разагилин — селективный необратимый ингибитор моноаминоксидазы типа B (МАО-B). Блокирует расщепляющую дофамин в мозге МАО-B, повышая содержание и длительность действия дофамина. Применяется при ранней болезни Паркинсона как монотерапия или как дополнение к леводопе на поздней стадии.`,
+    farmakokinetika: { sorish: "Быстро из кишечника", tarqalish: "Связывается с белками", metabolizm: "В печени CYP1A2 (неактивный аминоиндан)", chiqarilish: "Почками; T½ ~3 ч (действие длительное — необратимое)" },
+    korsatmalar: ["Болезнь Паркинсона (моно- или с леводопой)"],
+    qarrshi: ["Тяжёлая печёночная недостаточность", "С другими ингибиторами МАО или петидином", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Головная боль, головокружение, депрессия", "ЖКТ": "Диспепсия", "Прочее": "Усиление дискинезии с леводопой, ортостатическая гипотензия" },
+    dozadan: "Гипертензия или гипотензия, возбуждение; симптоматическая терапия, контроль АД.",
+    ozarotasir: ["С СИОЗС/СИОЗСН, петидином серотониновый синдром (противопоказано)", "С симпатомиметиками гипертензия", "Ингибиторы CYP1A2 (ципрофлоксацин) повышают концентрацию"],
+    qollash: { kattalar: "1 мг/сут (раз в сутки).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 1 мг"
+  },
+  en: {
+    gruppa: "Antiparkinsonian agents — MAO-B inhibitors",
+    farmTasir: "Selective MAO-B inhibitor",
+    farmakodinamika: `Rasagiline is a selective irreversible inhibitor of monoamine oxidase type B (MAO-B). By blocking MAO-B, which breaks down dopamine in the brain, it increases dopamine levels and duration of action. It is used in early Parkinson disease as monotherapy or as add-on to levodopa later.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Protein bound", metabolizm: "Hepatic CYP1A2 (inactive aminoindan)", chiqarilish: "Renal; T½ ~3 h (long action — irreversible)" },
+    korsatmalar: ["Parkinson disease (mono- or with levodopa)"],
+    qarrshi: ["Severe hepatic impairment", "With other MAO inhibitors or pethidine", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Headache, dizziness, depression", "GI": "Dyspepsia", "Other": "Increased dyskinesia with levodopa, orthostatic hypotension" },
+    dozadan: "Hypertension or hypotension, agitation; supportive care, blood pressure monitoring.",
+    ozarotasir: ["With SSRIs/SNRIs, pethidine serotonin syndrome (contraindicated)", "With sympathomimetics hypertension", "CYP1A2 inhibitors (ciprofloxacin) raise levels"],
+    qollash: { kattalar: "1 mg/day (once daily).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 1 mg"
+  }
+},
+
+"N05BA01": {
+  uz: {
+    gruppa: "Anksiolitiklar — benzodiazepin hosilalari",
+    farmTasir: "Anksiolitik, tinchlantiruvchi, antikonvulsant, mushak bo'shashtiruvchi",
+    farmakodinamika: `Diazepam — benzodiazepin. GABA-A retseptor kompleksiga bog'lanib, GABA (asosiy tormozlovchi mediator) ta'sirini kuchaytiradi (xlor kanali ochilishini oshiradi). Bu tashvishni kamaytiradi, uyquni keltiradi, tutqanoqни bostiradi va skelet mushaklarini bo'shashtiradi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "Yog'да yaxshi eriydi, miyaga tez; oqsilга ~98%", metabolizm: "Jigarда (faol dezmetildiazepam, oksazepam)", chiqarilish: "Buyrak orqали; T½ uzun (~20–50 soat)" },
+    korsatmalar: ["Tashvish va qo'zg'aluvchanlik", "Tutqanoq holati (status epilepticus), febril tutqanoq", "Mushak spazmi, alkogol abstinensiyasi", "Premedikatsiya/sedatsiya"],
+    qarrshi: ["Og'ir nafas yetishmovchiligi, uyqu apnoesi", "Miasteniya", "O'tkir tor burchakli glaukoma", "Og'ir jigar yetishmovchiligi", "Modda bog'liqligi (ehtiyotkorlik)"],
+    nojoya: { "Asab": "Uyquchanlik, sustlik, ataksiya, antegrad amneziya", "Nafas": "Nafas depressiyasi (yuqori doza/parenteral)", "Boshqa": "Bog'lanish va tolerantlik, to'xtatishда abstinensiya; paradoksal qo'zg'alish" },
+    dozadan: "Markaziy/nafas depressiyasi; antidot — flumazenil (ehtiyotkorlik — tirishish), nafasни qo'llab-quvvatlash.",
+    ozarotasir: ["Alkogol va boshqa markaziy depressantlar bilan ta'sir keskin kuchayadi", "CYP3A4 ingibitorlari konsentratsiyani oshiradi", "Opioidlar bilan nafas depressiyasi xavfi"],
+    qollash: { kattalar: "Tashvish: 2–10 mg×2–4 ich; status epilepticus: 5–10 mg v/i sekin (takror).", bolalar: "Vaznга ko'ra; tutqanoqда rektal/v/i" },
+    chiqarish: "Tabletkalar 5 mg; inyeksiya eritmasi 5 mg/ml; rektal naycha"
+  },
+  ru: {
+    gruppa: "Анксиолитики — производные бензодиазепина",
+    farmTasir: "Анксиолитик, седативное, антиконвульсант, миорелаксант",
+    farmakodinamika: `Диазепам — бензодиазепин. Связывается с ГАМК-А рецепторным комплексом, усиливая действие ГАМК (основного тормозного медиатора) — повышает открытие хлорного канала. Это уменьшает тревогу, вызывает сон, подавляет судороги и расслабляет скелетные мышцы.`,
+    farmakokinetika: { sorish: "Быстро из кишечника", tarqalish: "Жирорастворим, быстро в мозг; с белками ~98%", metabolizm: "В печени (активные дезметилдиазепам, оксазепам)", chiqarilish: "Почками; T½ длинный (~20–50 ч)" },
+    korsatmalar: ["Тревога и возбудимость", "Эпилептический статус, фебрильные судороги", "Мышечный спазм, алкогольная абстиненция", "Премедикация/седация"],
+    qarrshi: ["Тяжёлая дыхательная недостаточность, апноэ сна", "Миастения", "Острая закрытоугольная глаукома", "Тяжёлая печёночная недостаточность", "Зависимость (осторожно)"],
+    nojoya: { "Нервная система": "Сонливость, вялость, атаксия, антероградная амнезия", "Дыхание": "Угнетение дыхания (высокая доза/парентерально)", "Прочее": "Зависимость и толерантность, абстиненция при отмене; парадоксальное возбуждение" },
+    dozadan: "Центральная/дыхательная депрессия; антидот — флумазенил (осторожно — судороги), поддержка дыхания.",
+    ozarotasir: ["С алкоголем и другими центральными депрессантами действие резко усиливается", "Ингибиторы CYP3A4 повышают концентрацию", "С опиоидами риск угнетения дыхания"],
+    qollash: { kattalar: "Тревога: 2–10 мг×2–4 внутрь; эпистатус: 5–10 мг в/в медленно (повтор).", bolalar: "По массе; при судорогах ректально/в/в" },
+    chiqarish: "Таблетки 5 мг; раствор для инъекций 5 мг/мл; ректальная тубка"
+  },
+  en: {
+    gruppa: "Anxiolytics — benzodiazepine derivatives",
+    farmTasir: "Anxiolytic, sedative, anticonvulsant, muscle relaxant",
+    farmakodinamika: `Diazepam is a benzodiazepine. It binds the GABA-A receptor complex, enhancing the action of GABA (the main inhibitory transmitter) by increasing chloride channel opening. This reduces anxiety, induces sleep, suppresses seizures and relaxes skeletal muscle.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Lipid-soluble, rapidly into the brain; ~98% protein bound", metabolizm: "Hepatic (active desmethyldiazepam, oxazepam)", chiqarilish: "Renal; long T½ (~20–50 h)" },
+    korsatmalar: ["Anxiety and agitation", "Status epilepticus, febrile seizures", "Muscle spasm, alcohol withdrawal", "Premedication/sedation"],
+    qarrshi: ["Severe respiratory failure, sleep apnoea", "Myasthenia gravis", "Acute angle-closure glaucoma", "Severe hepatic impairment", "Dependence (caution)"],
+    nojoya: { "Nervous system": "Drowsiness, sluggishness, ataxia, anterograde amnesia", "Respiratory": "Respiratory depression (high dose/parenteral)", "Other": "Dependence and tolerance, withdrawal on stopping; paradoxical agitation" },
+    dozadan: "Central/respiratory depression; antidote — flumazenil (caution — seizures), respiratory support.",
+    ozarotasir: ["With alcohol and other central depressants effects sharply increase", "CYP3A4 inhibitors raise levels", "With opioids respiratory depression risk"],
+    qollash: { kattalar: "Anxiety: 2–10 mg×2–4 orally; status epilepticus: 5–10 mg IV slowly (repeat).", bolalar: "By weight; rectal/IV in seizures" },
+    chiqarish: "Tablets 5 mg; solution for injection 5 mg/mL; rectal tube"
+  }
+},
+
+"N05BA23": {
+  uz: {
+    gruppa: "Anksiolitiklar — benzodiazepin hosilalari (atipik)",
+    farmTasir: "Kunduzgi anksiolitik (sedatsiyasiz)",
+    farmakodinamika: `Tofizopam — 2,3-benzodiazepin (atipik). Tashvishni kamaytiradi, ammo klassik benzodiazepinlardан farqli — sezilarli sedatsiya, mushak bo'shashishi yoki antikonvulsant ta'sir bermaydi va bog'lanish potensiali past. Vegetativ tizimni barqarorlashtiruvchi (vegetostabilizator) ta'sir ko'rsatadi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Asosан buyrak orqали; T½ ~6–8 soat" },
+    korsatmalar: ["Tashvish, asab tarangligi, vegetativ (psixosomatik) buzilishlar", "Klimakterik va alkogol abstinensiyasидаги avtonom buzilishlar"],
+    qarrshi: ["Og'ir nafas yetishmovchiligi", "Dekompensatsiyalangan nafas/yurak yetishmovchiligi", "Homiladorlikning 1-trimestri va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Bosh og'rig'i, qo'zg'aluvchanlik, uyqusizlik (kamdan-kam)", "Oshqozon-ichak": "Ko'ngil aynishi, og'iz qurishi", "Boshqa": "Mushak taranglik, allergik reaksiya" },
+    dozadan: "Markaziy depressiya (kamroq); simptomatik davo.",
+    ozarotasir: ["Markaziy depressantlar bilan ta'sir kuchayadi", "CYP3A4 substratlari (masalan, ba'zi statinlar) metabolizmiga ta'sir qilishi mumkin"],
+    qollash: { kattalar: "50–100 mg×1–3 (kuniga 50–300 mg), kunduzi.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 50 mg"
+  },
+  ru: {
+    gruppa: "Анксиолитики — производные бензодиазепина (атипичные)",
+    farmTasir: "Дневной анксиолитик (без седации)",
+    farmakodinamika: `Тофизопам — 2,3-бензодиазепин (атипичный). Уменьшает тревогу, но в отличие от классических бензодиазепинов не даёт выраженной седации, миорелаксации или антиконвульсивного действия и имеет низкий потенциал зависимости. Оказывает вегетостабилизирующее действие.`,
+    farmakokinetika: { sorish: "Быстро из кишечника", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Преимущественно почками; T½ ~6–8 ч" },
+    korsatmalar: ["Тревога, нервное напряжение, вегетативные (психосоматические) расстройства", "Климактерические и алкогольные вегетативные нарушения при абстиненции"],
+    qarrshi: ["Тяжёлая дыхательная недостаточность", "Декомпенсированная дыхательная/сердечная недостаточность", "I триместр беременности и лактация", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Головная боль, возбудимость, бессонница (редко)", "ЖКТ": "Тошнота, сухость во рту", "Прочее": "Мышечное напряжение, аллергические реакции" },
+    dozadan: "Центральная депрессия (меньше); симптоматическая терапия.",
+    ozarotasir: ["С центральными депрессантами действие усиливается", "Может влиять на метаболизм субстратов CYP3A4 (например, некоторых статинов)"],
+    qollash: { kattalar: "50–100 мг×1–3 (50–300 мг/сут), днём.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 50 мг"
+  },
+  en: {
+    gruppa: "Anxiolytics — benzodiazepine derivatives (atypical)",
+    farmTasir: "Daytime anxiolytic (non-sedating)",
+    farmakodinamika: `Tofisopam is a 2,3-benzodiazepine (atypical). It reduces anxiety but, unlike classic benzodiazepines, does not cause marked sedation, muscle relaxation or anticonvulsant effect and has low dependence potential. It has a vegetative-stabilising (autonomic) effect.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Mainly renal; T½ ~6–8 h" },
+    korsatmalar: ["Anxiety, nervous tension, autonomic (psychosomatic) disorders", "Climacteric and alcohol-withdrawal autonomic disturbances"],
+    qarrshi: ["Severe respiratory failure", "Decompensated respiratory/cardiac failure", "First trimester of pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Headache, excitability, insomnia (rare)", "GI": "Nausea, dry mouth", "Other": "Muscle tension, allergic reactions" },
+    dozadan: "Central depression (less); supportive care.",
+    ozarotasir: ["With central depressants effects increase", "May affect metabolism of CYP3A4 substrates (e.g. some statins)"],
+    qollash: { kattalar: "50–100 mg×1–3 (50–300 mg/day), during the day.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 50 mg"
+  }
+},
+
+"N05BA09": {
+  uz: {
+    gruppa: "Anksiolitiklar — benzodiazepin hosilalari",
+    farmTasir: "Anksiolitik, antikonvulsant",
+    farmakodinamika: `Klobazam — 1,5-benzodiazepin. GABA-A retseptorlari orqali GABA ta'sirini kuchaytiradi; 1,4-benzodiazepinlardан farqli — anksiolitik va antikonvulsant ta'sir nisbatan kuchли, sedatsiya kamroq. Epilepsiyада qo'shimcha vosita va tashvish davosida ishlatiladi.`,
+    farmakokinetika: { sorish: "Ichakdan to'liq", tarqalish: "Yog'да eriydi, miyaga tez", metabolizm: "Jigarда CYP3A4/2C19 (faol N-desmetilklobazam)", chiqarilish: "Buyrak orqали; T½ uzun (faol metabolit ~40–80 soat)" },
+    korsatmalar: ["Tashvish (qisqa muddatли)", "Epilepsiyа (qo'shimcha terapiya, jumladan Lennoks-Gasto sindromi)"],
+    qarrshi: ["Og'ir nafas yetishmovchiligi, uyqu apnoesi", "Miasteniya", "Og'ir jigar yetishmovchiligi", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Uyquchanlik, sustlik, ataksiya", "Boshqa": "Bog'lanish, tolerantlik, to'xtatishда abstinensiya; toshma (kamdan-kam og'ir teri reaksiyasi)" },
+    dozadan: "Markaziy depressiya; antidot — flumazenil, nafasни qo'llab-quvvatlash.",
+    ozarotasir: ["Alkogol/markaziy depressantlar bilan ta'sir kuchayadi", "CYP2C19 substratlari darajasini oshiradi", "Kuchли CYP3A4 induktorlari/ingibitorlari konsentratsiyani o'zgartiradi"],
+    qollash: { kattalar: "Tashvish: 10–30 mg/sutka; epilepsiya: 5–20 mg/sutkaдан boshlab titrlanadi.", bolalar: "≥2 yosh (epilepsiya), vaznга ko'ra" },
+    chiqarish: "Tabletkalar 10 mg; eritma/suspenziya"
+  },
+  ru: {
+    gruppa: "Анксиолитики — производные бензодиазепина",
+    farmTasir: "Анксиолитик, антиконвульсант",
+    farmakodinamika: `Клобазам — 1,5-бензодиазепин. Усиливает действие ГАМК через ГАМК-А рецепторы; в отличие от 1,4-бензодиазепинов анксиолитическое и антиконвульсивное действие относительно сильнее, седация меньше. Применяется как дополнительное средство при эпилепсии и для лечения тревоги.`,
+    farmakokinetika: { sorish: "Полно из кишечника", tarqalish: "Жирорастворим, быстро в мозг", metabolizm: "В печени CYP3A4/2C19 (активный N-десметилклобазам)", chiqarilish: "Почками; T½ длинный (активный метаболит ~40–80 ч)" },
+    korsatmalar: ["Тревога (кратковременно)", "Эпилепсия (дополнительная терапия, в т.ч. синдром Леннокса–Гасто)"],
+    qarrshi: ["Тяжёлая дыхательная недостаточность, апноэ сна", "Миастения", "Тяжёлая печёночная недостаточность", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Сонливость, вялость, атаксия", "Прочее": "Зависимость, толерантность, абстиненция при отмене; сыпь (редко тяжёлые кожные реакции)" },
+    dozadan: "Центральная депрессия; антидот — флумазенил, поддержка дыхания.",
+    ozarotasir: ["С алкоголем/центральными депрессантами действие усиливается", "Повышает уровень субстратов CYP2C19", "Сильные индукторы/ингибиторы CYP3A4 изменяют концентрацию"],
+    qollash: { kattalar: "Тревога: 10–30 мг/сут; эпилепсия: с 5–20 мг/сут с титрованием.", bolalar: "С 2 лет (эпилепсия), по массе" },
+    chiqarish: "Таблетки 10 мг; раствор/суспензия"
+  },
+  en: {
+    gruppa: "Anxiolytics — benzodiazepine derivatives",
+    farmTasir: "Anxiolytic, anticonvulsant",
+    farmakodinamika: `Clobazam is a 1,5-benzodiazepine. It enhances GABA action via GABA-A receptors; unlike 1,4-benzodiazepines its anxiolytic and anticonvulsant effect is relatively stronger with less sedation. It is used as an add-on in epilepsy and for anxiety.`,
+    farmakokinetika: { sorish: "Complete from the gut", tarqalish: "Lipid-soluble, rapidly into the brain", metabolizm: "Hepatic CYP3A4/2C19 (active N-desmethylclobazam)", chiqarilish: "Renal; long T½ (active metabolite ~40–80 h)" },
+    korsatmalar: ["Anxiety (short-term)", "Epilepsy (add-on therapy, incl. Lennox-Gastaut syndrome)"],
+    qarrshi: ["Severe respiratory failure, sleep apnoea", "Myasthenia gravis", "Severe hepatic impairment", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Drowsiness, sluggishness, ataxia", "Other": "Dependence, tolerance, withdrawal on stopping; rash (rarely severe skin reactions)" },
+    dozadan: "Central depression; antidote — flumazenil, respiratory support.",
+    ozarotasir: ["With alcohol/central depressants effects increase", "Raises levels of CYP2C19 substrates", "Strong CYP3A4 inducers/inhibitors alter levels"],
+    qollash: { kattalar: "Anxiety: 10–30 mg/day; epilepsy: from 5–20 mg/day with titration.", bolalar: "From 2 years (epilepsy), by weight" },
+    chiqarish: "Tablets 10 mg; oral solution/suspension"
+  }
+},
+
+"N05BB01": {
+  uz: {
+    gruppa: "Anksiolitiklar — difenilmetan hosilalari",
+    farmTasir: "Anksiolitik, antigistamin, antiemetik",
+    farmakodinamika: `Gidroksizin — difenilmetan hosilasi, H1-gistamin retseptorlarini bloklaydi va markaziy tinchlantiruvchi ta'sir ko'rsatadi. Benzodiazepin bo'lmagani uchun bog'lanish keltirmaydi. Tashvishni kamaytiradi, uyquни yaxshilaydi, qichishish va allergiyani bartaraf etadi, antiemetik ta'sir beradi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "To'qima va miyaга", metabolizm: "Jigarда (faol setirizin)", chiqarilish: "Buyrak orqали; T½ ~14–20 soat" },
+    korsatmalar: ["Tashvish va asab tarangligi", "Qichishish (jumladan eshakem), allergik holatlar", "Premedikatsiya, anesteziyадан oldin sedatsiya"],
+    qarrshi: ["QT uzayishi, aritmiya xavfi", "Yopiq burchakli glaukoma, prostata gipertrofiyasi (antixolinergik)", "Homiladorlik", "Yuqori sezuvchanlik (setirizinга ham)"],
+    nojoya: { "Asab": "Uyquchanlik, sustlik, bosh og'rig'i", "Antixolinergik": "Og'iz qurishi", "Yurak": "QT uzayishi (yuqori dozада)" },
+    dozadan: "Sedatsiya, antixolinergik belgilar, QT; simptomatik davo, EKG nazorati.",
+    ozarotasir: ["Markaziy depressantlar bilan ta'sir kuchayadi", "QT uzaytiruvchi dorilar bilan aritmiya xavfi", "Antixolinergiklar bilan ta'sir qo'shiladi"],
+    qollash: { kattalar: "Tashvish: 25–100 mg/sutka (bo'lib); qichishish: 25 mg×3–4.", bolalar: "1–2 mg/kg/sutka (bo'lib)" },
+    chiqarish: "Tabletkalar 25 mg; sirop; inyeksiya eritmasi"
+  },
+  ru: {
+    gruppa: "Анксиолитики — производные дифенилметана",
+    farmTasir: "Анксиолитик, антигистаминное, противорвотное",
+    farmakodinamika: `Гидроксизин — производное дифенилметана, блокирует H1-гистаминовые рецепторы и оказывает центральное седативное действие. Не являясь бензодиазепином, не вызывает зависимости. Уменьшает тревогу, улучшает сон, устраняет зуд и аллергию, даёт противорвотный эффект.`,
+    farmakokinetika: { sorish: "Быстро из кишечника", tarqalish: "В ткани и мозг", metabolizm: "В печени (активный цетиризин)", chiqarilish: "Почками; T½ ~14–20 ч" },
+    korsatmalar: ["Тревога и нервное напряжение", "Зуд (в т.ч. крапивница), аллергические состояния", "Премедикация, седация перед анестезией"],
+    qarrshi: ["Удлинение QT, риск аритмии", "Закрытоугольная глаукома, гипертрофия простаты (антихолинергик)", "Беременность", "Гиперчувствительность (в т.ч. к цетиризину)"],
+    nojoya: { "Нервная система": "Сонливость, вялость, головная боль", "Антихолинергические": "Сухость во рту", "Сердце": "Удлинение QT (в высокой дозе)" },
+    dozadan: "Седация, антихолинергические симптомы, QT; симптоматическая терапия, контроль ЭКГ.",
+    ozarotasir: ["С центральными депрессантами действие усиливается", "С QT-удлиняющими препаратами риск аритмии", "С антихолинергиками действие суммируется"],
+    qollash: { kattalar: "Тревога: 25–100 мг/сут (дробно); зуд: 25 мг×3–4.", bolalar: "1–2 мг/кг/сут (дробно)" },
+    chiqarish: "Таблетки 25 мг; сироп; раствор для инъекций"
+  },
+  en: {
+    gruppa: "Anxiolytics — diphenylmethane derivatives",
+    farmTasir: "Anxiolytic, antihistamine, antiemetic",
+    farmakodinamika: `Hydroxyzine is a diphenylmethane derivative that blocks H1 histamine receptors and has a central sedative effect. Not being a benzodiazepine, it does not cause dependence. It reduces anxiety, improves sleep, relieves itching and allergy and has an antiemetic effect.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Into tissues and the brain", metabolizm: "Hepatic (active cetirizine)", chiqarilish: "Renal; T½ ~14–20 h" },
+    korsatmalar: ["Anxiety and nervous tension", "Itching (incl. urticaria), allergic conditions", "Premedication, sedation before anaesthesia"],
+    qarrshi: ["QT prolongation, arrhythmia risk", "Angle-closure glaucoma, prostatic hypertrophy (anticholinergic)", "Pregnancy", "Hypersensitivity (incl. to cetirizine)"],
+    nojoya: { "Nervous system": "Drowsiness, sluggishness, headache", "Anticholinergic": "Dry mouth", "Cardiac": "QT prolongation (high dose)" },
+    dozadan: "Sedation, anticholinergic symptoms, QT; supportive care, ECG monitoring.",
+    ozarotasir: ["With central depressants effects increase", "With QT-prolonging drugs arrhythmia risk", "With anticholinergics effects are additive"],
+    qollash: { kattalar: "Anxiety: 25–100 mg/day (divided); itching: 25 mg×3–4.", bolalar: "1–2 mg/kg/day (divided)" },
+    chiqarish: "Tablets 25 mg; syrup; solution for injection"
+  }
+},
+
+"N05BE01": {
+  uz: {
+    gruppa: "Anksiolitiklar — azaspirodekandion hosilalari",
+    farmTasir: "Sedatsiyasiz anksiolitik (azapiron)",
+    farmakodinamika: `Buspiron — azapiron sinfidagi anksiolitik. Serotonin 5-HT1A retseptorlarining qisman agonisti (va dofamin D2 ga yengil ta'sir). Benzodiazepinlardан tubdan farq qiladi: sedatsiya, mushak bo'shashishi, antikonvulsant ta'sir va bog'lanish bermaydi; ta'siri 1–2 hafta ichida asta rivojlanadi.`,
+    farmakokinetika: { sorish: "Ichakdan (birinchi o'tish yuqori)", tarqalish: "Oqsilга ~95%", metabolizm: "Jigarда CYP3A4 (faol metabolit)", chiqarilish: "Buyrak/najas; T½ ~2–3 soat" },
+    korsatmalar: ["Generallashgan tashvish buzilishi", "Tashvish belgilarini qisqa va o'rta muddatли davolash"],
+    qarrshi: ["MAO ingibitorlari bilan", "Og'ir jigar/buyrak yetishmovchiligi", "Epilepsiya (ehtiyotkorlik)", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Bosh aylanishi, bosh og'rig'i, asabiylik, hayajon", "Oshqozon-ichak": "Ko'ngil aynishi", "Boshqa": "Parestesiya (kamdan-kam)" },
+    dozadan: "Ko'ngil aynishi, qusish, bosh aylanishi; simptomatik davo.",
+    ozarotasir: ["MAO ingibitorlari — gipertenziya (man etiladi)", "CYP3A4 ingibitorlari (eritromitsin, ketokonazol, greypfrut) konsentratsiyani oshiradi", "Boshqa serotoninergiklar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "5 mg×2–3 dan boshlab, 15–30 mg/sutkagacha (maks. 60 mg).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 5, 10 mg"
+  },
+  ru: {
+    gruppa: "Анксиолитики — производные азаспиродекандиона",
+    farmTasir: "Анксиолитик без седации (азапирон)",
+    farmakodinamika: `Буспирон — анксиолитик класса азапиронов. Частичный агонист серотониновых 5-HT1A рецепторов (и лёгкое влияние на дофаминовые D2). Принципиально отличается от бензодиазепинов: не даёт седации, миорелаксации, антиконвульсивного действия и зависимости; эффект развивается постепенно за 1–2 недели.`,
+    farmakokinetika: { sorish: "Из кишечника (высокий первичный пас)", tarqalish: "С белками ~95%", metabolizm: "В печени CYP3A4 (активный метаболит)", chiqarilish: "Почками/калом; T½ ~2–3 ч" },
+    korsatmalar: ["Генерализованное тревожное расстройство", "Кратко- и среднесрочное лечение симптомов тревоги"],
+    qarrshi: ["С ингибиторами МАО", "Тяжёлая печёночная/почечная недостаточность", "Эпилепсия (осторожно)", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Головокружение, головная боль, нервозность, возбуждение", "ЖКТ": "Тошнота", "Прочее": "Парестезии (редко)" },
+    dozadan: "Тошнота, рвота, головокружение; симптоматическая терапия.",
+    ozarotasir: ["Ингибиторы МАО — гипертензия (противопоказано)", "Ингибиторы CYP3A4 (эритромицин, кетоконазол, грейпфрут) повышают концентрацию", "С другими серотонинергическими осторожно"],
+    qollash: { kattalar: "С 5 мг×2–3, до 15–30 мг/сут (макс. 60 мг).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 5, 10 мг"
+  },
+  en: {
+    gruppa: "Anxiolytics — azaspirodecanedione derivatives",
+    farmTasir: "Non-sedating anxiolytic (azapirone)",
+    farmakodinamika: `Buspirone is an azapirone-class anxiolytic. It is a partial agonist at serotonin 5-HT1A receptors (with mild dopamine D2 effect). It differs fundamentally from benzodiazepines: no sedation, muscle relaxation, anticonvulsant effect or dependence; the effect develops gradually over 1–2 weeks.`,
+    farmakokinetika: { sorish: "From the gut (high first-pass)", tarqalish: "~95% protein bound", metabolizm: "Hepatic CYP3A4 (active metabolite)", chiqarilish: "Renal/faecal; T½ ~2–3 h" },
+    korsatmalar: ["Generalised anxiety disorder", "Short- and medium-term treatment of anxiety symptoms"],
+    qarrshi: ["With MAO inhibitors", "Severe hepatic/renal impairment", "Epilepsy (caution)", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Dizziness, headache, nervousness, agitation", "GI": "Nausea", "Other": "Paraesthesia (rare)" },
+    dozadan: "Nausea, vomiting, dizziness; supportive care.",
+    ozarotasir: ["MAO inhibitors — hypertension (contraindicated)", "CYP3A4 inhibitors (erythromycin, ketoconazole, grapefruit) raise levels", "Caution with other serotonergics"],
+    qollash: { kattalar: "From 5 mg×2–3, to 15–30 mg/day (max 60 mg).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 5, 10 mg"
+  }
+},
+
+"N06BX22": {
+  uz: {
+    gruppa: "Psixostimulyatorlar va nootroplar — boshqa nootroplar (anksiolitik)",
+    farmTasir: "Nootrop va anksiolitik (tranquillonootrop)",
+    farmakodinamika: `Fenibut — GABA va fenil etilamin hosilasi. GABA-B (va qisman GABA-A) retseptorlariga ta'sir qiladi, miya qon aylanishini yaxshilaydi. Tashvish va taranglikни kamaytiradi, uyquни yaxshilaydi, ammo sezilarli sedatsiya bermaydi; aqliy ish qobiliyatи va xotirani qo'llab-quvvatlaydi (nootrop).`,
+    farmakokinetika: { sorish: "Ichakdan yaxshi", tarqalish: "Miyaga o'tadi", metabolizm: "Jigarда qisman", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Tashvish-nevrotik holatlar, asab tarangligi, uyqusizlik", "Bosh aylanishi (vestibular), kinetoz profilaktikasi", "Bolalarда taklar, tutilib qolish (yordamchi)"],
+    qarrshi: ["Og'ir jigar/buyrak yetishmovchiligi", "Oshqozon yara kasalligi avj olishi", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Uyquchanlik, bosh aylanishi, bosh og'rig'i (boshlang'ich)", "Oshqozon-ichak": "Ko'ngil aynishi", "Boshqa": "Allergik reaksiya; uzoq qabulда tolerantlik" },
+    dozadan: "Sedatsiya, ko'ngil aynishi; simptomatik davo.",
+    ozarotasir: ["Boshqa markaziy depressantlar/anksiolitiklar ta'sirini kuchaytiradi va uzaytiradi"],
+    qollash: { kattalar: "250–500 mg×3 (kuniga 750–1500 mg), kursли.", bolalar: "≥8 yosh, vaznга ko'ra, kam dozада" },
+    chiqarish: "Tabletkalar 250 mg"
+  },
+  ru: {
+    gruppa: "Психостимуляторы и ноотропы — прочие ноотропы (анксиолитик)",
+    farmTasir: "Ноотроп и анксиолитик (транквилоноотроп)",
+    farmakodinamika: `Фенибут — производное ГАМК и фенилэтиламина. Действует на ГАМК-B (и частично ГАМК-A) рецепторы, улучшает мозговое кровообращение. Уменьшает тревогу и напряжение, улучшает сон, но без выраженной седации; поддерживает умственную работоспособность и память (ноотроп).`,
+    farmakokinetika: { sorish: "Хорошо из кишечника", tarqalish: "Проникает в мозг", metabolizm: "Частично в печени", chiqarilish: "Почками" },
+    korsatmalar: ["Тревожно-невротические состояния, нервное напряжение, бессонница", "Головокружение (вестибулярное), профилактика укачивания", "Тики, заикание у детей (вспомогательно)"],
+    qarrshi: ["Тяжёлая печёночная/почечная недостаточность", "Обострение язвенной болезни", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Сонливость, головокружение, головная боль (в начале)", "ЖКТ": "Тошнота", "Прочее": "Аллергические реакции; толерантность при длительном приёме" },
+    dozadan: "Седация, тошнота; симптоматическая терапия.",
+    ozarotasir: ["Усиливает и удлиняет действие других центральных депрессантов/анксиолитиков"],
+    qollash: { kattalar: "250–500 мг×3 (750–1500 мг/сут), курсом.", bolalar: "С 8 лет, по массе, в малой дозе" },
+    chiqarish: "Таблетки 250 мг"
+  },
+  en: {
+    gruppa: "Psychostimulants and nootropics — other nootropics (anxiolytic)",
+    farmTasir: "Nootropic and anxiolytic",
+    farmakodinamika: `Phenibut is a derivative of GABA and phenylethylamine. It acts on GABA-B (and partly GABA-A) receptors and improves cerebral blood flow. It reduces anxiety and tension and improves sleep without marked sedation; it supports mental performance and memory (nootropic).`,
+    farmakokinetika: { sorish: "Well from the gut", tarqalish: "Enters the brain", metabolizm: "Partly hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Anxiety-neurotic states, nervous tension, insomnia", "Vertigo (vestibular), prevention of motion sickness", "Tics, stuttering in children (adjunct)"],
+    qarrshi: ["Severe hepatic/renal impairment", "Active peptic ulcer disease", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Drowsiness, dizziness, headache (initially)", "GI": "Nausea", "Other": "Allergic reactions; tolerance with prolonged use" },
+    dozadan: "Sedation, nausea; supportive care.",
+    ozarotasir: ["Enhances and prolongs the action of other central depressants/anxiolytics"],
+    qollash: { kattalar: "250–500 mg×3 (750–1500 mg/day), as a course.", bolalar: "From 8 years, by weight, at low doses" },
+    chiqarish: "Tablets 250 mg"
+  }
+},
+
+"N05CF01": {
+  uz: {
+    gruppa: "Uxlatuvchi va tinchlantiruvchi vositalar — benzodiazepinга aloqador (Z-dorilar)",
+    farmTasir: "Uxlatuvchi (gipnotik)",
+    farmakodinamika: `Zopiklon — siklopirrolon hosilasi ("Z-dori"). Benzodiazepin bo'lmasa-da, GABA-A retseptor kompleksining benzodiazepin sohasiga bog'lanib GABA ta'sirini kuchaytiradi. Uyquга ketishni tezlashtiradi va uyqu davomiyligini oshiradi, uyqu strukturasiga klassik benzodiazepinlardан kamroq ta'sir qiladi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "To'qimalarга", metabolizm: "Jigarда CYP3A4", chiqarilish: "Buyrak/o'pka; T½ ~5 soat" },
+    korsatmalar: ["Uyqusizlik (qisqa muddatли davolash)"],
+    qarrshi: ["Og'ir nafas yetishmovchiligi, uyqu apnoesi", "Miasteniya", "Og'ir jigar yetishmovchiligi", "Yuqori sezuvchanlik"],
+    nojoya: { "Ta'm": "Og'izда achchiq/metall ta'm (xos)", "Asab": "Uyquchanlik, bosh aylanishi, ertalabki sustlik", "Boshqa": "Bog'lanish/tolerantlik (uzoq qabulда), to'xtatishда abstinensiya" },
+    dozadan: "Markaziy/nafas depressiyasi; antidot — flumazenil, simptomatik davo.",
+    ozarotasir: ["Alkogol/markaziy depressantlar bilan ta'sir kuchayadi", "CYP3A4 ingibitorlari (eritromitsin, ketokonazol) konsentratsiyani oshiradi", "Opioidlar bilan nafas depressiyasi xavfi"],
+    qollash: { kattalar: "7,5 mg yotishдан oldin; keksalarда 3,75 mg; qisqa kurs (≤4 hafta).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 7,5 mg"
+  },
+  ru: {
+    gruppa: "Снотворные и седативные — связанные с бензодиазепинами (Z-препараты)",
+    farmTasir: "Снотворное (гипнотик)",
+    farmakodinamika: `Зопиклон — производное циклопирролона («Z-препарат»). Не являясь бензодиазепином, связывается с бензодиазепиновым участком ГАМК-А рецепторного комплекса, усиливая действие ГАМК. Ускоряет засыпание и увеличивает длительность сна, меньше влияя на структуру сна, чем классические бензодиазепины.`,
+    farmakokinetika: { sorish: "Быстро из кишечника", tarqalish: "В ткани", metabolizm: "В печени CYP3A4", chiqarilish: "Почками/лёгкими; T½ ~5 ч" },
+    korsatmalar: ["Бессонница (кратковременное лечение)"],
+    qarrshi: ["Тяжёлая дыхательная недостаточность, апноэ сна", "Миастения", "Тяжёлая печёночная недостаточность", "Гиперчувствительность"],
+    nojoya: { "Вкус": "Горький/металлический привкус во рту (характерно)", "Нервная система": "Сонливость, головокружение, утренняя вялость", "Прочее": "Зависимость/толерантность (при длительном приёме), абстиненция при отмене" },
+    dozadan: "Центральная/дыхательная депрессия; антидот — флумазенил, симптоматическая терапия.",
+    ozarotasir: ["С алкоголем/центральными депрессантами действие усиливается", "Ингибиторы CYP3A4 (эритромицин, кетоконазол) повышают концентрацию", "С опиоидами риск угнетения дыхания"],
+    qollash: { kattalar: "7,5 мг перед сном; у пожилых 3,75 мг; коротким курсом (≤4 недель).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 7,5 мг"
+  },
+  en: {
+    gruppa: "Hypnotics and sedatives — benzodiazepine-related (Z-drugs)",
+    farmTasir: "Hypnotic",
+    farmakodinamika: `Zopiclone is a cyclopyrrolone ('Z-drug'). Although not a benzodiazepine, it binds the benzodiazepine site of the GABA-A receptor complex, enhancing GABA action. It shortens time to fall asleep and increases sleep duration, affecting sleep architecture less than classic benzodiazepines.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Into tissues", metabolizm: "Hepatic CYP3A4", chiqarilish: "Renal/pulmonary; T½ ~5 h" },
+    korsatmalar: ["Insomnia (short-term treatment)"],
+    qarrshi: ["Severe respiratory failure, sleep apnoea", "Myasthenia gravis", "Severe hepatic impairment", "Hypersensitivity"],
+    nojoya: { "Taste": "Bitter/metallic taste (characteristic)", "Nervous system": "Drowsiness, dizziness, morning sluggishness", "Other": "Dependence/tolerance (with long-term use), withdrawal on stopping" },
+    dozadan: "Central/respiratory depression; antidote — flumazenil, supportive care.",
+    ozarotasir: ["With alcohol/central depressants effects increase", "CYP3A4 inhibitors (erythromycin, ketoconazole) raise levels", "With opioids respiratory depression risk"],
+    qollash: { kattalar: "7.5 mg before bed; 3.75 mg in the elderly; short course (≤4 weeks).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 7.5 mg"
+  }
 }
 
 };
