@@ -29330,6 +29330,342 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Per product information (tablets/injection), as a course.", bolalar: "As prescribed" },
     chiqarish: "Tablets/capsules; solution for injection"
   }
+},
+
+"N02AB02": {
+  uz: {
+    gruppa: "Tizimli glyukokortikoidlar",
+    farmTasir: "Kuchли yallig'lanishga qarshi, immunosupressiv, antiallergik",
+    farmakodinamika: `Deksametazon — uzoq ta'sirli sintetik glyukokortikoid (mineralokortikoid ta'siri deyarli yo'q). Hujayra ichidagi glyukokortikoid retseptorlariga bog'lanib yallig'lanish mediatorlari (sitokinlar, prostaglandinlar) sintezini kamaytiradi, immun javobni bostiradi va to'qima shishini kamaytiradi. Gidrokortizonга nisbatan ~25–30 marta kuchliroq.`,
+    farmakokinetika: { sorish: "Ich va parenteral (biokirish yuqori)", tarqalish: "To'qimalarга keng", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали; biologik ta'sir uzun (36–54 soat)" },
+    korsatmalar: ["Og'ir allergik va yallig'lanishли holatlar, shok, miya shishi", "Autoimmun/revmatik kasalliklar, og'ir astma", "Onkologiyаda (qusishга qarshi, kompleks davo), COVID-19 da kislorodга muhtoj bemorlar"],
+    qarrshi: ["Tizimli zamburug'li infeksiya", "Yuqori sezuvchanlik", "Ehtiyotkorlik — qandli diabet, yara kasalligi, og'ir infeksiya, osteoporoz, gipertoniya"],
+    nojoya: { "Endokrin/metabolik": "Giperglikemiya, Kushing sindromi, vazn ortishi, osteoporoz", "Oshqozon-ichak": "Yara, qon ketish", "Boshqa": "Immunitet pasayishi, qon bosimi oshishi, psixika o'zgarishi" },
+    dozadan: "Uzoq qabulда — gipotalamus-gipofiz-buyrak usti o'qi bostirilishi; dozaни asta kamaytirish.",
+    ozarotasir: ["NPVD bilan yara/qon ketish xavfi", "Ferment induktorlari (rifampitsin, fenitoin) samarani pasaytiradi", "Antidiabetiklar/antikoagulyantlar ta'sirini o'zgartiradi"],
+    qollash: { kattalar: "0,5–24 mg/sutka (holatga ko'ra) ich/parenteral; uzoq kursда asta kamaytirib to'xtatiladi.", bolalar: "Vaznга ko'ra, eng kam samarali dozада" },
+    chiqarish: "Tabletkalar 0,5 mg; inyeksiya eritmasi 4 mg/ml; ko'z tomchilari"
+  },
+  ru: {
+    gruppa: "Системные глюкокортикоиды",
+    farmTasir: "Сильное противовоспалительное, иммуносупрессивное, противоаллергическое",
+    farmakodinamika: `Дексаметазон — синтетический глюкокортикоид длительного действия (минералокортикоидное действие практически отсутствует). Связываясь с внутриклеточными глюкокортикоидными рецепторами, снижает синтез медиаторов воспаления (цитокины, простагландины), подавляет иммунный ответ и уменьшает отёк тканей. Примерно в 25–30 раз сильнее гидрокортизона.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально (высокая биодоступность)", tarqalish: "Широко в ткани", metabolizm: "В печени", chiqarilish: "Почками; биологическое действие длительное (36–54 ч)" },
+    korsatmalar: ["Тяжёлые аллергические и воспалительные состояния, шок, отёк мозга", "Аутоиммунные/ревматические болезни, тяжёлая астма", "В онкологии (противорвотное, в комплексе), при COVID-19 у пациентов на кислороде"],
+    qarrshi: ["Системная грибковая инфекция", "Гиперчувствительность", "Осторожно — сахарный диабет, язвенная болезнь, тяжёлая инфекция, остеопороз, гипертензия"],
+    nojoya: { "Эндокринные/метаболические": "Гипергликемия, синдром Кушинга, прибавка массы, остеопороз", "ЖКТ": "Язва, кровотечение", "Прочее": "Снижение иммунитета, повышение АД, изменения психики" },
+    dozadan: "При длительном приёме — угнетение гипоталамо-гипофизарно-надпочечниковой оси; дозу снижать постепенно.",
+    ozarotasir: ["С НПВП риск язвы/кровотечения", "Индукторы ферментов (рифампицин, фенитоин) снижают эффект", "Изменяет действие антидиабетических/антикоагулянтов"],
+    qollash: { kattalar: "0,5–24 мг/сут (по состоянию) внутрь/парентерально; при длительном курсе отменять постепенно.", bolalar: "По массе, в минимальной эффективной дозе" },
+    chiqarish: "Таблетки 0,5 мг; раствор для инъекций 4 мг/мл; глазные капли"
+  },
+  en: {
+    gruppa: "Systemic glucocorticoids",
+    farmTasir: "Potent anti-inflammatory, immunosuppressive, antiallergic",
+    farmakodinamika: `Dexamethasone is a long-acting synthetic glucocorticoid (with virtually no mineralocorticoid effect). Binding intracellular glucocorticoid receptors, it reduces synthesis of inflammatory mediators (cytokines, prostaglandins), suppresses the immune response and reduces tissue oedema. It is about 25–30 times more potent than hydrocortisone.`,
+    farmakokinetika: { sorish: "Oral and parenteral (high bioavailability)", tarqalish: "Widely into tissues", metabolizm: "Hepatic", chiqarilish: "Renal; biological action long (36–54 h)" },
+    korsatmalar: ["Severe allergic and inflammatory conditions, shock, cerebral oedema", "Autoimmune/rheumatic diseases, severe asthma", "In oncology (antiemetic, combination), in COVID-19 patients needing oxygen"],
+    qarrshi: ["Systemic fungal infection", "Hypersensitivity", "Caution — diabetes, peptic ulcer, severe infection, osteoporosis, hypertension"],
+    nojoya: { "Endocrine/metabolic": "Hyperglycaemia, Cushing syndrome, weight gain, osteoporosis", "GI": "Ulcer, bleeding", "Other": "Immunosuppression, raised blood pressure, mood changes" },
+    dozadan: "With long-term use — suppression of the hypothalamic-pituitary-adrenal axis; taper the dose.",
+    ozarotasir: ["With NSAIDs ulcer/bleeding risk", "Enzyme inducers (rifampicin, phenytoin) reduce the effect", "Alters action of antidiabetics/anticoagulants"],
+    qollash: { kattalar: "0.5–24 mg/day (per condition) oral/parenteral; taper on long courses.", bolalar: "By weight, at the lowest effective dose" },
+    chiqarish: "Tablets 0.5 mg; solution for injection 4 mg/mL; eye drops"
+  }
+},
+
+"N02AB01": {
+  uz: {
+    gruppa: "Tizimli/mahalliy glyukokortikoidlar",
+    farmTasir: "Kuchли yallig'lanishga qarshi, antiallergik glyukokortikoid",
+    farmakodinamika: `Betametazon — uzoq ta'sirli sintetik glyukokortikoid (deksametazonга yaqin, mineralokortikoid ta'siri deyarli yo'q). Glyukokortikoid retseptorlariga bog'lanib yallig'lanish va immun javobni bostiradi. Tizimли (in'eksiya/tabletka), depo-in'eksiya va mahalliy (krem/malham) shaklларда ishlatiladi.`,
+    farmakokinetika: { sorish: "Ich/parenteral/mahalliy", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали; ta'sir uzun (36–54 soat)" },
+    korsatmalar: ["Og'ir allergik va yallig'lanishли holatlar, revmatik kasalliklar", "Teri yallig'lanishi (mahalliy), bo'g'inga in'eksiya (depo)"],
+    qarrshi: ["Tizimli zamburug'li infeksiya", "Mahalliy: virusли/bakterial/zamburug'li teri infeksiyasi", "Yuqori sezuvchanlik"],
+    nojoya: { "Tizimli": "Giperglikemiya, Kushing belgilari, osteoporoz, immunitet pasayishi", "Mahalliy": "Teri atrofiyasi, telangiektaziya, strialar (uzoq surtganда)" },
+    dozadan: "Uzoq tizimли qabulда HGB o'qi bostirilishi; dozani asta kamaytirish.",
+    ozarotasir: ["NPVD bilan yara xavfi", "Ferment induktorlari samarani pasaytiradi", "Antidiabetik ta'sirни o'zgartiradi"],
+    qollash: { kattalar: "Tizimли: 0,5–8 mg/sutka (holatga ko'ra); depo: bo'g'in/to'qimaга; krem 0,05–0,1% kuniga 1–2 marta.", bolalar: "Mahalliy qisqa kurs, eng kam dozада" },
+    chiqarish: "Tabletkalar; in'eksiya (jumladan depo-suspenziya); krem/malham 0,05%, 0,1%"
+  },
+  ru: {
+    gruppa: "Системные/местные глюкокортикоиды",
+    farmTasir: "Сильное противовоспалительное, противоаллергическое",
+    farmakodinamika: `Бетаметазон — синтетический глюкокортикоид длительного действия (близок к дексаметазону, минералокортикоидное действие практически отсутствует). Связываясь с глюкокортикоидными рецепторами, подавляет воспаление и иммунный ответ. Применяется системно (инъекция/таблетка), в виде депо-инъекции и местно (крем/мазь).`,
+    farmakokinetika: { sorish: "Внутрь/парентерально/местно", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками; действие длительное (36–54 ч)" },
+    korsatmalar: ["Тяжёлые аллергические и воспалительные состояния, ревматические болезни", "Воспаление кожи (местно), внутрисуставная инъекция (депо)"],
+    qarrshi: ["Системная грибковая инфекция", "Местно: вирусная/бактериальная/грибковая инфекция кожи", "Гиперчувствительность"],
+    nojoya: { "Системные": "Гипергликемия, признаки Кушинга, остеопороз, снижение иммунитета", "Местные": "Атрофия кожи, телеангиэктазии, стрии (при длительном нанесении)" },
+    dozadan: "При длительном системном приёме угнетение оси ГГН; дозу снижать постепенно.",
+    ozarotasir: ["С НПВП риск язвы", "Индукторы ферментов снижают эффект", "Изменяет действие антидиабетических"],
+    qollash: { kattalar: "Системно: 0,5–8 мг/сут (по состоянию); депо: в сустав/ткань; крем 0,05–0,1% 1–2 раза в сутки.", bolalar: "Местно коротким курсом, в минимальной дозе" },
+    chiqarish: "Таблетки; инъекции (в т.ч. депо-суспензия); крем/мазь 0,05%, 0,1%"
+  },
+  en: {
+    gruppa: "Systemic/topical glucocorticoids",
+    farmTasir: "Potent anti-inflammatory, antiallergic",
+    farmakodinamika: `Betamethasone is a long-acting synthetic glucocorticoid (close to dexamethasone, with virtually no mineralocorticoid effect). Binding glucocorticoid receptors, it suppresses inflammation and the immune response. It is used systemically (injection/tablet), as a depot injection and topically (cream/ointment).`,
+    farmakokinetika: { sorish: "Oral/parenteral/topical", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal; long action (36–54 h)" },
+    korsatmalar: ["Severe allergic and inflammatory conditions, rheumatic diseases", "Skin inflammation (topical), intra-articular injection (depot)"],
+    qarrshi: ["Systemic fungal infection", "Topical: viral/bacterial/fungal skin infection", "Hypersensitivity"],
+    nojoya: { "Systemic": "Hyperglycaemia, Cushingoid features, osteoporosis, immunosuppression", "Topical": "Skin atrophy, telangiectasia, striae (with prolonged use)" },
+    dozadan: "With long systemic use HPA axis suppression; taper the dose.",
+    ozarotasir: ["With NSAIDs ulcer risk", "Enzyme inducers reduce the effect", "Alters antidiabetic action"],
+    qollash: { kattalar: "Systemic: 0.5–8 mg/day (per condition); depot: into joint/tissue; cream 0.05–0.1% 1–2 times daily.", bolalar: "Topical short course, lowest dose" },
+    chiqarish: "Tablets; injection (incl. depot suspension); cream/ointment 0.05%, 0.1%"
+  }
+},
+
+"N02AB06": {
+  uz: {
+    gruppa: "Tizimli glyukokortikoidlar",
+    farmTasir: "Yallig'lanishga qarshi, immunosupressiv glyukokortikoid",
+    farmakodinamika: `Prednizolon — o'rta ta'sirli sintetik glyukokortikoid (gidrokortizonга nisbatan ~4 marta kuchli, mo''tadil mineralokortikoid ta'siri bor). Glyukokortikoid retseptorlariга bog'lanib yallig'lanish mediatorlari sintezini kamaytiradi, immun javobni bostiradi, allergik reaksiyalarni susaytiradi. Eng keng qo'llaniladigan tizimли kortikosteroidlardан biri.`,
+    farmakokinetika: { sorish: "Ich va parenteral", tarqalish: "To'qimalarга keng; oqsilга bog'lanadi", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали; biologik ta'sir 12–36 soat" },
+    korsatmalar: ["Autoimmun va revmatik kasalliklar, og'ir allergiya/anafilaksiya", "Bronxial astma avj olishi, nefrotik sindrom", "Qon kasalliklari, transplantatsiyада immunosupressiya"],
+    qarrshi: ["Tizimli zamburug'li infeksiya", "Yuqori sezuvchanlik", "Ehtiyotkorlik — qandli diabet, yara kasalligi, og'ir infeksiya, osteoporoz, gipertoniya"],
+    nojoya: { "Endokrin/metabolik": "Giperglikemiya, Kushing sindromi, osteoporoz, vazn ortishi", "Suv-tuz": "Natriy/suv ushlanishi, gipokaliemiya, shish", "Boshqa": "Yara, immunitet pasayishi, psixika o'zgarishi" },
+    dozadan: "Uzoq qabulдан keyin dozani asta kamaytirish shart (buyrak usti yetishmovchiligi xavfi).",
+    ozarotasir: ["NPVD bilan yara/qon ketish xavfi", "Ferment induktorlari samarani pasaytiradi", "Diuretiklar bilan gipokaliemiya kuchayadi"],
+    qollash: { kattalar: "5–60 mg/sutka (holatga ko'ra), ertalab; uzoq kursда asta kamaytirib to'xtatiladi.", bolalar: "1–2 mg/kg/sutka (holatga ko'ra)" },
+    chiqarish: "Tabletkalar 5 mg; inyeksiya eritmasi 30 mg/ml; ko'z/quloq tomchilari"
+  },
+  ru: {
+    gruppa: "Системные глюкокортикоиды",
+    farmTasir: "Противовоспалительное, иммуносупрессивное",
+    farmakodinamika: `Преднизолон — синтетический глюкокортикоид средней длительности (примерно в 4 раза сильнее гидрокортизона, обладает умеренным минералокортикоидным действием). Связываясь с глюкокортикоидными рецепторами, снижает синтез медиаторов воспаления, подавляет иммунный ответ и ослабляет аллергические реакции. Один из наиболее широко применяемых системных кортикостероидов.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально", tarqalish: "Широко в ткани; связь с белками", metabolizm: "В печени", chiqarilish: "Почками; биологическое действие 12–36 ч" },
+    korsatmalar: ["Аутоиммунные и ревматические болезни, тяжёлая аллергия/анафилаксия", "Обострение бронхиальной астмы, нефротический синдром", "Болезни крови, иммуносупрессия при трансплантации"],
+    qarrshi: ["Системная грибковая инфекция", "Гиперчувствительность", "Осторожно — сахарный диабет, язвенная болезнь, тяжёлая инфекция, остеопороз, гипертензия"],
+    nojoya: { "Эндокринные/метаболические": "Гипергликемия, синдром Кушинга, остеопороз, прибавка массы", "Водно-солевые": "Задержка натрия/воды, гипокалиемия, отёки", "Прочее": "Язва, снижение иммунитета, изменения психики" },
+    dozadan: "После длительного приёма дозу снижать постепенно (риск надпочечниковой недостаточности).",
+    ozarotasir: ["С НПВП риск язвы/кровотечения", "Индукторы ферментов снижают эффект", "С диуретиками усиливается гипокалиемия"],
+    qollash: { kattalar: "5–60 мг/сут (по состоянию), утром; при длительном курсе отменять постепенно.", bolalar: "1–2 мг/кг/сут (по состоянию)" },
+    chiqarish: "Таблетки 5 мг; раствор для инъекций 30 мг/мл; глазные/ушные капли"
+  },
+  en: {
+    gruppa: "Systemic glucocorticoids",
+    farmTasir: "Anti-inflammatory, immunosuppressive",
+    farmakodinamika: `Prednisolone is an intermediate-acting synthetic glucocorticoid (about 4 times more potent than hydrocortisone, with moderate mineralocorticoid action). Binding glucocorticoid receptors, it reduces synthesis of inflammatory mediators, suppresses the immune response and dampens allergic reactions. It is one of the most widely used systemic corticosteroids.`,
+    farmakokinetika: { sorish: "Oral and parenteral", tarqalish: "Widely into tissues; protein bound", metabolizm: "Hepatic", chiqarilish: "Renal; biological action 12–36 h" },
+    korsatmalar: ["Autoimmune and rheumatic diseases, severe allergy/anaphylaxis", "Asthma exacerbation, nephrotic syndrome", "Blood diseases, immunosuppression in transplantation"],
+    qarrshi: ["Systemic fungal infection", "Hypersensitivity", "Caution — diabetes, peptic ulcer, severe infection, osteoporosis, hypertension"],
+    nojoya: { "Endocrine/metabolic": "Hyperglycaemia, Cushing syndrome, osteoporosis, weight gain", "Fluid-salt": "Sodium/water retention, hypokalaemia, oedema", "Other": "Ulcer, immunosuppression, mood changes" },
+    dozadan: "After prolonged use taper the dose (risk of adrenal insufficiency).",
+    ozarotasir: ["With NSAIDs ulcer/bleeding risk", "Enzyme inducers reduce the effect", "With diuretics hypokalaemia increases"],
+    qollash: { kattalar: "5–60 mg/day (per condition), morning; taper on long courses.", bolalar: "1–2 mg/kg/day (per condition)" },
+    chiqarish: "Tablets 5 mg; solution for injection 30 mg/mL; eye/ear drops"
+  }
+},
+
+"N03AA01": {
+  uz: {
+    gruppa: "Qalqonsimon bez gormonlari",
+    farmTasir: "Qalqonsimon bez gormoni o'rnini bosuvchi",
+    farmakodinamika: `Levotiroksin natriy (L-tiroksin, T4) — qalqonsimon bezning tabiiy gormoni tiroksinning sintetik shakli. To'qimalarда faolroq T3 gacha aylanib, hujayra yadrosидаги retseptorlar orqali modda almashinuvi, o'sish va energiya hosil bo'lishини tartibga soladi. Gipotireozда yetishmagan gormon o'rnini bosadi.`,
+    farmakokinetika: { sorish: "Ichakdan (och qoringa yaxshiroq)", tarqalish: "Oqsilга >99% bog'lanadi", metabolizm: "Periferiyada T3 gacha; jigar/buyrak", chiqarilish: "Safro/buyrak orqали; T½ ~7 kun" },
+    korsatmalar: ["Har qanday kelib chiqishли gipotireoz", "Eutireoid buqoq, qalqonsimon bez operatsiyasi/saratonidan keyin (suppressiv terapiya)"],
+    qarrshi: ["Davolanmagan tireotoksikoz", "Davolanmagan buyrak usti yetishmovchiligi", "O'tkir miokard infarkti/miokardit", "Yuqori sezuvchanlik"],
+    nojoya: { "Ortiqcha doza (tireotoksikoz belgilari)": "Taxikardiya, aritmiya, tremor, terlash, vazn yo'qotish, uyqusizlik", "Yurak": "Stenokardiya (keksalarда — ehtiyotkorlik)" },
+    dozadan: "Tireotoksikoz belgilari; dozani kamaytirish, beta-blokator (simptomatik).",
+    ozarotasir: ["Temir, kaltsiy, antatsidlar so'rilishni kamaytiradi (4 soat oraliq)", "Varfarin ta'sirini kuchaytiradi", "Estrogen/ferment induktorlari ehtiyojни o'zgartiradi"],
+    qollash: { kattalar: "Boshlab 25–50 mkg/sutka, TTG ga qarab titrlanadi (o'rtacha 1,6 mkg/kg); ertalab och qoringa.", bolalar: "Vaznга ko'ra (yangi tug'ilganlарда yuqoriroq mkg/kg)" },
+    chiqarish: "Tabletkalar 25, 50, 75, 100 mkg"
+  },
+  ru: {
+    gruppa: "Гормоны щитовидной железы",
+    farmTasir: "Заместитель гормона щитовидной железы",
+    farmakodinamika: `Левотироксин натрия (L-тироксин, Т4) — синтетическая форма естественного гормона щитовидной железы тироксина. Превращаясь в тканях в более активный Т3, через ядерные рецепторы регулирует обмен веществ, рост и выработку энергии. При гипотиреозе замещает недостающий гормон.`,
+    farmakokinetika: { sorish: "Из кишечника (лучше натощак)", tarqalish: "Связь с белками >99%", metabolizm: "На периферии до Т3; печень/почки", chiqarilish: "С желчью/почками; T½ ~7 дней" },
+    korsatmalar: ["Гипотиреоз любого генеза", "Эутиреоидный зоб, после операции/рака щитовидной железы (супрессивная терапия)"],
+    qarrshi: ["Нелеченый тиреотоксикоз", "Нелеченая надпочечниковая недостаточность", "Острый инфаркт миокарда/миокардит", "Гиперчувствительность"],
+    nojoya: { "Передозировка (признаки тиреотоксикоза)": "Тахикардия, аритмия, тремор, потливость, потеря массы, бессонница", "Сердце": "Стенокардия (у пожилых — осторожно)" },
+    dozadan: "Признаки тиреотоксикоза; снижение дозы, бета-блокатор (симптоматически).",
+    ozarotasir: ["Железо, кальций, антациды снижают всасывание (интервал 4 ч)", "Усиливает действие варфарина", "Эстрогены/индукторы ферментов изменяют потребность"],
+    qollash: { kattalar: "Начиная с 25–50 мкг/сут, титруют по ТТГ (в среднем 1,6 мкг/кг); утром натощак.", bolalar: "По массе (у новорождённых выше мкг/кг)" },
+    chiqarish: "Таблетки 25, 50, 75, 100 мкг"
+  },
+  en: {
+    gruppa: "Thyroid hormones",
+    farmTasir: "Thyroid hormone replacement",
+    farmakodinamika: `Levothyroxine sodium (L-thyroxine, T4) is a synthetic form of the natural thyroid hormone thyroxine. Converted in tissues to the more active T3, it regulates metabolism, growth and energy production via nuclear receptors. In hypothyroidism it replaces the deficient hormone.`,
+    farmakokinetika: { sorish: "From the gut (better fasting)", tarqalish: ">99% protein bound", metabolizm: "Peripheral conversion to T3; liver/kidney", chiqarilish: "Biliary/renal; T½ ~7 days" },
+    korsatmalar: ["Hypothyroidism of any origin", "Euthyroid goitre, after thyroid surgery/cancer (suppressive therapy)"],
+    qarrshi: ["Untreated thyrotoxicosis", "Untreated adrenal insufficiency", "Acute myocardial infarction/myocarditis", "Hypersensitivity"],
+    nojoya: { "Overdose (thyrotoxic signs)": "Tachycardia, arrhythmia, tremor, sweating, weight loss, insomnia", "Cardiac": "Angina (caution in the elderly)" },
+    dozadan: "Thyrotoxic signs; reduce the dose, beta-blocker (symptomatic).",
+    ozarotasir: ["Iron, calcium, antacids reduce absorption (4 h interval)", "Potentiates warfarin", "Oestrogens/enzyme inducers change the requirement"],
+    qollash: { kattalar: "Start 25–50 µg/day, titrate by TSH (average 1.6 µg/kg); morning, fasting.", bolalar: "By weight (higher µg/kg in neonates)" },
+    chiqarish: "Tablets 25, 50, 75, 100 µg"
+  }
+},
+
+"N03CA": {
+  uz: {
+    gruppa: "Qalqonsimon bez kasalliklarida — yod preparatlari",
+    farmTasir: "Yod manbai (qalqonsimon bez)",
+    farmakodinamika: `Kaliy yodid — yodning noorganik manbai. Past dozада qalqonsimon bez gormonlari (T3, T4) sintezi uchun zarur yodni ta'minlaб yod tanqisligi va endemik buqoqни oldini oladi. Yuqori dozада esa qisqa muddatга bez gormon ishlab chiqarishi va qonга chiqarishini bostiradi (Wolff-Chaikoff effekti) — tireotoksik kriz va radiatsiyaდан himoyada ishlatiladi.`,
+    farmakokinetika: { sorish: "Ichakdan to'liq", tarqalish: "Qalqonsimon bezда to'planadi", metabolizm: "—", chiqarilish: "Asosан buyrak orqали" },
+    korsatmalar: ["Yod tanqisligi profilaktikasi va endemik buqoq", "Tireotoksik krizда (boshqa vositalар bilan), operatsiyadan oldin bezni tayyorlash", "Radioaktiv yoddан himoya (yadro avariyasi)"],
+    qarrshi: ["Yodга yuqori sezuvchanlik", "Tireotoksikoz (yuqori doza)", "Gerpetiform dermatit, yod toksikozи", "Yuqori sezuvchanlik"],
+    nojoya: { "Endokrin": "Yuqori dozада — gipo- yoki gipertireoz", "Yodizm": "Metall ta'm, rinit, toshma, so'lak bezi shishi (uzoq yuqori doza)", "Oshqozon-ichak": "Ko'ngil aynishi" },
+    dozadan: "Yodizm; dorini to'xtatish, simptomatik davo.",
+    ozarotasir: ["Litiy bilan gipotireoz kuchayadi", "Kaliy saqlovchi diuretiklar/AAF ingibitorlari bilan giperkaliemiya xavfi", "Antitireoid dorilar bilan ta'sir qo'shiladi"],
+    qollash: { kattalar: "Profilaktika: 100–200 mkg/sutka; tireotoksik kriz/radiatsiya himoyasi: yuqori doza shifokor sxemasi bo'yicha.", bolalar: "Yoshга ko'ra (50–100 mkg/sutka)" },
+    chiqarish: "Tabletkalar 100 mkg, 200 mkg (profilaktik); yuqori dozali shakllar"
+  },
+  ru: {
+    gruppa: "При болезнях щитовидной железы — препараты йода",
+    farmTasir: "Источник йода (щитовидная железа)",
+    farmakodinamika: `Калия йодид — неорганический источник йода. В низких дозах обеспечивает йод, необходимый для синтеза гормонов щитовидной железы (Т3, Т4), предупреждая йододефицит и эндемический зоб. В высоких дозах кратковременно подавляет выработку и выброс гормонов железой (эффект Вольфа–Чайкоффа) — применяется при тиреотоксическом кризе и для защиты от радиации.`,
+    farmakokinetika: { sorish: "Полно из кишечника", tarqalish: "Накапливается в щитовидной железе", metabolizm: "—", chiqarilish: "Преимущественно почками" },
+    korsatmalar: ["Профилактика йододефицита и эндемический зоб", "При тиреотоксическом кризе (с другими средствами), подготовка к операции на железе", "Защита от радиоактивного йода (ядерная авария)"],
+    qarrshi: ["Гиперчувствительность к йоду", "Тиреотоксикоз (высокая доза)", "Герпетиформный дерматит, йодный токсикоз", "Гиперчувствительность"],
+    nojoya: { "Эндокринные": "В высокой дозе — гипо- или гипертиреоз", "Йодизм": "Металлический привкус, ринит, сыпь, отёк слюнных желёз (длительная высокая доза)", "ЖКТ": "Тошнота" },
+    dozadan: "Йодизм; отмена препарата, симптоматическая терапия.",
+    ozarotasir: ["С литием усиливается гипотиреоз", "С калийсберегающими диуретиками/ингибиторами АПФ риск гиперкалиемии", "С антитиреоидными препаратами действие суммируется"],
+    qollash: { kattalar: "Профилактика: 100–200 мкг/сут; тиреотоксический криз/защита от радиации: высокая доза по схеме врача.", bolalar: "По возрасту (50–100 мкг/сут)" },
+    chiqarish: "Таблетки 100 мкг, 200 мкг (профилактические); формы высокой дозы"
+  },
+  en: {
+    gruppa: "Thyroid disorders — iodine preparations",
+    farmTasir: "Iodine source (thyroid)",
+    farmakodinamika: `Potassium iodide is an inorganic source of iodine. At low doses it provides the iodine needed for thyroid hormone synthesis (T3, T4), preventing iodine deficiency and endemic goitre. At high doses it briefly suppresses hormone production and release by the gland (Wolff-Chaikoff effect) — used in thyrotoxic crisis and for radiation protection.`,
+    farmakokinetika: { sorish: "Complete from the gut", tarqalish: "Accumulates in the thyroid", metabolizm: "—", chiqarilish: "Mainly renal" },
+    korsatmalar: ["Prevention of iodine deficiency and endemic goitre", "In thyrotoxic crisis (with other agents), preoperative gland preparation", "Protection from radioactive iodine (nuclear accident)"],
+    qarrshi: ["Hypersensitivity to iodine", "Thyrotoxicosis (high dose)", "Dermatitis herpetiformis, iodine toxicosis", "Hypersensitivity"],
+    nojoya: { "Endocrine": "At high dose — hypo- or hyperthyroidism", "Iodism": "Metallic taste, rhinitis, rash, salivary gland swelling (prolonged high dose)", "GI": "Nausea" },
+    dozadan: "Iodism; stop the drug, supportive care.",
+    ozarotasir: ["With lithium hypothyroidism increases", "With potassium-sparing diuretics/ACE inhibitors hyperkalaemia risk", "With antithyroid drugs effects are additive"],
+    qollash: { kattalar: "Prophylaxis: 100–200 µg/day; thyrotoxic crisis/radiation protection: high dose per physician's regimen.", bolalar: "By age (50–100 µg/day)" },
+    chiqarish: "Tablets 100 µg, 200 µg (prophylactic); high-dose forms"
+  }
+},
+
+"N03BA02": {
+  uz: {
+    gruppa: "Antitireoid vositalar — tiouratsil hosilalari",
+    farmTasir: "Qalqonsimon bez gormoni sintezini kamaytiruvchi",
+    farmakodinamika: `Propiltiouratsil — antitireoid (tireostatik) vosita. Qalqonsimon bezда tireoperoksidaza fermentini bloklaб yodning organifikatsiyasi va T3/T4 sintezini to'xtatadi; bundan tashqari periferiyada T4 ning T3 gacha aylanishini ham kamaytiradi (tireotoksik krizда foydali). Gipertireoz davosida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Qalqonsimon bezда to'planadi", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали; T½ qisqa (kuniga bir necha marta)" },
+    korsatmalar: ["Gipertireoz/tireotoksikoz (jumladan Greyvs kasalligi)", "Operatsiya yoki radioyod davosidан oldin tayyorlash", "Tireotoksik kriz"],
+    qarrshi: ["Og'ir jigar kasalligi (gepatotoksiklik xavfi)", "Agranulotsitoz tarixi", "Yuqori sezuvchanlik"],
+    nojoya: { "Qon": "Agranulotsitoz, leykopeniya (xavfli — isitma/tomoq og'rig'iда tekshirish)", "Jigar": "Gepatotoksiklik (PTU — og'irroq)", "Boshqa": "Toshma, artralgiya, gipotireoz (ortiqcha dozада)" },
+    dozadan: "Gipotireoz, gematologik/jigar belgilari; dozani sozlash, qon/jigar nazorati.",
+    ozarotasir: ["Antikoagulyantlar ta'sirini kuchaytirishi mumkin", "Yod preparatlari samarani o'zgartiradi"],
+    qollash: { kattalar: "Boshlab 300–450 mg/sutka (bo'lib), keyin qo'llab-quvvatlash 50–150 mg; TTG/T4 nazoratида.", bolalar: "Vaznга ko'ra, mutaxassis nazoratида" },
+    chiqarish: "Tabletkalar 50 mg"
+  },
+  ru: {
+    gruppa: "Антитиреоидные средства — производные тиоурацила",
+    farmTasir: "Снижающее синтез гормонов щитовидной железы",
+    farmakodinamika: `Пропилтиоурацил — антитиреоидное (тиреостатическое) средство. Блокирует фермент тиреопероксидазу в щитовидной железе, прекращая органификацию йода и синтез Т3/Т4; кроме того, снижает периферическое превращение Т4 в Т3 (полезно при тиреотоксическом кризе). Применяется при гипертиреозе.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Накапливается в щитовидной железе", metabolizm: "В печени", chiqarilish: "Почками; T½ короткий (несколько раз в сутки)" },
+    korsatmalar: ["Гипертиреоз/тиреотоксикоз (в т.ч. болезнь Грейвса)", "Подготовка перед операцией или радиойодтерапией", "Тиреотоксический криз"],
+    qarrshi: ["Тяжёлое заболевание печени (риск гепатотоксичности)", "Агранулоцитоз в анамнезе", "Гиперчувствительность"],
+    nojoya: { "Кровь": "Агранулоцитоз, лейкопения (опасно — проверять при лихорадке/боли в горле)", "Печень": "Гепатотоксичность (у ПТУ — тяжелее)", "Прочее": "Сыпь, артралгия, гипотиреоз (при избыточной дозе)" },
+    dozadan: "Гипотиреоз, гематологические/печёночные симптомы; коррекция дозы, контроль крови/печени.",
+    ozarotasir: ["Может усиливать действие антикоагулянтов", "Препараты йода изменяют эффект"],
+    qollash: { kattalar: "Начиная с 300–450 мг/сут (дробно), затем поддержание 50–150 мг; под контролем ТТГ/Т4.", bolalar: "По массе, под контролем специалиста" },
+    chiqarish: "Таблетки 50 мг"
+  },
+  en: {
+    gruppa: "Antithyroid agents — thiouracil derivatives",
+    farmTasir: "Reduces thyroid hormone synthesis",
+    farmakodinamika: `Propylthiouracil is an antithyroid (thyrostatic) agent. It blocks the enzyme thyroperoxidase in the thyroid, halting iodine organification and T3/T4 synthesis; it also reduces peripheral conversion of T4 to T3 (useful in thyrotoxic crisis). It is used in hyperthyroidism.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Accumulates in the thyroid", metabolizm: "Hepatic", chiqarilish: "Renal; short T½ (several times daily)" },
+    korsatmalar: ["Hyperthyroidism/thyrotoxicosis (incl. Graves disease)", "Preparation before surgery or radioiodine therapy", "Thyrotoxic crisis"],
+    qarrshi: ["Severe liver disease (hepatotoxicity risk)", "History of agranulocytosis", "Hypersensitivity"],
+    nojoya: { "Blood": "Agranulocytosis, leukopenia (dangerous — check with fever/sore throat)", "Liver": "Hepatotoxicity (more severe with PTU)", "Other": "Rash, arthralgia, hypothyroidism (with excess dose)" },
+    dozadan: "Hypothyroidism, haematological/hepatic signs; dose adjustment, blood/liver monitoring.",
+    ozarotasir: ["May potentiate anticoagulants", "Iodine preparations alter the effect"],
+    qollash: { kattalar: "Start 300–450 mg/day (divided), then maintenance 50–150 mg; under TSH/T4 monitoring.", bolalar: "By weight, under specialist supervision" },
+    chiqarish: "Tablets 50 mg"
+  }
+},
+
+"N03BB02": {
+  uz: {
+    gruppa: "Antitireoid vositalar — imidazol hosilalari",
+    farmTasir: "Qalqonsimon bez gormoni sintezini kamaytiruvchi",
+    farmakodinamika: `Tiamazol (metimazol) — imidazol guruhidan antitireoid vosita. Tireoperoksidazani bloklaб yodning organifikatsiyasi va T3/T4 sintezini to'xtatadi. Propiltiouratsilга nisbatan kuchliroq va uzoq ta'sirли — odatda kuniga bir-ikki marta qabul qilinadi; gipertireoz davosida birinchi tanlov.`,
+    farmakokinetika: { sorish: "Ichakdan to'liq", tarqalish: "Qalqonsimon bezда to'planadi", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали; bezdagi ta'sir uzoqroq" },
+    korsatmalar: ["Gipertireoz/tireotoksikoz (jumladan Greyvs kasalligi)", "Operatsiya yoki radioyod davosidан oldin tayyorlash"],
+    qarrshi: ["Og'ir suyak ko'migi shikastlanishi (agranulotsitoz)", "Og'ir jigar kasalligi", "Homiladorlikning 1-trimestri (teratogen — afzal PTU)", "Yuqori sezuvchanlik"],
+    nojoya: { "Qon": "Agranulotsitoz, leykopeniya (xavfli — isitma/tomoq og'rig'iда tekshirish)", "Boshqa": "Toshma, artralgiya, gipotireoz (ortiqcha dozада); kamdan-kam — gepatotoksiklik" },
+    dozadan: "Gipotireoz, gematologik belgilar; dozani sozlash, qon nazorati.",
+    ozarotasir: ["Antikoagulyantlar ta'sirini kuchaytirishi mumkin", "Yod preparatlari/beta-blokerlar bilan birga (kompleks davo)"],
+    qollash: { kattalar: "Boshlab 15–40 mg/sutka (bo'lib), keyin qo'llab-quvvatlash 5–15 mg; TTG/T4 nazoratида.", bolalar: "Vaznга ko'ra, mutaxassis nazoratида" },
+    chiqarish: "Tabletkalar 5 mg, 10 mg"
+  },
+  ru: {
+    gruppa: "Антитиреоидные средства — производные имидазола",
+    farmTasir: "Снижающее синтез гормонов щитовидной железы",
+    farmakodinamika: `Тиамазол (метимазол) — антитиреоидное средство из группы имидазола. Блокирует тиреопероксидазу, прекращая органификацию йода и синтез Т3/Т4. Сильнее и длительнее пропилтиоурацила — обычно принимается 1–2 раза в сутки; препарат первого выбора при гипертиреозе.`,
+    farmakokinetika: { sorish: "Полно из кишечника", tarqalish: "Накапливается в щитовидной железе", metabolizm: "В печени", chiqarilish: "Почками; действие в железе более длительное" },
+    korsatmalar: ["Гипертиреоз/тиреотоксикоз (в т.ч. болезнь Грейвса)", "Подготовка перед операцией или радиойодтерапией"],
+    qarrshi: ["Тяжёлое поражение костного мозга (агранулоцитоз)", "Тяжёлое заболевание печени", "I триместр беременности (тератоген — предпочтительнее ПТУ)", "Гиперчувствительность"],
+    nojoya: { "Кровь": "Агранулоцитоз, лейкопения (опасно — проверять при лихорадке/боли в горле)", "Прочее": "Сыпь, артралгия, гипотиреоз (при избыточной дозе); редко — гепатотоксичность" },
+    dozadan: "Гипотиреоз, гематологические симптомы; коррекция дозы, контроль крови.",
+    ozarotasir: ["Может усиливать действие антикоагулянтов", "С препаратами йода/бета-блокаторами (комплексное лечение)"],
+    qollash: { kattalar: "Начиная с 15–40 мг/сут (дробно), затем поддержание 5–15 мг; под контролем ТТГ/Т4.", bolalar: "По массе, под контролем специалиста" },
+    chiqarish: "Таблетки 5 мг, 10 мг"
+  },
+  en: {
+    gruppa: "Antithyroid agents — imidazole derivatives",
+    farmTasir: "Reduces thyroid hormone synthesis",
+    farmakodinamika: `Thiamazole (methimazole) is an imidazole-class antithyroid agent. It blocks thyroperoxidase, halting iodine organification and T3/T4 synthesis. It is more potent and longer-acting than propylthiouracil — usually taken once or twice daily; it is first choice in hyperthyroidism.`,
+    farmakokinetika: { sorish: "Complete from the gut", tarqalish: "Accumulates in the thyroid", metabolizm: "Hepatic", chiqarilish: "Renal; action in the gland is longer" },
+    korsatmalar: ["Hyperthyroidism/thyrotoxicosis (incl. Graves disease)", "Preparation before surgery or radioiodine therapy"],
+    qarrshi: ["Severe bone marrow damage (agranulocytosis)", "Severe liver disease", "First trimester of pregnancy (teratogen — PTU preferred)", "Hypersensitivity"],
+    nojoya: { "Blood": "Agranulocytosis, leukopenia (dangerous — check with fever/sore throat)", "Other": "Rash, arthralgia, hypothyroidism (with excess dose); rarely hepatotoxicity" },
+    dozadan: "Hypothyroidism, haematological signs; dose adjustment, blood monitoring.",
+    ozarotasir: ["May potentiate anticoagulants", "With iodine preparations/beta-blockers (combination therapy)"],
+    qollash: { kattalar: "Start 15–40 mg/day (divided), then maintenance 5–15 mg; under TSH/T4 monitoring.", bolalar: "By weight, under specialist supervision" },
+    chiqarish: "Tablets 5 mg, 10 mg"
+  }
+},
+
+"N01AC01": {
+  uz: {
+    gruppa: "Gipofiz gormonlari — somatropin (o'sish gormoni)",
+    farmTasir: "Rekombinant inson o'sish gormoni",
+    farmakodinamika: `Somatropin — rekombinant inson o'sish gormoni (genmuhandislik yo'li bilan olingan). Tabiiy gormon kabi suyak va to'qima o'sishini rag'batlantiradi, oqsil sintezini oshiradi, yog' parchalanishини kuchaytiradi; ta'sirining katta qismi jigar va to'qimalardа ishlab chiqariladigan IGF-1 orqали amalga oshadi.`,
+    farmakokinetika: { sorish: "Teri ostiga in'eksiya", tarqalish: "To'qimalarга", metabolizm: "Jigar/buyrakda", chiqarilish: "Buyrak orqали; T½ qisqa (ta'sir IGF-1 orqали uzoq)" },
+    korsatmalar: ["Bolalarда o'sish gormoni tanqisligi, bo'yning sekin o'sishi (turli sindromlarда)", "Kattalarда og'ir o'sish gormoni yetishmovchiligi"],
+    qarrshi: ["Faol o'sma (saraton)", "O'tkir og'ir kasallik (operatsiyadan keyingi, nafas yetishmovchiligi)", "Epifiz teshiklari yopilgan (bo'y o'sishi uchun)", "Yuqori sezuvchanlik"],
+    nojoya: { "Modda almashinuvi": "Suyuqlik ushlanishi (shish), insulinга rezistentlik/giperglikemiya", "Suyak-mushak": "Artralgiya, mialgiya, karpal tunnel sindromi", "Boshqa": "Bosh og'rig'i, ichki bosim oshishi (kamdan-kam)" },
+    dozadan: "Akromegaliyага o'xshash belgilar, gipoglikemiya keyin giperglikemiya; dozani kamaytirish.",
+    ozarotasir: ["Glyukokortikoidlar o'sish ta'sirini pasaytiradi", "Antidiabetiklar ehtiyojини o'zgartiradi", "Estrogen (peroral) doza ehtiyojini oshiradi"],
+    qollash: { kattalar: "Vazn/yuzaга ko'ra teri ostiga kuniga 1 marta (kechqurun); endokrinolog nazoratида.", bolalar: "0,025–0,05 mg/kg/sutka teri ostiga" },
+    chiqarish: "Inyeksiya uchun poroshok/eritma (kartrij, qalam)"
+  },
+  ru: {
+    gruppa: "Гормоны гипофиза — соматропин (гормон роста)",
+    farmTasir: "Рекомбинантный человеческий гормон роста",
+    farmakodinamika: `Соматропин — рекомбинантный человеческий гормон роста (полученный генно-инженерным путём). Как естественный гормон стимулирует рост костей и тканей, повышает синтез белка, усиливает распад жира; значительная часть действия реализуется через IGF-1, вырабатываемый в печени и тканях.`,
+    farmakokinetika: { sorish: "Подкожная инъекция", tarqalish: "В ткани", metabolizm: "В печени/почках", chiqarilish: "Почками; T½ короткий (действие через IGF-1 длительное)" },
+    korsatmalar: ["У детей дефицит гормона роста, замедление роста (при различных синдромах)", "У взрослых тяжёлая недостаточность гормона роста"],
+    qarrshi: ["Активная опухоль (рак)", "Острое тяжёлое заболевание (послеоперационное, дыхательная недостаточность)", "Закрытые эпифизарные зоны (для роста)", "Гиперчувствительность"],
+    nojoya: { "Обмен веществ": "Задержка жидкости (отёки), инсулинорезистентность/гипергликемия", "Костно-мышечные": "Артралгия, миалгия, синдром запястного канала", "Прочее": "Головная боль, повышение внутричерепного давления (редко)" },
+    dozadan: "Акромегалоподобные признаки, гипогликемия затем гипергликемия; снижение дозы.",
+    ozarotasir: ["Глюкокортикоиды снижают ростовое действие", "Антидиабетические — изменение потребности", "Эстрогены (перорально) повышают потребность в дозе"],
+    qollash: { kattalar: "По массе/площади подкожно 1 раз в сутки (вечером); под контролем эндокринолога.", bolalar: "0,025–0,05 мг/кг/сут подкожно" },
+    chiqarish: "Порошок/раствор для инъекций (картридж, ручка)"
+  },
+  en: {
+    gruppa: "Pituitary hormones — somatropin (growth hormone)",
+    farmTasir: "Recombinant human growth hormone",
+    farmakodinamika: `Somatropin is recombinant human growth hormone (made by genetic engineering). Like the natural hormone it stimulates bone and tissue growth, increases protein synthesis and enhances fat breakdown; much of its action is mediated by IGF-1 produced in the liver and tissues.`,
+    farmakokinetika: { sorish: "Subcutaneous injection", tarqalish: "Into tissues", metabolizm: "Hepatic/renal", chiqarilish: "Renal; short T½ (action via IGF-1 is prolonged)" },
+    korsatmalar: ["Growth hormone deficiency and short stature in children (various syndromes)", "Severe growth hormone deficiency in adults"],
+    qarrshi: ["Active tumour (cancer)", "Acute critical illness (post-surgery, respiratory failure)", "Closed epiphyses (for growth)", "Hypersensitivity"],
+    nojoya: { "Metabolic": "Fluid retention (oedema), insulin resistance/hyperglycaemia", "Musculoskeletal": "Arthralgia, myalgia, carpal tunnel syndrome", "Other": "Headache, raised intracranial pressure (rare)" },
+    dozadan: "Acromegaly-like features, hypoglycaemia then hyperglycaemia; reduce the dose.",
+    ozarotasir: ["Glucocorticoids reduce the growth effect", "Antidiabetics — changed requirement", "Oral oestrogens increase the dose requirement"],
+    qollash: { kattalar: "By weight/area subcutaneously once daily (evening); under endocrinologist supervision.", bolalar: "0.025–0.05 mg/kg/day subcutaneously" },
+    chiqarish: "Powder/solution for injection (cartridge, pen)"
+  }
 }
 
 };
