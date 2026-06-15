@@ -28322,6 +28322,678 @@ const PHARMA_DATA = {
     qollash: { kattalar: "30 mg IV infusion (60 min) twice daily; course per protocol.", bolalar: "Safety not adequately established" },
     chiqarish: "Solution for infusion 30 mg (vial/bag)"
   }
+},
+
+"N01BB09": {
+  uz: {
+    gruppa: "Mahalliy anestetiklar — amid hosilalari",
+    farmTasir: "Uzoq ta'sirli mahalliy anestetik",
+    farmakodinamika: `Ropivakain — amid tipли uzoq ta'sirli mahalliy anestetik (bupivakainning yagona enantiomeri). Nerv membranasидаги natriy kanallarini bloklaб impuls o'tkazilishini to'xtatadi. Bupivakainга nisbatan kardiotoksikligi kamroq va sezgi/harakat blokadasi tanlanishi yaxshiroq (past konsentratsiyada harakatни kam bloklaydi).`,
+    farmakokinetika: { sorish: "Qo'llash joyidan sekin", tarqalish: "Oqsilга yuqori (~94%)", metabolizm: "Jigarда CYP1A2", chiqarilish: "Buyrak orqали; T½ ~1,8 soat" },
+    korsatmalar: ["Epidural, o'tkazuvchi va infiltratsion anesteziya", "Postoperatsion va tug'ruq og'rig'ини davolash (uzluksiz infuziya)"],
+    qarrshi: ["Amid anestetiklarga yuqori sezuvchanlik", "Vena ichiga regionar anesteziya (Bier blokadasi)", "Og'ir gipotenziya", "Yuqori sezuvchanlik"],
+    nojoya: { "Yurak": "Aritmiya, gipotenziya (toksik dozада)", "Asab": "Parestesiya, tirishish (tizimli so'rilishда)", "Boshqa": "Ko'ngil aynishi, bradikardiya" },
+    dozadan: "Markaziy/yurak toksikligi; lipid emulsiya, tirishishда benzodiazepin, reanimatsiya.",
+    ozarotasir: ["CYP1A2 ingibitorlari (fluvoksamin) konsentratsiyani oshiradi", "Boshqa mahalliy anestetiklar/antiaritmiklar bilan tizimli toksiklik qo'shiladi"],
+    qollash: { kattalar: "0,2% (analgeziya) – 0,75–1% (anesteziya) eritma; joylashuvга qarab cheklanadi.", bolalar: "Vaznга ko'ra, ehtiyotkorlik bilan" },
+    chiqarish: "Inyeksiya/infuziya eritmasi 2, 5, 7,5, 10 mg/ml"
+  },
+  ru: {
+    gruppa: "Местные анестетики — амидные производные",
+    farmTasir: "Местный анестетик длительного действия",
+    farmakodinamika: `Ропивакаин — местный анестетик амидного типа длительного действия (единственный энантиомер бупивакаина). Блокирует натриевые каналы мембраны нерва, прекращая проведение импульса. По сравнению с бупивакаином менее кардиотоксичен и лучше разделяет сенсорный/моторный блок (в низких концентрациях мало блокирует движение).`,
+    farmakokinetika: { sorish: "С места введения медленно", tarqalish: "Высокая связь с белками (~94%)", metabolizm: "В печени CYP1A2", chiqarilish: "Почками; T½ ~1,8 ч" },
+    korsatmalar: ["Эпидуральная, проводниковая и инфильтрационная анестезия", "Лечение послеоперационной и родовой боли (длительная инфузия)"],
+    qarrshi: ["Гиперчувствительность к амидным анестетикам", "Внутривенная регионарная анестезия (блок Бира)", "Тяжёлая гипотензия", "Гиперчувствительность"],
+    nojoya: { "Сердце": "Аритмия, гипотензия (при токсической дозе)", "Нервная система": "Парестезии, судороги (при системном всасывании)", "Прочее": "Тошнота, брадикардия" },
+    dozadan: "Центральная/сердечная токсичность; липидная эмульсия, при судорогах бензодиазепин, реанимация.",
+    ozarotasir: ["Ингибиторы CYP1A2 (флувоксамин) повышают концентрацию", "С другими местными анестетиками/антиаритмиками суммируется системная токсичность"],
+    qollash: { kattalar: "Раствор 0,2% (анальгезия) – 0,75–1% (анестезия); ограничивается по локализации.", bolalar: "По массе, с осторожностью" },
+    chiqarish: "Раствор для инъекций/инфузий 2, 5, 7,5, 10 мг/мл"
+  },
+  en: {
+    gruppa: "Local anaesthetics — amide derivatives",
+    farmTasir: "Long-acting local anaesthetic",
+    farmakodinamika: `Ropivacaine is a long-acting amide-type local anaesthetic (the single enantiomer of bupivacaine). It blocks sodium channels in the nerve membrane, halting impulse conduction. Compared with bupivacaine it is less cardiotoxic and better separates sensory/motor block (at low concentrations it blocks movement little).`,
+    farmakokinetika: { sorish: "Slow from the injection site", tarqalish: "High protein binding (~94%)", metabolizm: "Hepatic CYP1A2", chiqarilish: "Renal; T½ ~1.8 h" },
+    korsatmalar: ["Epidural, conduction and infiltration anaesthesia", "Management of postoperative and labour pain (continuous infusion)"],
+    qarrshi: ["Hypersensitivity to amide anaesthetics", "Intravenous regional anaesthesia (Bier block)", "Severe hypotension", "Hypersensitivity"],
+    nojoya: { "Cardiac": "Arrhythmia, hypotension (at toxic dose)", "Nervous system": "Paraesthesia, seizures (with systemic absorption)", "Other": "Nausea, bradycardia" },
+    dozadan: "Central/cardiac toxicity; lipid emulsion, benzodiazepine for seizures, resuscitation.",
+    ozarotasir: ["CYP1A2 inhibitors (fluvoxamine) raise levels", "With other local anaesthetics/antiarrhythmics systemic toxicity is additive"],
+    qollash: { kattalar: "0.2% (analgesia) – 0.75–1% (anaesthesia) solution; limited by site.", bolalar: "By weight, cautiously" },
+    chiqarish: "Solution for injection/infusion 2, 5, 7.5, 10 mg/mL"
+  }
+},
+
+"N01BB10": {
+  uz: {
+    gruppa: "Mahalliy anestetiklar — amid hosilalari",
+    farmTasir: "Uzoq ta'sirli mahalliy anestetik",
+    farmakodinamika: `Levobupivakain — bupivakainning S(-)-enantiomeri, amid tipли uzoq ta'sirli mahalliy anestetik. Natriy kanallarini bloklaб impuls o'tkazilishini to'xtatadi. Rasemик bupivakainга nisbatan yurak va markaziy asab toksikligi kamroq.`,
+    farmakokinetika: { sorish: "Qo'llash joyidan sekin", tarqalish: "Oqsilга >97%", metabolizm: "Jigarда (CYP3A4, CYP1A2)", chiqarilish: "Buyrak/najas; T½ ~3,3 soat" },
+    korsatmalar: ["Epidural, spinal, o'tkazuvchi anesteziya", "Postoperatsion og'riq (infuziya)"],
+    qarrshi: ["Amid anestetiklarga yuqori sezuvchanlik", "Vena ichiga regionar anesteziya (Bier blokadasi)", "Og'ir gipotenziya"],
+    nojoya: { "Yurak": "Aritmiya, gipotenziya (toksik dozада)", "Asab": "Parestesiya, tirishish", "Boshqa": "Ko'ngil aynishi, bradikardiya" },
+    dozadan: "Markaziy/yurak toksikligi; lipid emulsiya, reanimatsiya, benzodiazepin.",
+    ozarotasir: ["CYP3A4/1A2 ingibitorlari konsentratsiyani oshiradi", "Boshqa mahalliy anestetiklar bilan tizimli toksiklik qo'shiladi"],
+    qollash: { kattalar: "2,5–7,5 mg/ml eritma; joylashuvга qarab cheklanadi.", bolalar: "Vaznга ko'ra, ehtiyotkorlik bilan" },
+    chiqarish: "Inyeksiya eritmasi 2,5, 5, 7,5 mg/ml"
+  },
+  ru: {
+    gruppa: "Местные анестетики — амидные производные",
+    farmTasir: "Местный анестетик длительного действия",
+    farmakodinamika: `Левобупивакаин — S(-)-энантиомер бупивакаина, местный анестетик амидного типа длительного действия. Блокирует натриевые каналы, прекращая проведение импульса. По сравнению с рацемическим бупивакаином менее токсичен для сердца и ЦНС.`,
+    farmakokinetika: { sorish: "С места введения медленно", tarqalish: "С белками >97%", metabolizm: "В печени (CYP3A4, CYP1A2)", chiqarilish: "Почками/калом; T½ ~3,3 ч" },
+    korsatmalar: ["Эпидуральная, спинальная, проводниковая анестезия", "Послеоперационная боль (инфузия)"],
+    qarrshi: ["Гиперчувствительность к амидным анестетикам", "Внутривенная регионарная анестезия (блок Бира)", "Тяжёлая гипотензия"],
+    nojoya: { "Сердце": "Аритмия, гипотензия (при токсической дозе)", "Нервная система": "Парестезии, судороги", "Прочее": "Тошнота, брадикардия" },
+    dozadan: "Центральная/сердечная токсичность; липидная эмульсия, реанимация, бензодиазепин.",
+    ozarotasir: ["Ингибиторы CYP3A4/1A2 повышают концентрацию", "С другими местными анестетиками суммируется системная токсичность"],
+    qollash: { kattalar: "Раствор 2,5–7,5 мг/мл; ограничивается по локализации.", bolalar: "По массе, с осторожностью" },
+    chiqarish: "Раствор для инъекций 2,5, 5, 7,5 мг/мл"
+  },
+  en: {
+    gruppa: "Local anaesthetics — amide derivatives",
+    farmTasir: "Long-acting local anaesthetic",
+    farmakodinamika: `Levobupivacaine is the S(-)-enantiomer of bupivacaine, a long-acting amide-type local anaesthetic. It blocks sodium channels, halting impulse conduction. Compared with racemic bupivacaine it is less toxic to the heart and CNS.`,
+    farmakokinetika: { sorish: "Slow from the injection site", tarqalish: ">97% protein bound", metabolizm: "Hepatic (CYP3A4, CYP1A2)", chiqarilish: "Renal/faecal; T½ ~3.3 h" },
+    korsatmalar: ["Epidural, spinal, conduction anaesthesia", "Postoperative pain (infusion)"],
+    qarrshi: ["Hypersensitivity to amide anaesthetics", "Intravenous regional anaesthesia (Bier block)", "Severe hypotension"],
+    nojoya: { "Cardiac": "Arrhythmia, hypotension (at toxic dose)", "Nervous system": "Paraesthesia, seizures", "Other": "Nausea, bradycardia" },
+    dozadan: "Central/cardiac toxicity; lipid emulsion, resuscitation, benzodiazepine.",
+    ozarotasir: ["CYP3A4/1A2 inhibitors raise levels", "With other local anaesthetics systemic toxicity is additive"],
+    qollash: { kattalar: "2.5–7.5 mg/mL solution; limited by site.", bolalar: "By weight, cautiously" },
+    chiqarish: "Solution for injection 2.5, 5, 7.5 mg/mL"
+  }
+},
+
+"N01BB20": {
+  uz: {
+    gruppa: "Mahalliy anestetiklar — kombinatsiya",
+    farmTasir: "Yuza (teri) mahalliy anesteziyasi",
+    farmakodinamika: `Lidokain + prilokain — ikkita amid mahalliy anestetikning teng aralashmasi (yuza anesteziya kremi, masalan EMLA). Ikkalasi ham natriy kanallarini bloklaб teri/shilliq qavatдаги sezgi nerv uchlarini «uxlatadi». Eutektik aralashma sifatида butun teri qalinligiга singib og'riqsizlikни ta'minlaydi.`,
+    farmakokinetika: { sorish: "Teri orqali sekin (qo'llash vaqti va yuzaga bog'liq)", tarqalish: "Mahalliy", metabolizm: "Jigarда; prilokain — toluidinга", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Igna/kateter qo'yishдан oldin teri anesteziyasi", "Yuza jarrohlik muolajalari, lazer, depilatsiya og'rig'ини kamaytirish"],
+    qarrshi: ["Amid anestetiklarga yuqori sezuvchanlik", "Konjenital/idiopatik methemoglobinemiya", "3 oygacha chaqaloqlar (prilokain — methemoglobinemiya)", "Ochiq jarohatга (ehtiyotkorlik)"],
+    nojoya: { "Mahalliy": "Qo'llash joyida oqarish, qizarish, yengil shish", "Tizimli": "Methemoglobinemiya (prilokain, ortiqcha qo'llaganда)" },
+    dozadan: "Methemoglobinemiya — metilen ko'ki; tizimli anestetik toksikligи — simptomatik davo.",
+    ozarotasir: ["Methemoglobin keltiruvchi dorilar (sulfanilamidlar, nitritlar) bilan xavf ortadi", "Boshqa mahalliy anestetiklar bilan tizimli toksiklik qo'shiladi"],
+    qollash: { kattalar: "Kremни teriga qalin qatlam qilib surtib, okklyuziv plyonka bilan ~1 soat yopiladi.", bolalar: "Yoshга/yuzaga ko'ra cheklangan miqdorда" },
+    chiqarish: "Krem 5% (lidokain 25 mg + prilokain 25 mg/g); plastir"
+  },
+  ru: {
+    gruppa: "Местные анестетики — комбинация",
+    farmTasir: "Поверхностная (кожная) местная анестезия",
+    farmakodinamika: `Лидокаин + прилокаин — равная смесь двух амидных местных анестетиков (крем для поверхностной анестезии, например ЭМЛА). Оба блокируют натриевые каналы, «усыпляя» чувствительные нервные окончания кожи/слизистой. Как эвтектическая смесь проникает на всю толщину кожи, обеспечивая обезболивание.`,
+    farmakokinetika: { sorish: "Через кожу медленно (зависит от времени и площади)", tarqalish: "Местно", metabolizm: "В печени; прилокаин — до толуидина", chiqarilish: "Почками" },
+    korsatmalar: ["Анестезия кожи перед пункцией/катетеризацией", "Уменьшение боли при поверхностных вмешательствах, лазере, депиляции"],
+    qarrshi: ["Гиперчувствительность к амидным анестетикам", "Врождённая/идиопатическая метгемоглобинемия", "Дети до 3 мес (прилокаин — метгемоглобинемия)", "На открытые раны (осторожно)"],
+    nojoya: { "Местные": "Побледнение, покраснение, лёгкий отёк в месте нанесения", "Системные": "Метгемоглобинемия (прилокаин, при избыточном нанесении)" },
+    dozadan: "Метгемоглобинемия — метиленовый синий; системная токсичность анестетика — симптоматическая терапия.",
+    ozarotasir: ["С препаратами, вызывающими метгемоглобин (сульфаниламиды, нитриты), риск возрастает", "С другими местными анестетиками суммируется системная токсичность"],
+    qollash: { kattalar: "Крем наносят толстым слоем под окклюзионную плёнку на ~1 ч.", bolalar: "В ограниченном количестве по возрасту/площади" },
+    chiqarish: "Крем 5% (лидокаин 25 мг + прилокаин 25 мг/г); пластырь"
+  },
+  en: {
+    gruppa: "Local anaesthetics — combination",
+    farmTasir: "Topical (skin) local anaesthesia",
+    farmakodinamika: `Lidocaine + prilocaine is an equal mixture of two amide local anaesthetics (a topical anaesthetic cream, e.g. EMLA). Both block sodium channels, 'numbing' sensory nerve endings of the skin/mucosa. As a eutectic mixture it penetrates the full skin thickness, providing analgesia.`,
+    farmakokinetika: { sorish: "Through the skin slowly (depends on time and area)", tarqalish: "Local", metabolizm: "Hepatic; prilocaine to toluidine", chiqarilish: "Renal" },
+    korsatmalar: ["Skin anaesthesia before puncture/catheterisation", "Reducing pain in superficial procedures, laser, depilation"],
+    qarrshi: ["Hypersensitivity to amide anaesthetics", "Congenital/idiopathic methaemoglobinaemia", "Infants under 3 months (prilocaine — methaemoglobinaemia)", "On open wounds (caution)"],
+    nojoya: { "Local": "Blanching, redness, mild swelling at the site", "Systemic": "Methaemoglobinaemia (prilocaine, with excess application)" },
+    dozadan: "Methaemoglobinaemia — methylene blue; systemic anaesthetic toxicity — supportive care.",
+    ozarotasir: ["With methaemoglobin-inducing drugs (sulfonamides, nitrites) risk increases", "With other local anaesthetics systemic toxicity is additive"],
+    qollash: { kattalar: "Apply a thick layer of cream under occlusive film for ~1 h.", bolalar: "Limited amount by age/area" },
+    chiqarish: "Cream 5% (lidocaine 25 mg + prilocaine 25 mg/g); patch"
+  }
+},
+
+"N01BX04": {
+  uz: {
+    gruppa: "Mahalliy anestetiklar — boshqa mahalliy anestetiklar",
+    farmTasir: "Mahalliy og'riq qoldiruvchi (kapsaitsin)",
+    farmakodinamika: `Kapsaitsin — qalampir alkaloidi. Sezgi nerv tolasidagi TRPV1 (vanilloid) retseptorlarini stimullaydi: dastlab achishish/og'riq, keyin esa substantsiya P zaxirasini tugatib nerv uchini «desensibilizatsiya» qiladi — natijada mahalliy og'riq (neyropatik, mushak-bo'g'im) kamayadi.`,
+    farmakokinetika: { sorish: "Teri orqali mahalliy; tizimli so'rilish kam", tarqalish: "Mahalliy", metabolizm: "Mahalliy", chiqarilish: "Mahalliy ta'sir" },
+    korsatmalar: ["Postgerpetik nevralgiya, diabetik neyropatik og'riq (yuqori konsentratsiyali plastir)", "Mushak va bo'g'im og'rig'i (krem/malham)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Shikastlangan/yallig'langan teri", "Ko'z va shilliq qavatларга tekkizmaslik"],
+    nojoya: { "Mahalliy": "Qo'llash joyida achishish, qizarish, og'riq (boshlanишда)", "Boshqa": "Yo'tal (bug'ini nafas olsa)" },
+    dozadan: "Mahalliy ta'sir; ortiqcha achishishда yog'li krem bilan artish (suv samarasiz).",
+    ozarotasir: ["Klinik ahamiyatga ega tizimli o'zaro ta'sir kam"],
+    qollash: { kattalar: "Krem 0,025–0,075% kuniga 3–4 marta; yuqori konsentratsiyali plastir — shifokor nazoratида.", bolalar: "Ehtiyotkorlik bilan, cheklangan" },
+    chiqarish: "Krem/malham 0,025%, 0,075%; transdermal plastir 8%"
+  },
+  ru: {
+    gruppa: "Местные анестетики — прочие местные анестетики",
+    farmTasir: "Местное обезболивающее (капсаицин)",
+    farmakodinamika: `Капсаицин — алкалоид перца. Стимулирует TRPV1 (ванилоидные) рецепторы чувствительных нервных волокон: сначала жжение/боль, затем истощает запас субстанции P и «десенсибилизирует» нервное окончание — в результате уменьшается местная боль (нейропатическая, мышечно-суставная).`,
+    farmakokinetika: { sorish: "Через кожу местно; системное всасывание мало", tarqalish: "Местно", metabolizm: "Местно", chiqarilish: "Местное действие" },
+    korsatmalar: ["Постгерпетическая невралгия, диабетическая нейропатическая боль (пластырь высокой концентрации)", "Мышечная и суставная боль (крем/мазь)"],
+    qarrshi: ["Гиперчувствительность", "Повреждённая/воспалённая кожа", "Избегать попадания в глаза и на слизистые"],
+    nojoya: { "Местные": "Жжение, покраснение, боль в месте нанесения (в начале)", "Прочее": "Кашель (при вдыхании паров)" },
+    dozadan: "Местное действие; при чрезмерном жжении удалять жирным кремом (вода неэффективна).",
+    ozarotasir: ["Клинически значимых системных взаимодействий мало"],
+    qollash: { kattalar: "Крем 0,025–0,075% 3–4 раза в сутки; пластырь высокой концентрации — под контролем врача.", bolalar: "С осторожностью, ограниченно" },
+    chiqarish: "Крем/мазь 0,025%, 0,075%; трансдермальный пластырь 8%"
+  },
+  en: {
+    gruppa: "Local anaesthetics — other local anaesthetics",
+    farmTasir: "Topical analgesic (capsaicin)",
+    farmakodinamika: `Capsaicin is a pepper alkaloid. It stimulates TRPV1 (vanilloid) receptors on sensory nerve fibres: first burning/pain, then it depletes substance P and 'desensitises' the nerve ending — reducing local pain (neuropathic, musculoskeletal).`,
+    farmakokinetika: { sorish: "Through the skin locally; little systemic absorption", tarqalish: "Local", metabolizm: "Local", chiqarilish: "Local action" },
+    korsatmalar: ["Postherpetic neuralgia, diabetic neuropathic pain (high-concentration patch)", "Muscle and joint pain (cream/ointment)"],
+    qarrshi: ["Hypersensitivity", "Damaged/inflamed skin", "Avoid eyes and mucous membranes"],
+    nojoya: { "Local": "Burning, redness, pain at the application site (initially)", "Other": "Cough (if vapour inhaled)" },
+    dozadan: "Local action; for excessive burning remove with an oily cream (water ineffective).",
+    ozarotasir: ["Few clinically significant systemic interactions"],
+    qollash: { kattalar: "Cream 0.025–0.075% 3–4 times daily; high-concentration patch under physician supervision.", bolalar: "Cautiously, limited" },
+    chiqarish: "Cream/ointment 0.025%, 0.075%; transdermal patch 8%"
+  }
+},
+
+"N01AF03": {
+  uz: {
+    gruppa: "Umumiy anestetiklar — barbituratlar",
+    farmTasir: "Qisqa ta'sirli vena ichiga umumiy anestetik",
+    farmakodinamika: `Tiopental natriy — ultraqisqa ta'sirli barbiturat. GABA-A retseptor kompleksидаги xlor kanalini uzoq ochib markaziy asab tizimини tez bostiradi va bir necha soniyaда uyqu (anesteziya) keltiradi. Yog'да yaxshi eriydi — tez miyaga kiradi va tez qayta taqsimlanadi (ta'sir qisqa). Analgetik xususiyati yo'q.`,
+    farmakokinetika: { sorish: "Faqat v/i", tarqalish: "Yog'да eriydi, miyaga tez, keyin qayta taqsimlanadi", metabolizm: "Jigarда sekin", chiqarilish: "Buyrak orqали; uyg'onish qayta taqsimlanish hisobiga" },
+    korsatmalar: ["Anesteziya induksiyasi", "Status epilepticus, qaytmas tirishish (reanimatsiyаda)", "Bosh ichi bosimини kamaytirish (neyroreanimatsiya)"],
+    qarrshi: ["Porfiriya (xavfli)", "Og'ir nafas yetishmovchiligi, status astmatikus", "Og'ir yurak-tomir yetishmovchiligi", "Yuqori sezuvchanlik"],
+    nojoya: { "Nafas": "Nafas depressiyasi, laringospazm, apnoe", "Tomir": "Gipotenziya", "Mahalliy": "Tasodifan arteriyaга yuborilsa — to'qima nekrozi (xavfli)" },
+    dozadan: "Nafas/yurak depressiyasi; nafasни qo'llab-quvvatlash, gemodinamika; maxsus antidot yo'q.",
+    ozarotasir: ["Boshqa markaziy depressantlar/opioidlar bilan ta'sir kuchayadi", "Ferment induktori — boshqa dorilar metabolizmini tezlashtiradi"],
+    qollash: { kattalar: "Induksiya 3–5 mg/kg v/i; faqat anesteziolog, monitoring va reanimatsiya jihozi bilan.", bolalar: "Vaznга ko'ra, nazorat ostида" },
+    chiqarish: "Inyeksiya uchun poroshok (flakon) 0,5 g, 1 g"
+  },
+  ru: {
+    gruppa: "Общие анестетики — барбитураты",
+    farmTasir: "Внутривенный общий анестетик короткого действия",
+    farmakodinamika: `Тиопентал натрия — ультракороткий барбитурат. Удлиняет открытие хлорного канала ГАМК-А рецепторного комплекса, быстро угнетая ЦНС и вызывая сон (анестезию) за секунды. Жирорастворим — быстро проникает в мозг и быстро перераспределяется (действие короткое). Анальгетических свойств нет.`,
+    farmakokinetika: { sorish: "Только в/в", tarqalish: "Жирорастворим, быстро в мозг, затем перераспределяется", metabolizm: "В печени медленно", chiqarilish: "Почками; пробуждение за счёт перераспределения" },
+    korsatmalar: ["Индукция анестезии", "Эпилептический статус, рефрактерные судороги (в реанимации)", "Снижение внутричерепного давления (нейрореанимация)"],
+    qarrshi: ["Порфирия (опасно)", "Тяжёлая дыхательная недостаточность, астматический статус", "Тяжёлая сердечно-сосудистая недостаточность", "Гиперчувствительность"],
+    nojoya: { "Дыхание": "Угнетение дыхания, ларингоспазм, апноэ", "Сосудистые": "Гипотензия", "Местные": "При случайном введении в артерию — некроз тканей (опасно)" },
+    dozadan: "Угнетение дыхания/сердца; поддержка дыхания, гемодинамики; специфического антидота нет.",
+    ozarotasir: ["С другими центральными депрессантами/опиоидами действие усиливается", "Индуктор ферментов — ускоряет метаболизм других препаратов"],
+    qollash: { kattalar: "Индукция 3–5 мг/кг в/в; только анестезиолог, при мониторинге и наличии реанимации.", bolalar: "По массе, под контролем" },
+    chiqarish: "Порошок для инъекций (флакон) 0,5 г, 1 г"
+  },
+  en: {
+    gruppa: "General anaesthetics — barbiturates",
+    farmTasir: "Short-acting intravenous general anaesthetic",
+    farmakodinamika: `Thiopental sodium is an ultra-short-acting barbiturate. It prolongs opening of the chloride channel of the GABA-A receptor complex, rapidly depressing the CNS and inducing sleep (anaesthesia) within seconds. Lipid-soluble — it enters the brain quickly and redistributes quickly (short action). It has no analgesic property.`,
+    farmakokinetika: { sorish: "IV only", tarqalish: "Lipid-soluble, rapidly into the brain, then redistributes", metabolizm: "Slowly hepatic", chiqarilish: "Renal; recovery via redistribution" },
+    korsatmalar: ["Induction of anaesthesia", "Status epilepticus, refractory seizures (in intensive care)", "Lowering intracranial pressure (neuro-intensive care)"],
+    qarrshi: ["Porphyria (dangerous)", "Severe respiratory failure, status asthmaticus", "Severe cardiovascular failure", "Hypersensitivity"],
+    nojoya: { "Respiratory": "Respiratory depression, laryngospasm, apnoea", "Vascular": "Hypotension", "Local": "Accidental intra-arterial injection — tissue necrosis (dangerous)" },
+    dozadan: "Respiratory/cardiac depression; respiratory and haemodynamic support; no specific antidote.",
+    ozarotasir: ["With other central depressants/opioids effects increase", "Enzyme inducer — accelerates metabolism of other drugs"],
+    qollash: { kattalar: "Induction 3–5 mg/kg IV; only by an anaesthetist, with monitoring and resuscitation available.", bolalar: "By weight, under supervision" },
+    chiqarish: "Powder for injection (vial) 0.5 g, 1 g"
+  }
+},
+
+"N01AX": {
+  uz: {
+    gruppa: "Umumiy anestetiklar — boshqa umumiy anestetiklar",
+    farmTasir: "Anestetik/sedativ (natriy oksibat)",
+    farmakodinamika: `Natriy oksibat (natriy oksibutirat, GHB tuzi) — gamma-aminoyog' kislotaga (GABA) yaqin tabiiy metabolit. Markaziy asab tizimини bostirib sedativ-anestetik va antigipoksik ta'sir beradi, to'qimalarda kislorodга chidamlilikни oshiradi. Anesteziyага qo'shimcha, sedatsiya va (xorijда) narkolepsiyada qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich va parenteral", tarqalish: "Miyaga o'tadi", metabolizm: "Jigarда (suv va CO2 gacha)", chiqarilish: "Asosан o'pka (CO2) orqали; T½ qisqa" },
+    korsatmalar: ["Anesteziya induksiyasi/qo'llab-quvvatlash (qo'shimcha), sedatsiya", "Antigipoksik himoya (ba'zi holatlarда)"],
+    qarrshi: ["Gipokaliemiya", "Miasteniya", "Og'ir arterial gipertenziya", "Alkogol/markaziy depressant ta'sirida", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Uyg'onishда qo'zg'alish, mushak tirishishi", "Tomir/nafas": "Yuqori dozада nafas depressiyasi, qon bosimi o'zgarishi", "Boshqa": "Gipokaliemiya, qusish; suiiste'mol potensiali" },
+    dozadan: "Markaziy/nafas depressiyasi, koma; nafasни qo'llab-quvvatlash, simptomatik davo.",
+    ozarotasir: ["Markaziy depressantlar/opioidlar/alkogol bilan ta'sir keskin kuchayadi", "Antipsikotiklar ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "Anesteziolog rejimi bo'yicha v/i (sekin); faqat monitoring ostида.", bolalar: "Faqat nazorat ostида, vaznга ko'ra" },
+    chiqarish: "Inyeksiya eritmasi 20%; ichish eritmasi"
+  },
+  ru: {
+    gruppa: "Общие анестетики — прочие общие анестетики",
+    farmTasir: "Анестетик/седативное (натрия оксибат)",
+    farmakodinamika: `Натрия оксибат (натрия оксибутират, соль ГОМК) — естественный метаболит, близкий к гамма-аминомасляной кислоте (ГАМК). Угнетает ЦНС, оказывая седативно-анестетическое и антигипоксическое действие, повышает устойчивость тканей к кислородному голоданию. Применяется как дополнение к анестезии, для седации и (за рубежом) при нарколепсии.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально", tarqalish: "Проникает в мозг", metabolizm: "В печени (до воды и CO2)", chiqarilish: "Преимущественно лёгкими (CO2); T½ короткий" },
+    korsatmalar: ["Индукция/поддержание анестезии (дополнительно), седация", "Антигипоксическая защита (в отдельных случаях)"],
+    qarrshi: ["Гипокалиемия", "Миастения", "Тяжёлая артериальная гипертензия", "На фоне алкоголя/центральных депрессантов", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Возбуждение при пробуждении, мышечные подёргивания", "Сосуды/дыхание": "В высокой дозе угнетение дыхания, изменение АД", "Прочее": "Гипокалиемия, рвота; потенциал злоупотребления" },
+    dozadan: "Центральная/дыхательная депрессия, кома; поддержка дыхания, симптоматическая терапия.",
+    ozarotasir: ["С центральными депрессантами/опиоидами/алкоголем действие резко усиливается", "Усиливает действие антипсихотиков"],
+    qollash: { kattalar: "По схеме анестезиолога в/в (медленно); только под мониторингом.", bolalar: "Только под контролем, по массе" },
+    chiqarish: "Раствор для инъекций 20%; раствор для приёма внутрь"
+  },
+  en: {
+    gruppa: "General anaesthetics — other general anaesthetics",
+    farmTasir: "Anaesthetic/sedative (sodium oxybate)",
+    farmakodinamika: `Sodium oxybate (the sodium salt of GHB) is a natural metabolite close to gamma-aminobutyric acid (GABA). It depresses the CNS with sedative-anaesthetic and antihypoxic effects and increases tissue tolerance to oxygen deprivation. It is used as an adjunct to anaesthesia, for sedation and (abroad) for narcolepsy.`,
+    farmakokinetika: { sorish: "Oral and parenteral", tarqalish: "Enters the brain", metabolizm: "Hepatic (to water and CO2)", chiqarilish: "Mainly via lungs (CO2); short T½" },
+    korsatmalar: ["Induction/maintenance of anaesthesia (adjunct), sedation", "Antihypoxic protection (in selected cases)"],
+    qarrshi: ["Hypokalaemia", "Myasthenia gravis", "Severe arterial hypertension", "With alcohol/central depressants", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Agitation on emergence, muscle twitching", "Vascular/respiratory": "Respiratory depression and blood pressure changes at high dose", "Other": "Hypokalaemia, vomiting; abuse potential" },
+    dozadan: "Central/respiratory depression, coma; respiratory support, supportive care.",
+    ozarotasir: ["With central depressants/opioids/alcohol effects sharply increase", "Enhances antipsychotics"],
+    qollash: { kattalar: "Per anaesthetist protocol IV (slowly); only under monitoring.", bolalar: "Only under supervision, by weight" },
+    chiqarish: "Solution for injection 20%; oral solution"
+  }
+},
+
+"N02AX": {
+  uz: {
+    gruppa: "Opioid analgetiklar — boshqa opioidlar",
+    farmTasir: "Sintetik opioid analgetik (trimeperidin)",
+    farmakodinamika: `Trimeperidin (promedol) — fenilpiperidin guruhidan sintetik opioid. μ-opioid retseptorlarini stimullaб kuchли og'riq qoldiruvchi ta'sir beradi (morfinдан biroz kuchsizroq). Silliq mushak spazmiни morfinга nisbatan kamroq kuchaytiradi va nafas markazини kamroq bostiradi — shu sababli akusherlik amaliyotida ham qo'llaniladi.`,
+    farmakokinetika: { sorish: "Parenteral va ich", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Kuchли og'riq (jarohat, postoperatsion, onkologik, infarkt)", "Tug'ruq og'rig'ини og'riqsizlantirish", "Premedikatsiya"],
+    qarrshi: ["Nafas depressiyasi", "Yuqori sezuvchanlik", "2 yoshgacha bolalar", "Bosh miya jarohati, ichki bosim oshishi"],
+    nojoya: { "Nafas": "Nafas depressiyasi", "Asab": "Uyquchanlik, bosh aylanishi, mioz", "Oshqozon-ichak": "Ko'ngil aynishi, qabziyat", "Boshqa": "Bog'lanish va tolerantlik" },
+    dozadan: "Antidot — nalokson; nafasни qo'llab-quvvatlash.",
+    ozarotasir: ["Markaziy depressantlar bilan nafas depressiyasi kuchayadi", "MAO ingibitorlari bilan og'ir reaksiyalar"],
+    qollash: { kattalar: "20–40 mg teri ostiga/m/i; zarurда takror; OMS nazoratида.", bolalar: "≥2 yosh, vaznга ko'ra, nazorat ostида" },
+    chiqarish: "Inyeksiya eritmasi 1%, 2%; tabletkalar 25 mg"
+  },
+  ru: {
+    gruppa: "Опиоидные анальгетики — прочие опиоиды",
+    farmTasir: "Синтетический опиоидный анальгетик (тримеперидин)",
+    farmakodinamika: `Тримеперидин (промедол) — синтетический опиоид из группы фенилпиперидина. Стимулирует μ-опиоидные рецепторы, оказывая сильное обезболивающее действие (несколько слабее морфина). Меньше морфина усиливает спазм гладкой мускулатуры и меньше угнетает дыхательный центр — поэтому применяется и в акушерстве.`,
+    farmakokinetika: { sorish: "Парентерально и внутрь", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Сильная боль (травма, послеоперационная, онкологическая, инфаркт)", "Обезболивание родов", "Премедикация"],
+    qarrshi: ["Угнетение дыхания", "Гиперчувствительность", "Дети до 2 лет", "Травма мозга, повышение внутричерепного давления"],
+    nojoya: { "Дыхание": "Угнетение дыхания", "Нервная система": "Сонливость, головокружение, миоз", "ЖКТ": "Тошнота, запор", "Прочее": "Зависимость и толерантность" },
+    dozadan: "Антидот — налоксон; поддержка дыхания.",
+    ozarotasir: ["С центральными депрессантами усиливается угнетение дыхания", "С ингибиторами МАО тяжёлые реакции"],
+    qollash: { kattalar: "20–40 мг подкожно/в/м; при необходимости повтор; под контролем.", bolalar: "С 2 лет, по массе, под контролем" },
+    chiqarish: "Раствор для инъекций 1%, 2%; таблетки 25 мг"
+  },
+  en: {
+    gruppa: "Opioid analgesics — other opioids",
+    farmTasir: "Synthetic opioid analgesic (trimeperidine)",
+    farmakodinamika: `Trimeperidine (promedol) is a synthetic phenylpiperidine opioid. It stimulates μ-opioid receptors, giving strong analgesia (somewhat weaker than morphine). It increases smooth-muscle spasm and depresses the respiratory centre less than morphine — hence it is also used in obstetrics.`,
+    farmakokinetika: { sorish: "Parenteral and oral", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Severe pain (trauma, postoperative, cancer, infarction)", "Analgesia in labour", "Premedication"],
+    qarrshi: ["Respiratory depression", "Hypersensitivity", "Children under 2 years", "Brain injury, raised intracranial pressure"],
+    nojoya: { "Respiratory": "Respiratory depression", "Nervous system": "Drowsiness, dizziness, miosis", "GI": "Nausea, constipation", "Other": "Dependence and tolerance" },
+    dozadan: "Antidote — naloxone; respiratory support.",
+    ozarotasir: ["With central depressants respiratory depression increases", "With MAO inhibitors severe reactions"],
+    qollash: { kattalar: "20–40 mg subcutaneous/IM; repeat if needed; under supervision.", bolalar: "From 2 years, by weight, under supervision" },
+    chiqarish: "Solution for injection 1%, 2%; tablets 25 mg"
+  }
+},
+
+"N02AJ13": {
+  uz: {
+    gruppa: "Opioidlar va analgetiklar kombinatsiyasi",
+    farmTasir: "Kombinatsiyalangan analgetik (opioid + nopioid)",
+    farmakodinamika: `Tramadol + paratsetamol — markaziy va periferik ta'sirни birlashtiruvchi kombinatsiya. Tramadol opioid retseptorlarini qisman stimullaydi va monoamin qaytib so'rilishини bloklaydi (markaziy analgeziya); paratsetamol markaziy yo'l bilan og'riq va isitmани kamaytiradi. Ikkalasi turli mexanizmда, ta'sir tez boshlanadi va uzoq davom etadi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда (tramadol — CYP2D6)", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["O'rtacha va kuchli o'tkir og'riq (postoperatsion, tish, mushak-skelet)"],
+    qarrshi: ["Komponentlarга yuqori sezuvchanlik", "O'tkir alkogol/uxlatuvchi/opioid zaharlanishi", "Nazorat qilinmagan epilepsiya", "MAO ingibitorlari bilan", "Og'ir jigar yetishmovchiligi"],
+    nojoya: { "Asab": "Bosh aylanishi, uyquchanlik, bosh og'rig'i", "Oshqozon-ichak": "Ko'ngil aynishi, qusish, qabziyat", "Boshqa": "Serotonin sindromi, paratsetamol gepatotoksikligi (overdoz)" },
+    dozadan: "Tramadol uchun nalokson (qisman); paratsetamol uchun N-atsetilsistein; tirishishда benzodiazepin.",
+    ozarotasir: ["SSRI/MAO ingibitorlari bilan serotonin sindromi", "Boshqa paratsetamolли vositalar bilan overdoz xavfi", "Markaziy depressantlar bilan ta'sir kuchayadi"],
+    qollash: { kattalar: "1–2 tabletka (tramadol 37,5 mg / paratsetamol 325 mg) har 6 soat; maks. 8 tab/sutka.", bolalar: "≤12 yoshда tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 37,5 mg/325 mg"
+  },
+  ru: {
+    gruppa: "Комбинация опиоидов и анальгетиков",
+    farmTasir: "Комбинированный анальгетик (опиоид + неопиоид)",
+    farmakodinamika: `Трамадол + парацетамол — комбинация, сочетающая центральное и периферическое действие. Трамадол частично стимулирует опиоидные рецепторы и блокирует обратный захват моноаминов (центральная анальгезия); парацетамол центрально снижает боль и лихорадку. Разные механизмы, действие начинается быстро и длится долго.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени (трамадол — CYP2D6)", chiqarilish: "Почками" },
+    korsatmalar: ["Умеренная и сильная острая боль (послеоперационная, зубная, костно-мышечная)"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Острое отравление алкоголем/снотворными/опиоидами", "Неконтролируемая эпилепсия", "С ингибиторами МАО", "Тяжёлая печёночная недостаточность"],
+    nojoya: { "Нервная система": "Головокружение, сонливость, головная боль", "ЖКТ": "Тошнота, рвота, запор", "Прочее": "Серотониновый синдром, гепатотоксичность парацетамола (передозировка)" },
+    dozadan: "Для трамадола — налоксон (частично); для парацетамола — N-ацетилцистеин; при судорогах бензодиазепин.",
+    ozarotasir: ["С СИОЗС/ингибиторами МАО серотониновый синдром", "С другими парацетамолсодержащими — риск передозировки", "С центральными депрессантами действие усиливается"],
+    qollash: { kattalar: "1–2 таблетки (трамадол 37,5 мг / парацетамол 325 мг) каждые 6 ч; макс. 8 таб/сут.", bolalar: "До 12 лет не рекомендуется" },
+    chiqarish: "Таблетки 37,5 мг/325 мг"
+  },
+  en: {
+    gruppa: "Opioid and analgesic combination",
+    farmTasir: "Combined analgesic (opioid + non-opioid)",
+    farmakodinamika: `Tramadol + paracetamol is a combination uniting central and peripheral action. Tramadol partially stimulates opioid receptors and blocks monoamine reuptake (central analgesia); paracetamol centrally reduces pain and fever. The two mechanisms give a fast onset and prolonged effect.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic (tramadol via CYP2D6)", chiqarilish: "Renal" },
+    korsatmalar: ["Moderate and severe acute pain (postoperative, dental, musculoskeletal)"],
+    qarrshi: ["Hypersensitivity to components", "Acute intoxication with alcohol/hypnotics/opioids", "Uncontrolled epilepsy", "With MAO inhibitors", "Severe hepatic impairment"],
+    nojoya: { "Nervous system": "Dizziness, drowsiness, headache", "GI": "Nausea, vomiting, constipation", "Other": "Serotonin syndrome, paracetamol hepatotoxicity (overdose)" },
+    dozadan: "Naloxone for tramadol (partial); N-acetylcysteine for paracetamol; benzodiazepine for seizures.",
+    ozarotasir: ["With SSRIs/MAO inhibitors serotonin syndrome", "With other paracetamol-containing products overdose risk", "With central depressants effects increase"],
+    qollash: { kattalar: "1–2 tablets (tramadol 37.5 mg / paracetamol 325 mg) every 6 h; max 8 tabs/day.", bolalar: "Not recommended under 12 years" },
+    chiqarish: "Tablets 37.5 mg/325 mg"
+  }
+},
+
+"N03AX15": {
+  uz: {
+    gruppa: "Epilepsiyaga qarshi vositalar — boshqa antiepileptiklar",
+    farmTasir: "Keng spektrли antikonvulsant",
+    farmakodinamika: `Zonisamid — sulfonamid hosilasi antiepileptik. Voltajга bog'liq natriy va T-tipli kaltsiy kanallarini bloklaydi, karboangidrazani yengil inhibilaydi va neyronlarning ortiqcha razryadlarini kamaytiradi. Parsial tutqanoqlarда mono- yoki qo'shimcha terapiya sifatида ishlatiladi.`,
+    farmakokinetika: { sorish: "Ichakdan to'liq", tarqalish: "Oqsilга ~40%; eritrotsitlarда to'planadi", metabolizm: "Jigarда CYP3A4", chiqarilish: "Buyrak orqали; T½ uzun (~60 soat)" },
+    korsatmalar: ["Parsial (fokal) tutqanoqlar (mono- yoki qo'shimcha terapiya)"],
+    qarrshi: ["Sulfonamidlarga yuqori sezuvchanlik", "Og'ir jigar/buyrak yetishmovchiligi", "Homiladorlik (teratogen — ehtiyotkorlik)"],
+    nojoya: { "Asab": "Uyquchanlik, bosh aylanishi, ataksiya, kognitiv sustlik", "Modda": "Ishtaha pasayishi, vazn yo'qotish, metabolik atsidoz", "Buyrak/teri": "Buyrak toshlari, terlash kamayishi/gipertermiya (bolalarда), toshma" },
+    dozadan: "Sedatsiya, atsidoz, bradikardiya; gemodializ, simptomatik davo.",
+    ozarotasir: ["CYP3A4 induktorlari (karbamazepin, fenitoin) darajani pasaytiradi", "Karboangidraza ingibitorlari bilan tosh/atsidoz xavfi"],
+    qollash: { kattalar: "50 mg/sutkaдан boshlab, 300–500 mg/sutkagacha (bo'lib yoki 1 marta).", bolalar: "≥6 yosh, vaznга ko'ra" },
+    chiqarish: "Kapsulalar 25, 50, 100 mg"
+  },
+  ru: {
+    gruppa: "Противоэпилептические средства — прочие антиэпилептики",
+    farmTasir: "Антиконвульсант широкого спектра",
+    farmakodinamika: `Зонисамид — антиэпилептик, производное сульфонамида. Блокирует потенциалзависимые натриевые и T-тип кальциевые каналы, слабо ингибирует карбоангидразу и снижает избыточные разряды нейронов. Применяется при парциальных судорогах как моно- или дополнительная терапия.`,
+    farmakokinetika: { sorish: "Полно из кишечника", tarqalish: "С белками ~40%; накапливается в эритроцитах", metabolizm: "В печени CYP3A4", chiqarilish: "Почками; T½ длинный (~60 ч)" },
+    korsatmalar: ["Парциальные (фокальные) судороги (моно- или дополнительная терапия)"],
+    qarrshi: ["Гиперчувствительность к сульфонамидам", "Тяжёлая печёночная/почечная недостаточность", "Беременность (тератоген — осторожно)"],
+    nojoya: { "Нервная система": "Сонливость, головокружение, атаксия, когнитивная заторможенность", "Обмен": "Снижение аппетита, потеря массы, метаболический ацидоз", "Почки/кожа": "Камни почек, снижение потоотделения/гипертермия (у детей), сыпь" },
+    dozadan: "Седация, ацидоз, брадикардия; гемодиализ, симптоматическая терапия.",
+    ozarotasir: ["Индукторы CYP3A4 (карбамазепин, фенитоин) снижают уровень", "С ингибиторами карбоангидразы риск камней/ацидоза"],
+    qollash: { kattalar: "С 50 мг/сут, до 300–500 мг/сут (дробно или 1 раз).", bolalar: "С 6 лет, по массе" },
+    chiqarish: "Капсулы 25, 50, 100 мг"
+  },
+  en: {
+    gruppa: "Antiepileptics — other antiepileptics",
+    farmTasir: "Broad-spectrum anticonvulsant",
+    farmakodinamika: `Zonisamide is a sulfonamide-derivative antiepileptic. It blocks voltage-gated sodium and T-type calcium channels, weakly inhibits carbonic anhydrase and reduces excessive neuronal firing. It is used in partial seizures as mono- or add-on therapy.`,
+    farmakokinetika: { sorish: "Complete from the gut", tarqalish: "~40% protein bound; accumulates in red cells", metabolizm: "Hepatic CYP3A4", chiqarilish: "Renal; long T½ (~60 h)" },
+    korsatmalar: ["Partial (focal) seizures (mono- or add-on therapy)"],
+    qarrshi: ["Hypersensitivity to sulfonamides", "Severe hepatic/renal impairment", "Pregnancy (teratogen — caution)"],
+    nojoya: { "Nervous system": "Drowsiness, dizziness, ataxia, cognitive slowing", "Metabolic": "Reduced appetite, weight loss, metabolic acidosis", "Renal/skin": "Kidney stones, reduced sweating/hyperthermia (children), rash" },
+    dozadan: "Sedation, acidosis, bradycardia; haemodialysis, supportive care.",
+    ozarotasir: ["CYP3A4 inducers (carbamazepine, phenytoin) lower levels", "With carbonic anhydrase inhibitors stone/acidosis risk"],
+    qollash: { kattalar: "From 50 mg/day, to 300–500 mg/day (divided or once).", bolalar: "From 6 years, by weight" },
+    chiqarish: "Capsules 25, 50, 100 mg"
+  }
+},
+
+"N03AX": {
+  uz: {
+    gruppa: "Epilepsiyaga qarshi / neyropatik og'riq — kombinatsiya",
+    farmTasir: "Neyropatik og'riqда antikonvulsant + neyrotrop kombinatsiya",
+    farmakodinamika: `Pregabalin + metilkobalamin + alfa-lipoy kislota kombinatsiyasi. Pregabalin kaltsiy kanallarining α2δ subbirligiga bog'lanib qo'zg'aluvchi mediatorlar ajralishini kamaytiradi (neyropatik og'riqни pasaytiradi); metilkobalamin (B12) nerv miyelini va aksonal regeneratsiya uchun zarur; alfa-lipoy kislota — kuchли antioksidant, nerv to'qimasini oksidlovchi shikastlanишдан himoya qiladi. Diabetik neyropatiyада kompleks ta'sir beradi.`,
+    farmakokinetika: { sorish: "Komponentlar ichakdan so'riladi", tarqalish: "To'qimalarга", metabolizm: "Pregabalin metabolizmga uchramaydi", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Diabetik va boshqa periferik neyropatiya bilan kechuvchi og'riq"],
+    qarrshi: ["Komponentlarга yuqori sezuvchanlik", "Ehtiyotkorlik — buyrak yetishmovchiligi"],
+    nojoya: { "Asab": "Bosh aylanishi, uyquchanlik (pregabalin)", "Boshqa": "Periferik shish, vazn ortishi; oshqozon noxushligi (alfa-lipoy kislota)" },
+    dozadan: "Pregabalin — markaziy depressiya; gemodializ, simptomatik davo.",
+    ozarotasir: ["Markaziy depressantlar/alkogol bilan pregabalin ta'siri kuchayadi", "Alfa-lipoy kislota insulin/peroral qand kamaytiruvchi ta'sirни kuchaytirishi mumkin (gipoglikemiya)"],
+    qollash: { kattalar: "1 kapsula kuniga 1–2 marta (pregabalin 75 mg + metilkobalamin + ALA), kursли.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Kapsulalar (pregabalin + metilkobalamin + alfa-lipoy kislota)"
+  },
+  ru: {
+    gruppa: "Противоэпилептические / нейропатическая боль — комбинация",
+    farmTasir: "Антиконвульсант + нейротропная комбинация при нейропатической боли",
+    farmakodinamika: `Комбинация прегабалин + метилкобаламин + альфа-липоевая кислота. Прегабалин связывается с субъединицей α2δ кальциевых каналов, снижая высвобождение возбуждающих медиаторов (уменьшает нейропатическую боль); метилкобаламин (В12) необходим для миелина и регенерации аксона; альфа-липоевая кислота — мощный антиоксидант, защищающий нервную ткань от окислительного повреждения. Даёт комплексный эффект при диабетической невропатии.`,
+    farmakokinetika: { sorish: "Компоненты всасываются из кишечника", tarqalish: "В ткани", metabolizm: "Прегабалин не метаболизируется", chiqarilish: "Почками" },
+    korsatmalar: ["Боль при диабетической и другой периферической невропатии"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Осторожно — почечная недостаточность"],
+    nojoya: { "Нервная система": "Головокружение, сонливость (прегабалин)", "Прочее": "Периферические отёки, прибавка массы; дискомфорт в животе (альфа-липоевая кислота)" },
+    dozadan: "Прегабалин — центральная депрессия; гемодиализ, симптоматическая терапия.",
+    ozarotasir: ["С центральными депрессантами/алкоголем действие прегабалина усиливается", "Альфа-липоевая кислота может усиливать действие инсулина/пероральных сахароснижающих (гипогликемия)"],
+    qollash: { kattalar: "1 капсула 1–2 раза в сутки (прегабалин 75 мг + метилкобаламин + АЛК), курсом.", bolalar: "Не рекомендуется" },
+    chiqarish: "Капсулы (прегабалин + метилкобаламин + альфа-липоевая кислота)"
+  },
+  en: {
+    gruppa: "Antiepileptic / neuropathic pain — combination",
+    farmTasir: "Anticonvulsant + neurotropic combination for neuropathic pain",
+    farmakodinamika: `A pregabalin + methylcobalamin + alpha-lipoic acid combination. Pregabalin binds the α2δ subunit of calcium channels, reducing release of excitatory transmitters (lessening neuropathic pain); methylcobalamin (B12) is needed for myelin and axonal regeneration; alpha-lipoic acid is a potent antioxidant protecting nerve tissue from oxidative injury. It gives a combined effect in diabetic neuropathy.`,
+    farmakokinetika: { sorish: "Components absorbed from the gut", tarqalish: "Into tissues", metabolizm: "Pregabalin not metabolised", chiqarilish: "Renal" },
+    korsatmalar: ["Pain in diabetic and other peripheral neuropathy"],
+    qarrshi: ["Hypersensitivity to components", "Caution — renal impairment"],
+    nojoya: { "Nervous system": "Dizziness, drowsiness (pregabalin)", "Other": "Peripheral oedema, weight gain; abdominal discomfort (alpha-lipoic acid)" },
+    dozadan: "Pregabalin — central depression; haemodialysis, supportive care.",
+    ozarotasir: ["With central depressants/alcohol pregabalin effects increase", "Alpha-lipoic acid may enhance insulin/oral hypoglycaemics (hypoglycaemia)"],
+    qollash: { kattalar: "1 capsule 1–2 times daily (pregabalin 75 mg + methylcobalamin + ALA), as a course.", bolalar: "Not recommended" },
+    chiqarish: "Capsules (pregabalin + methylcobalamin + alpha-lipoic acid)"
+  }
+},
+
+"N05AX15": {
+  uz: {
+    gruppa: "Antipsikotiklar — boshqa antipsikotiklar (atipik)",
+    farmTasir: "Atipik neyroleptik (qisman dofamin D3/D2 agonisti)",
+    farmakodinamika: `Kariprazin — atipik antipsikotik, dofamin D3 va D2 retseptorlarining qisman agonisti (D3 ga ustun ta'sir) va serotonin 5-HT1A qisman agonisti, 5-HT2B antagonisti. Dofamin tizimini barqarorlashtiradi; ayniqsa shizofreniyaning manfiy belgilari va bipolyar buzilishда samarali. Yarim umri juda uzun.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsilга yuqori", metabolizm: "Jigarда CYP3A4 (faol uzoq ta'sirли metabolitlar)", chiqarilish: "Najas/buyrak; T½ va metabolitlar — bir necha hafta" },
+    korsatmalar: ["Shizofreniya (jumladan manfiy belgilar bilan)", "Bipolyar buzilishда maniya va depressiv epizodlar"],
+    qarrshi: ["Yuqori sezuvchanlik", "Kuchли CYP3A4 induktorlari/ingibitorlari bilan", "Ehtiyotkorlik — keksa demensiyali bemorlar"],
+    nojoya: { "Ekstrapiramid": "Akatiziya, parkinsonizm", "Asab": "Uyqusizlik, tashvish, bosh og'rig'i", "Boshqa": "Ko'ngil aynishi; metabolik ta'sir nisbatan kam" },
+    dozadan: "Sedatsiya, ekstrapiramid belgilar (uzoq, T½ tufayli); simptomatik davo, uzoq kuzatuv.",
+    ozarotasir: ["Kuchли CYP3A4 ingibitorlari (ketokonazol) konsentratsiyani oshiradi — doza kamaytiriladi", "Induktorlar (rifampitsin) darajani pasaytiradi"],
+    qollash: { kattalar: "1,5 mg/sutkaдан boshlab, 1,5–6 mg/sutkagacha (kuniga 1 marta).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Kapsulalar 1,5, 3, 4,5, 6 mg"
+  },
+  ru: {
+    gruppa: "Антипсихотики — прочие антипсихотики (атипичные)",
+    farmTasir: "Атипичный нейролептик (частичный агонист дофамина D3/D2)",
+    farmakodinamika: `Карипразин — атипичный антипсихотик, частичный агонист дофаминовых D3 и D2 рецепторов (с преобладанием D3) и серотониновых 5-HT1A, антагонист 5-HT2B. Стабилизирует дофаминовую систему; особенно эффективен при негативных симптомах шизофрении и биполярном расстройстве. Период полувыведения очень длинный.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "С белками высоко", metabolizm: "В печени CYP3A4 (активные длительно действующие метаболиты)", chiqarilish: "Калом/почками; T½ и метаболиты — несколько недель" },
+    korsatmalar: ["Шизофрения (в т.ч. с негативными симптомами)", "Мания и депрессивные эпизоды при биполярном расстройстве"],
+    qarrshi: ["Гиперчувствительность", "С сильными индукторами/ингибиторами CYP3A4", "Осторожно — пожилые с деменцией"],
+    nojoya: { "Экстрапирамидные": "Акатизия, паркинсонизм", "Нервная система": "Бессонница, тревога, головная боль", "Прочее": "Тошнота; метаболическое действие относительно небольшое" },
+    dozadan: "Седация, экстрапирамидные симптомы (длительные из-за T½); симптоматическая терапия, длительное наблюдение.",
+    ozarotasir: ["Сильные ингибиторы CYP3A4 (кетоконазол) повышают концентрацию — доза снижается", "Индукторы (рифампицин) снижают уровень"],
+    qollash: { kattalar: "С 1,5 мг/сут, до 1,5–6 мг/сут (раз в сутки).", bolalar: "Не рекомендуется" },
+    chiqarish: "Капсулы 1,5, 3, 4,5, 6 мг"
+  },
+  en: {
+    gruppa: "Antipsychotics — other antipsychotics (atypical)",
+    farmTasir: "Atypical neuroleptic (dopamine D3/D2 partial agonist)",
+    farmakodinamika: `Cariprazine is an atypical antipsychotic, a partial agonist at dopamine D3 and D2 receptors (D3-preferring) and serotonin 5-HT1A, and a 5-HT2B antagonist. It stabilises the dopamine system; it is especially effective for negative symptoms of schizophrenia and in bipolar disorder. Its half-life is very long.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "High protein binding", metabolizm: "Hepatic CYP3A4 (active long-acting metabolites)", chiqarilish: "Faecal/renal; T½ and metabolites — several weeks" },
+    korsatmalar: ["Schizophrenia (incl. with negative symptoms)", "Mania and depressive episodes in bipolar disorder"],
+    qarrshi: ["Hypersensitivity", "With strong CYP3A4 inducers/inhibitors", "Caution — elderly with dementia"],
+    nojoya: { "Extrapyramidal": "Akathisia, parkinsonism", "Nervous system": "Insomnia, anxiety, headache", "Other": "Nausea; metabolic effect relatively small" },
+    dozadan: "Sedation, extrapyramidal symptoms (prolonged due to T½); supportive care, extended monitoring.",
+    ozarotasir: ["Strong CYP3A4 inhibitors (ketoconazole) raise levels — reduce dose", "Inducers (rifampicin) lower levels"],
+    qollash: { kattalar: "From 1.5 mg/day, to 1.5–6 mg/day (once daily).", bolalar: "Not recommended" },
+    chiqarish: "Capsules 1.5, 3, 4.5, 6 mg"
+  }
+},
+
+"N04BC04": {
+  uz: {
+    gruppa: "Parkinsonizmga qarshi vositalar — dofamin agonistlari",
+    farmTasir: "Dofamin retseptor agonisti (nonergolin)",
+    farmakodinamika: `Ropinirol — selektiv nonergolin dofamin D2/D3 retseptorlari agonisti. Miyaда dofamin ta'sirini bevosita taqlid qiladi (prekursorга bog'liq emas). Erta Parkinson kasalligida monoterapiya yoki kechki bosqichда levodopaга qo'shimcha; bezovta oyoqlar sindromida ham qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "Oqsilга past (~40%)", metabolizm: "Jigarда CYP1A2", chiqarilish: "Buyrak orqали; T½ ~6 soat" },
+    korsatmalar: ["Parkinson kasalligi (mono- yoki levodopa bilan)", "O'rtacha-og'ir bezovta oyoqlar sindromi"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — og'ir yurak-tomir kasalligi, psixoz"],
+    nojoya: { "Asab": "Uyquchanlik (to'satдан uyqu xurujlari), bosh aylanishi, gallyutsinatsiya", "Psixika": "Impulsiv buzilishlar (qimor, xarid)", "Yurak": "Ortostatik gipotenziya, ko'ngil aynishi" },
+    dozadan: "Gipotenziya, qusish, gallyutsinatsiya; simptomatik davo.",
+    ozarotasir: ["CYP1A2 ingibitorlari (siprofloksatsin, fluvoksamin) konsentratsiyani oshiradi", "Chekish darajani pasaytiradi", "Antipsikotiklar (D2 blokatorlar) ta'sirini pasaytiradi"],
+    qollash: { kattalar: "0,25 mg×3 dan sekin oshirib, 3–9 mg/sutkagacha (uzaytirilgan — 1 marta).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 0,25, 1, 2, 5 mg; uzaytirilgan tabletkalar"
+  },
+  ru: {
+    gruppa: "Противопаркинсонические средства — агонисты дофамина",
+    farmTasir: "Агонист дофаминовых рецепторов (неэрголиновый)",
+    farmakodinamika: `Ропинирол — селективный неэрголиновый агонист дофаминовых D2/D3 рецепторов. Непосредственно имитирует действие дофамина в мозге (не зависит от предшественника). Применяется при ранней болезни Паркинсона как монотерапия или как дополнение к леводопе; также при синдроме беспокойных ног.`,
+    farmakokinetika: { sorish: "Быстро из кишечника", tarqalish: "С белками низко (~40%)", metabolizm: "В печени CYP1A2", chiqarilish: "Почками; T½ ~6 ч" },
+    korsatmalar: ["Болезнь Паркинсона (моно- или с леводопой)", "Умеренно-тяжёлый синдром беспокойных ног"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — тяжёлые болезни сердца, психоз"],
+    nojoya: { "Нервная система": "Сонливость (внезапные приступы сна), головокружение, галлюцинации", "Психика": "Импульсивные расстройства (игра, покупки)", "Сердце": "Ортостатическая гипотензия, тошнота" },
+    dozadan: "Гипотензия, рвота, галлюцинации; симптоматическая терапия.",
+    ozarotasir: ["Ингибиторы CYP1A2 (ципрофлоксацин, флувоксамин) повышают концентрацию", "Курение снижает уровень", "Антипсихотики (блокаторы D2) снижают действие"],
+    qollash: { kattalar: "С 0,25 мг×3 медленно повышая, до 3–9 мг/сут (пролонг. — 1 раз).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 0,25, 1, 2, 5 мг; пролонгированные таблетки"
+  },
+  en: {
+    gruppa: "Antiparkinsonian agents — dopamine agonists",
+    farmTasir: "Dopamine receptor agonist (non-ergoline)",
+    farmakodinamika: `Ropinirole is a selective non-ergoline dopamine D2/D3 receptor agonist. It directly mimics dopamine action in the brain (independent of a precursor). It is used in early Parkinson disease as monotherapy or as add-on to levodopa; also in restless legs syndrome.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Low protein binding (~40%)", metabolizm: "Hepatic CYP1A2", chiqarilish: "Renal; T½ ~6 h" },
+    korsatmalar: ["Parkinson disease (mono- or with levodopa)", "Moderate-severe restless legs syndrome"],
+    qarrshi: ["Hypersensitivity", "Caution — severe heart disease, psychosis"],
+    nojoya: { "Nervous system": "Drowsiness (sudden sleep attacks), dizziness, hallucinations", "Psychiatric": "Impulse-control disorders (gambling, shopping)", "Cardiac": "Orthostatic hypotension, nausea" },
+    dozadan: "Hypotension, vomiting, hallucinations; supportive care.",
+    ozarotasir: ["CYP1A2 inhibitors (ciprofloxacin, fluvoxamine) raise levels", "Smoking lowers levels", "Antipsychotics (D2 blockers) reduce the effect"],
+    qollash: { kattalar: "From 0.25 mg×3 increasing slowly, to 3–9 mg/day (XR — once daily).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 0.25, 1, 2, 5 mg; prolonged-release tablets"
+  }
+},
+
+"N07BA04": {
+  uz: {
+    gruppa: "Bog'liqlikни davolovchi vositalar — nikotin bog'liqligi",
+    farmTasir: "Chekishni tashlashga yordam (nikotin retseptor qisman agonisti)",
+    farmakodinamika: `Sitizin — o'simlik alkaloidi, nikotin asetilxolin retseptorlarining qisman agonisti. Nikotinга o'xshab retseptorlarni qisman stimullaб chekish istagi va abstinensiya belgilarini kamaytiradi; ayni paytда retseptorni egallab, chekilganда nikotinning ta'sirini (zavqни) kamaytiradi. Chekishni tashlashда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Minimal", chiqarilish: "Asosан buyrak orqали" },
+    korsatmalar: ["Tamaki (nikotin) bog'liqligi — chekishни tashlashga yordam"],
+    qarrshi: ["O'tkir miokard infarkti, beqaror stenokardiya, yaqinда o'tkazilgan insult", "Og'ir aritmiya", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, og'iz qurishi, ishtaha o'zgarishi", "Asab": "Bosh og'rig'i, uyqu buzilishi, asabiylik", "Yurak": "Taxikardiya, qon bosimi oshishi (kamdan-kam)" },
+    dozadan: "Ko'ngil aynishi, qusish, taxikardiya, tirishish; simptomatik davo.",
+    ozarotasir: ["Chekishni tashlash boshqa dorilar (teofillin va boshq.) metabolizmiga ta'sir qilishi mumkin"],
+    qollash: { kattalar: "Sxema bo'yicha kamayuvchi doza (25 kunlik kurs): boshda 1 tab har 2 soat, asta kamaytiriladi.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 1,5 mg"
+  },
+  ru: {
+    gruppa: "Средства для лечения зависимостей — никотиновая зависимость",
+    farmTasir: "Помощь в отказе от курения (частичный агонист никотиновых рецепторов)",
+    farmakodinamika: `Цитизин — растительный алкалоид, частичный агонист никотиновых ацетилхолиновых рецепторов. Подобно никотину частично стимулирует рецепторы, уменьшая тягу к курению и симптомы абстиненции; одновременно, занимая рецептор, снижает эффект (удовольствие) от выкуренной сигареты. Применяется для отказа от курения.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "Минимальный", chiqarilish: "Преимущественно почками" },
+    korsatmalar: ["Табачная (никотиновая) зависимость — помощь в отказе от курения"],
+    qarrshi: ["Острый инфаркт миокарда, нестабильная стенокардия, недавний инсульт", "Тяжёлая аритмия", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Тошнота, сухость во рту, изменение аппетита", "Нервная система": "Головная боль, нарушение сна, раздражительность", "Сердце": "Тахикардия, повышение АД (редко)" },
+    dozadan: "Тошнота, рвота, тахикардия, судороги; симптоматическая терапия.",
+    ozarotasir: ["Отказ от курения может влиять на метаболизм других препаратов (теофиллин и др.)"],
+    qollash: { kattalar: "По схеме с убывающей дозой (курс 25 дней): вначале 1 таб каждые 2 ч, постепенно снижая.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 1,5 мг"
+  },
+  en: {
+    gruppa: "Drugs used in addictive disorders — nicotine dependence",
+    farmTasir: "Smoking cessation aid (nicotinic receptor partial agonist)",
+    farmakodinamika: `Cytisine is a plant alkaloid, a partial agonist of nicotinic acetylcholine receptors. Like nicotine it partially stimulates the receptors, reducing craving and withdrawal symptoms; by occupying the receptor it also reduces the effect (pleasure) of a smoked cigarette. It is used for smoking cessation.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Minimal", chiqarilish: "Mainly renal" },
+    korsatmalar: ["Tobacco (nicotine) dependence — aid to smoking cessation"],
+    qarrshi: ["Acute myocardial infarction, unstable angina, recent stroke", "Severe arrhythmia", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "GI": "Nausea, dry mouth, appetite change", "Nervous system": "Headache, sleep disturbance, irritability", "Cardiac": "Tachycardia, raised blood pressure (rare)" },
+    dozadan: "Nausea, vomiting, tachycardia, seizures; supportive care.",
+    ozarotasir: ["Stopping smoking may affect metabolism of other drugs (theophylline etc.)"],
+    qollash: { kattalar: "By a tapering-dose schedule (25-day course): initially 1 tab every 2 h, gradually reduced.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 1.5 mg"
+  }
+},
+
+"N07XA": {
+  uz: {
+    gruppa: "Boshqa asab tizimi vositalari — boshqa preparatlar",
+    farmTasir: "Neyroprotektor (ganglioside)",
+    farmakodinamika: `Monosialotetrageksozilganglioside natriy (GM1 ganglioside) — nerv hujayrasi membranasining tabiiy tarkibiy qismi. Neyron membranasini barqarorlashtiradi, aksonal o'sish va nervlarning qayta tiklanishini (neyroregeneratsiya) qo'llab-quvvatlaydi, eksaytotoksik va ishemik shikastlanишни kamaytiradi. Markaziy va periferik nerv shikastlanишларда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Parenteral (m/i, v/i)", tarqalish: "Nerv to'qimasiga", metabolizm: "Tabiiy almashinuv", chiqarilish: "Tabiiy yo'llar bilan" },
+    korsatmalar: ["Bosh va orqa miya jarohati, insult oqibatları", "Periferik neyropatiyalar, nerv shikastlanиши tiklanishi"],
+    qarrshi: ["Yuqori sezuvchanlik", "Genetik gangliozidoz", "Guyen-Barre sindromi tarixi (ehtiyotkorlik)"],
+    nojoya: { "Allergik": "Toshma, qichishish (kamdan-kam anafilaksiya)", "Boshqa": "Inyeksiya joyidagi reaksiya" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam o'rganilgan"],
+    qollash: { kattalar: "20–40 mg/sutka m/i yoki v/i; og'ir holatда yuqori doza, kurs bilan.", bolalar: "Shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Inyeksiya eritmasi 20, 40, 100 mg (ampula)"
+  },
+  ru: {
+    gruppa: "Прочие средства для нервной системы — прочие препараты",
+    farmTasir: "Нейропротектор (ганглиозид)",
+    farmakodinamika: `Моносиалотетрагексозилганглиозид натрия (ганглиозид GM1) — естественный компонент мембраны нервной клетки. Стабилизирует мембрану нейрона, поддерживает рост аксонов и восстановление нервов (нейрорегенерацию), уменьшает эксайтотоксическое и ишемическое повреждение. Применяется при повреждениях центральной и периферической нервной системы.`,
+    farmakokinetika: { sorish: "Парентерально (в/м, в/в)", tarqalish: "В нервную ткань", metabolizm: "Естественный обмен", chiqarilish: "Естественными путями" },
+    korsatmalar: ["Травмы головного и спинного мозга, последствия инсульта", "Периферические невропатии, восстановление при повреждении нервов"],
+    qarrshi: ["Гиперчувствительность", "Генетический ганглиозидоз", "Синдром Гийена–Барре в анамнезе (осторожно)"],
+    nojoya: { "Аллергические": "Сыпь, зуд (редко анафилаксия)", "Прочее": "Реакция в месте инъекции" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Клинически значимые взаимодействия мало изучены"],
+    qollash: { kattalar: "20–40 мг/сут в/м или в/в; в тяжёлых случаях высокая доза, курсом.", bolalar: "По назначению врача" },
+    chiqarish: "Раствор для инъекций 20, 40, 100 мг (ампулы)"
+  },
+  en: {
+    gruppa: "Other nervous system drugs — other agents",
+    farmTasir: "Neuroprotectant (ganglioside)",
+    farmakodinamika: `Monosialotetrahexosylganglioside sodium (GM1 ganglioside) is a natural component of the nerve cell membrane. It stabilises the neuronal membrane, supports axonal growth and nerve recovery (neuroregeneration) and reduces excitotoxic and ischaemic injury. It is used in central and peripheral nervous system injuries.`,
+    farmakokinetika: { sorish: "Parenteral (IM, IV)", tarqalish: "Into nerve tissue", metabolizm: "Natural metabolism", chiqarilish: "By natural pathways" },
+    korsatmalar: ["Brain and spinal cord injury, stroke sequelae", "Peripheral neuropathies, recovery from nerve injury"],
+    qarrshi: ["Hypersensitivity", "Genetic gangliosidosis", "History of Guillain-Barré syndrome (caution)"],
+    nojoya: { "Allergic": "Rash, itching (rarely anaphylaxis)", "Other": "Injection-site reaction" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["Clinically significant interactions are little studied"],
+    qollash: { kattalar: "20–40 mg/day IM or IV; higher dose in severe cases, as a course.", bolalar: "As prescribed" },
+    chiqarish: "Solution for injection 20, 40, 100 mg (ampoules)"
+  }
+},
+
+"N07AX": {
+  uz: {
+    gruppa: "Boshqa asab tizimi vositalari — parasimpatomimetiklar / antioksidant",
+    farmTasir: "Antioksidant-neyroprotektor (membrana himoyachisi)",
+    farmakodinamika: `Etilmetilgidroksipiridin suksinat (meksidol) — antioksidant va membranani himoya qiluvchi vosita. Lipid peroksidlanishini bostiradi, superoksiddismutazani faollashtiradi, hujayra membranasi qovushqoqligini va energiya (ATF) sintezini yaxshilaydi; gipoksiyага chidamlilikни oshiradi. Tomir va stress kelib chiqishли asab buzilishларда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich va parenteral", tarqalish: "To'qima va miyaга", metabolizm: "Jigarда (glyukuronkonyugatlar)", chiqarilish: "Asosан buyrak orqали; T½ qisqa" },
+    korsatmalar: ["O'tkir miya qon aylanishi buzilishi va tiklanish davri, diskirkulyator entsefalopatiya", "Vegetativ-tomir distoniyasi, tashvish-nevrotik holatlar", "Gipoksik holatlar"],
+    qarrshi: ["O'tkir jigar/buyrak yetishmovchiligi", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, og'iz qurishi", "Asab": "Uyquchanlik (kamdan-kam)", "Allergik": "Toshma" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Benzodiazepin, antikonvulsant va antiparkinson vositalar ta'sirini kuchaytirishi mumkin"],
+    qollash: { kattalar: "Ich: 125–250 mg×3; parenteral: 100–500 mg/sutka v/i/m/i, kurs bilan.", bolalar: "Shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Tabletkalar 125 mg; inyeksiya eritmasi 50 mg/ml"
+  },
+  ru: {
+    gruppa: "Прочие средства для нервной системы — парасимпатомиметики / антиоксидант",
+    farmTasir: "Антиоксидант-нейропротектор (мембранопротектор)",
+    farmakodinamika: `Этилметилгидроксипиридина сукцинат (мексидол) — антиоксидантное и мембранопротекторное средство. Подавляет перекисное окисление липидов, активирует супероксиддисмутазу, улучшает текучесть мембран и синтез энергии (АТФ); повышает устойчивость к гипоксии. Применяется при сосудистых и стрессовых нарушениях нервной системы.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально", tarqalish: "В ткани и мозг", metabolizm: "В печени (глюкуронконъюгаты)", chiqarilish: "Преимущественно почками; T½ короткий" },
+    korsatmalar: ["Острое нарушение мозгового кровообращения и период восстановления, дисциркуляторная энцефалопатия", "Вегетососудистая дистония, тревожно-невротические состояния", "Гипоксические состояния"],
+    qarrshi: ["Острая печёночная/почечная недостаточность", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Тошнота, сухость во рту", "Нервная система": "Сонливость (редко)", "Аллергические": "Сыпь" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Может усиливать действие бензодиазепинов, антиконвульсантов и противопаркинсонических средств"],
+    qollash: { kattalar: "Внутрь: 125–250 мг×3; парентерально: 100–500 мг/сут в/в/в/м, курсом.", bolalar: "По назначению врача" },
+    chiqarish: "Таблетки 125 мг; раствор для инъекций 50 мг/мл"
+  },
+  en: {
+    gruppa: "Other nervous system drugs — parasympathomimetics / antioxidant",
+    farmTasir: "Antioxidant neuroprotectant (membrane protector)",
+    farmakodinamika: `Ethylmethylhydroxypyridine succinate (mexidol) is an antioxidant and membrane-protective agent. It suppresses lipid peroxidation, activates superoxide dismutase, improves membrane fluidity and energy (ATP) synthesis, and increases tolerance to hypoxia. It is used in vascular and stress-related nervous disorders.`,
+    farmakokinetika: { sorish: "Oral and parenteral", tarqalish: "Into tissues and the brain", metabolizm: "Hepatic (glucuronconjugates)", chiqarilish: "Mainly renal; short T½" },
+    korsatmalar: ["Acute cerebrovascular event and recovery, dyscirculatory encephalopathy", "Vegetative-vascular dystonia, anxiety-neurotic states", "Hypoxic states"],
+    qarrshi: ["Acute hepatic/renal failure", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "GI": "Nausea, dry mouth", "Nervous system": "Drowsiness (rare)", "Allergic": "Rash" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["May enhance benzodiazepines, anticonvulsants and antiparkinsonian agents"],
+    qollash: { kattalar: "Oral: 125–250 mg×3; parenteral: 100–500 mg/day IV/IM, as a course.", bolalar: "As prescribed" },
+    chiqarish: "Tablets 125 mg; solution for injection 50 mg/mL"
+  }
+},
+
+"N07X X02": {
+  uz: {
+    gruppa: "Boshqa asab tizimi vositalari — boshqa preparatlar",
+    farmTasir: "Neyroprotektor (ALS davosi)",
+    farmakodinamika: `Riluzol — glutamatergik o'tkazuvchanlikни kamaytiruvchi neyroprotektor. Glutamat (qo'zg'aluvchi mediator) ajralishini bostiradi va voltajга bog'liq natriy kanallarini barqarorlashtiradi; bu motor neyronlarning glutamatли eksaytotoksik shikastlanишини kamaytiradi. Amiotrofik lateral skleroz (ALS) progressini sekinlashtirishда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (ovqat so'rilishni kamaytiradi)", tarqalish: "Oqsilга ~96%", metabolizm: "Jigarда CYP1A2", chiqarilish: "Asosан buyrak orqали; T½ ~12 soat" },
+    korsatmalar: ["Amiotrofik lateral skleroz (ALS) — yashash muddatini uzaytirish/IVL ga o'tishni kechiktirish"],
+    qarrshi: ["Og'ir jigar kasalligi (transaminazalar yuqori)", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Jigar": "Transaminazalar oshishi (nazorat zarur)", "Asab": "Asteniya, bosh aylanishi, uyquchanlik", "Oshqozon-ichak": "Ko'ngil aynishi", "Qon": "Kamdan-kam — neytropeniya" },
+    dozadan: "Markaziy belgilar, jigar shikasti; simptomatik davo, jigar nazorati.",
+    ozarotasir: ["CYP1A2 ingibitorlari (siprofloksatsin, fluvoksamin) konsentratsiyani oshiradi", "Chekish/omeprazol darajani pasaytiradi", "Boshqa gepatotoksik dorilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "50 mg har 12 soat (100 mg/sutka), och qoringa; jigar fermentlari nazoratида.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 50 mg"
+  },
+  ru: {
+    gruppa: "Прочие средства для нервной системы — прочие препараты",
+    farmTasir: "Нейропротектор (лечение БАС)",
+    farmakodinamika: `Рилузол — нейропротектор, снижающий глутаматергическую передачу. Подавляет высвобождение глутамата (возбуждающего медиатора) и стабилизирует потенциалзависимые натриевые каналы; это уменьшает глутаматное эксайтотоксическое повреждение мотонейронов. Применяется для замедления прогрессирования бокового амиотрофического склероза (БАС).`,
+    farmakokinetika: { sorish: "Из кишечника (пища снижает всасывание)", tarqalish: "С белками ~96%", metabolizm: "В печени CYP1A2", chiqarilish: "Преимущественно почками; T½ ~12 ч" },
+    korsatmalar: ["Боковой амиотрофический склероз (БАС) — продление жизни/отсрочка перехода на ИВЛ"],
+    qarrshi: ["Тяжёлое заболевание печени (повышены трансаминазы)", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "Печень": "Повышение трансаминаз (нужен контроль)", "Нервная система": "Астения, головокружение, сонливость", "ЖКТ": "Тошнота", "Кровь": "Редко — нейтропения" },
+    dozadan: "Центральные симптомы, поражение печени; симптоматическая терапия, контроль печени.",
+    ozarotasir: ["Ингибиторы CYP1A2 (ципрофлоксацин, флувоксамин) повышают концентрацию", "Курение/омепразол снижают уровень", "С другими гепатотоксичными препаратами осторожно"],
+    qollash: { kattalar: "50 мг каждые 12 ч (100 мг/сут), натощак; под контролем ферментов печени.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 50 мг"
+  },
+  en: {
+    gruppa: "Other nervous system drugs — other agents",
+    farmTasir: "Neuroprotectant (ALS treatment)",
+    farmakodinamika: `Riluzole is a neuroprotectant that reduces glutamatergic transmission. It suppresses release of glutamate (the excitatory transmitter) and stabilises voltage-gated sodium channels; this lessens glutamate excitotoxic injury of motor neurons. It is used to slow progression of amyotrophic lateral sclerosis (ALS).`,
+    farmakokinetika: { sorish: "From the gut (food reduces absorption)", tarqalish: "~96% protein bound", metabolizm: "Hepatic CYP1A2", chiqarilish: "Mainly renal; T½ ~12 h" },
+    korsatmalar: ["Amyotrophic lateral sclerosis (ALS) — prolonging survival/delaying ventilation"],
+    qarrshi: ["Severe liver disease (raised transaminases)", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "Liver": "Raised transaminases (monitoring needed)", "Nervous system": "Asthenia, dizziness, drowsiness", "GI": "Nausea", "Blood": "Rarely neutropenia" },
+    dozadan: "Central symptoms, liver injury; supportive care, liver monitoring.",
+    ozarotasir: ["CYP1A2 inhibitors (ciprofloxacin, fluvoxamine) raise levels", "Smoking/omeprazole lower levels", "Caution with other hepatotoxic drugs"],
+    qollash: { kattalar: "50 mg every 12 h (100 mg/day), on an empty stomach; with liver enzyme monitoring.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 50 mg"
+  }
 }
 
 };
