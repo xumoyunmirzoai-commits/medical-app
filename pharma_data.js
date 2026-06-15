@@ -32396,6 +32396,342 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Hypotension: 50–100 µg IV bolus or infusion, titrated; topical products per label.", bolalar: "Only under supervision" },
     chiqarish: "Solution for injection; nasal drops/spray; eye drops"
   }
+},
+
+"C01EB": {
+  uz: {
+    gruppa: "Yurak vositalari — boshqa yurak preparatlari (metabolik)",
+    farmTasir: "Metabolik yurak vositasi (purin hosilasi)",
+    farmakodinamika: `Inozin (riboksin) — purin nukleozidi, ATF prekursori. Hujayralarда energiya (ATF) almashinuvida ishtirok etadi, miokardда glyukoza metabolizmi va kislorodсиз sharoitда to'qima chidamliligini yaxshilaydi, anabolik jarayonlarni qo'llab-quvvatlaydi. Yordamchi (metabolik) vosita sifatида qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich va parenteral", tarqalish: "To'qimalarга", metabolizm: "Tabiiy purin almashinuvи (siydik kislotagacha)", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Ishemik yurak kasalligi, miokard distrofiyasi (kompleks davoда)", "Aritmiyalar (yordamchi), jigar kasalliklari (gepatoprotektor sifatида)"],
+    qarrshi: ["Podagra, giperurikemiya", "Yuqori sezuvchanlik", "Ehtiyotkorlik — buyrak yetishmovchiligi"],
+    nojoya: { "Metabolik": "Siydik kislotaning oshishi (podagra avj olishi)", "Allergik": "Toshma, qichishish", "Boshqa": "Yuzning qizishi (tez v/i)" },
+    dozadan: "Toksiklik ehtimoli past; siydik kislotani nazorat qilish.",
+    ozarotasir: ["Siydik kislotani oshiruvchi vositalar bilan podagra xavfi ortadi"],
+    qollash: { kattalar: "Ich: 600–2400 mg/sutka (bo'lib); v/i: 200–400 mg, kurs bilan.", bolalar: "Vaznга ko'ra, shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Tabletkalar 200 mg; inyeksiya eritmasi 2%"
+  },
+  ru: {
+    gruppa: "Сердечные средства — прочие сердечные препараты (метаболические)",
+    farmTasir: "Метаболическое сердечное средство (производное пурина)",
+    farmakodinamika: `Инозин (рибоксин) — пуриновый нуклеозид, предшественник АТФ. Участвует в обмене энергии (АТФ) в клетках, улучшает метаболизм глюкозы в миокарде и устойчивость тканей к гипоксии, поддерживает анаболические процессы. Применяется как вспомогательное (метаболическое) средство.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально", tarqalish: "В ткани", metabolizm: "Естественный пуриновый обмен (до мочевой кислоты)", chiqarilish: "Почками" },
+    korsatmalar: ["ИБС, дистрофия миокарда (в комплексной терапии)", "Аритмии (вспомогательно), болезни печени (как гепатопротектор)"],
+    qarrshi: ["Подагра, гиперурикемия", "Гиперчувствительность", "Осторожно — почечная недостаточность"],
+    nojoya: { "Метаболические": "Повышение мочевой кислоты (обострение подагры)", "Аллергические": "Сыпь, зуд", "Прочее": "Покраснение лица (при быстром в/в)" },
+    dozadan: "Вероятность токсичности низкая; контроль мочевой кислоты.",
+    ozarotasir: ["С препаратами, повышающими мочевую кислоту, возрастает риск подагры"],
+    qollash: { kattalar: "Внутрь: 600–2400 мг/сут (дробно); в/в: 200–400 мг, курсом.", bolalar: "По массе, по назначению врача" },
+    chiqarish: "Таблетки 200 мг; раствор для инъекций 2%"
+  },
+  en: {
+    gruppa: "Cardiac drugs — other cardiac preparations (metabolic)",
+    farmTasir: "Metabolic cardiac agent (purine derivative)",
+    farmakodinamika: `Inosine (riboxin) is a purine nucleoside, a precursor of ATP. It participates in cellular energy (ATP) metabolism, improves myocardial glucose metabolism and tissue tolerance to hypoxia, and supports anabolic processes. It is used as an adjunctive (metabolic) agent.`,
+    farmakokinetika: { sorish: "Oral and parenteral", tarqalish: "Into tissues", metabolizm: "Natural purine metabolism (to uric acid)", chiqarilish: "Renal" },
+    korsatmalar: ["Ischaemic heart disease, myocardial dystrophy (in combination therapy)", "Arrhythmias (adjunct), liver diseases (as a hepatoprotectant)"],
+    qarrshi: ["Gout, hyperuricaemia", "Hypersensitivity", "Caution — renal impairment"],
+    nojoya: { "Metabolic": "Raised uric acid (gout flare)", "Allergic": "Rash, itching", "Other": "Facial flushing (with rapid IV)" },
+    dozadan: "Toxicity unlikely; monitor uric acid.",
+    ozarotasir: ["With uric acid-raising drugs gout risk increases"],
+    qollash: { kattalar: "Oral: 600–2400 mg/day (divided); IV: 200–400 mg, as a course.", bolalar: "By weight, as prescribed" },
+    chiqarish: "Tablets 200 mg; solution for injection 2%"
+  }
+},
+
+"C01EB22": {
+  uz: {
+    gruppa: "Yurak vositalari — boshqa yurak preparatlari (metabolik)",
+    farmTasir: "Metabolik/antiishemik vosita",
+    farmakodinamika: `Meldoniy (mildronat) — gamma-butirobetain analogi. Karnitin sintezini cheklab uzun zanjirli yog' kislotalarining mitoxondriyга tashilishini kamaytiradi; bu yurak hujayralarini kislorod tanqisligida (ishemiyada) yog' o'rniga glyukozani samaraliroq yoqishga o'tkazadi — energiya almashinuvini optimallaштiradi va to'qima chidamliligini oshiradi.`,
+    farmakokinetika: { sorish: "Ich va parenteral (biokirish ~78%)", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали; T½ qisqa" },
+    korsatmalar: ["Ishemik yurak kasalligi, stenokardiya (kompleks davoда)", "Surункali yurak yetishmovchiligi, miya qon aylanishi buzilishi", "Jismoniy/aqliy zo'riqish, asteniya"],
+    qarrshi: ["Bosh ichi bosimining oshishi (o'sma, venoz oqim buzilishi)", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Qo'zg'aluvchanlik (kechqurun qabulда uyqusizlik)", "Yurak": "Taxikardiya, qon bosimi o'zgarishi", "Oshqozon-ichak": "Dispepsiya; allergik reaksiyalar" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Nitratlar, kaltsiy antagonistlari, antigipertenziv vositalar ta'sirini kuchaytirishi mumkin (taxikardiya/gipotenziya)"],
+    qollash: { kattalar: "500–1000 mg/sutka (ertalab/kunduzi), kurs 4–6 hafta; v/i o'tkir holatда.", bolalar: "18 yoshgacha tavsiya etilmaydi" },
+    chiqarish: "Kapsulalar 250, 500 mg; inyeksiya eritmasi 100 mg/ml"
+  },
+  ru: {
+    gruppa: "Сердечные средства — прочие сердечные препараты (метаболические)",
+    farmTasir: "Метаболическое/антиишемическое средство",
+    farmakodinamika: `Мельдоний (милдронат) — аналог гамма-бутиробетаина. Ограничивая синтез карнитина, снижает транспорт длинноцепочечных жирных кислот в митохондрии; это переводит клетки сердца при дефиците кислорода (ишемии) на более эффективное сжигание глюкозы вместо жиров — оптимизирует энергообмен и повышает устойчивость тканей.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально (биодоступность ~78%)", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками; T½ короткий" },
+    korsatmalar: ["ИБС, стенокардия (в комплексной терапии)", "Хроническая сердечная недостаточность, нарушения мозгового кровообращения", "Физические/умственные перегрузки, астения"],
+    qarrshi: ["Повышение внутричерепного давления (опухоль, нарушение венозного оттока)", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Возбудимость (при приёме вечером — бессонница)", "Сердце": "Тахикардия, изменение АД", "ЖКТ": "Диспепсия; аллергические реакции" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Может усиливать действие нитратов, антагонистов кальция, гипотензивных (тахикардия/гипотензия)"],
+    qollash: { kattalar: "500–1000 мг/сут (утром/днём), курс 4–6 недель; в/в при острых состояниях.", bolalar: "До 18 лет не рекомендуется" },
+    chiqarish: "Капсулы 250, 500 мг; раствор для инъекций 100 мг/мл"
+  },
+  en: {
+    gruppa: "Cardiac drugs — other cardiac preparations (metabolic)",
+    farmTasir: "Metabolic/anti-ischaemic agent",
+    farmakodinamika: `Meldonium (mildronate) is an analogue of gamma-butyrobetaine. By limiting carnitine synthesis it reduces transport of long-chain fatty acids into mitochondria; this shifts heart cells during oxygen deficiency (ischaemia) toward more efficient glucose burning instead of fat — optimising energy metabolism and increasing tissue tolerance.`,
+    farmakokinetika: { sorish: "Oral and parenteral (bioavailability ~78%)", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal; short T½" },
+    korsatmalar: ["Ischaemic heart disease, angina (in combination therapy)", "Chronic heart failure, cerebrovascular disorders", "Physical/mental overload, asthenia"],
+    qarrshi: ["Raised intracranial pressure (tumour, impaired venous outflow)", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Excitability (insomnia if taken in the evening)", "Cardiac": "Tachycardia, blood pressure changes", "GI": "Dyspepsia; allergic reactions" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["May enhance nitrates, calcium antagonists and antihypertensives (tachycardia/hypotension)"],
+    qollash: { kattalar: "500–1000 mg/day (morning/midday), 4–6 week course; IV in acute states.", bolalar: "Not recommended under 18 years" },
+    chiqarish: "Capsules 250, 500 mg; solution for injection 100 mg/mL"
+  }
+},
+
+"C01EB15": {
+  uz: {
+    gruppa: "Yurak vositalari — boshqa yurak preparatlari (antiishemik metabolik)",
+    farmTasir: "Antianginal metabolik vosita",
+    farmakodinamika: `Trimetazidin — metabolik antiishemik vosita. Yog' kislotalari oksidlanishini bloklaб (3-ketoatsil-KoA-tiolazani inhibilash) hujayrани kam kislorod talab qiladigan glyukoza oksidlanishiga o'tkazadi; bu ATF sintezini saqlaydi va ishemiyаda hujayra ichi atsidozini kamaytiradi. Gemodinamikaга (qon bosimi, urish) ta'sir qilmaydi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Kam", chiqarilish: "Asosан buyrak orqали" },
+    korsatmalar: ["Barqaror stenokardiya (qo'shimcha terapiya, boshqa antianginallар yetarli bo'lмаганda)"],
+    qarrshi: ["Parkinson kasalligi, harakat buzilishlari (tremor, bezovta oyoqlar)", "Og'ir buyrak yetishmovchiligi", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Parkinsonizm belgilari (tremor, rigidlik), bezovta oyoqlar sindromi (qaytar)", "Oshqozon-ichak": "Dispepsiya, ko'ngil aynishi", "Boshqa": "Bosh aylanishi, astenia" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "35 mg×2 (uzaytirilgan) yoki 20 mg×3, ovqat bilan.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 20 mg; uzaytirilgan tabletkalar 35 mg"
+  },
+  ru: {
+    gruppa: "Сердечные средства — прочие сердечные препараты (антиишемические метаболические)",
+    farmTasir: "Антиангинальное метаболическое средство",
+    farmakodinamika: `Триметазидин — метаболическое антиишемическое средство. Блокируя окисление жирных кислот (ингибирование 3-кетоацил-КоА-тиолазы), переключает клетку на менее кислородозатратное окисление глюкозы; это сохраняет синтез АТФ и уменьшает внутриклеточный ацидоз при ишемии. Не влияет на гемодинамику (АД, ЧСС).`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "Мало", chiqarilish: "Преимущественно почками" },
+    korsatmalar: ["Стабильная стенокардия (дополнительная терапия при недостаточности других антиангинальных)"],
+    qarrshi: ["Болезнь Паркинсона, двигательные расстройства (тремор, беспокойные ноги)", "Тяжёлая почечная недостаточность", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Симптомы паркинсонизма (тремор, ригидность), синдром беспокойных ног (обратимы)", "ЖКТ": "Диспепсия, тошнота", "Прочее": "Головокружение, астения" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "35 мг×2 (пролонг.) или 20 мг×3, с едой.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 20 мг; таблетки пролонгированные 35 мг"
+  },
+  en: {
+    gruppa: "Cardiac drugs — other cardiac preparations (anti-ischaemic metabolic)",
+    farmTasir: "Antianginal metabolic agent",
+    farmakodinamika: `Trimetazidine is a metabolic anti-ischaemic agent. By blocking fatty acid oxidation (inhibiting 3-ketoacyl-CoA thiolase) it shifts the cell to less oxygen-demanding glucose oxidation; this preserves ATP synthesis and reduces intracellular acidosis during ischaemia. It does not affect haemodynamics (blood pressure, heart rate).`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Little", chiqarilish: "Mainly renal" },
+    korsatmalar: ["Stable angina (add-on therapy when other antianginals are insufficient)"],
+    qarrshi: ["Parkinson disease, movement disorders (tremor, restless legs)", "Severe renal impairment", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Parkinsonism symptoms (tremor, rigidity), restless legs syndrome (reversible)", "GI": "Dyspepsia, nausea", "Other": "Dizziness, asthenia" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "35 mg×2 (prolonged) or 20 mg×3, with food.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 20 mg; prolonged-release tablets 35 mg"
+  }
+},
+
+"C01EB17": {
+  uz: {
+    gruppa: "Yurak vositalari — boshqa yurak preparatlari (If kanal ingibitori)",
+    farmTasir: "Yurak urishini sekinlashtiruvchi (If kanal ingibitori)",
+    farmakodinamika: `Ivabradin — sinus tugunining "pacemaker" If oqimini tanlab inhibilaydi. Bu sinus tuguni avtomatizmini kamaytirib yurak urishini sekinlashtiradi, ammo qisqarish kuchi, o'tkazuvchanlik va qon bosimiга ta'sir qilmaydi. Beta-blokerlar yetarli yoki chidamsiz bo'lganда yurak urishini nazorat qiladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsilга ~70%", metabolizm: "Jigarда CYP3A4 (faol metabolit)", chiqarilish: "Buyrak/najas; T½ ~11 soat" },
+    korsatmalar: ["Surункali barqaror stenokardiya (sinus ritmi, urish ≥70)", "Surункali yurak yetishmovchiligi (beta-blokerга qo'shimcha yoki o'rniga)"],
+    qarrshi: ["Og'ir bradikardiya (<70), SA-blokada, sinus tuguni zaifligi", "O'tkir miokard infarkti, og'ir gipotenziya", "Kuchли CYP3A4 ingibitorlari bilan", "Hilpillovchi aritmiya"],
+    nojoya: { "Ko'z": "Yorug'lik effektlari — fosfenlar (xos, qaytar)", "Yurak": "Bradikardiya, sinus pauzasi, hilpillovchi aritmiya", "Boshqa": "Bosh og'rig'i, bosh aylanishi" },
+    dozadan: "Og'ir bradikardiya; atropin, beta-agonist, kardiostimulyatsiya, simptomatik davo.",
+    ozarotasir: ["Kuchли CYP3A4 ingibitorlari (azollar, makrolidlar, greypfrut) konsentratsiyani oshiradi (man etiladi)", "Boshqa urishни sekinlashtiruvchi/QT uzaytiruvchi dorilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "5 mg×2 dan boshlab, urishга qarab 7,5 mg×2 gacha; keksaларда 2,5 mg×2.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 5, 7,5 mg"
+  },
+  ru: {
+    gruppa: "Сердечные средства — прочие сердечные препараты (ингибитор If-каналов)",
+    farmTasir: "Урежающее ЧСС (ингибитор If-каналов)",
+    farmakodinamika: `Ивабрадин избирательно ингибирует «пейсмекерный» ток If синусового узла. Это снижает автоматизм синусового узла и урежает ЧСС, но не влияет на силу сокращения, проводимость и АД. Контролирует ЧСС, когда бета-блокаторы недостаточны или непереносимы.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "С белками ~70%", metabolizm: "В печени CYP3A4 (активный метаболит)", chiqarilish: "Почками/калом; T½ ~11 ч" },
+    korsatmalar: ["Хроническая стабильная стенокардия (синусовый ритм, ЧСС ≥70)", "Хроническая сердечная недостаточность (в дополнение к бета-блокатору или вместо него)"],
+    qarrshi: ["Тяжёлая брадикардия (<70), СА-блокада, слабость синусового узла", "Острый инфаркт миокарда, тяжёлая гипотензия", "С сильными ингибиторами CYP3A4", "Фибрилляция предсердий"],
+    nojoya: { "Глаза": "Световые эффекты — фосфены (характерны, обратимы)", "Сердце": "Брадикардия, синусовая пауза, фибрилляция предсердий", "Прочее": "Головная боль, головокружение" },
+    dozadan: "Тяжёлая брадикардия; атропин, бета-агонист, кардиостимуляция, симптоматическая терапия.",
+    ozarotasir: ["Сильные ингибиторы CYP3A4 (азолы, макролиды, грейпфрут) повышают концентрацию (противопоказано)", "Осторожно с другими урежающими ЧСС/QT-удлиняющими препаратами"],
+    qollash: { kattalar: "С 5 мг×2, по ЧСС до 7,5 мг×2; у пожилых 2,5 мг×2.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 5, 7,5 мг"
+  },
+  en: {
+    gruppa: "Cardiac drugs — other cardiac preparations (If channel inhibitor)",
+    farmTasir: "Heart-rate-lowering (If channel inhibitor)",
+    farmakodinamika: `Ivabradine selectively inhibits the 'pacemaker' If current of the sinus node. This reduces sinus node automaticity and slows heart rate, but does not affect contractility, conduction or blood pressure. It controls heart rate when beta-blockers are insufficient or not tolerated.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "~70% protein bound", metabolizm: "Hepatic CYP3A4 (active metabolite)", chiqarilish: "Renal/faecal; T½ ~11 h" },
+    korsatmalar: ["Chronic stable angina (sinus rhythm, rate ≥70)", "Chronic heart failure (added to or instead of a beta-blocker)"],
+    qarrshi: ["Severe bradycardia (<70), SA block, sick sinus syndrome", "Acute myocardial infarction, severe hypotension", "With strong CYP3A4 inhibitors", "Atrial fibrillation"],
+    nojoya: { "Eyes": "Luminous phenomena — phosphenes (characteristic, reversible)", "Cardiac": "Bradycardia, sinus pause, atrial fibrillation", "Other": "Headache, dizziness" },
+    dozadan: "Severe bradycardia; atropine, beta-agonist, pacing, supportive care.",
+    ozarotasir: ["Strong CYP3A4 inhibitors (azoles, macrolides, grapefruit) raise levels (contraindicated)", "Caution with other rate-lowering/QT-prolonging drugs"],
+    qollash: { kattalar: "From 5 mg×2, by heart rate to 7.5 mg×2; 2.5 mg×2 in the elderly.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 5, 7.5 mg"
+  }
+},
+
+"C01EB18": {
+  uz: {
+    gruppa: "Yurak vositalari — boshqa yurak preparatlari (antiishemik)",
+    farmTasir: "Antianginal (kech natriy oqimi ingibitori)",
+    farmakodinamika: `Ranolazin — antianginal vosita. Miokarddagi kech natriy oqimini (late INa) inhibilaб hujayra ichi natriy va keyin kaltsiy ortishini kamaytiradi; bu diastolik taranglik va miokard kislorod ehtiyojini pasaytiradi. Yurak urishi va qon bosimiга deyarli ta'sir qilmaydi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsilга ~62%", metabolizm: "Jigarда CYP3A4 (asosan)", chiqarilish: "Buyrak/najas; T½ ~7 soat (uzaytirilgan)" },
+    korsatmalar: ["Barqaror stenokardiya (qo'shimcha terapiya, birinchi qator vositalar yetarli bo'lмаganda)"],
+    qarrshi: ["Og'ir jigar yetishmovchiligi", "Kuchли CYP3A4 ingibitorlari/induktorlari bilan", "QT uzayishi (ehtiyotkorlik)", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Bosh aylanishi, bosh og'rig'i", "Oshqozon-ichak": "Qabziyat, ko'ngil aynishi", "Yurak": "QT uzayishi (dozaга bog'liq)" },
+    dozadan: "QT uzayishi, bosh aylanishi; EKG nazorati, simptomatik davo.",
+    ozarotasir: ["Kuchли CYP3A4 ingibitorlari (azollar, makrolidlar) konsentratsiyani oshiradi (man etiladi)", "Digoksin va simvastatin darajasini oshiradi", "QT uzaytiruvchi dorilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "375–500 mg×2 dan boshlab, 750 mg×2 gacha (uzaytirilgan).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Uzaytirilgan tabletkalar 375, 500, 750 mg"
+  },
+  ru: {
+    gruppa: "Сердечные средства — прочие сердечные препараты (антиишемические)",
+    farmTasir: "Антиангинальное (ингибитор позднего тока натрия)",
+    farmakodinamika: `Ранолазин — антиангинальное средство. Ингибируя поздний ток натрия (late INa) в миокарде, уменьшает накопление внутриклеточного натрия и затем кальция; это снижает диастолическое напряжение и потребность миокарда в кислороде. Практически не влияет на ЧСС и АД.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "С белками ~62%", metabolizm: "В печени CYP3A4 (в основном)", chiqarilish: "Почками/калом; T½ ~7 ч (пролонгированная)" },
+    korsatmalar: ["Стабильная стенокардия (дополнительная терапия при недостаточности первой линии)"],
+    qarrshi: ["Тяжёлая печёночная недостаточность", "С сильными ингибиторами/индукторами CYP3A4", "Удлинение QT (осторожно)", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Головокружение, головная боль", "ЖКТ": "Запор, тошнота", "Сердце": "Удлинение QT (дозозависимо)" },
+    dozadan: "Удлинение QT, головокружение; контроль ЭКГ, симптоматическая терапия.",
+    ozarotasir: ["Сильные ингибиторы CYP3A4 (азолы, макролиды) повышают концентрацию (противопоказано)", "Повышает уровень дигоксина и симвастатина", "Осторожно с QT-удлиняющими препаратами"],
+    qollash: { kattalar: "С 375–500 мг×2, до 750 мг×2 (пролонгированная).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки пролонгированные 375, 500, 750 мг"
+  },
+  en: {
+    gruppa: "Cardiac drugs — other cardiac preparations (anti-ischaemic)",
+    farmTasir: "Antianginal (late sodium current inhibitor)",
+    farmakodinamika: `Ranolazine is an antianginal agent. By inhibiting the late sodium current (late INa) in the myocardium it reduces intracellular sodium and then calcium accumulation; this lowers diastolic tension and myocardial oxygen demand. It has almost no effect on heart rate or blood pressure.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "~62% protein bound", metabolizm: "Hepatic CYP3A4 (mainly)", chiqarilish: "Renal/faecal; T½ ~7 h (prolonged form)" },
+    korsatmalar: ["Stable angina (add-on therapy when first-line agents are insufficient)"],
+    qarrshi: ["Severe hepatic impairment", "With strong CYP3A4 inhibitors/inducers", "QT prolongation (caution)", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Dizziness, headache", "GI": "Constipation, nausea", "Cardiac": "QT prolongation (dose-dependent)" },
+    dozadan: "QT prolongation, dizziness; ECG monitoring, supportive care.",
+    ozarotasir: ["Strong CYP3A4 inhibitors (azoles, macrolides) raise levels (contraindicated)", "Raises digoxin and simvastatin levels", "Caution with QT-prolonging drugs"],
+    qollash: { kattalar: "From 375–500 mg×2, to 750 mg×2 (prolonged-release).", bolalar: "Not recommended" },
+    chiqarish: "Prolonged-release tablets 375, 500, 750 mg"
+  }
+},
+
+"C01EB07": {
+  uz: {
+    gruppa: "Yurak vositalari — boshqa yurak preparatlari (metabolik)",
+    farmTasir: "Metabolik vosita (fruktoza-1,6-difosfat)",
+    farmakodinamika: `Fruktoza-1,6-difosfat — glikoliz oraliq mahsuloti. Hujayra ichi energiya almashinuviga to'g'ridan-to'g'ri kirib, ishemik/gipoksik sharoitда glyukoza parchalanishi va ATF sintezini qo'llab-quvvatlaydi, hujayra membranalarini barqarorlashtiradi. Yordamchi metabolik vosita sifatида qo'llaniladi.`,
+    farmakokinetika: { sorish: "Asosан parenteral (v/i)", tarqalish: "To'qimalarга", metabolizm: "Glikolitik yo'lда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Ishemik/gipoksik holatlar (yurak, miya) — kompleks davoда", "Past fosfatemiya, metabolik qo'llab-quvvatlash"],
+    qarrshi: ["Giperfosfatemiya", "Og'ir buyrak yetishmovchiligi", "Yuqori sezuvchanlik"],
+    nojoya: { "Mahalliy": "Inyeksiya joyidagi reaksiya", "Metabolik": "Giperfosfatemiya (yuqori doza)", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Giperfosfatemiya; fosfat nazorati, simptomatik davo.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "5–10 g v/i infuziya (sekin), kurs bilan; shifokor nazoratида.", bolalar: "Vaznга ko'ra, shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Infuziya uchun eritma/poroshok (flakon)"
+  },
+  ru: {
+    gruppa: "Сердечные средства — прочие сердечные препараты (метаболические)",
+    farmTasir: "Метаболическое средство (фруктозо-1,6-дифосфат)",
+    farmakodinamika: `Фруктозо-1,6-дифосфат — промежуточный продукт гликолиза. Включаясь напрямую во внутриклеточный энергообмен, при ишемии/гипоксии поддерживает распад глюкозы и синтез АТФ, стабилизирует клеточные мембраны. Применяется как вспомогательное метаболическое средство.`,
+    farmakokinetika: { sorish: "Преимущественно парентерально (в/в)", tarqalish: "В ткани", metabolizm: "В гликолитическом пути", chiqarilish: "Почками" },
+    korsatmalar: ["Ишемические/гипоксические состояния (сердце, мозг) — в комплексной терапии", "Гипофосфатемия, метаболическая поддержка"],
+    qarrshi: ["Гиперфосфатемия", "Тяжёлая почечная недостаточность", "Гиперчувствительность"],
+    nojoya: { "Местные": "Реакция в месте инъекции", "Метаболические": "Гиперфосфатемия (высокая доза)", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Гиперфосфатемия; контроль фосфата, симптоматическая терапия.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "5–10 г в/в инфузия (медленно), курсом; под контролем врача.", bolalar: "По массе, по назначению врача" },
+    chiqarish: "Раствор/порошок для инфузий (флакон)"
+  },
+  en: {
+    gruppa: "Cardiac drugs — other cardiac preparations (metabolic)",
+    farmTasir: "Metabolic agent (fructose-1,6-diphosphate)",
+    farmakodinamika: `Fructose-1,6-diphosphate is a glycolysis intermediate. By entering intracellular energy metabolism directly, it supports glucose breakdown and ATP synthesis under ischaemia/hypoxia and stabilises cell membranes. It is used as an adjunctive metabolic agent.`,
+    farmakokinetika: { sorish: "Mainly parenteral (IV)", tarqalish: "Into tissues", metabolizm: "In the glycolytic pathway", chiqarilish: "Renal" },
+    korsatmalar: ["Ischaemic/hypoxic states (heart, brain) — in combination therapy", "Hypophosphataemia, metabolic support"],
+    qarrshi: ["Hyperphosphataemia", "Severe renal impairment", "Hypersensitivity"],
+    nojoya: { "Local": "Injection-site reaction", "Metabolic": "Hyperphosphataemia (high dose)", "Allergic": "Rash (rare)" },
+    dozadan: "Hyperphosphataemia; phosphate monitoring, supportive care.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "5–10 g IV infusion (slowly), as a course; under physician supervision.", bolalar: "By weight, as prescribed" },
+    chiqarish: "Solution/powder for infusion (vial)"
+  }
+},
+
+"C01EB06": {
+  uz: {
+    gruppa: "Yurak vositalari — boshqa yurak preparatlari (metabolik)",
+    farmTasir: "Metabolik kardioprotektor (fosfokreatin)",
+    farmakodinamika: `Fosfokreatin (kreatinfosfat) — hujayra ichidagi tabiiy yuqori energiyaли birikma, ATF zaxirasini tez tiklash uchun fosfat manbai. Miokardда energiya (ATF) ta'minotini qo'llab-quvvatlaydi, ishemik shikastlanишда hujayra membranalarini barqarorlashtiradi va aritmiya xavfini kamaytiradi (kardioprotektiv).`,
+    farmakokinetika: { sorish: "Parenteral (v/i)", tarqalish: "To'qimalarга", metabolizm: "Kreatin va fosfatga", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["O'tkir miokard infarkti, surункali yurak yetishmovchiligi (kompleks davoда)", "Yurak operatsiyasi davrida miokard himoyasi (kardioplegiyada)"],
+    qarrshi: ["Og'ir surункali buyrak yetishmovchiligi (yuqori doza)", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Tez v/i da qon bosimi pasayishi", "Mahalliy": "Inyeksiya joyidagi reaksiya", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; tez v/i da gipotenziyani kuzatish.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "1–2 g/sutka v/i infuziya (og'ir holatда yuqoriroq), kurs bilan.", bolalar: "Vaznга ko'ra, shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Infuziya uchun poroshok 1 g (flakon)"
+  },
+  ru: {
+    gruppa: "Сердечные средства — прочие сердечные препараты (метаболические)",
+    farmTasir: "Метаболический кардиопротектор (фосфокреатин)",
+    farmakodinamika: `Фосфокреатин (креатинфосфат) — естественное внутриклеточное высокоэнергетическое соединение, источник фосфата для быстрого восстановления запаса АТФ. Поддерживает энергообеспечение (АТФ) миокарда, стабилизирует клеточные мембраны при ишемическом повреждении и снижает риск аритмий (кардиопротекция).`,
+    farmakokinetika: { sorish: "Парентерально (в/в)", tarqalish: "В ткани", metabolizm: "До креатина и фосфата", chiqarilish: "Почками" },
+    korsatmalar: ["Острый инфаркт миокарда, хроническая сердечная недостаточность (в комплексной терапии)", "Защита миокарда при кардиохирургии (в кардиоплегии)"],
+    qarrshi: ["Тяжёлая хроническая почечная недостаточность (высокая доза)", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Снижение АД при быстром в/в", "Местные": "Реакция в месте инъекции", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Вероятность токсичности низкая; при быстром в/в следить за гипотензией.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "1–2 г/сут в/в инфузия (при тяжёлых состояниях выше), курсом.", bolalar: "По массе, по назначению врача" },
+    chiqarish: "Порошок для инфузий 1 г (флакон)"
+  },
+  en: {
+    gruppa: "Cardiac drugs — other cardiac preparations (metabolic)",
+    farmTasir: "Metabolic cardioprotectant (phosphocreatine)",
+    farmakodinamika: `Phosphocreatine (creatine phosphate) is a natural intracellular high-energy compound, a phosphate source for rapidly regenerating the ATP pool. It supports myocardial energy (ATP) supply, stabilises cell membranes during ischaemic injury and reduces arrhythmia risk (cardioprotection).`,
+    farmakokinetika: { sorish: "Parenteral (IV)", tarqalish: "Into tissues", metabolizm: "To creatine and phosphate", chiqarilish: "Renal" },
+    korsatmalar: ["Acute myocardial infarction, chronic heart failure (in combination therapy)", "Myocardial protection during cardiac surgery (in cardioplegia)"],
+    qarrshi: ["Severe chronic renal impairment (high dose)", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension with rapid IV", "Local": "Injection-site reaction", "Allergic": "Rash (rare)" },
+    dozadan: "Toxicity unlikely; watch for hypotension with rapid IV.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "1–2 g/day IV infusion (higher in severe states), as a course.", bolalar: "By weight, as prescribed" },
+    chiqarish: "Powder for infusion 1 g (vial)"
+  }
+},
+
+"C01EB23": {
+  uz: {
+    gruppa: "Yurak vositalari — boshqa yurak preparatlari (metabolik antioksidant)",
+    farmTasir: "Metabolik kardioprotektor/antioksidant (tiotriazolin)",
+    farmakodinamika: `Tiazot kislota (tiotriazolin) — metabolik antioksidant va kardioprotektor. Hujayrада yog' o'rniga glyukoza oksidlanishini rag'batlantirib ishemiyada ATF sintezini saqlaydi, antioksidant himoyani (superoksiddismutaza) faollashtiradi, erkin radikallarni kamaytiradi va membranalarni barqarorlashtiradi. Jigar himoyaси (gepatoprotektor) ham bor.`,
+    farmakokinetika: { sorish: "Ich va parenteral", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Ishemik yurak kasalligi, miokard distrofiyasi (kompleks davoда)", "Surункали yurak yetishmovchiligi; jigar kasalliklari (gepatoprotektor)"],
+    qarrshi: ["Og'ir jigar/buyrak yetishmovchiligi", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Allergik": "Toshma, qichishish (kamdan-kam)", "Mahalliy": "Inyeksiya joyidagi reaksiya", "Boshqa": "Bosh aylanishi (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Boshqa antianginal/metabolik vositalar ta'sirini to'ldiradi"],
+    qollash: { kattalar: "Ich: 100 mg×3; v/i/m/i: 2–4 ml 2,5% eritma/sutka, kurs bilan.", bolalar: "Vaznга ko'ra, shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Tabletkalar 100 mg; inyeksiya eritmasi 2,5%"
+  },
+  ru: {
+    gruppa: "Сердечные средства — прочие сердечные препараты (метаболический антиоксидант)",
+    farmTasir: "Метаболический кардиопротектор/антиоксидант (тиотриазолин)",
+    farmakodinamika: `Тиазотная кислота (тиотриазолин) — метаболический антиоксидант и кардиопротектор. Стимулируя окисление глюкозы вместо жиров, сохраняет синтез АТФ при ишемии, активирует антиоксидантную защиту (супероксиддисмутазу), снижает свободные радикалы и стабилизирует мембраны. Обладает и гепатопротекторным действием.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["ИБС, дистрофия миокарда (в комплексной терапии)", "Хроническая сердечная недостаточность; болезни печени (гепатопротектор)"],
+    qarrshi: ["Тяжёлая печёночная/почечная недостаточность", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "Аллергические": "Сыпь, зуд (редко)", "Местные": "Реакция в месте инъекции", "Прочее": "Головокружение (редко)" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Дополняет действие других антиангинальных/метаболических средств"],
+    qollash: { kattalar: "Внутрь: 100 мг×3; в/в/в/м: 2–4 мл 2,5% раствора/сут, курсом.", bolalar: "По массе, по назначению врача" },
+    chiqarish: "Таблетки 100 мг; раствор для инъекций 2,5%"
+  },
+  en: {
+    gruppa: "Cardiac drugs — other cardiac preparations (metabolic antioxidant)",
+    farmTasir: "Metabolic cardioprotectant/antioxidant (thiotriazoline)",
+    farmakodinamika: `Thiazotic acid (thiotriazoline) is a metabolic antioxidant and cardioprotectant. By promoting glucose oxidation instead of fat it preserves ATP synthesis during ischaemia, activates antioxidant defence (superoxide dismutase), reduces free radicals and stabilises membranes. It also has a hepatoprotective effect.`,
+    farmakokinetika: { sorish: "Oral and parenteral", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Ischaemic heart disease, myocardial dystrophy (in combination therapy)", "Chronic heart failure; liver diseases (hepatoprotectant)"],
+    qarrshi: ["Severe hepatic/renal impairment", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "Allergic": "Rash, itching (rare)", "Local": "Injection-site reaction", "Other": "Dizziness (rare)" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["Complements other antianginal/metabolic agents"],
+    qollash: { kattalar: "Oral: 100 mg×3; IV/IM: 2–4 mL of 2.5% solution/day, as a course.", bolalar: "By weight, as prescribed" },
+    chiqarish: "Tablets 100 mg; solution for injection 2.5%"
+  }
 }
 
 };
