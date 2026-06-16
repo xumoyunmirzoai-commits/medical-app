@@ -34832,6 +34832,258 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Initial 30 mg once daily (with food), titrate by PTH and Ca (max 180 mg/day).", bolalar: "Only under specialist supervision (limited data)" },
     chiqarish: "Film-coated tablets 30/60/90 mg"
   }
+},
+
+"H01AC01": {
+  uz: {
+    gruppa: "Gipofiz oldingi bo'lagi gormonlari — o'sish gormoni (somatropin)",
+    farmTasir: "Rekombinant inson o'sish gormoni (somatotropinни o'rnini bosuvchi)",
+    farmakodinamika: `Somatropin — rekombinant inson o'sish gormoni (GH), tabiiy gipofiz somatotropiniга aynan o'xshash. To'g'ridan-to'g'ri va asosан jigar/to'qimalarда ishlab chiqariladigan insulinsimon o'sish omili-1 (IGF-1) orqали suyak va xaftaga o'sishini rag'batlantiradi, oqsil sintezini oshiradi, lipolizни kuchaytiradi va uglevod almashinuviga ta'sir qiladi. Bolalarда bo'yga o'sishni, kattalarда tana tarkibi va metabolizmni tiklaydi.`,
+    farmakokinetika: { sorish: "Teri ostiga (s/k) in'eksiya", tarqalish: "To'qimalarга", metabolizm: "Jigar va buyrakда", chiqarilish: "Metabolizm; T½ (s/k) ~3–5 soat" },
+    korsatmalar: ["Bolalarда o'sish gormoni tanqisligi, Tyorner/Prader-Villi sindromi, surункали buyrak yetishmovchiligi fonida bo'yning qisqaligi, SGA", "Kattalarда aniqlangan o'sish gormoni tanqisligi"],
+    qarrshi: ["Faol o'sma (onkologik kasallik)", "Og'ir o'tkir kasallik (operatsiya, jarohatdan keyin kritik holat)", "Proliferativ diabetik retinopatiya", "Epifizlar yopilgan bolalarда (bo'yга o'sish uchun)"],
+    nojoya: { "Metabolik": "Insulinга qarshilik/giperglikemiya, suyuqlik ushlanishi (shish)", "Suyak-mushak": "Artralgiya, mialgiya, karpal tunnel sindromi", "Endokrin": "Gipotireoz (yashirin)", "Boshqa": "Bosh og'rig'i (intrakranial bosim), in'eksiya joyида reaksiya" },
+    dozadan: "O'tkir — gipoglikemiya keyin giperglikemiya; uzoq ortiqcha — akromegaliya belgilari; dozани moslash.",
+    ozarotasir: ["Glyukokortikoidlar o'sish ta'sirini susaytiradi", "Insulin/antidiabetik dozasini moslash kerak bo'lishi mumkin", "Estrogen (ich) ehtiyojni oshirishi mumkin"],
+    qollash: { kattalar: "Individual, 0,15–0,3 mg/sutka s/k, IGF-1 bo'yicha titrlash.", bolalar: "~0,025–0,035 mg/kg/sutka s/k (kechqurun), ko'rsatmага ko'ra" },
+    chiqarish: "In'eksiya uchun eritma/kukun (kartrij, shpric-ruchka) — XB/mg"
+  },
+  ru: {
+    gruppa: "Гормоны передней доли гипофиза — гормон роста (соматропин)",
+    farmTasir: "Рекомбинантный гормон роста человека (заместитель соматотропина)",
+    farmakodinamika: `Соматропин — рекомбинантный гормон роста человека (GH), идентичный природному гипофизарному соматотропину. Напрямую и преимущественно через инсулиноподобный фактор роста-1 (ИФР-1), вырабатываемый в печени/тканях, стимулирует рост костей и хрящей, повышает синтез белка, усиливает липолиз и влияет на углеводный обмен. У детей восстанавливает линейный рост, у взрослых — состав тела и метаболизм.`,
+    farmakokinetika: { sorish: "Подкожная (п/к) инъекция", tarqalish: "В ткани", metabolizm: "В печени и почках", chiqarilish: "Метаболизм; T½ (п/к) ~3–5 ч" },
+    korsatmalar: ["У детей — дефицит гормона роста, синдром Тёрнера/Прадера-Вилли, низкорослость при ХБП, SGA", "У взрослых — подтверждённый дефицит гормона роста"],
+    qarrshi: ["Активная опухоль (онкологическое заболевание)", "Тяжёлое острое состояние (критическое после операции, травмы)", "Пролиферативная диабетическая ретинопатия", "У детей с закрытыми зонами роста (для линейного роста)"],
+    nojoya: { "Метаболизм": "Инсулинорезистентность/гипергликемия, задержка жидкости (отёки)", "Костно-мышечные": "Артралгия, миалгия, синдром запястного канала", "Эндокринные": "Гипотиреоз (скрытый)", "Прочее": "Головная боль (внутричерепное давление), реакция в месте инъекции" },
+    dozadan: "Остро — гипогликемия затем гипергликемия; длительный избыток — признаки акромегалии; коррекция дозы.",
+    ozarotasir: ["Глюкокортикоиды ослабляют ростовой эффект", "Может потребоваться коррекция дозы инсулина/антидиабетических средств", "Эстрогены (внутрь) могут повышать потребность"],
+    qollash: { kattalar: "Индивидуально, 0,15–0,3 мг/сут п/к, титрование по ИФР-1.", bolalar: "~0,025–0,035 мг/кг/сут п/к (вечером), по показаниям" },
+    chiqarish: "Раствор/порошок для инъекций (картридж, шприц-ручка) — МЕ/мг"
+  },
+  en: {
+    gruppa: "Anterior pituitary hormones — growth hormone (somatropin)",
+    farmTasir: "Recombinant human growth hormone (somatotropin replacement)",
+    farmakodinamika: `Somatropin is recombinant human growth hormone (GH), identical to natural pituitary somatotropin. Directly and mainly via insulin-like growth factor-1 (IGF-1) produced in the liver/tissues, it stimulates bone and cartilage growth, increases protein synthesis, enhances lipolysis and affects carbohydrate metabolism. In children it restores linear growth; in adults it restores body composition and metabolism.`,
+    farmakokinetika: { sorish: "Subcutaneous (SC) injection", tarqalish: "Into tissues", metabolizm: "Hepatic and renal", chiqarilish: "Metabolism; SC T½ ~3–5 h" },
+    korsatmalar: ["In children — GH deficiency, Turner/Prader-Willi syndrome, short stature in CKD, SGA", "In adults — confirmed GH deficiency"],
+    qarrshi: ["Active tumour (malignancy)", "Severe acute illness (critically ill after surgery, trauma)", "Proliferative diabetic retinopathy", "Children with closed epiphyses (for linear growth)"],
+    nojoya: { "Metabolic": "Insulin resistance/hyperglycaemia, fluid retention (oedema)", "Musculoskeletal": "Arthralgia, myalgia, carpal tunnel syndrome", "Endocrine": "Hypothyroidism (latent)", "Other": "Headache (intracranial pressure), injection-site reaction" },
+    dozadan: "Acutely — hypoglycaemia then hyperglycaemia; chronic excess — acromegaly features; adjust dose.",
+    ozarotasir: ["Glucocorticoids blunt the growth effect", "Insulin/antidiabetic dose may need adjustment", "Oral estrogens may increase requirements"],
+    qollash: { kattalar: "Individualised, 0.15–0.3 mg/day SC, titrate by IGF-1.", bolalar: "~0.025–0.035 mg/kg/day SC (evening), as indicated" },
+    chiqarish: "Solution/powder for injection (cartridge, pen) — IU/mg"
+  }
+},
+
+"H01BA02": {
+  uz: {
+    gruppa: "Gipofiz orqa bo'lagi gormonlari — vazopressin analogi (desmopressin)",
+    farmTasir: "Sintetik antidiuretik gormon analogi (V2-agonist)",
+    farmakodinamika: `Desmopressin — vazopressin (ADG) ning sintetik analogi; V2-retseptorlarга tanlab ta'sir qiladi (vazopressor V1 ta'siri kam). Buyrak yig'uvchi naychalarида suvni qayta so'rilishini oshiradi (siydikни konsentratsiyalaydi, diurezни kamaytiradi) va VIII faktor hamда fon Villebrand omili ajralishini rag'batlantiradi. Markaziy qandsiz diabet va yengil gemofiliya A/fon Villebrand kasalligida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Intranazal, ich, parenteral (bioo'zlashtirish past, ich ~0,1%)", tarqalish: "Tor", metabolizm: "Qisman", chiqarilish: "Buyrak; T½ ~3 soat" },
+    korsatmalar: ["Markaziy (gipofizar) qandsiz diabet", "Birlamchi tungi enurez (bolalarда)", "Yengil gemofiliya A va fon Villebrand kasalligi (1-tur), diagnostik konsentratsiya sinovi"],
+    qarrshi: ["Gabituar yoki psixogen polidipsiya", "II/IIB-tur fon Villebrand kasalligi", "Og'ir buyrak yetishmovchiligi (KrKl <50 ml/min)", "Gipo­natriemiya, yurak yetishmovchiligi (suyuqlik nazorati)"],
+    nojoya: { "Metabolik": "Suv intoksikatsiyasi/giponatriemiya (bosh og'rig'i, ko'ngil aynishi, tutqanoq — suyuqlik cheklash muhim)", "Tomir": "Bosh og'rig'i, yuz qizarishi, AB o'zgarishi", "Mahalliy": "Burun shilliq qavati tirnashishi (intranazal)" },
+    dozadan: "Giponatriemiya/suv intoksikatsiyasi — desmopressinni to'xtatish, suyuqlik cheklash, og'irда gipertonik NaCl ehtiyot bilan.",
+    ozarotasir: ["Suyuqlik ushlanishini oshiruvchi dorilar (NYaQVD, karbamazepin, SSRI) giponatriemiya xavfini oshiradi", "Presso­r ta'sirни kuchaytiruvchilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "Qandsiz diabet: intranazal 10–40 mkg/sutka yoki ich 0,1–0,8 mg/sutka (bo'lib).", bolalar: "Enurez: 120–240 mkg til ostiga / 20–40 mkg intranazal kechqurun; suyuqlik cheklash" },
+    chiqarish: "Burun spreyi, til ostida tabletkalar (melt) / tabletkalar, in'eksiya eritmasi"
+  },
+  ru: {
+    gruppa: "Гормоны задней доли гипофиза — аналог вазопрессина (десмопрессин)",
+    farmTasir: "Синтетический аналог антидиуретического гормона (V2-агонист)",
+    farmakodinamika: `Десмопрессин — синтетический аналог вазопрессина (АДГ); избирательно действует на V2-рецепторы (вазопрессорное V1-действие мало). Усиливает реабсорбцию воды в собирательных трубочках почек (концентрирует мочу, снижает диурез) и стимулирует высвобождение фактора VIII и фактора фон Виллебранда. Применяется при центральном несахарном диабете и лёгкой гемофилии A/болезни фон Виллебранда.`,
+    farmakokinetika: { sorish: "Интраназально, внутрь, парентерально (биодоступность низкая, внутрь ~0,1%)", tarqalish: "Узкое", metabolizm: "Частично", chiqarilish: "Почками; T½ ~3 ч" },
+    korsatmalar: ["Центральный (гипофизарный) несахарный диабет", "Первичный ночной энурез (у детей)", "Лёгкая гемофилия A и болезнь фон Виллебранда (тип 1), диагностическая проба концентрации"],
+    qarrshi: ["Привычная или психогенная полидипсия", "Болезнь фон Виллебранда типа II/IIB", "Тяжёлая почечная недостаточность (КлКр <50 мл/мин)", "Гипонатриемия, сердечная недостаточность (контроль жидкости)"],
+    nojoya: { "Метаболизм": "Водная интоксикация/гипонатриемия (головная боль, тошнота, судороги — важно ограничение жидкости)", "Сосуды": "Головная боль, приливы, изменение АД", "Местные": "Раздражение слизистой носа (интраназально)" },
+    dozadan: "Гипонатриемия/водная интоксикация — отменить десмопрессин, ограничить жидкость, при тяжёлой осторожно гипертонический NaCl.",
+    ozarotasir: ["Препараты, усиливающие задержку жидкости (НПВП, карбамазепин, СИОЗС), повышают риск гипонатриемии", "Осторожно с усиливающими прессорный эффект"],
+    qollash: { kattalar: "Несахарный диабет: интраназально 10–40 мкг/сут или внутрь 0,1–0,8 мг/сут (дробно).", bolalar: "Энурез: 120–240 мкг сублингвально / 20–40 мкг интраназально вечером; ограничение жидкости" },
+    chiqarish: "Назальный спрей, подъязычные таблетки (melt)/таблетки, раствор для инъекций"
+  },
+  en: {
+    gruppa: "Posterior pituitary hormones — vasopressin analogue (desmopressin)",
+    farmTasir: "Synthetic antidiuretic hormone analogue (V2 agonist)",
+    farmakodinamika: `Desmopressin is a synthetic analogue of vasopressin (ADH) acting selectively on V2 receptors (little vasopressor V1 effect). It increases water reabsorption in the renal collecting ducts (concentrates urine, reduces diuresis) and stimulates release of factor VIII and von Willebrand factor. It is used in central diabetes insipidus and mild haemophilia A/von Willebrand disease.`,
+    farmakokinetika: { sorish: "Intranasal, oral, parenteral (low bioavailability, oral ~0.1%)", tarqalish: "Narrow", metabolizm: "Partial", chiqarilish: "Renal; T½ ~3 h" },
+    korsatmalar: ["Central (pituitary) diabetes insipidus", "Primary nocturnal enuresis (in children)", "Mild haemophilia A and von Willebrand disease (type 1), diagnostic concentration test"],
+    qarrshi: ["Habitual or psychogenic polydipsia", "Von Willebrand disease type II/IIB", "Severe renal impairment (CrCl <50 mL/min)", "Hyponatraemia, heart failure (fluid control)"],
+    nojoya: { "Metabolic": "Water intoxication/hyponatraemia (headache, nausea, seizures — fluid restriction important)", "Vascular": "Headache, flushing, BP change", "Local": "Nasal mucosa irritation (intranasal)" },
+    dozadan: "Hyponatraemia/water intoxication — stop desmopressin, restrict fluids, cautious hypertonic NaCl if severe.",
+    ozarotasir: ["Drugs increasing fluid retention (NSAIDs, carbamazepine, SSRIs) raise hyponatraemia risk", "Caution with agents enhancing the pressor effect"],
+    qollash: { kattalar: "Diabetes insipidus: intranasal 10–40 µg/day or oral 0.1–0.8 mg/day (divided).", bolalar: "Enuresis: 120–240 µg sublingual / 20–40 µg intranasal in the evening; restrict fluids" },
+    chiqarish: "Nasal spray, sublingual tablets (melt)/tablets, solution for injection"
+  }
+},
+
+"H01BA04": {
+  uz: {
+    gruppa: "Gipofiz orqa bo'lagi gormonlari — vazopressin analogi (terlipressin)",
+    farmTasir: "Vazopressin analogi (splanknik vazokonstriktor, V1-agonist)",
+    farmakodinamika: `Terlipressin — vazopressinning uzoq ta'sirli prodorisi; organizmda asta-sekin lizin-vazopressinga aylanadi. V1-retseptorlar orqali splanknik (ichak) tomirlarini toraytiradi, portal qon oqimi va portal bosimni kamaytiradi. Qizilo'ngach varikoz venalaridan qon ketishni va gepatorenal sindromни davolashda qo'llaniladi.`,
+    farmakokinetika: { sorish: "V/i (bolus/infuziya)", tarqalish: "Tomirда", metabolizm: "Endopeptidazalar — lizin-vazopressinга", chiqarilish: "Buyrak; ta'sir uzoq (4–6 soat)" },
+    korsatmalar: ["Qizilo'ngach varikoz venalaridan o'tkir qon ketish (jigar sirrozi)", "1-tur gepatorenal sindrom (albumin bilan)"],
+    qarrshi: ["Septik shok, og'ir IYUK/yurak ritmi buzilishlari", "Og'ir bronxial astma, periferik tomir kasalligi", "Homiladorlik", "Yuqori sezuvchanlik"],
+    nojoya: { "Yurak-tomir": "AB ko'tarilishi, bradikardiya, ishemiya (miokard, ichak, barmoqlar), aritmiya", "Metabolik": "Giponatriemiya (suyuqlik/natriy nazorati)", "Oshqozon-ichak": "Qorin og'rig'i, diareya", "Mahalliy": "In'eksiya joyида nekroz (ekstravazatsiya)" },
+    dozadan: "Og'ir vazokonstriksiya/ishemiya, gipertenziya — dozани kamaytirish/to'xtatish, nazorat.",
+    ozarotasir: ["Bradikardiya keltiruvchi dorilar (propofol, sufentanil) bilan kuchayadi", "QT uzaytiruvchi dorilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "Qon ketishda 1–2 mg v/i har 4–6 soatда, qon to'xtagach kamaytirish; gepatorenal sindromда 0,5–1 mg har 4–6 soat.", bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)" },
+    chiqarish: "In'eksiya uchun eritma/kukun 0,1 mg/ml, 1 mg (ampula/flakon)"
+  },
+  ru: {
+    gruppa: "Гормоны задней доли гипофиза — аналог вазопрессина (терлипрессин)",
+    farmTasir: "Аналог вазопрессина (спланхнический вазоконстриктор, V1-агонист)",
+    farmakodinamika: `Терлипрессин — длительно действующее пролекарство вазопрессина; в организме постепенно превращается в лизин-вазопрессин. Через V1-рецепторы сужает спланхнические (кишечные) сосуды, снижает портальный кровоток и портальное давление. Применяется при кровотечении из варикозных вен пищевода и гепаторенальном синдроме.`,
+    farmakokinetika: { sorish: "В/в (болюс/инфузия)", tarqalish: "В сосудах", metabolizm: "Эндопептидазами — в лизин-вазопрессин", chiqarilish: "Почками; действие длительное (4–6 ч)" },
+    korsatmalar: ["Острое кровотечение из варикозных вен пищевода (цирроз печени)", "Гепаторенальный синдром 1 типа (с альбумином)"],
+    qarrshi: ["Септический шок, тяжёлая ИБС/нарушения ритма", "Тяжёлая бронхиальная астма, заболевания периферических сосудов", "Беременность", "Гиперчувствительность"],
+    nojoya: { "Сердечно-сосудистые": "Повышение АД, брадикардия, ишемия (миокард, кишечник, пальцы), аритмия", "Метаболизм": "Гипонатриемия (контроль жидкости/натрия)", "ЖКТ": "Боль в животе, диарея", "Местные": "Некроз в месте инъекции (экстравазация)" },
+    dozadan: "Тяжёлая вазоконстрикция/ишемия, гипертензия — снизить/отменить дозу, наблюдение.",
+    ozarotasir: ["Усиливается с препаратами, вызывающими брадикардию (пропофол, суфентанил)", "Осторожно с препаратами, удлиняющими QT"],
+    qollash: { kattalar: "При кровотечении 1–2 мг в/в каждые 4–6 ч, после остановки снизить; при гепаторенальном синдроме 0,5–1 мг каждые 4–6 ч.", bolalar: "Не рекомендуется (данные ограничены)" },
+    chiqarish: "Раствор/порошок для инъекций 0,1 мг/мл, 1 мг (ампула/флакон)"
+  },
+  en: {
+    gruppa: "Posterior pituitary hormones — vasopressin analogue (terlipressin)",
+    farmTasir: "Vasopressin analogue (splanchnic vasoconstrictor, V1 agonist)",
+    farmakodinamika: `Terlipressin is a long-acting prodrug of vasopressin, gradually converted to lysine-vasopressin in the body. Via V1 receptors it constricts splanchnic (intestinal) vessels, reducing portal blood flow and portal pressure. It is used in bleeding from oesophageal varices and in hepatorenal syndrome.`,
+    farmakokinetika: { sorish: "IV (bolus/infusion)", tarqalish: "In vessels", metabolizm: "By endopeptidases — to lysine-vasopressin", chiqarilish: "Renal; long duration (4–6 h)" },
+    korsatmalar: ["Acute bleeding from oesophageal varices (liver cirrhosis)", "Type 1 hepatorenal syndrome (with albumin)"],
+    qarrshi: ["Septic shock, severe CAD/arrhythmias", "Severe bronchial asthma, peripheral vascular disease", "Pregnancy", "Hypersensitivity"],
+    nojoya: { "Cardiovascular": "Raised BP, bradycardia, ischaemia (myocardium, bowel, digits), arrhythmia", "Metabolic": "Hyponatraemia (fluid/sodium monitoring)", "GI": "Abdominal pain, diarrhoea", "Local": "Necrosis at injection site (extravasation)" },
+    dozadan: "Severe vasoconstriction/ischaemia, hypertension — reduce/stop dose, monitor.",
+    ozarotasir: ["Enhanced with bradycardia-inducing drugs (propofol, sufentanil)", "Caution with QT-prolonging drugs"],
+    qollash: { kattalar: "Bleeding: 1–2 mg IV every 4–6 h, reduce after control; hepatorenal syndrome 0.5–1 mg every 4–6 h.", bolalar: "Not recommended (limited data)" },
+    chiqarish: "Solution/powder for injection 0.1 mg/mL, 1 mg (ampoule/vial)"
+  }
+},
+
+"H01BB02": {
+  uz: {
+    gruppa: "Gipofiz orqa bo'lagi gormonlari — oksitotsin",
+    farmTasir: "Uterotonik (bachadon qisqartiruvchi gormon)",
+    farmakodinamika: `Oksitotsin — sintetik gipofiz orqa bo'lagi gormoni. Bachadon miometriyasidagi oksitotsin retseptorlari orqали (homiladorlik oxirida soni ortadi) qisqarish chastotasi va kuchini oshiradi, sut bezi miopiteliyasini qisqartirib sut ajralishiga (let-down) yordam beradi. Tug'ruqni qo'zg'atish/kuchaytirish va tug'ruqdan keyingi atoniya/qon ketishда qo'llaniladi.`,
+    farmakokinetika: { sorish: "V/i (infuziya) yoki v/m", tarqalish: "Tor", metabolizm: "Jigar/buyrak, oksitotsinaza (platsenta)", chiqarilish: "Buyrak; T½ ~1–6 daqiqa" },
+    korsatmalar: ["Tug'ruqni qo'zg'atish/kuchaytirish (tibbiy ko'rsatmага ko'ra)", "Tug'ruqdan keyingi bachadon atoniyasi va qon ketishini oldini olish/davolash", "Keysar kesimда bachadon qisqarishi, to'liqsiz abort"],
+    qarrshi: ["Bachadon mexanik to'sig'i, ko'ndalang holat (operatsiyasiz tug'ruq mumkin emas)", "Giperaktiv/gipertonik bachadon, homila distressi (qo'zg'atishda)", "Bachadon yorilishi xavfi (ko'p chandiq, ko'p tug'gan)", "Yuqori sezuvchanlik"],
+    nojoya: { "Bachadon": "Giperstimulyatsiya, tetanik qisqarish, bachadon yorilishi (xavfli)", "Yurak-tomir": "Gipotenziya, taxikardiya/aritmiya (tez bolus)", "Metabolik": "Suv intoksikatsiyasi/giponatriemiya (uzoq yuqori doza)", "Homila": "Bradikardiya, distres (giperstimulyatsiyaда)" },
+    dozadan: "Giperstimulyatsiya/suv intoksikatsiyasi — infuziyani to'xtatish, suyuqlik cheklash, tokolitik (kerakда).",
+    ozarotasir: ["Prostaglandinlar ta'sirini kuchaytiradi (giperstimulyatsiya)", "Ba'zi ingalyatsion anestetiklar bachadon ta'sirini susaytiradi", "Vazokonstriktorlar bilan og'ir gipertenziya (regionar anesteziya fonida)"],
+    qollash: { kattalar: "Tug'ruqni qo'zg'atish: 1–2 mXB/daq infuziya, asta oshirib; atoniyaда 5–10 XB v/m yoki sekin v/i, keyin infuziya.", bolalar: "Qo'llanilmaydi" },
+    chiqarish: "In'eksiya uchun eritma 5 XB/ml, 10 XB/ml (ampula)"
+  },
+  ru: {
+    gruppa: "Гормоны задней доли гипофиза — окситоцин",
+    farmTasir: "Утеротоник (гормон, сокращающий матку)",
+    farmakodinamika: `Окситоцин — синтетический гормон задней доли гипофиза. Через окситоциновые рецепторы миометрия (их число возрастает к концу беременности) повышает частоту и силу сокращений, сокращает миоэпителий молочной железы, способствуя выделению молока (let-down). Применяется для индукции/стимуляции родов и при послеродовой атонии/кровотечении.`,
+    farmakokinetika: { sorish: "В/в (инфузия) или в/м", tarqalish: "Узкое", metabolizm: "Печень/почки, окситоциназа (плацента)", chiqarilish: "Почками; T½ ~1–6 мин" },
+    korsatmalar: ["Индукция/стимуляция родов (по медицинским показаниям)", "Профилактика/лечение послеродовой атонии матки и кровотечения", "Сокращение матки при кесаревом сечении, неполный аборт"],
+    qarrshi: ["Механическое препятствие, поперечное положение (роды через естественные пути невозможны)", "Гиперактивная/гипертоническая матка, дистресс плода (при индукции)", "Риск разрыва матки (множественные рубцы, многорожавшие)", "Гиперчувствительность"],
+    nojoya: { "Матка": "Гиперстимуляция, тетаническое сокращение, разрыв матки (опасно)", "Сердечно-сосудистые": "Гипотензия, тахикардия/аритмия (быстрый болюс)", "Метаболизм": "Водная интоксикация/гипонатриемия (длительная высокая доза)", "Плод": "Брадикардия, дистресс (при гиперстимуляции)" },
+    dozadan: "Гиперстимуляция/водная интоксикация — прекратить инфузию, ограничить жидкость, токолитик (при необходимости).",
+    ozarotasir: ["Простагландины усиливают действие (гиперстимуляция)", "Некоторые ингаляционные анестетики ослабляют действие на матку", "С вазоконстрикторами тяжёлая гипертензия (на фоне регионарной анестезии)"],
+    qollash: { kattalar: "Индукция родов: инфузия 1–2 мЕ/мин с постепенным повышением; при атонии 5–10 ЕД в/м или медленно в/в, затем инфузия.", bolalar: "Не применяется" },
+    chiqarish: "Раствор для инъекций 5 ЕД/мл, 10 ЕД/мл (ампулы)"
+  },
+  en: {
+    gruppa: "Posterior pituitary hormones — oxytocin",
+    farmTasir: "Uterotonic (uterus-contracting hormone)",
+    farmakodinamika: `Oxytocin is a synthetic posterior pituitary hormone. Via myometrial oxytocin receptors (which increase towards term), it raises the frequency and force of contractions and contracts mammary myoepithelium, aiding milk let-down. It is used for induction/augmentation of labour and for postpartum atony/haemorrhage.`,
+    farmakokinetika: { sorish: "IV (infusion) or IM", tarqalish: "Narrow", metabolizm: "Hepatic/renal, oxytocinase (placenta)", chiqarilish: "Renal; T½ ~1–6 min" },
+    korsatmalar: ["Induction/augmentation of labour (on medical indication)", "Prevention/treatment of postpartum uterine atony and haemorrhage", "Uterine contraction at caesarean section, incomplete abortion"],
+    qarrshi: ["Mechanical obstruction, transverse lie (vaginal delivery impossible)", "Hyperactive/hypertonic uterus, fetal distress (in induction)", "Risk of uterine rupture (multiple scars, grand multiparity)", "Hypersensitivity"],
+    nojoya: { "Uterus": "Hyperstimulation, tetanic contraction, uterine rupture (dangerous)", "Cardiovascular": "Hypotension, tachycardia/arrhythmia (rapid bolus)", "Metabolic": "Water intoxication/hyponatraemia (prolonged high dose)", "Fetus": "Bradycardia, distress (with hyperstimulation)" },
+    dozadan: "Hyperstimulation/water intoxication — stop infusion, restrict fluids, tocolytic (if needed).",
+    ozarotasir: ["Prostaglandins enhance the effect (hyperstimulation)", "Some inhalational anaesthetics reduce uterine effect", "Severe hypertension with vasoconstrictors (during regional anaesthesia)"],
+    qollash: { kattalar: "Labour induction: infusion 1–2 mU/min increased gradually; for atony 5–10 IU IM or slow IV, then infusion.", bolalar: "Not used" },
+    chiqarish: "Solution for injection 5 IU/mL, 10 IU/mL (ampoules)"
+  }
+},
+
+"H01CB02": {
+  uz: {
+    gruppa: "Gipotalamus gormonlari — somatostatin analogi (oktreotid)",
+    farmTasir: "Somatostatin analogi (sekretsiyani bostiruvchi)",
+    farmakodinamika: `Oktreotid — somatostatinning uzoq ta'sirli sintetik analogi. Somatostatin retseptorlari (asosан SSTR2, SSTR5) orqали o'sish gormoni (GH), IGF-1, glyukagon, insulin va ko'plab oshqozon-ichak gormonlari (gastrin, VIP, sekretin, serotonin) sekretsiyasини bostiradi, splanknik qon oqimini kamaytiradi. Akromegaliya, neyroendokrin o'smalar va o'tkir varikoz qon ketishida qo'llaniladi.`,
+    farmakokinetika: { sorish: "S/k yoki v/i; depo shakli — v/m (oyiga 1 marta)", tarqalish: "Plazma oqsiliga bog'lanadi", metabolizm: "Jigar", chiqarilish: "Buyrak/safro; T½ (s/k) ~1,5 soat" },
+    korsatmalar: ["Akromegaliya (operatsiya/nurlanish samarasiz yoki ularга tayyorgarlik)", "Funksional neyroendokrin o'smalar (karsinoid sindrom, VIPoma, glyukagonoma)", "Qizilo'ngач varikoz venalaridан o'tkir qon ketish (yordamчи); refrakter diareya"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — o't pufagi tosh kasalligi, qandli diabet (glikemiya o'zgaradi)"],
+    nojoya: { "Oshqozon-ichak": "Diareya, qorin og'rig'i, meteorizm, ko'ngil aynishi, steatoreya", "Hazm bezi/o't": "O't tosh/cho'kma (uzoq qo'llaganda)", "Metabolik": "Giper-/gipoglikemiya, gipotireoz", "Yurak": "Bradikardiya (xos)" },
+    dozadan: "Belgilar dozага bog'liq; simptomatik, glikemiya/yurak ritmi nazorati.",
+    ozarotasir: ["Insulin/antidiabetik dozasini o'zgartiradi (glikemiya nazorati)", "Siklosporin darajasini pasaytiradi", "Bradikardiya keltiruvchi (beta-blokator) bilan kuchayadi"],
+    qollash: { kattalar: "S/k 50–100 mkg×2–3, samaraga ko'ra oshirish; depo (LAR) 20–30 mg v/m har 4 haftaда.", bolalar: "Faqat mutaxassis nazoratида" },
+    chiqarish: "In'eksiya eritmasi 50/100/500 mkg/ml; depo-mikrosfera 10/20/30 mg (v/m)"
+  },
+  ru: {
+    gruppa: "Гормоны гипоталамуса — аналог соматостатина (октреотид)",
+    farmTasir: "Аналог соматостатина (подавляет секрецию)",
+    farmakodinamika: `Октреотид — длительно действующий синтетический аналог соматостатина. Через рецепторы соматостатина (преимущественно SSTR2, SSTR5) подавляет секрецию гормона роста (GH), ИФР-1, глюкагона, инсулина и многих гастроинтестинальных гормонов (гастрин, ВИП, секретин, серотонин), снижает спланхнический кровоток. Применяется при акромегалии, нейроэндокринных опухолях и остром варикозном кровотечении.`,
+    farmakokinetika: { sorish: "П/к или в/в; депо-форма — в/м (1 раз в месяц)", tarqalish: "Связь с белками плазмы", metabolizm: "Печень", chiqarilish: "Почками/с желчью; T½ (п/к) ~1,5 ч" },
+    korsatmalar: ["Акромегалия (при неэффективности операции/облучения или подготовке к ним)", "Функциональные нейроэндокринные опухоли (карциноидный синдром, ВИПома, глюкагонома)", "Острое кровотечение из варикозных вен пищевода (вспомогательно); рефрактерная диарея"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — желчнокаменная болезнь, сахарный диабет (меняется гликемия)"],
+    nojoya: { "ЖКТ": "Диарея, боль в животе, метеоризм, тошнота, стеаторея", "Желчевыводящие пути": "Камни/сладж желчного пузыря (при длительном применении)", "Метаболизм": "Гипер-/гипогликемия, гипотиреоз", "Сердце": "Брадикардия (характерна)" },
+    dozadan: "Симптомы дозозависимы; симптоматически, контроль гликемии/ритма сердца.",
+    ozarotasir: ["Меняет потребность в инсулине/антидиабетических средствах (контроль гликемии)", "Снижает уровень циклоспорина", "Усиливается с брадикардия-индуцирующими (бета-блокаторы)"],
+    qollash: { kattalar: "П/к 50–100 мкг×2–3, повышать по эффекту; депо (LAR) 20–30 мг в/м каждые 4 недели.", bolalar: "Только под наблюдением специалиста" },
+    chiqarish: "Раствор для инъекций 50/100/500 мкг/мл; депо-микросферы 10/20/30 мг (в/м)"
+  },
+  en: {
+    gruppa: "Hypothalamic hormones — somatostatin analogue (octreotide)",
+    farmTasir: "Somatostatin analogue (secretion-suppressing)",
+    farmakodinamika: `Octreotide is a long-acting synthetic analogue of somatostatin. Via somatostatin receptors (mainly SSTR2, SSTR5) it suppresses secretion of growth hormone (GH), IGF-1, glucagon, insulin and many gastrointestinal hormones (gastrin, VIP, secretin, serotonin) and reduces splanchnic blood flow. It is used in acromegaly, neuroendocrine tumours and acute variceal bleeding.`,
+    farmakokinetika: { sorish: "SC or IV; depot form — IM (once monthly)", tarqalish: "Plasma protein-bound", metabolizm: "Hepatic", chiqarilish: "Renal/biliary; SC T½ ~1.5 h" },
+    korsatmalar: ["Acromegaly (when surgery/radiation ineffective or in preparation)", "Functional neuroendocrine tumours (carcinoid syndrome, VIPoma, glucagonoma)", "Acute bleeding from oesophageal varices (adjunct); refractory diarrhoea"],
+    qarrshi: ["Hypersensitivity", "Caution — gallstone disease, diabetes mellitus (glycaemia changes)"],
+    nojoya: { "GI": "Diarrhoea, abdominal pain, flatulence, nausea, steatorrhoea", "Biliary": "Gallstones/sludge (with prolonged use)", "Metabolic": "Hyper-/hypoglycaemia, hypothyroidism", "Cardiac": "Bradycardia (characteristic)" },
+    dozadan: "Symptoms are dose-dependent; supportive, monitor glycaemia/cardiac rhythm.",
+    ozarotasir: ["Alters insulin/antidiabetic requirements (glycaemic monitoring)", "Reduces ciclosporin levels", "Enhanced with bradycardia-inducing drugs (beta-blockers)"],
+    qollash: { kattalar: "SC 50–100 µg×2–3, increase by response; depot (LAR) 20–30 mg IM every 4 weeks.", bolalar: "Only under specialist supervision" },
+    chiqarish: "Solution for injection 50/100/500 µg/mL; depot microspheres 10/20/30 mg (IM)"
+  }
+},
+
+"H01CC02": {
+  uz: {
+    gruppa: "Gipotalamus gormonlari — GnRH antagonisti (setroreliks)",
+    farmTasir: "Gonadotropin-rilizing gormon (GnRH) antagonisti",
+    farmakodinamika: `Setroreliks — sintetik GnRH (gonadoliberin) antagonisti. Gipofizdagi GnRH retseptorlarini tezda va qaytar bloklab, lyutein­lashtiruvchi gormon (LG) va follikul-stimullovchi gormon (FSG) ajralishini bostiradi. Ekstrakorporal urug'lantirish (EKO/IVF) sikllarида follikullar pishishidан oldin vaqtсиз LG cho'qqisini (ovulyatsiyani) oldini olish uchun qo'llaniladi.`,
+    farmakokinetika: { sorish: "S/k in'eksiya (tez)", tarqalish: "To'qimalarга", metabolizm: "Peptidazalar", chiqarilish: "Safro/buyrak; T½ ~5–60 soat (dozaга qarab)" },
+    korsatmalar: ["Boshqariladigan tuxumdon stimulyatsiyasi (EKO/IVF) da vaqtсиз ovulyatsiyaning oldini olish"],
+    qarrshi: ["Homiladorlik va laktatsiya", "Og'ir buyrak/jigar yetishmovchiligi", "GnRH yoki tashqi peptidlarga yuqori sezuvchanlik"],
+    nojoya: { "Mahalliy": "In'eksiya joyida qizarish, qichishish, shish", "Reproduktiv": "Tuxumdon giperstimulyatsiyasi sindromi (yengil-o'rtacha)", "Boshqa": "Bosh og'rig'i, ko'ngil aynishi" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik nazorat.",
+    ozarotasir: ["Klinik ahamiyatга ega o'zaro ta'sirlar kam (stimulyatsiya protokoli doirasида)"],
+    qollash: { kattalar: "0,25 mg s/k kuniga 1 marta (follikul ~14 mm dан) yoki bitta 3 mg dozada; protokolга ko'ra.", bolalar: "Qo'llanilmaydi" },
+    chiqarish: "In'eksiya uchun kukun + erituvchi 0,25 mg; 3 mg (flakon)"
+  },
+  ru: {
+    gruppa: "Гормоны гипоталамуса — антагонист ГнРГ (цетрореликс)",
+    farmTasir: "Антагонист гонадотропин-рилизинг-гормона (ГнРГ)",
+    farmakodinamika: `Цетрореликс — синтетический антагонист ГнРГ (гонадолиберина). Быстро и обратимо блокирует рецепторы ГнРГ в гипофизе, подавляя выброс лютеинизирующего (ЛГ) и фолликулостимулирующего (ФСГ) гормонов. Применяется в циклах экстракорпорального оплодотворения (ЭКО/IVF) для предотвращения преждевременного пика ЛГ (овуляции) до созревания фолликулов.`,
+    farmakokinetika: { sorish: "П/к инъекция (быстро)", tarqalish: "В ткани", metabolizm: "Пептидазами", chiqarilish: "С желчью/почками; T½ ~5–60 ч (в зависимости от дозы)" },
+    korsatmalar: ["Предотвращение преждевременной овуляции при контролируемой стимуляции яичников (ЭКО/IVF)"],
+    qarrshi: ["Беременность и лактация", "Тяжёлая почечная/печёночная недостаточность", "Гиперчувствительность к ГнРГ или внешним пептидам"],
+    nojoya: { "Местные": "Покраснение, зуд, отёк в месте инъекции", "Репродуктивные": "Синдром гиперстимуляции яичников (лёгкий-умеренный)", "Прочее": "Головная боль, тошнота" },
+    dozadan: "Вероятность токсичности низкая; симптоматическое наблюдение.",
+    ozarotasir: ["Клинически значимых взаимодействий мало (в рамках протокола стимуляции)"],
+    qollash: { kattalar: "0,25 мг п/к 1 раз в сутки (с фолликула ~14 мм) или однократно 3 мг; по протоколу.", bolalar: "Не применяется" },
+    chiqarish: "Порошок + растворитель для инъекций 0,25 мг; 3 мг (флакон)"
+  },
+  en: {
+    gruppa: "Hypothalamic hormones — GnRH antagonist (cetrorelix)",
+    farmTasir: "Gonadotropin-releasing hormone (GnRH) antagonist",
+    farmakodinamika: `Cetrorelix is a synthetic GnRH (gonadoliberin) antagonist. It rapidly and reversibly blocks pituitary GnRH receptors, suppressing release of luteinising hormone (LH) and follicle-stimulating hormone (FSH). It is used in in-vitro fertilisation (IVF) cycles to prevent a premature LH surge (ovulation) before the follicles mature.`,
+    farmakokinetika: { sorish: "SC injection (rapid)", tarqalish: "Into tissues", metabolizm: "By peptidases", chiqarilish: "Biliary/renal; T½ ~5–60 h (dose-dependent)" },
+    korsatmalar: ["Prevention of premature ovulation in controlled ovarian stimulation (IVF)"],
+    qarrshi: ["Pregnancy and lactation", "Severe renal/hepatic impairment", "Hypersensitivity to GnRH or extrinsic peptides"],
+    nojoya: { "Local": "Redness, itching, swelling at the injection site", "Reproductive": "Ovarian hyperstimulation syndrome (mild-moderate)", "Other": "Headache, nausea" },
+    dozadan: "Toxicity unlikely; supportive monitoring.",
+    ozarotasir: ["Few clinically significant interactions (within the stimulation protocol)"],
+    qollash: { kattalar: "0.25 mg SC once daily (from a follicle ~14 mm) or a single 3 mg dose; per protocol.", bolalar: "Not used" },
+    chiqarish: "Powder + solvent for injection 0.25 mg; 3 mg (vial)"
+  }
 }
 
 };
@@ -34840,6 +35092,13 @@ const PHARMA_DATA = {
 // ALIASLAR — bir xil modda boshqa/dublikat ATX kodi ostida
 // (ilovada o'sha dorilar mavjud yozuvni ko'rsatadi)
 // ═══════════════════════════════════════════════════════════
+
+// ── GORMONLAR (H) kombinatsiya/dublikat kodlari ──
+PHARMA_DATA["H01BB01"]          = PHARMA_DATA["H01BB02"];  // demoksitotsin → oksitotsin
+PHARMA_DATA["H01BB03"]          = PHARMA_DATA["H01BB02"];  // karbetotsin → oksitotsin (uterotonik)
+PHARMA_DATA["H01CC"]            = PHARMA_DATA["H01CC02"];  // relugoliks komb. → GnRH antagonisti
+PHARMA_DATA["H02BX"]            = PHARMA_DATA["H02AB01"];  // betametazon + loratadin → betametazon
+PHARMA_DATA["H03C"]             = PHARMA_DATA["H03CA"];    // yod-β-siklodekstrin → yod terapiyasi
 
 // ── YURAK-QON TOMIR (C) kombinatsiya/dublikat kodlari ──
 PHARMA_DATA["C01DA05"]          = PHARMA_DATA["C01DA"];    // pentaeritritil tetranitrat → nitratlar
