@@ -36512,6 +36512,258 @@ const PHARMA_DATA = {
     qollash: { kattalar: "25–50 mg×3/day; after transaminases normalise, taper and stop gradually.", bolalar: "Not recommended (limited data)" },
     chiqarish: "Tablets 25 mg"
   }
+},
+
+"A11CC05": {
+  uz: {
+    gruppa: "Vitaminlar — D vitamini (xolekaltsiferol, D3)",
+    farmTasir: "D vitamini (kal'siy-fosfor almashinuvini boshqaruvchi)",
+    farmakodinamika: `Xolekaltsiferol (vitamin D3) — teriда ultrabinafsha nur ta'sirида hosil bo'ladigan tabiiy vitamin. Jigarда 25-gidroksivitamin D ga, buyrakда faol 1,25-digidroksivitamin D (kaltsitriol) ga aylanadi. Ichakdа kal'siy va fosfor so'rilishini oshiradi, suyak mineralizatsiyasini va remodellanishni boshqaradi, qonда kal'siy darajasini saqlaydi. Tanqisligida raxit, osteomalyatsiya va osteoporoz rivojlanadi.`,
+    farmakokinetika: { sorish: "Ichakdan (o't bilan, yog'li ovqat yaxshilaydi)", tarqalish: "Yog' to'qimasи va jigarда zaxira", metabolizm: "Jigar (25-OH) → buyrak (1,25-OH)", chiqarilish: "Asosан safro/najas; zaxira uzoq" },
+    korsatmalar: ["D vitamini tanqisligi profilaktikasi va davosi (raxit, osteomalyatsiya)", "Osteoporoz (kal'siy bilan), gipoparatireoz, surункали buyrak kasalligida (kalsitriol bilan)"],
+    qarrshi: ["Gipervitaminoz D, giperkaltsiemiya/giperkaltsiuriya", "Buyrak tosh kasalligi (kaltsiyли), og'ir buyrak yetishmovchiligi", "Sarkoidoz va boshqa granulomatoz kasalliklar (ehtiyot)"],
+    nojoya: { "Ortiqcha doza (gipervitaminoz D)": "Giperkaltsiemiya — ko'ngil aynishi, qusish, ich qotishi, chanqoq, poliuriya, holsizlik", "Buyrak": "Nefrokaltsinoz, tosh (uzoq yuqori doza)", "Yurak": "Aritmiya (og'ir giperkaltsiemiya)" },
+    dozadan: "Gipervitaminoz D/giperkaltsiemiya — D ni to'xtatish, kal'siyни cheklash, suyuqlik, og'irда glyukokortikoid/bisfosfonat.",
+    ozarotasir: ["Tiazid diuretiklar giperkaltsiemiyani kuchaytiradi", "Glyukokortikoidlar, fenitoin/barbituratlar D ta'sirini susaytiradi", "Yurak glikozidlari toksikligi (giperkaltsiemiyada) oshadi"],
+    qollash: { kattalar: "Profilaktika 800–2000 XB/sutka; tanqislikда yuqoriroq (mas. 50000 XB/hafta — nazoratда).", bolalar: "Chaqaloqларда profilaktika 400–1000 XB/sutka; raxitда davo dozasi" },
+    chiqarish: "Tomchilar (XB/tomchи), kapsulalar, tabletkalar 500–50000 XB"
+  },
+  ru: {
+    gruppa: "Витамины — витамин D (холекальциферол, D3)",
+    farmTasir: "Витамин D (регулятор кальций-фосфорного обмена)",
+    farmakodinamika: `Холекальциферол (витамин D3) — природный витамин, образующийся в коже под действием ультрафиолета. В печени превращается в 25-гидроксивитамин D, в почках — в активный 1,25-дигидроксивитамин D (кальцитриол). Повышает всасывание кальция и фосфора в кишечнике, регулирует минерализацию и ремоделирование костей, поддерживает уровень кальция в крови. При дефиците развиваются рахит, остеомаляция и остеопороз.`,
+    farmakokinetika: { sorish: "Из кишечника (с желчью, жирная пища улучшает)", tarqalish: "Депо в жировой ткани и печени", metabolizm: "Печень (25-OH) → почки (1,25-OH)", chiqarilish: "Преимущественно с желчью/калом; депо длительное" },
+    korsatmalar: ["Профилактика и лечение дефицита витамина D (рахит, остеомаляция)", "Остеопороз (с кальцием), гипопаратиреоз, при ХБП (с кальцитриолом)"],
+    qarrshi: ["Гипервитаминоз D, гиперкальциемия/гиперкальциурия", "Мочекаменная болезнь (кальциевая), тяжёлая почечная недостаточность", "Саркоидоз и другие гранулематозы (осторожно)"],
+    nojoya: { "Передозировка (гипервитаминоз D)": "Гиперкальциемия — тошнота, рвота, запор, жажда, полиурия, слабость", "Почки": "Нефрокальциноз, камни (длительная высокая доза)", "Сердце": "Аритмия (тяжёлая гиперкальциемия)" },
+    dozadan: "Гипервитаминоз D/гиперкальциемия — отмена D, ограничение кальция, жидкость, при тяжёлой глюкокортикоид/бисфосфонат.",
+    ozarotasir: ["Тиазидные диуретики усиливают гиперкальциемию", "Глюкокортикоиды, фенитоин/барбитураты ослабляют действие D", "Повышается токсичность сердечных гликозидов (при гиперкальциемии)"],
+    qollash: { kattalar: "Профилактика 800–2000 МЕ/сут; при дефиците выше (напр. 50000 МЕ/нед — под контролем).", bolalar: "Профилактика у младенцев 400–1000 МЕ/сут; при рахите лечебная доза" },
+    chiqarish: "Капли (МЕ/капля), капсулы, таблетки 500–50000 МЕ"
+  },
+  en: {
+    gruppa: "Vitamins — vitamin D (cholecalciferol, D3)",
+    farmTasir: "Vitamin D (regulator of calcium-phosphorus metabolism)",
+    farmakodinamika: `Cholecalciferol (vitamin D3) is a natural vitamin formed in the skin under ultraviolet light. It is converted in the liver to 25-hydroxyvitamin D and in the kidney to active 1,25-dihydroxyvitamin D (calcitriol). It increases intestinal calcium and phosphorus absorption, regulates bone mineralisation and remodelling and maintains blood calcium. Deficiency causes rickets, osteomalacia and osteoporosis.`,
+    farmakokinetika: { sorish: "From the gut (with bile, fatty food improves)", tarqalish: "Stored in fat and liver", metabolizm: "Liver (25-OH) → kidney (1,25-OH)", chiqarilish: "Mainly biliary/faecal; long storage" },
+    korsatmalar: ["Prevention and treatment of vitamin D deficiency (rickets, osteomalacia)", "Osteoporosis (with calcium), hypoparathyroidism, in CKD (with calcitriol)"],
+    qarrshi: ["Hypervitaminosis D, hypercalcaemia/hypercalciuria", "Urolithiasis (calcium), severe renal impairment", "Sarcoidosis and other granulomatoses (caution)"],
+    nojoya: { "Overdose (hypervitaminosis D)": "Hypercalcaemia — nausea, vomiting, constipation, thirst, polyuria, weakness", "Renal": "Nephrocalcinosis, stones (prolonged high dose)", "Cardiac": "Arrhythmia (severe hypercalcaemia)" },
+    dozadan: "Hypervitaminosis D/hypercalcaemia — stop D, restrict calcium, fluids, glucocorticoid/bisphosphonate if severe.",
+    ozarotasir: ["Thiazide diuretics enhance hypercalcaemia", "Glucocorticoids, phenytoin/barbiturates reduce D action", "Increased cardiac glycoside toxicity (in hypercalcaemia)"],
+    qollash: { kattalar: "Prophylaxis 800–2000 IU/day; higher in deficiency (e.g. 50000 IU/week — monitored).", bolalar: "Infant prophylaxis 400–1000 IU/day; treatment dose in rickets" },
+    chiqarish: "Drops (IU/drop), capsules, tablets 500–50000 IU"
+  }
+},
+
+"A11CC01": {
+  uz: {
+    gruppa: "Vitaminlar — D vitamini (ergokaltsiferol, D2)",
+    farmTasir: "D vitamini (kal'siy-fosfor almashinuvi)",
+    farmakodinamika: `Ergokaltsiferol (vitamin D2) — o'simlik/zamburug' manbali D vitamini. Jigar va buyrakда faol shaklга (1,25-(OH)₂D₂) aylanib, xolekaltsiferolга o'xshash tarzда ichakда kal'siy va fosfor so'rilishini oshiradi va suyak mineralizatsiyasini boshqaradi. Raxit va osteomalyatsiya profilaktikasi/davosida qo'llaniladi (D3 ga nisbatan biroz kamroq samarali deb hisoblanadi).`,
+    farmakokinetika: { sorish: "Ichakdan (o't bilan)", tarqalish: "Yog' to'qimasида zaxira", metabolizm: "Jigar/buyrak (gidroksillanish)", chiqarilish: "Asosан safro/najas" },
+    korsatmalar: ["D vitamini tanqisligi, raxit, osteomalyatsiya profilaktikasi va davosi", "Gipoparatireoz, malabsorbsiya fonидagi D tanqisligi"],
+    qarrshi: ["Gipervitaminoz D, giperkaltsiemiya", "Buyrak tosh kasalligi, og'ir buyrak yetishmovchiligi", "Yuqori sezuvchanlik"],
+    nojoya: { "Ortiqcha doza": "Giperkaltsiemiya (ko'ngil aynishi, chanqoq, poliuriya, holsizlik)", "Buyrak": "Nefrokaltsinoz (uzoq yuqori doza)", "Boshqa": "Bosh og'rig'i, ta'm buzilishi" },
+    dozadan: "Gipervitaminoz D — D ni to'xtatish, kal'siyни cheklash, suyuqlik.",
+    ozarotasir: ["Tiazidlar giperkaltsiemiyani kuchaytiradi", "Barbituratlar/fenitoin D ta'sirini susaytiradi", "Yurak glikozidlari toksikligi oshadi"],
+    qollash: { kattalar: "Tanqislikда individual (mas. haftada bir marotaba yuqori doza), nazorat bilan.", bolalar: "Raxit profilaktikasi/davosi yoshга ko'ra" },
+    chiqarish: "Tomchilar, kapsulalar (XB)"
+  },
+  ru: {
+    gruppa: "Витамины — витамин D (эргокальциферол, D2)",
+    farmTasir: "Витамин D (кальций-фосфорный обмен)",
+    farmakodinamika: `Эргокальциферол (витамин D2) — витамин D растительного/грибкового происхождения. В печени и почках превращается в активную форму (1,25-(OH)₂D₂) и, подобно холекальциферолу, повышает всасывание кальция и фосфора в кишечнике и регулирует минерализацию костей. Применяется для профилактики/лечения рахита и остеомаляции (считается несколько менее эффективным, чем D3).`,
+    farmakokinetika: { sorish: "Из кишечника (с желчью)", tarqalish: "Депо в жировой ткани", metabolizm: "Печень/почки (гидроксилирование)", chiqarilish: "Преимущественно с желчью/калом" },
+    korsatmalar: ["Профилактика и лечение дефицита витамина D, рахита, остеомаляции", "Гипопаратиреоз, дефицит D при мальабсорбции"],
+    qarrshi: ["Гипервитаминоз D, гиперкальциемия", "Мочекаменная болезнь, тяжёлая почечная недостаточность", "Гиперчувствительность"],
+    nojoya: { "Передозировка": "Гиперкальциемия (тошнота, жажда, полиурия, слабость)", "Почки": "Нефрокальциноз (длительная высокая доза)", "Прочее": "Головная боль, нарушение вкуса" },
+    dozadan: "Гипервитаминоз D — отмена D, ограничение кальция, жидкость.",
+    ozarotasir: ["Тиазиды усиливают гиперкальциемию", "Барбитураты/фенитоин ослабляют действие D", "Повышается токсичность сердечных гликозидов"],
+    qollash: { kattalar: "При дефиците индивидуально (напр. высокая доза раз в неделю), под контролем.", bolalar: "Профилактика/лечение рахита по возрасту" },
+    chiqarish: "Капли, капсулы (МЕ)"
+  },
+  en: {
+    gruppa: "Vitamins — vitamin D (ergocalciferol, D2)",
+    farmTasir: "Vitamin D (calcium-phosphorus metabolism)",
+    farmakodinamika: `Ergocalciferol (vitamin D2) is a vitamin D of plant/fungal origin. In the liver and kidney it is converted to the active form (1,25-(OH)₂D₂) and, like cholecalciferol, increases intestinal calcium and phosphorus absorption and regulates bone mineralisation. It is used for prevention/treatment of rickets and osteomalacia (considered slightly less potent than D3).`,
+    farmakokinetika: { sorish: "From the gut (with bile)", tarqalish: "Stored in fat", metabolizm: "Liver/kidney (hydroxylation)", chiqarilish: "Mainly biliary/faecal" },
+    korsatmalar: ["Prevention and treatment of vitamin D deficiency, rickets, osteomalacia", "Hypoparathyroidism, D deficiency in malabsorption"],
+    qarrshi: ["Hypervitaminosis D, hypercalcaemia", "Urolithiasis, severe renal impairment", "Hypersensitivity"],
+    nojoya: { "Overdose": "Hypercalcaemia (nausea, thirst, polyuria, weakness)", "Renal": "Nephrocalcinosis (prolonged high dose)", "Other": "Headache, taste disturbance" },
+    dozadan: "Hypervitaminosis D — stop D, restrict calcium, fluids.",
+    ozarotasir: ["Thiazides enhance hypercalcaemia", "Barbiturates/phenytoin reduce D action", "Increased cardiac glycoside toxicity"],
+    qollash: { kattalar: "In deficiency individualised (e.g. high dose once weekly), monitored.", bolalar: "Rickets prophylaxis/treatment by age" },
+    chiqarish: "Drops, capsules (IU)"
+  }
+},
+
+"A11CC03": {
+  uz: {
+    gruppa: "Vitaminlar — D vitamini analogi (alfakaltsidol)",
+    farmTasir: "Faol D vitamini analogi (1α-gidroksilangan)",
+    farmakodinamika: `Alfakaltsidol (1α-gidroksixolekaltsiferol) — D vitaminining faol analogi. Buyrak ishtirokisiz, faqat jigarда tez 25-gidroksillanib faol kaltsitriol (1,25-(OH)₂D) ga aylanadi — shuning uchun buyrak 1α-gidroksillash funksiyasi buzilganда (surункali buyrak kasalligi) ham samarali. Kal'siy so'rilishini oshiradi, paratgormonni kamaytiradi va suyak almashinuvini yaxshilaydi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "To'qimalarга", metabolizm: "Jigarда 25-gidroksillanish (faol shakl)", chiqarilish: "Safro/najas; ta'sir D3 dан tezroq boshlanadi" },
+    korsatmalar: ["Buyrak osteodistrofiyasi (surункали buyrak kasalligi)", "Gipoparatireoz, D-rezistent raxit/osteomalyatsiya, osteoporoz (kalsiy bilan)"],
+    qarrshi: ["Giperkaltsiemiya, gipervitaminoz D", "Yuqori sezuvchanlik", "Ehtiyotkorlik — buyrak tosh kasalligi"],
+    nojoya: { "Metabolik": "Giperkaltsiemiya, giperfosfatemiya (kal'siy/fosfat nazorati shart)", "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i", "Buyrak": "Nefrokaltsinoz (uzoq, nazoratsiz)" },
+    dozadan: "Giperkaltsiemiya — dorini to'xtatish, kal'siyни cheklash; ta'siri D3 dан qisqaroq (tezroq tiklanadi).",
+    ozarotasir: ["Tiazidlar/kal'siy preparatlari giperkaltsiemiyani kuchaytiradi", "Fosfat bog'lovchilar bilan birga (CKD) nazorat", "Yurak glikozidlari toksikligi oshadi"],
+    qollash: { kattalar: "0,25–1 mkg/sutka, kal'siy va PTG bo'yicha titrlash.", bolalar: "Vaznга qarab (mas. 0,05 mkg/kg/sutka), ko'rsatmага ko'ra" },
+    chiqarish: "Kapsulalar/tomchilar 0,25/0,5/1 mkg; in'eksiya eritmasi"
+  },
+  ru: {
+    gruppa: "Витамины — аналог витамина D (альфакальцидол)",
+    farmTasir: "Активный аналог витамина D (1α-гидроксилированный)",
+    farmakodinamika: `Альфакальцидол (1α-гидроксихолекальциферол) — активный аналог витамина D. Без участия почек, только в печени быстро 25-гидроксилируется в активный кальцитриол (1,25-(OH)₂D) — поэтому эффективен и при нарушении почечного 1α-гидроксилирования (ХБП). Повышает всасывание кальция, снижает паратгормон и улучшает костный обмен.`,
+    farmakokinetika: { sorish: "Из кишечника быстро", tarqalish: "В ткани", metabolizm: "25-гидроксилирование в печени (активная форма)", chiqarilish: "С желчью/калом; действие начинается быстрее, чем у D3" },
+    korsatmalar: ["Почечная остеодистрофия (ХБП)", "Гипопаратиреоз, D-резистентный рахит/остеомаляция, остеопороз (с кальцием)"],
+    qarrshi: ["Гиперкальциемия, гипервитаминоз D", "Гиперчувствительность", "Осторожно — мочекаменная болезнь"],
+    nojoya: { "Метаболизм": "Гиперкальциемия, гиперфосфатемия (необходим контроль кальция/фосфата)", "ЖКТ": "Тошнота, боль в животе", "Почки": "Нефрокальциноз (длительно, без контроля)" },
+    dozadan: "Гиперкальциемия — отмена, ограничение кальция; действие короче, чем у D3 (быстрее восстановление).",
+    ozarotasir: ["Тиазиды/препараты кальция усиливают гиперкальциемию", "С фосфатсвязывающими (ХБП) — контроль", "Повышается токсичность сердечных гликозидов"],
+    qollash: { kattalar: "0,25–1 мкг/сут, титрование по кальцию и ПТГ.", bolalar: "По массе (напр. 0,05 мкг/кг/сут), по показаниям" },
+    chiqarish: "Капсулы/капли 0,25/0,5/1 мкг; раствор для инъекций"
+  },
+  en: {
+    gruppa: "Vitamins — vitamin D analogue (alfacalcidol)",
+    farmTasir: "Active vitamin D analogue (1α-hydroxylated)",
+    farmakodinamika: `Alfacalcidol (1α-hydroxycholecalciferol) is an active vitamin D analogue. Without renal involvement, it is rapidly 25-hydroxylated in the liver to active calcitriol (1,25-(OH)₂D) — so it is effective even when renal 1α-hydroxylation is impaired (CKD). It increases calcium absorption, lowers parathyroid hormone and improves bone metabolism.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Into tissues", metabolizm: "25-hydroxylation in the liver (active form)", chiqarilish: "Biliary/faecal; faster onset than D3" },
+    korsatmalar: ["Renal osteodystrophy (CKD)", "Hypoparathyroidism, D-resistant rickets/osteomalacia, osteoporosis (with calcium)"],
+    qarrshi: ["Hypercalcaemia, hypervitaminosis D", "Hypersensitivity", "Caution — urolithiasis"],
+    nojoya: { "Metabolic": "Hypercalcaemia, hyperphosphataemia (calcium/phosphate monitoring required)", "GI": "Nausea, abdominal pain", "Renal": "Nephrocalcinosis (prolonged, unmonitored)" },
+    dozadan: "Hypercalcaemia — withdraw, restrict calcium; shorter action than D3 (faster recovery).",
+    ozarotasir: ["Thiazides/calcium products enhance hypercalcaemia", "With phosphate binders (CKD) — monitor", "Increased cardiac glycoside toxicity"],
+    qollash: { kattalar: "0.25–1 µg/day, titrate by calcium and PTH.", bolalar: "By weight (e.g. 0.05 µg/kg/day), as indicated" },
+    chiqarish: "Capsules/drops 0.25/0.5/1 µg; solution for injection"
+  }
+},
+
+"A11CA01": {
+  uz: {
+    gruppa: "Vitaminlar — A vitamini (retinol)",
+    farmTasir: "A vitamini (ko'rish, epiteliy va o'sish uchun)",
+    farmakodinamika: `Retinol (vitamin A) — yog'da eriydigan vitamin. Ko'z to'r pardasida rodopsin sintezi orqали qorong'iда ko'rishni ta'minlaydi, epiteliy va shilliq qavatlar normal differensiatsiyasi va yaxlitligini saqlaydi, immun funksiya, o'sish va reproduksiyaда ishtirok etadi (retinoik kislota orqали gen ekspressiyasi). Tanqisligida tunги ko'rlik, kseroftalmiya va teri/shilliq o'zgarishlari yuzaga keladi.`,
+    farmakokinetika: { sorish: "Ichakdan (o't/yog' bilan)", tarqalish: "Jigarда katta zaxira", metabolizm: "Jigar", chiqarilish: "Safro/buyrak; zaxira uzoq" },
+    korsatmalar: ["A vitamini tanqisligi (kseroftalmiya, tunги ko'rlik) profilaktikasi va davosi", "Ba'zi teri kasalliklari (yordamчи); malabsorbsiyaда almashtirish"],
+    qarrshi: ["Gipervitaminoz A", "Homiladorlik (yuqori doza — teratogen!)", "Yuqori sezuvchanlik", "Ehtiyotkorlik — jigar kasalligi, alkogolizm"],
+    nojoya: { "O'tkir gipervitaminoz A": "Bosh og'rig'i, ko'ngil aynishi, qusish, intrakranial bosim ortishi", "Surункали": "Teri quruqligi/qichishishi, soch to'kilishi, suyak/bo'g'im og'rig'i, jigar shikastlanishi", "Reproduktiv": "Teratogenlik (homiladorlikда)" },
+    dozadan: "Gipervitaminoz A — dorini to'xtatish, simptomatik; intrakranial bosim nazorati.",
+    ozarotasir: ["Retinoidlar (izotretinoin) bilan gipervitaminoz A xavfi (birga bermaslik)", "Orlistat/kolestiramin so'rilishini kamaytiradi", "Antikoagulyantlar ta'sirini kuchaytirishi mumkin (yuqori doza)"],
+    qollash: { kattalar: "Profilaktika/davo individual (XB); homiladorlikда yuqori dozaдан saqlanish.", bolalar: "Yoshга ko'ra (XB); kseroftalmiyaда WHO sxemasi" },
+    chiqarish: "Kapsulalar/tomchilar (retinol palmitat/atsetat, XB); in'eksiya (moyli)"
+  },
+  ru: {
+    gruppa: "Витамины — витамин A (ретинол)",
+    farmTasir: "Витамин A (для зрения, эпителия и роста)",
+    farmakodinamika: `Ретинол (витамин A) — жирорастворимый витамин. Через синтез родопсина в сетчатке обеспечивает зрение в темноте, поддерживает нормальную дифференцировку и целостность эпителия и слизистых, участвует в иммунной функции, росте и репродукции (экспрессия генов через ретиноевую кислоту). При дефиците развиваются ночная слепота, ксерофтальмия и изменения кожи/слизистых.`,
+    farmakokinetika: { sorish: "Из кишечника (с желчью/жиром)", tarqalish: "Большое депо в печени", metabolizm: "Печень", chiqarilish: "С желчью/почками; депо длительное" },
+    korsatmalar: ["Профилактика и лечение дефицита витамина A (ксерофтальмия, ночная слепота)", "Некоторые болезни кожи (вспомогательно); замещение при мальабсорбции"],
+    qarrshi: ["Гипервитаминоз A", "Беременность (высокая доза — тератогенно!)", "Гиперчувствительность", "Осторожно — болезни печени, алкоголизм"],
+    nojoya: { "Острый гипервитаминоз A": "Головная боль, тошнота, рвота, повышение внутричерепного давления", "Хронический": "Сухость/зуд кожи, выпадение волос, боль в костях/суставах, поражение печени", "Репродуктивные": "Тератогенность (при беременности)" },
+    dozadan: "Гипервитаминоз A — отмена, симптоматически; контроль внутричерепного давления.",
+    ozarotasir: ["С ретиноидами (изотретиноин) риск гипервитаминоза A (не сочетать)", "Орлистат/холестирамин снижают всасывание", "Может усиливать действие антикоагулянтов (высокая доза)"],
+    qollash: { kattalar: "Профилактика/лечение индивидуально (МЕ); при беременности избегать высоких доз.", bolalar: "По возрасту (МЕ); при ксерофтальмии схема ВОЗ" },
+    chiqarish: "Капсулы/капли (ретинола пальмитат/ацетат, МЕ); инъекции (масляные)"
+  },
+  en: {
+    gruppa: "Vitamins — vitamin A (retinol)",
+    farmTasir: "Vitamin A (for vision, epithelium and growth)",
+    farmakodinamika: `Retinol (vitamin A) is a fat-soluble vitamin. Through rhodopsin synthesis in the retina it enables vision in darkness, maintains normal differentiation and integrity of epithelium and mucosae, and participates in immune function, growth and reproduction (gene expression via retinoic acid). Deficiency causes night blindness, xerophthalmia and skin/mucosal changes.`,
+    farmakokinetika: { sorish: "From the gut (with bile/fat)", tarqalish: "Large hepatic store", metabolizm: "Hepatic", chiqarilish: "Biliary/renal; long storage" },
+    korsatmalar: ["Prevention and treatment of vitamin A deficiency (xerophthalmia, night blindness)", "Some skin diseases (adjunct); replacement in malabsorption"],
+    qarrshi: ["Hypervitaminosis A", "Pregnancy (high dose — teratogenic!)", "Hypersensitivity", "Caution — liver disease, alcoholism"],
+    nojoya: { "Acute hypervitaminosis A": "Headache, nausea, vomiting, raised intracranial pressure", "Chronic": "Skin dryness/itching, hair loss, bone/joint pain, liver injury", "Reproductive": "Teratogenicity (in pregnancy)" },
+    dozadan: "Hypervitaminosis A — withdraw, supportive; monitor intracranial pressure.",
+    ozarotasir: ["With retinoids (isotretinoin) risk of hypervitaminosis A (do not combine)", "Orlistat/cholestyramine reduce absorption", "May enhance anticoagulant effect (high dose)"],
+    qollash: { kattalar: "Prophylaxis/treatment individualised (IU); avoid high doses in pregnancy.", bolalar: "By age (IU); WHO schedule in xerophthalmia" },
+    chiqarish: "Capsules/drops (retinol palmitate/acetate, IU); injection (oily)"
+  }
+},
+
+"A11HA03": {
+  uz: {
+    gruppa: "Vitaminlar — E vitamini (tokoferol)",
+    farmTasir: "E vitamini (yog'da eriydigan antioksidant)",
+    farmakodinamika: `Tokoferol (vitamin E) — asosiy yog'da eriydigan antioksidant. Hujayra membranasidagi to'yinmagan yog' kislotalarini lipid peroksidlanishidan himoya qiladi (erkin radikallarni bog'laydi), eritrotsitlar membranasini barqarorlashtiradi, immun funksiya va to'qima yaxlitligini qo'llab-quvvatlaydi. Tanqisligida (kamdan-kam, malabsorbsiyaда) gemoliz va nevrologik buzilishlar yuzaga keladi.`,
+    farmakokinetika: { sorish: "Ichakdan (o't/yog' bilan)", tarqalish: "Yog' to'qimasи va membranalarга", metabolizm: "Jigar", chiqarilish: "Asosан safro/najas" },
+    korsatmalar: ["E vitamini tanqisligi (malabsorbsiya, ba'zi neyromuskulyar holatlar)", "Antioksidant sifatида yordamчи (turli holatlar)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — K vitamini tanqisligi/antikoagulyatsiya (qon ketish xavfi, yuqori doza)"],
+    nojoya: { "Yuqori doza": "Ko'ngil aynishi, diareya, holsizlik, bosh og'rig'i", "Qon": "Qon ketish moyilligi (yuqori doza, K vitamini bilan o'zaro)", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Yuqori doza — oshqozon-ichak buzilishi, qon ketish moyilligi; dozани kamaytirish.",
+    ozarotasir: ["Antikoagulyantlar/antiagregantlar bilan qon ketish xavfi (yuqori doza)", "Orlistat/kolestiramin so'rilishini kamaytiradi", "Temir bilan birga oksidlanish (interval)"],
+    qollash: { kattalar: "Tanqislikда individual (mas. 100–400 mg/sutka); yuqori dozaдан uzoq foydalanmaslik.", bolalar: "Yoshга/vaznга qarab (ko'rsatmага ko'ra)" },
+    chiqarish: "Kapsulalar 100/200/400 mg; tomchilar; in'eksiya (moyli)"
+  },
+  ru: {
+    gruppa: "Витамины — витамин E (токоферол)",
+    farmTasir: "Витамин E (жирорастворимый антиоксидант)",
+    farmakodinamika: `Токоферол (витамин E) — основной жирорастворимый антиоксидант. Защищает ненасыщенные жирные кислоты клеточных мембран от перекисного окисления (связывает свободные радикалы), стабилизирует мембрану эритроцитов, поддерживает иммунную функцию и целостность тканей. При дефиците (редко, при мальабсорбции) развиваются гемолиз и неврологические нарушения.`,
+    farmakokinetika: { sorish: "Из кишечника (с желчью/жиром)", tarqalish: "В жировой ткани и мембранах", metabolizm: "Печень", chiqarilish: "Преимущественно с желчью/калом" },
+    korsatmalar: ["Дефицит витамина E (мальабсорбция, некоторые нейромышечные состояния)", "Как антиоксидант вспомогательно (различные состояния)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — дефицит витамина K/антикоагуляция (риск кровотечения, высокая доза)"],
+    nojoya: { "Высокая доза": "Тошнота, диарея, слабость, головная боль", "Кровь": "Склонность к кровотечениям (высокая доза, взаимодействие с витамином K)", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Высокая доза — ЖКТ-нарушения, склонность к кровотечениям; снизить дозу.",
+    ozarotasir: ["С антикоагулянтами/антиагрегантами риск кровотечения (высокая доза)", "Орлистат/холестирамин снижают всасывание", "Окисление с железом (интервал)"],
+    qollash: { kattalar: "При дефиците индивидуально (напр. 100–400 мг/сут); избегать длительных высоких доз.", bolalar: "По возрасту/массе (по показаниям)" },
+    chiqarish: "Капсулы 100/200/400 мг; капли; инъекции (масляные)"
+  },
+  en: {
+    gruppa: "Vitamins — vitamin E (tocopherol)",
+    farmTasir: "Vitamin E (fat-soluble antioxidant)",
+    farmakodinamika: `Tocopherol (vitamin E) is the main fat-soluble antioxidant. It protects unsaturated fatty acids of cell membranes from lipid peroxidation (scavenging free radicals), stabilises the red cell membrane and supports immune function and tissue integrity. Deficiency (rare, in malabsorption) causes haemolysis and neurological disturbances.`,
+    farmakokinetika: { sorish: "From the gut (with bile/fat)", tarqalish: "Into fat tissue and membranes", metabolizm: "Hepatic", chiqarilish: "Mainly biliary/faecal" },
+    korsatmalar: ["Vitamin E deficiency (malabsorption, some neuromuscular states)", "As an antioxidant adjunct (various conditions)"],
+    qarrshi: ["Hypersensitivity", "Caution — vitamin K deficiency/anticoagulation (bleeding risk, high dose)"],
+    nojoya: { "High dose": "Nausea, diarrhoea, weakness, headache", "Blood": "Bleeding tendency (high dose, interaction with vitamin K)", "Allergic": "Rash (rare)" },
+    dozadan: "High dose — GI upset, bleeding tendency; reduce dose.",
+    ozarotasir: ["With anticoagulants/antiplatelets bleeding risk (high dose)", "Orlistat/cholestyramine reduce absorption", "Oxidation with iron (separate dosing)"],
+    qollash: { kattalar: "In deficiency individualised (e.g. 100–400 mg/day); avoid prolonged high doses.", bolalar: "By age/weight (as indicated)" },
+    chiqarish: "Capsules 100/200/400 mg; drops; injection (oily)"
+  }
+},
+
+"A11HA05": {
+  uz: {
+    gruppa: "Vitaminlar — biotin (vitamin B7/H)",
+    farmTasir: "Biotin (karboksilaza fermentlari kofaktori)",
+    farmakodinamika: `Biotin (vitamin B7/H) — suvда eriydigan B-guruh vitamini. Karboksilaza fermentlarining (piruvat-, atsetil-KoA-, propionil-KoA-karboksilaza) kofaktori sifatида uglevod, yog' va aminokislotalar metabolizmida muhim. Teri, soch va tirnoq sog'lig'i hamда asab funksiyasi uchun zarur. Tanqisligida (kamdan-kam) dermatit, alopetsiya va nevrologik belgilar yuzaga keladi.`,
+    farmakokinetika: { sorish: "Ichakdan (ichak bakteriyalari ham ishlab chiqaradi)", tarqalish: "To'qimalarга", metabolizm: "Kam", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Biotin tanqisligi (uzoq parenteral oziqlanish, biotinidaza tanqisligi)", "Soch to'kilishi, mo'rt tirnoq, ba'zi dermatitlar (yordamчи)"],
+    qarrshi: ["Yuqori sezuvchanlik"],
+    nojoya: { "Boshqa": "Odатда yaxshi ko'tariladi; kamdan-kam allergik reaksiya", "Diagnostik xato": "Yuqori doza laborator immunoanaliz (qalqonsimon, troponin) natijalarini buzishi mumkin" },
+    dozadan: "Toksiklik kutilmaydi (suvда eriydi).",
+    ozarotasir: ["Antiepileptiklar (karbamazepin, fenitoin) biotin darajasini pasaytirishi mumkin", "Yuqori doza biotin laborator testlarга xalaqit beradi (tahlilдан oldin to'xtatish)"],
+    qollash: { kattalar: "Tanqislikда 5–10 mg/sutka; biotinidaza tanqisligida yuqori dozalar.", bolalar: "Biotinidaza tanqisligida 5–10 mg/sutka, ko'rsatmага ko'ra" },
+    chiqarish: "Tabletkalar/kapsulalar 5 mg (va boshqa dozalar)"
+  },
+  ru: {
+    gruppa: "Витамины — биотин (витамин B7/H)",
+    farmTasir: "Биотин (кофактор ферментов-карбоксилаз)",
+    farmakodinamika: `Биотин (витамин B7/H) — водорастворимый витамин группы B. Как кофактор ферментов-карбоксилаз (пируват-, ацетил-КоА-, пропионил-КоА-карбоксилаза) важен в обмене углеводов, жиров и аминокислот. Необходим для здоровья кожи, волос и ногтей, а также для функции нервной системы. При дефиците (редко) развиваются дерматит, алопеция и неврологические симптомы.`,
+    farmakokinetika: { sorish: "Из кишечника (также вырабатывается кишечными бактериями)", tarqalish: "В ткани", metabolizm: "Незначительный", chiqarilish: "Почками" },
+    korsatmalar: ["Дефицит биотина (длительное парентеральное питание, дефицит биотинидазы)", "Выпадение волос, ломкость ногтей, некоторые дерматиты (вспомогательно)"],
+    qarrshi: ["Гиперчувствительность"],
+    nojoya: { "Прочее": "Обычно хорошо переносится; редко аллергические реакции", "Диагностическая ошибка": "Высокие дозы могут искажать результаты лабораторных иммуноанализов (щитовидная железа, тропонин)" },
+    dozadan: "Токсичность не ожидается (водорастворимый).",
+    ozarotasir: ["Антиэпилептики (карбамазепин, фенитоин) могут снижать уровень биотина", "Высокие дозы биотина мешают лабораторным тестам (отменить перед анализом)"],
+    qollash: { kattalar: "При дефиците 5–10 мг/сут; при дефиците биотинидазы высокие дозы.", bolalar: "При дефиците биотинидазы 5–10 мг/сут, по показаниям" },
+    chiqarish: "Таблетки/капсулы 5 мг (и другие дозы)"
+  },
+  en: {
+    gruppa: "Vitamins — biotin (vitamin B7/H)",
+    farmTasir: "Biotin (cofactor of carboxylase enzymes)",
+    farmakodinamika: `Biotin (vitamin B7/H) is a water-soluble B-group vitamin. As a cofactor of carboxylase enzymes (pyruvate, acetyl-CoA, propionyl-CoA carboxylase) it is important in carbohydrate, fat and amino-acid metabolism. It is needed for skin, hair and nail health and for nervous system function. Deficiency (rare) causes dermatitis, alopecia and neurological symptoms.`,
+    farmakokinetika: { sorish: "From the gut (also produced by gut bacteria)", tarqalish: "Into tissues", metabolizm: "Minimal", chiqarilish: "Renal" },
+    korsatmalar: ["Biotin deficiency (prolonged parenteral nutrition, biotinidase deficiency)", "Hair loss, brittle nails, some dermatitis (adjunct)"],
+    qarrshi: ["Hypersensitivity"],
+    nojoya: { "Other": "Usually well tolerated; rarely allergic reactions", "Diagnostic error": "High doses can distort laboratory immunoassays (thyroid, troponin)" },
+    dozadan: "Toxicity not expected (water-soluble).",
+    ozarotasir: ["Antiepileptics (carbamazepine, phenytoin) may lower biotin levels", "High-dose biotin interferes with lab tests (stop before testing)"],
+    qollash: { kattalar: "In deficiency 5–10 mg/day; high doses in biotinidase deficiency.", bolalar: "In biotinidase deficiency 5–10 mg/day, as indicated" },
+    chiqarish: "Tablets/capsules 5 mg (and other strengths)"
+  }
 }
 
 };
