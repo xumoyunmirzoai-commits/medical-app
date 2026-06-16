@@ -36218,6 +36218,300 @@ const PHARMA_DATA = {
     qollash: { kattalar: "1 capsule/sachet 1–3 times/day (with food); during and after an antibiotic course.", bolalar: "Form and dose by age (as indicated)" },
     chiqarish: "Capsules, sachets (powder), drops — live bacteria (CFU)"
   }
+},
+
+"A16AA02": {
+  uz: {
+    gruppa: "Hazm-metabolik vositalar — gepatoprotektor (ademetionin)",
+    farmTasir: "Gepatoprotektor va antidepressiv (S-adenozilmetionin)",
+    farmakodinamika: `Ademetionin (S-adenozil-L-metionin, SAMe) — tabiiy metabolit, hujayradagi muhim metil donori. Transmetillanish (membrana fosfolipidlari sintezi — gepatotsit qayishqoqligini tiklaydi), transsulfatlanish (glutation, taurin sintezi — antioksidant himoya va detoksikatsiya) va aminopropillanish reaksiyalarida ishtirok etadi. Xolestazни kamaytiradi (o't kislotalari chiqarilishini yaxshilab) va depressiyага qarshi ta'sir ko'rsatadi.`,
+    farmakokinetika: { sorish: "Ich (enterosolubil) yoki parenteral", tarqalish: "To'qimalarга", metabolizm: "Metionin sikli orqали", chiqarilish: "Buyrak/najas" },
+    korsatmalar: ["Intragepatik xolestaz (surункали jigar kasalliklari, homiladorlik xolestazi)", "Toksik/alkogol/dori jigar shikastlanishi, steatoz, sirroz (yordamчи)", "Depressiya (yordamчи)"],
+    qarrshi: ["Metionin sikli/B12 metabolizmi genetik buzilishlari (gomotsisteinuriya/гiperhomotsisteinemiya)", "Bipolyar buzilish (maniyага o'tish xavfi)", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, dispepsiya, qorin og'rig'i, diareya", "Asab": "Uyqusizlik, bezovtalik (kechqurun olmaslik), bosh og'rig'i", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik.",
+    ozarotasir: ["Serotoninergik dorilar (SSRI, TSAD, triptanlar) bilan serotonin sindromi xavfi", "Klopidogrel bilan ehtiyotkorlik (nazariy)"],
+    qollash: { kattalar: "Boshlang'ich: 400–800 mg/sutka v/i/v/m (2 hafta), keyin ich 800–1600 mg/sutka.", bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)" },
+    chiqarish: "Enterosolubil tabletkalar 400/500 mg; in'eksiya uchun liofilizat 400/500 mg"
+  },
+  ru: {
+    gruppa: "Пищеварительно-метаболические средства — гепатопротектор (адеметионин)",
+    farmTasir: "Гепатопротектор и антидепрессант (S-аденозилметионин)",
+    farmakodinamika: `Адеметионин (S-аденозил-L-метионин, SAMe) — природный метаболит, важный донор метильных групп в клетке. Участвует в реакциях трансметилирования (синтез мембранных фосфолипидов — восстанавливает текучесть гепатоцита), транссульфурирования (синтез глутатиона, таурина — антиоксидантная защита и детоксикация) и аминопропилирования. Уменьшает холестаз (улучшая выведение желчных кислот) и оказывает антидепрессивное действие.`,
+    farmakokinetika: { sorish: "Внутрь (кишечнорастворимая) или парентерально", tarqalish: "В ткани", metabolizm: "Через цикл метионина", chiqarilish: "Почками/с калом" },
+    korsatmalar: ["Внутрипечёночный холестаз (хронические болезни печени, холестаз беременных)", "Токсическое/алкогольное/лекарственное поражение печени, стеатоз, цирроз (вспомогательно)", "Депрессия (вспомогательно)"],
+    qarrshi: ["Генетические нарушения цикла метионина/обмена B12 (гомоцистинурия/гипергомоцистеинемия)", "Биполярное расстройство (риск перехода в манию)", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Тошнота, диспепсия, боль в животе, диарея", "Нервная система": "Бессонница, беспокойство (не принимать вечером), головная боль", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Вероятность токсичности низкая; симптоматически.",
+    ozarotasir: ["С серотонинергическими препаратами (СИОЗС, ТЦА, триптаны) риск серотонинового синдрома", "С клопидогрелом осторожно (теоретически)"],
+    qollash: { kattalar: "Начально: 400–800 мг/сут в/в/в/м (2 недели), затем внутрь 800–1600 мг/сут.", bolalar: "Не рекомендуется (данные ограничены)" },
+    chiqarish: "Кишечнорастворимые таблетки 400/500 мг; лиофилизат для инъекций 400/500 мг"
+  },
+  en: {
+    gruppa: "Digestive-metabolic agents — hepatoprotector (ademetionine)",
+    farmTasir: "Hepatoprotector and antidepressant (S-adenosylmethionine)",
+    farmakodinamika: `Ademetionine (S-adenosyl-L-methionine, SAMe) is a natural metabolite and a key methyl donor in the cell. It participates in transmethylation (synthesis of membrane phospholipids — restoring hepatocyte fluidity), transsulfuration (synthesis of glutathione, taurine — antioxidant defence and detoxification) and aminopropylation reactions. It reduces cholestasis (improving bile acid excretion) and has an antidepressant effect.`,
+    farmakokinetika: { sorish: "Oral (enteric-coated) or parenteral", tarqalish: "Into tissues", metabolizm: "Via the methionine cycle", chiqarilish: "Renal/faecal" },
+    korsatmalar: ["Intrahepatic cholestasis (chronic liver disease, cholestasis of pregnancy)", "Toxic/alcoholic/drug-induced liver injury, steatosis, cirrhosis (adjunct)", "Depression (adjunct)"],
+    qarrshi: ["Genetic disorders of the methionine cycle/B12 metabolism (homocystinuria/hyperhomocysteinaemia)", "Bipolar disorder (risk of switch to mania)", "Hypersensitivity"],
+    nojoya: { "GI": "Nausea, dyspepsia, abdominal pain, diarrhoea", "Nervous system": "Insomnia, restlessness (avoid in the evening), headache", "Allergic": "Rash (rare)" },
+    dozadan: "Toxicity unlikely; supportive.",
+    ozarotasir: ["With serotonergic drugs (SSRIs, TCAs, triptans) risk of serotonin syndrome", "Caution with clopidogrel (theoretical)"],
+    qollash: { kattalar: "Initial: 400–800 mg/day IV/IM (2 weeks), then oral 800–1600 mg/day.", bolalar: "Not recommended (limited data)" },
+    chiqarish: "Enteric-coated tablets 400/500 mg; lyophilisate for injection 400/500 mg"
+  }
+},
+
+"A16AX01": {
+  uz: {
+    gruppa: "Boshqa metabolik vositalar — antioksidant (tioktik/alfa-lipoik kislota)",
+    farmTasir: "Antioksidant va metabolik vosita (diabetik neyropatiyada)",
+    farmakodinamika: `Tioktik (alfa-lipoik) kislota — tabiiy antioksidant va mitoxondriyal ferment komplekslarining kofaktori (piruvat va alfa-ketoglutarat degidrogenaza). Erkin radikallarni bog'laydi, boshqa antioksidantlar (vitamin C, E, glutation) ni regeneratsiya qiladi, nervда mikrosirkulyatsiya va energetik almashinuvni yaxshilaydi, insulinга sezuvchanlikни biroz oshiradi. Diabetik va alkogol polineyropatiyasida og'riq, uvishish va parestiyani kamaytiradi.`,
+    farmakokinetika: { sorish: "Ich (ovqat so'rilishini kamaytiradi — och qoringa) yoki v/i", tarqalish: "To'qimalarга", metabolizm: "Jigar (oksidlanish/konyugatsiya)", chiqarilish: "Asosан buyrak; T½ qisqa" },
+    korsatmalar: ["Diabetik va alkogol polineyropatiyasi (og'riq, sezgi buzilishi)", "Toksik jigar shikastlanishi (yordamчи)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — homiladorlik/laktatsiya, bolalar (ma'lumot cheklangan)"],
+    nojoya: { "Metabolik": "Gipoglikemiya (insulinга sezuvchanlikни oshirib)", "Oshqozon-ichak": "Ko'ngil aynishi, qusish, qorin og'rig'i", "Tomir (tez v/i)": "Bosh og'rig'i, ko'rish/nafas buzilishi, qisqa muddatли", "Allergik": "Toshma, qichishish" },
+    dozadan: "Yuqori doza — ko'ngil aynishi, gipoglikemiya; simptomatik, glikemiya nazorati.",
+    ozarotasir: ["Insulin/peroral antidiabetiklar ta'sirini kuchaytiradi (gipoglikemiya)", "Sisplatin samarасини pasaytirishi mumkin", "Temir/magniy/kaltsiy bilan xelat hosil qiladi (interval saqlash)"],
+    qollash: { kattalar: "Og'ir holatда 600 mg/sutka v/i (2–4 hafta), keyin ich 600 mg/sutka och qoringa.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar/kapsulalar 300/600 mg; infuziya uchun konsentrat 300/600 mg"
+  },
+  ru: {
+    gruppa: "Прочие метаболические средства — антиоксидант (тиоктовая/альфа-липоевая кислота)",
+    farmTasir: "Антиоксидант и метаболическое средство (при диабетической нейропатии)",
+    farmakodinamika: `Тиоктовая (альфа-липоевая) кислота — природный антиоксидант и кофактор митохондриальных ферментных комплексов (пируват- и альфа-кетоглутаратдегидрогеназы). Связывает свободные радикалы, регенерирует другие антиоксиданты (витамины C, E, глутатион), улучшает микроциркуляцию и энергетический обмен в нерве, немного повышает чувствительность к инсулину. При диабетической и алкогольной полинейропатии уменьшает боль, онемение и парестезии.`,
+    farmakokinetika: { sorish: "Внутрь (пища снижает всасывание — натощак) или в/в", tarqalish: "В ткани", metabolizm: "Печень (окисление/конъюгация)", chiqarilish: "Преимущественно почками; T½ короткий" },
+    korsatmalar: ["Диабетическая и алкогольная полинейропатия (боль, нарушения чувствительности)", "Токсическое поражение печени (вспомогательно)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — беременность/лактация, дети (данные ограничены)"],
+    nojoya: { "Метаболизм": "Гипогликемия (повышая чувствительность к инсулину)", "ЖКТ": "Тошнота, рвота, боль в животе", "Сосуды (быстрое в/в)": "Головная боль, нарушения зрения/дыхания, кратковременно", "Аллергические": "Сыпь, зуд" },
+    dozadan: "Высокая доза — тошнота, гипогликемия; симптоматически, контроль гликемии.",
+    ozarotasir: ["Усиливает действие инсулина/пероральных антидиабетиков (гипогликемия)", "Может снижать эффект цисплатина", "Образует хелаты с железом/магнием/кальцием (соблюдать интервал)"],
+    qollash: { kattalar: "При тяжёлом состоянии 600 мг/сут в/в (2–4 недели), затем внутрь 600 мг/сут натощак.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки/капсулы 300/600 мг; концентрат для инфузий 300/600 мг"
+  },
+  en: {
+    gruppa: "Other metabolic agents — antioxidant (thioctic/alpha-lipoic acid)",
+    farmTasir: "Antioxidant and metabolic agent (in diabetic neuropathy)",
+    farmakodinamika: `Thioctic (alpha-lipoic) acid is a natural antioxidant and cofactor of mitochondrial enzyme complexes (pyruvate and alpha-ketoglutarate dehydrogenase). It scavenges free radicals, regenerates other antioxidants (vitamins C, E, glutathione), improves microcirculation and energy metabolism in nerves, and slightly increases insulin sensitivity. In diabetic and alcoholic polyneuropathy it reduces pain, numbness and paraesthesia.`,
+    farmakokinetika: { sorish: "Oral (food reduces absorption — fasting) or IV", tarqalish: "Into tissues", metabolizm: "Hepatic (oxidation/conjugation)", chiqarilish: "Mainly renal; short T½" },
+    korsatmalar: ["Diabetic and alcoholic polyneuropathy (pain, sensory disturbance)", "Toxic liver injury (adjunct)"],
+    qarrshi: ["Hypersensitivity", "Caution — pregnancy/lactation, children (limited data)"],
+    nojoya: { "Metabolic": "Hypoglycaemia (by increasing insulin sensitivity)", "GI": "Nausea, vomiting, abdominal pain", "Vascular (rapid IV)": "Headache, visual/respiratory disturbance, transient", "Allergic": "Rash, itching" },
+    dozadan: "High dose — nausea, hypoglycaemia; supportive, glycaemic monitoring.",
+    ozarotasir: ["Enhances insulin/oral antidiabetic effect (hypoglycaemia)", "May reduce cisplatin efficacy", "Forms chelates with iron/magnesium/calcium (separate dosing)"],
+    qollash: { kattalar: "In severe cases 600 mg/day IV (2–4 weeks), then oral 600 mg/day fasting.", bolalar: "Not recommended" },
+    chiqarish: "Tablets/capsules 300/600 mg; concentrate for infusion 300/600 mg"
+  }
+},
+
+"A16AA01": {
+  uz: {
+    gruppa: "Boshqa metabolik vositalar — aminokislota hosilasi (levokarnitin)",
+    farmTasir: "Metabolik vosita (yog' kislotalari transporti)",
+    farmakodinamika: `Levokarnitin (L-karnitin) — tabiiy modda, uzun zanjirли yog' kislotalarini mitoxondriya ichiga tashish uchun zarur (beta-oksidlanish va energiya ishlab chiqarish). Karnitin tanqisligida hujayra energetikasini tiklaydi, yog' kislotalari metabolizmini yaxshilaydi, toksik atsil guruhlarini chiqaradi. Birlamchi/ikkilamchi karnitin tanqisligi va metabolik stress holatlarида qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich (cheklangan) yoki v/i", tarqalish: "Mushak va to'qimalarга", metabolizm: "Kam", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Birlamchi va ikkilamchi (dializ, organik atsidemiyalar, valproat) karnitin tanqisligi", "Miokard va skelet mushaklari metabolik buzilishlari (yordamчи); astenik holatlar"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — og'ir buyrak yetishmovchiligi (uzoq, yuqori doza)"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, qusish, qorin og'rig'i, diareya", "Boshqa": "Tana hidida o'zgarish («baliq» hidi — yuqori doza), bezovtalik", "Tomir (v/i)": "Mushak zaifligi (uremiyada)" },
+    dozadan: "Yuqori doza — diareya, tana hidi; simptomatik.",
+    ozarotasir: ["Valproat karnitin darajasини pasaytiradi (qo'shimcha kerak bo'lishi mumkin)", "Antikoagulyantlar (varfarin/atsenokumarol) ta'sirini kuchaytirishi mumkin (INR nazorati)"],
+    qollash: { kattalar: "Ich: 1–3 g/sutka (bo'lib); v/i: tanqislik/dializда ko'rsatmага ko'ra.", bolalar: "50–100 mg/kg/sutka (bo'lib), ko'rsatmага ko'ra" },
+    chiqarish: "Ichish uchun eritma, tabletkalar/kapsulalar; in'eksiya eritmasi"
+  },
+  ru: {
+    gruppa: "Прочие метаболические средства — производное аминокислоты (левокарнитин)",
+    farmTasir: "Метаболическое средство (транспорт жирных кислот)",
+    farmakodinamika: `Левокарнитин (L-карнитин) — природное вещество, необходимое для транспорта длинноцепочечных жирных кислот в митохондрии (бета-окисление и выработка энергии). При дефиците карнитина восстанавливает энергетику клетки, улучшает метаболизм жирных кислот, выводит токсичные ацильные группы. Применяется при первичном/вторичном дефиците карнитина и состояниях метаболического стресса.`,
+    farmakokinetika: { sorish: "Внутрь (ограниченно) или в/в", tarqalish: "В мышцы и ткани", metabolizm: "Незначительный", chiqarilish: "Почками" },
+    korsatmalar: ["Первичный и вторичный (диализ, органические ацидемии, вальпроат) дефицит карнитина", "Метаболические нарушения миокарда и скелетных мышц (вспомогательно); астенические состояния"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — тяжёлая почечная недостаточность (длительно, высокие дозы)"],
+    nojoya: { "ЖКТ": "Тошнота, рвота, боль в животе, диарея", "Прочее": "Изменение запаха тела («рыбный» запах — высокие дозы), беспокойство", "Сосуды (в/в)": "Мышечная слабость (при уремии)" },
+    dozadan: "Высокая доза — диарея, запах тела; симптоматически.",
+    ozarotasir: ["Вальпроат снижает уровень карнитина (может потребоваться добавка)", "Может усиливать действие антикоагулянтов (варфарин/аценокумарол) — контроль МНО"],
+    qollash: { kattalar: "Внутрь: 1–3 г/сут (дробно); в/в: при дефиците/диализе по показаниям.", bolalar: "50–100 мг/кг/сут (дробно), по показаниям" },
+    chiqarish: "Раствор для приёма внутрь, таблетки/капсулы; раствор для инъекций"
+  },
+  en: {
+    gruppa: "Other metabolic agents — amino acid derivative (levocarnitine)",
+    farmTasir: "Metabolic agent (fatty acid transport)",
+    farmakodinamika: `Levocarnitine (L-carnitine) is a natural substance required to transport long-chain fatty acids into mitochondria (beta-oxidation and energy production). In carnitine deficiency it restores cellular energy, improves fatty-acid metabolism and removes toxic acyl groups. It is used in primary/secondary carnitine deficiency and metabolic stress states.`,
+    farmakokinetika: { sorish: "Oral (limited) or IV", tarqalish: "Into muscle and tissues", metabolizm: "Minimal", chiqarilish: "Renal" },
+    korsatmalar: ["Primary and secondary (dialysis, organic acidaemias, valproate) carnitine deficiency", "Metabolic disorders of myocardium and skeletal muscle (adjunct); asthenic states"],
+    qarrshi: ["Hypersensitivity", "Caution — severe renal impairment (prolonged, high dose)"],
+    nojoya: { "GI": "Nausea, vomiting, abdominal pain, diarrhoea", "Other": "Body odour change (\"fishy\" odour — high doses), restlessness", "Vascular (IV)": "Muscle weakness (in uraemia)" },
+    dozadan: "High dose — diarrhoea, body odour; supportive.",
+    ozarotasir: ["Valproate lowers carnitine levels (supplementation may be needed)", "May enhance anticoagulant effect (warfarin/acenocoumarol) — INR monitoring"],
+    qollash: { kattalar: "Oral: 1–3 g/day (divided); IV: for deficiency/dialysis as indicated.", bolalar: "50–100 mg/kg/day (divided), as indicated" },
+    chiqarish: "Oral solution, tablets/capsules; solution for injection"
+  }
+},
+
+"A07B": {
+  uz: {
+    gruppa: "Ichak adsorbentlari (kolloid kremniy dioksidi)",
+    farmTasir: "Enterosorbent (adsorbsion detoksikatsiya)",
+    farmakodinamika: `Kolloid kremniy dioksidi (silikon dioksid) — yuqori sirt maydonли inert enterosorbent. Oshqozon-ichakда so'rilmaydi; toksinlar, bakteriyalar va ularning toksinlari, allergenlar, ortiqcha metabolitlar (bilirubin, mochevina) ni o'z yuzasiga bog'lab najas bilan chiqaradi. Ichak shilliq qavatini himoya qiladi va intoksikatsiyani kamaytiradi.`,
+    farmakokinetika: { sorish: "So'rilmaydi", tarqalish: "Ichak bo'shлиg'ида", metabolizm: "Yo'q", chiqarilish: "O'zgarmagan najas bilan" },
+    korsatmalar: ["O'tkir ichak infeksiyalari va diareya, oziq-ovqat/dori intoksikatsiyasi", "Allergik kasalliklar, endogen intoksikatsiya (jigar/buyrak yetishmovchiligi — yordamчи)"],
+    qarrshi: ["Oshqozon-ichak yara kasalligi avj olishi, qon ketishi", "Ichak atoniyasi/obstruksiyasi", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Ich qotishi, qorin to'lish hissi (uzoq qo'llaganда)", "Boshqa": "Boshqa dorilar/ozuqa moddalari so'rilishini kamaytirishi" },
+    dozadan: "Mahalliy ta'sir; ich qotishi — suyuqlik.",
+    ozarotasir: ["Boshqa dorilar so'rilishini kamaytiradi (1–1,5 soat interval saqlash)"],
+    qollash: { kattalar: "Suvда suspenziya qilib, sutkали doza vaznга qarab (mas. 6–12 g/sutka, bo'lib), ovqatdан 1 soat oldin.", bolalar: "Vaznга qarab kamaytirilган doza (ko'rsatmага ko'ra)" },
+    chiqarish: "Ichak suspenziyasi uchun kukun (paket/banka)"
+  },
+  ru: {
+    gruppa: "Кишечные адсорбенты (коллоидный диоксид кремния)",
+    farmTasir: "Энтеросорбент (адсорбционная детоксикация)",
+    farmakodinamika: `Коллоидный диоксид кремния — инертный энтеросорбент с большой площадью поверхности. Не всасывается в ЖКТ; связывает на своей поверхности токсины, бактерии и их токсины, аллергены, избыточные метаболиты (билирубин, мочевину) и выводит их с калом. Защищает слизистую кишечника и уменьшает интоксикацию.`,
+    farmakokinetika: { sorish: "Не всасывается", tarqalish: "В просвете кишечника", metabolizm: "Нет", chiqarilish: "С калом в неизменённом виде" },
+    korsatmalar: ["Острые кишечные инфекции и диарея, пищевая/лекарственная интоксикация", "Аллергические болезни, эндогенная интоксикация (печёночная/почечная недостаточность — вспомогательно)"],
+    qarrshi: ["Обострение язвенной болезни ЖКТ, кровотечение", "Атония/обструкция кишечника", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Запор, чувство переполнения живота (при длительном применении)", "Прочее": "Снижение всасывания других препаратов/нутриентов" },
+    dozadan: "Местное действие; запор — жидкость.",
+    ozarotasir: ["Снижает всасывание других препаратов (интервал 1–1,5 ч)"],
+    qollash: { kattalar: "В виде суспензии в воде, суточная доза по массе тела (напр. 6–12 г/сут, дробно), за 1 ч до еды.", bolalar: "Сниженная доза по массе (по показаниям)" },
+    chiqarish: "Порошок для приготовления суспензии (пакет/банка)"
+  },
+  en: {
+    gruppa: "Intestinal adsorbents (colloidal silicon dioxide)",
+    farmTasir: "Enterosorbent (adsorptive detoxification)",
+    farmakodinamika: `Colloidal silicon dioxide is an inert enterosorbent with a large surface area. Not absorbed in the GI tract, it binds toxins, bacteria and their toxins, allergens and excess metabolites (bilirubin, urea) to its surface and removes them in the faeces. It protects the intestinal mucosa and reduces intoxication.`,
+    farmakokinetika: { sorish: "Not absorbed", tarqalish: "In the gut lumen", metabolizm: "None", chiqarilish: "Unchanged in faeces" },
+    korsatmalar: ["Acute intestinal infections and diarrhoea, food/drug intoxication", "Allergic diseases, endogenous intoxication (hepatic/renal failure — adjunct)"],
+    qarrshi: ["Exacerbation of GI ulcer disease, bleeding", "Intestinal atony/obstruction", "Hypersensitivity"],
+    nojoya: { "GI": "Constipation, abdominal fullness (with prolonged use)", "Other": "Reduced absorption of other drugs/nutrients" },
+    dozadan: "Local action; constipation — fluids.",
+    ozarotasir: ["Reduces absorption of other drugs (1–1.5 h interval)"],
+    qollash: { kattalar: "As a suspension in water, daily dose by body weight (e.g. 6–12 g/day, divided), 1 h before meals.", bolalar: "Reduced dose by weight (as indicated)" },
+    chiqarish: "Powder for oral suspension (sachet/jar)"
+  }
+},
+
+"A07AB02": {
+  uz: {
+    gruppa: "Ichak antiinfektivlari — sulfanilamidlar (ftalilsulfatiazol)",
+    farmTasir: "Ichak antibakterial vositasi (so'rilmaydigan sulfanilamid)",
+    farmakodinamika: `Ftalilsulfatiazol (ftalazol) — ichakda so'rilmaydigan sulfanilamid. Ichak bo'shлиg'ида asta-sekin faol sulfatiazolга ajraladi; bakteriyalarда folat (digidrofolat) sintezini bloklab (PABK antagonisti) ko'pchilik ichak patogenlari ko'payishini bostiradi (bakteriostatik). Tizimli so'rilishi past — ta'siri asosан ichakда mahalliy; yallig'lanishga qarshi ta'sir ham bor.`,
+    farmakokinetika: { sorish: "Ichakda kam so'riladi (~5%)", tarqalish: "Asosан ichakда", metabolizm: "Ichakда sulfatiazolга", chiqarilish: "Asosан najas; oz qismi buyrak" },
+    korsatmalar: ["O'tkir ichak infeksiyalari (dizenteriya, enterokolit, gastroenterit)", "Ichak operatsiyasi oldidan/keyin (mikroflorани kamaytirish)"],
+    qarrshi: ["Sulfanilamidlarга yuqori sezuvchanlik", "Qon kasalliklari, og'ir buyrak/jigar yetishmovchiligi", "Ichak obstruksiyasi; G6FD tanqisligi (gemoliz)"],
+    nojoya: { "Qon": "Leykopeniya, agranulotsitoz, gemolitik anemiya (G6FD), kamdan-kam", "Oshqozon-ichak": "Ko'ngil aynishi, dispepsiya; B guruh vitaminlari sintezi pasayishi (uzoq)", "Allergik": "Toshma, isitma; buyrak (kristalluriya)" },
+    dozadan: "Yuqori doza — kristalluriya, qon o'zgarishlari; suyuqlik, ishqoriy ichish, nazorat.",
+    ozarotasir: ["Antikoagulyantlar, sulfanilmochevina ta'sirini kuchaytirishi mumkin (oqsildan siqib chiqarish)", "PABK saqlovchi mahalliy anestetiklar (prokain) samarасини pasaytiradi"],
+    qollash: { kattalar: "1 g (2 tab)×4–6/sutka birinchi kunlarда, keyin kamaytirib; kurs 5–7 kun.", bolalar: "Yoshга/vaznга qarab (ko'rsatmага ko'ra)" },
+    chiqarish: "Tabletkalar 500 mg"
+  },
+  ru: {
+    gruppa: "Кишечные антиинфективные — сульфаниламиды (фталилсульфатиазол)",
+    farmTasir: "Кишечное антибактериальное средство (невсасывающийся сульфаниламид)",
+    farmakodinamika: `Фталилсульфатиазол (фталазол) — невсасывающийся в кишечнике сульфаниламид. В просвете кишечника постепенно отщепляет активный сульфатиазол; блокируя синтез фолата (дигидрофолата) у бактерий (антагонист ПАБК), подавляет размножение большинства кишечных патогенов (бактериостатически). Системное всасывание низкое — действие преимущественно местное в кишечнике; есть и противовоспалительный эффект.`,
+    farmakokinetika: { sorish: "Мало всасывается в кишечнике (~5%)", tarqalish: "Преимущественно в кишечнике", metabolizm: "В кишечнике до сульфатиазола", chiqarilish: "Преимущественно с калом; малая часть почками" },
+    korsatmalar: ["Острые кишечные инфекции (дизентерия, энтероколит, гастроэнтерит)", "До/после операции на кишечнике (снижение микрофлоры)"],
+    qarrshi: ["Гиперчувствительность к сульфаниламидам", "Болезни крови, тяжёлая почечная/печёночная недостаточность", "Кишечная обструкция; дефицит Г6ФД (гемолиз)"],
+    nojoya: { "Кровь": "Лейкопения, агранулоцитоз, гемолитическая анемия (Г6ФД), редко", "ЖКТ": "Тошнота, диспепсия; снижение синтеза витаминов группы B (длительно)", "Аллергические": "Сыпь, лихорадка; почки (кристаллурия)" },
+    dozadan: "Высокая доза — кристаллурия, изменения крови; жидкость, щелочное питьё, контроль.",
+    ozarotasir: ["Может усиливать действие антикоагулянтов, сульфонилмочевины (вытеснение из связи с белком)", "Снижает эффект местных анестетиков, содержащих ПАБК (прокаин)"],
+    qollash: { kattalar: "1 г (2 таб)×4–6/сут в первые дни, затем снижая; курс 5–7 дней.", bolalar: "По возрасту/массе (по показаниям)" },
+    chiqarish: "Таблетки 500 мг"
+  },
+  en: {
+    gruppa: "Intestinal anti-infectives — sulfonamides (phthalylsulfathiazole)",
+    farmTasir: "Intestinal antibacterial (non-absorbed sulfonamide)",
+    farmakodinamika: `Phthalylsulfathiazole is a sulfonamide that is not absorbed in the gut. In the gut lumen it gradually releases active sulfathiazole; by blocking folate (dihydrofolate) synthesis in bacteria (a PABA antagonist) it suppresses proliferation of most intestinal pathogens (bacteriostatic). Systemic absorption is low — its action is mainly local in the gut; it also has an anti-inflammatory effect.`,
+    farmakokinetika: { sorish: "Little absorbed in the gut (~5%)", tarqalish: "Mainly in the gut", metabolizm: "To sulfathiazole in the gut", chiqarilish: "Mainly faecal; small part renal" },
+    korsatmalar: ["Acute intestinal infections (dysentery, enterocolitis, gastroenteritis)", "Before/after bowel surgery (reducing microflora)"],
+    qarrshi: ["Hypersensitivity to sulfonamides", "Blood disorders, severe renal/hepatic impairment", "Intestinal obstruction; G6PD deficiency (haemolysis)"],
+    nojoya: { "Blood": "Leukopenia, agranulocytosis, haemolytic anaemia (G6PD), rare", "GI": "Nausea, dyspepsia; reduced B-vitamin synthesis (prolonged)", "Allergic": "Rash, fever; renal (crystalluria)" },
+    dozadan: "High dose — crystalluria, blood changes; fluids, alkaline drinks, monitoring.",
+    ozarotasir: ["May enhance anticoagulants, sulfonylureas (protein displacement)", "Reduces the effect of PABA-containing local anaesthetics (procaine)"],
+    qollash: { kattalar: "1 g (2 tab)×4–6/day for the first days, then tapering; course 5–7 days.", bolalar: "By age/weight (as indicated)" },
+    chiqarish: "Tablets 500 mg"
+  }
+},
+
+"A14AB01": {
+  uz: {
+    gruppa: "Anabolik steroidlar (nandrolon dekanoat)",
+    farmTasir: "Anabolik steroid (oqsil sintezini rag'batlantiruvchi)",
+    farmakodinamika: `Nandrolon dekanoat — sintetik anabolik-androgen steroid (testosteron hosilasi), androgen faolligi nisbatan past. Androgen retseptorlari orqали oqsil sintezini va azot saqlanishini oshiradi (anabolik), eritropoezni rag'batlantiradi, suyak iligida qizil qon hosil bo'lishini va kal'siy o'tirishini kuchaytiradi. Katabolik holatlar, anemiya va osteoporozda yordamчи sifatида ishlatiladi; depo (dekanoat) shakli uzoq ta'sirli.`,
+    farmakokinetika: { sorish: "Chuqur v/m (depo, sekin so'riladi)", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали; ta'sir 2–3 hafta" },
+    korsatmalar: ["Og'ir katabolik/distrofik holatlar (surункали kasallik, jarohatdан keyin)", "Aplastik/buyrak anemiyasi (yordamчи), osteoporoz (cheklangan)"],
+    qarrshi: ["Prostata yoki sut bezi raki (erkaklarда)", "Homiladorlik va laktatsiya", "Og'ir jigar/buyrak yetishmovchiligi, giperkaltsiemiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Endokrin": "Ayollarда virilizatsiya (tukli bo'lish, ovoz dag'allashuvi), bola va o'smirда epifiz erta yopilishi", "Jigar": "Xolestaz, jigar fermentlari ko'tarilishi", "Metabolik": "Suyuqlik/natriy ushlanishi, lipid profili yomonlashuvi", "Reproduktiv": "Erkaklarда spermatogenez bostirilishi" },
+    dozadan: "Uzoq qo'llashда virilizatsiya, jigar/lipid o'zgarishlari; dorini to'xtatish, nazorat.",
+    ozarotasir: ["Antikoagulyantlar (varfarin) ta'sirini kuchaytiradi (INR nazorati)", "Insulin/peroral antidiabetik ehtiyojini o'zgartirishi mumkin", "Gepatotoksik dorilar bilan jigar xavfi"],
+    qollash: { kattalar: "25–50 mg chuqur v/m har 2–3 haftaда (ko'rsatmага ko'ra).", bolalar: "Faqat qat'iy ko'rsatma va mutaxassis nazoratида (o'sish zonasi nazorati)" },
+    chiqarish: "In'eksiya uchun moyli eritma 25/50 mg/ml (ampula)"
+  },
+  ru: {
+    gruppa: "Анаболические стероиды (нандролона деканоат)",
+    farmTasir: "Анаболический стероид (стимулятор синтеза белка)",
+    farmakodinamika: `Нандролона деканоат — синтетический анаболическо-андрогенный стероид (производное тестостерона) с относительно низкой андрогенной активностью. Через андрогенные рецепторы повышает синтез белка и задержку азота (анаболическое действие), стимулирует эритропоэз, образование эритроцитов в костном мозге и отложение кальция. Применяется как вспомогательное средство при катаболических состояниях, анемии и остеопорозе; депо-форма (деканоат) длительного действия.`,
+    farmakokinetika: { sorish: "Глубоко в/м (депо, медленное всасывание)", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками; действие 2–3 недели" },
+    korsatmalar: ["Тяжёлые катаболические/дистрофические состояния (хроническая болезнь, после травмы)", "Апластическая/почечная анемия (вспомогательно), остеопороз (ограниченно)"],
+    qarrshi: ["Рак простаты или молочной железы (у мужчин)", "Беременность и лактация", "Тяжёлая печёночная/почечная недостаточность, гиперкальциемия", "Гиперчувствительность"],
+    nojoya: { "Эндокринные": "Вирилизация у женщин (гирсутизм, огрубение голоса), раннее закрытие зон роста у детей/подростков", "Печень": "Холестаз, повышение печёночных ферментов", "Метаболизм": "Задержка жидкости/натрия, ухудшение липидного профиля", "Репродуктивные": "Подавление сперматогенеза у мужчин" },
+    dozadan: "При длительном применении вирилизация, изменения печени/липидов; отмена, контроль.",
+    ozarotasir: ["Усиливает действие антикоагулянтов (варфарин) — контроль МНО", "Может менять потребность в инсулине/пероральных антидиабетиках", "С гепатотоксичными препаратами риск для печени"],
+    qollash: { kattalar: "25–50 мг глубоко в/м каждые 2–3 недели (по показаниям).", bolalar: "Только по строгим показаниям под наблюдением специалиста (контроль зон роста)" },
+    chiqarish: "Масляный раствор для инъекций 25/50 мг/мл (ампулы)"
+  },
+  en: {
+    gruppa: "Anabolic steroids (nandrolone decanoate)",
+    farmTasir: "Anabolic steroid (protein synthesis stimulant)",
+    farmakodinamika: `Nandrolone decanoate is a synthetic anabolic-androgenic steroid (a testosterone derivative) with relatively low androgenic activity. Via androgen receptors it increases protein synthesis and nitrogen retention (anabolic), stimulates erythropoiesis, red cell formation in marrow and calcium deposition. It is used as an adjunct in catabolic states, anaemia and osteoporosis; the depot (decanoate) form is long-acting.`,
+    farmakokinetika: { sorish: "Deep IM (depot, slow absorption)", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal; action 2–3 weeks" },
+    korsatmalar: ["Severe catabolic/dystrophic states (chronic illness, after trauma)", "Aplastic/renal anaemia (adjunct), osteoporosis (limited)"],
+    qarrshi: ["Prostate or breast cancer (in men)", "Pregnancy and lactation", "Severe hepatic/renal impairment, hypercalcaemia", "Hypersensitivity"],
+    nojoya: { "Endocrine": "Virilisation in women (hirsutism, voice deepening), premature epiphyseal closure in children/adolescents", "Liver": "Cholestasis, raised liver enzymes", "Metabolic": "Fluid/sodium retention, worsened lipid profile", "Reproductive": "Suppression of spermatogenesis in men" },
+    dozadan: "With prolonged use virilisation, liver/lipid changes; withdraw, monitor.",
+    ozarotasir: ["Enhances anticoagulant effect (warfarin) — INR monitoring", "May alter insulin/oral antidiabetic requirements", "Liver risk with hepatotoxic drugs"],
+    qollash: { kattalar: "25–50 mg deep IM every 2–3 weeks (as indicated).", bolalar: "Only on strict indication under specialist supervision (growth-plate monitoring)" },
+    chiqarish: "Oily solution for injection 25/50 mg/mL (ampoules)"
+  }
+},
+
+"A05B": {
+  uz: {
+    gruppa: "Jigar vositalari — gepatoprotektor (bisiklol)",
+    farmTasir: "Gepatoprotektor (antioksidant va antinekrotik)",
+    farmakodinamika: `Bisiklol — sintetik gepatoprotektor (shizandrin hosilasiga yaqin). Gepatotsitlarda lipid peroksidlanishini kamaytiradi (antioksidant), mitoxondriya va hujayra membranasini himoya qiladi, jigar fermentlari (ALT/AST) ko'tarilishini pasaytiradi, oqsil sintezi va detoksikatsiyani qo'llab-quvvatlaydi. Surункали virusли va dori/toksik gepatitда transaminazani normallashtirish uchun qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich (yog'li ovqat so'rilishini oshiradi)", tarqalish: "Asosан jigarда", metabolizm: "Jigar", chiqarilish: "Asosан najas/safro" },
+    korsatmalar: ["Surункали virusли gepatit (transaminaza ko'tarilishi)", "Dori/toksik jigar shikastlanishi (transaminazani kamaytirish)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — dekompensatsiyalangan jigar sirrozi, homiladorlik/laktatsiya"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, qorin noqulayligi", "Asab": "Bosh aylanishi, toshma (kamdan-kam)", "Boshqa": "Transaminaza «sakrashi» dorini to'xtatishда (qaytib ko'tarilish)" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "25–50 mg×3/sutka; transaminaza normallashgach asta kamaytirib to'xtatish.", bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)" },
+    chiqarish: "Tabletkalar 25 mg"
+  },
+  ru: {
+    gruppa: "Средства для печени — гепатопротектор (бициклол)",
+    farmTasir: "Гепатопротектор (антиоксидантный и антинекротический)",
+    farmakodinamika: `Бициклол — синтетический гепатопротектор (близок к производному шизандрина). Снижает перекисное окисление липидов в гепатоцитах (антиоксидант), защищает митохондрии и клеточную мембрану, уменьшает повышение печёночных ферментов (АЛТ/АСТ), поддерживает синтез белка и детоксикацию. Применяется при хроническом вирусном и лекарственном/токсическом гепатите для нормализации трансаминаз.`,
+    farmakokinetika: { sorish: "Внутрь (жирная пища повышает всасывание)", tarqalish: "Преимущественно в печени", metabolizm: "Печень", chiqarilish: "Преимущественно с калом/желчью" },
+    korsatmalar: ["Хронический вирусный гепатит (повышение трансаминаз)", "Лекарственное/токсическое поражение печени (снижение трансаминаз)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — декомпенсированный цирроз печени, беременность/лактация"],
+    nojoya: { "ЖКТ": "Тошнота, дискомфорт в животе", "Нервная система": "Головокружение, сыпь (редко)", "Прочее": "«Скачок» трансаминаз при отмене (повторное повышение)" },
+    dozadan: "Вероятность токсичности низкая; симптоматически.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "25–50 мг×3/сут; после нормализации трансаминаз постепенно снижать и отменять.", bolalar: "Не рекомендуется (данные ограничены)" },
+    chiqarish: "Таблетки 25 мг"
+  },
+  en: {
+    gruppa: "Liver agents — hepatoprotector (bicyclol)",
+    farmTasir: "Hepatoprotector (antioxidant and antinecrotic)",
+    farmakodinamika: `Bicyclol is a synthetic hepatoprotector (related to a schisandrin derivative). It reduces lipid peroxidation in hepatocytes (antioxidant), protects mitochondria and the cell membrane, lowers the rise in liver enzymes (ALT/AST), and supports protein synthesis and detoxification. It is used in chronic viral and drug/toxic hepatitis to normalise transaminases.`,
+    farmakokinetika: { sorish: "Oral (fatty food increases absorption)", tarqalish: "Mainly in the liver", metabolizm: "Hepatic", chiqarilish: "Mainly faecal/biliary" },
+    korsatmalar: ["Chronic viral hepatitis (raised transaminases)", "Drug/toxic liver injury (lowering transaminases)"],
+    qarrshi: ["Hypersensitivity", "Caution — decompensated cirrhosis, pregnancy/lactation"],
+    nojoya: { "GI": "Nausea, abdominal discomfort", "Nervous system": "Dizziness, rash (rare)", "Other": "Transaminase \"rebound\" on withdrawal" },
+    dozadan: "Toxicity unlikely; supportive.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "25–50 mg×3/day; after transaminases normalise, taper and stop gradually.", bolalar: "Not recommended (limited data)" },
+    chiqarish: "Tablets 25 mg"
+  }
 }
 
 };
