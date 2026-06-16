@@ -38948,6 +38948,342 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Renal anaemia: initial ~50 units/kg×3/week SC/IV, titrate by Hb response; ensure iron stores.", bolalar: "By weight (same principle), under specialist supervision" },
     chiqarish: "Pre-filled syringes/vials (1000–40000 units)"
   }
+},
+
+"B05AA01": {
+  uz: {
+    gruppa: "Qon o'rnini bosuvchilar va plazma fraksiyalari (inson albumini)",
+    farmTasir: "Kolloid plazma o'rnini bosuvchi (onkotik bosim tiklovchi)",
+    farmakodinamika: `Inson albumini — donor plazmasidan olinган asosiy plazma oqsili. Qonning kolloid-onkotik bosimini (~80% albumin ta'minlaydi) tiklab tomir ichida suyuqlikni ushlab turadi va to'qima suyuqligini tomirga tortadi (gipovolemiya va shishni kamaytiradi); shuningdek bilirubin, dorilar, gormonlar, ionlar tashuvchisi sifatида ham ishlaydi. 5% eritma izoonkotik (hajmni to'ldirish), 20–25% giperonkotik (suyuqlikni tortish) maqsadда ishlatiladi.`,
+    farmakokinetika: { sorish: "Faqat v/i (infuziya)", tarqalish: "Asosан tomir ichi (~40% plazmada)", metabolizm: "Oqsil katabolizmi (jigar va boshqa to'qimalar)", chiqarilish: "Aminokislotalarга parchalanadi; T½ ~19 kun" },
+    korsatmalar: ["Gipovolemiya/shok (qon yo'qotish, kuyish, jarrohlik) — hajm to'ldirish", "Og'ir gipoalbuminemiya (nefrotik sindrom, jigar sirrozi, parasentezdан keyin)", "Almashtirish-plazmaferez, yangi tug'ilganда og'ir giperbilirubinemiya (yordamчi)"],
+    qarrshi: ["Yurak yetishmovchiligi/o'pka shishi (hajm yuklamasi xavfi)", "Og'ir anemiya, gipervolemiya", "Albuminга yuqori sezuvchanlik"],
+    nojoya: { "Yurak-tomir": "Hajm ortishi/o'pka shishi (tez yoki ortiqcha infuziya), gipertenziya", "Immun": "Allergik/anafilaktoid reaksiya (kamdan-kam, isitma, qaltirash)", "Metabolik": "Elektrolit muvozanati o'zgarishi (katta hajmда)" },
+    dozadan: "Hajm yuklamasi/o'pka shishi — infuziyani sekinlashtirish/to'xtatish, diuretik; gemodinamika nazorati.",
+    ozarotasir: ["Klinik ahamiyatga ega farmakologik o'zaro ta'sirlar kam (suyultirish uchun mos eritma tanlash muhim)"],
+    qollash: { kattalar: "Holatga qarab: 5% (hajm to'ldirish) yoki 20–25% (onkotik); doza klinik javob va oqsil darajasiga ko'ra.", bolalar: "Vaznга qarab (mas. 0,5–1 g/kg), gemodinamika nazoratида" },
+    chiqarish: "Infuziya uchun eritma 5%, 10%, 20%, 25% (flakon)"
+  },
+  ru: {
+    gruppa: "Кровезаменители и препараты плазмы (альбумин человека)",
+    farmTasir: "Коллоидный плазмозаменитель (восстанавливающий онкотическое давление)",
+    farmakodinamika: `Альбумин человека — основной белок плазмы, получаемый из донорской плазмы. Восстанавливая коллоидно-онкотическое давление крови (~80% обеспечивает альбумин), удерживает жидкость в сосудистом русле и притягивает тканевую жидкость в сосуд (уменьшая гиповолемию и отёки); также служит переносчиком билирубина, лекарств, гормонов, ионов. 5% раствор изоонкотический (восполнение объёма), 20–25% гиперонкотический (притягивание жидкости).`,
+    farmakokinetika: { sorish: "Только в/в (инфузия)", tarqalish: "Преимущественно внутрисосудисто (~40% в плазме)", metabolizm: "Катаболизм белка (печень и другие ткани)", chiqarilish: "Распадается до аминокислот; T½ ~19 дней" },
+    korsatmalar: ["Гиповолемия/шок (кровопотеря, ожоги, операция) — восполнение объёма", "Тяжёлая гипоальбуминемия (нефротический синдром, цирроз печени, после парацентеза)", "Обменный плазмаферез, тяжёлая гипербилирубинемия новорождённых (вспомогательно)"],
+    qarrshi: ["Сердечная недостаточность/отёк лёгких (риск перегрузки объёмом)", "Тяжёлая анемия, гиперволемия", "Гиперчувствительность к альбумину"],
+    nojoya: { "Сердечно-сосудистые": "Перегрузка объёмом/отёк лёгких (быстрая или избыточная инфузия), гипертензия", "Иммунные": "Аллергические/анафилактоидные реакции (редко, лихорадка, озноб)", "Метаболизм": "Изменение электролитного баланса (при больших объёмах)" },
+    dozadan: "Перегрузка объёмом/отёк лёгких — замедлить/прекратить инфузию, диуретик; контроль гемодинамики.",
+    ozarotasir: ["Клинически значимых фармакологических взаимодействий мало (важен выбор подходящего раствора для разведения)"],
+    qollash: { kattalar: "По ситуации: 5% (восполнение объёма) или 20–25% (онкотическое); доза по клиническому ответу и уровню белка.", bolalar: "По массе (напр. 0,5–1 г/кг), под контролем гемодинамики" },
+    chiqarish: "Раствор для инфузий 5%, 10%, 20%, 25% (флакон)"
+  },
+  en: {
+    gruppa: "Blood substitutes and plasma fractions (human albumin)",
+    farmTasir: "Colloid plasma substitute (restores oncotic pressure)",
+    farmakodinamika: `Human albumin is the main plasma protein, derived from donor plasma. By restoring blood colloid-oncotic pressure (~80% provided by albumin) it holds fluid in the vascular bed and draws tissue fluid into the vessel (reducing hypovolaemia and oedema); it also acts as a carrier of bilirubin, drugs, hormones and ions. The 5% solution is iso-oncotic (volume replacement), 20–25% hyperoncotic (fluid drawing).`,
+    farmakokinetika: { sorish: "IV only (infusion)", tarqalish: "Mainly intravascular (~40% in plasma)", metabolizm: "Protein catabolism (liver and other tissues)", chiqarilish: "Broken down to amino acids; T½ ~19 days" },
+    korsatmalar: ["Hypovolaemia/shock (blood loss, burns, surgery) — volume replacement", "Severe hypoalbuminaemia (nephrotic syndrome, cirrhosis, after paracentesis)", "Exchange plasmapheresis, severe neonatal hyperbilirubinaemia (adjunct)"],
+    qarrshi: ["Heart failure/pulmonary oedema (volume overload risk)", "Severe anaemia, hypervolaemia", "Hypersensitivity to albumin"],
+    nojoya: { "Cardiovascular": "Volume overload/pulmonary oedema (rapid or excessive infusion), hypertension", "Immune": "Allergic/anaphylactoid reactions (rare, fever, chills)", "Metabolic": "Electrolyte balance changes (with large volumes)" },
+    dozadan: "Volume overload/pulmonary oedema — slow/stop infusion, diuretic; monitor haemodynamics.",
+    ozarotasir: ["Few clinically significant pharmacological interactions (choosing a suitable diluent matters)"],
+    qollash: { kattalar: "By situation: 5% (volume replacement) or 20–25% (oncotic); dose by clinical response and protein level.", bolalar: "By weight (e.g. 0.5–1 g/kg), under haemodynamic monitoring" },
+    chiqarish: "Solution for infusion 5%, 10%, 20%, 25% (vial)"
+  }
+},
+
+"B05AA05": {
+  uz: {
+    gruppa: "Qon o'rnini bosuvchilar — kolloidlar (dekstran)",
+    farmTasir: "Kolloid plazma o'rnini bosuvchi (hajm to'ldiruvchi)",
+    farmakodinamika: `Dekstran — bakterial (Leuconostoc) sintezли polisaxarid kolloid. Yuqori molekulali (dekstran-70) tomir ichida onkotik bosim hosil qilib suyuqlikni ushlaydi va aylanma qon hajmini oshiradi (plazma o'rnini bosadi); past molekulali (dekstran-40) qon mikrosirkulyatsiyasini yaxshilaydi, eritrotsit/trombotsit agregatsiyasини va qovushqoqlikni kamaytiradi (reologik ta'sir, antitromboz). Gipovolemiya va mikrosirkulyatsiya buzilishларида ishlatilgan.`,
+    farmakokinetika: { sorish: "Faqat v/i", tarqalish: "Tomir ichida", metabolizm: "Dekstranaza (qisman)", chiqarilish: "Asosан buyrak (kichik molekulalar tez), qolgani sekin" },
+    korsatmalar: ["Gipovolemik shok va hajm to'ldirish (qon yo'qotish, kuyish, jarrohlik)", "Mikrosirkulyatsiya buzilishlari, tromboz profilaktikasi (dekstran-40 — reologik)"],
+    qarrshi: ["Yurak yetishmovchiligi, o'pka shishi, gipervolemiya", "Og'ir buyrak yetishmovchiligi (oliguriya/anuriya)", "Gemorragik diatez, qon ivishi buzilishlari", "Dekstranга yuqori sezuvchanlik (anafilaksiya xavfi)"],
+    nojoya: { "Immun": "Anafilaktoid/anafilaktik reaksiya (xos — sinov dozasi/dekstran-1 hapten profilaktikasi)", "Qon ketish": "Qon ivishini buzishi (yuqori doza — trombotsit funksiyasi/faktor suyultirish)", "Buyrak": "Osmotik nefroz/o'tkir buyrak shikasti (yuqori doza)", "Yurak-tomir": "Hajm yuklamasi" },
+    dozadan: "Hajm yuklamasi, qon ketish, buyrak shikasti — infuziyani to'xtatish; gemodinamika/diurez nazorati.",
+    ozarotasir: ["Antikoagulyant/antiagregantlar bilan qon ketish xavfi oshadi", "Qon guruhini aniqlash testlarini buzishi mumkin (oldindan namuna olish)"],
+    qollash: { kattalar: "Holat va molekulalik darajasiga qarab: dekstran-70 (hajm), dekstran-40 (reologik); maks sutkали dozani oshirmaslik.", bolalar: "Vaznга qarab, ehtiyotkorlik bilan (nazorat ostida)" },
+    chiqarish: "Infuziya uchun eritma (dekstran-40 10%, dekstran-70 6%; flakon)"
+  },
+  ru: {
+    gruppa: "Кровезаменители — коллоиды (декстран)",
+    farmTasir: "Коллоидный плазмозаменитель (восполняющий объём)",
+    farmakodinamika: `Декстран — полисахаридный коллоид бактериального (Leuconostoc) синтеза. Высокомолекулярный (декстран-70) создаёт онкотическое давление в сосуде, удерживает жидкость и увеличивает объём циркулирующей крови (замещает плазму); низкомолекулярный (декстран-40) улучшает микроциркуляцию, снижает агрегацию эритроцитов/тромбоцитов и вязкость (реологическое, антитромботическое действие). Применялся при гиповолемии и нарушениях микроциркуляции.`,
+    farmakokinetika: { sorish: "Только в/в", tarqalish: "В сосудистом русле", metabolizm: "Декстраназа (частично)", chiqarilish: "Преимущественно почками (малые молекулы быстро), остальное медленно" },
+    korsatmalar: ["Гиповолемический шок и восполнение объёма (кровопотеря, ожоги, операция)", "Нарушения микроциркуляции, профилактика тромбоза (декстран-40 — реологический)"],
+    qarrshi: ["Сердечная недостаточность, отёк лёгких, гиперволемия", "Тяжёлая почечная недостаточность (олигурия/анурия)", "Геморрагический диатез, нарушения свёртывания", "Гиперчувствительность к декстрану (риск анафилаксии)"],
+    nojoya: { "Иммунные": "Анафилактоидные/анафилактические реакции (характерно — пробная доза/профилактика декстраном-1)", "Кровотечения": "Нарушение свёртывания (высокая доза — функция тромбоцитов/разведение факторов)", "Почки": "Осмотический нефроз/острое повреждение почек (высокая доза)", "Сердечно-сосудистые": "Перегрузка объёмом" },
+    dozadan: "Перегрузка объёмом, кровотечение, повреждение почек — прекратить инфузию; контроль гемодинамики/диуреза.",
+    ozarotasir: ["С антикоагулянтами/антиагрегантами риск кровотечения возрастает", "Может искажать тесты определения группы крови (взять образец заранее)"],
+    qollash: { kattalar: "По ситуации и молекулярной массе: декстран-70 (объём), декстран-40 (реологический); не превышать макс. суточную дозу.", bolalar: "По массе, с осторожностью (под наблюдением)" },
+    chiqarish: "Раствор для инфузий (декстран-40 10%, декстран-70 6%; флакон)"
+  },
+  en: {
+    gruppa: "Blood substitutes — colloids (dextran)",
+    farmTasir: "Colloid plasma substitute (volume expander)",
+    farmakodinamika: `Dextran is a polysaccharide colloid of bacterial (Leuconostoc) synthesis. High-molecular-weight (dextran-70) creates oncotic pressure in the vessel, retains fluid and increases circulating blood volume (replaces plasma); low-molecular-weight (dextran-40) improves microcirculation and reduces red cell/platelet aggregation and viscosity (rheological, antithrombotic effect). It was used in hypovolaemia and microcirculatory disorders.`,
+    farmakokinetika: { sorish: "IV only", tarqalish: "In the vascular bed", metabolizm: "Dextranase (partial)", chiqarilish: "Mainly renal (small molecules quickly), the rest slowly" },
+    korsatmalar: ["Hypovolaemic shock and volume replacement (blood loss, burns, surgery)", "Microcirculatory disorders, thrombosis prophylaxis (dextran-40 — rheological)"],
+    qarrshi: ["Heart failure, pulmonary oedema, hypervolaemia", "Severe renal impairment (oliguria/anuria)", "Haemorrhagic diathesis, coagulation disorders", "Hypersensitivity to dextran (anaphylaxis risk)"],
+    nojoya: { "Immune": "Anaphylactoid/anaphylactic reactions (characteristic — test dose/dextran-1 hapten prophylaxis)", "Bleeding": "Impaired coagulation (high dose — platelet function/factor dilution)", "Renal": "Osmotic nephrosis/acute kidney injury (high dose)", "Cardiovascular": "Volume overload" },
+    dozadan: "Volume overload, bleeding, kidney injury — stop infusion; monitor haemodynamics/diuresis.",
+    ozarotasir: ["With anticoagulants/antiplatelets bleeding risk increases", "May distort blood typing tests (take sample beforehand)"],
+    qollash: { kattalar: "By situation and molecular weight: dextran-70 (volume), dextran-40 (rheological); do not exceed the max daily dose.", bolalar: "By weight, cautiously (under monitoring)" },
+    chiqarish: "Solution for infusion (dextran-40 10%, dextran-70 6%; vial)"
+  }
+},
+
+"B05AA07": {
+  uz: {
+    gruppa: "Qon o'rnini bosuvchilar — kolloidlar (gidroksietilkraxmal, GEK)",
+    farmTasir: "Kolloid plazma o'rnini bosuvchi (hajm to'ldiruvchi)",
+    farmakodinamika: `Gidroksietilkraxmal (GEK/HES) — kraxmaldан olinган sintetik kolloid. Tomir ichida onkotik bosim hosil qilib suyuqlikni ushlaydi va aylanma qon hajmini oshiradi (kristalloidларга nisbatan uzoqroq tomir ichida qoladi). Gipovolemiyaда hajm to'ldirish uchun ishlatilган, biroq buyrak shikasti va o'lim xavfi sababli klinik qo'llanishi sezilarli cheklanган (ko'p ko'rsatmalarда tavsiya etilmaydi).`,
+    farmakokinetika: { sorish: "Faqat v/i", tarqalish: "Tomir ichida", metabolizm: "Plazma amilaza orqали", chiqarilish: "Asosан buyrak; bir qismi to'qimaда to'planadi" },
+    korsatmalar: ["O'tkir gipovolemiya (qon yo'qotish) — boshqa vositalar yetarli bo'lmaganда, qisqa muddat (cheklangan, ehtiyotkorlik bilan)"],
+    qarrshi: ["Sepsis, kuyish, og'ir bemorlar (kritik holat)", "Buyrak yetishmovchiligi yoki buyrak almashtirish terapiyasi", "Yurak yetishmovchiligi, gipervolemiya/o'pka shishi, intrakranial qon ketish", "Og'ir koagulopatiya, GEKга yuqori sezuvchanlik"],
+    nojoya: { "Buyrak": "O'tkir buyrak shikasti (asosiy — qo'llanishni cheklagan)", "Qon ketish": "Koagulyatsiya buzilishi (yuqori doza)", "Immun": "Allergik reaksiya, qichishish (to'qimaда to'planishдан — uzoq davom etadi)", "Jigar": "Jigarда to'planishi" },
+    dozadan: "Buyrak shikasti, koagulopatiya — to'xtatish; buyrak funksiyasi nazorati (qo'llaganдан keyin ham).",
+    ozarotasir: ["Aminoglikozidlar bilan nefrotoksiklik kuchayishi mumkin", "Koagulyatsiyaни buzib antikoagulyant ta'sirni kuchaytirishi mumkin"],
+    qollash: { kattalar: "Maks 30 ml/kg/sutka, eng past samarali doza va eng qisqa muddat; buyrak nazoratida.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Infuziya uchun eritma 6% (130/0,4 yoki boshqa; flakon/paket)"
+  },
+  ru: {
+    gruppa: "Кровезаменители — коллоиды (гидроксиэтилкрахмал, ГЭК)",
+    farmTasir: "Коллоидный плазмозаменитель (восполняющий объём)",
+    farmakodinamika: `Гидроксиэтилкрахмал (ГЭК/HES) — синтетический коллоид из крахмала. Создавая онкотическое давление в сосуде, удерживает жидкость и увеличивает объём циркулирующей крови (дольше кристаллоидов остаётся в сосуде). Применялся для восполнения объёма при гиповолемии, но из-за риска повреждения почек и смерти клиническое применение существенно ограничено (при многих показаниях не рекомендуется).`,
+    farmakokinetika: { sorish: "Только в/в", tarqalish: "В сосудистом русле", metabolizm: "Плазменной амилазой", chiqarilish: "Преимущественно почками; часть накапливается в тканях" },
+    korsatmalar: ["Острая гиповолемия (кровопотеря) — при недостаточности других средств, кратковременно (ограниченно, с осторожностью)"],
+    qarrshi: ["Сепсис, ожоги, тяжёлые/критические больные", "Почечная недостаточность или заместительная почечная терапия", "Сердечная недостаточность, гиперволемия/отёк лёгких, внутричерепное кровотечение", "Тяжёлая коагулопатия, гиперчувствительность к ГЭК"],
+    nojoya: { "Почки": "Острое повреждение почек (основное — ограничило применение)", "Кровотечения": "Нарушение свёртывания (высокая доза)", "Иммунные": "Аллергические реакции, зуд (от накопления в тканях — длительный)", "Печень": "Накопление в печени" },
+    dozadan: "Повреждение почек, коагулопатия — отмена; контроль функции почек (и после применения).",
+    ozarotasir: ["С аминогликозидами возможно усиление нефротоксичности", "Нарушая свёртывание, может усиливать антикоагулянтное действие"],
+    qollash: { kattalar: "Макс 30 мл/кг/сут, наименьшая эффективная доза и кратчайший срок; под контролем почек.", bolalar: "Не рекомендуется" },
+    chiqarish: "Раствор для инфузий 6% (130/0,4 или другой; флакон/пакет)"
+  },
+  en: {
+    gruppa: "Blood substitutes — colloids (hydroxyethyl starch, HES)",
+    farmTasir: "Colloid plasma substitute (volume expander)",
+    farmakodinamika: `Hydroxyethyl starch (HES) is a synthetic colloid derived from starch. By creating oncotic pressure in the vessel it retains fluid and increases circulating blood volume (staying intravascular longer than crystalloids). It was used for volume replacement in hypovolaemia, but owing to the risk of kidney injury and death its clinical use is substantially restricted (not recommended for many indications).`,
+    farmakokinetika: { sorish: "IV only", tarqalish: "In the vascular bed", metabolizm: "By plasma amylase", chiqarilish: "Mainly renal; some accumulates in tissues" },
+    korsatmalar: ["Acute hypovolaemia (blood loss) — when other agents are insufficient, short-term (limited, with caution)"],
+    qarrshi: ["Sepsis, burns, severely/critically ill patients", "Renal failure or renal replacement therapy", "Heart failure, hypervolaemia/pulmonary oedema, intracranial bleeding", "Severe coagulopathy, hypersensitivity to HES"],
+    nojoya: { "Renal": "Acute kidney injury (the main one — restricted its use)", "Bleeding": "Impaired coagulation (high dose)", "Immune": "Allergic reactions, itching (from tissue accumulation — prolonged)", "Liver": "Hepatic accumulation" },
+    dozadan: "Kidney injury, coagulopathy — stop; monitor renal function (also after use).",
+    ozarotasir: ["Nephrotoxicity may be enhanced with aminoglycosides", "By impairing coagulation may enhance anticoagulant effect"],
+    qollash: { kattalar: "Max 30 mL/kg/day, lowest effective dose and shortest duration; under renal monitoring.", bolalar: "Not recommended" },
+    chiqarish: "Solution for infusion 6% (130/0.4 or other; vial/bag)"
+  }
+},
+
+"B05AA06": {
+  uz: {
+    gruppa: "Qon o'rnini bosuvchilar — kolloidlar (jelatin)",
+    farmTasir: "Kolloid plazma o'rnini bosuvchi (hajm to'ldiruvchi)",
+    farmakodinamika: `Suksinatlangan (modifikatsiyalangan suyuq) jelatin — qoramol kollagenidan olinган polipeptid kolloid. Tomir ichida onkotik bosim hosil qilib suyuqlikni vaqtincha ushlaydi va aylanma qon hajmini oshiradi. GEK va dekstranга nisbatan past molekulali — tezroq chiqariladi (ta'sir qisqaroq), buyrak va koagulyatsiyага ta'siri kamroq, lekin anafilaktik reaksiya xavfi nisbatan yuqori. Gipovolemiya/shokда hajm to'ldirish uchun ishlatiladi.`,
+    farmakokinetika: { sorish: "Faqat v/i", tarqalish: "Tomir ichida (qisqa)", metabolizm: "Proteolitik", chiqarilish: "Asosан buyrak orqали tez" },
+    korsatmalar: ["Gipovolemiya/shok (qon yo'qotish, jarrohlik, kuyish) — hajm to'ldirish", "Ekstrakorporal qon aylanishi konturини to'ldirish (priming)"],
+    qarrshi: ["Gipervolemiya, yurak yetishmovchiligi, o'pka shishi", "Jelatin/qoramol oqsiliga yuqori sezuvchanlik", "Og'ir buyrak yetishmovchiligi (ehtiyot)"],
+    nojoya: { "Immun": "Anafilaktoid/anafilaktik reaksiya (boshqa kolloidlardan nisbatan ko'proq)", "Yurak-tomir": "Hajm yuklamasi (tez/ortiqcha infuziya)", "Metabolik": "Elektrolit o'zgarishi" },
+    dozadan: "Hajm yuklamasi — infuziyani to'xtatish, diuretik; gemodinamika nazorati.",
+    ozarotasir: ["Kalsiy saqlovchi shakllar sitrat-qonли transfuziya bilan ehtiyotkorlik"],
+    qollash: { kattalar: "Klinik javob va qon yo'qotishга qarab infuziya (gemodinamika nazoratida).", bolalar: "Vaznга qarab, nazorat ostида" },
+    chiqarish: "Infuziya uchun eritma 4% (suksinatlangan jelatin; flakon/paket)"
+  },
+  ru: {
+    gruppa: "Кровезаменители — коллоиды (желатин)",
+    farmTasir: "Коллоидный плазмозаменитель (восполняющий объём)",
+    farmakodinamika: `Сукцинилированный (модифицированный жидкий) желатин — полипептидный коллоид из коллагена крупного рогатого скота. Создавая онкотическое давление в сосуде, временно удерживает жидкость и увеличивает объём циркулирующей крови. По сравнению с ГЭК и декстраном низкомолекулярный — быстрее выводится (действие короче), меньше влияет на почки и свёртывание, но риск анафилаксии относительно выше. Применяется для восполнения объёма при гиповолемии/шоке.`,
+    farmakokinetika: { sorish: "Только в/в", tarqalish: "В сосудистом русле (кратко)", metabolizm: "Протеолитический", chiqarilish: "Преимущественно почками, быстро" },
+    korsatmalar: ["Гиповолемия/шок (кровопотеря, операция, ожоги) — восполнение объёма", "Заполнение контура экстракорпорального кровообращения (прайминг)"],
+    qarrshi: ["Гиперволемия, сердечная недостаточность, отёк лёгких", "Гиперчувствительность к желатину/белку КРС", "Тяжёлая почечная недостаточность (осторожно)"],
+    nojoya: { "Иммунные": "Анафилактоидные/анафилактические реакции (чаще, чем у других коллоидов)", "Сердечно-сосудистые": "Перегрузка объёмом (быстрая/избыточная инфузия)", "Метаболизм": "Изменение электролитов" },
+    dozadan: "Перегрузка объёмом — прекратить инфузию, диуретик; контроль гемодинамики.",
+    ozarotasir: ["Кальцийсодержащие формы — осторожно с цитратной кровью при трансфузии"],
+    qollash: { kattalar: "По клиническому ответу и кровопотере инфузией (под контролем гемодинамики).", bolalar: "По массе, под наблюдением" },
+    chiqarish: "Раствор для инфузий 4% (сукцинилированный желатин; флакон/пакет)"
+  },
+  en: {
+    gruppa: "Blood substitutes — colloids (gelatin)",
+    farmTasir: "Colloid plasma substitute (volume expander)",
+    farmakodinamika: `Succinylated (modified fluid) gelatin is a polypeptide colloid from bovine collagen. By creating oncotic pressure in the vessel it temporarily retains fluid and increases circulating blood volume. Compared with HES and dextran it is low-molecular-weight — cleared faster (shorter action), with less effect on kidneys and coagulation, but a relatively higher anaphylaxis risk. It is used for volume replacement in hypovolaemia/shock.`,
+    farmakokinetika: { sorish: "IV only", tarqalish: "In the vascular bed (briefly)", metabolizm: "Proteolytic", chiqarilish: "Mainly renal, rapidly" },
+    korsatmalar: ["Hypovolaemia/shock (blood loss, surgery, burns) — volume replacement", "Priming the extracorporeal circulation circuit"],
+    qarrshi: ["Hypervolaemia, heart failure, pulmonary oedema", "Hypersensitivity to gelatin/bovine protein", "Severe renal impairment (caution)"],
+    nojoya: { "Immune": "Anaphylactoid/anaphylactic reactions (more than other colloids)", "Cardiovascular": "Volume overload (rapid/excessive infusion)", "Metabolic": "Electrolyte changes" },
+    dozadan: "Volume overload — stop infusion, diuretic; monitor haemodynamics.",
+    ozarotasir: ["Calcium-containing forms — caution with citrated blood during transfusion"],
+    qollash: { kattalar: "By clinical response and blood loss as an infusion (under haemodynamic monitoring).", bolalar: "By weight, under monitoring" },
+    chiqarish: "Solution for infusion 4% (succinylated gelatin; vial/bag)"
+  }
+},
+
+"B05BC01": {
+  uz: {
+    gruppa: "Infuzion eritmalar — osmotik diuretiklar (mannitol)",
+    farmTasir: "Osmotik diuretik va degidratlovchi vosita",
+    farmakodinamika: `Mannitol — metabollanmaydigan olti atomли spirt, osmotik diuretik. Vena ichiga yuborilganда qon plazmasi osmolyarligini oshiradi va to'qimalardан (jumladан miya va ko'z) suyuqlikni tomirга tortadi (shishni kamaytiradi); buyrak kanalchalarида erkin filtrlanib qayta so'rilmaydi, kanalcha suyuqligi osmolyarligini oshirib suv va natriy chiqarilishini kuchaytiradi (forsa diurez). Ta'sir tez va parenteral.`,
+    farmakokinetika: { sorish: "Faqat v/i", tarqalish: "Hujayradan tashqari bo'shliqда", metabolizm: "Metabollanmaydi (deyarli)", chiqarilish: "Buyrak orqали filtratsiya bilan; T½ ~1–1,5 soat" },
+    korsatmalar: ["Miya shishi va intrakranial bosim oshishi", "O'tkir glaukoma xuruji (ko'z ichi bosimini pasaytirish)", "Oligurik o'tkir buyrak shikastining oldini olish/davosi (cheklangan), zaharlanishда forsa diurez"],
+    qarrshi: ["Anuriya (buyrak javob bermaydi), og'ir degidratatsiya", "O'tkir o'pka shishi/dekompensatsiyalangan yurak yetishmovchiligi", "Faol intrakranial qon ketish (kraniotomiyadан tashqari)", "Mannitolга yuqori sezuvchanlik"],
+    nojoya: { "Suv-elektrolit": "Degidratatsiya, gipernatriemiya yoki giponatriemiya, gipo-/giperkaliemiya", "Yurak-tomir": "Boshlanishда hajm ortishi (o'pka shishi xavfi — yurak yetishmovchiligida)", "Buyrak": "Osmotik nefroz (yuqori doza), o'tkir buyrak shikasti", "Asab": "«Rebound» miya shishi (qaytalanish)" },
+    dozadan: "Hajm yuklamasi/elektrolit buzilishi — to'xtatish, elektrolit/suyuqlik nazorati, kerakда dializ.",
+    ozarotasir: ["Boshqa diuretiklar bilan elektrolit yo'qotish kuchayadi", "Nefrotoksik dorilar bilan buyrak shikasti xavfi"],
+    qollash: { kattalar: "Miya shishi: 0,25–1 g/kg v/i 20% eritma 20–30 daqiqaда; diurez/IOB ga qarab takror (osmolyarlik nazorati).", bolalar: "0,25–1 g/kg, ko'rsatmага ko'ra (nazorat ostida)" },
+    chiqarish: "Infuziya uchun eritma 10%, 15%, 20% (flakon/paket)"
+  },
+  ru: {
+    gruppa: "Инфузионные растворы — осмотические диуретики (маннитол)",
+    farmTasir: "Осмотический диуретик и дегидратирующее средство",
+    farmakodinamika: `Маннитол — неметаболизируемый шестиатомный спирт, осмотический диуретик. При внутривенном введении повышает осмолярность плазмы и притягивает жидкость из тканей (в т.ч. мозга и глаза) в сосуд (уменьшая отёк); свободно фильтруется в почечных канальцах и не реабсорбируется, повышает осмолярность канальцевой жидкости и усиливает выведение воды и натрия (форсированный диурез). Действие быстрое, парентеральное.`,
+    farmakokinetika: { sorish: "Только в/в", tarqalish: "Во внеклеточном пространстве", metabolizm: "Практически не метаболизируется", chiqarilish: "Почками фильтрацией; T½ ~1–1,5 ч" },
+    korsatmalar: ["Отёк мозга и повышение внутричерепного давления", "Острый приступ глаукомы (снижение внутриглазного давления)", "Профилактика/лечение олигурического острого повреждения почек (ограниченно), форсированный диурез при отравлениях"],
+    qarrshi: ["Анурия (почки не отвечают), тяжёлая дегидратация", "Острый отёк лёгких/декомпенсированная сердечная недостаточность", "Активное внутричерепное кровотечение (кроме краниотомии)", "Гиперчувствительность к маннитолу"],
+    nojoya: { "Водно-электролитные": "Дегидратация, гипер- или гипонатриемия, гипо-/гиперкалиемия", "Сердечно-сосудистые": "Начальное увеличение объёма (риск отёка лёгких — при сердечной недостаточности)", "Почки": "Осмотический нефроз (высокая доза), острое повреждение почек", "Нервная система": "«Рикошетный» отёк мозга" },
+    dozadan: "Перегрузка объёмом/электролитные нарушения — отмена, контроль электролитов/жидкости, при необходимости диализ.",
+    ozarotasir: ["С другими диуретиками усиливается потеря электролитов", "С нефротоксичными препаратами риск повреждения почек"],
+    qollash: { kattalar: "Отёк мозга: 0,25–1 г/кг в/в 20% раствор за 20–30 мин; повтор по диурезу/ВЧД (контроль осмолярности).", bolalar: "0,25–1 г/кг, по показаниям (под наблюдением)" },
+    chiqarish: "Раствор для инфузий 10%, 15%, 20% (флакон/пакет)"
+  },
+  en: {
+    gruppa: "Infusion solutions — osmotic diuretics (mannitol)",
+    farmTasir: "Osmotic diuretic and dehydrating agent",
+    farmakodinamika: `Mannitol is a non-metabolisable hexitol and osmotic diuretic. Given intravenously it raises plasma osmolarity and draws fluid from tissues (including brain and eye) into the vessel (reducing oedema); it is freely filtered in the renal tubules and not reabsorbed, raising tubular fluid osmolarity and enhancing water and sodium excretion (forced diuresis). The effect is rapid and parenteral.`,
+    farmakokinetika: { sorish: "IV only", tarqalish: "In the extracellular space", metabolizm: "Essentially not metabolised", chiqarilish: "Renal by filtration; T½ ~1–1.5 h" },
+    korsatmalar: ["Cerebral oedema and raised intracranial pressure", "Acute glaucoma attack (lowering intraocular pressure)", "Prevention/treatment of oliguric acute kidney injury (limited), forced diuresis in poisoning"],
+    qarrshi: ["Anuria (kidneys unresponsive), severe dehydration", "Acute pulmonary oedema/decompensated heart failure", "Active intracranial bleeding (except craniotomy)", "Hypersensitivity to mannitol"],
+    nojoya: { "Fluid-electrolyte": "Dehydration, hyper- or hyponatraemia, hypo-/hyperkalaemia", "Cardiovascular": "Initial volume expansion (pulmonary oedema risk — in heart failure)", "Renal": "Osmotic nephrosis (high dose), acute kidney injury", "Nervous system": "Rebound cerebral oedema" },
+    dozadan: "Volume overload/electrolyte disturbance — stop, monitor electrolytes/fluids, dialysis if needed.",
+    ozarotasir: ["With other diuretics electrolyte loss is enhanced", "With nephrotoxic drugs kidney injury risk"],
+    qollash: { kattalar: "Cerebral oedema: 0.25–1 g/kg IV 20% solution over 20–30 min; repeat by diuresis/ICP (monitor osmolarity).", bolalar: "0.25–1 g/kg, as indicated (under monitoring)" },
+    chiqarish: "Solution for infusion 10%, 15%, 20% (vial/bag)"
+  }
+},
+
+"B05CB01": {
+  uz: {
+    gruppa: "Infuzion/yuvuvchi eritmalar — natriy xlorid (fiziologik eritma)",
+    farmTasir: "Kristalloid (suv-elektrolit to'ldiruvchi)",
+    farmakodinamika: `Natriy xlorid 0,9% («fiziologik» izotonik eritma) — qon plazmasiga yaqin osmolyarlikli kristalloid. Hujayradan tashqari suyuqlik va natriy/xlorid tanqisligini to'ldiradi, aylanma qon hajmini vaqtincha oshiradi (kolloidlarга nisbatan tezroq to'qimaга o'tadi), dorilarni suyultirish va yuvish uchun universal eruvchi sifatида ishlatiladi. Gipertonik (3%, 10%) shakllar og'ir gipo­natriemiya yoki maxsus holatларда qo'llaniladi.`,
+    farmakokinetika: { sorish: "V/i; teri ostiga; mahalliy (yuvish)", tarqalish: "Hujayradan tashqari bo'shliqда", metabolizm: "—", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Dehidratatsiya, suv-natriy xlorid tanqisligi (qusish, diareya, qon yo'qotish)", "Gipovolemiya/shokда boshlang'ich hajm to'ldirish", "Dorilarni suyultirish va eritish, yaralar/ko'z/burunni yuvish; metabolik alkalozда"],
+    qarrshi: ["Gipernatriemiya, giperxloremiya, og'ir suyuqlik ushlanishi holatlari", "Dekompensatsiyalangan yurak yetishmovchiligi, o'pka/miya shishi (katta hajm)", "Og'ir buyrak yetishmovchiligi (oliguriya — ehtiyot)"],
+    nojoya: { "Suv-elektrolit": "Gipernatriemiya, giperxloremik metabolik atsidoz (katta hajm), gipokaliemiya", "Yurak-tomir": "Hajm yuklamasi/shish (ortiqcha infuziya)", "Mahalliy": "In'eksiya joyида reaksiya, ekstravazatsiya" },
+    dozadan: "Gipernatriemiya/hajm yuklamasi — infuziyani to'xtatish, elektrolit/suyuqlik nazorati.",
+    ozarotasir: ["Kortikosteroidlar bilan natriy/suyuqlik ushlanishi kuchayadi", "Ba'zi dorilar bilan nomuvofiqlik (suyultirish uchun mosligini tekshirish)"],
+    qollash: { kattalar: "Suyuqlik/elektrolit ehtiyojiga qarab individual hajm (mas. shokда 500–1000 ml bolus); gipertonik shakl — nazorat ostida.", bolalar: "Vaznга qarab (mas. 10–20 ml/kg bolus), nazorat ostида" },
+    chiqarish: "Infuziya uchun eritma 0,9% (3%, 10% gipertonik); yuvish uchun; ampula/flakon/paket"
+  },
+  ru: {
+    gruppa: "Инфузионные/промывочные растворы — натрия хлорид (физраствор)",
+    farmTasir: "Кристаллоид (восполнение воды и электролитов)",
+    farmakodinamika: `Натрия хлорид 0,9% («физиологический» изотонический раствор) — кристаллоид с осмолярностью, близкой к плазме крови. Восполняет дефицит внеклеточной жидкости и натрия/хлорида, временно увеличивает объём циркулирующей крови (быстрее коллоидов уходит в ткани), служит универсальным растворителем для разведения и промывания. Гипертонические формы (3%, 10%) применяют при тяжёлой гипонатриемии или особых ситуациях.`,
+    farmakokinetika: { sorish: "В/в; п/к; местно (промывание)", tarqalish: "Во внеклеточном пространстве", metabolizm: "—", chiqarilish: "Почками" },
+    korsatmalar: ["Дегидратация, дефицит воды и натрия хлорида (рвота, диарея, кровопотеря)", "Начальное восполнение объёма при гиповолемии/шоке", "Разведение и растворение лекарств, промывание ран/глаз/носа; при метаболическом алкалозе"],
+    qarrshi: ["Гипернатриемия, гиперхлоремия, тяжёлая задержка жидкости", "Декомпенсированная сердечная недостаточность, отёк лёгких/мозга (большой объём)", "Тяжёлая почечная недостаточность (олигурия — осторожно)"],
+    nojoya: { "Водно-электролитные": "Гипернатриемия, гиперхлоремический метаболический ацидоз (большой объём), гипокалиемия", "Сердечно-сосудистые": "Перегрузка объёмом/отёки (избыточная инфузия)", "Местные": "Реакция в месте инъекции, экстравазация" },
+    dozadan: "Гипернатриемия/перегрузка объёмом — прекратить инфузию, контроль электролитов/жидкости.",
+    ozarotasir: ["С кортикостероидами усиливается задержка натрия/жидкости", "Несовместимость с некоторыми препаратами (проверять совместимость для разведения)"],
+    qollash: { kattalar: "Индивидуальный объём по потребности в жидкости/электролитах (напр. при шоке болюс 500–1000 мл); гипертоническая форма — под наблюдением.", bolalar: "По массе (напр. болюс 10–20 мл/кг), под наблюдением" },
+    chiqarish: "Раствор для инфузий 0,9% (3%, 10% гипертонический); для промывания; ампула/флакон/пакет"
+  },
+  en: {
+    gruppa: "Infusion/irrigation solutions — sodium chloride (saline)",
+    farmTasir: "Crystalloid (water and electrolyte replacement)",
+    farmakodinamika: `Sodium chloride 0.9% ('physiological' isotonic saline) is a crystalloid with osmolarity close to blood plasma. It replaces extracellular fluid and sodium/chloride deficit, temporarily increases circulating blood volume (moving into tissues faster than colloids) and serves as a universal diluent for reconstitution and irrigation. Hypertonic forms (3%, 10%) are used for severe hyponatraemia or special situations.`,
+    farmakokinetika: { sorish: "IV; SC; topical (irrigation)", tarqalish: "In the extracellular space", metabolizm: "—", chiqarilish: "Renal" },
+    korsatmalar: ["Dehydration, water and sodium chloride deficit (vomiting, diarrhoea, blood loss)", "Initial volume replacement in hypovolaemia/shock", "Diluting and dissolving drugs, irrigating wounds/eyes/nose; in metabolic alkalosis"],
+    qarrshi: ["Hypernatraemia, hyperchloraemia, severe fluid retention", "Decompensated heart failure, pulmonary/cerebral oedema (large volume)", "Severe renal impairment (oliguria — caution)"],
+    nojoya: { "Fluid-electrolyte": "Hypernatraemia, hyperchloraemic metabolic acidosis (large volume), hypokalaemia", "Cardiovascular": "Volume overload/oedema (excessive infusion)", "Local": "Injection-site reaction, extravasation" },
+    dozadan: "Hypernatraemia/volume overload — stop infusion, monitor electrolytes/fluids.",
+    ozarotasir: ["With corticosteroids sodium/fluid retention is enhanced", "Incompatibility with some drugs (check compatibility for dilution)"],
+    qollash: { kattalar: "Individual volume by fluid/electrolyte need (e.g. 500–1000 mL bolus in shock); hypertonic form under monitoring.", bolalar: "By weight (e.g. 10–20 mL/kg bolus), under monitoring" },
+    chiqarish: "Solution for infusion 0.9% (3%, 10% hypertonic); for irrigation; ampoule/vial/bag"
+  }
+},
+
+"B05CB04": {
+  uz: {
+    gruppa: "Infuzion eritmalar — natriy bikarbonat (ishqorlovchi)",
+    farmTasir: "Tizimli ishqorlovchi (metabolik atsidozда)",
+    farmakodinamika: `Natriy bikarbonat (natriy gidrokarbonat) — tizimли ishqorlovchi vosita. Bikarbonat ioni (HCO₃⁻) qonда vodorod ionlari (H⁺) bilan birikib karbonat kislota, so'ng suv va CO₂ ga parchalanadi (CO₂ o'pka orqали chiqariladi) — natijada qon pH ko'tariladi va metabolik atsidoz to'g'rilanadi. Shuningdek siydikни ishqorlash orqали ba'zi zaharlar (salitsilatlar) chiqarilishini tezlashtiradi.`,
+    farmakokinetika: { sorish: "V/i (yoki ich — antatsid sifatида)", tarqalish: "Hujayradan tashqari bo'shliqда", metabolizm: "CO₂ va suvga", chiqarilish: "O'pka (CO₂) va buyrak (HCO₃⁻)" },
+    korsatmalar: ["Og'ir metabolik atsidoz (pH<7,1–7,2 — buyrak yetishmovchiligi, diabetik ketoatsidoz og'ir holatда, laktatatsidoz)", "Giperkaliemiyani shoshilinch davolash (yordamчi), ba'zi zaharlanishlarда siydikni ishqorlash (salitsilat, TSAD)", "Reanimatsiyada (uzoq to'xtaб qolganда — tanlangan holat)"],
+    qarrshi: ["Metabolik/respirator alkaloz", "Gipokaliemiya, gipokaltsiemiya (tetaniya kuchayishi), gipernatriemiya", "Og'ir nazoratsiz suyuqlik ushlanishi, o'pka shishi"],
+    nojoya: { "Metabolik": "Metabolik alkaloz, gipernatriemiya, gipokaliemiya, gipokaltsiemiya (tetaniya)", "Yurak-tomir": "Hajm yuklamasi/o'pka shishi (natriy), gipertenziya", "Mahalliy": "Ekstravazatsiyada to'qima nekrozi (giperosmolyar)" },
+    dozadan: "Alkaloz, gipernatriemiya — to'xtatish, qon gazlari/elektrolit nazorati.",
+    ozarotasir: ["Siydikni ishqorlash orqali kuchsiz kislotali dorilar (aspirin) chiqarilishини tezlashtiradi, ishqoriy dorilar (amfetamin) ni sekinlashtiradi", "Kalsiy saqlovchi eritmalar bilan cho'kma (alohida yuborish)"],
+    qollash: { kattalar: "Qon gazlari (asos defitsiti) va vaznга qarab hisoblab, sekin v/i (mas. 1 mmol/kg, qayta baholash bilan).", bolalar: "Vaznга/asos defitsitiga qarab, nazorat ostида" },
+    chiqarish: "Infuziya uchun eritma 4%, 4,2%, 8,4% (flakon/ampula)"
+  },
+  ru: {
+    gruppa: "Инфузионные растворы — натрия бикарбонат (ощелачивающий)",
+    farmTasir: "Системное ощелачивающее средство (при метаболическом ацидозе)",
+    farmakodinamika: `Натрия бикарбонат (натрия гидрокарбонат) — системное ощелачивающее средство. Ион бикарбоната (HCO₃⁻) в крови связывается с ионами водорода (H⁺), образуя угольную кислоту, затем воду и CO₂ (CO₂ выводится лёгкими) — в результате pH крови повышается и метаболический ацидоз корректируется. Также, ощелачивая мочу, ускоряет выведение некоторых ядов (салицилаты).`,
+    farmakokinetika: { sorish: "В/в (или внутрь — как антацид)", tarqalish: "Во внеклеточном пространстве", metabolizm: "До CO₂ и воды", chiqarilish: "Лёгкими (CO₂) и почками (HCO₃⁻)" },
+    korsatmalar: ["Тяжёлый метаболический ацидоз (pH<7,1–7,2 — почечная недостаточность, тяжёлый диабетический кетоацидоз, лактатацидоз)", "Неотложное лечение гиперкалиемии (вспомогательно), ощелачивание мочи при некоторых отравлениях (салицилаты, ТЦА)", "При реанимации (длительная остановка — в отдельных случаях)"],
+    qarrshi: ["Метаболический/респираторный алкалоз", "Гипокалиемия, гипокальциемия (усиление тетании), гипернатриемия", "Тяжёлая неконтролируемая задержка жидкости, отёк лёгких"],
+    nojoya: { "Метаболизм": "Метаболический алкалоз, гипернатриемия, гипокалиемия, гипокальциемия (тетания)", "Сердечно-сосудистые": "Перегрузка объёмом/отёк лёгких (натрий), гипертензия", "Местные": "Некроз тканей при экстравазации (гиперосмолярный)" },
+    dozadan: "Алкалоз, гипернатриемия — отмена, контроль газов крови/электролитов.",
+    ozarotasir: ["Ощелачивая мочу, ускоряет выведение слабокислых препаратов (аспирин), замедляет щелочных (амфетамин)", "С кальцийсодержащими растворами осадок (вводить раздельно)"],
+    qollash: { kattalar: "По газам крови (дефицит оснований) и массе тела, медленно в/в (напр. 1 ммоль/кг с переоценкой).", bolalar: "По массе/дефициту оснований, под наблюдением" },
+    chiqarish: "Раствор для инфузий 4%, 4,2%, 8,4% (флакон/ампула)"
+  },
+  en: {
+    gruppa: "Infusion solutions — sodium bicarbonate (alkalinising)",
+    farmTasir: "Systemic alkalinising agent (in metabolic acidosis)",
+    farmakodinamika: `Sodium bicarbonate is a systemic alkalinising agent. The bicarbonate ion (HCO₃⁻) in blood combines with hydrogen ions (H⁺) to form carbonic acid, then water and CO₂ (CO₂ is exhaled) — raising blood pH and correcting metabolic acidosis. By alkalinising the urine it also speeds elimination of some poisons (salicylates).`,
+    farmakokinetika: { sorish: "IV (or oral — as an antacid)", tarqalish: "In the extracellular space", metabolizm: "To CO₂ and water", chiqarilish: "Lungs (CO₂) and kidneys (HCO₃⁻)" },
+    korsatmalar: ["Severe metabolic acidosis (pH<7.1–7.2 — renal failure, severe diabetic ketoacidosis, lactic acidosis)", "Emergency treatment of hyperkalaemia (adjunct), urine alkalinisation in some poisonings (salicylates, TCAs)", "In resuscitation (prolonged arrest — selected cases)"],
+    qarrshi: ["Metabolic/respiratory alkalosis", "Hypokalaemia, hypocalcaemia (worsening tetany), hypernatraemia", "Severe uncontrolled fluid retention, pulmonary oedema"],
+    nojoya: { "Metabolic": "Metabolic alkalosis, hypernatraemia, hypokalaemia, hypocalcaemia (tetany)", "Cardiovascular": "Volume overload/pulmonary oedema (sodium), hypertension", "Local": "Tissue necrosis on extravasation (hyperosmolar)" },
+    dozadan: "Alkalosis, hypernatraemia — stop, monitor blood gases/electrolytes.",
+    ozarotasir: ["By alkalinising urine speeds elimination of weak acids (aspirin), slows alkaline drugs (amphetamine)", "Precipitates with calcium-containing solutions (give separately)"],
+    qollash: { kattalar: "By blood gases (base deficit) and body weight, slow IV (e.g. 1 mmol/kg with reassessment).", bolalar: "By weight/base deficit, under monitoring" },
+    chiqarish: "Solution for infusion 4%, 4.2%, 8.4% (vial/ampoule)"
+  }
+},
+
+"B05CX01": {
+  uz: {
+    gruppa: "Infuzion eritmalar — uglevodlar (dekstroza/glyukoza)",
+    farmTasir: "Uglevod manbai va suv to'ldiruvchi (energetik)",
+    farmakodinamika: `Dekstroza (glyukoza) — organizmning asosiy energiya manbai bo'lган uglevod. 5% izotonik eritma asosан erkin suv va energiya beradi (metabollanгач faqat suv qoladi — hujayra ichи va tashqи suvni to'ldiradi); 10–40% gipertonik eritmalar parenteral oziqlanish va gipoglikemiyani tez to'g'rilashда ishlatiladi. Insulin bilan birga giperkaliemiyani davolashда (kaliyни hujayraga kiritish) qo'llaniladi.`,
+    farmakokinetika: { sorish: "V/i (yoki ich)", tarqalish: "Hujayra ichi va tashqi suv (metabollangach)", metabolizm: "Glikoliz/oksidlanish (CO₂ va suvга)", chiqarilish: "Metabolizm; ortiqchasiда glyukozuriya" },
+    korsatmalar: ["Gipoglikemiya (10–40% — tez to'g'rilash)", "Suvsizlanish (erkin suv tanqisligi), energiya manbai, parenteral oziqlanish komponenti", "Giperkaliemiya (insulin bilan birga), ba'zi zaharlanishlarда"],
+    qarrshi: ["Giperglikemiya/nazoratsiz qandli diabet (yuqori konsentratsiya)", "Giperosmolyar holat, glyukoza-galaktoza malabsorbsiyasi", "O'tkir miya jarohati/insult (giperglikemiya zararli — ehtiyot)"],
+    nojoya: { "Metabolik": "Giperglikemiya, glyukozuriya, giperosmolyarlik; tez to'xtatishда «rebound» gipoglikemiya", "Suv-elektrolit": "Giponatriemiya (ortiqcha erkin suv), gipokaliemiya/gipofosfatemiya (qayta oziqlantirish sindromi)", "Mahalliy": "Konsentrlangan eritmada flebit, ekstravazatsiyaда to'qima zarari" },
+    dozadan: "Giperglikemiya/giperosmolyarlik — infuziyani sekinlashtirish, glikemiya/elektrolit nazorati, kerakда insulin.",
+    ozarotasir: ["Insulin/peroral antidiabetiklar bilan glikemiya o'zgaradi", "Qon transfuziyasi bilan bir yo'lда yuborilmaydi (gemoliz/agregatsiya)"],
+    qollash: { kattalar: "Gipoglikemiya: 20–50 ml 40% v/i; qo'llab-quvvatlash: 5% infuziya ehtiyojga qarab (glikemiya nazorati).", bolalar: "Gipoglikemiyaда 2 ml/kg 10%; qo'llab-quvvatlash vaznга qarab" },
+    chiqarish: "Infuziya uchun eritma 5%, 10%, 20%, 40% (flakon/paket/ampula)"
+  },
+  ru: {
+    gruppa: "Инфузионные растворы — углеводы (декстроза/глюкоза)",
+    farmTasir: "Источник углеводов и восполнение воды (энергетическое)",
+    farmakodinamika: `Декстроза (глюкоза) — основной источник энергии организма. 5% изотонический раствор даёт в основном свободную воду и энергию (после метаболизма остаётся только вода — восполняет внутри- и внеклеточную воду); 10–40% гипертонические растворы используются в парентеральном питании и для быстрой коррекции гипогликемии. Вместе с инсулином применяется при лечении гиперкалиемии (вводит калий в клетку).`,
+    farmakokinetika: { sorish: "В/в (или внутрь)", tarqalish: "Внутри- и внеклеточная вода (после метаболизма)", metabolizm: "Гликолиз/окисление (до CO₂ и воды)", chiqarilish: "Метаболизм; при избытке глюкозурия" },
+    korsatmalar: ["Гипогликемия (10–40% — быстрая коррекция)", "Дегидратация (дефицит свободной воды), источник энергии, компонент парентерального питания", "Гиперкалиемия (с инсулином), при некоторых отравлениях"],
+    qarrshi: ["Гипергликемия/неконтролируемый сахарный диабет (высокая концентрация)", "Гиперосмолярное состояние, глюкозо-галактозная мальабсорбция", "Острая травма мозга/инсульт (гипергликемия вредна — осторожно)"],
+    nojoya: { "Метаболизм": "Гипергликемия, глюкозурия, гиперосмолярность; при резкой отмене «рикошетная» гипогликемия", "Водно-электролитные": "Гипонатриемия (избыток свободной воды), гипокалиемия/гипофосфатемия (синдром возобновлённого питания)", "Местные": "Флебит при концентрированном растворе, повреждение тканей при экстравазации" },
+    dozadan: "Гипергликемия/гиперосмолярность — замедлить инфузию, контроль гликемии/электролитов, при необходимости инсулин.",
+    ozarotasir: ["С инсулином/пероральными антидиабетиками меняется гликемия", "Не вводить в одной линии с переливанием крови (гемолиз/агрегация)"],
+    qollash: { kattalar: "Гипогликемия: 20–50 мл 40% в/в; поддержание: 5% инфузия по потребности (контроль гликемии).", bolalar: "При гипогликемии 2 мл/кг 10%; поддержание по массе" },
+    chiqarish: "Раствор для инфузий 5%, 10%, 20%, 40% (флакон/пакет/ампула)"
+  },
+  en: {
+    gruppa: "Infusion solutions — carbohydrates (dextrose/glucose)",
+    farmTasir: "Carbohydrate source and water replacement (energy)",
+    farmakodinamika: `Dextrose (glucose) is the body's main energy source. The 5% isotonic solution mainly provides free water and energy (after metabolism only water remains — replacing intra- and extracellular water); 10–40% hypertonic solutions are used in parenteral nutrition and to rapidly correct hypoglycaemia. With insulin it is used to treat hyperkalaemia (driving potassium into the cell).`,
+    farmakokinetika: { sorish: "IV (or oral)", tarqalish: "Intra- and extracellular water (after metabolism)", metabolizm: "Glycolysis/oxidation (to CO₂ and water)", chiqarilish: "Metabolism; glucosuria with excess" },
+    korsatmalar: ["Hypoglycaemia (10–40% — rapid correction)", "Dehydration (free water deficit), energy source, component of parenteral nutrition", "Hyperkalaemia (with insulin), in some poisonings"],
+    qarrshi: ["Hyperglycaemia/uncontrolled diabetes (high concentration)", "Hyperosmolar state, glucose-galactose malabsorption", "Acute brain injury/stroke (hyperglycaemia harmful — caution)"],
+    nojoya: { "Metabolic": "Hyperglycaemia, glucosuria, hyperosmolarity; rebound hypoglycaemia with abrupt stop", "Fluid-electrolyte": "Hyponatraemia (excess free water), hypokalaemia/hypophosphataemia (refeeding syndrome)", "Local": "Phlebitis with concentrated solution, tissue damage on extravasation" },
+    dozadan: "Hyperglycaemia/hyperosmolarity — slow infusion, monitor glycaemia/electrolytes, insulin if needed.",
+    ozarotasir: ["With insulin/oral antidiabetics glycaemia changes", "Do not give in the same line as a blood transfusion (haemolysis/aggregation)"],
+    qollash: { kattalar: "Hypoglycaemia: 20–50 mL of 40% IV; maintenance: 5% infusion by need (glycaemic monitoring).", bolalar: "Hypoglycaemia 2 mL/kg of 10%; maintenance by weight" },
+    chiqarish: "Solution for infusion 5%, 10%, 20%, 40% (vial/bag/ampoule)"
+  }
 }
 
 };
