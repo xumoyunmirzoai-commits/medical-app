@@ -35924,6 +35924,300 @@ const PHARMA_DATA = {
     qollash: { kattalar: "120 mg with or after each main (fatty) meal (×3/day); omit if the meal has no fat.", bolalar: "≥12 years: 120 mg×3 (as indicated)" },
     chiqarish: "Capsules 60 mg, 120 mg"
   }
+},
+
+"A05AA02": {
+  uz: {
+    gruppa: "O't kislotalari — jigar/o't vositalari (ursodeoksixol kislota)",
+    farmTasir: "Gepatoprotektor va xolelitolitik (o't kislotasi)",
+    farmakodinamika: `Ursodeoksixol kislota (UDXK) — tabiiy gidrofil o't kislotasi. O'tда toksik gidrofob o't kislotalari ulushini kamaytiradi (gepatotsitlar membranasini himoya qiladi), xolesterin sekretsiyasi va so'rilishini pasaytirib o't xolesterinга to'yinganligини kamaytiradi (xolesterinли toshlarni eritadi), o't oqimini rag'batlantiradi (xoleretik) va immunomodulyator/antiapoptotik ta'sir ko'rsatadi. Xolestaz va xolesterinли o't toshlarида qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (enterogepatik aylanish)", tarqalish: "O't tizimида", metabolizm: "Jigar (konyugatsiya), ichak bakteriyalari", chiqarilish: "Asosан najas" },
+    korsatmalar: ["Rentgen-shaffof xolesterinли o't toshlari (faoliyatли o't pufagi)", "Birlamchi biliar xolangit (sirroz), xolestatik jigar kasalliklari", "Biliar reflyuks-gastrit, parenteral oziqlanishда xolestaz"],
+    qarrshi: ["O't pufagi faoliyati buzilgan, tez-tez o't sanchig'i, kal'siyли/pigmentли toshlar", "O't yo'llari to'liq berkilishi, o'tkir xolesistit/xolangit", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Diareya, qorin noqulayligi, ko'ngil aynishi", "Jigar": "Jigar fermentlari ko'tarilishi (kamdan-kam)", "Boshqa": "Toshma (kamdan-kam), toshlar kalsifikatsiyasi" },
+    dozadan: "Yuqori dozaда diareya; simptomatik.",
+    ozarotasir: ["Kolestiramin, antatsidlar (alyuminiy) so'rilishini kamaytiradi (interval)", "Estrogen/xolesterin kamaytiruvchi (klofibrat) o't xolesterinini oshirib samarani pasaytiradi", "Siklosporin so'rilishini o'zgartirishi mumkin"],
+    qollash: { kattalar: "10–15 mg/kg/sutka (bo'lib yoki kechqurun); biliar xolangitда 13–15 mg/kg.", bolalar: "10–20 mg/kg/sutka, ko'rsatmага ko'ra" },
+    chiqarish: "Kapsulalar 250 mg; tabletkalar 500 mg; suspenziya"
+  },
+  ru: {
+    gruppa: "Желчные кислоты — гепато/желчные средства (урсодезоксихолевая кислота)",
+    farmTasir: "Гепатопротектор и холелитолитик (желчная кислота)",
+    farmakodinamika: `Урсодезоксихолевая кислота (УДХК) — природная гидрофильная желчная кислота. Снижает долю токсичных гидрофобных желчных кислот в желчи (защищает мембрану гепатоцитов), уменьшает секрецию и всасывание холестерина, снижая насыщенность желчи холестерином (растворяет холестериновые камни), стимулирует ток желчи (холеретик) и оказывает иммуномодулирующее/антиапоптотическое действие. Применяется при холестазе и холестериновых камнях.`,
+    farmakokinetika: { sorish: "Из кишечника (энтерогепатическая циркуляция)", tarqalish: "В желчной системе", metabolizm: "Печень (конъюгация), кишечные бактерии", chiqarilish: "Преимущественно с калом" },
+    korsatmalar: ["Рентгенопрозрачные холестериновые желчные камни (функционирующий желчный пузырь)", "Первичный билиарный холангит (цирроз), холестатические болезни печени", "Билиарный рефлюкс-гастрит, холестаз при парентеральном питании"],
+    qarrshi: ["Нарушение функции желчного пузыря, частые колики, кальциевые/пигментные камни", "Полная обструкция желчных путей, острый холецистит/холангит", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Диарея, дискомфорт в животе, тошнота", "Печень": "Повышение печёночных ферментов (редко)", "Прочее": "Сыпь (редко), кальцификация камней" },
+    dozadan: "При высокой дозе диарея; симптоматически.",
+    ozarotasir: ["Холестирамин, антациды (алюминий) снижают всасывание (интервал)", "Эстрогены/гиполипидемические (клофибрат) повышают холестерин желчи, снижая эффект", "Может изменять всасывание циклоспорина"],
+    qollash: { kattalar: "10–15 мг/кг/сут (дробно или вечером); при билиарном холангите 13–15 мг/кг.", bolalar: "10–20 мг/кг/сут, по показаниям" },
+    chiqarish: "Капсулы 250 мг; таблетки 500 мг; суспензия"
+  },
+  en: {
+    gruppa: "Bile acids — hepatic/biliary agents (ursodeoxycholic acid)",
+    farmTasir: "Hepatoprotector and cholelitholytic (bile acid)",
+    farmakodinamika: `Ursodeoxycholic acid (UDCA) is a natural hydrophilic bile acid. It reduces the proportion of toxic hydrophobic bile acids in bile (protecting the hepatocyte membrane), lowers cholesterol secretion and absorption, reducing biliary cholesterol saturation (dissolving cholesterol stones), stimulates bile flow (choleretic) and has immunomodulatory/antiapoptotic effects. It is used in cholestasis and cholesterol gallstones.`,
+    farmakokinetika: { sorish: "From the gut (enterohepatic circulation)", tarqalish: "In the biliary system", metabolizm: "Hepatic (conjugation), gut bacteria", chiqarilish: "Mainly faecal" },
+    korsatmalar: ["Radiolucent cholesterol gallstones (functioning gallbladder)", "Primary biliary cholangitis (cirrhosis), cholestatic liver diseases", "Biliary reflux gastritis, cholestasis in parenteral nutrition"],
+    qarrshi: ["Impaired gallbladder function, frequent colic, calcified/pigment stones", "Complete biliary obstruction, acute cholecystitis/cholangitis", "Hypersensitivity"],
+    nojoya: { "GI": "Diarrhoea, abdominal discomfort, nausea", "Liver": "Raised liver enzymes (rare)", "Other": "Rash (rare), stone calcification" },
+    dozadan: "Diarrhoea at high doses; supportive.",
+    ozarotasir: ["Cholestyramine, antacids (aluminium) reduce absorption (separate dosing)", "Estrogens/lipid-lowering (clofibrate) raise biliary cholesterol, reducing efficacy", "May alter ciclosporin absorption"],
+    qollash: { kattalar: "10–15 mg/kg/day (divided or evening); in biliary cholangitis 13–15 mg/kg.", bolalar: "10–20 mg/kg/day, as indicated" },
+    chiqarish: "Capsules 250 mg; tablets 500 mg; suspension"
+  }
+},
+
+"A05AA04": {
+  uz: {
+    gruppa: "O't kislotalari — FXR agonisti (obetixol kislota)",
+    farmTasir: "Farnezoid X retseptor (FXR) agonisti (xolestazга qarshi)",
+    farmakodinamika: `Obetixol kislota — xenodeoksixol kislotaning yarim sintetik hosilasi, kuchli farnezoid X retseptor (FXR) agonisti. FXR ni faollashtirib jigarда o't kislotalari sintezini kamaytiradi, ularning gepatotsitlardан chiqarilishi va konyugatsiyasini boshqaradi — o't kislotalarining jigarда to'planishini va toksik ta'sirini kamaytiradi. Birlamchi biliar xolangitда (UDXK yetarli emasда) qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsiliga yuqori; enterogepatik aylanish", metabolizm: "Jigarда konyugatsiya (faol metabolitlar)", chiqarilish: "Asosан najas" },
+    korsatmalar: ["Birlamchi biliar xolangit — UDXK bilan birga (yetarli javob bo'lmaganda) yoki UDXK ko'tara olmaydiganларда monoterapiya"],
+    qarrshi: ["To'liq biliar obstruksiya", "Dekompensatsiyalangan jigar sirrozi (Child-Pugh B/C, portal gipertenziya asoratlari) — xavfli", "Yuqori sezuvchanlik"],
+    nojoya: { "Teri": "Qichishish (xos, dozaга bog'liq)", "Jigar": "Jigar dekompensatsiyasi (sirrozда — xavfli), transaminazalar ko'tarilishi", "Metabolik": "HDL-xolesterin pasayishi", "Boshqa": "Charchoq, qorin og'rig'i" },
+    dozadan: "Jigar dekompensatsiyasi xavfi — dozани chegaralash; simptomatik.",
+    ozarotasir: ["Kolestiramin/o't kislota sekvestrantlari so'rilishini kamaytiradi (4–6 soat interval)", "Varfarin INR ni o'zgartirishi mumkin", "CYP1A2 substratlari (teofillin, tizanidin) darajasини oshirishi mumkin"],
+    qollash: { kattalar: "5 mg×1/sutka, 3 oydan keyin 10 mg gача oshirish mumkin; jigar funksiyasiga qarab moslash.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Plyonka qoplamali tabletkalar 5/10 mg"
+  },
+  ru: {
+    gruppa: "Желчные кислоты — агонист FXR (обетихолевая кислота)",
+    farmTasir: "Агонист фарнезоидного X-рецептора (FXR) (против холестаза)",
+    farmakodinamika: `Обетихолевая кислота — полусинтетическое производное хенодезоксихолевой кислоты, мощный агонист фарнезоидного X-рецептора (FXR). Активируя FXR, снижает синтез желчных кислот в печени, регулирует их экскрецию из гепатоцитов и конъюгацию — уменьшает накопление и токсическое действие желчных кислот в печени. Применяется при первичном билиарном холангите (при недостаточности УДХК).`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Высокая связь с белками; энтерогепатическая циркуляция", metabolizm: "Конъюгация в печени (активные метаболиты)", chiqarilish: "Преимущественно с калом" },
+    korsatmalar: ["Первичный билиарный холангит — вместе с УДХК (при недостаточном ответе) или монотерапия при непереносимости УДХК"],
+    qarrshi: ["Полная билиарная обструкция", "Декомпенсированный цирроз печени (Child-Pugh B/C, осложнения портальной гипертензии) — опасно", "Гиперчувствительность"],
+    nojoya: { "Кожа": "Зуд (характерен, дозозависим)", "Печень": "Декомпенсация печени (при циррозе — опасно), повышение трансаминаз", "Метаболизм": "Снижение ЛПВП-холестерина", "Прочее": "Утомляемость, боль в животе" },
+    dozadan: "Риск декомпенсации печени — ограничить дозу; симптоматически.",
+    ozarotasir: ["Холестирамин/секвестранты желчных кислот снижают всасывание (интервал 4–6 ч)", "Может изменять МНО при варфарине", "Может повышать уровень субстратов CYP1A2 (теофиллин, тизанидин)"],
+    qollash: { kattalar: "5 мг×1/сут, через 3 месяца возможно повышение до 10 мг; коррекция по функции печени.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 5/10 мг"
+  },
+  en: {
+    gruppa: "Bile acids — FXR agonist (obeticholic acid)",
+    farmTasir: "Farnesoid X receptor (FXR) agonist (anti-cholestatic)",
+    farmakodinamika: `Obeticholic acid is a semisynthetic derivative of chenodeoxycholic acid and a potent farnesoid X receptor (FXR) agonist. By activating FXR it reduces hepatic bile acid synthesis and regulates their excretion from hepatocytes and conjugation — reducing accumulation and toxic effects of bile acids in the liver. It is used in primary biliary cholangitis (when UDCA is insufficient).`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Highly protein-bound; enterohepatic circulation", metabolizm: "Hepatic conjugation (active metabolites)", chiqarilish: "Mainly faecal" },
+    korsatmalar: ["Primary biliary cholangitis — with UDCA (inadequate response) or monotherapy if UDCA-intolerant"],
+    qarrshi: ["Complete biliary obstruction", "Decompensated cirrhosis (Child-Pugh B/C, portal hypertension complications) — dangerous", "Hypersensitivity"],
+    nojoya: { "Skin": "Pruritus (characteristic, dose-dependent)", "Liver": "Hepatic decompensation (in cirrhosis — dangerous), raised transaminases", "Metabolic": "Reduced HDL cholesterol", "Other": "Fatigue, abdominal pain" },
+    dozadan: "Risk of hepatic decompensation — limit dose; supportive.",
+    ozarotasir: ["Cholestyramine/bile acid sequestrants reduce absorption (4–6 h interval)", "May alter INR with warfarin", "May raise levels of CYP1A2 substrates (theophylline, tizanidine)"],
+    qollash: { kattalar: "5 mg once daily, may increase to 10 mg after 3 months; adjust per liver function.", bolalar: "Not recommended" },
+    chiqarish: "Film-coated tablets 5/10 mg"
+  }
+},
+
+"A05AX02": {
+  uz: {
+    gruppa: "Boshqa o't vositalari — xoleretik/xolespazmolitik (gimekromon)",
+    farmTasir: "Selektiv biliar spazmolitik va xoleretik",
+    farmakodinamika: `Gimekromon (4-metilumbelliferon) — o't yo'llariga selektiv ta'sir qiluvchi spazmolitik va xoleretik. Oddi sfinkteri va o't yo'llari silliq mushaklarini bo'shashtiradi (qon bosimi va ichak motorikasiga ta'sir qilmaydi), o't ishlab chiqarilishini va o'n ikki barmoq ichakка oqishini oshiradi, o't xolesterinга to'yinganligini kamaytiradi. O't dискineziyasi va xolestazда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "O't tizimида", metabolizm: "Jigarда (glyukuronid/sulfat)", chiqarilish: "Buyrak/najas" },
+    korsatmalar: ["O't yo'llari giperkinetik-gipertonik dискineziyasi, Oddi sfinkteri spazmi", "Surункали xolesistit, xolangit, xolestaz (yordamчи); o't pufagi operatsiyasidan keyingi holat"],
+    qarrshi: ["O't yo'llari to'liq berkilishi", "Og'ir jigar/buyrak yetishmovchiligi", "Oshqozon-ichak yara kasalligi avj olishi, yara kolit/Kron", "Gemofiliya; yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Diareya, qorin og'rig'i, meteorizm, ko'ngil aynishi", "Allergik": "Toshma (kamdan-kam)", "Boshqa": "Bosh og'rig'i" },
+    dozadan: "Yuqori dozaда diareya; simptomatik.",
+    ozarotasir: ["Metoklopramid bilan o'zaro qarama-qarshi ta'sir (motorika)", "Antikoagulyantlar ta'sirini kuchaytirishi mumkin (nazariy)"],
+    qollash: { kattalar: "200–400 mg×3/sutka ovqatdан oldin.", bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)" },
+    chiqarish: "Tabletkalar 200 mg"
+  },
+  ru: {
+    gruppa: "Прочие желчные средства — холеретик/холеспазмолитик (гимекромон)",
+    farmTasir: "Селективный билиарный спазмолитик и холеретик",
+    farmakodinamika: `Гимекромон (4-метилумбеллиферон) — спазмолитик и холеретик с избирательным действием на желчные пути. Расслабляет сфинктер Одди и гладкие мышцы желчных путей (без влияния на АД и моторику кишечника), увеличивает образование желчи и её поступление в двенадцатиперстную кишку, снижает насыщенность желчи холестерином. Применяется при дискинезии желчевыводящих путей и холестазе.`,
+    farmakokinetika: { sorish: "Из кишечника быстро", tarqalish: "В желчной системе", metabolizm: "В печени (глюкуронид/сульфат)", chiqarilish: "Почками/с калом" },
+    korsatmalar: ["Гиперкинетически-гипертоническая дискинезия желчных путей, спазм сфинктера Одди", "Хронический холецистит, холангит, холестаз (вспомогательно); состояние после операции на желчном пузыре"],
+    qarrshi: ["Полная обструкция желчных путей", "Тяжёлая печёночная/почечная недостаточность", "Обострение язвенной болезни ЖКТ, язвенный колит/болезнь Крона", "Гемофилия; гиперчувствительность"],
+    nojoya: { "ЖКТ": "Диарея, боль в животе, метеоризм, тошнота", "Аллергические": "Сыпь (редко)", "Прочее": "Головная боль" },
+    dozadan: "При высокой дозе диарея; симптоматически.",
+    ozarotasir: ["Противоположное взаимодействие с метоклопрамидом (моторика)", "Может усиливать действие антикоагулянтов (теоретически)"],
+    qollash: { kattalar: "200–400 мг×3/сут до еды.", bolalar: "Не рекомендуется (данные ограничены)" },
+    chiqarish: "Таблетки 200 мг"
+  },
+  en: {
+    gruppa: "Other biliary agents — choleretic/biliary antispasmodic (hymecromone)",
+    farmTasir: "Selective biliary antispasmodic and choleretic",
+    farmakodinamika: `Hymecromone (4-methylumbelliferone) is an antispasmodic and choleretic with selective action on the biliary tract. It relaxes the sphincter of Oddi and biliary smooth muscle (without affecting BP or intestinal motility), increases bile production and its flow into the duodenum, and reduces biliary cholesterol saturation. It is used in biliary dyskinesia and cholestasis.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "In the biliary system", metabolizm: "Hepatic (glucuronide/sulfate)", chiqarilish: "Renal/faecal" },
+    korsatmalar: ["Hyperkinetic-hypertonic biliary dyskinesia, sphincter of Oddi spasm", "Chronic cholecystitis, cholangitis, cholestasis (adjunct); post-cholecystectomy state"],
+    qarrshi: ["Complete biliary obstruction", "Severe hepatic/renal impairment", "Exacerbation of GI ulcer disease, ulcerative colitis/Crohn", "Haemophilia; hypersensitivity"],
+    nojoya: { "GI": "Diarrhoea, abdominal pain, flatulence, nausea", "Allergic": "Rash (rare)", "Other": "Headache" },
+    dozadan: "Diarrhoea at high doses; supportive.",
+    ozarotasir: ["Opposing interaction with metoclopramide (motility)", "May enhance anticoagulant effect (theoretical)"],
+    qollash: { kattalar: "200–400 mg×3/day before meals.", bolalar: "Not recommended (limited data)" },
+    chiqarish: "Tablets 200 mg"
+  }
+},
+
+"A06AD15": {
+  uz: {
+    gruppa: "Ich yumshatuvchilar — osmotik (makrogol/PEG)",
+    farmTasir: "Osmotik ich yumshatuvchi (suvni ushlab turuvchi)",
+    farmakodinamika: `Makrogol (polietilenglikol, PEG 3350/4000) — yuqori molekulali, so'rilmaydigan inert polimer. Vodorod bog'lari orqали suvni ichak bo'shлиg'ида ushlab qoladi, najas hajmini va suvliligini oshiradi — yumshatadi va peristaltikani tabiiy ravishda rag'batlantiradi. Metabolizmga uchramaydi, elektrolit muvozanatiga deyarli ta'sir qilmaydi (ayniqsa elektrolitli shakllarда).`,
+    farmakokinetika: { sorish: "So'rilmaydi", tarqalish: "Ichak bo'shлиg'ида", metabolizm: "Yo'q", chiqarilish: "O'zgarmagan najas bilan" },
+    korsatmalar: ["Surункали va o'tkir ich qotishi (kattalar va bolalar)", "Najas tiqilishini (koprostaz) yumshatish; kolonoskopiyага tayyorlash (yuqori doza, elektrolitli)"],
+    qarrshi: ["Ichak teshilishi/obstruksiyasi, paralitik ileus", "Og'ir yallig'lanish ichak kasalliklari (toksik megakolon)", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Qorin shishi, gaz, diareya (yuqori doza), ko'ngil aynishi", "Metabolik": "Elektrolit buzilishi (yuqori dozaда, ayniqsa elektrolitsiz)", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Yuqori doza — diareya, suvsizlanish/elektrolit buzilishi; suyuqlik/elektrolit tiklash.",
+    ozarotasir: ["Boshqa dorilar so'rilishini vaqtincha kamaytirishi mumkin (interval saqlash)"],
+    qollash: { kattalar: "1–3 paket/sutka (suvда eritib); koprostazда yuqori doza qisqa kurs.", bolalar: "Yoshга ko'ra past dozalar (ko'rsatmага ko'ra)" },
+    chiqarish: "Ichish uchun eritma kukuni (paketlar); elektrolitli shakllar"
+  },
+  ru: {
+    gruppa: "Слабительные — осмотические (макрогол/ПЭГ)",
+    farmTasir: "Осмотическое слабительное (удерживающее воду)",
+    farmakodinamika: `Макрогол (полиэтиленгликоль, ПЭГ 3350/4000) — высокомолекулярный невсасывающийся инертный полимер. За счёт водородных связей удерживает воду в просвете кишечника, увеличивает объём и влажность стула — размягчает и естественно стимулирует перистальтику. Не метаболизируется, практически не влияет на электролитный баланс (особенно в электролитных формах).`,
+    farmakokinetika: { sorish: "Не всасывается", tarqalish: "В просвете кишечника", metabolizm: "Нет", chiqarilish: "С калом в неизменённом виде" },
+    korsatmalar: ["Хронический и острый запор (взрослые и дети)", "Размягчение калового завала (копростаз); подготовка к колоноскопии (высокая доза, с электролитами)"],
+    qarrshi: ["Перфорация/обструкция кишечника, паралитический илеус", "Тяжёлые воспалительные болезни кишечника (токсический мегаколон)", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Вздутие, газы, диарея (высокая доза), тошнота", "Метаболизм": "Электролитные нарушения (при высокой дозе, особенно без электролитов)", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Высокая доза — диарея, дегидратация/электролитные нарушения; восполнение жидкости/электролитов.",
+    ozarotasir: ["Может временно снижать всасывание других препаратов (соблюдать интервал)"],
+    qollash: { kattalar: "1–3 пакета/сут (растворив в воде); при копростазе высокая доза коротким курсом.", bolalar: "Сниженные дозы по возрасту (по показаниям)" },
+    chiqarish: "Порошок для приготовления раствора (пакеты); электролитные формы"
+  },
+  en: {
+    gruppa: "Laxatives — osmotic (macrogol/PEG)",
+    farmTasir: "Osmotic laxative (water-retaining)",
+    farmakodinamika: `Macrogol (polyethylene glycol, PEG 3350/4000) is a high-molecular-weight, non-absorbable inert polymer. Through hydrogen bonds it retains water in the gut lumen, increasing stool volume and water content — softening it and naturally stimulating peristalsis. It is not metabolised and has little effect on electrolyte balance (especially in electrolyte formulations).`,
+    farmakokinetika: { sorish: "Not absorbed", tarqalish: "In the gut lumen", metabolizm: "None", chiqarilish: "Unchanged in faeces" },
+    korsatmalar: ["Chronic and acute constipation (adults and children)", "Softening faecal impaction (coprostasis); bowel preparation for colonoscopy (high dose, with electrolytes)"],
+    qarrshi: ["Bowel perforation/obstruction, paralytic ileus", "Severe inflammatory bowel disease (toxic megacolon)", "Hypersensitivity"],
+    nojoya: { "GI": "Bloating, flatus, diarrhoea (high dose), nausea", "Metabolic": "Electrolyte disturbance (high dose, especially without electrolytes)", "Allergic": "Rash (rare)" },
+    dozadan: "High dose — diarrhoea, dehydration/electrolyte disturbance; replace fluids/electrolytes.",
+    ozarotasir: ["May transiently reduce absorption of other drugs (separate dosing)"],
+    qollash: { kattalar: "1–3 sachets/day (dissolved in water); high dose short course for coprostasis.", bolalar: "Reduced doses by age (as indicated)" },
+    chiqarish: "Powder for oral solution (sachets); electrolyte formulations"
+  }
+},
+
+"A06AC01": {
+  uz: {
+    gruppa: "Ich yumshatuvchilar — hajm hosil qiluvchi (ispagula/psillium)",
+    farmTasir: "Hajm hosil qiluvchi ich yumshatuvchi (tabiiy tola)",
+    farmakodinamika: `Ispagula (psillium husk, Plantago ovata urug' qobig'i) — suvда eriydigan o'simlik tolasi. Ichakda suvni shimib gel hosil qiladi, najas hajmi va yumshoqligini oshiradi — peristaltikani fiziologik ravishda rag'batlantiradi. Tola sifatида xolesterin va ovqatdan keyingi qandni biroz kamaytirishi, diareyani ham (suvni shimib) tartibga solishi mumkin.`,
+    farmakokinetika: { sorish: "So'rilmaydi", tarqalish: "Ichak bo'shлиg'ида", metabolizm: "Ichak bakteriyalari qisman fermentlaydi", chiqarilish: "Najas bilan" },
+    korsatmalar: ["Surункали ich qotishi (yetarli suyuqlik bilan)", "Taranglashган ichak sindromi, divertikulyoz; gemorroy/yorилишда yumshoq najas saqlash; giperxolesterinemiya (yordamчи)"],
+    qarrshi: ["Ichak obstruksiyasi/stenozi, paralitik ileus, fekal tiqilish", "Qiyin yutish (disfagiya)", "Yetarli suyuqlik qabul qila olmaslik", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Gaz, qorin shishi, to'lish hissi", "Xavf": "Yetarli suv ichilmaса — qizilo'ngач/ichak obturatsiyasi", "Allergik": "Toshma, bronxospazm (kamdan-kam, chang)" },
+    dozadan: "Yetarli suvsiz — obstruksiya xavfi; suyuqlik berish.",
+    ozarotasir: ["Boshqa dorilar (jumladан digoksin, varfarin, levotiroksin) so'rilishini kamaytiradi (1–2 soat interval)"],
+    qollash: { kattalar: "1 choy/osh qoshiq (3,5–7 g) 1–3 marta/sutka, katta stakan suv bilan.", bolalar: "≥6 yosh: kichik dozalar, ko'p suv bilan" },
+    chiqarish: "Granula/kukun (paket); ichish uchun suspenziya"
+  },
+  ru: {
+    gruppa: "Слабительные — объёмообразующие (исфагула/псиллиум)",
+    farmTasir: "Объёмообразующее слабительное (натуральная клетчатка)",
+    farmakodinamika: `Исфагула (оболочка семян Plantago ovata, псиллиум) — растворимая растительная клетчатка. В кишечнике впитывает воду, образуя гель, увеличивает объём и мягкость стула — физиологично стимулирует перистальтику. Как клетчатка может немного снижать холестерин и постпрандиальную гликемию, а также регулировать диарею (впитывая воду).`,
+    farmakokinetika: { sorish: "Не всасывается", tarqalish: "В просвете кишечника", metabolizm: "Частично ферментируется кишечными бактериями", chiqarilish: "С калом" },
+    korsatmalar: ["Хронический запор (с достаточным количеством жидкости)", "Синдром раздражённого кишечника, дивертикулёз; поддержание мягкого стула при геморрое/трещинах; гиперхолестеринемия (вспомогательно)"],
+    qarrshi: ["Обструкция/стеноз кишечника, паралитический илеус, каловый завал", "Затруднённое глотание (дисфагия)", "Невозможность принимать достаточно жидкости", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Газы, вздутие, чувство переполнения", "Опасность": "При недостатке воды — обтурация пищевода/кишечника", "Аллергические": "Сыпь, бронхоспазм (редко, пыль)" },
+    dozadan: "Без достаточного количества воды — риск обструкции; обеспечить жидкость.",
+    ozarotasir: ["Снижает всасывание других препаратов (в т.ч. дигоксина, варфарина, левотироксина) — интервал 1–2 ч"],
+    qollash: { kattalar: "1 чайная/столовая ложка (3,5–7 г) 1–3 раза/сут с большим стаканом воды.", bolalar: "≥6 лет: малые дозы с обильной водой" },
+    chiqarish: "Гранулы/порошок (пакеты); суспензия для приёма внутрь"
+  },
+  en: {
+    gruppa: "Laxatives — bulk-forming (ispaghula/psyllium)",
+    farmTasir: "Bulk-forming laxative (natural fibre)",
+    farmakodinamika: `Ispaghula (Plantago ovata seed husk, psyllium) is a soluble plant fibre. In the gut it absorbs water to form a gel, increasing stool volume and softness — physiologically stimulating peristalsis. As a fibre it can modestly lower cholesterol and postprandial glucose and also regulate diarrhoea (by absorbing water).`,
+    farmakokinetika: { sorish: "Not absorbed", tarqalish: "In the gut lumen", metabolizm: "Partly fermented by gut bacteria", chiqarilish: "In faeces" },
+    korsatmalar: ["Chronic constipation (with adequate fluid)", "Irritable bowel syndrome, diverticulosis; maintaining soft stool in haemorrhoids/fissures; hypercholesterolaemia (adjunct)"],
+    qarrshi: ["Bowel obstruction/stenosis, paralytic ileus, faecal impaction", "Difficulty swallowing (dysphagia)", "Inability to take adequate fluid", "Hypersensitivity"],
+    nojoya: { "GI": "Flatus, bloating, fullness", "Hazard": "Oesophageal/intestinal obturation if insufficient water", "Allergic": "Rash, bronchospasm (rare, dust)" },
+    dozadan: "Without adequate water — obstruction risk; ensure fluids.",
+    ozarotasir: ["Reduces absorption of other drugs (including digoxin, warfarin, levothyroxine) — 1–2 h interval"],
+    qollash: { kattalar: "1 tsp/tbsp (3.5–7 g) 1–3 times/day with a large glass of water.", bolalar: "≥6 years: small doses with plenty of water" },
+    chiqarish: "Granules/powder (sachets); oral suspension"
+  }
+},
+
+"A06AG04": {
+  uz: {
+    gruppa: "Ich yumshatuvchilar — rektal (gliserin)",
+    farmTasir: "Rektal osmotik/tirnashtiruvchi ich yumshatuvchi (gliserin)",
+    farmakodinamika: `Gliserin (glitserol) rektal sham/klizma shaklида — osmotik ta'sir bilan to'g'ri ichakka suv tortadi, najasni yumshatadi va yengil tirnashtirish orqали defekatsiya refleksini qo'zg'aydi. Ta'siri tez (15–30 daqiqа), mahalliy; tizimli so'rilishi ahamiyatsiz.`,
+    farmakokinetika: { sorish: "Rektal (mahalliy, kam so'riladi)", tarqalish: "Mahalliy", metabolizm: "Jigarда (so'rilsa)", chiqarilish: "Mahalliy ta'sir" },
+    korsatmalar: ["Epizodik ich qotishi (tez ta'sir kerakда)", "Defekatsiyага tayyorlash; bolalar va keksaларда yengil ich qotishi"],
+    qarrshi: ["To'g'ri ichak yorилиши/yallig'lanishi, gemorroy o'tkir avj olishi", "Ichak obstruksiyasi, qorinда noma'lum o'tkir og'riq", "Yuqori sezuvchanlik"],
+    nojoya: { "Mahalliy": "To'g'ri ichakда achishish, tirnashish, noqulaylik", "Oshqozon-ichak": "Tez-tez ishlatishda tenezm, qorin sanchig'i" },
+    dozadan: "Mahalliy ta'sir; ortiqcha ishlatmaslik (rektal tirnashish).",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar yo'q"],
+    qollash: { kattalar: "1 sham (~2 g) yoki klizma to'g'ri ichakка, kerakда.", bolalar: "Bolalar uchun sham (~1 g), yoshга ko'ra" },
+    chiqarish: "Rektal shamlar (1–2 g); rektal eritma/klizma"
+  },
+  ru: {
+    gruppa: "Слабительные — ректальные (глицерин)",
+    farmTasir: "Ректальное осмотическое/раздражающее слабительное (глицерин)",
+    farmakodinamika: `Глицерин (глицерол) в форме ректальных суппозиториев/клизмы — осмотически притягивает воду в прямую кишку, размягчает кал и за счёт лёгкого раздражения вызывает рефлекс дефекации. Действие быстрое (15–30 мин), местное; системное всасывание незначительно.`,
+    farmakokinetika: { sorish: "Ректально (местно, мало всасывается)", tarqalish: "Местно", metabolizm: "В печени (при всасывании)", chiqarilish: "Местное действие" },
+    korsatmalar: ["Эпизодический запор (когда нужно быстрое действие)", "Подготовка к дефекации; лёгкий запор у детей и пожилых"],
+    qarrshi: ["Трещина/воспаление прямой кишки, острое обострение геморроя", "Кишечная обструкция, неясная острая боль в животе", "Гиперчувствительность"],
+    nojoya: { "Местные": "Жжение, раздражение, дискомфорт в прямой кишке", "ЖКТ": "При частом применении тенезмы, спазмы в животе" },
+    dozadan: "Местное действие; не злоупотреблять (ректальное раздражение).",
+    ozarotasir: ["Клинически значимых взаимодействий нет"],
+    qollash: { kattalar: "1 суппозиторий (~2 г) или клизма в прямую кишку, при необходимости.", bolalar: "Детский суппозиторий (~1 г), по возрасту" },
+    chiqarish: "Ректальные суппозитории (1–2 г); ректальный раствор/клизма"
+  },
+  en: {
+    gruppa: "Laxatives — rectal (glycerol)",
+    farmTasir: "Rectal osmotic/irritant laxative (glycerol)",
+    farmakodinamika: `Glycerol (glycerin) as rectal suppositories/enema osmotically draws water into the rectum, softens stool and, through mild irritation, triggers the defecation reflex. Onset is fast (15–30 min) and local; systemic absorption is negligible.`,
+    farmakokinetika: { sorish: "Rectal (local, little absorbed)", tarqalish: "Local", metabolizm: "Hepatic (if absorbed)", chiqarilish: "Local action" },
+    korsatmalar: ["Episodic constipation (when rapid action is needed)", "Preparation for defecation; mild constipation in children and the elderly"],
+    qarrshi: ["Rectal fissure/inflammation, acute haemorrhoid flare", "Bowel obstruction, undiagnosed acute abdominal pain", "Hypersensitivity"],
+    nojoya: { "Local": "Burning, irritation, discomfort in the rectum", "GI": "Tenesmus, abdominal cramps with frequent use" },
+    dozadan: "Local action; avoid overuse (rectal irritation).",
+    ozarotasir: ["No clinically significant interactions"],
+    qollash: { kattalar: "1 suppository (~2 g) or enema rectally, as needed.", bolalar: "Paediatric suppository (~1 g), by age" },
+    chiqarish: "Rectal suppositories (1–2 g); rectal solution/enema"
+  }
+},
+
+"A07FA01": {
+  uz: {
+    gruppa: "Antidiareal mikroorganizmlar — probiotiklar (laktobakteriya + bifidobakteriya)",
+    farmTasir: "Probiotik (ichak mikroflorasini tiklovchi)",
+    farmakodinamika: `Laktobakteriya va bifidobakteriya saqlovchi probiotik — ichakning normal mikroflorasини to'ldiradi va tiklaydi. Sut kislotasi va boshqa metabolitlar ishlab chiqarib ichak pH ini pasaytiradi, patogen mikroorganizmlar ko'payishini bostiradi (raqobat va antimikrob moddalar orqали), ichak to'sig'i funksiyasi va mahalliy immunitetni mustahkamlaydi. Antibiotik bilan bog'liq va infeksion diareyaни kamaytiradi.`,
+    farmakokinetika: { sorish: "So'rilmaydi (ichakда mahalliy ta'sir)", tarqalish: "Ichak bo'shлиg'ида", metabolizm: "—", chiqarilish: "Najas bilan" },
+    korsatmalar: ["O'tkir va antibiotik bilan bog'liq diareya, disbakterioz", "Taranglashган ichak sindromi (yordamчи), ichak infeksiyalaridан keyin mikroflorани tiklash"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — og'ir immunosupressiya, markaziy kateter (kamdan-kam sepsis xavfi)"],
+    nojoya: { "Oshqozon-ichak": "Yengil gaz, qorin shishi (boshlang'ich)", "Immun": "Immunosupressiv bemorda — tizimli infeksiya (juda kamdan-kam)" },
+    dozadan: "Toksiklik kutilmaydi.",
+    ozarotasir: ["Antibiotiklar tirik bakteriyalarни o'ldirishi mumkin (2–3 soat interval bilan qabul qilish)"],
+    qollash: { kattalar: "1 kapsula/paket 1–3 marta/sutka (ovqat bilan); antibiotik kursi davomида va keyin.", bolalar: "Yoshга mos shakl va doza (ko'rsatmага ko'ra)" },
+    chiqarish: "Kapsulalar, paketlar (kukun), tomchilar — tirik bakteriyalar (KHB/CFU)"
+  },
+  ru: {
+    gruppa: "Антидиарейные микроорганизмы — пробиотики (лактобактерии + бифидобактерии)",
+    farmTasir: "Пробиотик (восстанавливающий кишечную микрофлору)",
+    farmakodinamika: `Пробиотик с лактобактериями и бифидобактериями восполняет и восстанавливает нормальную микрофлору кишечника. Вырабатывая молочную кислоту и другие метаболиты, снижает pH кишечника, подавляет рост патогенов (через конкуренцию и антимикробные вещества), укрепляет барьерную функцию кишечника и местный иммунитет. Уменьшает антибиотик-ассоциированную и инфекционную диарею.`,
+    farmakokinetika: { sorish: "Не всасывается (местное действие в кишечнике)", tarqalish: "В просвете кишечника", metabolizm: "—", chiqarilish: "С калом" },
+    korsatmalar: ["Острая и антибиотик-ассоциированная диарея, дисбактериоз", "Синдром раздражённого кишечника (вспомогательно), восстановление микрофлоры после кишечных инфекций"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — тяжёлая иммуносупрессия, центральный катетер (редкий риск сепсиса)"],
+    nojoya: { "ЖКТ": "Лёгкие газы, вздутие (в начале)", "Иммунитет": "У иммуносупрессированных — системная инфекция (очень редко)" },
+    dozadan: "Токсичность не ожидается.",
+    ozarotasir: ["Антибиотики могут убивать живые бактерии (приём с интервалом 2–3 ч)"],
+    qollash: { kattalar: "1 капсула/пакет 1–3 раза/сут (с едой); во время и после курса антибиотика.", bolalar: "Форма и доза по возрасту (по показаниям)" },
+    chiqarish: "Капсулы, пакеты (порошок), капли — живые бактерии (КОЕ/CFU)"
+  },
+  en: {
+    gruppa: "Antidiarrheal microorganisms — probiotics (lactobacilli + bifidobacteria)",
+    farmTasir: "Probiotic (restoring gut microflora)",
+    farmakodinamika: `A probiotic with lactobacilli and bifidobacteria replenishes and restores the normal gut microflora. By producing lactic acid and other metabolites it lowers gut pH, suppresses pathogen growth (through competition and antimicrobial substances), and strengthens the gut barrier and local immunity. It reduces antibiotic-associated and infectious diarrhoea.`,
+    farmakokinetika: { sorish: "Not absorbed (local action in the gut)", tarqalish: "In the gut lumen", metabolizm: "—", chiqarilish: "In faeces" },
+    korsatmalar: ["Acute and antibiotic-associated diarrhoea, dysbiosis", "Irritable bowel syndrome (adjunct), restoring microflora after intestinal infections"],
+    qarrshi: ["Hypersensitivity", "Caution — severe immunosuppression, central catheter (rare sepsis risk)"],
+    nojoya: { "GI": "Mild flatus, bloating (initially)", "Immune": "In immunosuppressed patients — systemic infection (very rare)" },
+    dozadan: "Toxicity not expected.",
+    ozarotasir: ["Antibiotics may kill the live bacteria (take 2–3 h apart)"],
+    qollash: { kattalar: "1 capsule/sachet 1–3 times/day (with food); during and after an antibiotic course.", bolalar: "Form and dose by age (as indicated)" },
+    chiqarish: "Capsules, sachets (powder), drops — live bacteria (CFU)"
+  }
 }
 
 };
