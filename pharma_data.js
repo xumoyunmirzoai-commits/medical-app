@@ -38318,6 +38318,258 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Oral: 250–500 mg×3–4/day; parenteral: 250–500 mg IV/IM, repeated as needed.", bolalar: "10 mg/kg/day (divided), as indicated" },
     chiqarish: "Tablets 250 mg; solution for injection 125/250 mg/mL (ampoules)"
   }
+},
+
+"B02BD01": {
+  uz: {
+    gruppa: "Ivish faktorlari — protrombin kompleksi konsentrati (PCC)",
+    farmTasir: "Vitamin K-ga bog'liq ivish faktorlari o'rnini bosuvchi",
+    farmakodinamika: `Protrombin kompleksi konsentrati (PCC) — inson plazmasidan olinган, vitamin K-ga bog'liq ivish faktorlari (II, VII, IX, X), ko'pincha protein C va S bilan birga konsentrati. Yetishmagan faktorlarni tez to'ldirib koagulyatsiya kaskadini tiklaydi va qon ivishini normallashtiradi. Yangi muzlatilgan plazmaga nisbatan kichik hajmда tez va kuchli ta'sir beradi — varfarin keltirib chiqargan og'ir qon ketishini tez to'g'rilashda afzal.`,
+    farmakokinetika: { sorish: "Faqat v/i", tarqalish: "Tomir ichida va hujayralararo", metabolizm: "Tabiiy faktorlar metabolizmi", chiqarilish: "Faktorlar yarim yemirilishига qarab (VII eng qisqa)" },
+    korsatmalar: ["Vitamin K antagonisti (varfarin) keltirib chiqargan og'ir qon ketishni tez to'g'rilash (vitamin K bilan birga)", "Vitamin K-ga bog'liq faktorlar tanqisligidagi qon ketish/jarrohlik", "Tug'ma yoki orttirilган IX/II/X faktor tanqisligi (mos konsentrat yo'qда)"],
+    qarrshi: ["Tarqalган tomir ichi ivish (DVS/DIK)", "Geparin keltirib chiqargan trombotsitopeniya (HIT — geparin saqlovchi shakllar)", "Yuqori sezuvchanlik", "Yaqinda tromboz/MI (ehtiyot)"],
+    nojoya: { "Tromboz": "Tromboz/tromboemboliya (asosiy xavf — ortiqcha dozada)", "Immun": "Allergik/anafilaktik reaksiya, isitma", "Infeksion": "Virusli infeksiya o'tishi nazariy xavfi (plazma mahsuloti)" },
+    dozadan: "Tromboz xavfi — INR/koagulogramma nazoratida dozalash; tromboz belgilarini kuzatish.",
+    ozarotasir: ["Antifibrinolitiklar (traneksam/aminokapron kislota) bilan tromboz xavfi oshadi"],
+    qollash: { kattalar: "INR va tana vazniга qarab individual (mas. INR>6 da ~50 BIRLIK/kg), vitamin K bilan birga.", bolalar: "Vaznга qarab, mutaxassis nazoratида" },
+    chiqarish: "In'eksiya/infuziya uchun liofilizat + erituvchi (faktor BIRLIKlari bilan, flakon)"
+  },
+  ru: {
+    gruppa: "Факторы свёртывания — концентрат протромбинового комплекса (PCC)",
+    farmTasir: "Замещение витамин-K-зависимых факторов свёртывания",
+    farmakodinamika: `Концентрат протромбинового комплекса (PCC) — полученный из плазмы человека концентрат витамин-K-зависимых факторов свёртывания (II, VII, IX, X), часто вместе с протеинами C и S. Быстро восполняет недостающие факторы, восстанавливает каскад коагуляции и нормализует свёртывание. По сравнению со свежезамороженной плазмой даёт быстрый и сильный эффект в малом объёме — предпочтителен для быстрой коррекции тяжёлого кровотечения, вызванного варфарином.`,
+    farmakokinetika: { sorish: "Только в/в", tarqalish: "В сосудистом русле и межклеточно", metabolizm: "Метаболизм естественных факторов", chiqarilish: "По периоду полувыведения факторов (VII самый короткий)" },
+    korsatmalar: ["Быстрая коррекция тяжёлого кровотечения от антагониста витамина K (варфарин) (вместе с витамином K)", "Кровотечение/операция при дефиците витамин-K-зависимых факторов", "Врождённый или приобретённый дефицит факторов IX/II/X (при отсутствии специфического концентрата)"],
+    qarrshi: ["ДВС-синдром", "Гепарин-индуцированная тромбоцитопения (ГИТ — для гепаринсодержащих форм)", "Гиперчувствительность", "Недавний тромбоз/ИМ (осторожно)"],
+    nojoya: { "Тромбоз": "Тромбоз/тромбоэмболия (основной риск — при передозировке)", "Иммунные": "Аллергические/анафилактические реакции, лихорадка", "Инфекции": "Теоретический риск передачи вирусной инфекции (препарат плазмы)" },
+    dozadan: "Риск тромбоза — дозирование под контролем МНО/коагулограммы; наблюдать признаки тромбоза.",
+    ozarotasir: ["С антифибринолитиками (транексамовая/аминокапроновая кислота) риск тромбоза возрастает"],
+    qollash: { kattalar: "Индивидуально по МНО и массе тела (напр. при МНО>6 ~50 ЕД/кг), вместе с витамином K.", bolalar: "По массе, под наблюдением специалиста" },
+    chiqarish: "Лиофилизат + растворитель для инъекций/инфузий (в ЕД факторов, флакон)"
+  },
+  en: {
+    gruppa: "Coagulation factors — prothrombin complex concentrate (PCC)",
+    farmTasir: "Replacement of vitamin K-dependent clotting factors",
+    farmakodinamika: `Prothrombin complex concentrate (PCC) is a plasma-derived concentrate of the vitamin K-dependent clotting factors (II, VII, IX, X), often together with proteins C and S. It rapidly replaces the missing factors, restores the coagulation cascade and normalises clotting. Compared with fresh frozen plasma it gives a fast, strong effect in a small volume — preferred for rapid correction of severe warfarin-induced bleeding.`,
+    farmakokinetika: { sorish: "IV only", tarqalish: "In the vascular bed and interstitial", metabolizm: "Natural factor metabolism", chiqarilish: "By factor half-lives (VII shortest)" },
+    korsatmalar: ["Rapid correction of severe vitamin K antagonist (warfarin) bleeding (with vitamin K)", "Bleeding/surgery in vitamin K-dependent factor deficiency", "Congenital or acquired factor IX/II/X deficiency (when a specific concentrate is unavailable)"],
+    qarrshi: ["Disseminated intravascular coagulation (DIC)", "Heparin-induced thrombocytopenia (HIT — for heparin-containing forms)", "Hypersensitivity", "Recent thrombosis/MI (caution)"],
+    nojoya: { "Thrombosis": "Thrombosis/thromboembolism (the main risk — with overdose)", "Immune": "Allergic/anaphylactic reactions, fever", "Infection": "Theoretical risk of viral transmission (plasma product)" },
+    dozadan: "Thrombosis risk — dose under INR/coagulation monitoring; watch for thrombosis signs.",
+    ozarotasir: ["With antifibrinolytics (tranexamic/aminocaproic acid) thrombosis risk increases"],
+    qollash: { kattalar: "Individualised by INR and body weight (e.g. ~50 units/kg at INR>6), together with vitamin K.", bolalar: "By weight, under specialist supervision" },
+    chiqarish: "Lyophilisate + solvent for injection/infusion (in factor units, vial)"
+  }
+},
+
+"B02BD02": {
+  uz: {
+    gruppa: "Ivish faktorlari — VIII faktor (gemofiliya A)",
+    farmTasir: "Qon ivish VIII faktori o'rnini bosuvchi (antigemofil)",
+    farmakodinamika: `VIII koagulyatsiya faktori (rekombinant — mas. lonoktokog alfa, yoki plazmadan olinган) — gemofiliya A da yetishmaydigan antigemofil globulin (VIII faktor) o'rnini bosadi. VIII faktor ivish kaskadida IX faktor (IXa) bilan birga «tenaza» kompleksini hosil qilib X faktorni faollashtiradi — natijada trombin va fibrin hosil bo'lishi tiklanadi va qon ketish to'xtaydi/oldi olinadi. Ba'zi shakllar fon Villebrand omili bilan birga keladi.`,
+    farmakokinetika: { sorish: "Faqat v/i", tarqalish: "Tomir ichida", metabolizm: "Tabiiy faktor metabolizmi", chiqarilish: "T½ ~8–19 soat (uzaytirilgan shakllar uzunroq)" },
+    korsatmalar: ["Gemofiliya A (VIII faktor tanqisligi) — qon ketishni davolash va profilaktikasi", "Jarrohlik davrida gemostazni ta'minlash", "Orttirilган VIII faktor ingibitori (yuqori doza/maxsus sxema)"],
+    qarrshi: ["Yuqori sezuvchanlik (sichqon/hamster oqsiliga — rekombinant shakllarда)", "Ehtiyotkorlik — ingibitor (antitana) rivojlanishi"],
+    nojoya: { "Immun": "VIII faktorga ingibitor (antitana) hosil bo'lishi — eng muhim asorat (samara yo'qoladi)", "Allergik": "Yuqori sezuvchanlik/anafilaksiya", "Mahalliy": "In'eksiya joyida reaksiya", "Infeksion": "Virusli infeksiya nazariy xavfi (plazma shakllar)" },
+    dozadan: "Toksiklik kam; ortiqcha dozaда tromboz nazariy; faktor darajasi nazorati.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "Doza (BIRLIK) = vazn(kg) × kerakli ko'tarilish(%) × 0,5; qon ketish og'irligi va jarrohlikга qarab takror; profilaktika 2–3 marta/hafta.", bolalar: "Xuddi shu formulага asoslangan, mutaxassis nazoratида" },
+    chiqarish: "In'eksiya uchun liofilizat + erituvchi (faktor BIRLIKlari bilan, flakon)"
+  },
+  ru: {
+    gruppa: "Факторы свёртывания — фактор VIII (гемофилия A)",
+    farmTasir: "Замещение фактора свёртывания VIII (антигемофильное)",
+    farmakodinamika: `Фактор свёртывания VIII (рекомбинантный — напр. лоноктоког альфа, или плазменный) замещает недостающий при гемофилии A антигемофильный глобулин (фактор VIII). В каскаде свёртывания фактор VIII вместе с фактором IX (IXa) образует комплекс «теназы», активирующий фактор X — восстанавливается образование тромбина и фибрина, кровотечение останавливается/предотвращается. Некоторые формы содержат и фактор фон Виллебранда.`,
+    farmakokinetika: { sorish: "Только в/в", tarqalish: "В сосудистом русле", metabolizm: "Метаболизм естественного фактора", chiqarilish: "T½ ~8–19 ч (пролонгированные формы дольше)" },
+    korsatmalar: ["Гемофилия A (дефицит фактора VIII) — лечение и профилактика кровотечений", "Обеспечение гемостаза в периоперационном периоде", "Приобретённый ингибитор фактора VIII (высокая доза/специальная схема)"],
+    qarrshi: ["Гиперчувствительность (к белку мыши/хомяка — в рекомбинантных формах)", "Осторожно — развитие ингибитора (антител)"],
+    nojoya: { "Иммунные": "Образование ингибитора (антител) к фактору VIII — важнейшее осложнение (эффект теряется)", "Аллергические": "Гиперчувствительность/анафилаксия", "Местные": "Реакция в месте инъекции", "Инфекции": "Теоретический риск вирусной инфекции (плазменные формы)" },
+    dozadan: "Токсичность мала; при передозировке тромбоз теоретически; контроль уровня фактора.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "Доза (ЕД) = масса(кг) × нужный прирост(%) × 0,5; повтор по тяжести кровотечения и операции; профилактика 2–3 раза/нед.", bolalar: "По той же формуле, под наблюдением специалиста" },
+    chiqarish: "Лиофилизат + растворитель для инъекций (в ЕД фактора, флакон)"
+  },
+  en: {
+    gruppa: "Coagulation factors — factor VIII (haemophilia A)",
+    farmTasir: "Replacement of clotting factor VIII (antihaemophilic)",
+    farmakodinamika: `Coagulation factor VIII (recombinant — e.g. lonoctocog alfa, or plasma-derived) replaces the antihaemophilic globulin (factor VIII) deficient in haemophilia A. In the clotting cascade factor VIII, with factor IX (IXa), forms the 'tenase' complex that activates factor X — restoring thrombin and fibrin generation so bleeding stops or is prevented. Some forms also contain von Willebrand factor.`,
+    farmakokinetika: { sorish: "IV only", tarqalish: "In the vascular bed", metabolizm: "Natural factor metabolism", chiqarilish: "T½ ~8–19 h (extended forms longer)" },
+    korsatmalar: ["Haemophilia A (factor VIII deficiency) — treatment and prevention of bleeding", "Ensuring haemostasis perioperatively", "Acquired factor VIII inhibitor (high dose/special regimen)"],
+    qarrshi: ["Hypersensitivity (to mouse/hamster protein — in recombinant forms)", "Caution — inhibitor (antibody) development"],
+    nojoya: { "Immune": "Development of an inhibitor (antibody) to factor VIII — the most important complication (loss of effect)", "Allergic": "Hypersensitivity/anaphylaxis", "Local": "Injection-site reaction", "Infection": "Theoretical viral infection risk (plasma forms)" },
+    dozadan: "Toxicity low; thrombosis theoretical with overdose; monitor factor level.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "Dose (units) = weight(kg) × desired rise(%) × 0.5; repeat by bleeding severity and surgery; prophylaxis 2–3 times/week.", bolalar: "By the same formula, under specialist supervision" },
+    chiqarish: "Lyophilisate + solvent for injection (in factor units, vial)"
+  }
+},
+
+"B02BD04": {
+  uz: {
+    gruppa: "Ivish faktorlari — IX faktor (gemofiliya B)",
+    farmTasir: "Qon ivish IX faktori o'rnini bosuvchi (antigemofil)",
+    farmakodinamika: `IX koagulyatsiya faktori (inson plazmasidan olinган yoki rekombinant — mas. nonakog alfa) — gemofiliya B da yetishmaydigan IX faktor (Kristmas faktori) o'rnini bosadi. Faollashganда (IXa) VIII faktor bilan birga «tenaza» kompleksini hosil qilib X faktorni faollashtiradi — ivish kaskadini tiklab qon ketishni to'xtatadi/oldini oladi. Vitamin K-ga bog'liq faktor.`,
+    farmakokinetika: { sorish: "Faqat v/i", tarqalish: "Tomir ichi va hujayralararo", metabolizm: "Tabiiy faktor metabolizmi", chiqarilish: "T½ ~18–24 soat (uzaytirilган shakllar uzunroq)" },
+    korsatmalar: ["Gemofiliya B (IX faktor tanqisligi) — qon ketishni davolash va profilaktikasi", "Jarrohlik davrida gemostazni ta'minlash"],
+    qarrshi: ["Yuqori sezuvchanlik", "Tarqalған tomir ichi ivish (DVS), tromboz xavfi yuqori holatlar (ehtiyot)"],
+    nojoya: { "Immun": "IX faktorga ingibitor (antitana) hosil bo'lishi (VIII dan kamroq, lekin allergiyага moyil)", "Allergik": "Anafilaksiya (ingibitorli bemorlarда), isitma", "Tromboz": "Tromboz (ayniqsa eski PCC-tipли shakllarда)", "Mahalliy": "In'eksiya joyida reaksiya" },
+    dozadan: "Tromboz xavfi (ayniqsa kompleks shakllarда); faktor darajasi nazorati.",
+    ozarotasir: ["Antifibrinolitiklar bilan birga tromboz xavfi (ayniqsa kompleks shakllar)"],
+    qollash: { kattalar: "Doza (BIRLIK) = vazn(kg) × kerakli ko'tarilish(%) × ~1 (rekombinant IX uchun koeffitsient ~1,2–1,4); qon ketish/jarrohlikга qarab.", bolalar: "Xuddi shu formulага asoslangan, mutaxassis nazoratида" },
+    chiqarish: "In'eksiya uchun liofilizat + erituvchi (faktor BIRLIKlari bilan, flakon)"
+  },
+  ru: {
+    gruppa: "Факторы свёртывания — фактор IX (гемофилия B)",
+    farmTasir: "Замещение фактора свёртывания IX (антигемофильное)",
+    farmakodinamika: `Фактор свёртывания IX (плазменный или рекомбинантный — напр. нонаког альфа) замещает недостающий при гемофилии B фактор IX (фактор Кристмаса). При активации (IXa) вместе с фактором VIII образует комплекс «теназы», активирующий фактор X — восстанавливает каскад свёртывания и останавливает/предотвращает кровотечение. Витамин-K-зависимый фактор.`,
+    farmakokinetika: { sorish: "Только в/в", tarqalish: "В сосудистом русле и межклеточно", metabolizm: "Метаболизм естественного фактора", chiqarilish: "T½ ~18–24 ч (пролонгированные формы дольше)" },
+    korsatmalar: ["Гемофилия B (дефицит фактора IX) — лечение и профилактика кровотечений", "Обеспечение гемостаза в периоперационном периоде"],
+    qarrshi: ["Гиперчувствительность", "ДВС-синдром, состояния с высоким риском тромбоза (осторожно)"],
+    nojoya: { "Иммунные": "Образование ингибитора (антител) к фактору IX (реже, чем к VIII, но со склонностью к аллергии)", "Аллергические": "Анафилаксия (у пациентов с ингибитором), лихорадка", "Тромбоз": "Тромбоз (особенно у старых форм типа PCC)", "Местные": "Реакция в месте инъекции" },
+    dozadan: "Риск тромбоза (особенно у комплексных форм); контроль уровня фактора.",
+    ozarotasir: ["С антифибринолитиками риск тромбоза (особенно комплексные формы)"],
+    qollash: { kattalar: "Доза (ЕД) = масса(кг) × нужный прирост(%) × ~1 (для рекомбинантного IX коэффициент ~1,2–1,4); по тяжести кровотечения/операции.", bolalar: "По той же формуле, под наблюдением специалиста" },
+    chiqarish: "Лиофилизат + растворитель для инъекций (в ЕД фактора, флакон)"
+  },
+  en: {
+    gruppa: "Coagulation factors — factor IX (haemophilia B)",
+    farmTasir: "Replacement of clotting factor IX (antihaemophilic)",
+    farmakodinamika: `Coagulation factor IX (plasma-derived or recombinant — e.g. nonacog alfa) replaces factor IX (Christmas factor), deficient in haemophilia B. When activated (IXa) it forms, with factor VIII, the 'tenase' complex that activates factor X — restoring the clotting cascade and stopping or preventing bleeding. It is a vitamin K-dependent factor.`,
+    farmakokinetika: { sorish: "IV only", tarqalish: "In the vascular bed and interstitial", metabolizm: "Natural factor metabolism", chiqarilish: "T½ ~18–24 h (extended forms longer)" },
+    korsatmalar: ["Haemophilia B (factor IX deficiency) — treatment and prevention of bleeding", "Ensuring haemostasis perioperatively"],
+    qarrshi: ["Hypersensitivity", "DIC, conditions with high thrombosis risk (caution)"],
+    nojoya: { "Immune": "Development of a factor IX inhibitor (less than to VIII, but with allergy tendency)", "Allergic": "Anaphylaxis (in patients with inhibitor), fever", "Thrombosis": "Thrombosis (especially with older PCC-type forms)", "Local": "Injection-site reaction" },
+    dozadan: "Thrombosis risk (especially with complex forms); monitor factor level.",
+    ozarotasir: ["With antifibrinolytics thrombosis risk (especially complex forms)"],
+    qollash: { kattalar: "Dose (units) = weight(kg) × desired rise(%) × ~1 (for recombinant IX a coefficient ~1.2–1.4); by bleeding/surgery severity.", bolalar: "By the same formula, under specialist supervision" },
+    chiqarish: "Lyophilisate + solvent for injection (in factor units, vial)"
+  }
+},
+
+"B02BD08": {
+  uz: {
+    gruppa: "Ivish faktorlari — faollashgan VII faktor (eptakog alfa, rFVIIa)",
+    farmTasir: "Rekombinant faollashgan VII faktor (bypass agent)",
+    farmakodinamika: `Eptakog alfa (faollashgan) — rekombinant inson faollashgan VII faktor (rFVIIa). Jarohat o'rnida to'qima faktori bilan birikib X va IX faktorlarni to'g'ridan-to'g'ri faollashtiradi va trombotsit yuzasida trombin «portlashini» kuchaytiradi — VIII yoki IX faktor (yoki ularning ingibitorlari) bo'lmaganда ham gemostazni ta'minlaydi («bypass» mexanizm). Ingibitorli gemofiliya va kamyob faktor tanqisliklarида qo'llaniladi.`,
+    farmakokinetika: { sorish: "Faqat v/i (bolus)", tarqalish: "Tomir ichida", metabolizm: "Proteoliz", chiqarilish: "T½ ~2–3 soat (qisqa — tez-tez takror)" },
+    korsatmalar: ["VIII/IX faktorga ingibitori bo'lган gemofiliya A/B da qon ketish", "Tug'ma VII faktor tanqisligi", "Glanzmann trombasteniyasi (trombotsit transfuziyasi samarasiz), orttirilган gemofiliya"],
+    qarrshi: ["Yuqori sezuvchanlik (sichqon/hamster/sigir oqsiliga)", "Tromboz/tromboemboliya xavfi yuqori holatlar (ehtiyotkorlik)"],
+    nojoya: { "Tromboz": "Arterial/venoz tromboz, MI, insult (asosiy xavf — ayniqsa qo'shimcha xavf omillarида)", "Immun": "Allergik reaksiya, isitma", "Boshqa": "Bosh og'rig'i, in'eksiya joyида reaksiya" },
+    dozadan: "Tromboz xavfi — qattiq nazorat; tromboz belgilarini kuzatish.",
+    ozarotasir: ["Protrombin kompleksi konsentratlari, antifibrinolitiklar bilan tromboz xavfi keskin oshadi"],
+    qollash: { kattalar: "Ingibitorli gemofiliyaда 90 mkg/kg v/i bolus har 2–3 soatда (gemostazga erishilгунcha).", bolalar: "Xuddi shu doza (90 mkg/kg), mutaxassis nazoratида" },
+    chiqarish: "In'eksiya uchun liofilizat + erituvchi (1/2/5 mg flakon)"
+  },
+  ru: {
+    gruppa: "Факторы свёртывания — активированный фактор VII (эптаког альфа, рFVIIa)",
+    farmTasir: "Рекомбинантный активированный фактор VII (шунтирующий агент)",
+    farmakodinamika: `Эптаког альфа (активированный) — рекомбинантный активированный фактор VII человека (рFVIIa). В месте повреждения связывается с тканевым фактором и напрямую активирует факторы X и IX, усиливая «взрыв» тромбина на поверхности тромбоцита — обеспечивает гемостаз даже при отсутствии фактора VIII или IX (или при их ингибиторах) («шунтирующий» механизм). Применяется при гемофилии с ингибитором и редких дефицитах факторов.`,
+    farmakokinetika: { sorish: "Только в/в (болюс)", tarqalish: "В сосудистом русле", metabolizm: "Протеолиз", chiqarilish: "T½ ~2–3 ч (короткий — частые повторы)" },
+    korsatmalar: ["Кровотечение при гемофилии A/B с ингибитором к фактору VIII/IX", "Врождённый дефицит фактора VII", "Тромбастения Гланцмана (при неэффективности переливания тромбоцитов), приобретённая гемофилия"],
+    qarrshi: ["Гиперчувствительность (к белку мыши/хомяка/коровы)", "Состояния с высоким риском тромбоза (осторожно)"],
+    nojoya: { "Тромбоз": "Артериальный/венозный тромбоз, ИМ, инсульт (основной риск — особенно при дополнительных факторах риска)", "Иммунные": "Аллергическая реакция, лихорадка", "Прочее": "Головная боль, реакция в месте инъекции" },
+    dozadan: "Риск тромбоза — строгий контроль; наблюдать признаки тромбоза.",
+    ozarotasir: ["С концентратами протромбинового комплекса, антифибринолитиками риск тромбоза резко возрастает"],
+    qollash: { kattalar: "При гемофилии с ингибитором 90 мкг/кг в/в болюсом каждые 2–3 ч (до достижения гемостаза).", bolalar: "Та же доза (90 мкг/кг), под наблюдением специалиста" },
+    chiqarish: "Лиофилизат + растворитель для инъекций (флакон 1/2/5 мг)"
+  },
+  en: {
+    gruppa: "Coagulation factors — activated factor VII (eptacog alfa, rFVIIa)",
+    farmTasir: "Recombinant activated factor VII (bypassing agent)",
+    farmakodinamika: `Eptacog alfa (activated) is recombinant human activated factor VII (rFVIIa). At the injury site it binds tissue factor and directly activates factors X and IX, enhancing the thrombin 'burst' on the platelet surface — providing haemostasis even without factor VIII or IX (or with their inhibitors) (a 'bypassing' mechanism). It is used in haemophilia with inhibitors and rare factor deficiencies.`,
+    farmakokinetika: { sorish: "IV only (bolus)", tarqalish: "In the vascular bed", metabolizm: "Proteolysis", chiqarilish: "T½ ~2–3 h (short — frequent repeats)" },
+    korsatmalar: ["Bleeding in haemophilia A/B with an inhibitor to factor VIII/IX", "Congenital factor VII deficiency", "Glanzmann thrombasthenia (when platelet transfusion is ineffective), acquired haemophilia"],
+    qarrshi: ["Hypersensitivity (to mouse/hamster/bovine protein)", "Conditions with high thrombosis risk (caution)"],
+    nojoya: { "Thrombosis": "Arterial/venous thrombosis, MI, stroke (the main risk — especially with additional risk factors)", "Immune": "Allergic reaction, fever", "Other": "Headache, injection-site reaction" },
+    dozadan: "Thrombosis risk — strict monitoring; watch for thrombosis signs.",
+    ozarotasir: ["With prothrombin complex concentrates, antifibrinolytics thrombosis risk rises sharply"],
+    qollash: { kattalar: "In haemophilia with inhibitor 90 µg/kg IV bolus every 2–3 h (until haemostasis).", bolalar: "Same dose (90 µg/kg), under specialist supervision" },
+    chiqarish: "Lyophilisate + solvent for injection (vial 1/2/5 mg)"
+  }
+},
+
+"B02BX05": {
+  uz: {
+    gruppa: "Tizimli gemostatiklar — trombopoetin retseptori agonistlari (eltrombopag)",
+    farmTasir: "Trombotsit hosil bo'lishini rag'batlantiruvchi (TPO-retseptor agonisti)",
+    farmakodinamika: `Eltrombopag — peroral, kichik molekulali trombopoetin (TPO) retseptori agonisti. Suyak iligida megakariotsitlarning TPO retseptoriga (transmembran qismига) bog'lanib ularning ko'payishi va differensiatsiyasини rag'batlantiradi — trombotsit ishlab chiqarilishini oshiradi. Endogen TPO bilan raqobatlashmaydi (boshqa joyga bog'lanadi). Surункали immun trombotsitopeniya va boshqa trombotsitopeniyalarда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich (ovqat, ayniqsa kal'siy/temir/sut so'rilishini keskin kamaytiradi — och qoringa)", tarqalish: "Oqsiliga yuqori (>99%)", metabolizm: "Jigar (CYP1A2, CYP2C8, glyukuronidlanish)", chiqarilish: "Asosан najas; T½ ~21–32 soat" },
+    korsatmalar: ["Surункali immun (idiopatik) trombotsitopenik purpura (boshqa davolarга refrakter)", "Surункali gepatit C da trombotsitopeniya (interferon davosi uchun)", "Og'ir aplastik anemiya (immunosupressiyага qo'shimcha)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — jigar yetishmovchiligi, tromboz xavfi yuqori holatlar"],
+    nojoya: { "Jigar": "Gepatotoksiklik, transaminaza/bilirubin ko'tarilishi (nazorat shart)", "Tromboz": "Tromboz/tromboemboliya (ortiqcha trombotsitда)", "Qon": "To'xtatishда «rebound» trombotsitopeniya", "Boshqa": "Bosh og'rig'i, katarakta (uzoq), suyak iligida retikulin" },
+    dozadan: "Ortiqcha trombotsit/tromboz — dozani kamaytirish/to'xtatish; jigar nazorati.",
+    ozarotasir: ["Ko'p valentли kationlar (Ca, Fe, Mg, Al, Zn — antatsid, sut) so'rilishini keskin kamaytiradi (≥2 soat interval)", "Statinlar (OATP1B1/BCRP substratlari), rosuvastatin darajasini oshiradi"],
+    qollash: { kattalar: "Boshlang'ich 50 mg×1/sutka (Sharqiy Osiyo bemorlarида 25 mg) och qoringa, trombotsitга qarab titrlash (maks 75 mg).", bolalar: "≥6 yosh: 25–50 mg/sutka (ko'rsatmага ko'ra)" },
+    chiqarish: "Plyonka qoplamali tabletkalar 25/50/75 mg; suspenziya uchun kukun"
+  },
+  ru: {
+    gruppa: "Системные гемостатики — агонисты рецептора тромбопоэтина (элтромбопаг)",
+    farmTasir: "Стимулятор образования тромбоцитов (агонист ТПО-рецептора)",
+    farmakodinamika: `Элтромбопаг — пероральный низкомолекулярный агонист рецептора тромбопоэтина (ТПО). Связываясь с трансмембранной частью ТПО-рецептора мегакариоцитов костного мозга, стимулирует их пролиферацию и дифференцировку — повышает продукцию тромбоцитов. Не конкурирует с эндогенным ТПО (связывается в другом месте). Применяется при хронической иммунной тромбоцитопении и других тромбоцитопениях.`,
+    farmakokinetika: { sorish: "Внутрь (пища, особенно кальций/железо/молоко, резко снижают всасывание — натощак)", tarqalish: "Высокая связь с белками (>99%)", metabolizm: "Печень (CYP1A2, CYP2C8, глюкуронирование)", chiqarilish: "Преимущественно с калом; T½ ~21–32 ч" },
+    korsatmalar: ["Хроническая иммунная (идиопатическая) тромбоцитопеническая пурпура (рефрактерная к другим методам)", "Тромбоцитопения при хроническом гепатите C (для терапии интерфероном)", "Тяжёлая апластическая анемия (в дополнение к иммуносупрессии)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — печёночная недостаточность, состояния с высоким риском тромбоза"],
+    nojoya: { "Печень": "Гепатотоксичность, повышение трансаминаз/билирубина (необходим контроль)", "Тромбоз": "Тромбоз/тромбоэмболия (при избытке тромбоцитов)", "Кровь": "«Рикошетная» тромбоцитопения при отмене", "Прочее": "Головная боль, катаракта (длительно), ретикулин в костном мозге" },
+    dozadan: "Избыток тромбоцитов/тромбоз — снизить дозу/отменить; контроль печени.",
+    ozarotasir: ["Поливалентные катионы (Ca, Fe, Mg, Al, Zn — антациды, молоко) резко снижают всасывание (интервал ≥2 ч)", "Повышает уровень статинов (субстратов OATP1B1/BCRP), розувастатина"],
+    qollash: { kattalar: "Начально 50 мг×1/сут (у пациентов Восточной Азии 25 мг) натощак, титрование по тромбоцитам (макс 75 мг).", bolalar: "≥6 лет: 25–50 мг/сут (по показаниям)" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 25/50/75 мг; порошок для суспензии"
+  },
+  en: {
+    gruppa: "Systemic haemostatics — thrombopoietin receptor agonists (eltrombopag)",
+    farmTasir: "Platelet production stimulant (TPO receptor agonist)",
+    farmakodinamika: `Eltrombopag is an oral small-molecule thrombopoietin (TPO) receptor agonist. By binding the transmembrane portion of the TPO receptor on bone marrow megakaryocytes, it stimulates their proliferation and differentiation — increasing platelet production. It does not compete with endogenous TPO (binds a different site). It is used in chronic immune thrombocytopenia and other thrombocytopenias.`,
+    farmakokinetika: { sorish: "Oral (food, especially calcium/iron/milk, markedly reduce absorption — fasting)", tarqalish: "Highly protein-bound (>99%)", metabolizm: "Hepatic (CYP1A2, CYP2C8, glucuronidation)", chiqarilish: "Mainly faecal; T½ ~21–32 h" },
+    korsatmalar: ["Chronic immune (idiopathic) thrombocytopenic purpura (refractory to other treatments)", "Thrombocytopenia in chronic hepatitis C (to enable interferon therapy)", "Severe aplastic anaemia (in addition to immunosuppression)"],
+    qarrshi: ["Hypersensitivity", "Caution — hepatic impairment, conditions with high thrombosis risk"],
+    nojoya: { "Liver": "Hepatotoxicity, raised transaminases/bilirubin (monitoring required)", "Thrombosis": "Thrombosis/thromboembolism (with excess platelets)", "Blood": "Rebound thrombocytopenia on withdrawal", "Other": "Headache, cataract (long-term), marrow reticulin" },
+    dozadan: "Excess platelets/thrombosis — reduce dose/stop; liver monitoring.",
+    ozarotasir: ["Polyvalent cations (Ca, Fe, Mg, Al, Zn — antacids, milk) markedly reduce absorption (≥2 h interval)", "Raises levels of statins (OATP1B1/BCRP substrates), rosuvastatin"],
+    qollash: { kattalar: "Initial 50 mg once daily (25 mg in East Asian patients) fasting, titrate by platelets (max 75 mg).", bolalar: "≥6 years: 25–50 mg/day (as indicated)" },
+    chiqarish: "Film-coated tablets 25/50/75 mg; powder for suspension"
+  }
+},
+
+"B02BX06": {
+  uz: {
+    gruppa: "Tizimli gemostatiklar — monoklonal antitanalar (emitsizumab)",
+    farmTasir: "VIII faktorni taqlid qiluvchi bispesifik antitana (gemofiliya A)",
+    farmakodinamika: `Emitsizumab — bispesifik monoklonal antitana. Bir vaqtning o'zida IXa faktor va X faktorга bog'lanib, ularni faollashган VIII faktor (VIIIa) singari bir-biriga yaqinlashtiradi — ya'ni yetishmagan VIII faktor vazifasini bajaradi va X faktorni faollashtiradi. Bu orqали gemofiliya A da ivish kaskadini tiklaydi. VIII faktordan struktura jihatdan farq qiladi, shuning uchun VIII faktorга qarshi ingibitor (antitana) ta'sir qilmaydi.`,
+    farmakokinetika: { sorish: "Teri ostiga (s/k); bioo'zlashtirish yuqori", tarqalish: "Tor", metabolizm: "Oqsil katabolizmi", chiqarilish: "T½ ~28 kun (haftaда yoki kamroq beriladi)" },
+    korsatmalar: ["Gemofiliya A da (VIII faktor ingibitori bilan yoki ingibitorsiz) qon ketish profilaktikasi — muntazam (rutin) profilaktika"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — faollashган protrombin kompleksi konsentrati (aPCC) bilan birga (TMA/tromboz xavfi)"],
+    nojoya: { "Mahalliy": "In'eksiya joyида reaksiya (eng ko'p)", "Tromboz": "Trombotik mikroangiopatiya (TMA) va tromboz — ayniqsa yuqori dozaли aPCC bilan birga", "Boshqa": "Bosh og'rig'i, artralgiya, isitma" },
+    dozadan: "aPCC bilan birga TMA/tromboz — emitsizumab fonida aPCC dan saqlanish; simptomatik.",
+    ozarotasir: ["aPCC (FEIBA) bilan birga TMA/tromboz xavfi (yuqori doza/uzoq)", "Standart koagulyatsiya testlari (APTT, faktor faolligi) natijalarini buzadi — talqinда ehtiyot"],
+    qollash: { kattalar: "Yuklama 3 mg/kg s/k haftaда 1 marta (4 hafta), keyin qo'llab-quvvatlash 1,5 mg/kg/hafta yoki 3 mg/kg/2 hafta yoki 6 mg/kg/4 hafta.", bolalar: "Xuddi shu sxema (vaznга qarab), mutaxassis nazoratида" },
+    chiqarish: "In'eksiya uchun eritma (flakon, har xil konsentratsiyalar)"
+  },
+  ru: {
+    gruppa: "Системные гемостатики — моноклональные антитела (эмицизумаб)",
+    farmTasir: "Биспецифическое антитело, имитирующее фактор VIII (гемофилия A)",
+    farmakodinamika: `Эмицизумаб — биспецифическое моноклональное антитело. Одновременно связываясь с фактором IXa и фактором X, сближает их подобно активированному фактору VIII (VIIIa) — то есть выполняет функцию недостающего фактора VIII и активирует фактор X. Тем самым восстанавливает каскад свёртывания при гемофилии A. Структурно отличается от фактора VIII, поэтому ингибитор (антитело) к фактору VIII на него не действует.`,
+    farmakokinetika: { sorish: "Подкожно (п/к); биодоступность высокая", tarqalish: "Узкое", metabolizm: "Катаболизм белка", chiqarilish: "T½ ~28 дней (вводится еженедельно или реже)" },
+    korsatmalar: ["Профилактика кровотечений при гемофилии A (с ингибитором к фактору VIII или без) — рутинная профилактика"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — совместно с активированным концентратом протромбинового комплекса (аПКК) (риск ТМА/тромбоза)"],
+    nojoya: { "Местные": "Реакция в месте инъекции (наиболее часто)", "Тромбоз": "Тромботическая микроангиопатия (ТМА) и тромбоз — особенно с высокими дозами аПКК", "Прочее": "Головная боль, артралгия, лихорадка" },
+    dozadan: "ТМА/тромбоз с аПКК — избегать аПКК на фоне эмицизумаба; симптоматически.",
+    ozarotasir: ["С аПКК (FEIBA) риск ТМА/тромбоза (высокая доза/длительно)", "Искажает результаты стандартных коагуляционных тестов (АЧТВ, активность факторов) — осторожно при интерпретации"],
+    qollash: { kattalar: "Нагрузка 3 мг/кг п/к 1 раз/нед (4 недели), затем поддержание 1,5 мг/кг/нед, или 3 мг/кг/2 недели, или 6 мг/кг/4 недели.", bolalar: "Та же схема (по массе), под наблюдением специалиста" },
+    chiqarish: "Раствор для инъекций (флакон, разные концентрации)"
+  },
+  en: {
+    gruppa: "Systemic haemostatics — monoclonal antibodies (emicizumab)",
+    farmTasir: "Bispecific factor VIII-mimetic antibody (haemophilia A)",
+    farmakodinamika: `Emicizumab is a bispecific monoclonal antibody. By binding factor IXa and factor X simultaneously, it brings them together like activated factor VIII (VIIIa) — i.e. it performs the role of the missing factor VIII and activates factor X. It thereby restores the clotting cascade in haemophilia A. It is structurally distinct from factor VIII, so an inhibitor (antibody) to factor VIII does not affect it.`,
+    farmakokinetika: { sorish: "Subcutaneous (SC); high bioavailability", tarqalish: "Narrow", metabolizm: "Protein catabolism", chiqarilish: "T½ ~28 days (given weekly or less often)" },
+    korsatmalar: ["Bleeding prophylaxis in haemophilia A (with or without a factor VIII inhibitor) — routine prophylaxis"],
+    qarrshi: ["Hypersensitivity", "Caution — together with activated prothrombin complex concentrate (aPCC) (TMA/thrombosis risk)"],
+    nojoya: { "Local": "Injection-site reaction (most common)", "Thrombosis": "Thrombotic microangiopathy (TMA) and thrombosis — especially with high-dose aPCC", "Other": "Headache, arthralgia, fever" },
+    dozadan: "TMA/thrombosis with aPCC — avoid aPCC while on emicizumab; supportive.",
+    ozarotasir: ["With aPCC (FEIBA) risk of TMA/thrombosis (high dose/prolonged)", "Distorts standard coagulation tests (APTT, factor activity) — interpret with caution"],
+    qollash: { kattalar: "Loading 3 mg/kg SC once weekly (4 weeks), then maintenance 1.5 mg/kg/week, or 3 mg/kg/2 weeks, or 6 mg/kg/4 weeks.", bolalar: "Same regimen (by weight), under specialist supervision" },
+    chiqarish: "Solution for injection (vial, various concentrations)"
+  }
 }
 
 };
