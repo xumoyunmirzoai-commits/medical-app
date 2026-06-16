@@ -38066,6 +38066,258 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Atrial fibrillation: 5 mg×2/day (reduction criteria: ≥80 years, ≤60 kg, creatinine ≥133 — 2.5 mg×2); VTE: 10 mg×2 (7 days), then 5 mg×2.", bolalar: "Not recommended (limited data)" },
     chiqarish: "Film-coated tablets 2.5/5 mg"
   }
+},
+
+"B02AA01": {
+  uz: {
+    gruppa: "Gemostatiklar — antifibrinolitiklar (aminokapron kislota)",
+    farmTasir: "Antifibrinolitik (qon ketishni to'xtatuvchi)",
+    farmakodinamika: `Aminokapron kislota (epsilon-aminokapron kislota) — antifibrinolitik. Plazminogen molekulasidagi lizin-bog'lovchi joylarni egallab, plazminogenning fibrinга bog'lanishini va plazminга aylanishini to'sib qo'yadi — natijada fibrin tromblari parchalanishi (fibrinoliz) sekinlashadi va qon laxtasi barqaror bo'lib qoladi. Plazminning bevosita faolligini ham qisman bostiradi. Giperfibrinoliz keltirib chiqargan qon ketishларда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich va v/i", tarqalish: "Hujayralararo bo'shliqда keng", metabolizm: "Kam (o'zgarmagan)", chiqarilish: "Asosан buyrak orqали tez" },
+    korsatmalar: ["Giperfibrinoliz bilan kechuvchi qon ketishlar (jarrohlik, jigar, o'pka, prostata, ginekologik)", "Trombolitik ortiqcha dozasi, gemofiliyaда qo'shimcha gemostaz", "Subaraxnoidal qon ketish (cheklangan)"],
+    qarrshi: ["Tarqalган tomir ichi ivish (DVS/DIK) sindromi (giperkoagulyatsiya bosqichi)", "Tromboz/tromboemboliyaга moyillik", "Og'ir buyrak yetishmovchiligi, hematuriya (yuqori siydik yo'llaridan — obstruksiya xavfi)", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Gipotenziya, bradikardiya (tez v/i), bosh aylanishi", "Oshqozon-ichak": "Ko'ngil aynishi, diareya", "Mushak": "Mialgiya, miopatiya, rabdomioliz (uzoq qo'llaganда)", "Tromboz": "Tromboz xavfi (noto'g'ri qo'llaganда)" },
+    dozadan: "Tromboz xavfi, gipotenziya; to'xtatish, simptomatik.",
+    ozarotasir: ["Estrogen/oral kontratseptivlar bilan tromboz xavfi oshadi", "Protrombin kompleksi konsentrati bilan birga tromboz xavfi"],
+    qollash: { kattalar: "V/i: dastlab 4–5 g (1 soat infuziya), keyin 1 g/soat; ich: 5 g, keyin 1 g har soatда (ko'rsatmага ko'ra).", bolalar: "100 mg/kg birinchi soatда, keyin qo'llab-quvvatlash (ko'rsatmага ko'ra)" },
+    chiqarish: "Infuziya uchun eritma 5%; ichish uchun kukun/eritma"
+  },
+  ru: {
+    gruppa: "Гемостатики — антифибринолитики (аминокапроновая кислота)",
+    farmTasir: "Антифибринолитик (останавливающий кровотечение)",
+    farmakodinamika: `Аминокапроновая кислота (эпсилон-аминокапроновая кислота) — антифибринолитик. Занимая лизинсвязывающие участки молекулы плазминогена, препятствует его связыванию с фибрином и превращению в плазмин — в результате замедляется расщепление фибриновых тромбов (фибринолиз) и сгусток крови остаётся стабильным. Частично подавляет и прямую активность плазмина. Применяется при кровотечениях, вызванных гиперфибринолизом.`,
+    farmakokinetika: { sorish: "Внутрь и в/в", tarqalish: "Широко в межклеточном пространстве", metabolizm: "Незначительный (неизменён)", chiqarilish: "Преимущественно почками, быстро" },
+    korsatmalar: ["Кровотечения с гиперфибринолизом (операции, печень, лёгкие, простата, гинекология)", "Передозировка тромболитиков, дополнительный гемостаз при гемофилии", "Субарахноидальное кровоизлияние (ограниченно)"],
+    qarrshi: ["ДВС-синдром (фаза гиперкоагуляции)", "Склонность к тромбозу/тромбоэмболии", "Тяжёлая почечная недостаточность, гематурия (из верхних мочевых путей — риск обструкции)", "Гиперчувствительность"],
+    nojoya: { "Сосуды": "Гипотензия, брадикардия (быстрое в/в), головокружение", "ЖКТ": "Тошнота, диарея", "Мышцы": "Миалгия, миопатия, рабдомиолиз (при длительном применении)", "Тромбоз": "Риск тромбоза (при неправильном применении)" },
+    dozadan: "Риск тромбоза, гипотензия; отмена, симптоматически.",
+    ozarotasir: ["С эстрогенами/оральными контрацептивами риск тромбоза возрастает", "С концентратом протромбинового комплекса риск тромбоза"],
+    qollash: { kattalar: "В/в: вначале 4–5 г (инфузия 1 ч), затем 1 г/ч; внутрь: 5 г, затем 1 г каждый час (по показаниям).", bolalar: "100 мг/кг в первый час, затем поддержание (по показаниям)" },
+    chiqarish: "Раствор для инфузий 5%; порошок/раствор для приёма внутрь"
+  },
+  en: {
+    gruppa: "Haemostatics — antifibrinolytics (aminocaproic acid)",
+    farmTasir: "Antifibrinolytic (bleeding-arresting)",
+    farmakodinamika: `Aminocaproic acid (epsilon-aminocaproic acid) is an antifibrinolytic. By occupying the lysine-binding sites of plasminogen it prevents its binding to fibrin and conversion to plasmin — slowing breakdown of fibrin clots (fibrinolysis) so the clot remains stable. It also partly inhibits plasmin's direct activity. It is used for bleeding caused by hyperfibrinolysis.`,
+    farmakokinetika: { sorish: "Oral and IV", tarqalish: "Wide in the interstitial space", metabolizm: "Minimal (unchanged)", chiqarilish: "Mainly renal, rapidly" },
+    korsatmalar: ["Bleeding with hyperfibrinolysis (surgery, liver, lung, prostate, gynaecology)", "Thrombolytic overdose, adjunct haemostasis in haemophilia", "Subarachnoid haemorrhage (limited)"],
+    qarrshi: ["Disseminated intravascular coagulation (DIC, hypercoagulable phase)", "Thrombosis/thromboembolism tendency", "Severe renal impairment, haematuria (from the upper tract — obstruction risk)", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension, bradycardia (rapid IV), dizziness", "GI": "Nausea, diarrhoea", "Muscle": "Myalgia, myopathy, rhabdomyolysis (with prolonged use)", "Thrombosis": "Thrombosis risk (with improper use)" },
+    dozadan: "Thrombosis risk, hypotension; stop, supportive.",
+    ozarotasir: ["With estrogens/oral contraceptives thrombosis risk increases", "With prothrombin complex concentrate thrombosis risk"],
+    qollash: { kattalar: "IV: initially 4–5 g (1 h infusion), then 1 g/h; oral: 5 g, then 1 g hourly (as indicated).", bolalar: "100 mg/kg in the first hour, then maintenance (as indicated)" },
+    chiqarish: "Solution for infusion 5%; powder/solution for oral use"
+  }
+},
+
+"B02AA02": {
+  uz: {
+    gruppa: "Gemostatiklar — antifibrinolitiklar (traneksam kislota)",
+    farmTasir: "Antifibrinolitik (aminokapron kislotadan ~10 baravar kuchli)",
+    farmakodinamika: `Traneksam kislota — sintetik antifibrinolitik, lizin analogi. Plazminogenning lizin-bog'lovchi joylariga raqobatli bog'lanib, plazminogenning fibrinга bog'lanishi va plazminга faollashishini to'sadi — fibrinoliz sekinlashib qon laxtasi barqaror qoladi. Aminokapron kislotadan ~6–10 baravar kuchliroq va uzoqroq ta'sirli; jarrohlik va travmaда qon yo'qotishni kamaytirishда keng qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich (~30–50%) yoki v/i", tarqalish: "To'qimalarга keng (sinovial, MNS ham)", metabolizm: "Kam (o'zgarmagan)", chiqarilish: "Asosан buyrak orqали; T½ ~2–3 soat" },
+    korsatmalar: ["Jarrohlik/travmaда qon yo'qotishni kamaytirish (jumladан politravma — erta)", "Menoragiya (ko'p hayz), burun/milk qon ketishi, gematuriya (ehtiyot)", "Gemofiliyaда tish olishida, angionevrotik shish (irsiy) profilaktikasi"],
+    qarrshi: ["O'tkir tromboz/tromboemboliya, og'ir tromboz anamnezi", "DVS/DIK (giperkoagulyatsiya)", "Subaraxnoidal qon ketish (miya tomir spazmi xavfi), og'ir buyrak yetishmovchiligi (doza moslash)", "Ranglar ko'rishini buzilishi anamnezi (uzoq qo'llaganда)"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, qusish, diareya (dozага bog'liq)", "Tomir (tez v/i)": "Gipotenziya, bosh aylanishi", "Ko'z": "Ranglar ko'rishi buzilishi (uzoq qo'llaganда — to'xtatish kerak)", "Tromboz": "Tromboz/emboliya xavfi (kamdan-kam)" },
+    dozadan: "Tromboz, ko'rish buzilishi, tutqanoq (juda yuqori doza/buyrak yetishmovchiligi); to'xtatish, simptomatik.",
+    ozarotasir: ["Estrogen/oral kontratseptivlar bilan tromboz xavfi", "Protrombin kompleksi/faktor IX konsentratlari bilan tromboz xavfi"],
+    qollash: { kattalar: "Ich: 1 g (yoki 15–25 mg/kg)×2–3/sutka; v/i: 10 mg/kg sekin, takror; travmaда 1 g 10 daq, keyin 1 g 8 soat.", bolalar: "10 mg/kg×2–3 (ko'rsatmага ko'ra)" },
+    chiqarish: "Tabletkalar 250/500 mg; in'eksiya eritmasi 50/100 mg/ml (ampula)"
+  },
+  ru: {
+    gruppa: "Гемостатики — антифибринолитики (транексамовая кислота)",
+    farmTasir: "Антифибринолитик (в ~10 раз сильнее аминокапроновой кислоты)",
+    farmakodinamika: `Транексамовая кислота — синтетический антифибринолитик, аналог лизина. Конкурентно связываясь с лизинсвязывающими участками плазминогена, препятствует его связыванию с фибрином и активации в плазмин — фибринолиз замедляется, сгусток остаётся стабильным. В ~6–10 раз сильнее и длительнее аминокапроновой кислоты; широко применяется для снижения кровопотери при операциях и травме.`,
+    farmakokinetika: { sorish: "Внутрь (~30–50%) или в/в", tarqalish: "Широко в ткани (синовия, ЦНС тоже)", metabolizm: "Незначительный (неизменён)", chiqarilish: "Преимущественно почками; T½ ~2–3 ч" },
+    korsatmalar: ["Снижение кровопотери при операциях/травме (в т.ч. политравма — рано)", "Меноррагия, носовые/дёсенные кровотечения, гематурия (осторожно)", "При гемофилии при удалении зубов, профилактика наследственного ангионевротического отёка"],
+    qarrshi: ["Острый тромбоз/тромбоэмболия, тяжёлый тромбоз в анамнезе", "ДВС-синдром (гиперкоагуляция)", "Субарахноидальное кровоизлияние (риск спазма сосудов мозга), тяжёлая почечная недостаточность (коррекция дозы)", "Нарушение цветового зрения в анамнезе (при длительном применении)"],
+    nojoya: { "ЖКТ": "Тошнота, рвота, диарея (дозозависимо)", "Сосуды (быстрое в/в)": "Гипотензия, головокружение", "Глаза": "Нарушение цветового зрения (при длительном применении — отменить)", "Тромбоз": "Риск тромбоза/эмболии (редко)" },
+    dozadan: "Тромбоз, нарушение зрения, судороги (очень высокая доза/почечная недостаточность); отмена, симптоматически.",
+    ozarotasir: ["С эстрогенами/оральными контрацептивами риск тромбоза", "С концентратами протромбинового комплекса/фактора IX риск тромбоза"],
+    qollash: { kattalar: "Внутрь: 1 г (или 15–25 мг/кг)×2–3/сут; в/в: 10 мг/кг медленно, повторно; при травме 1 г за 10 мин, затем 1 г за 8 ч.", bolalar: "10 мг/кг×2–3 (по показаниям)" },
+    chiqarish: "Таблетки 250/500 мг; раствор для инъекций 50/100 мг/мл (ампулы)"
+  },
+  en: {
+    gruppa: "Haemostatics — antifibrinolytics (tranexamic acid)",
+    farmTasir: "Antifibrinolytic (~10 times stronger than aminocaproic acid)",
+    farmakodinamika: `Tranexamic acid is a synthetic antifibrinolytic and lysine analogue. By competitively binding the lysine-binding sites of plasminogen it prevents its binding to fibrin and activation to plasmin — fibrinolysis slows and the clot stays stable. It is ~6–10 times stronger and longer-acting than aminocaproic acid; it is widely used to reduce blood loss in surgery and trauma.`,
+    farmakokinetika: { sorish: "Oral (~30–50%) or IV", tarqalish: "Wide into tissues (synovial, CNS too)", metabolizm: "Minimal (unchanged)", chiqarilish: "Mainly renal; T½ ~2–3 h" },
+    korsatmalar: ["Reducing blood loss in surgery/trauma (including early in polytrauma)", "Menorrhagia, nose/gum bleeding, haematuria (cautiously)", "In haemophilia for dental extraction, prophylaxis of hereditary angio-oedema"],
+    qarrshi: ["Acute thrombosis/thromboembolism, severe thrombosis history", "DIC (hypercoagulation)", "Subarachnoid haemorrhage (cerebral vasospasm risk), severe renal impairment (dose adjustment)", "History of colour vision disturbance (with prolonged use)"],
+    nojoya: { "GI": "Nausea, vomiting, diarrhoea (dose-dependent)", "Vascular (rapid IV)": "Hypotension, dizziness", "Eyes": "Colour vision disturbance (with prolonged use — discontinue)", "Thrombosis": "Thrombosis/embolism risk (rare)" },
+    dozadan: "Thrombosis, visual disturbance, seizures (very high dose/renal failure); stop, supportive.",
+    ozarotasir: ["With estrogens/oral contraceptives thrombosis risk", "With prothrombin complex/factor IX concentrates thrombosis risk"],
+    qollash: { kattalar: "Oral: 1 g (or 15–25 mg/kg)×2–3/day; IV: 10 mg/kg slowly, repeated; in trauma 1 g over 10 min, then 1 g over 8 h.", bolalar: "10 mg/kg×2–3 (as indicated)" },
+    chiqarish: "Tablets 250/500 mg; solution for injection 50/100 mg/mL (ampoules)"
+  }
+},
+
+"B02AB01": {
+  uz: {
+    gruppa: "Gemostatiklar — proteolitik fermentlar inhibitorlari (aprotinin)",
+    farmTasir: "Proteaza inhibitori (antifibrinolitik va antiproteolitik)",
+    farmakodinamika: `Aprotinin — keng spektrli serin proteaza inhibitori (qoramol o'pkasidan). Plazmin, kallikrein, tripsin va boshqa proteazalarni bloklab fibrinolizni kamaytiradi, kallikrein-kinin tizimini (yallig'lanish, vazodilatatsiya) bostiradi va sistemali yallig'lanish javobini yumshatadi. Yurak-ko'krak jarrohligida (sun'iy qon aylanishi) qon yo'qotishni kamaytirish va pankreatitда qo'llanilgan.`,
+    farmakokinetika: { sorish: "Faqat v/i", tarqalish: "Hujayralararo; buyrakда to'planadi", metabolizm: "Buyrak (lizosomal)", chiqarilish: "Buyrak; T½ ~5–10 soat" },
+    korsatmalar: ["Yurak-ko'krak jarrohligida (AIK) qon yo'qotishni kamaytirish (cheklangan — xavf-foyda)", "O'tkir pankreatit, pankreonekroz (yordamчi), giperfibrinolitik qon ketish"],
+    qarrshi: ["Aprotininга yuqori sezuvchanlik (avval qo'llanган bo'lsa — anafilaksiya xavfi yuqori)", "DVS/DIK", "Homiladorlik (ehtiyot)"],
+    nojoya: { "Immun": "Allergik/anafilaktik reaksiya (takroriy qo'llaganда — xavfli)", "Buyrak": "Buyrak funksiyasi buzilishi (xos), o'tkir buyrak shikasti", "Tromboz": "Tromboz/MI xavfi (munozarali — ko'p mamlakatda cheklangan)", "Mahalliy": "In'eksiya joyида reaksiya" },
+    dozadan: "Allergik/buyrak asoratlari; to'xtatish, simptomatik, anafilaksiyaда adrenalin.",
+    ozarotasir: ["Trombolitiklar (streptokinaza, alteplaza) ta'sirini susaytiradi", "Aminoglikozidlar bilan nefrotoksiklik kuchayishi mumkin"],
+    qollash: { kattalar: "AIK: yuklama dozasi + infuziya (protokol bo'yicha, sinov dozasi bilan); pankreatitда yuqori boshlang'ich, keyin kamaytirib.", bolalar: "Vaznга qarab, mutaxassis nazoratида" },
+    chiqarish: "In'eksiya/infuziya uchun eritma (KIU/birlik bilan, flakon)"
+  },
+  ru: {
+    gruppa: "Гемостатики — ингибиторы протеолитических ферментов (апротинин)",
+    farmTasir: "Ингибитор протеаз (антифибринолитик и антипротеолитик)",
+    farmakodinamika: `Апротинин — ингибитор сериновых протеаз широкого спектра (из лёгких крупного рогатого скота). Блокируя плазмин, калликреин, трипсин и другие протеазы, снижает фибринолиз, подавляет калликреин-кининовую систему (воспаление, вазодилатация) и смягчает системный воспалительный ответ. Применялся в кардиохирургии (искусственное кровообращение) для снижения кровопотери и при панкреатите.`,
+    farmakokinetika: { sorish: "Только в/в", tarqalish: "Межклеточно; накапливается в почках", metabolizm: "Почки (лизосомальный)", chiqarilish: "Почками; T½ ~5–10 ч" },
+    korsatmalar: ["Снижение кровопотери в кардиохирургии (АИК) (ограниченно — риск/польза)", "Острый панкреатит, панкреонекроз (вспомогательно), гиперфибринолитическое кровотечение"],
+    qarrshi: ["Гиперчувствительность к апротинину (при предыдущем применении — высокий риск анафилаксии)", "ДВС-синдром", "Беременность (осторожно)"],
+    nojoya: { "Иммунные": "Аллергические/анафилактические реакции (при повторном применении — опасно)", "Почки": "Нарушение функции почек (характерно), острое повреждение почек", "Тромбоз": "Риск тромбоза/ИМ (спорно — во многих странах ограничен)", "Местные": "Реакция в месте инъекции" },
+    dozadan: "Аллергические/почечные осложнения; отмена, симптоматически, при анафилаксии адреналин.",
+    ozarotasir: ["Ослабляет действие тромболитиков (стрептокиназа, алтеплаза)", "С аминогликозидами возможно усиление нефротоксичности"],
+    qollash: { kattalar: "АИК: нагрузочная доза + инфузия (по протоколу, с пробной дозой); при панкреатите высокая начальная, затем снижая.", bolalar: "По массе, под наблюдением специалиста" },
+    chiqarish: "Раствор для инъекций/инфузий (в КИЕ/единицах, флакон)"
+  },
+  en: {
+    gruppa: "Haemostatics — proteolytic enzyme inhibitors (aprotinin)",
+    farmTasir: "Protease inhibitor (antifibrinolytic and antiproteolytic)",
+    farmakodinamika: `Aprotinin is a broad-spectrum serine protease inhibitor (from bovine lung). By blocking plasmin, kallikrein, trypsin and other proteases it reduces fibrinolysis, suppresses the kallikrein-kinin system (inflammation, vasodilation) and dampens the systemic inflammatory response. It has been used in cardiac surgery (cardiopulmonary bypass) to reduce blood loss and in pancreatitis.`,
+    farmakokinetika: { sorish: "IV only", tarqalish: "Interstitial; accumulates in kidneys", metabolizm: "Renal (lysosomal)", chiqarilish: "Renal; T½ ~5–10 h" },
+    korsatmalar: ["Reducing blood loss in cardiac surgery (bypass) (limited — risk/benefit)", "Acute pancreatitis, pancreatic necrosis (adjunct), hyperfibrinolytic bleeding"],
+    qarrshi: ["Hypersensitivity to aprotinin (with prior use — high anaphylaxis risk)", "DIC", "Pregnancy (caution)"],
+    nojoya: { "Immune": "Allergic/anaphylactic reactions (with repeat use — dangerous)", "Renal": "Renal impairment (characteristic), acute kidney injury", "Thrombosis": "Thrombosis/MI risk (debated — restricted in many countries)", "Local": "Injection-site reaction" },
+    dozadan: "Allergic/renal complications; stop, supportive, adrenaline for anaphylaxis.",
+    ozarotasir: ["Attenuates thrombolytics (streptokinase, alteplase)", "Nephrotoxicity may be enhanced with aminoglycosides"],
+    qollash: { kattalar: "Bypass: loading dose + infusion (per protocol, with a test dose); in pancreatitis high initial, then tapering.", bolalar: "By weight, under specialist supervision" },
+    chiqarish: "Solution for injection/infusion (in KIU/units, vial)"
+  }
+},
+
+"B02BA01": {
+  uz: {
+    gruppa: "Vitamin K va boshqa gemostatiklar (fitomenadion, K1)",
+    farmTasir: "Vitamin K1 (ivish faktorlari sintezini tiklovchi)",
+    farmakodinamika: `Fitomenadion (vitamin K1) — yog'da eriydigan tabiiy vitamin K. Jigarда vitamin K-ga bog'liq ivish faktorlari (II, VII, IX, X) hamda protein C va S ning gamma-karboksillanishi (faollashishi) uchun zarur kofaktor. Vitamin K antagonisti (varfarin) ortiqcha dozasi yoki vitamin K tanqisligi keltirib chiqargan koagulopatiyani to'g'rilaydi; ta'sir parenteral 6–12 soatда boshlanadi (faktorlar qayta sintezi uchun vaqt kerak).`,
+    farmakokinetika: { sorish: "Ich (o't kerak), v/i/v/m", tarqalish: "Jigarга", metabolizm: "Jigarда tez", chiqarilish: "Safro/buyrak" },
+    korsatmalar: ["Vitamin K antagonisti (varfarin) ortiqcha dozasi/qon ketishi", "Vitamin K tanqisligi (malabsorbsiya, xolestaz, uzoq antibiotik), yangi tug'ilgan chaqaloqларда gemorragik kasallik profilaktikasi", "Jigar kasalligi fonидagi koagulopatiya (cheklangan samara)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — v/i sekin (anafilaktoid reaksiya xavfi)"],
+    nojoya: { "Immun (v/i)": "Anafilaktoid reaksiya, gipotenziya, qizarish (tez v/i — xavfli)", "Mahalliy": "In'eksiya joyида og'riq, qizarish", "Boshqa": "Chaqaloqларда gemoliz/giperbilirubinemiya (yuqori doza, menadionга xos ko'proq)" },
+    dozadan: "Toksiklik past; varfarin samarasini ortiqcha bloklab tromboz xavfi (yuqori doza) — varfarinni qayta titrlash.",
+    ozarotasir: ["Varfarin/kumarin antikoagulyantlar ta'sirini KAMAYTIRADI (antagonist)", "O't kislota sekvestrantlari, orlistat so'rilishini kamaytiradi"],
+    qollash: { kattalar: "Varfarin ortiqcha dozasi: 1–10 mg ich yoki sekin v/i (INR va qon ketishга qarab).", bolalar: "Yangi tug'ilganда profilaktika: 1 mg v/m bir marta; davolovчи — vaznга qarab" },
+    chiqarish: "In'eksiya eritmasi 10 mg/ml; tabletkalar/tomchilar"
+  },
+  ru: {
+    gruppa: "Витамин K и прочие гемостатики (фитоменадион, K1)",
+    farmTasir: "Витамин K1 (восстанавливающий синтез факторов свёртывания)",
+    farmakodinamika: `Фитоменадион (витамин K1) — жирорастворимый природный витамин K. Необходимый кофактор для гамма-карбоксилирования (активации) витамин-K-зависимых факторов свёртывания (II, VII, IX, X) и протеинов C и S в печени. Корректирует коагулопатию, вызванную передозировкой антагониста витамина K (варфарин) или дефицитом витамина K; действие при парентеральном введении начинается через 6–12 ч (нужно время на ресинтез факторов).`,
+    farmakokinetika: { sorish: "Внутрь (нужна желчь), в/в/в/м", tarqalish: "В печень", metabolizm: "Быстро в печени", chiqarilish: "С желчью/почками" },
+    korsatmalar: ["Передозировка/кровотечение при антагонисте витамина K (варфарин)", "Дефицит витамина K (мальабсорбция, холестаз, длительные антибиотики), профилактика геморрагической болезни новорождённых", "Коагулопатия на фоне болезни печени (ограниченный эффект)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — в/в медленно (риск анафилактоидной реакции)"],
+    nojoya: { "Иммунные (в/в)": "Анафилактоидная реакция, гипотензия, покраснение (быстрое в/в — опасно)", "Местные": "Боль, покраснение в месте инъекции", "Прочее": "У новорождённых гемолиз/гипербилирубинемия (высокая доза, более характерно для менадиона)" },
+    dozadan: "Токсичность низкая; чрезмерная блокада эффекта варфарина с риском тромбоза (высокая доза) — повторное титрование варфарина.",
+    ozarotasir: ["СНИЖАЕТ действие варфарина/кумариновых антикоагулянтов (антагонист)", "Секвестранты желчных кислот, орлистат снижают всасывание"],
+    qollash: { kattalar: "Передозировка варфарина: 1–10 мг внутрь или медленно в/в (по МНО и кровотечению).", bolalar: "У новорождённых профилактика: 1 мг в/м однократно; лечебно — по массе" },
+    chiqarish: "Раствор для инъекций 10 мг/мл; таблетки/капли"
+  },
+  en: {
+    gruppa: "Vitamin K and other haemostatics (phytomenadione, K1)",
+    farmTasir: "Vitamin K1 (restoring clotting factor synthesis)",
+    farmakodinamika: `Phytomenadione (vitamin K1) is the fat-soluble natural vitamin K. It is the essential cofactor for gamma-carboxylation (activation) of vitamin K-dependent clotting factors (II, VII, IX, X) and proteins C and S in the liver. It corrects coagulopathy caused by vitamin K antagonist (warfarin) overdose or vitamin K deficiency; with parenteral use the effect begins in 6–12 h (time is needed to resynthesise factors).`,
+    farmakokinetika: { sorish: "Oral (needs bile), IV/IM", tarqalish: "To the liver", metabolizm: "Rapid hepatic", chiqarilish: "Biliary/renal" },
+    korsatmalar: ["Vitamin K antagonist (warfarin) overdose/bleeding", "Vitamin K deficiency (malabsorption, cholestasis, prolonged antibiotics), prophylaxis of haemorrhagic disease of the newborn", "Coagulopathy from liver disease (limited effect)"],
+    qarrshi: ["Hypersensitivity", "Caution — slow IV (anaphylactoid reaction risk)"],
+    nojoya: { "Immune (IV)": "Anaphylactoid reaction, hypotension, flushing (rapid IV — dangerous)", "Local": "Injection-site pain, redness", "Other": "Haemolysis/hyperbilirubinaemia in neonates (high dose, more typical of menadione)" },
+    dozadan: "Toxicity low; excessive reversal of warfarin with thrombosis risk (high dose) — re-titrate warfarin.",
+    ozarotasir: ["REDUCES warfarin/coumarin anticoagulant effect (antagonist)", "Bile acid sequestrants, orlistat reduce absorption"],
+    qollash: { kattalar: "Warfarin overdose: 1–10 mg orally or slow IV (by INR and bleeding).", bolalar: "Neonatal prophylaxis: 1 mg IM once; therapeutic — by weight" },
+    chiqarish: "Solution for injection 10 mg/mL; tablets/drops"
+  }
+},
+
+"B02BA02": {
+  uz: {
+    gruppa: "Vitamin K va boshqa gemostatiklar (menadion, K3)",
+    farmTasir: "Sintetik vitamin K3 (suvда eriydigan, gemostatik)",
+    farmakodinamika: `Menadion natriy bisulfit (vitamin K3, vikasol) — suvда eriydigan sintetik vitamin K provitamini. Organizmда faol vitamin K shaklга aylanib jigarда ivish faktorlari (II, VII, IX, X) sintezini ta'minlaydi (gamma-karboksillanish). Ta'siri tabiiy K1 dan sekinroq (12–24 soat), shuning uchun o'tkir, og'ir qon ketishда K1 (fitomenadion) afzal. Hipoprotrombinemiya keltirib chiqargan qon ketishларда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich va v/m", tarqalish: "Jigarга", metabolizm: "Jigarда faol K shaklга", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Vitamin K tanqisligi va gipoprotrombinemiyaли qon ketishlar", "Jigar/o't yo'llari kasalliklari, uzoq antibiotik/sulfanilamid fonida koagulopatiya", "Yangi tug'ilganда gemorragik kasallik (cheklangan — gemoliz xavfi)"],
+    qarrshi: ["Giperkoagulyatsiya, tromboemboliya, DVS/DIK", "G6FD tanqisligi (gemoliz)", "Yangi tug'ilganда yuqori doza (giperbilirubinemiya, kernikterus xavfi)", "Yuqori sezuvchanlik"],
+    nojoya: { "Qon": "Gemolitik anemiya (ayniqsa G6FD), chaqaloqларда giperbilirubinemiya/kernikterus", "Allergik": "Toshma, bronxospazm", "Mahalliy": "In'eksiya joyида og'riq" },
+    dozadan: "Gemoliz, giperbilirubinemiya (chaqaloqларда); to'xtatish, simptomatik.",
+    ozarotasir: ["Varfarin/kumarin ta'sirini kamaytiradi (antagonist)", "Anti­tuberkulyoz, sulfanilamidlar bilan gemoliz xavfi (G6FDда)"],
+    qollash: { kattalar: "15–30 mg/sutka ich yoki v/m (1–2 kunlik kurs, ko'rsatmага ko'ra).", bolalar: "Yoshга qarab kichik dozalar; yangi tug'ilganда ehtiyot (K1 afzal)" },
+    chiqarish: "Tabletkalar 15 mg; in'eksiya eritmasi 1% (10 mg/ml)"
+  },
+  ru: {
+    gruppa: "Витамин K и прочие гемостатики (менадион, K3)",
+    farmTasir: "Синтетический витамин K3 (водорастворимый, гемостатик)",
+    farmakodinamika: `Менадиона натрия бисульфит (витамин K3, викасол) — водорастворимый синтетический провитамин K. В организме превращается в активную форму витамина K и обеспечивает синтез факторов свёртывания (II, VII, IX, X) в печени (гамма-карбоксилирование). Действует медленнее природного K1 (12–24 ч), поэтому при остром тяжёлом кровотечении предпочтителен K1 (фитоменадион). Применяется при кровотечениях с гипопротромбинемией.`,
+    farmakokinetika: { sorish: "Внутрь и в/м", tarqalish: "В печень", metabolizm: "В печени до активной формы K", chiqarilish: "Почками" },
+    korsatmalar: ["Дефицит витамина K и кровотечения с гипопротромбинемией", "Болезни печени/желчных путей, коагулопатия на фоне длительных антибиотиков/сульфаниламидов", "Геморрагическая болезнь новорождённых (ограниченно — риск гемолиза)"],
+    qarrshi: ["Гиперкоагуляция, тромбоэмболия, ДВС-синдром", "Дефицит Г6ФД (гемолиз)", "Высокая доза у новорождённых (гипербилирубинемия, риск ядерной желтухи)", "Гиперчувствительность"],
+    nojoya: { "Кровь": "Гемолитическая анемия (особенно при Г6ФД), у новорождённых гипербилирубинемия/ядерная желтуха", "Аллергические": "Сыпь, бронхоспазм", "Местные": "Боль в месте инъекции" },
+    dozadan: "Гемолиз, гипербилирубинемия (у новорождённых); отмена, симптоматически.",
+    ozarotasir: ["Снижает действие варфарина/кумаринов (антагонист)", "С противотуберкулёзными, сульфаниламидами риск гемолиза (при Г6ФД)"],
+    qollash: { kattalar: "15–30 мг/сут внутрь или в/м (курс 1–2 дня, по показаниям).", bolalar: "Малые дозы по возрасту; у новорождённых осторожно (предпочтителен K1)" },
+    chiqarish: "Таблетки 15 мг; раствор для инъекций 1% (10 мг/мл)"
+  },
+  en: {
+    gruppa: "Vitamin K and other haemostatics (menadione, K3)",
+    farmTasir: "Synthetic vitamin K3 (water-soluble, haemostatic)",
+    farmakodinamika: `Menadione sodium bisulfite (vitamin K3, vikasol) is a water-soluble synthetic provitamin K. In the body it is converted to the active form of vitamin K and supports synthesis of clotting factors (II, VII, IX, X) in the liver (gamma-carboxylation). It acts more slowly than natural K1 (12–24 h), so for acute severe bleeding K1 (phytomenadione) is preferred. It is used for bleeding with hypoprothrombinaemia.`,
+    farmakokinetika: { sorish: "Oral and IM", tarqalish: "To the liver", metabolizm: "Hepatic to the active K form", chiqarilish: "Renal" },
+    korsatmalar: ["Vitamin K deficiency and bleeding with hypoprothrombinaemia", "Liver/biliary disease, coagulopathy from prolonged antibiotics/sulfonamides", "Haemorrhagic disease of the newborn (limited — haemolysis risk)"],
+    qarrshi: ["Hypercoagulation, thromboembolism, DIC", "G6PD deficiency (haemolysis)", "High dose in neonates (hyperbilirubinaemia, kernicterus risk)", "Hypersensitivity"],
+    nojoya: { "Blood": "Haemolytic anaemia (especially G6PD), neonatal hyperbilirubinaemia/kernicterus", "Allergic": "Rash, bronchospasm", "Local": "Injection-site pain" },
+    dozadan: "Haemolysis, hyperbilirubinaemia (in neonates); stop, supportive.",
+    ozarotasir: ["Reduces warfarin/coumarin effect (antagonist)", "With antituberculosis drugs, sulfonamides haemolysis risk (in G6PD)"],
+    qollash: { kattalar: "15–30 mg/day oral or IM (1–2 day course, as indicated).", bolalar: "Small doses by age; cautious in neonates (K1 preferred)" },
+    chiqarish: "Tablets 15 mg; solution for injection 1% (10 mg/mL)"
+  }
+},
+
+"B02BX01": {
+  uz: {
+    gruppa: "Tizimli gemostatiklar — boshqalar (etamzilat)",
+    farmTasir: "Angioprotektor va gemostatik (kapillyar)",
+    farmakodinamika: `Etamzilat (ditsinon) — kapillyar gemostatik va angioprotektor. Kapillyar devori chidamliligini oshiradi va o'tkazuvchanligini kamaytiradi, trombotsitlar adgeziyasi va birlamchi gemostazni yaxshilaydi (trombotsit faolligini va miqdorini qo'llab-quvvatlaydi), tromboplastinни kapillyar devorida hosil bo'lishini rag'batlantiradi. Ivish faktorlari va protrombin vaqtiga ta'sir qilmaydi, tromboz hosil qilmaydi. Asosан kapillyar (mayda tomir) qon ketishida ishlaydi.`,
+    farmakokinetika: { sorish: "Ich, v/i, v/m", tarqalish: "To'qimalarга", metabolizm: "Kam", chiqarilish: "Asosан buyrak orqали; ta'sir v/i ~5–15 daqiqaда" },
+    korsatmalar: ["Kapillyar qon ketishlar (jarrohlik, tish, ginekologik — menoragiya, metroragiya)", "Burun qon ketishi, gematuriya, gemorragik diatez (kapillyar)", "Diabetik mikroangiopatiya/retinopatiyada qon ketish (yordamчi)"],
+    qarrshi: ["O'tkir porfiriya", "Tromboz/tromboemboliya anamnezi", "Antikoagulyant ortiqcha dozasi keltirgan qon ketish (avval antagonist kerak)", "Yuqori sezuvchanlik (sulfit)"],
+    nojoya: { "Asab": "Bosh og'rig'i, bosh aylanishi", "Oshqozon-ichak": "Ko'ngil aynishi, epigastriyда og'irlik", "Tomir": "Gipotenziya (tez v/i), yuz qizarishi", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Toksiklik past; simptomatik.",
+    ozarotasir: ["Boshqa gemostatiklar bilan birga ta'sir kuchayadi", "Dekstran bilan birga gemostatik samarani pasaytirmaslik uchun alohida yuborish"],
+    qollash: { kattalar: "Ich: 250–500 mg×3–4/sutka; parenteral: 250–500 mg v/i/v/m, kerakда takror.", bolalar: "10 mg/kg/sutka (bo'lib), ko'rsatmага ko'ra" },
+    chiqarish: "Tabletkalar 250 mg; in'eksiya eritmasi 125/250 mg/ml (ampula)"
+  },
+  ru: {
+    gruppa: "Системные гемостатики — прочие (этамзилат)",
+    farmTasir: "Ангиопротектор и гемостатик (капиллярный)",
+    farmakodinamika: `Этамзилат (дицинон) — капиллярный гемостатик и ангиопротектор. Повышает устойчивость стенки капилляров и снижает её проницаемость, улучшает адгезию тромбоцитов и первичный гемостаз (поддерживает активность и число тромбоцитов), стимулирует образование тромбопластина в стенке капилляров. Не влияет на факторы свёртывания и протромбиновое время, не образует тромбов. Действует в основном при капиллярных (мелкососудистых) кровотечениях.`,
+    farmakokinetika: { sorish: "Внутрь, в/в, в/м", tarqalish: "В ткани", metabolizm: "Незначительный", chiqarilish: "Преимущественно почками; действие при в/в через ~5–15 мин" },
+    korsatmalar: ["Капиллярные кровотечения (операции, стоматология, гинекология — меноррагия, метроррагия)", "Носовое кровотечение, гематурия, геморрагический диатез (капиллярный)", "Кровотечения при диабетической микроангиопатии/ретинопатии (вспомогательно)"],
+    qarrshi: ["Острая порфирия", "Тромбоз/тромбоэмболия в анамнезе", "Кровотечение от передозировки антикоагулянтов (сначала нужен антагонист)", "Гиперчувствительность (сульфит)"],
+    nojoya: { "Нервная система": "Головная боль, головокружение", "ЖКТ": "Тошнота, тяжесть в эпигастрии", "Сосуды": "Гипотензия (быстрое в/в), покраснение лица", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Токсичность низкая; симптоматически.",
+    ozarotasir: ["С другими гемостатиками действие усиливается", "С декстраном вводить отдельно, чтобы не снижать гемостатический эффект"],
+    qollash: { kattalar: "Внутрь: 250–500 мг×3–4/сут; парентерально: 250–500 мг в/в/в/м, при необходимости повторно.", bolalar: "10 мг/кг/сут (дробно), по показаниям" },
+    chiqarish: "Таблетки 250 мг; раствор для инъекций 125/250 мг/мл (ампулы)"
+  },
+  en: {
+    gruppa: "Systemic haemostatics — others (etamsylate)",
+    farmTasir: "Angioprotector and haemostatic (capillary)",
+    farmakodinamika: `Etamsylate (dicynone) is a capillary haemostatic and angioprotector. It increases capillary wall resistance and reduces permeability, improves platelet adhesion and primary haemostasis (supporting platelet activity and number), and stimulates thromboplastin formation in the capillary wall. It does not affect clotting factors or prothrombin time and does not form thrombi. It works mainly in capillary (small-vessel) bleeding.`,
+    farmakokinetika: { sorish: "Oral, IV, IM", tarqalish: "Into tissues", metabolizm: "Minimal", chiqarilish: "Mainly renal; IV effect in ~5–15 min" },
+    korsatmalar: ["Capillary bleeding (surgery, dentistry, gynaecology — menorrhagia, metrorrhagia)", "Epistaxis, haematuria, haemorrhagic diathesis (capillary)", "Bleeding in diabetic microangiopathy/retinopathy (adjunct)"],
+    qarrshi: ["Acute porphyria", "History of thrombosis/thromboembolism", "Bleeding from anticoagulant overdose (an antagonist is needed first)", "Hypersensitivity (sulfite)"],
+    nojoya: { "Nervous system": "Headache, dizziness", "GI": "Nausea, epigastric heaviness", "Vascular": "Hypotension (rapid IV), facial flushing", "Allergic": "Rash (rare)" },
+    dozadan: "Toxicity low; supportive.",
+    ozarotasir: ["With other haemostatics the effect is enhanced", "Give separately from dextran to avoid reducing the haemostatic effect"],
+    qollash: { kattalar: "Oral: 250–500 mg×3–4/day; parenteral: 250–500 mg IV/IM, repeated as needed.", bolalar: "10 mg/kg/day (divided), as indicated" },
+    chiqarish: "Tablets 250 mg; solution for injection 125/250 mg/mL (ampoules)"
+  }
 }
 
 };
