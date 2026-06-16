@@ -33698,6 +33698,342 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Loading 6–12 µg/kg (over 10 min, optional), then infusion 0.05–0.2 µg/kg/min (24 h); only under monitoring.", bolalar: "Only under supervision" },
     chiqarish: "Concentrate for infusion 2.5 mg/mL"
   }
+},
+
+"C05CX": {
+  uz: {
+    gruppa: "Kapillyarlarni barqarorlashtiruvchilar — boshqa venotoniklar (kombinatsiya)",
+    farmTasir: "Venotonik va shishga qarshi (eskin)",
+    farmakodinamika: `Eskin (otkashtan ekstrakti) + lizin kombinatsiyasi. Eskin kapillyar devori o'tkazuvchanligini kamaytiradi, venalar tonusini oshiradi va yallig'lanish/shishni pasaytiradi (antiekssudativ); lizin amino kislota sifatида to'qima tiklanishi va eskin so'rilishini qo'llab-quvvatlaydi. Venoz yetishmovchilik va shish bilan kechuvchi holatlarда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich va mahalliy", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak/safro" },
+    korsatmalar: ["Surункali venoz yetishmovchilik (oyoq og'irligi, shish, varikoz)", "Jarohat/operatsiyadan keyingi shish va gematomalar (mahalliy/ich)"],
+    qarrshi: ["Og'ir buyrak yetishmovchiligi", "Homiladorlikning 1-trimestri", "Shikastlangan teri (mahalliy gel)", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Dispepsiya, ko'ngil aynishi", "Mahalliy": "Teri qichishishi/qizarishi (gel)", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Antikoagulyantlar bilan ehtiyotkorlik (qon ketish xavfi nazariy)", "Aminoglikozid nefrotoksikligini kuchaytirishi mumkin (yuqori doza)"],
+    qollash: { kattalar: "Ich: 40–60 mg eskin/sutka (bo'lib); gel: zararlangan sohaga kuniga 2 marta.", bolalar: "Tavsiya etilmaydi (ich)" },
+    chiqarish: "Tabletkalar/kapsulalar (eskin + lizin); gel"
+  },
+  ru: {
+    gruppa: "Капилляростабилизирующие — прочие венотоники (комбинация)",
+    farmTasir: "Венотоник и противоотёчное (эсцин)",
+    farmakodinamika: `Комбинация эсцина (экстракт конского каштана) + лизин. Эсцин снижает проницаемость стенки капилляров, повышает тонус вен и уменьшает воспаление/отёк (антиэкссудативное действие); лизин как аминокислота поддерживает восстановление тканей и всасывание эсцина. Применяется при венозной недостаточности и состояниях с отёком.`,
+    farmakokinetika: { sorish: "Внутрь и местно", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками/с желчью" },
+    korsatmalar: ["Хроническая венозная недостаточность (тяжесть в ногах, отёки, варикоз)", "Посттравматические/послеоперационные отёки и гематомы (местно/внутрь)"],
+    qarrshi: ["Тяжёлая почечная недостаточность", "I триместр беременности", "Повреждённая кожа (местный гель)", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Диспепсия, тошнота", "Местные": "Зуд/покраснение кожи (гель)", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["С антикоагулянтами осторожно (теоретический риск кровотечения)", "Может усиливать нефротоксичность аминогликозидов (высокая доза)"],
+    qollash: { kattalar: "Внутрь: 40–60 мг эсцина/сут (дробно); гель: на поражённый участок 2 раза в сутки.", bolalar: "Не рекомендуется (внутрь)" },
+    chiqarish: "Таблетки/капсулы (эсцин + лизин); гель"
+  },
+  en: {
+    gruppa: "Capillary stabilisers — other venotonics (combination)",
+    farmTasir: "Venotonic and anti-oedema (escin)",
+    farmakodinamika: `A combination of escin (horse chestnut extract) + lysine. Escin reduces capillary wall permeability, increases venous tone and reduces inflammation/oedema (anti-exudative); lysine, as an amino acid, supports tissue repair and escin absorption. It is used in venous insufficiency and oedematous conditions.`,
+    farmakokinetika: { sorish: "Oral and topical", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal/biliary" },
+    korsatmalar: ["Chronic venous insufficiency (leg heaviness, oedema, varicose veins)", "Post-traumatic/postoperative oedema and haematomas (topical/oral)"],
+    qarrshi: ["Severe renal impairment", "First trimester of pregnancy", "Broken skin (topical gel)", "Hypersensitivity"],
+    nojoya: { "GI": "Dyspepsia, nausea", "Local": "Skin itching/redness (gel)", "Allergic": "Rash (rare)" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["Caution with anticoagulants (theoretical bleeding risk)", "May increase aminoglycoside nephrotoxicity (high dose)"],
+    qollash: { kattalar: "Oral: 40–60 mg escin/day (divided); gel: to the affected area twice daily.", bolalar: "Not recommended (oral)" },
+    chiqarish: "Tablets/capsules (escin + lysine); gel"
+  }
+},
+
+"C05CA53": {
+  uz: {
+    gruppa: "Kapillyarlarni barqarorlashtiruvchilar — bioflavonoidlar (kombinatsiya)",
+    farmTasir: "Venotonik va kapillyar himoyachi (diosmin + gesperidin)",
+    farmakodinamika: `Diosmin + gesperidin — mikronlangan flavonoid fraksiyasi. Venalar tonusini oshiradi (noradrenalin ta'sirini uzaytirib), kapillyar o'tkazuvchanligi va mo'rtligini kamaytiradi, limfa drenajини yaxshilaydi va yallig'lanish mediatorlarini bostiradi. Surункали venoz yetishmovchilik va o'tkir gemorroyда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (mikronlangan — yaxshiroq)", tarqalish: "Vena devoriga to'planadi", metabolizm: "Jigarда", chiqarilish: "Asosан najas/buyrak" },
+    korsatmalar: ["Surункali venoz yetishmovchilik (oyoq og'irligi, og'riq, shish, troyfik buzilishlar)", "O'tkir va surункali gemorroy xuruji"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — homiladorlik va laktatsiya"],
+    nojoya: { "Oshqozon-ichak": "Dispepsiya, ko'ngil aynishi, diareya", "Asab": "Bosh og'rig'i, bosh aylanishi (kamdan-kam)", "Allergik": "Toshma" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "Venoz yetishmovchilik: 1000 mg/sutka (1–2 ga bo'lib); gemorroy xuruji: dastlab yuqori doza (3000 mg/sutka, 4 kun).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Plyonka qoplamali tabletkalar (diosmin 450 + gesperidin 50 mg yoki 1000 mg dozali)"
+  },
+  ru: {
+    gruppa: "Капилляростабилизирующие — биофлавоноиды (комбинация)",
+    farmTasir: "Венотоник и капилляропротектор (диосмин + гесперидин)",
+    farmakodinamika: `Диосмин + гесперидин — микронизированная флавоноидная фракция. Повышает тонус вен (продлевая действие норадреналина), снижает проницаемость и ломкость капилляров, улучшает лимфодренаж и подавляет медиаторы воспаления. Применяется при хронической венозной недостаточности и остром геморрое.`,
+    farmakokinetika: { sorish: "Из кишечника (микронизированный — лучше)", tarqalish: "Накапливается в стенке вен", metabolizm: "В печени", chiqarilish: "Преимущественно с калом/почками" },
+    korsatmalar: ["Хроническая венозная недостаточность (тяжесть в ногах, боль, отёки, трофические нарушения)", "Острый и хронический геморрой (обострение)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — беременность и лактация"],
+    nojoya: { "ЖКТ": "Диспепсия, тошнота, диарея", "Нервная система": "Головная боль, головокружение (редко)", "Аллергические": "Сыпь" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "Венозная недостаточность: 1000 мг/сут (в 1–2 приёма); обострение геморроя: вначале высокая доза (3000 мг/сут, 4 дня).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой (диосмин 450 + гесперидин 50 мг или 1000 мг)"
+  },
+  en: {
+    gruppa: "Capillary stabilisers — bioflavonoids (combination)",
+    farmTasir: "Venotonic and capillary protectant (diosmin + hesperidin)",
+    farmakodinamika: `Diosmin + hesperidin is a micronised flavonoid fraction. It increases venous tone (by prolonging noradrenaline action), reduces capillary permeability and fragility, improves lymphatic drainage and suppresses inflammatory mediators. It is used in chronic venous insufficiency and acute haemorrhoids.`,
+    farmakokinetika: { sorish: "From the gut (micronised — better)", tarqalish: "Accumulates in the venous wall", metabolizm: "Hepatic", chiqarilish: "Mainly faecal/renal" },
+    korsatmalar: ["Chronic venous insufficiency (leg heaviness, pain, oedema, trophic disturbances)", "Acute and chronic haemorrhoids (flare)"],
+    qarrshi: ["Hypersensitivity", "Caution — pregnancy and lactation"],
+    nojoya: { "GI": "Dyspepsia, nausea, diarrhoea", "Nervous system": "Headache, dizziness (rare)", "Allergic": "Rash" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "Venous insufficiency: 1000 mg/day (in 1–2 doses); haemorrhoid flare: initial high dose (3000 mg/day for 4 days).", bolalar: "Not recommended" },
+    chiqarish: "Film-coated tablets (diosmin 450 + hesperidin 50 mg or 1000 mg)"
+  }
+},
+
+"C05CA04": {
+  uz: {
+    gruppa: "Kapillyarlarni barqarorlashtiruvchilar — bioflavonoidlar",
+    farmTasir: "Venotonik va kapillyar himoyachi (trokserutin)",
+    farmakodinamika: `Trokserutin — yarim sintetik bioflavonoid (rutin hosilasi). Kapillyar devori o'tkazuvchanligini va mo'rtligini kamaytiradi, venalar tonusини oshiradi, eritrotsitlar agregatsiyasini va to'qima shishini pasaytiradi (antiekssudativ, antioksidant). Venoz yetishmovchilik va diabetik retinopatiyada qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich va mahalliy", tarqalish: "Tomir devoriga to'planadi", metabolizm: "Jigarда", chiqarilish: "Asosан safro/buyrak" },
+    korsatmalar: ["Surункali venoz yetishmovchilik (oyoq og'irligi, shish, varikoz)", "Gemorroy, troyfik yara (yordamchi), diabetik retinopatiya"],
+    qarrshi: ["Oshqozon yara kasalligi avj olishi", "Homiladorlikning 1-trimestri", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Dispepsiya, ko'ngil aynishi", "Mahalliy": "Teri reaksiyasi (gel)", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Askorbin kislota trokserutin ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "Ich: 300 mg×2–3 (kurs), keyin qo'llab-quvvatlash; gel: kuniga 2 marta.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Kapsulalar 300 mg; gel 2%"
+  },
+  ru: {
+    gruppa: "Капилляростабилизирующие — биофлавоноиды",
+    farmTasir: "Венотоник и капилляропротектор (троксерутин)",
+    farmakodinamika: `Троксерутин — полусинтетический биофлавоноид (производное рутина). Снижает проницаемость и ломкость стенки капилляров, повышает тонус вен, уменьшает агрегацию эритроцитов и отёк тканей (антиэкссудативное, антиоксидантное действие). Применяется при венозной недостаточности и диабетической ретинопатии.`,
+    farmakokinetika: { sorish: "Внутрь и местно", tarqalish: "Накапливается в стенке сосудов", metabolizm: "В печени", chiqarilish: "Преимущественно с желчью/почками" },
+    korsatmalar: ["Хроническая венозная недостаточность (тяжесть в ногах, отёки, варикоз)", "Геморрой, трофические язвы (вспомогательно), диабетическая ретинопатия"],
+    qarrshi: ["Обострение язвенной болезни желудка", "I триместр беременности", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Диспепсия, тошнота", "Местные": "Кожная реакция (гель)", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Аскорбиновая кислота усиливает действие троксерутина"],
+    qollash: { kattalar: "Внутрь: 300 мг×2–3 (курс), затем поддержание; гель: 2 раза в сутки.", bolalar: "Не рекомендуется" },
+    chiqarish: "Капсулы 300 мг; гель 2%"
+  },
+  en: {
+    gruppa: "Capillary stabilisers — bioflavonoids",
+    farmTasir: "Venotonic and capillary protectant (troxerutin)",
+    farmakodinamika: `Troxerutin is a semisynthetic bioflavonoid (a rutin derivative). It reduces capillary wall permeability and fragility, increases venous tone and reduces red cell aggregation and tissue oedema (anti-exudative, antioxidant). It is used in venous insufficiency and diabetic retinopathy.`,
+    farmakokinetika: { sorish: "Oral and topical", tarqalish: "Accumulates in the vessel wall", metabolizm: "Hepatic", chiqarilish: "Mainly biliary/renal" },
+    korsatmalar: ["Chronic venous insufficiency (leg heaviness, oedema, varicose veins)", "Haemorrhoids, trophic ulcers (adjunct), diabetic retinopathy"],
+    qarrshi: ["Exacerbation of gastric ulcer disease", "First trimester of pregnancy", "Hypersensitivity"],
+    nojoya: { "GI": "Dyspepsia, nausea", "Local": "Skin reaction (gel)", "Allergic": "Rash (rare)" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["Ascorbic acid enhances troxerutin action"],
+    qollash: { kattalar: "Oral: 300 mg×2–3 (course), then maintenance; gel: twice daily.", bolalar: "Not recommended" },
+    chiqarish: "Capsules 300 mg; gel 2%"
+  }
+},
+
+"C05CA51": {
+  uz: {
+    gruppa: "Kapillyarlarni barqarorlashtiruvchilar — bioflavonoid kombinatsiyasi",
+    farmTasir: "Kapillyar himoyachi (askorbin kislota + rutozid)",
+    farmakodinamika: `Askorbin kislota (vitamin C) + rutozid (rutin) kombinatsiyasi. Rutozid kapillyar devori o'tkazuvchanligi va mo'rtligini kamaytiradi; askorbin kislota kollagen sintezi va antioksidant himoya orqali tomir devorini mustahkamlaydi va rutozid ta'sirini kuchaytiradi. Kapillyar mo'rtligi va tomir o'tkazuvchanligi oshган holatlarда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigarда", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Kapillyar mo'rtligi, tomir o'tkazuvchanligi oshган holatlar (purpura, qon talashlar)", "Venoz yetishmovchilik, gemorroy (yordamchi); C/P vitamin tanqisligi"],
+    qarrshi: ["Tromboz/tromboflebit moyilligi (yuqori doza C)", "Buyrak tosh kasalligi (oksalat)", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Dispepsiya, ko'ngil aynishi", "Buyrak": "Oksalat toshlari (uzoq yuqori doza)", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Yuqori dozaли C — diareya, oksalaturiya; simptomatik davo.",
+    ozarotasir: ["Askorbin kislota ba'zi dorilar so'rilishi/chiqarilishiga ta'sir qiladi (siydikни kislotalash)"],
+    qollash: { kattalar: "1 tabletka×2–3 (rutozid 25–50 + askorbin kislota 100 mg).", bolalar: "Yoshга ko'ra" },
+    chiqarish: "Tabletkalar (askorbin kislota + rutozid)"
+  },
+  ru: {
+    gruppa: "Капилляростабилизирующие — комбинация биофлавоноидов",
+    farmTasir: "Капилляропротектор (аскорбиновая кислота + рутозид)",
+    farmakodinamika: `Комбинация аскорбиновой кислоты (витамин С) + рутозид (рутин). Рутозид снижает проницаемость и ломкость стенки капилляров; аскорбиновая кислота через синтез коллагена и антиоксидантную защиту укрепляет сосудистую стенку и усиливает действие рутозида. Применяется при ломкости капилляров и повышенной проницаемости сосудов.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "В печени", chiqarilish: "Почками" },
+    korsatmalar: ["Ломкость капилляров, повышенная проницаемость сосудов (пурпура, кровоизлияния)", "Венозная недостаточность, геморрой (вспомогательно); дефицит витаминов С/Р"],
+    qarrshi: ["Склонность к тромбозу/тромбофлебиту (высокая доза С)", "Мочекаменная болезнь (оксалаты)", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Диспепсия, тошнота", "Почки": "Оксалатные камни (длительная высокая доза)", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Высокая доза С — диарея, оксалатурия; симптоматическая терапия.",
+    ozarotasir: ["Аскорбиновая кислота влияет на всасывание/выведение некоторых препаратов (подкисление мочи)"],
+    qollash: { kattalar: "1 таблетка×2–3 (рутозид 25–50 + аскорбиновая кислота 100 мг).", bolalar: "По возрасту" },
+    chiqarish: "Таблетки (аскорбиновая кислота + рутозид)"
+  },
+  en: {
+    gruppa: "Capillary stabilisers — bioflavonoid combination",
+    farmTasir: "Capillary protectant (ascorbic acid + rutoside)",
+    farmakodinamika: `A combination of ascorbic acid (vitamin C) + rutoside (rutin). Rutoside reduces capillary wall permeability and fragility; ascorbic acid, through collagen synthesis and antioxidant defence, strengthens the vessel wall and enhances rutoside. It is used in capillary fragility and increased vascular permeability.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Capillary fragility, increased vascular permeability (purpura, haemorrhages)", "Venous insufficiency, haemorrhoids (adjunct); vitamin C/P deficiency"],
+    qarrshi: ["Thrombosis/thrombophlebitis tendency (high-dose C)", "Urolithiasis (oxalate)", "Hypersensitivity"],
+    nojoya: { "GI": "Dyspepsia, nausea", "Renal": "Oxalate stones (prolonged high dose)", "Allergic": "Rash (rare)" },
+    dozadan: "High-dose C — diarrhoea, oxaluria; supportive care.",
+    ozarotasir: ["Ascorbic acid affects absorption/excretion of some drugs (urine acidification)"],
+    qollash: { kattalar: "1 tablet×2–3 (rutoside 25–50 + ascorbic acid 100 mg).", bolalar: "By age" },
+    chiqarish: "Tablets (ascorbic acid + rutoside)"
+  }
+},
+
+"C05BX01": {
+  uz: {
+    gruppa: "Antivarikoz vositalar — boshqa kapillyar barqarorlashtiruvchilar",
+    farmTasir: "Kapillyar himoyachi (kaltsiy dobesilat)",
+    farmakodinamika: `Kaltsiy dobesilat — sintetik kapillyar himoyachi. Kapillyar devori o'tkazuvchanligi va mo'rtligini kamaytiradi, qon qovushqoqligini va trombotsitlar agregatsiyasini pasaytiradi, limfa drenajини yaxshilaydi. Diabetik mikroangiopatiya (retinopatiya) va surункali venoz yetishmovchilikда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Kam", chiqarilish: "Buyrak/najas; T½ ~5 soat" },
+    korsatmalar: ["Diabetik retinopatiya/mikroangiopatiya", "Surункali venoz yetishmovchilik, gemorroy (yordamchi)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — homiladorlik (1-trimestr), og'ir buyrak yetishmovchiligi"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, dispepsiya", "Qon": "Kamdan-kam — agranulotsitoz (isitma/infeksiyaда tekshirish)", "Allergik": "Toshma, isitma" },
+    dozadan: "Toksiklik ehtimoli past; agranulotsitoz belgilarini kuzatish.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "500 mg×2–3 (ovqat bilan), kurs bilan.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Kapsulalar/tabletkalar 500 mg"
+  },
+  ru: {
+    gruppa: "Антиварикозные средства — прочие капилляростабилизирующие",
+    farmTasir: "Капилляропротектор (кальция добезилат)",
+    farmakodinamika: `Кальция добезилат — синтетический капилляропротектор. Снижает проницаемость и ломкость стенки капилляров, уменьшает вязкость крови и агрегацию тромбоцитов, улучшает лимфодренаж. Применяется при диабетической микроангиопатии (ретинопатии) и хронической венозной недостаточности.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "Мало", chiqarilish: "Почками/калом; T½ ~5 ч" },
+    korsatmalar: ["Диабетическая ретинопатия/микроангиопатия", "Хроническая венозная недостаточность, геморрой (вспомогательно)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — беременность (I триместр), тяжёлая почечная недостаточность"],
+    nojoya: { "ЖКТ": "Тошнота, диспепсия", "Кровь": "Редко — агранулоцитоз (проверять при лихорадке/инфекции)", "Аллергические": "Сыпь, лихорадка" },
+    dozadan: "Вероятность токсичности низкая; наблюдать за признаками агранулоцитоза.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "500 мг×2–3 (с едой), курсом.", bolalar: "Не рекомендуется" },
+    chiqarish: "Капсулы/таблетки 500 мг"
+  },
+  en: {
+    gruppa: "Antivaricose agents — other capillary stabilisers",
+    farmTasir: "Capillary protectant (calcium dobesilate)",
+    farmakodinamika: `Calcium dobesilate is a synthetic capillary protectant. It reduces capillary wall permeability and fragility, lowers blood viscosity and platelet aggregation and improves lymphatic drainage. It is used in diabetic microangiopathy (retinopathy) and chronic venous insufficiency.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Little", chiqarilish: "Renal/faecal; T½ ~5 h" },
+    korsatmalar: ["Diabetic retinopathy/microangiopathy", "Chronic venous insufficiency, haemorrhoids (adjunct)"],
+    qarrshi: ["Hypersensitivity", "Caution — pregnancy (1st trimester), severe renal impairment"],
+    nojoya: { "GI": "Nausea, dyspepsia", "Blood": "Rarely agranulocytosis (check with fever/infection)", "Allergic": "Rash, fever" },
+    dozadan: "Toxicity unlikely; watch for signs of agranulocytosis.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "500 mg×2–3 (with food), as a course.", bolalar: "Not recommended" },
+    chiqarish: "Capsules/tablets 500 mg"
+  }
+},
+
+"C05BA53": {
+  uz: {
+    gruppa: "Antivarikoz vositalar — mahalliy heparin saqlovchi vositalar",
+    farmTasir: "Mahalliy antitromboz/shishga qarshi (heparin)",
+    farmakodinamika: `Heparin natriy (mahalliy gel/malham, ko'pincha qo'shimcha komponentlar bilan). Heparin antikoagulyant sifatида mahalliy tromb hosil bo'lishini kamaytiradi, qon mikrosirkulyatsiyasini yaxshilaydi va shish/yallig'lanishni pasaytiradi; teriдан so'rilib yuza venalardagi jarayonni yumshatadi.`,
+    farmakokinetika: { sorish: "Teri orqali mahalliy (cheklangan tizimli so'rilish)", tarqalish: "Mahalliy", metabolizm: "Mahalliy", chiqarilish: "Mahalliy ta'sir" },
+    korsatmalar: ["Yuza tromboflebit, varikoz venalar", "Jarohat/in'eksiyadan keyingi gematoma va shish; gemorroy (mahalliy)"],
+    qarrshi: ["Shikastlangan/yarali teri, yiringli jarayonlar", "Qon ketish moyilligi, trombotsitopeniya", "Yuqori sezuvchanlik"],
+    nojoya: { "Mahalliy": "Teri qizarishi, qichishish, kontakt dermatit", "Boshqa": "Katta yuzaga uzoq surtganда qon ketish xavfi (kamdan-kam)" },
+    dozadan: "Mahalliy ta'sir; ortiqcha surtmaslik.",
+    ozarotasir: ["Tizimli antikoagulyantlar bilan (katta yuzaga) qon ketish xavfi nazariy"],
+    qollash: { kattalar: "Gel/malhamni zararlangan sohaga kuniga 2–3 marta surtish.", bolalar: "Yoshга ko'ra, ehtiyotkorlik bilan" },
+    chiqarish: "Gel/malham (heparin natriy, ko'pincha kombinatsiyalangan)"
+  },
+  ru: {
+    gruppa: "Антиварикозные средства — местные гепаринсодержащие",
+    farmTasir: "Местное антитромботическое/противоотёчное (гепарин)",
+    farmakodinamika: `Гепарин натрия (местный гель/мазь, часто с дополнительными компонентами). Гепарин как антикоагулянт уменьшает местное тромбообразование, улучшает микроциркуляцию и снижает отёк/воспаление; всасываясь через кожу, смягчает процесс в поверхностных венах.`,
+    farmakokinetika: { sorish: "Через кожу местно (ограниченное системное всасывание)", tarqalish: "Местно", metabolizm: "Местно", chiqarilish: "Местное действие" },
+    korsatmalar: ["Поверхностный тромбофлебит, варикозные вены", "Гематомы и отёки после травм/инъекций; геморрой (местно)"],
+    qarrshi: ["Повреждённая/язвенная кожа, гнойные процессы", "Склонность к кровотечениям, тромбоцитопения", "Гиперчувствительность"],
+    nojoya: { "Местные": "Покраснение кожи, зуд, контактный дерматит", "Прочее": "Риск кровотечения при длительном нанесении на большую площадь (редко)" },
+    dozadan: "Местное действие; не наносить избыточно.",
+    ozarotasir: ["С системными антикоагулянтами (на большую площадь) теоретический риск кровотечения"],
+    qollash: { kattalar: "Наносить гель/мазь на поражённый участок 2–3 раза в сутки.", bolalar: "По возрасту, с осторожностью" },
+    chiqarish: "Гель/мазь (гепарин натрия, часто комбинированные)"
+  },
+  en: {
+    gruppa: "Antivaricose agents — topical heparin-containing agents",
+    farmTasir: "Topical antithrombotic/anti-oedema (heparin)",
+    farmakodinamika: `Heparin sodium (topical gel/ointment, often with additional components). As an anticoagulant, heparin reduces local thrombus formation, improves microcirculation and reduces oedema/inflammation; absorbed through the skin, it eases the process in superficial veins.`,
+    farmakokinetika: { sorish: "Through the skin locally (limited systemic absorption)", tarqalish: "Local", metabolizm: "Local", chiqarilish: "Local action" },
+    korsatmalar: ["Superficial thrombophlebitis, varicose veins", "Haematomas and oedema after trauma/injection; haemorrhoids (topical)"],
+    qarrshi: ["Broken/ulcerated skin, purulent processes", "Bleeding tendency, thrombocytopenia", "Hypersensitivity"],
+    nojoya: { "Local": "Skin redness, itching, contact dermatitis", "Other": "Bleeding risk with prolonged application to a large area (rare)" },
+    dozadan: "Local action; do not over-apply.",
+    ozarotasir: ["With systemic anticoagulants (over a large area) a theoretical bleeding risk"],
+    qollash: { kattalar: "Apply gel/ointment to the affected area 2–3 times daily.", bolalar: "By age, cautiously" },
+    chiqarish: "Gel/ointment (heparin sodium, often combined)"
+  }
+},
+
+"C05AX03": {
+  uz: {
+    gruppa: "Gemorroyga qarshi mahalliy vositalar — kombinatsiya",
+    farmTasir: "Gemorroyга qarshi mahalliy kombinatsiya (sklerozlovchi/yallig'lanishga qarshi)",
+    farmakodinamika: `Heparin natriy + lauromakrogol 600 + prednizolon kombinatsiyasi (gemorroy malhamı/shami). Heparin mahalliy tromb va shishni kamaytiradi; lauromakrogol — sklerozlovchi va mahalliy og'riqsizlantiruvchi ta'sirли yuza faol modda; prednizolon (glyukokortikoid) yallig'lanish, qizarish va qichishishni bostiradi. O'tkir gemorroy va anal yallig'lanishда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Mahalliy (rektal/teri)", tarqalish: "Mahalliy", metabolizm: "Mahalliy/jigar", chiqarilish: "Mahalliy ta'sir" },
+    korsatmalar: ["Ichки va tashqи gemorroy (o'tkir), anal yorilishlar, proktit (mahalliy)"],
+    qarrshi: ["Anal sohada virusли/bakterial/zamburug'li infeksiya, sil/sifilis", "Qon ketish moyilligi (heparin)", "Homiladorlikning 1-trimestri", "Yuqori sezuvchanlik"],
+    nojoya: { "Mahalliy": "Achishish, qizarish, kontakt dermatit", "Boshqa": "Uzoq qo'llaganda — mahalliy teri atrofiyasi (kortikosteroid)" },
+    dozadan: "Mahalliy ta'sir; uzoq qo'llamaslik.",
+    ozarotasir: ["Tizimli antikoagulyantlar bilan (heparin) ehtiyotkorlik"],
+    qollash: { kattalar: "Malham/sham: kuniga 1–2 marta (najasdан keyin), 5–7 kun; uzoq emas.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Rektal malham; rektal shamlar (kombinatsiyalangan)"
+  },
+  ru: {
+    gruppa: "Местные средства против геморроя — комбинация",
+    farmTasir: "Местная комбинация против геморроя (склерозирующая/противовоспалительная)",
+    farmakodinamika: `Комбинация гепарин натрия + лауромакрогол 600 + преднизолон (мазь/суппозитории от геморроя). Гепарин уменьшает местный тромбоз и отёк; лауромакрогол — поверхностно-активное вещество со склерозирующим и местноанестезирующим действием; преднизолон (глюкокортикоид) подавляет воспаление, покраснение и зуд. Применяется при остром геморрое и анальном воспалении.`,
+    farmakokinetika: { sorish: "Местно (ректально/кожно)", tarqalish: "Местно", metabolizm: "Местно/печень", chiqarilish: "Местное действие" },
+    korsatmalar: ["Внутренний и наружный геморрой (острый), анальные трещины, проктит (местно)"],
+    qarrshi: ["Вирусная/бактериальная/грибковая инфекция анальной области, туберкулёз/сифилис", "Склонность к кровотечениям (гепарин)", "I триместр беременности", "Гиперчувствительность"],
+    nojoya: { "Местные": "Жжение, покраснение, контактный дерматит", "Прочее": "При длительном применении — местная атрофия кожи (кортикостероид)" },
+    dozadan: "Местное действие; не применять длительно.",
+    ozarotasir: ["С системными антикоагулянтами (гепарин) осторожно"],
+    qollash: { kattalar: "Мазь/суппозиторий: 1–2 раза в сутки (после дефекации), 5–7 дней; не длительно.", bolalar: "Не рекомендуется" },
+    chiqarish: "Ректальная мазь; ректальные суппозитории (комбинированные)"
+  },
+  en: {
+    gruppa: "Topical antihaemorrhoidal agents — combination",
+    farmTasir: "Topical antihaemorrhoidal combination (sclerosing/anti-inflammatory)",
+    farmakodinamika: `A combination of heparin sodium + lauromacrogol 600 + prednisolone (haemorrhoid ointment/suppository). Heparin reduces local thrombosis and oedema; lauromacrogol is a surfactant with sclerosing and local anaesthetic action; prednisolone (a glucocorticoid) suppresses inflammation, redness and itching. It is used in acute haemorrhoids and anal inflammation.`,
+    farmakokinetika: { sorish: "Topical (rectal/skin)", tarqalish: "Local", metabolizm: "Local/hepatic", chiqarilish: "Local action" },
+    korsatmalar: ["Internal and external haemorrhoids (acute), anal fissures, proctitis (topical)"],
+    qarrshi: ["Viral/bacterial/fungal infection of the anal area, tuberculosis/syphilis", "Bleeding tendency (heparin)", "First trimester of pregnancy", "Hypersensitivity"],
+    nojoya: { "Local": "Burning, redness, contact dermatitis", "Other": "With prolonged use — local skin atrophy (corticosteroid)" },
+    dozadan: "Local action; do not use long-term.",
+    ozarotasir: ["With systemic anticoagulants (heparin) caution"],
+    qollash: { kattalar: "Ointment/suppository: 1–2 times daily (after defaecation), 5–7 days; not long-term.", bolalar: "Not recommended" },
+    chiqarish: "Rectal ointment; rectal suppositories (combined)"
+  }
+},
+
+"C05AD03": {
+  uz: {
+    gruppa: "Gemorroyga qarshi mahalliy vositalar — mahalliy anestetik kombinatsiyasi",
+    farmTasir: "Gemorroyга qarshi mahalliy kombinatsiya (og'riqsizlantiruvchi/quruqlovchi)",
+    farmakodinamika: `Benzokain + vismut subgallat + rux oksidi + mentol kombinatsiyasi (gemorroy shami/malhamı). Benzokain — mahalliy anestetik (og'riq va qichishishni kamaytiradi); vismut subgallat — buruvchi-quruqlovchi va himoya plyonkasini hosil qiluvchi; rux oksidi — quruqlovchi va himoyaловchi; mentol yengil sovuq va og'riqsizlantiruvchi ta'sir beradi. O'tkir gemorroy belgilarini yengillashtiradi.`,
+    farmakokinetika: { sorish: "Mahalliy (rektal)", tarqalish: "Mahalliy", metabolizm: "Mahalliy", chiqarilish: "Mahalliy ta'sir" },
+    korsatmalar: ["Ichки va tashqи gemorroy belgilari (og'riq, qichishish, achishish)", "Anal yoriqlar, jarrohlikдан keyingi noxushlik (mahalliy)"],
+    qarrshi: ["Benzokainга yuqori sezuvchanlik (efir anestetiklari)", "Anal sohada infeksiya", "Methemoglobinemiya moyilligi (benzokain — chaqaloqларда)", "Yuqori sezuvchanlik"],
+    nojoya: { "Mahalliy": "Achishish, qizarish, kontakt allergik dermatit", "Boshqa": "Methemoglobinemiya (benzokain, ortiqcha qo'llaganda — kamdan-kam)" },
+    dozadan: "Mahalliy ta'sir; methemoglobinemiyaда metilen ko'ki.",
+    ozarotasir: ["Sulfanilamidlar ta'sirini pasaytirishi mumkin (benzokain — PABK)"],
+    qollash: { kattalar: "Sham/malham: kuniga 1–2 marta (najasdан keyin), 5–7 kun.", bolalar: "Ehtiyotkorlik bilan (benzokain), shifokor tavsiyasiga ko'ra" },
+    chiqarish: "Rektal shamlar; rektal malham (kombinatsiyalangan)"
+  },
+  ru: {
+    gruppa: "Местные средства против геморроя — комбинация с местным анестетиком",
+    farmTasir: "Местная комбинация против геморроя (обезболивающая/подсушивающая)",
+    farmakodinamika: `Комбинация бензокаин + висмута субгаллат + цинка оксид + ментол (суппозиторий/мазь от геморроя). Бензокаин — местный анестетик (уменьшает боль и зуд); висмута субгаллат — вяжуще-подсушивающее, образует защитную плёнку; цинка оксид — подсушивающее и защитное; ментол даёт лёгкое охлаждающее и обезболивающее действие. Облегчает симптомы острого геморроя.`,
+    farmakokinetika: { sorish: "Местно (ректально)", tarqalish: "Местно", metabolizm: "Местно", chiqarilish: "Местное действие" },
+    korsatmalar: ["Симптомы внутреннего и наружного геморроя (боль, зуд, жжение)", "Анальные трещины, дискомфорт после операции (местно)"],
+    qarrshi: ["Гиперчувствительность к бензокаину (эфирные анестетики)", "Инфекция анальной области", "Склонность к метгемоглобинемии (бензокаин — у детей)", "Гиперчувствительность"],
+    nojoya: { "Местные": "Жжение, покраснение, контактный аллергический дерматит", "Прочее": "Метгемоглобинемия (бензокаин, при избыточном применении — редко)" },
+    dozadan: "Местное действие; при метгемоглобинемии метиленовый синий.",
+    ozarotasir: ["Может снижать действие сульфаниламидов (бензокаин — ПАБК)"],
+    qollash: { kattalar: "Суппозиторий/мазь: 1–2 раза в сутки (после дефекации), 5–7 дней.", bolalar: "С осторожностью (бензокаин), по назначению врача" },
+    chiqarish: "Ректальные суппозитории; ректальная мазь (комбинированные)"
+  },
+  en: {
+    gruppa: "Topical antihaemorrhoidal agents — local anaesthetic combination",
+    farmTasir: "Topical antihaemorrhoidal combination (analgesic/drying)",
+    farmakodinamika: `A combination of benzocaine + bismuth subgallate + zinc oxide + menthol (haemorrhoid suppository/ointment). Benzocaine is a local anaesthetic (reduces pain and itching); bismuth subgallate is astringent-drying and forms a protective film; zinc oxide is drying and protective; menthol gives a mild cooling and analgesic effect. It relieves acute haemorrhoid symptoms.`,
+    farmakokinetika: { sorish: "Topical (rectal)", tarqalish: "Local", metabolizm: "Local", chiqarilish: "Local action" },
+    korsatmalar: ["Symptoms of internal and external haemorrhoids (pain, itching, burning)", "Anal fissures, post-surgical discomfort (topical)"],
+    qarrshi: ["Hypersensitivity to benzocaine (ester anaesthetics)", "Anal area infection", "Methaemoglobinaemia tendency (benzocaine — in children)", "Hypersensitivity"],
+    nojoya: { "Local": "Burning, redness, contact allergic dermatitis", "Other": "Methaemoglobinaemia (benzocaine, with excess use — rare)" },
+    dozadan: "Local action; methylene blue for methaemoglobinaemia.",
+    ozarotasir: ["May reduce the action of sulfonamides (benzocaine — PABA)"],
+    qollash: { kattalar: "Suppository/ointment: 1–2 times daily (after defaecation), 5–7 days.", bolalar: "Cautiously (benzocaine), as prescribed" },
+    chiqarish: "Rectal suppositories; rectal ointment (combined)"
+  }
 }
 
 };
