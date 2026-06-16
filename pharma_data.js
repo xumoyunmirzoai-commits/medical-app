@@ -34034,6 +34034,342 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Suppository/ointment: 1–2 times daily (after defaecation), 5–7 days.", bolalar: "Cautiously (benzocaine), as prescribed" },
     chiqarish: "Rectal suppositories; rectal ointment (combined)"
   }
+},
+
+"C01AX": {
+  uz: {
+    gruppa: "Yurak glikozidlari — boshqalar (korglikon)",
+    farmTasir: "Kardiotonik (tez ta'sirli yurak glikozidi)",
+    farmakodinamika: `Korglikon — vodiy gulbahor (landish) glikozidlari preparati. Na⁺/K⁺-ATFazani bloklab miokardda hujayra ichi Ca²⁺ ni oshiradi, yurak qisqarish kuchini oshiradi (musbat inotrop), AV o'tkazuvchanlikni sekinlashtiradi. Ta'siri tez boshlanadi va nisbatan qisqa muddatli — o'tkir yurak yetishmovchiligi va taxisistolik aritmiyada vena ichiga sekin yuboriladi.`,
+    farmakokinetika: { sorish: "Faqat parenteral (v/i)", tarqalish: "To'qimalarга", metabolizm: "Qisman jigarда", chiqarilish: "Buyrak orqali; ta'siri qisqa" },
+    korsatmalar: ["O'tkir va surункали yurak yetishmovchiligi (dekompensatsiya)", "Paroksizmal supraventrikulyar taxikardiya/taxisistolik hilpillovchi aritmiya"],
+    qarrshi: ["Glikozid intoksikatsiyasi", "AV-blokada (II–III), WPW", "Og'ir bradikardiya, gipokaliemiya/giperkaltsiemiya", "Obstruktiv gipertrofik kardiomiopatiya"],
+    nojoya: { "Yurak": "Aritmiyalar, AV-blokada, bradikardiya", "Oshqozon-ichak": "Ko'ngil aynishi, qusish", "Asab": "Bosh og'rig'i, ko'rish buzilishi (intoksikatsiya)" },
+    dozadan: "Glikozid intoksikatsiyasi: aritmiya, qusish, ko'rish buzilishi — dorini to'xtatish, kaliy, antiaritmik, digoksinга qarshi Fab (mavjud bo'lsa).",
+    ozarotasir: ["Diuretiklar (gipokaliemiya) toksiklikni oshiradi", "Kaltsiy preparatlari v/i — xavfli", "Boshqa antiaritmiklar bilan bradikardiya/blokada"],
+    qollash: { kattalar: "0,06% eritma 0,5–1 ml, glyukoza/natriy xloridда suyultirib v/i sekin.", bolalar: "Yoshга ko'ra individual, ehtiyotkorlik bilan" },
+    chiqarish: "In'eksiya uchun eritma 0,06% (ampula)"
+  },
+  ru: {
+    gruppa: "Сердечные гликозиды — прочие (коргликон)",
+    farmTasir: "Кардиотоник (быстродействующий сердечный гликозид)",
+    farmakodinamika: `Коргликон — препарат гликозидов ландыша. Блокируя Na⁺/K⁺-АТФазу, повышает внутриклеточный Ca²⁺ в миокарде, увеличивает силу сокращения (положительное инотропное действие), замедляет AV-проведение. Действие начинается быстро и относительно кратковременно — вводят медленно внутривенно при острой сердечной недостаточности и тахисистолической аритмии.`,
+    farmakokinetika: { sorish: "Только парентерально (в/в)", tarqalish: "В ткани", metabolizm: "Частично в печени", chiqarilish: "Почками; действие кратковременное" },
+    korsatmalar: ["Острая и хроническая сердечная недостаточность (декомпенсация)", "Пароксизмальная суправентрикулярная тахикардия/тахисистолическая мерцательная аритмия"],
+    qarrshi: ["Гликозидная интоксикация", "AV-блокада (II–III), WPW", "Выраженная брадикардия, гипокалиемия/гиперкальциемия", "Обструктивная гипертрофическая кардиомиопатия"],
+    nojoya: { "Сердце": "Аритмии, AV-блокада, брадикардия", "ЖКТ": "Тошнота, рвота", "Нервная система": "Головная боль, нарушение зрения (интоксикация)" },
+    dozadan: "Гликозидная интоксикация: аритмия, рвота, нарушение зрения — отмена, калий, антиаритмик, антидигоксиновые Fab (при наличии).",
+    ozarotasir: ["Диуретики (гипокалиемия) повышают токсичность", "Препараты кальция в/в — опасно", "С другими антиаритмиками брадикардия/блокада"],
+    qollash: { kattalar: "0,06% раствор 0,5–1 мл, развести в глюкозе/натрия хлориде, в/в медленно.", bolalar: "По возрасту индивидуально, с осторожностью" },
+    chiqarish: "Раствор для инъекций 0,06% (ампулы)"
+  },
+  en: {
+    gruppa: "Cardiac glycosides — others (convallaria/corglycon)",
+    farmTasir: "Cardiotonic (fast-acting cardiac glycoside)",
+    farmakodinamika: `Corglycon is a preparation of lily-of-the-valley glycosides. By blocking Na⁺/K⁺-ATPase it raises intracellular Ca²⁺ in the myocardium, increases contractile force (positive inotropic effect) and slows AV conduction. Onset is rapid and relatively short — given by slow intravenous injection in acute heart failure and tachysystolic arrhythmia.`,
+    farmakokinetika: { sorish: "Parenteral only (IV)", tarqalish: "Into tissues", metabolizm: "Partly hepatic", chiqarilish: "Renal; short-lived action" },
+    korsatmalar: ["Acute and chronic heart failure (decompensation)", "Paroxysmal supraventricular tachycardia/tachysystolic atrial fibrillation"],
+    qarrshi: ["Glycoside intoxication", "AV block (II–III), WPW", "Marked bradycardia, hypokalaemia/hypercalcaemia", "Obstructive hypertrophic cardiomyopathy"],
+    nojoya: { "Cardiac": "Arrhythmias, AV block, bradycardia", "GI": "Nausea, vomiting", "Nervous system": "Headache, visual disturbance (intoxication)" },
+    dozadan: "Glycoside intoxication: arrhythmia, vomiting, visual disturbance — withdraw, potassium, antiarrhythmic, antidigoxin Fab (if available).",
+    ozarotasir: ["Diuretics (hypokalaemia) increase toxicity", "IV calcium — dangerous", "With other antiarrhythmics, bradycardia/block"],
+    qollash: { kattalar: "0.06% solution 0.5–1 mL, diluted in glucose/saline, slow IV.", bolalar: "Individualised by age, cautiously" },
+    chiqarish: "Solution for injection 0.06% (ampoules)"
+  }
+},
+
+"C01EB10": {
+  uz: {
+    gruppa: "Boshqa yurak preparatlari — adenozin",
+    farmTasir: "Antiaritmik (supraventrikulyar), juda qisqa ta'sirli",
+    farmakodinamika: `Adenozin — endogen purin nukleozidi. A1-retseptorlar orqali AV-tugunda o'tkazuvchanlikni vaqtincha to'liq bloklaydi (K⁺ oqimini oshirib, hujayrани giperpolyarizatsiya qiladi), shu orqали AV-tugun ishtirokидagi re-entry taxikardiyani uzadi. Ta'siri bir necha soniya (T½ <10 s) — tez bolus sifatида yuboriladi; diagnostik maqsadда keng kompleksli taxikardiyani farqlashda ham qo'llaniladi.`,
+    farmakokinetika: { sorish: "V/i bolus (markaziy/yirik venadan)", tarqalish: "Eritrotsit va endoteliyga tez kiradi", metabolizm: "Adenozin dezaminaza/kinaza orqали tez", chiqarilish: "T½ <10 soniya" },
+    korsatmalar: ["Paroksizmal supraventrikulyar taxikardiya (AV-nodal/AVRT) ni to'xtatish", "Tor/keng kompleksli taxikardiyani diagnostik farqlash"],
+    qarrshi: ["II–III darajали AV-blokada va sinus tugun sustligi (kardiostimulyatorsiz)", "Bronxial astma/og'ir OO'SK (bronxospazm)", "Uzun QT, dekompensatsiyalangan gipotenziya", "Yuqori sezuvchanlik"],
+    nojoya: { "O'tkinchi (soniyalar)": "Ko'krak siqilishi, qizarish, nafas qisilishi, bradikardiya/asistoliya pauzasi", "Asab": "Bosh og'rig'i, bosh aylanishi", "Yurak": "Qisqa muddatli aritmiyalar" },
+    dozadan: "Ta'sir juda qisqa; uzoq AV-blokada/asistoliyaда — aminofillin (antagonist), reanimatsiya.",
+    ozarotasir: ["Dipiridamol ta'sirini kuchaytiradi (doza kamaytiriladi)", "Teofillin/kofein ta'sirini susaytiradi (antagonist)", "Karbamazepin AV-blokadани kuchaytirishi mumkin"],
+    qollash: { kattalar: "6 mg tez v/i bolus (2 s), keyin natriy xlorid bilan yuvish; samarasiz bo'lsa 12 mg, kerak bo'lsa yana 12 mg.", bolalar: "0,1 mg/kg (maks 6 mg), keyin 0,2 mg/kg (maks 12 mg) tez bolus" },
+    chiqarish: "In'eksiya uchun eritma 3 mg/ml (flakon/ampula)"
+  },
+  ru: {
+    gruppa: "Прочие кардиологические препараты — аденозин",
+    farmTasir: "Антиаритмик (суправентрикулярный), сверхкороткого действия",
+    farmakodinamika: `Аденозин — эндогенный пуриновый нуклеозид. Через A1-рецепторы временно полностью блокирует проведение в AV-узле (усиливая ток K⁺ и гиперполяризуя клетку), прерывая тем самым re-entry тахикардию с участием AV-узла. Действие длится несколько секунд (T½ <10 с) — вводят быстрым болюсом; также используют для дифференциальной диагностики тахикардии с широкими комплексами.`,
+    farmakokinetika: { sorish: "В/в болюс (из центральной/крупной вены)", tarqalish: "Быстро поглощается эритроцитами и эндотелием", metabolizm: "Аденозиндезаминазой/киназой, быстро", chiqarilish: "T½ <10 секунд" },
+    korsatmalar: ["Купирование пароксизмальной суправентрикулярной тахикардии (AV-узловая/AVRT)", "Дифференциальная диагностика узко-/ширококомплексной тахикардии"],
+    qarrshi: ["AV-блокада II–III степени и слабость синусового узла (без кардиостимулятора)", "Бронхиальная астма/тяжёлая ХОБЛ (бронхоспазм)", "Удлинённый QT, декомпенсированная гипотензия", "Гиперчувствительность"],
+    nojoya: { "Преходящие (секунды)": "Сжатие в груди, покраснение, одышка, брадикардия/пауза асистолии", "Нервная система": "Головная боль, головокружение", "Сердце": "Кратковременные аритмии" },
+    dozadan: "Действие очень короткое; при длительной AV-блокаде/асистолии — аминофиллин (антагонист), реанимация.",
+    ozarotasir: ["Дипиридамол усиливает действие (дозу снижают)", "Теофиллин/кофеин ослабляют действие (антагонисты)", "Карбамазепин может усилить AV-блокаду"],
+    qollash: { kattalar: "6 мг быстрым в/в болюсом (2 с) с последующим промыванием натрия хлоридом; при неэффективности 12 мг, при необходимости ещё 12 мг.", bolalar: "0,1 мг/кг (макс 6 мг), затем 0,2 мг/кг (макс 12 мг) быстрым болюсом" },
+    chiqarish: "Раствор для инъекций 3 мг/мл (флакон/ампулы)"
+  },
+  en: {
+    gruppa: "Other cardiac preparations — adenosine",
+    farmTasir: "Antiarrhythmic (supraventricular), ultra-short acting",
+    farmakodinamika: `Adenosine is an endogenous purine nucleoside. Via A1 receptors it transiently and completely blocks AV-nodal conduction (increasing K⁺ current and hyperpolarising the cell), thereby terminating re-entry tachycardia involving the AV node. Its action lasts a few seconds (T½ <10 s) and it is given as a rapid bolus; it is also used to differentiate wide-complex tachycardia diagnostically.`,
+    farmakokinetika: { sorish: "IV bolus (central/large vein)", tarqalish: "Rapidly taken up by red cells and endothelium", metabolizm: "By adenosine deaminase/kinase, rapidly", chiqarilish: "T½ <10 seconds" },
+    korsatmalar: ["Termination of paroxysmal supraventricular tachycardia (AV-nodal/AVRT)", "Differential diagnosis of narrow-/wide-complex tachycardia"],
+    qarrshi: ["2nd–3rd degree AV block and sick sinus syndrome (without pacemaker)", "Bronchial asthma/severe COPD (bronchospasm)", "Long QT, decompensated hypotension", "Hypersensitivity"],
+    nojoya: { "Transient (seconds)": "Chest tightness, flushing, dyspnoea, bradycardia/asystolic pause", "Nervous system": "Headache, dizziness", "Cardiac": "Brief arrhythmias" },
+    dozadan: "Action very short; for prolonged AV block/asystole — aminophylline (antagonist), resuscitation.",
+    ozarotasir: ["Dipyridamole potentiates effect (reduce dose)", "Theophylline/caffeine attenuate effect (antagonists)", "Carbamazepine may increase AV block"],
+    qollash: { kattalar: "6 mg rapid IV bolus (2 s) followed by saline flush; if ineffective 12 mg, then a further 12 mg if needed.", bolalar: "0.1 mg/kg (max 6 mg), then 0.2 mg/kg (max 12 mg) rapid bolus" },
+    chiqarish: "Solution for injection 3 mg/mL (vial/ampoule)"
+  }
+},
+
+"C02KX": {
+  uz: {
+    gruppa: "Boshqa antigipertenziv vositalar — o'pka arterial gipertenziyasида (sildenafil)",
+    farmTasir: "FDE-5 inhibitori (o'pka vazodilatatori)",
+    farmakodinamika: `Sildenafil — fosfodiesteraza-5 (FDE-5) ni tanlab to'sib qo'yadi. O'pka tomirlari silliq mushaklarида sGMP parchalanishini kamaytiradi, NO-sGMP yo'li orqали o'pka arteriyalarини kengaytiradi va o'pka tomir qarshiligini pasaytiradi. O'pka arterial gipertenziyasида jismoniy chidamliликни yaxshilaydi (bu yerда yurak-tomir ko'rsatmasi; erektil disfunksiya — boshqa indikatsiya).`,
+    farmakokinetika: { sorish: "Ich (tez)", tarqalish: "Plazma oqsiliga ~96% bog'lanadi", metabolizm: "Jigar CYP3A4 (asosiy), CYP2C9", chiqarilish: "Asosан najas; T½ ~4 soat" },
+    korsatmalar: ["O'pka arterial gipertenziyasi (WHO I guruh) — funksional sinfни yaxshilash"],
+    qarrshi: ["Nitratlar/NO donorlari bilan birga (og'ir gipotenziya)", "Guanilat siklaza stimulyatorlari (riosiguat) bilan", "Og'ir gipotenziya, yaqinda o'tkazilgan infarkt/insult", "Anterior ishemik optik neuropatiya (NAION) anamnezi"],
+    nojoya: { "Tomir": "Bosh og'rig'i, yuz qizarishi, gipotenziya", "Burun-bo'g'iz": "Burun bitishi", "Ko'z": "Ko'rish buzilishi, fotofobi", "Quloq": "Eshitish pasayishi (kamdan-kam)" },
+    dozadan: "Gipotenziya, bosh og'rig'i — simptomatik, yotqizib oyoqни ko'tarish; nitrat berMASLIK.",
+    ozarotasir: ["Nitratlar — qat'iy man (og'ir gipotenziya)", "CYP3A4 inhibitorlari (ketokonazol, ritonavir) sildenafil darajasини oshiradi", "Alfa-blokatorlar bilan gipotenziya"],
+    qollash: { kattalar: "20 mg×3 (kuniga 3 marta) ich, ovqatdан qat'i nazar.", bolalar: "PAHда mutaxassis nazoratида (1–20 mg×3, vaznга qarab)" },
+    chiqarish: "Plyonka qoplamali tabletkalar 20 mg"
+  },
+  ru: {
+    gruppa: "Прочие антигипертензивные — при лёгочной артериальной гипертензии (силденафил)",
+    farmTasir: "Ингибитор ФДЭ-5 (лёгочный вазодилататор)",
+    farmakodinamika: `Силденафил селективно ингибирует фосфодиэстеразу-5 (ФДЭ-5). В гладких мышцах лёгочных сосудов снижает распад цГМФ, через путь NO-цГМФ расширяет лёгочные артерии и снижает лёгочное сосудистое сопротивление. При лёгочной артериальной гипертензии улучшает переносимость физической нагрузки (здесь — кардиологическое показание; эректильная дисфункция — другое показание).`,
+    farmakokinetika: { sorish: "Внутрь (быстро)", tarqalish: "Связь с белками ~96%", metabolizm: "Печень CYP3A4 (основной), CYP2C9", chiqarilish: "Преимущественно с калом; T½ ~4 ч" },
+    korsatmalar: ["Лёгочная артериальная гипертензия (группа I ВОЗ) — улучшение функционального класса"],
+    qarrshi: ["Совместно с нитратами/донаторами NO (тяжёлая гипотензия)", "Со стимуляторами гуанилатциклазы (риоцигуат)", "Тяжёлая гипотензия, недавний инфаркт/инсульт", "NAION в анамнезе"],
+    nojoya: { "Сосуды": "Головная боль, приливы, гипотензия", "ЛОР": "Заложенность носа", "Глаза": "Нарушение зрения, фотофобия", "Ухо": "Снижение слуха (редко)" },
+    dozadan: "Гипотензия, головная боль — симптоматически, положение лёжа с приподнятыми ногами; НЕ давать нитраты.",
+    ozarotasir: ["Нитраты — строго противопоказаны (тяжёлая гипотензия)", "Ингибиторы CYP3A4 (кетоконазол, ритонавир) повышают уровень силденафила", "С альфа-блокаторами гипотензия"],
+    qollash: { kattalar: "20 мг×3 (3 раза в сутки) внутрь, независимо от еды.", bolalar: "При ЛАГ под наблюдением специалиста (1–20 мг×3, по массе)" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 20 мг"
+  },
+  en: {
+    gruppa: "Other antihypertensives — for pulmonary arterial hypertension (sildenafil)",
+    farmTasir: "PDE-5 inhibitor (pulmonary vasodilator)",
+    farmakodinamika: `Sildenafil selectively inhibits phosphodiesterase-5 (PDE-5). In pulmonary vascular smooth muscle it reduces cGMP breakdown, dilating the pulmonary arteries via the NO-cGMP pathway and lowering pulmonary vascular resistance. In pulmonary arterial hypertension it improves exercise capacity (a cardiovascular indication here; erectile dysfunction is a separate indication).`,
+    farmakokinetika: { sorish: "Oral (rapid)", tarqalish: "~96% protein-bound", metabolizm: "Hepatic CYP3A4 (main), CYP2C9", chiqarilish: "Mainly faecal; T½ ~4 h" },
+    korsatmalar: ["Pulmonary arterial hypertension (WHO group I) — improvement of functional class"],
+    qarrshi: ["With nitrates/NO donors (severe hypotension)", "With guanylate cyclase stimulators (riociguat)", "Severe hypotension, recent MI/stroke", "History of NAION"],
+    nojoya: { "Vascular": "Headache, flushing, hypotension", "ENT": "Nasal congestion", "Eyes": "Visual disturbance, photophobia", "Ear": "Hearing loss (rare)" },
+    dozadan: "Hypotension, headache — supportive, supine with legs elevated; do NOT give nitrates.",
+    ozarotasir: ["Nitrates — strictly contraindicated (severe hypotension)", "CYP3A4 inhibitors (ketoconazole, ritonavir) increase sildenafil levels", "Hypotension with alpha-blockers"],
+    qollash: { kattalar: "20 mg×3 (three times daily) orally, regardless of food.", bolalar: "In PAH under specialist supervision (1–20 mg×3, by weight)" },
+    chiqarish: "Film-coated tablets 20 mg"
+  }
+},
+
+"C01E": {
+  uz: {
+    gruppa: "Boshqa yurak preparatlari — metabolik/vazoaktiv (L-arginin)",
+    farmTasir: "NO-prekursori, vazoaktiv va metabolik vosita",
+    farmakodinamika: `L-arginin aspartat — yarim almashtirilmas amino kislota, azot oksidi (NO) sintezi uchun substrat. NO endotelийда vazodilatatsiya, trombotsit agregatsiyasini kamaytirish va endotelial funksiyани yaxshilashga olib keladi; shuningdek ammiakni mochevina sikliда zararsizlantirishда va kreatin/poliamin sintezида ishtirok etadi. Endotelial disfunksiya, yurak-tomir kasalliklarида yordamчи vosita sifatида.`,
+    farmakokinetika: { sorish: "Ich va parenteral", tarqalish: "To'qimalarга keng", metabolizm: "NO-sintaza/arginaza orqали", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Endotelial disfunksiya, yurak-tomir kasalliklari (yordamchi)", "Astenik holatlar; giperammoniemiya (mochevina sikli buzilishида)"],
+    qarrshi: ["Og'ir buyrak yetishmovchiligi", "Giperkaliemiya", "Yuqori sezuvchanlik", "Ehtiyotkorlik — gipotenziya"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, qorinда noqulaylik (yuqori doza)", "Tomir": "Gipotenziya, qizarish", "Metabolik": "Giperkaliemiya, atsidoz (yuqori doza)" },
+    dozadan: "Yuqori doza — diareya, gipotenziya, giperkaliemiya; simptomatik davo.",
+    ozarotasir: ["Kaliy saqlovchi vositalar bilan giperkaliemiya", "Sildenafil/nitratlar bilan gipotenziya kuchayishi mumkin"],
+    qollash: { kattalar: "Ich: 1–3 g/sutka; parenteral: ko'rsatmага ko'ra infuziya.", bolalar: "Mutaxassis tavsiyasiga ko'ra" },
+    chiqarish: "Ichish uchun eritma/tabletkalar; infuziya uchun eritma"
+  },
+  ru: {
+    gruppa: "Прочие кардиологические препараты — метаболическое/вазоактивное (L-аргинин)",
+    farmTasir: "Предшественник NO, вазоактивное и метаболическое средство",
+    farmakodinamika: `L-аргинина аспартат — условно незаменимая аминокислота, субстрат для синтеза оксида азота (NO). NO в эндотелии вызывает вазодилатацию, снижает агрегацию тромбоцитов и улучшает эндотелиальную функцию; также участвует в обезвреживании аммиака в цикле мочевины и в синтезе креатина/полиаминов. Применяется как вспомогательное средство при эндотелиальной дисфункции и сердечно-сосудистых заболеваниях.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально", tarqalish: "Широко в ткани", metabolizm: "NO-синтазой/аргиназой", chiqarilish: "Почками" },
+    korsatmalar: ["Эндотелиальная дисфункция, сердечно-сосудистые заболевания (вспомогательно)", "Астенические состояния; гипераммониемия (нарушения цикла мочевины)"],
+    qarrshi: ["Тяжёлая почечная недостаточность", "Гиперкалиемия", "Гиперчувствительность", "Осторожно — гипотензия"],
+    nojoya: { "ЖКТ": "Тошнота, дискомфорт в животе (высокая доза)", "Сосуды": "Гипотензия, покраснение", "Метаболизм": "Гиперкалиемия, ацидоз (высокая доза)" },
+    dozadan: "Высокая доза — диарея, гипотензия, гиперкалиемия; симптоматическая терапия.",
+    ozarotasir: ["С калийсберегающими средствами гиперкалиемия", "С силденафилом/нитратами возможно усиление гипотензии"],
+    qollash: { kattalar: "Внутрь: 1–3 г/сут; парентерально: инфузия по показаниям.", bolalar: "По назначению специалиста" },
+    chiqarish: "Раствор для приёма внутрь/таблетки; раствор для инфузий"
+  },
+  en: {
+    gruppa: "Other cardiac preparations — metabolic/vasoactive (L-arginine)",
+    farmTasir: "NO precursor, vasoactive and metabolic agent",
+    farmakodinamika: `L-arginine aspartate is a conditionally essential amino acid and the substrate for nitric oxide (NO) synthesis. NO produces endothelial vasodilation, reduces platelet aggregation and improves endothelial function; arginine also participates in ammonia detoxification in the urea cycle and in creatine/polyamine synthesis. It is used as an adjunct in endothelial dysfunction and cardiovascular disease.`,
+    farmakokinetika: { sorish: "Oral and parenteral", tarqalish: "Widely into tissues", metabolizm: "By NO synthase/arginase", chiqarilish: "Renal" },
+    korsatmalar: ["Endothelial dysfunction, cardiovascular disease (adjunct)", "Asthenic states; hyperammonaemia (urea cycle disorders)"],
+    qarrshi: ["Severe renal impairment", "Hyperkalaemia", "Hypersensitivity", "Caution — hypotension"],
+    nojoya: { "GI": "Nausea, abdominal discomfort (high dose)", "Vascular": "Hypotension, flushing", "Metabolic": "Hyperkalaemia, acidosis (high dose)" },
+    dozadan: "High dose — diarrhoea, hypotension, hyperkalaemia; supportive care.",
+    ozarotasir: ["Hyperkalaemia with potassium-sparing agents", "Hypotension may be enhanced with sildenafil/nitrates"],
+    qollash: { kattalar: "Oral: 1–3 g/day; parenteral: infusion as indicated.", bolalar: "As prescribed by a specialist" },
+    chiqarish: "Oral solution/tablets; solution for infusion"
+  }
+},
+
+"C01EB05": {
+  uz: {
+    gruppa: "Boshqa yurak preparatlari — miokard metabolizmi (kreatinfosfat)",
+    farmTasir: "Kardioprotektor (energetik metabolizmni qo'llab-quvvatlovchi)",
+    farmakodinamika: `Kreatinfosfat (fosfokreatin) — miokardning yuqori energetik fosfat zaxirasi. ATF ni tiklash uchun fosfat guruhini beradi, ishemияда hujayra membranasи va energetik holatини himoya qiladi, sarkolemmani barqarorlashtiradi va aritmiya xavfini kamaytiradi. O'tkir miokard infarkti, yurak yetishmovchiligi va kardiojarrohliкда (kardioplegiya) yordamчи sifatида.`,
+    farmakokinetika: { sorish: "Faqat parenteral (v/i)", tarqalish: "Miokard va skelet mushaklarига", metabolizm: "Kreatin va fosfatga", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["O'tkir miokard infarkti, surункали yurak yetishmovchiligi (yordamчi)", "Kardiojarrohliкда kardioplegik eritmalarга qo'shimcha; sportchи miokard distrofiyasi"],
+    qarrshi: ["Surункali buyrak yetishmovchiligi (yuqori doza, uzoq)", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Tez yuborilганда gipotenziya", "Mahalliy": "In'eksiya joyида reaksiya", "Boshqa": "Kamdan-kam — allergik reaksiya" },
+    dozadan: "Yuqori doza (>5–10 g/sutka uzoq) — purin almashinuvi va buyrakка ta'sir; nazorat.",
+    ozarotasir: ["Klinik ahamiyatга ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "1–2 g/sutka v/i sekin yoki infuziya; og'ir holatда yuqoriroq doza (ko'rsatmага ko'ra).", bolalar: "Mutaxassis tavsiyasiga ko'ra" },
+    chiqarish: "In'eksiya/infuziya uchun liofilizat (flakon)"
+  },
+  ru: {
+    gruppa: "Прочие кардиологические препараты — метаболизм миокарда (креатинфосфат)",
+    farmTasir: "Кардиопротектор (поддержка энергетического метаболизма)",
+    farmakodinamika: `Креатинфосфат (фосфокреатин) — высокоэнергетический фосфатный резерв миокарда. Отдаёт фосфатную группу для ресинтеза АТФ, при ишемии защищает клеточную мембрану и энергетический статус, стабилизирует сарколемму и снижает риск аритмий. Применяется как вспомогательное средство при остром инфаркте миокарда, сердечной недостаточности и в кардиохирургии (кардиоплегия).`,
+    farmakokinetika: { sorish: "Только парентерально (в/в)", tarqalish: "В миокард и скелетные мышцы", metabolizm: "До креатина и фосфата", chiqarilish: "Почками" },
+    korsatmalar: ["Острый инфаркт миокарда, хроническая сердечная недостаточность (вспомогательно)", "Добавка к кардиоплегическим растворам в кардиохирургии; миокардиодистрофия у спортсменов"],
+    qarrshi: ["Хроническая почечная недостаточность (высокая доза, длительно)", "Гиперчувствительность"],
+    nojoya: { "Сосуды": "Гипотензия при быстром введении", "Местные": "Реакция в месте инъекции", "Прочее": "Редко — аллергическая реакция" },
+    dozadan: "Высокая доза (>5–10 г/сут длительно) — влияние на пуриновый обмен и почки; контроль.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "1–2 г/сут в/в медленно или инфузионно; при тяжёлом состоянии выше (по показаниям).", bolalar: "По назначению специалиста" },
+    chiqarish: "Лиофилизат для инъекций/инфузий (флакон)"
+  },
+  en: {
+    gruppa: "Other cardiac preparations — myocardial metabolism (creatine phosphate)",
+    farmTasir: "Cardioprotector (energy metabolism support)",
+    farmakodinamika: `Creatine phosphate (phosphocreatine) is the high-energy phosphate reserve of the myocardium. It donates a phosphate group for ATP resynthesis, protects the cell membrane and energy status during ischaemia, stabilises the sarcolemma and reduces arrhythmia risk. It is used as an adjunct in acute myocardial infarction, heart failure and in cardiac surgery (cardioplegia).`,
+    farmakokinetika: { sorish: "Parenteral only (IV)", tarqalish: "Into myocardium and skeletal muscle", metabolizm: "To creatine and phosphate", chiqarilish: "Renal" },
+    korsatmalar: ["Acute myocardial infarction, chronic heart failure (adjunct)", "Additive to cardioplegic solutions in cardiac surgery; athletic myocardial dystrophy"],
+    qarrshi: ["Chronic renal failure (high dose, prolonged)", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension with rapid injection", "Local": "Injection-site reaction", "Other": "Rarely allergic reaction" },
+    dozadan: "High dose (>5–10 g/day prolonged) — effect on purine metabolism and kidneys; monitor.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "1–2 g/day slow IV or infusion; higher in severe cases (as indicated).", bolalar: "As prescribed by a specialist" },
+    chiqarish: "Lyophilisate for injection/infusion (vial)"
+  }
+},
+
+"C01EX": {
+  uz: {
+    gruppa: "Boshqa yurak preparatlari — kombinatsiyalar (validol)",
+    farmTasir: "Refleks koronar vazodilatator/sedativ (mentol)",
+    farmakodinamika: `Validol — mentolning mentil izovaleratдаги eritmasi. Til ostида shilliq qavat retseptorlarini qitiqlab refleks ravishда tomirlarni kengaytiradi va yengil tinchlantiruvchi ta'sir beradi; «kinetoz» (transportда ko'ngil aynishi) va yengil kardialgiyada qo'llaniladi. Haqiqiy antianginal vosita emas — stenokardiya xurujида nitratlar o'rnини bosmaydi.`,
+    farmakokinetika: { sorish: "Til ostида tez", tarqalish: "Tez", metabolizm: "Jigarда", chiqarilish: "Buyrak/o'pka orqали" },
+    korsatmalar: ["Funksional kardialgiya, nevroz fonида yurak sohasидagi noqulaylik", "Transportда ko'ngil aynishi (kinetoz), yengil tinchlantiruvchi sifatида"],
+    qarrshi: ["O'tkir miokard infarkti (mustaqil vosita sifatида yaramaydi)", "Og'ir gipotenziya", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Yengil bosh aylanishi, uyquchanlik", "Oshqozon-ichak": "Ko'ngil aynishi", "Allergik": "Toshma (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Tinchlantiruvchi vositalar ta'sirini yengil kuchaytirishi mumkin"],
+    qollash: { kattalar: "1 tabletka (50–60 mg) til ostiga, kerakда takrorlash; sutkали 2–3 marta.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Til ostида so'riladigan tabletkalar; tomchilar/kapsulalar"
+  },
+  ru: {
+    gruppa: "Прочие кардиологические препараты — комбинации (валидол)",
+    farmTasir: "Рефлекторный коронарный вазодилататор/седативное (ментол)",
+    farmakodinamika: `Валидол — раствор ментола в ментиловом эфире изовалериановой кислоты. Под языком раздражает рецепторы слизистой, рефлекторно расширяет сосуды и оказывает лёгкое успокаивающее действие; применяется при «кинетозе» (укачивании) и лёгкой кардиалгии. Не является истинным антиангинальным средством — не заменяет нитраты при приступе стенокардии.`,
+    farmakokinetika: { sorish: "Под языком быстро", tarqalish: "Быстро", metabolizm: "В печени", chiqarilish: "Почками/лёгкими" },
+    korsatmalar: ["Функциональная кардиалгия, дискомфорт в области сердца на фоне невроза", "Укачивание в транспорте (кинетоз), как лёгкое седативное"],
+    qarrshi: ["Острый инфаркт миокарда (не пригоден как самостоятельное средство)", "Тяжёлая гипотензия", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Лёгкое головокружение, сонливость", "ЖКТ": "Тошнота", "Аллергические": "Сыпь (редко)" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Может слегка усиливать действие седативных средств"],
+    qollash: { kattalar: "1 таблетка (50–60 мг) под язык, при необходимости повторить; 2–3 раза в сутки.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки подъязычные; капли/капсулы"
+  },
+  en: {
+    gruppa: "Other cardiac preparations — combinations (validol)",
+    farmTasir: "Reflex coronary vasodilator/sedative (menthol)",
+    farmakodinamika: `Validol is a solution of menthol in menthyl isovalerate. Placed under the tongue it irritates mucosal receptors, reflexly dilates vessels and produces a mild sedative effect; it is used for "kinetosis" (motion sickness) and mild cardialgia. It is not a true antianginal agent and does not replace nitrates in an angina attack.`,
+    farmakokinetika: { sorish: "Sublingual, rapid", tarqalish: "Rapid", metabolizm: "Hepatic", chiqarilish: "Renal/pulmonary" },
+    korsatmalar: ["Functional cardialgia, cardiac-area discomfort with neurosis", "Motion sickness (kinetosis), as a mild sedative"],
+    qarrshi: ["Acute myocardial infarction (not suitable as sole agent)", "Severe hypotension", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Mild dizziness, drowsiness", "GI": "Nausea", "Allergic": "Rash (rare)" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["May slightly enhance the effect of sedatives"],
+    qollash: { kattalar: "1 tablet (50–60 mg) under the tongue, repeat if needed; 2–3 times daily.", bolalar: "Not recommended" },
+    chiqarish: "Sublingual tablets; drops/capsules"
+  }
+},
+
+"C01BB01": {
+  uz: {
+    gruppa: "Antiaritmik vositalar — Ib sinf (lidokain)",
+    farmTasir: "Ventrikulyar antiaritmik (Ib sinf, Na⁺-kanal blokatori)",
+    farmakodinamika: `Lidokain (yurak qo'llanishида Ib sinf) — tez kinetikали Na⁺-kanal blokatori. Ishemик/depolarizatsiyalangan miokardга tanlab ta'sir qилиб ventrikulyar avtomatizm va re-entry ni bostiradi, ta'sir potensiali davomijligini qisqartiradi. Asosан o'tkir ventrikulyar aritmiyalarда (jumladан miokard infarkti fonида) v/i qo'llaniladi; supraventrikulyar aritmiyaга deyarli ta'sir qilmaydi.`,
+    farmakokinetika: { sorish: "Faqat parenteral (ich samarasiz — jigar metabolizmi)", tarqalish: "Tez, miokardга", metabolizm: "Jigar (CYP) — yuqori birinchi o'tish", chiqarilish: "Buyrak (metabolitlar); T½ ~1,5–2 soat" },
+    korsatmalar: ["O'tkir ventrikulyar aritmiyalar (ventrikulyar ekstrasistoliya, taxikardiya, fibrillatsiya — defibrillyatsiyага qo'shimcha)", "Miokard infarkti fonидagi ventrikulyar aritmiyalar"],
+    qarrshi: ["SA/AV-blokada (II–III, kardiostimulyatorsiz)", "Og'ir bradikardiya, kardiogen shok", "WPW (ehtiyot), amid anestetiklarга yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Bosh aylanishi, parestiya, tremor, tutqanoq (yuqori daraja)", "Yurak": "Bradikardiya, gipotenziya, AV-blokada", "Boshqa": "Ko'ngil aynishi, quloqда shovqin" },
+    dozadan: "MNS qo'zg'alishi/tutqanoq, kardiodepressiya — infuziyani to'xtatish, tutqanoqда benzodiazepin, qo'llab-quvvatlovчи davo.",
+    ozarotasir: ["Beta-blokatorlar/simetidin lidokain darajасини oshiradi (jigar qon oqimi/metabolizm)", "Boshqa antiaritmiklar bilan kardiodepressiya kuchayadi"],
+    qollash: { kattalar: "V/i bolus 1–1,5 mg/kg (50–100 mg), keyin 1–4 mg/min infuziya.", bolalar: "1 mg/kg bolus, keyin 20–50 mkg/kg/min infuziya" },
+    chiqarish: "In'eksiya uchun eritma 2% / 10% (yurak aritmiyaси uchun)"
+  },
+  ru: {
+    gruppa: "Антиаритмические средства — класс Ib (лидокаин)",
+    farmTasir: "Желудочковый антиаритмик (класс Ib, блокатор Na⁺-каналов)",
+    farmakodinamika: `Лидокаин (в кардиологии — класс Ib) — блокатор Na⁺-каналов с быстрой кинетикой. Избирательно действуя на ишемизированный/деполяризованный миокард, подавляет желудочковый автоматизм и re-entry, укорачивает длительность потенциала действия. Применяется в основном при острых желудочковых аритмиях (в т.ч. на фоне инфаркта миокарда) внутривенно; на суправентрикулярные аритмии почти не влияет.`,
+    farmakokinetika: { sorish: "Только парентерально (внутрь неэффективен — печёночный метаболизм)", tarqalish: "Быстро, в миокард", metabolizm: "Печень (CYP) — высокий первичный пассаж", chiqarilish: "Почками (метаболиты); T½ ~1,5–2 ч" },
+    korsatmalar: ["Острые желудочковые аритмии (желудочковая экстрасистолия, тахикардия, фибрилляция — в дополнение к дефибрилляции)", "Желудочковые аритмии на фоне инфаркта миокарда"],
+    qarrshi: ["СА/AV-блокада (II–III, без кардиостимулятора)", "Выраженная брадикардия, кардиогенный шок", "WPW (осторожно), гиперчувствительность к амидным анестетикам"],
+    nojoya: { "Нервная система": "Головокружение, парестезии, тремор, судороги (высокие дозы)", "Сердце": "Брадикардия, гипотензия, AV-блокада", "Прочее": "Тошнота, шум в ушах" },
+    dozadan: "Возбуждение ЦНС/судороги, кардиодепрессия — прекратить инфузию, при судорогах бензодиазепин, поддерживающая терапия.",
+    ozarotasir: ["Бета-блокаторы/циметидин повышают уровень лидокаина (печёночный кровоток/метаболизм)", "С другими антиаритмиками усиливается кардиодепрессия"],
+    qollash: { kattalar: "В/в болюс 1–1,5 мг/кг (50–100 мг), затем инфузия 1–4 мг/мин.", bolalar: "1 мг/кг болюс, затем инфузия 20–50 мкг/кг/мин" },
+    chiqarish: "Раствор для инъекций 2% / 10% (для сердечной аритмии)"
+  },
+  en: {
+    gruppa: "Antiarrhythmic agents — class Ib (lidocaine)",
+    farmTasir: "Ventricular antiarrhythmic (class Ib, Na⁺-channel blocker)",
+    farmakodinamika: `Lidocaine (class Ib in cardiology) is a fast-kinetics Na⁺-channel blocker. Acting selectively on ischaemic/depolarised myocardium, it suppresses ventricular automaticity and re-entry and shortens action potential duration. It is used mainly for acute ventricular arrhythmias (including in myocardial infarction) intravenously; it has little effect on supraventricular arrhythmias.`,
+    farmakokinetika: { sorish: "Parenteral only (oral ineffective — hepatic metabolism)", tarqalish: "Rapid, into myocardium", metabolizm: "Hepatic (CYP) — high first-pass", chiqarilish: "Renal (metabolites); T½ ~1.5–2 h" },
+    korsatmalar: ["Acute ventricular arrhythmias (ventricular ectopy, tachycardia, fibrillation — adjunct to defibrillation)", "Ventricular arrhythmias in myocardial infarction"],
+    qarrshi: ["SA/AV block (II–III, without pacemaker)", "Marked bradycardia, cardiogenic shock", "WPW (caution), hypersensitivity to amide anaesthetics"],
+    nojoya: { "Nervous system": "Dizziness, paraesthesia, tremor, seizures (high doses)", "Cardiac": "Bradycardia, hypotension, AV block", "Other": "Nausea, tinnitus" },
+    dozadan: "CNS excitation/seizures, cardiodepression — stop infusion, benzodiazepine for seizures, supportive care.",
+    ozarotasir: ["Beta-blockers/cimetidine raise lidocaine levels (hepatic flow/metabolism)", "Cardiodepression enhanced with other antiarrhythmics"],
+    qollash: { kattalar: "IV bolus 1–1.5 mg/kg (50–100 mg), then 1–4 mg/min infusion.", bolalar: "1 mg/kg bolus, then 20–50 µg/kg/min infusion" },
+    chiqarish: "Solution for injection 2% / 10% (for cardiac arrhythmia)"
+  }
+},
+
+"C05CA03": {
+  uz: {
+    gruppa: "Kapillyarlarni barqarorlashtiruvchilar — bioflavonoidlar (diosmin)",
+    farmTasir: "Venotonik va kapillyar himoyachi (diosmin)",
+    farmakodinamika: `Diosmin — bioflavonoid venotonik. Venalar tonusini oshiradi (noradrenalin ta'sirini uzaytirib), kapillyar o'tkazuvchanligi va mo'rtligini kamaytiradi, limfa drenajини yaxshilaydi va leykotsitlar-endoteliy ta'sirини hamда yallig'lanish mediatorlarини bostiradi. Surункали venoz yetishmovchilik va gemorroyда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (mikronlangan shaklда yaxshiroq)", tarqalish: "Vena devoriга to'planadi", metabolizm: "Jigarда", chiqarilish: "Asosан najas/buyrak" },
+    korsatmalar: ["Surункali venoz yetishmovchilik (oyoq og'irligi, og'riq, shish)", "O'tkir va surункали gemorroy xuruji"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — homiladorlik va laktatsiya"],
+    nojoya: { "Oshqozon-ichak": "Dispepsiya, ko'ngil aynishi, diareya", "Asab": "Bosh og'rig'i, bosh aylanishi (kamdan-kam)", "Allergik": "Toshma" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "600 mg/sutka (1 marta) yoki 450 mg×2; gemorroy xurujида yuqoriroq doza.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Plyonka qoplamali tabletkalar 600 mg (yoki mikronlangan 450 mg)"
+  },
+  ru: {
+    gruppa: "Капилляростабилизирующие — биофлавоноиды (диосмин)",
+    farmTasir: "Венотоник и капилляропротектор (диосмин)",
+    farmakodinamika: `Диосмин — биофлавоноидный венотоник. Повышает тонус вен (продлевая действие норадреналина), снижает проницаемость и ломкость капилляров, улучшает лимфодренаж и подавляет взаимодействие лейкоцитов с эндотелием и медиаторы воспаления. Применяется при хронической венозной недостаточности и геморрое.`,
+    farmakokinetika: { sorish: "Из кишечника (лучше в микронизированной форме)", tarqalish: "Накапливается в стенке вен", metabolizm: "В печени", chiqarilish: "Преимущественно с калом/почками" },
+    korsatmalar: ["Хроническая венозная недостаточность (тяжесть в ногах, боль, отёки)", "Острый и хронический геморрой (обострение)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — беременность и лактация"],
+    nojoya: { "ЖКТ": "Диспепсия, тошнота, диарея", "Нервная система": "Головная боль, головокружение (редко)", "Аллергические": "Сыпь" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "600 мг/сут (1 раз) или 450 мг×2; при обострении геморроя выше доза.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 600 мг (или микронизированные 450 мг)"
+  },
+  en: {
+    gruppa: "Capillary stabilisers — bioflavonoids (diosmin)",
+    farmTasir: "Venotonic and capillary protectant (diosmin)",
+    farmakodinamika: `Diosmin is a bioflavonoid venotonic. It increases venous tone (by prolonging noradrenaline action), reduces capillary permeability and fragility, improves lymphatic drainage and suppresses leukocyte-endothelium interaction and inflammatory mediators. It is used in chronic venous insufficiency and haemorrhoids.`,
+    farmakokinetika: { sorish: "From the gut (better in micronised form)", tarqalish: "Accumulates in the venous wall", metabolizm: "Hepatic", chiqarilish: "Mainly faecal/renal" },
+    korsatmalar: ["Chronic venous insufficiency (leg heaviness, pain, oedema)", "Acute and chronic haemorrhoids (flare)"],
+    qarrshi: ["Hypersensitivity", "Caution — pregnancy and lactation"],
+    nojoya: { "GI": "Dyspepsia, nausea, diarrhoea", "Nervous system": "Headache, dizziness (rare)", "Allergic": "Rash" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "600 mg/day (once) or 450 mg×2; higher dose in haemorrhoid flare.", bolalar: "Not recommended" },
+    chiqarish: "Film-coated tablets 600 mg (or micronised 450 mg)"
+  }
 }
 
 };
@@ -34042,6 +34378,67 @@ const PHARMA_DATA = {
 // ALIASLAR — bir xil modda boshqa/dublikat ATX kodi ostida
 // (ilovada o'sha dorilar mavjud yozuvni ko'rsatadi)
 // ═══════════════════════════════════════════════════════════
+
+// ── YURAK-QON TOMIR (C) kombinatsiya/dublikat kodlari ──
+PHARMA_DATA["C01DA05"]          = PHARMA_DATA["C01DA"];    // pentaeritritil tetranitrat → nitratlar
+PHARMA_DATA["C01DX17"]          = PHARMA_DATA["C01EB15"];  // trimetazidin
+PHARMA_DATA["C03EA01"]          = PHARMA_DATA["C03DA01"];  // spironolakton + gidroxlortiazid → spironolakton
+PHARMA_DATA["C03EB01"]          = PHARMA_DATA["C03DA01"];  // spironolakton + furosemid → spironolakton
+PHARMA_DATA["C05"]              = PHARMA_DATA["C05CX"];    // heparin + trokserutin + eskin (venotonik komb.)
+PHARMA_DATA["C05AA"]            = PHARMA_DATA["C05AX03"];  // gidrokortizon + rux (gemorroy komb.)
+PHARMA_DATA["C05AA01"]          = PHARMA_DATA["C05AX03"];  // gidrokortizon + lidokain + alyuminiy + rux (gemorroy)
+PHARMA_DATA["C05AB06"]          = PHARMA_DATA["C05CX"];    // alanin + glutamin (venotonik/trofik)
+PHARMA_DATA["C05AX"]            = PHARMA_DATA["C05AD03"];  // fenilefrin (gemorroy mahalliy)
+PHARMA_DATA["C05AX02"]          = PHARMA_DATA["C05AD03"];  // rux + benzokain + vismut + mentol (gemorroy)
+PHARMA_DATA["C05AX04"]          = PHARMA_DATA["C05AD03"];  // belladonna + vismut + rux (gemorroy)
+PHARMA_DATA["C05BA03"]          = PHARMA_DATA["C05BA53"];  // heparin (mahalliy)
+PHARMA_DATA["C05BB02"]          = PHARMA_DATA["C05AX03"];  // lauromakrogol 400 (sklerozlovchi)
+PHARMA_DATA["C05CA05"]          = PHARMA_DATA["C05CA53"];  // gidrosmin → diosmin+gesperidin
+PHARMA_DATA["C05CA54"]          = PHARMA_DATA["C05CA04"];  // trokserutin + karbazoxrom → trokserutin
+PHARMA_DATA["C07AB"]            = PHARMA_DATA["C07AB12"];  // nebivolol
+PHARMA_DATA["C07BB03"]          = PHARMA_DATA["C07AG02"];  // karvedilol
+PHARMA_DATA["C07BB12"]          = PHARMA_DATA["C07AB12"];  // nebivolol + gidroxlortiazid → nebivolol
+PHARMA_DATA["C07FB"]            = PHARMA_DATA["C07AB07"];  // bisoprolol + amlodipin → bisoprolol
+PHARMA_DATA["C07FB03"]          = PHARMA_DATA["C07AB03"];  // amlodipin + atenolol → atenolol
+PHARMA_DATA["C07FB07"]          = PHARMA_DATA["C07AB07"];  // amlodipin + bisoprolol → bisoprolol
+PHARMA_DATA["C10AB07"]          = PHARMA_DATA["C07AB07"];  // bisoprolol (kod xato)
+PHARMA_DATA["C09B"]             = PHARMA_DATA["C09BA04"];  // perindopril + indapamid
+PHARMA_DATA["C09BA02"]          = PHARMA_DATA["C09AA02"];  // enalapril + gidroxlortiazid → enalapril
+PHARMA_DATA["C09BA03"]          = PHARMA_DATA["C09AA03"];  // lizinopril + indapamid → lizinopril
+PHARMA_DATA["C09BA05"]          = PHARMA_DATA["C09AA05"];  // ramipril + gidroxlortiazid → ramipril
+PHARMA_DATA["C09BB02"]          = PHARMA_DATA["C09AA02"];  // lerkanidipin + enalapril → enalapril
+PHARMA_DATA["C09BB03"]          = PHARMA_DATA["C09AA03"];  // amlodipin + lizinopril → lizinopril
+PHARMA_DATA["C09BB06"]          = PHARMA_DATA["C09AA02"];  // enalapril + nitrendipin → enalapril
+PHARMA_DATA["C09BB07"]          = PHARMA_DATA["C09AA05"];  // ramipril + amlodipin → ramipril
+PHARMA_DATA["C09BX"]            = PHARMA_DATA["C09AA03"];  // lizinopril + amlodipin + indapamid → lizinopril
+PHARMA_DATA["C09BX01"]          = PHARMA_DATA["C09BB04"];  // perindopril + indapamid + amlodipin
+PHARMA_DATA["C09BX02"]          = PHARMA_DATA["C09AA04"];  // bisoprolol + perindopril → perindopril
+PHARMA_DATA["C09BX05"]          = PHARMA_DATA["C09AA05"];  // ramipril + bisoprolol → ramipril
+PHARMA_DATA["C09D"]             = PHARMA_DATA["C09CA07"];  // amlodipin + telmisartan + GXT → telmisartan
+PHARMA_DATA["C09DA"]            = PHARMA_DATA["C09CA01"];  // losartan
+PHARMA_DATA["C09DA03"]          = PHARMA_DATA["C09CA03"];  // valsartan + gidroxlortiazid → valsartan
+PHARMA_DATA["C09DA04"]          = PHARMA_DATA["C09CA04"];  // irbesartan + gidroxlortiazid → irbesartan
+PHARMA_DATA["C09DA07"]          = PHARMA_DATA["C09CA07"];  // telmisartan
+PHARMA_DATA["C09DA08"]          = PHARMA_DATA["C09CA08"];  // olmesartan + gidroxlortiazid → olmesartan
+PHARMA_DATA["C09DB02"]          = PHARMA_DATA["C09CA08"];  // olmesartan + amlodipin → olmesartan
+PHARMA_DATA["C09DB04"]          = PHARMA_DATA["C09CA07"];  // telmisartan + amlodipin → telmisartan
+PHARMA_DATA["C09DB06"]          = PHARMA_DATA["C09DA01"];  // losartan + amlodipin → losartan+GXT
+PHARMA_DATA["C09DB07"]          = PHARMA_DATA["C09CA06"];  // kandesartan + amlodipin → kandesartan
+PHARMA_DATA["C09DX"]            = PHARMA_DATA["C09CA07"];  // telmisartan + metoprolol → telmisartan
+PHARMA_DATA["C09DX01"]          = PHARMA_DATA["C09DB01"];  // amlodipin + valsartan + GXT → amlodipin+valsartan
+PHARMA_DATA["C09DX06"]          = PHARMA_DATA["C09CA06"];  // kandesartan + amlodipin + GXT → kandesartan
+PHARMA_DATA["C10A"]             = PHARMA_DATA["C10AA07"];  // rozuvastatin
+PHARMA_DATA["C10AA06"]          = PHARMA_DATA["C10AA07"];  // rozuvastatin
+PHARMA_DATA["C10BA05"]          = PHARMA_DATA["C10BA06"];  // atorvastatin + ezetimib → statin+ezetimib
+PHARMA_DATA["C10BA09"]          = PHARMA_DATA["C10AA07"];  // rozuvastatin + fenofibrat → rozuvastatin
+PHARMA_DATA["C10BX"]            = PHARMA_DATA["C10AA05"];  // ASK + atorvastatin + klopidogrel → atorvastatin
+PHARMA_DATA["C10BX05"]          = PHARMA_DATA["C10AA07"];  // rozuvastatin + ASK → rozuvastatin
+PHARMA_DATA["C10BX06"]          = PHARMA_DATA["C10AA05"];  // ASK + atorvastatin + ramipril → atorvastatin
+PHARMA_DATA["C10BX07"]          = PHARMA_DATA["C10AA07"];  // lizinopril + amlodipin + rozuvastatin → rozuvastatin
+PHARMA_DATA["C10BX13"]          = PHARMA_DATA["C10AA07"];  // perindopril + indapamid + rozuvastatin → rozuvastatin
+PHARMA_DATA["C10BX14"]          = PHARMA_DATA["C10AA07"];  // rozuvastatin + amlodipin + perindopril → rozuvastatin
+PHARMA_DATA["C02КX"]            = PHARMA_DATA["C02KX"];    // sildenafil (kirill «К» kodli dublikat)
+
 PHARMA_DATA["N03CA01"]          = PHARMA_DATA["N03CA"];    // kaliy yodid
 PHARMA_DATA["N01AH"]            = PHARMA_DATA["N02AX"];    // trimeperidin
 PHARMA_DATA["N01AH01"]          = PHARMA_DATA["N02AB03"];  // fentanil
