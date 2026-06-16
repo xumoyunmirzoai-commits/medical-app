@@ -35336,6 +35336,300 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Once daily SC (any but consistent time), individualised titration.", bolalar: "Individualised (≥1 year), under specialist supervision" },
     chiqarish: "Solution for injection 100 units/mL, 200 units/mL (pen)"
   }
+},
+
+"A10BD07": {
+  uz: {
+    gruppa: "Peroral antidiabetiklar — DPP-4 inhibitorlari (sitagliptin)",
+    farmTasir: "Qand kamaytiruvchi (dipeptidilpeptidaza-4 inhibitori, inkretin kuchaytiruvchi)",
+    farmakodinamika: `Sitagliptin — DPP-4 fermentini tanlab to'sib qo'yadi; bu ferment inkretin gormonlari (GLP-1 va GIP) ni parchalaydi. Ularning darajasini oshirib, glyukozaga bog'liq ravishда insulin sekretsiyasини kuchaytiradi va glyukagon ajralishini kamaytiradi — ovqatdan keyingi va och qoringa qandни pasaytiradi. Glyukozага bog'liq ta'sir tufayli gipoglikemiya xavfi past, vaznга neytral.`,
+    farmakokinetika: { sorish: "Ichakdan tez (~87%)", tarqalish: "Oqsiliga kam bog'lanadi", metabolizm: "Kam (asosан o'zgarmagan)", chiqarilish: "Asosан buyrak; T½ ~12 soat" },
+    korsatmalar: ["2-tur qandli diabet (monoterapiya yoki metformin/boshqalar bilan)"],
+    qarrshi: ["1-tur diabet, diabetik ketoatsidoz", "Yuqori sezuvchanlik", "Ehtiyotkorlik — pankreatit anamnezi, og'ir buyrak yetishmovchiligi (doza moslash)"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, ich qotishi; kamdan-kam — o'tkir pankreatit", "Immun": "Yuqori sezuvchanlik (angiooedema, Stivens-Jonson — kamdan-kam)", "Suyak-mushak": "Artralgiya", "Yuqori nafas": "Nazofaringit" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik, dializ bilan qisman chiqariladi.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam", "Sulfonilmochevina/insulin bilan gipoglikemiya xavfi (ularning dozasini kamaytirish)"],
+    qollash: { kattalar: "100 mg×1/sutka; buyrak yetishmovchiligida 25–50 mg/sutka.", bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)" },
+    chiqarish: "Plyonka qoplamali tabletkalar 25/50/100 mg"
+  },
+  ru: {
+    gruppa: "Пероральные антидиабетики — ингибиторы ДПП-4 (ситаглиптин)",
+    farmTasir: "Сахароснижающее (ингибитор дипептидилпептидазы-4, усилитель инкретинов)",
+    farmakodinamika: `Ситаглиптин избирательно ингибирует фермент ДПП-4, который разрушает инкретиновые гормоны (ГПП-1 и ГИП). Повышая их уровень, глюкозозависимо усиливает секрецию инсулина и снижает выброс глюкагона — снижает постпрандиальную и тощаковую гликемию. Благодаря глюкозозависимости риск гипогликемии низкий, нейтрален к массе тела.`,
+    farmakokinetika: { sorish: "Из кишечника быстро (~87%)", tarqalish: "Слабая связь с белками", metabolizm: "Незначительный (в основном неизменён)", chiqarilish: "Преимущественно почками; T½ ~12 ч" },
+    korsatmalar: ["Сахарный диабет 2 типа (монотерапия или с метформином/другими)"],
+    qarrshi: ["Диабет 1 типа, диабетический кетоацидоз", "Гиперчувствительность", "Осторожно — панкреатит в анамнезе, тяжёлая почечная недостаточность (коррекция дозы)"],
+    nojoya: { "ЖКТ": "Тошнота, запор; редко — острый панкреатит", "Иммунитет": "Гиперчувствительность (ангиоотёк, Стивенс-Джонсон — редко)", "Костно-мышечные": "Артралгия", "Дыхательные": "Назофарингит" },
+    dozadan: "Вероятность токсичности низкая; симптоматически, частично выводится диализом.",
+    ozarotasir: ["Клинически значимых взаимодействий мало", "С сульфонилмочевиной/инсулином риск гипогликемии (снизить их дозу)"],
+    qollash: { kattalar: "100 мг×1/сут; при почечной недостаточности 25–50 мг/сут.", bolalar: "Не рекомендуется (данные ограничены)" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 25/50/100 мг"
+  },
+  en: {
+    gruppa: "Oral antidiabetics — DPP-4 inhibitors (sitagliptin)",
+    farmTasir: "Glucose-lowering (dipeptidyl peptidase-4 inhibitor, incretin enhancer)",
+    farmakodinamika: `Sitagliptin selectively inhibits DPP-4, the enzyme that degrades incretin hormones (GLP-1 and GIP). By raising their levels it glucose-dependently enhances insulin secretion and reduces glucagon release — lowering postprandial and fasting glucose. Owing to glucose dependence, hypoglycaemia risk is low and it is weight-neutral.`,
+    farmakokinetika: { sorish: "Rapid from the gut (~87%)", tarqalish: "Low protein binding", metabolizm: "Minimal (mostly unchanged)", chiqarilish: "Mainly renal; T½ ~12 h" },
+    korsatmalar: ["Type 2 diabetes mellitus (monotherapy or with metformin/others)"],
+    qarrshi: ["Type 1 diabetes, diabetic ketoacidosis", "Hypersensitivity", "Caution — pancreatitis history, severe renal impairment (dose adjustment)"],
+    nojoya: { "GI": "Nausea, constipation; rarely acute pancreatitis", "Immune": "Hypersensitivity (angio-oedema, Stevens-Johnson — rare)", "Musculoskeletal": "Arthralgia", "Respiratory": "Nasopharyngitis" },
+    dozadan: "Toxicity unlikely; supportive, partly removed by dialysis.",
+    ozarotasir: ["Few clinically significant interactions", "With sulfonylurea/insulin risk of hypoglycaemia (reduce their dose)"],
+    qollash: { kattalar: "100 mg once daily; in renal impairment 25–50 mg/day.", bolalar: "Not recommended (limited data)" },
+    chiqarish: "Film-coated tablets 25/50/100 mg"
+  }
+},
+
+"A10BH02": {
+  uz: {
+    gruppa: "Peroral antidiabetiklar — DPP-4 inhibitorlari (vildagliptin)",
+    farmTasir: "Qand kamaytiruvchi (DPP-4 inhibitori, inkretin kuchaytiruvchi)",
+    farmakodinamika: `Vildagliptin — DPP-4 inhibitori. Inkretinlar (GLP-1, GIP) parchalanishini sekinlashtirib, glyukozага bog'liq ravishда oshqozonosti bezi beta-hujayralaridан insulin ajralishini kuchaytiradi va alfa-hujayralardан glyukagon ajralishini bostiradi. Och qoringa va ovqatdan keyingi qandни pasaytiradi; gipoglikemiya xavfi past, vaznга neytral.`,
+    farmakokinetika: { sorish: "Ichakdan tez (~85%)", tarqalish: "Oqsiliga kam bog'lanadi", metabolizm: "Asosан gidroliz (CYP ishtirokisiz)", chiqarilish: "Buyrak; T½ ~3 soat" },
+    korsatmalar: ["2-tur qandli diabet (monoterapiya yoki metformin/sulfonilmochevina/insulin bilan)"],
+    qarrshi: ["1-tur diabet, ketoatsidoz", "Jigar yetishmovchiligi yoki ALT/AST >3× yuqori (jigar funksiyasini nazorat qilish)", "Yuqori sezuvchanlik"],
+    nojoya: { "Jigar": "Jigar fermentlari ko'tarilishi (nazorat shart)", "Oshqozon-ichak": "Ko'ngil aynishi; kamdan-kam pankreatit", "Asab": "Bosh aylanishi, bosh og'rig'i", "Teri": "Toshma, angiooedema (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik (dializ samarasiz).",
+    ozarotasir: ["Sulfonilmochevina/insulin bilan gipoglikemiya xavfi", "ACE inhibitorlari bilan angiooedema xavfi biroz oshadi"],
+    qollash: { kattalar: "50 mg×2/sutka (yoki sulfonilmochevina bilan 50 mg ertalab).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 50 mg"
+  },
+  ru: {
+    gruppa: "Пероральные антидиабетики — ингибиторы ДПП-4 (вилдаглиптин)",
+    farmTasir: "Сахароснижающее (ингибитор ДПП-4, усилитель инкретинов)",
+    farmakodinamika: `Вилдаглиптин — ингибитор ДПП-4. Замедляя распад инкретинов (ГПП-1, ГИП), глюкозозависимо усиливает секрецию инсулина бета-клетками поджелудочной железы и подавляет выброс глюкагона альфа-клетками. Снижает тощаковую и постпрандиальную гликемию; риск гипогликемии низкий, нейтрален к массе тела.`,
+    farmakokinetika: { sorish: "Из кишечника быстро (~85%)", tarqalish: "Слабая связь с белками", metabolizm: "В основном гидролиз (без участия CYP)", chiqarilish: "Почками; T½ ~3 ч" },
+    korsatmalar: ["Сахарный диабет 2 типа (монотерапия или с метформином/сульфонилмочевиной/инсулином)"],
+    qarrshi: ["Диабет 1 типа, кетоацидоз", "Печёночная недостаточность или АЛТ/АСТ >3× выше нормы (контроль функции печени)", "Гиперчувствительность"],
+    nojoya: { "Печень": "Повышение печёночных ферментов (необходим контроль)", "ЖКТ": "Тошнота; редко панкреатит", "Нервная система": "Головокружение, головная боль", "Кожа": "Сыпь, ангиоотёк (редко)" },
+    dozadan: "Вероятность токсичности низкая; симптоматически (диализ неэффективен).",
+    ozarotasir: ["С сульфонилмочевиной/инсулином риск гипогликемии", "С иАПФ несколько повышается риск ангиоотёка"],
+    qollash: { kattalar: "50 мг×2/сут (или с сульфонилмочевиной 50 мг утром).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 50 мг"
+  },
+  en: {
+    gruppa: "Oral antidiabetics — DPP-4 inhibitors (vildagliptin)",
+    farmTasir: "Glucose-lowering (DPP-4 inhibitor, incretin enhancer)",
+    farmakodinamika: `Vildagliptin is a DPP-4 inhibitor. By slowing incretin (GLP-1, GIP) degradation, it glucose-dependently enhances insulin secretion from pancreatic beta cells and suppresses glucagon release from alpha cells. It lowers fasting and postprandial glucose; hypoglycaemia risk is low and it is weight-neutral.`,
+    farmakokinetika: { sorish: "Rapid from the gut (~85%)", tarqalish: "Low protein binding", metabolizm: "Mainly hydrolysis (no CYP involvement)", chiqarilish: "Renal; T½ ~3 h" },
+    korsatmalar: ["Type 2 diabetes (monotherapy or with metformin/sulfonylurea/insulin)"],
+    qarrshi: ["Type 1 diabetes, ketoacidosis", "Hepatic impairment or ALT/AST >3× ULN (monitor liver function)", "Hypersensitivity"],
+    nojoya: { "Liver": "Raised liver enzymes (monitoring required)", "GI": "Nausea; rarely pancreatitis", "Nervous system": "Dizziness, headache", "Skin": "Rash, angio-oedema (rare)" },
+    dozadan: "Toxicity unlikely; supportive (dialysis ineffective).",
+    ozarotasir: ["With sulfonylurea/insulin risk of hypoglycaemia", "With ACE inhibitors angio-oedema risk slightly increased"],
+    qollash: { kattalar: "50 mg twice daily (or 50 mg in the morning with sulfonylurea).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 50 mg"
+  }
+},
+
+"A10BG03": {
+  uz: {
+    gruppa: "Peroral antidiabetiklar — tiazolidindionlar (pioglitazon)",
+    farmTasir: "Qand kamaytiruvchi (insulin sezuvchanligini oshiruvchi, PPAR-γ agonisti)",
+    farmakodinamika: `Pioglitazon — tiazolidindion; hujayra yadrosi PPAR-γ retseptorlarini faollashtirib, glyukoza va lipid almashinuvида ishtirok etuvchi genlar ekspressiyasini o'zgartiradi. Yog', mushak va jigar to'qimasида insulinга sezuvchanlikни oshiradi (insulinга qarshilikни kamaytiradi), jigarда glyukoza ishlab chiqarilishini pasaytiradi. Ta'sir asta-sekin (haftalar) rivojlanadi; gipoglikemiya xavfi monoterapiyada past.`,
+    farmakokinetika: { sorish: "Ichakdan yaxshi", tarqalish: "Oqsiliga yuqori (~99%)", metabolizm: "Jigar (CYP2C8, CYP3A4) — faol metabolitlar", chiqarilish: "Asosан safro/najas; T½ ~3–7 soat (metabolitlar 16–24)" },
+    korsatmalar: ["2-tur qandli diabet (monoterapiya yoki metformin/sulfonilmochevina/insulin bilan)"],
+    qarrshi: ["Yurak yetishmovchiligi (NYHA III–IV) yoki anamnezi", "Faol siydik pufagi raki yoki anamnezi, tekshirilmagan makrogematuriya", "Diabetik ketoatsidoz, og'ir jigar yetishmovchiligi", "Homiladorlik"],
+    nojoya: { "Yurak-tomir": "Suyuqlik ushlanishi/shish, yurak yetishmovchiligini kuchaytirish", "Suyak": "Ayollarда suyak sinishi xavfi ortishi", "Metabolik": "Vazn ortishi", "Boshqa": "Siydik pufagi raki xavfi (munozarali), jigar fermentlari ko'tarilishi" },
+    dozadan: "Toksiklik ehtimoli past; suyuqlik ushlanishi/shishни kuzatish, simptomatik.",
+    ozarotasir: ["CYP2C8 inhibitori gemfibrozil darajasini oshiradi (doza kamaytiriladi)", "Rifampitsin darajasini pasaytiradi", "Insulin/sulfonilmochevina bilan shish va gipoglikemiya"],
+    qollash: { kattalar: "15–30 mg×1/sutka (maks 45 mg), ovqatdан qat'i nazar.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 15/30/45 mg"
+  },
+  ru: {
+    gruppa: "Пероральные антидиабетики — тиазолидиндионы (пиоглитазон)",
+    farmTasir: "Сахароснижающее (повышает чувствительность к инсулину, агонист PPAR-γ)",
+    farmakodinamika: `Пиоглитазон — тиазолидиндион; активируя ядерные рецепторы PPAR-γ, меняет экспрессию генов углеводного и липидного обмена. Повышает чувствительность к инсулину в жировой, мышечной и печёночной ткани (снижает инсулинорезистентность), уменьшает продукцию глюкозы печенью. Эффект развивается постепенно (недели); риск гипогликемии при монотерапии низкий.`,
+    farmakokinetika: { sorish: "Из кишечника хорошо", tarqalish: "Высокая связь с белками (~99%)", metabolizm: "Печень (CYP2C8, CYP3A4) — активные метаболиты", chiqarilish: "Преимущественно с желчью/калом; T½ ~3–7 ч (метаболиты 16–24)" },
+    korsatmalar: ["Сахарный диабет 2 типа (монотерапия или с метформином/сульфонилмочевиной/инсулином)"],
+    qarrshi: ["Сердечная недостаточность (NYHA III–IV) или в анамнезе", "Активный рак мочевого пузыря или в анамнезе, необследованная макрогематурия", "Диабетический кетоацидоз, тяжёлая печёночная недостаточность", "Беременность"],
+    nojoya: { "Сердечно-сосудистые": "Задержка жидкости/отёки, усугубление сердечной недостаточности", "Кости": "Повышение риска переломов у женщин", "Метаболизм": "Прибавка массы", "Прочее": "Риск рака мочевого пузыря (спорно), повышение печёночных ферментов" },
+    dozadan: "Вероятность токсичности низкая; наблюдать за задержкой жидкости/отёками, симптоматически.",
+    ozarotasir: ["Ингибитор CYP2C8 гемфиброзил повышает уровень (снизить дозу)", "Рифампицин снижает уровень", "С инсулином/сульфонилмочевиной отёки и гипогликемия"],
+    qollash: { kattalar: "15–30 мг×1/сут (макс 45 мг), независимо от еды.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 15/30/45 мг"
+  },
+  en: {
+    gruppa: "Oral antidiabetics — thiazolidinediones (pioglitazone)",
+    farmTasir: "Glucose-lowering (insulin sensitiser, PPAR-γ agonist)",
+    farmakodinamika: `Pioglitazone is a thiazolidinedione; by activating nuclear PPAR-γ receptors it alters expression of genes in carbohydrate and lipid metabolism. It increases insulin sensitivity in fat, muscle and liver (reducing insulin resistance) and lowers hepatic glucose production. The effect develops gradually (weeks); hypoglycaemia risk is low in monotherapy.`,
+    farmakokinetika: { sorish: "Well from the gut", tarqalish: "Highly protein-bound (~99%)", metabolizm: "Hepatic (CYP2C8, CYP3A4) — active metabolites", chiqarilish: "Mainly biliary/faecal; T½ ~3–7 h (metabolites 16–24)" },
+    korsatmalar: ["Type 2 diabetes (monotherapy or with metformin/sulfonylurea/insulin)"],
+    qarrshi: ["Heart failure (NYHA III–IV) or history", "Active or past bladder cancer, uninvestigated macrohaematuria", "Diabetic ketoacidosis, severe hepatic impairment", "Pregnancy"],
+    nojoya: { "Cardiovascular": "Fluid retention/oedema, worsening heart failure", "Bone": "Increased fracture risk in women", "Metabolic": "Weight gain", "Other": "Bladder cancer risk (debated), raised liver enzymes" },
+    dozadan: "Toxicity unlikely; watch for fluid retention/oedema, supportive.",
+    ozarotasir: ["CYP2C8 inhibitor gemfibrozil increases levels (reduce dose)", "Rifampicin reduces levels", "With insulin/sulfonylurea oedema and hypoglycaemia"],
+    qollash: { kattalar: "15–30 mg once daily (max 45 mg), regardless of food.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 15/30/45 mg"
+  }
+},
+
+"A10BJ02": {
+  uz: {
+    gruppa: "Antidiabetiklar — GLP-1 retseptori agonistlari (liraglutid)",
+    farmTasir: "Qand kamaytiruvchi va vazn kamaytiruvchi (GLP-1 analogi)",
+    farmakodinamika: `Liraglutid — glyukagonsimon peptid-1 (GLP-1) ning uzoq ta'sirli analogi. GLP-1 retseptorlari orqали glyukozага bog'liq ravishда insulin sekretsiyasini kuchaytiradi, glyukagonni kamaytiradi, oshqozon bo'shashини sekinlashtiradi va markaziy to'qlik hissini oshirib ishtahani pasaytiradi (vazn kamayadi). Gipoglikemiya xavfi (monoterapiyada) past; yurak-tomir foydasi ko'rsatilgan.`,
+    farmakokinetika: { sorish: "S/k (sekin, barqaror)", tarqalish: "Albuminга yuqori bog'lanadi", metabolizm: "Peptidlar kabi parchalanadi (DPP-4/NEP)", chiqarilish: "Metabolizm; T½ ~13 soat (kuniga 1 marta)" },
+    korsatmalar: ["2-tur qandli diabet (qand nazorati)", "Surункали vazn boshqaruvi (semizlik/ortiqcha vazn — alohida indikatsiya/doza)"],
+    qarrshi: ["Medullyar qalqonsimon bez raki anamnezi yoki MEN-2 sindromi", "1-tur diabet, diabetik ketoatsidoz", "O'tkir pankreatit anamnezi (ehtiyot)", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, qusish, diareya, ich qotishi (ko'pincha o'tkinchi)", "Hazm bezi": "O't tosh, pankreatit (kamdan-kam)", "Metabolik": "Gipoglikemiya (sulfonilmochevina/insulin bilan)", "Yurak": "Yurak urishi tezlashishi" },
+    dozadan: "Kuchli ko'ngil aynishi/qusish, gipoglikemiya — simptomatik, suyuqlik.",
+    ozarotasir: ["Oshqozon bo'shashини sekinlashtirib boshqa dorilar so'rilishига ta'sir qilishi mumkin", "Sulfonilmochevina/insulin bilan gipoglikemiya (ularning dozasini kamaytirish)"],
+    qollash: { kattalar: "Diabet: 0,6 mg/sutka s/k, haftaдan keyin 1,2–1,8 mg gача oshirish; vazn boshqaruvида yuqoriroq sxema.", bolalar: "≥10 yosh 2-tur diabetда qo'llanilishi mumkin (mutaxassis)" },
+    chiqarish: "In'eksiya eritmasi 6 mg/ml (shpric-ruchka)"
+  },
+  ru: {
+    gruppa: "Антидиабетики — агонисты рецепторов ГПП-1 (лираглутид)",
+    farmTasir: "Сахароснижающее и снижающее массу тела (аналог ГПП-1)",
+    farmakodinamika: `Лираглутид — длительно действующий аналог глюкагоноподобного пептида-1 (ГПП-1). Через рецепторы ГПП-1 глюкозозависимо усиливает секрецию инсулина, снижает глюкагон, замедляет опорожнение желудка и повышает центральное чувство насыщения, снижая аппетит (уменьшение массы). Риск гипогликемии (при монотерапии) низкий; показана сердечно-сосудистая польза.`,
+    farmakokinetika: { sorish: "П/к (медленно, стабильно)", tarqalish: "Высокая связь с альбумином", metabolizm: "Расщепляется как пептиды (ДПП-4/НЭП)", chiqarilish: "Метаболизм; T½ ~13 ч (1 раз в сутки)" },
+    korsatmalar: ["Сахарный диабет 2 типа (контроль гликемии)", "Хроническое управление массой тела (ожирение/избыточная масса — отдельное показание/доза)"],
+    qarrshi: ["Медуллярный рак щитовидной железы в анамнезе или синдром МЭН-2", "Диабет 1 типа, диабетический кетоацидоз", "Острый панкреатит в анамнезе (осторожно)", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Тошнота, рвота, диарея, запор (часто преходящие)", "Желчевыводящие пути": "Камни желчного пузыря, панкреатит (редко)", "Метаболизм": "Гипогликемия (с сульфонилмочевиной/инсулином)", "Сердце": "Учащение ЧСС" },
+    dozadan: "Выраженная тошнота/рвота, гипогликемия — симптоматически, жидкость.",
+    ozarotasir: ["Замедляя опорожнение желудка, может влиять на всасывание других препаратов", "С сульфонилмочевиной/инсулином гипогликемия (снизить их дозу)"],
+    qollash: { kattalar: "Диабет: 0,6 мг/сут п/к, через неделю повышение до 1,2–1,8 мг; при управлении массой — более высокая схема.", bolalar: "Может применяться ≥10 лет при диабете 2 типа (специалист)" },
+    chiqarish: "Раствор для инъекций 6 мг/мл (шприц-ручка)"
+  },
+  en: {
+    gruppa: "Antidiabetics — GLP-1 receptor agonists (liraglutide)",
+    farmTasir: "Glucose-lowering and weight-reducing (GLP-1 analogue)",
+    farmakodinamika: `Liraglutide is a long-acting analogue of glucagon-like peptide-1 (GLP-1). Via GLP-1 receptors it glucose-dependently enhances insulin secretion, reduces glucagon, slows gastric emptying and increases central satiety, reducing appetite (weight loss). Hypoglycaemia risk (in monotherapy) is low; cardiovascular benefit is demonstrated.`,
+    farmakokinetika: { sorish: "SC (slow, steady)", tarqalish: "Highly albumin-bound", metabolizm: "Degraded like peptides (DPP-4/NEP)", chiqarilish: "Metabolism; T½ ~13 h (once daily)" },
+    korsatmalar: ["Type 2 diabetes (glycaemic control)", "Chronic weight management (obesity/overweight — separate indication/dose)"],
+    qarrshi: ["History of medullary thyroid cancer or MEN-2 syndrome", "Type 1 diabetes, diabetic ketoacidosis", "History of acute pancreatitis (caution)", "Hypersensitivity"],
+    nojoya: { "GI": "Nausea, vomiting, diarrhoea, constipation (often transient)", "Biliary": "Gallstones, pancreatitis (rare)", "Metabolic": "Hypoglycaemia (with sulfonylurea/insulin)", "Cardiac": "Increased heart rate" },
+    dozadan: "Marked nausea/vomiting, hypoglycaemia — supportive, fluids.",
+    ozarotasir: ["By slowing gastric emptying may affect absorption of other drugs", "With sulfonylurea/insulin hypoglycaemia (reduce their dose)"],
+    qollash: { kattalar: "Diabetes: 0.6 mg/day SC, after a week increase to 1.2–1.8 mg; higher regimen for weight management.", bolalar: "May be used ≥10 years in type 2 diabetes (specialist)" },
+    chiqarish: "Solution for injection 6 mg/mL (pen)"
+  }
+},
+
+"A10BK01": {
+  uz: {
+    gruppa: "Peroral antidiabetiklar — SGLT2 inhibitorlari (dapagliflozin)",
+    farmTasir: "Qand kamaytiruvchi (natriy-glyukoza ko'taruvchi-2 inhibitori)",
+    farmakodinamika: `Dapagliflozin — buyrak proksimal naychalaridagi natriy-glyukoza ko'taruvchi-2 (SGLT2) ni to'sib qo'yadi, glyukozaning qayta so'rilishini kamaytiradi va siydik bilan glyukoza chiqarilishini oshiradi (glyukozuriya) — insulindan mustaqil ravishда qandни pasaytiradi. Shuningdek vazn va AB ni biroz kamaytiradi; yurak yetishmovchiligi va surункали buyrak kasalligida foydasi isbotlangan.`,
+    farmakokinetika: { sorish: "Ichakdan yaxshi (~78%)", tarqalish: "Oqsiliga ~91%", metabolizm: "Jigar (UGT1A9 glyukuronidlanish)", chiqarilish: "Asosан buyrak (metabolitlar); T½ ~12,9 soat" },
+    korsatmalar: ["2-tur qandli diabet", "Surункали yurak yetishmovchiligi va surункали buyrak kasalligi (diabetdан qat'i nazar)"],
+    qarrshi: ["Diabetik ketoatsidoz", "Og'ir buyrak yetishmovchiligi (samara pasayadi)", "Yuqori sezuvchanlik", "Ehtiyotkorlik — hajm tanqisligi, takroriy urogenital infeksiya"],
+    nojoya: { "Infeksion": "Genital zamburug'li infeksiya, siydik yo'llari infeksiyasi", "Metabolik": "Evglikemik diabetik ketoatsidoz (kamdan-kam, xavfli), hajm kamayishi/gipotenziya", "Buyrak": "Boshlang'ich GFR pasayishi", "Boshqa": "Fournier gangrenasi (juda kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; suvsizlanish/ketoatsidozни kuzatish.",
+    ozarotasir: ["Diuretiklar bilan hajm tanqisligi/gipotenziya kuchayadi", "Insulin/sulfonilmochevina bilan gipoglikemiya (ularning dozasini kamaytirish)"],
+    qollash: { kattalar: "10 mg×1/sutka (ovqatdан qat'i nazar).", bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)" },
+    chiqarish: "Plyonka qoplamali tabletkalar 5/10 mg"
+  },
+  ru: {
+    gruppa: "Пероральные антидиабетики — ингибиторы SGLT2 (дапаглифлозин)",
+    farmTasir: "Сахароснижающее (ингибитор натрий-глюкозного котранспортёра-2)",
+    farmakodinamika: `Дапаглифлозин блокирует натрий-глюкозный котранспортёр-2 (SGLT2) в проксимальных канальцах почек, снижает реабсорбцию глюкозы и увеличивает её выведение с мочой (глюкозурия) — снижает гликемию независимо от инсулина. Также немного снижает массу тела и АД; доказана польза при сердечной недостаточности и ХБП.`,
+    farmakokinetika: { sorish: "Из кишечника хорошо (~78%)", tarqalish: "Связь с белками ~91%", metabolizm: "Печень (глюкуронирование UGT1A9)", chiqarilish: "Преимущественно почками (метаболиты); T½ ~12,9 ч" },
+    korsatmalar: ["Сахарный диабет 2 типа", "Хроническая сердечная недостаточность и ХБП (независимо от диабета)"],
+    qarrshi: ["Диабетический кетоацидоз", "Тяжёлая почечная недостаточность (эффект снижается)", "Гиперчувствительность", "Осторожно — дефицит объёма, рецидивирующие урогенитальные инфекции"],
+    nojoya: { "Инфекции": "Генитальные грибковые инфекции, инфекции мочевыводящих путей", "Метаболизм": "Эугликемический диабетический кетоацидоз (редко, опасно), уменьшение объёма/гипотензия", "Почки": "Начальное снижение СКФ", "Прочее": "Гангрена Фурнье (очень редко)" },
+    dozadan: "Вероятность токсичности низкая; наблюдать за дегидратацией/кетоацидозом.",
+    ozarotasir: ["С диуретиками усиливается дефицит объёма/гипотензия", "С инсулином/сульфонилмочевиной гипогликемия (снизить их дозу)"],
+    qollash: { kattalar: "10 мг×1/сут (независимо от еды).", bolalar: "Не рекомендуется (данные ограничены)" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 5/10 мг"
+  },
+  en: {
+    gruppa: "Oral antidiabetics — SGLT2 inhibitors (dapagliflozin)",
+    farmTasir: "Glucose-lowering (sodium-glucose cotransporter-2 inhibitor)",
+    farmakodinamika: `Dapagliflozin blocks sodium-glucose cotransporter-2 (SGLT2) in the renal proximal tubule, reducing glucose reabsorption and increasing urinary glucose excretion (glucosuria) — lowering glycaemia independently of insulin. It also modestly lowers weight and BP; benefit is proven in heart failure and CKD.`,
+    farmakokinetika: { sorish: "Well from the gut (~78%)", tarqalish: "~91% protein-bound", metabolizm: "Hepatic (UGT1A9 glucuronidation)", chiqarilish: "Mainly renal (metabolites); T½ ~12.9 h" },
+    korsatmalar: ["Type 2 diabetes mellitus", "Chronic heart failure and CKD (regardless of diabetes)"],
+    qarrshi: ["Diabetic ketoacidosis", "Severe renal impairment (reduced efficacy)", "Hypersensitivity", "Caution — volume depletion, recurrent urogenital infection"],
+    nojoya: { "Infections": "Genital fungal infection, urinary tract infection", "Metabolic": "Euglycaemic diabetic ketoacidosis (rare, dangerous), volume depletion/hypotension", "Renal": "Initial eGFR decline", "Other": "Fournier gangrene (very rare)" },
+    dozadan: "Toxicity unlikely; monitor for dehydration/ketoacidosis.",
+    ozarotasir: ["With diuretics volume depletion/hypotension enhanced", "With insulin/sulfonylurea hypoglycaemia (reduce their dose)"],
+    qollash: { kattalar: "10 mg once daily (regardless of food).", bolalar: "Not recommended (limited data)" },
+    chiqarish: "Film-coated tablets 5/10 mg"
+  }
+},
+
+"A10BK03": {
+  uz: {
+    gruppa: "Peroral antidiabetiklar — SGLT2 inhibitorlari (empagliflozin)",
+    farmTasir: "Qand kamaytiruvchi (SGLT2 inhibitori)",
+    farmakodinamika: `Empagliflozin — buyrak proksimal naychalaридagi SGLT2 ni tanlab to'sib qo'yadi, glyukozaning qayta so'rilishini kamaytiradi va siydik bilan glyukoza chiqarilishini oshiradi — insulindan mustaqil qandни pasaytiradi. Vazn va AB ni kamaytiradi; yurak-tomir o'limini, yurak yetishmovchiligi yotqizilishini va buyrak kasalligi progressiyasini kamaytirishi isbotlangan.`,
+    farmakokinetika: { sorish: "Ichakdan yaxshi", tarqalish: "Oqsiliga ~86%", metabolizm: "Glyukuronidlanish (UGT)", chiqarilish: "Buyrak va najas; T½ ~12,4 soat" },
+    korsatmalar: ["2-tur qandli diabet", "Surункали yurak yetishmovchiligi va surункали buyrak kasalligi (diabetdан qat'i nazar)"],
+    qarrshi: ["Diabetik ketoatsidoz", "Og'ir buyrak yetishmovchiligi (samara pasayadi)", "Yuqori sezuvchanlik", "Ehtiyotkorlik — hajm tanqisligi, urogenital infeksiya"],
+    nojoya: { "Infeksion": "Genital zamburug'li infeksiya, siydik yo'llari infeksiyasi", "Metabolik": "Evglikemik ketoatsidoz (kamdan-kam), hajm kamayishi/gipotenziya", "Buyrak": "Boshlang'ich GFR pasayishi", "Boshqa": "Fournier gangrenasi (juda kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; suvsizlanish/ketoatsidozни kuzatish.",
+    ozarotasir: ["Diuretiklar bilan hajm tanqisligi/gipotenziya", "Insulin/sulfonilmochevina bilan gipoglikemiya (ularning dozasini kamaytirish)"],
+    qollash: { kattalar: "10 mg×1/sutka ertalab (maks 25 mg), ovqatdан qat'i nazar.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Plyonka qoplamali tabletkalar 10/25 mg"
+  },
+  ru: {
+    gruppa: "Пероральные антидиабетики — ингибиторы SGLT2 (эмпаглифлозин)",
+    farmTasir: "Сахароснижающее (ингибитор SGLT2)",
+    farmakodinamika: `Эмпаглифлозин избирательно блокирует SGLT2 в проксимальных канальцах почек, снижает реабсорбцию глюкозы и увеличивает её выведение с мочой — снижает гликемию независимо от инсулина. Снижает массу тела и АД; доказано снижение сердечно-сосудистой смертности, госпитализаций по поводу сердечной недостаточности и прогрессирования болезни почек.`,
+    farmakokinetika: { sorish: "Из кишечника хорошо", tarqalish: "Связь с белками ~86%", metabolizm: "Глюкуронирование (UGT)", chiqarilish: "Почками и с калом; T½ ~12,4 ч" },
+    korsatmalar: ["Сахарный диабет 2 типа", "Хроническая сердечная недостаточность и ХБП (независимо от диабета)"],
+    qarrshi: ["Диабетический кетоацидоз", "Тяжёлая почечная недостаточность (эффект снижается)", "Гиперчувствительность", "Осторожно — дефицит объёма, урогенитальные инфекции"],
+    nojoya: { "Инфекции": "Генитальные грибковые инфекции, инфекции мочевыводящих путей", "Метаболизм": "Эугликемический кетоацидоз (редко), уменьшение объёма/гипотензия", "Почки": "Начальное снижение СКФ", "Прочее": "Гангрена Фурнье (очень редко)" },
+    dozadan: "Вероятность токсичности низкая; наблюдать за дегидратацией/кетоацидозом.",
+    ozarotasir: ["С диуретиками дефицит объёма/гипотензия", "С инсулином/сульфонилмочевиной гипогликемия (снизить их дозу)"],
+    qollash: { kattalar: "10 мг×1/сут утром (макс 25 мг), независимо от еды.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 10/25 мг"
+  },
+  en: {
+    gruppa: "Oral antidiabetics — SGLT2 inhibitors (empagliflozin)",
+    farmTasir: "Glucose-lowering (SGLT2 inhibitor)",
+    farmakodinamika: `Empagliflozin selectively blocks SGLT2 in the renal proximal tubule, reducing glucose reabsorption and increasing urinary glucose excretion — lowering glycaemia independently of insulin. It reduces weight and BP; it is proven to reduce cardiovascular death, heart-failure hospitalisation and progression of kidney disease.`,
+    farmakokinetika: { sorish: "Well from the gut", tarqalish: "~86% protein-bound", metabolizm: "Glucuronidation (UGT)", chiqarilish: "Renal and faecal; T½ ~12.4 h" },
+    korsatmalar: ["Type 2 diabetes mellitus", "Chronic heart failure and CKD (regardless of diabetes)"],
+    qarrshi: ["Diabetic ketoacidosis", "Severe renal impairment (reduced efficacy)", "Hypersensitivity", "Caution — volume depletion, urogenital infection"],
+    nojoya: { "Infections": "Genital fungal infection, urinary tract infection", "Metabolic": "Euglycaemic ketoacidosis (rare), volume depletion/hypotension", "Renal": "Initial eGFR decline", "Other": "Fournier gangrene (very rare)" },
+    dozadan: "Toxicity unlikely; monitor for dehydration/ketoacidosis.",
+    ozarotasir: ["With diuretics volume depletion/hypotension", "With insulin/sulfonylurea hypoglycaemia (reduce their dose)"],
+    qollash: { kattalar: "10 mg once daily in the morning (max 25 mg), regardless of food.", bolalar: "Not recommended" },
+    chiqarish: "Film-coated tablets 10/25 mg"
+  }
+},
+
+"A10X": {
+  uz: {
+    gruppa: "Boshqa antidiabetik vositalar — aldoza reduktaza inhibitori (epalrestat)",
+    farmTasir: "Diabetik neyropatiyada metabolik vosita (aldoza reduktaza inhibitori)",
+    farmakodinamika: `Epalrestat — aldoza reduktaza fermentini to'sib qo'yadi. Giperglikemiyada bu ferment glyukozani sorbitolga aylantiradi (poliol yo'li); sorbitol nervда to'planib osmotik shikast va metabolik buzilishга olib keladi. Epalrestat sorbitol to'planishini kamaytirib, diabetik periferik neyropatiya belgilarini (og'riq, uvishish, parestiya) yengillashtiradi.`,
+    farmakokinetika: { sorish: "Ichakdan (ovqatdan oldin yaxshiroq)", tarqalish: "Oqsiliga yuqori", metabolizm: "Jigar", chiqarilish: "Asosан safro/najas" },
+    korsatmalar: ["Diabetik periferik neyropatiya (subyektiv belgilar va nerv funksiyasini yaxshilash)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — homiladorlik/laktatsiya, jigar yetishmovchiligi"],
+    nojoya: { "Jigar": "Jigar fermentlari ko'tarilishi, sariqlik (kamdan-kam)", "Oshqozon-ichak": "Ko'ngil aynishi, qusish, diareya", "Boshqa": "Siydikни qizg'ish-jigarrang tusга bo'yashi (zararsiz), toshma" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik davo.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "50 mg×3/sutka ovqatdan oldin.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 50 mg"
+  },
+  ru: {
+    gruppa: "Прочие антидиабетические средства — ингибитор альдозоредуктазы (эпалрестат)",
+    farmTasir: "Метаболическое средство при диабетической нейропатии (ингибитор альдозоредуктазы)",
+    farmakodinamika: `Эпалрестат блокирует фермент альдозоредуктазу. При гипергликемии этот фермент превращает глюкозу в сорбитол (полиоловый путь); сорбитол накапливается в нерве, вызывая осмотическое повреждение и метаболические нарушения. Эпалрестат уменьшает накопление сорбитола, облегчая симптомы диабетической периферической нейропатии (боль, онемение, парестезии).`,
+    farmakokinetika: { sorish: "Из кишечника (лучше до еды)", tarqalish: "Высокая связь с белками", metabolizm: "Печень", chiqarilish: "Преимущественно с желчью/калом" },
+    korsatmalar: ["Диабетическая периферическая нейропатия (улучшение субъективных симптомов и функции нерва)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — беременность/лактация, печёночная недостаточность"],
+    nojoya: { "Печень": "Повышение печёночных ферментов, желтуха (редко)", "ЖКТ": "Тошнота, рвота, диарея", "Прочее": "Окрашивание мочи в красновато-коричневый цвет (безвредно), сыпь" },
+    dozadan: "Вероятность токсичности низкая; симптоматическая терапия.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "50 мг×3/сут до еды.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 50 мг"
+  },
+  en: {
+    gruppa: "Other antidiabetic agents — aldose reductase inhibitor (epalrestat)",
+    farmTasir: "Metabolic agent in diabetic neuropathy (aldose reductase inhibitor)",
+    farmakodinamika: `Epalrestat blocks the enzyme aldose reductase. In hyperglycaemia this enzyme converts glucose to sorbitol (the polyol pathway); sorbitol accumulates in nerves, causing osmotic damage and metabolic disturbance. Epalrestat reduces sorbitol accumulation, relieving symptoms of diabetic peripheral neuropathy (pain, numbness, paraesthesia).`,
+    farmakokinetika: { sorish: "From the gut (better before meals)", tarqalish: "Highly protein-bound", metabolizm: "Hepatic", chiqarilish: "Mainly biliary/faecal" },
+    korsatmalar: ["Diabetic peripheral neuropathy (improving subjective symptoms and nerve function)"],
+    qarrshi: ["Hypersensitivity", "Caution — pregnancy/lactation, hepatic impairment"],
+    nojoya: { "Liver": "Raised liver enzymes, jaundice (rare)", "GI": "Nausea, vomiting, diarrhoea", "Other": "Reddish-brown urine discolouration (harmless), rash" },
+    dozadan: "Toxicity unlikely; supportive care.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "50 mg×3/day before meals.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 50 mg"
+  }
 }
 
 };
