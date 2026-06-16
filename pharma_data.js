@@ -33026,6 +33026,342 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Oral: 10–20 mg×3–4; tocolysis: per physician's regimen.", bolalar: "Not recommended" },
     chiqarish: "Tablets 20 mg; solution for injection"
   }
+},
+
+"C02AB01": {
+  uz: {
+    gruppa: "Antigipertenziv vositalar — markaziy ta'sirli adrenergiklar",
+    farmTasir: "Markaziy ta'sirli qon bosimini pasaytiruvchi",
+    farmakodinamika: `Metildopa — markaziy ta'sirli antigipertenziv. Organizmda alfa-metilnoradrenalinga aylanib, miya o'zagidagi alfa-2 adrenoretseptorlarni qo'zg'atadi — bu simpatik tonusни kamaytirib periferik qarshilik va qon bosimini pasaytiradi. Homiladorlik gipertenziyasида xavfsizligi yaxshi o'rganilgani uchun afzal ko'riladi.`,
+    farmakokinetika: { sorish: "Ichakdan (~50%)", tarqalish: "Miyaga o'tadi", metabolizm: "Faol metabolitga", chiqarilish: "Buyrak orqали; T½ ~2 soat (ta'sir uzunroq)" },
+    korsatmalar: ["Arterial gipertenziya (jumladan homiladorlik davrida — birinchi tanlovlardan)"],
+    qarrshi: ["Faol jigar kasalligi, oldingi metildopa gepatiti", "Depressiya", "Feoxromasitoma", "MAO ingibitorlari bilan", "Gemolitik anemiya"],
+    nojoya: { "Asab": "Sedatsiya, charchoq, depressiya", "Tomir": "Ortostatik gipotenziya, suyuqlik ushlanishi", "Boshqa": "Musbat Kumbs testi/gemolitik anemiya, jigar shikasti, galaktoreya" },
+    dozadan: "Sedatsiya, gipotenziya, bradikardiya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["MAO ingibitorlari bilan og'ir reaksiyalar", "Temir preparatlari so'rilishni kamaytiradi", "Boshqa antigipertenziv/markaziy depressantlar bilan ta'sir kuchayadi"],
+    qollash: { kattalar: "250 mg×2–3 dан boshlab, 2 g/sutkagacha (bo'lib).", bolalar: "10 mg/kg/sutka (bo'lib)" },
+    chiqarish: "Tabletkalar 250 mg"
+  },
+  ru: {
+    gruppa: "Антигипертензивные средства — центральные адренергические",
+    farmTasir: "Центральное гипотензивное средство",
+    farmakodinamika: `Метилдопа — центральное антигипертензивное средство. Превращаясь в организме в альфа-метилнорадреналин, возбуждает альфа-2 адренорецепторы ствола мозга — это снижает симпатический тонус, периферическое сопротивление и АД. Предпочтительна при гипертензии беременных благодаря хорошо изученной безопасности.`,
+    farmakokinetika: { sorish: "Из кишечника (~50%)", tarqalish: "Проникает в мозг", metabolizm: "До активного метаболита", chiqarilish: "Почками; T½ ~2 ч (действие дольше)" },
+    korsatmalar: ["Артериальная гипертензия (в т.ч. при беременности — из средств первого выбора)"],
+    qarrshi: ["Активное заболевание печени, метилдопа-гепатит в анамнезе", "Депрессия", "Феохромоцитома", "С ингибиторами МАО", "Гемолитическая анемия"],
+    nojoya: { "Нервная система": "Седация, утомляемость, депрессия", "Сосудистые": "Ортостатическая гипотензия, задержка жидкости", "Прочее": "Положительная проба Кумбса/гемолитическая анемия, поражение печени, галакторея" },
+    dozadan: "Седация, гипотензия, брадикардия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С ингибиторами МАО тяжёлые реакции", "Препараты железа снижают всасывание", "С другими гипотензивными/центральными депрессантами действие усиливается"],
+    qollash: { kattalar: "С 250 мг×2–3, до 2 г/сут (дробно).", bolalar: "10 мг/кг/сут (дробно)" },
+    chiqarish: "Таблетки 250 мг"
+  },
+  en: {
+    gruppa: "Antihypertensives — centrally acting adrenergic agents",
+    farmTasir: "Centrally acting blood-pressure-lowering",
+    farmakodinamika: `Methyldopa is a centrally acting antihypertensive. Converted in the body to alpha-methylnoradrenaline, it stimulates alpha-2 adrenoceptors in the brainstem — reducing sympathetic tone, peripheral resistance and blood pressure. It is preferred in hypertension of pregnancy due to its well-studied safety.`,
+    farmakokinetika: { sorish: "From the gut (~50%)", tarqalish: "Enters the brain", metabolizm: "To an active metabolite", chiqarilish: "Renal; T½ ~2 h (action longer)" },
+    korsatmalar: ["Arterial hypertension (incl. in pregnancy — a first-choice agent)"],
+    qarrshi: ["Active liver disease, prior methyldopa hepatitis", "Depression", "Phaeochromocytoma", "With MAO inhibitors", "Haemolytic anaemia"],
+    nojoya: { "Nervous system": "Sedation, fatigue, depression", "Vascular": "Orthostatic hypotension, fluid retention", "Other": "Positive Coombs test/haemolytic anaemia, liver injury, galactorrhoea" },
+    dozadan: "Sedation, hypotension, bradycardia; fluids, supportive care.",
+    ozarotasir: ["With MAO inhibitors severe reactions", "Iron preparations reduce absorption", "With other antihypertensives/central depressants effects increase"],
+    qollash: { kattalar: "From 250 mg×2–3, to 2 g/day (divided).", bolalar: "10 mg/kg/day (divided)" },
+    chiqarish: "Tablets 250 mg"
+  }
+},
+
+"C02AC05": {
+  uz: {
+    gruppa: "Antigipertenziv vositalar — imidazolin retseptor agonistlari",
+    farmTasir: "Markaziy ta'sirli qon bosimini pasaytiruvchi",
+    farmakodinamika: `Moksonidin — markaziy ta'sirli antigipertenziv, imidazolin I1 retseptorlarini tanlab qo'zg'atadi (alfa-2 ga kamroq). Bu miya o'zagidan simpatik impulslarni kamaytirib periferik qarshilik va qon bosimini pasaytiradi; klonidinga nisbatan sedatsiya va og'iz qurishi kamroq. Insulinга sezuvchanlikни biroz yaxshilaydi.`,
+    farmakokinetika: { sorish: "Ichakdan (biokirish ~88%)", tarqalish: "To'qimalarга", metabolizm: "Kam", chiqarilish: "Asosан buyrak orqали; T½ ~2,5 soat" },
+    korsatmalar: ["Arterial gipertenziya (jumladan metabolik sindrom bilan)"],
+    qarrshi: ["Sinus tuguni zaifligi, og'ir bradikardiya, SA/AV-blokada (II–III)", "Og'ir yurak yetishmovchiligi", "Og'ir jigar/buyrak yetishmovchiligi", "Yuqori sezuvchanlik"],
+    nojoya: { "Asab": "Og'iz qurishi, sedatsiya, bosh og'rig'i (klonidinдан kam)", "Tomir": "Gipotenziya, bradikardiya", "Boshqa": "To'satдан to'xtatishда rebound gipertenziya" },
+    dozadan: "Gipotenziya, bradikardiya, sedatsiya; atropin, simptomatik davo.",
+    ozarotasir: ["Markaziy depressantlar/alkogol bilan sedatsiya kuchayadi", "Boshqa antigipertenziv vositalar bilan ta'sir qo'shiladi", "Tritsiklik antidepressantlar samarani pasaytiradi"],
+    qollash: { kattalar: "0,2 mg/sutkaдан boshlab, 0,4–0,6 mg gacha (1–2 ga bo'lib); to'xtatishда asta kamaytirish.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 0,2, 0,4 mg"
+  },
+  ru: {
+    gruppa: "Антигипертензивные средства — агонисты имидазолиновых рецепторов",
+    farmTasir: "Центральное гипотензивное средство",
+    farmakodinamika: `Моксонидин — центральное антигипертензивное средство, избирательно возбуждает имидазолиновые I1-рецепторы (меньше альфа-2). Это снижает симпатические импульсы из ствола мозга, периферическое сопротивление и АД; по сравнению с клонидином меньше седации и сухости во рту. Несколько улучшает чувствительность к инсулину.`,
+    farmakokinetika: { sorish: "Из кишечника (биодоступность ~88%)", tarqalish: "В ткани", metabolizm: "Мало", chiqarilish: "Преимущественно почками; T½ ~2,5 ч" },
+    korsatmalar: ["Артериальная гипертензия (в т.ч. с метаболическим синдромом)"],
+    qarrshi: ["Слабость синусового узла, тяжёлая брадикардия, СА/AV-блокада (II–III)", "Тяжёлая сердечная недостаточность", "Тяжёлая печёночная/почечная недостаточность", "Гиперчувствительность"],
+    nojoya: { "Нервная система": "Сухость во рту, седация, головная боль (меньше, чем у клонидина)", "Сосудистые": "Гипотензия, брадикардия", "Прочее": "Рикошетная гипертензия при резкой отмене" },
+    dozadan: "Гипотензия, брадикардия, седация; атропин, симптоматическая терапия.",
+    ozarotasir: ["С центральными депрессантами/алкоголем усиливается седация", "С другими гипотензивными действие суммируется", "Трициклические антидепрессанты снижают эффект"],
+    qollash: { kattalar: "С 0,2 мг/сут, до 0,4–0,6 мг (в 1–2 приёма); при отмене постепенно снижать.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 0,2, 0,4 мг"
+  },
+  en: {
+    gruppa: "Antihypertensives — imidazoline receptor agonists",
+    farmTasir: "Centrally acting blood-pressure-lowering",
+    farmakodinamika: `Moxonidine is a centrally acting antihypertensive that selectively stimulates imidazoline I1 receptors (less alpha-2). This reduces sympathetic outflow from the brainstem, peripheral resistance and blood pressure; compared with clonidine there is less sedation and dry mouth. It slightly improves insulin sensitivity.`,
+    farmakokinetika: { sorish: "From the gut (bioavailability ~88%)", tarqalish: "Into tissues", metabolizm: "Little", chiqarilish: "Mainly renal; T½ ~2.5 h" },
+    korsatmalar: ["Arterial hypertension (incl. with metabolic syndrome)"],
+    qarrshi: ["Sick sinus syndrome, severe bradycardia, SA/AV block (II–III)", "Severe heart failure", "Severe hepatic/renal impairment", "Hypersensitivity"],
+    nojoya: { "Nervous system": "Dry mouth, sedation, headache (less than clonidine)", "Vascular": "Hypotension, bradycardia", "Other": "Rebound hypertension with abrupt withdrawal" },
+    dozadan: "Hypotension, bradycardia, sedation; atropine, supportive care.",
+    ozarotasir: ["With central depressants/alcohol sedation increases", "With other antihypertensives effects are additive", "Tricyclic antidepressants reduce the effect"],
+    qollash: { kattalar: "From 0.2 mg/day, to 0.4–0.6 mg (in 1–2 doses); taper on stopping.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 0.2, 0.4 mg"
+  }
+},
+
+"C02CA04": {
+  uz: {
+    gruppa: "Antigipertenziv vositalar — alfa-adrenoblokatorlar",
+    farmTasir: "Qon bosimini pasaytiruvchi (alfa-1 blokator)",
+    farmakodinamika: `Doksazozin — selektiv alfa-1 adrenoblokator. Tomir silliq mushaklaridagi alfa-1 retseptorlarni bloklaб periferik qarshilik va qon bosimini pasaytiradi; shuningdek prostata va siydik pufagi bo'yni silliq mushagini bo'shashtirib siydik oqimini yaxshilaydi (yaxshi sifatли prostata giperplaziyasi). Lipid profiliга ijobiy ta'sir qiladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsilга yuqori", metabolizm: "Jigarда", chiqarilish: "Asosан najas bilan; T½ ~22 soat (uzun)" },
+    korsatmalar: ["Arterial gipertenziya (ko'pincha kombinatsiyaда)", "Yaxshi sifatли prostata giperplaziyasi belgilari"],
+    qarrshi: ["Ortostatik gipotenziya tarixi", "Og'ir jigar yetishmovchiligi", "Yuqori sezuvchanlik (kvinazolinlar)"],
+    nojoya: { "Tomir": "Ortostatik gipotenziya (ayniqsa birinchi doza — 'birinchi doza fenomeni'), bosh aylanishi, taxikardiya", "Boshqa": "Charchoq, shish, burun bitishi, retrograd ejakulyatsiya" },
+    dozadan: "Og'ir gipotenziya; gorizontal holat, suyuqlik, vazopressorlar.",
+    ozarotasir: ["Boshqa antigipertenziv vositalar/PDE-5 ingibitorlari bilan gipotenziya kuchayadi", "NPVD samarani pasaytiradi"],
+    qollash: { kattalar: "1 mg/sutkaдан boshlab (kechqurun, 'birinchi doza' xavfi), 2–8 mg gacha.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 1, 2, 4 mg; uzaytirilgan tabletkalar"
+  },
+  ru: {
+    gruppa: "Антигипертензивные средства — альфа-адреноблокаторы",
+    farmTasir: "Снижающее АД (альфа-1 блокатор)",
+    farmakodinamika: `Доксазозин — селективный альфа-1 адреноблокатор. Блокируя альфа-1 рецепторы гладких мышц сосудов, снижает периферическое сопротивление и АД; также расслабляет гладкую мышцу простаты и шейки мочевого пузыря, улучшая отток мочи (доброкачественная гиперплазия простаты). Положительно влияет на липидный профиль.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Высокая связь с белками", metabolizm: "В печени", chiqarilish: "Преимущественно с калом; T½ ~22 ч (длинный)" },
+    korsatmalar: ["Артериальная гипертензия (часто в комбинации)", "Симптомы доброкачественной гиперплазии простаты"],
+    qarrshi: ["Ортостатическая гипотензия в анамнезе", "Тяжёлая печёночная недостаточность", "Гиперчувствительность (хиназолины)"],
+    nojoya: { "Сосудистые": "Ортостатическая гипотензия (особенно первая доза — «феномен первой дозы»), головокружение, тахикардия", "Прочее": "Утомляемость, отёки, заложенность носа, ретроградная эякуляция" },
+    dozadan: "Тяжёлая гипотензия; горизонтальное положение, жидкость, вазопрессоры.",
+    ozarotasir: ["С другими гипотензивными/ингибиторами ФДЭ-5 усиливается гипотензия", "НПВП снижают эффект"],
+    qollash: { kattalar: "С 1 мг/сут (вечером, риск «первой дозы»), до 2–8 мг.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 1, 2, 4 мг; таблетки пролонгированные"
+  },
+  en: {
+    gruppa: "Antihypertensives — alpha-adrenergic blockers",
+    farmTasir: "Blood-pressure-lowering (alpha-1 blocker)",
+    farmakodinamika: `Doxazosin is a selective alpha-1 adrenergic blocker. By blocking alpha-1 receptors in vascular smooth muscle it lowers peripheral resistance and blood pressure; it also relaxes prostate and bladder neck smooth muscle, improving urine flow (benign prostatic hyperplasia). It has a favourable effect on the lipid profile.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "High protein binding", metabolizm: "Hepatic", chiqarilish: "Mainly faecal; T½ ~22 h (long)" },
+    korsatmalar: ["Arterial hypertension (often in combination)", "Symptoms of benign prostatic hyperplasia"],
+    qarrshi: ["History of orthostatic hypotension", "Severe hepatic impairment", "Hypersensitivity (quinazolines)"],
+    nojoya: { "Vascular": "Orthostatic hypotension (especially first dose — 'first-dose phenomenon'), dizziness, tachycardia", "Other": "Fatigue, oedema, nasal congestion, retrograde ejaculation" },
+    dozadan: "Severe hypotension; supine position, fluids, vasopressors.",
+    ozarotasir: ["With other antihypertensives/PDE-5 inhibitors hypotension increases", "NSAIDs reduce the effect"],
+    qollash: { kattalar: "From 1 mg/day (evening, 'first-dose' risk), to 2–8 mg.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 1, 2, 4 mg; prolonged-release tablets"
+  }
+},
+
+"C02AA04": {
+  uz: {
+    gruppa: "Antigipertenziv vositalar — rauvolfiya alkaloidlari",
+    farmTasir: "Markaziy/periferik simpatolitik (qon bosimini pasaytiruvchi)",
+    farmakodinamika: `Rauvolfiya alkaloidlari (rezerpin va boshq.) — simpatolitik antigipertenzivlar. Adrenergik nerv uchlaridagi katexolamin (noradrenalin, dofamin) zaxiralarini bo'shatib, ularning saqlanishini buzadi; bu simpatik tonusни kamaytirib qon bosimini va yurak urishini pasaytiradi. Markaziy ta'siri tufayli tinchlantiruvchi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Miyaga o'tadi", metabolizm: "Jigarда", chiqarilish: "Najas/buyrak; ta'sir sekin va uzoq" },
+    korsatmalar: ["Yengil-o'rtacha arterial gipertenziya (ko'pincha kombinatsiyaда)"],
+    qarrshi: ["Depressiya (xavfli — o'z joniga qasd qilish xavfi)", "Oshqozon yara kasalligi, yarali kolit", "Feoxromasitoma", "Og'ir bradikardiya, yurak yetishmovchiligi", "Homiladorlik"],
+    nojoya: { "Asab": "Depressiya, sedatsiya, qoshmoq tushlar, parkinsonizm", "Oshqozon-ichak": "Oshqozon shirasi ortishi, yara avj olishi, diareya", "Boshqa": "Burun bitishi, bradikardiya, suyuqlik ushlanishi" },
+    dozadan: "Sedatsiya, gipotenziya, bradikardiya, depressiya; simptomatik davo.",
+    ozarotasir: ["MAO ingibitorlari bilan og'ir reaksiyalar", "Markaziy depressantlar bilan sedatsiya kuchayadi", "Digitalis bilan aritmiya xavfi"],
+    qollash: { kattalar: "Past dozаda (masalan rezerpin 0,1–0,25 mg/sutka), ko'pincha diuretik bilan.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar (rezerpin/rauvolfiya, ko'pincha kombinatsiyalangan)"
+  },
+  ru: {
+    gruppa: "Антигипертензивные средства — алкалоиды раувольфии",
+    farmTasir: "Центральный/периферический симпатолитик (гипотензивное)",
+    farmakodinamika: `Алкалоиды раувольфии (резерпин и др.) — симпатолитические антигипертензивные средства. Опустошают запасы катехоламинов (норадреналин, дофамин) в адренергических окончаниях, нарушая их хранение; это снижает симпатический тонус, АД и ЧСС. Из-за центрального действия оказывают седативный эффект.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Проникает в мозг", metabolizm: "В печени", chiqarilish: "С калом/почками; действие медленное и длительное" },
+    korsatmalar: ["Лёгкая-умеренная артериальная гипертензия (часто в комбинации)"],
+    qarrshi: ["Депрессия (опасно — риск суицида)", "Язвенная болезнь желудка, язвенный колит", "Феохромоцитома", "Тяжёлая брадикардия, сердечная недостаточность", "Беременность"],
+    nojoya: { "Нервная система": "Депрессия, седация, ночные кошмары, паркинсонизм", "ЖКТ": "Повышение желудочной секреции, обострение язвы, диарея", "Прочее": "Заложенность носа, брадикардия, задержка жидкости" },
+    dozadan: "Седация, гипотензия, брадикардия, депрессия; симптоматическая терапия.",
+    ozarotasir: ["С ингибиторами МАО тяжёлые реакции", "С центральными депрессантами усиливается седация", "С дигиталисом риск аритмий"],
+    qollash: { kattalar: "В низкой дозе (например резерпин 0,1–0,25 мг/сут), часто с диуретиком.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки (резерпин/раувольфия, часто комбинированные)"
+  },
+  en: {
+    gruppa: "Antihypertensives — rauwolfia alkaloids",
+    farmTasir: "Central/peripheral sympatholytic (blood-pressure-lowering)",
+    farmakodinamika: `Rauwolfia alkaloids (reserpine etc.) are sympatholytic antihypertensives. They deplete catecholamine (noradrenaline, dopamine) stores in adrenergic terminals by disrupting their storage; this reduces sympathetic tone, blood pressure and heart rate. Their central action makes them sedative.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Enters the brain", metabolizm: "Hepatic", chiqarilish: "Faecal/renal; slow, prolonged action" },
+    korsatmalar: ["Mild-moderate arterial hypertension (often in combination)"],
+    qarrshi: ["Depression (dangerous — suicide risk)", "Gastric ulcer disease, ulcerative colitis", "Phaeochromocytoma", "Severe bradycardia, heart failure", "Pregnancy"],
+    nojoya: { "Nervous system": "Depression, sedation, nightmares, parkinsonism", "GI": "Increased gastric secretion, ulcer flare, diarrhoea", "Other": "Nasal congestion, bradycardia, fluid retention" },
+    dozadan: "Sedation, hypotension, bradycardia, depression; supportive care.",
+    ozarotasir: ["With MAO inhibitors severe reactions", "With central depressants sedation increases", "With digitalis arrhythmia risk"],
+    qollash: { kattalar: "At low dose (e.g. reserpine 0.1–0.25 mg/day), often with a diuretic.", bolalar: "Not recommended" },
+    chiqarish: "Tablets (reserpine/rauwolfia, often combined)"
+  }
+},
+
+"C02BC": {
+  uz: {
+    gruppa: "Antigipertenziv vositalar — ganglioblokatorlar",
+    farmTasir: "Ganglioblokator (qon bosimini pasaytiruvchi)",
+    farmakodinamika: `Geksametoniy — ganglioblokator. Avtonom (simpatik va parasimpatik) gangliyalardagi nikotin xolinoretseptorlarini bloklaб nerv impulsi o'tishini to'xtatadi; simpatik blokada tomirlarni kengaytiradi va qon bosimini keskin pasaytiradi. Faqat o'tkir holatlarда (boshqariladigan gipotenziya, gipertonik kriz) parenteral qo'llaniladi.`,
+    farmakokinetika: { sorish: "Parenteral", tarqalish: "To'qimalarга", metabolizm: "Kam", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Gipertonik kriz, og'ir gipertenziya (o'tkir, boshqa vositalar samarasiz)", "Operatsiya davrida boshqariladigan gipotenziya"],
+    qarrshi: ["Og'ir gipotenziya, shok, gipovolemiya", "Og'ir koronar/miya tomir kasalligi", "Glaukoma, siydik tutilishi, paralitik ichak tutilishi", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Og'ir ortostatik gipotenziya, taxikardiya", "Parasimpatik blokada": "Og'iz qurishi, qabziyat, siydik tutilishi, akkomodatsiya buzilishi", "Boshqa": "Mioz emas-midriaz" },
+    dozadan: "Og'ir gipotenziya, kollaps; gorizontal holat, vazopressorlar, simptomatik davo.",
+    ozarotasir: ["Boshqa antigipertenziv vositalar bilan og'ir gipotenziya", "Antixolinergiklar bilan ta'sir qo'shiladi"],
+    qollash: { kattalar: "Faqat shifokor nazoratда parenteral, qon bosimiga titrlanadi (o'tkir holat).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Inyeksiya eritmasi (ampula)"
+  },
+  ru: {
+    gruppa: "Антигипертензивные средства — ганглиоблокаторы",
+    farmTasir: "Ганглиоблокатор (гипотензивное)",
+    farmakodinamika: `Гексаметоний — ганглиоблокатор. Блокирует никотиновые холинорецепторы вегетативных (симпатических и парасимпатических) ганглиев, прекращая проведение нервного импульса; симпатическая блокада расширяет сосуды и резко снижает АД. Применяется только при острых состояниях (управляемая гипотония, гипертонический криз) парентерально.`,
+    farmakokinetika: { sorish: "Парентерально", tarqalish: "В ткани", metabolizm: "Мало", chiqarilish: "Почками" },
+    korsatmalar: ["Гипертонический криз, тяжёлая гипертензия (острая, при неэффективности других средств)", "Управляемая гипотония во время операции"],
+    qarrshi: ["Тяжёлая гипотензия, шок, гиповолемия", "Тяжёлые болезни коронарных/мозговых сосудов", "Глаукома, задержка мочи, паралитическая кишечная непроходимость", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Тяжёлая ортостатическая гипотензия, тахикардия", "Парасимпатическая блокада": "Сухость во рту, запор, задержка мочи, нарушение аккомодации", "Прочее": "Мидриаз" },
+    dozadan: "Тяжёлая гипотензия, коллапс; горизонтальное положение, вазопрессоры, симптоматическая терапия.",
+    ozarotasir: ["С другими гипотензивными тяжёлая гипотензия", "С антихолинергиками действие суммируется"],
+    qollash: { kattalar: "Только под контролем врача парентерально, титруется по АД (острое состояние).", bolalar: "Не рекомендуется" },
+    chiqarish: "Раствор для инъекций (ампулы)"
+  },
+  en: {
+    gruppa: "Antihypertensives — ganglion blockers",
+    farmTasir: "Ganglion blocker (blood-pressure-lowering)",
+    farmakodinamika: `Hexamethonium is a ganglion blocker. It blocks nicotinic cholinergic receptors in autonomic (sympathetic and parasympathetic) ganglia, halting nerve impulse transmission; sympathetic blockade dilates vessels and sharply lowers blood pressure. It is used only in acute states (controlled hypotension, hypertensive crisis) parenterally.`,
+    farmakokinetika: { sorish: "Parenteral", tarqalish: "Into tissues", metabolizm: "Little", chiqarilish: "Renal" },
+    korsatmalar: ["Hypertensive crisis, severe hypertension (acute, when other agents fail)", "Controlled hypotension during surgery"],
+    qarrshi: ["Severe hypotension, shock, hypovolaemia", "Severe coronary/cerebral vascular disease", "Glaucoma, urinary retention, paralytic ileus", "Hypersensitivity"],
+    nojoya: { "Vascular": "Severe orthostatic hypotension, tachycardia", "Parasympathetic blockade": "Dry mouth, constipation, urinary retention, accommodation disturbance", "Other": "Mydriasis" },
+    dozadan: "Severe hypotension, collapse; supine position, vasopressors, supportive care.",
+    ozarotasir: ["With other antihypertensives severe hypotension", "With anticholinergics effects are additive"],
+    qollash: { kattalar: "Only under physician supervision parenterally, titrated to blood pressure (acute setting).", bolalar: "Not recommended" },
+    chiqarish: "Solution for injection (ampoules)"
+  }
+},
+
+"C02KX": {
+  uz: {
+    gruppa: "Antigipertenziv vositalar — o'pka arterial gipertenziyasi vositalari",
+    farmTasir: "O'pka arterial gipertenziyasida tomir kengaytiruvchi (PDE-5 ingibitori)",
+    farmakodinamika: `Sildenafil (o'pka gipertenziyasi ko'rsatmasида) — fosfodiesteraza-5 (PDE-5) ingibitori. PDE-5 sGMP ni parchalaydi; uni bloklaб o'pka tomirlaridagi sGMP ni oshiradi va azot oksidi (NO) ta'sirini kuchaytirib o'pka arteriyalarini kengaytiradi. Bu o'pkadagi tomir qarshiligini va o'ng qorincha yukini kamaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "Oqsilга ~96%", metabolizm: "Jigarда CYP3A4", chiqarilish: "Asosан najas bilan; T½ ~4 soat" },
+    korsatmalar: ["O'pka arterial gipertenziyasi (funksional sinf II–III)"],
+    qarrshi: ["Nitratlar/NO donorlari bilan birga (xavfli gipotenziya)", "Og'ir gipotenziya", "Yaqinда o'tkazilgan infarkt/insult", "Optik nevropatiya (NAION) tarixi"],
+    nojoya: { "Tomir": "Bosh og'rig'i, yuzning qizishi, gipotenziya, burun bitishi", "Ko'z": "Ko'rishда rang o'zgarishi, fotosensibilizatsiya", "Boshqa": "Dispepsiya, mushak og'rig'i" },
+    dozadan: "Gipotenziya, ko'rish buzilishi; simptomatik davo.",
+    ozarotasir: ["Nitratlar/NO donorlari bilan hayot uchun xavfli gipotenziya (man etiladi)", "CYP3A4 ingibitorlari (ritonavir, azollar) konsentratsiyani oshiradi", "Alfa-blokatorlar bilan gipotenziya"],
+    qollash: { kattalar: "O'pka gipertenziyasi: 20 mg×3 (kuniga 3 marta).", bolalar: "Mutaxassis nazoratида (vaznга ko'ra)" },
+    chiqarish: "Tabletkalar 20 mg (o'pka gipertenziyasi uchun)"
+  },
+  ru: {
+    gruppa: "Антигипертензивные средства — средства при лёгочной артериальной гипертензии",
+    farmTasir: "Сосудорасширяющее при лёгочной гипертензии (ингибитор ФДЭ-5)",
+    farmakodinamika: `Силденафил (по показанию лёгочная гипертензия) — ингибитор фосфодиэстеразы-5 (ФДЭ-5). ФДЭ-5 разрушает цГМФ; блокируя его, повышает цГМФ в лёгочных сосудах и усиливает действие оксида азота (NO), расширяя лёгочные артерии. Это снижает сосудистое сопротивление в лёгких и нагрузку на правый желудочек.`,
+    farmakokinetika: { sorish: "Быстро из кишечника", tarqalish: "С белками ~96%", metabolizm: "В печени CYP3A4", chiqarilish: "Преимущественно с калом; T½ ~4 ч" },
+    korsatmalar: ["Лёгочная артериальная гипертензия (функциональный класс II–III)"],
+    qarrshi: ["С нитратами/донорами NO (опасная гипотензия)", "Тяжёлая гипотензия", "Недавний инфаркт/инсульт", "Оптическая нейропатия (NAION) в анамнезе"],
+    nojoya: { "Сосудистые": "Головная боль, покраснение лица, гипотензия, заложенность носа", "Глаза": "Изменение цветовосприятия, фотосенсибилизация", "Прочее": "Диспепсия, боль в мышцах" },
+    dozadan: "Гипотензия, нарушение зрения; симптоматическая терапия.",
+    ozarotasir: ["С нитратами/донорами NO опасная для жизни гипотензия (противопоказано)", "Ингибиторы CYP3A4 (ритонавир, азолы) повышают концентрацию", "С альфа-блокаторами гипотензия"],
+    qollash: { kattalar: "Лёгочная гипертензия: 20 мг×3 (3 раза в сутки).", bolalar: "Под контролем специалиста (по массе)" },
+    chiqarish: "Таблетки 20 мг (для лёгочной гипертензии)"
+  },
+  en: {
+    gruppa: "Antihypertensives — pulmonary arterial hypertension agents",
+    farmTasir: "Vasodilator in pulmonary hypertension (PDE-5 inhibitor)",
+    farmakodinamika: `Sildenafil (pulmonary hypertension indication) is a phosphodiesterase-5 (PDE-5) inhibitor. PDE-5 degrades cGMP; by blocking it, sildenafil raises cGMP in pulmonary vessels and enhances nitric oxide (NO) action, dilating the pulmonary arteries. This reduces pulmonary vascular resistance and right ventricular load.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "~96% protein bound", metabolizm: "Hepatic CYP3A4", chiqarilish: "Mainly faecal; T½ ~4 h" },
+    korsatmalar: ["Pulmonary arterial hypertension (functional class II–III)"],
+    qarrshi: ["With nitrates/NO donors (dangerous hypotension)", "Severe hypotension", "Recent infarction/stroke", "History of optic neuropathy (NAION)"],
+    nojoya: { "Vascular": "Headache, facial flushing, hypotension, nasal congestion", "Eyes": "Colour vision changes, photosensitivity", "Other": "Dyspepsia, muscle pain" },
+    dozadan: "Hypotension, visual disturbance; supportive care.",
+    ozarotasir: ["With nitrates/NO donors life-threatening hypotension (contraindicated)", "CYP3A4 inhibitors (ritonavir, azoles) raise levels", "With alpha-blockers hypotension"],
+    qollash: { kattalar: "Pulmonary hypertension: 20 mg×3 (three times daily).", bolalar: "Under specialist supervision (by weight)" },
+    chiqarish: "Tablets 20 mg (for pulmonary hypertension)"
+  }
+},
+
+"C02KX04": {
+  uz: {
+    gruppa: "Antigipertenziv vositalar — o'pka arterial gipertenziyasi vositalari",
+    farmTasir: "Endotelin retseptor antagonisti (o'pka gipertenziyasi)",
+    farmakodinamika: `Masitentan — endotelin retseptorlarining ikki tomonlama (ETA va ETB) antagonisti. Endotelin-1 — kuchли tomir toraytiruvchi va o'pka tomirlarini qayta tuzuvchi modda; uning retseptorlarini bloklaб o'pka arteriyalaridagi torayish va qayta tuzilишni kamaytiradi, o'pka tomir qarshiligini pasaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsilга yuqori", metabolizm: "Jigarда CYP3A4 (faol metabolit)", chiqarilish: "Buyrak/najas; T½ ~16 soat (uzun)" },
+    korsatmalar: ["O'pka arterial gipertenziyasi (uzoq muddatли davo, prognozни yaxshilash)"],
+    qarrshi: ["Homiladorlik (teratogen — qattiq kontratseptsiya talab etiladi)", "Og'ir jigar yetishmovchiligi", "Yuqori sezuvchanlik"],
+    nojoya: { "Qon": "Anemiya (nazorat zarur)", "Nafas": "Nazofaringit, burun bitishi", "Boshqa": "Bosh og'rig'i, periferik shish; jigar transaminazalari oshishi" },
+    dozadan: "Bosh og'rig'i, gipotenziya, anemiya; simptomatik davo, qon nazorati.",
+    ozarotasir: ["Kuchли CYP3A4 induktorlari (rifampitsin) samarani pasaytiradi", "Kuchли CYP3A4 ingibitorlari konsentratsiyani oshiradi", "Estrogenli kontratseptivlar ishonchsiz (teratogenlik tufayli qo'shimcha usul)"],
+    qollash: { kattalar: "10 mg/sutka (kuniga 1 marta); jigar/qon nazoratида.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Plyonka qoplamali tabletkalar 10 mg"
+  },
+  ru: {
+    gruppa: "Антигипертензивные средства — средства при лёгочной артериальной гипертензии",
+    farmTasir: "Антагонист рецепторов эндотелина (лёгочная гипертензия)",
+    farmakodinamika: `Мацитентан — двойной (ETA и ETB) антагонист рецепторов эндотелина. Эндотелин-1 — мощный сосудосуживающий и ремоделирующий лёгочные сосуды агент; блокируя его рецепторы, мацитентан уменьшает сужение и ремоделирование лёгочных артерий, снижая лёгочное сосудистое сопротивление.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Высокая связь с белками", metabolizm: "В печени CYP3A4 (активный метаболит)", chiqarilish: "Почками/калом; T½ ~16 ч (длинный)" },
+    korsatmalar: ["Лёгочная артериальная гипертензия (длительная терапия, улучшение прогноза)"],
+    qarrshi: ["Беременность (тератоген — требуется строгая контрацепция)", "Тяжёлая печёночная недостаточность", "Гиперчувствительность"],
+    nojoya: { "Кровь": "Анемия (нужен контроль)", "Дыхание": "Назофарингит, заложенность носа", "Прочее": "Головная боль, периферические отёки; повышение трансаминаз печени" },
+    dozadan: "Головная боль, гипотензия, анемия; симптоматическая терапия, контроль крови.",
+    ozarotasir: ["Сильные индукторы CYP3A4 (рифампицин) снижают эффект", "Сильные ингибиторы CYP3A4 повышают концентрацию", "Эстрогеновые контрацептивы ненадёжны (из-за тератогенности — дополнительный метод)"],
+    qollash: { kattalar: "10 мг/сут (раз в сутки); под контролем печени/крови.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 10 мг"
+  },
+  en: {
+    gruppa: "Antihypertensives — pulmonary arterial hypertension agents",
+    farmTasir: "Endothelin receptor antagonist (pulmonary hypertension)",
+    farmakodinamika: `Macitentan is a dual (ETA and ETB) endothelin receptor antagonist. Endothelin-1 is a potent vasoconstrictor that remodels pulmonary vessels; by blocking its receptors macitentan reduces constriction and remodelling of the pulmonary arteries, lowering pulmonary vascular resistance.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "High protein binding", metabolizm: "Hepatic CYP3A4 (active metabolite)", chiqarilish: "Renal/faecal; T½ ~16 h (long)" },
+    korsatmalar: ["Pulmonary arterial hypertension (long-term therapy, improving prognosis)"],
+    qarrshi: ["Pregnancy (teratogen — strict contraception required)", "Severe hepatic impairment", "Hypersensitivity"],
+    nojoya: { "Blood": "Anaemia (monitoring needed)", "Respiratory": "Nasopharyngitis, nasal congestion", "Other": "Headache, peripheral oedema; raised liver transaminases" },
+    dozadan: "Headache, hypotension, anaemia; supportive care, blood monitoring.",
+    ozarotasir: ["Strong CYP3A4 inducers (rifampicin) reduce the effect", "Strong CYP3A4 inhibitors raise levels", "Oestrogen contraceptives unreliable (use additional method due to teratogenicity)"],
+    qollash: { kattalar: "10 mg/day (once daily); under liver/blood monitoring.", bolalar: "Not recommended" },
+    chiqarish: "Film-coated tablets 10 mg"
+  }
+},
+
+"C01CE02": {
+  uz: {
+    gruppa: "Yurak stimulyatorlari — fosfodiesteraza ingibitorlari",
+    farmTasir: "Inotrop va tomir kengaytiruvchi (PDE-3 ingibitori)",
+    farmakodinamika: `Milrinon — fosfodiesteraza-3 (PDE-3) ingibitori. Yurak hujayralarида sAMF ni oshirib qisqarish kuchini kuchaytiradi (musbat inotrop) va tomir silliq mushaklarini bo'shashtirib periferik/o'pka qarshiligini kamaytiradi (vazodilatator). "Inodilatator" sifatида o'tkir yurak yetishmovchiligida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Faqat v/i infuziya", tarqalish: "To'qimalarга", metabolizm: "Kam", chiqarilish: "Asosан buyrak orqали; T½ ~2,3 soat" },
+    korsatmalar: ["O'tkir dekompensatsiyalangan yurak yetishmovchiligi (qisqa muddat)", "Yurak operatsiyasidan keyin past yurak chiqishi sindromi"],
+    qarrshi: ["Og'ir aort/o'pka stenozi (obstruktiv)", "Og'ir gipovolemiya", "Og'ir aritmiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Yurak": "Qorincha/supraventrikulyar aritmiya, gipotenziya, taxikardiya", "Boshqa": "Bosh og'rig'i, trombotsitopeniya (uzoq qo'llaganda)" },
+    dozadan: "Gipotenziya, aritmiya; infuziyani kamaytirish, suyuqlik, simptomatik davo.",
+    ozarotasir: ["Boshqa inotrop/vazodilatatorlar bilan ta'sir qo'shiladi", "Furosemid bilan bir yo'lда aralashtirmaslik (cho'kma)"],
+    qollash: { kattalar: "To'yintiruvchi 50 mkg/kg (10 daqiqа), keyin 0,375–0,75 mkg/kg/daqiqa infuziya; faqat monitoring ostida.", bolalar: "Faqat nazorat ostида, vaznга ko'ra" },
+    chiqarish: "Infuziya uchun konsentrat 1 mg/ml"
+  },
+  ru: {
+    gruppa: "Стимуляторы сердца — ингибиторы фосфодиэстеразы",
+    farmTasir: "Инотроп и сосудорасширяющее (ингибитор ФДЭ-3)",
+    farmakodinamika: `Милринон — ингибитор фосфодиэстеразы-3 (ФДЭ-3). Повышая цАМФ в клетках сердца, усиливает силу сокращения (положительное инотропное действие) и расслабляет гладкие мышцы сосудов, снижая периферическое/лёгочное сопротивление (вазодилататор). Как «инодилататор» применяется при острой сердечной недостаточности.`,
+    farmakokinetika: { sorish: "Только в/в инфузия", tarqalish: "В ткани", metabolizm: "Мало", chiqarilish: "Преимущественно почками; T½ ~2,3 ч" },
+    korsatmalar: ["Острая декомпенсированная сердечная недостаточность (кратковременно)", "Синдром низкого сердечного выброса после кардиохирургии"],
+    qarrshi: ["Тяжёлый аортальный/лёгочный стеноз (обструктивный)", "Тяжёлая гиповолемия", "Тяжёлая аритмия", "Гиперчувствительность"],
+    nojoya: { "Сердце": "Желудочковая/суправентрикулярная аритмия, гипотензия, тахикардия", "Прочее": "Головная боль, тромбоцитопения (при длительном применении)" },
+    dozadan: "Гипотензия, аритмия; снижение инфузии, жидкость, симптоматическая терапия.",
+    ozarotasir: ["С другими инотропными/вазодилататорами действие суммируется", "Не смешивать в одной линии с фуросемидом (осадок)"],
+    qollash: { kattalar: "Нагрузочно 50 мкг/кг (за 10 мин), затем инфузия 0,375–0,75 мкг/кг/мин; только под мониторингом.", bolalar: "Только под контролем, по массе" },
+    chiqarish: "Концентрат для инфузий 1 мг/мл"
+  },
+  en: {
+    gruppa: "Cardiac stimulants — phosphodiesterase inhibitors",
+    farmTasir: "Inotrope and vasodilator (PDE-3 inhibitor)",
+    farmakodinamika: `Milrinone is a phosphodiesterase-3 (PDE-3) inhibitor. By raising cAMP in cardiac cells it increases contractility (positive inotropy) and relaxes vascular smooth muscle, reducing peripheral/pulmonary resistance (vasodilator). As an 'inodilator' it is used in acute heart failure.`,
+    farmakokinetika: { sorish: "IV infusion only", tarqalish: "Into tissues", metabolizm: "Little", chiqarilish: "Mainly renal; T½ ~2.3 h" },
+    korsatmalar: ["Acute decompensated heart failure (short-term)", "Low cardiac output syndrome after cardiac surgery"],
+    qarrshi: ["Severe aortic/pulmonary stenosis (obstructive)", "Severe hypovolaemia", "Severe arrhythmia", "Hypersensitivity"],
+    nojoya: { "Cardiac": "Ventricular/supraventricular arrhythmia, hypotension, tachycardia", "Other": "Headache, thrombocytopenia (with prolonged use)" },
+    dozadan: "Hypotension, arrhythmia; reduce infusion, fluids, supportive care.",
+    ozarotasir: ["With other inotropes/vasodilators effects are additive", "Do not mix in the same line as furosemide (precipitate)"],
+    qollash: { kattalar: "Loading 50 µg/kg (over 10 min), then infusion 0.375–0.75 µg/kg/min; only under monitoring.", bolalar: "Only under supervision, by weight" },
+    chiqarish: "Concentrate for infusion 1 mg/mL"
+  }
 }
 
 };
