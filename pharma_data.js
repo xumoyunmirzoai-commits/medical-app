@@ -38780,6 +38780,174 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Calculate total deficit dose (weight × Hb deficit), after a test dose give infusion/injection; under supervision.", bolalar: "By weight/deficit, under specialist supervision" },
     chiqarish: "Solution for injection/infusion (iron dextran 50 mg/mL, ampoule/vial)"
   }
+},
+
+"B03BA01": {
+  uz: {
+    gruppa: "Vitamin B12 va folat kislota — siyanokobalamin (B12)",
+    farmTasir: "Vitamin B12 o'rnini bosuvchi (qon yaratuvchi)",
+    farmakodinamika: `Siyanokobalamin (vitamin B12) — kobaltsaqlovchi vitamin. Organizmда metilkobalamin va adenozilkobalaminга aylanib, ikki muhim ferment kofaktori bo'ladi: metionin sintaza (gomotsisteindан metionin, folat metabolizmida — DNK sintezi uchun) va metilmalonil-KoA mutaza (miyelin va yog' kislotalari almashinuvi). B12 tanqisligida megaloblastik anemiya va nevrologik buzilishlar (periferik neyropatiya, funikulyar mieloz) yuzaga keladi; preparat ularni to'g'rilaydi.`,
+    farmakokinetika: { sorish: "Ich (Castle ichки omili kerak) yoki v/m/teri ostiga", tarqalish: "Jigarда zaxiraga olinadi (katta zaxira)", metabolizm: "Faol koferment shaklларga", chiqarilish: "Buyrak/safro (ortiqcha)" },
+    korsatmalar: ["B12-defitsit (pernitsioz) anemiya, ichki omil tanqisligi (gastrektomiya, atrofik gastrit)", "B12 so'rilishi buzilishi (ileum kasalligi, rezeksiya, lentasimon gijja), qat'iy vegan parhez", "Funikulyar mieloz, B12-bog'liq neyropatiya"],
+    qarrshi: ["Yuqori sezuvchanlik (kobaltга)", "Ehtiyotkorlik — Leber optik neyropatiyasi (atrofiyaни kuchaytirishi mumkin)", "Davolanmagan polisitemiya/tromboz xavfi"],
+    nojoya: { "Allergik": "Toshma, qichishish, kamdan-kam anafilaksiya (parenteral)", "Metabolik": "Gipokaliemiya va tromboz (og'ir anemiyani tez davolaganда — eritropoez «portlashi»)", "Mahalliy": "In'eksiya joyида og'riq" },
+    dozadan: "Toksiklik amalda yo'q (suvда eriydigan, ortiqchasi chiqariladi).",
+    ozarotasir: ["Metformin, PPI, H2-blokatorlar uzoq qo'llaganда B12 so'rilishini kamaytiradi", "Folat kislota B12 tanqisligi gematologik belgisini niqoblashi mumkin (nevrologik zarar davom etadi)"],
+    qollash: { kattalar: "Pernitsioz anemiya: 1000 mkg v/m kuniga/kunora boshlang'ich, keyin har oyда qo'llab-quvvatlash (umrbod).", bolalar: "Yoshга/sababга qarab (ko'rsatmага ko'ra)" },
+    chiqarish: "In'eksiya eritmasi 500/1000 mkg/ml (ampula); tabletkalar (yuqori doza, ich)"
+  },
+  ru: {
+    gruppa: "Витамин B12 и фолиевая кислота — цианокобаламин (B12)",
+    farmTasir: "Восполнение витамина B12 (кроветворное)",
+    farmakodinamika: `Цианокобаламин (витамин B12) — кобальтсодержащий витамин. В организме превращается в метилкобаламин и аденозилкобаламин, становясь кофактором двух важных ферментов: метионинсинтазы (из гомоцистеина — метионин, в обмене фолата — для синтеза ДНК) и метилмалонил-КоА-мутазы (обмен миелина и жирных кислот). При дефиците B12 развиваются мегалобластная анемия и неврологические нарушения (периферическая нейропатия, фуникулярный миелоз); препарат их корректирует.`,
+    farmakokinetika: { sorish: "Внутрь (нужен внутренний фактор Касла) или в/м/п/к", tarqalish: "Депонируется в печени (большой запас)", metabolizm: "В активные коферментные формы", chiqarilish: "Почками/с желчью (избыток)" },
+    korsatmalar: ["B12-дефицитная (пернициозная) анемия, дефицит внутреннего фактора (гастрэктомия, атрофический гастрит)", "Нарушение всасывания B12 (болезнь/резекция подвздошной кишки, широкий лентец), строгая веганская диета", "Фуникулярный миелоз, B12-зависимая нейропатия"],
+    qarrshi: ["Гиперчувствительность (к кобальту)", "Осторожно — оптическая нейропатия Лебера (может усилить атрофию)", "Нелеченая полицитемия/риск тромбоза"],
+    nojoya: { "Аллергические": "Сыпь, зуд, редко анафилаксия (парентерально)", "Метаболизм": "Гипокалиемия и тромбоз (при быстром лечении тяжёлой анемии — «всплеск» эритропоэза)", "Местные": "Боль в месте инъекции" },
+    dozadan: "Токсичность практически отсутствует (водорастворимый, избыток выводится).",
+    ozarotasir: ["Метформин, ИПП, H2-блокаторы при длительном применении снижают всасывание B12", "Фолиевая кислота может маскировать гематологический признак дефицита B12 (неврологическое повреждение продолжается)"],
+    qollash: { kattalar: "Пернициозная анемия: 1000 мкг в/м ежедневно/через день вначале, затем поддержание ежемесячно (пожизненно).", bolalar: "По возрасту/причине (по показаниям)" },
+    chiqarish: "Раствор для инъекций 500/1000 мкг/мл (ампулы); таблетки (высокая доза, внутрь)"
+  },
+  en: {
+    gruppa: "Vitamin B12 and folic acid — cyanocobalamin (B12)",
+    farmTasir: "Vitamin B12 replacement (haematopoietic)",
+    farmakodinamika: `Cyanocobalamin (vitamin B12) is a cobalt-containing vitamin. In the body it is converted to methylcobalamin and adenosylcobalamin, becoming a cofactor for two key enzymes: methionine synthase (homocysteine to methionine, in folate metabolism — for DNA synthesis) and methylmalonyl-CoA mutase (myelin and fatty acid metabolism). B12 deficiency causes megaloblastic anaemia and neurological disturbances (peripheral neuropathy, subacute combined degeneration); the drug corrects them.`,
+    farmakokinetika: { sorish: "Oral (needs intrinsic factor of Castle) or IM/SC", tarqalish: "Stored in the liver (large reserve)", metabolizm: "To active coenzyme forms", chiqarilish: "Renal/biliary (excess)" },
+    korsatmalar: ["B12-deficiency (pernicious) anaemia, intrinsic factor deficiency (gastrectomy, atrophic gastritis)", "Impaired B12 absorption (ileal disease/resection, fish tapeworm), strict vegan diet", "Subacute combined degeneration, B12-related neuropathy"],
+    qarrshi: ["Hypersensitivity (to cobalt)", "Caution — Leber optic neuropathy (may worsen atrophy)", "Untreated polycythaemia/thrombosis risk"],
+    nojoya: { "Allergic": "Rash, itching, rarely anaphylaxis (parenteral)", "Metabolic": "Hypokalaemia and thrombosis (with rapid treatment of severe anaemia — erythropoiesis 'surge')", "Local": "Injection-site pain" },
+    dozadan: "Toxicity essentially absent (water-soluble, excess excreted).",
+    ozarotasir: ["Metformin, PPIs, H2 blockers reduce B12 absorption with long-term use", "Folic acid may mask the haematological sign of B12 deficiency (neurological damage continues)"],
+    qollash: { kattalar: "Pernicious anaemia: 1000 µg IM daily/alternate days initially, then monthly maintenance (lifelong).", bolalar: "By age/cause (as indicated)" },
+    chiqarish: "Solution for injection 500/1000 µg/mL (ampoules); tablets (high dose, oral)"
+  }
+},
+
+"B03BA05": {
+  uz: {
+    gruppa: "Vitamin B12 va folat kislota — metilkobalamin",
+    farmTasir: "Vitamin B12 ning faol koferment shakli (neyrotrop)",
+    farmakodinamika: `Metilkobalamin — vitamin B12 ning tabiiy, faollashган koferment shakli (siyanokobalamindан farqli — qo'shimcha metabolik faollashtirishга muhtoj emas). Metionin sintaza kofaktori sifatида gomotsistein metabolizmi va miyelin sintezida bevosita ishtirok etadi; nerv to'qimasiga moyilligi tufayli neyropatiyaда (diabetik, periferik) ko'proq qo'llaniladi. B12 tanqisligi va nerv shikastlanishиni to'g'rilaydi.`,
+    farmakokinetika: { sorish: "Ich yoki parenteral (faol shakl)", tarqalish: "To'qima va nervларга, jigarда zaxira", metabolizm: "Faol koferment (qo'shimcha faollashtirish shart emas)", chiqarilish: "Buyrak/safro" },
+    korsatmalar: ["Periferik neyropatiya (diabetik, alkogol, B12-defitsit)", "B12-defitsit megaloblastik anemiya", "Neyropatik og'riq/parestiya (yordamчi)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — Leber optik neyropatiyasi"],
+    nojoya: { "Allergik": "Toshma, qichishish (kamdan-kam)", "Oshqozon-ichak": "Ko'ngil aynishi, ishtaha pasayishi", "Mahalliy": "In'eksiya joyида og'riq" },
+    dozadan: "Toksiklik amalda yo'q (suvда eriydigan).",
+    ozarotasir: ["Metformin, PPI, kolxitsin uzoq qo'llaganда B12 so'rilishini kamaytiradi"],
+    qollash: { kattalar: "500 mkg×3/sutka ich yoki 500 mkg v/m haftaда 3 marta (neyropatiyaда).", bolalar: "Yoshга qarab (ko'rsatmага ko'ra)" },
+    chiqarish: "Tabletkalar 500 mkg; in'eksiya eritmasi 500 mkg (ampula)"
+  },
+  ru: {
+    gruppa: "Витамин B12 и фолиевая кислота — метилкобаламин",
+    farmTasir: "Активная коферментная форма витамина B12 (нейротропная)",
+    farmakodinamika: `Метилкобаламин — природная активированная коферментная форма витамина B12 (в отличие от цианокобаламина не требует дополнительной метаболической активации). Как кофактор метионинсинтазы напрямую участвует в обмене гомоцистеина и синтезе миелина; благодаря тропности к нервной ткани чаще применяется при нейропатии (диабетической, периферической). Корректирует дефицит B12 и повреждение нервов.`,
+    farmakokinetika: { sorish: "Внутрь или парентерально (активная форма)", tarqalish: "В ткани и нервы, депо в печени", metabolizm: "Активный кофермент (дополнительная активация не нужна)", chiqarilish: "Почками/с желчью" },
+    korsatmalar: ["Периферическая нейропатия (диабетическая, алкогольная, B12-дефицитная)", "B12-дефицитная мегалобластная анемия", "Нейропатическая боль/парестезии (вспомогательно)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — оптическая нейропатия Лебера"],
+    nojoya: { "Аллергические": "Сыпь, зуд (редко)", "ЖКТ": "Тошнота, снижение аппетита", "Местные": "Боль в месте инъекции" },
+    dozadan: "Токсичность практически отсутствует (водорастворимый).",
+    ozarotasir: ["Метформин, ИПП, колхицин при длительном применении снижают всасывание B12"],
+    qollash: { kattalar: "500 мкг×3/сут внутрь или 500 мкг в/м 3 раза в неделю (при нейропатии).", bolalar: "По возрасту (по показаниям)" },
+    chiqarish: "Таблетки 500 мкг; раствор для инъекций 500 мкг (ампулы)"
+  },
+  en: {
+    gruppa: "Vitamin B12 and folic acid — methylcobalamin",
+    farmTasir: "Active coenzyme form of vitamin B12 (neurotropic)",
+    farmakodinamika: `Methylcobalamin is the natural, activated coenzyme form of vitamin B12 (unlike cyanocobalamin it needs no further metabolic activation). As a cofactor of methionine synthase it directly participates in homocysteine metabolism and myelin synthesis; owing to its affinity for nervous tissue it is used more for neuropathy (diabetic, peripheral). It corrects B12 deficiency and nerve damage.`,
+    farmakokinetika: { sorish: "Oral or parenteral (active form)", tarqalish: "Into tissues and nerves, hepatic stores", metabolizm: "Active coenzyme (no further activation needed)", chiqarilish: "Renal/biliary" },
+    korsatmalar: ["Peripheral neuropathy (diabetic, alcoholic, B12-deficiency)", "B12-deficiency megaloblastic anaemia", "Neuropathic pain/paraesthesia (adjunct)"],
+    qarrshi: ["Hypersensitivity", "Caution — Leber optic neuropathy"],
+    nojoya: { "Allergic": "Rash, itching (rare)", "GI": "Nausea, reduced appetite", "Local": "Injection-site pain" },
+    dozadan: "Toxicity essentially absent (water-soluble).",
+    ozarotasir: ["Metformin, PPIs, colchicine reduce B12 absorption with long-term use"],
+    qollash: { kattalar: "500 µg×3/day orally or 500 µg IM three times weekly (in neuropathy).", bolalar: "By age (as indicated)" },
+    chiqarish: "Tablets 500 µg; solution for injection 500 µg (ampoules)"
+  }
+},
+
+"B03BB01": {
+  uz: {
+    gruppa: "Vitamin B12 va folat kislota — folat kislota (B9)",
+    farmTasir: "Folat o'rnini bosuvchi (qon yaratuvchi, DNK sintezi)",
+    farmakodinamika: `Folat kislota (vitamin B9) — organizmда tetragidrofolatga (faol shakl) qaytariladi va bir uglerodли guruhlar tashuvchisi sifatида purin va pirimidin (timidilat) sintezi — ya'ni DNK/RNK sintezi va hujayra bo'linishi uchun zarur. Tez bo'linadigan to'qimalarда (suyak iligi) ayniqsa muhim. Tanqisligida megaloblastik anemiya yuzaga keladi; homiladorlikдан oldin/davomida nerv naychasi nuqsonlari (spina bifida) profilaktikasida muhim.`,
+    farmakokinetika: { sorish: "Ichakdan tez va to'liq (proksimal ingichka ichak)", tarqalish: "To'qimalarга, jigarда zaxira", metabolizm: "Jigar (tetragidrofolatga)", chiqarilish: "Buyrak/safro" },
+    korsatmalar: ["Folat-defitsit megaloblastik anemiya", "Homiladorlik (nerv naychasi nuqsoni profilaktikasi — kontseptsiyadan oldin va 1-trimestr)", "Metotreksat/antifolat terapiyasida himoya, surункали gemoliz/dializda ehtiyoj oshishi"],
+    qarrshi: ["Davolanmagan B12-defitsit anemiyasi (folat yolg'iz — nevrologik zararni niqoblaydi/kuchaytiradi)", "Folatga bog'liq bo'lmagan anemiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Allergik": "Toshma, qichishish, bronxospazm (kamdan-kam)", "Oshqozon-ichak": "Ko'ngil aynishi, qorin shishi (yuqori doza)", "Boshqa": "Yuqori dozaда tutqanoq bo'sag'asini pasaytirishi mumkin (epilepsiyaда ehtiyot)" },
+    dozadan: "Toksiklik past (suvда eriydigan); juda yuqori doza — oshqozon-ichak, uyqu buzilishi.",
+    ozarotasir: ["Metotreksat, trimetoprim, fenitoin, sulfasalazin folat darajasini pasaytiradi (yoki teskari)", "Fenitoin/fenobarbital darajasini pasaytirishi mumkin (tutqanoq nazorati)"],
+    qollash: { kattalar: "Defitsit: 5 mg/sutka 1–4 oy; homiladorlik profilaktikasi: 400 mkg/sutka (yuqori xavfда 5 mg).", bolalar: "Yoshга/vaznга qarab (mas. 1–5 mg/sutka davo)" },
+    chiqarish: "Tabletkalar 1 mg, 5 mg (400/800 mkg profilaktik)"
+  },
+  ru: {
+    gruppa: "Витамин B12 и фолиевая кислота — фолиевая кислота (B9)",
+    farmTasir: "Восполнение фолата (кроветворное, синтез ДНК)",
+    farmakodinamika: `Фолиевая кислота (витамин B9) восстанавливается в организме до тетрагидрофолата (активная форма) и как переносчик одноуглеродных групп необходима для синтеза пуринов и пиримидинов (тимидилата) — то есть для синтеза ДНК/РНК и деления клеток. Особенно важна в быстро делящихся тканях (костный мозг). При дефиците развивается мегалобластная анемия; важна для профилактики дефектов нервной трубки (spina bifida) до и во время беременности.`,
+    farmakokinetika: { sorish: "Из кишечника быстро и полно (проксимальная тонкая кишка)", tarqalish: "В ткани, депо в печени", metabolizm: "Печень (до тетрагидрофолата)", chiqarilish: "Почками/с желчью" },
+    korsatmalar: ["Фолат-дефицитная мегалобластная анемия", "Беременность (профилактика дефекта нервной трубки — до зачатия и в I триместре)", "Защита при терапии метотрексатом/антифолатами, повышенная потребность при хроническом гемолизе/диализе"],
+    qarrshi: ["Нелеченая B12-дефицитная анемия (фолат в одиночку — маскирует/усугубляет неврологическое повреждение)", "Анемия, не связанная с фолатом", "Гиперчувствительность"],
+    nojoya: { "Аллергические": "Сыпь, зуд, бронхоспазм (редко)", "ЖКТ": "Тошнота, вздутие живота (высокая доза)", "Прочее": "В высокой дозе может снижать порог судорог (осторожно при эпилепсии)" },
+    dozadan: "Токсичность низкая (водорастворимый); очень высокая доза — ЖКТ, нарушение сна.",
+    ozarotasir: ["Метотрексат, триметоприм, фенитоин, сульфасалазин снижают уровень фолата (или наоборот)", "Может снижать уровень фенитоина/фенобарбитала (контроль судорог)"],
+    qollash: { kattalar: "Дефицит: 5 мг/сут 1–4 мес; профилактика при беременности: 400 мкг/сут (при высоком риске 5 мг).", bolalar: "По возрасту/массе (напр. 1–5 мг/сут лечебно)" },
+    chiqarish: "Таблетки 1 мг, 5 мг (400/800 мкг профилактические)"
+  },
+  en: {
+    gruppa: "Vitamin B12 and folic acid — folic acid (B9)",
+    farmTasir: "Folate replacement (haematopoietic, DNA synthesis)",
+    farmakodinamika: `Folic acid (vitamin B9) is reduced in the body to tetrahydrofolate (the active form) and, as a one-carbon group carrier, is essential for synthesis of purines and pyrimidines (thymidylate) — i.e. for DNA/RNA synthesis and cell division. It is especially important in rapidly dividing tissues (marrow). Deficiency causes megaloblastic anaemia; it is important for preventing neural tube defects (spina bifida) before and during pregnancy.`,
+    farmakokinetika: { sorish: "Rapid and complete from the gut (proximal small intestine)", tarqalish: "Into tissues, hepatic stores", metabolizm: "Hepatic (to tetrahydrofolate)", chiqarilish: "Renal/biliary" },
+    korsatmalar: ["Folate-deficiency megaloblastic anaemia", "Pregnancy (neural tube defect prevention — preconception and 1st trimester)", "Protection during methotrexate/antifolate therapy, increased need in chronic haemolysis/dialysis"],
+    qarrshi: ["Untreated B12-deficiency anaemia (folate alone — masks/worsens neurological damage)", "Anaemia not due to folate", "Hypersensitivity"],
+    nojoya: { "Allergic": "Rash, itching, bronchospasm (rare)", "GI": "Nausea, abdominal bloating (high dose)", "Other": "High doses may lower the seizure threshold (caution in epilepsy)" },
+    dozadan: "Toxicity low (water-soluble); very high doses — GI upset, sleep disturbance.",
+    ozarotasir: ["Methotrexate, trimethoprim, phenytoin, sulfasalazine lower folate (or vice versa)", "May lower phenytoin/phenobarbital levels (seizure control)"],
+    qollash: { kattalar: "Deficiency: 5 mg/day for 1–4 months; pregnancy prophylaxis: 400 µg/day (5 mg in high risk).", bolalar: "By age/weight (e.g. 1–5 mg/day therapeutic)" },
+    chiqarish: "Tablets 1 mg, 5 mg (400/800 µg prophylactic)"
+  }
+},
+
+"B03XA01": {
+  uz: {
+    gruppa: "Boshqa antianemik vositalar — eritropoez stimulyatorlari (epoetin alfa)",
+    farmTasir: "Rekombinant eritropoetin (qizil qon hosil bo'lishini rag'batlantiruvchi)",
+    farmakodinamika: `Epoetin alfa — rekombinant inson eritropoetini (tabiiy buyrak gormoniга aynan o'xshash glikoprotein). Suyak iligidagi eritroid o'tmishdoshlarning eritropoetin retseptorlariга bog'lanib, ularning ko'payishi, differensiatsiyasi va yetilishini rag'batlantiradi — qizil qon tanachalari (eritrotsit) ishlab chiqarilishini va gemoglobinни oshiradi. Buyrak yetishmovchiligida endogen eritropoetin tanqisligini to'ldiradi.`,
+    farmakokinetika: { sorish: "Teri ostiga yoki v/i", tarqalish: "Tor", metabolizm: "Oqsil katabolizmi", chiqarilish: "T½ s/k ~19–24 soat, v/i ~4–13 soat" },
+    korsatmalar: ["Surункali buyrak kasalligi (dializли va dializsiz)да anemiya", "Kimyoterapiya keltirib chiqargan anemiya (onkologik bemorlar)", "Operatsiya oldidan autologik qon zaxirasi/qon yo'qotishni kamaytirish; chala tug'ilган chaqaloqлар anemiyasi"],
+    qarrshi: ["Nazoratsiz og'ir gipertenziya", "Eritropoetinга qarshi antitana keltirib chiqargan sof qizil hujayrali aplaziya (PRCA) anamnezi", "Yaqinda MI/insult, og'ir koronar/periferik tomir kasalligi (tromboz xavfi)", "Yuqori sezuvchanlik"],
+    nojoya: { "Yurak-tomir": "Gipertenziya (xos, AB nazorati shart), gipertonik kriz/tutqanoq", "Tromboz": "Tromboz/tromboemboliya (ayniqsa Hb yuqori ko'tarilganда), shunt trombozi", "Qon": "Sof qizil hujayrali aplaziya (antitana — kamdan-kam, xavfli)", "Boshqa": "Grippsimon belgilar, bosh og'rig'i" },
+    dozadan: "Hb juda tez/yuqori ko'tarilishi — tromboz/gipertenziya xavfi; dozани kamaytirish (Hb maqsadли ~10–12 g/dl, oshmaslik).",
+    ozarotasir: ["Temir tanqisligida samara pasayadi (temir bilan birga to'ldirish kerak)", "Tromboz xavfini oshiruvchi dorilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "Buyrak anemiyasi: boshlang'ich ~50 BIRLIK/kg×3/hafta s/k/v/i, Hb javobiга qarab titrlash; temir zaxirasini ta'minlash.", bolalar: "Vaznга qarab (xuddi shu printsip), mutaxassis nazoratида" },
+    chiqarish: "Oldindan to'ldirilган shpritslar/flakon (1000–40000 BIRLIK)"
+  },
+  ru: {
+    gruppa: "Прочие противоанемические — стимуляторы эритропоэза (эпоэтин альфа)",
+    farmTasir: "Рекомбинантный эритропоэтин (стимулятор образования эритроцитов)",
+    farmakodinamika: `Эпоэтин альфа — рекомбинантный эритропоэтин человека (гликопротеин, идентичный природному почечному гормону). Связываясь с эритропоэтиновыми рецепторами эритроидных предшественников в костном мозге, стимулирует их пролиферацию, дифференцировку и созревание — повышает продукцию эритроцитов и гемоглобин. При почечной недостаточности восполняет дефицит эндогенного эритропоэтина.`,
+    farmakokinetika: { sorish: "Подкожно или в/в", tarqalish: "Узкое", metabolizm: "Катаболизм белка", chiqarilish: "T½ п/к ~19–24 ч, в/в ~4–13 ч" },
+    korsatmalar: ["Анемия при хронической болезни почек (на диализе и без)", "Анемия, вызванная химиотерапией (онкологические больные)", "Перед операцией для аутологичного запаса крови/снижения кровопотери; анемия недоношенных"],
+    qarrshi: ["Неконтролируемая тяжёлая гипертензия", "Парциальная красноклеточная аплазия (PRCA) от антител к эритропоэтину в анамнезе", "Недавний ИМ/инсульт, тяжёлая коронарная/периферическая болезнь сосудов (риск тромбоза)", "Гиперчувствительность"],
+    nojoya: { "Сердечно-сосудистые": "Гипертензия (характерна, контроль АД обязателен), гипертонический криз/судороги", "Тромбоз": "Тромбоз/тромбоэмболия (особенно при высоком подъёме Hb), тромбоз шунта", "Кровь": "Парциальная красноклеточная аплазия (антитела — редко, опасно)", "Прочее": "Гриппоподобные симптомы, головная боль" },
+    dozadan: "Слишком быстрый/высокий подъём Hb — риск тромбоза/гипертензии; снизить дозу (целевой Hb ~10–12 г/дл, не превышать).",
+    ozarotasir: ["При дефиците железа эффект снижается (необходимо восполнение железом)", "Осторожно с препаратами, повышающими риск тромбоза"],
+    qollash: { kattalar: "Почечная анемия: начально ~50 ЕД/кг×3/нед п/к/в/в, титрование по ответу Hb; обеспечить запасы железа.", bolalar: "По массе (тот же принцип), под наблюдением специалиста" },
+    chiqarish: "Предварительно заполненные шприцы/флаконы (1000–40000 ЕД)"
+  },
+  en: {
+    gruppa: "Other antianaemic agents — erythropoiesis stimulators (epoetin alfa)",
+    farmTasir: "Recombinant erythropoietin (red cell production stimulant)",
+    farmakodinamika: `Epoetin alfa is recombinant human erythropoietin (a glycoprotein identical to the natural renal hormone). By binding erythropoietin receptors on erythroid precursors in the marrow it stimulates their proliferation, differentiation and maturation — increasing red cell production and haemoglobin. In renal failure it replaces the deficiency of endogenous erythropoietin.`,
+    farmakokinetika: { sorish: "Subcutaneous or IV", tarqalish: "Narrow", metabolizm: "Protein catabolism", chiqarilish: "T½ SC ~19–24 h, IV ~4–13 h" },
+    korsatmalar: ["Anaemia of chronic kidney disease (on and off dialysis)", "Chemotherapy-induced anaemia (cancer patients)", "Before surgery for autologous blood storage/reducing blood loss; anaemia of prematurity"],
+    qarrshi: ["Uncontrolled severe hypertension", "History of pure red cell aplasia (PRCA) from anti-erythropoietin antibodies", "Recent MI/stroke, severe coronary/peripheral vascular disease (thrombosis risk)", "Hypersensitivity"],
+    nojoya: { "Cardiovascular": "Hypertension (characteristic, BP monitoring required), hypertensive crisis/seizures", "Thrombosis": "Thrombosis/thromboembolism (especially with high Hb rise), shunt thrombosis", "Blood": "Pure red cell aplasia (antibodies — rare, dangerous)", "Other": "Flu-like symptoms, headache" },
+    dozadan: "Hb rising too fast/high — thrombosis/hypertension risk; reduce dose (target Hb ~10–12 g/dL, do not exceed).",
+    ozarotasir: ["Efficacy reduced in iron deficiency (replace iron concurrently)", "Caution with drugs increasing thrombosis risk"],
+    qollash: { kattalar: "Renal anaemia: initial ~50 units/kg×3/week SC/IV, titrate by Hb response; ensure iron stores.", bolalar: "By weight (same principle), under specialist supervision" },
+    chiqarish: "Pre-filled syringes/vials (1000–40000 units)"
+  }
 }
 
 };
