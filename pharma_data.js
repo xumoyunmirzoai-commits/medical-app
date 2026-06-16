@@ -34622,6 +34622,216 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Depot (dipropionate+phosphate): 1–2 mL IM or intra-articular; oral: 0.5–5 mg/day.", bolalar: "As indicated, individualised; antenatal — per obstetric protocol" },
     chiqarish: "Suspension for injection (betamethasone dipropionate + sodium phosphate); tablets 0.5 mg"
   }
+},
+
+"H03AA01": {
+  uz: {
+    gruppa: "Qalqonsimon bez gormonlari (levotiroksin natriy, T4)",
+    farmTasir: "Qalqonsimon bez gormoni o'rnini bosuvchi (tiroid gormoni)",
+    farmakodinamika: `Levotiroksin natriy — tabiiy tiroksin (T4) ning sintetik shakli. To'qimalarда faolroq triyodtironin (T3) ga aylanadi va hujayra yadrosi tiroid retseptorlari orqали oqsil sintezi, bazal metabolizm, o'sish va rivojlanish, yurak, asab va modda almashinuvini boshqaradi. Gipotireozда etishmagan gormonni o'rnini bosadi; uzoq T½ tufayli kuniga 1 marta beriladi.`,
+    farmakokinetika: { sorish: "Och qoringa ichakdan (~40–80%, ovqat/dorilar pasaytiradi)", tarqalish: "Plazma oqsiliga (TBG) yuqori bog'lanadi", metabolizm: "Jigar/buyrak — T3 va T4 deyodinatsiyasi", chiqarilish: "Safro/buyrak; T½ ~7 kun" },
+    korsatmalar: ["Har qanday sababli gipotireoz (almashtiruvchi terapiya)", "Bo'qoq (eutireoid), tireoidektomiyaдan keyin, tiroid karsinomada TTG-supressiya", "Gashimoto tireoiditi"],
+    qarrshi: ["Davolanmagan tireotoksikoz", "Davolanmagan o'tkir miokard infarkti, o'tkir miokardit", "Davolanmagan buyrak usti bezi yetishmovchiligi (avval gidrokortizon)", "Yuqori sezuvchanlik"],
+    nojoya: { "Ortiqcha doza (gipertireoz belgilari)": "Yurak urishi tezlashishi, aritmiya, tremor, vazn yo'qotish, terlash, bezovtalik, uyqusizlik", "Yurak-tomir": "Stenokardiya (IYUK fonида)", "Boshqa": "Bosh og'rig'i, issiqни yomon ko'tarish" },
+    dozadan: "Tireotoksikozга o'xshash belgilar — dozани kamaytirish/to'xtatish; og'irда beta-blokator.",
+    ozarotasir: ["Temir, kaltsiy, antatsidlar, kolestiramin so'rilishini kamaytiradi (2–4 soat interval)", "Varfarin ta'sirini kuchaytiradi; insulin/antidiabetik dozasini o'zgartirishi mumkin", "Estrogenlar TBG ni oshirib ehtiyojni o'zgartiradi"],
+    qollash: { kattalar: "Boshlang'ich 25–50 mkg/sutka, TTG bo'yicha titrlash; o'rtacha 1,6 mkg/kg/sutka; och qoringa, nonushtadan 30–60 daq oldin.", bolalar: "Tug'ma gipotireozда 10–15 mkg/kg/sutka, yoshга qarab kamaytirib" },
+    chiqarish: "Tabletkalar 25/50/75/100/125/150 mkg"
+  },
+  ru: {
+    gruppa: "Гормоны щитовидной железы (левотироксин натрия, T4)",
+    farmTasir: "Заместитель гормона щитовидной железы (тиреоидный гормон)",
+    farmakodinamika: `Левотироксин натрия — синтетическая форма природного тироксина (T4). В тканях превращается в более активный трийодтиронин (T3) и через ядерные тиреоидные рецепторы регулирует синтез белка, основной обмен, рост и развитие, работу сердца, нервной системы и метаболизм. При гипотиреозе восполняет недостающий гормон; благодаря длительному T½ принимается 1 раз в сутки.`,
+    farmakokinetika: { sorish: "Натощак из кишечника (~40–80%, пища/лекарства снижают)", tarqalish: "Высокая связь с белком (ТСГ)", metabolizm: "Печень/почки — дейодирование T3 и T4", chiqarilish: "С желчью/почками; T½ ~7 дней" },
+    korsatmalar: ["Гипотиреоз любого генеза (заместительная терапия)", "Зоб (эутиреоидный), после тиреоидэктомии, ТТГ-супрессия при карциноме щитовидной железы", "Тиреоидит Хашимото"],
+    qarrshi: ["Нелеченый тиреотоксикоз", "Нелеченый острый инфаркт миокарда, острый миокардит", "Нелеченая надпочечниковая недостаточность (сначала гидрокортизон)", "Гиперчувствительность"],
+    nojoya: { "Передозировка (признаки гипертиреоза)": "Тахикардия, аритмия, тремор, потеря массы, потливость, беспокойство, бессонница", "Сердечно-сосудистые": "Стенокардия (на фоне ИБС)", "Прочее": "Головная боль, плохая переносимость жары" },
+    dozadan: "Симптомы, подобные тиреотоксикозу — снизить/отменить дозу; при тяжёлом бета-блокатор.",
+    ozarotasir: ["Железо, кальций, антациды, холестирамин снижают всасывание (интервал 2–4 ч)", "Усиливает действие варфарина; может менять потребность в инсулине/антидиабетических средствах", "Эстрогены повышают ТСГ, меняя потребность"],
+    qollash: { kattalar: "Начальная 25–50 мкг/сут, титрование по ТТГ; в среднем 1,6 мкг/кг/сут; натощак, за 30–60 мин до завтрака.", bolalar: "При врождённом гипотиреозе 10–15 мкг/кг/сут, снижая с возрастом" },
+    chiqarish: "Таблетки 25/50/75/100/125/150 мкг"
+  },
+  en: {
+    gruppa: "Thyroid hormones (levothyroxine sodium, T4)",
+    farmTasir: "Thyroid hormone replacement (thyroid hormone)",
+    farmakodinamika: `Levothyroxine sodium is the synthetic form of natural thyroxine (T4). In tissues it is converted to the more active triiodothyronine (T3) and, via nuclear thyroid receptors, regulates protein synthesis, basal metabolism, growth and development, and cardiac, nervous and metabolic function. In hypothyroidism it replaces the deficient hormone; owing to its long T½ it is taken once daily.`,
+    farmakokinetika: { sorish: "Fasting, from the gut (~40–80%, reduced by food/drugs)", tarqalish: "Highly protein-bound (TBG)", metabolizm: "Hepatic/renal — deiodination of T3 and T4", chiqarilish: "Biliary/renal; T½ ~7 days" },
+    korsatmalar: ["Hypothyroidism of any cause (replacement therapy)", "Goitre (euthyroid), after thyroidectomy, TSH suppression in thyroid carcinoma", "Hashimoto thyroiditis"],
+    qarrshi: ["Untreated thyrotoxicosis", "Untreated acute myocardial infarction, acute myocarditis", "Untreated adrenal insufficiency (hydrocortisone first)", "Hypersensitivity"],
+    nojoya: { "Overdose (hyperthyroid signs)": "Tachycardia, arrhythmia, tremor, weight loss, sweating, restlessness, insomnia", "Cardiovascular": "Angina (with underlying CAD)", "Other": "Headache, heat intolerance" },
+    dozadan: "Thyrotoxicosis-like symptoms — reduce/withhold dose; beta-blocker if severe.",
+    ozarotasir: ["Iron, calcium, antacids, cholestyramine reduce absorption (2–4 h interval)", "Enhances warfarin effect; may alter insulin/antidiabetic requirements", "Estrogens raise TBG, altering requirements"],
+    qollash: { kattalar: "Initial 25–50 µg/day, titrate by TSH; average 1.6 µg/kg/day; fasting, 30–60 min before breakfast.", bolalar: "In congenital hypothyroidism 10–15 µg/kg/day, reducing with age" },
+    chiqarish: "Tablets 25/50/75/100/125/150 µg"
+  }
+},
+
+"H03BB02": {
+  uz: {
+    gruppa: "Antitiroid vositalar — tioamidlar (tiamazol/metimazol)",
+    farmTasir: "Antitiroid (qalqonsimon bez gormoni sintezini bostiruvchi)",
+    farmakodinamika: `Tiamazol (metimazol) — tioamid antitiroid vosita. Tireoperoksidaza fermentini bloklab, yod organifikatsiyasi va yodtirozinlar (MIT, DIT) ning T3/T4 ga birikishini to'xtatadi, shu orqали yangi tiroid gormonlari sintezini kamaytiradi. Mavjud gormonга ta'sir qilmaydi — shuning uchun klinik samara 1–3 haftadан keyin; propiltiouratsilга nisbatan kuchliroq va uzoq ta'sirli.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "Qalqonsimon bezда to'planadi", metabolizm: "Jigar", chiqarilish: "Buyrak orqали; T½ ~3–6 soat (bezda ta'sir uzoqroq)" },
+    korsatmalar: ["Gipertireoz/tireotoksikoz (Greyvs kasalligi, toksik bo'qoq)", "Tireoidektomiya yoki radioaktiv yodга tayyorgarlik", "Tireotoksik kriz (yordamчи)"],
+    qarrshi: ["Og'ir agranulotsitoz/qon kasalligi anamnezi", "Og'ir jigar shikastlanishi (anamnezда)", "Homiladorlikning 1-trimestri (afzal propiltiouratsil)", "Yuqori sezuvchanlik"],
+    nojoya: { "Qon": "Agranulotsitoz (xavfli — isitma/tomoq og'rig'ida darhol tekshirish), leykopeniya", "Jigar": "Gepatotoksiklik, xolestaz", "Teri": "Toshma, qichishish", "Boshqa": "Artralgiya, ta'm buzilishi" },
+    dozadan: "Gipotireoz belgilari (uzoq yuqori dozaда) — dozani kamaytirish; agranulotsitozда dorini to'xtatib infeksiyani davolash.",
+    ozarotasir: ["Antikoagulyantlar ta'sirini o'zgartirishi mumkin", "Yodли preparatlar samarani pasaytiradi", "Beta-blokatorlar simptomatik yordamчи sifatида qo'shiladi"],
+    qollash: { kattalar: "Boshlang'ich 15–40 mg/sutka (og'irligiга qarab, bo'lib), eutireozда qo'llab-quvvatlash 5–15 mg/sutka.", bolalar: "0,2–0,5 mg/kg/sutka, ko'rsatmага ko'ra" },
+    chiqarish: "Tabletkalar 5/10/20 mg"
+  },
+  ru: {
+    gruppa: "Антитиреоидные средства — тиоамиды (тиамазол/мерказолил)",
+    farmTasir: "Антитиреоидное (подавляет синтез гормонов щитовидной железы)",
+    farmakodinamika: `Тиамазол (метимазол) — тиоамидное антитиреоидное средство. Блокирует фермент тиреопероксидазу, прекращая органификацию йода и присоединение йодтирозинов (МИТ, ДИТ) к T3/T4, тем самым снижая синтез новых тиреоидных гормонов. Не влияет на уже синтезированный гормон — поэтому клинический эффект через 1–3 недели; сильнее и длительнее, чем пропилтиоурацил.`,
+    farmakokinetika: { sorish: "Из кишечника быстро", tarqalish: "Накапливается в щитовидной железе", metabolizm: "Печень", chiqarilish: "Почками; T½ ~3–6 ч (действие в железе дольше)" },
+    korsatmalar: ["Гипертиреоз/тиреотоксикоз (болезнь Грейвса, токсический зоб)", "Подготовка к тиреоидэктомии или радиойодтерапии", "Тиреотоксический криз (вспомогательно)"],
+    qarrshi: ["Тяжёлый агранулоцитоз/болезни крови в анамнезе", "Тяжёлое поражение печени (в анамнезе)", "I триместр беременности (предпочтительнее пропилтиоурацил)", "Гиперчувствительность"],
+    nojoya: { "Кровь": "Агранулоцитоз (опасен — при лихорадке/боли в горле немедленно проверить), лейкопения", "Печень": "Гепатотоксичность, холестаз", "Кожа": "Сыпь, зуд", "Прочее": "Артралгия, нарушение вкуса" },
+    dozadan: "Признаки гипотиреоза (при длительной высокой дозе) — снизить дозу; при агранулоцитозе отменить и лечить инфекцию.",
+    ozarotasir: ["Может изменять действие антикоагулянтов", "Йодсодержащие препараты снижают эффект", "Бета-блокаторы добавляют как симптоматическое средство"],
+    qollash: { kattalar: "Начальная 15–40 мг/сут (по тяжести, дробно), поддерживающая при эутиреозе 5–15 мг/сут.", bolalar: "0,2–0,5 мг/кг/сут, по показаниям" },
+    chiqarish: "Таблетки 5/10/20 мг"
+  },
+  en: {
+    gruppa: "Antithyroid agents — thioamides (thiamazole/methimazole)",
+    farmTasir: "Antithyroid (suppresses thyroid hormone synthesis)",
+    farmakodinamika: `Thiamazole (methimazole) is a thioamide antithyroid agent. It blocks thyroid peroxidase, halting iodine organification and the coupling of iodotyrosines (MIT, DIT) into T3/T4, thereby reducing synthesis of new thyroid hormones. It does not affect already-stored hormone — so the clinical effect appears after 1–3 weeks; it is more potent and longer-acting than propylthiouracil.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Accumulates in the thyroid", metabolizm: "Hepatic", chiqarilish: "Renal; T½ ~3–6 h (longer action in the gland)" },
+    korsatmalar: ["Hyperthyroidism/thyrotoxicosis (Graves disease, toxic goitre)", "Preparation for thyroidectomy or radioiodine therapy", "Thyrotoxic crisis (adjunct)"],
+    qarrshi: ["Severe agranulocytosis/blood disorder history", "Severe liver injury (history)", "First trimester of pregnancy (propylthiouracil preferred)", "Hypersensitivity"],
+    nojoya: { "Blood": "Agranulocytosis (dangerous — check immediately with fever/sore throat), leukopenia", "Liver": "Hepatotoxicity, cholestasis", "Skin": "Rash, itching", "Other": "Arthralgia, taste disturbance" },
+    dozadan: "Hypothyroid signs (with prolonged high dose) — reduce dose; in agranulocytosis stop the drug and treat infection.",
+    ozarotasir: ["May alter anticoagulant action", "Iodine-containing preparations reduce the effect", "Beta-blockers added as symptomatic support"],
+    qollash: { kattalar: "Initial 15–40 mg/day (by severity, divided), maintenance at euthyroidism 5–15 mg/day.", bolalar: "0.2–0.5 mg/kg/day, as indicated" },
+    chiqarish: "Tablets 5/10/20 mg"
+  }
+},
+
+"H03BB01": {
+  uz: {
+    gruppa: "Antitiroid vositalar — tioamidlar (karbimazol)",
+    farmTasir: "Antitiroid (tiamazolning prodorisi)",
+    farmakodinamika: `Karbimazol — organizmда tez tiamazol (metimazol) ga aylanadigan prodori. Tiamazol kabi tireoperoksidazani bloklab yod organifikatsiyasi va yodtirozinlar birikishini to'xtatadi, yangi T3/T4 sintezini kamaytiradi. Ta'sir mexanizmi va klinik qo'llanishi tiamazol bilan bir xil (10 mg karbimazol ≈ 6 mg tiamazol).`,
+    farmakokinetika: { sorish: "Ichakdan tez (tiamazolга aylanadi)", tarqalish: "Qalqonsimon bezда to'planadi", metabolizm: "Tiamazolга → jigar", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Gipertireoz/tireotoksikoz (Greyvs kasalligi, toksik bo'qoq)", "Tireoidektomiya/radioyodga tayyorgarlik", "Tireotoksik kriz (yordamчи)"],
+    qarrshi: ["Og'ir agranulotsitoz/qon kasalligi anamnezi", "Og'ir jigar shikastlanishi", "Yuqori sezuvchanlik (tiamazolga ham)"],
+    nojoya: { "Qon": "Agranulotsitoz (xavfli — isitma/tomoq og'rig'ida tekshirish), leykopeniya", "Jigar": "Gepatotoksiklik, xolestaz", "Teri": "Toshma, qichishish", "Boshqa": "Artralgiya" },
+    dozadan: "Gipotireoz belgilari — dozани kamaytirish; agranulotsitozда to'xtatish.",
+    ozarotasir: ["Antikoagulyantlar ta'sirini o'zgartirishi mumkin", "Yodли preparatlar samarani pasaytiradi"],
+    qollash: { kattalar: "Boshlang'ich 15–40 mg/sutka (bo'lib), qo'llab-quvvatlash 5–15 mg/sutka.", bolalar: "0,25–0,75 mg/kg/sutka, ko'rsatmага ko'ra" },
+    chiqarish: "Tabletkalar 5/10/20 mg"
+  },
+  ru: {
+    gruppa: "Антитиреоидные средства — тиоамиды (карбимазол)",
+    farmTasir: "Антитиреоидное (пролекарство тиамазола)",
+    farmakodinamika: `Карбимазол — пролекарство, в организме быстро превращающееся в тиамазол (метимазол). Как и тиамазол, блокирует тиреопероксидазу, прекращая органификацию йода и присоединение йодтирозинов, снижает синтез новых T3/T4. Механизм действия и клиническое применение идентичны тиамазолу (10 мг карбимазола ≈ 6 мг тиамазола).`,
+    farmakokinetika: { sorish: "Из кишечника быстро (превращается в тиамазол)", tarqalish: "Накапливается в щитовидной железе", metabolizm: "В тиамазол → печень", chiqarilish: "Почками" },
+    korsatmalar: ["Гипертиреоз/тиреотоксикоз (болезнь Грейвса, токсический зоб)", "Подготовка к тиреоидэктомии/радиойодтерапии", "Тиреотоксический криз (вспомогательно)"],
+    qarrshi: ["Тяжёлый агранулоцитоз/болезни крови в анамнезе", "Тяжёлое поражение печени", "Гиперчувствительность (в т.ч. к тиамазолу)"],
+    nojoya: { "Кровь": "Агранулоцитоз (опасен — проверять при лихорадке/боли в горле), лейкопения", "Печень": "Гепатотоксичность, холестаз", "Кожа": "Сыпь, зуд", "Прочее": "Артралгия" },
+    dozadan: "Признаки гипотиреоза — снизить дозу; при агранулоцитозе отменить.",
+    ozarotasir: ["Может изменять действие антикоагулянтов", "Йодсодержащие препараты снижают эффект"],
+    qollash: { kattalar: "Начальная 15–40 мг/сут (дробно), поддерживающая 5–15 мг/сут.", bolalar: "0,25–0,75 мг/кг/сут, по показаниям" },
+    chiqarish: "Таблетки 5/10/20 мг"
+  },
+  en: {
+    gruppa: "Antithyroid agents — thioamides (carbimazole)",
+    farmTasir: "Antithyroid (prodrug of thiamazole)",
+    farmakodinamika: `Carbimazole is a prodrug that is rapidly converted to thiamazole (methimazole) in the body. Like thiamazole, it blocks thyroid peroxidase, halting iodine organification and iodotyrosine coupling and reducing synthesis of new T3/T4. Its mechanism and clinical use are identical to thiamazole (10 mg carbimazole ≈ 6 mg thiamazole).`,
+    farmakokinetika: { sorish: "Rapid from the gut (converted to thiamazole)", tarqalish: "Accumulates in the thyroid", metabolizm: "To thiamazole → hepatic", chiqarilish: "Renal" },
+    korsatmalar: ["Hyperthyroidism/thyrotoxicosis (Graves disease, toxic goitre)", "Preparation for thyroidectomy/radioiodine", "Thyrotoxic crisis (adjunct)"],
+    qarrshi: ["Severe agranulocytosis/blood disorder history", "Severe liver injury", "Hypersensitivity (including to thiamazole)"],
+    nojoya: { "Blood": "Agranulocytosis (dangerous — check with fever/sore throat), leukopenia", "Liver": "Hepatotoxicity, cholestasis", "Skin": "Rash, itching", "Other": "Arthralgia" },
+    dozadan: "Hypothyroid signs — reduce dose; stop in agranulocytosis.",
+    ozarotasir: ["May alter anticoagulant action", "Iodine-containing preparations reduce the effect"],
+    qollash: { kattalar: "Initial 15–40 mg/day (divided), maintenance 5–15 mg/day.", bolalar: "0.25–0.75 mg/kg/day, as indicated" },
+    chiqarish: "Tablets 5/10/20 mg"
+  }
+},
+
+"H03CA": {
+  uz: {
+    gruppa: "Yod terapiyasi (kaliy yodid)",
+    farmTasir: "Yod manbai / yuqori dozaда antitiroid",
+    farmakodinamika: `Kaliy yodid — yod manbai. Fiziologik dozaда tiroid gormonlari sintezi uchun zarur yodni ta'minlaydi (yod tanqisligi profilaktikasi/davosi, endemik bo'qoq). Yuqori (farmakologik) dozaда esa qisqa muddatда tiroid gormonlari sintezi va chiqarilishini bostiradi (Volf-Chaykov effekti), bezni qattiqlashtiradi — tireotoksik kriz va tireoidektomiyага tayyorgarlikда; shuningdek radiatsion avariyaда qalqonsimon bezni radioaktiv yoddan himoya qiladi.`,
+    farmakokinetika: { sorish: "Ichakdan to'liq", tarqalish: "Qalqonsimon bez, so'lak, sut bezi", metabolizm: "—", chiqarilish: "Asosан buyrak orqали" },
+    korsatmalar: ["Yod tanqisligi profilaktikasi va endemik bo'qoq", "Tireotoksik kriz, tireoidektomiyага tayyorgarlik (yuqori doza)", "Radiatsion avariyaда qalqonsimon bez blokadasi"],
+    qarrshi: ["Yodга yuqori sezuvchanlik", "Dyuring gerpetiform dermatiti, yod toksikozi", "Manifest gipertireoz (yuqori doza)", "Ehtiyotkorlik — homiladorlik (uzoq yuqori doza)"],
+    nojoya: { "Yodizm (uzoq/yuqori doza)": "Og'izда metall ta'mi, so'lak ajralishi, rinit, teri toshmasi", "Endokrin": "Gipo- yoki gipertireoz (yodга bog'liq)", "Oshqozon-ichak": "Ko'ngil aynishi, qorin og'rig'i" },
+    dozadan: "O'tkir yuqori doza — oshqozon-ichak ta'siri, yodizm; suyuqlik, simptomatik davo.",
+    ozarotasir: ["Antitiroid vositalar ta'sirini kuchaytiradi/o'zgartiradi", "Litiy bilan gipotireoz xavfi", "Kaliy saqlovchi diuretiklar bilan giperkaliemiya"],
+    qollash: { kattalar: "Profilaktika: 100–200 mkg/sutka; tireotoksikozда yuqori doza (Lugol/yodid) — ko'rsatmага ko'ra qisqa kurs.", bolalar: "Yod profilaktikasi yoshга ko'ra (50–100 mkg/sutka)" },
+    chiqarish: "Tabletkalar 100/200 mkg (profilaktik); konsentrlangan eritma (yuqori doza uchun)"
+  },
+  ru: {
+    gruppa: "Йодтерапия (калия йодид)",
+    farmTasir: "Источник йода / в высокой дозе — антитиреоидное",
+    farmakodinamika: `Калия йодид — источник йода. В физиологической дозе обеспечивает йод, необходимый для синтеза тиреоидных гормонов (профилактика/лечение дефицита йода, эндемический зоб). В высокой (фармакологической) дозе кратковременно подавляет синтез и высвобождение тиреоидных гормонов (эффект Вольфа-Чайкова), уплотняет железу — при тиреотоксическом кризе и подготовке к тиреоидэктомии; также защищает щитовидную железу от радиоактивного йода при радиационной аварии.`,
+    farmakokinetika: { sorish: "Из кишечника полностью", tarqalish: "Щитовидная железа, слюна, молочная железа", metabolizm: "—", chiqarilish: "Преимущественно почками" },
+    korsatmalar: ["Профилактика дефицита йода и эндемический зоб", "Тиреотоксический криз, подготовка к тиреоидэктомии (высокая доза)", "Блокада щитовидной железы при радиационной аварии"],
+    qarrshi: ["Гиперчувствительность к йоду", "Герпетиформный дерматит Дюринга, йодотоксикоз", "Манифестный гипертиреоз (высокая доза)", "Осторожно — беременность (длительная высокая доза)"],
+    nojoya: { "Йодизм (длительно/высокая доза)": "Металлический вкус, слюнотечение, ринит, кожная сыпь", "Эндокринные": "Гипо- или гипертиреоз (йод-зависимый)", "ЖКТ": "Тошнота, боль в животе" },
+    dozadan: "Острая высокая доза — ЖКТ-эффекты, йодизм; жидкость, симптоматическая терапия.",
+    ozarotasir: ["Усиливает/изменяет действие антитиреоидных средств", "С литием риск гипотиреоза", "С калийсберегающими диуретиками гиперкалиемия"],
+    qollash: { kattalar: "Профилактика: 100–200 мкг/сут; при тиреотоксикозе высокая доза (Люголь/йодид) — коротким курсом по показаниям.", bolalar: "Йодная профилактика по возрасту (50–100 мкг/сут)" },
+    chiqarish: "Таблетки 100/200 мкг (профилактические); концентрированный раствор (для высоких доз)"
+  },
+  en: {
+    gruppa: "Iodine therapy (potassium iodide)",
+    farmTasir: "Iodine source / antithyroid at high dose",
+    farmakodinamika: `Potassium iodide is a source of iodine. At physiological doses it supplies the iodine needed for thyroid hormone synthesis (prevention/treatment of iodine deficiency, endemic goitre). At high (pharmacological) doses it briefly suppresses thyroid hormone synthesis and release (Wolff-Chaikoff effect) and firms the gland — in thyrotoxic crisis and preparation for thyroidectomy; it also protects the thyroid from radioactive iodine in a radiation emergency.`,
+    farmakokinetika: { sorish: "Completely from the gut", tarqalish: "Thyroid, saliva, mammary gland", metabolizm: "—", chiqarilish: "Mainly renal" },
+    korsatmalar: ["Prevention of iodine deficiency and endemic goitre", "Thyrotoxic crisis, preparation for thyroidectomy (high dose)", "Thyroid blockade in a radiation emergency"],
+    qarrshi: ["Iodine hypersensitivity", "Dermatitis herpetiformis (Duhring), iodine toxicosis", "Manifest hyperthyroidism (high dose)", "Caution — pregnancy (prolonged high dose)"],
+    nojoya: { "Iodism (prolonged/high dose)": "Metallic taste, salivation, rhinitis, skin rash", "Endocrine": "Hypo- or hyperthyroidism (iodine-dependent)", "GI": "Nausea, abdominal pain" },
+    dozadan: "Acute high dose — GI effects, iodism; fluids, supportive care.",
+    ozarotasir: ["Enhances/alters the action of antithyroid agents", "Hypothyroidism risk with lithium", "Hyperkalaemia with potassium-sparing diuretics"],
+    qollash: { kattalar: "Prophylaxis: 100–200 µg/day; in thyrotoxicosis high dose (Lugol/iodide) — short course as indicated.", bolalar: "Iodine prophylaxis by age (50–100 µg/day)" },
+    chiqarish: "Tablets 100/200 µg (prophylactic); concentrated solution (for high doses)"
+  }
+},
+
+"H05BX01": {
+  uz: {
+    gruppa: "Antiparatiroid vositalar — kalsimimetiklar (sinakalset)",
+    farmTasir: "Kalsimimetik (paratgormon sekretsiyasini kamaytiruvchi)",
+    farmakodinamika: `Sinakalset — kalsimimetik. Qalqonsimonoldi bezi asosiy hujayralaridagi kaltsiy-sezuvchi retseptor (CaSR) ning hujayradan tashqari Ca²⁺ ga sezuvchanligini oshiradi, shu orqали paratgormon (PTG) sekretsiyasини kamaytiradi va qonда kaltsiy darajasini pasaytiradi. Ikkilamchi (surункали buyrak kasalligiда) va birlamchi giperparatireozда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (ovqat bilan yaxshiroq)", tarqalish: "Plazma oqsiliga ~93–97%", metabolizm: "Jigar (CYP3A4, CYP2D6, CYP1A2)", chiqarilish: "Asosан buyrak (metabolitlar); T½ ~30–40 soat" },
+    korsatmalar: ["Dializдаgi surункали buyrak kasalligida ikkilamchi giperparatireoz", "Paratiroid karsinomada giperkaltsiemiya", "Operatsiya mumkin bo'lmagan birlamchi giperparatireoz"],
+    qarrshi: ["Gipokaltsiemiya (Ca <8,4 mg/dl — boshlamaslik)", "Yuqori sezuvchanlik", "Ehtiyotkorlik — tutqanoq anamnezi, jigar yetishmovchiligi"],
+    nojoya: { "Metabolik": "Gipokaltsiemiya (parestiya, mushak tirishishi, QT uzayishi, tutqanoq)", "Oshqozon-ichak": "Ko'ngil aynishi, qusish, diareya", "Boshqa": "Bosh aylanishi, mialgiya" },
+    dozadan: "Og'ir gipokaltsiemiya — kaltsiy, vitamin D; EKG nazorati; dorini to'xtatish.",
+    ozarotasir: ["CYP3A4 kuchli inhibitorlari (ketokonazol) darajasini oshiradi", "CYP2D6 substratlari (flekainid, TSAD, metoprolol) darajasini oshiradi", "QT uzaytiruvchi dorilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "Boshlang'ich 30 mg×1/sutka (ovqat bilan), PTG va Ca bo'yicha titrlash (maks 180 mg/sutka).", bolalar: "Faqat mutaxassis nazoratида (cheklangan ma'lumot)" },
+    chiqarish: "Plyonka qoplamali tabletkalar 30/60/90 mg"
+  },
+  ru: {
+    gruppa: "Антипаратиреоидные средства — кальцимиметики (цинакальцет)",
+    farmTasir: "Кальцимиметик (снижает секрецию паратгормона)",
+    farmakodinamika: `Цинакальцет — кальцимиметик. Повышает чувствительность кальций-чувствительного рецептора (CaSR) главных клеток паращитовидной железы к внеклеточному Ca²⁺, тем самым снижая секрецию паратгормона (ПТГ) и уровень кальция в крови. Применяется при вторичном (на фоне ХБП) и первичном гиперпаратиреозе.`,
+    farmakokinetika: { sorish: "Из кишечника (лучше с едой)", tarqalish: "Связь с белками ~93–97%", metabolizm: "Печень (CYP3A4, CYP2D6, CYP1A2)", chiqarilish: "Преимущественно почками (метаболиты); T½ ~30–40 ч" },
+    korsatmalar: ["Вторичный гиперпаратиреоз при ХБП на диализе", "Гиперкальциемия при карциноме паращитовидной железы", "Первичный гиперпаратиреоз при невозможности операции"],
+    qarrshi: ["Гипокальциемия (Ca <8,4 мг/дл — не начинать)", "Гиперчувствительность", "Осторожно — судороги в анамнезе, печёночная недостаточность"],
+    nojoya: { "Метаболизм": "Гипокальциемия (парестезии, мышечные спазмы, удлинение QT, судороги)", "ЖКТ": "Тошнота, рвота, диарея", "Прочее": "Головокружение, миалгия" },
+    dozadan: "Тяжёлая гипокальциемия — кальций, витамин D; контроль ЭКГ; отмена препарата.",
+    ozarotasir: ["Сильные ингибиторы CYP3A4 (кетоконазол) повышают уровень", "Повышает уровень субстратов CYP2D6 (флекаинид, ТЦА, метопролол)", "С препаратами, удлиняющими QT, осторожно"],
+    qollash: { kattalar: "Начальная 30 мг×1/сут (с едой), титрование по ПТГ и Ca (макс 180 мг/сут).", bolalar: "Только под наблюдением специалиста (данные ограничены)" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 30/60/90 мг"
+  },
+  en: {
+    gruppa: "Antiparathyroid agents — calcimimetics (cinacalcet)",
+    farmTasir: "Calcimimetic (reduces parathyroid hormone secretion)",
+    farmakodinamika: `Cinacalcet is a calcimimetic. It increases the sensitivity of the calcium-sensing receptor (CaSR) on parathyroid chief cells to extracellular Ca²⁺, thereby reducing parathyroid hormone (PTH) secretion and lowering blood calcium. It is used in secondary (in CKD) and primary hyperparathyroidism.`,
+    farmakokinetika: { sorish: "From the gut (better with food)", tarqalish: "~93–97% protein-bound", metabolizm: "Hepatic (CYP3A4, CYP2D6, CYP1A2)", chiqarilish: "Mainly renal (metabolites); T½ ~30–40 h" },
+    korsatmalar: ["Secondary hyperparathyroidism in CKD on dialysis", "Hypercalcaemia in parathyroid carcinoma", "Primary hyperparathyroidism when surgery is not possible"],
+    qarrshi: ["Hypocalcaemia (Ca <8.4 mg/dL — do not start)", "Hypersensitivity", "Caution — seizure history, hepatic impairment"],
+    nojoya: { "Metabolic": "Hypocalcaemia (paraesthesia, muscle cramps, QT prolongation, seizures)", "GI": "Nausea, vomiting, diarrhoea", "Other": "Dizziness, myalgia" },
+    dozadan: "Severe hypocalcaemia — calcium, vitamin D; ECG monitoring; withdraw the drug.",
+    ozarotasir: ["Strong CYP3A4 inhibitors (ketoconazole) increase levels", "Increases levels of CYP2D6 substrates (flecainide, TCAs, metoprolol)", "Caution with QT-prolonging drugs"],
+    qollash: { kattalar: "Initial 30 mg once daily (with food), titrate by PTH and Ca (max 180 mg/day).", bolalar: "Only under specialist supervision (limited data)" },
+    chiqarish: "Film-coated tablets 30/60/90 mg"
+  }
 }
 
 };
