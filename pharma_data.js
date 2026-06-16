@@ -33362,6 +33362,342 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Loading 50 µg/kg (over 10 min), then infusion 0.375–0.75 µg/kg/min; only under monitoring.", bolalar: "Only under supervision, by weight" },
     chiqarish: "Concentrate for infusion 1 mg/mL"
   }
+},
+
+"C09DX04": {
+  uz: {
+    gruppa: "Renin-angiotenzin tizimiga ta'sir qiluvchilar — ARNI kombinatsiyasi",
+    farmTasir: "Yurak yetishmovchiligi davosi (ARNI)",
+    farmakodinamika: `Sakubitril + valsartan — angiotenzin retseptori va neprilizin ingibitori (ARNI). Valsartan angiotenzin II AT1 retseptorlarini bloklaydi (tomir torayishini kamaytiradi); sakubitril (faol metaboliti) neprilizinни bloklaб natriyuretik peptidlar (BNP, ANP) parchalanishini kamaytiradi — bu tomir kengayishi, natriy/suv chiqarilishi va yurak yuki kamayishiga olib keladi. Surункali yurak yetishmovchiligida o'lim va kasalxonaга yotqizishni kamaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan, sakubitril faol LBQ657 ga aylanadi", tarqalish: "Oqsilга yuqori", metabolizm: "Esterazalar (sakubitril); valsartan minimal", chiqarilish: "Buyrak/safro" },
+    korsatmalar: ["Surункали simptomatik yurak yetishmovchiligi (chap qorincha fraksiyasi pasaygan)"],
+    qarrshi: ["AAF ingibitori bilan birga yoki undan ≤36 soat keyin (angioshish xavfi)", "Angionevrotik shish tarixi", "Homiladorlik (teratogen)", "Og'ir jigar yetishmovchiligi"],
+    nojoya: { "Tomir": "Gipotenziya (ko'p), bosh aylanishi", "Buyrak/metabolik": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Angionevrotik shish (xavfli)" },
+    dozadan: "Og'ir gipotenziya; suyuqlik, simptomatik davo.",
+    ozarotasir: ["AAF ingibitorlari bilan (man etiladi — 36 soat oraliq)", "Kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi va buyrakка zarar", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "49/51 mg×2 dан boshlab, 2–4 haftaда 97/103 mg×2 gacha (qon bosimi/buyrakка qarab).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Plyonka qoplamali tabletkalar 24/26, 49/51, 97/103 mg"
+  },
+  ru: {
+    gruppa: "Средства, влияющие на РААС — комбинация АРНИ",
+    farmTasir: "Лечение сердечной недостаточности (АРНИ)",
+    farmakodinamika: `Сакубитрил + валсартан — ингибитор рецепторов ангиотензина и неприлизина (АРНИ). Валсартан блокирует AT1-рецепторы ангиотензина II (уменьшает сужение сосудов); сакубитрил (активный метаболит) блокирует неприлизин, снижая распад натрийуретических пептидов (BNP, ANP) — это даёт расширение сосудов, выведение натрия/воды и снижение нагрузки на сердце. При хронической сердечной недостаточности снижает смертность и госпитализации.`,
+    farmakokinetika: { sorish: "Из кишечника, сакубитрил превращается в активный LBQ657", tarqalish: "Высокая связь с белками", metabolizm: "Эстеразы (сакубитрил); валсартан минимально", chiqarilish: "Почками/с желчью" },
+    korsatmalar: ["Хроническая симптоматическая сердечная недостаточность (со сниженной фракцией левого желудочка)"],
+    qarrshi: ["С ингибитором АПФ одновременно или в течение ≤36 ч после (риск ангиоотёка)", "Ангионевротический отёк в анамнезе", "Беременность (тератоген)", "Тяжёлая печёночная недостаточность"],
+    nojoya: { "Сосудистые": "Гипотензия (часто), головокружение", "Почки/метаболизм": "Гиперкалиемия, повышение креатинина", "Прочее": "Ангионевротический отёк (опасно)" },
+    dozadan: "Тяжёлая гипотензия; жидкость, симптоматическая терапия.",
+    ozarotasir: ["С ингибиторами АПФ (противопоказано — интервал 36 ч)", "С калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект и повреждают почки", "Повышает уровень лития"],
+    qollash: { kattalar: "С 49/51 мг×2, через 2–4 нед до 97/103 мг×2 (по АД/почкам).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 24/26, 49/51, 97/103 мг"
+  },
+  en: {
+    gruppa: "Agents acting on the RAAS — ARNI combination",
+    farmTasir: "Heart failure therapy (ARNI)",
+    farmakodinamika: `Sacubitril + valsartan is an angiotensin receptor-neprilysin inhibitor (ARNI). Valsartan blocks angiotensin II AT1 receptors (reducing vasoconstriction); sacubitril (its active metabolite) blocks neprilysin, reducing breakdown of natriuretic peptides (BNP, ANP) — giving vasodilation, sodium/water excretion and reduced cardiac load. In chronic heart failure it reduces mortality and hospitalisations.`,
+    farmakokinetika: { sorish: "From the gut, sacubitril converted to active LBQ657", tarqalish: "High protein binding", metabolizm: "Esterases (sacubitril); valsartan minimal", chiqarilish: "Renal/biliary" },
+    korsatmalar: ["Chronic symptomatic heart failure (with reduced left ventricular ejection fraction)"],
+    qarrshi: ["With an ACE inhibitor concurrently or within ≤36 h (angioedema risk)", "History of angioedema", "Pregnancy (teratogen)", "Severe hepatic impairment"],
+    nojoya: { "Vascular": "Hypotension (common), dizziness", "Renal/metabolic": "Hyperkalaemia, raised creatinine", "Other": "Angioedema (dangerous)" },
+    dozadan: "Severe hypotension; fluids, supportive care.",
+    ozarotasir: ["With ACE inhibitors (contraindicated — 36 h interval)", "With potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect and harm the kidneys", "Raises lithium levels"],
+    qollash: { kattalar: "From 49/51 mg×2, after 2–4 weeks to 97/103 mg×2 (per BP/renal function).", bolalar: "Not recommended" },
+    chiqarish: "Film-coated tablets 24/26, 49/51, 97/103 mg"
+  }
+},
+
+"C09BA04": {
+  uz: {
+    gruppa: "AAF ingibitorlari va diuretik kombinatsiyasi",
+    farmTasir: "Qon bosimini pasaytiruvchi kombinatsiya (AAF + diuretik)",
+    farmakodinamika: `Perindopril + indapamid — angiotenzinni o'zgartiruvchi ferment (AAF) ingibitori va tiazidga o'xshash diuretik kombinatsiyasi. Perindopril angiotenzin II hosil bo'lishini kamaytirib tomirlarni kengaytiradi; indapamid natriy/suvni chiqarib hajmni kamaytiradi va tomir qarshiligini pasaytiradi. Ikki to'ldiruvchi mexanizm qon bosimini samarali nazorat qiladi; indapamid AAF ning kaliy yo'qotmasligiga yordam beradi.`,
+    farmakokinetika: { sorish: "Ichakdan, perindopril faol perindoprilatga aylanadi", tarqalish: "To'qimalarга", metabolizm: "Jigar (perindopril)", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Arterial gipertenziya (mono-vositalar yetarli bo'lмаganda)"],
+    qarrshi: ["Homiladorlik (teratogen)", "Angionevrotik shish tarixi", "Og'ir buyrak/jigar yetishmovchiligi", "Og'ir gipokaliemiya", "Ikki tomonlama buyrak arteriyasi stenozi"],
+    nojoya: { "Nafas": "Quruq yo'tal (AAF)", "Tomir": "Gipotenziya, bosh aylanishi", "Elektrolit/buyrak": "Giperkaliemiya yoki gipokaliemiya, kreatinin oshishi; angioshish (kamdan-kam)" },
+    dozadan: "Gipotenziya, elektrolit buzilishi; suyuqlik, korreksiya, simptomatik davo.",
+    ozarotasir: ["Kaliy/kaliy saqlovchi diuretiklar bilan giperkaliemiya", "NPVD samarani pasaytiradi va buyrakка zarar", "Litiy darajasini oshiradi"],
+    qollash: { kattalar: "1 tabletka/sutka (perindopril 4/5 + indapamid 1,25 mg yoki yuqoriroq dozali shakl).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar (perindopril + indapamid, turli dozalar)"
+  },
+  ru: {
+    gruppa: "Комбинация ингибитора АПФ и диуретика",
+    farmTasir: "Комбинированное гипотензивное (АПФ + диуретик)",
+    farmakodinamika: `Периндоприл + индапамид — комбинация ингибитора ангиотензинпревращающего фермента (АПФ) и тиазидоподобного диуретика. Периндоприл уменьшает образование ангиотензина II и расширяет сосуды; индапамид выводит натрий/воду, снижая объём и сосудистое сопротивление. Два взаимодополняющих механизма эффективно контролируют АД; индапамид помогает избежать потери калия от АПФ.`,
+    farmakokinetika: { sorish: "Из кишечника, периндоприл превращается в активный периндоприлат", tarqalish: "В ткани", metabolizm: "Печень (периндоприл)", chiqarilish: "Почками" },
+    korsatmalar: ["Артериальная гипертензия (при недостаточности монопрепаратов)"],
+    qarrshi: ["Беременность (тератоген)", "Ангионевротический отёк в анамнезе", "Тяжёлая почечная/печёночная недостаточность", "Тяжёлая гипокалиемия", "Двусторонний стеноз почечных артерий"],
+    nojoya: { "Дыхание": "Сухой кашель (АПФ)", "Сосудистые": "Гипотензия, головокружение", "Электролиты/почки": "Гипер- или гипокалиемия, повышение креатинина; ангиоотёк (редко)" },
+    dozadan: "Гипотензия, электролитные нарушения; жидкость, коррекция, симптоматическая терапия.",
+    ozarotasir: ["С калием/калийсберегающими диуретиками гиперкалиемия", "НПВП снижают эффект и повреждают почки", "Повышает уровень лития"],
+    qollash: { kattalar: "1 таблетка/сут (периндоприл 4/5 + индапамид 1,25 мг или более высокая дозировка).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки (периндоприл + индапамид, различные дозы)"
+  },
+  en: {
+    gruppa: "ACE inhibitor and diuretic combination",
+    farmTasir: "Combined antihypertensive (ACE inhibitor + diuretic)",
+    farmakodinamika: `Perindopril + indapamide is a combination of an angiotensin-converting enzyme (ACE) inhibitor and a thiazide-like diuretic. Perindopril reduces angiotensin II formation and dilates vessels; indapamide excretes sodium/water, lowering volume and vascular resistance. The two complementary mechanisms control blood pressure effectively; indapamide helps offset ACE-related potassium loss.`,
+    farmakokinetika: { sorish: "From the gut, perindopril converted to active perindoprilat", tarqalish: "Into tissues", metabolizm: "Hepatic (perindopril)", chiqarilish: "Renal" },
+    korsatmalar: ["Arterial hypertension (when single agents are insufficient)"],
+    qarrshi: ["Pregnancy (teratogen)", "History of angioedema", "Severe renal/hepatic impairment", "Severe hypokalaemia", "Bilateral renal artery stenosis"],
+    nojoya: { "Respiratory": "Dry cough (ACE)", "Vascular": "Hypotension, dizziness", "Electrolyte/renal": "Hyper- or hypokalaemia, raised creatinine; angioedema (rare)" },
+    dozadan: "Hypotension, electrolyte disturbance; fluids, correction, supportive care.",
+    ozarotasir: ["With potassium/potassium-sparing diuretics hyperkalaemia", "NSAIDs reduce the effect and harm the kidneys", "Raises lithium levels"],
+    qollash: { kattalar: "1 tablet/day (perindopril 4/5 + indapamide 1.25 mg or higher-strength form).", bolalar: "Not recommended" },
+    chiqarish: "Tablets (perindopril + indapamide, various strengths)"
+  }
+},
+
+"C09DA01": {
+  uz: {
+    gruppa: "Angiotenzin retseptor blokeri va diuretik kombinatsiyasi",
+    farmTasir: "Qon bosimini pasaytiruvchi kombinatsiya (ARB + diuretik)",
+    farmakodinamika: `Losartan + gidroxlortiazid — angiotenzin II retseptor blokeri (ARB) va tiazid diuretik kombinatsiyasi. Losartan AT1 retseptorlarini bloklaб tomirlarni kengaytiradi; gidroxlortiazid natriy/suvni chiqarib hajmni kamaytiradi. Ikki mexanizm bir-birini to'ldiradi; losartan tiazid keltirgan kaliy yo'qolishi va siydik kislota oshishini biroz qoplaydi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Losartan jigarда faol metabolitга; gidroxlortiazid metabolizmsiz", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Arterial gipertenziya (mono-vositalar yetarli bo'lмаganda)"],
+    qarrshi: ["Homiladorlik (teratogen)", "Og'ir buyrak/jigar yetishmovchiligi", "Anuriya", "Sulfanilamidlarga yuqori sezuvchanlik", "Og'ir gipokaliemiya/giperkalsemiya"],
+    nojoya: { "Tomir": "Gipotenziya, bosh aylanishi", "Elektrolit/metabolik": "Gipokaliemiya, giponatriemiya, giperurikemiya, giperglikemiya", "Buyrak": "Kreatinin oshishi" },
+    dozadan: "Gipotenziya, elektrolit buzilishi; suyuqlik, korreksiya.",
+    ozarotasir: ["Litiy darajasini oshiradi", "NPVD samarani pasaytiradi", "Yurak glikozidlari toksikligini oshiradi (gipokaliemiya)"],
+    qollash: { kattalar: "1 tabletka/sutka (losartan 50/100 + gidroxlortiazid 12,5/25 mg).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar (losartan + gidroxlortiazid, turli dozalar)"
+  },
+  ru: {
+    gruppa: "Комбинация блокатора рецепторов ангиотензина и диуретика",
+    farmTasir: "Комбинированное гипотензивное (БРА + диуретик)",
+    farmakodinamika: `Лозартан + гидрохлоротиазид — комбинация блокатора рецепторов ангиотензина II (БРА) и тиазидного диуретика. Лозартан блокирует AT1-рецепторы и расширяет сосуды; гидрохлоротиазид выводит натрий/воду, снижая объём. Два механизма дополняют друг друга; лозартан частично компенсирует потерю калия и повышение мочевой кислоты от тиазида.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "Лозартан в печени до активного метаболита; гидрохлоротиазид не метаболизируется", chiqarilish: "Почками" },
+    korsatmalar: ["Артериальная гипертензия (при недостаточности монопрепаратов)"],
+    qarrshi: ["Беременность (тератоген)", "Тяжёлая почечная/печёночная недостаточность", "Анурия", "Гиперчувствительность к сульфаниламидам", "Тяжёлая гипокалиемия/гиперкальциемия"],
+    nojoya: { "Сосудистые": "Гипотензия, головокружение", "Электролиты/метаболизм": "Гипокалиемия, гипонатриемия, гиперурикемия, гипергликемия", "Почки": "Повышение креатинина" },
+    dozadan: "Гипотензия, электролитные нарушения; жидкость, коррекция.",
+    ozarotasir: ["Повышает уровень лития", "НПВП снижают эффект", "Повышает токсичность сердечных гликозидов (гипокалиемия)"],
+    qollash: { kattalar: "1 таблетка/сут (лозартан 50/100 + гидрохлоротиазид 12,5/25 мг).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки (лозартан + гидрохлоротиазид, различные дозы)"
+  },
+  en: {
+    gruppa: "Angiotensin receptor blocker and diuretic combination",
+    farmTasir: "Combined antihypertensive (ARB + diuretic)",
+    farmakodinamika: `Losartan + hydrochlorothiazide is a combination of an angiotensin II receptor blocker (ARB) and a thiazide diuretic. Losartan blocks AT1 receptors and dilates vessels; hydrochlorothiazide excretes sodium/water, lowering volume. The two mechanisms are complementary; losartan partly offsets thiazide-related potassium loss and uric acid rise.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Losartan hepatic to active metabolite; hydrochlorothiazide not metabolised", chiqarilish: "Renal" },
+    korsatmalar: ["Arterial hypertension (when single agents are insufficient)"],
+    qarrshi: ["Pregnancy (teratogen)", "Severe renal/hepatic impairment", "Anuria", "Hypersensitivity to sulfonamides", "Severe hypokalaemia/hypercalcaemia"],
+    nojoya: { "Vascular": "Hypotension, dizziness", "Electrolyte/metabolic": "Hypokalaemia, hyponatraemia, hyperuricaemia, hyperglycaemia", "Renal": "Raised creatinine" },
+    dozadan: "Hypotension, electrolyte disturbance; fluids, correction.",
+    ozarotasir: ["Raises lithium levels", "NSAIDs reduce the effect", "Increases cardiac glycoside toxicity (hypokalaemia)"],
+    qollash: { kattalar: "1 tablet/day (losartan 50/100 + hydrochlorothiazide 12.5/25 mg).", bolalar: "Not recommended" },
+    chiqarish: "Tablets (losartan + hydrochlorothiazide, various strengths)"
+  }
+},
+
+"C09BB04": {
+  uz: {
+    gruppa: "AAF ingibitori va kaltsiy antagonisti kombinatsiyasi",
+    farmTasir: "Qon bosimini pasaytiruvchi kombinatsiya (AAF + KKB)",
+    farmakodinamika: `Amlodipin + perindopril — kaltsiy kanal blokeri va AAF ingibitori kombinatsiyasi. Amlodipin tomir silliq mushaklariга kaltsiy kirishini bloklaб arteriolalarni kengaytiradi; perindopril angiotenzin II hosil bo'lishini kamaytirib tomirlarni kengaytiradi va aldosteronни pasaytiradi. Ikki mexanizm qon bosimini kuchли nazorat qiladi; AAF amlodipinning oyoq shishini biroz kamaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigar (har ikkalasi)", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Arterial gipertenziya va/yoki barqaror ishemik yurak kasalligi (mono-vositalar yetarli bo'lмаganda)"],
+    qarrshi: ["Homiladorlik (teratogen)", "Angionevrotik shish tarixi", "Og'ir gipotenziya, kardiogen shok", "Ikki tomonlama buyrak arteriyasi stenozi", "Og'ir aort stenozi"],
+    nojoya: { "Nafas": "Quruq yo'tal (AAF)", "Tomir": "Oyoq shishi, yuzning qizishi, gipotenziya, bosh aylanishi", "Buyrak/elektrolit": "Giperkaliemiya, kreatinin oshishi; angioshish (kamdan-kam)" },
+    dozadan: "Gipotenziya; suyuqlik, kaltsiy, simptomatik davo.",
+    ozarotasir: ["Kaliy/kaliy saqlovchi diuretiklar bilan giperkaliemiya", "CYP3A4 ingibitorlari (amlodipin) ta'sirini kuchaytiradi", "NPVD samarani pasaytiradi"],
+    qollash: { kattalar: "1 tabletka/sutka (amlodipin 5/10 + perindopril 4/5/8/10 mg dozali shakllar).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar/kapsulalar (amlodipin + perindopril, turli dozalar)"
+  },
+  ru: {
+    gruppa: "Комбинация ингибитора АПФ и антагониста кальция",
+    farmTasir: "Комбинированное гипотензивное (АПФ + БКК)",
+    farmakodinamika: `Амлодипин + периндоприл — комбинация блокатора кальциевых каналов и ингибитора АПФ. Амлодипин блокирует вход кальция в гладкие мышцы сосудов, расширяя артериолы; периндоприл уменьшает образование ангиотензина II, расширяет сосуды и снижает альдостерон. Два механизма сильно контролируют АД; АПФ несколько уменьшает отёки ног от амлодипина.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "Печень (оба)", chiqarilish: "Почками" },
+    korsatmalar: ["Артериальная гипертензия и/или стабильная ИБС (при недостаточности монопрепаратов)"],
+    qarrshi: ["Беременность (тератоген)", "Ангионевротический отёк в анамнезе", "Тяжёлая гипотензия, кардиогенный шок", "Двусторонний стеноз почечных артерий", "Тяжёлый аортальный стеноз"],
+    nojoya: { "Дыхание": "Сухой кашель (АПФ)", "Сосудистые": "Отёки ног, покраснение лица, гипотензия, головокружение", "Почки/электролиты": "Гиперкалиемия, повышение креатинина; ангиоотёк (редко)" },
+    dozadan: "Гипотензия; жидкость, кальций, симптоматическая терапия.",
+    ozarotasir: ["С калием/калийсберегающими диуретиками гиперкалиемия", "Ингибиторы CYP3A4 (амлодипин) усиливают действие", "НПВП снижают эффект"],
+    qollash: { kattalar: "1 таблетка/сут (амлодипин 5/10 + периндоприл 4/5/8/10 мг — различные дозировки).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки/капсулы (амлодипин + периндоприл, различные дозы)"
+  },
+  en: {
+    gruppa: "ACE inhibitor and calcium antagonist combination",
+    farmTasir: "Combined antihypertensive (ACE inhibitor + CCB)",
+    farmakodinamika: `Amlodipine + perindopril is a combination of a calcium channel blocker and an ACE inhibitor. Amlodipine blocks calcium entry into vascular smooth muscle, dilating arterioles; perindopril reduces angiotensin II formation, dilating vessels and lowering aldosterone. The two mechanisms strongly control blood pressure; the ACE inhibitor somewhat reduces amlodipine-related ankle oedema.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic (both)", chiqarilish: "Renal" },
+    korsatmalar: ["Arterial hypertension and/or stable ischaemic heart disease (when single agents are insufficient)"],
+    qarrshi: ["Pregnancy (teratogen)", "History of angioedema", "Severe hypotension, cardiogenic shock", "Bilateral renal artery stenosis", "Severe aortic stenosis"],
+    nojoya: { "Respiratory": "Dry cough (ACE)", "Vascular": "Leg oedema, facial flushing, hypotension, dizziness", "Renal/electrolyte": "Hyperkalaemia, raised creatinine; angioedema (rare)" },
+    dozadan: "Hypotension; fluids, calcium, supportive care.",
+    ozarotasir: ["With potassium/potassium-sparing diuretics hyperkalaemia", "CYP3A4 inhibitors (amlodipine) enhance the effect", "NSAIDs reduce the effect"],
+    qollash: { kattalar: "1 tablet/day (amlodipine 5/10 + perindopril 4/5/8/10 mg strengths).", bolalar: "Not recommended" },
+    chiqarish: "Tablets/capsules (amlodipine + perindopril, various strengths)"
+  }
+},
+
+"C09DB01": {
+  uz: {
+    gruppa: "Angiotenzin retseptor blokeri va kaltsiy antagonisti kombinatsiyasi",
+    farmTasir: "Qon bosimini pasaytiruvchi kombinatsiya (ARB + KKB)",
+    farmakodinamika: `Amlodipin + valsartan — kaltsiy kanal blokeri va angiotenzin retseptor blokeri kombinatsiyasi. Amlodipin arteriolalarni kengaytiradi (kaltsiy antagonisti); valsartan AT1 retseptorlarini bloklaб tomir torayishi va aldosteronни kamaytiradi. Ikki to'ldiruvchi mexanizm qon bosimini kuchли nazorat qiladi; ARB amlodipinning oyoq shishini kamaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsilга yuqori", metabolizm: "Amlodipin CYP3A4; valsartan minimal", chiqarilish: "Buyrak/safro" },
+    korsatmalar: ["Arterial gipertenziya (mono-vositalar yetarli bo'lмаganda)"],
+    qarrshi: ["Homiladorlik (teratogen)", "Og'ir gipotenziya, kardiogen shok, og'ir aort stenozi", "Og'ir jigar yetishmovchiligi/xolestaz", "Ikki tomonlama buyrak arteriyasi stenozi"],
+    nojoya: { "Tomir": "Oyoq shishi, yuzning qizishi, gipotenziya, bosh aylanishi", "Buyrak/elektrolit": "Giperkaliemiya, kreatinin oshishi", "Boshqa": "Bosh og'rig'i" },
+    dozadan: "Gipotenziya; suyuqlik, kaltsiy, simptomatik davo.",
+    ozarotasir: ["Kaliy/kaliy saqlovchi diuretiklar bilan giperkaliemiya", "CYP3A4 ingibitorlari (amlodipin) ta'sirini kuchaytiradi", "NPVD samarani pasaytiradi; litiy darajasini oshiradi"],
+    qollash: { kattalar: "1 tabletka/sutka (amlodipin 5/10 + valsartan 80/160/320 mg dozali shakllar).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar (amlodipin + valsartan, turli dozalar)"
+  },
+  ru: {
+    gruppa: "Комбинация блокатора рецепторов ангиотензина и антагониста кальция",
+    farmTasir: "Комбинированное гипотензивное (БРА + БКК)",
+    farmakodinamika: `Амлодипин + валсартан — комбинация блокатора кальциевых каналов и блокатора рецепторов ангиотензина. Амлодипин расширяет артериолы (антагонист кальция); валсартан блокирует AT1-рецепторы, уменьшая сужение сосудов и альдостерон. Два взаимодополняющих механизма сильно контролируют АД; БРА уменьшает отёки ног от амлодипина.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Высокая связь с белками", metabolizm: "Амлодипин CYP3A4; валсартан минимально", chiqarilish: "Почками/с желчью" },
+    korsatmalar: ["Артериальная гипертензия (при недостаточности монопрепаратов)"],
+    qarrshi: ["Беременность (тератоген)", "Тяжёлая гипотензия, кардиогенный шок, тяжёлый аортальный стеноз", "Тяжёлая печёночная недостаточность/холестаз", "Двусторонний стеноз почечных артерий"],
+    nojoya: { "Сосудистые": "Отёки ног, покраснение лица, гипотензия, головокружение", "Почки/электролиты": "Гиперкалиемия, повышение креатинина", "Прочее": "Головная боль" },
+    dozadan: "Гипотензия; жидкость, кальций, симптоматическая терапия.",
+    ozarotasir: ["С калием/калийсберегающими диуретиками гиперкалиемия", "Ингибиторы CYP3A4 (амлодипин) усиливают действие", "НПВП снижают эффект; повышает уровень лития"],
+    qollash: { kattalar: "1 таблетка/сут (амлодипин 5/10 + валсартан 80/160/320 мг — различные дозировки).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки (амлодипин + валсартан, различные дозы)"
+  },
+  en: {
+    gruppa: "Angiotensin receptor blocker and calcium antagonist combination",
+    farmTasir: "Combined antihypertensive (ARB + CCB)",
+    farmakodinamika: `Amlodipine + valsartan is a combination of a calcium channel blocker and an angiotensin receptor blocker. Amlodipine dilates arterioles (calcium antagonist); valsartan blocks AT1 receptors, reducing vasoconstriction and aldosterone. The two complementary mechanisms strongly control blood pressure; the ARB reduces amlodipine-related ankle oedema.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "High protein binding", metabolizm: "Amlodipine CYP3A4; valsartan minimal", chiqarilish: "Renal/biliary" },
+    korsatmalar: ["Arterial hypertension (when single agents are insufficient)"],
+    qarrshi: ["Pregnancy (teratogen)", "Severe hypotension, cardiogenic shock, severe aortic stenosis", "Severe hepatic impairment/cholestasis", "Bilateral renal artery stenosis"],
+    nojoya: { "Vascular": "Leg oedema, facial flushing, hypotension, dizziness", "Renal/electrolyte": "Hyperkalaemia, raised creatinine", "Other": "Headache" },
+    dozadan: "Hypotension; fluids, calcium, supportive care.",
+    ozarotasir: ["With potassium/potassium-sparing diuretics hyperkalaemia", "CYP3A4 inhibitors (amlodipine) enhance the effect", "NSAIDs reduce the effect; raises lithium levels"],
+    qollash: { kattalar: "1 tablet/day (amlodipine 5/10 + valsartan 80/160/320 mg strengths).", bolalar: "Not recommended" },
+    chiqarish: "Tablets (amlodipine + valsartan, various strengths)"
+  }
+},
+
+"C10BA06": {
+  uz: {
+    gruppa: "Lipid kamaytiruvchi kombinatsiyalar — statin + xolesterin so'rilishi ingibitori",
+    farmTasir: "Xolesterinни kamaytiruvchi kombinatsiya",
+    farmakodinamika: `Rozuvastatin + ezetimib — ikki mexanizmли lipid kamaytiruvchi kombinatsiya. Rozuvastatin jigarда xolesterin sintezini (HMG-CoA reduktaza) inhibilaydi; ezetimib esa ichakда oziq-ovqat va safro xolesterinining so'rilishini bloklaydi (Niemann-Pick C1-like 1 oqsili). Birgalikda LDL ni statin yolg'iz dan ko'ra kuchliroq pasaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Oqsilга yuqori", metabolizm: "Ezetimib glyukuronlanadi (enterohepatik aylanish); rozuvastatin minimal", chiqarilish: "Najas/buyrak" },
+    korsatmalar: ["Birlamchi giperxolesterinemiya (statin yolg'iz yetarli bo'lмаganda)", "Yurak-tomir asoratlari profilaktikasi (yuqori xavf)"],
+    qarrshi: ["Faol jigar kasalligi", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Mushak": "Miyalgiya, miopatiya; kamdan-kam rabdomioliz (statin)", "Jigar": "Transaminazalar oshishi", "Oshqozon-ichak": "Diareya, dispepsiya (ezetimib)" },
+    dozadan: "Maxsus antidot yo'q; jigar/mushak nazorati, simptomatik davo.",
+    ozarotasir: ["Siklosporin/gemfibrozil miopatiya xavfini oshiradi", "O't kislotasi bog'lovchilar ezetimib so'rilishini kamaytiradi (oraliq)", "Varfarin (MNI) ta'sirini kuchaytirishi mumkin"],
+    qollash: { kattalar: "1 tabletka/sutka (rozuvastatin 5–40 + ezetimib 10 mg dozali shakllar).", bolalar: "Mutaxassis nazoratида (oilaviy giperxolesterinemiya)" },
+    chiqarish: "Tabletkalar (rozuvastatin + ezetimib, turli dozalar)"
+  },
+  ru: {
+    gruppa: "Гиполипидемические комбинации — статин + ингибитор всасывания холестерина",
+    farmTasir: "Комбинированное снижающее холестерин",
+    farmakodinamika: `Розувастатин + эзетимиб — гиполипидемическая комбинация с двумя механизмами. Розувастатин ингибирует синтез холестерина в печени (ГМГ-КоА-редуктаза); эзетимиб блокирует всасывание пищевого и желчного холестерина в кишечнике (белок NPC1L1). Вместе снижают ЛПНП сильнее, чем статин в одиночку.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Высокая связь с белками", metabolizm: "Эзетимиб глюкуронируется (энтерогепатическая циркуляция); розувастатин минимально", chiqarilish: "С калом/почками" },
+    korsatmalar: ["Первичная гиперхолестеринемия (при недостаточности статина)", "Профилактика сердечно-сосудистых осложнений (высокий риск)"],
+    qarrshi: ["Активное заболевание печени", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "Мышцы": "Миалгия, миопатия; редко рабдомиолиз (статин)", "Печень": "Повышение трансаминаз", "ЖКТ": "Диарея, диспепсия (эзетимиб)" },
+    dozadan: "Специфического антидота нет; контроль печени/мышц, симптоматическая терапия.",
+    ozarotasir: ["Циклоспорин/гемфиброзил повышают риск миопатии", "Секвестранты желчных кислот снижают всасывание эзетимиба (интервал)", "Может усиливать действие варфарина (МНО)"],
+    qollash: { kattalar: "1 таблетка/сут (розувастатин 5–40 + эзетимиб 10 мг — различные дозировки).", bolalar: "Под контролем специалиста (семейная гиперхолестеринемия)" },
+    chiqarish: "Таблетки (розувастатин + эзетимиб, различные дозы)"
+  },
+  en: {
+    gruppa: "Lipid-modifying combinations — statin + cholesterol absorption inhibitor",
+    farmTasir: "Combined cholesterol-lowering",
+    farmakodinamika: `Rosuvastatin + ezetimibe is a dual-mechanism lipid-lowering combination. Rosuvastatin inhibits hepatic cholesterol synthesis (HMG-CoA reductase); ezetimibe blocks intestinal absorption of dietary and biliary cholesterol (NPC1L1 protein). Together they lower LDL more than a statin alone.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "High protein binding", metabolizm: "Ezetimibe glucuronidated (enterohepatic circulation); rosuvastatin minimal", chiqarilish: "Faecal/renal" },
+    korsatmalar: ["Primary hypercholesterolaemia (when a statin is insufficient)", "Prevention of cardiovascular events (high risk)"],
+    qarrshi: ["Active liver disease", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "Muscle": "Myalgia, myopathy; rarely rhabdomyolysis (statin)", "Liver": "Raised transaminases", "GI": "Diarrhoea, dyspepsia (ezetimibe)" },
+    dozadan: "No specific antidote; monitor liver/muscle, supportive care.",
+    ozarotasir: ["Ciclosporin/gemfibrozil increase myopathy risk", "Bile acid sequestrants reduce ezetimibe absorption (interval)", "May potentiate warfarin (INR)"],
+    qollash: { kattalar: "1 tablet/day (rosuvastatin 5–40 + ezetimibe 10 mg strengths).", bolalar: "Under specialist supervision (familial hypercholesterolaemia)" },
+    chiqarish: "Tablets (rosuvastatin + ezetimibe, various strengths)"
+  }
+},
+
+"C01EA01": {
+  uz: {
+    gruppa: "Yurak vositalari — prostaglandinlar",
+    farmTasir: "Tomir kengaytiruvchi (prostaglandin E1)",
+    farmakodinamika: `Alprostadil — prostaglandin E1. Tomir silliq mushaklarini bo'shashtirib (sAMF orqали) arteriyalarni kengaytiradi, trombotsitlar agregatsiyasini kamaytiradi; yangi tug'ilganlarда botallov yo'lini (ductus arteriosus) ochiq tutadi. Og'ir periferik ishemiya va tug'ma yurak nuqsoni bo'lган chaqaloqларда qo'llaniladi.`,
+    farmakokinetika: { sorish: "V/i infuziya (mahalliy ham)", tarqalish: "To'qimalarга", metabolizm: "O'pkada juda tez (~70% bir o'tишда)", chiqarilish: "Buyrak orqали; ta'sir juda qisqa" },
+    korsatmalar: ["Og'ir surункali periferik arterial kasallik (III–IV bosqich ishemiya)", "Yangi tug'ilganlarда ductus-bog'liq tug'ma yurak nuqsoni (operatsiyaga qadar yo'lni ochiq tutish)"],
+    qarrshi: ["Og'ir yurak yetishmovchiligi, o'pka shishi", "Yaqinda o'tkazilgan miokard infarkti, og'ir aritmiya", "Qon ketish moyilligi", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Gipotenziya, yuzning qizishi", "Chaqaloqларда": "Apnoe (kuzatuv zarur), isitma, bradikardiya/taxikardiya", "Mahalliy": "Inyeksiya joyidagi og'riq/reaksiya" },
+    dozadan: "Gipotenziya, apnoe; infuziyani kamaytirish, nafasни qo'llab-quvvatlash.",
+    ozarotasir: ["Antigipertenziv/vazodilatatorlar bilan gipotenziya kuchayadi", "Antikoagulyantlar bilan qon ketish xavfi"],
+    qollash: { kattalar: "Periferik kasallik: 40–60 mkg v/i infuziya (2 soat)/sutka, kurs bilan; faqat shifokor nazoratда.", bolalar: "Yangi tug'ilganlar: 0,05–0,1 mkg/kg/daqiqa infuziya, neonatolog nazoratда" },
+    chiqarish: "Infuziya uchun konsentrat/liofilizat (20, 60 mkg)"
+  },
+  ru: {
+    gruppa: "Сердечные средства — простагландины",
+    farmTasir: "Сосудорасширяющее (простагландин E1)",
+    farmakodinamika: `Алпростадил — простагландин Е1. Расслабляя гладкие мышцы сосудов (через цАМФ), расширяет артерии, снижает агрегацию тромбоцитов; у новорождённых поддерживает открытым артериальный проток (ductus arteriosus). Применяется при тяжёлой периферической ишемии и у новорождённых с дуктус-зависимыми пороками сердца.`,
+    farmakokinetika: { sorish: "В/в инфузия (также местно)", tarqalish: "В ткани", metabolizm: "В лёгких очень быстро (~70% за один проход)", chiqarilish: "Почками; действие очень короткое" },
+    korsatmalar: ["Тяжёлая хроническая периферическая артериальная болезнь (ишемия III–IV стадии)", "Дуктус-зависимые врождённые пороки сердца у новорождённых (поддержание протока до операции)"],
+    qarrshi: ["Тяжёлая сердечная недостаточность, отёк лёгких", "Недавний инфаркт миокарда, тяжёлая аритмия", "Склонность к кровотечениям", "Гиперчувствительность"],
+    nojoya: { "Сосудистые": "Гипотензия, покраснение лица", "У новорождённых": "Апноэ (нужен контроль), лихорадка, бради-/тахикардия", "Местные": "Боль/реакция в месте инъекции" },
+    dozadan: "Гипотензия, апноэ; снижение инфузии, поддержка дыхания.",
+    ozarotasir: ["С гипотензивными/вазодилататорами усиливается гипотензия", "С антикоагулянтами риск кровотечений"],
+    qollash: { kattalar: "Периферическая болезнь: 40–60 мкг в/в инфузия (2 ч)/сут, курсом; только под контролем врача.", bolalar: "Новорождённые: 0,05–0,1 мкг/кг/мин инфузия, под контролем неонатолога" },
+    chiqarish: "Концентрат/лиофилизат для инфузий (20, 60 мкг)"
+  },
+  en: {
+    gruppa: "Cardiac drugs — prostaglandins",
+    farmTasir: "Vasodilator (prostaglandin E1)",
+    farmakodinamika: `Alprostadil is prostaglandin E1. By relaxing vascular smooth muscle (via cAMP) it dilates arteries and reduces platelet aggregation; in neonates it keeps the ductus arteriosus open. It is used in severe peripheral ischaemia and in neonates with ductus-dependent congenital heart defects.`,
+    farmakokinetika: { sorish: "IV infusion (also local)", tarqalish: "Into tissues", metabolizm: "Very rapidly in the lungs (~70% per pass)", chiqarilish: "Renal; very short action" },
+    korsatmalar: ["Severe chronic peripheral arterial disease (stage III–IV ischaemia)", "Ductus-dependent congenital heart defects in neonates (keeping the duct open before surgery)"],
+    qarrshi: ["Severe heart failure, pulmonary oedema", "Recent myocardial infarction, severe arrhythmia", "Bleeding tendency", "Hypersensitivity"],
+    nojoya: { "Vascular": "Hypotension, facial flushing", "In neonates": "Apnoea (monitoring needed), fever, brady-/tachycardia", "Local": "Injection-site pain/reaction" },
+    dozadan: "Hypotension, apnoea; reduce infusion, respiratory support.",
+    ozarotasir: ["With antihypertensives/vasodilators hypotension increases", "With anticoagulants bleeding risk"],
+    qollash: { kattalar: "Peripheral disease: 40–60 µg IV infusion (over 2 h)/day, as a course; only under physician supervision.", bolalar: "Neonates: 0.05–0.1 µg/kg/min infusion, under neonatologist supervision" },
+    chiqarish: "Concentrate/lyophilisate for infusion (20, 60 µg)"
+  }
+},
+
+"C01CX08": {
+  uz: {
+    gruppa: "Yurak stimulyatorlari — boshqa yurak stimulyatorlari",
+    farmTasir: "Kaltsiy sensibilizatori (inodilatator)",
+    farmakodinamika: `Levosimendan — kaltsiy sensibilizatori. Yurak miofilamentlarini kaltsiyга nisbatan sezgirroq qiladi (troponin C ga bog'lanib), bu qisqarish kuchini hujayra ichi kaltsiyni oshirmasdan kuchaytiradi (musbat inotrop, kislorod ehtiyojini ko'paytirmasdan). Bundan tashqari ATFga bog'liq kaliy kanallarini ochib tomirlarni kengaytiradi (vazodilatator). O'tkir yurak yetishmovchiligida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Faqat v/i infuziya", tarqalish: "Oqsilга yuqori", metabolizm: "Jigar/ichakда faol uzoq ta'sirли metabolitга", chiqarilish: "Buyrak/najas; faol metabolit T½ uzun (~75–80 soat)" },
+    korsatmalar: ["O'tkir dekompensatsiyalangan og'ir surункали yurak yetishmovchiligi (qisqa muddat)"],
+    qarrshi: ["Og'ir gipotenziya, taxikardiya", "Og'ir buyrak/jigar yetishmovchiligi", "Yurakни to'ldirishга/chiqarishга mexanik to'siq (og'ir aort/mitral stenoz)", "Torsades de pointes tarixi"],
+    nojoya: { "Yurak-tomir": "Gipotenziya, taxikardiya, aritmiya", "Asab": "Bosh og'rig'i, bosh aylanishi", "Metabolik": "Gipokaliemiya" },
+    dozadan: "Gipotenziya, taxikardiya; infuziyani kamaytirish, suyuqlik, simptomatik davo.",
+    ozarotasir: ["Boshqa vazodilatatorlar/antigipertenziv vositalar bilan gipotenziya kuchayadi", "Boshqa inotroplar bilan ta'sir qo'shiladi"],
+    qollash: { kattalar: "To'yintiruvchi 6–12 mkg/kg (10 daqiqа, ixtiyoriy), keyin 0,05–0,2 mkg/kg/daqiqa infuziya (24 soat); faqat monitoring ostida.", bolalar: "Faqat nazorat ostида" },
+    chiqarish: "Infuziya uchun konsentrat 2,5 mg/ml"
+  },
+  ru: {
+    gruppa: "Стимуляторы сердца — прочие стимуляторы сердца",
+    farmTasir: "Сенситизатор кальция (инодилататор)",
+    farmakodinamika: `Левосимендан — сенситизатор кальция. Повышает чувствительность миофиламентов сердца к кальцию (связываясь с тропонином C), что усиливает силу сокращения без увеличения внутриклеточного кальция (положительное инотропное действие без роста потребности в кислороде). Кроме того, открывает АТФ-зависимые калиевые каналы, расширяя сосуды (вазодилататор). Применяется при острой сердечной недостаточности.`,
+    farmakokinetika: { sorish: "Только в/в инфузия", tarqalish: "Высокая связь с белками", metabolizm: "В печени/кишечнике до активного длительно действующего метаболита", chiqarilish: "Почками/калом; T½ активного метаболита длинный (~75–80 ч)" },
+    korsatmalar: ["Острая декомпенсированная тяжёлая хроническая сердечная недостаточность (кратковременно)"],
+    qarrshi: ["Тяжёлая гипотензия, тахикардия", "Тяжёлая почечная/печёночная недостаточность", "Механическое препятствие наполнению/выбросу сердца (тяжёлый аортальный/митральный стеноз)", "Torsades de pointes в анамнезе"],
+    nojoya: { "Сердечно-сосудистые": "Гипотензия, тахикардия, аритмия", "Нервная система": "Головная боль, головокружение", "Метаболические": "Гипокалиемия" },
+    dozadan: "Гипотензия, тахикардия; снижение инфузии, жидкость, симптоматическая терапия.",
+    ozarotasir: ["С другими вазодилататорами/гипотензивными усиливается гипотензия", "С другими инотропами действие суммируется"],
+    qollash: { kattalar: "Нагрузочно 6–12 мкг/кг (за 10 мин, опционально), затем инфузия 0,05–0,2 мкг/кг/мин (24 ч); только под мониторингом.", bolalar: "Только под контролем" },
+    chiqarish: "Концентрат для инфузий 2,5 мг/мл"
+  },
+  en: {
+    gruppa: "Cardiac stimulants — other cardiac stimulants",
+    farmTasir: "Calcium sensitiser (inodilator)",
+    farmakodinamika: `Levosimendan is a calcium sensitiser. It increases the sensitivity of cardiac myofilaments to calcium (binding troponin C), increasing contractility without raising intracellular calcium (positive inotropy without increasing oxygen demand). It also opens ATP-dependent potassium channels, dilating vessels (vasodilator). It is used in acute heart failure.`,
+    farmakokinetika: { sorish: "IV infusion only", tarqalish: "High protein binding", metabolizm: "Hepatic/intestinal to an active long-acting metabolite", chiqarilish: "Renal/faecal; active metabolite T½ long (~75–80 h)" },
+    korsatmalar: ["Acute decompensated severe chronic heart failure (short-term)"],
+    qarrshi: ["Severe hypotension, tachycardia", "Severe renal/hepatic impairment", "Mechanical obstruction to filling/output (severe aortic/mitral stenosis)", "History of torsades de pointes"],
+    nojoya: { "Cardiovascular": "Hypotension, tachycardia, arrhythmia", "Nervous system": "Headache, dizziness", "Metabolic": "Hypokalaemia" },
+    dozadan: "Hypotension, tachycardia; reduce infusion, fluids, supportive care.",
+    ozarotasir: ["With other vasodilators/antihypertensives hypotension increases", "With other inotropes effects are additive"],
+    qollash: { kattalar: "Loading 6–12 µg/kg (over 10 min, optional), then infusion 0.05–0.2 µg/kg/min (24 h); only under monitoring.", bolalar: "Only under supervision" },
+    chiqarish: "Concentrate for infusion 2.5 mg/mL"
+  }
 }
 
 };
