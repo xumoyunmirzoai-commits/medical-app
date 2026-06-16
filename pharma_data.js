@@ -38570,6 +38570,216 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Loading 3 mg/kg SC once weekly (4 weeks), then maintenance 1.5 mg/kg/week, or 3 mg/kg/2 weeks, or 6 mg/kg/4 weeks.", bolalar: "Same regimen (by weight), under specialist supervision" },
     chiqarish: "Solution for injection (vial, various concentrations)"
   }
+},
+
+"B03AC": {
+  uz: {
+    gruppa: "Temir preparatlari — parenteral (temir (III) gidroksid saxaroza kompleksi)",
+    farmTasir: "Temir o'rnini bosuvchi (parenteral, temir-defitsit anemiyaда)",
+    farmakodinamika: `Temir (III) gidroksid saxaroza kompleksi — vena ichiga yuboriladigan parenteral temir preparati. Kompleksdan temir asta-sekin ajralib retikuloendotelial tizimda transferrinга o'tadi va ferritin shaklида zaxiraga olinadi yoki suyak iligida gemoglobin sintezi uchun ishlatiladi. Ichak orqали so'rilish samarasiz yoki ko'tarib bo'lmaganда, hamda tez temir zaxirasi tiklash kerakда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Faqat v/i (so'rilish bosqichidan o'tmaydi)", tarqalish: "Retikuloendotelial tizim, transferrinга", metabolizm: "Temir fiziologik almashinuvi", chiqarilish: "Buyrak orqали juda kam (asosан qayta ishlatiladi)" },
+    korsatmalar: ["Temir-defitsit anemiyasi — peroral temir samarasiz, ko'tarib bo'lmaydigan yoki yetarli emas bo'lганда", "Surункali buyrak kasalligi (dializ)да temir zaxirasini to'ldirish (eritropoetin bilan)", "Tez temir tiklash zarur bo'lган holatlar (og'ir anemiya, jarrohlik oldidan)"],
+    qarrshi: ["Temir ortiqchaligi (gemoxromatoz, gemosideroz)", "Temir bilan bog'liq bo'lmagan anemiya", "Birinchi trimestr homiladorlik", "Parenteral temir/preparatga yuqori sezuvchanlik, og'ir jigar yetishmovchiligi"],
+    nojoya: { "Immun": "Allergik/anafilaktoid reaksiya (xavfli — kuzatuv va reanimatsiya tayyorligi shart)", "Tomir": "Gipotenziya, bosh aylanishi (tez yuborishda)", "Mahalliy": "In'eksiya joyida og'riq, teri qoramtirlanishi (ekstravazatsiya)", "Boshqa": "Ko'ngil aynishi, metall ta'mi, mialgiya" },
+    dozadan: "Temir ortiqchaligi (uzoq/yuqori doza) — to'qima zararlanishi; ferritin/transferrin to'yinishini nazorat, kerakда xelator (deferoksamin).",
+    ozarotasir: ["Peroral temir bilan birga BERILMAYDI (parenteral kursда ich temirни to'xtatish)", "ACE inhibitorlari allergik reaksiya belgilarини kuchaytirishi mumkin"],
+    qollash: { kattalar: "Umumiy defitsit dozasiga qarab (Ganzoni formulasi), bir martaда odatda ≤200 mg, sekin v/i yoki infuziya; nazorat ostida.", bolalar: "Vaznга va defitsitга qarab, mutaxassis nazoratида" },
+    chiqarish: "In'eksiya/infuziya uchun eritma 20 mg/ml (temir saxaroza, ampula)"
+  },
+  ru: {
+    gruppa: "Препараты железа — парентеральные (железа (III) гидроксид сахарозный комплекс)",
+    farmTasir: "Восполнение железа (парентерально, при железодефицитной анемии)",
+    farmakodinamika: `Железа (III) гидроксид сахарозный комплекс — парентеральный препарат железа для внутривенного введения. Из комплекса железо постепенно высвобождается, переходит на трансферрин в ретикулоэндотелиальной системе и депонируется в виде ферритина или используется в костном мозге для синтеза гемоглобина. Применяется, когда всасывание через кишечник неэффективно или непереносимо, а также при необходимости быстрого восполнения запасов железа.`,
+    farmakokinetika: { sorish: "Только в/в (минует этап всасывания)", tarqalish: "Ретикулоэндотелиальная система, на трансферрин", metabolizm: "Физиологический обмен железа", chiqarilish: "Почками очень мало (в основном реутилизируется)" },
+    korsatmalar: ["Железодефицитная анемия — при неэффективности, непереносимости или недостаточности перорального железа", "Восполнение запасов железа при ХБП (диализ) (с эритропоэтином)", "Состояния, требующие быстрого восполнения железа (тяжёлая анемия, перед операцией)"],
+    qarrshi: ["Перегрузка железом (гемохроматоз, гемосидероз)", "Анемия, не связанная с дефицитом железа", "I триместр беременности", "Гиперчувствительность к парентеральному железу/препарату, тяжёлая печёночная недостаточность"],
+    nojoya: { "Иммунные": "Аллергические/анафилактоидные реакции (опасны — необходимы наблюдение и готовность к реанимации)", "Сосуды": "Гипотензия, головокружение (при быстром введении)", "Местные": "Боль, потемнение кожи в месте инъекции (экстравазация)", "Прочее": "Тошнота, металлический вкус, миалгия" },
+    dozadan: "Перегрузка железом (длительно/высокая доза) — повреждение тканей; контроль ферритина/насыщения трансферрина, при необходимости хелатор (дефероксамин).",
+    ozarotasir: ["НЕ вводят вместе с пероральным железом (на курсе парентерального — отменить пероральное)", "иАПФ могут усиливать симптомы аллергической реакции"],
+    qollash: { kattalar: "По общей дозе дефицита (формула Ганзони), за раз обычно ≤200 мг, медленно в/в или инфузионно; под наблюдением.", bolalar: "По массе и дефициту, под наблюдением специалиста" },
+    chiqarish: "Раствор для инъекций/инфузий 20 мг/мл (железа сахарат, ампулы)"
+  },
+  en: {
+    gruppa: "Iron preparations — parenteral (iron (III) hydroxide sucrose complex)",
+    farmTasir: "Iron replacement (parenteral, for iron deficiency anaemia)",
+    farmakodinamika: `Iron (III) hydroxide sucrose complex is a parenteral iron preparation for intravenous use. Iron is gradually released from the complex, transferred to transferrin in the reticuloendothelial system and stored as ferritin or used in the marrow for haemoglobin synthesis. It is used when intestinal absorption is ineffective or not tolerated, and when iron stores must be replenished quickly.`,
+    farmakokinetika: { sorish: "IV only (bypasses the absorption step)", tarqalish: "Reticuloendothelial system, to transferrin", metabolizm: "Physiological iron metabolism", chiqarilish: "Very little renal (mostly reutilised)" },
+    korsatmalar: ["Iron deficiency anaemia — when oral iron is ineffective, not tolerated or insufficient", "Replenishing iron stores in CKD (dialysis) (with erythropoietin)", "Conditions needing rapid iron replacement (severe anaemia, before surgery)"],
+    qarrshi: ["Iron overload (haemochromatosis, haemosiderosis)", "Anaemia not due to iron deficiency", "First trimester of pregnancy", "Hypersensitivity to parenteral iron/the product, severe hepatic impairment"],
+    nojoya: { "Immune": "Allergic/anaphylactoid reactions (dangerous — monitoring and resuscitation readiness required)", "Vascular": "Hypotension, dizziness (with rapid injection)", "Local": "Injection-site pain, skin staining (extravasation)", "Other": "Nausea, metallic taste, myalgia" },
+    dozadan: "Iron overload (prolonged/high dose) — tissue damage; monitor ferritin/transferrin saturation, chelator (deferoxamine) if needed.",
+    ozarotasir: ["NOT given together with oral iron (stop oral iron during a parenteral course)", "ACE inhibitors may intensify allergic reaction symptoms"],
+    qollash: { kattalar: "By total deficit dose (Ganzoni formula), usually ≤200 mg per dose, slow IV or infusion; under supervision.", bolalar: "By weight and deficit, under specialist supervision" },
+    chiqarish: "Solution for injection/infusion 20 mg/mL (iron sucrose, ampoule)"
+  }
+},
+
+"B03AB": {
+  uz: {
+    gruppa: "Temir preparatlari — peroral (temir (III) gidroksid polimaltozat)",
+    farmTasir: "Temir o'rnini bosuvchi (peroral, uch valentli)",
+    farmakodinamika: `Temir (III) gidroksid polimaltozat kompleksi (IPC) — peroral uch valentli (Fe³⁺) temir preparati. Temir polimaltoza qobiqда barqaror kompleks holatда bo'lib, ichakda nazoratli, faol transport orqали so'riladi (ikki valentli tuzlardagidek erkin ion bermaydi) — shuning uchun oshqozon-ichak nojo'ya ta'siri va ovqat bilan o'zaro ta'siri kamroq, lekin so'rilishi sekinroq. So'rilгач gemoglobin va ferritin sintezida ishlatiladi.`,
+    farmakokinetika: { sorish: "Ichakdan (nazoratli, sulfatdan sekinroq)", tarqalish: "Transferrinга, suyak iligi va zaxiralarга", metabolizm: "Temir fiziologik almashinuvi", chiqarilish: "So'rilmagani najas bilan" },
+    korsatmalar: ["Temir-defitsit anemiyasi davosi", "Yashirin (latent) temir tanqisligi profilaktikasi va davosi (homiladorlik, o'sish, ko'p hayz)"],
+    qarrshi: ["Temir ortiqchaligi (gemoxromatoz, gemosideroz)", "Temir bilan bog'liq bo'lmagan anemiya (gemolitik, megaloblastik B12 tanqisligi)", "Temirдан foydalanish buzilishi (sideroaxrestik anemiya, qo'rg'oshin anemiyasi)"],
+    nojoya: { "Oshqozon-ichak": "Ich qotishi, diareya, ko'ngil aynishi, epigastriyда og'irlik (ikki valentlидан kamroq)", "Boshqa": "Najasni qoraga bo'yashi (zararsiz), tishlar dog'lanishi (suyuq shakl — naycha bilan)" },
+    dozadan: "Uch valentli — o'tkir zaharlanish xavfi ikki valentlидан ancha past; ortiqcha qabulда oshqozon-ichak.",
+    ozarotasir: ["Ikki valentli tuzlardan farqli — ovqat va ko'p dorilar bilan o'zaro ta'siri kam (tetratsiklin/antatsidlar bilan baribir interval afzal)"],
+    qollash: { kattalar: "Element temir 100–200 mg/sutka (bo'lib yoki bir martaда), ovqat bilan/keyin; davo 3–6 oy (zaxira to'lгунcha).", bolalar: "~3 mg/kg/sutka element temir (suyuq shakl), ko'rsatmага ko'ra" },
+    chiqarish: "Chaynaladigan tabletkalar, ichish uchun eritma/tomchilar, sirop (element temir bo'yicha)"
+  },
+  ru: {
+    gruppa: "Препараты железа — пероральные (железа (III) гидроксид полимальтозат)",
+    farmTasir: "Восполнение железа (перорально, трёхвалентное)",
+    farmakodinamika: `Железа (III) гидроксид полимальтозный комплекс (ЖГПК) — пероральный препарат трёхвалентного (Fe³⁺) железа. Железо находится в устойчивом комплексе в полимальтозной оболочке и всасывается в кишечнике путём контролируемого активного транспорта (не даёт свободных ионов, как двухвалентные соли) — поэтому меньше ЖКТ-побочных эффектов и взаимодействий с пищей, но всасывание медленнее. После всасывания используется в синтезе гемоглобина и ферритина.`,
+    farmakokinetika: { sorish: "Из кишечника (контролируемо, медленнее сульфата)", tarqalish: "На трансферрин, в костный мозг и депо", metabolizm: "Физиологический обмен железа", chiqarilish: "Невсосавшееся с калом" },
+    korsatmalar: ["Лечение железодефицитной анемии", "Профилактика и лечение латентного дефицита железа (беременность, рост, обильные менструации)"],
+    qarrshi: ["Перегрузка железом (гемохроматоз, гемосидероз)", "Анемия, не связанная с дефицитом железа (гемолитическая, мегалобластная при дефиците B12)", "Нарушение утилизации железа (сидероахрестическая анемия, свинцовая анемия)"],
+    nojoya: { "ЖКТ": "Запор, диарея, тошнота, тяжесть в эпигастрии (меньше, чем у двухвалентного)", "Прочее": "Окрашивание кала в чёрный цвет (безвредно), окрашивание зубов (жидкая форма — через трубочку)" },
+    dozadan: "Трёхвалентное — риск острого отравления значительно ниже, чем у двухвалентного; при избытке — ЖКТ-нарушения.",
+    ozarotasir: ["В отличие от двухвалентных солей — мало взаимодействий с пищей и многими препаратами (с тетрациклином/антацидами всё же предпочтителен интервал)"],
+    qollash: { kattalar: "Элементарное железо 100–200 мг/сут (дробно или за раз), с едой/после; лечение 3–6 мес (до восполнения депо).", bolalar: "~3 мг/кг/сут элементарного железа (жидкая форма), по показаниям" },
+    chiqarish: "Жевательные таблетки, раствор/капли для приёма внутрь, сироп (по элементарному железу)"
+  },
+  en: {
+    gruppa: "Iron preparations — oral (iron (III) hydroxide polymaltose)",
+    farmTasir: "Iron replacement (oral, ferric)",
+    farmakodinamika: `Iron (III) hydroxide polymaltose complex (IPC) is an oral ferric (Fe³⁺) iron preparation. The iron is held in a stable complex within a polymaltose shell and absorbed in the gut by controlled active transport (it does not release free ions like ferrous salts) — so it causes fewer GI side effects and food interactions, but is absorbed more slowly. Once absorbed it is used in haemoglobin and ferritin synthesis.`,
+    farmakokinetika: { sorish: "From the gut (controlled, slower than sulfate)", tarqalish: "To transferrin, marrow and stores", metabolizm: "Physiological iron metabolism", chiqarilish: "Unabsorbed portion in faeces" },
+    korsatmalar: ["Treatment of iron deficiency anaemia", "Prevention and treatment of latent iron deficiency (pregnancy, growth, heavy menses)"],
+    qarrshi: ["Iron overload (haemochromatosis, haemosiderosis)", "Anaemia not due to iron deficiency (haemolytic, megaloblastic from B12 deficiency)", "Impaired iron utilisation (sideroachrestic anaemia, lead anaemia)"],
+    nojoya: { "GI": "Constipation, diarrhoea, nausea, epigastric heaviness (less than ferrous)", "Other": "Black staining of stool (harmless), tooth staining (liquid form — use a straw)" },
+    dozadan: "Ferric — acute poisoning risk much lower than ferrous; excess intake causes GI upset.",
+    ozarotasir: ["Unlike ferrous salts — few interactions with food and many drugs (an interval with tetracycline/antacids is still preferable)"],
+    qollash: { kattalar: "Elemental iron 100–200 mg/day (divided or once), with/after food; treat 3–6 months (until stores replete).", bolalar: "~3 mg/kg/day elemental iron (liquid form), as indicated" },
+    chiqarish: "Chewable tablets, oral solution/drops, syrup (by elemental iron)"
+  }
+},
+
+"B03AA02": {
+  uz: {
+    gruppa: "Temir preparatlari — peroral (temir fumarat, Fe²⁺)",
+    farmTasir: "Temir o'rnini bosuvchi (peroral, ikki valentli)",
+    farmakodinamika: `Temir (II) fumarat — peroral ikki valentli (Fe²⁺) temir tuzi. Ikki valentli temir o'n ikki barmoq ichak va yuqori ingichka ichakда yaxshi so'riladi (DMT1 tashuvchisi orqали), so'ngra transferrin bilan suyak iligiга tashilib gemoglobin sintezida va ferritin/gemosiderin shaklida zaxirada ishlatiladi. Temir tanqisligi keltirib chiqargan gipoxrom mikrotsitar anemiyani to'g'rilaydi. Fumarat tuzi sulfatga nisbatan element temir ulushi yuqoriroq (~33%).`,
+    farmakokinetika: { sorish: "Ichakdan (och qoringa yaxshiroq; ovqat/fitat kamaytiradi)", tarqalish: "Transferrinга, suyak iligi va zaxiralarга", metabolizm: "Temir fiziologik almashinuvi (faol chiqarilmaydi)", chiqarilish: "Asosан epiteliy ko'chishi va najas bilan" },
+    korsatmalar: ["Temir-defitsit anemiyasi davosi", "Yashirin temir tanqisligi va uning profilaktikasi (homiladorlik, ko'p hayz, o'sish)"],
+    qarrshi: ["Temir ortiqchaligi (gemoxromatoz, gemosideroz)", "Temir bilan bog'liq bo'lmagan anemiya, temirдан foydalanish buzilishi", "Oshqozon-ichak yara kasalligi avj olishi, yallig'lanish ichak kasalligi (ehtiyot)"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, epigastriyда og'riq, ich qotishi yoki diareya, qoramtir najas (xos)", "Xavf": "Bolalarда o'tkir temir zaharlanishi — HALOKATLI bo'lishi mumkin (bolalardan uzoqда saqlash)", "Boshqa": "Tishlar dog'lanishi (suyuq)" },
+    dozadan: "O'tkir zaharlanish (ayniqsa bolalarда): qusish/qonли diareya, atsidoz, shok, jigar shikasti — deferoksamin (xelator), shoshilinch yordam.",
+    ozarotasir: ["Tetratsiklin, ftorxinolon, levotiroksin, bisfosfonat so'rilishini kamaytiradi (interval ≥2 soat)", "Antatsidlar, kal'siy, choy/qahva (tanin) temir so'rilishini kamaytiradi; vitamin C oshiradi"],
+    qollash: { kattalar: "Element temir 100–200 mg/sutka (bo'lib), och qoringa yoki ovqatga moslab; davo zaxira to'lгунcha (~3 oy).", bolalar: "3–6 mg/kg/sutka element temir (bo'lib), ko'rsatmага ko'ra" },
+    chiqarish: "Tabletkalar (temir fumarat; element temir bo'yicha); kombinatsiyada folat bilan ham"
+  },
+  ru: {
+    gruppa: "Препараты железа — пероральные (железа фумарат, Fe²⁺)",
+    farmTasir: "Восполнение железа (перорально, двухвалентное)",
+    farmakodinamika: `Железа (II) фумарат — пероральная двухвалентная (Fe²⁺) соль железа. Двухвалентное железо хорошо всасывается в двенадцатиперстной и верхней тонкой кишке (через переносчик DMT1), затем транспортируется трансферрином в костный мозг для синтеза гемоглобина и депонируется в виде ферритина/гемосидерина. Корректирует гипохромную микроцитарную анемию при дефиците железа. Соль фумарата содержит больше элементарного железа, чем сульфат (~33%).`,
+    farmakokinetika: { sorish: "Из кишечника (лучше натощак; пища/фитаты снижают)", tarqalish: "На трансферрин, в костный мозг и депо", metabolizm: "Физиологический обмен железа (активно не выводится)", chiqarilish: "В основном со слущенным эпителием и калом" },
+    korsatmalar: ["Лечение железодефицитной анемии", "Латентный дефицит железа и его профилактика (беременность, обильные менструации, рост)"],
+    qarrshi: ["Перегрузка железом (гемохроматоз, гемосидероз)", "Анемия, не связанная с дефицитом железа, нарушение утилизации железа", "Обострение язвенной болезни ЖКТ, ВЗК (осторожно)"],
+    nojoya: { "ЖКТ": "Тошнота, боль в эпигастрии, запор или диарея, тёмный кал (характерно)", "Опасность": "Острое отравление железом у детей — может быть СМЕРТЕЛЬНЫМ (хранить вне доступа детей)", "Прочее": "Окрашивание зубов (жидкие формы)" },
+    dozadan: "Острое отравление (особенно у детей): рвота/кровавая диарея, ацидоз, шок, поражение печени — дефероксамин (хелатор), неотложная помощь.",
+    ozarotasir: ["Снижает всасывание тетрациклина, фторхинолонов, левотироксина, бисфосфонатов (интервал ≥2 ч)", "Антациды, кальций, чай/кофе (танин) снижают всасывание железа; витамин C повышает"],
+    qollash: { kattalar: "Элементарное железо 100–200 мг/сут (дробно), натощак или подстраивая под еду; лечение до восполнения депо (~3 мес).", bolalar: "3–6 мг/кг/сут элементарного железа (дробно), по показаниям" },
+    chiqarish: "Таблетки (железа фумарат; по элементарному железу); также в комбинации с фолатом"
+  },
+  en: {
+    gruppa: "Iron preparations — oral (ferrous fumarate, Fe²⁺)",
+    farmTasir: "Iron replacement (oral, ferrous)",
+    farmakodinamika: `Ferrous (II) fumarate is an oral ferrous (Fe²⁺) iron salt. Ferrous iron is well absorbed in the duodenum and upper small intestine (via the DMT1 transporter), then transported by transferrin to the marrow for haemoglobin synthesis and stored as ferritin/haemosiderin. It corrects the hypochromic microcytic anaemia of iron deficiency. The fumarate salt contains more elemental iron than sulfate (~33%).`,
+    farmakokinetika: { sorish: "From the gut (better fasting; food/phytates reduce)", tarqalish: "To transferrin, marrow and stores", metabolizm: "Physiological iron metabolism (not actively excreted)", chiqarilish: "Mainly via sloughed epithelium and faeces" },
+    korsatmalar: ["Treatment of iron deficiency anaemia", "Latent iron deficiency and its prevention (pregnancy, heavy menses, growth)"],
+    qarrshi: ["Iron overload (haemochromatosis, haemosiderosis)", "Anaemia not due to iron deficiency, impaired iron utilisation", "Exacerbation of GI ulcer disease, IBD (caution)"],
+    nojoya: { "GI": "Nausea, epigastric pain, constipation or diarrhoea, dark stool (characteristic)", "Hazard": "Acute iron poisoning in children — can be FATAL (keep out of children's reach)", "Other": "Tooth staining (liquid forms)" },
+    dozadan: "Acute poisoning (especially in children): vomiting/bloody diarrhoea, acidosis, shock, liver injury — deferoxamine (chelator), emergency care.",
+    ozarotasir: ["Reduces absorption of tetracycline, fluoroquinolones, levothyroxine, bisphosphonates (≥2 h interval)", "Antacids, calcium, tea/coffee (tannin) reduce iron absorption; vitamin C increases it"],
+    qollash: { kattalar: "Elemental iron 100–200 mg/day (divided), fasting or adjusted to meals; treat until stores replete (~3 months).", bolalar: "3–6 mg/kg/day elemental iron (divided), as indicated" },
+    chiqarish: "Tablets (ferrous fumarate; by elemental iron); also combined with folate"
+  }
+},
+
+"B02AE10": {
+  uz: {
+    gruppa: "Temir preparatlari — peroral (temir sulfat, Fe²⁺)",
+    farmTasir: "Temir o'rnini bosuvchi (peroral, ikki valentli — etalon)",
+    farmakodinamika: `Temir (II) sulfat — peroral ikki valentli (Fe²⁺) temir tuzi, temir-defitsit anemiyasi davosida eng keng tarqalган va «etalon» preparat. Fe²⁺ ichakdан yaxshi so'rilib transferrin orqali suyak iligiга tashiladi va gemoglobin sintezi hamда temir zaxirasi (ferritin) uchun ishlatiladi. Eng arzon va samarali, lekin oshqozon-ichak nojo'ya ta'siri uch valentliдан ko'proq. Element temir ulushi ~20%.`,
+    farmakokinetika: { sorish: "Ichakdan (och qoringa yaxshiroq; ovqat/fitat/kal'siy kamaytiradi)", tarqalish: "Transferrinга, suyak iligi va zaxiralarга", metabolizm: "Temir fiziologik almashinuvi", chiqarilish: "Asosан epiteliy ko'chishi/najas" },
+    korsatmalar: ["Temir-defitsit anemiyasi davosi (birinchi qatorдagi peroral temir)", "Yashirin temir tanqisligi va profilaktikasi (homiladorlik, ko'p hayz, o'sish)"],
+    qarrshi: ["Temir ortiqchaligi (gemoxromatoz, gemosideroz)", "Temir bilan bog'liq bo'lmagan anemiya, temirдан foydalanish buzilishi", "Oshqozon-ichak yara avj olishi, yallig'lanish ichak kasalligi (ehtiyot)"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, epigastriyда og'riq, ich qotishi/diareya, qoramtir najas (xos)", "Xavf": "Bolalarда o'tkir temir zaharlanishi — HALOKATLI (bolalardan uzoqда saqlash)", "Boshqa": "Tishlar dog'lanishi (suyuq shakl)" },
+    dozadan: "O'tkir zaharlanish (bolalarда xavfli): qusish, qonли diareya, atsidoz, shok, jigar shikasti — deferoksamin (xelator), shoshilinch yordam.",
+    ozarotasir: ["Tetratsiklin, ftorxinolon, levotiroksin, bisfosfonat, penisillamin so'rilishini kamaytiradi (interval ≥2 soat)", "Antatsidlar, kal'siy, choy/qahva temir so'rilishini kamaytiradi; vitamin C/kislotali muhit oshiradi"],
+    qollash: { kattalar: "Element temir 100–200 mg/sutka (bo'lib), och qoringa; davo zaxira to'lгунcha (~3 oy).", bolalar: "3–6 mg/kg/sutka element temir (bo'lib), ko'rsatmага ko'ra" },
+    chiqarish: "Uzaytirilган/oddiy tabletkalar, kapsulalar, sirop (element temir bo'yicha); folat/vitamin C bilan kombinatsiyalar"
+  },
+  ru: {
+    gruppa: "Препараты железа — пероральные (железа сульфат, Fe²⁺)",
+    farmTasir: "Восполнение железа (перорально, двухвалентное — эталон)",
+    farmakodinamika: `Железа (II) сульфат — пероральная двухвалентная (Fe²⁺) соль железа, наиболее распространённый и «эталонный» препарат для лечения железодефицитной анемии. Fe²⁺ хорошо всасывается в кишечнике, транспортируется трансферрином в костный мозг и используется для синтеза гемоглобина и депо железа (ферритин). Самый дешёвый и эффективный, но ЖКТ-побочные эффекты выше, чем у трёхвалентного. Доля элементарного железа ~20%.`,
+    farmakokinetika: { sorish: "Из кишечника (лучше натощак; пища/фитаты/кальций снижают)", tarqalish: "На трансферрин, в костный мозг и депо", metabolizm: "Физиологический обмен железа", chiqarilish: "В основном со слущенным эпителием/калом" },
+    korsatmalar: ["Лечение железодефицитной анемии (пероральное железо первой линии)", "Латентный дефицит железа и его профилактика (беременность, обильные менструации, рост)"],
+    qarrshi: ["Перегрузка железом (гемохроматоз, гемосидероз)", "Анемия, не связанная с дефицитом железа, нарушение утилизации железа", "Обострение язвенной болезни ЖКТ, ВЗК (осторожно)"],
+    nojoya: { "ЖКТ": "Тошнота, боль в эпигастрии, запор/диарея, тёмный кал (характерно)", "Опасность": "Острое отравление железом у детей — СМЕРТЕЛЬНО (хранить вне доступа детей)", "Прочее": "Окрашивание зубов (жидкие формы)" },
+    dozadan: "Острое отравление (опасно у детей): рвота, кровавая диарея, ацидоз, шок, поражение печени — дефероксамин (хелатор), неотложная помощь.",
+    ozarotasir: ["Снижает всасывание тетрациклина, фторхинолонов, левотироксина, бисфосфонатов, пеницилламина (интервал ≥2 ч)", "Антациды, кальций, чай/кофе снижают всасывание; витамин C/кислая среда повышают"],
+    qollash: { kattalar: "Элементарное железо 100–200 мг/сут (дробно), натощак; лечение до восполнения депо (~3 мес).", bolalar: "3–6 мг/кг/сут элементарного железа (дробно), по показаниям" },
+    chiqarish: "Пролонгированные/обычные таблетки, капсулы, сироп (по элементарному железу); комбинации с фолатом/витамином C"
+  },
+  en: {
+    gruppa: "Iron preparations — oral (ferrous sulfate, Fe²⁺)",
+    farmTasir: "Iron replacement (oral, ferrous — the reference)",
+    farmakodinamika: `Ferrous (II) sulfate is an oral ferrous (Fe²⁺) iron salt and the most widely used 'reference' preparation for treating iron deficiency anaemia. Fe²⁺ is well absorbed in the gut, transported by transferrin to the marrow and used for haemoglobin synthesis and iron stores (ferritin). It is the cheapest and effective, but GI side effects are higher than with ferric iron. Elemental iron content ~20%.`,
+    farmakokinetika: { sorish: "From the gut (better fasting; food/phytates/calcium reduce)", tarqalish: "To transferrin, marrow and stores", metabolizm: "Physiological iron metabolism", chiqarilish: "Mainly via sloughed epithelium/faeces" },
+    korsatmalar: ["Treatment of iron deficiency anaemia (first-line oral iron)", "Latent iron deficiency and its prevention (pregnancy, heavy menses, growth)"],
+    qarrshi: ["Iron overload (haemochromatosis, haemosiderosis)", "Anaemia not due to iron deficiency, impaired iron utilisation", "Exacerbation of GI ulcer disease, IBD (caution)"],
+    nojoya: { "GI": "Nausea, epigastric pain, constipation/diarrhoea, dark stool (characteristic)", "Hazard": "Acute iron poisoning in children — FATAL (keep out of children's reach)", "Other": "Tooth staining (liquid forms)" },
+    dozadan: "Acute poisoning (dangerous in children): vomiting, bloody diarrhoea, acidosis, shock, liver injury — deferoxamine (chelator), emergency care.",
+    ozarotasir: ["Reduces absorption of tetracycline, fluoroquinolones, levothyroxine, bisphosphonates, penicillamine (≥2 h interval)", "Antacids, calcium, tea/coffee reduce absorption; vitamin C/acidic environment increase it"],
+    qollash: { kattalar: "Elemental iron 100–200 mg/day (divided), fasting; treat until stores replete (~3 months).", bolalar: "3–6 mg/kg/day elemental iron (divided), as indicated" },
+    chiqarish: "Extended-release/plain tablets, capsules, syrup (by elemental iron); combinations with folate/vitamin C"
+  }
+},
+
+"B03AC06": {
+  uz: {
+    gruppa: "Temir preparatlari — parenteral (temir dekstran)",
+    farmTasir: "Temir o'rnini bosuvchi (parenteral, yuqori dozaли)",
+    farmakodinamika: `Temir dekstran — temir (III) gidroksid va dekstran polimerining kompleksi, parenteral temir preparati. Yuqori molekulali barqaror kompleks bo'lib, bir martaда katta doza temir (jumladан to'liq defitsitни) yuborish imkonini beradi; makrofaglar tomonidan ushlanib temir asta-sekin ajraladi va transferrin/ferritinга o'tadi. Dekstran komponenti tufayli anafilaktik reaksiya xavfi boshqa parenteral temirларга nisbatan yuqoriroq — sinov dozasi va kuzatuv talab qilinadi.`,
+    farmakokinetika: { sorish: "V/i yoki chuqur v/m (Z-yo'l)", tarqalish: "Retikuloendotelial tizim", metabolizm: "Makrofaglarда dekstran va temirga ajraladi", chiqarilish: "Temir qayta ishlatiladi; dekstran metabollanadi" },
+    korsatmalar: ["Og'ir temir-defitsit anemiyasi — peroral temir samarasiz/ko'tarib bo'lmaydiganда yoki tez katta doza kerakда", "Surункali buyrak kasalligi (dializ)да temir zaxirasini to'ldirish"],
+    qarrshi: ["Temir ortiqchaligi (gemoxromatoz, gemosideroz)", "Temir bilan bog'liq bo'lmagan anemiya", "Dekstran/temirга yuqori sezuvchanlik, og'ir allergiya/astma anamnezi", "Og'ir jigar yetishmovchiligi, o'tkir infeksiya"],
+    nojoya: { "Immun": "Anafilaktik/anafilaktoid reaksiya (xavfli — sinov dozasi, reanimatsiya tayyorligi)", "Tomir": "Gipotenziya, qizarish (tez yuborishda)", "Kechikgan": "Artralgiya, mialgiya, isitma (kechki reaksiya)", "Mahalliy": "V/m — teri qoramtirlanishi, og'riq" },
+    dozadan: "Temir ortiqchaligi (ortiqcha umumiy doza) — ferritin/transferrin nazorati, kerakда deferoksamin.",
+    ozarotasir: ["Peroral temir bilan birga BERILMAYDI", "ACE inhibitorlari allergik reaksiya og'irligini oshirishi mumkin"],
+    qollash: { kattalar: "Umumiy defitsit dozasini hisoblab (vazn × Hb defitsiti), sinov dozasidan keyin infuziya/in'eksiya; nazorat ostida.", bolalar: "Vaznга/defitsitга qarab, mutaxassis nazoratида" },
+    chiqarish: "In'eksiya/infuziya uchun eritma (temir dekstran 50 mg/ml, ampula/flakon)"
+  },
+  ru: {
+    gruppa: "Препараты железа — парентеральные (железа декстран)",
+    farmTasir: "Восполнение железа (парентерально, высокодозное)",
+    farmakodinamika: `Железа декстран — комплекс железа (III) гидроксида с полимером декстрана, парентеральный препарат железа. Высокомолекулярный устойчивый комплекс позволяет вводить большую дозу железа за раз (в т.ч. полный дефицит); захватывается макрофагами, железо постепенно высвобождается и переходит на трансферрин/ферритин. Из-за декстранового компонента риск анафилактической реакции выше, чем у других парентеральных форм — нужна пробная доза и наблюдение.`,
+    farmakokinetika: { sorish: "В/в или глубоко в/м (Z-путь)", tarqalish: "Ретикуло­эндотелиальная система", metabolizm: "В макрофагах распадается на декстран и железо", chiqarilish: "Железо реутилизируется; декстран метаболизируется" },
+    korsatmalar: ["Тяжёлая железодефицитная анемия — при неэффективности/непереносимости перорального железа или необходимости быстрой большой дозы", "Восполнение запасов железа при ХБП (диализ)"],
+    qarrshi: ["Перегрузка железом (гемохроматоз, гемосидероз)", "Анемия, не связанная с дефицитом железа", "Гиперчувствительность к декстрану/железу, тяжёлая аллергия/астма в анамнезе", "Тяжёлая печёночная недостаточность, острая инфекция"],
+    nojoya: { "Иммунные": "Анафилактическая/анафилактоидная реакция (опасна — пробная доза, готовность к реанимации)", "Сосуды": "Гипотензия, покраснение (при быстром введении)", "Отсроченные": "Артралгия, миалгия, лихорадка (поздняя реакция)", "Местные": "При в/м — потемнение кожи, боль" },
+    dozadan: "Перегрузка железом (избыточная общая доза) — контроль ферритина/трансферрина, при необходимости дефероксамин.",
+    ozarotasir: ["НЕ вводят вместе с пероральным железом", "иАПФ могут усиливать тяжесть аллергической реакции"],
+    qollash: { kattalar: "Рассчитав общую дозу дефицита (масса × дефицит Hb), после пробной дозы инфузия/инъекция; под наблюдением.", bolalar: "По массе/дефициту, под наблюдением специалиста" },
+    chiqarish: "Раствор для инъекций/инфузий (железа декстран 50 мг/мл, ампула/флакон)"
+  },
+  en: {
+    gruppa: "Iron preparations — parenteral (iron dextran)",
+    farmTasir: "Iron replacement (parenteral, high-dose)",
+    farmakodinamika: `Iron dextran is a complex of iron (III) hydroxide with a dextran polymer, a parenteral iron preparation. As a high-molecular-weight stable complex it allows a large iron dose in one administration (including the full deficit); it is taken up by macrophages, and iron is gradually released to transferrin/ferritin. Because of the dextran component, the anaphylaxis risk is higher than other parenteral forms — a test dose and monitoring are required.`,
+    farmakokinetika: { sorish: "IV or deep IM (Z-track)", tarqalish: "Reticuloendothelial system", metabolizm: "In macrophages split into dextran and iron", chiqarilish: "Iron reutilised; dextran metabolised" },
+    korsatmalar: ["Severe iron deficiency anaemia — when oral iron is ineffective/not tolerated or a rapid large dose is needed", "Replenishing iron stores in CKD (dialysis)"],
+    qarrshi: ["Iron overload (haemochromatosis, haemosiderosis)", "Anaemia not due to iron deficiency", "Hypersensitivity to dextran/iron, severe allergy/asthma history", "Severe hepatic impairment, acute infection"],
+    nojoya: { "Immune": "Anaphylactic/anaphylactoid reaction (dangerous — test dose, resuscitation readiness)", "Vascular": "Hypotension, flushing (with rapid injection)", "Delayed": "Arthralgia, myalgia, fever (late reaction)", "Local": "With IM — skin staining, pain" },
+    dozadan: "Iron overload (excessive total dose) — monitor ferritin/transferrin, deferoxamine if needed.",
+    ozarotasir: ["NOT given together with oral iron", "ACE inhibitors may worsen allergic reaction severity"],
+    qollash: { kattalar: "Calculate total deficit dose (weight × Hb deficit), after a test dose give infusion/injection; under supervision.", bolalar: "By weight/deficit, under specialist supervision" },
+    chiqarish: "Solution for injection/infusion (iron dextran 50 mg/mL, ampoule/vial)"
+  }
 }
 
 };
