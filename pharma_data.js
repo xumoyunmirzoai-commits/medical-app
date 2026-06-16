@@ -39284,6 +39284,258 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Hypoglycaemia: 20–50 mL of 40% IV; maintenance: 5% infusion by need (glycaemic monitoring).", bolalar: "Hypoglycaemia 2 mL/kg of 10%; maintenance by weight" },
     chiqarish: "Solution for infusion 5%, 10%, 20%, 40% (vial/bag/ampoule)"
   }
+},
+
+"B05BA": {
+  uz: {
+    gruppa: "Parenteral oziqlanish — amino kislota eritmalari",
+    farmTasir: "Oqsil (azot) manbai (parenteral oziqlanish)",
+    farmakodinamika: `Amino kislota eritmalari — parenteral oziqlanish uchun mo'ljallangan, muhim (almashtirilmas) va almashtiriladigan L-amino kislotalar muvozanatли aralashmasi. Vena ichiga yuborilгач oqsil sintezi uchun bevosita «qurilish materiali» beradi, manfiy azot balansini to'g'rilaydi va to'qima tiklanishi/immun funksiyani qo'llab-quvvatlaydi. Yetarli energiya (glyukoza/yog') bilan birga berilганда aminokislotalar oqsil sintezida ishlatiladi (energiyaга sarflanmaydi).`,
+    farmakokinetika: { sorish: "Faqat v/i (markaziy yoki periferik vena)", tarqalish: "To'qimalarга", metabolizm: "Oqsil sintezi/transaminatsiya", chiqarilish: "Azot mochevina sifatида buyrak orqали" },
+    korsatmalar: ["Og'iz/ichak orqали oziqlana olmaydiganларда parenteral oziqlanish (jarrohlik, og'ir kasallik, oshqozon-ichak yetishmovchiligi)", "Og'ir oqsil-energiya yetishmovchiligi, katabolik holatlar (sepsis, kuyish, travma)", "Maxsus shakllar — jigar (tarmoqlanган zanjirli) yoki buyrak (muhim AK) yetishmovchiligi uchun"],
+    qarrshi: ["Amino kislota almashinuvi tug'ma buzilishlari", "Og'ir jigar yetishmovchiligi (entsefalopatiya — standart aralashma), og'ir uremiya (dializsiz)", "Atsidoz, gipervolemiya/o'pka shishi, shok (barqarorlashmaган)"],
+    nojoya: { "Metabolik": "Giperammoniemiya/azotemiya, metabolik atsidoz, elektrolit buzilishi", "Tomir (periferik)": "Flebit, tromboflebit (yuqori osmolyarlik — markaziy vena afzal)", "Boshqa": "Ko'ngil aynishi, isitma, qayta oziqlantirish sindromi (tez boshlanганда)" },
+    dozadan: "Azotemiya/atsidoz — infuziyani sekinlashtirish, elektrolit/azot nazorati.",
+    ozarotasir: ["Yetarli energiya manbasiz berilса samarasiz (glyukoza/yog' bilan birga)", "Boshqa infuzion komponentlar bilan mosligini tekshirish"],
+    qollash: { kattalar: "Azot ehtiyojiga qarab (odatda 0,8–1,5 g oqsil/kg/sutka), energiya manbai bilan birga, sekin infuziya.", bolalar: "Yoshга/vaznга qarab maxsus pediatrik aralashmalar (nazorat ostida)" },
+    chiqarish: "Infuziya uchun eritma 5–15% (muvozanatли yoki maxsus AK aralashmasi; flakon/paket)"
+  },
+  ru: {
+    gruppa: "Парентеральное питание — растворы аминокислот",
+    farmTasir: "Источник белка (азота) для парентерального питания",
+    farmakodinamika: `Растворы аминокислот — сбалансированная смесь незаменимых и заменимых L-аминокислот для парентерального питания. При внутривенном введении дают непосредственный «строительный материал» для синтеза белка, корректируют отрицательный азотистый баланс и поддерживают восстановление тканей/иммунную функцию. При введении вместе с достаточной энергией (глюкоза/жир) аминокислоты используются в синтезе белка, а не сжигаются на энергию.`,
+    farmakokinetika: { sorish: "Только в/в (центральная или периферическая вена)", tarqalish: "В ткани", metabolizm: "Синтез белка/трансаминирование", chiqarilish: "Азот в виде мочевины почками" },
+    korsatmalar: ["Парентеральное питание у неспособных питаться через рот/кишечник (операции, тяжёлая болезнь, кишечная недостаточность)", "Тяжёлая белково-энергетическая недостаточность, катаболические состояния (сепсис, ожоги, травма)", "Специальные формы — для печёночной (с разветвлёнными цепями) или почечной (незаменимые АК) недостаточности"],
+    qarrshi: ["Врождённые нарушения обмена аминокислот", "Тяжёлая печёночная недостаточность (энцефалопатия — стандартная смесь), тяжёлая уремия (без диализа)", "Ацидоз, гиперволемия/отёк лёгких, шок (нестабилизированный)"],
+    nojoya: { "Метаболизм": "Гипераммониемия/азотемия, метаболический ацидоз, электролитные нарушения", "Сосуды (периферически)": "Флебит, тромбофлебит (высокая осмолярность — предпочтительна центральная вена)", "Прочее": "Тошнота, лихорадка, синдром возобновлённого питания (при быстром начале)" },
+    dozadan: "Азотемия/ацидоз — замедлить инфузию, контроль электролитов/азота.",
+    ozarotasir: ["Без достаточного источника энергии неэффективны (вместе с глюкозой/жиром)", "Проверять совместимость с другими инфузионными компонентами"],
+    qollash: { kattalar: "По потребности в азоте (обычно 0,8–1,5 г белка/кг/сут), вместе с источником энергии, медленная инфузия.", bolalar: "По возрасту/массе специальные педиатрические смеси (под наблюдением)" },
+    chiqarish: "Раствор для инфузий 5–15% (сбалансированная или специальная смесь АК; флакон/пакет)"
+  },
+  en: {
+    gruppa: "Parenteral nutrition — amino acid solutions",
+    farmTasir: "Protein (nitrogen) source for parenteral nutrition",
+    farmakodinamika: `Amino acid solutions are a balanced mixture of essential and non-essential L-amino acids for parenteral nutrition. Given intravenously they provide direct 'building blocks' for protein synthesis, correct negative nitrogen balance and support tissue repair/immune function. When given with adequate energy (glucose/fat), the amino acids are used for protein synthesis rather than burned for energy.`,
+    farmakokinetika: { sorish: "IV only (central or peripheral vein)", tarqalish: "Into tissues", metabolizm: "Protein synthesis/transamination", chiqarilish: "Nitrogen as urea via the kidneys" },
+    korsatmalar: ["Parenteral nutrition in those unable to feed orally/enterally (surgery, severe illness, intestinal failure)", "Severe protein-energy malnutrition, catabolic states (sepsis, burns, trauma)", "Special forms — for hepatic (branched-chain) or renal (essential AA) failure"],
+    qarrshi: ["Inborn errors of amino acid metabolism", "Severe hepatic failure (encephalopathy — standard mixture), severe uraemia (without dialysis)", "Acidosis, hypervolaemia/pulmonary oedema, shock (not stabilised)"],
+    nojoya: { "Metabolic": "Hyperammonaemia/azotaemia, metabolic acidosis, electrolyte disturbances", "Vascular (peripheral)": "Phlebitis, thrombophlebitis (high osmolarity — central vein preferred)", "Other": "Nausea, fever, refeeding syndrome (with rapid start)" },
+    dozadan: "Azotaemia/acidosis — slow infusion, monitor electrolytes/nitrogen.",
+    ozarotasir: ["Ineffective without an adequate energy source (with glucose/fat)", "Check compatibility with other infusion components"],
+    qollash: { kattalar: "By nitrogen need (usually 0.8–1.5 g protein/kg/day), with an energy source, slow infusion.", bolalar: "By age/weight, special paediatric mixtures (under monitoring)" },
+    chiqarish: "Solution for infusion 5–15% (balanced or special AA mixture; vial/bag)"
+  }
+},
+
+"B05BA02": {
+  uz: {
+    gruppa: "Parenteral oziqlanish — yog' emulsiyalari (soya yog'i)",
+    farmTasir: "Energiya va muhim yog' kislotalari manbai (parenteral)",
+    farmakodinamika: `Soya yog'i asosидagi yog' emulsiyasi — parenteral oziqlanishning yuqori kaloriyali komponenti. Tomir ichига yuboriladigan mayda yog' tomchilar (xilomikronга o'xshash) energiya beradi va muhim (almashtirilmas) ko'p to'yinmagan yog' kislotalari (linol, alfa-linolen kislota) bilan ta'minlaydi, yog'da eriydigan vitaminlar tashuvchisi bo'ladi. Izotonik bo'lgani uchun periferik venadан ham berilishi mumkin; lipoprotein lipaza orqali metabollanadi.`,
+    farmakokinetika: { sorish: "Faqat v/i", tarqalish: "Lipoprotein/to'qimaга", metabolizm: "Lipoprotein lipaza (yog' kislotalariга)", chiqarilish: "Oksidlanish (energiya), zaxira" },
+    korsatmalar: ["Parenteral oziqlanish energiya manbai (uzoq parenteral oziqlanishда muhim yog' kislotalari tanqisligi oldini olish)", "Yuqori energiya ehtiyojи (katabolik, suyuqlik cheklangan bemorlar)"],
+    qarrshi: ["Og'ir giperlipidemiya (giper­trigliserid­emiya)", "Og'ir yog' metabolizmi buzilishi, o'tkir shok/kollaps", "Tuxum/soya/yeryong'oq oqsiliga yuqori sezuvchanlik (emulsiya turiga qarab)", "Og'ir koagulopatiya, og'ir jigar yetishmovchiligi (ehtiyot)"],
+    nojoya: { "O'tkir («yog' ortiqcha yuklash»)": "Isitma, qaltirash, ko'ngil aynishi, nafas qisilishi (tez infuziya)", "Metabolik": "Gipertrigliseridemiya, jigar fermentlari ko'tarilishi (uzoq), xolestaz", "Boshqa": "Trombotsitopeniya, «yog' ortiqcha yuklash» sindromi (uzoq/yuqori doza)" },
+    dozadan: "Gipertrigliseridemiya/yog' yuklash sindromi — infuziyani sekinlashtirish/to'xtatish, lipid nazorati.",
+    ozarotasir: ["Geparin lipoprotein lipazani vaqtincha faollashtiradi (trigliserid o'zgaradi)", "Boshqa infuzion dorilar bilan emulsiya barqarorligini buzmaslik (mosligini tekshirish)"],
+    qollash: { kattalar: "Odatda 1–2 g yog'/kg/sutka, sekin infuziya (trigliserid nazorati bilan); umumiy parenteral oziqlanish doirasida.", bolalar: "Vaznга qarab maxsus pediatrik emulsiyalar (nazorat ostida)" },
+    chiqarish: "Infuziya uchun emulsiya 10%, 20%, 30% (flakon/paket; soya yoki aralash yog')"
+  },
+  ru: {
+    gruppa: "Парентеральное питание — жировые эмульсии (соевое масло)",
+    farmTasir: "Источник энергии и незаменимых жирных кислот (парентерально)",
+    farmakodinamika: `Жировая эмульсия на основе соевого масла — высококалорийный компонент парентерального питания. Вводимые внутривенно мелкие капли жира (подобные хиломикронам) дают энергию и обеспечивают незаменимыми полиненасыщенными жирными кислотами (линолевой, альфа-линоленовой), служат переносчиком жирорастворимых витаминов. Будучи изотонической, может вводиться и в периферическую вену; метаболизируется липопротеинлипазой.`,
+    farmakokinetika: { sorish: "Только в/в", tarqalish: "В липопротеины/ткани", metabolizm: "Липопротеинлипаза (до жирных кислот)", chiqarilish: "Окисление (энергия), депонирование" },
+    korsatmalar: ["Источник энергии при парентеральном питании (профилактика дефицита незаменимых жирных кислот при длительном ПП)", "Высокая потребность в энергии (катаболические, с ограничением жидкости больные)"],
+    qarrshi: ["Тяжёлая гиперлипидемия (гипертриглицеридемия)", "Тяжёлое нарушение обмена жиров, острый шок/коллапс", "Гиперчувствительность к белку яйца/сои/арахиса (в зависимости от типа эмульсии)", "Тяжёлая коагулопатия, тяжёлая печёночная недостаточность (осторожно)"],
+    nojoya: { "Острые («жировая перегрузка»)": "Лихорадка, озноб, тошнота, одышка (быстрая инфузия)", "Метаболизм": "Гипертриглицеридемия, повышение печёночных ферментов (длительно), холестаз", "Прочее": "Тромбоцитопения, синдром «жировой перегрузки» (длительно/высокая доза)" },
+    dozadan: "Гипертриглицеридемия/синдром жировой перегрузки — замедлить/прекратить инфузию, контроль липидов.",
+    ozarotasir: ["Гепарин временно активирует липопротеинлипазу (меняются триглицериды)", "Не нарушать стабильность эмульсии другими инфузионными препаратами (проверять совместимость)"],
+    qollash: { kattalar: "Обычно 1–2 г жира/кг/сут, медленная инфузия (с контролем триглицеридов); в рамках полного ПП.", bolalar: "По массе специальные педиатрические эмульсии (под наблюдением)" },
+    chiqarish: "Эмульсия для инфузий 10%, 20%, 30% (флакон/пакет; соевое или смешанное масло)"
+  },
+  en: {
+    gruppa: "Parenteral nutrition — fat emulsions (soybean oil)",
+    farmTasir: "Energy and essential fatty acid source (parenteral)",
+    farmakodinamika: `A soybean oil-based fat emulsion is a high-calorie component of parenteral nutrition. The small fat droplets given intravenously (similar to chylomicrons) provide energy and supply essential polyunsaturated fatty acids (linoleic, alpha-linolenic acid) and carry fat-soluble vitamins. Being isotonic it can be given into a peripheral vein; it is metabolised by lipoprotein lipase.`,
+    farmakokinetika: { sorish: "IV only", tarqalish: "Into lipoproteins/tissues", metabolizm: "Lipoprotein lipase (to fatty acids)", chiqarilish: "Oxidation (energy), storage" },
+    korsatmalar: ["Energy source in parenteral nutrition (preventing essential fatty acid deficiency in long-term PN)", "High energy needs (catabolic, fluid-restricted patients)"],
+    qarrshi: ["Severe hyperlipidaemia (hypertriglyceridaemia)", "Severe fat metabolism disorder, acute shock/collapse", "Hypersensitivity to egg/soy/peanut protein (depending on emulsion type)", "Severe coagulopathy, severe hepatic failure (caution)"],
+    nojoya: { "Acute ('fat overload')": "Fever, chills, nausea, dyspnoea (rapid infusion)", "Metabolic": "Hypertriglyceridaemia, raised liver enzymes (long-term), cholestasis", "Other": "Thrombocytopenia, fat overload syndrome (long-term/high dose)" },
+    dozadan: "Hypertriglyceridaemia/fat overload syndrome — slow/stop infusion, monitor lipids.",
+    ozarotasir: ["Heparin transiently activates lipoprotein lipase (triglycerides change)", "Do not destabilise the emulsion with other infusion drugs (check compatibility)"],
+    qollash: { kattalar: "Usually 1–2 g fat/kg/day, slow infusion (with triglyceride monitoring); within full PN.", bolalar: "By weight, special paediatric emulsions (under monitoring)" },
+    chiqarish: "Emulsion for infusion 10%, 20%, 30% (vial/bag; soybean or mixed oil)"
+  }
+},
+
+"B05CX03": {
+  uz: {
+    gruppa: "Yuvuvchi eritmalar — glitsin (urologik irrigatsiya)",
+    farmTasir: "Izotonik yuvuvchi (irrigatsion) eritma",
+    farmakodinamika: `Glitsin 1,5% eritma — elektrolitsiz, deyarli izotonik yuvuvchi (irrigatsion) suyuqlik. Asosан transuretral jarrohlik (prostata — TURP, siydik pufagi o'smasi) davomida operatsiya maydonini yuvish va ko'rinishini ta'minlash uchun ishlatiladi; elektr o'tkazmaslik xususiyatи (elektrokoagulyatsiya uchun) tufayli natriy xlorid o'rniга qo'llaniladi. Tomir ichiga so'rilганда tizimli ta'sir berishi mumkin (TUR-sindromi).`,
+    farmakokinetika: { sorish: "Mahalliy (irrigatsiya); so'rilгани metabollanadi", tarqalish: "So'rilса hujayradan tashqari suyuqlikда", metabolizm: "Jigarда (ammiakga ham)", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Transuretral rezeksiya (prostata/siydik pufagi) va boshqa endoskopik urologik jarrohlikда yuvish", "Siydik pufagi/operatsiya maydonini irrigatsiya qilish"],
+    qarrshi: ["Anuriya", "Glitsin yoki uning metabolizmига oid ehtiyot holatlar (jigar/buyrak yetishmovchiligi)"],
+    nojoya: { "TUR-sindromi (so'rilганда)": "Giponatriemiya, suv intoksikatsiyasi, miya shishi, ko'ngil aynishi, ko'rish buzilishi, bradikardiya/gipotenziya", "Metabolik": "Giperammoniemiya (glitsin metabolizmi), gemoliz (gipotonik so'rilишда)" },
+    dozadan: "TUR-sindromi/giponatriemiya — operatsiyani to'xtatish, suyuqlik cheklash, gipertonik NaCl ehtiyot bilan, nazorat.",
+    ozarotasir: ["Mahalliy yuvuvchi sifatида tizimli o'zaro ta'sirlar kam (so'rilишда elektrolit nazorati muhim)"],
+    qollash: { kattalar: "Operatsiya davomida yuvuvchi sifatида erkin oqim bilan; so'rilish va vaqtni cheklab (TUR-sindromi profilaktikasi).", bolalar: "Qo'llanilishi cheklangan (mutaxassis nazoratида)" },
+    chiqarish: "Irrigatsiya uchun eritma 1,5% (paket/flakon)"
+  },
+  ru: {
+    gruppa: "Промывочные растворы — глицин (урологическая ирригация)",
+    farmTasir: "Изотонический промывочный (ирригационный) раствор",
+    farmakodinamika: `Раствор глицина 1,5% — безэлектролитная, почти изотоническая промывочная (ирригационная) жидкость. Применяется в основном для промывания и обеспечения видимости операционного поля при трансуретральных операциях (простата — ТУРП, опухоль мочевого пузыря); из-за неэлектропроводности (для электрокоагуляции) используется вместо натрия хлорида. При всасывании в сосуды может давать системный эффект (ТУР-синдром).`,
+    farmakokinetika: { sorish: "Местно (ирригация); всосавшееся метаболизируется", tarqalish: "При всасывании во внеклеточной жидкости", metabolizm: "В печени (в т.ч. до аммиака)", chiqarilish: "Почками" },
+    korsatmalar: ["Промывание при трансуретральной резекции (простата/мочевой пузырь) и другой эндоскопической урологической хирургии", "Ирригация мочевого пузыря/операционного поля"],
+    qarrshi: ["Анурия", "Осторожность при нарушении обмена глицина (печёночная/почечная недостаточность)"],
+    nojoya: { "ТУР-синдром (при всасывании)": "Гипонатриемия, водная интоксикация, отёк мозга, тошнота, нарушение зрения, брадикардия/гипотензия", "Метаболизм": "Гипераммониемия (обмен глицина), гемолиз (при гипотоническом всасывании)" },
+    dozadan: "ТУР-синдром/гипонатриемия — прекратить операцию, ограничить жидкость, осторожно гипертонический NaCl, наблюдение.",
+    ozarotasir: ["Как местный промывочный — системных взаимодействий мало (при всасывании важен контроль электролитов)"],
+    qollash: { kattalar: "Как промывочный во время операции свободным током; ограничивая всасывание и время (профилактика ТУР-синдрома).", bolalar: "Применение ограничено (под наблюдением специалиста)" },
+    chiqarish: "Раствор для ирригации 1,5% (пакет/флакон)"
+  },
+  en: {
+    gruppa: "Irrigation solutions — glycine (urological irrigation)",
+    farmTasir: "Isotonic irrigation solution",
+    farmakodinamika: `Glycine 1.5% solution is an electrolyte-free, nearly isotonic irrigation fluid. It is used mainly to irrigate and maintain visibility of the operative field during transurethral surgery (prostate — TURP, bladder tumour); being non-conductive (for electrocoagulation) it is used instead of sodium chloride. If absorbed into the vessels it can produce systemic effects (TUR syndrome).`,
+    farmakokinetika: { sorish: "Topical (irrigation); absorbed portion metabolised", tarqalish: "If absorbed, in extracellular fluid", metabolizm: "Hepatic (including to ammonia)", chiqarilish: "Renal" },
+    korsatmalar: ["Irrigation during transurethral resection (prostate/bladder) and other endoscopic urological surgery", "Irrigation of the bladder/operative field"],
+    qarrshi: ["Anuria", "Caution with glycine metabolism disorders (hepatic/renal failure)"],
+    nojoya: { "TUR syndrome (if absorbed)": "Hyponatraemia, water intoxication, cerebral oedema, nausea, visual disturbance, bradycardia/hypotension", "Metabolic": "Hyperammonaemia (glycine metabolism), haemolysis (with hypotonic absorption)" },
+    dozadan: "TUR syndrome/hyponatraemia — stop surgery, restrict fluids, cautious hypertonic NaCl, monitor.",
+    ozarotasir: ["As a topical irrigant — few systemic interactions (electrolyte monitoring important if absorbed)"],
+    qollash: { kattalar: "As an irrigant during surgery by free flow; limiting absorption and time (TUR syndrome prevention).", bolalar: "Use limited (under specialist supervision)" },
+    chiqarish: "Solution for irrigation 1.5% (bag/vial)"
+  }
+},
+
+"B06AA03": {
+  uz: {
+    gruppa: "Boshqa gematologik vositalar — fermentlar (gialuronidaza)",
+    farmTasir: "Ferment (to'qima tarqalish omili)",
+    farmakodinamika: `Gialuronidaza — biriktiruvchi to'qima asosiy moddasidagi gialuron kislotaни (gelsimon to'siq) parchalaydigan ferment. Bu to'qima o'tkazuvchanligini vaqtincha oshiradi va yuborilган suyuqlik/dorilarning to'qimaда tarqalishi va so'rilishini tezlashtiradi («tarqalish omili»). Shish, gematoma va chandiqlarni yumshatishда, parenteral suyuqlik (gipodermokliz) so'rilishini yaxshilashда va mahalliy anestetik tarqalishini kuchaytirishda qo'llaniladi.`,
+    farmakokinetika: { sorish: "Mahalliy (teri ostiga, infiltratsion)", tarqalish: "Mahalliy to'qima", metabolizm: "Tez inaktivlanadi", chiqarilish: "Mahalliy ta'sir (qisqa)" },
+    korsatmalar: ["Teri ostiga suyuqlik yuborish (gipodermokliz) va mahalliy anestetik tarqalishини yaxshilash", "Shish, gematoma, infiltrat va chandiqlarни yumshatish (yordamчи)", "Ekstravazatsiyada (ba'zi dorilar) tarqatish; oftalmologiyada (yordamчи)"],
+    qarrshi: ["O'sma sohasiga yuborish (o'sma tarqalishi xavfi)", "Infeksiyalanган/yallig'langan soha (infeksiya tarqalishi)", "Yuqori sezuvchanlik (qoramol oqsiliga)"],
+    nojoya: { "Mahalliy": "In'eksiya joyida qizarish, shish, og'riq", "Immun": "Allergik reaksiya (kamdan-kam — sinov dozasi tavsiya etiladi)", "Boshqa": "Mahalliy infeksiya tarqalishi (noto'g'ri qo'llaganда)" },
+    dozadan: "Mahalliy ta'sir; toksiklik kam.",
+    ozarotasir: ["Mahalliy anestetiklar/boshqa dorilar so'rilishi va ta'sir boshlanishini tezlashtiradi (ta'sir muddati qisqarishi mumkin)", "Adrenalin gialuronidaza tarqatuvchi ta'sirini cheklaydi"],
+    qollash: { kattalar: "Maqsadga qarab: gipodermokliz/anestetikga qo'shimcha (mas. 150 BIRLIK), mahalliy infiltratsiya.", bolalar: "Ehtiyotkorlik bilan, ko'rsatmага ko'ra" },
+    chiqarish: "In'eksiya uchun liofilizat/eritma (BIRLIK bilan, ampula/flakon)"
+  },
+  ru: {
+    gruppa: "Прочие гематологические средства — ферменты (гиалуронидаза)",
+    farmTasir: "Фермент (фактор распространения в тканях)",
+    farmakodinamika: `Гиалуронидаза — фермент, расщепляющий гиалуроновую кислоту (гелеобразный барьер) основного вещества соединительной ткани. Это временно повышает проницаемость тканей и ускоряет распространение и всасывание введённой жидкости/лекарств в тканях («фактор распространения»). Применяется для размягчения отёков, гематом и рубцов, улучшения всасывания парентеральной жидкости (гиподермоклиз) и усиления распространения местного анестетика.`,
+    farmakokinetika: { sorish: "Местно (подкожно, инфильтрационно)", tarqalish: "Местная ткань", metabolizm: "Быстро инактивируется", chiqarilish: "Местное действие (короткое)" },
+    korsatmalar: ["Улучшение подкожного введения жидкости (гиподермоклиз) и распространения местного анестетика", "Размягчение отёков, гематом, инфильтратов и рубцов (вспомогательно)", "Распространение при экстравазации (некоторых препаратов); в офтальмологии (вспомогательно)"],
+    qarrshi: ["Введение в область опухоли (риск распространения опухоли)", "Инфицированная/воспалённая область (распространение инфекции)", "Гиперчувствительность (к белку КРС)"],
+    nojoya: { "Местные": "Покраснение, отёк, боль в месте инъекции", "Иммунные": "Аллергические реакции (редко — рекомендуется пробная доза)", "Прочее": "Распространение местной инфекции (при неправильном применении)" },
+    dozadan: "Местное действие; токсичность мала.",
+    ozarotasir: ["Ускоряет всасывание и начало действия местных анестетиков/других препаратов (длительность действия может сократиться)", "Адреналин ограничивает распространяющее действие гиалуронидазы"],
+    qollash: { kattalar: "По цели: гиподермоклиз/добавка к анестетику (напр. 150 ЕД), местная инфильтрация.", bolalar: "С осторожностью, по показаниям" },
+    chiqarish: "Лиофилизат/раствор для инъекций (в ЕД, ампула/флакон)"
+  },
+  en: {
+    gruppa: "Other haematological agents — enzymes (hyaluronidase)",
+    farmTasir: "Enzyme (tissue spreading factor)",
+    farmakodinamika: `Hyaluronidase is an enzyme that breaks down hyaluronic acid (the gel-like barrier) in the ground substance of connective tissue. This temporarily increases tissue permeability and speeds spread and absorption of injected fluid/drugs in tissues (a 'spreading factor'). It is used to soften oedema, haematomas and scars, improve absorption of parenteral fluid (hypodermoclysis) and enhance spread of local anaesthetic.`,
+    farmakokinetika: { sorish: "Topical (subcutaneous, infiltration)", tarqalish: "Local tissue", metabolizm: "Rapidly inactivated", chiqarilish: "Local action (short)" },
+    korsatmalar: ["Improving subcutaneous fluid administration (hypodermoclysis) and spread of local anaesthetic", "Softening oedema, haematomas, infiltrates and scars (adjunct)", "Dispersal in extravasation (of some drugs); in ophthalmology (adjunct)"],
+    qarrshi: ["Injection into a tumour area (tumour spread risk)", "Infected/inflamed area (infection spread)", "Hypersensitivity (to bovine protein)"],
+    nojoya: { "Local": "Redness, swelling, pain at injection site", "Immune": "Allergic reactions (rare — a test dose is recommended)", "Other": "Spread of local infection (with improper use)" },
+    dozadan: "Local action; low toxicity.",
+    ozarotasir: ["Speeds absorption and onset of local anaesthetics/other drugs (duration may shorten)", "Adrenaline limits the spreading action of hyaluronidase"],
+    qollash: { kattalar: "By purpose: hypodermoclysis/anaesthetic additive (e.g. 150 units), local infiltration.", bolalar: "Cautiously, as indicated" },
+    chiqarish: "Lyophilisate/solution for injection (in units, ampoule/vial)"
+  }
+},
+
+"B06AB": {
+  uz: {
+    gruppa: "Boshqa gematologik vositalar — deproteinlangan buzoq qoni hosilasi",
+    farmTasir: "To'qima metabolizmini faollashtiruvchi (antigipoksik)",
+    farmakodinamika: `Deproteinlangan buzoq (yosh qoramol) qoni gemoderivati (mas. Aktovegin) — oqsilsizlantirilган, past molekulali biologik faol moddalar (amino kislotalar, oligopeptidlar, nukleozidlar, oligosaxaridlar, mineral elektrolitlar) aralashmasi. Hujayralarда kislorod va glyukozadan foydalanishni (oksidlanish-fosforillanish, ATF hosil bo'lishini) kuchaytiradi, gipoksiyaга chidamlilik va to'qima regeneratsiyasини yaxshilaydi. Ishemik va metabolik buzilishlarда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich, v/i, v/m, mahalliy", tarqalish: "To'qimalarга", metabolizm: "Fiziologik (kichik molekulalar)", chiqarilish: "Buyrak" },
+    korsatmalar: ["Ishemik va metabolik to'qima buzilishlari (miya qon aylanishi yetishmovchiligi, periferik tomir kasalligi)", "Diabetik polineyropatiya (parenteral), troyfik yaralar/kuyish/yaralar bitishi (mahalliy/tizimli — yordamчi)"],
+    qarrshi: ["Preparatga yoki o'xshash moddalarga yuqori sezuvchanlik", "Dekompensatsiyalangan yurak yetishmovchiligi, o'pka shishi, oliguriya/anuriya (parenteral hajm)"],
+    nojoya: { "Immun": "Allergik/anafilaktoid reaksiya (parenteral — sinov dozasi tavsiya etiladi)", "Mahalliy": "In'eksiya joyida og'riq", "Boshqa": "Isitma, terlash (kamdan-kam)" },
+    dozadan: "Toksiklik past; allergik reaksiyani kuzatish.",
+    ozarotasir: ["Klinik ahamiyatga ega farmakologik o'zaro ta'sirlar kam (mos eritma bilan suyultirish)"],
+    qollash: { kattalar: "Boshlang'ich parenteral (mas. 10–20 ml v/i/sutka), keyin ich (tabletkalar); mahalliy gel/krem/maz.", bolalar: "Ehtiyotkorlik bilan, ko'rsatmага ko'ra" },
+    chiqarish: "In'eksiya eritmasi (ampula); tabletkalar; gel/krem/malham (mahalliy)"
+  },
+  ru: {
+    gruppa: "Прочие гематологические средства — депротеинизированный гемодериват крови телят",
+    farmTasir: "Активатор тканевого метаболизма (антигипоксическое)",
+    farmakodinamika: `Депротеинизированный гемодериват крови телят (молодого КРС) (напр. Актовегин) — лишённая белка смесь низкомолекулярных биологически активных веществ (аминокислоты, олигопептиды, нуклеозиды, олигосахариды, минеральные электролиты). Усиливает в клетках утилизацию кислорода и глюкозы (окислительное фосфорилирование, образование АТФ), повышает устойчивость к гипоксии и улучшает регенерацию тканей. Применяется при ишемических и метаболических нарушениях.`,
+    farmakokinetika: { sorish: "Внутрь, в/в, в/м, местно", tarqalish: "В ткани", metabolizm: "Физиологический (малые молекулы)", chiqarilish: "Почками" },
+    korsatmalar: ["Ишемические и метаболические нарушения тканей (недостаточность мозгового кровообращения, заболевания периферических сосудов)", "Диабетическая полинейропатия (парентерально), трофические язвы/ожоги/заживление ран (местно/системно — вспомогательно)"],
+    qarrshi: ["Гиперчувствительность к препарату или сходным веществам", "Декомпенсированная сердечная недостаточность, отёк лёгких, олигурия/анурия (парентеральный объём)"],
+    nojoya: { "Иммунные": "Аллергические/анафилактоидные реакции (парентерально — рекомендуется пробная доза)", "Местные": "Боль в месте инъекции", "Прочее": "Лихорадка, потливость (редко)" },
+    dozadan: "Токсичность низкая; наблюдать за аллергической реакцией.",
+    ozarotasir: ["Клинически значимых фармакологических взаимодействий мало (разведение совместимым раствором)"],
+    qollash: { kattalar: "Начально парентерально (напр. 10–20 мл в/в/сут), затем внутрь (таблетки); местно гель/крем/мазь.", bolalar: "С осторожностью, по показаниям" },
+    chiqarish: "Раствор для инъекций (ампула); таблетки; гель/крем/мазь (местно)"
+  },
+  en: {
+    gruppa: "Other haematological agents — deproteinised calf blood haemoderivative",
+    farmTasir: "Tissue metabolism activator (anti-hypoxic)",
+    farmakodinamika: `Deproteinised haemoderivative of calf (young bovine) blood (e.g. Actovegin) is a protein-free mixture of low-molecular-weight biologically active substances (amino acids, oligopeptides, nucleosides, oligosaccharides, mineral electrolytes). It enhances cellular oxygen and glucose utilisation (oxidative phosphorylation, ATP production), increases hypoxia tolerance and improves tissue regeneration. It is used in ischaemic and metabolic disorders.`,
+    farmakokinetika: { sorish: "Oral, IV, IM, topical", tarqalish: "Into tissues", metabolizm: "Physiological (small molecules)", chiqarilish: "Renal" },
+    korsatmalar: ["Ischaemic and metabolic tissue disorders (cerebrovascular insufficiency, peripheral vascular disease)", "Diabetic polyneuropathy (parenteral), trophic ulcers/burns/wound healing (topical/systemic — adjunct)"],
+    qarrshi: ["Hypersensitivity to the product or similar substances", "Decompensated heart failure, pulmonary oedema, oliguria/anuria (parenteral volume)"],
+    nojoya: { "Immune": "Allergic/anaphylactoid reactions (parenteral — a test dose is recommended)", "Local": "Injection-site pain", "Other": "Fever, sweating (rare)" },
+    dozadan: "Toxicity low; watch for allergic reaction.",
+    ozarotasir: ["Few clinically significant pharmacological interactions (dilute with a compatible solution)"],
+    qollash: { kattalar: "Initially parenteral (e.g. 10–20 mL IV/day), then oral (tablets); topical gel/cream/ointment.", bolalar: "Cautiously, as indicated" },
+    chiqarish: "Solution for injection (ampoule); tablets; gel/cream/ointment (topical)"
+  }
+},
+
+"B01AC19": {
+  uz: {
+    gruppa: "Antiagregantlar — prostatsiklin analoglari (beraprost)",
+    farmTasir: "Prostatsiklin (PGI2) analogi (vazodilatator va antiagregant)",
+    farmakodinamika: `Beraprost — peroral barqaror prostatsiklin (PGI2) analogi. Prostatsiklin (IP) retseptorlari orqали adenilat siklazani faollashtirib trombotsit va silliq mushak hujayralarида sAMP ni oshiradi — trombotsit agregatsiyasini kuchli kamaytiradi va tomirlarni kengaytiradi (vazodilatatsiya). O'pka va periferik tomirlar qarshiligini pasaytiradi; o'pka arterial gipertenziyasi va periferik arteriya/mikrosirkulyatsiya buzilishларида qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan tez (och qoringa)", tarqalish: "Plazma oqsiliga yuqori", metabolizm: "Jigarда tez", chiqarilish: "Asosан buyrak; T½ qisqa (~1 soat)" },
+    korsatmalar: ["O'pka arterial gipertenziyasi (funksional holatни yaxshilash)", "Surункali periferik arteriya kasalligi (oraliq oqsoqlanish, troyfik yara, ishemik og'riq — Burger kasalligi)"],
+    qarrshi: ["Faol qon ketish (oshqozon yara, miya ichi qon ketishi)", "Homiladorlik", "Og'ir gipotenziya", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Bosh og'rig'i, yuz qizarishi, gipotenziya, bosh aylanishi (vazodilatatsiya)", "Oshqozon-ichak": "Ko'ngil aynishi, diareya, qusish", "Qon ketish": "Qon ketish moyiligi", "Boshqa": "Yurak urishi tezlashishi" },
+    dozadan: "Gipotenziya, bosh og'rig'i, qizarish — dozani kamaytirish, simptomatik, yotqizish.",
+    ozarotasir: ["Antikoagulyant/antiagregantlar bilan qon ketish xavfi", "Antigipertenziv dorilar gipotenziv ta'sirni kuchaytiradi"],
+    qollash: { kattalar: "Boshlang'ich 20 mkg×3/sutka ovqatdan keyin, ko'tarib bilibga qarab oshirish (60 mkg×3 gача).", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 20 mkg (uzaytirilган shakl ham)"
+  },
+  ru: {
+    gruppa: "Антиагреганты — аналоги простациклина (берапрост)",
+    farmTasir: "Аналог простациклина (PGI2) (вазодилататор и антиагрегант)",
+    farmakodinamika: `Берапрост — пероральный стабильный аналог простациклина (PGI2). Через рецепторы простациклина (IP) активирует аденилатциклазу, повышая цАМФ в тромбоцитах и гладкомышечных клетках — сильно снижает агрегацию тромбоцитов и расширяет сосуды (вазодилатация). Снижает лёгочное и периферическое сосудистое сопротивление; применяется при лёгочной артериальной гипертензии и нарушениях периферического кровообращения.`,
+    farmakokinetika: { sorish: "Из кишечника быстро (натощак)", tarqalish: "Высокая связь с белками", metabolizm: "Быстро в печени", chiqarilish: "Преимущественно почками; T½ короткий (~1 ч)" },
+    korsatmalar: ["Лёгочная артериальная гипертензия (улучшение функционального состояния)", "Хроническое заболевание периферических артерий (перемежающаяся хромота, трофические язвы, ишемическая боль — болезнь Бюргера)"],
+    qarrshi: ["Активное кровотечение (язва желудка, внутримозговое кровотечение)", "Беременность", "Тяжёлая гипотензия", "Гиперчувствительность"],
+    nojoya: { "Сосуды": "Головная боль, приливы, гипотензия, головокружение (вазодилатация)", "ЖКТ": "Тошнота, диарея, рвота", "Кровотечения": "Склонность к кровотечениям", "Прочее": "Учащение сердцебиения" },
+    dozadan: "Гипотензия, головная боль, приливы — снизить дозу, симптоматически, уложить.",
+    ozarotasir: ["С антикоагулянтами/антиагрегантами риск кровотечения", "Антигипертензивные усиливают гипотензивный эффект"],
+    qollash: { kattalar: "Начально 20 мкг×3/сут после еды, повышая по переносимости (до 60 мкг×3).", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 20 мкг (также пролонгированная форма)"
+  },
+  en: {
+    gruppa: "Antiplatelets — prostacyclin analogues (beraprost)",
+    farmTasir: "Prostacyclin (PGI2) analogue (vasodilator and antiplatelet)",
+    farmakodinamika: `Beraprost is an oral stable analogue of prostacyclin (PGI2). Via prostacyclin (IP) receptors it activates adenylate cyclase, raising cAMP in platelets and smooth muscle cells — strongly reducing platelet aggregation and dilating vessels (vasodilation). It lowers pulmonary and peripheral vascular resistance; it is used in pulmonary arterial hypertension and peripheral circulatory disorders.`,
+    farmakokinetika: { sorish: "Rapid from the gut (fasting)", tarqalish: "Highly protein-bound", metabolizm: "Rapid hepatic", chiqarilish: "Mainly renal; short T½ (~1 h)" },
+    korsatmalar: ["Pulmonary arterial hypertension (improving functional status)", "Chronic peripheral artery disease (intermittent claudication, trophic ulcers, ischaemic pain — Buerger disease)"],
+    qarrshi: ["Active bleeding (gastric ulcer, intracranial bleeding)", "Pregnancy", "Severe hypotension", "Hypersensitivity"],
+    nojoya: { "Vascular": "Headache, flushing, hypotension, dizziness (vasodilation)", "GI": "Nausea, diarrhoea, vomiting", "Bleeding": "Bleeding tendency", "Other": "Palpitations" },
+    dozadan: "Hypotension, headache, flushing — reduce dose, supportive, lie down.",
+    ozarotasir: ["With anticoagulants/antiplatelets bleeding risk", "Antihypertensives enhance the hypotensive effect"],
+    qollash: { kattalar: "Initial 20 µg×3/day after food, increasing by tolerance (up to 60 µg×3).", bolalar: "Not recommended" },
+    chiqarish: "Tablets 20 µg (also extended-release form)"
+  }
 }
 
 };
