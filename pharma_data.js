@@ -34370,6 +34370,258 @@ const PHARMA_DATA = {
     qollash: { kattalar: "600 mg/day (once) or 450 mg×2; higher dose in haemorrhoid flare.", bolalar: "Not recommended" },
     chiqarish: "Film-coated tablets 600 mg (or micronised 450 mg)"
   }
+},
+
+"H02AB02": {
+  uz: {
+    gruppa: "Tizimli glyukokortikoidlar (deksametazon)",
+    farmTasir: "Kuchli yallig'lanishga qarshi va immunosupressiv glyukokortikoid",
+    farmakodinamika: `Deksametazon — uzoq ta'sirli sintetik glyukokortikoid (mineralokortikoid faolligi deyarli yo'q). Hujayra ichidagi glyukokortikoid retseptorlarига bog'lanib, gen transkripsiyasini o'zgartiradi: yallig'lanish mediatorlari (sitokinlar, prostaglandinlar, leykotrienlar) sintezini bostiradi, fosfolipaza A2 ni lipokortin orqали tormozlaydi, immun javobni va kapillyar o'tkazuvchanlikни kamaytiradi. Gidrokortizonga nisbatan ~25–30 baravar kuchli, ta'siri uzoq (36–54 soat).`,
+    farmakokinetika: { sorish: "Ich (tez, ~80%) va parenteral", tarqalish: "Keng; plazma oqsiliga bog'lanadi", metabolizm: "Jigar (CYP3A4)", chiqarilish: "Buyrak orqali; T½(bio) 36–54 soat" },
+    korsatmalar: ["Og'ir allergik/yallig'lanish holatlari, shok, miya shishi", "Avtoimmun, revmatik kasalliklar, og'ir astma/КОҲ avj olishi", "Onkologiyada (antiemetik, yordamчи), buyrak usti yetishmovchiligi (almashtiruvchi — ehtiyot)"],
+    qarrshi: ["Tizimli zamburug'li infeksiya", "Tirik vaksinalar (immunosupressiv dozaда)", "Yuqori sezuvchanlik (qisqa kursда mutlaq qarshi ko'rsatma kam — vital ko'rsatma ustun)"],
+    nojoya: { "Endokrin/metabolik": "Giperglikemiya, Kushing sindromi, vazn ortishi, osteoporoz", "Oshqozon-ichak": "Yara, qon ketish", "Immun": "Infeksiyaга moyillik", "Asab": "Uyqusizlik, psixoz, kayfiyat o'zgarishi", "Boshqa": "AB ko'tarilishi, gipokaliemiya, teri yupqalashishi" },
+    dozadan: "O'tkir ortiqcha doza kam xavfli; uzoq qo'llaganда — yuqoriдagi nojo'ya ta'sirlar, dozani asta kamaytirish (sindromsiz to'xtatmaslik).",
+    ozarotasir: ["CYP3A4 induktorlari (rifampitsin, fenitoin) ta'sirini susaytiradi", "NYaQVD bilan oshqozon yara/qon ketish xavfi", "Diuretiklar bilan gipokaliemiya; antidiabetik dorilar samarasini pasaytiradi"],
+    qollash: { kattalar: "Holatga ko'ra 0,5–24 mg/sutka (ich/v/i/v/m); miya shishida yuqori dozalar.", bolalar: "0,02–0,3 mg/kg/sutka (bo'lib), ko'rsatmага ko'ra" },
+    chiqarish: "Tabletkalar 0,5 mg; in'eksiya eritmasi 4 mg/ml, 8 mg/ml"
+  },
+  ru: {
+    gruppa: "Системные глюкокортикоиды (дексаметазон)",
+    farmTasir: "Мощный противовоспалительный и иммуносупрессивный глюкокортикоид",
+    farmakodinamika: `Дексаметазон — длительно действующий синтетический глюкокортикоид (минералокортикоидная активность практически отсутствует). Связываясь с внутриклеточными глюкокортикоидными рецепторами, изменяет транскрипцию генов: подавляет синтез медиаторов воспаления (цитокины, простагландины, лейкотриены), тормозит фосфолипазу A2 через липокортин, снижает иммунный ответ и проницаемость капилляров. В ~25–30 раз сильнее гидрокортизона, действие длительное (36–54 ч).`,
+    farmakokinetika: { sorish: "Внутрь (быстро, ~80%) и парентерально", tarqalish: "Широко; связь с белками плазмы", metabolizm: "Печень (CYP3A4)", chiqarilish: "Почками; T½(био) 36–54 ч" },
+    korsatmalar: ["Тяжёлые аллергические/воспалительные состояния, шок, отёк мозга", "Аутоиммунные, ревматические болезни, тяжёлая астма/обострение ХОБЛ", "В онкологии (противорвотное, вспомогательно), надпочечниковая недостаточность (заместительно — осторожно)"],
+    qarrshi: ["Системная грибковая инфекция", "Живые вакцины (на иммуносупрессивной дозе)", "Гиперчувствительность (при коротком курсе абсолютных противопоказаний мало — жизненные показания приоритетны)"],
+    nojoya: { "Эндокрин/метаболизм": "Гипергликемия, синдром Кушинга, прибавка массы, остеопороз", "ЖКТ": "Язва, кровотечение", "Иммунитет": "Склонность к инфекциям", "Нервная система": "Бессонница, психоз, перепады настроения", "Прочее": "Повышение АД, гипокалиемия, истончение кожи" },
+    dozadan: "Острая передозировка малоопасна; при длительном применении — вышеуказанные НЯ, дозу снижать постепенно (не отменять резко).",
+    ozarotasir: ["Индукторы CYP3A4 (рифампицин, фенитоин) ослабляют действие", "С НПВП риск язвы/кровотечения ЖКТ", "С диуретиками гипокалиемия; снижает эффект антидиабетических средств"],
+    qollash: { kattalar: "В зависимости от состояния 0,5–24 мг/сут (внутрь/в/в/в/м); при отёке мозга высокие дозы.", bolalar: "0,02–0,3 мг/кг/сут (дробно), по показаниям" },
+    chiqarish: "Таблетки 0,5 мг; раствор для инъекций 4 мг/мл, 8 мг/мл"
+  },
+  en: {
+    gruppa: "Systemic glucocorticoids (dexamethasone)",
+    farmTasir: "Potent anti-inflammatory and immunosuppressive glucocorticoid",
+    farmakodinamika: `Dexamethasone is a long-acting synthetic glucocorticoid (virtually no mineralocorticoid activity). Binding intracellular glucocorticoid receptors, it alters gene transcription: it suppresses synthesis of inflammatory mediators (cytokines, prostaglandins, leukotrienes), inhibits phospholipase A2 via lipocortin, and reduces immune response and capillary permeability. It is ~25–30 times more potent than hydrocortisone, with long duration (36–54 h).`,
+    farmakokinetika: { sorish: "Oral (rapid, ~80%) and parenteral", tarqalish: "Wide; plasma protein-bound", metabolizm: "Hepatic (CYP3A4)", chiqarilish: "Renal; biological T½ 36–54 h" },
+    korsatmalar: ["Severe allergic/inflammatory conditions, shock, cerebral oedema", "Autoimmune, rheumatic diseases, severe asthma/COPD exacerbation", "In oncology (antiemetic, adjunct), adrenal insufficiency (replacement — cautiously)"],
+    qarrshi: ["Systemic fungal infection", "Live vaccines (on immunosuppressive doses)", "Hypersensitivity (few absolute contraindications for short courses — vital indications take priority)"],
+    nojoya: { "Endocrine/metabolic": "Hyperglycaemia, Cushing syndrome, weight gain, osteoporosis", "GI": "Ulcer, bleeding", "Immune": "Susceptibility to infection", "Nervous system": "Insomnia, psychosis, mood changes", "Other": "Raised BP, hypokalaemia, skin thinning" },
+    dozadan: "Acute overdose has low risk; with prolonged use — the above adverse effects; taper the dose gradually (do not stop abruptly).",
+    ozarotasir: ["CYP3A4 inducers (rifampicin, phenytoin) reduce effect", "With NSAIDs risk of GI ulcer/bleeding", "Hypokalaemia with diuretics; reduces effect of antidiabetic drugs"],
+    qollash: { kattalar: "0.5–24 mg/day depending on condition (oral/IV/IM); high doses for cerebral oedema.", bolalar: "0.02–0.3 mg/kg/day (divided), as indicated" },
+    chiqarish: "Tablets 0.5 mg; solution for injection 4 mg/mL, 8 mg/mL"
+  }
+},
+
+"H02AB04": {
+  uz: {
+    gruppa: "Tizimli glyukokortikoidlar (metilprednizolon)",
+    farmTasir: "O'rtacha-uzoq ta'sirli yallig'lanishga qarshi/immunosupressiv glyukokortikoid",
+    farmakodinamika: `Metilprednizolon — prednizolonning metillangan hosilasi; yallig'lanishga qarshi faolligi prednizolondan biroz yuqori, mineralokortikoid (natriy ushlab qolish) ta'siri kamroq. Glyukokortikoid retseptorlari orqали sitokinlar va yallig'lanish mediatorlarini bostiradi, immun va allergik javobni kamaytiradi. Yuqori dozaли «puls-terapiya» (v/i) og'ir avtoimmun/transplantatsiya holatlarида qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich (yaxshi) va parenteral", tarqalish: "Keng", metabolizm: "Jigar", chiqarilish: "Buyrak orqали; T½(bio) 18–36 soat" },
+    korsatmalar: ["Revmatik/avtoimmun kasalliklar, og'ir allergiya, astma avj olishi", "Transplantatsiyadа rad etishning oldini olish; og'ir holatларда puls-terapiya", "Yallig'lanish kasalliklarи (kollagenozlar, IBD og'ir shakl)"],
+    qarrshi: ["Tizimli zamburug'li infeksiya", "Tirik vaksinalar (immunosupressiv dozaда)", "Yuqori sezuvchanlik"],
+    nojoya: { "Endokrin/metabolik": "Giperglikemiya, Kushing, osteoporoz", "Oshqozon-ichak": "Yara, dispepsiya", "Immun": "Infeksiyага moyillik", "Yurak-tomir": "AB ko'tarilishi, suyuqlik ushlanishi (kam)", "Asab": "Uyqusizlik, kayfiyat o'zgarishi" },
+    dozadan: "Uzoq qo'llashда nojo'ya ta'sirlar; dozani asta kamaytirish.",
+    ozarotasir: ["CYP3A4 induktor/inhibitorlари ta'sirига sezgir", "NYaQVD bilan OIT yara xavfi", "Diuretiklar bilan gipokaliemiya"],
+    qollash: { kattalar: "Ich: 4–48 mg/sutka; puls-terapiya: 250–1000 mg/sutka v/i (3–5 kun).", bolalar: "0,5–1,7 mg/kg/sutka (bo'lib), ko'rsatmага ko'ra" },
+    chiqarish: "Tabletkalar 4/16/32 mg; in'eksiya/infuziya uchun liofilizat 40/125/250/500/1000 mg"
+  },
+  ru: {
+    gruppa: "Системные глюкокортикоиды (метилпреднизолон)",
+    farmTasir: "Глюкокортикоид средне-длительного действия (противовоспалительный/иммуносупрессивный)",
+    farmakodinamika: `Метилпреднизолон — метилированное производное преднизолона; противовоспалительная активность несколько выше, чем у преднизолона, минералокортикоидное (задержка натрия) действие меньше. Через глюкокортикоидные рецепторы подавляет цитокины и медиаторы воспаления, снижает иммунный и аллергический ответ. Высокодозная «пульс-терапия» (в/в) применяется при тяжёлых аутоиммунных/трансплантационных состояниях.`,
+    farmakokinetika: { sorish: "Внутрь (хорошо) и парентерально", tarqalish: "Широко", metabolizm: "Печень", chiqarilish: "Почками; T½(био) 18–36 ч" },
+    korsatmalar: ["Ревматические/аутоиммунные болезни, тяжёлая аллергия, обострение астмы", "Профилактика отторжения при трансплантации; пульс-терапия при тяжёлых состояниях", "Воспалительные заболевания (коллагенозы, тяжёлые формы ВЗК)"],
+    qarrshi: ["Системная грибковая инфекция", "Живые вакцины (на иммуносупрессивной дозе)", "Гиперчувствительность"],
+    nojoya: { "Эндокрин/метаболизм": "Гипергликемия, Кушинг, остеопороз", "ЖКТ": "Язва, диспепсия", "Иммунитет": "Склонность к инфекциям", "Сердечно-сосудистые": "Повышение АД, задержка жидкости (меньше)", "Нервная система": "Бессонница, перепады настроения" },
+    dozadan: "При длительном применении — НЯ; дозу снижать постепенно.",
+    ozarotasir: ["Чувствителен к индукторам/ингибиторам CYP3A4", "С НПВП риск язвы ЖКТ", "С диуретиками гипокалиемия"],
+    qollash: { kattalar: "Внутрь: 4–48 мг/сут; пульс-терапия: 250–1000 мг/сут в/в (3–5 дней).", bolalar: "0,5–1,7 мг/кг/сут (дробно), по показаниям" },
+    chiqarish: "Таблетки 4/16/32 мг; лиофилизат для инъекций/инфузий 40/125/250/500/1000 мг"
+  },
+  en: {
+    gruppa: "Systemic glucocorticoids (methylprednisolone)",
+    farmTasir: "Intermediate-acting anti-inflammatory/immunosuppressive glucocorticoid",
+    farmakodinamika: `Methylprednisolone is a methylated derivative of prednisolone; its anti-inflammatory activity is somewhat higher than prednisolone, with less mineralocorticoid (sodium-retaining) effect. Via glucocorticoid receptors it suppresses cytokines and inflammatory mediators and reduces immune and allergic responses. High-dose "pulse therapy" (IV) is used in severe autoimmune/transplant states.`,
+    farmakokinetika: { sorish: "Oral (good) and parenteral", tarqalish: "Wide", metabolizm: "Hepatic", chiqarilish: "Renal; biological T½ 18–36 h" },
+    korsatmalar: ["Rheumatic/autoimmune diseases, severe allergy, asthma exacerbation", "Prevention of transplant rejection; pulse therapy in severe states", "Inflammatory diseases (collagenoses, severe IBD)"],
+    qarrshi: ["Systemic fungal infection", "Live vaccines (on immunosuppressive doses)", "Hypersensitivity"],
+    nojoya: { "Endocrine/metabolic": "Hyperglycaemia, Cushing, osteoporosis", "GI": "Ulcer, dyspepsia", "Immune": "Susceptibility to infection", "Cardiovascular": "Raised BP, fluid retention (less)", "Nervous system": "Insomnia, mood changes" },
+    dozadan: "With prolonged use — adverse effects; taper dose gradually.",
+    ozarotasir: ["Sensitive to CYP3A4 inducers/inhibitors", "With NSAIDs risk of GI ulcer", "Hypokalaemia with diuretics"],
+    qollash: { kattalar: "Oral: 4–48 mg/day; pulse therapy: 250–1000 mg/day IV (3–5 days).", bolalar: "0.5–1.7 mg/kg/day (divided), as indicated" },
+    chiqarish: "Tablets 4/16/32 mg; lyophilisate for injection/infusion 40/125/250/500/1000 mg"
+  }
+},
+
+"H02AB06": {
+  uz: {
+    gruppa: "Tizimli glyukokortikoidlar (prednizolon)",
+    farmTasir: "O'rtacha ta'sirli yallig'lanishga qarshi/immunosupressiv glyukokortikoid (etalon)",
+    farmakodinamika: `Prednizolon — prednizonning faol metaboliti, glyukokortikoid terapiyasining «etalon» preparati. Glyukokortikoid retseptorlari orqали yallig'lanish va immun javobni bostiradi (sitokinlar, prostaglandinlar, leykotrienlar sintezi kamayadi), kapillyar o'tkazuvchanlik va eksudatsiyani pasaytiradi. Gidrokortizonга nisbatan ~4 baravar kuchli, mineralokortikoid faolligi past-o'rtacha; ta'sir davomijligi 18–36 soat.`,
+    farmakokinetika: { sorish: "Ich (yaxshi) va parenteral", tarqalish: "Keng; transkortin/albuminга bog'lanadi", metabolizm: "Jigar", chiqarilish: "Buyrak orqали; T½(bio) 18–36 soat" },
+    korsatmalar: ["Revmatik/avtoimmun kasalliklar, og'ir allergiya, anafilaksiya (yordamчи)", "Bronxial astma, og'ir teri kasalliklari, nefrotik sindrom", "Buyrak usti bezi yetishmovchiligi (almashtiruvchi), gematologik/onkologik holatlar"],
+    qarrshi: ["Tizimli zamburug'li infeksiya", "Tirik vaksinalar (immunosupressiv dozaда)", "Yuqori sezuvchanlik"],
+    nojoya: { "Endokrin/metabolik": "Giperglikemiya, Kushing sindromi, osteoporoz, vazn ortishi", "Oshqozon-ichak": "Yara, qon ketish", "Yurak-tomir": "AB ko'tarilishi, suyuqlik/natriy ushlanishi, gipokaliemiya", "Immun": "Infeksiyага moyillik", "Asab": "Uyqusizlik, kayfiyat o'zgarishi" },
+    dozadan: "Uzoq qo'llashда nojo'ya ta'sirlar; gipotalamus-gipofiz-buyrak usti o'qini bostirmaslik uchun dozani asta kamaytirish.",
+    ozarotasir: ["CYP3A4 induktorlari ta'sirini susaytiradi", "NYaQVD bilan OIT yara/qon ketish xavfi", "Diuretiklar/amfoteritsin bilan gipokaliemiya; antidiabetik samarani pasaytiradi"],
+    qollash: { kattalar: "5–60 mg/sutka (ich; ertalab); o'tkir holatда v/i/v/m; remissiyага erishganда kamaytirish.", bolalar: "1–2 mg/kg/sutka (maks ~60 mg), ko'rsatmага ko'ra" },
+    chiqarish: "Tabletkalar 5 mg; in'eksiya eritmasi 25/30 mg/ml"
+  },
+  ru: {
+    gruppa: "Системные глюкокортикоиды (преднизолон)",
+    farmTasir: "Глюкокортикоид средней длительности (эталонный противовоспалительный/иммуносупрессивный)",
+    farmakodinamika: `Преднизолон — активный метаболит преднизона, «эталонный» препарат глюкокортикоидной терапии. Через глюкокортикоидные рецепторы подавляет воспаление и иммунный ответ (снижается синтез цитокинов, простагландинов, лейкотриенов), уменьшает проницаемость капилляров и экссудацию. В ~4 раза сильнее гидрокортизона, минералокортикоидная активность низко-умеренная; длительность действия 18–36 ч.`,
+    farmakokinetika: { sorish: "Внутрь (хорошо) и парентерально", tarqalish: "Широко; связь с транскортином/альбумином", metabolizm: "Печень", chiqarilish: "Почками; T½(био) 18–36 ч" },
+    korsatmalar: ["Ревматические/аутоиммунные болезни, тяжёлая аллергия, анафилаксия (вспомогательно)", "Бронхиальная астма, тяжёлые болезни кожи, нефротический синдром", "Надпочечниковая недостаточность (заместительно), гематологические/онкологические состояния"],
+    qarrshi: ["Системная грибковая инфекция", "Живые вакцины (на иммуносупрессивной дозе)", "Гиперчувствительность"],
+    nojoya: { "Эндокрин/метаболизм": "Гипергликемия, синдром Кушинга, остеопороз, прибавка массы", "ЖКТ": "Язва, кровотечение", "Сердечно-сосудистые": "Повышение АД, задержка жидкости/натрия, гипокалиемия", "Иммунитет": "Склонность к инфекциям", "Нервная система": "Бессонница, перепады настроения" },
+    dozadan: "При длительном применении — НЯ; дозу снижать постепенно, чтобы не подавить гипоталамо-гипофизарно-надпочечниковую ось.",
+    ozarotasir: ["Индукторы CYP3A4 ослабляют действие", "С НПВП риск язвы/кровотечения ЖКТ", "С диуретиками/амфотерицином гипокалиемия; снижает эффект антидиабетических средств"],
+    qollash: { kattalar: "5–60 мг/сут (внутрь; утром); при острых состояниях в/в/в/м; снижать при достижении ремиссии.", bolalar: "1–2 мг/кг/сут (макс ~60 мг), по показаниям" },
+    chiqarish: "Таблетки 5 мг; раствор для инъекций 25/30 мг/мл"
+  },
+  en: {
+    gruppa: "Systemic glucocorticoids (prednisolone)",
+    farmTasir: "Intermediate-acting anti-inflammatory/immunosuppressive glucocorticoid (reference)",
+    farmakodinamika: `Prednisolone is the active metabolite of prednisone and the reference agent of glucocorticoid therapy. Via glucocorticoid receptors it suppresses inflammation and the immune response (reducing synthesis of cytokines, prostaglandins, leukotrienes) and decreases capillary permeability and exudation. It is ~4 times more potent than hydrocortisone with low-moderate mineralocorticoid activity; duration of action 18–36 h.`,
+    farmakokinetika: { sorish: "Oral (good) and parenteral", tarqalish: "Wide; bound to transcortin/albumin", metabolizm: "Hepatic", chiqarilish: "Renal; biological T½ 18–36 h" },
+    korsatmalar: ["Rheumatic/autoimmune diseases, severe allergy, anaphylaxis (adjunct)", "Bronchial asthma, severe skin diseases, nephrotic syndrome", "Adrenal insufficiency (replacement), haematological/oncological conditions"],
+    qarrshi: ["Systemic fungal infection", "Live vaccines (on immunosuppressive doses)", "Hypersensitivity"],
+    nojoya: { "Endocrine/metabolic": "Hyperglycaemia, Cushing syndrome, osteoporosis, weight gain", "GI": "Ulcer, bleeding", "Cardiovascular": "Raised BP, fluid/sodium retention, hypokalaemia", "Immune": "Susceptibility to infection", "Nervous system": "Insomnia, mood changes" },
+    dozadan: "With prolonged use — adverse effects; taper the dose gradually to avoid suppressing the hypothalamic-pituitary-adrenal axis.",
+    ozarotasir: ["CYP3A4 inducers reduce effect", "With NSAIDs risk of GI ulcer/bleeding", "Hypokalaemia with diuretics/amphotericin; reduces effect of antidiabetic drugs"],
+    qollash: { kattalar: "5–60 mg/day (oral; morning); IV/IM in acute states; reduce on reaching remission.", bolalar: "1–2 mg/kg/day (max ~60 mg), as indicated" },
+    chiqarish: "Tablets 5 mg; solution for injection 25/30 mg/mL"
+  }
+},
+
+"H02AB08": {
+  uz: {
+    gruppa: "Tizimli glyukokortikoidlar (triamsinolon)",
+    farmTasir: "O'rtacha ta'sirli glyukokortikoid (mineralokortikoid faolligi yo'q)",
+    farmakodinamika: `Triamsinolon — sintetik glyukokortikoid; yallig'lanishга qarshi faolligi prednizolonга yaqin yoki biroz yuqori, natriy ushlab qolish ta'siri amalda yo'q. Glyukokortikoid retseptorlari orqали yallig'lanish va immun javobни bostiradi. Depo shakli (triamsinolon atsetonidi) bo'g'im ichi/mushak ichiга uzoq ta'sir uchun yuboriladi.`,
+    farmakokinetika: { sorish: "Ich va parenteral (depo — sekin)", tarqalish: "Keng", metabolizm: "Jigar", chiqarilish: "Buyrak orqали; T½(bio) 18–36 soat" },
+    korsatmalar: ["Revmatik/avtoimmun kasalliklar, og'ir allergiya", "Bo'g'im ichi/periartikulyar yallig'lanish (depo); teri kasalliklari", "Bronxial astma (yordamчи), kollagenozlar"],
+    qarrshi: ["Tizimli zamburug'li infeksiya", "In'eksiya joyида infeksiya (mahalliy)", "Tirik vaksinalar (immunosupressiv dozaда)", "Yuqori sezuvchanlik"],
+    nojoya: { "Endokrin/metabolik": "Giperglikemiya, Kushing, osteoporoz, mushak zaifligi (xos)", "Oshqozon-ichak": "Yara, dispepsiya", "Mahalliy": "In'eksiya joyида teri/yog' atrofiyasi", "Immun": "Infeksiyага moyillik" },
+    dozadan: "Uzoq qo'llashда nojo'ya ta'sirlar; dozani asta kamaytirish.",
+    ozarotasir: ["CYP3A4 induktorlari ta'sirini susaytiradi", "NYaQVD bilan OIT yara xavfi", "Diuretiklar bilan gipokaliemiya"],
+    qollash: { kattalar: "Ich: 4–48 mg/sutka; depo (atsetonid): 40 mg v/m yoki bo'g'im ichiga, kerakда takror.", bolalar: "Ko'rsatmага ko'ra, individual" },
+    chiqarish: "Tabletkalar 4 mg; depo-suspenziya 40 mg/ml (in'eksiya)"
+  },
+  ru: {
+    gruppa: "Системные глюкокортикоиды (триамцинолон)",
+    farmTasir: "Глюкокортикоид средней длительности (без минералокортикоидной активности)",
+    farmakodinamika: `Триамцинолон — синтетический глюкокортикоид; противовоспалительная активность близка к преднизолону или несколько выше, задержка натрия практически отсутствует. Через глюкокортикоидные рецепторы подавляет воспаление и иммунный ответ. Депо-форма (триамцинолона ацетонид) вводится внутрисуставно/внутримышечно для длительного действия.`,
+    farmakokinetika: { sorish: "Внутрь и парентерально (депо — медленно)", tarqalish: "Широко", metabolizm: "Печень", chiqarilish: "Почками; T½(био) 18–36 ч" },
+    korsatmalar: ["Ревматические/аутоиммунные болезни, тяжёлая аллергия", "Внутрисуставное/периартикулярное воспаление (депо); болезни кожи", "Бронхиальная астма (вспомогательно), коллагенозы"],
+    qarrshi: ["Системная грибковая инфекция", "Инфекция в месте инъекции (местно)", "Живые вакцины (на иммуносупрессивной дозе)", "Гиперчувствительность"],
+    nojoya: { "Эндокрин/метаболизм": "Гипергликемия, Кушинг, остеопороз, мышечная слабость (характерна)", "ЖКТ": "Язва, диспепсия", "Местные": "Атрофия кожи/жира в месте инъекции", "Иммунитет": "Склонность к инфекциям" },
+    dozadan: "При длительном применении — НЯ; дозу снижать постепенно.",
+    ozarotasir: ["Индукторы CYP3A4 ослабляют действие", "С НПВП риск язвы ЖКТ", "С диуретиками гипокалиемия"],
+    qollash: { kattalar: "Внутрь: 4–48 мг/сут; депо (ацетонид): 40 мг в/м или внутрисуставно, при необходимости повторно.", bolalar: "По показаниям, индивидуально" },
+    chiqarish: "Таблетки 4 мг; депо-суспензия 40 мг/мл (инъекции)"
+  },
+  en: {
+    gruppa: "Systemic glucocorticoids (triamcinolone)",
+    farmTasir: "Intermediate-acting glucocorticoid (no mineralocorticoid activity)",
+    farmakodinamika: `Triamcinolone is a synthetic glucocorticoid; its anti-inflammatory activity is close to or slightly higher than prednisolone, with virtually no sodium retention. Via glucocorticoid receptors it suppresses inflammation and the immune response. The depot form (triamcinolone acetonide) is given intra-articularly/intramuscularly for prolonged action.`,
+    farmakokinetika: { sorish: "Oral and parenteral (depot — slow)", tarqalish: "Wide", metabolizm: "Hepatic", chiqarilish: "Renal; biological T½ 18–36 h" },
+    korsatmalar: ["Rheumatic/autoimmune diseases, severe allergy", "Intra-articular/periarticular inflammation (depot); skin diseases", "Bronchial asthma (adjunct), collagenoses"],
+    qarrshi: ["Systemic fungal infection", "Infection at the injection site (local)", "Live vaccines (on immunosuppressive doses)", "Hypersensitivity"],
+    nojoya: { "Endocrine/metabolic": "Hyperglycaemia, Cushing, osteoporosis, muscle weakness (characteristic)", "GI": "Ulcer, dyspepsia", "Local": "Skin/fat atrophy at injection site", "Immune": "Susceptibility to infection" },
+    dozadan: "With prolonged use — adverse effects; taper dose gradually.",
+    ozarotasir: ["CYP3A4 inducers reduce effect", "With NSAIDs risk of GI ulcer", "Hypokalaemia with diuretics"],
+    qollash: { kattalar: "Oral: 4–48 mg/day; depot (acetonide): 40 mg IM or intra-articular, repeat as needed.", bolalar: "As indicated, individualised" },
+    chiqarish: "Tablets 4 mg; depot suspension 40 mg/mL (injection)"
+  }
+},
+
+"H02AB09": {
+  uz: {
+    gruppa: "Tizimli glyukokortikoidlar (gidrokortizon)",
+    farmTasir: "Qisqa ta'sirli glyukokortikoid (tabiiy kortizolga teng), mineralokortikoid faolligi bilan",
+    farmakodinamika: `Gidrokortizon — tabiiy kortizol bilan bir xil; glyukokortikoid va o'rtacha mineralokortikoid (natriy ushlab qolish) faolligiga ega. Glyukokortikoid retseptorlari orqали yallig'lanish va immun javobни bostiradi. Fiziologik almashtiruvchi terapiya (buyrak usti yetishmovchiligi) uchun afzal — kortizolga aynan o'xshashligи tufayli; o'tkir holatларда (Addison krizi, og'ir shok) v/i yuboriladi.`,
+    farmakokinetika: { sorish: "Ich, parenteral va mahalliy", tarqalish: "Keng; transkortinга bog'lanadi", metabolizm: "Jigar", chiqarilish: "Buyrak orqали; T½(bio) 8–12 soat" },
+    korsatmalar: ["O'tkir/surункали buyrak usti yetishmovchiligi (almashtiruvchi terapiya)", "O'tkir holatlar — anafilaksiya, og'ir astma, septik shok (yordamчи)", "Allergik/yallig'lanish kasalliklari"],
+    qarrshi: ["Tizimli zamburug'li infeksiya", "Tirik vaksinalar (immunosupressiv dozaда)", "Yuqori sezuvchanlik"],
+    nojoya: { "Endokrin/metabolik": "Giperglikemiya, Kushing (uzoq), osteoporoz", "Yurak-tomir": "Natriy/suyuqlik ushlanishi, AB ko'tarilishi, gipokaliemiya (mineralokortikoid ta'sir)", "Oshqozon-ichak": "Yara", "Immun": "Infeksiyага moyillik" },
+    dozadan: "Uzoq qo'llashда nojo'ya ta'sirlar; almashtiruvchi terapiyaда dozani fiziologik darajada ushlash.",
+    ozarotasir: ["CYP3A4 induktorlari ta'sirini susaytiradi", "Diuretiklar bilan gipokaliemiya kuchayadi", "NYaQVD bilan OIT yara xavfi"],
+    qollash: { kattalar: "Almashtiruvchi: 15–25 mg/sutka (bo'lib, ich); o'tkir krizда 100 mg v/i, keyin takror.", bolalar: "Almashtiruvchi: ~8–10 mg/m²/sutka (bo'lib); o'tkir holatда vaznга qarab v/i" },
+    chiqarish: "Tabletkalar 10/20 mg; in'eksiya uchun liofilizat/eritma (gidrokortizon natriy suksinat) 100/250/500 mg"
+  },
+  ru: {
+    gruppa: "Системные глюкокортикоиды (гидрокортизон)",
+    farmTasir: "Глюкокортикоид короткого действия (идентичен природному кортизолу), с минералокортикоидной активностью",
+    farmakodinamika: `Гидрокортизон идентичен природному кортизолу; обладает глюкокортикоидной и умеренной минералокортикоидной (задержка натрия) активностью. Через глюкокортикоидные рецепторы подавляет воспаление и иммунный ответ. Предпочтителен для физиологической заместительной терапии (надпочечниковая недостаточность) благодаря идентичности кортизолу; при острых состояниях (аддисонический криз, тяжёлый шок) вводят в/в.`,
+    farmakokinetika: { sorish: "Внутрь, парентерально и местно", tarqalish: "Широко; связь с транскортином", metabolizm: "Печень", chiqarilish: "Почками; T½(био) 8–12 ч" },
+    korsatmalar: ["Острая/хроническая надпочечниковая недостаточность (заместительная терапия)", "Острые состояния — анафилаксия, тяжёлая астма, септический шок (вспомогательно)", "Аллергические/воспалительные заболевания"],
+    qarrshi: ["Системная грибковая инфекция", "Живые вакцины (на иммуносупрессивной дозе)", "Гиперчувствительность"],
+    nojoya: { "Эндокрин/метаболизм": "Гипергликемия, Кушинг (длительно), остеопороз", "Сердечно-сосудистые": "Задержка натрия/жидкости, повышение АД, гипокалиемия (минералокортикоидное действие)", "ЖКТ": "Язва", "Иммунитет": "Склонность к инфекциям" },
+    dozadan: "При длительном применении — НЯ; при заместительной терапии удерживать дозу на физиологическом уровне.",
+    ozarotasir: ["Индукторы CYP3A4 ослабляют действие", "С диуретиками усиливается гипокалиемия", "С НПВП риск язвы ЖКТ"],
+    qollash: { kattalar: "Заместительно: 15–25 мг/сут (дробно, внутрь); при остром кризе 100 мг в/в, затем повторно.", bolalar: "Заместительно: ~8–10 мг/м²/сут (дробно); при остром состоянии в/в по массе" },
+    chiqarish: "Таблетки 10/20 мг; лиофилизат/раствор для инъекций (гидрокортизона натрия сукцинат) 100/250/500 мг"
+  },
+  en: {
+    gruppa: "Systemic glucocorticoids (hydrocortisone)",
+    farmTasir: "Short-acting glucocorticoid (identical to natural cortisol), with mineralocorticoid activity",
+    farmakodinamika: `Hydrocortisone is identical to natural cortisol; it has glucocorticoid and moderate mineralocorticoid (sodium-retaining) activity. Via glucocorticoid receptors it suppresses inflammation and the immune response. It is preferred for physiological replacement therapy (adrenal insufficiency) owing to its identity with cortisol; in acute states (Addisonian crisis, severe shock) it is given IV.`,
+    farmakokinetika: { sorish: "Oral, parenteral and topical", tarqalish: "Wide; bound to transcortin", metabolizm: "Hepatic", chiqarilish: "Renal; biological T½ 8–12 h" },
+    korsatmalar: ["Acute/chronic adrenal insufficiency (replacement therapy)", "Acute states — anaphylaxis, severe asthma, septic shock (adjunct)", "Allergic/inflammatory diseases"],
+    qarrshi: ["Systemic fungal infection", "Live vaccines (on immunosuppressive doses)", "Hypersensitivity"],
+    nojoya: { "Endocrine/metabolic": "Hyperglycaemia, Cushing (long-term), osteoporosis", "Cardiovascular": "Sodium/fluid retention, raised BP, hypokalaemia (mineralocorticoid effect)", "GI": "Ulcer", "Immune": "Susceptibility to infection" },
+    dozadan: "With prolonged use — adverse effects; in replacement therapy keep the dose at a physiological level.",
+    ozarotasir: ["CYP3A4 inducers reduce effect", "Hypokalaemia enhanced with diuretics", "With NSAIDs risk of GI ulcer"],
+    qollash: { kattalar: "Replacement: 15–25 mg/day (divided, oral); in acute crisis 100 mg IV, then repeated.", bolalar: "Replacement: ~8–10 mg/m²/day (divided); in acute states IV by weight" },
+    chiqarish: "Tablets 10/20 mg; lyophilisate/solution for injection (hydrocortisone sodium succinate) 100/250/500 mg"
+  }
+},
+
+"H02AB01": {
+  uz: {
+    gruppa: "Tizimli glyukokortikoidlar (betametazon)",
+    farmTasir: "Kuchli, uzoq ta'sirli glyukokortikoid (mineralokortikoid faolligi yo'q)",
+    farmakodinamika: `Betametazon — deksametazonning izomeri, eng kuchli glyukokortikoidlardan; yallig'lanишга qarshi va immunosupressiv ta'siri yuqori, natriy ushlab qolish faolligi amalda yo'q. Tez (betametazon natriy fosfat) va depo (betametazon dipropionat) shakllar kombinatsiyasi tez boshlanuvchi va uzoq davom etuvchi ta'sir beradi. Homiladorlikда homila o'pkasi yetilishini tezlashtirishда (antenatal) ham qo'llaniladi.`,
+    farmakokinetika: { sorish: "Parenteral (tez + depo), ich, mahalliy", tarqalish: "Keng", metabolizm: "Jigar", chiqarilish: "Buyrak orqали; ta'siri uzoq (36–54 soat)" },
+    korsatmalar: ["Og'ir allergik/yallig'lanish va revmatik kasalliklar", "Bo'g'im ichi/mahalliy yallig'lanish (depo)", "Antenatal homila o'pkasi yetilishini tezlashtirish (akusherlikда)"],
+    qarrshi: ["Tizimli zamburug'li infeksiya", "In'eksiya joyида infeksiya (mahalliy)", "Tirik vaksinalar (immunosupressiv dozaда)", "Yuqori sezuvchanlik"],
+    nojoya: { "Endokrin/metabolik": "Giperglikemiya, Kushing, osteoporoz", "Oshqozon-ichak": "Yara, dispepsiya", "Mahalliy": "In'eksiya joyида atrofiya", "Immun": "Infeksiyага moyillik", "Asab": "Uyqusizlik, kayfiyat o'zgarishi" },
+    dozadan: "Uzoq qo'llashда nojo'ya ta'sirlar; dozани asta kamaytirish.",
+    ozarotasir: ["CYP3A4 induktorlari ta'sirini susaytiradi", "NYaQVD bilan OIT yara xavfi", "Diuretiklar bilan gipokaliemiya"],
+    qollash: { kattalar: "Depo (dipropionat+fosfat): 1–2 ml v/m yoki bo'g'im ichiga; ich: 0,5–5 mg/sutka.", bolalar: "Ko'rsatmага ko'ra, individual; antenatal — akusherlik protokoli bo'yicha" },
+    chiqarish: "In'eksiya suspenziyasi (betametazon dipropionat + natriy fosfat); tabletkalar 0,5 mg"
+  },
+  ru: {
+    gruppa: "Системные глюкокортикоиды (бетаметазон)",
+    farmTasir: "Мощный длительно действующий глюкокортикоид (без минералокортикоидной активности)",
+    farmakodinamika: `Бетаметазон — изомер дексаметазона, один из наиболее мощных глюкокортикоидов; высокая противовоспалительная и иммуносупрессивная активность, задержка натрия практически отсутствует. Комбинация быстрой (бетаметазона натрия фосфат) и депо (бетаметазона дипропионат) форм обеспечивает быстрое начало и длительное действие. Применяется также для ускорения созревания лёгких плода (антенатально).`,
+    farmakokinetika: { sorish: "Парентерально (быстрая + депо), внутрь, местно", tarqalish: "Широко", metabolizm: "Печень", chiqarilish: "Почками; действие длительное (36–54 ч)" },
+    korsatmalar: ["Тяжёлые аллергические/воспалительные и ревматические болезни", "Внутрисуставное/местное воспаление (депо)", "Антенатальное ускорение созревания лёгких плода (в акушерстве)"],
+    qarrshi: ["Системная грибковая инфекция", "Инфекция в месте инъекции (местно)", "Живые вакцины (на иммуносупрессивной дозе)", "Гиперчувствительность"],
+    nojoya: { "Эндокрин/метаболизм": "Гипергликемия, Кушинг, остеопороз", "ЖКТ": "Язва, диспепсия", "Местные": "Атрофия в месте инъекции", "Иммунитет": "Склонность к инфекциям", "Нервная система": "Бессонница, перепады настроения" },
+    dozadan: "При длительном применении — НЯ; дозу снижать постепенно.",
+    ozarotasir: ["Индукторы CYP3A4 ослабляют действие", "С НПВП риск язвы ЖКТ", "С диуретиками гипокалиемия"],
+    qollash: { kattalar: "Депо (дипропионат+фосфат): 1–2 мл в/м или внутрисуставно; внутрь: 0,5–5 мг/сут.", bolalar: "По показаниям, индивидуально; антенатально — по акушерскому протоколу" },
+    chiqarish: "Суспензия для инъекций (бетаметазона дипропионат + натрия фосфат); таблетки 0,5 мг"
+  },
+  en: {
+    gruppa: "Systemic glucocorticoids (betamethasone)",
+    farmTasir: "Potent long-acting glucocorticoid (no mineralocorticoid activity)",
+    farmakodinamika: `Betamethasone is an isomer of dexamethasone and one of the most potent glucocorticoids; high anti-inflammatory and immunosuppressive activity with virtually no sodium retention. A combination of a fast (betamethasone sodium phosphate) and a depot (betamethasone dipropionate) form gives both rapid onset and prolonged action. It is also used to accelerate fetal lung maturation (antenatally).`,
+    farmakokinetika: { sorish: "Parenteral (fast + depot), oral, topical", tarqalish: "Wide", metabolizm: "Hepatic", chiqarilish: "Renal; long duration (36–54 h)" },
+    korsatmalar: ["Severe allergic/inflammatory and rheumatic diseases", "Intra-articular/local inflammation (depot)", "Antenatal acceleration of fetal lung maturation (in obstetrics)"],
+    qarrshi: ["Systemic fungal infection", "Infection at the injection site (local)", "Live vaccines (on immunosuppressive doses)", "Hypersensitivity"],
+    nojoya: { "Endocrine/metabolic": "Hyperglycaemia, Cushing, osteoporosis", "GI": "Ulcer, dyspepsia", "Local": "Atrophy at injection site", "Immune": "Susceptibility to infection", "Nervous system": "Insomnia, mood changes" },
+    dozadan: "With prolonged use — adverse effects; taper dose gradually.",
+    ozarotasir: ["CYP3A4 inducers reduce effect", "With NSAIDs risk of GI ulcer", "Hypokalaemia with diuretics"],
+    qollash: { kattalar: "Depot (dipropionate+phosphate): 1–2 mL IM or intra-articular; oral: 0.5–5 mg/day.", bolalar: "As indicated, individualised; antenatal — per obstetric protocol" },
+    chiqarish: "Suspension for injection (betamethasone dipropionate + sodium phosphate); tablets 0.5 mg"
+  }
 }
 
 };
