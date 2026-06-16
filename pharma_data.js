@@ -39545,6 +39545,84 @@ const PHARMA_DATA = {
 // (ilovada o'sha dorilar mavjud yozuvni ko'rsatadi)
 // ═══════════════════════════════════════════════════════════
 
+// ── QON VA QON TIZIMI (B) kombinatsiya/dublikat/typo kodlari ──
+// Antikoagulyantlar va antiagregantlar
+PHARMA_DATA["B01A A02"]         = PHARMA_DATA["B01AA03"];  // fenindion → vitamin K antagonisti (varfarin)
+PHARMA_DATA["B01AA02"]          = PHARMA_DATA["B02AA02"];  // traneksam kislota (kod xato) → antifibrinolitik
+PHARMA_DATA["B01AB04"]          = PHARMA_DATA["B01AB05"];  // dalteparin → past molekulali geparin
+PHARMA_DATA["B01AB06"]          = PHARMA_DATA["B01AB05"];  // nadroparin → past molekulali geparin
+PHARMA_DATA["B01AC30"]          = PHARMA_DATA["B01AC06"];  // ASK + magniy gidroksid → aspirin (antiagregant)
+PHARMA_DATA["B01AF0"]           = PHARMA_DATA["B01AF01"];  // rivaroksaban (kod xato)
+PHARMA_DATA["B01AF01 BЛA"]      = PHARMA_DATA["A10BD07"];  // sitagliptin+metformin (noto'g'ri kod) → sitagliptin
+PHARMA_DATA["B01AS06"]          = PHARMA_DATA["B01AC06"];  // aspirin (kod xato)
+PHARMA_DATA["B01C06"]           = PHARMA_DATA["B01AC06"];  // aspirin (kod xato)
+PHARMA_DATA["BO1AC30"]          = PHARMA_DATA["B01AC04"];  // ASK + klopidogrel → klopidogrel
+// Gemostatiklar / antifibrinolitiklar / proteaza inhibitorlari
+PHARMA_DATA["B02A"]             = PHARMA_DATA["B02AA02"];  // traneksam + mefenam kislota → antifibrinolitik
+PHARMA_DATA["B02AB"]            = PHARMA_DATA["B02AB01"];  // ovomin → proteaza inhibitori (aprotinin)
+PHARMA_DATA["B02AB05"]          = PHARMA_DATA["B02AB01"];  // ulinastatin → proteaza inhibitori
+PHARMA_DATA["B02AB49"]          = PHARMA_DATA["B02AB01"];  // gabeksat → proteaza inhibitori
+PHARMA_DATA["B02BC"]            = PHARMA_DATA["B02BX01"];  // natriy alginat (mahalliy gemostatik) → etamzilat
+// Ivish faktorlari
+PHARMA_DATA["B02BD"]            = PHARMA_DATA["B02BD01"];  // IX+boshqa faktorlar → protrombin kompleksi
+PHARMA_DATA["B02BD06"]          = PHARMA_DATA["B02BD02"];  // VIII faktor + fon Villebrand → VIII faktor
+PHARMA_DATA["B02BD09"]          = PHARMA_DATA["B02BD04"];  // nonakog alfa → IX faktor
+// Temir va antianemik vositalar
+PHARMA_DATA["B03A"]             = PHARMA_DATA["B03AC"];    // temir saxaroza → parenteral temir
+PHARMA_DATA["B03AA"]            = PHARMA_DATA["B03AA02"];  // (temir tuzi) → temir fumarat
+PHARMA_DATA["B03AA07"]          = PHARMA_DATA["B03AC"];    // temir saxaroza → parenteral temir
+PHARMA_DATA["B03AB02"]          = PHARMA_DATA["B03AC"];    // temir saxaroza → parenteral temir
+PHARMA_DATA["B03AB04"]          = PHARMA_DATA["B03AB"];    // temir polimaltozat + folat → peroral temir
+PHARMA_DATA["B03AB05"]          = PHARMA_DATA["B03AB"];    // temir polimaltozat (peroral)
+PHARMA_DATA["B03AB09"]          = PHARMA_DATA["B03AB"];    // temir-protein suksinilat → peroral temir
+PHARMA_DATA["B03AC02"]          = PHARMA_DATA["B03AC"];    // temir saxaroza → parenteral temir
+PHARMA_DATA["B03AC04"]          = PHARMA_DATA["B03AB"];    // temir polimaltozat → peroral temir
+PHARMA_DATA["B03AD02"]          = PHARMA_DATA["B03AA02"];  // temir fumarat + folat → temir fumarat
+PHARMA_DATA["B03AD04"]          = PHARMA_DATA["B03AB"];    // temir polimaltozat + folat → peroral temir
+PHARMA_DATA["B03AE"]            = PHARMA_DATA["B03AC"];    // temir saxaroza → parenteral temir
+PHARMA_DATA["B03AE01"]          = PHARMA_DATA["B03AB"];    // temir + folat + B12 + lizin → peroral temir
+PHARMA_DATA["B03AE03"]          = PHARMA_DATA["B03AB"];    // feredetat + piridoksin → peroral temir
+PHARMA_DATA["B03AE04"]          = PHARMA_DATA["B03AB"];    // temir sitrat + B12 + B6 → peroral temir
+PHARMA_DATA["B03AE10"]          = PHARMA_DATA["B02AE10"];  // temir sulfat + folat → temir sulfat
+PHARMA_DATA["B03X"]             = PHARMA_DATA["B03AB"];    // koamid (temir-amid) → temir preparati
+PHARMA_DATA["B03XA02"]          = PHARMA_DATA["B03XA01"];  // rekombinant eritropoetin → epoetin alfa
+PHARMA_DATA["BOЗAC01"]          = PHARMA_DATA["B03AB"];    // temir polimaltozat (kirill kodli dublikat)
+// Infuzion eritmalar va plazma o'rnini bosuvchilar
+PHARMA_DATA["B05A A01"]         = PHARMA_DATA["B05AA01"];  // albumin (bo'shliqli dublikat)
+PHARMA_DATA["B05AA"]            = PHARMA_DATA["B05AA07"];  // GEK + NaCl + elektrolitlar → GEK
+PHARMA_DATA["B05B"]             = PHARMA_DATA["B05CB01"];  // NaCl+KCl+Ca (Ringer) → elektrolit eritma
+PHARMA_DATA["B05BA01"]          = PHARMA_DATA["B05BA"];    // arginin → amino kislota eritmasi
+PHARMA_DATA["B05BA03"]          = PHARMA_DATA["B05CX01"];  // fruktoza → uglevod infuziya (dekstroza)
+PHARMA_DATA["B05BA10"]          = PHARMA_DATA["B05BA"];    // amino kislotalar → amino kislota eritmasi
+PHARMA_DATA["B05BB"]            = PHARMA_DATA["B05CB01"];  // murakkab NaCl eritmasi → elektrolit eritma
+PHARMA_DATA["B05BB01"]          = PHARMA_DATA["B05BA"];    // sitikolin + levokarnitin → metabolik infuziya
+PHARMA_DATA["B05BB02"]          = PHARMA_DATA["B05AA07"];  // ksilit + GEK → GEK
+PHARMA_DATA["B05BB03"]          = PHARMA_DATA["B05CB01"];  // trometamol + NaCl + KCl → elektrolit eritma
+PHARMA_DATA["B05BB04"]          = PHARMA_DATA["B05CB01"];  // sorbit + Na laktat + NaCl → elektrolit eritma
+PHARMA_DATA["B05BC"]            = PHARMA_DATA["B05BC01"];  // sorbit + mannit → mannitol
+PHARMA_DATA["B05BCB"]           = PHARMA_DATA["B05CX01"];  // glyukoza + NaCl → dekstroza
+PHARMA_DATA["B05CB"]            = PHARMA_DATA["B05CB01"];  // sorbit + Na laktat + CaCl (Ringer-laktat) → elektrolit eritma
+PHARMA_DATA["B05X A02"]         = PHARMA_DATA["B05CB04"];  // natriy bikarbonat (bo'shliqli kod)
+PHARMA_DATA["B05XA"]            = PHARMA_DATA["B05CB01"];  // elektrolit konsentrat → elektrolit eritma
+PHARMA_DATA["B05XA01"]          = PHARMA_DATA["A12BA01"];  // kaliy xlorid (konsentrat) → kaliy xlorid
+PHARMA_DATA["B05XA02"]          = PHARMA_DATA["B05CB04"];  // natriy bikarbonat
+PHARMA_DATA["B05XA03"]          = PHARMA_DATA["B05CB01"];  // natriy xlorid
+PHARMA_DATA["B05XA05"]          = PHARMA_DATA["A12CC10"];  // magniy → magniy
+PHARMA_DATA["B05XA07"]          = PHARMA_DATA["A12AA07"];  // kaltsiy xlorid → kaltsiy xlorid
+PHARMA_DATA["B05XA16"]          = PHARMA_DATA["B05CB01"];  // NaCl + KCl + Mg → elektrolit eritma
+PHARMA_DATA["B05XA3"]           = PHARMA_DATA["B05CB01"];  // KCl + CaCl + MgCl → elektrolit eritma
+PHARMA_DATA["B05XA30"]          = PHARMA_DATA["B05CB01"];  // elektrolit eritma
+PHARMA_DATA["B05XA31"]          = PHARMA_DATA["B05CB01"];  // ksilit + NaCl + KCl → elektrolit eritma
+PHARMA_DATA["B05XB"]            = PHARMA_DATA["B05BA"];    // arginin + levokarnitin → amino kislota eritmasi
+PHARMA_DATA["B05XB01"]          = PHARMA_DATA["B05BA"];    // arginin → amino kislota eritmasi
+PHARMA_DATA["B05XB02"]          = PHARMA_DATA["B05BA"];    // alanil-glutamin (dipeptid) → amino kislota eritmasi
+PHARMA_DATA["B05XB03"]          = PHARMA_DATA["B05BA"];    // L-lizin → amino kislota eritmasi
+// Boshqa gematologik / fermentlar / dublikatlar
+PHARMA_DATA["B06AA55"]          = PHARMA_DATA["B06AA03"];  // streptokinaza+streptodornaza (ferment) → gialuronidaza
+PHARMA_DATA["B07CC01"]          = PHARMA_DATA["B06AB"];    // beklometazon+gentamitsin (noto'g'ri kod) → boshqa gematologik
+PHARMA_DATA["B0AE01"]           = PHARMA_DATA["B03AB"];    // temir + folat + B12 → peroral temir
+PHARMA_DATA["BG01"]             = PHARMA_DATA["B05CB01"];  // (kod) → elektrolit eritma
+
 // ── HAZM VA MODDALAR ALMASHINUVI (A) kombinatsiya/dublikat/herbal kodlari ──
 // PPI va H. pylori eradikatsiya kombinatsiyalari
 PHARMA_DATA["A02BC"]            = PHARMA_DATA["A02BC01"];  // rabeprazol+domperidon → PPI (omeprazol)
