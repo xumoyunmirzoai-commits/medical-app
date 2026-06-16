@@ -34120,48 +34120,6 @@ const PHARMA_DATA = {
   }
 },
 
-"C02KX": {
-  uz: {
-    gruppa: "Boshqa antigipertenziv vositalar — o'pka arterial gipertenziyasида (sildenafil)",
-    farmTasir: "FDE-5 inhibitori (o'pka vazodilatatori)",
-    farmakodinamika: `Sildenafil — fosfodiesteraza-5 (FDE-5) ni tanlab to'sib qo'yadi. O'pka tomirlari silliq mushaklarида sGMP parchalanishini kamaytiradi, NO-sGMP yo'li orqали o'pka arteriyalarини kengaytiradi va o'pka tomir qarshiligini pasaytiradi. O'pka arterial gipertenziyasида jismoniy chidamliликни yaxshilaydi (bu yerда yurak-tomir ko'rsatmasi; erektil disfunksiya — boshqa indikatsiya).`,
-    farmakokinetika: { sorish: "Ich (tez)", tarqalish: "Plazma oqsiliga ~96% bog'lanadi", metabolizm: "Jigar CYP3A4 (asosiy), CYP2C9", chiqarilish: "Asosан najas; T½ ~4 soat" },
-    korsatmalar: ["O'pka arterial gipertenziyasi (WHO I guruh) — funksional sinfни yaxshilash"],
-    qarrshi: ["Nitratlar/NO donorlari bilan birga (og'ir gipotenziya)", "Guanilat siklaza stimulyatorlari (riosiguat) bilan", "Og'ir gipotenziya, yaqinda o'tkazilgan infarkt/insult", "Anterior ishemik optik neuropatiya (NAION) anamnezi"],
-    nojoya: { "Tomir": "Bosh og'rig'i, yuz qizarishi, gipotenziya", "Burun-bo'g'iz": "Burun bitishi", "Ko'z": "Ko'rish buzilishi, fotofobi", "Quloq": "Eshitish pasayishi (kamdan-kam)" },
-    dozadan: "Gipotenziya, bosh og'rig'i — simptomatik, yotqizib oyoqни ko'tarish; nitrat berMASLIK.",
-    ozarotasir: ["Nitratlar — qat'iy man (og'ir gipotenziya)", "CYP3A4 inhibitorlari (ketokonazol, ritonavir) sildenafil darajasини oshiradi", "Alfa-blokatorlar bilan gipotenziya"],
-    qollash: { kattalar: "20 mg×3 (kuniga 3 marta) ich, ovqatdан qat'i nazar.", bolalar: "PAHда mutaxassis nazoratида (1–20 mg×3, vaznга qarab)" },
-    chiqarish: "Plyonka qoplamali tabletkalar 20 mg"
-  },
-  ru: {
-    gruppa: "Прочие антигипертензивные — при лёгочной артериальной гипертензии (силденафил)",
-    farmTasir: "Ингибитор ФДЭ-5 (лёгочный вазодилататор)",
-    farmakodinamika: `Силденафил селективно ингибирует фосфодиэстеразу-5 (ФДЭ-5). В гладких мышцах лёгочных сосудов снижает распад цГМФ, через путь NO-цГМФ расширяет лёгочные артерии и снижает лёгочное сосудистое сопротивление. При лёгочной артериальной гипертензии улучшает переносимость физической нагрузки (здесь — кардиологическое показание; эректильная дисфункция — другое показание).`,
-    farmakokinetika: { sorish: "Внутрь (быстро)", tarqalish: "Связь с белками ~96%", metabolizm: "Печень CYP3A4 (основной), CYP2C9", chiqarilish: "Преимущественно с калом; T½ ~4 ч" },
-    korsatmalar: ["Лёгочная артериальная гипертензия (группа I ВОЗ) — улучшение функционального класса"],
-    qarrshi: ["Совместно с нитратами/донаторами NO (тяжёлая гипотензия)", "Со стимуляторами гуанилатциклазы (риоцигуат)", "Тяжёлая гипотензия, недавний инфаркт/инсульт", "NAION в анамнезе"],
-    nojoya: { "Сосуды": "Головная боль, приливы, гипотензия", "ЛОР": "Заложенность носа", "Глаза": "Нарушение зрения, фотофобия", "Ухо": "Снижение слуха (редко)" },
-    dozadan: "Гипотензия, головная боль — симптоматически, положение лёжа с приподнятыми ногами; НЕ давать нитраты.",
-    ozarotasir: ["Нитраты — строго противопоказаны (тяжёлая гипотензия)", "Ингибиторы CYP3A4 (кетоконазол, ритонавир) повышают уровень силденафила", "С альфа-блокаторами гипотензия"],
-    qollash: { kattalar: "20 мг×3 (3 раза в сутки) внутрь, независимо от еды.", bolalar: "При ЛАГ под наблюдением специалиста (1–20 мг×3, по массе)" },
-    chiqarish: "Таблетки, покрытые плёночной оболочкой, 20 мг"
-  },
-  en: {
-    gruppa: "Other antihypertensives — for pulmonary arterial hypertension (sildenafil)",
-    farmTasir: "PDE-5 inhibitor (pulmonary vasodilator)",
-    farmakodinamika: `Sildenafil selectively inhibits phosphodiesterase-5 (PDE-5). In pulmonary vascular smooth muscle it reduces cGMP breakdown, dilating the pulmonary arteries via the NO-cGMP pathway and lowering pulmonary vascular resistance. In pulmonary arterial hypertension it improves exercise capacity (a cardiovascular indication here; erectile dysfunction is a separate indication).`,
-    farmakokinetika: { sorish: "Oral (rapid)", tarqalish: "~96% protein-bound", metabolizm: "Hepatic CYP3A4 (main), CYP2C9", chiqarilish: "Mainly faecal; T½ ~4 h" },
-    korsatmalar: ["Pulmonary arterial hypertension (WHO group I) — improvement of functional class"],
-    qarrshi: ["With nitrates/NO donors (severe hypotension)", "With guanylate cyclase stimulators (riociguat)", "Severe hypotension, recent MI/stroke", "History of NAION"],
-    nojoya: { "Vascular": "Headache, flushing, hypotension", "ENT": "Nasal congestion", "Eyes": "Visual disturbance, photophobia", "Ear": "Hearing loss (rare)" },
-    dozadan: "Hypotension, headache — supportive, supine with legs elevated; do NOT give nitrates.",
-    ozarotasir: ["Nitrates — strictly contraindicated (severe hypotension)", "CYP3A4 inhibitors (ketoconazole, ritonavir) increase sildenafil levels", "Hypotension with alpha-blockers"],
-    qollash: { kattalar: "20 mg×3 (three times daily) orally, regardless of food.", bolalar: "In PAH under specialist supervision (1–20 mg×3, by weight)" },
-    chiqarish: "Film-coated tablets 20 mg"
-  }
-},
-
 "C01E": {
   uz: {
     gruppa: "Boshqa yurak preparatlari — metabolik/vazoaktiv (L-arginin)",
@@ -37267,6 +37225,258 @@ const PHARMA_DATA = {
     ozarotasir: ["Reduces absorption of tetracycline, fluoroquinolones, iron, levothyroxine, bisphosphonates (separate dosing)", "Thiazides enhance hypercalcaemia", "Increased cardiac glycoside toxicity"],
     qollash: { kattalar: "1 tablet (e.g. 500–600 mg calcium + 200–400 IU D3) ×1–2/day.", bolalar: "By age (as indicated)" },
     chiqarish: "Chewable/swallowable tablets (calcium carbonate/citrate + D3)"
+  }
+},
+
+"A16AX04": {
+  uz: {
+    gruppa: "Boshqa metabolik vositalar — tirozinemiyada (nitizinon)",
+    farmTasir: "4-gidroksifenilpiruvat dioksigenaza inhibitori (metabolik)",
+    farmakodinamika: `Nitizinon — tirozin parchalanish yo'lining 4-gidroksifenilpiruvat dioksigenaza fermentini bloklaydi. 1-tur nasliy tirozinemiyada bu yo'lда toksik metabolitlar (suksinilatseton, fumarilatsetoatsetat) to'planib jigar va buyrakни shikastlaydi; nitizinon ularning hosil bo'lishini to'xtatadi. Tirozinга kambag'al parhez bilan birga qo'llaniladi (aks holда tirozin to'planadi).`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigar (CYP3A4 qisman)", chiqarilish: "Buyrak/najas; T½ ~54 soat" },
+    korsatmalar: ["1-tur nasliy tirozinemiya (tirozin- va fenilalaninга kambag'al parhez bilan)", "Alkaptonuriya (ba'zi holatlar — cheklangan)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Laktatsiya (ehtiyot)"],
+    nojoya: { "Ko'z": "Konyunktivit, kornea shikasti, fotofobi (tirozin yuqori bo'lganда)", "Qon": "Trombotsitopeniya, leykopeniya (nazorat)", "Teri": "Eksfoliativ toshma; Boshqa: tirozin darajasi oshishi" },
+    dozadan: "Tirozin to'planishi — parhezni kuchaytirish; ko'z/qon nazorati.",
+    ozarotasir: ["CYP2C9 substratlari (varfarin) darajasini oshirishi mumkin", "CYP3A4 induktor/inhibitorlari ta'sirига sezgir"],
+    qollash: { kattalar: "Boshlang'ich ~1 mg/kg/sutka (bo'lib), tirozin/suksinilatseton bo'yicha moslash; albatta parhez bilan.", bolalar: "Vaznга qarab (mutaxassis nazoratида)" },
+    chiqarish: "Kapsulalar 2/5/10/20 mg; ichish uchun suspenziya"
+  },
+  ru: {
+    gruppa: "Прочие метаболические средства — при тирозинемии (нитизинон)",
+    farmTasir: "Ингибитор 4-гидроксифенилпируватдиоксигеназы (метаболическое)",
+    farmakodinamika: `Нитизинон блокирует фермент 4-гидроксифенилпируватдиоксигеназу пути распада тирозина. При наследственной тирозинемии 1 типа на этом пути накапливаются токсичные метаболиты (сукцинилацетон, фумарилацетоацетат), повреждающие печень и почки; нитизинон прекращает их образование. Применяется вместе с диетой, бедной тирозином (иначе тирозин накапливается).`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "Печень (частично CYP3A4)", chiqarilish: "Почками/с калом; T½ ~54 ч" },
+    korsatmalar: ["Наследственная тирозинемия 1 типа (с диетой, бедной тирозином и фенилаланином)", "Алкаптонурия (некоторые случаи — ограниченно)"],
+    qarrshi: ["Гиперчувствительность", "Лактация (осторожно)"],
+    nojoya: { "Глаза": "Конъюнктивит, повреждение роговицы, фотофобия (при высоком тирозине)", "Кровь": "Тромбоцитопения, лейкопения (контроль)", "Кожа": "Эксфолиативная сыпь; Прочее: повышение тирозина" },
+    dozadan: "Накопление тирозина — усилить диету; контроль глаз/крови.",
+    ozarotasir: ["Может повышать уровень субстратов CYP2C9 (варфарин)", "Чувствителен к индукторам/ингибиторам CYP3A4"],
+    qollash: { kattalar: "Начально ~1 мг/кг/сут (дробно), коррекция по тирозину/сукцинилацетону; обязательно с диетой.", bolalar: "По массе (под наблюдением специалиста)" },
+    chiqarish: "Капсулы 2/5/10/20 мг; суспензия для приёма внутрь"
+  },
+  en: {
+    gruppa: "Other metabolic agents — for tyrosinaemia (nitisinone)",
+    farmTasir: "4-hydroxyphenylpyruvate dioxygenase inhibitor (metabolic)",
+    farmakodinamika: `Nitisinone blocks 4-hydroxyphenylpyruvate dioxygenase in the tyrosine degradation pathway. In hereditary tyrosinaemia type 1 this pathway accumulates toxic metabolites (succinylacetone, fumarylacetoacetate) that damage the liver and kidneys; nitisinone halts their formation. It is used together with a tyrosine-restricted diet (otherwise tyrosine accumulates).`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic (partly CYP3A4)", chiqarilish: "Renal/faecal; T½ ~54 h" },
+    korsatmalar: ["Hereditary tyrosinaemia type 1 (with a tyrosine- and phenylalanine-restricted diet)", "Alkaptonuria (some cases — limited)"],
+    qarrshi: ["Hypersensitivity", "Lactation (caution)"],
+    nojoya: { "Eyes": "Conjunctivitis, corneal damage, photophobia (with high tyrosine)", "Blood": "Thrombocytopenia, leukopenia (monitor)", "Skin": "Exfoliative rash; Other: raised tyrosine" },
+    dozadan: "Tyrosine accumulation — intensify diet; monitor eyes/blood.",
+    ozarotasir: ["May raise levels of CYP2C9 substrates (warfarin)", "Sensitive to CYP3A4 inducers/inhibitors"],
+    qollash: { kattalar: "Initial ~1 mg/kg/day (divided), adjust by tyrosine/succinylacetone; always with diet.", bolalar: "By weight (under specialist supervision)" },
+    chiqarish: "Capsules 2/5/10/20 mg; oral suspension"
+  }
+},
+
+"A16AX06": {
+  uz: {
+    gruppa: "Boshqa metabolik vositalar — Goshe/Nimann-Pik kasalligida (miglustat)",
+    farmTasir: "Substrat reduksiya terapiyasi (glyukozilseramid sintaza inhibitori)",
+    farmakodinamika: `Miglustat — glyukozilseramid sintaza fermentini to'sib qo'yadi, glikosfingolipidlar sintezini kamaytiradi (substrat reduksiyasi). Goshe kasalligida (1-tur) hujayralarда glyukozilseramid to'planishini kamaytiradi; C-tur Nimann-Pik kasalligida nevrologik progressiyani sekinlashtiradi. Ferment almashtiruvchi terapiyага mos kelmaganларда yoki uni qabul qila olmaydiganларда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "Keng (markaziy nerv tizimiga ham)", metabolizm: "Kam (o'zgarmagan)", chiqarilish: "Asosан buyrak orqали" },
+    korsatmalar: ["1-tur Goshe kasalligi (yengil-o'rtacha, ferment terapiyasi mos kelmaganда)", "C-tur Nimann-Pik kasalligи (nevrologik belgilar)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Homiladorlik (teratogen potensial — kontratseptsiya)", "Og'ir buyrak yetishmovchiligi"],
+    nojoya: { "Oshqozon-ichak": "Diareya, vazn yo'qotish, meteorizm (xos — laktoza-kambag'al parhez)", "Asab": "Tremor, periferik neyropatiya, bosh aylanishi", "Qon": "Trombotsitopeniya (kuzatuv)", "Reproduktiv": "Spermatogenezга ta'sir (erkaklarда)" },
+    dozadan: "Oshqozon-ichak/neyropatiya — dozани kamaytirish, simptomatik.",
+    ozarotasir: ["Imiglyukeraza (ferment terapiyasi) darajasini o'zgartirishi mumkin"],
+    qollash: { kattalar: "Goshe: 100 mg×3/sutka; Nimann-Pik C: tana yuzasiga qarab (mutaxassis).", bolalar: "Nimann-Pik C da yoshга/yuzaга qarab" },
+    chiqarish: "Kapsulalar 100 mg"
+  },
+  ru: {
+    gruppa: "Прочие метаболические средства — при болезни Гоше/Ниманна-Пика (миглустат)",
+    farmTasir: "Терапия снижения субстрата (ингибитор глюкозилцерамидсинтазы)",
+    farmakodinamika: `Миглустат блокирует фермент глюкозилцерамидсинтазу, снижая синтез гликосфинголипидов (снижение субстрата). При болезни Гоше (1 типа) уменьшает накопление глюкозилцерамида в клетках; при болезни Ниманна-Пика типа C замедляет неврологическое прогрессирование. Применяется при непригодности или непереносимости ферментозаместительной терапии.`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "Широко (в т.ч. в ЦНС)", metabolizm: "Незначительный (неизменён)", chiqarilish: "Преимущественно почками" },
+    korsatmalar: ["Болезнь Гоше 1 типа (лёгкая-умеренная, при непригодности ферментной терапии)", "Болезнь Ниманна-Пика типа C (неврологические проявления)"],
+    qarrshi: ["Гиперчувствительность", "Беременность (тератогенный потенциал — контрацепция)", "Тяжёлая почечная недостаточность"],
+    nojoya: { "ЖКТ": "Диарея, потеря массы, метеоризм (характерно — диета с низким лактозой)", "Нервная система": "Тремор, периферическая нейропатия, головокружение", "Кровь": "Тромбоцитопения (наблюдение)", "Репродуктивные": "Влияние на сперматогенез (у мужчин)" },
+    dozadan: "ЖКТ/нейропатия — снизить дозу, симптоматически.",
+    ozarotasir: ["Может изменять уровень имиглюцеразы (ферментная терапия)"],
+    qollash: { kattalar: "Гоше: 100 мг×3/сут; Ниманна-Пика C: по площади поверхности тела (специалист).", bolalar: "При Ниманна-Пика C по возрасту/площади" },
+    chiqarish: "Капсулы 100 мг"
+  },
+  en: {
+    gruppa: "Other metabolic agents — for Gaucher/Niemann-Pick disease (miglustat)",
+    farmTasir: "Substrate reduction therapy (glucosylceramide synthase inhibitor)",
+    farmakodinamika: `Miglustat blocks glucosylceramide synthase, reducing glycosphingolipid synthesis (substrate reduction). In Gaucher disease (type 1) it reduces glucosylceramide accumulation in cells; in Niemann-Pick type C it slows neurological progression. It is used when enzyme replacement therapy is unsuitable or not tolerated.`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Wide (including CNS)", metabolizm: "Minimal (unchanged)", chiqarilish: "Mainly renal" },
+    korsatmalar: ["Type 1 Gaucher disease (mild-moderate, when enzyme therapy unsuitable)", "Niemann-Pick type C disease (neurological manifestations)"],
+    qarrshi: ["Hypersensitivity", "Pregnancy (teratogenic potential — contraception)", "Severe renal impairment"],
+    nojoya: { "GI": "Diarrhoea, weight loss, flatulence (characteristic — low-lactose diet)", "Nervous system": "Tremor, peripheral neuropathy, dizziness", "Blood": "Thrombocytopenia (monitor)", "Reproductive": "Effect on spermatogenesis (in men)" },
+    dozadan: "GI/neuropathy — reduce dose, supportive.",
+    ozarotasir: ["May alter imiglucerase levels (enzyme therapy)"],
+    qollash: { kattalar: "Gaucher: 100 mg×3/day; Niemann-Pick C: by body surface area (specialist).", bolalar: "In Niemann-Pick C by age/surface area" },
+    chiqarish: "Capsules 100 mg"
+  }
+},
+
+"A16AX07": {
+  uz: {
+    gruppa: "Boshqa metabolik vositalar — fenilketonuriyada (sapropterin)",
+    farmTasir: "Fenilalanin gidroksilaza kofaktori (BH4 analogi)",
+    farmakodinamika: `Sapropterin — tabiiy kofaktor tetragidrobiopterin (BH4) ning sintetik shakli. Fenilalanin gidroksilaza fermentining kofaktori sifatида, qoldiq ferment faolligi bo'lган BH4-sezuvchan fenilketonuriya bemorlarида fenilalaninni tirozinга aylanishini kuchaytiradi va qonда fenilalanin darajasini pasaytiradi. Fenilalaninга cheklangan parhez bilan birga qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (ovqat bilan)", tarqalish: "To'qimalarга", metabolizm: "Jigar", chiqarilish: "Asosан najas; T½ ~6–7 soat" },
+    korsatmalar: ["BH4-sezuvchan fenilketonuriya (qonда fenilalaninni pasaytirish, parhez bilan)", "BH4 tanqisligi (ba'zi shakllar)"],
+    qarrshi: ["Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Diareya, ko'ngil aynishi, qorin og'rig'i", "Asab": "Bosh og'rig'i", "Yuqori nafas": "Rinoreya, faringit", "Boshqa": "Yuqori sezuvchanlik reaksiyasi" },
+    dozadan: "Toksiklik ehtimoli past; fenilalanin darajasini nazorat qilish.",
+    ozarotasir: ["Levodopa bilan qo'zg'aluvchanlik/tutqanoq xavfi (ehtiyot)", "NO sintezига ta'sir qiluvchi vositalar (PDE-5 inhibitorlari) bilan gipotenziya nazariy"],
+    qollash: { kattalar: "Boshlang'ich 10 mg/kg/sutka×1 (ovqat bilan), fenilalanin javobiга qarab 5–20 mg/kg.", bolalar: "Vaznга qarab (xuddi shu sxema, mutaxassis nazoratида)" },
+    chiqarish: "Eriydigan tabletkalar 100 mg; ichish uchun kukun"
+  },
+  ru: {
+    gruppa: "Прочие метаболические средства — при фенилкетонурии (сапроптерин)",
+    farmTasir: "Кофактор фенилаланингидроксилазы (аналог BH4)",
+    farmakodinamika: `Сапроптерин — синтетическая форма природного кофактора тетрагидробиоптерина (BH4). Как кофактор фермента фенилаланингидроксилазы у пациентов с BH4-чувствительной фенилкетонурией с остаточной активностью фермента усиливает превращение фенилаланина в тирозин и снижает уровень фенилаланина в крови. Применяется вместе с диетой, ограниченной по фенилаланину.`,
+    farmakokinetika: { sorish: "Из кишечника (с едой)", tarqalish: "В ткани", metabolizm: "Печень", chiqarilish: "Преимущественно с калом; T½ ~6–7 ч" },
+    korsatmalar: ["BH4-чувствительная фенилкетонурия (снижение фенилаланина в крови, с диетой)", "Дефицит BH4 (некоторые формы)"],
+    qarrshi: ["Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Диарея, тошнота, боль в животе", "Нервная система": "Головная боль", "Дыхательные": "Ринорея, фарингит", "Прочее": "Реакции гиперчувствительности" },
+    dozadan: "Вероятность токсичности низкая; контроль уровня фенилаланина.",
+    ozarotasir: ["С леводопой риск возбудимости/судорог (осторожно)", "С препаратами, влияющими на синтез NO (ингибиторы ФДЭ-5), гипотензия теоретически"],
+    qollash: { kattalar: "Начально 10 мг/кг/сут×1 (с едой), по ответу фенилаланина 5–20 мг/кг.", bolalar: "По массе (та же схема, под наблюдением специалиста)" },
+    chiqarish: "Растворимые таблетки 100 мг; порошок для приёма внутрь"
+  },
+  en: {
+    gruppa: "Other metabolic agents — for phenylketonuria (sapropterin)",
+    farmTasir: "Phenylalanine hydroxylase cofactor (BH4 analogue)",
+    farmakodinamika: `Sapropterin is a synthetic form of the natural cofactor tetrahydrobiopterin (BH4). As a cofactor of phenylalanine hydroxylase, in BH4-responsive phenylketonuria patients with residual enzyme activity it enhances conversion of phenylalanine to tyrosine and lowers blood phenylalanine. It is used together with a phenylalanine-restricted diet.`,
+    farmakokinetika: { sorish: "From the gut (with food)", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Mainly faecal; T½ ~6–7 h" },
+    korsatmalar: ["BH4-responsive phenylketonuria (lowering blood phenylalanine, with diet)", "BH4 deficiency (some forms)"],
+    qarrshi: ["Hypersensitivity"],
+    nojoya: { "GI": "Diarrhoea, nausea, abdominal pain", "Nervous system": "Headache", "Respiratory": "Rhinorrhoea, pharyngitis", "Other": "Hypersensitivity reactions" },
+    dozadan: "Toxicity unlikely; monitor phenylalanine level.",
+    ozarotasir: ["With levodopa risk of excitability/seizures (caution)", "With drugs affecting NO synthesis (PDE-5 inhibitors) hypotension theoretically"],
+    qollash: { kattalar: "Initial 10 mg/kg/day once (with food), 5–20 mg/kg by phenylalanine response.", bolalar: "By weight (same regimen, under specialist supervision)" },
+    chiqarish: "Soluble tablets 100 mg; powder for oral use"
+  }
+},
+
+"A16AX05": {
+  uz: {
+    gruppa: "Boshqa metabolik vositalar — Vilson kasalligida (rux atsetat)",
+    farmTasir: "Mis so'rilishini kamaytiruvchi (Vilson kasalligi)",
+    farmakodinamika: `Rux atsetat — Vilson kasalligi (mis to'planishi)да ishlatiladi. Ichak shilliq qavatida metallotionein oqsili sintezini induksiya qiladi; bu oqsil ovqatdagi va ichakка safro/so'lak bilan tushgan misni bog'lab, najas bilan chiqarilishiga olib keladi — organizmda mis so'rilishi va to'planishini kamaytiradi. Saqlovchi terapiya sifatида (xelatordан keyin) qo'llaniladi.`,
+    farmakokinetika: { sorish: "Rux qisman so'riladi (ta'sir ichakда mahalliy)", tarqalish: "To'qimalarга (rux)", metabolizm: "—", chiqarilish: "Asosан najas (mis bilan)" },
+    korsatmalar: ["Vilson kasalligi (saqlovchi/uzoq muddatли davo, ayniqsa simptomsiz va xelatordан keyin)"],
+    qarrshi: ["Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Oshqozonда achishish, ko'ngil aynishi (och qoringa)", "Metabolik": "Uzoq — mis tanqisligiga olib bormaslik uchun mis nazorati", "Qon": "Amilaza/lipaza ko'tarilishi (kamdan-kam)" },
+    dozadan: "Yuqori doza — oshqozon-ichak buzilishi; mis/rux nazorati.",
+    ozarotasir: ["Mis/temir preparatlari, fitat so'rilishini o'zaro kamaytiradi", "Xelatorlar (penisillamin) bilan vaqt oralig'i saqlash"],
+    qollash: { kattalar: "Element rux 50 mg×3/sutka (ovqatlar orasида), siydik mis va rux bo'yicha nazorat.", bolalar: "Vaznга/yoshга qarab (mutaxassis nazoratида)" },
+    chiqarish: "Kapsulalar/tabletkalar (rux atsetat; element rux 25/50 mg)"
+  },
+  ru: {
+    gruppa: "Прочие метаболические средства — при болезни Вильсона (цинка ацетат)",
+    farmTasir: "Снижение всасывания меди (болезнь Вильсона)",
+    farmakodinamika: `Цинка ацетат применяется при болезни Вильсона (накопление меди). В слизистой кишечника индуцирует синтез белка металлотионеина; этот белок связывает медь из пищи и поступающую в кишечник с желчью/слюной, приводя к её выведению с калом — снижает всасывание и накопление меди в организме. Применяется как поддерживающая терапия (после хелатора).`,
+    farmakokinetika: { sorish: "Цинк частично всасывается (действие местное в кишечнике)", tarqalish: "В ткани (цинк)", metabolizm: "—", chiqarilish: "Преимущественно с калом (с медью)" },
+    korsatmalar: ["Болезнь Вильсона (поддерживающее/длительное лечение, особенно бессимптомное и после хелатора)"],
+    qarrshi: ["Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Жжение в желудке, тошнота (натощак)", "Метаболизм": "Длительно — контроль меди, чтобы не привести к её дефициту", "Кровь": "Повышение амилазы/липазы (редко)" },
+    dozadan: "Высокая доза — ЖКТ-нарушение; контроль меди/цинка.",
+    ozarotasir: ["Взаимно снижает всасывание препаратов меди/железа, фитатов", "С хелаторами (пеницилламин) соблюдать интервал"],
+    qollash: { kattalar: "Элементарный цинк 50 мг×3/сут (между приёмами пищи), контроль меди и цинка в моче.", bolalar: "По массе/возрасту (под наблюдением специалиста)" },
+    chiqarish: "Капсулы/таблетки (цинка ацетат; элементарный цинк 25/50 мг)"
+  },
+  en: {
+    gruppa: "Other metabolic agents — for Wilson disease (zinc acetate)",
+    farmTasir: "Reducing copper absorption (Wilson disease)",
+    farmakodinamika: `Zinc acetate is used in Wilson disease (copper accumulation). In the intestinal mucosa it induces synthesis of the protein metallothionein; this protein binds copper from food and copper entering the gut with bile/saliva, leading to its excretion in faeces — reducing copper absorption and accumulation. It is used as maintenance therapy (after a chelator).`,
+    farmakokinetika: { sorish: "Zinc partly absorbed (action local in the gut)", tarqalish: "Into tissues (zinc)", metabolizm: "—", chiqarilish: "Mainly faecal (with copper)" },
+    korsatmalar: ["Wilson disease (maintenance/long-term treatment, especially asymptomatic and after a chelator)"],
+    qarrshi: ["Hypersensitivity"],
+    nojoya: { "GI": "Gastric burning, nausea (on empty stomach)", "Metabolic": "Long-term — monitor copper to avoid causing deficiency", "Blood": "Raised amylase/lipase (rare)" },
+    dozadan: "High dose — GI upset; monitor copper/zinc.",
+    ozarotasir: ["Mutually reduces absorption of copper/iron preparations, phytates", "With chelators (penicillamine) keep an interval"],
+    qollash: { kattalar: "Elemental zinc 50 mg×3/day (between meals), monitor urinary copper and zinc.", bolalar: "By weight/age (under specialist supervision)" },
+    chiqarish: "Capsules/tablets (zinc acetate; elemental zinc 25/50 mg)"
+  }
+},
+
+"A07AA09": {
+  uz: {
+    gruppa: "Ichak antiinfektivlari — antiviral (molnupiravir)",
+    farmTasir: "Antiviral (RNK-bog'liq RNK-polimeraza mutageni)",
+    farmakodinamika: `Molnupiravir — ribonukleozid analogi prodorisi (NHC ga aylanadi). Virus RNK-bog'liq RNK-polimerazasi tomonidan virus genomiga kiritiladi va replikatsiya davomида ko'plab xatoliklar (mutatsiyalar) to'planishiga olib keladi («xato halokati») — natijada virus ko'payishi to'xtaydi. SARS-CoV-2 (COVID-19) ni davolashda qo'llaniladi (gruppada ATX miscoded — aslida antiviral J05).`,
+    farmakokinetika: { sorish: "Ichakdan tez (prodori NHC ga)", tarqalish: "To'qimalarга", metabolizm: "Fosforillanib faol shaklга", chiqarilish: "Asosан metabolizm; T½ qisqa" },
+    korsatmalar: ["Yengil-o'rtacha COVID-19 (kasallik avj olish xavfi yuqori kattalar), boshqa davolar mos kelmaganда"],
+    qarrshi: ["Homiladorlik (embriotoksik/teratogen potensial)", "<18 yosh (suyak/xaftaga ta'sir nazariy)", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Diareya, ko'ngil aynishi", "Asab": "Bosh aylanishi, bosh og'rig'i", "Boshqa": "Toshma; reproduktiv ehtiyot choralari zarur" },
+    dozadan: "Toksiklik ma'lumoti cheklangan; simptomatik.",
+    ozarotasir: ["Klinik ahamiyatga ega CYP o'zaro ta'sirlari kam (CYP orqали metabollanmaydi)"],
+    qollash: { kattalar: "800 mg (4×200 mg)×2/sutka 5 kun, simptom boshlanishidан 5 kun ichida.", bolalar: "Tavsiya etilmaydi (<18 yosh)" },
+    chiqarish: "Kapsulalar 200 mg"
+  },
+  ru: {
+    gruppa: "Кишечные антиинфективные — противовирусное (молнупиравир)",
+    farmTasir: "Противовирусное (мутаген РНК-зависимой РНК-полимеразы)",
+    farmakodinamika: `Молнупиравир — пролекарство рибонуклеозидного аналога (превращается в NHC). Включается вирусной РНК-зависимой РНК-полимеразой в геном вируса и в ходе репликации приводит к накоплению множества ошибок (мутаций) («катастрофа ошибок») — в результате размножение вируса прекращается. Применяется для лечения SARS-CoV-2 (COVID-19) (в группе ATX указан ошибочно — фактически противовирусное J05).`,
+    farmakokinetika: { sorish: "Из кишечника быстро (пролекарство в NHC)", tarqalish: "В ткани", metabolizm: "Фосфорилирование в активную форму", chiqarilish: "Преимущественно метаболизм; T½ короткий" },
+    korsatmalar: ["Лёгкий-умеренный COVID-19 (взрослые с высоким риском прогрессирования), при непригодности других средств"],
+    qarrshi: ["Беременность (эмбриотоксический/тератогенный потенциал)", "<18 лет (влияние на кость/хрящ теоретически)", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Диарея, тошнота", "Нервная система": "Головокружение, головная боль", "Прочее": "Сыпь; нужны меры репродуктивной предосторожности" },
+    dozadan: "Данные о токсичности ограничены; симптоматически.",
+    ozarotasir: ["Клинически значимых взаимодействий с CYP мало (не метаболизируется через CYP)"],
+    qollash: { kattalar: "800 мг (4×200 мг)×2/сут 5 дней, в течение 5 дней от начала симптомов.", bolalar: "Не рекомендуется (<18 лет)" },
+    chiqarish: "Капсулы 200 мг"
+  },
+  en: {
+    gruppa: "Intestinal anti-infectives — antiviral (molnupiravir)",
+    farmTasir: "Antiviral (RNA-dependent RNA polymerase mutagen)",
+    farmakodinamika: `Molnupiravir is a prodrug of a ribonucleoside analogue (converted to NHC). It is incorporated by the viral RNA-dependent RNA polymerase into the viral genome and during replication causes accumulation of numerous errors (mutations) ("error catastrophe") — halting viral reproduction. It is used to treat SARS-CoV-2 (COVID-19) (ATX is miscoded in this group — it is actually an antiviral, J05).`,
+    farmakokinetika: { sorish: "Rapid from the gut (prodrug to NHC)", tarqalish: "Into tissues", metabolizm: "Phosphorylation to active form", chiqarilish: "Mainly metabolism; short T½" },
+    korsatmalar: ["Mild-moderate COVID-19 (adults at high risk of progression), when other agents unsuitable"],
+    qarrshi: ["Pregnancy (embryotoxic/teratogenic potential)", "<18 years (effect on bone/cartilage theoretical)", "Hypersensitivity"],
+    nojoya: { "GI": "Diarrhoea, nausea", "Nervous system": "Dizziness, headache", "Other": "Rash; reproductive precautions needed" },
+    dozadan: "Toxicity data limited; supportive.",
+    ozarotasir: ["Few clinically significant CYP interactions (not CYP-metabolised)"],
+    qollash: { kattalar: "800 mg (4×200 mg)×2/day for 5 days, within 5 days of symptom onset.", bolalar: "Not recommended (<18 years)" },
+    chiqarish: "Capsules 200 mg"
+  }
+},
+
+"A11AA": {
+  uz: {
+    gruppa: "Vitaminlar — multivitamin va mikroelement kompleksi",
+    farmTasir: "Multivitamin-mineral kompleksi (umumiy almashinuvni qo'llab-quvvatlovchi)",
+    farmakodinamika: `Multivitamin-mineral kompleks — yog'da va suvда eriydigan vitaminlar (A, D, E, C, B-guruh) hamda mikroelementlar (rux, mis, marganets, magniy, kaltsiy va b.) yig'indisi. Har bir komponent o'z koferment/struktura roli orqали energiya almashinuvi, antioksidant himoya, qon hosil bo'lishi, immunitet, suyak va asab funksiyasини qo'llab-quvvatlaydi. Vitamin-mineral tanqisligini to'ldirish va ehtiyoji oshган davrlarда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ichakdan (komponentга qarab har xil)", tarqalish: "To'qimalarга", metabolizm: "Jigar (komponentга qarab)", chiqarilish: "Buyrak/safro" },
+    korsatmalar: ["Gipo-/avitaminoz va mikroelement tanqisligi profilaktikasi va davosi", "Ehtiyoj oshган davrlar (tiklanish, notog'ri ovqatlanish, jismoniy/aqliy zo'riqish), homiladorlik/laktatsiya (mos shakl)"],
+    qarrshi: ["Gipervitaminoz A yoki D, giperkaltsiemiya", "Og'ir buyrak yetishmovchiligi", "Komponentlardan biriga yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, dispepsiya (och qoringa)", "Allergik": "Toshma, qichishish", "Boshqa": "Siydik/najas rangi o'zgarishi (riboflavin, temir — zararsiz)" },
+    dozadan: "Yog'da eriydigan vitaminlar (A, D) ortiqcha — gipervitaminoz; ko'rsatilган dozaдан oshmaslik.",
+    ozarotasir: ["Tarkibida kaltsiy/magniy/temir/rux — tetratsiklin, ftorxinolon, levotiroksin so'rilishini kamaytiradi (interval)", "Boshqa vitamin preparatlari bilan birga gipervitaminoz xavfi (A, D)"],
+    qollash: { kattalar: "1 tabletka/kapsula kuniga 1 marta (ovqat bilan).", bolalar: "Yoshга mos shakl va doza" },
+    chiqarish: "Tabletkalar, kapsulalar, shilimshiq tabletkalar, ichish uchun eritma/tomchilar"
+  },
+  ru: {
+    gruppa: "Витамины — комплекс мультивитаминов и микроэлементов",
+    farmTasir: "Мультивитаминно-минеральный комплекс (поддержка общего обмена)",
+    farmakodinamika: `Мультивитаминно-минеральный комплекс — совокупность жиро- и водорастворимых витаминов (A, D, E, C, группы B) и микроэлементов (цинк, медь, марганец, магний, кальций и др.). Каждый компонент через свою коферментную/структурную роль поддерживает энергетический обмен, антиоксидантную защиту, кроветворение, иммунитет, костную и нервную функцию. Применяется для восполнения дефицита витаминов/минералов и в периоды повышенной потребности.`,
+    farmakokinetika: { sorish: "Из кишечника (по-разному в зависимости от компонента)", tarqalish: "В ткани", metabolizm: "Печень (в зависимости от компонента)", chiqarilish: "Почками/с желчью" },
+    korsatmalar: ["Профилактика и лечение гипо-/авитаминоза и дефицита микроэлементов", "Периоды повышенной потребности (восстановление, неправильное питание, физическая/умственная нагрузка), беременность/лактация (подходящая форма)"],
+    qarrshi: ["Гипервитаминоз A или D, гиперкальциемия", "Тяжёлая почечная недостаточность", "Гиперчувствительность к одному из компонентов"],
+    nojoya: { "ЖКТ": "Тошнота, диспепсия (натощак)", "Аллергические": "Сыпь, зуд", "Прочее": "Изменение цвета мочи/кала (рибофлавин, железо — безвредно)" },
+    dozadan: "Избыток жирорастворимых витаминов (A, D) — гипервитаминоз; не превышать указанную дозу.",
+    ozarotasir: ["Содержит кальций/магний/железо/цинк — снижает всасывание тетрациклина, фторхинолонов, левотироксина (интервал)", "С другими витаминными препаратами риск гипервитаминоза (A, D)"],
+    qollash: { kattalar: "1 таблетка/капсула 1 раз в сутки (с едой).", bolalar: "Форма и доза по возрасту" },
+    chiqarish: "Таблетки, капсулы, жевательные таблетки, раствор/капли для приёма внутрь"
+  },
+  en: {
+    gruppa: "Vitamins — multivitamin and trace element complex",
+    farmTasir: "Multivitamin-mineral complex (general metabolic support)",
+    farmakodinamika: `A multivitamin-mineral complex is a combination of fat- and water-soluble vitamins (A, D, E, C, B group) and trace elements (zinc, copper, manganese, magnesium, calcium and others). Through their coenzyme/structural roles, the components support energy metabolism, antioxidant defence, haematopoiesis, immunity and bone and nervous function. It is used to replace vitamin/mineral deficiency and during periods of increased requirement.`,
+    farmakokinetika: { sorish: "From the gut (varies by component)", tarqalish: "Into tissues", metabolizm: "Hepatic (by component)", chiqarilish: "Renal/biliary" },
+    korsatmalar: ["Prevention and treatment of hypo-/avitaminosis and trace element deficiency", "Periods of increased requirement (recovery, poor nutrition, physical/mental strain), pregnancy/lactation (appropriate form)"],
+    qarrshi: ["Hypervitaminosis A or D, hypercalcaemia", "Severe renal impairment", "Hypersensitivity to one of the components"],
+    nojoya: { "GI": "Nausea, dyspepsia (on empty stomach)", "Allergic": "Rash, itching", "Other": "Urine/stool colour change (riboflavin, iron — harmless)" },
+    dozadan: "Excess fat-soluble vitamins (A, D) — hypervitaminosis; do not exceed the stated dose.",
+    ozarotasir: ["Contains calcium/magnesium/iron/zinc — reduces absorption of tetracycline, fluoroquinolones, levothyroxine (separate dosing)", "With other vitamin preparations risk of hypervitaminosis (A, D)"],
+    qollash: { kattalar: "1 tablet/capsule once daily (with food).", bolalar: "Form and dose by age" },
+    chiqarish: "Tablets, capsules, chewable tablets, oral solution/drops"
   }
 }
 
