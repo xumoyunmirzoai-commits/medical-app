@@ -36974,6 +36974,300 @@ const PHARMA_DATA = {
     qollash: { kattalar: "In severe cases parenteral (IM) once daily (1 ampoule) for several days, then continue orally.", bolalar: "Not recommended (some forms) or under specialist supervision" },
     chiqarish: "Dragees/tablets; solution for injection (B1+B6+B12, sometimes with lidocaine)"
   }
+},
+
+"A12AA03": {
+  uz: {
+    gruppa: "Minerallar — kaltsiy preparatlari (kaltsiy glyukonat)",
+    farmTasir: "Kaltsiy o'rnini bosuvchi (gipokaltsiemiyaga qarshi)",
+    farmakodinamika: `Kaltsiy glyukonat — kaltsiy manbai. Kaltsiy ionlari suyak va tish mineralizatsiyasi, asab-mushak qo'zg'aluvchanligi, mushak qisqarishi, qon ivishi (faktorlar kaskadi) va ko'plab fermentlar faoliyati uchun zarur. Gipokaltsiemiyani to'g'rilaydi, hujayra membranasini barqarorlashtiradi (asab-mushak ortiqcha qo'zg'aluvchanligi, allergik reaksiyalarда). Tomir orqали ta'siri tez.`,
+    farmakokinetika: { sorish: "Ichakdan (D vitamini bilan) yoki v/i", tarqalish: "Suyak (zaxira) va hujayralararo", metabolizm: "—", chiqarilish: "Buyrak va najas orqали" },
+    korsatmalar: ["O'tkir va surункали gipokaltsiemiya (tetaniya, gipoparatireoz)", "Allergik holatlar, qichima (yordamчи); giperkaliemiya/Mg yoki Ca-bloker zaharlanishida yurakни himoya (v/i)"],
+    qarrshi: ["Giperkaltsiemiya, og'ir giperkaltsiuriya", "Yurak glikozidlari bilan (v/i — aritmiya xavfi)", "Og'ir buyrak yetishmovchiligi, kaltsiyли nefrolitiaz"],
+    nojoya: { "V/i": "Issiqlik hissi, bradikardiya/aritmiya (tez yuborishda), ekstravazatsiyaда to'qima nekrozi", "Metabolik": "Giperkaltsiemiya (ortiqcha doza)", "Oshqozon-ichak": "Ich qotishi (ich shaklда)" },
+    dozadan: "Giperkaltsiemiya — kaltsiyни to'xtatish, suyuqlik, og'irда bisfosfonat/kaltsitonin.",
+    ozarotasir: ["Yurak glikozidlari toksikligini oshiradi (v/i)", "Tiazid diuretiklar giperkaltsiemiyani kuchaytiradi", "Tetratsiklin, ftorxinolon, temir, levotiroksin so'rilishini kamaytiradi (interval)"],
+    qollash: { kattalar: "Ich: 1–3 g/sutka (bo'lib); v/i sekin: 10% eritma 10 ml (gipokaltsiemik tetaniyaда takror).", bolalar: "Yoshга/vaznга qarab; v/i juda ehtiyotkorlik bilan" },
+    chiqarish: "Tabletkalar 500 mg; in'eksiya eritmasi 10% (ampula)"
+  },
+  ru: {
+    gruppa: "Минералы — препараты кальция (кальция глюконат)",
+    farmTasir: "Восполнение кальция (против гипокальциемии)",
+    farmakodinamika: `Кальция глюконат — источник кальция. Ионы кальция необходимы для минерализации костей и зубов, нервно-мышечной возбудимости, мышечного сокращения, свёртывания крови (каскад факторов) и работы многих ферментов. Корректирует гипокальциемию, стабилизирует клеточную мембрану (при нервно-мышечной гипервозбудимости, аллергических реакциях). При внутривенном введении действие быстрое.`,
+    farmakokinetika: { sorish: "Из кишечника (с витамином D) или в/в", tarqalish: "Кость (депо) и межклеточно", metabolizm: "—", chiqarilish: "Почками и с калом" },
+    korsatmalar: ["Острая и хроническая гипокальциемия (тетания, гипопаратиреоз)", "Аллергические состояния, зуд (вспомогательно); защита сердца при гиперкалиемии/отравлении Mg или Ca-блокаторами (в/в)"],
+    qarrshi: ["Гиперкальциемия, выраженная гиперкальциурия", "С сердечными гликозидами (в/в — риск аритмии)", "Тяжёлая почечная недостаточность, кальциевый нефролитиаз"],
+    nojoya: { "В/в": "Чувство жара, брадикардия/аритмия (при быстром введении), некроз тканей при экстравазации", "Метаболизм": "Гиперкальциемия (передозировка)", "ЖКТ": "Запор (при приёме внутрь)" },
+    dozadan: "Гиперкальциемия — отмена кальция, жидкость, при тяжёлой бисфосфонат/кальцитонин.",
+    ozarotasir: ["Повышает токсичность сердечных гликозидов (в/в)", "Тиазидные диуретики усиливают гиперкальциемию", "Снижает всасывание тетрациклина, фторхинолонов, железа, левотироксина (интервал)"],
+    qollash: { kattalar: "Внутрь: 1–3 г/сут (дробно); в/в медленно: 10% раствор 10 мл (при гипокальциемической тетании повторно).", bolalar: "По возрасту/массе; в/в с большой осторожностью" },
+    chiqarish: "Таблетки 500 мг; раствор для инъекций 10% (ампулы)"
+  },
+  en: {
+    gruppa: "Minerals — calcium preparations (calcium gluconate)",
+    farmTasir: "Calcium replacement (against hypocalcaemia)",
+    farmakodinamika: `Calcium gluconate is a calcium source. Calcium ions are essential for bone and tooth mineralisation, neuromuscular excitability, muscle contraction, blood coagulation (the factor cascade) and many enzymes. It corrects hypocalcaemia and stabilises the cell membrane (in neuromuscular hyperexcitability, allergic reactions). Given intravenously its action is rapid.`,
+    farmakokinetika: { sorish: "From the gut (with vitamin D) or IV", tarqalish: "Bone (store) and interstitial", metabolizm: "—", chiqarilish: "Renal and faecal" },
+    korsatmalar: ["Acute and chronic hypocalcaemia (tetany, hypoparathyroidism)", "Allergic states, pruritus (adjunct); cardiac protection in hyperkalaemia/Mg or Ca-blocker poisoning (IV)"],
+    qarrshi: ["Hypercalcaemia, marked hypercalciuria", "With cardiac glycosides (IV — arrhythmia risk)", "Severe renal impairment, calcium nephrolithiasis"],
+    nojoya: { "IV": "Warmth, bradycardia/arrhythmia (rapid injection), tissue necrosis on extravasation", "Metabolic": "Hypercalcaemia (overdose)", "GI": "Constipation (oral)" },
+    dozadan: "Hypercalcaemia — stop calcium, fluids, bisphosphonate/calcitonin if severe.",
+    ozarotasir: ["Increases cardiac glycoside toxicity (IV)", "Thiazide diuretics enhance hypercalcaemia", "Reduces absorption of tetracycline, fluoroquinolones, iron, levothyroxine (separate dosing)"],
+    qollash: { kattalar: "Oral: 1–3 g/day (divided); slow IV: 10% solution 10 mL (repeat in hypocalcaemic tetany).", bolalar: "By age/weight; IV with great caution" },
+    chiqarish: "Tablets 500 mg; solution for injection 10% (ampoules)"
+  }
+},
+
+"A12AA07": {
+  uz: {
+    gruppa: "Minerallar — kaltsiy preparatlari (kaltsiy xlorid)",
+    farmTasir: "Kaltsiy o'rnini bosuvchi (tez ta'sirli, v/i)",
+    farmakodinamika: `Kaltsiy xlorid — yuqori biokirimli kaltsiy manbai (glyukonatga nisbatan ko'proq element kaltsiy beradi). Kaltsiy ionlari asab-mushak qo'zg'aluvchanligi, mushak qisqarishi, qon ivishi va miokard funksiyasi uchun zarur. Tomir orqали tez ta'sir qiladi; mahalliy tirnashtiruvchiligi yuqori — faqat venaга sekin yuboriladi. O'tkir gipokaltsiemiya va giperkaliemiya/Mg toksikligida qo'llaniladi.`,
+    farmakokinetika: { sorish: "Faqat v/i (mahalliy tirnashtiruvchi)", tarqalish: "Suyak va hujayralararo", metabolizm: "—", chiqarilish: "Buyrak va najas orqали" },
+    korsatmalar: ["O'tkir gipokaltsiemik tetaniya", "Giperkaliemiya, gipermagniemiya, kaltsiy kanali blokatorlari zaharlanishida yurakni himoya"],
+    qarrshi: ["Giperkaltsiemiya", "Yurak glikozidlari bilan", "Teri ostiga/mushak ichiga yuborish (nekroz!)", "Og'ir buyrak yetishmovchiligi"],
+    nojoya: { "V/i": "Kuchli issiqlik hissi, og'iz ta'mi, bradikardiya/aritmiya (tez), ekstravazatsiyaда og'ir to'qima nekrozi", "Metabolik": "Giperkaltsiemiya" },
+    dozadan: "Giperkaltsiemiya — to'xtatish, suyuqlik; aritmiyani kuzatish.",
+    ozarotasir: ["Yurak glikozidlari toksikligini oshiradi", "Tetratsiklin/ftorxinolon so'rilishini kamaytiradi (parenteralда ahamiyatsiz)"],
+    qollash: { kattalar: "10% eritma 5–10 ml v/i juda sekin (faqat vena), kerakда takror.", bolalar: "Vaznга qarab, juda ehtiyotkorlik bilan (markaziy vena afzal)" },
+    chiqarish: "In'eksiya eritmasi 10% (ampula)"
+  },
+  ru: {
+    gruppa: "Минералы — препараты кальция (кальция хлорид)",
+    farmTasir: "Восполнение кальция (быстродействующее, в/в)",
+    farmakodinamika: `Кальция хлорид — источник кальция с высокой биодоступностью (даёт больше элементарного кальция, чем глюконат). Ионы кальция необходимы для нервно-мышечной возбудимости, мышечного сокращения, свёртывания крови и работы миокарда. При внутривенном введении действует быстро; местнораздражающее действие высокое — вводят только медленно в вену. Применяется при острой гипокальциемии и токсичности гиперкалиемии/Mg.`,
+    farmakokinetika: { sorish: "Только в/в (местнораздражающий)", tarqalish: "Кость и межклеточно", metabolizm: "—", chiqarilish: "Почками и с калом" },
+    korsatmalar: ["Острая гипокальциемическая тетания", "Защита сердца при гиперкалиемии, гипермагниемии, отравлении блокаторами кальциевых каналов"],
+    qarrshi: ["Гиперкальциемия", "С сердечными гликозидами", "Подкожное/внутримышечное введение (некроз!)", "Тяжёлая почечная недостаточность"],
+    nojoya: { "В/в": "Сильное чувство жара, вкус во рту, брадикардия/аритмия (быстро), тяжёлый некроз тканей при экстравазации", "Метаболизм": "Гиперкальциемия" },
+    dozadan: "Гиперкальциемия — отмена, жидкость; наблюдать за аритмией.",
+    ozarotasir: ["Повышает токсичность сердечных гликозидов", "Снижает всасывание тетрациклина/фторхинолонов (при парентеральном незначимо)"],
+    qollash: { kattalar: "10% раствор 5–10 мл в/в очень медленно (только в вену), при необходимости повторно.", bolalar: "По массе, с большой осторожностью (предпочтительна центральная вена)" },
+    chiqarish: "Раствор для инъекций 10% (ампулы)"
+  },
+  en: {
+    gruppa: "Minerals — calcium preparations (calcium chloride)",
+    farmTasir: "Calcium replacement (fast-acting, IV)",
+    farmakodinamika: `Calcium chloride is a high-bioavailability calcium source (provides more elemental calcium than gluconate). Calcium ions are essential for neuromuscular excitability, muscle contraction, blood coagulation and myocardial function. Given intravenously it acts rapidly; it is highly irritant locally — given only slowly into a vein. It is used in acute hypocalcaemia and hyperkalaemia/Mg toxicity.`,
+    farmakokinetika: { sorish: "IV only (locally irritant)", tarqalish: "Bone and interstitial", metabolizm: "—", chiqarilish: "Renal and faecal" },
+    korsatmalar: ["Acute hypocalcaemic tetany", "Cardiac protection in hyperkalaemia, hypermagnesaemia, calcium channel blocker poisoning"],
+    qarrshi: ["Hypercalcaemia", "With cardiac glycosides", "Subcutaneous/intramuscular injection (necrosis!)", "Severe renal impairment"],
+    nojoya: { "IV": "Strong warmth, taste in mouth, bradycardia/arrhythmia (rapid), severe tissue necrosis on extravasation", "Metabolic": "Hypercalcaemia" },
+    dozadan: "Hypercalcaemia — stop, fluids; monitor for arrhythmia.",
+    ozarotasir: ["Increases cardiac glycoside toxicity", "Reduces absorption of tetracycline/fluoroquinolones (negligible parenterally)"],
+    qollash: { kattalar: "10% solution 5–10 mL IV very slowly (vein only), repeat as needed.", bolalar: "By weight, with great caution (central vein preferred)" },
+    chiqarish: "Solution for injection 10% (ampoules)"
+  }
+},
+
+"A12BA01": {
+  uz: {
+    gruppa: "Minerallar — kaliy preparatlari (kaliy xlorid)",
+    farmTasir: "Kaliy o'rnini bosuvchi (gipokaliemiyaga qarshi)",
+    farmakodinamika: `Kaliy xlorid — asosiy hujayra ichi kationi kaliy manbai. Kaliy asab-mushak qo'zg'aluvchanligi, miokard o'tkazuvchanligi va qisqarishi, kislota-ishqor muvozanati va hujayra osmotik bosimi uchun zarur. Gipokaliemiyani to'g'rilab yurak ritmi va mushak funksiyasini tiklaydi. Tomir orqали faqat suyultirib, sekin yuboriladi (konsentrlangan KCl bolus — halokatli).`,
+    farmakokinetika: { sorish: "Ichakdan yoki v/i (suyultirib)", tarqalish: "Asosан hujayra ichi", metabolizm: "—", chiqarilish: "Asosан buyrak orqали" },
+    korsatmalar: ["Gipokaliemiya (diuretiklar, qusish/diareya, periodik falaj) profilaktikasi va davosi", "Yurak glikozidlari fonидagi aritmiya (gipokaliemiyali)"],
+    qarrshi: ["Giperkaliemiya, og'ir buyrak yetishmovchiligi (oliguriya)", "Addison kasalligi, kaliy saqlovchi diuretiklar bilan", "To'liq AV-blokada; oshqozon-ichak obstruksiyasi/yara (ich shaklда)"],
+    nojoya: { "Yurak": "Giperkaliemiya — bradikardiya, AV-blokada, yurak to'xtashi (xavfli)", "Oshqozon-ichak": "Ko'ngil aynishi, yara/qon ketish (ich shaklда)", "Mahalliy (v/i)": "Vena bo'ylab og'riq, flebit" },
+    dozadan: "Giperkaliemiya — KCl ni to'xtatish, kaltsiy glyukonat (yurak himoyasi), insulin+glyukoza, ishqorlash, dializ.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar, ACE inhibitorlari, ARB bilan giperkaliemiya xavfi", "Antixolinergiklar oshqozon-ichak ta'sirini kuchaytiradi (ich shaklда)"],
+    qollash: { kattalar: "Ich: 40–100 mmol/sutka (bo'lib); v/i: suyultirib ≤10–20 mmol/soat (monitoring bilan).", bolalar: "Vaznга qarab, ehtiyotkorlik bilan" },
+    chiqarish: "Uzaytirilgan tabletkalar/kapsulalar; infuziya uchun konsentrat (suyultirib)"
+  },
+  ru: {
+    gruppa: "Минералы — препараты калия (калия хлорид)",
+    farmTasir: "Восполнение калия (против гипокалиемии)",
+    farmakodinamika: `Калия хлорид — источник основного внутриклеточного катиона калия. Калий необходим для нервно-мышечной возбудимости, проводимости и сокращения миокарда, кислотно-щелочного равновесия и осмотического давления клетки. Корректирует гипокалиемию, восстанавливая сердечный ритм и функцию мышц. Внутривенно вводят только в разведении, медленно (болюс концентрированного KCl — смертелен).`,
+    farmakokinetika: { sorish: "Из кишечника или в/в (в разведении)", tarqalish: "Преимущественно внутриклеточно", metabolizm: "—", chiqarilish: "Преимущественно почками" },
+    korsatmalar: ["Профилактика и лечение гипокалиемии (диуретики, рвота/диарея, периодический паралич)", "Аритмии на фоне сердечных гликозидов (при гипокалиемии)"],
+    qarrshi: ["Гиперкалиемия, тяжёлая почечная недостаточность (олигурия)", "Болезнь Аддисона, с калийсберегающими диуретиками", "Полная AV-блокада; обструкция/язва ЖКТ (при приёме внутрь)"],
+    nojoya: { "Сердце": "Гиперкалиемия — брадикардия, AV-блокада, остановка сердца (опасно)", "ЖКТ": "Тошнота, язва/кровотечение (при приёме внутрь)", "Местные (в/в)": "Боль по ходу вены, флебит" },
+    dozadan: "Гиперкалиемия — отмена KCl, кальция глюконат (защита сердца), инсулин+глюкоза, ощелачивание, диализ.",
+    ozarotasir: ["С калийсберегающими диуретиками, иАПФ, БРА риск гиперкалиемии", "Антихолинергики усиливают ЖКТ-эффект (при приёме внутрь)"],
+    qollash: { kattalar: "Внутрь: 40–100 ммоль/сут (дробно); в/в: в разведении ≤10–20 ммоль/ч (с мониторингом).", bolalar: "По массе, с осторожностью" },
+    chiqarish: "Пролонгированные таблетки/капсулы; концентрат для инфузий (в разведении)"
+  },
+  en: {
+    gruppa: "Minerals — potassium preparations (potassium chloride)",
+    farmTasir: "Potassium replacement (against hypokalaemia)",
+    farmakodinamika: `Potassium chloride is a source of potassium, the main intracellular cation. Potassium is essential for neuromuscular excitability, myocardial conduction and contraction, acid-base balance and cell osmotic pressure. It corrects hypokalaemia, restoring cardiac rhythm and muscle function. Given intravenously only diluted and slowly (a concentrated KCl bolus is fatal).`,
+    farmakokinetika: { sorish: "From the gut or IV (diluted)", tarqalish: "Mainly intracellular", metabolizm: "—", chiqarilish: "Mainly renal" },
+    korsatmalar: ["Prevention and treatment of hypokalaemia (diuretics, vomiting/diarrhoea, periodic paralysis)", "Arrhythmias on cardiac glycosides (with hypokalaemia)"],
+    qarrshi: ["Hyperkalaemia, severe renal impairment (oliguria)", "Addison disease, with potassium-sparing diuretics", "Complete AV block; GI obstruction/ulcer (oral)"],
+    nojoya: { "Cardiac": "Hyperkalaemia — bradycardia, AV block, cardiac arrest (dangerous)", "GI": "Nausea, ulcer/bleeding (oral)", "Local (IV)": "Pain along the vein, phlebitis" },
+    dozadan: "Hyperkalaemia — stop KCl, calcium gluconate (cardiac protection), insulin+glucose, alkalinisation, dialysis.",
+    ozarotasir: ["With potassium-sparing diuretics, ACE inhibitors, ARBs risk of hyperkalaemia", "Anticholinergics enhance the GI effect (oral)"],
+    qollash: { kattalar: "Oral: 40–100 mmol/day (divided); IV: diluted ≤10–20 mmol/h (with monitoring).", bolalar: "By weight, cautiously" },
+    chiqarish: "Modified-release tablets/capsules; concentrate for infusion (diluted)"
+  }
+},
+
+"A12CB01": {
+  uz: {
+    gruppa: "Minerallar — rux preparatlari (rux sulfat)",
+    farmTasir: "Rux o'rnini bosuvchi (mikroelement)",
+    farmakodinamika: `Rux sulfat — rux manbai. Rux 300 dan ortiq ferment (jumladан karboangidraza, alkogol degidrogenaza, DNK/RNK polimerazalar) kofaktori; oqsil va nuklein kislotalar sintezi, immun funksiya, yara bitishi, ta'm/hid sezgisi, o'sish va reproduksiya uchun zarur. Tanqisligida o'sish susayishi, immunitet zaifligi, dermatit va yaralar sekin bitishi yuzaga keladi.`,
+    farmakokinetika: { sorish: "Ichakdan (ovqat/fitat kamaytiradi)", tarqalish: "To'qimalarга", metabolizm: "—", chiqarilish: "Asosан najas" },
+    korsatmalar: ["Rux tanqisligi (parenteral oziqlanish, malabsorbsiya, akrodermatit enteropatika)", "Yara bitishini yaxshilash (yordamчи); Vilson kasalligida (mis so'rilishini kamaytirish)"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — og'ir buyrak yetishmovchiligi"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, qusish, qorin og'rig'i (och qoringa)", "Metabolik": "Uzoq yuqori doza — mis tanqisligi, anemiya, immunitet pasayishi", "Boshqa": "Og'iz ta'mi" },
+    dozadan: "Yuqori doza — o'tkir oshqozon-ichak buzilishi; surункали — mis tanqisligi; dozани kamaytirish.",
+    ozarotasir: ["Tetratsiklin, ftorxinolon, temir, mis so'rilishini kamaytiradi (interval)", "Fitat/sut mahsulotlari rux so'rilishini kamaytiradi"],
+    qollash: { kattalar: "Tanqislikда element rux 15–45 mg/sutka (sulfat sifatида), ovqatdан oldin/keyin.", bolalar: "Vaznга qarab (mas. 1 mg/kg/sutka element rux)" },
+    chiqarish: "Tabletkalar/kapsulalar (rux sulfat); shimiladigan tabletkalar"
+  },
+  ru: {
+    gruppa: "Минералы — препараты цинка (цинка сульфат)",
+    farmTasir: "Восполнение цинка (микроэлемент)",
+    farmakodinamika: `Цинка сульфат — источник цинка. Цинк — кофактор более 300 ферментов (в т.ч. карбоангидразы, алкогольдегидрогеназы, ДНК/РНК-полимераз); необходим для синтеза белка и нуклеиновых кислот, иммунной функции, заживления ран, вкуса/обоняния, роста и репродукции. При дефиците — задержка роста, ослабление иммунитета, дерматит и замедленное заживление ран.`,
+    farmakokinetika: { sorish: "Из кишечника (пища/фитаты снижают)", tarqalish: "В ткани", metabolizm: "—", chiqarilish: "Преимущественно с калом" },
+    korsatmalar: ["Дефицит цинка (парентеральное питание, мальабсорбция, энтеропатический акродерматит)", "Улучшение заживления ран (вспомогательно); при болезни Вильсона (снижение всасывания меди)"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — тяжёлая почечная недостаточность"],
+    nojoya: { "ЖКТ": "Тошнота, рвота, боль в животе (натощак)", "Метаболизм": "Длительная высокая доза — дефицит меди, анемия, снижение иммунитета", "Прочее": "Привкус во рту" },
+    dozadan: "Высокая доза — острое ЖКТ-нарушение; хронически — дефицит меди; снизить дозу.",
+    ozarotasir: ["Снижает всасывание тетрациклина, фторхинолонов, железа, меди (интервал)", "Фитаты/молочные продукты снижают всасывание цинка"],
+    qollash: { kattalar: "При дефиците элементарный цинк 15–45 мг/сут (в виде сульфата), до/после еды.", bolalar: "По массе (напр. 1 мг/кг/сут элементарного цинка)" },
+    chiqarish: "Таблетки/капсулы (цинка сульфат); таблетки для рассасывания"
+  },
+  en: {
+    gruppa: "Minerals — zinc preparations (zinc sulfate)",
+    farmTasir: "Zinc replacement (trace element)",
+    farmakodinamika: `Zinc sulfate is a zinc source. Zinc is a cofactor of over 300 enzymes (including carbonic anhydrase, alcohol dehydrogenase, DNA/RNA polymerases); it is essential for protein and nucleic acid synthesis, immune function, wound healing, taste/smell, growth and reproduction. Deficiency causes growth retardation, weakened immunity, dermatitis and slow wound healing.`,
+    farmakokinetika: { sorish: "From the gut (food/phytates reduce)", tarqalish: "Into tissues", metabolizm: "—", chiqarilish: "Mainly faecal" },
+    korsatmalar: ["Zinc deficiency (parenteral nutrition, malabsorption, acrodermatitis enteropathica)", "Improving wound healing (adjunct); in Wilson disease (reducing copper absorption)"],
+    qarrshi: ["Hypersensitivity", "Caution — severe renal impairment"],
+    nojoya: { "GI": "Nausea, vomiting, abdominal pain (on empty stomach)", "Metabolic": "Prolonged high dose — copper deficiency, anaemia, reduced immunity", "Other": "Taste in the mouth" },
+    dozadan: "High dose — acute GI upset; chronic — copper deficiency; reduce dose.",
+    ozarotasir: ["Reduces absorption of tetracycline, fluoroquinolones, iron, copper (separate dosing)", "Phytates/dairy reduce zinc absorption"],
+    qollash: { kattalar: "In deficiency elemental zinc 15–45 mg/day (as sulfate), before/after meals.", bolalar: "By weight (e.g. 1 mg/kg/day elemental zinc)" },
+    chiqarish: "Tablets/capsules (zinc sulfate); lozenges"
+  }
+},
+
+"A12CC10": {
+  uz: {
+    gruppa: "Minerallar — magniy preparatlari (magniy)",
+    farmTasir: "Magniy o'rnini bosuvchi (mikroelement, antiaritmik/antikonvulsant)",
+    farmakodinamika: `Magniy — hujayra ichidagi muhim kation va 300 dan ortiq ferment (ATFga bog'liq reaksiyalar) kofaktori. Asab-mushak o'tkazuvchanligi, mushak qisqarishi/bo'shashishi, miokard barqarorligi va kal'siy/kaliy homeostazида ishtirok etadi. Tanqisligida mushak tirishishi, aritmiya va asab qo'zg'aluvchanligi oshadi; yuqori dozaли magniy sulfat antikonvulsant (eklampsiya) va antiaritmik (torsades) sifatида ishlatiladi.`,
+    farmakokinetika: { sorish: "Ichakdan (cheklangan) yoki parenteral", tarqalish: "Suyak va hujayra ichi", metabolizm: "—", chiqarilish: "Asosан buyrak orqали" },
+    korsatmalar: ["Gipomagniemiya, magniy tanqisligi (alkogolizm, diuretiklar, malabsorbsiya)", "Eklampsiya/preeklampsiya (magniy sulfat v/i), torsades de pointes; mushak tirishishi (yordamчи)"],
+    qarrshi: ["Og'ir buyrak yetishmovchiligi (gipermagniemiya xavfi)", "AV-blokada, og'ir bradikardiya", "Miasteniya gravis (parenteral)", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Diareya (ich shaklда — osmotik)", "Gipermagniemiya (parenteral/buyrak yetishmovchiligi)": "Issiqlik hissi, gipotenziya, refleks pasayishi, nafas/yurak depressiyasi", "Mahalliy": "In'eksiya joyида issiqlik" },
+    dozadan: "Gipermagniemiya — magniyни to'xtatish, kaltsiy glyukonat (antagonist), suyuqlik, og'irда dializ/IVL.",
+    ozarotasir: ["Tetratsiklin/ftorxinolon, temir so'rilishini kamaytiradi (interval)", "Mushak bo'shashtiruvchilar (kurarsimon) ta'sirini kuchaytiradi", "Kaltsiy kanali blokatorlari bilan gipotenziya kuchayadi"],
+    qollash: { kattalar: "Ich: 250–500 mg element magniy/sutka; v/i: eklampsiyaда yuklama + qo'llab-quvvatlash (protokol bo'yicha).", bolalar: "Vaznга qarab (ko'rsatmага ko'ra)" },
+    chiqarish: "Tabletkalar (magniy laktat/sitrat/oksid); in'eksiya eritmasi (magniy sulfat 25%)"
+  },
+  ru: {
+    gruppa: "Минералы — препараты магния (магний)",
+    farmTasir: "Восполнение магния (микроэлемент, антиаритмик/антиконвульсант)",
+    farmakodinamika: `Магний — важный внутриклеточный катион и кофактор более 300 ферментов (АТФ-зависимые реакции). Участвует в нервно-мышечной проводимости, сокращении/расслаблении мышц, стабильности миокарда и гомеостазе кальция/калия. При дефиците — мышечные судороги, аритмии и повышенная нервная возбудимость; высокодозный магния сульфат используют как антиконвульсант (эклампсия) и антиаритмик (torsades).`,
+    farmakokinetika: { sorish: "Из кишечника (ограниченно) или парентерально", tarqalish: "Кость и внутриклеточно", metabolizm: "—", chiqarilish: "Преимущественно почками" },
+    korsatmalar: ["Гипомагниемия, дефицит магния (алкоголизм, диуретики, мальабсорбция)", "Эклампсия/преэклампсия (магния сульфат в/в), torsades de pointes; мышечные судороги (вспомогательно)"],
+    qarrshi: ["Тяжёлая почечная недостаточность (риск гипермагниемии)", "AV-блокада, тяжёлая брадикардия", "Миастения гравис (парентерально)", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Диарея (при приёме внутрь — осмотическая)", "Гипермагниемия (парентерально/почечная недостаточность)": "Чувство жара, гипотензия, снижение рефлексов, угнетение дыхания/сердца", "Местные": "Жар в месте инъекции" },
+    dozadan: "Гипермагниемия — отмена магния, кальция глюконат (антагонист), жидкость, при тяжёлой диализ/ИВЛ.",
+    ozarotasir: ["Снижает всасывание тетрациклина/фторхинолонов, железа (интервал)", "Усиливает действие миорелаксантов (курареподобных)", "С блокаторами кальциевых каналов усиливается гипотензия"],
+    qollash: { kattalar: "Внутрь: 250–500 мг элементарного магния/сут; в/в: при эклампсии нагрузка + поддержание (по протоколу).", bolalar: "По массе (по показаниям)" },
+    chiqarish: "Таблетки (магния лактат/цитрат/оксид); раствор для инъекций (магния сульфат 25%)"
+  },
+  en: {
+    gruppa: "Minerals — magnesium preparations (magnesium)",
+    farmTasir: "Magnesium replacement (trace element, antiarrhythmic/anticonvulsant)",
+    farmakodinamika: `Magnesium is an important intracellular cation and cofactor of over 300 enzymes (ATP-dependent reactions). It participates in neuromuscular conduction, muscle contraction/relaxation, myocardial stability and calcium/potassium homeostasis. Deficiency causes muscle cramps, arrhythmias and increased nervous excitability; high-dose magnesium sulfate is used as an anticonvulsant (eclampsia) and antiarrhythmic (torsades).`,
+    farmakokinetika: { sorish: "From the gut (limited) or parenteral", tarqalish: "Bone and intracellular", metabolizm: "—", chiqarilish: "Mainly renal" },
+    korsatmalar: ["Hypomagnesaemia, magnesium deficiency (alcoholism, diuretics, malabsorption)", "Eclampsia/pre-eclampsia (magnesium sulfate IV), torsades de pointes; muscle cramps (adjunct)"],
+    qarrshi: ["Severe renal impairment (hypermagnesaemia risk)", "AV block, severe bradycardia", "Myasthenia gravis (parenteral)", "Hypersensitivity"],
+    nojoya: { "GI": "Diarrhoea (oral — osmotic)", "Hypermagnesaemia (parenteral/renal failure)": "Warmth, hypotension, reduced reflexes, respiratory/cardiac depression", "Local": "Warmth at injection site" },
+    dozadan: "Hypermagnesaemia — stop magnesium, calcium gluconate (antagonist), fluids, dialysis/ventilation if severe.",
+    ozarotasir: ["Reduces absorption of tetracycline/fluoroquinolones, iron (separate dosing)", "Enhances muscle relaxants (curare-like)", "Hypotension enhanced with calcium channel blockers"],
+    qollash: { kattalar: "Oral: 250–500 mg elemental magnesium/day; IV: loading + maintenance in eclampsia (per protocol).", bolalar: "By weight (as indicated)" },
+    chiqarish: "Tablets (magnesium lactate/citrate/oxide); solution for injection (magnesium sulfate 25%)"
+  }
+},
+
+"A12CX": {
+  uz: {
+    gruppa: "Minerallar — kaliy va magniy aspartat (kombinatsiya)",
+    farmTasir: "Kaliy-magniy o'rnini bosuvchi (kardioprotektiv)",
+    farmakodinamika: `Kaliy aspartat + magniy aspartat (Panangin/Asparkam) — hujayra ichi kation manbai; aspartat ion tashuvchisi sifatида kaliy va magniyni hujayraga kiritishini osonlashtiradi. Ikkala ion ham miokard qo'zg'aluvchanligi, o'tkazuvchanligi va qisqaruvchanligi, asab-mushak funksiyasi uchun zarur; tanqisligida aritmiya va mushak zaifligini to'g'rilaydi. Yurak glikozidlari terapiyasида va aritmiyalarда yordamчи.`,
+    farmakokinetika: { sorish: "Ichakdan yoki v/i (suyultirib, sekin)", tarqalish: "Hujayra ichi", metabolizm: "Aspartat metabollanadi", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Gipokaliemiya va gipomagniemiya (diuretiklar, qusish/diareya)", "Yurak aritmiyalari, yurak glikozidlari terapiyasида yordamчi; IYUK/yurak yetishmovchiligi (yordamчi)"],
+    qarrshi: ["Giperkaliemiya, gipermagniemiya", "Og'ir buyrak yetishmovchiligi, Addison kasalligi", "AV-blokada (II–III), kardiogen shok (gipotenziya)"],
+    nojoya: { "Yurak": "Giperkaliemiya/gipermagniemiya — bradikardiya, AV-blokada (yuqori doza/buyrak yetishmovchiligi)", "Oshqozon-ichak": "Ko'ngil aynishi, diareya, qorin noqulayligi", "Mahalliy (v/i)": "Flebit, tez yuborishда issiqlik" },
+    dozadan: "Giperkaliemiya/gipermagniemiya — to'xtatish, kaltsiy glyukonat, monitoring.",
+    ozarotasir: ["Kaliy saqlovchi diuretiklar, ACE inhibitorlari, ARB bilan giperkaliemiya xavfi", "Tetratsiklin/temir so'rilishini kamaytiradi (interval)"],
+    qollash: { kattalar: "Ich: 1–2 tab×3/sutka (ovqatdan keyin); v/i: suyultirib sekin infuziya (ko'rsatmага ko'ra).", bolalar: "Ehtiyotkorlik bilan, ko'rsatmага ko'ra" },
+    chiqarish: "Plyonka qoplamali tabletkalar (K-aspartat + Mg-aspartat); infuziya uchun eritma"
+  },
+  ru: {
+    gruppa: "Минералы — калия и магния аспартат (комбинация)",
+    farmTasir: "Восполнение калия-магния (кардиопротективное)",
+    farmakodinamika: `Калия аспартат + магния аспартат (Панангин/Аспаркам) — источник внутриклеточных катионов; аспартат как переносчик ионов облегчает поступление калия и магния в клетку. Оба иона необходимы для возбудимости, проводимости и сократимости миокарда, нервно-мышечной функции; при дефиците корректируют аритмии и мышечную слабость. Вспомогательно при терапии сердечными гликозидами и аритмиях.`,
+    farmakokinetika: { sorish: "Из кишечника или в/в (в разведении, медленно)", tarqalish: "Внутриклеточно", metabolizm: "Аспартат метаболизируется", chiqarilish: "Почками" },
+    korsatmalar: ["Гипокалиемия и гипомагниемия (диуретики, рвота/диарея)", "Сердечные аритмии, вспомогательно при терапии сердечными гликозидами; ИБС/сердечная недостаточность (вспомогательно)"],
+    qarrshi: ["Гиперкалиемия, гипермагниемия", "Тяжёлая почечная недостаточность, болезнь Аддисона", "AV-блокада (II–III), кардиогенный шок (гипотензия)"],
+    nojoya: { "Сердце": "Гиперкалиемия/гипермагниемия — брадикардия, AV-блокада (высокая доза/почечная недостаточность)", "ЖКТ": "Тошнота, диарея, дискомфорт в животе", "Местные (в/в)": "Флебит, жар при быстром введении" },
+    dozadan: "Гиперкалиемия/гипермагниемия — отмена, кальция глюконат, мониторинг.",
+    ozarotasir: ["С калийсберегающими диуретиками, иАПФ, БРА риск гиперкалиемии", "Снижает всасывание тетрациклина/железа (интервал)"],
+    qollash: { kattalar: "Внутрь: 1–2 таб×3/сут (после еды); в/в: в разведении медленная инфузия (по показаниям).", bolalar: "С осторожностью, по показаниям" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой (K-аспартат + Mg-аспартат); раствор для инфузий"
+  },
+  en: {
+    gruppa: "Minerals — potassium and magnesium aspartate (combination)",
+    farmTasir: "Potassium-magnesium replacement (cardioprotective)",
+    farmakodinamika: `Potassium aspartate + magnesium aspartate (Panangin/Asparkam) is a source of intracellular cations; aspartate as an ion carrier facilitates entry of potassium and magnesium into the cell. Both ions are essential for myocardial excitability, conduction and contractility and neuromuscular function; in deficiency they correct arrhythmias and muscle weakness. Used as an adjunct in cardiac glycoside therapy and arrhythmias.`,
+    farmakokinetika: { sorish: "From the gut or IV (diluted, slow)", tarqalish: "Intracellular", metabolizm: "Aspartate is metabolised", chiqarilish: "Renal" },
+    korsatmalar: ["Hypokalaemia and hypomagnesaemia (diuretics, vomiting/diarrhoea)", "Cardiac arrhythmias, adjunct in cardiac glycoside therapy; CAD/heart failure (adjunct)"],
+    qarrshi: ["Hyperkalaemia, hypermagnesaemia", "Severe renal impairment, Addison disease", "AV block (II–III), cardiogenic shock (hypotension)"],
+    nojoya: { "Cardiac": "Hyperkalaemia/hypermagnesaemia — bradycardia, AV block (high dose/renal failure)", "GI": "Nausea, diarrhoea, abdominal discomfort", "Local (IV)": "Phlebitis, warmth on rapid injection" },
+    dozadan: "Hyperkalaemia/hypermagnesaemia — stop, calcium gluconate, monitoring.",
+    ozarotasir: ["With potassium-sparing diuretics, ACE inhibitors, ARBs risk of hyperkalaemia", "Reduces absorption of tetracycline/iron (separate dosing)"],
+    qollash: { kattalar: "Oral: 1–2 tab×3/day (after meals); IV: diluted slow infusion (as indicated).", bolalar: "Cautiously, as indicated" },
+    chiqarish: "Film-coated tablets (K-aspartate + Mg-aspartate); solution for infusion"
+  }
+},
+
+"A12AX": {
+  uz: {
+    gruppa: "Minerallar — kaltsiy + D vitamini (kombinatsiya)",
+    farmTasir: "Kaltsiy va D vitamini o'rnini bosuvchi (suyak salomatligi)",
+    farmakodinamika: `Kaltsiy (karbonat/sitrat) + xolekaltsiferol (vitamin D3) kombinatsiyasi. Kaltsiy suyak mineralizatsiyasi, asab-mushak va qon ivishi uchun zarur; D3 esa ichakда kaltsiy so'rilishini oshiradi va suyak almashinuvini boshqaradi — birgalikda suyak zichligini saqlaydi va paratgormonni kamaytiradi. Osteoporoz profilaktikasi/davosida bazaviy qo'shimcha sifatида ishlatiladi.`,
+    farmakokinetika: { sorish: "Ichakdan (D3 kaltsiy so'rilishini oshiradi)", tarqalish: "Suyakка (kaltsiy), yog'/jigar (D3)", metabolizm: "D3: jigar/buyrak gidroksillanish", chiqarilish: "Najas/buyrak" },
+    korsatmalar: ["Kaltsiy va D vitamini tanqisligi profilaktikasi va davosi", "Osteoporoz (asosiy davo bilan birga), osteomalyatsiya/raxit (yordamчi), keksalar va homiladorlikда"],
+    qarrshi: ["Giperkaltsiemiya/giperkaltsiuriya, gipervitaminoz D", "Og'ir buyrak yetishmovchiligi, kaltsiyли nefrolitiaz", "Sarkoidoz (D ta'sirini kuchaytiradi)"],
+    nojoya: { "Oshqozon-ichak": "Ich qotishi, meteorizm, ko'ngil aynishi", "Metabolik": "Giperkaltsiemiya/giperkaltsiuriya (ortiqcha doza)", "Buyrak": "Tosh (uzoq yuqori doza)" },
+    dozadan: "Giperkaltsiemiya — to'xtatish, suyuqlik, kaltsiyни cheklash.",
+    ozarotasir: ["Tetratsiklin, ftorxinolon, temir, levotiroksin, bisfosfonat so'rilishini kamaytiradi (interval)", "Tiazidlar giperkaltsiemiyani kuchaytiradi", "Yurak glikozidlari toksikligi oshadi"],
+    qollash: { kattalar: "1 tabletka (mas. 500–600 mg kaltsiy + 200–400 XB D3) ×1–2/sutka.", bolalar: "Yoshга ko'ra (ko'rsatmага ko'ra)" },
+    chiqarish: "Chaynaladigan/yutiladigan tabletkalar (kaltsiy karbonat/sitrat + D3)"
+  },
+  ru: {
+    gruppa: "Минералы — кальций + витамин D (комбинация)",
+    farmTasir: "Восполнение кальция и витамина D (здоровье костей)",
+    farmakodinamika: `Комбинация кальция (карбонат/цитрат) + холекальциферол (витамин D3). Кальций необходим для минерализации костей, нервно-мышечной функции и свёртывания крови; D3 повышает всасывание кальция в кишечнике и регулирует костный обмен — вместе поддерживают плотность кости и снижают паратгормон. Применяется как базовая добавка при профилактике/лечении остеопороза.`,
+    farmakokinetika: { sorish: "Из кишечника (D3 повышает всасывание кальция)", tarqalish: "В кость (кальций), жир/печень (D3)", metabolizm: "D3: гидроксилирование в печени/почках", chiqarilish: "С калом/почками" },
+    korsatmalar: ["Профилактика и лечение дефицита кальция и витамина D", "Остеопороз (с основной терапией), остеомаляция/рахит (вспомогательно), у пожилых и при беременности"],
+    qarrshi: ["Гиперкальциемия/гиперкальциурия, гипервитаминоз D", "Тяжёлая почечная недостаточность, кальциевый нефролитиаз", "Саркоидоз (усиливает действие D)"],
+    nojoya: { "ЖКТ": "Запор, метеоризм, тошнота", "Метаболизм": "Гиперкальциемия/гиперкальциурия (передозировка)", "Почки": "Камни (длительная высокая доза)" },
+    dozadan: "Гиперкальциемия — отмена, жидкость, ограничение кальция.",
+    ozarotasir: ["Снижает всасывание тетрациклина, фторхинолонов, железа, левотироксина, бисфосфонатов (интервал)", "Тиазиды усиливают гиперкальциемию", "Повышается токсичность сердечных гликозидов"],
+    qollash: { kattalar: "1 таблетка (напр. 500–600 мг кальция + 200–400 МЕ D3) ×1–2/сут.", bolalar: "По возрасту (по показаниям)" },
+    chiqarish: "Жевательные/глотательные таблетки (кальция карбонат/цитрат + D3)"
+  },
+  en: {
+    gruppa: "Minerals — calcium + vitamin D (combination)",
+    farmTasir: "Calcium and vitamin D replacement (bone health)",
+    farmakodinamika: `A combination of calcium (carbonate/citrate) + cholecalciferol (vitamin D3). Calcium is needed for bone mineralisation, neuromuscular function and coagulation; D3 increases intestinal calcium absorption and regulates bone metabolism — together they maintain bone density and lower parathyroid hormone. It is used as a baseline supplement in prevention/treatment of osteoporosis.`,
+    farmakokinetika: { sorish: "From the gut (D3 increases calcium absorption)", tarqalish: "To bone (calcium), fat/liver (D3)", metabolizm: "D3: hepatic/renal hydroxylation", chiqarilish: "Faecal/renal" },
+    korsatmalar: ["Prevention and treatment of calcium and vitamin D deficiency", "Osteoporosis (with main therapy), osteomalacia/rickets (adjunct), in the elderly and pregnancy"],
+    qarrshi: ["Hypercalcaemia/hypercalciuria, hypervitaminosis D", "Severe renal impairment, calcium nephrolithiasis", "Sarcoidosis (enhances D action)"],
+    nojoya: { "GI": "Constipation, flatulence, nausea", "Metabolic": "Hypercalcaemia/hypercalciuria (overdose)", "Renal": "Stones (prolonged high dose)" },
+    dozadan: "Hypercalcaemia — stop, fluids, restrict calcium.",
+    ozarotasir: ["Reduces absorption of tetracycline, fluoroquinolones, iron, levothyroxine, bisphosphonates (separate dosing)", "Thiazides enhance hypercalcaemia", "Increased cardiac glycoside toxicity"],
+    qollash: { kattalar: "1 tablet (e.g. 500–600 mg calcium + 200–400 IU D3) ×1–2/day.", bolalar: "By age (as indicated)" },
+    chiqarish: "Chewable/swallowable tablets (calcium carbonate/citrate + D3)"
+  }
 }
 
 };
