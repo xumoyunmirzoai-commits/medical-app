@@ -37478,6 +37478,300 @@ const PHARMA_DATA = {
     qollash: { kattalar: "1 tablet/capsule once daily (with food).", bolalar: "Form and dose by age" },
     chiqarish: "Tablets, capsules, chewable tablets, oral solution/drops"
   }
+},
+
+"B01AA03": {
+  uz: {
+    gruppa: "Antikoagulyantlar — vitamin K antagonistlari (varfarin)",
+    farmTasir: "Bilvosita (peroral) antikoagulyant",
+    farmakodinamika: `Varfarin — kumarin hosilasi, vitamin K-ga bog'liq ivish faktorlari (II, VII, IX, X) hamda protein C va S sintezini bostiruvchi bilvosita antikoagulyant. Jigarда vitamin K epoksid reduktaza (VKORC1) fermentini to'sib, vitamin K ning faol (qaytarilgan) shaklга aylanishini bloklaydi — natijada gamma-karboksillanmagan, faolligi past ivish faktorlari hosil bo'ladi. Ta'sir asta (36–72 soat ichida to'liq) rivojlanadi, chunki avval mavjud faktorlar parchalanishi kerak.`,
+    farmakokinetika: { sorish: "Ichakdan to'liq va tez", tarqalish: "Plazma oqsiliga ~99% (albumin)", metabolizm: "Jigar (CYP2C9, CYP3A4, CYP1A2)", chiqarilish: "Buyrak (metabolitlar); T½ ~36–42 soat" },
+    korsatmalar: ["Venoz tromboz va o'pka emboliyasi davosi va profilaktikasi", "Hilpillovchi aritmiya va sun'iy yurak klapanlarида tromboembolik asoratlar profilaktikasi", "Miokard infarktdan keyin takroriy tromboz profilaktikasi (tanlangan holatlar)"],
+    qarrshi: ["Faol qon ketish, qon ketish yuqori xavfi (yara, yaqinda jarrohlik, MNS jarohati)", "Og'ir jigar yetishmovchiligi, nazoratsiz og'ir gipertenziya", "Homiladorlik (ayniqsa 1- va 3-trimestr — teratogen/qon ketish)", "Yuqori sezuvchanlik"],
+    nojoya: { "Qon ketish": "Burun/milk, gematuriya, oshqozon-ichak, miya ichi (xavfli) — eng asosiy", "Teri": "Kumarinli teri nekrozi (boshlanishда, protein C tanqisligi), «binafsha barmoq» sindromi", "Boshqa": "Alopetsiya, jigar fermentlari ko'tarilishi" },
+    dozadan: "Qon ketish/INR yuqori — varfarinни to'xtatish; vitamin K1 (fitomenadion), og'ir qon ketishда protrombin kompleksi konsentrati (PCC) yoki yangi muzlatilgan plazma.",
+    ozarotasir: ["KO'P dori bilan o'zaro ta'sir: CYP2C9 inhibitorlari (amiodaron, metronidazol, flukonazol, ko-trimoksazol), NYaQVD, antibiotiklar ta'sirini KUCHAYTIRADI (qon ketish)", "CYP induktorlari (rifampitsin, karbamazepin, barbituratlar) ta'sirini SUSAYTIRADI", "Vitamin K boy ovqat (ko'katlar) samarani kamaytiradi"],
+    qollash: { kattalar: "Boshlang'ich 2,5–5 mg/sutka, INR (xalqaro normallashtirilgan nisbat) bo'yicha titrlash (maqsadli odatda 2,0–3,0); doimiy INR nazorati shart.", bolalar: "0,1–0,2 mg/kg/sutka, INR bo'yicha (mutaxassis nazoratида)" },
+    chiqarish: "Tabletkalar 1/2,5/3/5 mg"
+  },
+  ru: {
+    gruppa: "Антикоагулянты — антагонисты витамина K (варфарин)",
+    farmTasir: "Непрямой (пероральный) антикоагулянт",
+    farmakodinamika: `Варфарин — производное кумарина, непрямой антикоагулянт, подавляющий синтез витамин-K-зависимых факторов свёртывания (II, VII, IX, X), а также протеинов C и S. Блокирует в печени фермент витамин-K-эпоксидредуктазу (VKORC1), нарушая переход витамина K в активную (восстановленную) форму — в результате образуются гамма-некарбоксилированные факторы с низкой активностью. Действие развивается медленно (полностью за 36–72 ч), так как сначала должны разрушиться уже имеющиеся факторы.`,
+    farmakokinetika: { sorish: "Из кишечника полностью и быстро", tarqalish: "Связь с белками ~99% (альбумин)", metabolizm: "Печень (CYP2C9, CYP3A4, CYP1A2)", chiqarilish: "Почками (метаболиты); T½ ~36–42 ч" },
+    korsatmalar: ["Лечение и профилактика венозного тромбоза и тромбоэмболии лёгочной артерии", "Профилактика тромбоэмболий при мерцательной аритмии и искусственных клапанах сердца", "Профилактика повторного тромбоза после инфаркта миокарда (в отдельных случаях)"],
+    qarrshi: ["Активное кровотечение, высокий риск кровотечения (язва, недавняя операция, травма ЦНС)", "Тяжёлая печёночная недостаточность, неконтролируемая тяжёлая гипертензия", "Беременность (особенно I и III триместр — тератогенность/кровотечение)", "Гиперчувствительность"],
+    nojoya: { "Кровотечения": "Носовые/дёсенные, гематурия, ЖКТ, внутримозговые (опасно) — основное", "Кожа": "Кумариновый некроз кожи (в начале, при дефиците протеина C), синдром «пурпурных пальцев»", "Прочее": "Алопеция, повышение печёночных ферментов" },
+    dozadan: "Кровотечение/высокое МНО — отмена варфарина; витамин K1 (фитоменадион), при тяжёлом кровотечении концентрат протромбинового комплекса (PCC) или свежезамороженная плазма.",
+    ozarotasir: ["МНОГО лекарственных взаимодействий: ингибиторы CYP2C9 (амиодарон, метронидазол, флуконазол, ко-тримоксазол), НПВП, антибиотики УСИЛИВАЮТ действие (кровотечение)", "Индукторы CYP (рифампицин, карбамазепин, барбитураты) ОСЛАБЛЯЮТ действие", "Богатая витамином K пища (зелень) снижает эффект"],
+    qollash: { kattalar: "Начальная 2,5–5 мг/сут, титрование по МНО (целевое обычно 2,0–3,0); обязателен постоянный контроль МНО.", bolalar: "0,1–0,2 мг/кг/сут, по МНО (под наблюдением специалиста)" },
+    chiqarish: "Таблетки 1/2,5/3/5 мг"
+  },
+  en: {
+    gruppa: "Anticoagulants — vitamin K antagonists (warfarin)",
+    farmTasir: "Indirect (oral) anticoagulant",
+    farmakodinamika: `Warfarin is a coumarin derivative and an indirect anticoagulant that suppresses synthesis of vitamin K-dependent clotting factors (II, VII, IX, X) and proteins C and S. It blocks hepatic vitamin K epoxide reductase (VKORC1), preventing regeneration of the active (reduced) form of vitamin K — resulting in gamma-uncarboxylated factors with low activity. Its effect develops slowly (full by 36–72 h) because existing factors must first be cleared.`,
+    farmakokinetika: { sorish: "Complete and rapid from the gut", tarqalish: "~99% protein-bound (albumin)", metabolizm: "Hepatic (CYP2C9, CYP3A4, CYP1A2)", chiqarilish: "Renal (metabolites); T½ ~36–42 h" },
+    korsatmalar: ["Treatment and prevention of venous thrombosis and pulmonary embolism", "Prevention of thromboembolism in atrial fibrillation and prosthetic heart valves", "Prevention of recurrent thrombosis after myocardial infarction (selected cases)"],
+    qarrshi: ["Active bleeding, high bleeding risk (ulcer, recent surgery, CNS trauma)", "Severe hepatic impairment, uncontrolled severe hypertension", "Pregnancy (especially 1st and 3rd trimester — teratogenicity/bleeding)", "Hypersensitivity"],
+    nojoya: { "Bleeding": "Nose/gums, haematuria, GI, intracranial (dangerous) — the main effect", "Skin": "Coumarin skin necrosis (early, with protein C deficiency), 'purple toe' syndrome", "Other": "Alopecia, raised liver enzymes" },
+    dozadan: "Bleeding/high INR — stop warfarin; vitamin K1 (phytomenadione), and for severe bleeding prothrombin complex concentrate (PCC) or fresh frozen plasma.",
+    ozarotasir: ["MANY drug interactions: CYP2C9 inhibitors (amiodarone, metronidazole, fluconazole, co-trimoxazole), NSAIDs, antibiotics ENHANCE the effect (bleeding)", "CYP inducers (rifampicin, carbamazepine, barbiturates) REDUCE the effect", "Vitamin K-rich food (greens) reduces the effect"],
+    qollash: { kattalar: "Initial 2.5–5 mg/day, titrate by INR (target usually 2.0–3.0); continuous INR monitoring required.", bolalar: "0.1–0.2 mg/kg/day, by INR (under specialist supervision)" },
+    chiqarish: "Tablets 1/2.5/3/5 mg"
+  }
+},
+
+"B01AB01": {
+  uz: {
+    gruppa: "Antikoagulyantlar — geparin guruhi (geparin natriy, UFG)",
+    farmTasir: "To'g'ridan-to'g'ri parenteral antikoagulyant (fraksiyalanmagan geparin)",
+    farmakodinamika: `Geparin natriy (fraksiyalanmagan geparin, UFG) — tabiiy sulfatlangan glikozaminoglikan. Antitrombin III ga bog'lanib uning faolligini ~1000 baravar oshiradi; antitrombin esa trombin (IIa), Xa va boshqa faollashgan ivish faktorlarini (IXa, XIa, XIIa) tezda inaktivlaydi. Trombin va Xa ga teng ta'sir qiladi (IIa:Xa ≈ 1:1). Ta'sir tez (v/i — darhol) boshlanadi; APTT bilan nazorat qilinadi.`,
+    farmakokinetika: { sorish: "Parenteral (v/i, teri ostiga); ichakdan so'rilmaydi", tarqalish: "Plazmaда (endoteliy va makrofaglarга bog'lanadi)", metabolizm: "Jigar (geparinaza), retikuloendotelial tizim", chiqarilish: "Buyrak; T½ doza­ga bog'liq ~1–2 soat" },
+    korsatmalar: ["O'tkir venoz tromboz va o'pka emboliyasi davosi", "O'tkir koronar sindrom, miokard infarkti (yordamчi)", "Tromboz profilaktikasi (jarrohlik, immobilizatsiya); ekstrakorporal qon aylanishi (dializ, AIK), kateterларни yuvish"],
+    qarrshi: ["Faol qon ketish, gemorragik diatez, geparin keltirib chiqargan trombotsitopeniya (GIT/HIT) anamnezi", "Og'ir nazoratsiz gipertenziya, miya ichi qon ketishi, yaqinda MNS/ko'z jarrohligi", "Og'ir jigar/buyrak yetishmovchiligi (ehtiyot)"],
+    nojoya: { "Qon ketish": "Turli joylashuvли qon ketish (asosiy)", "Qon": "Geparin keltirib chiqargan trombotsitopeniya (HIT — immun, xavfli, paradoksal tromboz)", "Metabolik": "Giperkaliemiya (aldosteron bostirilishi), uzoq qo'llaganда osteoporoz", "Mahalliy": "In'eksiya joyида gematoma, teri nekrozi (kamdan-kam)" },
+    dozadan: "Qon ketish — geparinни to'xtatish; antidot — protamin sulfat (1 mg ~100 BIRLIK geparinni neytrallaydi).",
+    ozarotasir: ["NYaQVD, antiagregantlar, boshqa antikoagulyantlar, trombolitiklar bilan qon ketish xavfi oshadi", "Nitrogliserin v/i geparin ta'sirini susaytirishi mumkin"],
+    qollash: { kattalar: "Davolovчи: v/i bolus 80 BIRLIK/kg, keyin ~18 BIRLIK/kg/soat infuziya (APTT bo'yicha); profilaktik: 5000 BIRLIK teri ostiga 2–3 marta/sutka.", bolalar: "Vaznга qarab (bolus 75 BIRLIK/kg, keyin infuziya), APTT/anti-Xa nazoratида" },
+    chiqarish: "In'eksiya/infuziya eritmasi 5000 BIRLIK/ml (flakon/ampula)"
+  },
+  ru: {
+    gruppa: "Антикоагулянты — группа гепарина (гепарин натрия, НФГ)",
+    farmTasir: "Прямой парентеральный антикоагулянт (нефракционированный гепарин)",
+    farmakodinamika: `Гепарин натрия (нефракционированный гепарин, НФГ) — природный сульфатированный гликозаминогликан. Связываясь с антитромбином III, повышает его активность примерно в 1000 раз; антитромбин быстро инактивирует тромбин (IIa), Xa и другие активированные факторы (IXa, XIa, XIIa). Действует на тромбин и Xa примерно одинаково (IIa:Xa ≈ 1:1). Эффект быстрый (в/в — немедленно); контролируется по АЧТВ.`,
+    farmakokinetika: { sorish: "Парентерально (в/в, п/к); из кишечника не всасывается", tarqalish: "В плазме (связь с эндотелием и макрофагами)", metabolizm: "Печень (гепариназа), ретикулоэндотелиальная система", chiqarilish: "Почками; T½ дозозависимый ~1–2 ч" },
+    korsatmalar: ["Лечение острого венозного тромбоза и ТЭЛА", "Острый коронарный синдром, инфаркт миокарда (вспомогательно)", "Профилактика тромбоза (операции, иммобилизация); экстракорпоральное кровообращение (диализ, АИК), промывание катетеров"],
+    qarrshi: ["Активное кровотечение, геморрагический диатез, гепарин-индуцированная тромбоцитопения (ГИТ) в анамнезе", "Тяжёлая неконтролируемая гипертензия, внутримозговое кровотечение, недавняя операция на ЦНС/глазах", "Тяжёлая печёночная/почечная недостаточность (осторожно)"],
+    nojoya: { "Кровотечения": "Кровотечения различной локализации (основное)", "Кровь": "Гепарин-индуцированная тромбоцитопения (ГИТ — иммунная, опасна, парадоксальный тромбоз)", "Метаболизм": "Гиперкалиемия (подавление альдостерона), при длительном применении остеопороз", "Местные": "Гематома в месте инъекции, некроз кожи (редко)" },
+    dozadan: "Кровотечение — отмена гепарина; антидот — протамина сульфат (1 мг нейтрализует ~100 ЕД гепарина).",
+    ozarotasir: ["С НПВП, антиагрегантами, другими антикоагулянтами, тромболитиками риск кровотечения возрастает", "Нитроглицерин в/в может ослаблять действие гепарина"],
+    qollash: { kattalar: "Лечебно: в/в болюс 80 ЕД/кг, затем инфузия ~18 ЕД/кг/ч (по АЧТВ); профилактически: 5000 ЕД п/к 2–3 раза/сут.", bolalar: "По массе (болюс 75 ЕД/кг, затем инфузия), под контролем АЧТВ/анти-Xa" },
+    chiqarish: "Раствор для инъекций/инфузий 5000 ЕД/мл (флакон/ампулы)"
+  },
+  en: {
+    gruppa: "Anticoagulants — heparin group (heparin sodium, UFH)",
+    farmTasir: "Direct parenteral anticoagulant (unfractionated heparin)",
+    farmakodinamika: `Heparin sodium (unfractionated heparin, UFH) is a natural sulfated glycosaminoglycan. By binding antithrombin III it increases its activity about 1000-fold; antithrombin then rapidly inactivates thrombin (IIa), Xa and other activated factors (IXa, XIa, XIIa). It acts roughly equally on thrombin and Xa (IIa:Xa ≈ 1:1). The effect is rapid (IV — immediate) and monitored by APTT.`,
+    farmakokinetika: { sorish: "Parenteral (IV, SC); not absorbed from the gut", tarqalish: "In plasma (binds endothelium and macrophages)", metabolizm: "Hepatic (heparinase), reticuloendothelial system", chiqarilish: "Renal; dose-dependent T½ ~1–2 h" },
+    korsatmalar: ["Treatment of acute venous thrombosis and pulmonary embolism", "Acute coronary syndrome, myocardial infarction (adjunct)", "Thrombosis prophylaxis (surgery, immobilisation); extracorporeal circulation (dialysis, bypass), catheter flushing"],
+    qarrshi: ["Active bleeding, haemorrhagic diathesis, history of heparin-induced thrombocytopenia (HIT)", "Severe uncontrolled hypertension, intracranial bleeding, recent CNS/eye surgery", "Severe hepatic/renal impairment (caution)"],
+    nojoya: { "Bleeding": "Bleeding at various sites (the main effect)", "Blood": "Heparin-induced thrombocytopenia (HIT — immune, dangerous, paradoxical thrombosis)", "Metabolic": "Hyperkalaemia (aldosterone suppression), osteoporosis with long-term use", "Local": "Injection-site haematoma, skin necrosis (rare)" },
+    dozadan: "Bleeding — stop heparin; antidote — protamine sulfate (1 mg neutralises ~100 units of heparin).",
+    ozarotasir: ["With NSAIDs, antiplatelets, other anticoagulants, thrombolytics bleeding risk increases", "IV nitroglycerin may attenuate heparin's effect"],
+    qollash: { kattalar: "Therapeutic: IV bolus 80 units/kg, then ~18 units/kg/h infusion (by APTT); prophylactic: 5000 units SC 2–3 times/day.", bolalar: "By weight (bolus 75 units/kg, then infusion), under APTT/anti-Xa monitoring" },
+    chiqarish: "Solution for injection/infusion 5000 units/mL (vial/ampoule)"
+  }
+},
+
+"B01AB05": {
+  uz: {
+    gruppa: "Antikoagulyantlar — past molekulali geparinlar (enoksaparin)",
+    farmTasir: "Past molekulali geparin (LMWH, asosан anti-Xa)",
+    farmakodinamika: `Enoksaparin natriy — fraksiyalanmagan geparindан depolimerlash orqали olinган past molekulali geparin (LMWH). Antitrombin III orqали asosан Xa faktorni inaktivlaydi, trombin (IIa) ga ta'siri kamroq (anti-Xa:anti-IIa ≈ 3,5:1). UFG ga nisbatan prognozli farmakokinetika, uzoqroq ta'sir, kuniga 1–2 marta teri ostiga yuboriladi va ko'pchilik holatда laboratoriya nazorati talab qilmaydi.`,
+    farmakokinetika: { sorish: "Teri ostiga (bioo'zlashtirish ~100%)", tarqalish: "Tor", metabolizm: "Jigarда qisman", chiqarilish: "Asosан buyrak; anti-Xa T½ ~4–5 soat" },
+    korsatmalar: ["Chuqur venoz tromboz va o'pka emboliyasi davosi/profilaktikasi", "O'tkir koronar sindrom (NSTEMI/STEMI), nostabil stenokardiya", "Jarrohlik va terapevtik bemorlarда tromboz profilaktikasi; gemodializ konturида"],
+    qarrshi: ["Faol qon ketish, geparin keltirib chiqargan trombotsitopeniya (HIT) anamnezi", "Og'ir buyrak yetishmovchiligida ehtiyot/doza moslash (KrKl <30 ml/min)", "Yaqinda MNS qon ketishi/jarrohligi", "Geparin/enoksaparinга yuqori sezuvchanlik"],
+    nojoya: { "Qon ketish": "Turli joylashuvли qon ketish", "Qon": "Trombotsitopeniya (jumladан HIT), anemiya", "Mahalliy": "In'eksiya joyида gematoma, og'riq, kamdan-kam teri nekrozi", "Metabolik": "Giperkaliemiya, transaminaza ko'tarilishi" },
+    dozadan: "Qon ketish — to'xtatish; protamin sulfat anti-IIa ni to'liq, anti-Xa ni qisman neytrallaydi.",
+    ozarotasir: ["NYaQVD, antiagregantlar, boshqa antikoagulyantlar, trombolitiklar bilan qon ketish xavfi", "Kaliy oshiruvchi dorilar bilan giperkaliemiya"],
+    qollash: { kattalar: "Profilaktik: 40 mg (4000 anti-Xa BIRLIK) teri ostiga 1 marta/sutka; davolovчи: 1 mg/kg×2 yoki 1,5 mg/kg×1.", bolalar: "Vaznга qarab (davolovчи ~1,5 mg/kg×2 chaqaloqларда), anti-Xa nazoratида" },
+    chiqarish: "Oldindan to'ldirilgan shpritslar (mas. 20/40/60/80 mg)"
+  },
+  ru: {
+    gruppa: "Антикоагулянты — низкомолекулярные гепарины (эноксапарин)",
+    farmTasir: "Низкомолекулярный гепарин (НМГ, преимущественно анти-Xa)",
+    farmakodinamika: `Эноксапарин натрия — низкомолекулярный гепарин (НМГ), получаемый деполимеризацией нефракционированного гепарина. Через антитромбин III инактивирует преимущественно фактор Xa, меньше влияя на тромбин (IIa) (анти-Xa:анти-IIa ≈ 3,5:1). По сравнению с НФГ — предсказуемая фармакокинетика, более длительное действие, вводится п/к 1–2 раза в сутки и в большинстве случаев не требует лабораторного контроля.`,
+    farmakokinetika: { sorish: "П/к (биодоступность ~100%)", tarqalish: "Узкое", metabolizm: "Частично в печени", chiqarilish: "Преимущественно почками; анти-Xa T½ ~4–5 ч" },
+    korsatmalar: ["Лечение/профилактика тромбоза глубоких вен и ТЭЛА", "Острый коронарный синдром (NSTEMI/STEMI), нестабильная стенокардия", "Профилактика тромбоза у хирургических и терапевтических больных; в контуре гемодиализа"],
+    qarrshi: ["Активное кровотечение, ГИТ в анамнезе", "Осторожность/коррекция дозы при тяжёлой почечной недостаточности (КлКр <30 мл/мин)", "Недавнее кровотечение/операция на ЦНС", "Гиперчувствительность к гепарину/эноксапарину"],
+    nojoya: { "Кровотечения": "Кровотечения различной локализации", "Кровь": "Тромбоцитопения (в т.ч. ГИТ), анемия", "Местные": "Гематома, боль в месте инъекции, редко некроз кожи", "Метаболизм": "Гиперкалиемия, повышение трансаминаз" },
+    dozadan: "Кровотечение — отмена; протамина сульфат полностью нейтрализует анти-IIa, частично анти-Xa.",
+    ozarotasir: ["С НПВП, антиагрегантами, другими антикоагулянтами, тромболитиками риск кровотечения", "С препаратами, повышающими калий, гиперкалиемия"],
+    qollash: { kattalar: "Профилактически: 40 мг (4000 анти-Xa ЕД) п/к 1 раз/сут; лечебно: 1 мг/кг×2 или 1,5 мг/кг×1.", bolalar: "По массе (лечебно ~1,5 мг/кг×2 у новорождённых), под контролем анти-Xa" },
+    chiqarish: "Предварительно заполненные шприцы (напр. 20/40/60/80 мг)"
+  },
+  en: {
+    gruppa: "Anticoagulants — low-molecular-weight heparins (enoxaparin)",
+    farmTasir: "Low-molecular-weight heparin (LMWH, mainly anti-Xa)",
+    farmakodinamika: `Enoxaparin sodium is a low-molecular-weight heparin (LMWH) obtained by depolymerising unfractionated heparin. Via antithrombin III it inactivates mainly factor Xa, with less effect on thrombin (IIa) (anti-Xa:anti-IIa ≈ 3.5:1). Compared with UFH it has predictable pharmacokinetics, longer action, is given SC once or twice daily, and usually needs no laboratory monitoring.`,
+    farmakokinetika: { sorish: "SC (bioavailability ~100%)", tarqalish: "Narrow", metabolizm: "Partly hepatic", chiqarilish: "Mainly renal; anti-Xa T½ ~4–5 h" },
+    korsatmalar: ["Treatment/prevention of deep vein thrombosis and pulmonary embolism", "Acute coronary syndrome (NSTEMI/STEMI), unstable angina", "Thrombosis prophylaxis in surgical and medical patients; in the haemodialysis circuit"],
+    qarrshi: ["Active bleeding, history of HIT", "Caution/dose adjustment in severe renal impairment (CrCl <30 mL/min)", "Recent CNS bleeding/surgery", "Hypersensitivity to heparin/enoxaparin"],
+    nojoya: { "Bleeding": "Bleeding at various sites", "Blood": "Thrombocytopenia (including HIT), anaemia", "Local": "Injection-site haematoma, pain, rarely skin necrosis", "Metabolic": "Hyperkalaemia, raised transaminases" },
+    dozadan: "Bleeding — stop; protamine sulfate fully neutralises anti-IIa and partly anti-Xa.",
+    ozarotasir: ["With NSAIDs, antiplatelets, other anticoagulants, thrombolytics bleeding risk", "With potassium-raising drugs hyperkalaemia"],
+    qollash: { kattalar: "Prophylactic: 40 mg (4000 anti-Xa units) SC once daily; therapeutic: 1 mg/kg×2 or 1.5 mg/kg×1.", bolalar: "By weight (therapeutic ~1.5 mg/kg×2 in neonates), under anti-Xa monitoring" },
+    chiqarish: "Pre-filled syringes (e.g. 20/40/60/80 mg)"
+  }
+},
+
+"B01AB11": {
+  uz: {
+    gruppa: "Antikoagulyantlar — geparinoidlar (sulodeksid)",
+    farmTasir: "Antikoagulyant-angioprotektor (geparinoid)",
+    farmakodinamika: `Sulodeksid — ichak shilliq qavatidan olinган tabiiy glikozaminoglikan aralashmasi (tez harakatlanuvchi geparin fraksiyasi ~80% va dermatan sulfat ~20%). Anti-Xa va anti-IIa faolligi orqали antikoagulyant ta'sir ko'rsatadi; shu bilan birga endotelni himoya qiladi, qon qovushqoqligini va fibrinogenни kamaytiradi, lipoprotein lipazani faollashtiradi (lipid-pasaytiruvchi) va fibrinolizni kuchaytiradi. Tomir devori himoyasi tufayli diabetik angiopatiya va venoz patologияда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich (kapsula) va parenteral (v/m, v/i)", tarqalish: "Tomir endoteliyига to'planadi", metabolizm: "Jigar/buyrak (retikuloendotelial)", chiqarilish: "Asosан buyrak orqали" },
+    korsatmalar: ["Diabetik angiopatiya (nefropatiya, retinopatiya, neyropatiya)", "Surункали venoz yetishmovchilik, troyfik yaralar, posttrombotik sindrom", "Ateroskleroz fonидagi tromboz xavfi, periferik arteriya kasalligi (yordamчi)"],
+    qarrshi: ["Faol qon ketish, gemorragik diatez", "Geparin/geparinoidларга yuqori sezuvchanlik", "Homiladorlikning 1-trimestri (ehtiyot)"],
+    nojoya: { "Oshqozon-ichak": "Ko'ngil aynishi, qusish, epigastriyда og'riq (ich shaklда)", "Mahalliy (parenteral)": "In'eksiya joyида og'riq, gematoma, kuyish", "Qon ketish": "Kamdan-kam (UFG/LMWH dan kamroq)", "Allergik": "Toshma" },
+    dozadan: "Qon ketish — to'xtatish, og'irда protamin sulfat (qisman); simptomatik.",
+    ozarotasir: ["Antikoagulyant/antiagregantlar bilan qon ketish xavfi oshadi"],
+    qollash: { kattalar: "Boshlang'ich 600 LSU (lipasemik birlik)/sutka v/m/v/i 15–20 kun, keyin ich 250 LSU×2/sutka; kurs ~30–40 kun.", bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)" },
+    chiqarish: "Kapsulalar 250 LSU; in'eksiya eritmasi 600 LSU/2 ml (ampula)"
+  },
+  ru: {
+    gruppa: "Антикоагулянты — гепариноиды (сулодексид)",
+    farmTasir: "Антикоагулянт-ангиопротектор (гепариноид)",
+    farmakodinamika: `Сулодексид — природная смесь гликозаминогликанов из слизистой кишечника (быстродвижущаяся гепариновая фракция ~80% и дерматансульфат ~20%). Оказывает антикоагулянтное действие через анти-Xa и анти-IIa активность; одновременно защищает эндотелий, снижает вязкость крови и фибриноген, активирует липопротеинлипазу (гиполипидемическое действие) и усиливает фибринолиз. Благодаря защите сосудистой стенки применяется при диабетической ангиопатии и венозной патологии.`,
+    farmakokinetika: { sorish: "Внутрь (капсулы) и парентерально (в/м, в/в)", tarqalish: "Накапливается в эндотелии сосудов", metabolizm: "Печень/почки (ретикулоэндотелиальная система)", chiqarilish: "Преимущественно почками" },
+    korsatmalar: ["Диабетическая ангиопатия (нефропатия, ретинопатия, нейропатия)", "Хроническая венозная недостаточность, трофические язвы, посттромботический синдром", "Риск тромбоза на фоне атеросклероза, заболевания периферических артерий (вспомогательно)"],
+    qarrshi: ["Активное кровотечение, геморрагический диатез", "Гиперчувствительность к гепарину/гепариноидам", "I триместр беременности (осторожно)"],
+    nojoya: { "ЖКТ": "Тошнота, рвота, боль в эпигастрии (при приёме внутрь)", "Местные (парентерально)": "Боль, гематома, жжение в месте инъекции", "Кровотечения": "Редко (меньше, чем у НФГ/НМГ)", "Аллергические": "Сыпь" },
+    dozadan: "Кровотечение — отмена, при тяжёлом протамина сульфат (частично); симптоматически.",
+    ozarotasir: ["С антикоагулянтами/антиагрегантами риск кровотечения возрастает"],
+    qollash: { kattalar: "Начально 600 ЛЕ (липасемических единиц)/сут в/м/в/в 15–20 дней, затем внутрь 250 ЛЕ×2/сут; курс ~30–40 дней.", bolalar: "Не рекомендуется (данные ограничены)" },
+    chiqarish: "Капсулы 250 ЛЕ; раствор для инъекций 600 ЛЕ/2 мл (ампулы)"
+  },
+  en: {
+    gruppa: "Anticoagulants — heparinoids (sulodexide)",
+    farmTasir: "Anticoagulant-angioprotector (heparinoid)",
+    farmakodinamika: `Sulodexide is a natural mixture of glycosaminoglycans from intestinal mucosa (a fast-moving heparin fraction ~80% and dermatan sulfate ~20%). It has anticoagulant action through anti-Xa and anti-IIa activity; it also protects the endothelium, reduces blood viscosity and fibrinogen, activates lipoprotein lipase (lipid-lowering) and enhances fibrinolysis. Owing to vascular wall protection it is used in diabetic angiopathy and venous pathology.`,
+    farmakokinetika: { sorish: "Oral (capsules) and parenteral (IM, IV)", tarqalish: "Accumulates in vascular endothelium", metabolizm: "Hepatic/renal (reticuloendothelial system)", chiqarilish: "Mainly renal" },
+    korsatmalar: ["Diabetic angiopathy (nephropathy, retinopathy, neuropathy)", "Chronic venous insufficiency, trophic ulcers, post-thrombotic syndrome", "Thrombosis risk in atherosclerosis, peripheral artery disease (adjunct)"],
+    qarrshi: ["Active bleeding, haemorrhagic diathesis", "Hypersensitivity to heparin/heparinoids", "First trimester of pregnancy (caution)"],
+    nojoya: { "GI": "Nausea, vomiting, epigastric pain (oral)", "Local (parenteral)": "Injection-site pain, haematoma, burning", "Bleeding": "Rare (less than UFH/LMWH)", "Allergic": "Rash" },
+    dozadan: "Bleeding — stop, protamine sulfate (partial) if severe; supportive.",
+    ozarotasir: ["With anticoagulants/antiplatelets bleeding risk increases"],
+    qollash: { kattalar: "Initial 600 LSU (lipasemic units)/day IM/IV for 15–20 days, then oral 250 LSU×2/day; course ~30–40 days.", bolalar: "Not recommended (limited data)" },
+    chiqarish: "Capsules 250 LSU; solution for injection 600 LSU/2 mL (ampoule)"
+  }
+},
+
+"B01AC04": {
+  uz: {
+    gruppa: "Antiagregantlar — P2Y12 inhibitorlari (klopidogrel)",
+    farmTasir: "Trombotsitларга qarshi (ADF-retseptor P2Y12 antagonisti)",
+    farmakodinamika: `Klopidogrel — tienopiridin guruhi prodorisi. Jigarда CYP fermentlari (asosан CYP2C19) orqали faol metabolitга aylanadi, u trombotsit yuzasidagi ADF (P2Y12) retseptorini qaytmas bloklaydi — natijada ADF orqали trombotsit faollashishi va GP IIb/IIIa kompleksi orqали agregatsiya susayadi. Ta'sir trombotsit yashash davri (~7–10 kun) davom etadi.`,
+    farmakokinetika: { sorish: "Ichakdan tez (prodori)", tarqalish: "Plazma oqsiliga yuqori", metabolizm: "Jigar (CYP2C19 — faol metabolit)", chiqarilish: "Buyrak/najas; faol metabolit T½ ~30 daqiqa (ta'sir uzoq)" },
+    korsatmalar: ["O'tkir koronar sindrom (aspirin bilan — ikki tomonlama antiagregant terapiya)", "Stent qo'yilgandan keyin tromboz profilaktikasi", "Miokard infarkti, ishemik insult yoki periferik arteriya kasalligidан keyin ikkilamchi profilaktika"],
+    qarrshi: ["Faol qon ketish (oshqozon yara, miya ichi qon ketishi)", "Og'ir jigar yetishmovchiligi", "Yuqori sezuvchanlik", "Ehtiyotkorlik — yaqinlashayotgan jarrohlik (5–7 kun oldin to'xtatish)"],
+    nojoya: { "Qon ketish": "Oshqozon-ichak, gematoma, burun qon ketishi", "Oshqozon-ichak": "Dispepsiya, diareya, qorin og'rig'i", "Qon": "Trombotsitopeniya, kamdan-kam — TTP (trombotik trombotsitopenik purpura)", "Allergik": "Toshma, qichishish" },
+    dozadan: "Qon ketish — to'xtatish; spesifik antidot yo'q, og'irда trombotsit transfuziyasi.",
+    ozarotasir: ["CYP2C19 kuchli inhibitorlari (omeprazol, ezomeprazol) faollashuvini kamaytiradi (samara pasayadi) — pantoprazol afzal", "NYaQVD, antikoagulyantlar bilan qon ketish xavfi"],
+    qollash: { kattalar: "Yuklama 300–600 mg, keyin 75 mg×1/sutka (odatda aspirin bilan).", bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)" },
+    chiqarish: "Plyonka qoplamali tabletkalar 75 mg (300 mg ham)"
+  },
+  ru: {
+    gruppa: "Антиагреганты — ингибиторы P2Y12 (клопидогрел)",
+    farmTasir: "Антитромбоцитарное (антагонист АДФ-рецептора P2Y12)",
+    farmakodinamika: `Клопидогрел — пролекарство группы тиенопиридинов. В печени ферментами CYP (преимущественно CYP2C19) превращается в активный метаболит, необратимо блокирующий АДФ-рецептор (P2Y12) на поверхности тромбоцита — в результате ослабляются активация тромбоцитов через АДФ и агрегация через комплекс GP IIb/IIIa. Действие сохраняется в течение жизни тромбоцита (~7–10 дней).`,
+    farmakokinetika: { sorish: "Из кишечника быстро (пролекарство)", tarqalish: "Высокая связь с белками", metabolizm: "Печень (CYP2C19 — активный метаболит)", chiqarilish: "Почками/с калом; T½ активного метаболита ~30 мин (действие длительное)" },
+    korsatmalar: ["Острый коронарный синдром (с аспирином — двойная антиагрегантная терапия)", "Профилактика тромбоза после установки стента", "Вторичная профилактика после инфаркта миокарда, ишемического инсульта или ЗПА"],
+    qarrshi: ["Активное кровотечение (язва желудка, внутримозговое кровотечение)", "Тяжёлая печёночная недостаточность", "Гиперчувствительность", "Осторожно — предстоящая операция (отмена за 5–7 дней)"],
+    nojoya: { "Кровотечения": "ЖКТ, гематомы, носовые кровотечения", "ЖКТ": "Диспепсия, диарея, боль в животе", "Кровь": "Тромбоцитопения, редко — ТТП (тромботическая тромбоцитопеническая пурпура)", "Аллергические": "Сыпь, зуд" },
+    dozadan: "Кровотечение — отмена; специфического антидота нет, при тяжёлом переливание тромбоцитов.",
+    ozarotasir: ["Сильные ингибиторы CYP2C19 (омепразол, эзомепразол) снижают активацию (эффект падает) — предпочтителен пантопразол", "С НПВП, антикоагулянтами риск кровотечения"],
+    qollash: { kattalar: "Нагрузка 300–600 мг, затем 75 мг×1/сут (обычно с аспирином).", bolalar: "Не рекомендуется (данные ограничены)" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 75 мг (также 300 мг)"
+  },
+  en: {
+    gruppa: "Antiplatelets — P2Y12 inhibitors (clopidogrel)",
+    farmTasir: "Antiplatelet (ADP receptor P2Y12 antagonist)",
+    farmakodinamika: `Clopidogrel is a thienopyridine prodrug. In the liver it is converted by CYP enzymes (mainly CYP2C19) into an active metabolite that irreversibly blocks the ADP (P2Y12) receptor on the platelet surface — weakening ADP-mediated platelet activation and GP IIb/IIIa-mediated aggregation. The effect lasts the platelet lifespan (~7–10 days).`,
+    farmakokinetika: { sorish: "Rapid from the gut (prodrug)", tarqalish: "Highly protein-bound", metabolizm: "Hepatic (CYP2C19 — active metabolite)", chiqarilish: "Renal/faecal; active metabolite T½ ~30 min (long-lasting effect)" },
+    korsatmalar: ["Acute coronary syndrome (with aspirin — dual antiplatelet therapy)", "Prevention of stent thrombosis", "Secondary prevention after MI, ischaemic stroke or peripheral artery disease"],
+    qarrshi: ["Active bleeding (gastric ulcer, intracranial bleeding)", "Severe hepatic impairment", "Hypersensitivity", "Caution — upcoming surgery (stop 5–7 days before)"],
+    nojoya: { "Bleeding": "GI, haematomas, epistaxis", "GI": "Dyspepsia, diarrhoea, abdominal pain", "Blood": "Thrombocytopenia, rarely TTP (thrombotic thrombocytopenic purpura)", "Allergic": "Rash, itching" },
+    dozadan: "Bleeding — stop; no specific antidote, platelet transfusion if severe.",
+    ozarotasir: ["Strong CYP2C19 inhibitors (omeprazole, esomeprazole) reduce activation (less effect) — pantoprazole preferred", "With NSAIDs, anticoagulants bleeding risk"],
+    qollash: { kattalar: "Loading 300–600 mg, then 75 mg once daily (usually with aspirin).", bolalar: "Not recommended (limited data)" },
+    chiqarish: "Film-coated tablets 75 mg (also 300 mg)"
+  }
+},
+
+"B01AC06": {
+  uz: {
+    gruppa: "Antiagregantlar — atsetilsalitsil kislota (past doza)",
+    farmTasir: "Trombotsitларга qarshi (qaytmas SOG-1 inhibitori)",
+    farmakodinamika: `Atsetilsalitsil kislota (ASK, aspirin) past dozaда antiagregant sifatида ishlaydi: trombotsitlardagi siklooksigenaza-1 (SOG-1) fermentini atsetillab QAYTMAS bloklaydi, tromboksan A2 (kuchli trombotsit agregatori va vazokonstriktor) sintezini to'xtatadi. Trombotsit yangi ferment sintez qila olmaydi, shuning uchun ta'sir butun trombotsit yashash davri (~7–10 kun) davom etadi. Past doza endotelial prostatsiklinни kamroq buzadi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "Keng", metabolizm: "Jigar (salitsil kislotaга gidroliz)", chiqarilish: "Buyrak; antiagregant ta'sir trombotsit umriga bog'liq" },
+    korsatmalar: ["Yurak-tomir kasalliklari ikkilamchi profilaktikasi (MI, ishemik insult, stenokardiya, periferik arteriya kasalligi)", "O'tkir koronar sindrom, stentдан keyin (ko'pincha klopidogrel/tikagrelor bilan)", "Yuqori xavfли bemorlarда birlamchi profilaktika (individual)"],
+    qarrshi: ["Faol oshqozon-ichak yara/qon ketishi", "Gemorragik diatez, gemofiliya", "«Aspirin astmasi» (NYaQVD keltirib chiqargan bronxospazm), salitsilatларга yuqori sezuvchanlik", "<16 yosh virusли infeksiyaда (Reye sindromi xavfi)"],
+    nojoya: { "Oshqozon-ichak": "Gastrit, eroziya/yara, qon ketish, dispepsiya", "Qon ketish": "Umumiy qon ketish moyilligi oshishi", "Allergik": "Bronxospazm, toshma, angiooedema (sezgir shaxslarда)", "Boshqa": "Quloqда shovqin (yuqori doza)" },
+    dozadan: "Past dozada toksiklik kam; yuqori dozada salitsilizm (quloq shovqini, gipervintilyatsiya, atsidoz) — ishqorli diurez, simptomatik.",
+    ozarotasir: ["Antikoagulyantlar, boshqa antiagregantlar, NYaQVD bilan qon ketish xavfi", "Ibuprofen ASK ning SOG-1 ga ta'sirini raqobatли to'sib qo'yishi mumkin (vaqt oralig'i)", "Metotreksat, sulfanilmochevina ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "Antiagregant doza: 75–100 mg×1/sutka (ovqatdan keyin); OKSда yuklama 150–300 mg.", bolalar: "Antiagregant sifatида faqat maxsus ko'rsatma bilan (Kavasaki va b.)" },
+    chiqarish: "Ichak qobiqли tabletkalar 75/100 mg"
+  },
+  ru: {
+    gruppa: "Антиагреганты — ацетилсалициловая кислота (низкая доза)",
+    farmTasir: "Антитромбоцитарное (необратимый ингибитор ЦОГ-1)",
+    farmakodinamika: `Ацетилсалициловая кислота (АСК, аспирин) в низкой дозе действует как антиагрегант: ацетилируя, НЕОБРАТИМО блокирует циклооксигеназу-1 (ЦОГ-1) тромбоцитов и прекращает синтез тромбоксана A2 (мощного агрегатора тромбоцитов и вазоконстриктора). Тромбоцит не может синтезировать новый фермент, поэтому действие сохраняется весь срок жизни тромбоцита (~7–10 дней). Низкая доза меньше нарушает эндотелиальный простациклин.`,
+    farmakokinetika: { sorish: "Из кишечника быстро", tarqalish: "Широко", metabolizm: "Печень (гидролиз до салициловой кислоты)", chiqarilish: "Почками; антиагрегантное действие связано со сроком жизни тромбоцита" },
+    korsatmalar: ["Вторичная профилактика сердечно-сосудистых болезней (ИМ, ишемический инсульт, стенокардия, ЗПА)", "Острый коронарный синдром, после стентирования (часто с клопидогрелом/тикагрелором)", "Первичная профилактика у пациентов высокого риска (индивидуально)"],
+    qarrshi: ["Активная язва/кровотечение ЖКТ", "Геморрагический диатез, гемофилия", "«Аспириновая астма» (бронхоспазм на НПВП), гиперчувствительность к салицилатам", "<16 лет при вирусной инфекции (риск синдрома Рейе)"],
+    nojoya: { "ЖКТ": "Гастрит, эрозии/язвы, кровотечение, диспепсия", "Кровотечения": "Повышение общей склонности к кровотечениям", "Аллергические": "Бронхоспазм, сыпь, ангиоотёк (у чувствительных)", "Прочее": "Шум в ушах (высокие дозы)" },
+    dozadan: "В низкой дозе токсичность мала; в высокой — салицилизм (шум в ушах, гипервентиляция, ацидоз) — щелочной диурез, симптоматически.",
+    ozarotasir: ["С антикоагулянтами, другими антиагрегантами, НПВП риск кровотечения", "Ибупрофен может конкурентно блокировать действие АСК на ЦОГ-1 (соблюдать интервал)", "Усиливает действие метотрексата, сульфонилмочевины"],
+    qollash: { kattalar: "Антиагрегантная доза: 75–100 мг×1/сут (после еды); при ОКС нагрузка 150–300 мг.", bolalar: "Как антиагрегант только по особым показаниям (болезнь Кавасаки и др.)" },
+    chiqarish: "Таблетки, покрытые кишечнорастворимой оболочкой, 75/100 мг"
+  },
+  en: {
+    gruppa: "Antiplatelets — acetylsalicylic acid (low dose)",
+    farmTasir: "Antiplatelet (irreversible COX-1 inhibitor)",
+    farmakodinamika: `Acetylsalicylic acid (ASA, aspirin) at low dose acts as an antiplatelet: by acetylation it IRREVERSIBLY blocks platelet cyclooxygenase-1 (COX-1), halting synthesis of thromboxane A2 (a potent platelet aggregator and vasoconstrictor). The platelet cannot synthesise new enzyme, so the effect lasts the whole platelet lifespan (~7–10 days). Low dose spares endothelial prostacyclin more.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Wide", metabolizm: "Hepatic (hydrolysis to salicylic acid)", chiqarilish: "Renal; antiplatelet effect tied to platelet lifespan" },
+    korsatmalar: ["Secondary prevention of cardiovascular disease (MI, ischaemic stroke, angina, PAD)", "Acute coronary syndrome, after stenting (often with clopidogrel/ticagrelor)", "Primary prevention in high-risk patients (individualised)"],
+    qarrshi: ["Active GI ulcer/bleeding", "Haemorrhagic diathesis, haemophilia", "'Aspirin asthma' (NSAID-induced bronchospasm), hypersensitivity to salicylates", "<16 years with viral infection (Reye syndrome risk)"],
+    nojoya: { "GI": "Gastritis, erosions/ulcers, bleeding, dyspepsia", "Bleeding": "Increased general bleeding tendency", "Allergic": "Bronchospasm, rash, angio-oedema (in sensitive individuals)", "Other": "Tinnitus (high doses)" },
+    dozadan: "Toxicity low at low dose; at high dose salicylism (tinnitus, hyperventilation, acidosis) — alkaline diuresis, supportive.",
+    ozarotasir: ["With anticoagulants, other antiplatelets, NSAIDs bleeding risk", "Ibuprofen may competitively block ASA's COX-1 action (separate timing)", "Enhances methotrexate, sulfonylurea effects"],
+    qollash: { kattalar: "Antiplatelet dose: 75–100 mg once daily (after food); ACS loading 150–300 mg.", bolalar: "As an antiplatelet only on special indication (Kawasaki disease etc.)" },
+    chiqarish: "Enteric-coated tablets 75/100 mg"
+  }
+},
+
+"B01AC07": {
+  uz: {
+    gruppa: "Antiagregantlar — dipiridamol",
+    farmTasir: "Trombotsitларга qarshi va koronar vazodilatator",
+    farmakodinamika: `Dipiridamol — antiagregant va vazodilatator. Trombotsitlarda fosfodiesterazani to'sib sGMP/sAMP darajasini oshiradi va adenozin qayta so'rilishini bloklaydi (adenozin trombotsit agregatsiyasini kamaytiradi va tomirlarni kengaytiradi). Tromboksan sintezasiga ham ta'sir qiladi. Koronar tomirlarni kengaytiradi (koronar «o'g'irlash» effekti tufayli stress-testда qo'llaniladi).`,
+    farmakokinetika: { sorish: "Ichakdan o'zgaruvchan", tarqalish: "Plazma oqsiliga yuqori", metabolizm: "Jigar (glyukuronidlanish)", chiqarilish: "Asosан safro/najas; T½ ~10–12 soat (uzaytirilgan shakl)" },
+    korsatmalar: ["Ishemik insult/transitor ishemik ataka ikkilamchi profilaktikasi (ko'pincha ASK bilan)", "Sun'iy yurak klapanlarида tromboz profilaktikasi (antikoagulyant bilan)", "Miokard perfuziyasini baholash uchun farmakologik stress-test (v/i)"],
+    qarrshi: ["O'tkir miokard infarkti, nostabil stenokardiya, og'ir IYUK (koronar o'g'irlash)", "Og'ir gipotenziya, subaortal stenoz", "Yuqori sezuvchanlik"],
+    nojoya: { "Tomir": "Bosh og'rig'i, yuz qizarishi, gipotenziya, bosh aylanishi", "Yurak": "Taxikardiya, stenokardiya kuchayishi (sezgir bemorda)", "Oshqozon-ichak": "Ko'ngil aynishi, diareya", "Qon ketish": "Qon ketish moyiligi (ASK bilan)" },
+    dozadan: "Gipotenziya — yotqizish, suyuqlik; v/i stress-testда aminofillin (adenozin antagonisti) bilan ta'sirни to'xtatish.",
+    ozarotasir: ["Adenozin ta'sirini kuchaytiradi (doza kamaytiriladi)", "Antikoagulyant/antiagregantlar bilan qon ketish xavfi", "Antigipertenziv dorilar ta'sirini kuchaytiradi"],
+    qollash: { kattalar: "75 mg×3–4/sutka (ovqatdan oldin); uzaytirilgan shakl 200 mg×2 (ASK bilan).", bolalar: "Klapan profilaktikasida 2–5 mg/kg/sutka (ko'rsatmага ko'ra)" },
+    chiqarish: "Tabletkalar 25/75 mg; uzaytirilgan kapsulalar 200 mg; in'eksiya eritmasi"
+  },
+  ru: {
+    gruppa: "Антиагреганты — дипиридамол",
+    farmTasir: "Антитромбоцитарное и коронарный вазодилататор",
+    farmakodinamika: `Дипиридамол — антиагрегант и вазодилататор. В тромбоцитах ингибирует фосфодиэстеразу, повышая уровень цГМФ/цАМФ, и блокирует обратный захват аденозина (аденозин снижает агрегацию тромбоцитов и расширяет сосуды). Влияет и на тромбоксансинтазу. Расширяет коронарные сосуды (из-за эффекта коронарного «обкрадывания» применяется в стресс-тесте).`,
+    farmakokinetika: { sorish: "Из кишечника вариабельно", tarqalish: "Высокая связь с белками", metabolizm: "Печень (глюкуронирование)", chiqarilish: "Преимущественно с желчью/калом; T½ ~10–12 ч (пролонг. форма)" },
+    korsatmalar: ["Вторичная профилактика ишемического инсульта/ТИА (часто с АСК)", "Профилактика тромбоза искусственных клапанов сердца (с антикоагулянтом)", "Фармакологический стресс-тест для оценки перфузии миокарда (в/в)"],
+    qarrshi: ["Острый инфаркт миокарда, нестабильная стенокардия, тяжёлая ИБС (коронарное обкрадывание)", "Тяжёлая гипотензия, субаортальный стеноз", "Гиперчувствительность"],
+    nojoya: { "Сосуды": "Головная боль, приливы, гипотензия, головокружение", "Сердце": "Тахикардия, усиление стенокардии (у чувствительных)", "ЖКТ": "Тошнота, диарея", "Кровотечения": "Склонность к кровотечениям (с АСК)" },
+    dozadan: "Гипотензия — уложить, жидкость; при в/в стресс-тесте прервать действие аминофиллином (антагонист аденозина).",
+    ozarotasir: ["Усиливает действие аденозина (снижают дозу)", "С антикоагулянтами/антиагрегантами риск кровотечения", "Усиливает действие антигипертензивных средств"],
+    qollash: { kattalar: "75 мг×3–4/сут (до еды); пролонг. форма 200 мг×2 (с АСК).", bolalar: "При профилактике клапанов 2–5 мг/кг/сут (по показаниям)" },
+    chiqarish: "Таблетки 25/75 мг; пролонгированные капсулы 200 мг; раствор для инъекций"
+  },
+  en: {
+    gruppa: "Antiplatelets — dipyridamole",
+    farmTasir: "Antiplatelet and coronary vasodilator",
+    farmakodinamika: `Dipyridamole is an antiplatelet and vasodilator. In platelets it inhibits phosphodiesterase, raising cGMP/cAMP, and blocks adenosine reuptake (adenosine reduces platelet aggregation and dilates vessels). It also affects thromboxane synthase. It dilates coronary vessels (its coronary 'steal' effect is exploited in stress testing).`,
+    farmakokinetika: { sorish: "Variable from the gut", tarqalish: "Highly protein-bound", metabolizm: "Hepatic (glucuronidation)", chiqarilish: "Mainly biliary/faecal; T½ ~10–12 h (extended-release)" },
+    korsatmalar: ["Secondary prevention of ischaemic stroke/TIA (often with ASA)", "Prevention of thrombosis on prosthetic heart valves (with an anticoagulant)", "Pharmacological stress testing for myocardial perfusion (IV)"],
+    qarrshi: ["Acute MI, unstable angina, severe CAD (coronary steal)", "Severe hypotension, subaortic stenosis", "Hypersensitivity"],
+    nojoya: { "Vascular": "Headache, flushing, hypotension, dizziness", "Cardiac": "Tachycardia, worsening angina (in susceptible patients)", "GI": "Nausea, diarrhoea", "Bleeding": "Bleeding tendency (with ASA)" },
+    dozadan: "Hypotension — lie down, fluids; in IV stress testing reverse with aminophylline (adenosine antagonist).",
+    ozarotasir: ["Enhances adenosine effect (reduce dose)", "With anticoagulants/antiplatelets bleeding risk", "Enhances antihypertensive drug effects"],
+    qollash: { kattalar: "75 mg×3–4/day (before meals); extended-release 200 mg×2 (with ASA).", bolalar: "For valve prophylaxis 2–5 mg/kg/day (as indicated)" },
+    chiqarish: "Tablets 25/75 mg; extended-release capsules 200 mg; solution for injection"
+  }
 }
 
 };
