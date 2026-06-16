@@ -35084,6 +35084,258 @@ const PHARMA_DATA = {
     qollash: { kattalar: "0.25 mg SC once daily (from a follicle ~14 mm) or a single 3 mg dose; per protocol.", bolalar: "Not used" },
     chiqarish: "Powder + solvent for injection 0.25 mg; 3 mg (vial)"
   }
+},
+
+"A10AC01": {
+  uz: {
+    gruppa: "Insulinlar — o'rta ta'sirli (inson insulini, NPH/izofan)",
+    farmTasir: "Qand kamaytiruvchi (insulin almashtiruvchi terapiya)",
+    farmakodinamika: `Inson insulini (NPH/izofan — protamin bilan o'rta ta'sirli; oddiy/eriydigan — qisqa ta'sirli) — tabiiy gormonга aynan o'xshash rekombinant insulin. Hujayra membranasidagi insulin retseptorlariga bog'lanib, glyukozani mushak va yog' to'qimasiga kirishini oshiradi, jigarда glikogenez va lipogenez/oqsil sintezini rag'batlantiradi, glyukoneogenez va glikogenolizni bostiradi — natijada qonда qand pasayadi.`,
+    farmakokinetika: { sorish: "Teri ostiga (s/k); oddiy shakl v/i ham mumkin", tarqalish: "Hujayralararo suyuqlik", metabolizm: "Jigar va buyrakда (insulinaza)", chiqarilish: "Buyrak; NPH ta'siri ~11–24 soat, oddiy ~6–8 soat" },
+    korsatmalar: ["1-tur qandli diabet (almashtiruvchi terapiya)", "2-tur qandli diabet (peroral vositalar samarasiz/qarshi ko'rsatma)", "Diabetik ketoatsidoz/giperosmolyar holat (oddiy insulin v/i), homiladorlik diabetи"],
+    qarrshi: ["Gipoglikemiya", "Insulin yoki yordamчi moddaларга yuqori sezuvchanlik"],
+    nojoya: { "Metabolik": "Gipoglikemiya (titroq, terlash, ochlik, hushdan ketish — xavfli)", "Mahalliy": "In'eksiya joyида lipodistrofiya, qizarish", "Boshqa": "Boshlang'ich davrда vaqtinchalik shish, ko'rish xiralashuvi; allergik reaksiya" },
+    dozadan: "Gipoglikemiya — yengilда uglevod (qand/shira), og'irда v/i glyukoza yoki glyukagon.",
+    ozarotasir: ["Beta-blokatorlar gipoglikemiya belgilarini niqoblaydi", "Peroral antidiabetiklar, ACE inhibitorlari, alkogol gipoglikemiyani kuchaytiradi", "Glyukokortikoidlar, tiazidlar, simpatomimetiklar qand kamaytiruvchi ta'sirни susaytiradi"],
+    qollash: { kattalar: "Individual; o'rtacha 0,5–1 BIRLIK/kg/sutka (bo'lib); NPH 1–2 marta, oddiy ovqatdан 30 daq oldin.", bolalar: "Individual, vazn va glikemiyага qarab; mutaxassis nazoratида" },
+    chiqarish: "In'eksiya suspenziyasi/eritmasi 100 BIRLIK/ml (flakon, kartrij, shpric-ruchka)"
+  },
+  ru: {
+    gruppa: "Инсулины — средней длительности (человеческий инсулин, НПХ/изофан)",
+    farmTasir: "Сахароснижающее (заместительная инсулинотерапия)",
+    farmakodinamika: `Человеческий инсулин (НПХ/изофан — средней длительности с протамином; простой/растворимый — короткого действия) — рекомбинантный инсулин, идентичный природному гормону. Связываясь с инсулиновыми рецепторами клеточной мембраны, усиливает поступление глюкозы в мышечную и жировую ткань, стимулирует гликогенез, липогенез и синтез белка в печени, подавляет глюконеогенез и гликогенолиз — в результате снижается уровень глюкозы в крови.`,
+    farmakokinetika: { sorish: "Подкожно (п/к); простая форма возможна в/в", tarqalish: "Межклеточная жидкость", metabolizm: "В печени и почках (инсулиназа)", chiqarilish: "Почками; действие НПХ ~11–24 ч, простого ~6–8 ч" },
+    korsatmalar: ["Сахарный диабет 1 типа (заместительная терапия)", "Сахарный диабет 2 типа (неэффективность/противопоказания пероральных средств)", "Диабетический кетоацидоз/гиперосмолярное состояние (простой инсулин в/в), гестационный диабет"],
+    qarrshi: ["Гипогликемия", "Гиперчувствительность к инсулину или вспомогательным веществам"],
+    nojoya: { "Метаболизм": "Гипогликемия (дрожь, потливость, голод, потеря сознания — опасно)", "Местные": "Липодистрофия, покраснение в месте инъекции", "Прочее": "В начале — преходящие отёки, затуманивание зрения; аллергические реакции" },
+    dozadan: "Гипогликемия — при лёгкой углеводы (сахар/сок), при тяжёлой в/в глюкоза или глюкагон.",
+    ozarotasir: ["Бета-блокаторы маскируют признаки гипогликемии", "Пероральные антидиабетики, иАПФ, алкоголь усиливают гипогликемию", "Глюкокортикоиды, тиазиды, симпатомиметики ослабляют сахароснижающее действие"],
+    qollash: { kattalar: "Индивидуально; в среднем 0,5–1 ЕД/кг/сут (дробно); НПХ 1–2 раза, простой за 30 мин до еды.", bolalar: "Индивидуально, по массе и гликемии; под наблюдением специалиста" },
+    chiqarish: "Суспензия/раствор для инъекций 100 ЕД/мл (флакон, картридж, шприц-ручка)"
+  },
+  en: {
+    gruppa: "Insulins — intermediate-acting (human insulin, NPH/isophane)",
+    farmTasir: "Glucose-lowering (insulin replacement therapy)",
+    farmakodinamika: `Human insulin (NPH/isophane — intermediate-acting with protamine; soluble/regular — short-acting) is a recombinant insulin identical to the natural hormone. Binding insulin receptors on the cell membrane, it increases glucose uptake into muscle and fat, stimulates hepatic glycogenesis, lipogenesis and protein synthesis, and suppresses gluconeogenesis and glycogenolysis — lowering blood glucose.`,
+    farmakokinetika: { sorish: "Subcutaneous (SC); regular form may be IV", tarqalish: "Interstitial fluid", metabolizm: "Hepatic and renal (insulinase)", chiqarilish: "Renal; NPH duration ~11–24 h, regular ~6–8 h" },
+    korsatmalar: ["Type 1 diabetes mellitus (replacement therapy)", "Type 2 diabetes (oral agents ineffective/contraindicated)", "Diabetic ketoacidosis/hyperosmolar state (regular insulin IV), gestational diabetes"],
+    qarrshi: ["Hypoglycaemia", "Hypersensitivity to insulin or excipients"],
+    nojoya: { "Metabolic": "Hypoglycaemia (tremor, sweating, hunger, loss of consciousness — dangerous)", "Local": "Lipodystrophy, redness at injection site", "Other": "Transient oedema, blurred vision early on; allergic reactions" },
+    dozadan: "Hypoglycaemia — carbohydrate (sugar/juice) if mild, IV glucose or glucagon if severe.",
+    ozarotasir: ["Beta-blockers mask hypoglycaemia signs", "Oral antidiabetics, ACE inhibitors, alcohol enhance hypoglycaemia", "Glucocorticoids, thiazides, sympathomimetics reduce the glucose-lowering effect"],
+    qollash: { kattalar: "Individualised; average 0.5–1 unit/kg/day (divided); NPH 1–2 times, regular 30 min before meals.", bolalar: "Individualised by weight and glycaemia; under specialist supervision" },
+    chiqarish: "Suspension/solution for injection 100 units/mL (vial, cartridge, pen)"
+  }
+},
+
+"A10AB04": {
+  uz: {
+    gruppa: "Insulinlar — tez ta'sirli analog (insulin lispro)",
+    farmTasir: "Qand kamaytiruvchi (ovqatga bog'liq, tez ta'sirli insulin analogi)",
+    farmakodinamika: `Insulin lispro — inson insulinining tez ta'sirli analogi (B28–B29 amino kislotalar o'rni almashtirilgan). Bu monomerlarga tez ajralib, teri ostidan tezroq so'riladi: ta'sir ~15 daqiqaда boshlanadi, cho'qqi 30–70 daqiqa, davomijligi 2–5 soat. Ovqatdan oldin (yoki keyin) yuborilib, ovqatdan keyingi giperglikemiyani oddiy insulinга nisbatan yaxshiroq nazorat qiladi.`,
+    farmakokinetika: { sorish: "S/k tez (oddiy insulindан tezroq)", tarqalish: "Hujayralararo suyuqlik", metabolizm: "Jigar/buyrak", chiqarilish: "Buyrak; ta'sir 2–5 soat" },
+    korsatmalar: ["1- va 2-tur qandli diabet (ovqatga bog'liq bolus insulin)", "Insulin pompasi (uzluksiz s/k infuziya)"],
+    qarrshi: ["Gipoglikemiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Metabolik": "Gipoglikemiya", "Mahalliy": "Lipodistrofiya, in'eksiya joyида reaksiya", "Boshqa": "Allergik reaksiya, vaqtinchalik shish" },
+    dozadan: "Gipoglikemiya — uglevod; og'irда glyukoza/glyukagon.",
+    ozarotasir: ["Beta-blokatorlar belgilarni niqoblaydi", "Boshqa qand kamaytiruvchilar/alkogol gipoglikemiyani kuchaytiradi", "Glyukokortikoidlar samarани susaytiradi"],
+    qollash: { kattalar: "Ovqatdan 0–15 daq oldin s/k; bazal insulin bilan birga, individual.", bolalar: "Individual, mutaxassis nazoratида" },
+    chiqarish: "In'eksiya eritmasi 100 BIRLIK/ml (kartrij, shpric-ruchka, flakon)"
+  },
+  ru: {
+    gruppa: "Инсулины — быстродействующий аналог (инсулин лизпро)",
+    farmTasir: "Сахароснижающее (прандиальный быстродействующий аналог инсулина)",
+    farmakodinamika: `Инсулин лизпро — быстродействующий аналог человеческого инсулина (перестановка аминокислот B28–B29). Быстро диссоциирует на мономеры и быстрее всасывается из-под кожи: начало действия ~15 мин, пик 30–70 мин, длительность 2–5 ч. Вводится перед едой (или после), лучше контролирует постпрандиальную гипергликемию, чем простой инсулин.`,
+    farmakokinetika: { sorish: "П/к быстро (быстрее простого инсулина)", tarqalish: "Межклеточная жидкость", metabolizm: "Печень/почки", chiqarilish: "Почками; действие 2–5 ч" },
+    korsatmalar: ["Сахарный диабет 1 и 2 типа (прандиальный болюсный инсулин)", "Инсулиновая помпа (непрерывная п/к инфузия)"],
+    qarrshi: ["Гипогликемия", "Гиперчувствительность"],
+    nojoya: { "Метаболизм": "Гипогликемия", "Местные": "Липодистрофия, реакция в месте инъекции", "Прочее": "Аллергические реакции, преходящие отёки" },
+    dozadan: "Гипогликемия — углеводы; при тяжёлой глюкоза/глюкагон.",
+    ozarotasir: ["Бета-блокаторы маскируют симптомы", "Другие сахароснижающие/алкоголь усиливают гипогликемию", "Глюкокортикоиды ослабляют эффект"],
+    qollash: { kattalar: "За 0–15 мин до еды п/к; вместе с базальным инсулином, индивидуально.", bolalar: "Индивидуально, под наблюдением специалиста" },
+    chiqarish: "Раствор для инъекций 100 ЕД/мл (картридж, шприц-ручка, флакон)"
+  },
+  en: {
+    gruppa: "Insulins — rapid-acting analogue (insulin lispro)",
+    farmTasir: "Glucose-lowering (prandial rapid-acting insulin analogue)",
+    farmakodinamika: `Insulin lispro is a rapid-acting analogue of human insulin (B28–B29 amino acids swapped). It dissociates quickly into monomers and is absorbed faster from the subcutis: onset ~15 min, peak 30–70 min, duration 2–5 h. Given before (or after) meals, it controls postprandial hyperglycaemia better than regular insulin.`,
+    farmakokinetika: { sorish: "SC rapid (faster than regular insulin)", tarqalish: "Interstitial fluid", metabolizm: "Hepatic/renal", chiqarilish: "Renal; duration 2–5 h" },
+    korsatmalar: ["Type 1 and 2 diabetes (prandial bolus insulin)", "Insulin pump (continuous SC infusion)"],
+    qarrshi: ["Hypoglycaemia", "Hypersensitivity"],
+    nojoya: { "Metabolic": "Hypoglycaemia", "Local": "Lipodystrophy, injection-site reaction", "Other": "Allergic reactions, transient oedema" },
+    dozadan: "Hypoglycaemia — carbohydrate; glucose/glucagon if severe.",
+    ozarotasir: ["Beta-blockers mask symptoms", "Other glucose-lowering drugs/alcohol enhance hypoglycaemia", "Glucocorticoids reduce the effect"],
+    qollash: { kattalar: "0–15 min before meals SC; together with basal insulin, individualised.", bolalar: "Individualised, under specialist supervision" },
+    chiqarish: "Solution for injection 100 units/mL (cartridge, pen, vial)"
+  }
+},
+
+"A10AB05": {
+  uz: {
+    gruppa: "Insulinlar — tez ta'sirli analog (insulin aspart)",
+    farmTasir: "Qand kamaytiruvchi (ovqatga bog'liq, tez ta'sirli insulin analogi)",
+    farmakodinamika: `Insulin aspart — inson insulinining tez ta'sirli analogi (B28 prolin asparaginat kislotaga almashtirilgan). Tez monomerlarga ajralib teri ostidan tez so'riladi: ta'sir ~10–20 daqiqaда boshlanadi, cho'qqi 1–3 soat, davomijligi 3–5 soat. Ovqatdan keyingi qand ko'tarilishini nazorat qiladi; insulin pompasi uchun mos.`,
+    farmakokinetika: { sorish: "S/k tez", tarqalish: "Hujayralararo suyuqlik", metabolizm: "Jigar/buyrak", chiqarilish: "Buyrak; ta'sir 3–5 soat" },
+    korsatmalar: ["1- va 2-tur qandli diabet (ovqatga bog'liq bolus)", "Insulin pompasi"],
+    qarrshi: ["Gipoglikemiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Metabolik": "Gipoglikemiya", "Mahalliy": "Lipodistrofiya, in'eksiya joyида reaksiya", "Boshqa": "Allergik reaksiya, vaqtinchalik shish" },
+    dozadan: "Gipoglikemiya — uglevod; og'irда glyukoza/glyukagon.",
+    ozarotasir: ["Beta-blokatorlar belgilarni niqoblaydi", "Boshqa qand kamaytiruvchilar/alkogol gipoglikemiyani kuchaytiradi", "Glyukokortikoidlar samarани susaytiradi"],
+    qollash: { kattalar: "Ovqatdan oldin (yoki darhol keyin) s/k; bazal insulin bilan, individual.", bolalar: "Individual, mutaxassis nazoratида" },
+    chiqarish: "In'eksiya eritmasi 100 BIRLIK/ml (kartrij, shpric-ruchka, flakon)"
+  },
+  ru: {
+    gruppa: "Инсулины — быстродействующий аналог (инсулин аспарт)",
+    farmTasir: "Сахароснижающее (прандиальный быстродействующий аналог инсулина)",
+    farmakodinamika: `Инсулин аспарт — быстродействующий аналог человеческого инсулина (пролин B28 заменён на аспарагиновую кислоту). Быстро диссоциирует на мономеры и быстро всасывается: начало действия ~10–20 мин, пик 1–3 ч, длительность 3–5 ч. Контролирует постпрандиальный подъём глюкозы; подходит для инсулиновой помпы.`,
+    farmakokinetika: { sorish: "П/к быстро", tarqalish: "Межклеточная жидкость", metabolizm: "Печень/почки", chiqarilish: "Почками; действие 3–5 ч" },
+    korsatmalar: ["Сахарный диабет 1 и 2 типа (прандиальный болюс)", "Инсулиновая помпа"],
+    qarrshi: ["Гипогликемия", "Гиперчувствительность"],
+    nojoya: { "Метаболизм": "Гипогликемия", "Местные": "Липодистрофия, реакция в месте инъекции", "Прочее": "Аллергические реакции, преходящие отёки" },
+    dozadan: "Гипогликемия — углеводы; при тяжёлой глюкоза/глюкагон.",
+    ozarotasir: ["Бета-блокаторы маскируют симптомы", "Другие сахароснижающие/алкоголь усиливают гипогликемию", "Глюкокортикоиды ослабляют эффект"],
+    qollash: { kattalar: "Перед едой (или сразу после) п/к; с базальным инсулином, индивидуально.", bolalar: "Индивидуально, под наблюдением специалиста" },
+    chiqarish: "Раствор для инъекций 100 ЕД/мл (картридж, шприц-ручка, флакон)"
+  },
+  en: {
+    gruppa: "Insulins — rapid-acting analogue (insulin aspart)",
+    farmTasir: "Glucose-lowering (prandial rapid-acting insulin analogue)",
+    farmakodinamika: `Insulin aspart is a rapid-acting analogue of human insulin (proline at B28 replaced by aspartic acid). It dissociates quickly into monomers and is absorbed rapidly: onset ~10–20 min, peak 1–3 h, duration 3–5 h. It controls postprandial glucose rise and is suitable for insulin pumps.`,
+    farmakokinetika: { sorish: "SC rapid", tarqalish: "Interstitial fluid", metabolizm: "Hepatic/renal", chiqarilish: "Renal; duration 3–5 h" },
+    korsatmalar: ["Type 1 and 2 diabetes (prandial bolus)", "Insulin pump"],
+    qarrshi: ["Hypoglycaemia", "Hypersensitivity"],
+    nojoya: { "Metabolic": "Hypoglycaemia", "Local": "Lipodystrophy, injection-site reaction", "Other": "Allergic reactions, transient oedema" },
+    dozadan: "Hypoglycaemia — carbohydrate; glucose/glucagon if severe.",
+    ozarotasir: ["Beta-blockers mask symptoms", "Other glucose-lowering drugs/alcohol enhance hypoglycaemia", "Glucocorticoids reduce the effect"],
+    qollash: { kattalar: "Before meals (or immediately after) SC; with basal insulin, individualised.", bolalar: "Individualised, under specialist supervision" },
+    chiqarish: "Solution for injection 100 units/mL (cartridge, pen, vial)"
+  }
+},
+
+"A10AB06": {
+  uz: {
+    gruppa: "Insulinlar — tez ta'sirli analog (insulin glulizin)",
+    farmTasir: "Qand kamaytiruvchi (ovqatga bog'liq, tez ta'sirli insulin analogi)",
+    farmakodinamika: `Insulin glulizin — inson insulinining tez ta'sirli analogi (B3 va B29 pozitsiyalarида almashtirilgan). Tez monomer holatда so'riladi: ta'sir ~10–20 daqiqaда boshlanadi, cho'qqi ~1 soat, davomijligi ~3–5 soat. Ovqatdan keyingi giperglikemiyani nazorat qilish uchun bolus insulin sifatида ishlatiladi.`,
+    farmakokinetika: { sorish: "S/k tez", tarqalish: "Hujayralararo suyuqlik", metabolizm: "Jigar/buyrak", chiqarilish: "Buyrak; ta'sir 3–5 soat" },
+    korsatmalar: ["1- va 2-tur qandli diabet (ovqatga bog'liq bolus)", "Insulin pompasi"],
+    qarrshi: ["Gipoglikemiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Metabolik": "Gipoglikemiya", "Mahalliy": "Lipodistrofiya, in'eksiya joyида reaksiya", "Boshqa": "Allergik reaksiya" },
+    dozadan: "Gipoglikemiya — uglevod; og'irда glyukoza/glyukagon.",
+    ozarotasir: ["Beta-blokatorlar belgilarni niqoblaydi", "Boshqa qand kamaytiruvchilar/alkogol gipoglikemiyani kuchaytiradi", "Glyukokortikoidlar samarани susaytiradi"],
+    qollash: { kattalar: "Ovqatdan 0–15 daq oldin (yoki darhol keyin) s/k; bazal insulin bilan.", bolalar: "Individual (≥6 yosh), mutaxassis nazoratида" },
+    chiqarish: "In'eksiya eritmasi 100 BIRLIK/ml (kartrij, shpric-ruchka, flakon)"
+  },
+  ru: {
+    gruppa: "Инсулины — быстродействующий аналог (инсулин глулизин)",
+    farmTasir: "Сахароснижающее (прандиальный быстродействующий аналог инсулина)",
+    farmakodinamika: `Инсулин глулизин — быстродействующий аналог человеческого инсулина (замены в позициях B3 и B29). Всасывается быстро в мономерном состоянии: начало действия ~10–20 мин, пик ~1 ч, длительность ~3–5 ч. Используется как болюсный инсулин для контроля постпрандиальной гипергликемии.`,
+    farmakokinetika: { sorish: "П/к быстро", tarqalish: "Межклеточная жидкость", metabolizm: "Печень/почки", chiqarilish: "Почками; действие 3–5 ч" },
+    korsatmalar: ["Сахарный диабет 1 и 2 типа (прандиальный болюс)", "Инсулиновая помпа"],
+    qarrshi: ["Гипогликемия", "Гиперчувствительность"],
+    nojoya: { "Метаболизм": "Гипогликемия", "Местные": "Липодистрофия, реакция в месте инъекции", "Прочее": "Аллергические реакции" },
+    dozadan: "Гипогликемия — углеводы; при тяжёлой глюкоза/глюкагон.",
+    ozarotasir: ["Бета-блокаторы маскируют симптомы", "Другие сахароснижающие/алкоголь усиливают гипогликемию", "Глюкокортикоиды ослабляют эффект"],
+    qollash: { kattalar: "За 0–15 мин до еды (или сразу после) п/к; с базальным инсулином.", bolalar: "Индивидуально (≥6 лет), под наблюдением специалиста" },
+    chiqarish: "Раствор для инъекций 100 ЕД/мл (картридж, шприц-ручка, флакон)"
+  },
+  en: {
+    gruppa: "Insulins — rapid-acting analogue (insulin glulisine)",
+    farmTasir: "Glucose-lowering (prandial rapid-acting insulin analogue)",
+    farmakodinamika: `Insulin glulisine is a rapid-acting analogue of human insulin (substitutions at B3 and B29). It is absorbed rapidly in the monomeric state: onset ~10–20 min, peak ~1 h, duration ~3–5 h. It is used as a bolus insulin to control postprandial hyperglycaemia.`,
+    farmakokinetika: { sorish: "SC rapid", tarqalish: "Interstitial fluid", metabolizm: "Hepatic/renal", chiqarilish: "Renal; duration 3–5 h" },
+    korsatmalar: ["Type 1 and 2 diabetes (prandial bolus)", "Insulin pump"],
+    qarrshi: ["Hypoglycaemia", "Hypersensitivity"],
+    nojoya: { "Metabolic": "Hypoglycaemia", "Local": "Lipodystrophy, injection-site reaction", "Other": "Allergic reactions" },
+    dozadan: "Hypoglycaemia — carbohydrate; glucose/glucagon if severe.",
+    ozarotasir: ["Beta-blockers mask symptoms", "Other glucose-lowering drugs/alcohol enhance hypoglycaemia", "Glucocorticoids reduce the effect"],
+    qollash: { kattalar: "0–15 min before meals (or immediately after) SC; with basal insulin.", bolalar: "Individualised (≥6 years), under specialist supervision" },
+    chiqarish: "Solution for injection 100 units/mL (cartridge, pen, vial)"
+  }
+},
+
+"A10AE05": {
+  uz: {
+    gruppa: "Insulinlar — uzoq ta'sirli analog (insulin detemir)",
+    farmTasir: "Qand kamaytiruvchi (bazal, uzoq ta'sirli insulin analogi)",
+    farmakodinamika: `Insulin detemir — uzoq ta'sirli bazal insulin analogi; yog' kislotasi (miristik) zanjiri qo'shilgani tufayli teri ostida va qonда albuminga qaytar bog'lanadi, shu orqали so'rilish va ta'sir sekin va barqaror bo'ladi (cho'qqisiz profil). Ta'sir davomijligi ~12–24 soat — sutkada 1–2 marta beriladi, bazal insulin ehtiyojini qoplaydi.`,
+    farmakokinetika: { sorish: "S/k sekin", tarqalish: "Albuminга ~98% bog'lanadi", metabolizm: "Jigar/buyrak", chiqarilish: "Buyrak; ta'sir 12–24 soat" },
+    korsatmalar: ["1- va 2-tur qandli diabet (bazal insulin)"],
+    qarrshi: ["Gipoglikemiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Metabolik": "Gipoglikemiya (NPH'га nisbatan kechki kamroq)", "Mahalliy": "Lipodistrofiya, in'eksiya joyида reaksiya", "Boshqa": "Vazn ortishi NPH'дан kamroq" },
+    dozadan: "Gipoglikemiya — uglevod; og'irда glyukoza/glyukagon.",
+    ozarotasir: ["Beta-blokatorlar belgilarni niqoblaydi", "Boshqa qand kamaytiruvchilar/alkogol gipoglikemiyani kuchaytiradi", "Glyukokortikoidlar samarани susaytiradi"],
+    qollash: { kattalar: "Kuniga 1–2 marta s/k (bir vaqtда), individual titrlash.", bolalar: "Individual (≥1–2 yosh), mutaxassis nazoratида" },
+    chiqarish: "In'eksiya eritmasi 100 BIRLIK/ml (kartrij, shpric-ruchka)"
+  },
+  ru: {
+    gruppa: "Инсулины — длительного действия аналог (инсулин детемир)",
+    farmTasir: "Сахароснижающее (базальный длительно действующий аналог инсулина)",
+    farmakodinamika: `Инсулин детемир — базальный аналог инсулина длительного действия; благодаря присоединённой цепи жирной кислоты (миристиновой) обратимо связывается с альбумином под кожей и в крови, что делает всасывание и действие медленными и стабильными (беспиковый профиль). Длительность действия ~12–24 ч — вводится 1–2 раза в сутки, покрывает базальную потребность в инсулине.`,
+    farmakokinetika: { sorish: "П/к медленно", tarqalish: "Связь с альбумином ~98%", metabolizm: "Печень/почки", chiqarilish: "Почками; действие 12–24 ч" },
+    korsatmalar: ["Сахарный диабет 1 и 2 типа (базальный инсулин)"],
+    qarrshi: ["Гипогликемия", "Гиперчувствительность"],
+    nojoya: { "Метаболизм": "Гипогликемия (ночная меньше, чем у НПХ)", "Местные": "Липодистрофия, реакция в месте инъекции", "Прочее": "Прибавка массы меньше, чем у НПХ" },
+    dozadan: "Гипогликемия — углеводы; при тяжёлой глюкоза/глюкагон.",
+    ozarotasir: ["Бета-блокаторы маскируют симптомы", "Другие сахароснижающие/алкоголь усиливают гипогликемию", "Глюкокортикоиды ослабляют эффект"],
+    qollash: { kattalar: "1–2 раза в сутки п/к (в одно время), индивидуальное титрование.", bolalar: "Индивидуально (≥1–2 года), под наблюдением специалиста" },
+    chiqarish: "Раствор для инъекций 100 ЕД/мл (картридж, шприц-ручка)"
+  },
+  en: {
+    gruppa: "Insulins — long-acting analogue (insulin detemir)",
+    farmTasir: "Glucose-lowering (basal long-acting insulin analogue)",
+    farmakodinamika: `Insulin detemir is a long-acting basal insulin analogue; an attached fatty-acid (myristic) chain lets it bind reversibly to albumin in the subcutis and blood, making absorption and action slow and stable (a peakless profile). Duration ~12–24 h — given once or twice daily, covering basal insulin needs.`,
+    farmakokinetika: { sorish: "SC slow", tarqalish: "~98% albumin-bound", metabolizm: "Hepatic/renal", chiqarilish: "Renal; duration 12–24 h" },
+    korsatmalar: ["Type 1 and 2 diabetes (basal insulin)"],
+    qarrshi: ["Hypoglycaemia", "Hypersensitivity"],
+    nojoya: { "Metabolic": "Hypoglycaemia (less nocturnal than NPH)", "Local": "Lipodystrophy, injection-site reaction", "Other": "Less weight gain than NPH" },
+    dozadan: "Hypoglycaemia — carbohydrate; glucose/glucagon if severe.",
+    ozarotasir: ["Beta-blockers mask symptoms", "Other glucose-lowering drugs/alcohol enhance hypoglycaemia", "Glucocorticoids reduce the effect"],
+    qollash: { kattalar: "Once or twice daily SC (same time), individualised titration.", bolalar: "Individualised (≥1–2 years), under specialist supervision" },
+    chiqarish: "Solution for injection 100 units/mL (cartridge, pen)"
+  }
+},
+
+"A10AE06": {
+  uz: {
+    gruppa: "Insulinlar — ultra-uzoq ta'sirli analog (insulin degludek)",
+    farmTasir: "Qand kamaytiruvchi (bazal, ultra-uzoq ta'sirli insulin analogi)",
+    farmakodinamika: `Insulin degludek — ultra-uzoq ta'sirli bazal insulin analogi. Teri ostiga yuborilganда eriydigan multigeksamer zanjirlar hosil qiladi, ulardan monomerlar sekin va barqaror ajraladi; ta'sir davomijligi 42 soatdan ortiq, profil tekis va cho'qqisiz. Sutkada 1 marta beriladi, gipoglikemiya (ayniqsa kechki) xavfi NPH/glarginга nisbatan kamroq.`,
+    farmakokinetika: { sorish: "S/k juda sekin (multigeksamer depo)", tarqalish: "Albuminга bog'lanadi", metabolizm: "Jigar/buyrak", chiqarilish: "Buyrak; ta'sir >42 soat, barqaror holatда tekis" },
+    korsatmalar: ["1- va 2-tur qandli diabet (bazal insulin)"],
+    qarrshi: ["Gipoglikemiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Metabolik": "Gipoglikemiya (kechki kamroq)", "Mahalliy": "Lipodistrofiya, in'eksiya joyида reaksiya", "Boshqa": "Allergik reaksiya (kamdan-kam)" },
+    dozadan: "Gipoglikemiya — uglevod; og'irда glyukoza/glyukagon. Uzoq ta'sir tufayli kuzatuv uzaytiriladi.",
+    ozarotasir: ["Beta-blokatorlar belgilarni niqoblaydi", "Boshqa qand kamaytiruvchilar/alkogol gipoglikemiyani kuchaytiradi", "Glyukokortikoidlar samarани susaytiradi"],
+    qollash: { kattalar: "Kuniga 1 marta s/k (istalgan vaqtда, bir xil), individual titrlash.", bolalar: "Individual (≥1 yosh), mutaxassis nazoratида" },
+    chiqarish: "In'eksiya eritmasi 100 BIRLIK/ml, 200 BIRLIK/ml (shpric-ruchka)"
+  },
+  ru: {
+    gruppa: "Инсулины — сверхдлительного действия аналог (инсулин деглудек)",
+    farmTasir: "Сахароснижающее (базальный сверхдлительный аналог инсулина)",
+    farmakodinamika: `Инсулин деглудек — базальный аналог инсулина сверхдлительного действия. При подкожном введении образует растворимые мультигексамерные цепи, из которых мономеры высвобождаются медленно и стабильно; длительность действия более 42 ч, профиль ровный и беспиковый. Вводится 1 раз в сутки, риск гипогликемии (особенно ночной) ниже, чем у НПХ/гларгина.`,
+    farmakokinetika: { sorish: "П/к очень медленно (мультигексамерное депо)", tarqalish: "Связь с альбумином", metabolizm: "Печень/почки", chiqarilish: "Почками; действие >42 ч, в равновесии ровное" },
+    korsatmalar: ["Сахарный диабет 1 и 2 типа (базальный инсулин)"],
+    qarrshi: ["Гипогликемия", "Гиперчувствительность"],
+    nojoya: { "Метаболизм": "Гипогликемия (ночная меньше)", "Местные": "Липодистрофия, реакция в месте инъекции", "Прочее": "Аллергические реакции (редко)" },
+    dozadan: "Гипогликемия — углеводы; при тяжёлой глюкоза/глюкагон. Из-за длительного действия наблюдение продлевают.",
+    ozarotasir: ["Бета-блокаторы маскируют симптомы", "Другие сахароснижающие/алкоголь усиливают гипогликемию", "Глюкокортикоиды ослабляют эффект"],
+    qollash: { kattalar: "1 раз в сутки п/к (в любое, но одинаковое время), индивидуальное титрование.", bolalar: "Индивидуально (≥1 года), под наблюдением специалиста" },
+    chiqarish: "Раствор для инъекций 100 ЕД/мл, 200 ЕД/мл (шприц-ручка)"
+  },
+  en: {
+    gruppa: "Insulins — ultra-long-acting analogue (insulin degludec)",
+    farmTasir: "Glucose-lowering (basal ultra-long-acting insulin analogue)",
+    farmakodinamika: `Insulin degludec is an ultra-long-acting basal insulin analogue. On subcutaneous injection it forms soluble multihexamer chains from which monomers are released slowly and steadily; duration exceeds 42 h with a flat, peakless profile. Given once daily, with lower hypoglycaemia risk (especially nocturnal) than NPH/glargine.`,
+    farmakokinetika: { sorish: "SC very slow (multihexamer depot)", tarqalish: "Albumin-bound", metabolizm: "Hepatic/renal", chiqarilish: "Renal; duration >42 h, flat at steady state" },
+    korsatmalar: ["Type 1 and 2 diabetes (basal insulin)"],
+    qarrshi: ["Hypoglycaemia", "Hypersensitivity"],
+    nojoya: { "Metabolic": "Hypoglycaemia (less nocturnal)", "Local": "Lipodystrophy, injection-site reaction", "Other": "Allergic reactions (rare)" },
+    dozadan: "Hypoglycaemia — carbohydrate; glucose/glucagon if severe. Monitor longer owing to prolonged action.",
+    ozarotasir: ["Beta-blockers mask symptoms", "Other glucose-lowering drugs/alcohol enhance hypoglycaemia", "Glucocorticoids reduce the effect"],
+    qollash: { kattalar: "Once daily SC (any but consistent time), individualised titration.", bolalar: "Individualised (≥1 year), under specialist supervision" },
+    chiqarish: "Solution for injection 100 units/mL, 200 units/mL (pen)"
+  }
 }
 
 };
