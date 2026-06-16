@@ -37487,6 +37487,127 @@ const PHARMA_DATA = {
 // (ilovada o'sha dorilar mavjud yozuvni ko'rsatadi)
 // ═══════════════════════════════════════════════════════════
 
+// ── HAZM VA MODDALAR ALMASHINUVI (A) kombinatsiya/dublikat/herbal kodlari ──
+// PPI va H. pylori eradikatsiya kombinatsiyalari
+PHARMA_DATA["A02BC"]            = PHARMA_DATA["A02BC01"];  // rabeprazol+domperidon → PPI (omeprazol)
+PHARMA_DATA["A02BC07"]          = PHARMA_DATA["A02BC01"];  // deksrabeprazol → PPI
+PHARMA_DATA["A02BC54"]          = PHARMA_DATA["A02BC01"];  // rabeprazol+levosulpirid → PPI
+PHARMA_DATA["A02BD"]            = PHARMA_DATA["A02BC01"];  // klaritromitsin+omeprazol+tinidazol (eradikatsiya)
+PHARMA_DATA["A02BD07"]          = PHARMA_DATA["A02BC01"];  // lansoprazol+klaritromitsin+amoksitsillin
+PHARMA_DATA["A02BD08"]          = PHARMA_DATA["A02BC01"];  // vismut+metronidazol+tetratsiklin (eradikatsiya)
+PHARMA_DATA["AO2BC01"]          = PHARMA_DATA["A02BC01"];  // omeprazol (lotin «O» kodli dublikat)
+PHARMA_DATA["A02X"]             = PHARMA_DATA["A02BC01"];  // chakanda (oshqozon shilliq himoyasi)
+// Spazmolitiklar / prokinetiklar / antiflatulentlar
+PHARMA_DATA["A03"]              = PHARMA_DATA["A03AD"];    // o'simlik spazmolitik kombinatsiyasi → mebeverin
+PHARMA_DATA["A03A"]             = PHARMA_DATA["A03BA"];    // platifillin → M-xolinoblokator
+PHARMA_DATA["A03A, A03AE, A03C"]= PHARMA_DATA["A03AD"];    // gomeopatik anti-TNF kombinatsiyasi → spazmolitik
+PHARMA_DATA["A03AA07"]          = PHARMA_DATA["A03BA"];    // paratsetamol+disikloverin → antimuskarin
+PHARMA_DATA["A03AD51"]          = PHARMA_DATA["A03AD"];    // bendazol+papaverin → miotrop spazmolitik
+PHARMA_DATA["A03AX58"]          = PHARMA_DATA["A03AD"];    // alverin+simetikon → spazmolitik
+PHARMA_DATA["A03DC"]            = PHARMA_DATA["A03AD"];    // drotaverin+atseklofenak → spazmolitik
+PHARMA_DATA["A03ED"]            = PHARMA_DATA["A03BA"];    // simetikon+disiklomin → antimuskarin
+PHARMA_DATA["A03EД"]            = PHARMA_DATA["A03AD"];    // bendazol+papaverin (kirill «Д») → spazmolitik
+PHARMA_DATA["AO3AAO4"]          = PHARMA_DATA["A03AD"];    // mebeverin (lotin «O» kodli dublikat)
+// Antiemetiklar
+PHARMA_DATA["A04"]              = PHARMA_DATA["A04AA05"];  // ayurveda antiemetik → 5-HT3 antagonisti
+PHARMA_DATA["A04AA03"]          = PHARMA_DATA["A04AA05"];  // tropisetron → palonosetron (5-HT3)
+PHARMA_DATA["A04AD"]            = PHARMA_DATA["A04AA05"];  // doksilamin+piridoksin+folat (homiladorlik) → antiemetik
+// Jigar / o't yo'llari
+PHARMA_DATA["A05"]              = PHARMA_DATA["A05B"];     // o'simlik gepatoprotektori → bisiklol
+PHARMA_DATA["A05AA"]            = PHARMA_DATA["A05AA02"];  // o't+oshqozonosti bezi → o't kislotalari
+PHARMA_DATA["A05AA02'"]         = PHARMA_DATA["A05AA02"];  // ursodeoksixol kislota (apostrofli dublikat)
+PHARMA_DATA["A05AA02 A05B"]     = PHARMA_DATA["A05AA02"];  // ursodeoksixol kislota (bo'shliqli dublikat)
+PHARMA_DATA["A05AX"]            = PHARMA_DATA["A05AX02"];  // na'matak (xoleretik) → gimekromon
+PHARMA_DATA["A05BA01"]          = PHARMA_DATA["A05B"];     // glutamin+arginin (jigar) → gepatoprotektor
+PHARMA_DATA["A05BA10"]          = PHARMA_DATA["A05B"];     // essensial fosfolipidlar → gepatoprotektor
+// Ich yumshatuvchilar
+PHARMA_DATA["A06A D15"]         = PHARMA_DATA["A06AD15"];  // makrogol (bo'shliqli dublikat)
+PHARMA_DATA["A06AA01"]          = PHARMA_DATA["A16AA01"];  // levokarnitin (kod xato)
+PHARMA_DATA["A06AB"]            = PHARMA_DATA["A06AD15"];  // ravoch ildizi (stimulyator laksativ)
+PHARMA_DATA["A06AB05"]          = PHARMA_DATA["A06AD15"];  // kanakunjut yog'i (laksativ)
+PHARMA_DATA["A06AB58"]          = PHARMA_DATA["A06AD15"];  // pikosulfat+sitrat+Mg (ichak tozalash)
+PHARMA_DATA["A06AC"]            = PHARMA_DATA["A06AD15"];  // natriy fosfat (osmotik laksativ)
+PHARMA_DATA["A06AD65"]          = PHARMA_DATA["A06AD15"];  // PEG+elektrolitlar → makrogol
+PHARMA_DATA["A06AG01"]          = PHARMA_DATA["A06AG04"];  // fosfatли klizma → rektal laksativ
+PHARMA_DATA["A06AX"]            = PHARMA_DATA["A06AD15"];  // o'simlik laksativ ekstraktlari
+// Ichak adsorbentlari / antibakterial / probiotiklar
+PHARMA_DATA["A07BB"]            = PHARMA_DATA["A07B"];     // vismut subgallat (buruvchi/adsorbent)
+PHARMA_DATA["A07BC"]            = PHARMA_DATA["A07B"];     // laktuloza+lignin → adsorbent
+PHARMA_DATA["A07D A03"]         = PHARMA_DATA["A07DA03"];  // loperamid (bo'shliqli dublikat)
+PHARMA_DATA["A07DA53"]          = PHARMA_DATA["A07DA03"];  // loperamid+simetikon → loperamid
+PHARMA_DATA["A07F"]             = PHARMA_DATA["A07FA01"];  // probiotik kombinatsiyasi
+PHARMA_DATA["A07FA"]            = PHARMA_DATA["A07FA01"];  // bifidobakteriya → probiotik
+PHARMA_DATA["A07FA51"]          = PHARMA_DATA["A07FA01"];  // lakto+bifido+enterokokk → probiotik
+PHARMA_DATA["A07FA90"]          = PHARMA_DATA["A07FA01"];  // ko'p shtammли probiotik
+PHARMA_DATA["A07XA51"]          = PHARMA_DATA["A07B"];     // tannin albuminat+etakridin → adsorbent/buruvchi
+// Semizlikка qarshi
+PHARMA_DATA["A08AX"]            = PHARMA_DATA["A08AB01"];  // kalotropis (gomeopatik) → orlistat
+// Diabet — insulin va peroral kombinatsiyalar/dublikatlar
+PHARMA_DATA["A10AD01"]          = PHARMA_DATA["A10AC01"];  // ikki fazali insulin → inson insulini
+PHARMA_DATA["A10AD04"]          = PHARMA_DATA["A10AB04"];  // ikki fazali lispro → insulin lispro
+PHARMA_DATA["A10AD06"]          = PHARMA_DATA["A10AE06"];  // degludek/aspart → degludek
+PHARMA_DATA["A10AE"]            = PHARMA_DATA["A10AE05"];  // uzoq ta'sirli inson insulini (glargin) → detemir
+PHARMA_DATA["A10AE54"]          = PHARMA_DATA["A10AE05"];  // glargin+liksizenatid → bazal insulin
+PHARMA_DATA["A10BB01"]          = PHARMA_DATA["A10BB12"];  // glibenklamid → sulfanilmochevina (glimepirid)
+PHARMA_DATA["A10BD"]            = PHARMA_DATA["A10BA02"];  // metformin+sibutramin → metformin
+PHARMA_DATA["A10BD02"]          = PHARMA_DATA["A10BA02"];  // gliklazid+metformin → metformin
+PHARMA_DATA["A10BD08"]          = PHARMA_DATA["A10BH02"];  // vildagliptin+metformin → vildagliptin
+PHARMA_DATA["A10BD15"]          = PHARMA_DATA["A10BK01"];  // dapagliflozin+metformin → dapagliflozin
+PHARMA_DATA["A10BD20"]          = PHARMA_DATA["A10BK03"];  // empagliflozin+metformin → empagliflozin
+PHARMA_DATA["A10BH"]            = PHARMA_DATA["A10BD07"];  // gosogliptin → DPP-4 inhibitori (sitagliptin)
+PHARMA_DATA["A10BH01"]          = PHARMA_DATA["A10BD07"];  // sitagliptin (dublikat)
+PHARMA_DATA["A10BX"]            = PHARMA_DATA["A10BA02"];  // anti-eNOS antitanalar (gomeopatik) → metformin
+PHARMA_DATA["A10BX12"]          = PHARMA_DATA["A10BK03"];  // empagliflozin (dublikat)
+PHARMA_DATA["A10BК01"]          = PHARMA_DATA["A10BK01"];  // dapagliflozin (kirill «К» dublikat)
+// Vitaminlar — multivitamin, B-kompleks va alohida vitamin dublikatlari
+PHARMA_DATA["A11 C"]            = PHARMA_DATA["A16AA01"];  // levokarnitin (bo'shliqli kod)
+PHARMA_DATA["A11A"]             = PHARMA_DATA["A11AA"];    // retinol+tokoferol (Aevit) → multivitamin
+PHARMA_DATA["A11AA02"]          = PHARMA_DATA["A11AA"];    // Ca+Mg+Zn+B6+D3 → multivitamin-mineral
+PHARMA_DATA["A11AA03"]          = PHARMA_DATA["A11AA"];    // multivitamin kompleks
+PHARMA_DATA["A11AA04"]          = PHARMA_DATA["A11AA"];    // multivitamin+mikroelement kompleks
+PHARMA_DATA["A11AB"]            = PHARMA_DATA["A11AA"];    // metionin+E+B1+PP+Zn → multivitamin
+PHARMA_DATA["A11BA"]            = PHARMA_DATA["A11EA"];    // ATF+kokarboksilaza+B12 → B-kompleks
+PHARMA_DATA["A11CB"]            = PHARMA_DATA["A11AA"];    // retinol+xolekaltsiferol → multivitamin
+PHARMA_DATA["A11CC06"]          = PHARMA_DATA["A11CC05"];  // kalsifediol → D vitamini (xolekaltsiferol)
+PHARMA_DATA["A11D"]             = PHARMA_DATA["A11EA"];    // B1+B2+B6+PP → B-kompleks
+PHARMA_DATA["A11D A"]           = PHARMA_DATA["A11DA01"];  // kokarboksilaza → tiamin (B1)
+PHARMA_DATA["A11DA"]            = PHARMA_DATA["A11DA01"];  // kokarboksilaza → tiamin (B1)
+PHARMA_DATA["A11DA0L"]          = PHARMA_DATA["A11EA"];    // B-kompleks (tiamin+B2+PP+B5+B6)
+PHARMA_DATA["A11DB"]            = PHARMA_DATA["A11EA"];    // B-vitaminlar kompleksi
+PHARMA_DATA["A11DB01"]          = PHARMA_DATA["A11EA"];    // B1+B2+B6+PP+B5+B12 → B-kompleks
+PHARMA_DATA["A11E"]             = PHARMA_DATA["A11EA"];    // B-kompleks
+PHARMA_DATA["A11EB"]            = PHARMA_DATA["A11EA"];    // B-kompleks (+pantenol)
+PHARMA_DATA["A11EC"]            = PHARMA_DATA["A12CC10"];  // magniy sitrat+B6 (Magne-B6) → magniy
+PHARMA_DATA["A11EX"]            = PHARMA_DATA["A11EA"];    // kokarboksilaza+B2+lipoik → B-kompleks
+PHARMA_DATA["A11G"]             = PHARMA_DATA["A11AA"];    // amino kislotalar+vit C → multivitamin
+PHARMA_DATA["A11GB"]            = PHARMA_DATA["A11GA01"];  // vit C+rux → askorbin kislota
+PHARMA_DATA["A11GB02"]          = PHARMA_DATA["A11GA01"];  // askorbin kislota+rux oksidi → vit C
+PHARMA_DATA["A11HA01"]          = PHARMA_DATA["A11AA"];    // lizin+karnitin+B+siproheptadin → multivitamin
+PHARMA_DATA["A11J"]             = PHARMA_DATA["A11AA"];    // amino kislotalar+vit C → multivitamin
+PHARMA_DATA["A11JB"]            = PHARMA_DATA["A11JA"];    // lidokain+B1+B6+B12 → neyrotrop B
+PHARMA_DATA["A11JC"]            = PHARMA_DATA["A11EA"];    // kokarboksilaza+B2+lipoik → B-kompleks
+PHARMA_DATA["A11NA02"]          = PHARMA_DATA["A11HA02"];  // piridoksin (B6, dublikat)
+PHARMA_DATA["A11NA03"]          = PHARMA_DATA["A11HA03"];  // tokoferol (E, dublikat)
+PHARMA_DATA["A11NA05"]          = PHARMA_DATA["A11HA05"];  // biotin (dublikat)
+// Minerallar — dublikat/kombinatsiyalar
+PHARMA_DATA["A12A"]             = PHARMA_DATA["A11AA"];    // Ca+Fe+Zn+amino kislotalar → multivitamin-mineral
+PHARMA_DATA["A12BA"]            = PHARMA_DATA["A12CX"];    // K+Mg aspartat+sorbitol → K-Mg aspartat
+PHARMA_DATA["A12BA51"]          = PHARMA_DATA["A12BA01"];  // dekstroza+NaCl+KCl (ORS) → kaliy xlorid
+PHARMA_DATA["A12CB"]            = PHARMA_DATA["A12CB01"];  // rux orotat → rux
+PHARMA_DATA["A12CB02"]          = PHARMA_DATA["A12CB01"];  // rux glyukonat+atirgul → rux
+PHARMA_DATA["A12CC"]            = PHARMA_DATA["A12CC10"];  // piridoksin+Mg sitrat → magniy
+PHARMA_DATA["A12CC09"]          = PHARMA_DATA["A12CC10"];  // magniy orotat → magniy
+PHARMA_DATA["A12CC30"]          = PHARMA_DATA["A12CX"];    // K+Mg asparaginat → K-Mg aspartat
+// Tonuslovchi/umumkuchaytiruvchi va metabolik dublikatlar
+PHARMA_DATA["A13"]              = PHARMA_DATA["A11AA"];    // jenshen (tonik) → multivitamin
+PHARMA_DATA["A13A"]             = PHARMA_DATA["A11AA"];    // aloe (tonik) → multivitamin
+PHARMA_DATA["A15"]              = PHARMA_DATA["A11AA"];    // ishtaha qo'zg'atuvchi kombinatsiya → multivitamin
+PHARMA_DATA["A15ZZ91"]          = PHARMA_DATA["A11AA"];    // karnitin+arginin+siproheptadin → multivitamin
+PHARMA_DATA["A16A"]             = PHARMA_DATA["A05B"];     // doljin+ravoch (o'simlik) → gepatoprotektor
+PHARMA_DATA["A16AA"]            = PHARMA_DATA["A05B"];     // glutamin kislota (jigar) → gepatoprotektor
+PHARMA_DATA["A16AX10"]          = PHARMA_DATA["A06AD15"];  // aloe (laksativ) → ich yumshatuvchi
+PHARMA_DATA["AOLAD"]            = PHARMA_DATA["A07AB02"];  // xlorgeksidin (ichak antiseptik dublikat)
+
 // ── GORMONLAR (H) kombinatsiya/dublikat kodlari ──
 PHARMA_DATA["H01BB01"]          = PHARMA_DATA["H01BB02"];  // demoksitotsin → oksitotsin
 PHARMA_DATA["H01BB03"]          = PHARMA_DATA["H01BB02"];  // karbetotsin → oksitotsin (uterotonik)
