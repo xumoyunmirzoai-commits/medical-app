@@ -37772,6 +37772,300 @@ const PHARMA_DATA = {
     qollash: { kattalar: "75 mg×3–4/day (before meals); extended-release 200 mg×2 (with ASA).", bolalar: "For valve prophylaxis 2–5 mg/kg/day (as indicated)" },
     chiqarish: "Tablets 25/75 mg; extended-release capsules 200 mg; solution for injection"
   }
+},
+
+"B01AC22": {
+  uz: {
+    gruppa: "Antiagregantlar — P2Y12 inhibitorlari (prasugrel)",
+    farmTasir: "Trombotsitларга qarshi (ADF-retseptor P2Y12 qaytmas antagonisti)",
+    farmakodinamika: `Prasugrel — uchinchi avlod tienopiridin prodorisi. Jigarда tez va samarali ravishда faol metabolitга aylanadi (klopidogreldан ko'ra ishonchliroq, CYP polimorfizmига kamroq bog'liq), u trombotsit ADF (P2Y12) retseptorini QAYTMAS bloklaydi. Klopidogreldан kuchliroq va tezroq antiagregant ta'sir beradi — biroq qon ketish xavfi ham yuqoriroq.`,
+    farmakokinetika: { sorish: "Ichakdan tez (prodori)", tarqalish: "Plazma oqsiliga yuqori", metabolizm: "Esterazalar + CYP (faol metabolit)", chiqarilish: "Buyrak/najas; ta'sir trombotsit umriga bog'liq (~7–10 kun)" },
+    korsatmalar: ["O'tkir koronar sindrom (perkutan koronar aralashuv — PKA rejalashtirilganда), aspirin bilan"],
+    qarrshi: ["Faol qon ketish", "Insult yoki TIA anamnezi (qon ketish/insult xavfi yuqori)", "Og'ir jigar yetishmovchiligi", "Yuqori sezuvchanlik; ehtiyot — ≥75 yosh va <60 kg (dozani kamaytirish)"],
+    nojoya: { "Qon ketish": "Klopidogreldан ko'ra ko'proq (jumladан o'limга olib keluvchi)", "Qon": "Anemiya, trombotsitopeniya, kamdan-kam TTP", "Allergik": "Toshma, angiooedema" },
+    dozadan: "Qon ketish — to'xtatish; spesifik antidot yo'q, trombotsit transfuziyasi.",
+    ozarotasir: ["NYaQVD, antikoagulyantlar, boshqa antiagregantlar bilan qon ketish xavfi", "Klopidogreldан farqli — PPI ta'sirига kamroq sezgir"],
+    qollash: { kattalar: "Yuklama 60 mg, keyin 10 mg×1/sutka (≥75 yosh yoki <60 kg — 5 mg); aspirin bilan.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Plyonka qoplamali tabletkalar 5/10 mg"
+  },
+  ru: {
+    gruppa: "Антиагреганты — ингибиторы P2Y12 (прасугрел)",
+    farmTasir: "Антитромбоцитарное (необратимый антагонист АДФ-рецептора P2Y12)",
+    farmakodinamika: `Прасугрел — пролекарство-тиенопиридин третьего поколения. В печени быстро и эффективно превращается в активный метаболит (надёжнее клопидогрела, меньше зависит от полиморфизма CYP), который НЕОБРАТИМО блокирует АДФ-рецептор тромбоцитов (P2Y12). Даёт более сильное и быстрое антиагрегантное действие, чем клопидогрел — но и риск кровотечения выше.`,
+    farmakokinetika: { sorish: "Из кишечника быстро (пролекарство)", tarqalish: "Высокая связь с белками", metabolizm: "Эстеразы + CYP (активный метаболит)", chiqarilish: "Почками/с калом; действие связано со сроком жизни тромбоцита (~7–10 дней)" },
+    korsatmalar: ["Острый коронарный синдром (при планируемом ЧКВ), с аспирином"],
+    qarrshi: ["Активное кровотечение", "Инсульт или ТИА в анамнезе (высокий риск кровотечения/инсульта)", "Тяжёлая печёночная недостаточность", "Гиперчувствительность; осторожно — ≥75 лет и <60 кг (снижение дозы)"],
+    nojoya: { "Кровотечения": "Больше, чем у клопидогрела (в т.ч. фатальные)", "Кровь": "Анемия, тромбоцитопения, редко ТТП", "Аллергические": "Сыпь, ангиоотёк" },
+    dozadan: "Кровотечение — отмена; специфического антидота нет, переливание тромбоцитов.",
+    ozarotasir: ["С НПВП, антикоагулянтами, другими антиагрегантами риск кровотечения", "В отличие от клопидогрела — меньше чувствителен к ИПП"],
+    qollash: { kattalar: "Нагрузка 60 мг, затем 10 мг×1/сут (≥75 лет или <60 кг — 5 мг); с аспирином.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 5/10 мг"
+  },
+  en: {
+    gruppa: "Antiplatelets — P2Y12 inhibitors (prasugrel)",
+    farmTasir: "Antiplatelet (irreversible ADP receptor P2Y12 antagonist)",
+    farmakodinamika: `Prasugrel is a third-generation thienopyridine prodrug. In the liver it is rapidly and efficiently converted to an active metabolite (more reliable than clopidogrel, less dependent on CYP polymorphism) that IRREVERSIBLY blocks the platelet ADP (P2Y12) receptor. It gives stronger and faster antiplatelet action than clopidogrel — but also a higher bleeding risk.`,
+    farmakokinetika: { sorish: "Rapid from the gut (prodrug)", tarqalish: "Highly protein-bound", metabolizm: "Esterases + CYP (active metabolite)", chiqarilish: "Renal/faecal; effect tied to platelet lifespan (~7–10 days)" },
+    korsatmalar: ["Acute coronary syndrome (when PCI is planned), with aspirin"],
+    qarrshi: ["Active bleeding", "History of stroke or TIA (high bleeding/stroke risk)", "Severe hepatic impairment", "Hypersensitivity; caution — ≥75 years and <60 kg (dose reduction)"],
+    nojoya: { "Bleeding": "More than clopidogrel (including fatal)", "Blood": "Anaemia, thrombocytopenia, rarely TTP", "Allergic": "Rash, angio-oedema" },
+    dozadan: "Bleeding — stop; no specific antidote, platelet transfusion.",
+    ozarotasir: ["With NSAIDs, anticoagulants, other antiplatelets bleeding risk", "Unlike clopidogrel — less sensitive to PPIs"],
+    qollash: { kattalar: "Loading 60 mg, then 10 mg once daily (≥75 years or <60 kg — 5 mg); with aspirin.", bolalar: "Not recommended" },
+    chiqarish: "Film-coated tablets 5/10 mg"
+  }
+},
+
+"B01AC24": {
+  uz: {
+    gruppa: "Antiagregantlar — P2Y12 inhibitorlari (tikagrelor)",
+    farmTasir: "Trombotsitларга qarshi (qaytar, to'g'ridan-to'g'ri P2Y12 antagonisti)",
+    farmakodinamika: `Tikagrelor — siklopentiltriazolopirimidin guruhidan; tienopiridinlardан farqli ravishда prodori EMAS, to'g'ridan-to'g'ri va QAYTAR (allosterik) tarzда trombotsit ADF (P2Y12) retseptorini bloklaydi. Faollashtirishга muhtoj emas — ta'sir tezroq boshlanadi va to'xtatilгач tezroq qaytadi (qaytar). Adenozin qayta so'rilishini ham biroz kamaytiradi (nafas qisilishi belgisi shu bilan bog'liq).`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "Plazma oqsiliga yuqori", metabolizm: "Jigar (CYP3A4 — faol metabolit ham)", chiqarilish: "Asosан safro/najas; T½ ~7–9 soat (kuniga 2 marta)" },
+    korsatmalar: ["O'tkir koronar sindrom (barcha turlari), aspirin bilan", "Miokard infarktdan keyin tromboz xavfi yuqori bemorlarда uzaytirilган profilaktika"],
+    qarrshi: ["Faol qon ketish", "Miya ichi qon ketishi anamnezi", "Og'ir jigar yetishmovchiligi", "Kuchli CYP3A4 inhibitor/induktorlari bilan birga"],
+    nojoya: { "Qon ketish": "Klopidogreldан ko'proq", "Nafas": "Nafas qisilishi (dispnoe — xos, adenozinга bog'liq)", "Yurak": "Bradiaritmiya/pauzalar (boshlanishда)", "Metabolik": "Siydik kislota ko'tarilishi, kreatinin oshishi" },
+    dozadan: "Qon ketish — to'xtatish; spesifik antidot (andeksanet emas) — qaytar bo'lgani uchun trombotsit transfuziyasi kam samara; bandeksomab (mavjud bo'lsa).",
+    ozarotasir: ["Kuchli CYP3A4 inhibitorlari (ketokonazol, klaritromitsin) darajasini oshiradi (man)", "CYP3A4 induktorlari (rifampitsin) samarani pasaytiradi", "Simvastatin/lovastatin darajasini oshiradi (≤40 mg cheklash); aspirin >100 mg samarani pasaytiradi"],
+    qollash: { kattalar: "Yuklama 180 mg, keyin 90 mg×2/sutka (1 yildan keyin uzaytirilganда 60 mg×2); past doza aspirin bilan.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Plyonka qoplamali tabletkalar 60/90 mg"
+  },
+  ru: {
+    gruppa: "Антиагреганты — ингибиторы P2Y12 (тикагрелор)",
+    farmTasir: "Антитромбоцитарное (обратимый прямой антагонист P2Y12)",
+    farmakodinamika: `Тикагрелор — из группы циклопентилтриазолопиримидинов; в отличие от тиенопиридинов НЕ пролекарство, прямо и ОБРАТИМО (аллостерически) блокирует АДФ-рецептор тромбоцитов (P2Y12). Не требует активации — действие начинается быстрее и быстрее проходит после отмены (обратимость). Также немного снижает обратный захват аденозина (с чем связана одышка).`,
+    farmakokinetika: { sorish: "Из кишечника быстро", tarqalish: "Высокая связь с белками", metabolizm: "Печень (CYP3A4 — также активный метаболит)", chiqarilish: "Преимущественно с желчью/калом; T½ ~7–9 ч (2 раза в сутки)" },
+    korsatmalar: ["Острый коронарный синдром (все типы), с аспирином", "Продлённая профилактика у пациентов высокого риска после инфаркта миокарда"],
+    qarrshi: ["Активное кровотечение", "Внутримозговое кровотечение в анамнезе", "Тяжёлая печёночная недостаточность", "Совместно с сильными ингибиторами/индукторами CYP3A4"],
+    nojoya: { "Кровотечения": "Больше, чем у клопидогрела", "Дыхание": "Одышка (характерна, связана с аденозином)", "Сердце": "Брадиаритмии/паузы (в начале)", "Метаболизм": "Повышение мочевой кислоты, креатинина" },
+    dozadan: "Кровотечение — отмена; из-за обратимости переливание тромбоцитов малоэффективно; специфический реверсант (при наличии).",
+    ozarotasir: ["Сильные ингибиторы CYP3A4 (кетоконазол, кларитромицин) повышают уровень (противопоказаны)", "Индукторы CYP3A4 (рифампицин) снижают эффект", "Повышает уровень симвастатина/ловастатина (ограничение ≤40 мг); аспирин >100 мг снижает эффект"],
+    qollash: { kattalar: "Нагрузка 180 мг, затем 90 мг×2/сут (после 1 года при продлении 60 мг×2); с низкой дозой аспирина.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 60/90 мг"
+  },
+  en: {
+    gruppa: "Antiplatelets — P2Y12 inhibitors (ticagrelor)",
+    farmTasir: "Antiplatelet (reversible direct P2Y12 antagonist)",
+    farmakodinamika: `Ticagrelor is from the cyclopentyltriazolopyrimidine class; unlike thienopyridines it is NOT a prodrug and blocks the platelet ADP (P2Y12) receptor directly and REVERSIBLY (allosterically). It needs no activation — onset is faster and effect recovers more quickly after stopping (reversibility). It also modestly reduces adenosine reuptake (associated with dyspnoea).`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Highly protein-bound", metabolizm: "Hepatic (CYP3A4 — also an active metabolite)", chiqarilish: "Mainly biliary/faecal; T½ ~7–9 h (twice daily)" },
+    korsatmalar: ["Acute coronary syndrome (all types), with aspirin", "Extended prophylaxis in high-risk patients after myocardial infarction"],
+    qarrshi: ["Active bleeding", "History of intracranial bleeding", "Severe hepatic impairment", "With strong CYP3A4 inhibitors/inducers"],
+    nojoya: { "Bleeding": "More than clopidogrel", "Respiratory": "Dyspnoea (characteristic, adenosine-related)", "Cardiac": "Bradyarrhythmias/pauses (early)", "Metabolic": "Raised uric acid, creatinine" },
+    dozadan: "Bleeding — stop; platelet transfusion is of limited use owing to reversibility; specific reversal agent (if available).",
+    ozarotasir: ["Strong CYP3A4 inhibitors (ketoconazole, clarithromycin) raise levels (contraindicated)", "CYP3A4 inducers (rifampicin) reduce effect", "Raises simvastatin/lovastatin levels (limit ≤40 mg); aspirin >100 mg reduces effect"],
+    qollash: { kattalar: "Loading 180 mg, then 90 mg×2/day (60 mg×2 if extended beyond 1 year); with low-dose aspirin.", bolalar: "Not recommended" },
+    chiqarish: "Film-coated tablets 60/90 mg"
+  }
+},
+
+"B01AC23": {
+  uz: {
+    gruppa: "Antiagregantlar — fosfodiesteraza-3 inhibitori (silostazol)",
+    farmTasir: "Antiagregant va vazodilatator (PDE-3 inhibitori)",
+    farmakodinamika: `Silostazol — fosfodiesteraza-3 (PDE-3) ni tanlab to'sib qo'yadi; trombotsit va silliq mushak hujayralarида sAMP darajasini oshiradi — trombotsit agregatsiyasini kamaytiradi va arteriya silliq mushaklarini bo'shashtirib vazodilatatsiya qiladi. Shuningdek HDL ni oshirib triglitseridни kamaytiradi. Asosан oraliq oqsoqlanish (periferik arteriya kasalligi)да yurish masofasini oshiradi.`,
+    farmakokinetika: { sorish: "Ichakdan (yog'li ovqat oshiradi)", tarqalish: "Plazma oqsiliga yuqori (~95–98%)", metabolizm: "Jigar (CYP3A4, CYP2C19 — faol metabolitlar)", chiqarilish: "Buyrak/najas; T½ ~11–13 soat" },
+    korsatmalar: ["Oraliq oqsoqlanish (periferik arteriya kasalligi) — yurish masofasini va simptomlarni yaxshilash"],
+    qarrshi: ["Har qanday darajadagi yurak yetishmovchiligi (PDE-3 inhibitorlari o'limni oshiradi — MUTLAQ qarshi)", "Faol qon ketish, gemorragik insult anamnezi", "Og'ir taxiaritmiya, nostabil stenokardiya/yaqinda MI", "Og'ir jigar/buyrak yetishmovchiligi"],
+    nojoya: { "Yurak": "Yurak urishi tezlashishi, serdtsebienie, aritmiya", "Asab": "Bosh og'rig'i (xos, ko'p), bosh aylanishi", "Oshqozon-ichak": "Diareya, najas o'zgarishi, dispepsiya", "Qon ketish": "Qon ketish moyiligi" },
+    dozadan: "Bosh og'rig'i, taxikardiya, gipotenziya — simptomatik; yurak monitoringi.",
+    ozarotasir: ["CYP3A4/CYP2C19 inhibitorlari (ketokonazol, omeprazol, diltiazem, greypfrut) darajasini oshiradi (doza kamaytirish)", "Antiagregant/antikoagulyantlar bilan qon ketish xavfi"],
+    qollash: { kattalar: "100 mg×2/sutka (nonushta va kechki ovqatdan 30 daq oldin); CYP inhibitor bilan 50 mg×2.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 50/100 mg"
+  },
+  ru: {
+    gruppa: "Антиагреганты — ингибитор фосфодиэстеразы-3 (цилостазол)",
+    farmTasir: "Антиагрегант и вазодилататор (ингибитор ФДЭ-3)",
+    farmakodinamika: `Цилостазол избирательно ингибирует фосфодиэстеразу-3 (ФДЭ-3); повышает уровень цАМФ в тромбоцитах и гладкомышечных клетках — снижает агрегацию тромбоцитов и расслабляет гладкие мышцы артерий, вызывая вазодилатацию. Также повышает ЛПВП и снижает триглицериды. В основном увеличивает дистанцию ходьбы при перемежающейся хромоте (ЗПА).`,
+    farmakokinetika: { sorish: "Из кишечника (жирная пища повышает)", tarqalish: "Высокая связь с белками (~95–98%)", metabolizm: "Печень (CYP3A4, CYP2C19 — активные метаболиты)", chiqarilish: "Почками/с калом; T½ ~11–13 ч" },
+    korsatmalar: ["Перемежающаяся хромота (заболевание периферических артерий) — улучшение дистанции ходьбы и симптомов"],
+    qarrshi: ["Сердечная недостаточность любой степени (ингибиторы ФДЭ-3 повышают смертность — АБСОЛЮТНО противопоказан)", "Активное кровотечение, геморрагический инсульт в анамнезе", "Тяжёлая тахиаритмия, нестабильная стенокардия/недавний ИМ", "Тяжёлая печёночная/почечная недостаточность"],
+    nojoya: { "Сердце": "Тахикардия, сердцебиение, аритмия", "Нервная система": "Головная боль (характерна, частая), головокружение", "ЖКТ": "Диарея, изменение стула, диспепсия", "Кровотечения": "Склонность к кровотечениям" },
+    dozadan: "Головная боль, тахикардия, гипотензия — симптоматически; кардиомониторинг.",
+    ozarotasir: ["Ингибиторы CYP3A4/CYP2C19 (кетоконазол, омепразол, дилтиазем, грейпфрут) повышают уровень (снизить дозу)", "С антиагрегантами/антикоагулянтами риск кровотечения"],
+    qollash: { kattalar: "100 мг×2/сут (за 30 мин до завтрака и ужина); с ингибитором CYP 50 мг×2.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 50/100 мг"
+  },
+  en: {
+    gruppa: "Antiplatelets — phosphodiesterase-3 inhibitor (cilostazol)",
+    farmTasir: "Antiplatelet and vasodilator (PDE-3 inhibitor)",
+    farmakodinamika: `Cilostazol selectively inhibits phosphodiesterase-3 (PDE-3); it raises cAMP in platelets and smooth muscle cells — reducing platelet aggregation and relaxing arterial smooth muscle for vasodilation. It also raises HDL and lowers triglycerides. It mainly increases walking distance in intermittent claudication (peripheral artery disease).`,
+    farmakokinetika: { sorish: "From the gut (fatty food increases)", tarqalish: "Highly protein-bound (~95–98%)", metabolizm: "Hepatic (CYP3A4, CYP2C19 — active metabolites)", chiqarilish: "Renal/faecal; T½ ~11–13 h" },
+    korsatmalar: ["Intermittent claudication (peripheral artery disease) — improving walking distance and symptoms"],
+    qarrshi: ["Heart failure of any degree (PDE-3 inhibitors increase mortality — ABSOLUTELY contraindicated)", "Active bleeding, history of haemorrhagic stroke", "Severe tachyarrhythmia, unstable angina/recent MI", "Severe hepatic/renal impairment"],
+    nojoya: { "Cardiac": "Tachycardia, palpitations, arrhythmia", "Nervous system": "Headache (characteristic, frequent), dizziness", "GI": "Diarrhoea, altered stool, dyspepsia", "Bleeding": "Bleeding tendency" },
+    dozadan: "Headache, tachycardia, hypotension — supportive; cardiac monitoring.",
+    ozarotasir: ["CYP3A4/CYP2C19 inhibitors (ketoconazole, omeprazole, diltiazem, grapefruit) raise levels (reduce dose)", "With antiplatelets/anticoagulants bleeding risk"],
+    qollash: { kattalar: "100 mg×2/day (30 min before breakfast and dinner); with a CYP inhibitor 50 mg×2.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 50/100 mg"
+  }
+},
+
+"B01AD02": {
+  uz: {
+    gruppa: "Trombolitiklar — fibrinolitiklar (alteplaza, tPA)",
+    farmTasir: "Trombolitik (to'qima plazminogen aktivatori)",
+    farmakodinamika: `Alteplaza — rekombinant inson to'qima plazminogen aktivatori (tPA). Fibrinга bog'langan plazminogenni plazminга aylantiradi (fibrin­ga moyilligi yuqori — nisbatan tanlab tromb ichida ishlaydi); plazmin esa fibrin tarmog'ini parchalab tromni eritadi. Ta'sir qisqa (T½ ~4–5 daqiqa), shuning uchun bolus + infuziya sxemasi bilan yuboriladi.`,
+    farmakokinetika: { sorish: "V/i (bolus va infuziya)", tarqalish: "Tomir ichida", metabolizm: "Jigarда tez", chiqarilish: "T½ ~4–5 daqiqa" },
+    korsatmalar: ["O'tkir ishemik insult (belgilar boshlanishidan ≤4,5 soat ichида, mezonlarга mos)", "O'tkir miokard infarkti (STEMI — primar PKA mumkin bo'lmaganда)", "Hayot uchun xavfli o'tkir o'pka emboliyasi (massiv)"],
+    qarrshi: ["Faol ichki qon ketish, yaqinda bosh miya qon ketishi/insult, intrakranial o'sma/anevrizma", "Yaqinda katta jarrohlik/jarohat, og'ir nazoratsiz gipertenziya", "Gemorragik diatez, og'ir jigar kasalligi"],
+    nojoya: { "Qon ketish": "Intrakranial qon ketish (eng xavfli), oshqozon-ichak, in'eksiya joyида", "Immun": "Allergik/anafilaktoid reaksiya, isitma", "Yurak": "Reperfuziya aritmiyalari (MIда)", "Boshqa": "Gipotenziya" },
+    dozadan: "Qon ketish — infuziyani to'xtatish; antifibrinolitik (aminokapron/traneksam kislota), krioprecipitat/plazma, qon transfuziyasi.",
+    ozarotasir: ["Antikoagulyant, antiagregantlar bilan qon ketish xavfi keskin oshadi", "ACE inhibitorlari angiooedema xavfini oshirishi mumkin (insultда)"],
+    qollash: { kattalar: "Insult: 0,9 mg/kg (maks 90 mg) — 10% bolus, qolgani 60 daqiqa infuziya; STEMI/PE: alohida sxemalar.", bolalar: "Faqat maxsus markazда, individual" },
+    chiqarish: "In'eksiya/infuziya uchun liofilizat 10/20/50 mg (flakon + erituvchi)"
+  },
+  ru: {
+    gruppa: "Тромболитики — фибринолитики (алтеплаза, тПА)",
+    farmTasir: "Тромболитик (тканевый активатор плазминогена)",
+    farmakodinamika: `Алтеплаза — рекомбинантный тканевый активатор плазминогена человека (тПА). Превращает связанный с фибрином плазминоген в плазмин (высокое сродство к фибрину — относительно избирательно действует внутри тромба); плазмин расщепляет фибриновую сеть и растворяет тромб. Действие короткое (T½ ~4–5 мин), поэтому вводится по схеме болюс + инфузия.`,
+    farmakokinetika: { sorish: "В/в (болюс и инфузия)", tarqalish: "В сосудистом русле", metabolizm: "Быстро в печени", chiqarilish: "T½ ~4–5 мин" },
+    korsatmalar: ["Острый ишемический инсульт (в течение ≤4,5 ч от начала симптомов, по критериям)", "Острый инфаркт миокарда (STEMI — при невозможности первичного ЧКВ)", "Угрожающая жизни острая ТЭЛА (массивная)"],
+    qarrshi: ["Активное внутреннее кровотечение, недавнее внутримозговое кровоизлияние/инсульт, внутричерепная опухоль/аневризма", "Недавняя крупная операция/травма, тяжёлая неконтролируемая гипертензия", "Геморрагический диатез, тяжёлая болезнь печени"],
+    nojoya: { "Кровотечения": "Внутричерепное кровоизлияние (самое опасное), ЖКТ, в месте инъекции", "Иммунные": "Аллергические/анафилактоидные реакции, лихорадка", "Сердце": "Реперфузионные аритмии (при ИМ)", "Прочее": "Гипотензия" },
+    dozadan: "Кровотечение — прекратить инфузию; антифибринолитик (аминокапроновая/транексамовая кислота), криопреципитат/плазма, переливание крови.",
+    ozarotasir: ["С антикоагулянтами, антиагрегантами риск кровотечения резко возрастает", "иАПФ могут повышать риск ангиоотёка (при инсульте)"],
+    qollash: { kattalar: "Инсульт: 0,9 мг/кг (макс 90 мг) — 10% болюсом, остальное инфузией 60 мин; STEMI/ТЭЛА: отдельные схемы.", bolalar: "Только в специализированном центре, индивидуально" },
+    chiqarish: "Лиофилизат для инъекций/инфузий 10/20/50 мг (флакон + растворитель)"
+  },
+  en: {
+    gruppa: "Thrombolytics — fibrinolytics (alteplase, tPA)",
+    farmTasir: "Thrombolytic (tissue plasminogen activator)",
+    farmakodinamika: `Alteplase is recombinant human tissue plasminogen activator (tPA). It converts fibrin-bound plasminogen to plasmin (high fibrin affinity — acting relatively selectively within the thrombus); plasmin then breaks down the fibrin mesh and dissolves the clot. Its action is brief (T½ ~4–5 min), so it is given as a bolus + infusion regimen.`,
+    farmakokinetika: { sorish: "IV (bolus and infusion)", tarqalish: "In the vascular bed", metabolizm: "Rapid hepatic", chiqarilish: "T½ ~4–5 min" },
+    korsatmalar: ["Acute ischaemic stroke (within ≤4.5 h of symptom onset, per criteria)", "Acute myocardial infarction (STEMI — when primary PCI is unavailable)", "Life-threatening acute pulmonary embolism (massive)"],
+    qarrshi: ["Active internal bleeding, recent intracranial haemorrhage/stroke, intracranial tumour/aneurysm", "Recent major surgery/trauma, severe uncontrolled hypertension", "Haemorrhagic diathesis, severe liver disease"],
+    nojoya: { "Bleeding": "Intracranial haemorrhage (most dangerous), GI, injection site", "Immune": "Allergic/anaphylactoid reactions, fever", "Cardiac": "Reperfusion arrhythmias (in MI)", "Other": "Hypotension" },
+    dozadan: "Bleeding — stop infusion; antifibrinolytic (aminocaproic/tranexamic acid), cryoprecipitate/plasma, transfusion.",
+    ozarotasir: ["With anticoagulants, antiplatelets bleeding risk rises sharply", "ACE inhibitors may increase angio-oedema risk (in stroke)"],
+    qollash: { kattalar: "Stroke: 0.9 mg/kg (max 90 mg) — 10% as bolus, remainder over 60 min infusion; STEMI/PE: separate regimens.", bolalar: "Only in a specialist centre, individualised" },
+    chiqarish: "Lyophilisate for injection/infusion 10/20/50 mg (vial + solvent)"
+  }
+},
+
+"B01AE07": {
+  uz: {
+    gruppa: "Antikoagulyantlar — to'g'ridan-to'g'ri trombin inhibitorlari (dabigatran)",
+    farmTasir: "To'g'ridan-to'g'ri peroral antikoagulyant (DOAC, trombin inhibitori)",
+    farmakodinamika: `Dabigatran eteksilat — prodori; organizmда faol dabigatranга aylanadi, u trombin (IIa faktor) ni TO'G'RIDAN-TO'G'RI va qaytar bloklaydi — fibrinogenni fibrinга aylanishini va trombin orqали trombotsit faollashishini to'xtatadi. Antitrombin orqali emas, mustaqil ta'sir qiladi; prognozli ta'sir tufayli doimiy laboratoriya nazorati talab qilmaydi.`,
+    farmakokinetika: { sorish: "Ichakdan (bioo'zlashtirish past ~6,5%, prodori)", tarqalish: "Oqsiliga ~35%", metabolizm: "Esterazalar (CYP ishtirokisiz); P-gp substrati", chiqarilish: "Asosан buyrak (~80%); T½ ~12–17 soat" },
+    korsatmalar: ["Klapansiz hilpillovchi aritmiyaда insult va tizimli emboliya profilaktikasi", "Chuqur venoz tromboz va o'pka emboliyasi davosi va profilaktikasi", "Katta ortopedik jarrohlikдан keyin tromboz profilaktikasi"],
+    qarrshi: ["Faol qon ketish, og'ir buyrak yetishmovchiligi (KrKl <30 ml/min)", "Sun'iy mexanik yurak klapanlari", "Og'ir jigar yetishmovchiligi, P-gp kuchli inhibitorlari (ketokonazol) bilan", "Homiladorlik/laktatsiya"],
+    nojoya: { "Qon ketish": "Oshqozon-ichak (varfarindан ko'proq), boshqa joylashuvlar", "Oshqozon-ichak": "Dispepsiya, gastrit (xos)", "Allergik": "Toshma, kamdan-kam angiooedema" },
+    dozadan: "Qon ketish — to'xtatish; SPESIFIK antidot — idarutsizumab (monoklonal antitana); ko'mir/dializ (qisman).",
+    ozarotasir: ["P-gp inhibitorlari (verapamil, amiodaron, ketokonazol, klaritromitsin) darajasini oshiradi", "P-gp induktorlari (rifampitsin) samarani pasaytiradi", "NYaQVD/antiagregantlar bilan qon ketish xavfi"],
+    qollash: { kattalar: "Hilpillovchi aritmiya/VTE: 150 mg×2/sutka (ehtiyot holatда 110 mg×2); ovqatdан qat'i nazar, kapsulani ochmaslik.", bolalar: "Vaznга/yoshга qarab maxsus shakllar (mutaxassis)" },
+    chiqarish: "Kapsulalar 75/110/150 mg"
+  },
+  ru: {
+    gruppa: "Антикоагулянты — прямые ингибиторы тромбина (дабигатран)",
+    farmTasir: "Прямой пероральный антикоагулянт (DOAC, ингибитор тромбина)",
+    farmakodinamika: `Дабигатрана этексилат — пролекарство; в организме превращается в активный дабигатран, который ПРЯМО и обратимо блокирует тромбин (фактор IIa) — прекращает превращение фибриногена в фибрин и активацию тромбоцитов через тромбин. Действует независимо от антитромбина; благодаря предсказуемому эффекту не требует постоянного лабораторного контроля.`,
+    farmakokinetika: { sorish: "Из кишечника (биодоступность низкая ~6,5%, пролекарство)", tarqalish: "Связь с белками ~35%", metabolizm: "Эстеразы (без участия CYP); субстрат P-gp", chiqarilish: "Преимущественно почками (~80%); T½ ~12–17 ч" },
+    korsatmalar: ["Профилактика инсульта и системной эмболии при неклапанной мерцательной аритмии", "Лечение и профилактика тромбоза глубоких вен и ТЭЛА", "Профилактика тромбоза после крупных ортопедических операций"],
+    qarrshi: ["Активное кровотечение, тяжёлая почечная недостаточность (КлКр <30 мл/мин)", "Механические искусственные клапаны сердца", "Тяжёлая печёночная недостаточность, совместно с сильными ингибиторами P-gp (кетоконазол)", "Беременность/лактация"],
+    nojoya: { "Кровотечения": "ЖКТ (больше, чем у варфарина), другие локализации", "ЖКТ": "Диспепсия, гастрит (характерно)", "Аллергические": "Сыпь, редко ангиоотёк" },
+    dozadan: "Кровотечение — отмена; СПЕЦИФИЧЕСКИЙ антидот — идаруцизумаб (моноклональное антитело); уголь/диализ (частично).",
+    ozarotasir: ["Ингибиторы P-gp (верапамил, амиодарон, кетоконазол, кларитромицин) повышают уровень", "Индукторы P-gp (рифампицин) снижают эффект", "С НПВП/антиагрегантами риск кровотечения"],
+    qollash: { kattalar: "Мерцательная аритмия/ВТЭ: 150 мг×2/сут (при осторожности 110 мг×2); независимо от еды, капсулу не вскрывать.", bolalar: "По массе/возрасту специальные формы (специалист)" },
+    chiqarish: "Капсулы 75/110/150 мг"
+  },
+  en: {
+    gruppa: "Anticoagulants — direct thrombin inhibitors (dabigatran)",
+    farmTasir: "Direct oral anticoagulant (DOAC, thrombin inhibitor)",
+    farmakodinamika: `Dabigatran etexilate is a prodrug converted in the body to active dabigatran, which DIRECTLY and reversibly blocks thrombin (factor IIa) — halting conversion of fibrinogen to fibrin and thrombin-mediated platelet activation. It acts independently of antithrombin; owing to its predictable effect it needs no routine laboratory monitoring.`,
+    farmakokinetika: { sorish: "From the gut (low bioavailability ~6.5%, prodrug)", tarqalish: "~35% protein-bound", metabolizm: "Esterases (no CYP involvement); P-gp substrate", chiqarilish: "Mainly renal (~80%); T½ ~12–17 h" },
+    korsatmalar: ["Stroke and systemic embolism prevention in non-valvular atrial fibrillation", "Treatment and prevention of deep vein thrombosis and PE", "Thrombosis prophylaxis after major orthopaedic surgery"],
+    qarrshi: ["Active bleeding, severe renal impairment (CrCl <30 mL/min)", "Mechanical prosthetic heart valves", "Severe hepatic impairment, with strong P-gp inhibitors (ketoconazole)", "Pregnancy/lactation"],
+    nojoya: { "Bleeding": "GI (more than warfarin), other sites", "GI": "Dyspepsia, gastritis (characteristic)", "Allergic": "Rash, rarely angio-oedema" },
+    dozadan: "Bleeding — stop; SPECIFIC antidote — idarucizumab (monoclonal antibody); charcoal/dialysis (partial).",
+    ozarotasir: ["P-gp inhibitors (verapamil, amiodarone, ketoconazole, clarithromycin) raise levels", "P-gp inducers (rifampicin) reduce effect", "With NSAIDs/antiplatelets bleeding risk"],
+    qollash: { kattalar: "Atrial fibrillation/VTE: 150 mg×2/day (110 mg×2 with caution); regardless of food, do not open the capsule.", bolalar: "Weight/age-specific formulations (specialist)" },
+    chiqarish: "Capsules 75/110/150 mg"
+  }
+},
+
+"B01AF01": {
+  uz: {
+    gruppa: "Antikoagulyantlar — to'g'ridan-to'g'ri Xa faktor inhibitorlari (rivaroksaban)",
+    farmTasir: "To'g'ridan-to'g'ri peroral antikoagulyant (DOAC, Xa inhibitori)",
+    farmakodinamika: `Rivaroksaban — to'g'ridan-to'g'ri va tanlab Xa faktorni (erkin va protrombinaza komplekслидаги) qaytar bloklaydi. Xa faktor protrombinни trombinга aylantirish kaskadidagi markaziy nuqta — uni to'sib, trombin hosil bo'lishini va tromb shakllanishini kamaytiradi. Antitrombindan mustaqil ta'sir qiladi; prognozli farmakokinetika tufayli doimiy nazorat talab qilmaydi.`,
+    farmakokinetika: { sorish: "Ichakdan (15/20 mg — ovqat bilan, bioo'zlashtirish ~100%)", tarqalish: "Oqsiliga ~92–95%", metabolizm: "Jigar (CYP3A4, CYP2J2); P-gp substrati", chiqarilish: "Buyrak (~1/3 o'zgarmagan) va najas; T½ ~5–9 soat" },
+    korsatmalar: ["Klapansiz hilpillovchi aritmiyaда insult/emboliya profilaktikasi", "Chuqur venoz tromboz va o'pka emboliyasi davosi/profilaktikasi", "Ortopedik jarrohlikдан keyin VTE profilaktikasi; OKS/koronar-periferik arteriya kasalligida (past doza + aspirin)"],
+    qarrshi: ["Faol qon ketish, klinik ahamiyatли qon ketish xavfi", "Og'ir jigar kasalligi (koagulopatiya bilan), og'ir buyrak yetishmovchiligi (KrKl <15 ml/min)", "Homiladorlik/laktatsiya", "Kuchli CYP3A4+P-gp inhibitor/induktorlari bilan"],
+    nojoya: { "Qon ketish": "Turli joylashuvли qon ketish (asosiy)", "Qon": "Anemiya", "Jigar": "Transaminaza ko'tarilishi", "Allergik": "Toshma, kamdan-kam angiooedema" },
+    dozadan: "Qon ketish — to'xtatish; SPESIFIK antidot — andeksanet alfa; faol ko'mir (yaqinda qabul qilinganда), PCC (og'ir holatда).",
+    ozarotasir: ["Kuchli CYP3A4+P-gp inhibitorlari (azolли antifungallar, HIV proteaza inhibitorlari) darajasini oshiradi", "Induktorlar (rifampitsin, fenitoin) samarani pasaytiradi", "NYaQVD/antiagregantlar bilan qon ketish xavfi"],
+    qollash: { kattalar: "Hilpillovchi aritmiya: 20 mg×1 (KrKl 15–49 — 15 mg) ovqat bilan; VTE: 15 mg×2 (3 hafta), keyin 20 mg×1.", bolalar: "Vaznга qarab maxsus shakllar (mutaxassis)" },
+    chiqarish: "Plyonka qoplamali tabletkalar 2,5/10/15/20 mg; bolalar uchun granula"
+  },
+  ru: {
+    gruppa: "Антикоагулянты — прямые ингибиторы фактора Xa (ривароксабан)",
+    farmTasir: "Прямой пероральный антикоагулянт (DOAC, ингибитор Xa)",
+    farmakodinamika: `Ривароксабан прямо и избирательно обратимо блокирует фактор Xa (свободный и в составе протромбиназного комплекса). Фактор Xa — центральная точка каскада превращения протромбина в тромбин; его блокада снижает образование тромбина и формирование тромба. Действует независимо от антитромбина; благодаря предсказуемой фармакокинетике не требует постоянного контроля.`,
+    farmakokinetika: { sorish: "Из кишечника (15/20 мг — с едой, биодоступность ~100%)", tarqalish: "Связь с белками ~92–95%", metabolizm: "Печень (CYP3A4, CYP2J2); субстрат P-gp", chiqarilish: "Почками (~1/3 неизменён) и с калом; T½ ~5–9 ч" },
+    korsatmalar: ["Профилактика инсульта/эмболии при неклапанной мерцательной аритмии", "Лечение/профилактика тромбоза глубоких вен и ТЭЛА", "Профилактика ВТЭ после ортопедических операций; при ОКС/ИБС-ЗПА (низкая доза + аспирин)"],
+    qarrshi: ["Активное кровотечение, клинически значимый риск кровотечения", "Тяжёлая болезнь печени (с коагулопатией), тяжёлая почечная недостаточность (КлКр <15 мл/мин)", "Беременность/лактация", "С сильными ингибиторами/индукторами CYP3A4+P-gp"],
+    nojoya: { "Кровотечения": "Кровотечения различной локализации (основное)", "Кровь": "Анемия", "Печень": "Повышение трансаминаз", "Аллергические": "Сыпь, редко ангиоотёк" },
+    dozadan: "Кровотечение — отмена; СПЕЦИФИЧЕСКИЙ антидот — андексанет альфа; активированный уголь (при недавнем приёме), PCC (при тяжёлом).",
+    ozarotasir: ["Сильные ингибиторы CYP3A4+P-gp (азольные антимикотики, ингибиторы протеазы ВИЧ) повышают уровень", "Индукторы (рифампицин, фенитоин) снижают эффект", "С НПВП/антиагрегантами риск кровотечения"],
+    qollash: { kattalar: "Мерцательная аритмия: 20 мг×1 (КлКр 15–49 — 15 мг) с едой; ВТЭ: 15 мг×2 (3 недели), затем 20 мг×1.", bolalar: "По массе специальные формы (специалист)" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 2,5/10/15/20 мг; гранулы для детей"
+  },
+  en: {
+    gruppa: "Anticoagulants — direct factor Xa inhibitors (rivaroxaban)",
+    farmTasir: "Direct oral anticoagulant (DOAC, Xa inhibitor)",
+    farmakodinamika: `Rivaroxaban directly and selectively reversibly blocks factor Xa (free and within the prothrombinase complex). Factor Xa is the central point of the cascade converting prothrombin to thrombin; blocking it reduces thrombin generation and clot formation. It acts independently of antithrombin; owing to predictable pharmacokinetics it needs no routine monitoring.`,
+    farmakokinetika: { sorish: "From the gut (15/20 mg — with food, bioavailability ~100%)", tarqalish: "~92–95% protein-bound", metabolizm: "Hepatic (CYP3A4, CYP2J2); P-gp substrate", chiqarilish: "Renal (~1/3 unchanged) and faecal; T½ ~5–9 h" },
+    korsatmalar: ["Stroke/embolism prevention in non-valvular atrial fibrillation", "Treatment/prevention of deep vein thrombosis and PE", "VTE prophylaxis after orthopaedic surgery; in ACS/CAD-PAD (low dose + aspirin)"],
+    qarrshi: ["Active bleeding, clinically significant bleeding risk", "Severe liver disease (with coagulopathy), severe renal impairment (CrCl <15 mL/min)", "Pregnancy/lactation", "With strong CYP3A4+P-gp inhibitors/inducers"],
+    nojoya: { "Bleeding": "Bleeding at various sites (the main effect)", "Blood": "Anaemia", "Liver": "Raised transaminases", "Allergic": "Rash, rarely angio-oedema" },
+    dozadan: "Bleeding — stop; SPECIFIC antidote — andexanet alfa; activated charcoal (if recent intake), PCC (if severe).",
+    ozarotasir: ["Strong CYP3A4+P-gp inhibitors (azole antifungals, HIV protease inhibitors) raise levels", "Inducers (rifampicin, phenytoin) reduce effect", "With NSAIDs/antiplatelets bleeding risk"],
+    qollash: { kattalar: "Atrial fibrillation: 20 mg×1 (CrCl 15–49 — 15 mg) with food; VTE: 15 mg×2 (3 weeks), then 20 mg×1.", bolalar: "Weight-specific formulations (specialist)" },
+    chiqarish: "Film-coated tablets 2.5/10/15/20 mg; granules for children"
+  }
+},
+
+"B01AF02": {
+  uz: {
+    gruppa: "Antikoagulyantlar — to'g'ridan-to'g'ri Xa faktor inhibitorlari (apiksaban)",
+    farmTasir: "To'g'ridan-to'g'ri peroral antikoagulyant (DOAC, Xa inhibitori)",
+    farmakodinamika: `Apiksaban — to'g'ridan-to'g'ri, tanlab va qaytar Xa faktor inhibitori. Erkin va tromb ichidagi Xa faktorни bloklab trombin hosil bo'lishini kamaytiradi va tromb o'sishini to'xtatadi. Antitrombindan mustaqil; buyrakдан chiqarilishi rivaroksaban va dabigatranга nisbatan kamroq (~27%) — buyrak yetishmovchiligida nisbatan qulayroq. Doimiy laboratoriya nazorati talab qilmaydi.`,
+    farmakokinetika: { sorish: "Ichakdan (bioo'zlashtirish ~50%, ovqatdan qat'i nazar)", tarqalish: "Oqsiliga ~87%", metabolizm: "Jigar (CYP3A4); P-gp substrati", chiqarilish: "Najas va buyrak (~27% buyrak); T½ ~12 soat" },
+    korsatmalar: ["Klapansiz hilpillovchi aritmiyaда insult/emboliya profilaktikasi", "Chuqur venoz tromboz va o'pka emboliyasi davosi/profilaktikasi", "Katta ortopedik jarrohlikдан keyin VTE profilaktikasi"],
+    qarrshi: ["Faol qon ketish, klinik ahamiyatли qon ketish xavfi", "Og'ir jigar kasalligi (koagulopatiya bilan)", "Sun'iy mexanik klapanlar; homiladorlik/laktatsiya", "Kuchli CYP3A4+P-gp inhibitor/induktorlari bilan"],
+    nojoya: { "Qon ketish": "Turli joylashuvли qon ketish (boshqa DOAClarга nisbatan biroz kamroq)", "Qon": "Anemiya", "Allergik": "Toshma, kamdan-kam angiooedema" },
+    dozadan: "Qon ketish — to'xtatish; SPESIFIK antidot — andeksanet alfa; faol ko'mir (yaqinda qabul), PCC (og'irда).",
+    ozarotasir: ["Kuchli CYP3A4+P-gp inhibitorlari darajasini oshiradi", "Induktorlar (rifampitsin) samarani pasaytiradi", "NYaQVD/antiagregantlar bilan qon ketish xavfi"],
+    qollash: { kattalar: "Hilpillovchi aritmiya: 5 mg×2/sutka (kamaytirish mezonlari: ≥80 yosh, ≤60 kg, kreatinin ≥133 — 2,5 mg×2); VTE: 10 mg×2 (7 kun), keyin 5 mg×2.", bolalar: "Tavsiya etilmaydi (ma'lumot cheklangan)" },
+    chiqarish: "Plyonka qoplamali tabletkalar 2,5/5 mg"
+  },
+  ru: {
+    gruppa: "Антикоагулянты — прямые ингибиторы фактора Xa (апиксабан)",
+    farmTasir: "Прямой пероральный антикоагулянт (DOAC, ингибитор Xa)",
+    farmakodinamika: `Апиксабан — прямой, избирательный и обратимый ингибитор фактора Xa. Блокируя свободный и связанный в тромбе фактор Xa, снижает образование тромбина и останавливает рост тромба. Не зависит от антитромбина; почечная экскреция меньше (~27%), чем у ривароксабана и дабигатрана — относительно удобнее при почечной недостаточности. Не требует постоянного лабораторного контроля.`,
+    farmakokinetika: { sorish: "Из кишечника (биодоступность ~50%, независимо от еды)", tarqalish: "Связь с белками ~87%", metabolizm: "Печень (CYP3A4); субстрат P-gp", chiqarilish: "С калом и почками (~27% почками); T½ ~12 ч" },
+    korsatmalar: ["Профилактика инсульта/эмболии при неклапанной мерцательной аритмии", "Лечение/профилактика тромбоза глубоких вен и ТЭЛА", "Профилактика ВТЭ после крупных ортопедических операций"],
+    qarrshi: ["Активное кровотечение, клинически значимый риск кровотечения", "Тяжёлая болезнь печени (с коагулопатией)", "Механические искусственные клапаны; беременность/лактация", "С сильными ингибиторами/индукторами CYP3A4+P-gp"],
+    nojoya: { "Кровотечения": "Кровотечения различной локализации (несколько меньше, чем у других DOAC)", "Кровь": "Анемия", "Аллергические": "Сыпь, редко ангиоотёк" },
+    dozadan: "Кровотечение — отмена; СПЕЦИФИЧЕСКИЙ антидот — андексанет альфа; активированный уголь (при недавнем приёме), PCC (при тяжёлом).",
+    ozarotasir: ["Сильные ингибиторы CYP3A4+P-gp повышают уровень", "Индукторы (рифампицин) снижают эффект", "С НПВП/антиагрегантами риск кровотечения"],
+    qollash: { kattalar: "Мерцательная аритмия: 5 мг×2/сут (критерии снижения: ≥80 лет, ≤60 кг, креатинин ≥133 — 2,5 мг×2); ВТЭ: 10 мг×2 (7 дней), затем 5 мг×2.", bolalar: "Не рекомендуется (данные ограничены)" },
+    chiqarish: "Таблетки, покрытые плёночной оболочкой, 2,5/5 мг"
+  },
+  en: {
+    gruppa: "Anticoagulants — direct factor Xa inhibitors (apixaban)",
+    farmTasir: "Direct oral anticoagulant (DOAC, Xa inhibitor)",
+    farmakodinamika: `Apixaban is a direct, selective and reversible factor Xa inhibitor. By blocking free and clot-bound factor Xa, it reduces thrombin generation and halts clot growth. It is independent of antithrombin; renal excretion is lower (~27%) than rivaroxaban and dabigatran — relatively more convenient in renal impairment. It needs no routine laboratory monitoring.`,
+    farmakokinetika: { sorish: "From the gut (bioavailability ~50%, regardless of food)", tarqalish: "~87% protein-bound", metabolizm: "Hepatic (CYP3A4); P-gp substrate", chiqarilish: "Faecal and renal (~27% renal); T½ ~12 h" },
+    korsatmalar: ["Stroke/embolism prevention in non-valvular atrial fibrillation", "Treatment/prevention of deep vein thrombosis and PE", "VTE prophylaxis after major orthopaedic surgery"],
+    qarrshi: ["Active bleeding, clinically significant bleeding risk", "Severe liver disease (with coagulopathy)", "Mechanical prosthetic valves; pregnancy/lactation", "With strong CYP3A4+P-gp inhibitors/inducers"],
+    nojoya: { "Bleeding": "Bleeding at various sites (somewhat less than other DOACs)", "Blood": "Anaemia", "Allergic": "Rash, rarely angio-oedema" },
+    dozadan: "Bleeding — stop; SPECIFIC antidote — andexanet alfa; activated charcoal (if recent intake), PCC (if severe).",
+    ozarotasir: ["Strong CYP3A4+P-gp inhibitors raise levels", "Inducers (rifampicin) reduce effect", "With NSAIDs/antiplatelets bleeding risk"],
+    qollash: { kattalar: "Atrial fibrillation: 5 mg×2/day (reduction criteria: ≥80 years, ≤60 kg, creatinine ≥133 — 2.5 mg×2); VTE: 10 mg×2 (7 days), then 5 mg×2.", bolalar: "Not recommended (limited data)" },
+    chiqarish: "Film-coated tablets 2.5/5 mg"
+  }
 }
 
 };
