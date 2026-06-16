@@ -35630,6 +35630,300 @@ const PHARMA_DATA = {
     qollash: { kattalar: "50 mg×3/day before meals.", bolalar: "Not recommended" },
     chiqarish: "Tablets 50 mg"
   }
+},
+
+"A03AD": {
+  uz: {
+    gruppa: "Hazm yo'li spazmolitiklari — miotrop (mebeverin)",
+    farmTasir: "Tanlab ta'sirli ichak spazmolitiki (miotrop)",
+    farmakodinamika: `Mebeverin — to'g'ridan-to'g'ri miotrop spazmolitik. Ichak silliq mushak hujayrasiga ta'sir qilib Na⁺ kanallari orqали depolyarizatsiyani va spazmni kamaytiradi, normal motorikani saqlab qoladi (atropinга xos antixolinergik nojo'ya ta'sirlarsiz — ich qotishi, og'iz qurishi bo'lmaydi). Ichakning ortiqcha qisqarishini yumshatib, taranglashган ichak sindromидаги og'riq va spazmni kamaytiradi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "—", metabolizm: "Jigarда to'liq (vera-kislotaга)", chiqarilish: "Buyrak (metabolitlar)" },
+    korsatmalar: ["Taranglashган ichak sindromi (og'riq, spazm, dispepsiya)", "Ichak spazmi bilan kechuvchi funksional oshqozon-ichak buzilishlari"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — homiladorlik (ma'lumot cheklangan)"],
+    nojoya: { "Allergik": "Toshma, qichishish, angiooedema (kamdan-kam)", "Boshqa": "Bosh og'rig'i, bosh aylanishi (kamdan-kam)" },
+    dozadan: "MNS qo'zg'aluvchanligi (nazariy); simptomatik, oshqozonni yuvish.",
+    ozarotasir: ["Klinik ahamiyatga ega o'zaro ta'sirlar kam"],
+    qollash: { kattalar: "135 mg×3 ovqatdan oldin yoki 200 mg (uzaytirilgan)×2/sutka.", bolalar: "≥10 yoshдан kattalar dozasi (preparatга qarab)" },
+    chiqarish: "Tabletkalar 135 mg; uzaytirilgan kapsulalar 200 mg"
+  },
+  ru: {
+    gruppa: "Спазмолитики ЖКТ — миотропные (мебеверин)",
+    farmTasir: "Селективный кишечный спазмолитик (миотропный)",
+    farmakodinamika: `Мебеверин — прямой миотропный спазмолитик. Действуя на гладкомышечную клетку кишечника, через Na⁺-каналы снижает деполяризацию и спазм, сохраняя нормальную моторику (без характерных для атропина антихолинергических побочных эффектов — нет запора, сухости во рту). Расслабляя избыточные сокращения, уменьшает боль и спазм при синдроме раздражённого кишечника.`,
+    farmakokinetika: { sorish: "Из кишечника быстро", tarqalish: "—", metabolizm: "Полностью в печени (до вератровой кислоты)", chiqarilish: "Почками (метаболиты)" },
+    korsatmalar: ["Синдром раздражённого кишечника (боль, спазм, диспепсия)", "Функциональные нарушения ЖКТ со спазмом кишечника"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — беременность (данные ограничены)"],
+    nojoya: { "Аллергические": "Сыпь, зуд, ангиоотёк (редко)", "Прочее": "Головная боль, головокружение (редко)" },
+    dozadan: "Возбудимость ЦНС (теоретически); симптоматически, промывание желудка.",
+    ozarotasir: ["Клинически значимых взаимодействий мало"],
+    qollash: { kattalar: "135 мг×3 до еды или 200 мг (пролонг.)×2/сут.", bolalar: "≥10 лет — доза взрослых (по препарату)" },
+    chiqarish: "Таблетки 135 мг; пролонгированные капсулы 200 мг"
+  },
+  en: {
+    gruppa: "GI antispasmodics — myotropic (mebeverine)",
+    farmTasir: "Selective intestinal antispasmodic (myotropic)",
+    farmakodinamika: `Mebeverine is a direct myotropic antispasmodic. Acting on the intestinal smooth muscle cell, via Na⁺ channels it reduces depolarisation and spasm while preserving normal motility (without the anticholinergic side effects typical of atropine — no constipation or dry mouth). By relaxing excessive contractions it reduces pain and spasm in irritable bowel syndrome.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "—", metabolizm: "Complete hepatic (to veratric acid)", chiqarilish: "Renal (metabolites)" },
+    korsatmalar: ["Irritable bowel syndrome (pain, spasm, dyspepsia)", "Functional GI disorders with intestinal spasm"],
+    qarrshi: ["Hypersensitivity", "Caution — pregnancy (limited data)"],
+    nojoya: { "Allergic": "Rash, itching, angio-oedema (rare)", "Other": "Headache, dizziness (rare)" },
+    dozadan: "CNS excitability (theoretical); supportive, gastric lavage.",
+    ozarotasir: ["Few clinically significant interactions"],
+    qollash: { kattalar: "135 mg×3 before meals or 200 mg (modified-release) twice daily.", bolalar: "≥10 years — adult dose (per product)" },
+    chiqarish: "Tablets 135 mg; modified-release capsules 200 mg"
+  }
+},
+
+"A03BA": {
+  uz: {
+    gruppa: "Hazm yo'li spazmolitiklari — belladonna alkaloidlari (atropin)",
+    farmTasir: "M-xolinoblokator (antimuskarin spazmolitik)",
+    farmakodinamika: `Atropin — tabiiy belladonna alkaloidi, raqobatli M-xolinoretseptor blokatori. Atsetilxolin ta'sirini bostirib silliq mushaklarni bo'shashtiradi (oshqozon-ichak, o't yo'llari, siydik yo'llari spazmini kamaytiradi), bezlar sekretsiyasini (so'lak, ter, bronx) kamaytiradi, yurak urishini tezlashtiradi (vagusни bloklab) va qorachiqни kengaytiradi. Spazm, bradikardiya va xolinergik zaharlanishда qo'llaniladi.`,
+    farmakokinetika: { sorish: "Ich, parenteral, mahalliy", tarqalish: "Keng; GEB dan o'tadi", metabolizm: "Jigarда qisman", chiqarilish: "Buyrak (qisman o'zgarmagan); T½ ~2–4 soat" },
+    korsatmalar: ["Oshqozon-ichak/o't/siydik yo'llari spazmi (og'riqли)", "Bradikardiya, AV-blokada (vagal)", "Premedikatsiya (sekretsiyani kamaytirish); fosfororganik/xolinergik zaharlanishда antidot"],
+    qarrshi: ["Yopiq burchakли glaukoma", "Prostata gipertrofiyasi/siydik tutilishi", "Obstruktiv oshqozon-ichak kasalliklari, paralitik ileus, og'ir yara kolit", "Taxiaritmiya, og'ir IYUK"],
+    nojoya: { "Antixolinergik": "Og'iz qurishi, ko'rish xiralashuvi, qorachiq kengayishi, ich qotishi, siydik tutilishi", "Yurak": "Taxikardiya, aritmiya", "MNS": "Bezovtalik, alahlash (yuqori doza), issiqlik (ter kamayishi)" },
+    dozadan: "«Quruq, qizil, issiq, ko'r, jinni» — antixolinergik sindrom; fizostigmin (antidot), simptomatik, sovutish.",
+    ozarotasir: ["Boshqa antixolinergiklar (TSAD, antigistaminlar) ta'sirni kuchaytiradi", "Oshqozon-ichak motorikasiga ta'sir qiluvchi dorilar bilan o'zaro ta'sir", "Antatsidlar so'rilishini kamaytiradi"],
+    qollash: { kattalar: "Spazmда 0,25–0,5 mg s/k yoki ich; bradikardiyaда 0,5–1 mg v/i (takror); zaharlanishда yuqori dozalar.", bolalar: "0,01–0,02 mg/kg, ko'rsatmага ko'ra" },
+    chiqarish: "In'eksiya eritmasi 0,1% (1 mg/ml); tabletkalar; ko'z tomchilari"
+  },
+  ru: {
+    gruppa: "Спазмолитики ЖКТ — алкалоиды белладонны (атропин)",
+    farmTasir: "М-холиноблокатор (антимускариновый спазмолитик)",
+    farmakodinamika: `Атропин — природный алкалоид белладонны, конкурентный блокатор М-холинорецепторов. Подавляя действие ацетилхолина, расслабляет гладкие мышцы (снижает спазм ЖКТ, желчных и мочевых путей), уменьшает секрецию желёз (слюнных, потовых, бронхиальных), учащает сердечный ритм (блокируя вагус) и расширяет зрачок. Применяется при спазмах, брадикардии и холинергическом отравлении.`,
+    farmakokinetika: { sorish: "Внутрь, парентерально, местно", tarqalish: "Широко; проходит ГЭБ", metabolizm: "Частично в печени", chiqarilish: "Почками (частично неизменённый); T½ ~2–4 ч" },
+    korsatmalar: ["Спазм ЖКТ/желчных/мочевых путей (болевой)", "Брадикардия, AV-блокада (вагусная)", "Премедикация (снижение секреции); антидот при фосфорорганическом/холинергическом отравлении"],
+    qarrshi: ["Закрытоугольная глаукома", "Гипертрофия простаты/задержка мочи", "Обструктивные болезни ЖКТ, паралитический илеус, тяжёлый язвенный колит", "Тахиаритмия, тяжёлая ИБС"],
+    nojoya: { "Антихолинергические": "Сухость во рту, затуманивание зрения, мидриаз, запор, задержка мочи", "Сердце": "Тахикардия, аритмия", "ЦНС": "Беспокойство, бред (высокие дозы), гипертермия (снижение потоотделения)" },
+    dozadan: "«Сухой, красный, горячий, слепой, безумный» — антихолинергический синдром; физостигмин (антидот), симптоматически, охлаждение.",
+    ozarotasir: ["Другие антихолинергики (ТЦА, антигистаминные) усиливают действие", "Взаимодействие с препаратами, влияющими на моторику ЖКТ", "Антациды снижают всасывание"],
+    qollash: { kattalar: "При спазме 0,25–0,5 мг п/к или внутрь; при брадикардии 0,5–1 мг в/в (повторно); при отравлении высокие дозы.", bolalar: "0,01–0,02 мг/кг, по показаниям" },
+    chiqarish: "Раствор для инъекций 0,1% (1 мг/мл); таблетки; глазные капли"
+  },
+  en: {
+    gruppa: "GI antispasmodics — belladonna alkaloids (atropine)",
+    farmTasir: "Muscarinic antagonist (antimuscarinic antispasmodic)",
+    farmakodinamika: `Atropine is a natural belladonna alkaloid and competitive muscarinic receptor blocker. By antagonising acetylcholine it relaxes smooth muscle (reducing GI, biliary and urinary tract spasm), decreases glandular secretion (salivary, sweat, bronchial), accelerates heart rate (by blocking the vagus) and dilates the pupil. It is used for spasm, bradycardia and cholinergic poisoning.`,
+    farmakokinetika: { sorish: "Oral, parenteral, topical", tarqalish: "Wide; crosses the BBB", metabolizm: "Partly hepatic", chiqarilish: "Renal (partly unchanged); T½ ~2–4 h" },
+    korsatmalar: ["GI/biliary/urinary tract spasm (painful)", "Bradycardia, AV block (vagal)", "Premedication (reducing secretion); antidote for organophosphate/cholinergic poisoning"],
+    qarrshi: ["Closed-angle glaucoma", "Prostatic hypertrophy/urinary retention", "Obstructive GI disease, paralytic ileus, severe ulcerative colitis", "Tachyarrhythmia, severe CAD"],
+    nojoya: { "Anticholinergic": "Dry mouth, blurred vision, mydriasis, constipation, urinary retention", "Cardiac": "Tachycardia, arrhythmia", "CNS": "Restlessness, delirium (high doses), hyperthermia (reduced sweating)" },
+    dozadan: "\"Dry, red, hot, blind, mad\" — anticholinergic syndrome; physostigmine (antidote), supportive, cooling.",
+    ozarotasir: ["Other anticholinergics (TCAs, antihistamines) enhance the effect", "Interaction with drugs affecting GI motility", "Antacids reduce absorption"],
+    qollash: { kattalar: "Spasm 0.25–0.5 mg SC or oral; bradycardia 0.5–1 mg IV (repeat); high doses in poisoning.", bolalar: "0.01–0.02 mg/kg, as indicated" },
+    chiqarish: "Solution for injection 0.1% (1 mg/mL); tablets; eye drops"
+  }
+},
+
+"A03FA": {
+  uz: {
+    gruppa: "Prokinetiklar (itoprid)",
+    farmTasir: "Prokinetik (D2-antagonist va atsetilxolinesteraza inhibitori)",
+    farmakodinamika: `Itoprid — qo'sh mexanizmli prokinetik. Dofamin D2-retseptorlarini bloklaydi va atsetilxolinesterazani to'sib qo'yadi — natijada atsetilxolin to'planib oshqozon-ichak harakatchanligini oshiradi, oshqozon bo'shashини tezlashtiradi va antiemetik ta'sir beradi. D2-blokadasi markazda ham antiemetik; sklerozlovchi xususiyat past, ekstrapiramidal ta'sir metoklopramidдан kamroq.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "—", metabolizm: "Jigar (flavin-mono­oksigenaza)", chiqarilish: "Buyrak; T½ ~6 soat" },
+    korsatmalar: ["Funksional dispepsiya (to'qlik, erta to'yish, qorin shishi, ko'ngil aynishi)", "Gastroezofageal reflyuks, diabetik gastroparez (yordamчи)"],
+    qarrshi: ["Oshqozon-ichak qon ketishi, mexanik obstruksiya yoki perforatsiya", "Yuqori sezuvchanlik", "Ehtiyotkorlik — homiladorlik/laktatsiya"],
+    nojoya: { "Oshqozon-ichak": "Diareya, qorin og'rig'i, so'lak ko'payishi", "Endokrin": "Giperprolaktinemiya (galaktoreya, ginekomastiya — kamdan-kam)", "Asab": "Bosh og'rig'i, tremor", "Boshqa": "Toshma, leykopeniya (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik.",
+    ozarotasir: ["Antixolinergiklar prokinetik ta'sirни susaytiradi", "Oshqozon bo'shashига ta'sir orqali boshqa dorilar so'rilishini o'zgartirishi mumkin"],
+    qollash: { kattalar: "50 mg×3/sutka ovqatdан oldin.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 50 mg"
+  },
+  ru: {
+    gruppa: "Прокинетики (итоприд)",
+    farmTasir: "Прокинетик (антагонист D2 и ингибитор ацетилхолинэстеразы)",
+    farmakodinamika: `Итоприд — прокинетик с двойным механизмом. Блокирует дофаминовые D2-рецепторы и ингибирует ацетилхолинэстеразу — в результате накапливается ацетилхолин, усиливающий моторику ЖКТ, ускоряющий опорожнение желудка и оказывающий противорвотное действие. Блокада D2 даёт и центральный противорвотный эффект; экстрапирамидные эффекты реже, чем у метоклопрамида.`,
+    farmakokinetika: { sorish: "Из кишечника быстро", tarqalish: "—", metabolizm: "Печень (флавинмонооксигеназа)", chiqarilish: "Почками; T½ ~6 ч" },
+    korsatmalar: ["Функциональная диспепсия (тяжесть, раннее насыщение, вздутие, тошнота)", "Гастроэзофагеальный рефлюкс, диабетический гастропарез (вспомогательно)"],
+    qarrshi: ["Желудочно-кишечное кровотечение, механическая обструкция или перфорация", "Гиперчувствительность", "Осторожно — беременность/лактация"],
+    nojoya: { "ЖКТ": "Диарея, боль в животе, повышенное слюноотделение", "Эндокринные": "Гиперпролактинемия (галакторея, гинекомастия — редко)", "Нервная система": "Головная боль, тремор", "Прочее": "Сыпь, лейкопения (редко)" },
+    dozadan: "Вероятность токсичности низкая; симптоматически.",
+    ozarotasir: ["Антихолинергики ослабляют прокинетическое действие", "Через влияние на опорожнение желудка может менять всасывание других препаратов"],
+    qollash: { kattalar: "50 мг×3/сут до еды.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 50 мг"
+  },
+  en: {
+    gruppa: "Prokinetics (itopride)",
+    farmTasir: "Prokinetic (D2 antagonist and acetylcholinesterase inhibitor)",
+    farmakodinamika: `Itopride is a dual-mechanism prokinetic. It blocks dopamine D2 receptors and inhibits acetylcholinesterase — so acetylcholine accumulates, enhancing GI motility, accelerating gastric emptying and providing an antiemetic effect. D2 blockade also gives a central antiemetic action; extrapyramidal effects are less common than with metoclopramide.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "—", metabolizm: "Hepatic (flavin monooxygenase)", chiqarilish: "Renal; T½ ~6 h" },
+    korsatmalar: ["Functional dyspepsia (fullness, early satiety, bloating, nausea)", "Gastro-oesophageal reflux, diabetic gastroparesis (adjunct)"],
+    qarrshi: ["GI bleeding, mechanical obstruction or perforation", "Hypersensitivity", "Caution — pregnancy/lactation"],
+    nojoya: { "GI": "Diarrhoea, abdominal pain, increased salivation", "Endocrine": "Hyperprolactinaemia (galactorrhoea, gynaecomastia — rare)", "Nervous system": "Headache, tremor", "Other": "Rash, leukopenia (rare)" },
+    dozadan: "Toxicity unlikely; supportive.",
+    ozarotasir: ["Anticholinergics reduce the prokinetic effect", "Through gastric-emptying effects may alter absorption of other drugs"],
+    qollash: { kattalar: "50 mg×3/day before meals.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 50 mg"
+  }
+},
+
+"A03FA09": {
+  uz: {
+    gruppa: "Prokinetiklar (mosaprid)",
+    farmTasir: "Prokinetik (selektiv 5-HT4 retseptor agonisti)",
+    farmakodinamika: `Mosaprid — selektiv serotonin 5-HT4 retseptor agonisti. Oshqozon-ichak intramural nerv chigallarида atsetilxolin ajralishini kuchaytirib yuqori hazm yo'li harakatchanligini oshiradi va oshqozon bo'shashини tezlashtiradi. Dofamin retseptorlariga deyarli ta'sir qilmaydi — shuning uchun ekstrapiramidal va giperprolaktinemik nojo'ya ta'sirlari kam.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "—", metabolizm: "Jigar (CYP3A4)", chiqarilish: "Buyrak/najas; T½ ~2 soat" },
+    korsatmalar: ["Funksional dispepsiya, surункали gastrit fonидagi hazm buzilishlari (to'lish, ko'ngil aynishi, qaytarish)", "Gastroezofageal reflyuks (yordamчи)"],
+    qarrshi: ["Oshqozon-ichak qon ketishi, obstruksiya yoki perforatsiya", "Yuqori sezuvchanlik", "Ehtiyotkorlik — jigar yetishmovchiligi"],
+    nojoya: { "Oshqozon-ichak": "Diareya, qorin og'rig'i, og'iz qurishi", "Jigar": "Jigar fermentlari ko'tarilishi (kamdan-kam)", "Asab": "Bosh og'rig'i, holsizlik", "Boshqa": "Eozinofiliya, toshma (kamdan-kam)" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik.",
+    ozarotasir: ["Antixolinergiklar prokinetik ta'sirни susaytiradi", "CYP3A4 inhibitorlari (eritromitsin) darajasini oshirishi mumkin"],
+    qollash: { kattalar: "5 mg×3/sutka ovqatdан oldin yoki keyin.", bolalar: "Tavsiya etilmaydi" },
+    chiqarish: "Tabletkalar 5 mg"
+  },
+  ru: {
+    gruppa: "Прокинетики (мосаприд)",
+    farmTasir: "Прокинетик (селективный агонист 5-HT4 рецепторов)",
+    farmakodinamika: `Мосаприд — селективный агонист серотониновых 5-HT4 рецепторов. Усиливая высвобождение ацетилхолина в интрамуральных нервных сплетениях ЖКТ, повышает моторику верхних отделов и ускоряет опорожнение желудка. Практически не влияет на дофаминовые рецепторы — поэтому экстрапирамидные и гиперпролактинемические эффекты редки.`,
+    farmakokinetika: { sorish: "Из кишечника быстро", tarqalish: "—", metabolizm: "Печень (CYP3A4)", chiqarilish: "Почками/с калом; T½ ~2 ч" },
+    korsatmalar: ["Функциональная диспепсия, нарушения пищеварения при хроническом гастрите (тяжесть, тошнота, отрыжка)", "Гастроэзофагеальный рефлюкс (вспомогательно)"],
+    qarrshi: ["Желудочно-кишечное кровотечение, обструкция или перфорация", "Гиперчувствительность", "Осторожно — печёночная недостаточность"],
+    nojoya: { "ЖКТ": "Диарея, боль в животе, сухость во рту", "Печень": "Повышение печёночных ферментов (редко)", "Нервная система": "Головная боль, слабость", "Прочее": "Эозинофилия, сыпь (редко)" },
+    dozadan: "Вероятность токсичности низкая; симптоматически.",
+    ozarotasir: ["Антихолинергики ослабляют прокинетическое действие", "Ингибиторы CYP3A4 (эритромицин) могут повышать уровень"],
+    qollash: { kattalar: "5 мг×3/сут до или после еды.", bolalar: "Не рекомендуется" },
+    chiqarish: "Таблетки 5 мг"
+  },
+  en: {
+    gruppa: "Prokinetics (mosapride)",
+    farmTasir: "Prokinetic (selective 5-HT4 receptor agonist)",
+    farmakodinamika: `Mosapride is a selective serotonin 5-HT4 receptor agonist. By enhancing acetylcholine release in the intramural nerve plexuses of the GI tract, it increases upper-gut motility and accelerates gastric emptying. It has little effect on dopamine receptors — so extrapyramidal and hyperprolactinaemic effects are rare.`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "—", metabolizm: "Hepatic (CYP3A4)", chiqarilish: "Renal/faecal; T½ ~2 h" },
+    korsatmalar: ["Functional dyspepsia, digestive disturbance in chronic gastritis (fullness, nausea, belching)", "Gastro-oesophageal reflux (adjunct)"],
+    qarrshi: ["GI bleeding, obstruction or perforation", "Hypersensitivity", "Caution — hepatic impairment"],
+    nojoya: { "GI": "Diarrhoea, abdominal pain, dry mouth", "Liver": "Raised liver enzymes (rare)", "Nervous system": "Headache, weakness", "Other": "Eosinophilia, rash (rare)" },
+    dozadan: "Toxicity unlikely; supportive.",
+    ozarotasir: ["Anticholinergics reduce the prokinetic effect", "CYP3A4 inhibitors (erythromycin) may raise levels"],
+    qollash: { kattalar: "5 mg×3/day before or after meals.", bolalar: "Not recommended" },
+    chiqarish: "Tablets 5 mg"
+  }
+},
+
+"A04AA05": {
+  uz: {
+    gruppa: "Antiemetiklar — 5-HT3 antagonistlari (palonosetron)",
+    farmTasir: "Antiemetik (uzoq ta'sirli serotonin 5-HT3 retseptor antagonisti)",
+    farmakodinamika: `Palonosetron — ikkinchi avlod, yuqori afinitetли va uzoq ta'sirli 5-HT3 retseptor antagonisti. Ingichka ichak afferent (vagal) nervlari va markaziy qusish markazidagi 5-HT3 retseptorlarini bloklab, kimyoterapiya/operatsiya keltirib chiqaradigan serotonin orqали qusishni to'xtatadi. Uzoq T½ (~40 soat) tufayli kechki (kechiktirilgan) qusishни ham nazorat qiladi.`,
+    farmakokinetika: { sorish: "V/i yoki ich", tarqalish: "Keng", metabolizm: "Jigar (CYP2D6 va b.)", chiqarilish: "Asosан buyrak; T½ ~40 soat" },
+    korsatmalar: ["Kimyoterapiya keltirib chiqaradigan ko'ngil aynishi va qusishni (o'tkir va kechki) oldini olish", "Operatsiyadan keyingi ko'ngil aynishi/qusishning oldini olish"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — QT uzayishi xavfi (boshqa risk omillari bilan)"],
+    nojoya: { "Asab": "Bosh og'rig'i, bosh aylanishi", "Oshqozon-ichak": "Ich qotishi, diareya", "Yurak": "QT uzayishi (kamdan-kam)", "Boshqa": "Holsizlik" },
+    dozadan: "Toksiklik ehtimoli past; simptomatik, EKG nazorati.",
+    ozarotasir: ["QT uzaytiruvchi dorilar bilan ehtiyotkorlik", "SSRI/SNRI bilan serotonin sindromi xavfi (kamdan-kam)"],
+    qollash: { kattalar: "0,25 mg v/i kimyoterapiyадан ~30 daq oldin yoki 0,5 mg ich.", bolalar: "≥1 oy: 20 mkg/kg v/i (maks 1,5 mg), ko'rsatmага ko'ra" },
+    chiqarish: "In'eksiya eritmasi 0,25 mg/5 ml; kapsulalar 0,5 mg"
+  },
+  ru: {
+    gruppa: "Противорвотные — антагонисты 5-HT3 (палоносетрон)",
+    farmTasir: "Противорвотное (длительно действующий антагонист серотониновых 5-HT3 рецепторов)",
+    farmakodinamika: `Палоносетрон — антагонист 5-HT3 рецепторов второго поколения с высокой аффинностью и длительным действием. Блокируя 5-HT3 рецепторы афферентных (вагусных) нервов тонкой кишки и центрального рвотного центра, прекращает рвоту, вызванную серотонином при химиотерапии/операции. Благодаря длительному T½ (~40 ч) контролирует и отсроченную рвоту.`,
+    farmakokinetika: { sorish: "В/в или внутрь", tarqalish: "Широко", metabolizm: "Печень (CYP2D6 и др.)", chiqarilish: "Преимущественно почками; T½ ~40 ч" },
+    korsatmalar: ["Профилактика тошноты и рвоты при химиотерапии (острой и отсроченной)", "Профилактика послеоперационной тошноты/рвоты"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — риск удлинения QT (при других факторах риска)"],
+    nojoya: { "Нервная система": "Головная боль, головокружение", "ЖКТ": "Запор, диарея", "Сердце": "Удлинение QT (редко)", "Прочее": "Слабость" },
+    dozadan: "Вероятность токсичности низкая; симптоматически, контроль ЭКГ.",
+    ozarotasir: ["Осторожно с препаратами, удлиняющими QT", "С СИОЗС/СИОЗСН риск серотонинового синдрома (редко)"],
+    qollash: { kattalar: "0,25 мг в/в за ~30 мин до химиотерапии или 0,5 мг внутрь.", bolalar: "≥1 мес: 20 мкг/кг в/в (макс 1,5 мг), по показаниям" },
+    chiqarish: "Раствор для инъекций 0,25 мг/5 мл; капсулы 0,5 мг"
+  },
+  en: {
+    gruppa: "Antiemetics — 5-HT3 antagonists (palonosetron)",
+    farmTasir: "Antiemetic (long-acting serotonin 5-HT3 receptor antagonist)",
+    farmakodinamika: `Palonosetron is a second-generation, high-affinity, long-acting 5-HT3 receptor antagonist. By blocking 5-HT3 receptors on small-bowel afferent (vagal) nerves and the central vomiting centre, it stops vomiting triggered by serotonin in chemotherapy/surgery. Owing to its long T½ (~40 h) it also controls delayed emesis.`,
+    farmakokinetika: { sorish: "IV or oral", tarqalish: "Wide", metabolizm: "Hepatic (CYP2D6 and others)", chiqarilish: "Mainly renal; T½ ~40 h" },
+    korsatmalar: ["Prevention of chemotherapy-induced nausea and vomiting (acute and delayed)", "Prevention of postoperative nausea/vomiting"],
+    qarrshi: ["Hypersensitivity", "Caution — QT prolongation risk (with other risk factors)"],
+    nojoya: { "Nervous system": "Headache, dizziness", "GI": "Constipation, diarrhoea", "Cardiac": "QT prolongation (rare)", "Other": "Weakness" },
+    dozadan: "Toxicity unlikely; supportive, ECG monitoring.",
+    ozarotasir: ["Caution with QT-prolonging drugs", "With SSRIs/SNRIs risk of serotonin syndrome (rare)"],
+    qollash: { kattalar: "0.25 mg IV ~30 min before chemotherapy or 0.5 mg orally.", bolalar: "≥1 month: 20 µg/kg IV (max 1.5 mg), as indicated" },
+    chiqarish: "Solution for injection 0.25 mg/5 mL; capsules 0.5 mg"
+  }
+},
+
+"A07DA03": {
+  uz: {
+    gruppa: "Ich ketishiga qarshi — motorikani kamaytiruvchilar (loperamid)",
+    farmTasir: "Antidiareal (periferik opioid µ-retseptor agonisti)",
+    farmakodinamika: `Loperamid — ichak devoridagi µ-opioid retseptorlarini faollashtiruvchi antidiareal. Ichak silliq mushak tonusini oshiradi va peristaltikani sekinlashtiradi (tranzit vaqtини uzaytiradi), suv va elektrolitlar so'rilishini oshiradi, anal sfinkter tonusini kuchaytiradi. Markaziy nerv tizimiga deyarli o'tmaydi (P-glikoprotein chiqaradi) — analgetik/giyohvandlik ta'siri yo'q.`,
+    farmakokinetika: { sorish: "Ichakdan (tizimли bioo'zlashtirish past — yuqori birinchi o'tish)", tarqalish: "Ichak devorида", metabolizm: "Jigar (CYP3A4, CYP2C8)", chiqarilish: "Asosан najas; T½ ~9–14 soat" },
+    korsatmalar: ["O'tkir va surункали diareya (simptomatik)", "Ileostomiyaда najas hajmini kamaytirish"],
+    qarrshi: ["Qonли/isitmaли diareya (dizenteriya), o'tkir yara kolit avj olishi", "Bakterial enterokolit (invaziv), psevdomembranoz kolit", "<2 yosh bolalar", "Ichak obstruksiyasi/ich qotishidan saqlanish kerak bo'lganда"],
+    nojoya: { "Oshqozon-ichak": "Ich qotishi, qorin og'rig'i/dam bo'lishi, ko'ngil aynishi", "Yurak": "Yuqori dozaда QT uzayishi, jiddiy aritmiya (suiiste'molда)", "Asab": "Bosh aylanishi, uyquchanlik" },
+    dozadan: "Yuqori doza — MNS depressiyasi (bolalarда), paralitik ileus, yurak aritmiyasi; nalokson (antidot), EKG nazorati.",
+    ozarotasir: ["CYP3A4/P-gp inhibitorlari (ritonavir, kinidin) darajasini oshiradi", "QT uzaytiruvchi dorilar bilan xavf ortadi"],
+    qollash: { kattalar: "Boshlang'ich 4 mg, keyin har suyuq najasdан keyin 2 mg (maks 16 mg/sutka).", bolalar: "≥6 yosh: kichik dozalar, ko'rsatmага ko'ra; <2 yosh man etiladi" },
+    chiqarish: "Kapsulalar/tabletkalar 2 mg; til ustida eriydigan tabletkalar"
+  },
+  ru: {
+    gruppa: "Противодиарейные — снижающие моторику (лоперамид)",
+    farmTasir: "Противодиарейное (периферический агонист опиоидных µ-рецепторов)",
+    farmakodinamika: `Лоперамид — противодиарейное средство, активирующее µ-опиоидные рецепторы в стенке кишечника. Повышает тонус гладких мышц кишечника и замедляет перистальтику (удлиняет время транзита), усиливает всасывание воды и электролитов, повышает тонус анального сфинктера. Практически не проникает в ЦНС (выводится P-гликопротеином) — без анальгетического/наркотического действия.`,
+    farmakokinetika: { sorish: "Из кишечника (низкая системная биодоступность — высокий первичный пассаж)", tarqalish: "В стенке кишечника", metabolizm: "Печень (CYP3A4, CYP2C8)", chiqarilish: "Преимущественно с калом; T½ ~9–14 ч" },
+    korsatmalar: ["Острая и хроническая диарея (симптоматически)", "Уменьшение объёма стула при илеостоме"],
+    qarrshi: ["Кровянистая/лихорадочная диарея (дизентерия), обострение язвенного колита", "Бактериальный энтероколит (инвазивный), псевдомембранозный колит", "Дети <2 лет", "Когда следует избегать кишечной обструкции/запора"],
+    nojoya: { "ЖКТ": "Запор, боль/вздутие живота, тошнота", "Сердце": "Удлинение QT, серьёзные аритмии при высоких дозах (злоупотребление)", "Нервная система": "Головокружение, сонливость" },
+    dozadan: "Высокая доза — угнетение ЦНС (у детей), паралитический илеус, аритмии сердца; налоксон (антидот), контроль ЭКГ.",
+    ozarotasir: ["Ингибиторы CYP3A4/P-gp (ритонавир, хинидин) повышают уровень", "С препаратами, удлиняющими QT, риск возрастает"],
+    qollash: { kattalar: "Начальная 4 мг, затем 2 мг после каждого жидкого стула (макс 16 мг/сут).", bolalar: "≥6 лет: малые дозы, по показаниям; <2 лет противопоказан" },
+    chiqarish: "Капсулы/таблетки 2 мг; таблетки, растворяющиеся на языке"
+  },
+  en: {
+    gruppa: "Antidiarrheals — motility reducers (loperamide)",
+    farmTasir: "Antidiarrheal (peripheral opioid µ-receptor agonist)",
+    farmakodinamika: `Loperamide is an antidiarrheal that activates µ-opioid receptors in the gut wall. It raises intestinal smooth-muscle tone and slows peristalsis (prolonging transit), enhances water and electrolyte absorption, and increases anal sphincter tone. It barely penetrates the CNS (extruded by P-glycoprotein) — without analgesic/narcotic effect.`,
+    farmakokinetika: { sorish: "From the gut (low systemic bioavailability — high first-pass)", tarqalish: "In the gut wall", metabolizm: "Hepatic (CYP3A4, CYP2C8)", chiqarilish: "Mainly faecal; T½ ~9–14 h" },
+    korsatmalar: ["Acute and chronic diarrhoea (symptomatic)", "Reducing stool volume in ileostomy"],
+    qarrshi: ["Bloody/febrile diarrhoea (dysentery), exacerbation of ulcerative colitis", "Invasive bacterial enterocolitis, pseudomembranous colitis", "Children <2 years", "When intestinal obstruction/constipation must be avoided"],
+    nojoya: { "GI": "Constipation, abdominal pain/distension, nausea", "Cardiac": "QT prolongation, serious arrhythmias at high doses (abuse)", "Nervous system": "Dizziness, drowsiness" },
+    dozadan: "High dose — CNS depression (in children), paralytic ileus, cardiac arrhythmias; naloxone (antidote), ECG monitoring.",
+    ozarotasir: ["CYP3A4/P-gp inhibitors (ritonavir, quinidine) raise levels", "Risk increased with QT-prolonging drugs"],
+    qollash: { kattalar: "Initial 4 mg, then 2 mg after each loose stool (max 16 mg/day).", bolalar: "≥6 years: small doses, as indicated; contraindicated <2 years" },
+    chiqarish: "Capsules/tablets 2 mg; orodispersible tablets"
+  }
+},
+
+"A08AB01": {
+  uz: {
+    gruppa: "Semizlikка qarshi vositalar — lipaza inhibitori (orlistat)",
+    farmTasir: "Anti-obezitet (oshqozon-ichak lipaza inhibitori)",
+    farmakodinamika: `Orlistat — oshqozon va oshqozonosti bezi lipazalarining qaytmas inhibitori. Ovqatdagi triglitseridlar parchalanishini to'sib qo'yib, yog'ning so'rilmagan qismi (~30%) najas bilan chiqib ketadi — kaloriya iste'molini kamaytiradi va vazn yo'qotishga yordam beradi. Tizimli so'rilmaydi, ta'siri faqat ichak yo'lида mahalliy.`,
+    farmakokinetika: { sorish: "Deyarli so'rilmaydi (tizimли ta'sir yo'q)", tarqalish: "Ichak yo'lида", metabolizm: "Ichak devorида (mahalliy)", chiqarilish: "Asosан najas" },
+    korsatmalar: ["Semizlik va ortiqcha vazn (TVI ≥30 yoki ≥28 xavf omillari bilan) — past kaloriyali parhez bilan birga"],
+    qarrshi: ["Surункali so'rilish buzilishi sindromi (malabsorbsiya)", "Xolestaz", "Homiladorlik va laktatsiya", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Yog'li/yumshoq najas, gaz bilan yog' chiqishi, fekal shoshilinch/inkontinensiya, qorin og'rig'i", "Vitamin": "Yog'da eriydigan vitaminlar (A,D,E,K) so'rilishi kamayishi", "Jigar": "Kamdan-kam — og'ir gepatotoksiklik", "Buyrak": "Oksalat nefropatiyasi (kamdan-kam)" },
+    dozadan: "Tizimли toksiklik kutilmaydi (so'rilmaydi); ortiqcha yog'li najas.",
+    ozarotasir: ["Siklosporin, levotiroksin, varfarin, antiepileptiklar so'rilishini kamaytiradi (interval saqlash)", "Yog'da eriydigan vitaminlar va ba'zi dorilar samarasini pasaytirishi mumkin (yotishдан oldin multivitamin)"],
+    qollash: { kattalar: "120 mg har asosiy (yog'li) ovqat bilan yoki keyin (×3/sutka); yog'siz ovqatда tashlab ketiladi.", bolalar: "≥12 yosh: 120 mg×3 (ko'rsatmага ko'ra)" },
+    chiqarish: "Kapsulalar 60 mg, 120 mg"
+  },
+  ru: {
+    gruppa: "Средства против ожирения — ингибитор липазы (орлистат)",
+    farmTasir: "Противоожирительное (ингибитор желудочно-кишечной липазы)",
+    farmakodinamika: `Орлистат — необратимый ингибитор липаз желудка и поджелудочной железы. Блокируя расщепление пищевых триглицеридов, оставляет невсосавшуюся часть жира (~30%) для выведения с калом — снижает калорийность и способствует снижению массы. Системно не всасывается, действует только местно в просвете кишечника.`,
+    farmakokinetika: { sorish: "Практически не всасывается (нет системного действия)", tarqalish: "В просвете кишечника", metabolizm: "В стенке кишечника (местно)", chiqarilish: "Преимущественно с калом" },
+    korsatmalar: ["Ожирение и избыточная масса (ИМТ ≥30 или ≥28 с факторами риска) — вместе с низкокалорийной диетой"],
+    qarrshi: ["Синдром хронической мальабсорбции", "Холестаз", "Беременность и лактация", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Жирный/мягкий стул, маслянистые выделения с газами, фекальные позывы/недержание, боль в животе", "Витамины": "Снижение всасывания жирорастворимых витаминов (A,D,E,K)", "Печень": "Редко — тяжёлая гепатотоксичность", "Почки": "Оксалатная нефропатия (редко)" },
+    dozadan: "Системная токсичность не ожидается (не всасывается); избыточный жирный стул.",
+    ozarotasir: ["Снижает всасывание циклоспорина, левотироксина, варфарина, антиэпилептиков (соблюдать интервал)", "Может снижать эффект жирорастворимых витаминов и некоторых препаратов (мультивитамин перед сном)"],
+    qollash: { kattalar: "120 мг с каждым основным (жирным) приёмом пищи или после (×3/сут); при отсутствии жира пропускают.", bolalar: "≥12 лет: 120 мг×3 (по показаниям)" },
+    chiqarish: "Капсулы 60 мг, 120 мг"
+  },
+  en: {
+    gruppa: "Anti-obesity agents — lipase inhibitor (orlistat)",
+    farmTasir: "Anti-obesity (gastrointestinal lipase inhibitor)",
+    farmakodinamika: `Orlistat is an irreversible inhibitor of gastric and pancreatic lipases. By blocking breakdown of dietary triglycerides, it leaves the unabsorbed fat fraction (~30%) to pass in the faeces — reducing calorie intake and aiding weight loss. It is not absorbed systemically and acts only locally in the gut lumen.`,
+    farmakokinetika: { sorish: "Virtually unabsorbed (no systemic action)", tarqalish: "In the gut lumen", metabolizm: "In the gut wall (local)", chiqarilish: "Mainly faecal" },
+    korsatmalar: ["Obesity and overweight (BMI ≥30 or ≥28 with risk factors) — together with a low-calorie diet"],
+    qarrshi: ["Chronic malabsorption syndrome", "Cholestasis", "Pregnancy and lactation", "Hypersensitivity"],
+    nojoya: { "GI": "Oily/soft stool, oily spotting with flatus, faecal urgency/incontinence, abdominal pain", "Vitamins": "Reduced absorption of fat-soluble vitamins (A,D,E,K)", "Liver": "Rarely severe hepatotoxicity", "Renal": "Oxalate nephropathy (rare)" },
+    dozadan: "Systemic toxicity not expected (unabsorbed); excessive oily stool.",
+    ozarotasir: ["Reduces absorption of ciclosporin, levothyroxine, warfarin, antiepileptics (separate dosing)", "May reduce the effect of fat-soluble vitamins and some drugs (multivitamin at bedtime)"],
+    qollash: { kattalar: "120 mg with or after each main (fatty) meal (×3/day); omit if the meal has no fat.", bolalar: "≥12 years: 120 mg×3 (as indicated)" },
+    chiqarish: "Capsules 60 mg, 120 mg"
+  }
 }
 
 };
