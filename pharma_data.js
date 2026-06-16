@@ -36764,6 +36764,216 @@ const PHARMA_DATA = {
     qollash: { kattalar: "In deficiency 5–10 mg/day; high doses in biotinidase deficiency.", bolalar: "In biotinidase deficiency 5–10 mg/day, as indicated" },
     chiqarish: "Tablets/capsules 5 mg (and other strengths)"
   }
+},
+
+"A11DA01": {
+  uz: {
+    gruppa: "Vitaminlar — B1 vitamini (tiamin)",
+    farmTasir: "B1 vitamini (uglevod almashinuvi va asab funksiyasi)",
+    farmakodinamika: `Tiamin (vitamin B1) — suvда eriydigan vitamin. Organizmда tiamin pirofosfatga (kokarboksilaza) aylanib, uglevod almashinuvining kalit fermentlari (piruvatdegidrogenaza, alfa-ketoglutaratdegidrogenaza, transketolaza) kofaktori bo'ladi — energiya ishlab chiqarish va asab/yurak mushaklari faoliyati uchun zarur. Tanqisligida beri-beri, Vernike entsefalopatiyasi va polineyropatiya yuzaga keladi.`,
+    farmakokinetika: { sorish: "Ichakdan (yuqori dozaда cheklangan) yoki parenteral", tarqalish: "To'qimalarга", metabolizm: "Jigar", chiqarilish: "Buyrak orqали (ortig'i)" },
+    korsatmalar: ["B1 vitamini tanqisligi (beri-beri, Vernike-Korsakov sindromi, alkogolizm)", "Diabetik/alkogol polineyropatiyasi (ko'pincha B6, B12 bilan)"],
+    qarrshi: ["Yuqori sezuvchanlik (ayniqsa parenteralда — anafilaksiya xavfi)"],
+    nojoya: { "Allergik": "Parenteral yuborishda — anafilaktik reaksiya (kamdan-kam, lekin jiddiy)", "Mahalliy": "In'eksiya joyида og'riq", "Boshqa": "Issiqlik hissi, terlash (tez v/i)" },
+    dozadan: "Suvда eriydi — toksiklik past; parenteralда allergiyaни kuzatish.",
+    ozarotasir: ["5-ftoruratsil tiamin ta'sirini bloklashi mumkin", "Antatsidlar/ishqoriy muhit tiaminni parchalaydi"],
+    qollash: { kattalar: "Tanqislikда 50–100 mg/sutka (ich/parenteral); Vernike: yuqori doza v/i (mas. 200–500 mg×3).", bolalar: "Yoshга/vaznга qarab (ko'rsatmага ko'ra)" },
+    chiqarish: "Tabletkalar; in'eksiya eritmasi (tiamin xlorid/mononitrat)"
+  },
+  ru: {
+    gruppa: "Витамины — витамин B1 (тиамин)",
+    farmTasir: "Витамин B1 (углеводный обмен и функция нервной системы)",
+    farmakodinamika: `Тиамин (витамин B1) — водорастворимый витамин. В организме превращается в тиаминпирофосфат (кокарбоксилазу) и служит кофактором ключевых ферментов углеводного обмена (пируватдегидрогеназа, альфа-кетоглутаратдегидрогеназа, транскетолаза) — необходим для выработки энергии и работы нервной системы и сердечной мышцы. При дефиците развиваются бери-бери, энцефалопатия Вернике и полинейропатия.`,
+    farmakokinetika: { sorish: "Из кишечника (ограниченно при высокой дозе) или парентерально", tarqalish: "В ткани", metabolizm: "Печень", chiqarilish: "Почками (избыток)" },
+    korsatmalar: ["Дефицит витамина B1 (бери-бери, синдром Вернике-Корсакова, алкоголизм)", "Диабетическая/алкогольная полинейропатия (часто с B6, B12)"],
+    qarrshi: ["Гиперчувствительность (особенно парентерально — риск анафилаксии)"],
+    nojoya: { "Аллергические": "При парентеральном введении — анафилактическая реакция (редко, но серьёзно)", "Местные": "Боль в месте инъекции", "Прочее": "Чувство жара, потливость (быстрое в/в)" },
+    dozadan: "Водорастворимый — токсичность низкая; при парентеральном следить за аллергией.",
+    ozarotasir: ["5-фторурацил может блокировать действие тиамина", "Антациды/щелочная среда разрушают тиамин"],
+    qollash: { kattalar: "При дефиците 50–100 мг/сут (внутрь/парентерально); Вернике: высокая доза в/в (напр. 200–500 мг×3).", bolalar: "По возрасту/массе (по показаниям)" },
+    chiqarish: "Таблетки; раствор для инъекций (тиамина хлорид/мононитрат)"
+  },
+  en: {
+    gruppa: "Vitamins — vitamin B1 (thiamine)",
+    farmTasir: "Vitamin B1 (carbohydrate metabolism and nerve function)",
+    farmakodinamika: `Thiamine (vitamin B1) is a water-soluble vitamin. It is converted to thiamine pyrophosphate (cocarboxylase) and serves as a cofactor of key carbohydrate-metabolism enzymes (pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, transketolase) — essential for energy production and nervous and cardiac muscle function. Deficiency causes beriberi, Wernicke encephalopathy and polyneuropathy.`,
+    farmakokinetika: { sorish: "From the gut (limited at high dose) or parenteral", tarqalish: "Into tissues", metabolizm: "Hepatic", chiqarilish: "Renal (excess)" },
+    korsatmalar: ["Vitamin B1 deficiency (beriberi, Wernicke-Korsakoff syndrome, alcoholism)", "Diabetic/alcoholic polyneuropathy (often with B6, B12)"],
+    qarrshi: ["Hypersensitivity (especially parenteral — anaphylaxis risk)"],
+    nojoya: { "Allergic": "On parenteral administration — anaphylactic reaction (rare but serious)", "Local": "Injection-site pain", "Other": "Warmth, sweating (rapid IV)" },
+    dozadan: "Water-soluble — low toxicity; watch for allergy with parenteral use.",
+    ozarotasir: ["5-fluorouracil may block thiamine action", "Antacids/alkaline media degrade thiamine"],
+    qollash: { kattalar: "In deficiency 50–100 mg/day (oral/parenteral); Wernicke: high dose IV (e.g. 200–500 mg×3).", bolalar: "By age/weight (as indicated)" },
+    chiqarish: "Tablets; solution for injection (thiamine chloride/mononitrate)"
+  }
+},
+
+"A11HA02": {
+  uz: {
+    gruppa: "Vitaminlar — B6 vitamini (piridoksin)",
+    farmTasir: "B6 vitamini (aminokislota va neyromediator almashinuvi)",
+    farmakodinamika: `Piridoksin (vitamin B6) — suvда eriydigan vitamin. Faol shakli piridoksal-5-fosfat ko'plab fermentlarning (transaminazalar, dekarboksilazalar) kofaktori; aminokislotalar almashinuvi, neyromediatorlar (serotonin, dofamin, GABA), gem va sfingolipid sintezida muhim. Tanqisligida polineyropatiya, dermatit, anemiya va tutqanoq (chaqaloqларда) yuzaga keladi.`,
+    farmakokinetika: { sorish: "Ichakdan tez", tarqalish: "To'qimalarга", metabolizm: "Jigar (faol shaklга)", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["B6 tanqisligi; izoniazid/penisillamin/gidralazinга qarshi (neyropatiya profilaktikasi)", "Piridoksinга bog'liq tutqanoq (chaqaloqлар), ko'ngil aynishi (homiladorlikда), sideroblastik anemiya"],
+    qarrshi: ["Yuqori sezuvchanlik", "Ehtiyotkorlik — levodopa bilan (samarasini pasaytiradi)"],
+    nojoya: { "Asab": "Uzoq yuqori doza — sensor neyropatiya (paradoksal!)", "Allergik": "Toshma (kamdan-kam)", "Boshqa": "Ko'ngil aynishi (yuqori doza)" },
+    dozadan: "Surункали yuqori doza (>1 g/sutka uzoq) — sensor neyropatiya; dorini to'xtatish.",
+    ozarotasir: ["Levodopa (karbidopasiz) ta'sirini pasaytiradi", "Izoniazid, penisillamin, gidralazin B6 ehtiyojini oshiradi", "Fenobarbital/fenitoin darajasini pasaytirishi mumkin"],
+    qollash: { kattalar: "Tanqislikда 10–50 mg/sutka; izoniazid bilan 10–25 mg/sutka profilaktika; davo dozalari yuqoriroq.", bolalar: "Yoshга qarab; piridoksinга bog'liq tutqanoqда yuqori doza" },
+    chiqarish: "Tabletkalar 10/20 mg; in'eksiya eritmasi 5% (50 mg/ml)"
+  },
+  ru: {
+    gruppa: "Витамины — витамин B6 (пиридоксин)",
+    farmTasir: "Витамин B6 (обмен аминокислот и нейромедиаторов)",
+    farmakodinamika: `Пиридоксин (витамин B6) — водорастворимый витамин. Его активная форма пиридоксаль-5-фосфат — кофактор многих ферментов (трансаминазы, декарбоксилазы); важен в обмене аминокислот, синтезе нейромедиаторов (серотонин, дофамин, ГАМК), гема и сфинголипидов. При дефиците развиваются полинейропатия, дерматит, анемия и судороги (у младенцев).`,
+    farmakokinetika: { sorish: "Из кишечника быстро", tarqalish: "В ткани", metabolizm: "Печень (в активную форму)", chiqarilish: "Почками" },
+    korsatmalar: ["Дефицит B6; против изониазида/пеницилламина/гидралазина (профилактика нейропатии)", "Пиридоксинзависимые судороги (младенцы), тошнота (при беременности), сидеробластная анемия"],
+    qarrshi: ["Гиперчувствительность", "Осторожно — с леводопой (снижает её эффект)"],
+    nojoya: { "Нервная система": "Длительная высокая доза — сенсорная нейропатия (парадоксально!)", "Аллергические": "Сыпь (редко)", "Прочее": "Тошнота (высокая доза)" },
+    dozadan: "Хроническая высокая доза (>1 г/сут длительно) — сенсорная нейропатия; отмена.",
+    ozarotasir: ["Снижает действие леводопы (без карбидопы)", "Изониазид, пеницилламин, гидралазин повышают потребность в B6", "Может снижать уровень фенобарбитала/фенитоина"],
+    qollash: { kattalar: "При дефиците 10–50 мг/сут; с изониазидом 10–25 мг/сут профилактически; лечебные дозы выше.", bolalar: "По возрасту; при пиридоксинзависимых судорогах высокая доза" },
+    chiqarish: "Таблетки 10/20 мг; раствор для инъекций 5% (50 мг/мл)"
+  },
+  en: {
+    gruppa: "Vitamins — vitamin B6 (pyridoxine)",
+    farmTasir: "Vitamin B6 (amino acid and neurotransmitter metabolism)",
+    farmakodinamika: `Pyridoxine (vitamin B6) is a water-soluble vitamin. Its active form pyridoxal-5-phosphate is a cofactor of many enzymes (transaminases, decarboxylases); it is important in amino-acid metabolism, neurotransmitter synthesis (serotonin, dopamine, GABA), and haem and sphingolipid synthesis. Deficiency causes polyneuropathy, dermatitis, anaemia and seizures (in infants).`,
+    farmakokinetika: { sorish: "Rapid from the gut", tarqalish: "Into tissues", metabolizm: "Hepatic (to active form)", chiqarilish: "Renal" },
+    korsatmalar: ["B6 deficiency; against isoniazid/penicillamine/hydralazine (neuropathy prophylaxis)", "Pyridoxine-dependent seizures (infants), nausea (in pregnancy), sideroblastic anaemia"],
+    qarrshi: ["Hypersensitivity", "Caution — with levodopa (reduces its effect)"],
+    nojoya: { "Nervous system": "Prolonged high dose — sensory neuropathy (paradoxically!)", "Allergic": "Rash (rare)", "Other": "Nausea (high dose)" },
+    dozadan: "Chronic high dose (>1 g/day prolonged) — sensory neuropathy; withdraw.",
+    ozarotasir: ["Reduces levodopa effect (without carbidopa)", "Isoniazid, penicillamine, hydralazine increase B6 requirements", "May lower phenobarbital/phenytoin levels"],
+    qollash: { kattalar: "In deficiency 10–50 mg/day; with isoniazid 10–25 mg/day prophylactically; treatment doses higher.", bolalar: "By age; high dose in pyridoxine-dependent seizures" },
+    chiqarish: "Tablets 10/20 mg; solution for injection 5% (50 mg/mL)"
+  }
+},
+
+"A11GA01": {
+  uz: {
+    gruppa: "Vitaminlar — C vitamini (askorbin kislota)",
+    farmTasir: "C vitamini (antioksidant, kollagen sintezi va kofaktor)",
+    farmakodinamika: `Askorbin kislota (vitamin C) — suvда eriydigan antioksidant va ko'plab fermentlar kofaktori. Kollagen sintezi (prolin/lizin gidroksillanishi — tomir, teri, suyak, tish mustahkamligi), karnitin va katexolaminlar sintezi, temirning (Fe³⁺→Fe²⁺) so'rilishini oshirishда ishtirok etadi; immunitet va antioksidant himoyani qo'llab-quvvatlaydi. Tanqisligida singa (skorbut) rivojlanadi.`,
+    farmakokinetika: { sorish: "Ichakdan (yuqori dozaда to'yinadi)", tarqalish: "To'qimalarга", metabolizm: "Jigar (oksalatga qisman)", chiqarilish: "Buyrak orqали (ortig'i)" },
+    korsatmalar: ["C vitamini tanqisligi (singa) profilaktikasi va davosi", "Temir tanqisligida so'rilishni yaxshilash (yordamчи), shamollash/infeksiyada yordamчи, yaralar bitishi"],
+    qarrshi: ["Yuqori dozaда — buyrak tosh (oksalat) anamnezi, giperoksaluriya", "G6FD tanqisligi (yuqori doza — gemoliz)", "Gemoxromatoz/talassemiya (temir yuklanishi)", "Yuqori sezuvchanlik"],
+    nojoya: { "Oshqozon-ichak": "Yuqori doza — ko'ngil aynishi, diareya, qorin og'rig'i", "Buyrak": "Oksalat toshlari (uzoq yuqori doza)", "Boshqa": "Glyukoza/siydik testlariга xalaqit (yuqori doza)" },
+    dozadan: "Yuqori doza — oshqozon-ichak buzilishi, oksalaturiya; suyuqlik, dozани kamaytirish.",
+    ozarotasir: ["Temir so'rilishini oshiradi", "Yuqori doza siydikни kislotalashtirib ba'zi dorilar chiqarilishini o'zgartiradi", "Deferoksamin bilan birga temir toksikligini oshirishi mumkin"],
+    qollash: { kattalar: "Profilaktika 50–100 mg/sutka; tanqislikда (singa) 250–1000 mg/sutka.", bolalar: "Yoshга ko'ra (mas. 25–75 mg/sutka)" },
+    chiqarish: "Tabletkalar (chaynaladigan/shimiladigan) 25–500 mg; in'eksiya eritmasi 5%/10%"
+  },
+  ru: {
+    gruppa: "Витамины — витамин C (аскорбиновая кислота)",
+    farmTasir: "Витамин C (антиоксидант, синтез коллагена и кофактор)",
+    farmakodinamika: `Аскорбиновая кислота (витамин C) — водорастворимый антиоксидант и кофактор многих ферментов. Участвует в синтезе коллагена (гидроксилирование пролина/лизина — прочность сосудов, кожи, костей, зубов), синтезе карнитина и катехоламинов, улучшает всасывание железа (Fe³⁺→Fe²⁺); поддерживает иммунитет и антиоксидантную защиту. При дефиците развивается цинга (скорбут).`,
+    farmakokinetika: { sorish: "Из кишечника (насыщается при высокой дозе)", tarqalish: "В ткани", metabolizm: "Печень (частично в оксалат)", chiqarilish: "Почками (избыток)" },
+    korsatmalar: ["Профилактика и лечение дефицита витамина C (цинга)", "Улучшение всасывания железа при его дефиците (вспомогательно), вспомогательно при простуде/инфекции, заживление ран"],
+    qarrshi: ["При высокой дозе — мочекаменная болезнь (оксалаты) в анамнезе, гипероксалурия", "Дефицит Г6ФД (высокая доза — гемолиз)", "Гемохроматоз/талассемия (перегрузка железом)", "Гиперчувствительность"],
+    nojoya: { "ЖКТ": "Высокая доза — тошнота, диарея, боль в животе", "Почки": "Оксалатные камни (длительная высокая доза)", "Прочее": "Помехи тестам глюкозы/мочи (высокая доза)" },
+    dozadan: "Высокая доза — ЖКТ-нарушения, оксалатурия; жидкость, снизить дозу.",
+    ozarotasir: ["Повышает всасывание железа", "Высокая доза подкисляет мочу, меняя выведение некоторых препаратов", "С дефероксамином может повышать токсичность железа"],
+    qollash: { kattalar: "Профилактика 50–100 мг/сут; при дефиците (цинга) 250–1000 мг/сут.", bolalar: "По возрасту (напр. 25–75 мг/сут)" },
+    chiqarish: "Таблетки (жевательные/для рассасывания) 25–500 мг; раствор для инъекций 5%/10%"
+  },
+  en: {
+    gruppa: "Vitamins — vitamin C (ascorbic acid)",
+    farmTasir: "Vitamin C (antioxidant, collagen synthesis and cofactor)",
+    farmakodinamika: `Ascorbic acid (vitamin C) is a water-soluble antioxidant and cofactor of many enzymes. It participates in collagen synthesis (hydroxylation of proline/lysine — strength of vessels, skin, bone, teeth), carnitine and catecholamine synthesis, and improves iron absorption (Fe³⁺→Fe²⁺); it supports immunity and antioxidant defence. Deficiency causes scurvy.`,
+    farmakokinetika: { sorish: "From the gut (saturates at high dose)", tarqalish: "Into tissues", metabolizm: "Hepatic (partly to oxalate)", chiqarilish: "Renal (excess)" },
+    korsatmalar: ["Prevention and treatment of vitamin C deficiency (scurvy)", "Improving iron absorption in deficiency (adjunct), adjunct in colds/infection, wound healing"],
+    qarrshi: ["At high dose — history of urolithiasis (oxalate), hyperoxaluria", "G6PD deficiency (high dose — haemolysis)", "Haemochromatosis/thalassaemia (iron overload)", "Hypersensitivity"],
+    nojoya: { "GI": "High dose — nausea, diarrhoea, abdominal pain", "Renal": "Oxalate stones (prolonged high dose)", "Other": "Interference with glucose/urine tests (high dose)" },
+    dozadan: "High dose — GI upset, oxaluria; fluids, reduce dose.",
+    ozarotasir: ["Increases iron absorption", "High dose acidifies urine, altering excretion of some drugs", "With deferoxamine may increase iron toxicity"],
+    qollash: { kattalar: "Prophylaxis 50–100 mg/day; in deficiency (scurvy) 250–1000 mg/day.", bolalar: "By age (e.g. 25–75 mg/day)" },
+    chiqarish: "Tablets (chewable/lozenge) 25–500 mg; solution for injection 5%/10%"
+  }
+},
+
+"A11EA": {
+  uz: {
+    gruppa: "Vitaminlar — B-guruh vitaminlari kompleksi",
+    farmTasir: "B-vitamin kompleksi (energiya va asab almashinuvi)",
+    farmakodinamika: `B-guruh vitaminlari kompleksi (odатda B1-tiamin, B2-riboflavin, B6-piridoksin, B3-nikotinamid va boshqalar) — suvда eriydigan vitaminlar yig'indisi. Ular hujayra energetik almashinuvi (uglevod, yog', oqsil), to'qima nafas olishi, asab tizimi va qon hosil bo'lishi uchun zarur kofermentlar. Tanqisligi yoki ehtiyoji oshган holatlarда (notog'ri ovqatlanish, alkogolizm, polineyropatiya) o'rnini bosadi.`,
+    farmakokinetika: { sorish: "Ichakdan", tarqalish: "To'qimalarга", metabolizm: "Jigar (faol kofermentlarга)", chiqarilish: "Buyrak orqали (ortig'i)" },
+    korsatmalar: ["B-guruh vitaminlari tanqisligi (gipovitaminoz)", "Asab tizimi kasalliklari, polineyropatiya, astenik holatlar (yordamчи); ehtiyoj ortган davrlar"],
+    qarrshi: ["Tarkibiy komponentlardan biriga yuqori sezuvchanlik", "Ehtiyotkorlik — yuqori doza B6 (uzoq), parenteral B1 (allergiya)"],
+    nojoya: { "Allergik": "Toshma, qichishish; parenteralда anafilaksiya (B1)", "Oshqozon-ichak": "Ko'ngil aynishi (yuqori doza)", "Boshqa": "Siydikni sariq tusга bo'yashi (riboflavin — zararsiz)" },
+    dozadan: "Suvда eriydi — toksiklik past; uzoq yuqori doza B6 neyropatiyasiga e'tibor.",
+    ozarotasir: ["B6 levodopa ta'sirini pasaytiradi (karbidopasiz)", "Parenteral shaklларни aralashtirishда ehtiyotkorlik"],
+    qollash: { kattalar: "1 tabletka/dragee kuniga 1–3 marta yoki 1 ampula parenteral (ko'rsatmага ko'ra).", bolalar: "Yoshга mos shakl/doza" },
+    chiqarish: "Tabletkalar/draje; in'eksiya eritmasi (kombinatsiyalangan)"
+  },
+  ru: {
+    gruppa: "Витамины — комплекс витаминов группы B",
+    farmTasir: "Комплекс витаминов B (энергетический и нервный обмен)",
+    farmakodinamika: `Комплекс витаминов группы B (обычно B1-тиамин, B2-рибофлавин, B6-пиридоксин, B3-никотинамид и др.) — совокупность водорастворимых витаминов. Они служат коферментами, необходимыми для клеточного энергетического обмена (углеводы, жиры, белки), тканевого дыхания, работы нервной системы и кроветворения. Восполняет дефицит или повышенную потребность (неправильное питание, алкоголизм, полинейропатия).`,
+    farmakokinetika: { sorish: "Из кишечника", tarqalish: "В ткани", metabolizm: "Печень (в активные коферменты)", chiqarilish: "Почками (избыток)" },
+    korsatmalar: ["Дефицит витаминов группы B (гиповитаминоз)", "Болезни нервной системы, полинейропатия, астенические состояния (вспомогательно); периоды повышенной потребности"],
+    qarrshi: ["Гиперчувствительность к одному из компонентов", "Осторожно — высокая доза B6 (длительно), парентеральный B1 (аллергия)"],
+    nojoya: { "Аллергические": "Сыпь, зуд; парентерально анафилаксия (B1)", "ЖКТ": "Тошнота (высокая доза)", "Прочее": "Окрашивание мочи в жёлтый цвет (рибофлавин — безвредно)" },
+    dozadan: "Водорастворимые — токсичность низкая; внимание к нейропатии при длительной высокой дозе B6.",
+    ozarotasir: ["B6 снижает действие леводопы (без карбидопы)", "Осторожность при смешивании парентеральных форм"],
+    qollash: { kattalar: "1 таблетка/драже 1–3 раза в сутки или 1 ампула парентерально (по показаниям).", bolalar: "Форма/доза по возрасту" },
+    chiqarish: "Таблетки/драже; раствор для инъекций (комбинированные)"
+  },
+  en: {
+    gruppa: "Vitamins — vitamin B complex",
+    farmTasir: "B-vitamin complex (energy and nervous metabolism)",
+    farmakodinamika: `A vitamin B complex (usually B1-thiamine, B2-riboflavin, B6-pyridoxine, B3-nicotinamide and others) is a combination of water-soluble vitamins. They act as coenzymes needed for cellular energy metabolism (carbohydrates, fats, proteins), tissue respiration, nervous system function and haematopoiesis. It replaces deficiency or increased requirements (poor nutrition, alcoholism, polyneuropathy).`,
+    farmakokinetika: { sorish: "From the gut", tarqalish: "Into tissues", metabolizm: "Hepatic (to active coenzymes)", chiqarilish: "Renal (excess)" },
+    korsatmalar: ["Deficiency of B-group vitamins (hypovitaminosis)", "Nervous system diseases, polyneuropathy, asthenic states (adjunct); periods of increased requirement"],
+    qarrshi: ["Hypersensitivity to one of the components", "Caution — high-dose B6 (prolonged), parenteral B1 (allergy)"],
+    nojoya: { "Allergic": "Rash, itching; parenteral anaphylaxis (B1)", "GI": "Nausea (high dose)", "Other": "Yellow urine discolouration (riboflavin — harmless)" },
+    dozadan: "Water-soluble — low toxicity; note neuropathy with prolonged high-dose B6.",
+    ozarotasir: ["B6 reduces levodopa effect (without carbidopa)", "Caution mixing parenteral forms"],
+    qollash: { kattalar: "1 tablet/dragee 1–3 times daily or 1 ampoule parenterally (as indicated).", bolalar: "Form/dose by age" },
+    chiqarish: "Tablets/dragees; solution for injection (combined)"
+  }
+},
+
+"A11JA": {
+  uz: {
+    gruppa: "Vitaminlar — neyrotrop B vitaminlari (B1+B6+B12)",
+    farmTasir: "Neyrotrop B-vitamin kompleksi (asab tizimini tiklovchi)",
+    farmakodinamika: `Neyrotrop B-vitaminlar kombinatsiyasi (B1-tiamin, B6-piridoksin, B12-sianokobalamin, ko'pincha kal'siy pantotenat bilan) — asab to'qimasига yo'naltirilган vitaminlar yig'indisi. B1 nerv impulsi o'tkazilishi va uglevod almashinuvi, B6 neyromediatorlar sintezi, B12 miyelin qobig'i va qon hosil bo'lishi uchun zarur. Birgalikda nervда regeneratsiya, og'riq va sezgi buzilishini kamaytiradi.`,
+    farmakokinetika: { sorish: "Ich yoki parenteral (v/m)", tarqalish: "Asab to'qimasи va boshqa to'qimalarга", metabolizm: "Jigar (faol shaklларга)", chiqarilish: "Buyrak orqали" },
+    korsatmalar: ["Polineyropatiyalar (diabetik, alkogol), nevralgiya, nevrit, radikulopatiya", "Asab tizimi kasalliklarида og'riq sindromi (yordamчи)"],
+    qarrshi: ["Tarkibiy komponentlarга yuqori sezuvchanlik", "Og'ir yurak yetishmovchiligi (ba'zi shakllar)", "Yangi tug'ilganlar (parenteral)"],
+    nojoya: { "Allergik": "Toshma, qichishish, anafilaksiya (parenteral B1)", "Asab": "Uzoq yuqori doza B6 — sensor neyropatiya", "Mahalliy": "In'eksiya joyида og'riq", "Oshqozon-ichak": "Ko'ngil aynishi (yuqori doza)" },
+    dozadan: "Uzoq yuqori doza (B6) — neyropatiya; dorini to'xtatish.",
+    ozarotasir: ["B6 levodopa ta'sirini pasaytiradi (karbidopasiz)", "Levodopa/ba'zi dorilar bilan ehtiyotkorlik"],
+    qollash: { kattalar: "Og'ir holatда parenteral (v/m) kuniga 1 marta (1 ampula) bir necha kun, keyin ich davom.", bolalar: "Tavsiya etilmaydi (ba'zi shakllar) yoki mutaxassis nazoratида" },
+    chiqarish: "Drage/tabletkalar; in'eksiya eritmasi (B1+B6+B12, ba'zan lidokain bilan)"
+  },
+  ru: {
+    gruppa: "Витамины — нейротропные витамины B (B1+B6+B12)",
+    farmTasir: "Нейротропный комплекс витаминов B (восстанавливающий нервную систему)",
+    farmakodinamika: `Комбинация нейротропных витаминов B (B1-тиамин, B6-пиридоксин, B12-цианокобаламин, часто с кальция пантотенатом) — совокупность витаминов с направленностью на нервную ткань. B1 необходим для проведения нервного импульса и углеводного обмена, B6 — для синтеза нейромедиаторов, B12 — для миелиновой оболочки и кроветворения. Вместе уменьшают боль и нарушения чувствительности, способствуют регенерации нерва.`,
+    farmakokinetika: { sorish: "Внутрь или парентерально (в/м)", tarqalish: "В нервную и другие ткани", metabolizm: "Печень (в активные формы)", chiqarilish: "Почками" },
+    korsatmalar: ["Полинейропатии (диабетическая, алкогольная), невралгия, неврит, радикулопатия", "Болевой синдром при болезнях нервной системы (вспомогательно)"],
+    qarrshi: ["Гиперчувствительность к компонентам", "Тяжёлая сердечная недостаточность (некоторые формы)", "Новорождённые (парентерально)"],
+    nojoya: { "Аллергические": "Сыпь, зуд, анафилаксия (парентеральный B1)", "Нервная система": "Длительная высокая доза B6 — сенсорная нейропатия", "Местные": "Боль в месте инъекции", "ЖКТ": "Тошнота (высокая доза)" },
+    dozadan: "Длительная высокая доза (B6) — нейропатия; отмена.",
+    ozarotasir: ["B6 снижает действие леводопы (без карбидопы)", "Осторожно с леводопой/некоторыми препаратами"],
+    qollash: { kattalar: "При тяжёлом состоянии парентерально (в/м) 1 раз в сутки (1 ампула) несколько дней, затем внутрь.", bolalar: "Не рекомендуется (некоторые формы) или под наблюдением специалиста" },
+    chiqarish: "Драже/таблетки; раствор для инъекций (B1+B6+B12, иногда с лидокаином)"
+  },
+  en: {
+    gruppa: "Vitamins — neurotropic B vitamins (B1+B6+B12)",
+    farmTasir: "Neurotropic B-vitamin complex (restoring the nervous system)",
+    farmakodinamika: `A combination of neurotropic B vitamins (B1-thiamine, B6-pyridoxine, B12-cyanocobalamin, often with calcium pantothenate) is a combination targeted at nerve tissue. B1 is needed for nerve impulse conduction and carbohydrate metabolism, B6 for neurotransmitter synthesis, and B12 for the myelin sheath and haematopoiesis. Together they reduce pain and sensory disturbance and aid nerve regeneration.`,
+    farmakokinetika: { sorish: "Oral or parenteral (IM)", tarqalish: "Into nervous and other tissues", metabolizm: "Hepatic (to active forms)", chiqarilish: "Renal" },
+    korsatmalar: ["Polyneuropathies (diabetic, alcoholic), neuralgia, neuritis, radiculopathy", "Pain syndrome in nervous system diseases (adjunct)"],
+    qarrshi: ["Hypersensitivity to components", "Severe heart failure (some forms)", "Newborns (parenteral)"],
+    nojoya: { "Allergic": "Rash, itching, anaphylaxis (parenteral B1)", "Nervous system": "Prolonged high-dose B6 — sensory neuropathy", "Local": "Injection-site pain", "GI": "Nausea (high dose)" },
+    dozadan: "Prolonged high dose (B6) — neuropathy; withdraw.",
+    ozarotasir: ["B6 reduces levodopa effect (without carbidopa)", "Caution with levodopa/some drugs"],
+    qollash: { kattalar: "In severe cases parenteral (IM) once daily (1 ampoule) for several days, then continue orally.", bolalar: "Not recommended (some forms) or under specialist supervision" },
+    chiqarish: "Dragees/tablets; solution for injection (B1+B6+B12, sometimes with lidocaine)"
+  }
 }
 
 };
