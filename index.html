@@ -33,6 +33,56 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+
+  <!-- ══════════════════════════════════════════════════════════
+       Telegram Mini App integratsiyasi
+       Ilova Telegram bot ichida ochilganda: avtomatik kirish
+       (Google Sign-In siz), til va mavzuni moslashtirish.
+       i18n.js dan OLDIN turishi shart — til shu yerda o'rnatiladi.
+       ══════════════════════════════════════════════════════════ -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script>
+    (function () {
+      var tg = window.Telegram && window.Telegram.WebApp;
+      if (!tg || !tg.initData) return;            // Telegram ichida emas — odatiy web rejim
+      try {
+        tg.ready();
+        tg.expand();
+        document.documentElement.classList.add('tg-webapp');
+
+        var u = (tg.initDataUnsafe && tg.initDataUnsafe.user) || null;
+
+        // Telegram tilini birinchi marta qo'llash (foydalanuvchi tanlovini buzmaydi)
+        if (!localStorage.getItem('mc_lang') && u && u.language_code) {
+          var lc = String(u.language_code).slice(0, 2);
+          localStorage.setItem('mc_lang', (lc === 'ru' || lc === 'en') ? lc : 'uz');
+        }
+
+        // Telegram foydalanuvchisini avtomatik autentifikatsiya qilish
+        // (Google Sign-In Telegram ichki brauzerida ishonchsiz)
+        if (u) {
+          var fullName = [u.first_name, u.last_name].filter(Boolean).join(' ')
+                       || (u.username ? '@' + u.username : 'Telegram foydalanuvchi');
+          localStorage.setItem('mc_auth_user', JSON.stringify({
+            name: fullName,
+            given_name: u.first_name || fullName,
+            email: 'tg' + u.id + '@telegram.local',  // soxta identifikator (Google emas)
+            picture: u.photo_url || '',
+            source: 'telegram',
+            tg_id: u.id
+          }));
+        }
+
+        // Telegram interfeysi ranglarini brend rangiga moslashtirish
+        try { tg.setHeaderColor('#e8193c'); tg.setBackgroundColor('#ffffff'); } catch (e) {}
+      } catch (e) { /* integratsiya xatosi ilovani buzmasin */ }
+    })();
+  </script>
+  <style>
+    /* Telegram ichida: Google bilan bog'liq "Chiqish" boshi berk ko'cha — yashiramiz */
+    .tg-webapp .udropdown-item.danger { display: none !important; }
+  </style>
+
   <script src="i18n.js"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
 
