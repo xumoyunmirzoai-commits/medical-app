@@ -39536,7 +39536,711 @@ const PHARMA_DATA = {
     qollash: { kattalar: "Initial 20 µg×3/day after food, increasing by tolerance (up to 60 µg×3).", bolalar: "Not recommended" },
     chiqarish: "Tablets 20 µg (also extended-release form)"
   }
-}
+},
+
+  // ═══════════════════════════════════════════════════════════
+  // TAYANCH-HARAKAT TIZIMI (M) — NSAID, mushak relaksantlari,
+  // podagraga qarshi, suyak preparatlari, xondroprotektorlar
+  // Batch 1 — Atsetik kislota hosilalari (NSAID)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── DIKLOFENAK | ATX: M01AB05 ──
+  "M01AB05": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — fenilatsetat kislota hosilasi",
+      farmTasir: "Yallig'lanishga qarshi, og'riq qoldiruvchi, isitma tushiruvchi",
+      farmakodinamika: `Diklofenak — fenilsirka (atsetik) kislota hosilasi bo'lgan nosteroid yallig'lanishga qarshi preparat. Asosiy ta'sir mexanizmi — siklooksigenaza (COX-1 va COX-2) fermentlarini nospetsifik ingibe qilib, araxidon kislotasidan prostaglandinlar (PGE2, PGI2), prostatsiklin va tromboksan sintezini kamaytiradi. Prostaglandin sintezining pasayishi yallig'lanish, og'riq va isitma reaksiyalarini susaytiradi. Periferik nosiseptorlarning prostaglandinlar bilan sensibilizatsiyasini kamaytiradi (analgetik ta'sir), gipotalamusdagi termoregulyatsiya markaziga ta'sir qilib isitmani tushiradi. Trombotsitlar agregatsiyasini qaytar ravishda susaytiradi. Revmatik kasalliklarda bo'g'imlardagi og'riqni (tinch holatda va harakatda), ertalabki qotishlikni va shishni kamaytirib, bo'g'im funksiyasini yaxshilaydi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali qabul qilganda to'liq, lekin jigarning «birinchi o'tish» effekti tufayli biokirish ~50%. Ovqat so'rilishni sekinlashtiradi, lekin to'liqligini kamaytirmaydi. Cmax og'iz orqali 1–2 soatda, retsiklangan (enterik) shaklda kechroq. I/m yuborilganda 10–20 daqiqada.",
+        tarqalish: "Plazma oqsillariga (asosan albumin) bog'lanish — 99,7%. Sinovial suyuqlikka yaxshi kiradi va u yerda konsentratsiya plazmadagidan uzoqroq saqlanadi (bo'g'imdagi ta'sirni ta'minlaydi). Taqsimlanish hajmi — 0,12–0,17 L/kg. Yo'ldoshdan o'tadi, ona sutiga oz miqdorda o'tadi.",
+        metabolizm: "Jigarda CYP2C9 ishtirokida intensiv metabolizatsiya — gidroksillanish va konyugatsiya (glyukuronlanish). Metabolitlari asosan faolsiz.",
+        chiqarilish: "~65% siydik orqali metabolit ko'rinishida, ~35% o't bilan najas orqali. T½ — 1–2 soat (sinovial suyuqlikda ta'sir uzoqroq). Kumulatsiya kuzatilmaydi."
+      },
+      korsatmalar: [
+        "Yallig'lanishli va degenerativ revmatik kasalliklar: revmatoid artrit, osteoartroz, ankilozlovchi spondiloartrit (Bextrew kasalligi), podagra xurujida",
+        "Bo'g'imdan tashqari yumshoq to'qima revmatizmi: tendovaginit, bursit, periartrit",
+        "Orqa miya–umurtqa og'riqlari: lumbago, ishias, servikobraxialgiya, radikulit",
+        "Operatsiyadan keyingi va jarohatdan keyingi og'riq va shish (jarrohlik, stomatologiya, travmatologiya)",
+        "Ginekologik og'riqlar: birlamchi dismenoreya, adneksit",
+        "Migren xuruji; o'tkir og'riq sindromlari",
+        "LOR va stomatologik yallig'lanishlarda yordamchi (tonzillit, faringit, otit)"
+      ],
+      qarrshi: [
+        "Diklofenak yoki boshqa NSAIDlarga (jumladan «aspirin triadasi» — aspirin va NSAIDga bronxospazm/eshakemi) o'ta sezgirlik",
+        "Oshqozon va o'n ikki barmoq ichak yarasi qo'zg'algan davrida, oshqozon-ichak qon ketishi yoki perforatsiyasi",
+        "Yallig'lanishli ichak kasalliklari qo'zg'alishi (Kron, yarali kolit)",
+        "Og'ir jigar, buyrak (KK<30 ml/daq) yoki yurak yetishmovchiligi",
+        "Koronar shuntlash operatsiyasidan keyingi davr",
+        "Homiladorlikning III trimestri (homila arterial o'qining erta yopilishi xavfi), emizish davri",
+        "18 yoshgacha (preparatga qarab cheklov), qon ivishi buzilishlari"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Epigastral og'riq, ko'ngil aynishi, qusish, diareya, meteorizm; NSAID-gastropatiya, oshqozon-ichak eroziyasi, yara, qon ketish va perforatsiya; transaminazalar oshishi, gepatit",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyquchanlik, charchoq; kamdan-kam — sezgi buzilishi, asabiylik, quloqda shovqin",
+        "Yurak-qon tomir": "Arterial bosim oshishi, shish; uzoq/yuqori dozada — miokard infarkti va insult xavfining ortishi",
+        "Buyrak": "Suyuqlik tutilishi, interstitsial nefrit, nefrotik sindrom, o'tkir buyrak shikastlanishi (kamdan-kam)",
+        "Allergik / teri": "Toshma, qichima, eshakemi; kamdan-kam — bronxospazm, Stivens-Jonson va Layell sindromlari, anafilaksiya",
+        "Qon": "Anemiya, leykopeniya, trombotsitopeniya, agranulotsitoz (kamdan-kam)"
+      },
+      dozadan: "Belgilari: bosh og'rig'i, qusish, epigastral og'riq, qon ketish, bosh aylanishi, tutqanoq, o'tkir buyrak/jigar shikastlanishi. Davolash: oshqozonni yuvish, faollashtirilgan ko'mir, simptomatik terapiya; antidot yo'q. Gemodializ samarasiz (oqsilga bog'lanish yuqori).",
+      ozarotasir: [
+        "Antikoagulyantlar (varfarin) va antiagregantlar: qon ketish xavfi kuchayadi — nazorat",
+        "Boshqa NSAID va glyukokortikoidlar bilan: oshqozon-ichak asorati xavfi qo'shiladi",
+        "Litiy, digoksin, metotreksat: ularning plazma konsentratsiyasini oshiradi (toksiklik)",
+        "Diuretiklar, AAF inhibitorlari, ARB: antigipertenziv va diuretik ta'sirni susaytiradi, buyrak shikastlanishi xavfi",
+        "Siklosporin, takrolimus: nefrotoksiklik kuchayadi",
+        "Qandni tushiruvchi preparatlar: ta'sirini o'zgartirishi mumkin — glikemiya nazorati"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 75–150 mg/kun 2–3 ta qabulda, ovqatdan keyin (uzaytirilgan shakl 100 mg×1/kun). I/m: 75 mg×1–2/kun, 2 kundan oshmasdan. Rektal: 50–100 mg. Maksimal — 150 mg/kun. Eng kam samarali dozada eng qisqa kursda.",
+        bolalar: "6 yoshdan: 0,5–2 mg/kg/kun 2–3 ta qabulda (preparat shakliga qarab). Yuvenil artritda 3 mg/kg/kun gacha."
+      },
+      chiqarish: "Tabletkalar (qobiqli, uzaytirilgan) 25, 50, 75, 100 mg; in'eksiya eritmasi 25 mg/ml 3 ml; rektal shamlar 50, 100 mg; gel/eritma 1–5% (mahalliy)"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — производное фенилуксусной кислоты",
+      farmTasir: "Противовоспалительное, анальгезирующее, жаропонижающее",
+      farmakodinamika: `Диклофенак — НПВС, производное фенилуксусной кислоты. Основной механизм — неселективное ингибирование циклооксигеназы (ЦОГ-1 и ЦОГ-2), что снижает синтез простагландинов (ПГE2, ПГI2), простациклина и тромбоксана из арахидоновой кислоты. Снижение синтеза простагландинов уменьшает воспаление, боль и лихорадку. Уменьшает сенсибилизацию периферических ноцицепторов простагландинами (анальгезия), влияет на центр терморегуляции гипоталамуса (жаропонижение). Обратимо подавляет агрегацию тромбоцитов. При ревматических заболеваниях уменьшает боль в суставах (в покое и при движении), утреннюю скованность и припухлость, улучшает функцию сустава.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается полностью, но из-за эффекта «первого прохождения» биодоступность ~50%. Пища замедляет всасывание, не уменьшая его полноту. Cmax внутрь через 1–2 ч, у кишечнорастворимых форм позже. В/м — через 10–20 мин.",
+        tarqalish: "Связь с белками плазмы (альбумин) — 99,7%. Хорошо проникает в синовиальную жидкость, где концентрация сохраняется дольше, чем в плазме. Объём распределения — 0,12–0,17 л/кг. Проникает через плаценту, в небольшом количестве — в грудное молоко.",
+        metabolizm: "Интенсивно метаболизируется в печени при участии CYP2C9 — гидроксилирование и конъюгация (глюкуронирование). Метаболиты в основном неактивны.",
+        chiqarilish: "~65% почками в виде метаболитов, ~35% с жёлчью через кишечник. T½ — 1–2 ч (действие в синовии дольше). Кумуляции нет."
+      },
+      korsatmalar: [
+        "Воспалительные и дегенеративные ревматические заболевания: ревматоидный артрит, остеоартроз, анкилозирующий спондилоартрит (болезнь Бехтерева), приступ подагры",
+        "Внесуставной ревматизм мягких тканей: тендовагинит, бурсит, периартрит",
+        "Боли в спине: люмбаго, ишиас, цервикобрахиалгия, радикулит",
+        "Послеоперационная и посттравматическая боль и отёк (хирургия, стоматология, травматология)",
+        "Гинекологические боли: первичная дисменорея, аднексит",
+        "Приступ мигрени; острые болевые синдромы",
+        "Вспомогательно при ЛОР- и стоматологических воспалениях (тонзиллит, фарингит, отит)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к диклофенаку или другим НПВС (в т.ч. «аспириновая триада» — бронхоспазм/крапивница на аспирин и НПВС)",
+        "Язва желудка и ДПК в стадии обострения, желудочно-кишечное кровотечение или перфорация",
+        "Обострение воспалительных заболеваний кишечника (болезнь Крона, язвенный колит)",
+        "Тяжёлая печёночная, почечная (КК<30 мл/мин) или сердечная недостаточность",
+        "Период после аортокоронарного шунтирования",
+        "III триместр беременности (риск преждевременного закрытия артериального протока плода), период лактации",
+        "Возраст до 18 лет (в зависимости от препарата), нарушения свёртывания крови"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Эпигастральная боль, тошнота, рвота, диарея, метеоризм; НПВС-гастропатия, эрозии, язвы, кровотечение и перфорация ЖКТ; повышение трансаминаз, гепатит",
+        "Нервная система": "Головная боль, головокружение, сонливость, утомляемость; редко — нарушения чувствительности, раздражительность, шум в ушах",
+        "Сердечно-сосудистая система": "Повышение АД, отёки; при длительном/высокодозовом применении — рост риска инфаркта миокарда и инсульта",
+        "Почки": "Задержка жидкости, интерстициальный нефрит, нефротический синдром, острое почечное повреждение (редко)",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница; редко — бронхоспазм, синдромы Стивенса-Джонсона и Лайелла, анафилаксия",
+        "Кровь": "Анемия, лейкопения, тромбоцитопения, агранулоцитоз (редко)"
+      },
+      dozadan: "Симптомы: головная боль, рвота, эпигастральная боль, кровотечение, головокружение, судороги, острое поражение почек/печени. Лечение: промывание желудка, активированный уголь, симптоматическая терапия; антидота нет. Гемодиализ неэффективен (высокая связь с белками).",
+      ozarotasir: [
+        "Антикоагулянты (варфарин) и антиагреганты: усиление риска кровотечения — контроль",
+        "Другие НПВС и глюкокортикоиды: суммирование риска осложнений ЖКТ",
+        "Литий, дигоксин, метотрексат: повышает их концентрацию в плазме (токсичность)",
+        "Диуретики, иАПФ, БРА: ослабляет антигипертензивный и диуретический эффект, риск поражения почек",
+        "Циклоспорин, такролимус: усиление нефротоксичности",
+        "Гипогликемические средства: может изменять эффект — контроль гликемии"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 75–150 мг/сут в 2–3 приёма после еды (пролонгированная форма 100 мг×1/сут). В/м: 75 мг×1–2/сут, не более 2 дней. Ректально: 50–100 мг. Максимум — 150 мг/сут. В минимальной эффективной дозе коротким курсом.",
+        bolalar: "С 6 лет: 0,5–2 мг/кг/сут в 2–3 приёма (по форме препарата). При ювенильном артрите до 3 мг/кг/сут."
+      },
+      chiqarish: "Таблетки (покрытые, пролонгированные) 25, 50, 75, 100 мг; раствор для инъекций 25 мг/мл 3 мл; ректальные свечи 50, 100 мг; гель/раствор 1–5% (наружно)"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — phenylacetic acid derivative",
+      farmTasir: "Anti-inflammatory, analgesic, antipyretic",
+      farmakodinamika: `Diclofenac is an NSAID derived from phenylacetic acid. Its main mechanism is non-selective inhibition of cyclooxygenase (COX-1 and COX-2), reducing synthesis of prostaglandins (PGE2, PGI2), prostacyclin and thromboxane from arachidonic acid. Reduced prostaglandin synthesis suppresses inflammation, pain and fever. It decreases sensitisation of peripheral nociceptors by prostaglandins (analgesia) and acts on the hypothalamic thermoregulatory centre (antipyresis). It reversibly inhibits platelet aggregation. In rheumatic disease it reduces joint pain (at rest and on movement), morning stiffness and swelling, improving joint function.`,
+      farmakokinetika: {
+        sorish: "Completely absorbed orally, but first-pass effect gives bioavailability ~50%. Food slows absorption without reducing its extent. Cmax orally in 1–2 h, later for enteric-coated forms. I/m within 10–20 min.",
+        tarqalish: "Plasma protein binding (albumin) — 99.7%. Penetrates synovial fluid well, where concentration persists longer than in plasma. Volume of distribution — 0.12–0.17 L/kg. Crosses the placenta; small amounts into breast milk.",
+        metabolizm: "Extensively metabolised in the liver via CYP2C9 — hydroxylation and conjugation (glucuronidation). Metabolites are mostly inactive.",
+        chiqarilish: "~65% renally as metabolites, ~35% via bile in faeces. T½ — 1–2 h (action in synovium longer). No accumulation."
+      },
+      korsatmalar: [
+        "Inflammatory and degenerative rheumatic disease: rheumatoid arthritis, osteoarthritis, ankylosing spondylitis (Bechterew disease), acute gout attack",
+        "Extra-articular soft-tissue rheumatism: tenosynovitis, bursitis, periarthritis",
+        "Back pain: lumbago, sciatica, cervicobrachialgia, radiculitis",
+        "Post-operative and post-traumatic pain and swelling (surgery, dentistry, traumatology)",
+        "Gynaecological pain: primary dysmenorrhoea, adnexitis",
+        "Migraine attack; acute pain syndromes",
+        "Adjunct in ENT and dental inflammation (tonsillitis, pharyngitis, otitis)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to diclofenac or other NSAIDs (incl. 'aspirin triad' — bronchospasm/urticaria to aspirin and NSAIDs)",
+        "Active gastric or duodenal ulcer, gastrointestinal bleeding or perforation",
+        "Exacerbation of inflammatory bowel disease (Crohn, ulcerative colitis)",
+        "Severe hepatic, renal (CrCl<30 mL/min) or cardiac failure",
+        "Period after coronary artery bypass grafting",
+        "Third trimester of pregnancy (risk of premature closure of fetal ductus arteriosus), lactation",
+        "Age under 18 (depending on product), coagulation disorders"
+      ],
+      nojoya: {
+        "Digestive system": "Epigastric pain, nausea, vomiting, diarrhoea, flatulence; NSAID gastropathy, GI erosions, ulcers, bleeding and perforation; raised transaminases, hepatitis",
+        "Nervous system": "Headache, dizziness, drowsiness, fatigue; rarely sensory disturbance, irritability, tinnitus",
+        "Cardiovascular system": "Raised blood pressure, oedema; with prolonged/high-dose use — increased risk of myocardial infarction and stroke",
+        "Kidneys": "Fluid retention, interstitial nephritis, nephrotic syndrome, acute kidney injury (rare)",
+        "Allergy / skin": "Rash, pruritus, urticaria; rarely bronchospasm, Stevens-Johnson and Lyell syndromes, anaphylaxis",
+        "Blood": "Anaemia, leukopenia, thrombocytopenia, agranulocytosis (rare)"
+      },
+      dozadan: "Symptoms: headache, vomiting, epigastric pain, bleeding, dizziness, convulsions, acute renal/hepatic injury. Treatment: gastric lavage, activated charcoal, symptomatic care; no antidote. Haemodialysis ineffective (high protein binding).",
+      ozarotasir: [
+        "Anticoagulants (warfarin) and antiplatelets: increased bleeding risk — monitor",
+        "Other NSAIDs and glucocorticoids: additive GI complication risk",
+        "Lithium, digoxin, methotrexate: raises their plasma levels (toxicity)",
+        "Diuretics, ACE inhibitors, ARBs: weakens antihypertensive and diuretic effect, renal injury risk",
+        "Ciclosporin, tacrolimus: enhanced nephrotoxicity",
+        "Hypoglycaemic agents: may alter effect — monitor glycaemia"
+      ],
+      qollash: {
+        kattalar: "Orally: 75–150 mg/day in 2–3 doses after food (extended-release 100 mg×1/day). I/m: 75 mg×1–2/day, no more than 2 days. Rectally: 50–100 mg. Maximum — 150 mg/day. Lowest effective dose for the shortest course.",
+        bolalar: "From 6 years: 0.5–2 mg/kg/day in 2–3 doses (per product form). In juvenile arthritis up to 3 mg/kg/day."
+      },
+      chiqarish: "Tablets (coated, extended-release) 25, 50, 75, 100 mg; injection 25 mg/mL 3 mL; rectal suppositories 50, 100 mg; gel/solution 1–5% (topical)"
+    }
+  },
+
+  // ── INDOMETATSIN | ATX: M01AB01 ──
+  "M01AB01": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — indolatsetat kislota hosilasi",
+      farmTasir: "Kuchli yallig'lanishga qarshi, og'riq qoldiruvchi, isitma tushiruvchi",
+      farmakodinamika: `Indometatsin — indolsirka kislotasi hosilasi bo'lgan eng kuchli yallig'lanishga qarshi NSAIDlardan biri. Siklooksigenaza (COX-1 va COX-2) ni nospetsifik va kuchli ingibe qilib, prostaglandinlar sintezini keskin kamaytiradi. Yorqin yallig'lanishga qarshi, analgetik va isitma tushiruvchi ta'sirga ega; trombotsitlar agregatsiyasini susaytiradi. Yangi tug'ilgan chaqaloqlarda ochiq arterial o'qni (botallov o'q) yopilishini ta'minlaydi — prostaglandinga bog'liq o'q ochiqligini kamaytirib. Yuqori samaradorlikка ega bo'lsa-da, nojo'ya ta'sirlari boshqa NSAIDlarga nisbatan ko'proq.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi va to'liq so'riladi, biokirish ~90–100%. Cmax 1–2 soatda. Rektal shaklda ham yaxshi so'riladi.",
+        tarqalish: "Plazma oqsillariga bog'lanish — 90–99%. Sinovial suyuqlik, MNS, yo'ldosh va ona sutiga kiradi. Taqsimlanish hajmi — ~0,3–1,6 L/kg.",
+        metabolizm: "Jigarda demetillanish va dezatsillanish; enterogepatik retsirkulyatsiyaga uchraydi.",
+        chiqarilish: "~60% siydik, ~33% najas orqali. T½ — 4,5 soat (o'rtacha; chaqaloqlarda ancha uzun)."
+      },
+      korsatmalar: [
+        "Revmatoid artrit, ankilozlovchi spondiloartrit (Bextrew), psoriatik artrit, osteoartroz",
+        "O'tkir podagra xuruji",
+        "Bo'g'imdan tashqari revmatizm: bursit, tendinit, periartrit",
+        "Og'riq sindromlari: orqa miya og'rig'i, nevralgiya, dismenoreya",
+        "Yangi tug'ilganlarda gemodinamik ahamiyatli ochiq arterial o'q (maxsus ko'rsatma bo'yicha)"
+      ],
+      qarrshi: [
+        "NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish",
+        "Og'ir jigar, buyrak, yurak yetishmovchiligi; arterial gipertenziya",
+        "Qon ivishi buzilishlari, gemorroidal/rektal qon ketish (shamlar uchun)",
+        "Homiladorlik (ayniqsa III trimestr) va emizish, bolalik yoshi (chegaralar bilan)"
+      ],
+      nojoya: {
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, holsizlik — boshqa NSAIDlarga qaraganda ko'proq; kamdan-kam — depressiya, ruhiy buzilish, perifer neyropatiya",
+        "Hazm tizimi": "Dispepsiya, epigastral og'riq, ko'ngil aynishi, yara hosil bo'lishi, qon ketish va perforatsiya (xavfi yuqori)",
+        "Yurak-qon tomir": "AB oshishi, shish, yurak yetishmovchiligi avj olishi",
+        "Sezgi a'zolari": "Ko'rishning xiralashuvi, retinopatiya, quloqda shovqin, eshitish buzilishi (uzoq qabulda)",
+        "Qon / buyrak": "Leykopeniya, trombotsitopeniya; buyrak funksiyasi buzilishi, giperkaliemiya"
+      },
+      dozadan: "Belgilari: kuchli bosh og'rig'i, bosh aylanishi, ko'ngil aynishi, qusish, dezorientatsiya, tutqanoq. Davolash: oshqozonni yuvish, faollashtirilgan ko'mir, simptomatik; antidot yo'q.",
+      ozarotasir: [
+        "Antikoagulyantlar/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, digoksin, metotreksat konsentratsiyasini oshiradi",
+        "Diuretiklar, beta-blokatorlar, AAF inhibitorlari ta'sirini susaytiradi",
+        "Kaliy saqlovchi diuretiklar bilan giperkaliemiya",
+        "Probenetsid indometatsin konsentratsiyasini oshiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 25 mg×2–3/kun, ovqatdan keyin, asta-sekin 100–150 mg/kun gacha; uzaytirilgan 75 mg×1–2/kun. Rektal 50–100 mg kechqurun. O'tkir podagrada 50 mg×3/kun. Maks. 200 mg/kun.",
+        bolalar: "Odatda tavsiya etilmaydi; alohida ko'rsatmalar bo'yicha 1,5–2,5 mg/kg/kun. Chaqaloq arterial o'qida maxsus sxema."
+      },
+      chiqarish: "Tabletkalar/kapsulalar 25, 50 mg; uzaytirilgan kapsulalar 75 mg; rektal shamlar 50, 100 mg; gel/mazь 5–10% (mahalliy)"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — производное индолуксусной кислоты",
+      farmTasir: "Мощное противовоспалительное, анальгезирующее, жаропонижающее",
+      farmakodinamika: `Индометацин — производное индолуксусной кислоты, один из самых мощных противовоспалительных НПВС. Неселективно и сильно ингибирует циклооксигеназу (ЦОГ-1 и ЦОГ-2), резко снижая синтез простагландинов. Обладает выраженным противовоспалительным, анальгезирующим и жаропонижающим действием; подавляет агрегацию тромбоцитов. У новорождённых способствует закрытию открытого артериального (боталлова) протока за счёт снижения простагландин-зависимой проходимости. При высокой эффективности имеет больше нежелательных эффектов, чем другие НПВС.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается хорошо и полно, биодоступность ~90–100%. Cmax через 1–2 ч. Ректально также хорошо всасывается.",
+        tarqalish: "Связь с белками плазмы — 90–99%. Проникает в синовиальную жидкость, ЦНС, плаценту и грудное молоко. Объём распределения — ~0,3–1,6 л/кг.",
+        metabolizm: "В печени деметилирование и деацилирование; подвергается энтерогепатической рециркуляции.",
+        chiqarilish: "~60% почками, ~33% с калом. T½ — 4,5 ч (в среднем; у новорождённых значительно дольше)."
+      },
+      korsatmalar: [
+        "Ревматоидный артрит, анкилозирующий спондилоартрит (Бехтерева), псориатический артрит, остеоартроз",
+        "Острый приступ подагры",
+        "Внесуставной ревматизм: бурсит, тендинит, периартрит",
+        "Болевые синдромы: боль в спине, невралгия, дисменорея",
+        "Гемодинамически значимый открытый артериальный проток у новорождённых (по особым показаниям)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение",
+        "Тяжёлая печёночная, почечная, сердечная недостаточность; артериальная гипертензия",
+        "Нарушения свёртывания, геморроидальное/ректальное кровотечение (для свечей)",
+        "Беременность (особенно III триместр) и лактация, детский возраст (с ограничениями)"
+      ],
+      nojoya: {
+        "Нервная система": "Головная боль, головокружение, слабость — чаще, чем у других НПВС; редко — депрессия, психические нарушения, периферическая нейропатия",
+        "Пищеварительная система": "Диспепсия, эпигастральная боль, тошнота, язвообразование, кровотечение и перфорация (высокий риск)",
+        "Сердечно-сосудистая система": "Повышение АД, отёки, усугубление сердечной недостаточности",
+        "Органы чувств": "Нечёткость зрения, ретинопатия, шум в ушах, нарушение слуха (при длительном приёме)",
+        "Кровь / почки": "Лейкопения, тромбоцитопения; нарушение функции почек, гиперкалиемия"
+      },
+      dozadan: "Симптомы: сильная головная боль, головокружение, тошнота, рвота, дезориентация, судороги. Лечение: промывание желудка, активированный уголь, симптоматически; антидота нет.",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, дигоксина, метотрексата",
+        "Ослабляет действие диуретиков, бета-блокаторов, иАПФ",
+        "С калийсберегающими диуретиками — гиперкалиемия",
+        "Пробенецид повышает концентрацию индометацина"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 25 мг×2–3/сут после еды, постепенно до 100–150 мг/сут; пролонгированная 75 мг×1–2/сут. Ректально 50–100 мг на ночь. При остром подагре 50 мг×3/сут. Максимум 200 мг/сут.",
+        bolalar: "Обычно не рекомендуется; по особым показаниям 1,5–2,5 мг/кг/сут. При артериальном протоке у новорождённых — специальная схема."
+      },
+      chiqarish: "Таблетки/капсулы 25, 50 мг; пролонгированные капсулы 75 мг; ректальные свечи 50, 100 мг; гель/мазь 5–10% (наружно)"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — indoleacetic acid derivative",
+      farmTasir: "Potent anti-inflammatory, analgesic, antipyretic",
+      farmakodinamika: `Indometacin is an indoleacetic acid derivative, one of the most potent anti-inflammatory NSAIDs. It non-selectively and strongly inhibits cyclooxygenase (COX-1 and COX-2), sharply reducing prostaglandin synthesis. It has pronounced anti-inflammatory, analgesic and antipyretic action and inhibits platelet aggregation. In neonates it promotes closure of a patent ductus arteriosus by reducing prostaglandin-dependent patency. Despite high efficacy it carries more adverse effects than other NSAIDs.`,
+      farmakokinetika: {
+        sorish: "Well and completely absorbed orally, bioavailability ~90–100%. Cmax in 1–2 h. Also well absorbed rectally.",
+        tarqalish: "Plasma protein binding — 90–99%. Penetrates synovial fluid, CNS, placenta and breast milk. Volume of distribution — ~0.3–1.6 L/kg.",
+        metabolizm: "Hepatic demethylation and deacylation; undergoes enterohepatic recirculation.",
+        chiqarilish: "~60% renally, ~33% in faeces. T½ — 4.5 h (mean; much longer in neonates)."
+      },
+      korsatmalar: [
+        "Rheumatoid arthritis, ankylosing spondylitis (Bechterew), psoriatic arthritis, osteoarthritis",
+        "Acute gout attack",
+        "Extra-articular rheumatism: bursitis, tendinitis, periarthritis",
+        "Pain syndromes: back pain, neuralgia, dysmenorrhoea",
+        "Haemodynamically significant patent ductus arteriosus in neonates (by special indication)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding",
+        "Severe hepatic, renal, cardiac failure; arterial hypertension",
+        "Coagulation disorders, haemorrhoidal/rectal bleeding (for suppositories)",
+        "Pregnancy (especially third trimester) and lactation, childhood (with restrictions)"
+      ],
+      nojoya: {
+        "Nervous system": "Headache, dizziness, weakness — more often than other NSAIDs; rarely depression, psychiatric disturbance, peripheral neuropathy",
+        "Digestive system": "Dyspepsia, epigastric pain, nausea, ulceration, bleeding and perforation (high risk)",
+        "Cardiovascular system": "Raised BP, oedema, worsening of heart failure",
+        "Sensory organs": "Blurred vision, retinopathy, tinnitus, hearing impairment (with long-term use)",
+        "Blood / kidneys": "Leukopenia, thrombocytopenia; renal impairment, hyperkalaemia"
+      },
+      dozadan: "Symptoms: severe headache, dizziness, nausea, vomiting, disorientation, convulsions. Treatment: gastric lavage, activated charcoal, symptomatic; no antidote.",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises concentration of lithium, digoxin, methotrexate",
+        "Weakens the effect of diuretics, beta-blockers, ACE inhibitors",
+        "With potassium-sparing diuretics — hyperkalaemia",
+        "Probenecid raises indometacin concentration"
+      ],
+      qollash: {
+        kattalar: "Orally: 25 mg×2–3/day after food, gradually to 100–150 mg/day; extended-release 75 mg×1–2/day. Rectally 50–100 mg at night. In acute gout 50 mg×3/day. Maximum 200 mg/day.",
+        bolalar: "Usually not recommended; by special indication 1.5–2.5 mg/kg/day. Special regimen for neonatal ductus arteriosus."
+      },
+      chiqarish: "Tablets/capsules 25, 50 mg; extended-release capsules 75 mg; rectal suppositories 50, 100 mg; gel/ointment 5–10% (topical)"
+    }
+  },
+
+  // ── ETODOLAK | ATX: M01AB08 ──
+  "M01AB08": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — pirano-indolatsetat kislota hosilasi",
+      farmTasir: "Yallig'lanishga qarshi, og'riq qoldiruvchi (nisbatan COX-2 selektiv)",
+      farmakodinamika: `Etodolak — piranoindolsirka kislota hosilasi bo'lgan NSAID. Siklooksigenazani ingibe qilib prostaglandin sintezini kamaytiradi, ammo COX-2 ga nisbatan COX-1 dan ko'ra kuchliroq selektivlikka ega (nisbatan selektiv) — shu sababli oshqozon-ichakka ta'siri ko'plab klassik NSAIDlardan yengilroq. Yorqin yallig'lanishga qarshi va analgetik ta'sir ko'rsatadi; trombotsit funksiyasiga ta'siri terapevtik dozada kam.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez va to'liq so'riladi, biokirish >80%. Ovqat Cmax ni sekinlashtiradi, lekin umumiy so'rilishni o'zgartirmaydi. Cmax 1–2 soatda.",
+        tarqalish: "Plazma oqsillariga bog'lanish >99% (asosan albumin). Sinovial suyuqlikка yaxshi kiradi.",
+        metabolizm: "Jigarda intensiv (gidroksillangan metabolitlar va glyukuronidlar); CYP ishtirokida.",
+        chiqarilish: "Asosan siydik orqali (~72%) metabolit ko'rinishida, qisman najas orqali. T½ — 6–7 soat."
+      },
+      korsatmalar: [
+        "Osteoartroz (degenerativ bo'g'im kasalligi)",
+        "Revmatoid artrit",
+        "O'tkir va surunkali og'riq sindromlari, bo'g'im va yumshoq to'qima yallig'lanishi",
+        "Operatsiyadan keyingi va travmatik og'riq"
+      ],
+      qarrshi: [
+        "Etodolak yoki boshqa NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish, perforatsiya",
+        "Og'ir jigar, buyrak yoki yurak yetishmovchiligi",
+        "Koronar shuntlashdan keyingi davr",
+        "Homiladorlikning III trimestri, emizish; 18 yoshgacha"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, epigastral og'riq, ko'ngil aynishi, diareya, meteorizm; eroziya, yara, qon ketish (boshqa NSAIDga qaraganda kamroq)",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, holsizlik",
+        "Yurak-qon tomir": "Shish, AB oshishi; tromboz xavfi (uzoq qabulda)",
+        "Buyrak / teri": "Suyuqlik tutilishi, buyrak funksiyasi buzilishi; toshma, qichima",
+        "Qon": "Anemiya, trombotsitopeniya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, epigastral og'riq, uyquchanlik, bosh og'rig'i. Davolash: simptomatik, oshqozonni yuvish, faollashtirilgan ko'mir.",
+      ozarotasir: [
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, metotreksat, digoksin konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari, ARB ta'sirini susaytiradi",
+        "Siklosporin bilan nefrotoksiklik"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 400–1000 mg/kun 1–2 ta qabulda, ovqatdan keyin. Osteoartroz/revmatoid artritda 600–1000 mg/kun. Maks. 1000 mg/kun.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Tabletkalar/kapsulalar 200, 300, 400 mg; uzaytirilgan tabletkalar 500, 600 mg"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — производное пираноиндолуксусной кислоты",
+      farmTasir: "Противовоспалительное, анальгезирующее (относительно ЦОГ-2-селективное)",
+      farmakodinamika: `Этодолак — НПВС, производное пираноиндолуксусной кислоты. Ингибирует циклооксигеназу, снижая синтез простагландинов, но обладает относительной селективностью к ЦОГ-2 по сравнению с ЦОГ-1 — поэтому действие на ЖКТ мягче, чем у многих классических НПВС. Оказывает выраженное противовоспалительное и анальгезирующее действие; влияние на функцию тромбоцитов в терапевтической дозе невелико.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро и полно, биодоступность >80%. Пища замедляет Cmax, не меняя общего всасывания. Cmax через 1–2 ч.",
+        tarqalish: "Связь с белками плазмы >99% (преимущественно альбумин). Хорошо проникает в синовиальную жидкость.",
+        metabolizm: "Интенсивно в печени (гидроксилированные метаболиты и глюкурониды); при участии CYP.",
+        chiqarilish: "Преимущественно почками (~72%) в виде метаболитов, частично с калом. T½ — 6–7 ч."
+      },
+      korsatmalar: [
+        "Остеоартроз (дегенеративное заболевание суставов)",
+        "Ревматоидный артрит",
+        "Острые и хронические болевые синдромы, воспаление суставов и мягких тканей",
+        "Послеоперационная и травматическая боль"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к этодолаку или другим НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение, перфорация",
+        "Тяжёлая печёночная, почечная или сердечная недостаточность",
+        "Период после коронарного шунтирования",
+        "III триместр беременности, лактация; до 18 лет"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, эпигастральная боль, тошнота, диарея, метеоризм; эрозии, язвы, кровотечение (реже, чем у других НПВС)",
+        "Нервная система": "Головная боль, головокружение, слабость",
+        "Сердечно-сосудистая система": "Отёки, повышение АД; риск тромбозов (при длительном приёме)",
+        "Почки / кожа": "Задержка жидкости, нарушение функции почек; сыпь, зуд",
+        "Кровь": "Анемия, тромбоцитопения (редко)"
+      },
+      dozadan: "Симптомы: тошнота, эпигастральная боль, сонливость, головная боль. Лечение: симптоматически, промывание желудка, активированный уголь.",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, метотрексата, дигоксина",
+        "Ослабляет действие диуретиков, иАПФ, БРА",
+        "С циклоспорином — нефротоксичность"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 400–1000 мг/сут в 1–2 приёма после еды. При остеоартрозе/ревматоидном артрите 600–1000 мг/сут. Максимум 1000 мг/сут.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Таблетки/капсулы 200, 300, 400 мг; пролонгированные таблетки 500, 600 мг"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — pyranoindoleacetic acid derivative",
+      farmTasir: "Anti-inflammatory, analgesic (relatively COX-2 selective)",
+      farmakodinamika: `Etodolac is an NSAID derived from pyranoindoleacetic acid. It inhibits cyclooxygenase, reducing prostaglandin synthesis, but shows relative selectivity for COX-2 over COX-1 — so its GI effect is milder than many classical NSAIDs. It provides marked anti-inflammatory and analgesic action; its effect on platelet function at therapeutic doses is small.`,
+      farmakokinetika: {
+        sorish: "Rapidly and completely absorbed orally, bioavailability >80%. Food slows Cmax without changing total absorption. Cmax in 1–2 h.",
+        tarqalish: "Plasma protein binding >99% (mainly albumin). Penetrates synovial fluid well.",
+        metabolizm: "Extensive hepatic (hydroxylated metabolites and glucuronides); via CYP.",
+        chiqarilish: "Mainly renal (~72%) as metabolites, partly faecal. T½ — 6–7 h."
+      },
+      korsatmalar: [
+        "Osteoarthritis (degenerative joint disease)",
+        "Rheumatoid arthritis",
+        "Acute and chronic pain syndromes, joint and soft-tissue inflammation",
+        "Post-operative and traumatic pain"
+      ],
+      qarrshi: [
+        "Hypersensitivity to etodolac or other NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding, perforation",
+        "Severe hepatic, renal or cardiac failure",
+        "Period after coronary bypass surgery",
+        "Third trimester of pregnancy, lactation; under 18 years"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, epigastric pain, nausea, diarrhoea, flatulence; erosions, ulcers, bleeding (less than other NSAIDs)",
+        "Nervous system": "Headache, dizziness, weakness",
+        "Cardiovascular system": "Oedema, raised BP; thrombosis risk (with long-term use)",
+        "Kidneys / skin": "Fluid retention, renal impairment; rash, pruritus",
+        "Blood": "Anaemia, thrombocytopenia (rare)"
+      },
+      dozadan: "Symptoms: nausea, epigastric pain, drowsiness, headache. Treatment: symptomatic, gastric lavage, activated charcoal.",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, methotrexate, digoxin concentration",
+        "Weakens diuretics, ACE inhibitors, ARBs",
+        "With ciclosporin — nephrotoxicity"
+      ],
+      qollash: {
+        kattalar: "Orally: 400–1000 mg/day in 1–2 doses after food. In osteoarthritis/rheumatoid arthritis 600–1000 mg/day. Maximum 1000 mg/day.",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Tablets/capsules 200, 300, 400 mg; extended-release tablets 500, 600 mg"
+    }
+  },
+
+  // ── KETOROLAK | ATX: M01AB15 ──
+  "M01AB15": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — pirrolizin-karboksilat kislota hosilasi",
+      farmTasir: "Kuchli og'riq qoldiruvchi (analgetik ustun), yallig'lanishga qarshi",
+      farmakodinamika: `Ketorolak (trometamin tuzi shaklida) — pirrolizin-karboksilat kislota hosilasi bo'lgan NSAID bo'lib, eng kuchli analgetik ta'sirga ega NSAIDlardan biridir; analgetik kuchi bo'yicha opioidlarga yaqinlashadi, ammo opioidlarning markaziy, naркotik va nafas tushiruvchi ta'siri yo'q va bog'liqlik chaqirmaydi. Siklooksigenaza (asosan COX-1) ni nospetsifik ingibe qilib prostaglandin sintezini kamaytiradi. Yallig'lanishga qarshi va isitma tushiruvchi ta'siri ham bor, lekin analgetik ta'siri ustun. Trombotsit agregatsiyasini qaytar ravishda susaytiradi. Qisqa muddatli (≤5 kun) o'tkir og'riqni davolash uchun mo'ljallangan.`,
+      farmakokinetika: {
+        sorish: "Og'iz va i/m yo'l bilan to'liq so'riladi, biokirish ~80–100%. Cmax i/m da 30–60 daqiqada, og'iz orqali ~45 daqiqada.",
+        tarqalish: "Plazma oqsillariga bog'lanish — 99%. Taqsimlanish hajmi kichik (~0,15–0,33 L/kg). Ona sutiga oz miqdorda o'tadi.",
+        metabolizm: "Jigarda glyukuronlanish va gidroksillanish.",
+        chiqarilish: "Asosan siydik orqali (~91%), qisman najas bilan. T½ — 4–6 soat (keksalarda va buyrak yetishmovchiligida uzayadi)."
+      },
+      korsatmalar: [
+        "O'tkir o'rta va kuchli og'riqni qisqa muddatli davolash: operatsiyadan keyingi og'riq",
+        "Travmatik og'riq, suyak-mushak og'riqlari",
+        "Buyrak sanchiqlari (renal kolika)",
+        "Onkologik og'riq (qo'shimcha), tish va ginekologik og'riqlar"
+      ],
+      qarrshi: [
+        "Ketorolak yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi, eroziv-yarali jarayonlar, qon ketish yoki perforatsiya (anamnezda ham)",
+        "Qon ivishi buzilishlari, geomorragik diatez, qon ketish xavfi yuqori operatsiyalar",
+        "Og'ir buyrak yetishmovchiligi (KK<30) yoki degidratatsiya, yurak yetishmovchiligi",
+        "Tug'ruq va emizish, homiladorlik; profilaktik analgeziya, epidural/intratekal yuborish",
+        "18 yoshgacha"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Epigastral og'riq, ko'ngil aynishi, dispepsiya, diareya; yara, qon ketish, perforatsiya (qisqa kursda ham xavfli)",
+        "Buyrak": "O'tkir buyrak yetishmovchiligi, suyuqlik tutilishi, oliguriya, giperkaliemiya",
+        "Qon": "Operatsiyadan keyingi qon ketish, gematoma, trombotsit funksiyasi pasayishi, anemiya",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyquchanlik",
+        "Allergik": "Toshma, eshakemi, bronxospazm, anafilaksiya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: epigastral og'riq, ko'ngil aynishi, qusish, oshqozon yarasi, metabolik atsidoz, o'tkir buyrak yetishmovchiligi. Davolash: oshqozonni yuvish, faollashtirilgan ko'mir, simptomatik. Gemodializ qisman samarali.",
+      ozarotasir: [
+        "Boshqa NSAID, antikoagulyant, antiagregant, pentoksifillin: qon ketish xavfi — birga ishlatish taqiqlanadi",
+        "Litiy, metotreksat: konsentratsiyasi va toksikligi oshadi",
+        "Diuretiklar, AAF inhibitorlari: ta'siri susayadi, buyrak shikastlanishi",
+        "Probenetsid: ketorolak konsentratsiyasini oshiradi — birga ishlatilmaydi"
+      ],
+      qollash: {
+        kattalar: "I/m yoki i/v: 10–30 mg har 4–6 soatda, maks. 90 mg/kun (keksa/yengil vaznlilarda 60 mg/kun). Og'iz orqali: 10 mg har 4–6 soatda, maks. 40 mg/kun. Umumiy davolash muddati (parenteral + peroral) 5 kundan oshmasligi kerak.",
+        bolalar: "16 yoshgacha mustaqil qo'llanmaydi; faqat maxsus sharoitda, vaznga qarab past dozada."
+      },
+      chiqarish: "In'eksiya eritmasi 30 mg/ml 1 ml; tabletkalar 10 mg; ko'z tomchilari 0,4–0,5% (oftalmologik)"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — производное пирролизин-карбоновой кислоты",
+      farmTasir: "Мощное анальгезирующее (преобладает анальгезия), противовоспалительное",
+      farmakodinamika: `Кеторолак (в виде соли трометамина) — НПВС, производное пирролизин-карбоновой кислоты, один из самых мощных по анальгезии НПВС; по силе обезболивания приближается к опиоидам, но лишён центрального, наркотического и угнетающего дыхание действия и не вызывает зависимости. Неселективно ингибирует циклооксигеназу (преимущественно ЦОГ-1), снижая синтез простагландинов. Обладает также противовоспалительным и жаропонижающим действием, но преобладает анальгезия. Обратимо подавляет агрегацию тромбоцитов. Предназначен для краткосрочного (≤5 дней) лечения острой боли.`,
+      farmakokinetika: {
+        sorish: "Полно всасывается внутрь и в/м, биодоступность ~80–100%. Cmax в/м через 30–60 мин, внутрь ~45 мин.",
+        tarqalish: "Связь с белками плазмы — 99%. Малый объём распределения (~0,15–0,33 л/кг). В небольшом количестве проникает в грудное молоко.",
+        metabolizm: "В печени глюкуронирование и гидроксилирование.",
+        chiqarilish: "Преимущественно почками (~91%), частично с калом. T½ — 4–6 ч (удлиняется у пожилых и при почечной недостаточности)."
+      },
+      korsatmalar: [
+        "Краткосрочное лечение острой умеренной и сильной боли: послеоперационная боль",
+        "Травматическая боль, скелетно-мышечные боли",
+        "Почечная колика",
+        "Онкологическая боль (вспомогательно), зубная и гинекологическая боль"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к кеторолаку или НПВС, «аспириновая триада»",
+        "Язва ЖКТ, эрозивно-язвенные процессы, кровотечение или перфорация (в т.ч. в анамнезе)",
+        "Нарушения свёртывания, геморрагический диатез, операции с высоким риском кровотечения",
+        "Тяжёлая почечная недостаточность (КК<30) или дегидратация, сердечная недостаточность",
+        "Роды и лактация, беременность; профилактическая анальгезия, эпидуральное/интратекальное введение",
+        "Возраст до 18 лет"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Эпигастральная боль, тошнота, диспепсия, диарея; язва, кровотечение, перфорация (опасно даже при коротком курсе)",
+        "Почки": "Острая почечная недостаточность, задержка жидкости, олигурия, гиперкалиемия",
+        "Кровь": "Послеоперационное кровотечение, гематома, снижение функции тромбоцитов, анемия",
+        "Нервная система": "Головная боль, головокружение, сонливость",
+        "Аллергия": "Сыпь, крапивница, бронхоспазм, анафилаксия (редко)"
+      },
+      dozadan: "Симптомы: эпигастральная боль, тошнота, рвота, язва желудка, метаболический ацидоз, ОПН. Лечение: промывание желудка, активированный уголь, симптоматически. Гемодиализ частично эффективен.",
+      ozarotasir: [
+        "Другие НПВС, антикоагулянты, антиагреганты, пентоксифиллин: риск кровотечения — совместное применение противопоказано",
+        "Литий, метотрексат: повышение концентрации и токсичности",
+        "Диуретики, иАПФ: ослабление эффекта, поражение почек",
+        "Пробенецид: повышает концентрацию кеторолака — не сочетать"
+      ],
+      qollash: {
+        kattalar: "В/м или в/в: 10–30 мг каждые 4–6 ч, максимум 90 мг/сут (у пожилых/маловесных 60 мг/сут). Внутрь: 10 мг каждые 4–6 ч, максимум 40 мг/сут. Общая длительность (парентерально + внутрь) не более 5 дней.",
+        bolalar: "До 16 лет самостоятельно не применяется; только в особых условиях, в низкой дозе по массе тела."
+      },
+      chiqarish: "Раствор для инъекций 30 мг/мл 1 мл; таблетки 10 мг; глазные капли 0,4–0,5% (офтальмологические)"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — pyrrolizine-carboxylic acid derivative",
+      farmTasir: "Potent analgesic (analgesia predominates), anti-inflammatory",
+      farmakodinamika: `Ketorolac (as the trometamol salt) is an NSAID derived from pyrrolizine-carboxylic acid, one of the most potent NSAID analgesics; its analgesic power approaches opioids but it lacks central, narcotic and respiratory-depressant effects and causes no dependence. It non-selectively inhibits cyclooxygenase (mainly COX-1), reducing prostaglandin synthesis. It also has anti-inflammatory and antipyretic action, but analgesia predominates. It reversibly inhibits platelet aggregation. It is intended for short-term (≤5 days) treatment of acute pain.`,
+      farmakokinetika: {
+        sorish: "Completely absorbed orally and i/m, bioavailability ~80–100%. Cmax i/m in 30–60 min, orally ~45 min.",
+        tarqalish: "Plasma protein binding — 99%. Small volume of distribution (~0.15–0.33 L/kg). Small amounts into breast milk.",
+        metabolizm: "Hepatic glucuronidation and hydroxylation.",
+        chiqarilish: "Mainly renal (~91%), partly faecal. T½ — 4–6 h (prolonged in the elderly and renal failure)."
+      },
+      korsatmalar: [
+        "Short-term treatment of acute moderate-to-severe pain: post-operative pain",
+        "Traumatic pain, musculoskeletal pain",
+        "Renal colic",
+        "Cancer pain (adjunct), dental and gynaecological pain"
+      ],
+      qarrshi: [
+        "Hypersensitivity to ketorolac or NSAIDs, 'aspirin triad'",
+        "GI ulcer, erosive-ulcerative processes, bleeding or perforation (incl. history)",
+        "Coagulation disorders, haemorrhagic diathesis, surgery with high bleeding risk",
+        "Severe renal failure (CrCl<30) or dehydration, heart failure",
+        "Labour and lactation, pregnancy; prophylactic analgesia, epidural/intrathecal administration",
+        "Age under 18"
+      ],
+      nojoya: {
+        "Digestive system": "Epigastric pain, nausea, dyspepsia, diarrhoea; ulcer, bleeding, perforation (dangerous even on a short course)",
+        "Kidneys": "Acute kidney injury, fluid retention, oliguria, hyperkalaemia",
+        "Blood": "Post-operative bleeding, haematoma, reduced platelet function, anaemia",
+        "Nervous system": "Headache, dizziness, drowsiness",
+        "Allergy": "Rash, urticaria, bronchospasm, anaphylaxis (rare)"
+      },
+      dozadan: "Symptoms: epigastric pain, nausea, vomiting, gastric ulcer, metabolic acidosis, acute kidney injury. Treatment: gastric lavage, activated charcoal, symptomatic. Haemodialysis partly effective.",
+      ozarotasir: [
+        "Other NSAIDs, anticoagulants, antiplatelets, pentoxifylline: bleeding risk — co-administration contraindicated",
+        "Lithium, methotrexate: increased concentration and toxicity",
+        "Diuretics, ACE inhibitors: weakened effect, renal injury",
+        "Probenecid: raises ketorolac concentration — do not combine"
+      ],
+      qollash: {
+        kattalar: "I/m or i/v: 10–30 mg every 4–6 h, maximum 90 mg/day (60 mg/day in elderly/low weight). Orally: 10 mg every 4–6 h, maximum 40 mg/day. Total duration (parenteral + oral) no more than 5 days.",
+        bolalar: "Not used alone under 16; only in special settings, at a low weight-based dose."
+      },
+      chiqarish: "Injection 30 mg/mL 1 mL; tablets 10 mg; eye drops 0.4–0.5% (ophthalmic)"
+    }
+  },
+
+  // ── ATSEKLOFENAK | ATX: M01AB16 ──
+  "M01AB16": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — fenilatsetat kislota hosilasi (diklofenak analogi)",
+      farmTasir: "Yallig'lanishga qarshi, og'riq qoldiruvchi",
+      farmakodinamika: `Atseklofenak — fenilsirka kislota hosilasi (diklofenakка yaqin) bo'lgan NSAID. Siklooksigenaza (COX-1 va COX-2) ni ingibe qilib, prostaglandinlar sintezini kamaytiradi va yallig'lanish, og'riq, shishni susaytiradi. Bundan tashqari yallig'langan to'qimalarda interleykin-1 (IL-1) va o'simta nekrozi omilini (TNF) sintezini kamaytiradi, xondrotsitlardagi proteoglikan sintezini saqlaydi — shu sababli osteoartrozda tog'ay matritsasiga nisbatan boshqa NSAIDlarga qaraganda qulayroq deb hisoblanadi. Organizmda qisman diklofenakga metabolizatsiya bo'ladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez va to'liq so'riladi, biokirish yuqori. Cmax 1,5–3 soatda.",
+        tarqalish: "Plazma oqsillariga bog'lanish >99%. Sinovial suyuqlikка yaxshi kiradi (konsentratsiya plazmadagining ~60%).",
+        metabolizm: "Jigarda CYP2C9 ishtirokida; asosiy metaboliti 4'-gidroksiatseklofenak, qisman diklofenak hosil bo'ladi.",
+        chiqarilish: "Asosan siydik orqali (~2/3) metabolit ko'rinishida. T½ — ~4 soat."
+      },
+      korsatmalar: [
+        "Osteoartroz og'riqi va yallig'lanishi",
+        "Revmatoid artrit",
+        "Ankilozlovchi spondiloartrit (Bextrew kasalligi)",
+        "Bo'g'imdan tashqari revmatizm, yelka-bo'yin va orqa miya og'riqlari, tish og'rig'i"
+      ],
+      qarrshi: [
+        "Atseklofenak, diklofenak yoki boshqa NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish, perforatsiya",
+        "Og'ir jigar, buyrak yoki yurak yetishmovchiligi",
+        "Koronar shuntlashdan keyingi davr",
+        "Homiladorlikning III trimestri, emizish; 18 yoshgacha"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, epigastral og'riq, ko'ngil aynishi, diareya; transaminazalar oshishi, yara, qon ketish",
+        "Asab tizimi": "Bosh aylanishi, bosh og'rig'i",
+        "Yurak-qon tomir": "AB oshishi, shish; tromboz xavfi (uzoq qabulda)",
+        "Buyrak / teri": "Suyuqlik tutilishi, buyrak funksiyasi buzilishi; toshma, qichima, dermatit",
+        "Qon": "Anemiya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, epigastral og'riq, bosh og'rig'i. Davolash: simptomatik, oshqozonni yuvish, faollashtirilgan ko'mir.",
+      ozarotasir: [
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, digoksin, metotreksat konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari, ARB ta'sirini susaytiradi",
+        "Siklosporin, takrolimus bilan nefrotoksiklik"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 100 mg×2/kun (ertalab va kechqurun), ovqatdan keyin. Maks. 200 mg/kun.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Tabletkalar (qobiqli) 100 mg; uzaytirilgan tabletkalar 200 mg; poroshok suspenziya uchun; krem (mahalliy)"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — производное фенилуксусной кислоты (аналог диклофенака)",
+      farmTasir: "Противовоспалительное, анальгезирующее",
+      farmakodinamika: `Ацеклофенак — НПВС, производное фенилуксусной кислоты (близок к диклофенаку). Ингибирует циклооксигеназу (ЦОГ-1 и ЦОГ-2), снижая синтез простагландинов и уменьшая воспаление, боль и отёк. Кроме того, в воспалённых тканях снижает синтез интерлейкина-1 (ИЛ-1) и фактора некроза опухоли (ФНО), сохраняет синтез протеогликанов хондроцитами — поэтому при остеоартрозе считается более благоприятным для хрящевого матрикса, чем другие НПВС. В организме частично метаболизируется до диклофенака.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро и полно, биодоступность высокая. Cmax через 1,5–3 ч.",
+        tarqalish: "Связь с белками плазмы >99%. Хорошо проникает в синовиальную жидкость (концентрация ~60% от плазменной).",
+        metabolizm: "В печени при участии CYP2C9; основной метаболит 4'-гидроксиацеклофенак, частично образуется диклофенак.",
+        chiqarilish: "Преимущественно почками (~2/3) в виде метаболитов. T½ — ~4 ч."
+      },
+      korsatmalar: [
+        "Боль и воспаление при остеоартрозе",
+        "Ревматоидный артрит",
+        "Анкилозирующий спондилоартрит (болезнь Бехтерева)",
+        "Внесуставной ревматизм, плечелопаточные и спинальные боли, зубная боль"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к ацеклофенаку, диклофенаку или другим НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение, перфорация",
+        "Тяжёлая печёночная, почечная или сердечная недостаточность",
+        "Период после коронарного шунтирования",
+        "III триместр беременности, лактация; до 18 лет"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, эпигастральная боль, тошнота, диарея; повышение трансаминаз, язва, кровотечение",
+        "Нервная система": "Головокружение, головная боль",
+        "Сердечно-сосудистая система": "Повышение АД, отёки; риск тромбозов (при длительном приёме)",
+        "Почки / кожа": "Задержка жидкости, нарушение функции почек; сыпь, зуд, дерматит",
+        "Кровь": "Анемия (редко)"
+      },
+      dozadan: "Симптомы: тошнота, рвота, эпигастральная боль, головная боль. Лечение: симптоматически, промывание желудка, активированный уголь.",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, дигоксина, метотрексата",
+        "Ослабляет действие диуретиков, иАПФ, БРА",
+        "С циклоспорином, такролимусом — нефротоксичность"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 100 мг×2/сут (утром и вечером) после еды. Максимум 200 мг/сут.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Таблетки (покрытые) 100 мг; пролонгированные таблетки 200 мг; порошок для суспензии; крем (наружно)"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — phenylacetic acid derivative (diclofenac analogue)",
+      farmTasir: "Anti-inflammatory, analgesic",
+      farmakodinamika: `Aceclofenac is an NSAID derived from phenylacetic acid (close to diclofenac). It inhibits cyclooxygenase (COX-1 and COX-2), reducing prostaglandin synthesis and easing inflammation, pain and swelling. In inflamed tissue it also reduces synthesis of interleukin-1 (IL-1) and tumour necrosis factor (TNF) and preserves proteoglycan synthesis by chondrocytes — so in osteoarthritis it is considered more favourable to cartilage matrix than other NSAIDs. In the body it is partly metabolised to diclofenac.`,
+      farmakokinetika: {
+        sorish: "Rapidly and completely absorbed orally, high bioavailability. Cmax in 1.5–3 h.",
+        tarqalish: "Plasma protein binding >99%. Penetrates synovial fluid well (concentration ~60% of plasma).",
+        metabolizm: "Hepatic via CYP2C9; main metabolite 4'-hydroxyaceclofenac, partly forming diclofenac.",
+        chiqarilish: "Mainly renal (~2/3) as metabolites. T½ — ~4 h."
+      },
+      korsatmalar: [
+        "Pain and inflammation in osteoarthritis",
+        "Rheumatoid arthritis",
+        "Ankylosing spondylitis (Bechterew disease)",
+        "Extra-articular rheumatism, shoulder-neck and spinal pain, dental pain"
+      ],
+      qarrshi: [
+        "Hypersensitivity to aceclofenac, diclofenac or other NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding, perforation",
+        "Severe hepatic, renal or cardiac failure",
+        "Period after coronary bypass surgery",
+        "Third trimester of pregnancy, lactation; under 18 years"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, epigastric pain, nausea, diarrhoea; raised transaminases, ulcer, bleeding",
+        "Nervous system": "Dizziness, headache",
+        "Cardiovascular system": "Raised BP, oedema; thrombosis risk (with long-term use)",
+        "Kidneys / skin": "Fluid retention, renal impairment; rash, pruritus, dermatitis",
+        "Blood": "Anaemia (rare)"
+      },
+      dozadan: "Symptoms: nausea, vomiting, epigastric pain, headache. Treatment: symptomatic, gastric lavage, activated charcoal.",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, digoxin, methotrexate concentration",
+        "Weakens diuretics, ACE inhibitors, ARBs",
+        "With ciclosporin, tacrolimus — nephrotoxicity"
+      ],
+      qollash: {
+        kattalar: "Orally: 100 mg×2/day (morning and evening) after food. Maximum 200 mg/day.",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Tablets (coated) 100 mg; extended-release tablets 200 mg; powder for suspension; cream (topical)"
+    }
+  }
 
 };
 
