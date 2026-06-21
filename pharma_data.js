@@ -43293,6 +43293,757 @@ const PHARMA_DATA = {
       },
       chiqarish: "Ointment, cream, gel, balm, rubbing solution (camphor and combined counter-irritant preparations)"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // Batch 7 — Periferik mushak relaksantlari (M03A)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── SUKSAMETONIY (suksinilxolin) | ATX: M03AB01 ──
+  "M03AB01": {
+    uz: {
+      gruppa: "Periferik mushak relaksantlari — depolyarizatsiyalovchi (suksametoniy)",
+      farmTasir: "Ultra-qisqa ta'sirli depolyarizatsiyalovchi mushak relaksanti",
+      farmakodinamika: `Suksametoniy (suksinilxolin) — yagona depolyarizatsiyalovchi periferik mushak relaksanti; tuzilishi bo'yicha ikkita atsetilxolin molekulasiga o'xshaydi. Nerv-mushak sinapsidagi N-xolinoretseptorlarni qo'zg'atib doimiy depolyarizatsiya chaqiradi: dastlab qisqa muddatli mushak titrashi (fastsikulyatsiya), so'ng membrananing qayta qo'zg'aluvchanligi yo'qolib mushak bo'shashadi (II faza). Atsetilxolinesteraza bilan parchalanmaydi, balki plazma psevdoxolinesterazasi (butirilxolinesteraza) bilan tez gidrolizlanadi — shu sababli ta'siri juda qisqa. Tez va to'liq mushak relaksatsiyasini ta'minlaydi.`,
+      farmakokinetika: {
+        sorish: "Faqat i/v (ba'zan i/m) yuboriladi; ta'sir i/v da 30–60 soniyada boshlanadi.",
+        tarqalish: "Hujayradan tashqari suyuqlikda tarqaladi; gematoentsefalik to'siqdan o'tmaydi.",
+        metabolizm: "Plazma psevdoxolinesterazasi (butirilxolinesteraza) bilan tez gidrolizlanadi suksinil kislota va xolinga.",
+        chiqarilish: "Metabolitlar siydik orqali. Ta'sir davomiyligi 4–6 daqiqa (atipik xolinesterazada uzayadi)."
+      },
+      korsatmalar: [
+        "Traxeya intubatsiyasi uchun tez mushak relaksatsiyasi (ayniqsa tez ketma-ket induksiya)",
+        "Qisqa muddatli jarrohlik va manipulyatsiyalarda mushak bo'shashishi",
+        "Elektrokonvulsiv terapiyada (EKT) mushak qisqarishini kamaytirish",
+        "Laringospazm yoki tutqanoqni bartaraf etishda (anesteziologik sharoitda)"
+      ],
+      qarrshi: [
+        "Suksametoniyga o'ta sezgirlik; plazma xolinesterazasi tanqisligi yoki atipik shakli (uzoq apnoe)",
+        "Giperkaliemiya yoki uni keltiruvchi holatlar: keng kuyish, og'ir jarohat, denervatsiya, immobilizatsiya, neyromushak kasalliklar",
+        "Malign gipertermiya anamnezi yoki moyilligi",
+        "O'tkir keng skelet mushak shikastlanishi, giperkalemik falaj; tor burchakli glaukoma, penetratsiyalovchi ko'z jarohati"
+      ],
+      nojoya: {
+        "Mushak / nerv": "Mushak og'rig'i (fastsikulyatsiyadan keyin), uzoq apnoe (xolinesteraza tanqisligida)",
+        "Elektrolit": "Giperkaliemiya (ayniqsa xavf guruhlarida — yurak to'xtashigacha)",
+        "Yurak-qon tomir": "Bradikardiya (ayniqsa bolalarda, takroriy dozada), aritmiya, AB o'zgarishi",
+        "Boshqa": "Ko'z ichi va oshqozon ichi bosimining oshishi, so'lak ko'payishi; kamdan-kam — malign giptermiya, anafilaksiya"
+      },
+      dozadan: "Belgilari: uzoq mushak falaji va apnoe, bradikardiya, giperkaliemiya. Davolash: o'pkani sun'iy ventilyatsiya qilish (asosiy chora — apnoe o'tguncha), gemodinamik qo'llab-quvvatlash; antidot yo'q (depolyarizatsiyalovchi blokка antixolinesteraza yordam bermaydi, hatto kuchaytiradi).",
+      ozarotasir: [
+        "Antixolinesteraza vositalar (neostigmin), organofosfatlar: blokni uzaytiradi (psevdoxolinesterazani ingibe qiladi)",
+        "Aminoglikozidlar, litiy, magniy tuzlari: nerv-mushak blokini kuchaytiradi",
+        "Yurak glikozidlari: aritmiya xavfi oshadi",
+        "Mahalliy anestetiklar, ba'zi antibiotiklar blokni kuchaytirishi mumkin"
+      ],
+      qollash: {
+        kattalar: "I/v: intubatsiya uchun 1–1,5 mg/kg; uzoq ta'sir uchun infuziya yoki takroriy dozalar (anesteziolog nazoratida). Faqat ventilyatsiya imkoniyati bo'lgan sharoitda.",
+        bolalar: "I/v 1–2 mg/kg (chaqaloqlarda yuqoriroq); bradikardiyani oldini olish uchun atropin bilan. Faqat zarurat bo'lganda."
+      },
+      chiqarish: "I/v in'eksiya uchun eritma 20 mg/ml; in'eksiya uchun kukun (flakon)"
+    },
+    ru: {
+      gruppa: "Периферические миорелаксанты — деполяризующий (суксаметоний)",
+      farmTasir: "Ультракороткого действия деполяризующий миорелаксант",
+      farmakodinamika: `Суксаметоний (сукцинилхолин) — единственный деполяризующий периферический миорелаксант; по структуре подобен двум молекулам ацетилхолина. Возбуждая N-холинорецепторы нервно-мышечного синапса, вызывает стойкую деполяризацию: сначала кратковременные мышечные подёргивания (фасцикуляции), затем мембрана теряет возбудимость и мышца расслабляется (II фаза). Не расщепляется ацетилхолинэстеразой, а быстро гидролизуется плазменной псевдохолинэстеразой (бутирилхолинэстеразой) — поэтому действие очень короткое. Обеспечивает быструю и полную миорелаксацию.`,
+      farmakokinetika: {
+        sorish: "Вводится только в/в (иногда в/м); действие при в/в начинается через 30–60 с.",
+        tarqalish: "Распределяется во внеклеточной жидкости; не проникает через ГЭБ.",
+        metabolizm: "Быстро гидролизуется плазменной псевдохолинэстеразой (бутирилхолинэстеразой) до янтарной кислоты и холина.",
+        chiqarilish: "Метаболиты почками. Длительность действия 4–6 мин (удлиняется при атипичной холинэстеразе)."
+      },
+      korsatmalar: [
+        "Быстрая миорелаксация для интубации трахеи (особенно быстрая последовательная индукция)",
+        "Расслабление мышц при кратковременных операциях и манипуляциях",
+        "Снижение мышечных сокращений при электросудорожной терапии (ЭСТ)",
+        "Устранение ларингоспазма или судорог (в условиях анестезиологии)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к суксаметонию; дефицит или атипичная форма плазменной холинэстеразы (длительное апноэ)",
+        "Гиперкалиемия или состояния, ведущие к ней: обширные ожоги, тяжёлая травма, денервация, иммобилизация, нервно-мышечные болезни",
+        "Анамнез или предрасположенность к злокачественной гипертермии",
+        "Острое обширное повреждение скелетных мышц, гиперкалиемический паралич; закрытоугольная глаукома, проникающая травма глаза"
+      ],
+      nojoya: {
+        "Мышцы / нервы": "Мышечная боль (после фасцикуляций), длительное апноэ (при дефиците холинэстеразы)",
+        "Электролиты": "Гиперкалиемия (особенно в группах риска — вплоть до остановки сердца)",
+        "Сердечно-сосудистая система": "Брадикардия (особенно у детей, при повторной дозе), аритмия, изменение АД",
+        "Прочее": "Повышение внутриглазного и внутрижелудочного давления, усиление слюноотделения; редко — злокачественная гипертермия, анафилаксия"
+      },
+      dozadan: "Симптомы: длительный паралич мышц и апноэ, брадикардия, гиперкалиемия. Лечение: ИВЛ (основная мера — до прекращения апноэ), гемодинамическая поддержка; антидота нет (антихолинэстеразные при деполяризующем блоке не помогают, даже усиливают).",
+      ozarotasir: [
+        "Антихолинэстеразные (неостигмин), органофосфаты: удлиняют блок (ингибируют псевдохолинэстеразу)",
+        "Аминогликозиды, литий, соли магния: усиливают нервно-мышечный блок",
+        "Сердечные гликозиды: повышается риск аритмии",
+        "Местные анестетики, некоторые антибиотики могут усиливать блок"
+      ],
+      qollash: {
+        kattalar: "В/в: для интубации 1–1,5 мг/кг; для продления — инфузия или повторные дозы (под контролем анестезиолога). Только при возможности ИВЛ.",
+        bolalar: "В/в 1–2 мг/кг (у новорождённых выше); с атропином для профилактики брадикардии. Только при необходимости."
+      },
+      chiqarish: "Раствор для в/в инъекций 20 мг/мл; порошок для инъекций (флакон)"
+    },
+    en: {
+      gruppa: "Peripheral muscle relaxants — depolarising (suxamethonium)",
+      farmTasir: "Ultra-short-acting depolarising muscle relaxant",
+      farmakodinamika: `Suxamethonium (succinylcholine) is the only depolarising peripheral muscle relaxant; structurally it resembles two acetylcholine molecules. By stimulating N-cholinoceptors of the neuromuscular junction it causes sustained depolarisation: first brief muscle twitches (fasciculations), then the membrane loses excitability and the muscle relaxes (phase II). It is not broken down by acetylcholinesterase but is rapidly hydrolysed by plasma pseudocholinesterase (butyrylcholinesterase) — so its action is very short. It gives rapid and complete muscle relaxation.`,
+      farmakokinetika: {
+        sorish: "Given only i/v (sometimes i/m); i/v action begins in 30–60 s.",
+        tarqalish: "Distributes in extracellular fluid; does not cross the BBB.",
+        metabolizm: "Rapidly hydrolysed by plasma pseudocholinesterase (butyrylcholinesterase) to succinic acid and choline.",
+        chiqarilish: "Metabolites renally. Duration of action 4–6 min (prolonged with atypical cholinesterase)."
+      },
+      korsatmalar: [
+        "Rapid muscle relaxation for tracheal intubation (especially rapid-sequence induction)",
+        "Muscle relaxation in short procedures and manipulations",
+        "Reducing muscle contractions in electroconvulsive therapy (ECT)",
+        "Relieving laryngospasm or convulsions (in an anaesthetic setting)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to suxamethonium; deficiency or atypical form of plasma cholinesterase (prolonged apnoea)",
+        "Hyperkalaemia or states leading to it: extensive burns, severe trauma, denervation, immobilisation, neuromuscular disease",
+        "History of or predisposition to malignant hyperthermia",
+        "Acute extensive skeletal muscle injury, hyperkalaemic paralysis; narrow-angle glaucoma, penetrating eye injury"
+      ],
+      nojoya: {
+        "Muscle / nerve": "Muscle pain (after fasciculations), prolonged apnoea (with cholinesterase deficiency)",
+        "Electrolytes": "Hyperkalaemia (especially in risk groups — up to cardiac arrest)",
+        "Cardiovascular system": "Bradycardia (especially in children, with a repeat dose), arrhythmia, BP change",
+        "Other": "Raised intraocular and intragastric pressure, increased salivation; rarely malignant hyperthermia, anaphylaxis"
+      },
+      dozadan: "Symptoms: prolonged muscle paralysis and apnoea, bradycardia, hyperkalaemia. Treatment: mechanical ventilation (the main measure — until apnoea resolves), haemodynamic support; no antidote (anticholinesterases do not help a depolarising block, they even worsen it).",
+      ozarotasir: [
+        "Anticholinesterases (neostigmine), organophosphates: prolong the block (inhibit pseudocholinesterase)",
+        "Aminoglycosides, lithium, magnesium salts: enhance the neuromuscular block",
+        "Cardiac glycosides: increased arrhythmia risk",
+        "Local anaesthetics, some antibiotics may enhance the block"
+      ],
+      qollash: {
+        kattalar: "I/v: for intubation 1–1.5 mg/kg; to prolong — infusion or repeat doses (under anaesthetist supervision). Only where ventilation is available.",
+        bolalar: "I/v 1–2 mg/kg (higher in neonates); with atropine to prevent bradycardia. Only when necessary."
+      },
+      chiqarish: "Solution for i/v injection 20 mg/mL; powder for injection (vial)"
+    }
+  },
+
+  // ── ATRAKURIY | ATX: M03AC04 ──
+  "M03AC04": {
+    uz: {
+      gruppa: "Periferik mushak relaksantlari — depolyarizatsiyalamaydigan (benzilizoxinolin)",
+      farmTasir: "O'rta ta'sirli nodepolyarizatsiyalovchi mushak relaksanti",
+      farmakodinamika: `Atrakuriy (bezilat) — benzilizoxinolin guruhiga mansub nodepolyarizatsiyalovchi (raqobatli) periferik mushak relaksanti. Nerv-mushak sinapsidagi N-xolinoretseptorlarda atsetilxolin bilan raqobatlashib ularni bloklaydi, depolyarizatsiyani to'xtatadi va skelet mushaklarini bo'shashtiradi (falaj). Muhim xususiyati — fiziologik pH va haroratda o'z-o'zidan kimyoviy parchalanadi (Hofmann eliminatsiyasi) hamda efir gidrolizi orqali, jigar yoki buyrak funksiyasiga bog'liq bo'lmagan holda — shu sababli jigar/buyrak yetishmovchiligida ham xavfsizroq.`,
+      farmakokinetika: {
+        sorish: "Faqat i/v yuboriladi; ta'sir 2–3 daqiqada boshlanadi.",
+        tarqalish: "Hujayradan tashqari suyuqlikda tarqaladi.",
+        metabolizm: "Hofmann eliminatsiyasi (haroratga/pH ga bog'liq spontan parchalanish) va efir gidrolizi — laudanozin va boshqa metabolitlar.",
+        chiqarilish: "Metabolitlar (laudanozin) jigar va buyrak orqali. Ta'sir davomiyligi 20–35 daqiqa."
+      },
+      korsatmalar: [
+        "Umumiy anesteziya davomida traxeya intubatsiyasi va skelet mushaklarini bo'shashtirish",
+        "Sun'iy o'pka ventilyatsiyasini osonlashtirish (reanimatsiya, IVL)",
+        "Jarrohlik amaliyotlarida mushak relaksatsiyasini ta'minlash (ayniqsa jigar/buyrak yetishmovchiligida afzal)"
+      ],
+      qarrshi: [
+        "Atrakuriyga o'ta sezgirlik",
+        "Miasteniya gravis va boshqa neyromushak kasalliklar (ehtiyot, sezgirlik oshgan)",
+        "Bronxial astma anamnezi (gistamin ajralishi tufayli bronxospazm xavfi)",
+        "Faqat ventilyatsiya imkoniyati bo'lgan sharoitda qo'llanadi"
+      ],
+      nojoya: {
+        "Yurak-qon tomir": "Gistamin ajralishi tufayli AB pasayishi, taxikardiya, yuz qizarishi (ayniqsa tez yuborilganda)",
+        "Nafas": "Bronxospazm, laringospazm (gistamin ta'siri)",
+        "Mushak": "Uzoq mushak falaji (ortiqcha dozada), bo'shashishning yetishmovchiligi",
+        "Boshqa": "Laudanozin to'planishi (yuqori dozada) — teoretik MNS qo'zg'aluvchanligi; kamdan-kam — anafilaksiya"
+      },
+      dozadan: "Belgilari: uzoq mushak falaji va apnoe, AB pasayishi. Davolash: o'pkani sun'iy ventilyatsiya qilish, gemodinamik qo'llab-quvvatlash; blok susayganda antixolinesteraza (neostigmin) + atropin bilan tiklash mumkin.",
+      ozarotasir: [
+        "Inhalatsion anestetiklar (izofluran, sevofluran): blokni kuchaytiradi va uzaytiradi",
+        "Aminoglikozidlar, polimiksinlar, magniy: nerv-mushak blokini kuchaytiradi",
+        "Mahalliy anestetiklar, antiaritmiklar: ta'sirini kuchaytirishi mumkin",
+        "Karbamazepin, fenitoin: ta'sirini qisqartirishi mumkin"
+      ],
+      qollash: {
+        kattalar: "I/v: intubatsiya uchun 0,3–0,6 mg/kg; davom ettirish uchun 0,1–0,2 mg/kg har 15–25 daqiqada yoki infuziya 5–10 mkg/kg/daq. Faqat anesteziolog tomonidan.",
+        bolalar: "1 oydan: 0,3–0,5 mg/kg i/v; davom ettirish vaznga qarab."
+      },
+      chiqarish: "I/v in'eksiya uchun eritma 10 mg/ml (2,5 va 5 ml ampulalar/flakonlar)"
+    },
+    ru: {
+      gruppa: "Периферические миорелаксанты — недеполяризующий (бензилизохинолин)",
+      farmTasir: "Миорелаксант средней длительности недеполяризующего типа",
+      farmakodinamika: `Атракурий (безилат) — недеполяризующий (конкурентный) периферический миорелаксант группы бензилизохинолина. Конкурируя с ацетилхолином за N-холинорецепторы нервно-мышечного синапса, блокирует их, прекращает деполяризацию и расслабляет скелетные мышцы (паралич). Важная особенность — самопроизвольно разрушается при физиологических pH и температуре (элиминация Хофмана) и путём эфирного гидролиза, независимо от функции печени и почек — поэтому безопаснее при печёночной/почечной недостаточности.`,
+      farmakokinetika: {
+        sorish: "Вводится только в/в; действие начинается через 2–3 мин.",
+        tarqalish: "Распределяется во внеклеточной жидкости.",
+        metabolizm: "Элиминация Хофмана (спонтанный распад, зависящий от температуры/pH) и эфирный гидролиз — лауданозин и др. метаболиты.",
+        chiqarilish: "Метаболиты (лауданозин) через печень и почки. Длительность действия 20–35 мин."
+      },
+      korsatmalar: [
+        "Интубация трахеи и расслабление скелетных мышц во время общей анестезии",
+        "Облегчение ИВЛ (реанимация)",
+        "Обеспечение миорелаксации при операциях (особенно предпочтителен при печёночной/почечной недостаточности)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к атракурию",
+        "Миастения гравис и другие нервно-мышечные болезни (осторожно, повышенная чувствительность)",
+        "Анамнез бронхиальной астмы (риск бронхоспазма из-за высвобождения гистамина)",
+        "Применяется только при возможности ИВЛ"
+      ],
+      nojoya: {
+        "Сердечно-сосудистая система": "Из-за высвобождения гистамина снижение АД, тахикардия, приливы (особенно при быстром введении)",
+        "Дыхание": "Бронхоспазм, ларингоспазм (действие гистамина)",
+        "Мышцы": "Длительный паралич мышц (при избыточной дозе), недостаточное расслабление",
+        "Прочее": "Накопление лауданозина (при высокой дозе) — теоретическая возбудимость ЦНС; редко — анафилаксия"
+      },
+      dozadan: "Симптомы: длительный паралич мышц и апноэ, снижение АД. Лечение: ИВЛ, гемодинамическая поддержка; при ослаблении блока возможно восстановление антихолинэстеразными (неостигмин) + атропин.",
+      ozarotasir: [
+        "Ингаляционные анестетики (изофлуран, севофлуран): усиливают и удлиняют блок",
+        "Аминогликозиды, полимиксины, магний: усиливают нервно-мышечный блок",
+        "Местные анестетики, антиаритмики: могут усиливать действие",
+        "Карбамазепин, фенитоин: могут укорачивать действие"
+      ],
+      qollash: {
+        kattalar: "В/в: для интубации 0,3–0,6 мг/кг; для поддержания 0,1–0,2 мг/кг каждые 15–25 мин или инфузия 5–10 мкг/кг/мин. Только анестезиологом.",
+        bolalar: "С 1 месяца: 0,3–0,5 мг/кг в/в; поддержание по массе тела."
+      },
+      chiqarish: "Раствор для в/в инъекций 10 мг/мл (ампулы/флаконы 2,5 и 5 мл)"
+    },
+    en: {
+      gruppa: "Peripheral muscle relaxants — non-depolarising (benzylisoquinoline)",
+      farmTasir: "Intermediate-acting non-depolarising muscle relaxant",
+      farmakodinamika: `Atracurium (besilate) is a non-depolarising (competitive) peripheral muscle relaxant of the benzylisoquinoline group. By competing with acetylcholine for N-cholinoceptors of the neuromuscular junction it blocks them, stops depolarisation and relaxes skeletal muscle (paralysis). A key feature is that it breaks down spontaneously at physiological pH and temperature (Hofmann elimination) and by ester hydrolysis, independent of hepatic or renal function — so it is safer in hepatic/renal failure.`,
+      farmakokinetika: {
+        sorish: "Given only i/v; action begins in 2–3 min.",
+        tarqalish: "Distributes in extracellular fluid.",
+        metabolizm: "Hofmann elimination (spontaneous, temperature/pH-dependent breakdown) and ester hydrolysis — laudanosine and other metabolites.",
+        chiqarilish: "Metabolites (laudanosine) via liver and kidneys. Duration of action 20–35 min."
+      },
+      korsatmalar: [
+        "Tracheal intubation and skeletal muscle relaxation during general anaesthesia",
+        "Facilitation of mechanical ventilation (intensive care)",
+        "Providing muscle relaxation in surgery (especially preferred in hepatic/renal failure)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to atracurium",
+        "Myasthenia gravis and other neuromuscular diseases (caution, increased sensitivity)",
+        "History of bronchial asthma (bronchospasm risk from histamine release)",
+        "Used only where ventilation is available"
+      ],
+      nojoya: {
+        "Cardiovascular system": "From histamine release — lowered BP, tachycardia, flushing (especially with rapid injection)",
+        "Respiratory": "Bronchospasm, laryngospasm (histamine effect)",
+        "Muscle": "Prolonged muscle paralysis (with excess dose), inadequate relaxation",
+        "Other": "Laudanosine accumulation (at high dose) — theoretical CNS excitability; rarely anaphylaxis"
+      },
+      dozadan: "Symptoms: prolonged muscle paralysis and apnoea, lowered BP. Treatment: mechanical ventilation, haemodynamic support; as the block wanes, reversal with anticholinesterases (neostigmine) + atropine is possible.",
+      ozarotasir: [
+        "Inhalational anaesthetics (isoflurane, sevoflurane): enhance and prolong the block",
+        "Aminoglycosides, polymyxins, magnesium: enhance the neuromuscular block",
+        "Local anaesthetics, antiarrhythmics: may enhance the effect",
+        "Carbamazepine, phenytoin: may shorten the effect"
+      ],
+      qollash: {
+        kattalar: "I/v: for intubation 0.3–0.6 mg/kg; maintenance 0.1–0.2 mg/kg every 15–25 min or infusion 5–10 µg/kg/min. By an anaesthetist only.",
+        bolalar: "From 1 month: 0.3–0.5 mg/kg i/v; maintenance by body weight."
+      },
+      chiqarish: "Solution for i/v injection 10 mg/mL (2.5 and 5 mL ampoules/vials)"
+    }
+  },
+
+  // ── PIPEKURONIY BROMID | ATX: M03AC06 ──
+  "M03AC06": {
+    uz: {
+      gruppa: "Periferik mushak relaksantlari — depolyarizatsiyalamaydigan (aminosteroid)",
+      farmTasir: "Uzoq ta'sirli nodepolyarizatsiyalovchi mushak relaksanti",
+      farmakodinamika: `Pipekuroniy bromid — aminosteroid guruhiga mansub uzoq ta'sirli nodepolyarizatsiyalovchi (raqobatli) periferik mushak relaksanti. Nerv-mushak sinapsidagi N-xolinoretseptorlarda atsetilxolin bilan raqobatlashib ularni bloklaydi va skelet mushaklarini bo'shashtiradi. Gistamin ajralishi minimal (vagolitik/gistamin ta'siri kam) — shu sababli yurak-qon tomirga ta'siri barqaror, AB va yurak urishini sezilarli o'zgartirmaydi. Uzoq jarrohlik operatsiyalari uchun mos.`,
+      farmakokinetika: {
+        sorish: "Faqat i/v yuboriladi; ta'sir 2–3 daqiqada boshlanadi (to'liq blok 4–5 daqiqada).",
+        tarqalish: "Hujayradan tashqari suyuqlikda tarqaladi.",
+        metabolizm: "Jigarda qisman metabolizatsiya (3-dezatsetil metabolit, qisman faol).",
+        chiqarilish: "Asosan buyrak orqali o'zgarmagan holda — buyrak yetishmovchiligida ta'sir uzayadi. Ta'sir davomiyligi 60–90 daqiqa."
+      },
+      korsatmalar: [
+        "Uzoq davom etadigan umumiy anesteziya davomida traxeya intubatsiyasi va mushak relaksatsiyasi",
+        "Sun'iy o'pka ventilyatsiyasini ta'minlash (uzoq jarrohlik, reanimatsiya)",
+        "Yurak-qon tomir barqarorligi muhim bo'lgan operatsiyalarda"
+      ],
+      qarrshi: [
+        "Pipekuroniy yoki brom ionlariga o'ta sezgirlik",
+        "Miasteniya gravis va boshqa neyromushak kasalliklar",
+        "Og'ir buyrak yetishmovchiligi (ta'sir keskin uzayadi)",
+        "Faqat ventilyatsiya imkoniyati bo'lgan sharoitda"
+      ],
+      nojoya: {
+        "Mushak / nafas": "Uzoq mushak falaji va apnoe (ayniqsa buyrak yetishmovchiligida), qoldiq blok",
+        "Yurak-qon tomir": "Kam — bradikardiya yoki AB o'zgarishi (gistamin ta'siri minimal)",
+        "Allergik": "Kamdan-kam — toshma, bronxospazm, anafilaksiya",
+        "Boshqa": "Elektrolit buzilishlarida blok kuchayishi"
+      },
+      dozadan: "Belgilari: uzoq mushak falaji va apnoe. Davolash: o'pkani sun'iy ventilyatsiya qilish; blok susayganda antixolinesteraza (neostigmin) + atropin bilan tiklash.",
+      ozarotasir: [
+        "Inhalatsion anestetiklar: blokni kuchaytiradi va uzaytiradi",
+        "Aminoglikozidlar, magniy, mahalliy anestetiklar: nerv-mushak blokini kuchaytiradi",
+        "Kortikosteroidlar uzoq qo'llashda mushak kuchsizligini kuchaytirishi mumkin",
+        "Diuretiklar (elektrolit buzilishi orqali) blokga ta'sir qiladi"
+      ],
+      qollash: {
+        kattalar: "I/v: intubatsiya uchun 0,07–0,08 mg/kg; davom ettirish uchun 0,01–0,02 mg/kg. Buyrak yetishmovchiligida doza kamaytiriladi. Faqat anesteziolog tomonidan.",
+        bolalar: "Vaznga qarab past dozada, ehtiyot bilan."
+      },
+      chiqarish: "I/v in'eksiya uchun liofilizatsiyalangan kukun 4 mg (flakon, erituvchi bilan)"
+    },
+    ru: {
+      gruppa: "Периферические миорелаксанты — недеполяризующий (аминостероид)",
+      farmTasir: "Миорелаксант длительного действия недеполяризующего типа",
+      farmakodinamika: `Пипекурония бромид — недеполяризующий (конкурентный) периферический миорелаксант длительного действия группы аминостероидов. Конкурируя с ацетилхолином за N-холинорецепторы нервно-мышечного синапса, блокирует их и расслабляет скелетные мышцы. Высвобождение гистамина минимально (слабое ваголитическое/гистаминовое действие) — поэтому влияние на сердечно-сосудистую систему стабильно, АД и ЧСС существенно не меняются. Подходит для длительных операций.`,
+      farmakokinetika: {
+        sorish: "Вводится только в/в; действие начинается через 2–3 мин (полный блок за 4–5 мин).",
+        tarqalish: "Распределяется во внеклеточной жидкости.",
+        metabolizm: "Частично метаболизируется в печени (3-дезацетил метаболит, частично активен).",
+        chiqarilish: "Преимущественно почками в неизменённом виде — при почечной недостаточности действие удлиняется. Длительность действия 60–90 мин."
+      },
+      korsatmalar: [
+        "Интубация трахеи и миорелаксация при длительной общей анестезии",
+        "Обеспечение ИВЛ (длительные операции, реанимация)",
+        "Операции, где важна сердечно-сосудистая стабильность"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к пипекуронию или ионам брома",
+        "Миастения гравис и другие нервно-мышечные болезни",
+        "Тяжёлая почечная недостаточность (действие резко удлиняется)",
+        "Только при возможности ИВЛ"
+      ],
+      nojoya: {
+        "Мышцы / дыхание": "Длительный паралич мышц и апноэ (особенно при почечной недостаточности), остаточный блок",
+        "Сердечно-сосудистая система": "Редко — брадикардия или изменение АД (гистаминовое действие минимально)",
+        "Аллергия": "Редко — сыпь, бронхоспазм, анафилаксия",
+        "Прочее": "Усиление блока при электролитных нарушениях"
+      },
+      dozadan: "Симптомы: длительный паралич мышц и апноэ. Лечение: ИВЛ; при ослаблении блока восстановление антихолинэстеразными (неостигмин) + атропин.",
+      ozarotasir: [
+        "Ингаляционные анестетики: усиливают и удлиняют блок",
+        "Аминогликозиды, магний, местные анестетики: усиливают нервно-мышечный блок",
+        "Кортикостероиды при длительном применении могут усиливать мышечную слабость",
+        "Диуретики (через электролитные нарушения) влияют на блок"
+      ],
+      qollash: {
+        kattalar: "В/в: для интубации 0,07–0,08 мг/кг; для поддержания 0,01–0,02 мг/кг. При почечной недостаточности дозу снижают. Только анестезиологом.",
+        bolalar: "По массе тела в низкой дозе, с осторожностью."
+      },
+      chiqarish: "Лиофилизированный порошок для в/в инъекций 4 мг (флакон с растворителем)"
+    },
+    en: {
+      gruppa: "Peripheral muscle relaxants — non-depolarising (aminosteroid)",
+      farmTasir: "Long-acting non-depolarising muscle relaxant",
+      farmakodinamika: `Pipecuronium bromide is a long-acting non-depolarising (competitive) peripheral muscle relaxant of the aminosteroid group. By competing with acetylcholine for N-cholinoceptors of the neuromuscular junction it blocks them and relaxes skeletal muscle. Histamine release is minimal (weak vagolytic/histamine action) — so its cardiovascular effect is stable, with little change in BP or heart rate. It suits long operations.`,
+      farmakokinetika: {
+        sorish: "Given only i/v; action begins in 2–3 min (full block in 4–5 min).",
+        tarqalish: "Distributes in extracellular fluid.",
+        metabolizm: "Partly metabolised in the liver (3-desacetyl metabolite, partly active).",
+        chiqarilish: "Mainly renal unchanged — in renal failure the action is prolonged. Duration of action 60–90 min."
+      },
+      korsatmalar: [
+        "Tracheal intubation and muscle relaxation in prolonged general anaesthesia",
+        "Provision of mechanical ventilation (long operations, intensive care)",
+        "Operations where cardiovascular stability is important"
+      ],
+      qarrshi: [
+        "Hypersensitivity to pipecuronium or bromide ions",
+        "Myasthenia gravis and other neuromuscular diseases",
+        "Severe renal failure (action markedly prolonged)",
+        "Only where ventilation is available"
+      ],
+      nojoya: {
+        "Muscle / respiratory": "Prolonged muscle paralysis and apnoea (especially in renal failure), residual block",
+        "Cardiovascular system": "Rarely bradycardia or BP change (histamine effect minimal)",
+        "Allergy": "Rarely rash, bronchospasm, anaphylaxis",
+        "Other": "Enhanced block with electrolyte disturbances"
+      },
+      dozadan: "Symptoms: prolonged muscle paralysis and apnoea. Treatment: mechanical ventilation; as the block wanes, reversal with anticholinesterases (neostigmine) + atropine.",
+      ozarotasir: [
+        "Inhalational anaesthetics: enhance and prolong the block",
+        "Aminoglycosides, magnesium, local anaesthetics: enhance the neuromuscular block",
+        "Corticosteroids with prolonged use may worsen muscle weakness",
+        "Diuretics (via electrolyte disturbance) affect the block"
+      ],
+      qollash: {
+        kattalar: "I/v: for intubation 0.07–0.08 mg/kg; maintenance 0.01–0.02 mg/kg. Reduce dose in renal failure. By an anaesthetist only.",
+        bolalar: "By body weight at a low dose, with caution."
+      },
+      chiqarish: "Lyophilised powder for i/v injection 4 mg (vial with solvent)"
+    }
+  },
+
+  // ── ROKURONIY BROMID | ATX: M03AC09 ──
+  "M03AC09": {
+    uz: {
+      gruppa: "Periferik mushak relaksantlari — depolyarizatsiyalamaydigan (aminosteroid)",
+      farmTasir: "O'rta ta'sirli, tez boshlanuvchi nodepolyarizatsiyalovchi mushak relaksanti",
+      farmakodinamika: `Rokuroniy bromid — aminosteroid guruhiga mansub o'rta ta'sirli nodepolyarizatsiyalovchi periferik mushak relaksanti. Nerv-mushak sinapsidagi N-xolinoretseptorlarni atsetilxolin bilan raqobatda bloklaydi va skelet mushaklarini bo'shashtiradi. Ta'siri tez boshlanadi (60–90 soniya) — shu sababli suksametoniyga muqobil sifatida tez ketma-ket induksiyada qo'llanishi mumkin. Gistamin ajralishi minimal, yurak-qon tomirga ta'siri barqaror. Muhim afzalligi — uning bloki sugammadeks bilan tez va to'liq bartaraf etilishi (spetsifik antidot).`,
+      farmakokinetika: {
+        sorish: "Faqat i/v yuboriladi; ta'sir 60–90 soniyada boshlanadi.",
+        tarqalish: "Hujayradan tashqari suyuqlikda tarqaladi.",
+        metabolizm: "Jigarda qisman (17-dezatsetilrokuroniy); ko'p qismi o'zgarmagan.",
+        chiqarilish: "Asosan o't (najas) bilan, qisman buyrak orqali. Jigar yetishmovchiligida ta'sir uzayadi. Davomiyligi 30–40 daqiqa (dozaga bog'liq)."
+      },
+      korsatmalar: [
+        "Umumiy anesteziya davomida traxeya intubatsiyasi (tez ketma-ket induksiya ham)",
+        "Jarrohlik amaliyotlarida skelet mushaklarini bo'shashtirish",
+        "Reanimatsiyada sun'iy o'pka ventilyatsiyasini osonlashtirish"
+      ],
+      qarrshi: [
+        "Rokuroniy yoki brom ionlariga o'ta sezgirlik",
+        "Miasteniya gravis va boshqa neyromushak kasalliklar (ehtiyot)",
+        "Faqat ventilyatsiya imkoniyati bo'lgan sharoitda",
+        "Og'ir jigar yetishmovchiligida ehtiyot (ta'sir uzayadi)"
+      ],
+      nojoya: {
+        "Mushak / nafas": "Uzoq mushak falaji va apnoe, qoldiq blok",
+        "Yurak-qon tomir": "Kam — taxikardiya yoki AB o'zgarishi",
+        "Mahalliy": "In'eksiya joyida og'riq (tez yuborilganda)",
+        "Allergik": "Kamdan-kam — anafilaksiya (mushak relaksantlari orasida nisbatan ko'proq), bronxospazm, toshma"
+      },
+      dozadan: "Belgilari: uzoq mushak falaji va apnoe. Davolash: o'pkani sun'iy ventilyatsiya qilish; spetsifik antidot — sugammadeks (rokuroniyni bog'lab tez bartaraf etadi); muqobil — antixolinesteraza + atropin.",
+      ozarotasir: [
+        "Inhalatsion anestetiklar: blokni kuchaytiradi va uzaytiradi",
+        "Aminoglikozidlar, magniy, mahalliy anestetiklar: blokni kuchaytiradi",
+        "Kortikosteroidlar uzoq qo'llashda mushak kuchsizligini kuchaytirishi mumkin",
+        "Sugammadeks: rokuroniyni bog'lab ta'sirini darhol to'xtatadi (maxsus antidot)"
+      ],
+      qollash: {
+        kattalar: "I/v: intubatsiya uchun 0,6 mg/kg (tez ketma-ket induksiyada 1,0 mg/kg); davom ettirish uchun 0,15 mg/kg yoki infuziya 5–10 mkg/kg/daq. Faqat anesteziolog tomonidan.",
+        bolalar: "1 oydan: 0,6 mg/kg i/v; davom ettirish vaznga qarab."
+      },
+      chiqarish: "I/v in'eksiya uchun eritma 10 mg/ml (5 va 10 ml flakonlar)"
+    },
+    ru: {
+      gruppa: "Периферические миорелаксанты — недеполяризующий (аминостероид)",
+      farmTasir: "Миорелаксант средней длительности с быстрым началом действия",
+      farmakodinamika: `Рокурония бромид — недеполяризующий периферический миорелаксант средней длительности группы аминостероидов. Конкурентно с ацетилхолином блокирует N-холинорецепторы нервно-мышечного синапса и расслабляет скелетные мышцы. Действие начинается быстро (60–90 с) — поэтому может применяться как альтернатива суксаметонию при быстрой последовательной индукции. Высвобождение гистамина минимально, влияние на сердечно-сосудистую систему стабильно. Важное преимущество — его блок быстро и полностью устраняется сугаммадексом (специфический антидот).`,
+      farmakokinetika: {
+        sorish: "Вводится только в/в; действие начинается через 60–90 с.",
+        tarqalish: "Распределяется во внеклеточной жидкости.",
+        metabolizm: "Частично в печени (17-дезацетилрокуроний); большая часть в неизменённом виде.",
+        chiqarilish: "Преимущественно с жёлчью (кал), частично почками. При печёночной недостаточности действие удлиняется. Длительность 30–40 мин (дозозависимо)."
+      },
+      korsatmalar: [
+        "Интубация трахеи во время общей анестезии (в т.ч. быстрая последовательная индукция)",
+        "Расслабление скелетных мышц при операциях",
+        "Облегчение ИВЛ в реанимации"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к рокуронию или ионам брома",
+        "Миастения гравис и другие нервно-мышечные болезни (осторожно)",
+        "Только при возможности ИВЛ",
+        "Осторожно при тяжёлой печёночной недостаточности (действие удлиняется)"
+      ],
+      nojoya: {
+        "Мышцы / дыхание": "Длительный паралич мышц и апноэ, остаточный блок",
+        "Сердечно-сосудистая система": "Редко — тахикардия или изменение АД",
+        "Местные": "Боль в месте инъекции (при быстром введении)",
+        "Аллергия": "Редко — анафилаксия (относительно чаще среди миорелаксантов), бронхоспазм, сыпь"
+      },
+      dozadan: "Симптомы: длительный паралич мышц и апноэ. Лечение: ИВЛ; специфический антидот — сугаммадекс (связывает рокуроний и быстро устраняет блок); альтернатива — антихолинэстеразные + атропин.",
+      ozarotasir: [
+        "Ингаляционные анестетики: усиливают и удлиняют блок",
+        "Аминогликозиды, магний, местные анестетики: усиливают блок",
+        "Кортикостероиды при длительном применении могут усиливать мышечную слабость",
+        "Сугаммадекс: связывает рокуроний и немедленно прекращает действие (специальный антидот)"
+      ],
+      qollash: {
+        kattalar: "В/в: для интубации 0,6 мг/кг (при быстрой последовательной индукции 1,0 мг/кг); для поддержания 0,15 мг/кг или инфузия 5–10 мкг/кг/мин. Только анестезиологом.",
+        bolalar: "С 1 месяца: 0,6 мг/кг в/в; поддержание по массе тела."
+      },
+      chiqarish: "Раствор для в/в инъекций 10 мг/мл (флаконы 5 и 10 мл)"
+    },
+    en: {
+      gruppa: "Peripheral muscle relaxants — non-depolarising (aminosteroid)",
+      farmTasir: "Intermediate-acting, rapid-onset non-depolarising muscle relaxant",
+      farmakodinamika: `Rocuronium bromide is an intermediate-acting non-depolarising peripheral muscle relaxant of the aminosteroid group. Competitively with acetylcholine it blocks N-cholinoceptors of the neuromuscular junction and relaxes skeletal muscle. Its onset is rapid (60–90 s) — so it can be used as an alternative to suxamethonium for rapid-sequence induction. Histamine release is minimal and cardiovascular effect stable. A key advantage is that its block is rapidly and completely reversed by sugammadex (a specific antidote).`,
+      farmakokinetika: {
+        sorish: "Given only i/v; action begins in 60–90 s.",
+        tarqalish: "Distributes in extracellular fluid.",
+        metabolizm: "Partly hepatic (17-desacetylrocuronium); most unchanged.",
+        chiqarilish: "Mainly biliary (faeces), partly renal. In hepatic failure the action is prolonged. Duration 30–40 min (dose-dependent)."
+      },
+      korsatmalar: [
+        "Tracheal intubation during general anaesthesia (incl. rapid-sequence induction)",
+        "Skeletal muscle relaxation in surgery",
+        "Facilitation of mechanical ventilation in intensive care"
+      ],
+      qarrshi: [
+        "Hypersensitivity to rocuronium or bromide ions",
+        "Myasthenia gravis and other neuromuscular diseases (caution)",
+        "Only where ventilation is available",
+        "Caution in severe hepatic failure (action prolonged)"
+      ],
+      nojoya: {
+        "Muscle / respiratory": "Prolonged muscle paralysis and apnoea, residual block",
+        "Cardiovascular system": "Rarely tachycardia or BP change",
+        "Local": "Injection-site pain (with rapid injection)",
+        "Allergy": "Rarely anaphylaxis (relatively more common among relaxants), bronchospasm, rash"
+      },
+      dozadan: "Symptoms: prolonged muscle paralysis and apnoea. Treatment: mechanical ventilation; specific antidote — sugammadex (binds rocuronium and rapidly reverses the block); alternative — anticholinesterases + atropine.",
+      ozarotasir: [
+        "Inhalational anaesthetics: enhance and prolong the block",
+        "Aminoglycosides, magnesium, local anaesthetics: enhance the block",
+        "Corticosteroids with prolonged use may worsen muscle weakness",
+        "Sugammadex: binds rocuronium and immediately ends the effect (specific antidote)"
+      ],
+      qollash: {
+        kattalar: "I/v: for intubation 0.6 mg/kg (rapid-sequence induction 1.0 mg/kg); maintenance 0.15 mg/kg or infusion 5–10 µg/kg/min. By an anaesthetist only.",
+        bolalar: "From 1 month: 0.6 mg/kg i/v; maintenance by body weight."
+      },
+      chiqarish: "Solution for i/v injection 10 mg/mL (5 and 10 mL vials)"
+    }
+  },
+
+  // ── SISATRAKURIY BEZILAT | ATX: M03AC11 ──
+  "M03AC11": {
+    uz: {
+      gruppa: "Periferik mushak relaksantlari — depolyarizatsiyalamaydigan (benzilizoxinolin, atrakuriy izomeri)",
+      farmTasir: "O'rta ta'sirli nodepolyarizatsiyalovchi mushak relaksanti (gistaminsiz)",
+      farmakodinamika: `Sisatrakuriy — atrakuriyning izomerlaridan biri (R-sis, R-sis), benzilizoxinolin guruhiga mansub o'rta ta'sirli nodepolyarizatsiyalovchi periferik mushak relaksanti. Nerv-mushak sinapsidagi N-xolinoretseptorlarni atsetilxolin bilan raqobatda bloklaydi. Atrakuriydan farqli o'laroq deyarli gistamin ajratmaydi — shu sababli yurak-qon tomirga ta'siri juda barqaror (AB va yurak urishi o'zgarmaydi). Atrakuriy kabi Hofmann eliminatsiyasi orqali (jigar/buyrakdan mustaqil) parchalanadi — jigar/buyrak yetishmovchiligida afzal.`,
+      farmakokinetika: {
+        sorish: "Faqat i/v yuboriladi; ta'sir 2–3 daqiqada boshlanadi.",
+        tarqalish: "Hujayradan tashqari suyuqlikda tarqaladi.",
+        metabolizm: "Hofmann eliminatsiyasi (pH/haroratga bog'liq spontan parchalanish) — laudanozin va akrilat metabolitlari.",
+        chiqarilish: "Metabolitlar buyrak va jigar orqali. Ta'sir davomiyligi 35–45 daqiqa."
+      },
+      korsatmalar: [
+        "Umumiy anesteziya davomida traxeya intubatsiyasi va skelet mushaklarini bo'shashtirish",
+        "Reanimatsiyada sun'iy o'pka ventilyatsiyasini osonlashtirish",
+        "Yurak-qon tomir barqarorligi va jigar/buyrak yetishmovchiligida afzal mushak relaksatsiyasi"
+      ],
+      qarrshi: [
+        "Sisatrakuriy yoki atrakuriyga o'ta sezgirlik",
+        "Miasteniya gravis va boshqa neyromushak kasalliklar (ehtiyot)",
+        "Faqat ventilyatsiya imkoniyati bo'lgan sharoitda"
+      ],
+      nojoya: {
+        "Mushak / nafas": "Uzoq mushak falaji va apnoe (ortiqcha dozada), qoldiq blok",
+        "Yurak-qon tomir": "Juda kam — bradikardiya, AB o'zgarishi (gistamin ajralmaydi)",
+        "Allergik": "Kamdan-kam — bronxospazm, toshma, anafilaksiya",
+        "Boshqa": "Yuqori dozada laudanozin to'planishi (teoretik)"
+      },
+      dozadan: "Belgilari: uzoq mushak falaji va apnoe. Davolash: o'pkani sun'iy ventilyatsiya qilish; blok susayganda antixolinesteraza (neostigmin) + atropin bilan tiklash.",
+      ozarotasir: [
+        "Inhalatsion anestetiklar: blokni kuchaytiradi va uzaytiradi",
+        "Aminoglikozidlar, magniy, mahalliy anestetiklar: blokni kuchaytiradi",
+        "Kortikosteroidlar uzoq qo'llashda mushak kuchsizligini kuchaytirishi mumkin",
+        "Karbamazepin, fenitoin: ta'sirini qisqartirishi mumkin"
+      ],
+      qollash: {
+        kattalar: "I/v: intubatsiya uchun 0,15 mg/kg; davom ettirish uchun 0,03 mg/kg yoki infuziya 1–3 mkg/kg/daq. Faqat anesteziolog tomonidan.",
+        bolalar: "2 yoshdan: 0,1–0,15 mg/kg i/v; davom ettirish vaznga qarab."
+      },
+      chiqarish: "I/v in'eksiya uchun eritma 2 mg/ml va 5 mg/ml (ampulalar/flakonlar)"
+    },
+    ru: {
+      gruppa: "Периферические миорелаксанты — недеполяризующий (бензилизохинолин, изомер атракурия)",
+      farmTasir: "Миорелаксант средней длительности недеполяризующего типа (без высвобождения гистамина)",
+      farmakodinamika: `Цисатракурий — один из изомеров атракурия (R-цис, R-цис), недеполяризующий периферический миорелаксант средней длительности группы бензилизохинолина. Конкурентно с ацетилхолином блокирует N-холинорецепторы нервно-мышечного синапса. В отличие от атракурия практически не высвобождает гистамин — поэтому влияние на сердечно-сосудистую систему очень стабильно (АД и ЧСС не меняются). Как и атракурий, разрушается путём элиминации Хофмана (независимо от печени/почек) — предпочтителен при печёночной/почечной недостаточности.`,
+      farmakokinetika: {
+        sorish: "Вводится только в/в; действие начинается через 2–3 мин.",
+        tarqalish: "Распределяется во внеклеточной жидкости.",
+        metabolizm: "Элиминация Хофмана (спонтанный распад, зависящий от pH/температуры) — лауданозин и акрилатные метаболиты.",
+        chiqarilish: "Метаболиты почками и печенью. Длительность действия 35–45 мин."
+      },
+      korsatmalar: [
+        "Интубация трахеи и расслабление скелетных мышц при общей анестезии",
+        "Облегчение ИВЛ в реанимации",
+        "Предпочтительная миорелаксация при сердечно-сосудистой нестабильности и печёночной/почечной недостаточности"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к цисатракурию или атракурию",
+        "Миастения гравис и другие нервно-мышечные болезни (осторожно)",
+        "Только при возможности ИВЛ"
+      ],
+      nojoya: {
+        "Мышцы / дыхание": "Длительный паралич мышц и апноэ (при избыточной дозе), остаточный блок",
+        "Сердечно-сосудистая система": "Очень редко — брадикардия, изменение АД (гистамин не высвобождается)",
+        "Аллергия": "Редко — бронхоспазм, сыпь, анафилаксия",
+        "Прочее": "Накопление лауданозина при высокой дозе (теоретически)"
+      },
+      dozadan: "Симптомы: длительный паралич мышц и апноэ. Лечение: ИВЛ; при ослаблении блока восстановление антихолинэстеразными (неостигмин) + атропин.",
+      ozarotasir: [
+        "Ингаляционные анестетики: усиливают и удлиняют блок",
+        "Аминогликозиды, магний, местные анестетики: усиливают блок",
+        "Кортикостероиды при длительном применении могут усиливать мышечную слабость",
+        "Карбамазепин, фенитоин: могут укорачивать действие"
+      ],
+      qollash: {
+        kattalar: "В/в: для интубации 0,15 мг/кг; для поддержания 0,03 мг/кг или инфузия 1–3 мкг/кг/мин. Только анестезиологом.",
+        bolalar: "С 2 лет: 0,1–0,15 мг/кг в/в; поддержание по массе тела."
+      },
+      chiqarish: "Раствор для в/в инъекций 2 мг/мл и 5 мг/мл (ампулы/флаконы)"
+    },
+    en: {
+      gruppa: "Peripheral muscle relaxants — non-depolarising (benzylisoquinoline, atracurium isomer)",
+      farmTasir: "Intermediate-acting non-depolarising muscle relaxant (histamine-free)",
+      farmakodinamika: `Cisatracurium is one of the isomers of atracurium (R-cis, R-cis), an intermediate-acting non-depolarising peripheral muscle relaxant of the benzylisoquinoline group. Competitively with acetylcholine it blocks N-cholinoceptors of the neuromuscular junction. Unlike atracurium it releases virtually no histamine — so its cardiovascular effect is very stable (BP and heart rate unchanged). Like atracurium it breaks down by Hofmann elimination (independent of liver/kidney) — preferred in hepatic/renal failure.`,
+      farmakokinetika: {
+        sorish: "Given only i/v; action begins in 2–3 min.",
+        tarqalish: "Distributes in extracellular fluid.",
+        metabolizm: "Hofmann elimination (spontaneous, pH/temperature-dependent breakdown) — laudanosine and acrylate metabolites.",
+        chiqarilish: "Metabolites via kidneys and liver. Duration of action 35–45 min."
+      },
+      korsatmalar: [
+        "Tracheal intubation and skeletal muscle relaxation in general anaesthesia",
+        "Facilitation of mechanical ventilation in intensive care",
+        "Preferred muscle relaxation in cardiovascular instability and hepatic/renal failure"
+      ],
+      qarrshi: [
+        "Hypersensitivity to cisatracurium or atracurium",
+        "Myasthenia gravis and other neuromuscular diseases (caution)",
+        "Only where ventilation is available"
+      ],
+      nojoya: {
+        "Muscle / respiratory": "Prolonged muscle paralysis and apnoea (with excess dose), residual block",
+        "Cardiovascular system": "Very rarely bradycardia, BP change (no histamine release)",
+        "Allergy": "Rarely bronchospasm, rash, anaphylaxis",
+        "Other": "Laudanosine accumulation at high dose (theoretical)"
+      },
+      dozadan: "Symptoms: prolonged muscle paralysis and apnoea. Treatment: mechanical ventilation; as the block wanes, reversal with anticholinesterases (neostigmine) + atropine.",
+      ozarotasir: [
+        "Inhalational anaesthetics: enhance and prolong the block",
+        "Aminoglycosides, magnesium, local anaesthetics: enhance the block",
+        "Corticosteroids with prolonged use may worsen muscle weakness",
+        "Carbamazepine, phenytoin: may shorten the effect"
+      ],
+      qollash: {
+        kattalar: "I/v: for intubation 0.15 mg/kg; maintenance 0.03 mg/kg or infusion 1–3 µg/kg/min. By an anaesthetist only.",
+        bolalar: "From 2 years: 0.1–0.15 mg/kg i/v; maintenance by body weight."
+      },
+      chiqarish: "Solution for i/v injection 2 mg/mL and 5 mg/mL (ampoules/vials)"
+    }
+  },
+
+  // ── BOTULIN TOKSINI A | ATX: M03AX01 ──
+  "M03AX01": {
+    uz: {
+      gruppa: "Periferik ta'sirli mushak relaksantlari — botulin neyrotoksini A",
+      farmTasir: "Mahalliy mushak falajlovchi (neyromushak uzatishni bloklovchi)",
+      farmakodinamika: `Botulin toksini A (Clostridium botulinum A turi neyrotoksini) — periferik ta'sirli mushak relaksanti. Mahalliy (mushak ichiga) yuborilganda xolinergik nerv uchlarida atsetilxolin tutuvchi pufakchalarning membrana bilan birikishi uchun zarur oqsilni (SNAP-25) parchalaydi — natijada atsetilxolin ajralishi to'xtaydi va nerv-mushak uzatish bloklanadi. Bu in'eksiya qilingan mushakda mahalliy, qaytuvchi (3–6 oy davom etadigan) falaj/bo'shashish hosil qiladi. Ter va so'lak bezlaridagi xolinergik uzatishni ham bloklaydi (gipergidroz, siyalorea). Yangi nerv uchlari o'sgach ta'sir asta-sekin tiklanadi.`,
+      farmakokinetika: {
+        sorish: "Mushak ichiga yuboriladi; mahalliy ta'sir qiladi, tizimli tarqalish minimal (to'g'ri dozada).",
+        tarqalish: "In'eksiya joyidagi nerv uchlarida; ta'sir 2–3 kunda boshlanib 1–2 haftada to'liq namoyon bo'ladi.",
+        metabolizm: "Oqsil sifatida to'qimada proteaza orqali parchalanadi.",
+        chiqarilish: "Mahalliy parchalanadi; ta'sir davomiyligi ~3–6 oy (mushak), keyin takror in'eksiya kerak."
+      },
+      korsatmalar: [
+        "Mushak distoniyalari: blefarospazm, servikal distoniya (tortikollis), gemifatsial spazm",
+        "Bolalar serebral falajida va insult/jarohatdan keyingi spastiklik (oyoq-qo'l mushaklari)",
+        "Surunkali migren profilaktikasi",
+        "Gipergidroz (kuchli terlash — qo'ltiq, kaft), siyalorea",
+        "Kosmetologiyada mimik ajinlar (alohida shakllar; bu yerda terapevtik nevrologik qo'llanish nazarda tutiladi)"
+      ],
+      qarrshi: [
+        "Botulin toksini yoki preparat komponentlariga o'ta sezgirlik",
+        "In'eksiya joyida infeksiya yoki yallig'lanish",
+        "Generallashgan neyromushak kasalliklar: miasteniya gravis, Lambert-Iton sindromi, ALS",
+        "Homiladorlik va emizish; aminoglikozid yoki boshqa nerv-mushak blokatorlari bilan birga ehtiyot"
+      ],
+      nojoya: {
+        "Mahalliy / mushak": "In'eksiya joyida og'riq, gematoma; mo'ljaldagi yoki qo'shni mushaklarning ortiqcha kuchsizlanishi (masalan blefarospazmda ptoz, disfagiya)",
+        "Umumiy": "Bosh og'rig'i, gripsimon holat, holsizlik",
+        "Tarqalish (kamdan-kam, xavfli)": "Toksinning uzoq mushaklarga tarqalishi — yutish va nafas buzilishi (ayniqsa bolalar spastikligida), umumiy zaiflik",
+        "Allergik": "Toshma, qichima; kamdan-kam — anafilaksiya"
+      },
+      dozadan: "Belgilari: kechikib boshlanuvchi (kunlar-haftalar) tarqalgan mushak zaifligi, yutish/nafas buzilishi (botulizm alomatlari). Davolash: nafasni qo'llab-quvvatlash (zarurda IVL), kuzatuv; og'ir holatda botulizmga qarshi antitoksin. Mahalliy, kuzatuv talab qiladi.",
+      ozarotasir: [
+        "Aminoglikozid antibiotiklar, polimiksinlar, mahalliy anestetiklar: nerv-mushak blokini va toksin ta'sirini kuchaytiradi",
+        "Boshqa nerv-mushak blokatorlari (mushak relaksantlari): ta'sirni qo'shadi",
+        "Antixolinergik dorilar bilan birga quruqlik ta'sirini kuchaytirishi mumkin"
+      ],
+      qollash: {
+        kattalar: "Mushak ichiga, indikatsiya va mushakka qarab individual dozada (birlik/U), tajribali shifokor tomonidan EMG/anatomik mo'ljal bilan. Takror in'eksiya odatda 3 oydan kam bo'lmagan oraliqda.",
+        bolalar: "2 yoshdan spastiklikda vaznga qarab (U/kg), maxsus markazlarda; umumiy maksimal doza chegaralanadi."
+      },
+      chiqarish: "In'eksiya uchun liofilizatsiyalangan kukun 50, 100, 200 birlik (flakon, fiziologik eritma bilan suyultiriladi)"
+    },
+    ru: {
+      gruppa: "Миорелаксанты периферического действия — ботулинический нейротоксин А",
+      farmTasir: "Местно парализующее мышцу (блокатор нервно-мышечной передачи)",
+      farmakodinamika: `Ботулинический токсин А (нейротоксин Clostridium botulinum типа А) — миорелаксант периферического действия. При местном (внутримышечном) введении расщепляет белок (SNAP-25), необходимый для слияния ацетилхолиновых везикул с мембраной холинергических нервных окончаний — в результате прекращается высвобождение ацетилхолина и блокируется нервно-мышечная передача. Это создаёт местный, обратимый (длящийся 3–6 месяцев) паралич/расслабление инъецированной мышцы. Блокирует также холинергическую передачу в потовых и слюнных железах (гипергидроз, сиалорея). По мере роста новых нервных окончаний действие постепенно восстанавливается.`,
+      farmakokinetika: {
+        sorish: "Вводится внутримышечно; действует местно, системное распространение минимально (при правильной дозе).",
+        tarqalish: "В нервных окончаниях места инъекции; действие начинается через 2–3 дня и полностью развивается за 1–2 недели.",
+        metabolizm: "Как белок расщепляется в ткани протеазами.",
+        chiqarilish: "Распадается местно; длительность действия ~3–6 месяцев (мышца), затем нужна повторная инъекция."
+      },
+      korsatmalar: [
+        "Мышечные дистонии: блефароспазм, цервикальная дистония (тортиколлис), гемифациальный спазм",
+        "Спастичность при ДЦП и после инсульта/травмы (мышцы конечностей)",
+        "Профилактика хронической мигрени",
+        "Гипергидроз (сильное потоотделение — подмышки, ладони), сиалорея",
+        "В косметологии мимические морщины (отдельные формы; здесь подразумевается терапевтическое неврологическое применение)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к ботулотоксину или компонентам препарата",
+        "Инфекция или воспаление в месте инъекции",
+        "Генерализованные нервно-мышечные болезни: миастения гравис, синдром Ламберта-Итона, БАС",
+        "Беременность и лактация; осторожно с аминогликозидами и другими нервно-мышечными блокаторами"
+      ],
+      nojoya: {
+        "Местные / мышцы": "Боль в месте инъекции, гематома; избыточное ослабление целевых или соседних мышц (например птоз, дисфагия при блефароспазме)",
+        "Общие": "Головная боль, гриппоподобное состояние, слабость",
+        "Распространение (редко, опасно)": "Распространение токсина на отдалённые мышцы — нарушение глотания и дыхания (особенно при спастичности у детей), общая слабость",
+        "Аллергия": "Сыпь, зуд; редко — анафилаксия"
+      },
+      dozadan: "Симптомы: отсроченная (дни-недели) распространённая мышечная слабость, нарушение глотания/дыхания (признаки ботулизма). Лечение: поддержка дыхания (при необходимости ИВЛ), наблюдение; в тяжёлых случаях противоботулиническая антитоксин. Местное, требует наблюдения.",
+      ozarotasir: [
+        "Аминогликозидные антибиотики, полимиксины, местные анестетики: усиливают нервно-мышечный блок и действие токсина",
+        "Другие нервно-мышечные блокаторы (миорелаксанты): суммируют действие",
+        "С антихолинергическими препаратами может усиливать сухость"
+      ],
+      qollash: {
+        kattalar: "Внутримышечно, в индивидуальной дозе (ед/U) в зависимости от показания и мышцы, опытным врачом с ЭМГ/анатомическим ориентиром. Повторная инъекция обычно не чаще чем через 3 месяца.",
+        bolalar: "С 2 лет при спастичности по массе тела (ед/кг), в специализированных центрах; общая максимальная доза ограничена."
+      },
+      chiqarish: "Лиофилизированный порошок для инъекций 50, 100, 200 единиц (флакон, разводится физиологическим раствором)"
+    },
+    en: {
+      gruppa: "Peripherally acting muscle relaxants — botulinum neurotoxin A",
+      farmTasir: "Locally paralysing the muscle (neuromuscular transmission blocker)",
+      farmakodinamika: `Botulinum toxin A (Clostridium botulinum type A neurotoxin) is a peripherally acting muscle relaxant. Injected locally (intramuscularly) it cleaves the protein (SNAP-25) required for fusion of acetylcholine vesicles with the membrane at cholinergic nerve endings — so acetylcholine release stops and neuromuscular transmission is blocked. This produces local, reversible (lasting 3–6 months) paralysis/relaxation of the injected muscle. It also blocks cholinergic transmission in sweat and salivary glands (hyperhidrosis, sialorrhoea). As new nerve endings sprout, the effect gradually recovers.`,
+      farmakokinetika: {
+        sorish: "Injected intramuscularly; acts locally, systemic spread minimal (at correct dose).",
+        tarqalish: "At nerve endings of the injection site; effect begins in 2–3 days and is full in 1–2 weeks.",
+        metabolizm: "As a protein, degraded in tissue by proteases.",
+        chiqarilish: "Broken down locally; duration of action ~3–6 months (muscle), then a repeat injection is needed."
+      },
+      korsatmalar: [
+        "Muscle dystonias: blepharospasm, cervical dystonia (torticollis), hemifacial spasm",
+        "Spasticity in cerebral palsy and after stroke/trauma (limb muscles)",
+        "Prophylaxis of chronic migraine",
+        "Hyperhidrosis (excessive sweating — axillae, palms), sialorrhoea",
+        "In cosmetology, facial wrinkles (separate forms; here therapeutic neurological use is meant)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to botulinum toxin or product components",
+        "Infection or inflammation at the injection site",
+        "Generalised neuromuscular diseases: myasthenia gravis, Lambert-Eaton syndrome, ALS",
+        "Pregnancy and lactation; caution with aminoglycosides and other neuromuscular blockers"
+      ],
+      nojoya: {
+        "Local / muscle": "Injection-site pain, haematoma; excessive weakening of target or neighbouring muscles (e.g. ptosis, dysphagia in blepharospasm)",
+        "General": "Headache, flu-like state, weakness",
+        "Spread (rare, dangerous)": "Spread of toxin to distant muscles — swallowing and breathing impairment (especially in childhood spasticity), generalised weakness",
+        "Allergy": "Rash, pruritus; rarely anaphylaxis"
+      },
+      dozadan: "Symptoms: delayed (days-weeks) generalised muscle weakness, swallowing/breathing impairment (signs of botulism). Treatment: respiratory support (ventilation if needed), observation; in severe cases botulism antitoxin. Local, requires monitoring.",
+      ozarotasir: [
+        "Aminoglycoside antibiotics, polymyxins, local anaesthetics: enhance the neuromuscular block and toxin effect",
+        "Other neuromuscular blockers (muscle relaxants): additive effect",
+        "With anticholinergic drugs may increase dryness"
+      ],
+      qollash: {
+        kattalar: "Intramuscularly, at an individual dose (units/U) depending on indication and muscle, by an experienced physician with EMG/anatomical guidance. Repeat injection usually no sooner than every 3 months.",
+        bolalar: "From 2 years for spasticity by body weight (U/kg), in specialised centres; total maximum dose is limited."
+      },
+      chiqarish: "Lyophilised powder for injection 50, 100, 200 units (vial, reconstituted with saline)"
+    }
   }
 
 };
