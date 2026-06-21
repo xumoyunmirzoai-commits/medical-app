@@ -42932,6 +42932,367 @@ const PHARMA_DATA = {
       },
       chiqarish: "Enteric-coated tablets 5 and 10 mg (10,000 / 20,000 units)"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // Batch 6 — Mahalliy (topik) tayanch-harakat preparatlari (M02)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── DIMETILSULFOKSID | ATX: M02AX03 ──
+  "M02AX03": {
+    uz: {
+      gruppa: "Mahalliy qo'llaniladigan vositalar — dimetilsulfoksid (DMSO)",
+      farmTasir: "Mahalliy yallig'lanishga qarshi, og'riq qoldiruvchi, fibrinolitik, penetratsiya kuchaytiruvchi",
+      farmakodinamika: `Dimetilsulfoksid (DMSO) — mahalliy yallig'lanishga qarshi va analgetik vosita. Faol gidroksil radikallarini neytrallashtirib (antioksidant) yallig'lanishni kamaytiradi, og'riq impulslarining periferik nervlar bo'ylab o'tishini sekinlashtiradi (analgetik), o'rtacha fibrinolitik va to'qima shishini kamaytiruvchi ta'sirga ega. Muhim xususiyati — teri va shilliq pardalar orqali yaxshi penetratsiya qiladi va boshqa dorilarni (masalan NSAID, antibiotik) to'qima ichiga olib kira oladi (penetratsiya kuchaytiruvchi), shu sababli ko'pincha kombinatsiyalangan mahalliy preparatlar tarkibiga kiradi.`,
+      farmakokinetika: {
+        sorish: "Teri va shilliq pardalar orqali tez so'riladi; qonga o'tib to'qimalarga tarqaladi.",
+        tarqalish: "Barcha to'qimalarga keng tarqaladi.",
+        metabolizm: "Jigarda dimetilsulfidga (nafas orqali sarimsoq hidini beradi) va dimetilsulfonga oksidlanadi.",
+        chiqarilish: "Siydik va nafas (o'pka) orqali. Teri qo'llanishidan keyin og'iz/nafasda sarimsoqsimon hid paydo bo'ladi."
+      },
+      korsatmalar: [
+        "Bo'g'im va yumshoq to'qima yallig'lanishi: artrit, periartrit, bursit, tendovaginit",
+        "Travmatik shikastlanishlar: cho'zilish, lat yeyish, gematoma, shish",
+        "Radikulit, mialgiya, deformatsiyalovchi osteoartroz",
+        "Yiringli yaralar, kuyish, troyfik yaralar (kompres ko'rinishida, yordamchi)"
+      ],
+      qarrshi: [
+        "DMSOga o'ta sezgirlik",
+        "Og'ir jigar yoki buyrak yetishmovchiligi",
+        "Yurak-qon tomir og'ir kasalliklari, insult, ateroskleroz, miokard infarkti",
+        "Glaukoma, katarakta; homiladorlik va emizish; bolalik yoshi (cheklov)"
+      ],
+      nojoya: {
+        "Teri / mahalliy": "Qo'llash joyida qichima, qizarish, achishish, kontakt dermatit, quruqlik",
+        "Allergik": "Eshakemi; kamdan-kam — bronxospazm, angionevrotik shish",
+        "Umumiy": "Nafasda/og'izda sarimsoqsimon hid, ko'ngil aynishi, bosh aylanishi (yuqori konsentratsiyada)"
+      },
+      dozadan: "Yuqori konsentratsiyada yoki katta yuzaga qo'llaganda — bosh aylanishi, ko'ngil aynishi, og'ir allergik reaksiya. Davolash: preparatni yuvib tashlash, simptomatik. Konsentratsiya va yuzani cheklash.",
+      ozarotasir: [
+        "Boshqa mahalliy dorilarning teri orqali so'rilishini va ta'sirini (toksikligini ham) oshiradi — ehtiyot",
+        "Sensibilizatsiyalovchi vositalar bilan birga allergik reaksiya xavfi",
+        "Etanol bilan teri reaksiyasini kuchaytirishi mumkin"
+      ],
+      qollash: {
+        kattalar: "Mahalliy: 30–50% suvli eritma kompres yoki applikatsiya ko'rinishida kuniga 1–3 marta (sezgirlik sinovidan keyin). Shilliq pardaga 10–30%. Kurs 10–15 kun. Avval teri sinovini o'tkazish tavsiya etiladi.",
+        bolalar: "Past konsentratsiyada (10–20%), shifokor nazorati ostida."
+      },
+      chiqarish: "Tashqi qo'llash uchun suyuqlik (kontsentrat) 50–100 ml; gel; kombinatsiyalangan mahalliy preparatlar tarkibida"
+    },
+    ru: {
+      gruppa: "Средства местного применения — диметилсульфоксид (ДМСО)",
+      farmTasir: "Местное противовоспалительное, анальгезирующее, фибринолитическое, усиливающее проникновение",
+      farmakodinamika: `Диметилсульфоксид (ДМСО) — местное противовоспалительное и анальгезирующее средство. Нейтрализуя активные гидроксильные радикалы (антиоксидант), уменьшает воспаление, замедляет проведение болевых импульсов по периферическим нервам (анальгезия), обладает умеренным фибринолитическим и противоотёчным действием. Важная особенность — хорошо проникает через кожу и слизистые и способен переносить в ткань другие препараты (НПВС, антибиотики) — усилитель проникновения, поэтому часто входит в состав комбинированных местных препаратов.`,
+      farmakokinetika: {
+        sorish: "Быстро всасывается через кожу и слизистые; попадает в кровь и распределяется в тканях.",
+        tarqalish: "Широко распределяется во все ткани.",
+        metabolizm: "В печени окисляется до диметилсульфида (даёт чесночный запах при дыхании) и диметилсульфона.",
+        chiqarilish: "Почками и через дыхание (лёгкие). После накожного применения появляется чесночный запах изо рта/при дыхании."
+      },
+      korsatmalar: [
+        "Воспаление суставов и мягких тканей: артрит, периартрит, бурсит, тендовагинит",
+        "Травматические повреждения: растяжение, ушиб, гематома, отёк",
+        "Радикулит, миалгия, деформирующий остеоартроз",
+        "Гнойные раны, ожоги, трофические язвы (в виде компресса, вспомогательно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к ДМСО",
+        "Тяжёлая печёночная или почечная недостаточность",
+        "Тяжёлые сердечно-сосудистые заболевания, инсульт, атеросклероз, инфаркт миокарда",
+        "Глаукома, катаракта; беременность и лактация; детский возраст (ограничения)"
+      ],
+      nojoya: {
+        "Кожа / местные": "Зуд, покраснение, жжение в месте нанесения, контактный дерматит, сухость",
+        "Аллергия": "Крапивница; редко — бронхоспазм, ангионевротический отёк",
+        "Общие": "Чесночный запах при дыхании/изо рта, тошнота, головокружение (при высокой концентрации)"
+      },
+      dozadan: "При высокой концентрации или нанесении на большую площадь — головокружение, тошнота, тяжёлая аллергическая реакция. Лечение: смыть препарат, симптоматически. Ограничить концентрацию и площадь.",
+      ozarotasir: [
+        "Усиливает чрескожное всасывание и действие (в т.ч. токсичность) других местных препаратов — осторожно",
+        "С сенсибилизирующими средствами риск аллергической реакции",
+        "С этанолом может усиливать кожную реакцию"
+      ],
+      qollash: {
+        kattalar: "Местно: 30–50% водный раствор в виде компресса или аппликации 1–3 раза в день (после пробы на чувствительность). На слизистую 10–30%. Курс 10–15 дней. Рекомендуется предварительная кожная проба.",
+        bolalar: "В низкой концентрации (10–20%), под контролем врача."
+      },
+      chiqarish: "Жидкость для наружного применения (концентрат) 50–100 мл; гель; в составе комбинированных местных препаратов"
+    },
+    en: {
+      gruppa: "Topical agents — dimethyl sulfoxide (DMSO)",
+      farmTasir: "Topical anti-inflammatory, analgesic, fibrinolytic, penetration enhancer",
+      farmakodinamika: `Dimethyl sulfoxide (DMSO) is a topical anti-inflammatory and analgesic agent. By neutralising reactive hydroxyl radicals (antioxidant) it reduces inflammation, slows conduction of pain impulses along peripheral nerves (analgesia), and has moderate fibrinolytic and anti-oedema action. A key feature is that it penetrates skin and mucosa well and can carry other drugs (NSAIDs, antibiotics) into tissue — a penetration enhancer, so it is often a component of combined topical preparations.`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed through skin and mucosa; enters the blood and distributes in tissues.",
+        tarqalish: "Widely distributed to all tissues.",
+        metabolizm: "Oxidised in the liver to dimethyl sulfide (gives a garlic odour on breathing) and dimethyl sulfone.",
+        chiqarilish: "Renal and via respiration (lungs). After dermal use a garlic-like odour appears on the breath/mouth."
+      },
+      korsatmalar: [
+        "Joint and soft-tissue inflammation: arthritis, periarthritis, bursitis, tenosynovitis",
+        "Traumatic injuries: sprain, contusion, haematoma, swelling",
+        "Radiculitis, myalgia, deforming osteoarthritis",
+        "Purulent wounds, burns, trophic ulcers (as a compress, adjunct)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to DMSO",
+        "Severe hepatic or renal failure",
+        "Severe cardiovascular disease, stroke, atherosclerosis, myocardial infarction",
+        "Glaucoma, cataract; pregnancy and lactation; childhood (restrictions)"
+      ],
+      nojoya: {
+        "Skin / local": "Pruritus, redness, burning at the application site, contact dermatitis, dryness",
+        "Allergy": "Urticaria; rarely bronchospasm, angioedema",
+        "General": "Garlic-like odour on breathing/mouth, nausea, dizziness (at high concentration)"
+      },
+      dozadan: "At high concentration or applied over a large area — dizziness, nausea, severe allergic reaction. Treatment: wash off, symptomatic. Limit concentration and area.",
+      ozarotasir: [
+        "Increases transdermal absorption and effect (including toxicity) of other topical drugs — caution",
+        "With sensitising agents, allergic reaction risk",
+        "With ethanol may intensify the skin reaction"
+      ],
+      qollash: {
+        kattalar: "Topically: 30–50% aqueous solution as a compress or application 1–3 times daily (after a sensitivity test). On mucosa 10–30%. Course 10–15 days. A preliminary skin test is advised.",
+        bolalar: "At low concentration (10–20%), under medical supervision."
+      },
+      chiqarish: "Liquid for external use (concentrate) 50–100 mL; gel; within combined topical preparations"
+    }
+  },
+
+  // ── KAPSAITSIN / QALAMPIR EKSTRAKTI | ATX: M02AB ──
+  "M02AB": {
+    uz: {
+      gruppa: "Mahalliy qo'llaniladigan vositalar — kapsaitsin (achchiq qalampir ekstrakti)",
+      farmTasir: "Mahalliy chalg'ituvchi, og'riq qoldiruvchi (qizdiruvchi-revulsiv)",
+      farmakodinamika: `Kapsaitsin — achchiq qalampir (Capsicum) ekstraktining faol komponenti. Teri sezgir nerv tolalaridagi vanilloid (TRPV1) retseptorlarini qo'zg'atadi — dastlab issiqlik va achishish hissi, qizarish (revulsiv-qizdiruvchi ta'sir) chaqiradi, qon oqimini oshiradi. Takroriy qo'llashda nerv uchlaridan og'riq mediatorini (substansiya P) zaxirasini bo'shatib, uni qayta to'planishini kamaytiradi — natijada og'riq sezuvchanligi pasayadi (desensibilizatsiya). Mahalliy chalg'ituvchi va analgetik vosita sifatida mushak-bo'g'im og'riqlarida qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Teri orqali mahalliy ta'sir qiladi; tizimli so'rilish kam.",
+        tarqalish: "Qo'llash joyidagi teri va nerv uchlarida ta'sir qiladi.",
+        metabolizm: "Mahalliy va jigarda (so'rilgan qismi).",
+        chiqarilish: "So'rilgan qismi metabolitlar ko'rinishida siydik orqali."
+      },
+      korsatmalar: [
+        "Mushak va bo'g'im og'riqlari: mialgiya, artralgiya, lyumbago, radikulit",
+        "Osteoartroz og'rig'i (mahalliy)",
+        "Diabetik va postgerpetik neyropatik og'riq (yuqori konsentratsiyali maxsus shakllar)",
+        "Sovuq qotish, mushak chigallashishi (qizdiruvchi vosita sifatida)"
+      ],
+      qarrshi: [
+        "Kapsaitsin yoki qalampir ekstraktiga o'ta sezgirlik",
+        "Teri butunligi buzilgan joylar, ochiq jarohat, ekzema, dermatit",
+        "Shilliq pardalarga, ko'z atrofiga surtish",
+        "Homiladorlik va emizish; kichik bolalar (cheklov)"
+      ],
+      nojoya: {
+        "Teri / mahalliy": "Kuchli achishish, qizarish, issiqlik hissi, qichima; ortiqcha qo'llaganda — kuyish, qovuq",
+        "Nafas": "Bug'i nafas yo'llariga tushsa — yo'tal, aksirish, achishish",
+        "Allergik": "Kontakt dermatit, toshma (kamdan-kam)"
+      },
+      dozadan: "Ortiqcha yoki butun yuzaga qo'llaganda kuchli achishish va teri kuyishi. Davolash: yog'li krem yoki o'simlik moyi bilan artib tashlash (suv kam yordam beradi — kapsaitsin yog'da eriydi), simptomatik.",
+      ozarotasir: [
+        "Qizdiruvchi muolajalar (issiqlik, vanna) bilan ta'sir kuchayadi — birga ishlatmaslik",
+        "AAF inhibitorlari bilan teoretik yo'tal kuchayishi"
+      ],
+      qollash: {
+        kattalar: "Mahalliy: oz miqdorda surtib, kuniga 3–4 marta, qo'llaganidan keyin qo'lni yaxshilab yuvish. Kurs odatda 1–2 hafta. Ko'z va shilliq pardadan saqlanish.",
+        bolalar: "Kichik bolalarga tavsiya etilmaydi; kattaroq bolalarda shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "Krem/mazь, gel, mahalliy eritma; isituvchi plastir (yamoq) — kapsaitsin saqlovchi"
+    },
+    ru: {
+      gruppa: "Средства местного применения — капсаицин (экстракт стручкового перца)",
+      farmTasir: "Местнораздражающее, анальгезирующее (согревающее-отвлекающее)",
+      farmakodinamika: `Капсаицин — активный компонент экстракта стручкового перца (Capsicum). Возбуждает ванилоидные (TRPV1) рецепторы чувствительных нервных волокон кожи — вызывает сначала ощущение тепла и жжения, покраснение (отвлекающе-согревающее действие), усиливает кровоток. При повторном применении истощает запас медиатора боли (субстанция P) в нервных окончаниях и снижает его повторное накопление — в итоге снижается болевая чувствительность (десенсибилизация). Применяется как местнораздражающее и анальгезирующее средство при мышечно-суставных болях.`,
+      farmakokinetika: {
+        sorish: "Действует местно через кожу; системное всасывание невелико.",
+        tarqalish: "Действует в коже и нервных окончаниях места нанесения.",
+        metabolizm: "Местно и в печени (всосавшаяся часть).",
+        chiqarilish: "Всосавшаяся часть в виде метаболитов почками."
+      },
+      korsatmalar: [
+        "Мышечные и суставные боли: миалгия, артралгия, люмбаго, радикулит",
+        "Боль при остеоартрозе (местно)",
+        "Диабетическая и постгерпетическая нейропатическая боль (специальные высококонцентрированные формы)",
+        "Переохлаждение, мышечные спазмы (как согревающее средство)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к капсаицину или экстракту перца",
+        "Места нарушения целостности кожи, открытые раны, экзема, дерматит",
+        "Нанесение на слизистые, вокруг глаз",
+        "Беременность и лактация; маленькие дети (ограничения)"
+      ],
+      nojoya: {
+        "Кожа / местные": "Сильное жжение, покраснение, ощущение тепла, зуд; при избытке — ожог, волдыри",
+        "Дыхание": "При попадании паров в дыхательные пути — кашель, чихание, жжение",
+        "Аллергия": "Контактный дерматит, сыпь (редко)"
+      },
+      dozadan: "При избытке или нанесении на большую площадь — сильное жжение и ожог кожи. Лечение: удалить жирным кремом или растительным маслом (вода помогает слабо — капсаицин растворим в жирах), симптоматически.",
+      ozarotasir: [
+        "С согревающими процедурами (тепло, ванна) действие усиливается — не сочетать",
+        "С иАПФ теоретически усиление кашля"
+      ],
+      qollash: {
+        kattalar: "Местно: небольшое количество, 3–4 раза в день, после нанесения тщательно вымыть руки. Курс обычно 1–2 недели. Избегать глаз и слизистых.",
+        bolalar: "Маленьким детям не рекомендуется; у старших по назначению врача."
+      },
+      chiqarish: "Крем/мазь, гель, местный раствор; согревающий пластырь — с капсаицином"
+    },
+    en: {
+      gruppa: "Topical agents — capsaicin (capsicum/chilli pepper extract)",
+      farmTasir: "Topical counter-irritant, analgesic (warming-rubefacient)",
+      farmakodinamika: `Capsaicin is the active component of capsicum (chilli pepper) extract. It excites vanilloid (TRPV1) receptors on cutaneous sensory nerve fibres — first causing a sensation of warmth and burning, redness (counter-irritant/rubefacient effect) and increased blood flow. With repeated use it depletes the store of the pain mediator (substance P) at nerve endings and reduces its re-accumulation — ultimately lowering pain sensitivity (desensitisation). It is used as a topical counter-irritant and analgesic for musculoskeletal pain.`,
+      farmakokinetika: {
+        sorish: "Acts locally through the skin; systemic absorption is low.",
+        tarqalish: "Acts in the skin and nerve endings at the application site.",
+        metabolizm: "Local and hepatic (absorbed portion).",
+        chiqarilish: "Absorbed portion as metabolites in urine."
+      },
+      korsatmalar: [
+        "Muscle and joint pain: myalgia, arthralgia, lumbago, radiculitis",
+        "Osteoarthritis pain (topical)",
+        "Diabetic and post-herpetic neuropathic pain (special high-concentration forms)",
+        "Cold exposure, muscle spasm (as a warming agent)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to capsaicin or pepper extract",
+        "Areas of broken skin, open wounds, eczema, dermatitis",
+        "Application to mucosa, around the eyes",
+        "Pregnancy and lactation; young children (restrictions)"
+      ],
+      nojoya: {
+        "Skin / local": "Strong burning, redness, sensation of warmth, pruritus; with excess — burn, blisters",
+        "Respiratory": "If vapours reach the airways — cough, sneezing, burning",
+        "Allergy": "Contact dermatitis, rash (rare)"
+      },
+      dozadan: "With excess or application over a large area — strong burning and skin burn. Treatment: remove with a fatty cream or vegetable oil (water helps little — capsaicin is fat-soluble), symptomatic.",
+      ozarotasir: [
+        "With warming procedures (heat, bath) the effect is enhanced — do not combine",
+        "With ACE inhibitors theoretically increased cough"
+      ],
+      qollash: {
+        kattalar: "Topically: a small amount 3–4 times daily, wash hands thoroughly after application. Course usually 1–2 weeks. Avoid eyes and mucosa.",
+        bolalar: "Not recommended for young children; in older children as prescribed."
+      },
+      chiqarish: "Cream/ointment, gel, topical solution; warming plaster (patch) — capsaicin-containing"
+    }
+  },
+
+  // ── KAMFORA (mahalliy) | ATX: M02AX10 ──
+  "M02AX10": {
+    uz: {
+      gruppa: "Mahalliy qo'llaniladigan vositalar — kamfora va kombinatsiyalangan revulsiv preparatlar",
+      farmTasir: "Mahalliy chalg'ituvchi, qizdiruvchi, antiseptik, og'riq qoldiruvchi",
+      farmakodinamika: `Kamfora — terpen hosilasi bo'lgan mahalliy chalg'ituvchi (revulsiv) va antiseptik vosita. Teriga surtilganda sezgir nerv uchlarini qo'zg'atadi, mahalliy qon oqimini oshiradi, yengil sovuq-keyin issiqlik hissi (chalg'ituvchi ta'sir) chaqiradi — og'riq sezuvchanligini chalg'itib kamaytiradi. O'rtacha yallig'lanishga qarshi va antiseptik ta'sirga ega. Ushbu kod (M02AX10) ko'pincha kamfora, mentol, metilsalitsilat, terpentin moyi va boshqa revulsivlardan iborat kombinatsiyalangan mahalliy preparatlarni ham bildiradi — ular mushak-bo'g'im og'riqlarida birgalikda qizdiruvchi-analgetik ta'sir beradi.`,
+      farmakokinetika: {
+        sorish: "Teri orqali qisman so'riladi; mahalliy ta'sir asosiy.",
+        tarqalish: "Qo'llash joyi va atrofidagi to'qimalar.",
+        metabolizm: "Jigarda (so'rilgan qism) glyukuronlanish bilan.",
+        chiqarilish: "Asosan siydik orqali konyugat ko'rinishida."
+      },
+      korsatmalar: [
+        "Mushak va bo'g'im og'riqlari: mialgiya, artralgiya, lyumbago, radikulit, nevralgiya",
+        "Sport jarohatlari, cho'zilish, lat yeyishdan keyingi og'riq",
+        "Sovuq qotish, mushak chigallashishi (qizdiruvchi vosita)",
+        "Yengil yallig'lanishli va og'riqli holatlarda surtish"
+      ],
+      qarrshi: [
+        "Kamfora yoki kombinatsiya komponentlariga o'ta sezgirlik",
+        "Teri butunligi buzilgan joylar, ochiq jarohat, ekzema, dermatit",
+        "Tutqanoq (epilepsiya) — kamfora qo'zg'atuvchi ta'siri",
+        "Kichik bolalar (ayniqsa mentol/kamforani burunga yaqin surtish — laringospazm xavfi); homiladorlik va emizishda ehtiyot"
+      ],
+      nojoya: {
+        "Teri / mahalliy": "Qichima, qizarish, achishish, kontakt dermatit",
+        "Allergik": "Toshma, eshakemi",
+        "Umumiy (ortiqcha so'rilishda)": "Bosh og'rig'i, bosh aylanishi, qo'zg'aluvchanlik; juda yuqori dozada — tutqanoq (kamforaga xos)"
+      },
+      dozadan: "Ortiqcha qo'llash yoki tasodifan yutib yuborilganda (ayniqsa bolalarda kamfora): qo'zg'aluvchanlik, tutqanoq, ko'ngil aynishi. Davolash: simptomatik, tutqanoqqa qarshi; teridan yuvib tashlash.",
+      ozarotasir: [
+        "Boshqa mahalliy revulsiv/qizdiruvchi vositalar bilan birga teri ta'siri kuchayadi",
+        "Qizdiruvchi muolajalar bilan birga ishlatilmaydi"
+      ],
+      qollash: {
+        kattalar: "Mahalliy: og'riqli sohaga kuniga 2–3 marta surtib, yengil massaj qilinadi. Surtgandan keyin qo'l yuviladi; ko'z va shilliq pardadan saqlanadi.",
+        bolalar: "Kichik bolalarga (ayniqsa 2 yoshgacha) tavsiya etilmaydi; kattaroq bolalarda ehtiyot bilan."
+      },
+      chiqarish: "Mazь, krem, gel, balzam, surtma eritma (kamfora va kombinatsiyalangan revulsiv preparatlar)"
+    },
+    ru: {
+      gruppa: "Средства местного применения — камфора и комбинированные раздражающие препараты",
+      farmTasir: "Местнораздражающее, согревающее, антисептическое, анальгезирующее",
+      farmakodinamika: `Камфора — местнораздражающее (отвлекающее) и антисептическое средство, производное терпена. При нанесении на кожу возбуждает чувствительные нервные окончания, усиливает местный кровоток, вызывает лёгкое ощущение прохлады с последующим теплом (отвлекающее действие) — отвлекает и снижает болевую чувствительность. Обладает умеренным противовоспалительным и антисептическим действием. Данный код (M02AX10) часто обозначает и комбинированные местные препараты из камфоры, ментола, метилсалицилата, скипидара и других раздражающих веществ — они дают совместный согревающе-анальгезирующий эффект при мышечно-суставных болях.`,
+      farmakokinetika: {
+        sorish: "Частично всасывается через кожу; основное действие местное.",
+        tarqalish: "Место нанесения и окружающие ткани.",
+        metabolizm: "В печени (всосавшаяся часть) с глюкуронированием.",
+        chiqarilish: "Преимущественно почками в виде конъюгатов."
+      },
+      korsatmalar: [
+        "Мышечные и суставные боли: миалгия, артралгия, люмбаго, радикулит, невралгия",
+        "Спортивные травмы, боль после растяжения, ушиба",
+        "Переохлаждение, мышечные спазмы (согревающее средство)",
+        "Растирание при лёгких воспалительных и болевых состояниях"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к камфоре или компонентам комбинации",
+        "Места нарушения целостности кожи, открытые раны, экзема, дерматит",
+        "Судороги (эпилепсия) — возбуждающее действие камфоры",
+        "Маленькие дети (особенно нанесение ментола/камфоры близко к носу — риск ларингоспазма); осторожно при беременности и лактации"
+      ],
+      nojoya: {
+        "Кожа / местные": "Зуд, покраснение, жжение, контактный дерматит",
+        "Аллергия": "Сыпь, крапивница",
+        "Общие (при избыточном всасывании)": "Головная боль, головокружение, возбуждение; при очень высокой дозе — судороги (характерно для камфоры)"
+      },
+      dozadan: "При избыточном применении или случайном проглатывании (особенно камфоры у детей): возбуждение, судороги, тошнота. Лечение: симптоматически, противосудорожные; смыть с кожи.",
+      ozarotasir: [
+        "С другими местнораздражающими/согревающими средствами усиливается кожное действие",
+        "Не применять вместе с согревающими процедурами"
+      ],
+      qollash: {
+        kattalar: "Местно: наносить на болезненную область 2–3 раза в день с лёгким массажем. После нанесения вымыть руки; избегать глаз и слизистых.",
+        bolalar: "Маленьким детям (особенно до 2 лет) не рекомендуется; у старших с осторожностью."
+      },
+      chiqarish: "Мазь, крем, гель, бальзам, раствор для растирания (камфора и комбинированные раздражающие препараты)"
+    },
+    en: {
+      gruppa: "Topical agents — camphor and combined counter-irritant preparations",
+      farmTasir: "Topical counter-irritant, warming, antiseptic, analgesic",
+      farmakodinamika: `Camphor is a topical counter-irritant and antiseptic agent, a terpene derivative. Applied to the skin it excites sensory nerve endings, increases local blood flow, and produces a mild cool-then-warm sensation (counter-irritant effect) — distracting from and reducing pain sensitivity. It has moderate anti-inflammatory and antiseptic action. This code (M02AX10) also often denotes combined topical preparations of camphor, menthol, methyl salicylate, turpentine and other irritants — together giving a warming-analgesic effect in musculoskeletal pain.`,
+      farmakokinetika: {
+        sorish: "Partly absorbed through the skin; the main action is local.",
+        tarqalish: "Application site and surrounding tissues.",
+        metabolizm: "Hepatic (absorbed portion) with glucuronidation.",
+        chiqarilish: "Mainly renal as conjugates."
+      },
+      korsatmalar: [
+        "Muscle and joint pain: myalgia, arthralgia, lumbago, radiculitis, neuralgia",
+        "Sports injuries, pain after sprain, contusion",
+        "Cold exposure, muscle spasm (warming agent)",
+        "Rubbing in mild inflammatory and painful conditions"
+      ],
+      qarrshi: [
+        "Hypersensitivity to camphor or combination components",
+        "Areas of broken skin, open wounds, eczema, dermatitis",
+        "Seizures (epilepsy) — camphor's excitatory action",
+        "Young children (especially applying menthol/camphor near the nose — laryngospasm risk); caution in pregnancy and lactation"
+      ],
+      nojoya: {
+        "Skin / local": "Pruritus, redness, burning, contact dermatitis",
+        "Allergy": "Rash, urticaria",
+        "General (with excess absorption)": "Headache, dizziness, agitation; at very high dose — convulsions (characteristic of camphor)"
+      },
+      dozadan: "With excessive use or accidental swallowing (especially camphor in children): agitation, convulsions, nausea. Treatment: symptomatic, anticonvulsants; wash off the skin.",
+      ozarotasir: [
+        "With other topical counter-irritants/warming agents the skin effect is enhanced",
+        "Do not use together with warming procedures"
+      ],
+      qollash: {
+        kattalar: "Topically: apply to the painful area 2–3 times daily with light massage. Wash hands after application; avoid eyes and mucosa.",
+        bolalar: "Not recommended for young children (especially under 2 years); in older children with caution."
+      },
+      chiqarish: "Ointment, cream, gel, balm, rubbing solution (camphor and combined counter-irritant preparations)"
+    }
   }
 
 };
