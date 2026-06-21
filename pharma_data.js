@@ -41436,6 +41436,908 @@ const PHARMA_DATA = {
       },
       chiqarish: "Tablets 25 mg; granules/solution 25 mg; injection 50 mg/2 mL"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // Batch 4 — Koksiblar va boshqa NSAID
+  // ═══════════════════════════════════════════════════════════
+
+  // ── TSELEKOKSIB | ATX: M01AH01 ──
+  "M01AH01": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — selektiv COX-2 inhibitori (koksiblar)",
+      farmTasir: "Yallig'lanishga qarshi, og'riq qoldiruvchi (selektiv COX-2)",
+      farmakodinamika: `Tselekoksib — selektiv siklooksigenaza-2 (COX-2) inhibitori bo'lgan koksiblar guruhi NSAID. Yallig'lanish o'chog'ida indutsirlanadigan COX-2 ni tanlab ingibe qilib prostaglandin sintezini kamaytiradi, oshqozon shilliq qavati va trombotsitlarni himoya qiluvchi COX-1 ga terapevtik dozada deyarli ta'sir qilmaydi. Shu sababli oshqozon-ichak eroziya/yara va qon ketish xavfi klassik neselektiv NSAIDlardan past, trombotsit agregatsiyasiga ta'sir qilmaydi. Yallig'lanishga qarshi va analgetik ta'sirga ega. Yurak-qon tomir tromboz xavfini biroz oshirishi mumkin (COX-2 selektivligiga xos).`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi, Cmax ~2–3 soatda. Yog'li ovqat so'rilishni biroz oshiradi.",
+        tarqalish: "Plazma oqsillariga bog'lanish — ~97%. Taqsimlanish hajmi ~400 L (to'qimalarga keng).",
+        metabolizm: "Jigarda asosan CYP2C9 ishtirokida metabolizatsiya (faolsiz metabolitlar).",
+        chiqarilish: "Asosan najas va siydik orqali metabolit ko'rinishida. T½ — ~11 soat."
+      },
+      korsatmalar: [
+        "Osteoartroz (og'riq va yallig'lanish)",
+        "Revmatoid artrit",
+        "Ankilozlovchi spondiloartrit (Bextrew kasalligi)",
+        "O'tkir og'riq, birlamchi dismenoreya",
+        "Oilaviy adenomatoz polipoz (qo'shimcha terapiya — ayrim mamlakatlarda)"
+      ],
+      qarrshi: [
+        "Tselekoksib, sulfonamidlar yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish",
+        "Og'ir yurak yetishmovchiligi, isxemik yurak kasalligi, periferik arteriya kasalligi, serebrovaskulyar kasallik",
+        "Og'ir jigar yoki buyrak yetishmovchiligi",
+        "Koronar shuntlashdan keyingi davr; homiladorlikning III trimestri, emizish"
+      ],
+      nojoya: {
+        "Yurak-qon tomir": "AB oshishi, shish; miokard infarkti va insult xavfining ortishi (ayniqsa yuqori doza/uzoq qabulda)",
+        "Hazm tizimi": "Dispepsiya, qorin og'rig'i, diareya, ko'ngil aynishi; yara, qon ketish (klassik NSAIDga qaraganda kamroq)",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyqusizlik",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi, suyuqlik tutilishi; toshma, kamdan-kam — og'ir teri reaksiyalari (Stivens-Jonson)",
+        "Qon": "Anemiya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, epigastral og'riq, uyquchanlik; og'ir holatda — qon ketish, AB oshishi, o'tkir buyrak yetishmovchiligi. Davolash: simptomatik, faollashtirilgan ko'mir; gemodializ samarasiz (oqsilga bog'lanish yuqori).",
+      ozarotasir: [
+        "Varfarin va boshqa antikoagulyantlar bilan qon ketish xavfi (INR nazorati)",
+        "CYP2C9 inhibitorlari (flukonazol) tselekoksib konsentratsiyasini oshiradi — doza yarmiga kamaytiriladi",
+        "Litiy konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari, ARB ta'sirini susaytiradi, buyrak shikastlanishi xavfi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: osteoartroz 200 mg/kun 1–2 ta qabulda; revmatoid artrit 100–200 mg×2/kun; ankilozlovchi spondiloartrit 200 mg/kun. O'tkir og'riq/dismenoreya: 1-kuni 400 mg, keyin 200 mg×2/kun. Maks. 400 mg/kun.",
+        bolalar: "Yuvenil revmatoid artritda 2 yoshdan vaznga qarab (10–25 kg: 50 mg×2/kun; >25 kg: 100 mg×2/kun)."
+      },
+      chiqarish: "Kapsulalar 100, 200 mg (ayrim mamlakatlarда 400 mg)"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — селективный ингибитор ЦОГ-2 (коксибы)",
+      farmTasir: "Противовоспалительное, анальгезирующее (селективный ЦОГ-2)",
+      farmakodinamika: `Целекоксиб — НПВС группы коксибов, селективный ингибитор циклооксигеназы-2 (ЦОГ-2). Избирательно ингибирует индуцируемую в очаге воспаления ЦОГ-2, снижая синтез простагландинов, и в терапевтической дозе почти не влияет на ЦОГ-1, защищающую слизистую желудка и тромбоциты. Поэтому риск эрозий/язв и кровотечений ЖКТ ниже, чем у классических неселективных НПВС, не влияет на агрегацию тромбоцитов. Обладает противовоспалительным и анальгезирующим действием. Может несколько повышать риск сердечно-сосудистых тромбозов (свойственно ЦОГ-2-селективности).`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается хорошо, Cmax через ~2–3 ч. Жирная пища несколько повышает всасывание.",
+        tarqalish: "Связь с белками плазмы — ~97%. Объём распределения ~400 л (широкое тканевое распределение).",
+        metabolizm: "В печени преимущественно при участии CYP2C9 (неактивные метаболиты).",
+        chiqarilish: "Преимущественно с калом и мочой в виде метаболитов. T½ — ~11 ч."
+      },
+      korsatmalar: [
+        "Остеоартроз (боль и воспаление)",
+        "Ревматоидный артрит",
+        "Анкилозирующий спондилоартрит (болезнь Бехтерева)",
+        "Острая боль, первичная дисменорея",
+        "Семейный аденоматозный полипоз (вспомогательно — в отдельных странах)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к целекоксибу, сульфонамидам или НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение",
+        "Тяжёлая сердечная недостаточность, ИБС, заболевание периферических артерий, цереброваскулярная болезнь",
+        "Тяжёлая печёночная или почечная недостаточность",
+        "Период после коронарного шунтирования; III триместр беременности, лактация"
+      ],
+      nojoya: {
+        "Сердечно-сосудистая система": "Повышение АД, отёки; рост риска инфаркта миокарда и инсульта (особенно при высокой дозе/длительном приёме)",
+        "Пищеварительная система": "Диспепсия, боль в животе, диарея, тошнота; язва, кровотечение (реже, чем у классических НПВС)",
+        "Нервная система": "Головная боль, головокружение, бессонница",
+        "Почки / кожа": "Нарушение функции почек, задержка жидкости; сыпь, редко — тяжёлые кожные реакции (Стивенса-Джонсона)",
+        "Кровь": "Анемия (редко)"
+      },
+      dozadan: "Симптомы: тошнота, эпигастральная боль, сонливость; в тяжёлых случаях — кровотечение, повышение АД, ОПН. Лечение: симптоматически, активированный уголь; гемодиализ неэффективен (высокая связь с белками).",
+      ozarotasir: [
+        "С варфарином и другими антикоагулянтами — риск кровотечения (контроль МНО)",
+        "Ингибиторы CYP2C9 (флуконазол) повышают концентрацию целекоксиба — доза уменьшается вдвое",
+        "Повышает концентрацию лития",
+        "Ослабляет действие диуретиков, иАПФ, БРА, риск поражения почек"
+      ],
+      qollash: {
+        kattalar: "Внутрь: остеоартроз 200 мг/сут в 1–2 приёма; ревматоидный артрит 100–200 мг×2/сут; анкилозирующий спондилоартрит 200 мг/сут. Острая боль/дисменорея: 1-й день 400 мг, затем 200 мг×2/сут. Максимум 400 мг/сут.",
+        bolalar: "При ювенильном ревматоидном артрите с 2 лет по массе (10–25 кг: 50 мг×2/сут; >25 кг: 100 мг×2/сут)."
+      },
+      chiqarish: "Капсулы 100, 200 мг (в отдельных странах 400 мг)"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — selective COX-2 inhibitor (coxibs)",
+      farmTasir: "Anti-inflammatory, analgesic (selective COX-2)",
+      farmakodinamika: `Celecoxib is a coxib NSAID, a selective cyclooxygenase-2 (COX-2) inhibitor. It selectively inhibits COX-2 induced at sites of inflammation, reducing prostaglandin synthesis, and at therapeutic doses barely affects COX-1, which protects gastric mucosa and platelets. Thus the risk of GI erosions/ulcers and bleeding is lower than classical non-selective NSAIDs, and it does not affect platelet aggregation. It has anti-inflammatory and analgesic action. It may slightly raise cardiovascular thrombotic risk (a class feature of COX-2 selectivity).`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally, Cmax in ~2–3 h. A fatty meal slightly increases absorption.",
+        tarqalish: "Plasma protein binding — ~97%. Volume of distribution ~400 L (wide tissue distribution).",
+        metabolizm: "Hepatic mainly via CYP2C9 (inactive metabolites).",
+        chiqarilish: "Mainly faecal and renal as metabolites. T½ — ~11 h."
+      },
+      korsatmalar: [
+        "Osteoarthritis (pain and inflammation)",
+        "Rheumatoid arthritis",
+        "Ankylosing spondylitis (Bechterew disease)",
+        "Acute pain, primary dysmenorrhoea",
+        "Familial adenomatous polyposis (adjunct — in some countries)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to celecoxib, sulfonamides or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding",
+        "Severe heart failure, ischaemic heart disease, peripheral artery disease, cerebrovascular disease",
+        "Severe hepatic or renal failure",
+        "Period after coronary bypass surgery; third trimester of pregnancy, lactation"
+      ],
+      nojoya: {
+        "Cardiovascular system": "Raised BP, oedema; increased risk of myocardial infarction and stroke (especially high dose/long-term)",
+        "Digestive system": "Dyspepsia, abdominal pain, diarrhoea, nausea; ulcer, bleeding (less than classical NSAIDs)",
+        "Nervous system": "Headache, dizziness, insomnia",
+        "Kidneys / skin": "Renal impairment, fluid retention; rash, rarely severe skin reactions (Stevens-Johnson)",
+        "Blood": "Anaemia (rare)"
+      },
+      dozadan: "Symptoms: nausea, epigastric pain, drowsiness; in severe cases bleeding, raised BP, acute kidney injury. Treatment: symptomatic, activated charcoal; haemodialysis ineffective (high protein binding).",
+      ozarotasir: [
+        "With warfarin and other anticoagulants — bleeding risk (INR monitoring)",
+        "CYP2C9 inhibitors (fluconazole) raise celecoxib concentration — halve the dose",
+        "Raises lithium concentration",
+        "Weakens diuretics, ACE inhibitors, ARBs, renal injury risk"
+      ],
+      qollash: {
+        kattalar: "Orally: osteoarthritis 200 mg/day in 1–2 doses; rheumatoid arthritis 100–200 mg×2/day; ankylosing spondylitis 200 mg/day. Acute pain/dysmenorrhoea: day 1 400 mg, then 200 mg×2/day. Maximum 400 mg/day.",
+        bolalar: "In juvenile rheumatoid arthritis from 2 years by weight (10–25 kg: 50 mg×2/day; >25 kg: 100 mg×2/day)."
+      },
+      chiqarish: "Capsules 100, 200 mg (400 mg in some countries)"
+    }
+  },
+
+  // ── PAREKOKSIB | ATX: M01AH04 ──
+  "M01AH04": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — selektiv COX-2 inhibitori (parenteral koksib)",
+      farmTasir: "Og'riq qoldiruvchi, yallig'lanishga qarshi (parenteral, selektiv COX-2)",
+      farmakodinamika: `Parekoksib — valdekoksibning suvda eruvchan oldmoddasi (prodrug); organizmda tez gidrolizlanib faol valdekoksibga aylanadi. Valdekoksib — selektiv COX-2 inhibitori bo'lib, yallig'lanish o'chog'idagi prostaglandin sintezini kamaytiradi, COX-1 ga deyarli ta'sir qilmaydi. Parenteral (i/m, i/v) yuborilishi tufayli operatsiyadan keyingi o'tkir og'riqni davolashda qulay. Trombotsit agregatsiyasiga ta'sir qilmaydi.`,
+      farmakokinetika: {
+        sorish: "I/v yoki i/m yuboriladi; tez gidrolizlanib valdekoksib hosil bo'ladi (Cmax i/v ~30 daqiqa, i/m ~1 soat).",
+        tarqalish: "Valdekoksib plazma oqsillariga ~98% bog'lanadi; taqsimlanish hajmi ~55 L.",
+        metabolizm: "Valdekoksib jigarda CYP3A4 va CYP2C9 ishtirokida metabolizatsiya.",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida. Valdekoksib T½ — ~8 soat."
+      },
+      korsatmalar: [
+        "Operatsiyadan keyingi o'tkir og'riqni qisqa muddatli davolash"
+      ],
+      qarrshi: [
+        "Parekoksib, valdekoksib, sulfonamidlar yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Anamnezda valdekoksib/koksiblardan og'ir teri reaksiyasi (Stivens-Jonson, toksik epidermal nekroliz)",
+        "Faol oshqozon-ichak yarasi yoki qon ketish; yallig'lanishli ichak kasalligi",
+        "Og'ir yurak yetishmovchiligi, ISHK, periferik arteriya va serebrovaskulyar kasallik; koronar shuntlashdan keyingi davr",
+        "Og'ir jigar yetishmovchiligi; homiladorlikning III trimestri, emizish"
+      ],
+      nojoya: {
+        "Yurak-qon tomir": "AB oshishi, gipotenziya; tromboembolik hodisalar (infarkt, insult) xavfi",
+        "Hazm tizimi": "Ko'ngil aynishi, dispepsiya, qorin og'rig'i; yara, qon ketish",
+        "Buyrak": "Buyrak funksiyasi buzilishi, oliguriya, suyuqlik tutilishi",
+        "Teri": "Toshma, qichima; kamdan-kam — og'ir teri reaksiyalari",
+        "Boshqa": "Operatsiya joyida og'riq, post-operatsion anemiya"
+      },
+      dozadan: "Belgilari: NSAIDlarga xos — ko'ngil aynishi, epigastral og'riq, buyrak funksiyasi buzilishi. Davolash: simptomatik, dori to'xtatiladi; gemodializ samarasiz.",
+      ozarotasir: [
+        "Varfarin bilan qon ketish xavfi — INR nazorati",
+        "CYP3A4/2C9 inhibitorlari (flukonazol, ketokonazol) valdekoksib konsentratsiyasini oshiradi",
+        "Litiy konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari ta'sirini susaytiradi"
+      ],
+      qollash: {
+        kattalar: "I/v yoki i/m: boshlang'ich 40 mg, keyin 20–40 mg har 6–12 soatda; maks. 80 mg/kun. Davolash 3 kundan oshmasligi tavsiya etiladi. Keksalarda (<50 kg) doza kamaytiriladi.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "In'eksiya uchun liofilizatsiyalangan kukun 40 mg (flakon, eritma bilan)"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — селективный ингибитор ЦОГ-2 (парентеральный коксиб)",
+      farmTasir: "Анальгезирующее, противовоспалительное (парентерально, селективный ЦОГ-2)",
+      farmakodinamika: `Парекоксиб — водорастворимый пролекарство валдекоксиба; в организме быстро гидролизуется в активный валдекоксиб. Валдекоксиб — селективный ингибитор ЦОГ-2, снижающий синтез простагландинов в очаге воспаления, почти не влияет на ЦОГ-1. Парентеральное (в/м, в/в) введение удобно для лечения острой послеоперационной боли. Не влияет на агрегацию тромбоцитов.`,
+      farmakokinetika: {
+        sorish: "Вводится в/в или в/м; быстро гидролизуется в валдекоксиб (Cmax в/в ~30 мин, в/м ~1 ч).",
+        tarqalish: "Валдекоксиб связывается с белками плазмы на ~98%; объём распределения ~55 л.",
+        metabolizm: "Валдекоксиб метаболизируется в печени при участии CYP3A4 и CYP2C9.",
+        chiqarilish: "Преимущественно почками в виде метаболитов. T½ валдекоксиба — ~8 ч."
+      },
+      korsatmalar: [
+        "Краткосрочное лечение острой послеоперационной боли"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к парекоксибу, валдекоксибу, сульфонамидам или НПВС, «аспириновая триада»",
+        "Тяжёлые кожные реакции на валдекоксиб/коксибы в анамнезе (Стивенса-Джонсона, токсический эпидермальный некролиз)",
+        "Активная язва ЖКТ или кровотечение; воспалительные заболевания кишечника",
+        "Тяжёлая сердечная недостаточность, ИБС, заболевание периферических артерий и цереброваскулярная болезнь; период после коронарного шунтирования",
+        "Тяжёлая печёночная недостаточность; III триместр беременности, лактация"
+      ],
+      nojoya: {
+        "Сердечно-сосудистая система": "Повышение АД, гипотензия; риск тромбоэмболических событий (инфаркт, инсульт)",
+        "Пищеварительная система": "Тошнота, диспепсия, боль в животе; язва, кровотечение",
+        "Почки": "Нарушение функции почек, олигурия, задержка жидкости",
+        "Кожа": "Сыпь, зуд; редко — тяжёлые кожные реакции",
+        "Прочее": "Боль в месте операции, послеоперационная анемия"
+      },
+      dozadan: "Симптомы: характерные для НПВС — тошнота, эпигастральная боль, нарушение функции почек. Лечение: симптоматически, отмена препарата; гемодиализ неэффективен.",
+      ozarotasir: [
+        "С варфарином — риск кровотечения, контроль МНО",
+        "Ингибиторы CYP3A4/2C9 (флуконазол, кетоконазол) повышают концентрацию валдекоксиба",
+        "Повышает концентрацию лития",
+        "Ослабляет действие диуретиков, иАПФ"
+      ],
+      qollash: {
+        kattalar: "В/в или в/м: начально 40 мг, затем 20–40 мг каждые 6–12 ч; максимум 80 мг/сут. Длительность не более 3 дней. У пожилых (<50 кг) доза снижается.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Лиофилизированный порошок для инъекций 40 мг (флакон с растворителем)"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — selective COX-2 inhibitor (parenteral coxib)",
+      farmTasir: "Analgesic, anti-inflammatory (parenteral, selective COX-2)",
+      farmakodinamika: `Parecoxib is a water-soluble prodrug of valdecoxib; in the body it is rapidly hydrolysed to active valdecoxib. Valdecoxib is a selective COX-2 inhibitor that reduces prostaglandin synthesis at the inflammatory site and barely affects COX-1. Parenteral (i/m, i/v) administration makes it convenient for acute post-operative pain. It does not affect platelet aggregation.`,
+      farmakokinetika: {
+        sorish: "Given i/v or i/m; rapidly hydrolysed to valdecoxib (Cmax i/v ~30 min, i/m ~1 h).",
+        tarqalish: "Valdecoxib is ~98% plasma protein bound; volume of distribution ~55 L.",
+        metabolizm: "Valdecoxib metabolised hepatically via CYP3A4 and CYP2C9.",
+        chiqarilish: "Mainly renal as metabolites. Valdecoxib T½ — ~8 h."
+      },
+      korsatmalar: [
+        "Short-term treatment of acute post-operative pain"
+      ],
+      qarrshi: [
+        "Hypersensitivity to parecoxib, valdecoxib, sulfonamides or NSAIDs, 'aspirin triad'",
+        "History of severe skin reactions to valdecoxib/coxibs (Stevens-Johnson, toxic epidermal necrolysis)",
+        "Active GI ulcer or bleeding; inflammatory bowel disease",
+        "Severe heart failure, IHD, peripheral artery and cerebrovascular disease; period after coronary bypass",
+        "Severe hepatic failure; third trimester of pregnancy, lactation"
+      ],
+      nojoya: {
+        "Cardiovascular system": "Raised BP, hypotension; risk of thromboembolic events (infarction, stroke)",
+        "Digestive system": "Nausea, dyspepsia, abdominal pain; ulcer, bleeding",
+        "Kidneys": "Renal impairment, oliguria, fluid retention",
+        "Skin": "Rash, pruritus; rarely severe skin reactions",
+        "Other": "Pain at the surgical site, post-operative anaemia"
+      },
+      dozadan: "Symptoms: NSAID-typical — nausea, epigastric pain, renal impairment. Treatment: symptomatic, discontinue; haemodialysis ineffective.",
+      ozarotasir: [
+        "With warfarin — bleeding risk, INR monitoring",
+        "CYP3A4/2C9 inhibitors (fluconazole, ketoconazole) raise valdecoxib concentration",
+        "Raises lithium concentration",
+        "Weakens diuretics, ACE inhibitors"
+      ],
+      qollash: {
+        kattalar: "I/v or i/m: initially 40 mg, then 20–40 mg every 6–12 h; maximum 80 mg/day. Duration no more than 3 days. Reduce dose in elderly (<50 kg).",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Lyophilised powder for injection 40 mg (vial with solvent)"
+    }
+  },
+
+  // ── ETORIKOKSIB | ATX: M01AH05 ──
+  "M01AH05": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — yuqori selektiv COX-2 inhibitori (koksiblar)",
+      farmTasir: "Yallig'lanishga qarshi, og'riq qoldiruvchi (yuqori selektiv COX-2)",
+      farmakodinamika: `Etorikoksib — yuqori selektiv COX-2 inhibitori bo'lgan koksiblar guruhi NSAID. Yallig'lanish o'chog'idagi COX-2 ni tanlab ingibe qilib prostaglandin sintezini kamaytiradi; terapevtik dozada COX-1 ga ta'sir qilmaydi, shu sababli oshqozon-ichak shilliq qavatiga zarari past va trombotsit funksiyasini o'zgartirmaydi. Yuqori darajadagi COX-2 selektivligi tufayli yurak-qon tomir tromboz va arterial bosim xavfini oshirishi mumkin — yurak xavfi bo'lganlarda ehtiyot bilan.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi, biokirish ~100%. Cmax ~1 soatda.",
+        tarqalish: "Plazma oqsillariga bog'lanish — ~92%. Taqsimlanish hajmi ~120 L.",
+        metabolizm: "Jigarda asosan CYP3A4 ishtirokida 6'-gidroksimetil metabolitiga, keyin karboksil hosilasiga.",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida. T½ — ~22 soat (kuniga bir marta)."
+      },
+      korsatmalar: [
+        "Osteoartroz",
+        "Revmatoid artrit",
+        "Ankilozlovchi spondiloartrit (Bextrew kasalligi)",
+        "O'tkir podagra artriti",
+        "O'tkir og'riq (jumladan tish jarrohligidan keyin), birlamchi dismenoreya"
+      ],
+      qarrshi: [
+        "Etorikoksib yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Faol oshqozon-ichak yarasi yoki qon ketish; yallig'lanishli ichak kasalligi",
+        "Nazorat qilinmagan arterial gipertenziya (AB >140/90 davomli)",
+        "Yurak yetishmovchiligi (NYHA II–IV), ISHK, periferik arteriya va serebrovaskulyar kasallik",
+        "Og'ir jigar yoki buyrak yetishmovchiligi; homiladorlik va emizish; 16 yoshgacha"
+      ],
+      nojoya: {
+        "Yurak-qon tomir": "AB oshishi (dozaga bog'liq), shish; tromboembolik hodisalar xavfi",
+        "Hazm tizimi": "Dispepsiya, epigastral og'riq, ko'ngil aynishi, diareya; yara, qon ketish (kamroq)",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, holsizlik",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi, suyuqlik tutilishi; toshma; kamdan-kam — og'ir teri reaksiyalari",
+        "Jigar": "Transaminazalar oshishi"
+      },
+      dozadan: "Belgilari: NSAIDga xos — ko'ngil aynishi, epigastral og'riq, AB oshishi, buyrak funksiyasi buzilishi. Davolash: simptomatik, faollashtirilgan ko'mir; gemodializ samarasiz.",
+      ozarotasir: [
+        "Varfarin bilan qon ketish xavfi — INR nazorati",
+        "Litiy, metotreksat konsentratsiyasini oshiradi",
+        "Antigipertenziv dorilar (AAF inhibitorlari, diuretiklar) ta'sirini susaytiradi",
+        "Rifampitsin etorikoksib konsentratsiyasini kamaytiradi; peroral kontraseptivlar konsentratsiyasini oshiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali, kuniga bir marta: osteoartroz 30–60 mg; revmatoid artrit/ankilozlovchi spondiloartrit 60–90 mg; o'tkir podagra 120 mg (8 kungacha); o'tkir og'riq 60–120 mg. Maks. 120 mg/kun (qisqa muddat).",
+        bolalar: "16 yoshgacha tavsiya etilmaydi."
+      },
+      chiqarish: "Tabletkalar (qobiqli) 30, 60, 90, 120 mg"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — высокоселективный ингибитор ЦОГ-2 (коксибы)",
+      farmTasir: "Противовоспалительное, анальгезирующее (высокоселективный ЦОГ-2)",
+      farmakodinamika: `Эторикоксиб — НПВС группы коксибов, высокоселективный ингибитор ЦОГ-2. Избирательно ингибирует ЦОГ-2 в очаге воспаления, снижая синтез простагландинов; в терапевтической дозе не влияет на ЦОГ-1, поэтому ущерб слизистой ЖКТ низкий и функция тромбоцитов не меняется. Из-за высокой селективности к ЦОГ-2 может повышать риск сердечно-сосудистых тромбозов и АД — с осторожностью при сердечном риске.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается хорошо, биодоступность ~100%. Cmax через ~1 ч.",
+        tarqalish: "Связь с белками плазмы — ~92%. Объём распределения ~120 л.",
+        metabolizm: "В печени преимущественно при участии CYP3A4 до 6'-гидроксиметил метаболита, затем карбоксипроизводного.",
+        chiqarilish: "Преимущественно почками в виде метаболитов. T½ — ~22 ч (1 раз в сутки)."
+      },
+      korsatmalar: [
+        "Остеоартроз",
+        "Ревматоидный артрит",
+        "Анкилозирующий спондилоартрит (болезнь Бехтерева)",
+        "Острый подагрический артрит",
+        "Острая боль (в т.ч. после стоматологической хирургии), первичная дисменорея"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к эторикоксибу или НПВС, «аспириновая триада»",
+        "Активная язва ЖКТ или кровотечение; воспалительные заболевания кишечника",
+        "Неконтролируемая артериальная гипертензия (АД >140/90 стойко)",
+        "Сердечная недостаточность (NYHA II–IV), ИБС, заболевание периферических артерий и цереброваскулярная болезнь",
+        "Тяжёлая печёночная или почечная недостаточность; беременность и лактация; до 16 лет"
+      ],
+      nojoya: {
+        "Сердечно-сосудистая система": "Повышение АД (дозозависимое), отёки; риск тромбоэмболических событий",
+        "Пищеварительная система": "Диспепсия, эпигастральная боль, тошнота, диарея; язва, кровотечение (реже)",
+        "Нервная система": "Головная боль, головокружение, слабость",
+        "Почки / кожа": "Нарушение функции почек, задержка жидкости; сыпь; редко — тяжёлые кожные реакции",
+        "Печень": "Повышение трансаминаз"
+      },
+      dozadan: "Симптомы: характерные для НПВС — тошнота, эпигастральная боль, повышение АД, нарушение функции почек. Лечение: симптоматически, активированный уголь; гемодиализ неэффективен.",
+      ozarotasir: [
+        "С варфарином — риск кровотечения, контроль МНО",
+        "Повышает концентрацию лития, метотрексата",
+        "Ослабляет действие антигипертензивных (иАПФ, диуретики)",
+        "Рифампицин снижает концентрацию эторикоксиба; повышает концентрацию пероральных контрацептивов"
+      ],
+      qollash: {
+        kattalar: "Внутрь, 1 раз в сутки: остеоартроз 30–60 мг; ревматоидный артрит/анкилозирующий спондилоартрит 60–90 мг; острая подагра 120 мг (до 8 дней); острая боль 60–120 мг. Максимум 120 мг/сут (кратко).",
+        bolalar: "До 16 лет не рекомендуется."
+      },
+      chiqarish: "Таблетки (покрытые) 30, 60, 90, 120 мг"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — highly selective COX-2 inhibitor (coxibs)",
+      farmTasir: "Anti-inflammatory, analgesic (highly selective COX-2)",
+      farmakodinamika: `Etoricoxib is a coxib NSAID, a highly selective COX-2 inhibitor. It selectively inhibits COX-2 at the inflammatory site, reducing prostaglandin synthesis; at therapeutic doses it does not affect COX-1, so GI mucosal harm is low and platelet function is unchanged. Owing to its high COX-2 selectivity it may raise cardiovascular thrombotic risk and BP — use with caution in those at cardiac risk.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally, bioavailability ~100%. Cmax in ~1 h.",
+        tarqalish: "Plasma protein binding — ~92%. Volume of distribution ~120 L.",
+        metabolizm: "Hepatic mainly via CYP3A4 to a 6'-hydroxymethyl metabolite, then a carboxylic derivative.",
+        chiqarilish: "Mainly renal as metabolites. T½ — ~22 h (once daily)."
+      },
+      korsatmalar: [
+        "Osteoarthritis",
+        "Rheumatoid arthritis",
+        "Ankylosing spondylitis (Bechterew disease)",
+        "Acute gouty arthritis",
+        "Acute pain (incl. after dental surgery), primary dysmenorrhoea"
+      ],
+      qarrshi: [
+        "Hypersensitivity to etoricoxib or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer or bleeding; inflammatory bowel disease",
+        "Uncontrolled arterial hypertension (BP >140/90 persistently)",
+        "Heart failure (NYHA II–IV), IHD, peripheral artery and cerebrovascular disease",
+        "Severe hepatic or renal failure; pregnancy and lactation; under 16 years"
+      ],
+      nojoya: {
+        "Cardiovascular system": "Raised BP (dose-dependent), oedema; risk of thromboembolic events",
+        "Digestive system": "Dyspepsia, epigastric pain, nausea, diarrhoea; ulcer, bleeding (less common)",
+        "Nervous system": "Headache, dizziness, weakness",
+        "Kidneys / skin": "Renal impairment, fluid retention; rash; rarely severe skin reactions",
+        "Liver": "Raised transaminases"
+      },
+      dozadan: "Symptoms: NSAID-typical — nausea, epigastric pain, raised BP, renal impairment. Treatment: symptomatic, activated charcoal; haemodialysis ineffective.",
+      ozarotasir: [
+        "With warfarin — bleeding risk, INR monitoring",
+        "Raises lithium, methotrexate concentration",
+        "Weakens antihypertensives (ACE inhibitors, diuretics)",
+        "Rifampicin lowers etoricoxib concentration; raises oral contraceptive concentration"
+      ],
+      qollash: {
+        kattalar: "Orally once daily: osteoarthritis 30–60 mg; rheumatoid arthritis/ankylosing spondylitis 60–90 mg; acute gout 120 mg (up to 8 days); acute pain 60–120 mg. Maximum 120 mg/day (short term).",
+        bolalar: "Not recommended under 16 years."
+      },
+      chiqarish: "Tablets (coated) 30, 60, 90, 120 mg"
+    }
+  },
+
+  // ── NABUMETON | ATX: M01AX01 ──
+  "M01AX01": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — naftilalkanon (nokislotali oldmodda)",
+      farmTasir: "Yallig'lanishga qarshi, og'riq qoldiruvchi (nisbatan COX-2 moyil)",
+      farmakodinamika: `Nabumeton — nokislotali oldmodda (prodrug) bo'lgan NSAID; o'zi kislota emas, jigarda faol 6-metoksi-2-naftiluksus kislotasiga (6-MNA) aylanadi. 6-MNA siklooksigenazani ingibe qiladi va COX-2 ga nisbatan biroz moyillikка ega — oshqozon shilliq qavatiga ta'siri yengilroq. Yallig'lanishga qarshi va analgetik ta'sirga ega; trombotsit agregatsiyasiga ta'siri kam.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali so'riladi, ovqat (ayniqsa yog'li) so'rilishni oshiradi. Jigarning birinchi o'tishida 6-MNA hosil bo'ladi.",
+        tarqalish: "Faol 6-MNA plazma oqsillariga >99% bog'lanadi.",
+        metabolizm: "Jigarda faol 6-MNA ga aylanadi, keyin O-demetillanish va konyugatsiya.",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida. 6-MNA T½ — ~24 soat (kuniga bir marta)."
+      },
+      korsatmalar: [
+        "Osteoartroz",
+        "Revmatoid artrit",
+        "O'tkir va surunkali yallig'lanishli og'riq sindromlari"
+      ],
+      qarrshi: [
+        "Nabumeton yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Faol oshqozon-ichak yarasi yoki qon ketish",
+        "Og'ir jigar yoki buyrak yetishmovchiligi, yurak yetishmovchiligi",
+        "Homiladorlik va emizish; bolalik yoshi"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, qorin og'rig'i, diareya, ko'ngil aynishi; yara, qon ketish (klassik NSAIDga qaraganda kamroq)",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, quloqda shovqin",
+        "Yurak-qon tomir": "Shish, AB oshishi",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi; toshma, qichima, fotosensibilizatsiya"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, epigastral og'riq, uyquchanlik, bosh og'rig'i. Davolash: simptomatik, faollashtirilgan ko'mir.",
+      ozarotasir: [
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, metotreksat konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari ta'sirini susaytiradi",
+        "Boshqa NSAID bilan oshqozon-ichak xavfi qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 1000 mg×1/kun kechqurun (ovqat bilan); zarurda 1500–2000 mg/kun 1–2 ta qabulda. Maks. 2000 mg/kun.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Tabletkalar 500, 750 mg"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — нафтилалканон (некислотное пролекарство)",
+      farmTasir: "Противовоспалительное, анальгезирующее (относительно ЦОГ-2-склонное)",
+      farmakodinamika: `Набуметон — НПВС, некислотное пролекарство; сам не является кислотой, в печени превращается в активную 6-метокси-2-нафтилуксусную кислоту (6-МНК). 6-МНК ингибирует циклооксигеназу с некоторой склонностью к ЦОГ-2 — действие на слизистую желудка мягче. Обладает противовоспалительным и анальгезирующим действием; влияние на агрегацию тромбоцитов невелико.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается, пища (особенно жирная) повышает всасывание. При первом прохождении через печень образуется 6-МНК.",
+        tarqalish: "Активная 6-МНК связывается с белками плазмы на >99%.",
+        metabolizm: "В печени превращается в активную 6-МНК, затем O-деметилирование и конъюгация.",
+        chiqarilish: "Преимущественно почками в виде метаболитов. T½ 6-МНК — ~24 ч (1 раз в сутки)."
+      },
+      korsatmalar: [
+        "Остеоартроз",
+        "Ревматоидный артрит",
+        "Острые и хронические воспалительные болевые синдромы"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к набуметону или НПВС, «аспириновая триада»",
+        "Активная язва ЖКТ или кровотечение",
+        "Тяжёлая печёночная или почечная недостаточность, сердечная недостаточность",
+        "Беременность и лактация; детский возраст"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, боль в животе, диарея, тошнота; язва, кровотечение (реже, чем у классических НПВС)",
+        "Нервная система": "Головная боль, головокружение, шум в ушах",
+        "Сердечно-сосудистая система": "Отёки, повышение АД",
+        "Почки / кожа": "Нарушение функции почек; сыпь, зуд, фотосенсибилизация"
+      },
+      dozadan: "Симптомы: тошнота, эпигастральная боль, сонливость, головная боль. Лечение: симптоматически, активированный уголь.",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, метотрексата",
+        "Ослабляет действие диуретиков, иАПФ",
+        "С другими НПВС — суммарный риск ЖКТ"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 1000 мг×1/сут вечером (с едой); при необходимости 1500–2000 мг/сут в 1–2 приёма. Максимум 2000 мг/сут.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Таблетки 500, 750 мг"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — naphthylalkanone (non-acidic prodrug)",
+      farmTasir: "Anti-inflammatory, analgesic (relatively COX-2 inclined)",
+      farmakodinamika: `Nabumetone is an NSAID, a non-acidic prodrug; it is not itself an acid and is converted in the liver to the active 6-methoxy-2-naphthylacetic acid (6-MNA). 6-MNA inhibits cyclooxygenase with some inclination toward COX-2 — milder action on gastric mucosa. It has anti-inflammatory and analgesic action; its effect on platelet aggregation is small.`,
+      farmakokinetika: {
+        sorish: "Absorbed orally; food (especially fatty) increases absorption. First-pass hepatic conversion forms 6-MNA.",
+        tarqalish: "Active 6-MNA is >99% plasma protein bound.",
+        metabolizm: "Converted in the liver to active 6-MNA, then O-demethylation and conjugation.",
+        chiqarilish: "Mainly renal as metabolites. 6-MNA T½ — ~24 h (once daily)."
+      },
+      korsatmalar: [
+        "Osteoarthritis",
+        "Rheumatoid arthritis",
+        "Acute and chronic inflammatory pain syndromes"
+      ],
+      qarrshi: [
+        "Hypersensitivity to nabumetone or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer or bleeding",
+        "Severe hepatic or renal failure, heart failure",
+        "Pregnancy and lactation; childhood"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, abdominal pain, diarrhoea, nausea; ulcer, bleeding (less than classical NSAIDs)",
+        "Nervous system": "Headache, dizziness, tinnitus",
+        "Cardiovascular system": "Oedema, raised BP",
+        "Kidneys / skin": "Renal impairment; rash, pruritus, photosensitisation"
+      },
+      dozadan: "Symptoms: nausea, epigastric pain, drowsiness, headache. Treatment: symptomatic, activated charcoal.",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, methotrexate concentration",
+        "Weakens diuretics, ACE inhibitors",
+        "With other NSAIDs — additive GI risk"
+      ],
+      qollash: {
+        kattalar: "Orally: 1000 mg×1/day in the evening (with food); if needed 1500–2000 mg/day in 1–2 doses. Maximum 2000 mg/day.",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Tablets 500, 750 mg"
+    }
+  },
+
+  // ── BENZIDAMIN | ATX: M01AX07 ──
+  "M01AX07": {
+    uz: {
+      gruppa: "Yallig'lanishga qarshi vositalar (NSAID) — indazol hosilasi (mahalliy qo'llaniladigan)",
+      farmTasir: "Mahalliy yallig'lanishga qarshi, og'riq qoldiruvchi, antiseptik",
+      farmakodinamika: `Benzidamin — indazol hosilasi bo'lgan mahalliy yallig'lanishga qarshi vosita (NSAID). An'anaviy NSAIDlardan farqli o'laroq prostaglandin sintezini sezilarli darajada ingibe qilmaydi; asosiy ta'siri — hujayra membranalarini barqarorlashtirish, fosfolipaza A2 ni va proinflamatuar sitokinlar (TNF) ishlab chiqarilishini kamaytirish. Mahalliy analgetik, yallig'lanishga qarshi va o'rtacha antiseptik (antibakterial/zamburug'ga qarshi) ta'sirga ega. Og'iz va halqum shilliq qavatiga yaxshi penetratsiya qiladi.`,
+      farmakokinetika: {
+        sorish: "Mahalliy qo'llanganda shilliq qavat orqali yallig'langan to'qimaga kiradi; tizimli so'rilish kam.",
+        tarqalish: "Yallig'langan to'qimalarda to'planadi.",
+        metabolizm: "Jigarda metabolizatsiya (tizimli qismi).",
+        chiqarilish: "Asosan siydik orqali metabolit/konyugat ko'rinishida."
+      },
+      korsatmalar: [
+        "Og'iz va halqum shilliq qavati yallig'lanishi: faringit, tonzillit, laringit, stomatit, gingivit, glossit",
+        "Tish olib tashlash yoki stomatologik muolajadan keyingi yallig'lanish",
+        "Radiatsion/kimyoterapiyadan keyingi mukozit",
+        "Ginekologiyada (eritma): vulvovaginit, servitsit yordamchi davosi"
+      ],
+      qarrshi: [
+        "Benzidaminga o'ta sezgirlik",
+        "Spreyda — fenilketonuriya (aspartam saqlasa)",
+        "Bolalik yoshi (shaklga qarab chegaralar)"
+      ],
+      nojoya: {
+        "Mahalliy": "Og'iz/halqumda achishish, uvishish hissi, og'iz qurishi, ta'm o'zgarishi",
+        "Allergik": "Toshma, qichima, kontakt dermatit; kamdan-kam — laringospazm, angionevrotik shish",
+        "Boshqa": "Yutib yuborilganda ko'ngil aynishi, qusish (kamdan-kam)"
+      },
+      dozadan: "Mahalliy shaklda tizimli dozadan oshish kam. Tasodifan ko'p yutilganda (ayniqsa bolalarda): ajitatsiya, tutqanoq, ko'ngil aynishi — simptomatik davolash.",
+      ozarotasir: [
+        "Mahalliy qo'llanishda klinik ahamiyatli o'zaro ta'sir kam kuzatiladi"
+      ],
+      qollash: {
+        kattalar: "Chayqash eritmasi 0,15%: 15 ml chayqash yoki g'arg'ara har 1,5–3 soatda. Sprey: 4–8 purkash har 1,5–3 soatda. So'riladigan tabletka 3 mg: kuniga 3–4 marta.",
+        bolalar: "6 yoshdan — past konsentratsiyali eritma yoki spreyni shifokor ko'rsatmasi bilan; yutib yubormaslik nazorati."
+      },
+      chiqarish: "Chayqash eritmasi 0,15%; og'iz/halqum spreyi 0,15%; so'riladigan tabletkalar 3 mg; ginekologik eritma"
+    },
+    ru: {
+      gruppa: "Противовоспалительные средства (НПВС) — производное индазола (местного применения)",
+      farmTasir: "Местное противовоспалительное, анальгезирующее, антисептическое",
+      farmakodinamika: `Бензидамин — местное противовоспалительное средство (НПВС), производное индазола. В отличие от классических НПВС существенно не ингибирует синтез простагландинов; основное действие — стабилизация клеточных мембран, снижение активности фосфолипазы А2 и продукции провоспалительных цитокинов (ФНО). Обладает местным анальгезирующим, противовоспалительным и умеренным антисептическим (антибактериальным/противогрибковым) действием. Хорошо проникает в слизистую рта и глотки.`,
+      farmakokinetika: {
+        sorish: "При местном применении проникает в воспалённую ткань через слизистую; системное всасывание невелико.",
+        tarqalish: "Накапливается в воспалённых тканях.",
+        metabolizm: "В печени (системная часть).",
+        chiqarilish: "Преимущественно почками в виде метаболитов/конъюгатов."
+      },
+      korsatmalar: [
+        "Воспаление слизистой рта и глотки: фарингит, тонзиллит, ларингит, стоматит, гингивит, глоссит",
+        "Воспаление после удаления зуба или стоматологических процедур",
+        "Мукозит после лучевой/химиотерапии",
+        "В гинекологии (раствор): вспомогательное лечение вульвовагинита, цервицита"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к бензидамину",
+        "В спрее — фенилкетонурия (если содержит аспартам)",
+        "Детский возраст (ограничения по форме)"
+      ],
+      nojoya: {
+        "Местные": "Жжение, онемение во рту/глотке, сухость во рту, изменение вкуса",
+        "Аллергия": "Сыпь, зуд, контактный дерматит; редко — ларингоспазм, ангионевротический отёк",
+        "Прочее": "При проглатывании — тошнота, рвота (редко)"
+      },
+      dozadan: "При местном применении превышение системной дозы маловероятно. При случайном проглатывании большого количества (особенно у детей): ажитация, судороги, тошнота — симптоматическое лечение.",
+      ozarotasir: [
+        "При местном применении клинически значимые взаимодействия наблюдаются редко"
+      ],
+      qollash: {
+        kattalar: "Раствор для полоскания 0,15%: 15 мл полоскать каждые 1,5–3 ч. Спрей: 4–8 впрыскиваний каждые 1,5–3 ч. Рассасываемые таблетки 3 мг: 3–4 раза в сутки.",
+        bolalar: "С 6 лет — раствор низкой концентрации или спрей по назначению врача; контроль непроглатывания."
+      },
+      chiqarish: "Раствор для полоскания 0,15%; спрей для рта/глотки 0,15%; рассасываемые таблетки 3 мг; гинекологический раствор"
+    },
+    en: {
+      gruppa: "Anti-inflammatory agents (NSAID) — indazole derivative (topical use)",
+      farmTasir: "Topical anti-inflammatory, analgesic, antiseptic",
+      farmakodinamika: `Benzydamine is a topical anti-inflammatory agent (NSAID), an indazole derivative. Unlike classical NSAIDs it does not appreciably inhibit prostaglandin synthesis; its main action is stabilising cell membranes, reducing phospholipase A2 activity and production of pro-inflammatory cytokines (TNF). It has local analgesic, anti-inflammatory and moderate antiseptic (antibacterial/antifungal) action. It penetrates oral and pharyngeal mucosa well.`,
+      farmakokinetika: {
+        sorish: "Topically it enters inflamed tissue through the mucosa; systemic absorption is low.",
+        tarqalish: "Accumulates in inflamed tissues.",
+        metabolizm: "Hepatic (systemic portion).",
+        chiqarilish: "Mainly renal as metabolites/conjugates."
+      },
+      korsatmalar: [
+        "Inflammation of oral and pharyngeal mucosa: pharyngitis, tonsillitis, laryngitis, stomatitis, gingivitis, glossitis",
+        "Inflammation after tooth extraction or dental procedures",
+        "Mucositis after radio-/chemotherapy",
+        "Gynaecology (solution): adjunct treatment of vulvovaginitis, cervicitis"
+      ],
+      qarrshi: [
+        "Hypersensitivity to benzydamine",
+        "Spray — phenylketonuria (if it contains aspartame)",
+        "Childhood (restrictions by form)"
+      ],
+      nojoya: {
+        "Local": "Burning, numbness in mouth/throat, dry mouth, taste change",
+        "Allergy": "Rash, pruritus, contact dermatitis; rarely laryngospasm, angioedema",
+        "Other": "If swallowed — nausea, vomiting (rare)"
+      },
+      dozadan: "With topical use exceeding the systemic dose is unlikely. If a large amount is accidentally swallowed (especially by children): agitation, convulsions, nausea — symptomatic treatment.",
+      ozarotasir: [
+        "With topical use clinically significant interactions are rarely seen"
+      ],
+      qollash: {
+        kattalar: "Rinse solution 0.15%: rinse 15 mL every 1.5–3 h. Spray: 4–8 sprays every 1.5–3 h. Lozenges 3 mg: 3–4 times daily.",
+        bolalar: "From 6 years — low-concentration solution or spray as prescribed; supervise to prevent swallowing."
+      },
+      chiqarish: "Rinse solution 0.15%; mouth/throat spray 0.15%; lozenges 3 mg; gynaecological solution"
+    }
+  },
+
+  // ── NIMESULID | ATX: M01AX17 ──
+  "M01AX17": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — sulfonanilid (nisbatan COX-2 selektiv)",
+      farmTasir: "Yallig'lanishga qarshi, og'riq qoldiruvchi, isitma tushiruvchi",
+      farmakodinamika: `Nimesulid — sulfonanilidlar guruhiga mansub NSAID bo'lib, siklooksigenaza-2 (COX-2) ga nisbatan moyillik bilan ingibe qiladi, prostaglandin sintezini kamaytiradi. Bundan tashqari faol kislorod radikallari hosil bo'lishini, miyeloperoksidaza faolligini va proteolitik fermentlar (metalloproteinazalar) ajralishini kamaytiradi, gistamin chiqarilishini susaytiradi. Yorqin yallig'lanishga qarshi, analgetik va isitma tushiruvchi ta'sirga ega. Jigar toksikligi xavfi tufayli ko'p mamlakatlarda qo'llanishi cheklangan (qisqa kurs, 12 yoshdan).`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi. Cmax 2–3 soatda.",
+        tarqalish: "Plazma oqsillariga bog'lanish — ~97,5%. Yallig'langan to'qimalar va sinovial suyuqlikка kiradi.",
+        metabolizm: "Jigarda CYP2C9 ishtirokida asosiy metabolit (gidroksinimesulid)ga.",
+        chiqarilish: "Asosan siydik orqali, qisman najas bilan. T½ — ~3–5 soat."
+      },
+      korsatmalar: [
+        "O'tkir og'riq (qisqa muddatli ikkinchi qator NSAID sifatida)",
+        "Osteoartrozda og'riqli qo'zg'alish",
+        "Birlamchi dismenoreya",
+        "Mushak-skelet og'riqlari, jarohatdan keyingi og'riq (cheklangan kurs)"
+      ],
+      qarrshi: [
+        "Nimesulid yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Faol jigar kasalligi yoki anamnezda nimesuliddan jigar shikastlanishi (gepatotoksiklik)",
+        "Faol oshqozon-ichak yarasi, qon ketish",
+        "Og'ir buyrak yoki yurak yetishmovchiligi; alkogol/narkotik bog'liqlik",
+        "Homiladorlik va emizish; 12 yoshgacha"
+      ],
+      nojoya: {
+        "Jigar": "Transaminazalar oshishi; kamdan-kam — og'ir gepatotoksiklik, jigar yetishmovchiligi (xosga xos jiddiy xavf)",
+        "Hazm tizimi": "Dispepsiya, ko'ngil aynishi, diareya, epigastral og'riq; yara, qon ketish",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi, suyuqlik tutilishi; toshma, qichima",
+        "Qon": "Anemiya, trombotsitopeniya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, epigastral og'riq, uyquchanlik; og'ir holatda — jigar/buyrak shikastlanishi. Davolash: simptomatik, faollashtirilgan ko'mir; jigar ko'rsatkichlari nazorati.",
+      ozarotasir: [
+        "Boshqa gepatotoksik dorilar bilan jigar shikastlanishi xavfi kuchayadi",
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, metotreksat konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari ta'sirini susaytiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 100 mg×2/kun, ovqatdan keyin. Davolash imkon qadar qisqa (odatda ≤15 kun). Maks. 200 mg/kun.",
+        bolalar: "12 yoshgacha qat'iy taqiqlanadi (gepatotoksiklik xavfi)."
+      },
+      chiqarish: "Tabletkalar 100 mg; granula/poroshok suspenziya uchun 100 mg/paket; mahalliy gel"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — сульфонанилид (относительно ЦОГ-2-селективный)",
+      farmTasir: "Противовоспалительное, анальгезирующее, жаропонижающее",
+      farmakodinamika: `Нимесулид — НПВС группы сульфонанилидов, ингибирует циклооксигеназу со склонностью к ЦОГ-2, снижая синтез простагландинов. Дополнительно снижает образование активных форм кислорода, активность миелопероксидазы и выделение протеолитических ферментов (металлопротеиназ), ослабляет высвобождение гистамина. Обладает выраженным противовоспалительным, анальгезирующим и жаропонижающим действием. Из-за риска гепатотоксичности применение во многих странах ограничено (короткий курс, с 12 лет).`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается хорошо. Cmax через 2–3 ч.",
+        tarqalish: "Связь с белками плазмы — ~97,5%. Проникает в воспалённые ткани и синовиальную жидкость.",
+        metabolizm: "В печени при участии CYP2C9 до основного метаболита (гидроксинимесулид).",
+        chiqarilish: "Преимущественно почками, частично с калом. T½ — ~3–5 ч."
+      },
+      korsatmalar: [
+        "Острая боль (краткосрочно, как НПВС второй линии)",
+        "Болевое обострение при остеоартрозе",
+        "Первичная дисменорея",
+        "Скелетно-мышечные боли, посттравматическая боль (ограниченный курс)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к нимесулиду или НПВС, «аспириновая триада»",
+        "Активное заболевание печени или поражение печени нимесулидом в анамнезе (гепатотоксичность)",
+        "Активная язва ЖКТ, кровотечение",
+        "Тяжёлая почечная или сердечная недостаточность; алкогольная/наркотическая зависимость",
+        "Беременность и лактация; до 12 лет"
+      ],
+      nojoya: {
+        "Печень": "Повышение трансаминаз; редко — тяжёлая гепатотоксичность, печёночная недостаточность (характерный серьёзный риск)",
+        "Пищеварительная система": "Диспепсия, тошнота, диарея, эпигастральная боль; язва, кровотечение",
+        "Нервная система": "Головная боль, головокружение",
+        "Почки / кожа": "Нарушение функции почек, задержка жидкости; сыпь, зуд",
+        "Кровь": "Анемия, тромбоцитопения (редко)"
+      },
+      dozadan: "Симптомы: тошнота, рвота, эпигастральная боль, сонливость; в тяжёлых случаях — поражение печени/почек. Лечение: симптоматически, активированный уголь; контроль показателей печени.",
+      ozarotasir: [
+        "С другими гепатотоксичными препаратами усиливается риск поражения печени",
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, метотрексата",
+        "Ослабляет действие диуретиков, иАПФ"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 100 мг×2/сут после еды. Лечение максимально коротким курсом (обычно ≤15 дней). Максимум 200 мг/сут.",
+        bolalar: "До 12 лет строго противопоказан (риск гепатотоксичности)."
+      },
+      chiqarish: "Таблетки 100 мг; гранулы/порошок для суспензии 100 мг/пакет; гель наружный"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — sulfonanilide (relatively COX-2 selective)",
+      farmTasir: "Anti-inflammatory, analgesic, antipyretic",
+      farmakodinamika: `Nimesulide is an NSAID of the sulfonanilide class; it inhibits cyclooxygenase with a preference for COX-2, reducing prostaglandin synthesis. It also reduces generation of reactive oxygen species, myeloperoxidase activity and release of proteolytic enzymes (metalloproteinases), and dampens histamine release. It has marked anti-inflammatory, analgesic and antipyretic action. Owing to hepatotoxicity risk its use is restricted in many countries (short course, from 12 years).`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally. Cmax in 2–3 h.",
+        tarqalish: "Plasma protein binding — ~97.5%. Penetrates inflamed tissue and synovial fluid.",
+        metabolizm: "Hepatic via CYP2C9 to the main metabolite (hydroxynimesulide).",
+        chiqarilish: "Mainly renal, partly faecal. T½ — ~3–5 h."
+      },
+      korsatmalar: [
+        "Acute pain (short-term, as a second-line NSAID)",
+        "Painful flare of osteoarthritis",
+        "Primary dysmenorrhoea",
+        "Musculoskeletal pain, post-traumatic pain (limited course)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to nimesulide or NSAIDs, 'aspirin triad'",
+        "Active liver disease or history of nimesulide-induced liver injury (hepatotoxicity)",
+        "Active GI ulcer, bleeding",
+        "Severe renal or cardiac failure; alcohol/drug dependence",
+        "Pregnancy and lactation; under 12 years"
+      ],
+      nojoya: {
+        "Liver": "Raised transaminases; rarely severe hepatotoxicity, liver failure (a characteristic serious risk)",
+        "Digestive system": "Dyspepsia, nausea, diarrhoea, epigastric pain; ulcer, bleeding",
+        "Nervous system": "Headache, dizziness",
+        "Kidneys / skin": "Renal impairment, fluid retention; rash, pruritus",
+        "Blood": "Anaemia, thrombocytopenia (rare)"
+      },
+      dozadan: "Symptoms: nausea, vomiting, epigastric pain, drowsiness; in severe cases liver/kidney injury. Treatment: symptomatic, activated charcoal; monitor liver indices.",
+      ozarotasir: [
+        "With other hepatotoxic drugs the risk of liver injury increases",
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, methotrexate concentration",
+        "Weakens diuretics, ACE inhibitors"
+      ],
+      qollash: {
+        kattalar: "Orally: 100 mg×2/day after food. Treat for the shortest possible course (usually ≤15 days). Maximum 200 mg/day.",
+        bolalar: "Strictly contraindicated under 12 years (hepatotoxicity risk)."
+      },
+      chiqarish: "Tablets 100 mg; granules/powder for suspension 100 mg/sachet; topical gel"
+    }
+  },
+
+  // ── FENILBUTAZON (kombinatsiyalarda) | ATX: M01BA01 ──
+  "M01BA01": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — pirazolidindion; kortikosteroid/vitamin bilan kombinatsiyada",
+      farmTasir: "Kuchli yallig'lanishga qarshi, og'riq qoldiruvchi (kombinatsiyalangan in'eksiya)",
+      farmakodinamika: `Fenilbutazon — pirazolidindion hosilasi bo'lgan kuchli yallig'lanishga qarshi NSAID; siklooksigenazani ingibe qilib prostaglandin sintezini kamaytiradi va urikozurik (siydik kislotasi chiqarilishini oshiruvchi) ta'sirga ham ega. Ushbu kod ko'pincha kombinatsiyalangan in'eksion preparatlarni bildiradi — fenilbutazon deksametazon (glyukokortikoid, kuchli yallig'lanishga qarshi), siyanokobalamin (B12, neyrotrop) va lidokain (mahalliy anestetik) bilan birga. Kombinatsiya o'tkir og'riqli radikulit, nevralgiya va bo'g'im-mushak sindromlarida tez va kuchli yallig'lanishga qarshi/analgetik ta'sir beradi. Fenilbutazonning og'ir gematotoksikligi (agranulotsitoz, aplastik anemiya) tufayli qo'llanishi keskin cheklangan.`,
+      farmakokinetika: {
+        sorish: "I/m yuboriladi; komponentlar tez so'riladi.",
+        tarqalish: "Fenilbutazon plazma oqsillariga >98% bog'lanadi; sinovial suyuqlikка kiradi.",
+        metabolizm: "Fenilbutazon jigarda oksibutazonga (faol) metabolizatsiya; deksametazon va lidokain ham jigarda.",
+        chiqarilish: "Asosan siydik orqali. Fenilbutazon T½ uzun (~70 soat)."
+      },
+      korsatmalar: [
+        "O'tkir og'riqli radikulit, lyumbago, ishias",
+        "Nevralgiya, neyrit, miozit",
+        "Bo'g'im-mushak yallig'lanishi va og'riq sindromlarining qisqa muddatli davosi",
+        "O'tkir podagra xuruji (alohida holatlarda)"
+      ],
+      qarrshi: [
+        "Fenilbutazon, pirazolonlar yoki NSAIDlarga o'ta sezgirlik",
+        "Qon tizimi kasalliklari (leykopeniya, agranulotsitoz, anemiya), gemorragik diatez",
+        "Faol oshqozon-ichak yarasi, qon ketish",
+        "Og'ir jigar, buyrak yoki yurak yetishmovchiligi, nazorat qilinmagan gipertenziya",
+        "Tizimli zamburug' infeksiyasi (deksametazon tufayli); homiladorlik va emizish; bolalik yoshi"
+      ],
+      nojoya: {
+        "Qon": "Agranulotsitoz, leykopeniya, trombotsitopeniya, aplastik anemiya (og'ir, hayot uchun xavfli)",
+        "Hazm tizimi": "Epigastral og'riq, ko'ngil aynishi, yara, qon ketish, perforatsiya",
+        "Yurak-qon tomir / buyrak": "Suyuqlik va natriy tutilishi, shish, AB oshishi, yurak yetishmovchiligi avj olishi",
+        "Endokrin (deksametazon)": "Giperglikemiya, AB oshishi, immunosupressiya, Itsenko-Kushing alomatlari (uzoq qabulda)",
+        "Allergik / teri": "Toshma, eshakemi; kamdan-kam — Stivens-Jonson, Layell sindromi"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, qorin og'rig'i, qon ketish, tutqanoq, atsidoz, qon ko'rsatkichlari buzilishi. Davolash: dori to'xtatiladi, oshqozonni yuvish, simptomatik; qon ko'rsatkichlari va elektrolitlar nazorati.",
+      ozarotasir: [
+        "Antikoagulyantlar (varfarin): ta'sirini kuchaytiradi, qon ketish xavfi",
+        "Qandni tushiruvchi sulfonilmochevina: gipoglikemiya kuchayadi",
+        "Boshqa gematotoksik/gepatotoksik dorilar bilan xavf qo'shiladi",
+        "Glyukokortikoid bilan oshqozon-ichak yara/qon ketish xavfi yanada oshadi"
+      ],
+      qollash: {
+        kattalar: "I/m chuqur: kombinatsiya ampulasi kuniga 1 marta, og'ir og'riqda 2–3 kun ketma-ket; keyin imkon qadar tezroq peroral terapiyaga o'tiladi. Kurs qisqa (odatda ≤3 kun).",
+        bolalar: "Tavsiya etilmaydi (gematotoksiklik va kortikosteroid xavfi)."
+      },
+      chiqarish: "I/m in'eksiya uchun kombinatsiyalangan eritma (fenilbutazon + deksametazon + siyanokobalamin + lidokain) ampulalarda"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — пиразолидиндион; в комбинации с кортикостероидом/витамином",
+      farmTasir: "Мощное противовоспалительное, анальгезирующее (комбинированная инъекция)",
+      farmakodinamika: `Фенилбутазон — мощный противовоспалительный НПВС, производное пиразолидиндиона; ингибирует циклооксигеназу, снижая синтез простагландинов, и обладает урикозурическим действием. Данный код часто обозначает комбинированные инъекционные препараты — фенилбутазон вместе с дексаметазоном (глюкокортикоид, мощное противовоспалительное), цианокобаламином (B12, нейротропный) и лидокаином (местный анестетик). Комбинация даёт быстрый и мощный противовоспалительный/анальгезирующий эффект при острых радикулите, невралгии и суставно-мышечных синдромах. Из-за тяжёлой гематотоксичности фенилбутазона (агранулоцитоз, апластическая анемия) применение резко ограничено.`,
+      farmakokinetika: {
+        sorish: "Вводится в/м; компоненты быстро всасываются.",
+        tarqalish: "Фенилбутазон связывается с белками плазмы на >98%; проникает в синовиальную жидкость.",
+        metabolizm: "Фенилбутазон метаболизируется в печени до оксибутазона (активен); дексаметазон и лидокаин также в печени.",
+        chiqarilish: "Преимущественно почками. T½ фенилбутазона длинный (~70 ч)."
+      },
+      korsatmalar: [
+        "Острый болевой радикулит, люмбаго, ишиас",
+        "Невралгия, неврит, миозит",
+        "Краткосрочное лечение суставно-мышечного воспаления и болевых синдромов",
+        "Острый приступ подагры (в отдельных случаях)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к фенилбутазону, пиразолонам или НПВС",
+        "Заболевания крови (лейкопения, агранулоцитоз, анемия), геморрагический диатез",
+        "Активная язва ЖКТ, кровотечение",
+        "Тяжёлая печёночная, почечная или сердечная недостаточность, неконтролируемая гипертензия",
+        "Системная грибковая инфекция (из-за дексаметазона); беременность и лактация; детский возраст"
+      ],
+      nojoya: {
+        "Кровь": "Агранулоцитоз, лейкопения, тромбоцитопения, апластическая анемия (тяжёлые, опасные для жизни)",
+        "Пищеварительная система": "Эпигастральная боль, тошнота, язва, кровотечение, перфорация",
+        "Сердечно-сосудистая система / почки": "Задержка жидкости и натрия, отёки, повышение АД, усугубление сердечной недостаточности",
+        "Эндокринные (дексаметазон)": "Гипергликемия, повышение АД, иммуносупрессия, признаки Иценко-Кушинга (при длительном приёме)",
+        "Аллергия / кожа": "Сыпь, крапивница; редко — Стивенса-Джонсона, синдром Лайелла"
+      },
+      dozadan: "Симптомы: тошнота, рвота, боль в животе, кровотечение, судороги, ацидоз, нарушение показателей крови. Лечение: отмена, промывание желудка, симптоматически; контроль крови и электролитов.",
+      ozarotasir: [
+        "Антикоагулянты (варфарин): усиление действия, риск кровотечения",
+        "Гипогликемические сульфонилмочевины: усиление гипогликемии",
+        "С другими гемато-/гепатотоксичными препаратами риск суммируется",
+        "С глюкокортикоидом риск язвы/кровотечения ЖКТ ещё выше"
+      ],
+      qollash: {
+        kattalar: "Глубоко в/м: ампула комбинации 1 раз в сутки, при сильной боли 2–3 дня подряд; затем как можно скорее переход на пероральную терапию. Курс короткий (обычно ≤3 дней).",
+        bolalar: "Не рекомендуется (гематотоксичность и риск кортикостероида)."
+      },
+      chiqarish: "Комбинированный раствор для в/м инъекций (фенилбутазон + дексаметазон + цианокобаламин + лидокаин) в ампулах"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — pyrazolidinedione; combined with corticosteroid/vitamin",
+      farmTasir: "Potent anti-inflammatory, analgesic (combined injection)",
+      farmakodinamika: `Phenylbutazone is a potent anti-inflammatory NSAID, a pyrazolidinedione derivative; it inhibits cyclooxygenase, reducing prostaglandin synthesis, and has a uricosuric (uric-acid-excreting) effect. This code often denotes combined injectable products — phenylbutazone together with dexamethasone (glucocorticoid, potent anti-inflammatory), cyanocobalamin (B12, neurotropic) and lidocaine (local anaesthetic). The combination gives rapid, potent anti-inflammatory/analgesic effect in acute radiculitis, neuralgia and joint-muscle syndromes. Owing to phenylbutazone's severe haematotoxicity (agranulocytosis, aplastic anaemia) its use is sharply restricted.`,
+      farmakokinetika: {
+        sorish: "Given i/m; components are rapidly absorbed.",
+        tarqalish: "Phenylbutazone is >98% plasma protein bound; penetrates synovial fluid.",
+        metabolizm: "Phenylbutazone is metabolised in the liver to oxyphenbutazone (active); dexamethasone and lidocaine also hepatic.",
+        chiqarilish: "Mainly renal. Phenylbutazone T½ is long (~70 h)."
+      },
+      korsatmalar: [
+        "Acute painful radiculitis, lumbago, sciatica",
+        "Neuralgia, neuritis, myositis",
+        "Short-term treatment of joint-muscle inflammation and pain syndromes",
+        "Acute gout attack (in selected cases)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to phenylbutazone, pyrazolones or NSAIDs",
+        "Blood disorders (leukopenia, agranulocytosis, anaemia), haemorrhagic diathesis",
+        "Active GI ulcer, bleeding",
+        "Severe hepatic, renal or cardiac failure, uncontrolled hypertension",
+        "Systemic fungal infection (due to dexamethasone); pregnancy and lactation; childhood"
+      ],
+      nojoya: {
+        "Blood": "Agranulocytosis, leukopenia, thrombocytopenia, aplastic anaemia (severe, life-threatening)",
+        "Digestive system": "Epigastric pain, nausea, ulcer, bleeding, perforation",
+        "Cardiovascular system / kidneys": "Fluid and sodium retention, oedema, raised BP, worsening heart failure",
+        "Endocrine (dexamethasone)": "Hyperglycaemia, raised BP, immunosuppression, Cushingoid features (with prolonged use)",
+        "Allergy / skin": "Rash, urticaria; rarely Stevens-Johnson, Lyell syndrome"
+      },
+      dozadan: "Symptoms: nausea, vomiting, abdominal pain, bleeding, convulsions, acidosis, blood-count disturbance. Treatment: discontinue, gastric lavage, symptomatic; monitor blood counts and electrolytes.",
+      ozarotasir: [
+        "Anticoagulants (warfarin): enhanced effect, bleeding risk",
+        "Hypoglycaemic sulfonylureas: enhanced hypoglycaemia",
+        "With other haemato-/hepatotoxic drugs the risk is additive",
+        "With the glucocorticoid the risk of GI ulcer/bleeding is even higher"
+      ],
+      qollash: {
+        kattalar: "Deep i/m: one ampoule of the combination once daily, for severe pain 2–3 consecutive days; then switch to oral therapy as soon as possible. Short course (usually ≤3 days).",
+        bolalar: "Not recommended (haematotoxicity and corticosteroid risk)."
+      },
+      chiqarish: "Combined solution for i/m injection (phenylbutazone + dexamethasone + cyanocobalamin + lidocaine) in ampoules"
+    }
   }
 
 };
