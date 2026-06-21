@@ -51054,6 +51054,720 @@ const PHARMA_DATA = {
       },
       chiqarish: "Syrup, elixir, oral solution, drops; dry-extract tablets (marshmallow, liquorice, ivy leaf, thyme)"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // TERI KASALLIKLARI (D) — zamburug'ga qarshi, kortikosteroidlar,
+  // antibiotiklar, antiseptiklar, akne, boshqa dermatologik
+  // D-Batch 1 — Mahalliy zamburug'ga qarshi vositalar (D01A)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── KLOTRIMAZOL | ATX: D01AC01 ──
+  "D01AC01": {
+    uz: {
+      gruppa: "Mahalliy zamburug'ga qarshi vositalar — imidazol hosilasi (klotrimazol)",
+      farmTasir: "Keng spektrli zamburug'ga qarshi (mahalliy)",
+      farmakodinamika: `Klotrimazol — imidazol guruhiga mansub keng spektrli mahalliy zamburug'ga qarshi vosita. Zamburug' hujayrasidagi sitoxrom P450 ga bog'liq lanosterol-14-demetilaza fermentini ingibe qilib ergosterol (hujayra membranasining asosiy komponenti) sintezini bloklaydi — natijada membrana tuzilishi va o'tkazuvchanligi buzilib zamburug' o'sishi to'xtaydi (fungistatik), yuqori konsentratsiyada esa halok bo'ladi (fungitsid). Dermatofitlar (Trichophyton, Microsporum, Epidermophyton), achitqisimon zamburug'lar (Candida), mog'or va ko'p rangli temratki qo'zg'atuvchisi (Malassezia), shuningdek ba'zi grammusbat bakteriyalar (streptokokk, stafilokokk) va trixomonadaga ta'sir qiladi.`,
+      farmakokinetika: {
+        sorish: "Mahalliy qo'llaganda teri va shilliq qavat orqali tizimli so'rilish juda past (~0,5%); epidermis va dermисда yuqori konsentratsiya.",
+        tarqalish: "Shox qavat va teri qatlamlarида to'planadi.",
+        metabolizm: "So'rilgan oz qism jigarда faolsiz metabolitlarga.",
+        chiqarilish: "Mahalliy ta'sir; so'rilgan qism o't bilan."
+      },
+      korsatmalar: [
+        "Teri dermatomikozlari: oyoq, tana, qo'l-oyoq burmasi mikozi (dermatofitiya)",
+        "Teri va shilliq qavat kandidozi (kandidoz oraliq, paronixiya)",
+        "Ko'p rangli temratki (otrubevidiy lishay), eritrazma",
+        "Vaginal kandidoz (vaginit) — vaginal shakl; balanit"
+      ],
+      qarrshi: [
+        "Klotrimazol yoki imidazollarга o'ta sezgirlik",
+        "Homiladorlikning I trimestri (vaginal shakl — ehtiyot)",
+        "Ko'z atrofiga va ko'zga surtish (ophthalmologik emas)",
+        "Hayz davrida vaginal shaklni qo'llashda ehtiyot"
+      ],
+      nojoya: {
+        "Mahalliy (teri)": "Qo'llash joyida achishish, qizarish, qichima, sanchish, qovuq, terining po'st tashlashi",
+        "Vaginal shakl": "Qинда achishish, qichima, oqava, qorin pastida noxushlik; jinsiy aloqada sherikda ta'sir",
+        "Allergik": "Kontakt dermatit, eshakemi (kamdan-kam)"
+      },
+      dozadan: "Mahalliy shaklда tizimli dozadan oshish kutilmaydi (past so'rilish). Tasodifan yutib yuborilганда — ko'ngil aynishi, qusish; simptomatik.",
+      ozarotasir: [
+        "Mahalliy nistatin, natamitsin, amfoteritsin B bilan klotrimazol ta'sirini kamaytirishi mumkin",
+        "Vaginal shakl lateks prezervativ/diafragma butunligini buzishi mumkin (kontratseptiv ishonchsizligi)"
+      ],
+      qollash: {
+        kattalar: "Teri: 1% krem/eritma/kukunни zararlangan sohaga kuniga 2–3 marta yupqa surtib, simptomlar yo'qolgach yana 2 hafta davom ettirish. Vaginal: 100 mg×6 kun yoki 500 mg bir martalik (kechqurun).",
+        bolalar: "Teri shakli yoshга qarab qo'llaniladi (ehtiyot, kichik yuzaga)."
+      },
+      chiqarish: "Krem/mazь 1%; eritma 1%; kukun; vaginal tabletkalar 100, 200, 500 mg; vaginal krem 1–2%"
+    },
+    ru: {
+      gruppa: "Местные противогрибковые средства — производное имидазола (клотримазол)",
+      farmTasir: "Противогрибковое широкого спектра (местное)",
+      farmakodinamika: `Клотримазол — местное противогрибковое средство широкого спектра группы имидазола. Ингибируя зависимый от цитохрома Р450 фермент ланостерол-14-деметилазу клетки гриба, блокирует синтез эргостерола (основного компонента клеточной мембраны) — нарушаются структура и проницаемость мембраны, рост гриба прекращается (фунгистатически), а при высокой концентрации гриб гибнет (фунгицидно). Действует на дерматофиты (Trichophyton, Microsporum, Epidermophyton), дрожжеподобные грибы (Candida), плесени и возбудителя отрубевидного лишая (Malassezia), а также на некоторые грамположительные бактерии (стрептококк, стафилококк) и трихомонаду.`,
+      farmakokinetika: {
+        sorish: "При местном применении системное всасывание через кожу и слизистую очень низкое (~0,5%); высокая концентрация в эпидермисе и дерме.",
+        tarqalish: "Накапливается в роговом слое и слоях кожи.",
+        metabolizm: "Всосавшаяся малая часть в печени до неактивных метаболитов.",
+        chiqarilish: "Местное действие; всосавшаяся часть с жёлчью."
+      },
+      korsatmalar: [
+        "Дерматомикозы кожи: микоз стоп, тела, паховых складок (дерматофития)",
+        "Кандидоз кожи и слизистых (кандидозные опрелости, паронихия)",
+        "Отрубевидный лишай, эритразма",
+        "Вагинальный кандидоз (вагинит) — вагинальная форма; баланит"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к клотримазолу или имидазолам",
+        "I триместр беременности (вагинальная форма — осторожно)",
+        "Нанесение вокруг глаз и в глаза (не офтальмологический)",
+        "Осторожно при применении вагинальной формы во время менструации"
+      ],
+      nojoya: {
+        "Местные (кожа)": "Жжение, покраснение, зуд, покалывание, волдыри, шелушение кожи в месте нанесения",
+        "Вагинальная форма": "Жжение, зуд во влагалище, выделения, дискомфорт внизу живота; воздействие на партнёра при половом акте",
+        "Аллергия": "Контактный дерматит, крапивница (редко)"
+      },
+      dozadan: "При местной форме системная передозировка не ожидается (низкое всасывание). При случайном проглатывании — тошнота, рвота; симптоматически.",
+      ozarotasir: [
+        "Местные нистатин, натамицин, амфотерицин B могут снижать действие клотримазола",
+        "Вагинальная форма может нарушать целостность латексного презерватива/диафрагмы (ненадёжность контрацепции)"
+      ],
+      qollash: {
+        kattalar: "Кожа: 1% крем/раствор/порошок тонко наносить на поражённую область 2–3 раза в день, после исчезновения симптомов продолжать ещё 2 недели. Вагинально: 100 мг×6 дней или 500 мг однократно (на ночь).",
+        bolalar: "Кожная форма по возрасту (осторожно, на небольшую площадь)."
+      },
+      chiqarish: "Крем/мазь 1%; раствор 1%; порошок; вагинальные таблетки 100, 200, 500 мг; вагинальный крем 1–2%"
+    },
+    en: {
+      gruppa: "Topical antifungals — imidazole derivative (clotrimazole)",
+      farmTasir: "Broad-spectrum antifungal (topical)",
+      farmakodinamika: `Clotrimazole is a broad-spectrum topical antifungal of the imidazole group. By inhibiting the cytochrome P450-dependent enzyme lanosterol-14-demethylase in the fungal cell, it blocks synthesis of ergosterol (the main cell membrane component) — disrupting membrane structure and permeability, so fungal growth stops (fungistatic) and at high concentration the fungus dies (fungicidal). It acts on dermatophytes (Trichophyton, Microsporum, Epidermophyton), yeast-like fungi (Candida), moulds and the agent of pityriasis versicolor (Malassezia), and on some Gram-positive bacteria (streptococci, staphylococci) and Trichomonas.`,
+      farmakokinetika: {
+        sorish: "With topical use systemic absorption through skin and mucosa is very low (~0.5%); high concentration in epidermis and dermis.",
+        tarqalish: "Accumulates in the stratum corneum and skin layers.",
+        metabolizm: "The small absorbed part in the liver to inactive metabolites.",
+        chiqarilish: "Local action; the absorbed part via bile."
+      },
+      korsatmalar: [
+        "Cutaneous dermatomycoses: tinea pedis, corporis, cruris (dermatophytosis)",
+        "Candidiasis of skin and mucosa (candidal intertrigo, paronychia)",
+        "Pityriasis versicolor, erythrasma",
+        "Vaginal candidiasis (vaginitis) — vaginal form; balanitis"
+      ],
+      qarrshi: [
+        "Hypersensitivity to clotrimazole or imidazoles",
+        "First trimester of pregnancy (vaginal form — caution)",
+        "Application around or into the eyes (not ophthalmic)",
+        "Caution using the vaginal form during menstruation"
+      ],
+      nojoya: {
+        "Local (skin)": "Burning, redness, itching, stinging, blisters, skin peeling at the application site",
+        "Vaginal form": "Vaginal burning, itching, discharge, lower abdominal discomfort; effect on the partner during intercourse",
+        "Allergy": "Contact dermatitis, urticaria (rare)"
+      },
+      dozadan: "With the topical form systemic overdose is not expected (low absorption). If accidentally swallowed — nausea, vomiting; symptomatic.",
+      ozarotasir: [
+        "Topical nystatin, natamycin, amphotericin B may reduce clotrimazole's effect",
+        "The vaginal form may damage latex condoms/diaphragms (contraceptive unreliability)"
+      ],
+      qollash: {
+        kattalar: "Skin: apply 1% cream/solution/powder thinly to the affected area 2–3 times a day; continue 2 more weeks after symptoms clear. Vaginally: 100 mg×6 days or 500 mg single dose (at night).",
+        bolalar: "Skin form by age (caution, over a small area)."
+      },
+      chiqarish: "Cream/ointment 1%; solution 1%; powder; vaginal tablets 100, 200, 500 mg; vaginal cream 1–2%"
+    }
+  },
+
+  // ── MIKONAZOL | ATX: D01AC02 ──
+  "D01AC02": {
+    uz: {
+      gruppa: "Mahalliy zamburug'ga qarshi vositalar — imidazol hosilasi (mikonazol)",
+      farmTasir: "Keng spektrli zamburug'ga va grammusbat bakteriyalarga qarshi (mahalliy)",
+      farmakodinamika: `Mikonazol — imidazol guruhiga mansub keng spektrli mahalliy zamburug'ga qarshi vosita. Zamburug' hujayra membranasидаги ergosterol sintezini (lanosterol-14-demetilaza orqali) bloklaydi va peroksidlar to'planishini chaqiradi — membrana buzilib zamburug' halok bo'ladi. Dermatofitlar, Candida va boshqa achitqilarга, shuningdek grammusbat bakteriyalar (stafilo-, streptokokk) ga ta'sir qiladi — shu sababli ikkilamchi bakterial qo'shilishда foydali. Mahalliy (teri, og'iz gel, vaginal) shakllarда qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Teri orqali tizimli so'rilish minimal; og'iz geli yutilганда qisman so'riladi.",
+        tarqalish: "Shox qavат va shilliq qavатда to'planadi.",
+        metabolizm: "So'rilgan qism jigarда CYP orqali.",
+        chiqarilish: "Mahalliy; so'rilgan qism najas va siydik orqали."
+      },
+      korsatmalar: [
+        "Teri dermatomikozlari va kandidozi (oyoq, tana, burmalar)",
+        "Og'iz-halqum kandidozi (og'iz geli)",
+        "Vaginal kandidoz (vaginal shakl)",
+        "Ko'p rangli temratki, ikkilamchi grammusbat bakterial qo'shilишли mikozlar"
+      ],
+      qarrshi: [
+        "Mikonazol yoki imidazollarга o'ta sezgirlik",
+        "Og'iz geli: jigar funksiyasi buzilishi, yutish qiyinligi bo'lган chaqaloqlar (aspiratsiya xavfi)",
+        "Antikoagulyant (varfarin) qabul qiluvchilar — og'iz geli/vaginal (tizimli so'rilишда o'zaro ta'sir)",
+        "Homiladorlikning I trimestri (ehtiyot)"
+      ],
+      nojoya: {
+        "Mahalliy (teri)": "Achishish, qizarish, qichima, sanchish, kontakt dermatit",
+        "Og'iz geli": "Og'izда achchiqlik, ko'ngil aynishi, qusish, diareya (yutilганда)",
+        "Vaginal": "Qинда achishish, qichima, noxushlik",
+        "Allergik": "Toshma, eshakemi (kamdan-kam)"
+      },
+      dozadan: "Mahalliy shaklда tizimli xavf past. Og'iz geli ko'p yutilганда — hazm buzilishi; simptomatik.",
+      ozarotasir: [
+        "Varfarin va boshqa antikoagulyantlar: og'iz geli/vaginal so'rilишда ularning ta'sirini kuchaytiradi — qon ketish xavfi, INR nazorati",
+        "Peroral qandni tushiruvchi (sulfonilmochevina), fenitoin: konsentratsiyasini oshirishi mumkin (tizimli so'rilишда)"
+      ],
+      qollash: {
+        kattalar: "Teri: 2% krem/kukun kuniga 2 marta, simptomlardан keyin 1–2 hafta davom. Og'iz geli: 2,5 ml×4/kun og'izда ushlab. Vaginal: krem/sham belgilangan kursда.",
+        bolalar: "Teri shakli yoshга qarab; og'iz geli chaqaloqlarда aspiratsiya xavfi tufayli ehtiyot."
+      },
+      chiqarish: "Krem 2%; kukun 2%; og'iz geli 2%; vaginal krem/shamlar"
+    },
+    ru: {
+      gruppa: "Местные противогрибковые средства — производное имидазола (миконазол)",
+      farmTasir: "Противогрибковое и против грамположительных бактерий широкого спектра (местное)",
+      farmakodinamika: `Миконазол — местное противогрибковое средство широкого спектра группы имидазола. Блокирует синтез эргостерола мембраны гриба (через ланостерол-14-деметилазу) и вызывает накопление пероксидов — мембрана разрушается, гриб гибнет. Действует на дерматофиты, Candida и другие дрожжи, а также на грамположительные бактерии (стафило-, стрептококк) — поэтому полезен при вторичном бактериальном присоединении. Применяется в местных (кожа, оральный гель, вагинальная) формах.`,
+      farmakokinetika: {
+        sorish: "Через кожу системное всасывание минимально; оральный гель при проглатывании частично всасывается.",
+        tarqalish: "Накапливается в роговом слое и слизистой.",
+        metabolizm: "Всосавшаяся часть в печени через CYP.",
+        chiqarilish: "Местно; всосавшаяся часть с калом и мочой."
+      },
+      korsatmalar: [
+        "Дерматомикозы и кандидоз кожи (стопы, тело, складки)",
+        "Кандидоз рта и глотки (оральный гель)",
+        "Вагинальный кандидоз (вагинальная форма)",
+        "Отрубевидный лишай, микозы с вторичным грамположительным присоединением"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к миконазолу или имидазолам",
+        "Оральный гель: нарушение функции печени, младенцы с затруднением глотания (риск аспирации)",
+        "Принимающие антикоагулянты (варфарин) — оральный гель/вагинально (взаимодействие при системном всасывании)",
+        "I триместр беременности (осторожно)"
+      ],
+      nojoya: {
+        "Местные (кожа)": "Жжение, покраснение, зуд, покалывание, контактный дерматит",
+        "Оральный гель": "Горечь во рту, тошнота, рвота, диарея (при проглатывании)",
+        "Вагинально": "Жжение, зуд во влагалище, дискомфорт",
+        "Аллергия": "Сыпь, крапивница (редко)"
+      },
+      dozadan: "При местной форме системный риск низкий. При проглатывании большого количества орального геля — расстройство пищеварения; симптоматически.",
+      ozarotasir: [
+        "Варфарин и другие антикоагулянты: оральный гель/вагинально при всасывании усиливают их действие — риск кровотечения, контроль МНО",
+        "Пероральные гипогликемические (сульфонилмочевина), фенитоин: может повышать концентрацию (при системном всасывании)"
+      ],
+      qollash: {
+        kattalar: "Кожа: 2% крем/порошок 2 раза в день, после симптомов продолжать 1–2 недели. Оральный гель: 2,5 мл×4/сут, удерживая во рту. Вагинально: крем/свечи установленным курсом.",
+        bolalar: "Кожная форма по возрасту; оральный гель у младенцев осторожно из-за риска аспирации."
+      },
+      chiqarish: "Крем 2%; порошок 2%; оральный гель 2%; вагинальный крем/свечи"
+    },
+    en: {
+      gruppa: "Topical antifungals — imidazole derivative (miconazole)",
+      farmTasir: "Broad-spectrum antifungal and anti-Gram-positive (topical)",
+      farmakodinamika: `Miconazole is a broad-spectrum topical antifungal of the imidazole group. It blocks synthesis of fungal membrane ergosterol (via lanosterol-14-demethylase) and causes peroxide accumulation — disrupting the membrane so the fungus dies. It acts on dermatophytes, Candida and other yeasts, and on Gram-positive bacteria (staphylo-, streptococci) — so it is useful with secondary bacterial involvement. It is used in topical (skin, oral gel, vaginal) forms.`,
+      farmakokinetika: {
+        sorish: "Through the skin systemic absorption is minimal; the oral gel is partly absorbed if swallowed.",
+        tarqalish: "Accumulates in the stratum corneum and mucosa.",
+        metabolizm: "The absorbed part in the liver via CYP.",
+        chiqarilish: "Local; the absorbed part in faeces and urine."
+      },
+      korsatmalar: [
+        "Cutaneous dermatomycoses and candidiasis (feet, body, folds)",
+        "Oral and pharyngeal candidiasis (oral gel)",
+        "Vaginal candidiasis (vaginal form)",
+        "Pityriasis versicolor, mycoses with secondary Gram-positive involvement"
+      ],
+      qarrshi: [
+        "Hypersensitivity to miconazole or imidazoles",
+        "Oral gel: impaired liver function, infants with swallowing difficulty (aspiration risk)",
+        "Those on anticoagulants (warfarin) — oral gel/vaginal (interaction with systemic absorption)",
+        "First trimester of pregnancy (caution)"
+      ],
+      nojoya: {
+        "Local (skin)": "Burning, redness, itching, stinging, contact dermatitis",
+        "Oral gel": "Bitter taste, nausea, vomiting, diarrhoea (if swallowed)",
+        "Vaginal": "Vaginal burning, itching, discomfort",
+        "Allergy": "Rash, urticaria (rare)"
+      },
+      dozadan: "With the topical form systemic risk is low. If much oral gel is swallowed — digestive upset; symptomatic.",
+      ozarotasir: [
+        "Warfarin and other anticoagulants: oral gel/vaginal, when absorbed, enhance their effect — bleeding risk, INR monitoring",
+        "Oral hypoglycaemics (sulfonylureas), phenytoin: may raise concentration (with systemic absorption)"
+      ],
+      qollash: {
+        kattalar: "Skin: 2% cream/powder twice daily, continue 1–2 weeks after symptoms. Oral gel: 2.5 mL×4/day, holding in the mouth. Vaginally: cream/suppositories for the set course.",
+        bolalar: "Skin form by age; oral gel in infants with caution due to aspiration risk."
+      },
+      chiqarish: "Cream 2%; powder 2%; oral gel 2%; vaginal cream/suppositories"
+    }
+  },
+
+  // ── KETOKONAZOL | ATX: D01AC08 ──
+  "D01AC08": {
+    uz: {
+      gruppa: "Zamburug'ga qarshi vositalar — imidazol hosilasi (ketokonazol)",
+      farmTasir: "Keng spektrli zamburug'ga qarshi (mahalliy; tizimli cheklangan)",
+      farmakodinamika: `Ketokonazol — imidazol guruhiga mansub keng spektrli zamburug'ga qarshi vosita. Zamburug' hujayrasидаги ergosterol sintezini (lanosterol-14-demetilaza) bloklab membrana butunligini buzadi (fungistatik/fungitsid). Dermatofitlar, Candida, Malassezia (ko'p rangli temratki, seboreyali dermatit qo'zg'atuvchisi), shuningdek dimorf zamburug'larга ta'sir qiladi. Mahalliy shakl (krem, shampun) seboreyali dermatit va qazg'oqда samarali. Tizimli (tabletka) shakli jigar toksikligi va adrenal/gormonal ta'siri tufayli og'ir/hayot uchun xavfli mikozlardagina, boshqa preparatlar samarasiz bo'lganда juda cheklangan qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Mahalliy: tizimli so'rilish minimal. Peroral: kislotali muhitда so'riladi (antatsidlar kamaytiradi).",
+        tarqalish: "Peroral shaklда plazma oqsillariga ~99% bog'lanadi; teri/to'qimaларга tarqaladi.",
+        metabolizm: "Jigarда CYP3A4 orqali keng metabolizatsiya; CYP3A4 ni kuchli inhibe qiladi.",
+        chiqarilish: "Asosан o't (najas), qisman siydik. Peroral T½ — ~8 soat."
+      },
+      korsatmalar: [
+        "Mahalliy: seboreyali dermatit, qazg'oq (shampun), ko'p rangli temratki, teri dermatomikozlari va kandidozi (krem)",
+        "Tizimli (juda cheklangan): boshqa davo samarasiz bo'lган og'ir tizimli mikozlar (jigar nazorati ostида)",
+        "Mahalliy kandidoz va dermatofitiya"
+      ],
+      qarrshi: [
+        "Ketokonazol yoki imidazollarга o'ta sezgirlik",
+        "Tizimli: o'tkir/surункали jigar kasalligi (gepatotoksiklik) — TIZIMLI shakl ko'p mamlakatlarда taqiqlangan",
+        "QT uzaytiruvchi va CYP3A4 substrati dorilar bilan birga (tizimli)",
+        "Homiladorlik va emizish (tizimli)"
+      ],
+      nojoya: {
+        "Mahalliy": "Qo'llash joyида achishish, qizarish, qichima, quruqlik; shampun — soch tuzilishi o'zgarishi, bosh terisi ta'siri",
+        "Tizimli — jigar": "Gepatotoksiklik (transaminazalar oshishi, gepatit, jigar yetishmovchiligi — jiddiy)",
+        "Tizimli — endokrin": "Testosteron va kortizol sintezini susaytirish: ginekomastiya, libido pasayishi, adrenal yetishmovchilik",
+        "Tizimli — boshqa": "Ko'ngil aynishi, qusish, bosh og'rig'i, QT uzayishi"
+      },
+      dozadan: "Mahalliy shaklда tizimli xavf past. Tizimli dozadan oshish — gepatotoksiklik, adrenal susayishi; simptomatik, jigar nazorati.",
+      ozarotasir: [
+        "Tizimli: kuchli CYP3A4 inhibitori — ko'plab dorilarning (statinlar, antikoagulyantlar, immunosupressantlar, ba'zi antiaritmiklar) konsentratsiyasini xavfli oshiradi",
+        "Antatsidlar, H2-blokatorlar, PPI: peroral so'rilishini kamaytiradi",
+        "QT uzaytiruvchi dorilar bilan aritmiya xavfi"
+      ],
+      qollash: {
+        kattalar: "Shampun 2%: seboreyali dermatit/qazg'oqда haftada 2 marta 3–5 daqiqа ushlab, keyin yuvish (4 hafta), profilaktika haftada 1 marta. Krem 2%: kuniga 1–2 marta. Tizimli: faqat mutaxassis nazoratida, juda cheklangan.",
+        bolalar: "Mahalliy shakl yoshга qarab; tizimli shakl bolalarда qo'llanilmaydi."
+      },
+      chiqarish: "Shampun 2%; krem 2%; tabletkalar 200 mg (tizimli — cheklangan)"
+    },
+    ru: {
+      gruppa: "Противогрибковые средства — производное имидазола (кетоконазол)",
+      farmTasir: "Противогрибковое широкого спектра (местно; системно ограничено)",
+      farmakodinamika: `Кетоконазол — противогрибковое средство широкого спектра группы имидазола. Блокируя синтез эргостерола (ланостерол-14-деметилаза) в клетке гриба, нарушает целостность мембраны (фунгистатически/фунгицидно). Действует на дерматофиты, Candida, Malassezia (возбудитель отрубевидного лишая и себорейного дерматита), а также на диморфные грибы. Местная форма (крем, шампунь) эффективна при себорейном дерматите и перхоти. Системная (таблетки) форма из-за гепатотоксичности и влияния на надпочечники/гормоны применяется крайне ограниченно — только при тяжёлых/опасных микозах при неэффективности других средств.`,
+      farmakokinetika: {
+        sorish: "Местно: системное всасывание минимально. Перорально: всасывается в кислой среде (антациды снижают).",
+        tarqalish: "В пероральной форме связь с белками плазмы ~99%; распределяется в кожу/ткани.",
+        metabolizm: "В печени через CYP3A4 широко метаболизируется; сильно ингибирует CYP3A4.",
+        chiqarilish: "Преимущественно с жёлчью (кал), частично с мочой. Пероральный T½ — ~8 ч."
+      },
+      korsatmalar: [
+        "Местно: себорейный дерматит, перхоть (шампунь), отрубевидный лишай, дерматомикозы и кандидоз кожи (крем)",
+        "Системно (крайне ограниченно): тяжёлые системные микозы при неэффективности другого лечения (под контролем печени)",
+        "Местный кандидоз и дерматофития"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к кетоконазолу или имидазолам",
+        "Системно: острое/хроническое заболевание печени (гепатотоксичность) — системная форма во многих странах запрещена",
+        "Совместно с удлиняющими QT и субстратами CYP3A4 (системно)",
+        "Беременность и лактация (системно)"
+      ],
+      nojoya: {
+        "Местные": "Жжение, покраснение, зуд, сухость в месте нанесения; шампунь — изменение структуры волос, раздражение кожи головы",
+        "Системно — печень": "Гепатотоксичность (повышение трансаминаз, гепатит, печёночная недостаточность — серьёзно)",
+        "Системно — эндокринные": "Снижение синтеза тестостерона и кортизола: гинекомастия, снижение либидо, надпочечниковая недостаточность",
+        "Системно — прочее": "Тошнота, рвота, головная боль, удлинение QT"
+      },
+      dozadan: "При местной форме системный риск низкий. Системная передозировка — гепатотоксичность, угнетение надпочечников; симптоматически, контроль печени.",
+      ozarotasir: [
+        "Системно: сильный ингибитор CYP3A4 — опасно повышает концентрацию многих препаратов (статины, антикоагулянты, иммуносупрессанты, некоторые антиаритмики)",
+        "Антациды, H2-блокаторы, ИПП: снижают пероральное всасывание",
+        "С удлиняющими QT препаратами риск аритмии"
+      ],
+      qollash: {
+        kattalar: "Шампунь 2%: при себорейном дерматите/перхоти 2 раза в неделю, удерживая 3–5 мин, затем смыть (4 недели), профилактика 1 раз в неделю. Крем 2%: 1–2 раза в день. Системно: только под контролем специалиста, крайне ограниченно.",
+        bolalar: "Местная форма по возрасту; системная форма у детей не применяется."
+      },
+      chiqarish: "Шампунь 2%; крем 2%; таблетки 200 мг (системно — ограниченно)"
+    },
+    en: {
+      gruppa: "Antifungals — imidazole derivative (ketoconazole)",
+      farmTasir: "Broad-spectrum antifungal (topical; systemic restricted)",
+      farmakodinamika: `Ketoconazole is a broad-spectrum antifungal of the imidazole group. By blocking ergosterol synthesis (lanosterol-14-demethylase) in the fungal cell it disrupts membrane integrity (fungistatic/fungicidal). It acts on dermatophytes, Candida, Malassezia (agent of pityriasis versicolor and seborrhoeic dermatitis) and dimorphic fungi. The topical form (cream, shampoo) is effective in seborrhoeic dermatitis and dandruff. The systemic (tablet) form, owing to hepatotoxicity and effects on the adrenals/hormones, is used very restrictedly — only for severe/dangerous mycoses when other agents fail.`,
+      farmakokinetika: {
+        sorish: "Topical: systemic absorption minimal. Oral: absorbed in an acidic environment (antacids reduce it).",
+        tarqalish: "In the oral form plasma protein binding ~99%; distributes to skin/tissues.",
+        metabolizm: "Extensively metabolised hepatically via CYP3A4; strongly inhibits CYP3A4.",
+        chiqarilish: "Mainly biliary (faeces), partly renal. Oral T½ — ~8 h."
+      },
+      korsatmalar: [
+        "Topical: seborrhoeic dermatitis, dandruff (shampoo), pityriasis versicolor, cutaneous dermatomycoses and candidiasis (cream)",
+        "Systemic (very restricted): severe systemic mycoses when other treatment fails (under liver monitoring)",
+        "Topical candidiasis and dermatophytosis"
+      ],
+      qarrshi: [
+        "Hypersensitivity to ketoconazole or imidazoles",
+        "Systemic: acute/chronic liver disease (hepatotoxicity) — the systemic form is banned in many countries",
+        "With QT-prolonging drugs and CYP3A4 substrates (systemic)",
+        "Pregnancy and lactation (systemic)"
+      ],
+      nojoya: {
+        "Local": "Burning, redness, itching, dryness at the application site; shampoo — hair texture change, scalp irritation",
+        "Systemic — liver": "Hepatotoxicity (raised transaminases, hepatitis, liver failure — serious)",
+        "Systemic — endocrine": "Reduced testosterone and cortisol synthesis: gynaecomastia, lowered libido, adrenal insufficiency",
+        "Systemic — other": "Nausea, vomiting, headache, QT prolongation"
+      },
+      dozadan: "With the topical form systemic risk is low. Systemic overdose — hepatotoxicity, adrenal suppression; symptomatic, liver monitoring.",
+      ozarotasir: [
+        "Systemic: a potent CYP3A4 inhibitor — dangerously raises concentration of many drugs (statins, anticoagulants, immunosuppressants, some antiarrhythmics)",
+        "Antacids, H2-blockers, PPIs: reduce oral absorption",
+        "With QT-prolonging drugs arrhythmia risk"
+      ],
+      qollash: {
+        kattalar: "Shampoo 2%: for seborrhoeic dermatitis/dandruff twice weekly, hold 3–5 min then rinse (4 weeks), prophylaxis once weekly. Cream 2%: 1–2 times a day. Systemic: only under specialist supervision, very restricted.",
+        bolalar: "Topical form by age; the systemic form is not used in children."
+      },
+      chiqarish: "Shampoo 2%; cream 2%; tablets 200 mg (systemic — restricted)"
+    }
+  },
+
+  // ── TERBINAFIN | ATX: D01AE15 ──
+  "D01AE15": {
+    uz: {
+      gruppa: "Zamburug'ga qarshi vositalar — allilamin hosilasi (terbinafin)",
+      farmTasir: "Dermatofitlarga fungitsid (mahalliy va tizimli)",
+      farmakodinamika: `Terbinafin — allilamin guruhiga mansub zamburug'ga qarshi vosita. Imidazollardан farqli o'laroq zamburug' hujayrasидаги skvalen-epoksidaza fermentini ingibe qiladi — ergosterol sintezi erta bosqichда to'xtaydi va hujayrada toksik skvalen to'planadi, bu zamburug'ни halok qiladi (dermatofitlarga kuchli fungitsid). Dermatofitlar (Trichophyton, Microsporum, Epidermophyton) ga eng samarali; Candida ga fungistatik. Tirnoq va sochда (keratin to'qimасида) uzoq to'planadi — onixomikozда tizimli (tabletka) shakli samarali.`,
+      farmakokinetika: {
+        sorish: "Mahalliy: so'rilish past. Peroral: yaxshi so'riladi (~70–80% biokirish).",
+        tarqalish: "Lipofil; teri, soch, tirnoq va yog' to'qimасида yuqori to'planadi; plazma oqsillariga >99%.",
+        metabolizm: "Jigarда CYP (asosан CYP2D6 ni inhibe qiladi).",
+        chiqarilish: "Asosан siydik orqали metabolit ko'rinishida. Peroral T½ — ~17 soat (to'qimада ancha uzun)."
+      },
+      korsatmalar: [
+        "Mahalliy (krem/sprey): teri dermatofitiyasi (oyoq, tana, qo'l-oyoq burmasi), ko'p rangli temratki, teri kandidozi",
+        "Tizimli (tabletka): tirnoq onixomikozi (dermatofit), keng yoki davolanmaydigan teri dermatofitiyasi, soch mikozи (trixofitiya, mikrosporiya)",
+        "Onixomikoz (eng asosiy tizimli ko'rsatma)"
+      ],
+      qarrshi: [
+        "Terbinafinga o'ta sezgirlik",
+        "Tizimli: o'tkir yoki surункали faol jigar kasalligi (gepatotoksiklik)",
+        "Og'ir buyrak yetishmovchiligi (KK<50 — tizimli, doza sozlash)",
+        "Homiladorlik va emizish (tizimli — ehtiyot)"
+      ],
+      nojoya: {
+        "Mahalliy": "Qo'llash joyида achishish, qizarish, qichima, quruqlik",
+        "Tizimli — hazm": "Ko'ngil aynishi, qorin og'rig'i, diareya, ishtaha yo'qolishi, to'qlik hissi",
+        "Tizimli — ta'm/jigar": "Ta'm sezgisining yo'qolishi/buzilishi (uzoq tiklanishi mumkin), transaminazalar oshishi, gepatit (kamdan-kam, lekin jiddiy)",
+        "Tizimli — teri/qon": "Toshma, krapivnitsa; kamdan-kam — og'ir teri reaksiyalari (Stivens-Jonson), neytropeniya, lupus alangalanishi"
+      },
+      dozadan: "Mahalliy shaklда xavf past. Tizimli dozadan oshish — bosh og'rig'i, ko'ngil aynishi, epigastral og'riq, bosh aylanishi. Davolash: faollashtirilgan ko'mir, simptomatik, jigar nazorati.",
+      ozarotasir: [
+        "CYP2D6 substratlari (trisiklik antidepressantlar, beta-blokatorlar, SSRI, antiaritmiklar): ularning konsentratsiyasini oshiradi",
+        "Rifampitsin terbinafin klirensini oshiradi; simetidin kamaytiradi",
+        "Kofein klirensini kamaytiradi"
+      ],
+      qollash: {
+        kattalar: "Mahalliy: krem/sprey 1% kuniga 1–2 marta, 1–2 hafta. Tizimli: 250 mg×1/kun — teri mikozи 2–4 hafta, qo'l tirnog'и 6 hafta, oyoq tirnog'и 12 hafta.",
+        bolalar: "Tizimli vaznга qarab: <20 kg 62,5 mg; 20–40 kg 125 mg; >40 kg 250 mg/kun (mutaxassis nazoratida)."
+      },
+      chiqarish: "Krem/sprey/eritma 1%; tabletkalar 125, 250 mg"
+    },
+    ru: {
+      gruppa: "Противогрибковые средства — производное аллиламина (тербинафин)",
+      farmTasir: "Фунгицидное против дерматофитов (местно и системно)",
+      farmakodinamika: `Тербинафин — противогрибковое средство группы аллиламина. В отличие от имидазолов ингибирует фермент скваленэпоксидазу в клетке гриба — синтез эргостерола прекращается на раннем этапе и в клетке накапливается токсичный сквален, что губит гриб (сильное фунгицидное действие на дерматофиты). Наиболее эффективен против дерматофитов (Trichophyton, Microsporum, Epidermophyton); на Candida действует фунгистатически. Длительно накапливается в ногтях и волосах (кератиновой ткани) — поэтому системная (таблетки) форма эффективна при онихомикозе.`,
+      farmakokinetika: {
+        sorish: "Местно: всасывание низкое. Перорально: хорошо всасывается (~70–80% биодоступность).",
+        tarqalish: "Липофилен; высоко накапливается в коже, волосах, ногтях и жировой ткани; связь с белками плазмы >99%.",
+        metabolizm: "В печени через CYP (ингибирует в основном CYP2D6).",
+        chiqarilish: "Преимущественно с мочой в виде метаболитов. Пероральный T½ — ~17 ч (в тканях значительно дольше)."
+      },
+      korsatmalar: [
+        "Местно (крем/спрей): дерматофития кожи (стопы, тело, паховые складки), отрубевидный лишай, кандидоз кожи",
+        "Системно (таблетки): онихомикоз ногтей (дерматофитный), обширная или резистентная дерматофития кожи, микоз волос (трихофития, микроспория)",
+        "Онихомикоз (основное системное показание)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к тербинафину",
+        "Системно: острое или хроническое активное заболевание печени (гепатотоксичность)",
+        "Тяжёлая почечная недостаточность (КК<50 — системно, коррекция дозы)",
+        "Беременность и лактация (системно — осторожно)"
+      ],
+      nojoya: {
+        "Местные": "Жжение, покраснение, зуд, сухость в месте нанесения",
+        "Системно — ЖКТ": "Тошнота, боль в животе, диарея, потеря аппетита, чувство переполнения",
+        "Системно — вкус/печень": "Потеря/нарушение вкуса (может долго восстанавливаться), повышение трансаминаз, гепатит (редко, но серьёзно)",
+        "Системно — кожа/кровь": "Сыпь, крапивница; редко — тяжёлые кожные реакции (Стивенса-Джонсона), нейтропения, обострение волчанки"
+      },
+      dozadan: "При местной форме риск низкий. Системная передозировка — головная боль, тошнота, эпигастральная боль, головокружение. Лечение: активированный уголь, симптоматически, контроль печени.",
+      ozarotasir: [
+        "Субстраты CYP2D6 (трициклические антидепрессанты, бета-блокаторы, СИОЗС, антиаритмики): повышает их концентрацию",
+        "Рифампицин повышает клиренс тербинафина; циметидин снижает",
+        "Снижает клиренс кофеина"
+      ],
+      qollash: {
+        kattalar: "Местно: крем/спрей 1% 1–2 раза в день, 1–2 недели. Системно: 250 мг×1/сут — микоз кожи 2–4 недели, ногти кистей 6 недель, ногти стоп 12 недель.",
+        bolalar: "Системно по массе: <20 кг 62,5 мг; 20–40 кг 125 мг; >40 кг 250 мг/сут (под контролем специалиста)."
+      },
+      chiqarish: "Крем/спрей/раствор 1%; таблетки 125, 250 мг"
+    },
+    en: {
+      gruppa: "Antifungals — allylamine derivative (terbinafine)",
+      farmTasir: "Fungicidal against dermatophytes (topical and systemic)",
+      farmakodinamika: `Terbinafine is an antifungal of the allylamine group. Unlike imidazoles it inhibits the enzyme squalene epoxidase in the fungal cell — ergosterol synthesis stops at an early stage and toxic squalene accumulates in the cell, killing the fungus (strong fungicidal action on dermatophytes). It is most effective against dermatophytes (Trichophyton, Microsporum, Epidermophyton); on Candida it is fungistatic. It accumulates long-term in nails and hair (keratin tissue) — so the systemic (tablet) form is effective in onychomycosis.`,
+      farmakokinetika: {
+        sorish: "Topical: low absorption. Oral: well absorbed (~70–80% bioavailability).",
+        tarqalish: "Lipophilic; highly accumulated in skin, hair, nails and fat; plasma protein binding >99%.",
+        metabolizm: "Hepatic via CYP (inhibits mainly CYP2D6).",
+        chiqarilish: "Mainly renal as metabolites. Oral T½ — ~17 h (much longer in tissues)."
+      },
+      korsatmalar: [
+        "Topical (cream/spray): cutaneous dermatophytosis (feet, body, groin folds), pityriasis versicolor, cutaneous candidiasis",
+        "Systemic (tablets): nail onychomycosis (dermatophytic), extensive or resistant cutaneous dermatophytosis, hair mycosis (trichophytosis, microsporia)",
+        "Onychomycosis (the main systemic indication)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to terbinafine",
+        "Systemic: acute or chronic active liver disease (hepatotoxicity)",
+        "Severe renal failure (CrCl<50 — systemic, dose adjustment)",
+        "Pregnancy and lactation (systemic — caution)"
+      ],
+      nojoya: {
+        "Local": "Burning, redness, itching, dryness at the application site",
+        "Systemic — GI": "Nausea, abdominal pain, diarrhoea, loss of appetite, feeling of fullness",
+        "Systemic — taste/liver": "Loss/disturbance of taste (may recover slowly), raised transaminases, hepatitis (rare but serious)",
+        "Systemic — skin/blood": "Rash, urticaria; rarely severe skin reactions (Stevens-Johnson), neutropenia, lupus flare"
+      },
+      dozadan: "With the topical form risk is low. Systemic overdose — headache, nausea, epigastric pain, dizziness. Treatment: activated charcoal, symptomatic, liver monitoring.",
+      ozarotasir: [
+        "CYP2D6 substrates (tricyclic antidepressants, beta-blockers, SSRIs, antiarrhythmics): raises their concentration",
+        "Rifampicin raises terbinafine clearance; cimetidine lowers it",
+        "Reduces caffeine clearance"
+      ],
+      qollash: {
+        kattalar: "Topical: cream/spray 1% 1–2 times a day, 1–2 weeks. Systemic: 250 mg×1/day — skin mycosis 2–4 weeks, fingernails 6 weeks, toenails 12 weeks.",
+        bolalar: "Systemic by weight: <20 kg 62.5 mg; 20–40 kg 125 mg; >40 kg 250 mg/day (under specialist supervision)."
+      },
+      chiqarish: "Cream/spray/solution 1%; tablets 125, 250 mg"
+    }
+  },
+
+  // ── NAFTIFIN | ATX: D01AE22 ──
+  "D01AE22": {
+    uz: {
+      gruppa: "Mahalliy zamburug'ga qarshi vositalar — allilamin hosilasi (naftifin)",
+      farmTasir: "Keng spektrli zamburug'ga qarshi, yallig'lanishga qarshi (mahalliy)",
+      farmakodinamika: `Naftifin — allilamin guruhiga mansub mahalliy zamburug'ga qarshi vosita. Skvalen-epoksidazani ingibe qilib ergosterol sintezini bloklaydi — dermatofitlarga fungitsid, achitqilarga fungistatik ta'sir. Bundan tashqari yengil yallig'lanishga qarshi ta'sirga ega (qichima va qizarishni tez kamaytiradi) — bu uni qichimali zamburug'li dermatozlarда qulay qiladi. Faqat mahalliy qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Teri orqали tizimli so'rilish past (~3–6%); teri qatlamlarида yuqori konsentratsiya.",
+        tarqalish: "Epidermis va dermисда to'planadi.",
+        metabolizm: "So'rilgan qism jigarда.",
+        chiqarilish: "So'rilgan qism siydik va o't orqали."
+      },
+      korsatmalar: [
+        "Teri dermatofitiyasi (oyoq, tana, qo'l-oyoq burmasi mikozi)",
+        "Teri va teri burmalari kandidozi",
+        "Ko'p rangli temratki",
+        "Qichima bilan kechuvchi zamburug'li dermatozlar"
+      ],
+      qarrshi: [
+        "Naftifinga o'ta sezgirlik",
+        "Ochiq jarohat va kuchli yallig'langan teri yuzasiga surtish (ehtiyot)",
+        "Homiladorlik va emizishда foyda/xavf",
+        "Ko'z atrofiga surtish"
+      ],
+      nojoya: {
+        "Mahalliy": "Qo'llash joyида achishish, qizarish, qichima, quruqlik, vaqtinchalik ta'sir",
+        "Allergik": "Kontakt dermatit (kamdan-kam)"
+      },
+      dozadan: "Mahalliy shakl, tizimli xavf yo'q. Tasodifan yutilганда — hazm buzilishi; simptomatik.",
+      ozarotasir: [
+        "Mahalliy qo'llашда klinik ahamiyatli o'zaro ta'sir kam"
+      ],
+      qollash: {
+        kattalar: "Krem: kuniga 1 marta; eritma: kuniga 2 marta zararlangan va atrofdagi sohaga. Davolash mikoz turiga qarab 2–8 hafta (simptomlardan keyin davom ettirish).",
+        bolalar: "Yoshга qarab, shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "Krem 1%; teri eritmasi 1%"
+    },
+    ru: {
+      gruppa: "Местные противогрибковые средства — производное аллиламина (нафтифин)",
+      farmTasir: "Противогрибковое широкого спектра, противовоспалительное (местное)",
+      farmakodinamika: `Нафтифин — местное противогрибковое средство группы аллиламина. Ингибируя скваленэпоксидазу, блокирует синтез эргостерола — фунгицидное действие на дерматофиты, фунгистатическое на дрожжи. Кроме того, обладает лёгким противовоспалительным действием (быстро уменьшает зуд и покраснение) — что удобно при зудящих грибковых дерматозах. Применяется только местно.`,
+      farmakokinetika: {
+        sorish: "Через кожу системное всасывание низкое (~3–6%); высокая концентрация в слоях кожи.",
+        tarqalish: "Накапливается в эпидермисе и дерме.",
+        metabolizm: "Всосавшаяся часть в печени.",
+        chiqarilish: "Всосавшаяся часть с мочой и жёлчью."
+      },
+      korsatmalar: [
+        "Дерматофития кожи (микоз стоп, тела, паховых складок)",
+        "Кандидоз кожи и кожных складок",
+        "Отрубевидный лишай",
+        "Грибковые дерматозы с зудом"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к нафтифину",
+        "Нанесение на открытые раны и сильно воспалённую кожу (осторожно)",
+        "При беременности и лактации польза/риск",
+        "Нанесение вокруг глаз"
+      ],
+      nojoya: {
+        "Местные": "Жжение, покраснение, зуд, сухость, временное раздражение в месте нанесения",
+        "Аллергия": "Контактный дерматит (редко)"
+      },
+      dozadan: "Местная форма, системного риска нет. При случайном проглатывании — расстройство пищеварения; симптоматически.",
+      ozarotasir: [
+        "При местном применении клинически значимые взаимодействия редки"
+      ],
+      qollash: {
+        kattalar: "Крем: 1 раз в день; раствор: 2 раза в день на поражённую и окружающую область. Лечение 2–8 недель в зависимости от вида микоза (продолжать после симптомов).",
+        bolalar: "По возрасту, по назначению врача."
+      },
+      chiqarish: "Крем 1%; раствор для кожи 1%"
+    },
+    en: {
+      gruppa: "Topical antifungals — allylamine derivative (naftifine)",
+      farmTasir: "Broad-spectrum antifungal, anti-inflammatory (topical)",
+      farmakodinamika: `Naftifine is a topical antifungal of the allylamine group. By inhibiting squalene epoxidase it blocks ergosterol synthesis — fungicidal action on dermatophytes, fungistatic on yeasts. It also has mild anti-inflammatory action (quickly reducing itching and redness) — making it convenient in itchy fungal dermatoses. It is used only topically.`,
+      farmakokinetika: {
+        sorish: "Through the skin systemic absorption is low (~3–6%); high concentration in skin layers.",
+        tarqalish: "Accumulates in epidermis and dermis.",
+        metabolizm: "The absorbed part in the liver.",
+        chiqarilish: "The absorbed part in urine and bile."
+      },
+      korsatmalar: [
+        "Cutaneous dermatophytosis (tinea pedis, corporis, cruris)",
+        "Candidiasis of skin and skin folds",
+        "Pityriasis versicolor",
+        "Itchy fungal dermatoses"
+      ],
+      qarrshi: [
+        "Hypersensitivity to naftifine",
+        "Application to open wounds and severely inflamed skin (caution)",
+        "In pregnancy and lactation benefit/risk",
+        "Application around the eyes"
+      ],
+      nojoya: {
+        "Local": "Burning, redness, itching, dryness, transient irritation at the application site",
+        "Allergy": "Contact dermatitis (rare)"
+      },
+      dozadan: "Topical form, no systemic risk. If accidentally swallowed — digestive upset; symptomatic.",
+      ozarotasir: [
+        "With topical use clinically significant interactions are rare"
+      ],
+      qollash: {
+        kattalar: "Cream: once daily; solution: twice daily to the affected and surrounding area. Treat 2–8 weeks depending on the mycosis (continue after symptoms).",
+        bolalar: "By age, as prescribed."
+      },
+      chiqarish: "Cream 1%; skin solution 1%"
+    }
+  },
+
+  // ── NISTATIN | ATX: D01AA01 ──
+  "D01AA01": {
+    uz: {
+      gruppa: "Zamburug'ga qarshi vositalar — polien antibiotik (nistatin)",
+      farmTasir: "Candida ga qarshi (polien antifungal)",
+      farmakodinamika: `Nistatin — polien guruhiga mansub zamburug'ga qarshi antibiotik. Zamburug' hujayra membranasидаги ergosterolга bevosita bog'lanib membranada teshiklar (kanallar) hosil qiladi — hujayradan kaliy va boshqa muhim komponentlar oqib chiqib zamburug' halok bo'ladi. Asosан Candida turlariga (fungistatik/fungitsid) yuqori faol; dermatofitlarga ta'siri yo'q. Ichakdan deyarli so'rilmaydi — shu sababli oshqozon-ichak kandidozи va mahalliy (teri, shilliq qavat, vaginal) kandidozда qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Oshqozon-ichak yo'lидан deyarли so'rilmaydi; mahalliy/ichak ichида ta'sir qiladi.",
+        tarqalish: "Mahalliy (shilliq qavат yuzasида).",
+        metabolizm: "Metabolizatsiya bo'lmaydi.",
+        chiqarilish: "Deyarли to'liq najas orqали o'zgarmagan holда."
+      },
+      korsatmalar: [
+        "Oshqozon-ichak kandidozи (peroral tabletka — mahalliy ichak ta'siri)",
+        "Og'iz-halqum kandidozи (suspenziya, pastil)",
+        "Teri va teri burmalari kandidozи (mazь)",
+        "Vaginal kandidoz (vaginal sham/tabletka), kandidoz profilaktikasi (antibiotik bilan birga)"
+      ],
+      qarrshi: [
+        "Nistatinга o'ta sezgirlik",
+        "Oshqozon-ichak yarasi qo'zg'alishi (peroral — ehtiyot)",
+        "Homiladorlik va emizишда foyda/xavf (tizimli so'rilmagani uchun nisbatan xavfsiz)"
+      ],
+      nojoya: {
+        "Hazm tizimi (peroral)": "Ko'ngil aynishi, qusish, diareya, qorin noxushligi (yuqori dozada)",
+        "Mahalliy": "Qo'llash joyида achishish, qichima, qizarish",
+        "Allergik": "Toshma, eshakemi, Stivens-Jonson sindromi (juda kam)"
+      },
+      dozadan: "Past so'rilish tufayli tizimli xavf minimal. Yuqori peroral dozada — hazm buzilishi; simptomatik.",
+      ozarotasir: [
+        "Mahalliy klotrimazol kabi ba'zi imidazollar bilan ta'siri o'zgarishi mumkin",
+        "Klinik ahamiyatli tizimli o'zaro ta'sir kam (so'rilmaydi)"
+      ],
+      qollash: {
+        kattalar: "Peroral: 500 000 birlik×3–4/kun (ichak kandidozи). Og'iz: suspenziya 100 000 birlik/ml og'izда ushlab ×4/kun. Vaginal: 100 000 birlik×1–2/kun 14 kun. Mazь kuniga 2 marta.",
+        bolalar: "Og'iz suspenziyasi yoshга qarab (chaqaloqlar molochnitsasida); vaznга qarab past doza."
+      },
+      chiqarish: "Tabletkalar 250 000, 500 000 birlik; og'iz suspenziyasi; vaginal shamlar/tabletkalar 100 000 birlik; mazь 100 000 birlik/g"
+    },
+    ru: {
+      gruppa: "Противогрибковые средства — полиеновый антибиотик (нистатин)",
+      farmTasir: "Против Candida (полиеновый противогрибковый)",
+      farmakodinamika: `Нистатин — противогрибковый антибиотик группы полиенов. Непосредственно связываясь с эргостеролом мембраны клетки гриба, образует в мембране поры (каналы) — из клетки вытекают калий и другие важные компоненты, гриб гибнет. Высоко активен в основном против видов Candida (фунгистатически/фунгицидно); на дерматофиты не действует. Почти не всасывается из кишечника — поэтому применяется при кандидозе ЖКТ и местном (кожа, слизистые, вагинальном) кандидозе.`,
+      farmakokinetika: {
+        sorish: "Почти не всасывается из ЖКТ; действует местно/в просвете кишки.",
+        tarqalish: "Местно (на поверхности слизистой).",
+        metabolizm: "Не метаболизируется.",
+        chiqarilish: "Почти полностью с калом в неизменённом виде."
+      },
+      korsatmalar: [
+        "Кандидоз ЖКТ (пероральные таблетки — местное кишечное действие)",
+        "Кандидоз рта и глотки (суспензия, пастилки)",
+        "Кандидоз кожи и кожных складок (мазь)",
+        "Вагинальный кандидоз (вагинальные свечи/таблетки), профилактика кандидоза (с антибиотиком)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к нистатину",
+        "Обострение язвы ЖКТ (перорально — осторожно)",
+        "При беременности и лактации польза/риск (относительно безопасен из-за отсутствия системного всасывания)"
+      ],
+      nojoya: {
+        "Пищеварительная система (перорально)": "Тошнота, рвота, диарея, дискомфорт в животе (при высокой дозе)",
+        "Местные": "Жжение, зуд, покраснение в месте нанесения",
+        "Аллергия": "Сыпь, крапивница, синдром Стивенса-Джонсона (очень редко)"
+      },
+      dozadan: "Из-за низкого всасывания системный риск минимален. При высокой пероральной дозе — расстройство пищеварения; симптоматически.",
+      ozarotasir: [
+        "С некоторыми имидазолами (клотримазол) местно действие может изменяться",
+        "Клинически значимых системных взаимодействий мало (не всасывается)"
+      ],
+      qollash: {
+        kattalar: "Перорально: 500 000 ед×3–4/сут (кишечный кандидоз). Рот: суспензия 100 000 ед/мл, удерживая во рту ×4/сут. Вагинально: 100 000 ед×1–2/сут 14 дней. Мазь 2 раза в день.",
+        bolalar: "Оральная суспензия по возрасту (при молочнице у младенцев); по массе низкая доза."
+      },
+      chiqarish: "Таблетки 250 000, 500 000 ед; оральная суспензия; вагинальные свечи/таблетки 100 000 ед; мазь 100 000 ед/г"
+    },
+    en: {
+      gruppa: "Antifungals — polyene antibiotic (nystatin)",
+      farmTasir: "Anti-Candida (polyene antifungal)",
+      farmakodinamika: `Nystatin is an antifungal antibiotic of the polyene group. By binding directly to ergosterol in the fungal cell membrane it forms pores (channels) — potassium and other vital components leak out of the cell, killing the fungus. It is highly active mainly against Candida species (fungistatic/fungicidal); it does not act on dermatophytes. It is barely absorbed from the gut — so it is used for GI candidiasis and topical (skin, mucosa, vaginal) candidiasis.`,
+      farmakokinetika: {
+        sorish: "Barely absorbed from the GI tract; acts locally/in the gut lumen.",
+        tarqalish: "Local (on the mucosal surface).",
+        metabolizm: "Not metabolised.",
+        chiqarilish: "Almost entirely in faeces unchanged."
+      },
+      korsatmalar: [
+        "GI candidiasis (oral tablets — local intestinal action)",
+        "Oral and pharyngeal candidiasis (suspension, lozenges)",
+        "Candidiasis of skin and skin folds (ointment)",
+        "Vaginal candidiasis (vaginal suppositories/tablets), candidiasis prophylaxis (with an antibiotic)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to nystatin",
+        "Active GI ulcer (oral — caution)",
+        "In pregnancy and lactation benefit/risk (relatively safe due to no systemic absorption)"
+      ],
+      nojoya: {
+        "Digestive system (oral)": "Nausea, vomiting, diarrhoea, abdominal discomfort (at high dose)",
+        "Local": "Burning, itching, redness at the application site",
+        "Allergy": "Rash, urticaria, Stevens-Johnson syndrome (very rare)"
+      },
+      dozadan: "Owing to low absorption systemic risk is minimal. At a high oral dose — digestive upset; symptomatic.",
+      ozarotasir: [
+        "With some imidazoles (clotrimazole) the topical effect may change",
+        "Clinically significant systemic interactions are few (not absorbed)"
+      ],
+      qollash: {
+        kattalar: "Orally: 500,000 units×3–4/day (intestinal candidiasis). Mouth: suspension 100,000 units/mL, held in the mouth ×4/day. Vaginally: 100,000 units×1–2/day for 14 days. Ointment twice daily.",
+        bolalar: "Oral suspension by age (for infant thrush); a low dose by weight."
+      },
+      chiqarish: "Tablets 250,000, 500,000 units; oral suspension; vaginal suppositories/tablets 100,000 units; ointment 100,000 units/g"
+    }
   }
 
 };
