@@ -45032,6 +45032,621 @@ const PHARMA_DATA = {
       },
       chiqarish: "Tablets 0.5 mg and 1 mg"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // Batch 10 — Suyak kasalliklari (bisfosfonatlar) va betagistin
+  // ═══════════════════════════════════════════════════════════
+
+  // ── ALENDRON KISLOTA | ATX: M05BA04 ──
+  "M05BA04": {
+    uz: {
+      gruppa: "Suyak tuzilishi va mineralizatsiyasiga ta'sir qiluvchi vositalar — bisfosfonatlar (alendronat)",
+      farmTasir: "Suyak rezorbsiyasini kamaytiruvchi (antirezorbtiv)",
+      farmakodinamika: `Alendron kislota — azot saqlovchi (amino-) bisfosfonat; suyak gidroksiapatitiga yuqori moyillik bilan bog'lanadi va faol suyak yangilanishi joylariga to'planadi. Osteoklastlarda farnezil-pirofosfat sintazasini (mevalonat yo'lidagi ferment) ingibe qiladi — osteoklastlar faolligi va suyak rezorbsiyasini kamaytiradi, ularning apoptozini tezlashtiradi. Natijada suyak almashinuvidagi rezorbsiya-hosil bo'lish muvozanati suyak hosil bo'lishi foydasiga siljiydi, suyak mineral zichligi ortadi va sinish xavfi kamayadi. Mineralizatsiyani buzmaydi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali biokirish juda past (~0,6%); ovqat, kofe, sut, kaltsiy uni keskin kamaytiradi (och qoringa, faqat suv bilan qabul qilinadi).",
+        tarqalish: "So'rilgan qismning ~50% suyakка o'tadi, qolgani siydik bilan chiqadi; plazma oqsillariga ~78%.",
+        metabolizm: "Metabolizatsiya bo'lmaydi (o'zgarmaydi).",
+        chiqarilish: "So'rilgan qism buyrak orqali. Suyakка singgani juda uzoq (yillar) saqlanadi (suyak T½ ~10 yil)."
+      },
+      korsatmalar: [
+        "Postmenopauzal osteoporoz (sinish profilaktikasi va davosi)",
+        "Erkaklarda osteoporoz",
+        "Glyukokortikoid bilan chaqirilgan osteoporoz",
+        "Suyakning Pedjet kasalligi"
+      ],
+      qarrshi: [
+        "Alendronatga o'ta sezgirlik",
+        "Qizilo'ngach anomaliyalari yoki uni bo'shatishni sekinlashtiruvchi holatlar (striktura, axalaziya)",
+        "30 daqiqa tik o'tira/tura olmaslik",
+        "Gipokalsiemiya; og'ir buyrak yetishmovchiligi (KK<35); homiladorlik va emizish"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Qizilo'ngach ta'siri (ezofagit, eroziya, yara, disfagiya, to'sh ortida og'riq), epigastral og'riq, ko'ngil aynishi, diareya/qabziyat",
+        "Suyak-mushak": "Mushak, bo'g'im va suyak og'rig'i; kamdan-kam — atipik son suyagi sinishi (uzoq qabulda)",
+        "Og'iz-jag'": "Kamdan-kam — jag' suyagi osteonekrozi (ayniqsa stomatologik jarrohlik va onkologik bemorlarda)",
+        "Boshqa": "Gipokalsiemiya, gipofosfatemiya, isitma (boshlanishida), ko'z yallig'lanishi (uveit)"
+      },
+      dozadan: "Belgilari: oshqozon-ichak buzilishi (qizilo'ngach/oshqozon eroziyasi), gipokalsiemiya. Davolash: sut yoki antatsid berib bog'lash (so'rilishni kamaytirish uchun), tik holatda saqlash; qusish chaqirmaslik (qizilo'ngach ta'siri xavfi).",
+      ozarotasir: [
+        "Kaltsiy, antatsidlar, temir va boshqa ko'p valentli kationlar: so'rilishini keskin kamaytiradi — kamida 30–60 daqiqa ajrating",
+        "NSAID bilan birga oshqozon-ichak ta'siri xavfi qo'shiladi",
+        "Ovqat va ichimliklar so'rilishni kamaytiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 70 mg haftada 1 marta yoki 10 mg/kun. Ertalab ochlikda, to'liq stakan oddiy suv bilan; qabuldan keyin kamida 30 daqiqa tik holatda turish va ovqat/boshqa dori qabul qilmaslik. Kaltsiy va D vitamini bilan to'ldiriladi.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Tabletkalar 10 mg (kunlik), 70 mg (haftalik); ba'zan D3 vitamini bilan kombinatsiyada"
+    },
+    ru: {
+      gruppa: "Средства, влияющие на структуру и минерализацию кости — бисфосфонаты (алендронат)",
+      farmTasir: "Снижающий резорбцию кости (антирезорбтивный)",
+      farmakodinamika: `Алендроновая кислота — азотсодержащий (амино-) бисфосфонат; с высоким сродством связывается с гидроксиапатитом кости и накапливается в местах активного костного ремоделирования. В остеокластах ингибирует фарнезилпирофосфатсинтазу (фермент мевалонатного пути) — снижает активность остеокластов и резорбцию кости, ускоряет их апоптоз. В результате баланс резорбции-образования в костном обмене смещается в сторону образования кости, повышается минеральная плотность кости и снижается риск переломов. Не нарушает минерализацию.`,
+      farmakokinetika: {
+        sorish: "Биодоступность внутрь очень низкая (~0,6%); пища, кофе, молоко, кальций резко её снижают (принимается натощак, только с водой).",
+        tarqalish: "~50% всосавшегося переходит в кость, остальное выводится с мочой; связь с белками плазмы ~78%.",
+        metabolizm: "Не метаболизируется (не изменяется).",
+        chiqarilish: "Всосавшаяся часть почками. Депонированное в кости сохраняется очень долго (годы) (костный T½ ~10 лет)."
+      },
+      korsatmalar: [
+        "Постменопаузальный остеопороз (профилактика и лечение переломов)",
+        "Остеопороз у мужчин",
+        "Глюкокортикоид-индуцированный остеопороз",
+        "Болезнь Педжета кости"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к алендронату",
+        "Аномалии пищевода или состояния, замедляющие его опорожнение (стриктура, ахалазия)",
+        "Невозможность сидеть/стоять прямо 30 минут",
+        "Гипокальциемия; тяжёлая почечная недостаточность (КК<35); беременность и лактация"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Воздействие на пищевод (эзофагит, эрозии, язвы, дисфагия, загрудинная боль), эпигастральная боль, тошнота, диарея/запор",
+        "Костно-мышечная система": "Боль в мышцах, суставах и костях; редко — атипичный перелом бедра (при длительном приёме)",
+        "Челюсть": "Редко — остеонекроз челюсти (особенно при стоматологической хирургии и у онкологических больных)",
+        "Прочее": "Гипокальциемия, гипофосфатемия, лихорадка (в начале), воспаление глаз (увеит)"
+      },
+      dozadan: "Симптомы: расстройство ЖКТ (эрозии пищевода/желудка), гипокальциемия. Лечение: дать молоко или антацид для связывания (снижения всасывания), держать вертикально; не вызывать рвоту (риск повреждения пищевода).",
+      ozarotasir: [
+        "Кальций, антациды, железо и другие поливалентные катионы: резко снижают всасывание — разнести минимум на 30–60 минут",
+        "С НПВС суммируется риск воздействия на ЖКТ",
+        "Пища и напитки снижают всасывание"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 70 мг 1 раз в неделю или 10 мг/сут. Утром натощак, полным стаканом обычной воды; после приёма не менее 30 минут оставаться вертикально и не принимать пищу/другие лекарства. Дополняют кальцием и витамином D.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Таблетки 10 мг (ежедневно), 70 мг (еженедельно); иногда в комбинации с витамином D3"
+    },
+    en: {
+      gruppa: "Agents affecting bone structure and mineralisation — bisphosphonates (alendronate)",
+      farmTasir: "Reduces bone resorption (antiresorptive)",
+      farmakodinamika: `Alendronic acid is a nitrogen-containing (amino-) bisphosphonate; it binds bone hydroxyapatite with high affinity and accumulates at sites of active bone remodelling. In osteoclasts it inhibits farnesyl pyrophosphate synthase (an enzyme of the mevalonate pathway) — reducing osteoclast activity and bone resorption and accelerating their apoptosis. As a result the resorption-formation balance of bone turnover shifts toward bone formation, bone mineral density rises and fracture risk falls. It does not impair mineralisation.`,
+      farmakokinetika: {
+        sorish: "Oral bioavailability is very low (~0.6%); food, coffee, milk, calcium sharply reduce it (taken fasting, with water only).",
+        tarqalish: "~50% of the absorbed amount goes to bone, the rest is excreted in urine; plasma protein binding ~78%.",
+        metabolizm: "Not metabolised (unchanged).",
+        chiqarilish: "Absorbed portion via the kidneys. The bone-deposited fraction persists very long (years) (bone T½ ~10 years)."
+      },
+      korsatmalar: [
+        "Postmenopausal osteoporosis (fracture prevention and treatment)",
+        "Osteoporosis in men",
+        "Glucocorticoid-induced osteoporosis",
+        "Paget's disease of bone"
+      ],
+      qarrshi: [
+        "Hypersensitivity to alendronate",
+        "Oesophageal abnormalities or conditions delaying its emptying (stricture, achalasia)",
+        "Inability to sit/stand upright for 30 minutes",
+        "Hypocalcaemia; severe renal failure (CrCl<35); pregnancy and lactation"
+      ],
+      nojoya: {
+        "Digestive system": "Oesophageal effects (oesophagitis, erosions, ulcers, dysphagia, retrosternal pain), epigastric pain, nausea, diarrhoea/constipation",
+        "Musculoskeletal": "Muscle, joint and bone pain; rarely atypical femoral fracture (with long-term use)",
+        "Jaw": "Rarely osteonecrosis of the jaw (especially with dental surgery and in cancer patients)",
+        "Other": "Hypocalcaemia, hypophosphataemia, fever (at the start), eye inflammation (uveitis)"
+      },
+      dozadan: "Symptoms: GI upset (oesophageal/gastric erosions), hypocalcaemia. Treatment: give milk or antacid to bind it (reduce absorption), keep upright; do not induce vomiting (oesophageal injury risk).",
+      ozarotasir: [
+        "Calcium, antacids, iron and other polyvalent cations: sharply reduce absorption — separate by at least 30–60 minutes",
+        "With NSAIDs the GI-effect risk is additive",
+        "Food and drinks reduce absorption"
+      ],
+      qollash: {
+        kattalar: "Orally: 70 mg once weekly or 10 mg/day. In the morning fasting, with a full glass of plain water; after dosing stay upright for at least 30 minutes and take no food/other medicines. Supplement with calcium and vitamin D.",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Tablets 10 mg (daily), 70 mg (weekly); sometimes combined with vitamin D3"
+    }
+  },
+
+  // ── IBANDRON KISLOTA | ATX: M05BA06 ──
+  "M05BA06": {
+    uz: {
+      gruppa: "Suyak tuzilishi va mineralizatsiyasiga ta'sir qiluvchi vositalar — bisfosfonatlar (ibandronat)",
+      farmTasir: "Suyak rezorbsiyasini kamaytiruvchi (antirezorbtiv)",
+      farmakodinamika: `Ibandron kislota — azot saqlovchi kuchli bisfosfonat. Suyak gidroksiapatitiga bog'lanib osteoklastlardagi farnezil-pirofosfat sintazasini ingibe qiladi — osteoklastlar faolligi va suyak rezorbsiyasini kamaytiradi, suyak mineral zichligini oshiradi va sinish xavfini pasaytiradi. O'simta sabab giperkalsiemiyasida qondagi kaltsiyni kamaytiradi. Qulayligi — kamroq tez-tez qabul qilinadi (oyiga bir marta peroral yoki har 3 oyda i/v).`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali biokirish juda past (~0,6%); ovqat keskin kamaytiradi (och qoringa).",
+        tarqalish: "So'rilgan qismning katta qismi suyakка o'tadi; plazma oqsillariga ~85–90%.",
+        metabolizm: "Metabolizatsiya bo'lmaydi.",
+        chiqarilish: "So'rilgan qism buyrak orqali; so'rilmagani najas bilan. Suyakда uzoq saqlanadi."
+      },
+      korsatmalar: [
+        "Postmenopauzal osteoporoz (sinish profilaktikasi va davosi)",
+        "O'sma metastazlari sabab suyak shikastlanishi profilaktikasi (sinish, og'riq)",
+        "O'sma sabab giperkalsiemiya"
+      ],
+      qarrshi: [
+        "Ibandronatga o'ta sezgirlik",
+        "Gipokalsiemiya",
+        "Qizilo'ngach anomaliyalari, 60 daqiqa tik tura olmaslik (peroral shakl uchun)",
+        "Og'ir buyrak yetishmovchiligi (KK<30); homiladorlik va emizish"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, qizilo'ngach ta'siri (peroral), qorin og'rig'i, ko'ngil aynishi, diareya",
+        "Umumiy": "O'tkir faza reaksiyasi (i/v dan keyin gripsimon: isitma, mialgiya, artralgiya — odatda o'tkinchi)",
+        "Suyak-jag'": "Kamdan-kam — jag' osteonekrozi, atipik son sinishi (uzoq qabulda)",
+        "Boshqa": "Gipokalsiemiya, buyrak funksiyasi buzilishi (i/v), ko'z yallig'lanishi"
+      },
+      dozadan: "Belgilari: gipokalsiemiya, oshqozon-ichak buzilishi (peroral). Davolash: kaltsiy/antatsid bilan bog'lash (peroral), gipokalsiemiyada kaltsiy/D vitamini; tik holatda saqlash.",
+      ozarotasir: [
+        "Kaltsiy, antatsidlar, ko'p valentli kationlar: so'rilishini kamaytiradi — ajrating",
+        "Aminoglikozidlar bilan birga gipokalsiemiya xavfi oshadi",
+        "NSAID bilan oshqozon-ichak ta'siri qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Osteoporozda: peroral 150 mg oyiga 1 marta (ertalab ochlikda, suv bilan, keyin 60 daqiqa tik) yoki i/v 3 mg har 3 oyda. Onkologik ko'rsatmada i/v infuziya alohida sxema bo'yicha. Kaltsiy va D vitamini bilan.",
+        bolalar: "Tavsiya etilmaydi."
+      },
+      chiqarish: "Tabletkalar 150 mg (oylik); i/v in'eksiya eritmasi 3 mg/3 ml; infuziya konsentrati (onkologik)"
+    },
+    ru: {
+      gruppa: "Средства, влияющие на структуру и минерализацию кости — бисфосфонаты (ибандронат)",
+      farmTasir: "Снижающий резорбцию кости (антирезорбтивный)",
+      farmakodinamika: `Ибандроновая кислота — мощный азотсодержащий бисфосфонат. Связываясь с гидроксиапатитом кости, ингибирует фарнезилпирофосфатсинтазу остеокластов — снижает их активность и резорбцию кости, повышает минеральную плотность кости и снижает риск переломов. При опухолевой гиперкальциемии снижает кальций крови. Удобство — более редкий приём (раз в месяц перорально или раз в 3 месяца в/в).`,
+      farmakokinetika: {
+        sorish: "Биодоступность внутрь очень низкая (~0,6%); пища резко снижает (натощак).",
+        tarqalish: "Большая часть всосавшегося переходит в кость; связь с белками плазмы ~85–90%.",
+        metabolizm: "Не метаболизируется.",
+        chiqarilish: "Всосавшаяся часть почками; невсосавшаяся с калом. Долго сохраняется в кости."
+      },
+      korsatmalar: [
+        "Постменопаузальный остеопороз (профилактика и лечение переломов)",
+        "Профилактика костных поражений при метастазах опухоли (переломы, боль)",
+        "Опухолевая гиперкальциемия"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к ибандронату",
+        "Гипокальциемия",
+        "Аномалии пищевода, невозможность стоять прямо 60 минут (для пероральной формы)",
+        "Тяжёлая почечная недостаточность (КК<30); беременность и лактация"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, воздействие на пищевод (перорально), боль в животе, тошнота, диарея",
+        "Общие": "Реакция острой фазы (после в/в гриппоподобная: лихорадка, миалгия, артралгия — обычно преходящая)",
+        "Кость / челюсть": "Редко — остеонекроз челюсти, атипичный перелом бедра (при длительном приёме)",
+        "Прочее": "Гипокальциемия, нарушение функции почек (в/в), воспаление глаз"
+      },
+      dozadan: "Симптомы: гипокальциемия, расстройство ЖКТ (перорально). Лечение: связывание кальцием/антацидом (перорально), при гипокальциемии кальций/витамин D; держать вертикально.",
+      ozarotasir: [
+        "Кальций, антациды, поливалентные катионы: снижают всасывание — разнести",
+        "С аминогликозидами повышается риск гипокальциемии",
+        "С НПВС суммируется воздействие на ЖКТ"
+      ],
+      qollash: {
+        kattalar: "При остеопорозе: перорально 150 мг 1 раз в месяц (утром натощак, с водой, затем 60 минут вертикально) или в/в 3 мг каждые 3 месяца. По онкологическому показанию в/в инфузия по отдельной схеме. С кальцием и витамином D.",
+        bolalar: "Не рекомендуется."
+      },
+      chiqarish: "Таблетки 150 мг (ежемесячно); раствор для в/в инъекций 3 мг/3 мл; концентрат для инфузий (онкологический)"
+    },
+    en: {
+      gruppa: "Agents affecting bone structure and mineralisation — bisphosphonates (ibandronate)",
+      farmTasir: "Reduces bone resorption (antiresorptive)",
+      farmakodinamika: `Ibandronic acid is a potent nitrogen-containing bisphosphonate. By binding bone hydroxyapatite it inhibits osteoclast farnesyl pyrophosphate synthase — reducing osteoclast activity and bone resorption, raising bone mineral density and lowering fracture risk. In tumour-related hypercalcaemia it lowers blood calcium. Its convenience is less frequent dosing (once monthly orally or every 3 months i/v).`,
+      farmakokinetika: {
+        sorish: "Oral bioavailability very low (~0.6%); food sharply reduces it (fasting).",
+        tarqalish: "Most of the absorbed amount goes to bone; plasma protein binding ~85–90%.",
+        metabolizm: "Not metabolised.",
+        chiqarilish: "Absorbed portion via the kidneys; unabsorbed in faeces. Persists long in bone."
+      },
+      korsatmalar: [
+        "Postmenopausal osteoporosis (fracture prevention and treatment)",
+        "Prevention of bone lesions from tumour metastases (fractures, pain)",
+        "Tumour-related hypercalcaemia"
+      ],
+      qarrshi: [
+        "Hypersensitivity to ibandronate",
+        "Hypocalcaemia",
+        "Oesophageal abnormalities, inability to stand upright for 60 minutes (for the oral form)",
+        "Severe renal failure (CrCl<30); pregnancy and lactation"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, oesophageal effects (oral), abdominal pain, nausea, diarrhoea",
+        "General": "Acute-phase reaction (after i/v, flu-like: fever, myalgia, arthralgia — usually transient)",
+        "Bone / jaw": "Rarely osteonecrosis of the jaw, atypical femoral fracture (with long-term use)",
+        "Other": "Hypocalcaemia, renal impairment (i/v), eye inflammation"
+      },
+      dozadan: "Symptoms: hypocalcaemia, GI upset (oral). Treatment: binding with calcium/antacid (oral), calcium/vitamin D for hypocalcaemia; keep upright.",
+      ozarotasir: [
+        "Calcium, antacids, polyvalent cations: reduce absorption — separate dosing",
+        "With aminoglycosides the hypocalcaemia risk increases",
+        "With NSAIDs the GI effect is additive"
+      ],
+      qollash: {
+        kattalar: "In osteoporosis: orally 150 mg once monthly (morning fasting, with water, then upright for 60 minutes) or i/v 3 mg every 3 months. For the oncology indication i/v infusion per a separate regimen. With calcium and vitamin D.",
+        bolalar: "Not recommended."
+      },
+      chiqarish: "Tablets 150 mg (monthly); solution for i/v injection 3 mg/3 mL; infusion concentrate (oncology)"
+    }
+  },
+
+  // ── ZOLEDRON KISLOTA | ATX: M05BA08 ──
+  "M05BA08": {
+    uz: {
+      gruppa: "Suyak tuzilishi va mineralizatsiyasiga ta'sir qiluvchi vositalar — bisfosfonatlar (zoledronat)",
+      farmTasir: "Eng kuchli suyak rezorbsiyasini kamaytiruvchi (antirezorbtiv, parenteral)",
+      farmakodinamika: `Zoledron kislota — imidazol halqasi saqlovchi azotli bisfosfonat; bisfosfonatlar ichida eng kuchli antirezorbtiv ta'sirga ega. Suyak mineraliga yuqori moyillik bilan bog'lanib osteoklastlardagi farnezil-pirofosfat sintazasini ingibe qiladi — osteoklastlar faolligi, suyak rezorbsiyasi va suyakdan kaltsiy chiqishini keskin kamaytiradi, ularning apoptozini tezlashtiradi. Faqat parenteral (i/v) yuboriladi va uzoq ta'sir qiladi (yiliga 1 marta osteoporoz uchun yetarli). O'sma sabab giperkalsiemiyani samarali kamaytiradi.`,
+      farmakokinetika: {
+        sorish: "Faqat i/v infuziya bilan yuboriladi (peroral so'rilmaydi).",
+        tarqalish: "Tez suyakка taqsimlanadi va u yerga bog'lanadi.",
+        metabolizm: "Metabolizatsiya bo'lmaydi.",
+        chiqarilish: "So'rilmagani buyrak orqali o'zgarmagan holda; suyakка singgani juda uzoq saqlanadi."
+      },
+      korsatmalar: [
+        "Postmenopauzal va erkaklar osteoporozi (yiliga bir marta i/v)",
+        "Glyukokortikoid bilan chaqirilgan osteoporoz",
+        "Suyakning Pedjet kasalligi",
+        "O'sma sabab giperkalsiemiya; solid o'sma suyak metastazlari va miyeloma suyak shikastlanishi profilaktikasi"
+      ],
+      qarrshi: [
+        "Zoledronatga yoki bisfosfonatlarga o'ta sezgirlik",
+        "Gipokalsiemiya (avval to'g'rilanishi kerak)",
+        "Og'ir buyrak yetishmovchiligi (KK<35 — osteoporoz dozasi uchun)",
+        "Homiladorlik va emizish"
+      ],
+      nojoya: {
+        "Umumiy (o'tkir faza)": "Infuziyadan keyin gripsimon reaksiya: isitma, mialgiya, artralgiya, bosh og'rig'i (odatda 1–3 kunda o'tadi)",
+        "Buyrak": "Buyrak funksiyasi buzilishi, o'tkir buyrak shikastlanishi (degidratatsiya va tez infuziyada)",
+        "Elektrolit": "Gipokalsiemiya, gipofosfatemiya, gipomagniyemiya",
+        "Suyak-jag'": "Kamdan-kam — jag' osteonekrozi, atipik son sinishi, ko'z yallig'lanishi (uveit)"
+      },
+      dozadan: "Belgilari: gipokalsiemiya (paresteziya, tetaniya), buyrak funksiyasi buzilishi. Davolash: kaltsiy glyukonat i/v (gipokalsiemiyada), suyuqlik, elektrolit nazorati va to'g'rilash; buyrak funksiyasini kuzatish.",
+      ozarotasir: [
+        "Boshqa nefrotoksik dorilar (aminoglikozidlar, «halqa» diuretiklari, NSAID): buyrak shikastlanishi va gipokalsiemiya xavfini oshiradi",
+        "Boshqa kaltsiy kamaytiruvchi dorilar bilan gipokalsiemiya kuchayadi",
+        "Antiangiogen dorilar bilan jag' osteonekrozi xavfi oshadi"
+      ],
+      qollash: {
+        kattalar: "I/v infuziya kamida 15 daqiqada: osteoporozda 5 mg yiliga 1 marta; Pedjet kasalligida bir martalik 5 mg; onkologik ko'rsatmada 4 mg har 3–4 haftada. Infuziyadan oldin yaxshi gidratatsiya, kaltsiy va D vitamini ta'minlanadi.",
+        bolalar: "Faqat maxsus ko'rsatmalarda (masalan og'ir osteogenez imperfekta), tajribali markazlarda."
+      },
+      chiqarish: "I/v infuziya uchun eritma/konsentrat 5 mg/100 ml (osteoporoz), 4 mg/5 ml (onkologik)"
+    },
+    ru: {
+      gruppa: "Средства, влияющие на структуру и минерализацию кости — бисфосфонаты (золедронат)",
+      farmTasir: "Мощнейший антирезорбтивный препарат (парентеральный)",
+      farmakodinamika: `Золедроновая кислота — азотсодержащий бисфосфонат с имидазольным кольцом; обладает самым мощным антирезорбтивным действием среди бисфосфонатов. С высоким сродством связываясь с минералом кости, ингибирует фарнезилпирофосфатсинтазу остеокластов — резко снижает их активность, резорбцию кости и выход кальция из кости, ускоряет их апоптоз. Вводится только парентерально (в/в) и действует длительно (для остеопороза достаточно 1 раза в год). Эффективно снижает опухолевую гиперкальциемию.`,
+      farmakokinetika: {
+        sorish: "Вводится только в/в инфузией (перорально не всасывается).",
+        tarqalish: "Быстро распределяется в кость и связывается с ней.",
+        metabolizm: "Не метаболизируется.",
+        chiqarilish: "Несвязанная часть почками в неизменённом виде; депонированное в кости сохраняется очень долго."
+      },
+      korsatmalar: [
+        "Постменопаузальный и мужской остеопороз (1 раз в год в/в)",
+        "Глюкокортикоид-индуцированный остеопороз",
+        "Болезнь Педжета кости",
+        "Опухолевая гиперкальциемия; профилактика костных поражений при метастазах солидных опухолей и миеломе"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к золедронату или бисфосфонатам",
+        "Гипокальциемия (должна быть предварительно скорректирована)",
+        "Тяжёлая почечная недостаточность (КК<35 — для дозы при остеопорозе)",
+        "Беременность и лактация"
+      ],
+      nojoya: {
+        "Общие (острая фаза)": "После инфузии гриппоподобная реакция: лихорадка, миалгия, артралгия, головная боль (обычно проходит за 1–3 дня)",
+        "Почки": "Нарушение функции почек, острое почечное повреждение (при дегидратации и быстрой инфузии)",
+        "Электролиты": "Гипокальциемия, гипофосфатемия, гипомагниемия",
+        "Кость / челюсть": "Редко — остеонекроз челюсти, атипичный перелом бедра, воспаление глаз (увеит)"
+      },
+      dozadan: "Симптомы: гипокальциемия (парестезии, тетания), нарушение функции почек. Лечение: кальция глюконат в/в (при гипокальциемии), жидкость, контроль и коррекция электролитов; наблюдение за функцией почек.",
+      ozarotasir: [
+        "Другие нефротоксичные препараты (аминогликозиды, петлевые диуретики, НПВС): повышают риск поражения почек и гипокальциемии",
+        "С другими снижающими кальций препаратами усиливается гипокальциемия",
+        "С антиангиогенными препаратами повышается риск остеонекроза челюсти"
+      ],
+      qollash: {
+        kattalar: "В/в инфузия не менее 15 минут: при остеопорозе 5 мг 1 раз в год; при болезни Педжета однократно 5 мг; по онкологическому показанию 4 мг каждые 3–4 недели. Перед инфузией обеспечивают хорошую гидратацию, кальций и витамин D.",
+        bolalar: "Только по особым показаниям (например тяжёлый несовершенный остеогенез), в специализированных центрах."
+      },
+      chiqarish: "Раствор/концентрат для в/в инфузий 5 мг/100 мл (остеопороз), 4 мг/5 мл (онкологический)"
+    },
+    en: {
+      gruppa: "Agents affecting bone structure and mineralisation — bisphosphonates (zoledronate)",
+      farmTasir: "Most potent antiresorptive agent (parenteral)",
+      farmakodinamika: `Zoledronic acid is a nitrogen-containing bisphosphonate with an imidazole ring; it has the most potent antiresorptive action among bisphosphonates. Binding bone mineral with high affinity, it inhibits osteoclast farnesyl pyrophosphate synthase — sharply reducing osteoclast activity, bone resorption and calcium release from bone, and accelerating their apoptosis. It is given only parenterally (i/v) and acts for a long time (once yearly suffices for osteoporosis). It effectively lowers tumour-related hypercalcaemia.`,
+      farmakokinetika: {
+        sorish: "Given only by i/v infusion (not absorbed orally).",
+        tarqalish: "Rapidly distributed to and bound in bone.",
+        metabolizm: "Not metabolised.",
+        chiqarilish: "Unbound fraction via the kidneys unchanged; the bone-deposited fraction persists very long."
+      },
+      korsatmalar: [
+        "Postmenopausal and male osteoporosis (once yearly i/v)",
+        "Glucocorticoid-induced osteoporosis",
+        "Paget's disease of bone",
+        "Tumour-related hypercalcaemia; prevention of bone lesions in solid tumour metastases and myeloma"
+      ],
+      qarrshi: [
+        "Hypersensitivity to zoledronate or bisphosphonates",
+        "Hypocalcaemia (must be corrected first)",
+        "Severe renal failure (CrCl<35 — for the osteoporosis dose)",
+        "Pregnancy and lactation"
+      ],
+      nojoya: {
+        "General (acute phase)": "After infusion a flu-like reaction: fever, myalgia, arthralgia, headache (usually resolves in 1–3 days)",
+        "Kidneys": "Renal impairment, acute kidney injury (with dehydration and rapid infusion)",
+        "Electrolytes": "Hypocalcaemia, hypophosphataemia, hypomagnesaemia",
+        "Bone / jaw": "Rarely osteonecrosis of the jaw, atypical femoral fracture, eye inflammation (uveitis)"
+      },
+      dozadan: "Symptoms: hypocalcaemia (paraesthesia, tetany), renal impairment. Treatment: i/v calcium gluconate (for hypocalcaemia), fluids, electrolyte monitoring and correction; monitor renal function.",
+      ozarotasir: [
+        "Other nephrotoxic drugs (aminoglycosides, loop diuretics, NSAIDs): increase the risk of renal injury and hypocalcaemia",
+        "With other calcium-lowering drugs hypocalcaemia is enhanced",
+        "With antiangiogenic drugs the jaw osteonecrosis risk increases"
+      ],
+      qollash: {
+        kattalar: "I/v infusion over at least 15 minutes: in osteoporosis 5 mg once yearly; in Paget's disease a single 5 mg; for the oncology indication 4 mg every 3–4 weeks. Ensure good hydration, calcium and vitamin D before infusion.",
+        bolalar: "Only on special indications (e.g. severe osteogenesis imperfecta), in specialised centres."
+      },
+      chiqarish: "Solution/concentrate for i/v infusion 5 mg/100 mL (osteoporosis), 4 mg/5 mL (oncology)"
+    }
+  },
+
+  // ── RIZEDRONAT + D3 VITAMINI | ATX: M05BB07 ──
+  "M05BB07": {
+    uz: {
+      gruppa: "Suyak vositalari — bisfosfonat va D3 vitamini kombinatsiyasi (rizedronat + kolekalsiferol)",
+      farmTasir: "Suyak rezorbsiyasini kamaytiruvchi + kaltsiy-fosfor almashinuvini qo'llab-quvvatlovchi",
+      farmakodinamika: `Rizedron kislota — azot saqlovchi bisfosfonat; suyak gidroksiapatitiga bog'lanib osteoklastlardagi farnezil-pirofosfat sintazasini ingibe qiladi, suyak rezorbsiyasini kamaytiradi va suyak mineral zichligini oshiradi. D3 vitamini (kolekalsiferol) ichakdan kaltsiy va fosfat so'rilishini oshiradi, suyak mineralizatsiyasini va qondagi kaltsiy gomeostazini qo'llab-quvvatlaydi, paratgormonni boshqaradi. Kombinatsiya osteoporoz davosida antirezorbtiv ta'sir bilan birga ko'pincha mavjud bo'lgan D vitamini tanqisligini to'ldiradi — samaradorlikni oshiradi.`,
+      farmakokinetika: {
+        sorish: "Rizedronat biokirishi past (~0,6%, ovqat keskin kamaytiradi); D3 vitamini yog'da eriydi, ichakdan so'riladi.",
+        tarqalish: "Rizedronat suyakка; D3 jigar va to'qimalarga, oqsil (DBP) bilan tashiladi.",
+        metabolizm: "Rizedronat metabolizatsiyalanmaydi; D3 jigar (25-OH) va buyrakda (1,25-OH faol shakl) gidroksillanadi.",
+        chiqarilish: "Rizedronat buyrak orqali; D3 metabolitlari o't bilan. Rizedronat suyakда uzoq saqlanadi."
+      },
+      korsatmalar: [
+        "Postmenopauzal osteoporoz (ayniqsa D vitamini tanqisligi xavfi bo'lganlarda)",
+        "Erkaklarda osteoporoz",
+        "Glyukokortikoid bilan chaqirilgan osteoporoz profilaktikasi va davosi"
+      ],
+      qarrshi: [
+        "Rizedronat, bisfosfonatlar yoki D vitaminiga o'ta sezgirlik",
+        "Gipokalsiemiya; giperkalsiemiya yoki gipervitaminoz D",
+        "Qizilo'ngach anomaliyalari, 30 daqiqa tik tura olmaslik",
+        "Og'ir buyrak yetishmovchiligi (KK<30); homiladorlik va emizish"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Qizilo'ngach ta'siri, dispepsiya, qorin og'rig'i, ko'ngil aynishi, diareya/qabziyat",
+        "Suyak-mushak": "Mushak, bo'g'im va suyak og'rig'i; kamdan-kam — atipik son sinishi",
+        "Og'iz-jag'": "Kamdan-kam — jag' osteonekrozi",
+        "D vitamini ortiqchaligida": "Giperkalsiemiya, giperkalsiuriya (yuqori dozada/uzoq qabulda)"
+      },
+      dozadan: "Belgilari: oshqozon-ichak ta'siri (rizedronat); D vitamini ortiqchaligida giperkalsiemiya (ko'ngil aynishi, chanqoq, poliuriya). Davolash: kaltsiy/antatsid bilan bog'lash, tik holatda saqlash; giperkalsiemiyada gidratatsiya, kaltsiyni cheklash.",
+      ozarotasir: [
+        "Kaltsiy, antatsidlar, ko'p valentli kationlar: rizedronat so'rilishini kamaytiradi — ajrating",
+        "Tiazid diuretiklar va boshqa D vitamini manbalari bilan giperkalsiemiya xavfi",
+        "NSAID bilan oshqozon-ichak ta'siri qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: rizedronat 35 mg haftada 1 marta (ertalab ochlikda, suv bilan, keyin 30 daqiqa tik); D3 vitamini kombinatsiya tarkibida belgilangan sxema bo'yicha. Yetarli kaltsiy ta'minlanadi.",
+        bolalar: "Tavsiya etilmaydi."
+      },
+      chiqarish: "Kombinatsiyalangan upakovka: rizedronat 35 mg tabletkalar + kolekalsiferol (D3) tabletka/kapsulalar"
+    },
+    ru: {
+      gruppa: "Костные средства — комбинация бисфосфоната и витамина D3 (ризедронат + холекальциферол)",
+      farmTasir: "Снижающий резорбцию кости + поддерживающий кальциево-фосфорный обмен",
+      farmakodinamika: `Ризедроновая кислота — азотсодержащий бисфосфонат; связываясь с гидроксиапатитом кости, ингибирует фарнезилпирофосфатсинтазу остеокластов, снижает резорбцию кости и повышает минеральную плотность кости. Витамин D3 (холекальциферол) повышает всасывание кальция и фосфата в кишечнике, поддерживает минерализацию кости и гомеостаз кальция крови, регулирует паратгормон. Комбинация при лечении остеопороза сочетает антирезорбтивное действие с восполнением часто имеющегося дефицита витамина D — повышает эффективность.`,
+      farmakokinetika: {
+        sorish: "Биодоступность ризедроната низкая (~0,6%, пища резко снижает); витамин D3 жирорастворим, всасывается в кишечнике.",
+        tarqalish: "Ризедронат — в кость; D3 — в печень и ткани, переносится белком (DBP).",
+        metabolizm: "Ризедронат не метаболизируется; D3 гидроксилируется в печени (25-OH) и почках (1,25-OH активная форма).",
+        chiqarilish: "Ризедронат почками; метаболиты D3 с жёлчью. Ризедронат долго сохраняется в кости."
+      },
+      korsatmalar: [
+        "Постменопаузальный остеопороз (особенно при риске дефицита витамина D)",
+        "Остеопороз у мужчин",
+        "Профилактика и лечение глюкокортикоид-индуцированного остеопороза"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к ризедронату, бисфосфонатам или витамину D",
+        "Гипокальциемия; гиперкальциемия или гипервитаминоз D",
+        "Аномалии пищевода, невозможность стоять прямо 30 минут",
+        "Тяжёлая почечная недостаточность (КК<30); беременность и лактация"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Воздействие на пищевод, диспепсия, боль в животе, тошнота, диарея/запор",
+        "Костно-мышечная система": "Боль в мышцах, суставах и костях; редко — атипичный перелом бедра",
+        "Челюсть": "Редко — остеонекроз челюсти",
+        "При избытке витамина D": "Гиперкальциемия, гиперкальциурия (при высокой дозе/длительном приёме)"
+      },
+      dozadan: "Симптомы: воздействие на ЖКТ (ризедронат); при избытке витамина D гиперкальциемия (тошнота, жажда, полиурия). Лечение: связывание кальцием/антацидом, держать вертикально; при гиперкальциемии гидратация, ограничение кальция.",
+      ozarotasir: [
+        "Кальций, антациды, поливалентные катионы: снижают всасывание ризедроната — разнести",
+        "С тиазидными диуретиками и другими источниками витамина D — риск гиперкальциемии",
+        "С НПВС суммируется воздействие на ЖКТ"
+      ],
+      qollash: {
+        kattalar: "Внутрь: ризедронат 35 мг 1 раз в неделю (утром натощак, с водой, затем 30 минут вертикально); витамин D3 в составе комбинации по установленной схеме. Обеспечивают достаточный кальций.",
+        bolalar: "Не рекомендуется."
+      },
+      chiqarish: "Комбинированная упаковка: таблетки ризедронат 35 мг + таблетки/капсулы холекальциферол (D3)"
+    },
+    en: {
+      gruppa: "Bone agents — combination of a bisphosphonate and vitamin D3 (risedronate + cholecalciferol)",
+      farmTasir: "Reduces bone resorption + supports calcium-phosphorus metabolism",
+      farmakodinamika: `Risedronic acid is a nitrogen-containing bisphosphonate; by binding bone hydroxyapatite it inhibits osteoclast farnesyl pyrophosphate synthase, reducing bone resorption and raising bone mineral density. Vitamin D3 (cholecalciferol) increases intestinal absorption of calcium and phosphate, supports bone mineralisation and blood calcium homeostasis, and regulates parathyroid hormone. In osteoporosis treatment the combination pairs antiresorptive action with correction of the often-present vitamin D deficiency — increasing efficacy.`,
+      farmakokinetika: {
+        sorish: "Risedronate bioavailability low (~0.6%, food sharply reduces it); vitamin D3 is fat-soluble, absorbed in the intestine.",
+        tarqalish: "Risedronate to bone; D3 to liver and tissues, carried by a protein (DBP).",
+        metabolizm: "Risedronate not metabolised; D3 hydroxylated in the liver (25-OH) and kidneys (1,25-OH active form).",
+        chiqarilish: "Risedronate via the kidneys; D3 metabolites via bile. Risedronate persists long in bone."
+      },
+      korsatmalar: [
+        "Postmenopausal osteoporosis (especially when vitamin D deficiency risk is present)",
+        "Osteoporosis in men",
+        "Prevention and treatment of glucocorticoid-induced osteoporosis"
+      ],
+      qarrshi: [
+        "Hypersensitivity to risedronate, bisphosphonates or vitamin D",
+        "Hypocalcaemia; hypercalcaemia or vitamin D hypervitaminosis",
+        "Oesophageal abnormalities, inability to stand upright for 30 minutes",
+        "Severe renal failure (CrCl<30); pregnancy and lactation"
+      ],
+      nojoya: {
+        "Digestive system": "Oesophageal effects, dyspepsia, abdominal pain, nausea, diarrhoea/constipation",
+        "Musculoskeletal": "Muscle, joint and bone pain; rarely atypical femoral fracture",
+        "Jaw": "Rarely osteonecrosis of the jaw",
+        "With vitamin D excess": "Hypercalcaemia, hypercalciuria (at high dose/long-term use)"
+      },
+      dozadan: "Symptoms: GI effects (risedronate); with vitamin D excess hypercalcaemia (nausea, thirst, polyuria). Treatment: binding with calcium/antacid, keep upright; for hypercalcaemia hydration, restrict calcium.",
+      ozarotasir: [
+        "Calcium, antacids, polyvalent cations: reduce risedronate absorption — separate dosing",
+        "With thiazide diuretics and other vitamin D sources — hypercalcaemia risk",
+        "With NSAIDs the GI effect is additive"
+      ],
+      qollash: {
+        kattalar: "Orally: risedronate 35 mg once weekly (morning fasting, with water, then upright for 30 minutes); vitamin D3 within the combination per the set regimen. Ensure adequate calcium.",
+        bolalar: "Not recommended."
+      },
+      chiqarish: "Combination pack: risedronate 35 mg tablets + cholecalciferol (D3) tablets/capsules"
+    }
+  },
+
+  // ── BETAGISTIN | ATX: M07CA01 ──
+  "M07CA01": {
+    uz: {
+      gruppa: "Vestibulyar buzilishlarga qarshi vositalar — gistamin analogi (betagistin)",
+      farmTasir: "Vestibulyar (bosh aylanishiga qarshi), ichki quloq qon oqimini yaxshilovchi",
+      farmakodinamika: `Betagistin — gistaminga o'xshash struktura bo'lib, asosan gistamin H1-retseptorlarini qo'zg'atuvchi (agonist) va H3-retseptorlarini bloklovchi (antagonist) ta'sirga ega. Ichki quloq (labirint) va miya vestibulyar yadrolarining qon aylanishini yaxshilaydi, labirint kapillyarlari o'tkazuvchanligini boshqaradi va endolimfatik bosimni (Menyer kasalligidagi gidropsni) kamaytiradi. H3-retseptor blokadasi orqali vestibulyar yadrolarда gistamin, atsetilxolin va boshqa neyromediatorlar ajralishini oshirib markaziy vestibulyar kompensatsiyani tezlashtiradi. Natijada bosh aylanishi, quloqdagi shovqin va eshitish buzilishi kamayadi. (Eslatma: bu modda standart ATX'da N07CA01 sifatida ham uchraydi.)`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez va to'liq so'riladi; ovqat so'rilishni biroz sekinlashtiradi.",
+        tarqalish: "Plazma oqsillariga juda kam bog'lanadi.",
+        metabolizm: "Jigarda deyarli to'liq faolsiz metabolit — 2-piridilatsetat kislotasiga aylanadi.",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida. T½ — ~3–4 soat."
+      },
+      korsatmalar: [
+        "Menyer sindromi/kasalligi: bosh aylanishi, quloqdagi shovqin (tinnitus), eshitishning pasayishi",
+        "Turli kelib chiqishli vestibulyar bosh aylanishi (vestibulopatiya), labirint va vestibulyar nerv buzilishlari",
+        "Vestibulyar neyronit, bosh aylanishi va muvozanat buzilishlarining simptomatik davosi"
+      ],
+      qarrshi: [
+        "Betagistinga o'ta sezgirlik",
+        "Feoxromotsitoma (kataxolamin ajralishi xavfi)",
+        "Oshqozon-ichak yarasi qo'zg'alishi (gistamin ta'siri tufayli ehtiyot)",
+        "Bronxial astma (ehtiyot bilan); homiladorlik va emizish (ma'lumot cheklangan)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ko'ngil aynishi, dispepsiya, epigastral og'riq, qorin noxushligi",
+        "Asab tizimi": "Bosh og'rig'i",
+        "Allergik / teri": "Toshma, qichima, eshakemi; kamdan-kam — angionevrotik shish, anafilaksiya",
+        "Nafas": "Bronxial astmada bronxospazm kuchayishi (ehtiyot)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, uyquchanlik, qorin og'rig'i; yuqori dozada — tutqanoq, yurak/o'pka asoratlari (juda kam). Davolash: simptomatik, oshqozonni yuvish.",
+      ozarotasir: [
+        "Antigistamin (H1-blokator) preparatlar betagistin ta'sirini teoretik ravishda susaytirishi mumkin",
+        "MAO inhibitorlari betagistin ta'sirini kuchaytirishi mumkin (metabolizmga ta'sir)",
+        "Beta2-adrenomimetiklar bilan ta'sir o'zaro hisobga olinadi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 24–48 mg/kun 2–3 ta qabulga bo'lib, ovqat bilan. Doza individual tanlanadi; samara haftalar davomida ortib boradi. Uzoq muddatli qo'llanishi mumkin.",
+        bolalar: "18 yoshgacha tavsiya etilmaydi (ma'lumot yetarli emas)."
+      },
+      chiqarish: "Tabletkalar 8, 16, 24 mg"
+    },
+    ru: {
+      gruppa: "Средства против вестибулярных нарушений — аналог гистамина (бетагистин)",
+      farmTasir: "Вестибулярное (против головокружения), улучшающее кровоток внутреннего уха",
+      farmakodinamika: `Бетагистин — структурный аналог гистамина, обладает в основном агонистическим действием на гистаминовые H1-рецепторы и блокирующим (антагонист) на H3-рецепторы. Улучшает кровообращение внутреннего уха (лабиринта) и вестибулярных ядер мозга, регулирует проницаемость капилляров лабиринта и снижает эндолимфатическое давление (гидропс при болезни Меньера). Через блокаду H3-рецепторов повышает высвобождение гистамина, ацетилхолина и других нейромедиаторов в вестибулярных ядрах, ускоряя центральную вестибулярную компенсацию. В результате уменьшаются головокружение, шум в ушах и нарушение слуха. (Примечание: в стандартной ATC это вещество встречается также как N07CA01.)`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро и полно; пища несколько замедляет всасывание.",
+        tarqalish: "Очень слабо связывается с белками плазмы.",
+        metabolizm: "В печени почти полностью превращается в неактивный метаболит — 2-пиридилуксусную кислоту.",
+        chiqarilish: "Преимущественно почками в виде метаболита. T½ — ~3–4 ч."
+      },
+      korsatmalar: [
+        "Синдром/болезнь Меньера: головокружение, шум в ушах (тиннитус), снижение слуха",
+        "Вестибулярное головокружение различного происхождения (вестибулопатия), нарушения лабиринта и вестибулярного нерва",
+        "Вестибулярный нейронит, симптоматическое лечение головокружения и нарушений равновесия"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к бетагистину",
+        "Феохромоцитома (риск выброса катехоламинов)",
+        "Обострение язвы ЖКТ (осторожно из-за гистаминового действия)",
+        "Бронхиальная астма (с осторожностью); беременность и лактация (данные ограничены)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Тошнота, диспепсия, эпигастральная боль, дискомфорт в животе",
+        "Нервная система": "Головная боль",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница; редко — ангионевротический отёк, анафилаксия",
+        "Дыхание": "Усиление бронхоспазма при бронхиальной астме (осторожно)"
+      },
+      dozadan: "Симптомы: тошнота, сонливость, боль в животе; при высокой дозе — судороги, сердечно-лёгочные осложнения (очень редко). Лечение: симптоматически, промывание желудка.",
+      ozarotasir: [
+        "Антигистаминные (H1-блокаторы) теоретически могут ослаблять действие бетагистина",
+        "Ингибиторы МАО могут усиливать действие бетагистина (влияние на метаболизм)",
+        "С бета2-адреномиметиками учитывают взаимное влияние"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 24–48 мг/сут в 2–3 приёма, с едой. Доза подбирается индивидуально; эффект нарастает в течение недель. Возможно длительное применение.",
+        bolalar: "До 18 лет не рекомендуется (данных недостаточно)."
+      },
+      chiqarish: "Таблетки 8, 16, 24 мг"
+    },
+    en: {
+      gruppa: "Agents for vestibular disorders — histamine analogue (betahistine)",
+      farmTasir: "Vestibular (anti-vertigo), improves inner-ear blood flow",
+      farmakodinamika: `Betahistine is a structural analogue of histamine, acting mainly as an agonist at histamine H1 receptors and an antagonist (blocker) at H3 receptors. It improves blood flow in the inner ear (labyrinth) and the brain's vestibular nuclei, regulates labyrinthine capillary permeability and lowers endolymphatic pressure (the hydrops in Ménière's disease). Through H3-receptor blockade it increases release of histamine, acetylcholine and other neurotransmitters in the vestibular nuclei, accelerating central vestibular compensation. As a result vertigo, tinnitus and hearing disturbance decrease. (Note: in standard ATC this substance also appears as N07CA01.)`,
+      farmakokinetika: {
+        sorish: "Rapidly and completely absorbed orally; food slightly slows absorption.",
+        tarqalish: "Very weakly bound to plasma proteins.",
+        metabolizm: "Almost completely converted in the liver to the inactive metabolite 2-pyridylacetic acid.",
+        chiqarilish: "Mainly renal as the metabolite. T½ — ~3–4 h."
+      },
+      korsatmalar: [
+        "Ménière's syndrome/disease: vertigo, tinnitus, hearing loss",
+        "Vestibular vertigo of various origins (vestibulopathy), labyrinthine and vestibular nerve disorders",
+        "Vestibular neuronitis, symptomatic treatment of vertigo and balance disorders"
+      ],
+      qarrshi: [
+        "Hypersensitivity to betahistine",
+        "Phaeochromocytoma (risk of catecholamine release)",
+        "Active GI ulcer (caution due to histamine action)",
+        "Bronchial asthma (with caution); pregnancy and lactation (limited data)"
+      ],
+      nojoya: {
+        "Digestive system": "Nausea, dyspepsia, epigastric pain, abdominal discomfort",
+        "Nervous system": "Headache",
+        "Allergy / skin": "Rash, pruritus, urticaria; rarely angioedema, anaphylaxis",
+        "Respiratory": "Worsening bronchospasm in bronchial asthma (caution)"
+      },
+      dozadan: "Symptoms: nausea, drowsiness, abdominal pain; at high dose convulsions, cardiopulmonary complications (very rare). Treatment: symptomatic, gastric lavage.",
+      ozarotasir: [
+        "Antihistamines (H1 blockers) may theoretically weaken betahistine's effect",
+        "MAO inhibitors may enhance betahistine's effect (effect on metabolism)",
+        "With beta2-agonists mutual influence is considered"
+      ],
+      qollash: {
+        kattalar: "Orally: 24–48 mg/day in 2–3 doses, with food. The dose is individualised; the effect builds over weeks. Long-term use is possible.",
+        bolalar: "Not recommended under 18 (insufficient data)."
+      },
+      chiqarish: "Tablets 8, 16, 24 mg"
+    }
   }
 
 };
@@ -45359,3 +45974,51 @@ PHARMA_DATA["J07BD53"]          = PHARMA_DATA["J07BD52"];  // qizamiq saqlovchi 
 PHARMA_DATA["J07BF"]            = PHARMA_DATA["J07BF04"];  // OPV (poliomielit, og'iz orqali)
 PHARMA_DATA["J07BH01"]          = PHARMA_DATA["J07BH02"];  // rotavirus vaksinasi
 PHARMA_DATA["J07CA11"]          = PHARMA_DATA["J07CA09"];  // ko'p valentli kombinatsiya vaksinasi
+
+// ── TAYANCH-HARAKAT TIZIMI (M) kombinatsiya/dublikat/typo/topik kodlari ──
+// NSAID — atsetik kislota va kombinatsiyalar → asosiy modda
+PHARMA_DATA["M01A"]             = PHARMA_DATA["M01AE01"];  // loxoprofen/aralash NSAID → propion NSAID (ibuprofen)
+PHARMA_DATA["M01A E02"]         = PHARMA_DATA["M01AE02"];  // naproksen (bo'shliqli kod)
+PHARMA_DATA["M01A X05"]         = PHARMA_DATA["M01AX05"];  // glyukozamin (bo'shliqli kod)
+PHARMA_DATA["MO1AX"]            = PHARMA_DATA["M01AX05"];  // fensulcal (kirill «O» harfli kod) → glyukozamin guruhi
+PHARMA_DATA["M01AA55"]          = PHARMA_DATA["M01AB05"];  // parasetamol + diklofenak → diklofenak
+PHARMA_DATA["M01AB51"]          = PHARMA_DATA["M01AB01"];  // indometatsin + trokserutin → indometatsin
+PHARMA_DATA["M01AB55"]          = PHARMA_DATA["M01AB05"];  // diklofenak kombinatsiyalari → diklofenak
+PHARMA_DATA["M01AE51"]          = PHARMA_DATA["M01AE01"];  // ibuprofen kombinatsiyalari → ibuprofen
+PHARMA_DATA["M01AN05"]          = PHARMA_DATA["M01AH05"];  // etorikoksib (kod xato) → etorikoksib
+PHARMA_DATA["M01AX"]            = PHARMA_DATA["M01AX05"];  // glyukozamin/xondroitin aralashmalari → glyukozamin
+PHARMA_DATA["M01BA"]            = PHARMA_DATA["M01BA01"];  // diklofenak + betametazon + B12 → kombinatsion in'eksiya
+PHARMA_DATA["M01BX"]            = PHARMA_DATA["M01AB05"];  // diklofenak + parasetamol/serratiopeptidaza → diklofenak
+
+// NSAID — mahalliy (topik M02AA) shakllar → tizimli ekvivalenti
+PHARMA_DATA["M02"]              = PHARMA_DATA["M02AX10"];  // mentol/kamfora aralashmasi → kamfora (revulsiv)
+PHARMA_DATA["M02AA"]            = PHARMA_DATA["M01AB05"];  // topik diklofenak/aralash → diklofenak
+PHARMA_DATA["M02AA10"]          = PHARMA_DATA["M01AB05"];  // diklofenak (topik) → diklofenak
+PHARMA_DATA["M02AA11"]          = PHARMA_DATA["M01AE03"];  // ketoprofen (topik) → ketoprofen
+PHARMA_DATA["M02AA12"]          = PHARMA_DATA["M01AE02"];  // naproksen (topik) → naproksen
+PHARMA_DATA["M02AA13"]          = PHARMA_DATA["M01AE01"];  // ibuprofen (topik) → ibuprofen
+PHARMA_DATA["M02AA15"]          = PHARMA_DATA["M01AB05"];  // diklofenak (topik) → diklofenak
+PHARMA_DATA["M02AA19"]          = PHARMA_DATA["M03BX05"];  // flurbiprofen + tiokolxikozid → tiokolxikozid
+PHARMA_DATA["M02AA19, M03BX05"] = PHARMA_DATA["M03BX05"];  // flurbiprofen + tiokolxikozid (qo'sh kod)
+PHARMA_DATA["M02AA23"]          = PHARMA_DATA["M01AB01"];  // indometatsin (topik) → indometatsin
+PHARMA_DATA["M02AA26"]          = PHARMA_DATA["M01AX17"];  // nimesulid (topik) → nimesulid
+PHARMA_DATA["M02AA27"]          = PHARMA_DATA["M01AE17"];  // deksketoprofen (topik) → deksketoprofen
+PHARMA_DATA["M02AA31"]          = PHARMA_DATA["M01AE01"];  // loxoprofen (topik) → propion NSAID
+PHARMA_DATA["M02AA65"]          = PHARMA_DATA["M01AB05"];  // diklofenak kombinatsiyasi (topik) → diklofenak
+PHARMA_DATA["M02AC"]            = PHARMA_DATA["M02AX10"];  // ilon zahari + kamfora aralashma → revulsiv (kamfora)
+PHARMA_DATA["M02AX"]            = PHARMA_DATA["M02AX10"];  // diklofenak/kamfora aralashmalari → kamfora kombinatsiya
+PHARMA_DATA["M02BA10"]          = PHARMA_DATA["M02AX10"];  // kamfora → kamfora
+
+// Mushak relaksantlari kombinatsiya/typo
+PHARMA_DATA["M03BA53"]          = PHARMA_DATA["M03BA02"];  // metokarbamol + parasetamol → karbamat relaksant (karizoprodol)
+PHARMA_DATA["M03BX"]            = PHARMA_DATA["M03BX04"];  // tolperizon + lidokain → tolperizon
+PHARMA_DATA["M03BX55"]          = PHARMA_DATA["M03BX05"];  // deksketoprofen/flurbiprofen + tiokolxikozid → tiokolxikozid
+
+// Suyak preparatlari (bisfosfonat/o'simlik) → bisfosfonat
+PHARMA_DATA["M05"]              = PHARMA_DATA["M05BA04"];  // o'simlik suyak kompleksi → bisfosfonat (alendronat)
+PHARMA_DATA["M05B"]             = PHARMA_DATA["M05BA04"];  // osseyin-gidroksiapatit → bisfosfonat (alendronat)
+
+// Boshqa tayanch-harakat (M09) kombinatsiya/typo
+PHARMA_DATA["M09AB52"]          = PHARMA_DATA["M09AB"];    // tripsin/ximotripsin/ribonukleaza → proteolitik ferment (serratiopeptidaza)
+PHARMA_DATA["M09AX"]            = PHARMA_DATA["M01AX05"];  // glyukozamin/xondroitin aralashmalari → glyukozamin
+PHARMA_DATA["M09AX02"]          = PHARMA_DATA["M01AX25"];  // xondroitin kombinatsiyalari → xondroitin sulfat
