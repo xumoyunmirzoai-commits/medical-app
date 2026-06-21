@@ -40240,6 +40240,412 @@ const PHARMA_DATA = {
       },
       chiqarish: "Tablets (coated) 100 mg; extended-release tablets 200 mg; powder for suspension; cream (topical)"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // Batch 2 — Oksikamlar (NSAID)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── MELOKSIKAM | ATX: M01AC06 ──
+  "M01AC06": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — oksikamlar (enolik kislota hosilasi)",
+      farmTasir: "Yallig'lanishga qarshi, og'riq qoldiruvchi, isitma tushiruvchi (nisbatan COX-2 selektiv)",
+      farmakodinamika: `Meloksikam — oksikamlar guruhiga mansub enolik kislota hosilasi bo'lgan NSAID. Siklooksigenazani ingibe qilib prostaglandin sintezini kamaytiradi, ammo yallig'lanish o'chog'ida faollashadigan COX-2 izofermentiga nisbatan oshqozon shilliq qavati va buyrakni himoya qiluvchi COX-1 dan ko'ra ko'proq selektivlik ko'rsatadi (terapevtik dozada). Shu sababli yallig'lanishga qarshi va analgetik ta'sir yetarli bo'lib, oshqozon-ichak va trombotsitlarga ta'siri klassik neselektiv NSAIDlarga qaraganda yengilroq. Yuqori dozada selektivlik yo'qoladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi, biokirish ~89%. Ovqat so'rilishni sezilarli o'zgartirmaydi. Cmax 5–6 soatda; muvozanat konsentratsiyasi 3–5 kunda.",
+        tarqalish: "Plazma oqsillariga bog'lanish — 99%. Sinovial suyuqlikка yaxshi kiradi (konsentratsiya plazmadagining ~50%). Taqsimlanish hajmi — ~11 L.",
+        metabolizm: "Jigarda CYP2C9 (asosan) va CYP3A4 ishtirokida 4 ta faolsiz metabolitga to'liq metabolizatsiya.",
+        chiqarilish: "Siydik va najas orqali teng taqsimlangan, o'zgarmagan holda <5%. T½ — ~20 soat (kuniga bir marta qabul imkonini beradi)."
+      },
+      korsatmalar: [
+        "Osteoartroz (og'riq va yallig'lanishni davolash)",
+        "Revmatoid artrit",
+        "Ankilozlovchi spondiloartrit (Bextrew kasalligi)",
+        "Yuvenil revmatoid artrit (bolalarda — alohida shaklda)"
+      ],
+      qarrshi: [
+        "Meloksikam yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish, perforatsiya",
+        "Og'ir jigar, buyrak (KK<30) yoki yurak yetishmovchiligi",
+        "Koronar shuntlashdan keyingi davr",
+        "Homiladorlik va emizish; 16 yoshgacha (preparatga qarab)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, ko'ngil aynishi, qorin og'rig'i, diareya, qabziyat; eroziya, yara, qon ketish (klassik NSAIDga qaraganda kamroq), transaminazalar oshishi",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyquchanlik",
+        "Yurak-qon tomir": "Shish, AB oshishi, yurak urishi; tromboz xavfi (uzoq/yuqori dozada)",
+        "Qon": "Anemiya, leykopeniya, trombotsitopeniya",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi, suyuqlik tutilishi; qichima, toshma, kamdan-kam — og'ir teri reaksiyalari"
+      },
+      dozadan: "Belgilari: uyquchanlik, ko'ngil aynishi, epigastral og'riq, qon ketish; og'ir holatda — AB oshishi, o'tkir buyrak yetishmovchiligi, nafas tushishi. Davolash: oshqozonni yuvish, faollashtirilgan ko'mir (meloksikam so'rilishini kamaytiradi), simptomatik.",
+      ozarotasir: [
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy konsentratsiyasini oshiradi (toksiklik)",
+        "Metotreksat gematotoksikligini kuchaytiradi",
+        "Diuretiklar, AAF inhibitorlari, ARB ta'sirini susaytiradi, buyrak shikastlanishi xavfi",
+        "Siklosporin bilan nefrotoksiklik; kolestiramin chiqarilishini tezlashtiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 7,5–15 mg×1/kun, ovqat bilan. Osteoartroz: 7,5 mg/kun (zarurda 15 mg). Revmatoid artrit/spondiloartrit: 15 mg/kun. I/m: 15 mg/kun, faqat dastlabki bir necha kun. Maks. 15 mg/kun.",
+        bolalar: "Yuvenil revmatoid artritda 0,125 mg/kg/kun (maks. 7,5 mg), maxsus shaklda; 16 yoshdan kichiklarda boshqa ko'rsatmalarda qo'llanilmaydi."
+      },
+      chiqarish: "Tabletkalar 7,5 va 15 mg; in'eksiya eritmasi 15 mg/1,5 ml; rektal shamlar 15 mg; suspenziya 7,5 mg/5 ml"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — оксикамы (производное эноловой кислоты)",
+      farmTasir: "Противовоспалительное, анальгезирующее, жаропонижающее (относительно ЦОГ-2-селективное)",
+      farmakodinamika: `Мелоксикам — НПВС группы оксикамов, производное эноловой кислоты. Ингибирует циклооксигеназу, снижая синтез простагландинов, но в терапевтической дозе более селективен к ЦОГ-2 (активируемой в очаге воспаления), чем к ЦОГ-1, защищающей слизистую желудка и почки. Поэтому при достаточном противовоспалительном и анальгезирующем действии влияние на ЖКТ и тромбоциты мягче, чем у классических неселективных НПВС. При высокой дозе селективность утрачивается.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается хорошо, биодоступность ~89%. Пища существенно не меняет всасывание. Cmax через 5–6 ч; равновесная концентрация за 3–5 дней.",
+        tarqalish: "Связь с белками плазмы — 99%. Хорошо проникает в синовиальную жидкость (~50% от плазменной). Объём распределения — ~11 л.",
+        metabolizm: "Полностью метаболизируется в печени при участии CYP2C9 (главным образом) и CYP3A4 до 4 неактивных метаболитов.",
+        chiqarilish: "Поровну с мочой и калом, в неизменённом виде <5%. T½ — ~20 ч (позволяет приём 1 раз в сутки)."
+      },
+      korsatmalar: [
+        "Остеоартроз (лечение боли и воспаления)",
+        "Ревматоидный артрит",
+        "Анкилозирующий спондилоартрит (болезнь Бехтерева)",
+        "Ювенильный ревматоидный артрит (у детей — в специальной форме)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к мелоксикаму или НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение, перфорация",
+        "Тяжёлая печёночная, почечная (КК<30) или сердечная недостаточность",
+        "Период после коронарного шунтирования",
+        "Беременность и лактация; до 16 лет (в зависимости от препарата)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, тошнота, боль в животе, диарея, запор; эрозии, язвы, кровотечение (реже, чем у классических НПВС), повышение трансаминаз",
+        "Нервная система": "Головная боль, головокружение, сонливость",
+        "Сердечно-сосудистая система": "Отёки, повышение АД, сердцебиение; риск тромбозов (при длительном/высокодозовом приёме)",
+        "Кровь": "Анемия, лейкопения, тромбоцитопения",
+        "Почки / кожа": "Нарушение функции почек, задержка жидкости; зуд, сыпь, редко — тяжёлые кожные реакции"
+      },
+      dozadan: "Симптомы: сонливость, тошнота, эпигастральная боль, кровотечение; в тяжёлых случаях — повышение АД, ОПН, угнетение дыхания. Лечение: промывание желудка, активированный уголь (снижает всасывание мелоксикама), симптоматически.",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития (токсичность)",
+        "Усиливает гематотоксичность метотрексата",
+        "Ослабляет действие диуретиков, иАПФ, БРА, риск поражения почек",
+        "С циклоспорином — нефротоксичность; холестирамин ускоряет выведение"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 7,5–15 мг×1/сут с едой. Остеоартроз: 7,5 мг/сут (при необходимости 15 мг). Ревматоидный артрит/спондилоартрит: 15 мг/сут. В/м: 15 мг/сут, только первые несколько дней. Максимум 15 мг/сут.",
+        bolalar: "При ювенильном ревматоидном артрите 0,125 мг/кг/сут (максимум 7,5 мг), в специальной форме; до 16 лет по другим показаниям не применяется."
+      },
+      chiqarish: "Таблетки 7,5 и 15 мг; раствор для инъекций 15 мг/1,5 мл; ректальные свечи 15 мг; суспензия 7,5 мг/5 мл"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — oxicams (enolic acid derivative)",
+      farmTasir: "Anti-inflammatory, analgesic, antipyretic (relatively COX-2 selective)",
+      farmakodinamika: `Meloxicam is an NSAID of the oxicam class, an enolic acid derivative. It inhibits cyclooxygenase, reducing prostaglandin synthesis, but at therapeutic doses it is more selective for COX-2 (induced at sites of inflammation) than for COX-1, which protects gastric mucosa and kidneys. Thus, with adequate anti-inflammatory and analgesic effect, its impact on the GI tract and platelets is milder than classical non-selective NSAIDs. Selectivity is lost at high doses.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally, bioavailability ~89%. Food does not change absorption substantially. Cmax in 5–6 h; steady state in 3–5 days.",
+        tarqalish: "Plasma protein binding — 99%. Penetrates synovial fluid well (~50% of plasma). Volume of distribution — ~11 L.",
+        metabolizm: "Fully metabolised in the liver via CYP2C9 (mainly) and CYP3A4 to 4 inactive metabolites.",
+        chiqarilish: "Equally in urine and faeces, <5% unchanged. T½ — ~20 h (allows once-daily dosing)."
+      },
+      korsatmalar: [
+        "Osteoarthritis (treatment of pain and inflammation)",
+        "Rheumatoid arthritis",
+        "Ankylosing spondylitis (Bechterew disease)",
+        "Juvenile rheumatoid arthritis (in children — in a special formulation)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to meloxicam or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding, perforation",
+        "Severe hepatic, renal (CrCl<30) or cardiac failure",
+        "Period after coronary bypass surgery",
+        "Pregnancy and lactation; under 16 years (depending on product)"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, nausea, abdominal pain, diarrhoea, constipation; erosions, ulcers, bleeding (less than classical NSAIDs), raised transaminases",
+        "Nervous system": "Headache, dizziness, drowsiness",
+        "Cardiovascular system": "Oedema, raised BP, palpitations; thrombosis risk (with prolonged/high-dose use)",
+        "Blood": "Anaemia, leukopenia, thrombocytopenia",
+        "Kidneys / skin": "Renal impairment, fluid retention; pruritus, rash, rarely severe skin reactions"
+      },
+      dozadan: "Symptoms: drowsiness, nausea, epigastric pain, bleeding; in severe cases raised BP, acute kidney injury, respiratory depression. Treatment: gastric lavage, activated charcoal (reduces meloxicam absorption), symptomatic.",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium concentration (toxicity)",
+        "Enhances methotrexate haematotoxicity",
+        "Weakens diuretics, ACE inhibitors, ARBs, renal injury risk",
+        "With ciclosporin — nephrotoxicity; cholestyramine accelerates elimination"
+      ],
+      qollash: {
+        kattalar: "Orally: 7.5–15 mg×1/day with food. Osteoarthritis: 7.5 mg/day (15 mg if needed). Rheumatoid arthritis/spondylitis: 15 mg/day. I/m: 15 mg/day, only the first few days. Maximum 15 mg/day.",
+        bolalar: "In juvenile rheumatoid arthritis 0.125 mg/kg/day (max 7.5 mg) in a special form; not used for other indications under 16 years."
+      },
+      chiqarish: "Tablets 7.5 and 15 mg; injection 15 mg/1.5 mL; rectal suppositories 15 mg; suspension 7.5 mg/5 mL"
+    }
+  },
+
+  // ── TENOKSIKAM | ATX: M01AC02 ──
+  "M01AC02": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — oksikamlar (tienotiazin hosilasi)",
+      farmTasir: "Yallig'lanishga qarshi, og'riq qoldiruvchi, isitma tushiruvchi (uzoq ta'sirli)",
+      farmakodinamika: `Tenoksikam — oksikamlar guruhiga (tienotiazin-karboksamid) mansub uzoq ta'sirli NSAID. Siklooksigenaza (COX-1 va COX-2) ni ingibe qilib prostaglandin sintezini kamaytiradi va yallig'lanish, og'riq, shishni susaytiradi. Bundan tashqari neytrofillarda faol kislorod radikallari hosil bo'lishini va proteoglikanlarni parchalovchi fermentlar faolligini kamaytiradi. Juda uzun yarim chiqarilish davri (~70 soat) kuniga bir marta qabul qilish imkonini beradi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali to'liq so'riladi, biokirish ~100%. Cmax 1–2 soatda.",
+        tarqalish: "Plazma oqsillariga bog'lanish — 99%. Sinovial suyuqlikка kiradi va u yerda uzoq saqlanadi.",
+        metabolizm: "Jigarda to'liq metabolizatsiya (asosiy metaboliti 5'-gidroksipiridil, faolsiz); CYP2C9 ishtirokida.",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida, qisman o't bilan. T½ — ~70 soat (juda uzun)."
+      },
+      korsatmalar: [
+        "Revmatoid artrit",
+        "Osteoartroz (artrozli og'riq va yallig'lanish)",
+        "Ankilozlovchi spondiloartrit (Bextrew kasalligi)",
+        "Bo'g'imdan tashqari revmatizm: tendinit, bursit, periartrit; o'tkir podagra"
+      ],
+      qarrshi: [
+        "Tenoksikam yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish, perforatsiya",
+        "Og'ir jigar, buyrak yoki yurak yetishmovchiligi",
+        "Homiladorlik va emizish; bolalik yoshi",
+        "Qon ivishi buzilishlari"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, epigastral og'riq, ko'ngil aynishi, diareya; eroziya, yara, qon ketish; transaminazalar oshishi",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi",
+        "Yurak-qon tomir": "Shish, AB oshishi",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi; toshma, qichima, fotosensibilizatsiya",
+        "Qon": "Anemiya, trombotsitopeniya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, epigastral og'riq, bosh og'rig'i. Davolash: oshqozonni yuvish, faollashtirilgan ko'mir, simptomatik (uzun T½ tufayli kuzatuv uzoq).",
+      ozarotasir: [
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, metotreksat konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari ta'sirini susaytiradi",
+        "Salitsilatlar tenoksikamni oqsil bilan bog'lanishidan siqib chiqaradi — birga ishlatilmaydi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali yoki i/m/i/v: 20 mg×1/kun (bir vaqtda), ovqat bilan. O'tkir podagrada dastlabki 2 kun 40 mg/kun, keyin 20 mg/kun. Maks. 20 mg/kun (qisqa muddat 40 mg).",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Tabletkalar 20 mg; in'eksiya uchun liofilizatsiyalangan kukun 20 mg (flakon); rektal shamlar 20 mg"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — оксикамы (производное тиенотиазина)",
+      farmTasir: "Противовоспалительное, анальгезирующее, жаропонижающее (длительного действия)",
+      farmakodinamika: `Теноксикам — НПВС длительного действия группы оксикамов (тиенотиазин-карбоксамид). Ингибирует циклооксигеназу (ЦОГ-1 и ЦОГ-2), снижая синтез простагландинов и уменьшая воспаление, боль и отёк. Дополнительно снижает образование активных форм кислорода нейтрофилами и активность ферментов, разрушающих протеогликаны. Очень длинный период полувыведения (~70 ч) позволяет приём 1 раз в сутки.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается полностью, биодоступность ~100%. Cmax через 1–2 ч.",
+        tarqalish: "Связь с белками плазмы — 99%. Проникает в синовиальную жидкость и долго там сохраняется.",
+        metabolizm: "Полностью метаболизируется в печени (основной метаболит 5'-гидроксипиридил, неактивен); при участии CYP2C9.",
+        chiqarilish: "Преимущественно почками в виде метаболитов, частично с жёлчью. T½ — ~70 ч (очень длинный)."
+      },
+      korsatmalar: [
+        "Ревматоидный артрит",
+        "Остеоартроз (артрозная боль и воспаление)",
+        "Анкилозирующий спондилоартрит (болезнь Бехтерева)",
+        "Внесуставной ревматизм: тендинит, бурсит, периартрит; острая подагра"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к теноксикаму или НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение, перфорация",
+        "Тяжёлая печёночная, почечная или сердечная недостаточность",
+        "Беременность и лактация; детский возраст",
+        "Нарушения свёртывания крови"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, эпигастральная боль, тошнота, диарея; эрозии, язвы, кровотечение; повышение трансаминаз",
+        "Нервная система": "Головная боль, головокружение",
+        "Сердечно-сосудистая система": "Отёки, повышение АД",
+        "Почки / кожа": "Нарушение функции почек; сыпь, зуд, фотосенсибилизация",
+        "Кровь": "Анемия, тромбоцитопения (редко)"
+      },
+      dozadan: "Симптомы: тошнота, рвота, эпигастральная боль, головная боль. Лечение: промывание желудка, активированный уголь, симптоматически (наблюдение длительное из-за долгого T½).",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, метотрексата",
+        "Ослабляет действие диуретиков, иАПФ",
+        "Салицилаты вытесняют теноксикам из связи с белком — не сочетать"
+      ],
+      qollash: {
+        kattalar: "Внутрь или в/м/в/в: 20 мг×1/сут (в одно время) с едой. При острой подагре первые 2 дня 40 мг/сут, затем 20 мг/сут. Максимум 20 мг/сут (кратко 40 мг).",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Таблетки 20 мг; лиофилизированный порошок для инъекций 20 мг (флакон); ректальные свечи 20 мг"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — oxicams (thienothiazine derivative)",
+      farmTasir: "Anti-inflammatory, analgesic, antipyretic (long-acting)",
+      farmakodinamika: `Tenoxicam is a long-acting oxicam NSAID (thienothiazine-carboxamide). It inhibits cyclooxygenase (COX-1 and COX-2), reducing prostaglandin synthesis and easing inflammation, pain and swelling. It also reduces neutrophil generation of reactive oxygen species and the activity of proteoglycan-degrading enzymes. A very long half-life (~70 h) allows once-daily dosing.`,
+      farmakokinetika: {
+        sorish: "Completely absorbed orally, bioavailability ~100%. Cmax in 1–2 h.",
+        tarqalish: "Plasma protein binding — 99%. Penetrates synovial fluid and persists there long.",
+        metabolizm: "Fully metabolised in the liver (main metabolite 5'-hydroxypyridyl, inactive); via CYP2C9.",
+        chiqarilish: "Mainly renal as metabolites, partly biliary. T½ — ~70 h (very long)."
+      },
+      korsatmalar: [
+        "Rheumatoid arthritis",
+        "Osteoarthritis (arthrosic pain and inflammation)",
+        "Ankylosing spondylitis (Bechterew disease)",
+        "Extra-articular rheumatism: tendinitis, bursitis, periarthritis; acute gout"
+      ],
+      qarrshi: [
+        "Hypersensitivity to tenoxicam or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding, perforation",
+        "Severe hepatic, renal or cardiac failure",
+        "Pregnancy and lactation; childhood",
+        "Coagulation disorders"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, epigastric pain, nausea, diarrhoea; erosions, ulcers, bleeding; raised transaminases",
+        "Nervous system": "Headache, dizziness",
+        "Cardiovascular system": "Oedema, raised BP",
+        "Kidneys / skin": "Renal impairment; rash, pruritus, photosensitisation",
+        "Blood": "Anaemia, thrombocytopenia (rare)"
+      },
+      dozadan: "Symptoms: nausea, vomiting, epigastric pain, headache. Treatment: gastric lavage, activated charcoal, symptomatic (prolonged monitoring due to long T½).",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, methotrexate concentration",
+        "Weakens diuretics, ACE inhibitors",
+        "Salicylates displace tenoxicam from protein binding — do not combine"
+      ],
+      qollash: {
+        kattalar: "Orally or i/m/i/v: 20 mg×1/day (same time) with food. In acute gout first 2 days 40 mg/day, then 20 mg/day. Maximum 20 mg/day (briefly 40 mg).",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Tablets 20 mg; lyophilised powder for injection 20 mg (vial); rectal suppositories 20 mg"
+    }
+  },
+
+  // ── LORNOKSIKAM | ATX: M01AC05 ──
+  "M01AC05": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — oksikamlar (xlortienotiazin hosilasi)",
+      farmTasir: "Kuchli og'riq qoldiruvchi va yallig'lanishga qarshi",
+      farmakodinamika: `Lornoksikam — oksikamlar guruhiga mansub NSAID bo'lib, kuchli analgetik va yallig'lanishga qarshi ta'sirga ega. Siklooksigenaza (COX-1 va COX-2) ni teng (balanslangan) ingibe qilib prostaglandin sintezini kamaytiradi. Bundan tashqari yallig'lanish o'chog'ida leykotsitlardan faol kislorod shakllari ajralishini kamaytiradi va organizmning endogen dinorfin va endorfin tizimini faollashtirishga hissa qo'shadi (analgetik ta'sirni kuchaytiradi). Boshqa oksikamlardan farqli o'laroq yarim chiqarilish davri qisqa (~4 soat) — kumulatsiya xavfi past.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez va to'liq so'riladi, biokirish ~90–100%. Cmax 1–2 soatda. Ovqat so'rilishni biroz sekinlashtiradi.",
+        tarqalish: "Plazma oqsillariga bog'lanish — 99%. Sinovial suyuqlikка kiradi.",
+        metabolizm: "Jigarda CYP2C9 ishtirokida 5'-gidroksilornoksikamga (faolsiz) metabolizatsiya.",
+        chiqarilish: "~1/3 siydik, ~2/3 najas orqali metabolit ko'rinishida. T½ — ~3–4 soat (qisqa)."
+      },
+      korsatmalar: [
+        "O'tkir va surunkali o'rta-kuchli og'riq sindromlari",
+        "Operatsiyadan keyingi og'riq",
+        "Revmatoid artrit, osteoartroz, ankilozlovchi spondiloartrit",
+        "Orqa miya va yelka-bo'yin og'riqlari, lyumbago/ishias"
+      ],
+      qarrshi: [
+        "Lornoksikam yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish, perforatsiya; serebrovaskulyar yoki boshqa faol qon ketish",
+        "Og'ir jigar, buyrak yoki yurak yetishmovchiligi; trombotsitopeniya",
+        "Homiladorlik va emizish; 18 yoshgacha",
+        "Suyuqlik va elektrolit balansining og'ir buzilishlari"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, epigastral og'riq, ko'ngil aynishi, diareya, qabziyat; eroziya, yara, qon ketish; transaminazalar oshishi",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyqusizlik, ajitatsiya",
+        "Yurak-qon tomir": "Shish, AB oshishi, yurak urishi",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi, suyuqlik tutilishi; toshma, qichima, teri terlashi",
+        "Qon": "Anemiya, leykopeniya, trombotsitopeniya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, epigastral og'riq, bosh og'rig'i, ataksiya; og'ir holatda — qon ketish, AB oshishi, buyrak yetishmovchiligi. Davolash: oshqozonni yuvish, faollashtirilgan ko'mir, simptomatik.",
+      ozarotasir: [
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, metotreksat, digoksin konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari, beta-blokatorlar ta'sirini susaytiradi",
+        "Simetidin lornoksikam plazma konsentratsiyasini oshiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 8–16 mg/kun 2–3 ta qabulda. Og'riqda 8 mg, zarurda 8 mg qo'shimcha. I/m yoki i/v: boshlang'ich 8–16 mg, keyin 8 mg har 8–12 soatda. Maks. 16 mg/kun.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Tabletkalar (qobiqli) 4 va 8 mg; tez eriydigan tabletka 8 mg; in'eksiya uchun liofilizatsiyalangan kukun 8 mg (flakon)"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — оксикамы (производное хлортиенотиазина)",
+      farmTasir: "Мощное анальгезирующее и противовоспалительное",
+      farmakodinamika: `Лорноксикам — НПВС группы оксикамов с мощным анальгезирующим и противовоспалительным действием. Сбалансированно ингибирует циклооксигеназу (ЦОГ-1 и ЦОГ-2), снижая синтез простагландинов. Дополнительно снижает выделение активных форм кислорода лейкоцитами в очаге воспаления и способствует активации эндогенной системы динорфина и эндорфина (усиление анальгезии). В отличие от других оксикамов имеет короткий период полувыведения (~4 ч) — низкий риск кумуляции.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро и полно, биодоступность ~90–100%. Cmax через 1–2 ч. Пища несколько замедляет всасывание.",
+        tarqalish: "Связь с белками плазмы — 99%. Проникает в синовиальную жидкость.",
+        metabolizm: "В печени при участии CYP2C9 до 5'-гидроксилорноксикама (неактивен).",
+        chiqarilish: "~1/3 почками, ~2/3 с калом в виде метаболитов. T½ — ~3–4 ч (короткий)."
+      },
+      korsatmalar: [
+        "Острые и хронические болевые синдромы умеренной и сильной интенсивности",
+        "Послеоперационная боль",
+        "Ревматоидный артрит, остеоартроз, анкилозирующий спондилоартрит",
+        "Боли в спине и плечелопаточной области, люмбаго/ишиас"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к лорноксикаму или НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение, перфорация; цереброваскулярное или иное активное кровотечение",
+        "Тяжёлая печёночная, почечная или сердечная недостаточность; тромбоцитопения",
+        "Беременность и лактация; до 18 лет",
+        "Тяжёлые нарушения водно-электролитного баланса"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, эпигастральная боль, тошнота, диарея, запор; эрозии, язвы, кровотечение; повышение трансаминаз",
+        "Нервная система": "Головная боль, головокружение, бессонница, ажитация",
+        "Сердечно-сосудистая система": "Отёки, повышение АД, сердцебиение",
+        "Почки / кожа": "Нарушение функции почек, задержка жидкости; сыпь, зуд, потливость",
+        "Кровь": "Анемия, лейкопения, тромбоцитопения (редко)"
+      },
+      dozadan: "Симптомы: тошнота, рвота, эпигастральная боль, головная боль, атаксия; в тяжёлых случаях — кровотечение, повышение АД, почечная недостаточность. Лечение: промывание желудка, активированный уголь, симптоматически.",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, метотрексата, дигоксина",
+        "Ослабляет действие диуретиков, иАПФ, бета-блокаторов",
+        "Циметидин повышает плазменную концентрацию лорноксикама"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 8–16 мг/сут в 2–3 приёма. При боли 8 мг, при необходимости +8 мг. В/м или в/в: начально 8–16 мг, затем 8 мг каждые 8–12 ч. Максимум 16 мг/сут.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Таблетки (покрытые) 4 и 8 мг; быстрорастворимая таблетка 8 мг; лиофилизированный порошок для инъекций 8 мг (флакон)"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — oxicams (chlorothienothiazine derivative)",
+      farmTasir: "Potent analgesic and anti-inflammatory",
+      farmakodinamika: `Lornoxicam is an oxicam NSAID with potent analgesic and anti-inflammatory action. It balanced-inhibits cyclooxygenase (COX-1 and COX-2), reducing prostaglandin synthesis. It also reduces leukocyte release of reactive oxygen species at the inflammatory site and contributes to activation of the endogenous dynorphin and endorphin system (enhancing analgesia). Unlike other oxicams it has a short half-life (~4 h) — low accumulation risk.`,
+      farmakokinetika: {
+        sorish: "Rapidly and completely absorbed orally, bioavailability ~90–100%. Cmax in 1–2 h. Food slightly slows absorption.",
+        tarqalish: "Plasma protein binding — 99%. Penetrates synovial fluid.",
+        metabolizm: "Hepatic via CYP2C9 to 5'-hydroxylornoxicam (inactive).",
+        chiqarilish: "~1/3 renally, ~2/3 in faeces as metabolites. T½ — ~3–4 h (short)."
+      },
+      korsatmalar: [
+        "Acute and chronic moderate-to-severe pain syndromes",
+        "Post-operative pain",
+        "Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis",
+        "Back and shoulder-neck pain, lumbago/sciatica"
+      ],
+      qarrshi: [
+        "Hypersensitivity to lornoxicam or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding, perforation; cerebrovascular or other active bleeding",
+        "Severe hepatic, renal or cardiac failure; thrombocytopenia",
+        "Pregnancy and lactation; under 18 years",
+        "Severe water-electrolyte imbalance"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, epigastric pain, nausea, diarrhoea, constipation; erosions, ulcers, bleeding; raised transaminases",
+        "Nervous system": "Headache, dizziness, insomnia, agitation",
+        "Cardiovascular system": "Oedema, raised BP, palpitations",
+        "Kidneys / skin": "Renal impairment, fluid retention; rash, pruritus, sweating",
+        "Blood": "Anaemia, leukopenia, thrombocytopenia (rare)"
+      },
+      dozadan: "Symptoms: nausea, vomiting, epigastric pain, headache, ataxia; in severe cases bleeding, raised BP, renal failure. Treatment: gastric lavage, activated charcoal, symptomatic.",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, methotrexate, digoxin concentration",
+        "Weakens diuretics, ACE inhibitors, beta-blockers",
+        "Cimetidine raises lornoxicam plasma concentration"
+      ],
+      qollash: {
+        kattalar: "Orally: 8–16 mg/day in 2–3 doses. For pain 8 mg, +8 mg if needed. I/m or i/v: initially 8–16 mg, then 8 mg every 8–12 h. Maximum 16 mg/day.",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Tablets (coated) 4 and 8 mg; rapid-release tablet 8 mg; lyophilised powder for injection 8 mg (vial)"
+    }
   }
 
 };
