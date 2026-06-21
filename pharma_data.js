@@ -50095,6 +50095,965 @@ const PHARMA_DATA = {
       },
       chiqarish: "Tablets 20 mg; orodispersible tablets 10 mg; oral solution (children)"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // R-Batch 7 — I avlod antigistaminlar (sedativ H1-blokatorlar)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── DIFENGIDRAMIN | ATX: R06AA02 ──
+  "R06AA02": {
+    uz: {
+      gruppa: "Antigistaminlar — I avlod H1-retseptor blokatori (difengidramin)",
+      farmTasir: "Allergiyaga qarshi, sedativ, antiemetik (etanolamin)",
+      farmakodinamika: `Difengidramin (dimedrol) — I avlod etanolamin guruhi H1-gistamin retseptorlari blokatori. Periferik H1-retseptorlarni bloklab gistaminning allergik ta'sirini (qichima, shish, kapilyar o'tkazuvchanligi, silliq mushak spazmi) kamaytiradi. Lipofil bo'lgani uchun gematoentsefalik to'siqdan oson o'tadi — kuchli sedativ (uyqu chaqiruvchi) va markaziy antiemetik (ko'ngil aynishiга qarshi) ta'sirga ega. Markaziy va periferik antixolinergik (M-xolinoblokator), mahalliy anestetik va yengil spazmolitik ta'siri ham bor. Ta'sir tez boshlanadi, lekin qisqa (4–6 soat).`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали yaxshi so'riladi; «birinchi o'tish» tufayli biokirish ~40–60%. I/m, i/v ham.",
+        tarqalish: "To'qimalar va MNSга keng tarqaladi; plazma oqsillariga ~98%.",
+        metabolizm: "Jigarда intensiv metabolizatsiya.",
+        chiqarilish: "Asosан siydik orqали metabolit ko'rinishida. T½ — ~4–8 soat."
+      },
+      korsatmalar: [
+        "Allergik reaksiyalar: krapivnitsa (eshakemi), allergik rinit/kon'yunktivit, qichima, Kvinke shishi (yordamchi)",
+        "Anafilaktik reaksiyalarda yordamchi (asosiy emas)",
+        "Ko'ngil aynishi, qusish, harakat kasalligi (kinetoz), Menyer sindromi",
+        "Uyqusizlik (qisqa muddat), operatsiyaoldi premedikatsiya, parkinsonizm (yordamchi tremor)"
+      ],
+      qarrshi: [
+        "Difengidraminga o'ta sezgirlik",
+        "Tor burchakli glaukoma, prostata giperplaziyasi/siydik tutilishi, piloroduodenal obstruksiya (antixolinergik ta'sir)",
+        "Bronxial astma xuruji (balg'amni quyultiradi), yangi tug'ilganlar va emizish",
+        "Epilepsiya (ehtiyot), MAO inhibitorlari bilan birga"
+      ],
+      nojoya: {
+        "Asab tizimi": "Uyquchanlik, sustlik, charchoq, reaksiya sekinlashishi, bosh aylanishi; bolalar va keksalarда — paradoksal qo'zg'aluvchanlik",
+        "Antixolinergik": "Og'iz qurishi, ko'rishning xiralashuvi, siydik tutilishi, ich qotishi, taxikardiya",
+        "Hazm tizimi": "Ko'ngil aynishi, epigastral noxushlik",
+        "Boshqa": "AB pasayishi, mahalliy anestetik ta'sir (og'izда uvishish), fotosensibilizatsiya"
+      },
+      dozadan: "Belgilari: ayniqsa bolalarда antixolinergik psixoz, gallyutsinatsiya, ajitatsiya, midriaz, taxikardiya, isitma, tutqanoq, keyin MNS depressiyasi, koma. Davolash: simptomatik, faollashtirilgan ko'mir; tutqanoqqa qarshi; antixolinergik sindromда ehtiyotkorlik bilan fizostigmin.",
+      ozarotasir: [
+        "Alkogol, sedativ-gipnotiklar, opioidlar, MNS depressantlari: sedatsiyani keskin kuchaytiradi",
+        "MAO inhibitorlari: antixolinergik va sedativ ta'sirni kuchaytiradi",
+        "Boshqa antixolinergik dorilar (atropin, trisiklik antidepressantlar): ta'sir qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали: 25–50 mg×1–3/kun. I/m yoki sekin i/v: 10–50 mg (maks. 100 mg birvarakayiga, 250 mg/kun). Uyqu uchun 50 mg uxlashdан oldin.",
+        bolalar: "Yoshга/vaznга qarab 1–1,5 mg/kg/qabul, kuniga 3–4 marta (maks. cheklov); yangi tug'ilganlarда qo'llanilmaydi."
+      },
+      chiqarish: "Tabletkalar 30, 50 mg; in'eksiya eritmasi 1% (10 mg/ml); kremlar/gellar (mahalliy)"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор I поколения (дифенгидрамин)",
+      farmTasir: "Противоаллергическое, седативное, противорвотное (этаноламин)",
+      farmakodinamika: `Дифенгидрамин (димедрол) — H1-блокатор I поколения группы этаноламина. Блокируя периферические H1-рецепторы, уменьшает аллергическое действие гистамина (зуд, отёк, проницаемость капилляров, спазм гладких мышц). Будучи липофильным, легко проникает через ГЭБ — обладает выраженным седативным (снотворным) и центральным противорвотным действием. Имеет также центральное и периферическое антихолинергическое (М-холиноблокатор), местноанестезирующее и лёгкое спазмолитическое действие. Действие начинается быстро, но короткое (4–6 ч).`,
+      farmakokinetika: {
+        sorish: "Внутрь хорошо всасывается; из-за «первого прохождения» биодоступность ~40–60%. Также в/м, в/в.",
+        tarqalish: "Широко распределяется в ткани и ЦНС; связь с белками плазмы ~98%.",
+        metabolizm: "Интенсивно метаболизируется в печени.",
+        chiqarilish: "Преимущественно с мочой в виде метаболитов. T½ — ~4–8 ч."
+      },
+      korsatmalar: [
+        "Аллергические реакции: крапивница, аллергический ринит/конъюнктивит, зуд, отёк Квинке (вспомогательно)",
+        "Вспомогательно при анафилактических реакциях (не основное)",
+        "Тошнота, рвота, болезнь движения (кинетоз), синдром Меньера",
+        "Бессонница (кратко), предоперационная премедикация, паркинсонизм (вспомогательно при треморе)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к дифенгидрамину",
+        "Закрытоугольная глаукома, гиперплазия простаты/задержка мочи, пилородуоденальная обструкция (антихолинергическое действие)",
+        "Приступ бронхиальной астмы (сгущает мокроту), новорождённые и лактация",
+        "Эпилепсия (осторожно), совместно с ингибиторами МАО"
+      ],
+      nojoya: {
+        "Нервная система": "Сонливость, вялость, утомляемость, замедление реакции, головокружение; у детей и пожилых — парадоксальное возбуждение",
+        "Антихолинергические": "Сухость во рту, нечёткость зрения, задержка мочи, запор, тахикардия",
+        "Пищеварительная система": "Тошнота, эпигастральный дискомфорт",
+        "Прочее": "Снижение АД, местноанестезирующее действие (онемение во рту), фотосенсибилизация"
+      },
+      dozadan: "Симптомы: особенно у детей антихолинергический психоз, галлюцинации, ажитация, мидриаз, тахикардия, лихорадка, судороги, затем угнетение ЦНС, кома. Лечение: симптоматически, активированный уголь; противосудорожные; при антихолинергическом синдроме осторожно физостигмин.",
+      ozarotasir: [
+        "Алкоголь, седативно-снотворные, опиоиды, депрессанты ЦНС: резко усиливают седацию",
+        "Ингибиторы МАО: усиливают антихолинергическое и седативное действие",
+        "Другие антихолинергические (атропин, трициклические антидепрессанты): действие суммируется"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 25–50 мг×1–3/сут. В/м или медленно в/в: 10–50 мг (максимум 100 мг однократно, 250 мг/сут). Для сна 50 мг перед сном.",
+        bolalar: "По возрасту/массе 1–1,5 мг/кг/приём, 3–4 раза в сутки (с ограничением); у новорождённых не применяется."
+      },
+      chiqarish: "Таблетки 30, 50 мг; раствор для инъекций 1% (10 мг/мл); кремы/гели (наружно)"
+    },
+    en: {
+      gruppa: "Antihistamines — first-generation H1-receptor blocker (diphenhydramine)",
+      farmTasir: "Antiallergic, sedative, antiemetic (ethanolamine)",
+      farmakodinamika: `Diphenhydramine is a first-generation H1-blocker of the ethanolamine group. By blocking peripheral H1-receptors it reduces histamine's allergic effects (itching, oedema, capillary permeability, smooth muscle spasm). Being lipophilic it readily crosses the BBB — with marked sedative (hypnotic) and central antiemetic action. It also has central and peripheral anticholinergic (antimuscarinic), local anaesthetic and mild spasmolytic action. The effect begins quickly but is short (4–6 h).`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally; first-pass gives bioavailability ~40–60%. Also i/m, i/v.",
+        tarqalish: "Widely distributed to tissues and the CNS; plasma protein binding ~98%.",
+        metabolizm: "Extensively metabolised in the liver.",
+        chiqarilish: "Mainly renal as metabolites. T½ — ~4–8 h."
+      },
+      korsatmalar: [
+        "Allergic reactions: urticaria, allergic rhinitis/conjunctivitis, pruritus, angioedema (adjunct)",
+        "Adjunct in anaphylactic reactions (not primary)",
+        "Nausea, vomiting, motion sickness (kinetosis), Ménière syndrome",
+        "Insomnia (short-term), pre-operative premedication, parkinsonism (adjunct for tremor)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to diphenhydramine",
+        "Narrow-angle glaucoma, prostatic hyperplasia/urinary retention, pyloroduodenal obstruction (anticholinergic action)",
+        "Asthma attack (thickens sputum), neonates and lactation",
+        "Epilepsy (caution), with MAO inhibitors"
+      ],
+      nojoya: {
+        "Nervous system": "Drowsiness, lethargy, fatigue, slowed reactions, dizziness; in children and the elderly — paradoxical excitation",
+        "Anticholinergic": "Dry mouth, blurred vision, urinary retention, constipation, tachycardia",
+        "Digestive system": "Nausea, epigastric discomfort",
+        "Other": "Lowered BP, local anaesthetic effect (mouth numbness), photosensitisation"
+      },
+      dozadan: "Symptoms: especially in children anticholinergic psychosis, hallucinations, agitation, mydriasis, tachycardia, fever, convulsions, then CNS depression, coma. Treatment: symptomatic, activated charcoal; anticonvulsants; in anticholinergic syndrome physostigmine with caution.",
+      ozarotasir: [
+        "Alcohol, sedative-hypnotics, opioids, CNS depressants: sharply enhance sedation",
+        "MAO inhibitors: enhance anticholinergic and sedative effect",
+        "Other anticholinergics (atropine, tricyclic antidepressants): additive effect"
+      ],
+      qollash: {
+        kattalar: "Orally: 25–50 mg×1–3/day. I/m or slowly i/v: 10–50 mg (max 100 mg single, 250 mg/day). For sleep 50 mg at bedtime.",
+        bolalar: "By age/weight 1–1.5 mg/kg/dose, 3–4 times a day (with a limit); not used in neonates."
+      },
+      chiqarish: "Tablets 30, 50 mg; injection 1% (10 mg/mL); creams/gels (topical)"
+    }
+  },
+
+  // ── XLOROPIRAMIN | ATX: R06AC03 ──
+  "R06AC03": {
+    uz: {
+      gruppa: "Antigistaminlar — I avlod H1-retseptor blokatori (xloropiramin)",
+      farmTasir: "Allergiyaga qarshi, sedativ (etilendiamin)",
+      farmakodinamika: `Xloropiramin (suprastin) — I avlod etilendiamin guruhi H1-gistamin retseptorlari blokatori. Periferik H1-retseptorlarni bloklab gistaminning allergik ta'sirini kamaytiradi; antixolinergik, yengil spazmolitik, antiemetik va sedativ ta'sirga ega (gematoentsefalik to'siqdan o'tadi). O'tkir allergik reaksiyalarда tez ta'sir uchun in'eksiya shaklida ham keng ishlatiladi. Ta'sir tez boshlanadi, qisqa (4–6 soat).`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали yaxshi so'riladi; i/m, i/v ham.",
+        tarqalish: "To'qimalar va MNSга tarqaladi.",
+        metabolizm: "Jigarда metabolizatsiya.",
+        chiqarilish: "Asosан siydik orqали. T½ — ~ bir necha soat (bolalarда qisqaroq)."
+      },
+      korsatmalar: [
+        "Allergik reaksiyalar: krapivnitsa (eshakemi), allergik rinit/kon'yunktivit, qichima, allergik dermatozlar, ekzema, atopik dermatit",
+        "Hasharotlar chaqishi reaksiyalari, Kvinke shishi (yordamchi)",
+        "O'tkir va surункali allergik holatlarda (in'eksiya — tez yordam)"
+      ],
+      qarrshi: [
+        "Xloropiraminga o'ta sezgirlik",
+        "O'tkir bronxial astma xuruji",
+        "Tor burchakli glaukoma, prostata giperplaziyasi/siydik tutilishi",
+        "Yangi tug'ilganlar, homiladorlik va emizish (ehtiyot)"
+      ],
+      nojoya: {
+        "Asab tizimi": "Uyquchanlik, charchoq, bosh aylanishi, reaksiya sekinlashishi; bolalarда — qo'zg'aluvchanlik",
+        "Antixolinergik": "Og'iz qurishi, ko'rishning xiralashuvi, siydik tutilishi, ich qotishi, taxikardiya",
+        "Hazm tizimi": "Epigastral noxushlik, ko'ngil aynishi",
+        "Boshqa": "Mushak kuchsizligi, AB o'zgarishi"
+      },
+      dozadan: "Belgilari (ayniqsa bolalarда): antixolinergik psixoz, gallyutsinatsiya, ataksiya, ajitatsiya, isitma, tutqanoq, keyin MNS depressiyasi. Davolash: simptomatik, faollashtirilgan ko'mir.",
+      ozarotasir: [
+        "Alkogol, sedativ-gipnotiklar, MNS depressantlari: sedatsiyani kuchaytiradi",
+        "MAO inhibitorlari: antixolinergik ta'sirni kuchaytiradi va uzaytiradi",
+        "Boshqa antixolinergiklar bilan ta'sir qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали: 25 mg×1–2/kun (zarurda 100 mg/kun gача). I/m yoki sekin i/v: 20–40 mg o'tkir holatда.",
+        bolalar: "Yoshга qarab: 1–12 oй 6,25 mg; 1–6 yosh 8,3 mg; 6–14 yosh 12,5 mg, kuniga 2–3 marta (tabletka maydalanadi)."
+      },
+      chiqarish: "Tabletkalar 25 mg; in'eksiya eritmasi 2% (20 mg/ml)"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор I поколения (хлоропирамин)",
+      farmTasir: "Противоаллергическое, седативное (этилендиамин)",
+      farmakodinamika: `Хлоропирамин (супрастин) — H1-блокатор I поколения группы этилендиамина. Блокируя периферические H1-рецепторы, уменьшает аллергическое действие гистамина; обладает антихолинергическим, лёгким спазмолитическим, противорвотным и седативным действием (проникает через ГЭБ). При острых аллергических реакциях широко применяется и в форме инъекций для быстрого действия. Действие начинается быстро, короткое (4–6 ч).`,
+      farmakokinetika: {
+        sorish: "Внутрь хорошо всасывается; также в/м, в/в.",
+        tarqalish: "Распределяется в ткани и ЦНС.",
+        metabolizm: "Метаболизируется в печени.",
+        chiqarilish: "Преимущественно с мочой. T½ — несколько часов (у детей короче)."
+      },
+      korsatmalar: [
+        "Аллергические реакции: крапивница, аллергический ринит/конъюнктивит, зуд, аллергические дерматозы, экзема, атопический дерматит",
+        "Реакции на укусы насекомых, отёк Квинке (вспомогательно)",
+        "Острые и хронические аллергические состояния (инъекция — скорая помощь)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к хлоропирамину",
+        "Острый приступ бронхиальной астмы",
+        "Закрытоугольная глаукома, гиперплазия простаты/задержка мочи",
+        "Новорождённые, беременность и лактация (осторожно)"
+      ],
+      nojoya: {
+        "Нервная система": "Сонливость, утомляемость, головокружение, замедление реакции; у детей — возбуждение",
+        "Антихолинергические": "Сухость во рту, нечёткость зрения, задержка мочи, запор, тахикардия",
+        "Пищеварительная система": "Эпигастральный дискомфорт, тошнота",
+        "Прочее": "Мышечная слабость, изменение АД"
+      },
+      dozadan: "Симптомы (особенно у детей): антихолинергический психоз, галлюцинации, атаксия, ажитация, лихорадка, судороги, затем угнетение ЦНС. Лечение: симптоматически, активированный уголь.",
+      ozarotasir: [
+        "Алкоголь, седативно-снотворные, депрессанты ЦНС: усиливают седацию",
+        "Ингибиторы МАО: усиливают и удлиняют антихолинергическое действие",
+        "С другими антихолинергическими действие суммируется"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 25 мг×1–2/сут (при необходимости до 100 мг/сут). В/м или медленно в/в: 20–40 мг при остром состоянии.",
+        bolalar: "По возрасту: 1–12 мес 6,25 мг; 1–6 лет 8,3 мг; 6–14 лет 12,5 мг, 2–3 раза в сутки (таблетку измельчают)."
+      },
+      chiqarish: "Таблетки 25 мг; раствор для инъекций 2% (20 мг/мл)"
+    },
+    en: {
+      gruppa: "Antihistamines — first-generation H1-receptor blocker (chloropyramine)",
+      farmTasir: "Antiallergic, sedative (ethylenediamine)",
+      farmakodinamika: `Chloropyramine (suprastin) is a first-generation H1-blocker of the ethylenediamine group. By blocking peripheral H1-receptors it reduces histamine's allergic effects; it has anticholinergic, mild spasmolytic, antiemetic and sedative action (it crosses the BBB). In acute allergic reactions it is widely used as an injection for rapid action. The effect begins quickly and is short (4–6 h).`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally; also i/m, i/v.",
+        tarqalish: "Distributes to tissues and the CNS.",
+        metabolizm: "Metabolised in the liver.",
+        chiqarilish: "Mainly renal. T½ — a few hours (shorter in children)."
+      },
+      korsatmalar: [
+        "Allergic reactions: urticaria, allergic rhinitis/conjunctivitis, pruritus, allergic dermatoses, eczema, atopic dermatitis",
+        "Insect-bite reactions, angioedema (adjunct)",
+        "Acute and chronic allergic states (injection — emergency)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to chloropyramine",
+        "Acute asthma attack",
+        "Narrow-angle glaucoma, prostatic hyperplasia/urinary retention",
+        "Neonates, pregnancy and lactation (caution)"
+      ],
+      nojoya: {
+        "Nervous system": "Drowsiness, fatigue, dizziness, slowed reactions; in children — excitation",
+        "Anticholinergic": "Dry mouth, blurred vision, urinary retention, constipation, tachycardia",
+        "Digestive system": "Epigastric discomfort, nausea",
+        "Other": "Muscle weakness, BP change"
+      },
+      dozadan: "Symptoms (especially in children): anticholinergic psychosis, hallucinations, ataxia, agitation, fever, convulsions, then CNS depression. Treatment: symptomatic, activated charcoal.",
+      ozarotasir: [
+        "Alcohol, sedative-hypnotics, CNS depressants: enhance sedation",
+        "MAO inhibitors: enhance and prolong anticholinergic action",
+        "With other anticholinergics the effect is additive"
+      ],
+      qollash: {
+        kattalar: "Orally: 25 mg×1–2/day (up to 100 mg/day if needed). I/m or slowly i/v: 20–40 mg in an acute state.",
+        bolalar: "By age: 1–12 months 6.25 mg; 1–6 years 8.3 mg; 6–14 years 12.5 mg, 2–3 times a day (crush the tablet)."
+      },
+      chiqarish: "Tablets 25 mg; injection 2% (20 mg/mL)"
+    }
+  },
+
+  // ── KETOTIFEN | ATX: R06AX17 ──
+  "R06AX17": {
+    uz: {
+      gruppa: "Antigistaminlar — H1-blokator va mast hujayra membrana stabilizatori (ketotifen)",
+      farmTasir: "Allergiyaga qarshi va astma profilaktikasi",
+      farmakodinamika: `Ketotifen — H1-gistamin retseptorlarini bloklovchi va mast hujayralari membranasini barqarorlashtiruvchi antiallergik vosita. H1-retseptorlarni bloklab gistaminning allergik ta'sirini kamaytiradi; bundan tashqari mast hujayralari va bazofillardan gistamin, leykotrienlar va boshqa allergik mediatorlar ajralishini to'xtatadi (membrana stabilizatori) — bu uni astma va allergiyaning uzoq muddatli profilaktikasi uchun mos qiladi. Eozinofillarning to'planishini ham kamaytiradi. Sedativ ta'siri bor (gematoentsefalik to'siqdan o'tadi). Profilaktik samara haftalar davomida rivojlanadi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали yaxshi so'riladi; «birinchi o'tish» tufayli biokirish ~50%.",
+        tarqalish: "To'qimalar va MNSга tarqaladi.",
+        metabolizm: "Jigarда metabolizatsiya.",
+        chiqarilish: "Asosан siydik orqали. T½ — ~12–22 soat (kuniga 1–2 marta)."
+      },
+      korsatmalar: [
+        "Bronxial astma profilaktikasi (atopik) — bazis, uzoq muddatли (xurujни bartaraf etmaydi)",
+        "Allergik rinit, kon'yunktivit, krapivnitsa, atopik dermatit",
+        "Allergik kasalliklarning oldini olish (mavsumiy)"
+      ],
+      qarrshi: [
+        "Ketotifenga o'ta sezgirlik",
+        "Homiladorlik va emizish (ehtiyot)",
+        "Epilepsiya/tutqanoqqa moyillik (ehtiyot — tutqanoq chegarasини pasaytirishi mumkin)",
+        "Avtomobil boshqaruvchilar/mexanizm operatorlari (sedatsiya — ehtiyot)"
+      ],
+      nojoya: {
+        "Asab tizimi": "Uyquchanlik, sustlik (boshlanishida), bosh aylanishi, charchoq; bolalarда — qo'zg'aluvchanlik, uyqu buzilishi",
+        "Hazm tizimi": "Og'iz qurishi, ishtaha va tana vaznining oshishi, ko'ngil aynishi",
+        "Boshqa": "Siydik tutilishi (kamdan-kam), trombotsitopeniya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: kuchli uyquchanlik, dezorientatsiya, taxikardiya, gipotenziya, bolalarда qo'zg'aluvchanlik/tutqanoq. Davolash: simptomatik, faollashtirilgan ko'mir, tutqanoqqa qarshi.",
+      ozarotasir: [
+        "Alkogol, sedativ-gipnotiklar, antigistaminlar: sedatsiyani kuchaytiradi",
+        "Peroral qandni tushiruvchi dorilar: birga qo'llaganда trombotsitlar kamayishi kuzatilgan (qon ko'rsatkichlari nazorati)",
+        "Boshqa MNS depressantlari bilan ehtiyot"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали: 1 mg×2/kun (ovqat bilan); zarurda 2 mg×2/kun. Astma profilaktikasi kamida 2–3 oй davom etadi; to'satdan to'xtatilmaydi (astma qaytishi).",
+        bolalar: "6 oйdan: 0,05 mg/kg×2/kun yoki 3 yoshdan 1 mg×2/kun (sirop)."
+      },
+      chiqarish: "Tabletkalar 1 mg; sirop 1 mg/5 ml; ko'z tomchilari (allergik kon'yunktivit)"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор и стабилизатор мембран тучных клеток (кетотифен)",
+      farmTasir: "Противоаллергическое и профилактика астмы",
+      farmakodinamika: `Кетотифен — противоаллергическое средство, блокирующее H1-гистаминовые рецепторы и стабилизирующее мембраны тучных клеток. Блокируя H1-рецепторы, уменьшает аллергическое действие гистамина; кроме того, тормозит выделение гистамина, лейкотриенов и других аллергических медиаторов из тучных клеток и базофилов (стабилизатор мембран) — что делает его пригодным для длительной профилактики астмы и аллергии. Также уменьшает накопление эозинофилов. Обладает седативным действием (проникает через ГЭБ). Профилактический эффект развивается в течение недель.`,
+      farmakokinetika: {
+        sorish: "Внутрь хорошо всасывается; из-за «первого прохождения» биодоступность ~50%.",
+        tarqalish: "Распределяется в ткани и ЦНС.",
+        metabolizm: "Метаболизируется в печени.",
+        chiqarilish: "Преимущественно с мочой. T½ — ~12–22 ч (1–2 раза в сутки)."
+      },
+      korsatmalar: [
+        "Профилактика бронхиальной астмы (атопической) — базисно, длительно (не купирует приступ)",
+        "Аллергический ринит, конъюнктивит, крапивница, атопический дерматит",
+        "Предупреждение аллергических заболеваний (сезонно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к кетотифену",
+        "Беременность и лактация (осторожно)",
+        "Эпилепсия/склонность к судорогам (осторожно — может снижать порог судорог)",
+        "Водители/операторы механизмов (седация — осторожно)"
+      ],
+      nojoya: {
+        "Нервная система": "Сонливость, вялость (в начале), головокружение, утомляемость; у детей — возбуждение, нарушение сна",
+        "Пищеварительная система": "Сухость во рту, повышение аппетита и массы тела, тошнота",
+        "Прочее": "Задержка мочи (редко), тромбоцитопения (редко)"
+      },
+      dozadan: "Симптомы: сильная сонливость, дезориентация, тахикардия, гипотензия, у детей возбуждение/судороги. Лечение: симптоматически, активированный уголь, противосудорожные.",
+      ozarotasir: [
+        "Алкоголь, седативно-снотворные, антигистаминные: усиливают седацию",
+        "Пероральные гипогликемические: при совместном применении отмечалось снижение тромбоцитов (контроль показателей крови)",
+        "С другими депрессантами ЦНС осторожно"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 1 мг×2/сут (с едой); при необходимости 2 мг×2/сут. Профилактика астмы длится не менее 2–3 месяцев; не отменять резко (возврат астмы).",
+        bolalar: "С 6 мес: 0,05 мг/кг×2/сут или с 3 лет 1 мг×2/сут (сироп)."
+      },
+      chiqarish: "Таблетки 1 мг; сироп 1 мг/5 мл; глазные капли (аллергический конъюнктивит)"
+    },
+    en: {
+      gruppa: "Antihistamines — H1-blocker and mast cell membrane stabiliser (ketotifen)",
+      farmTasir: "Antiallergic and asthma prophylaxis",
+      farmakodinamika: `Ketotifen is an antiallergic agent that blocks H1-histamine receptors and stabilises mast cell membranes. By blocking H1-receptors it reduces histamine's allergic effects; it also inhibits release of histamine, leukotrienes and other allergic mediators from mast cells and basophils (membrane stabiliser) — making it suitable for long-term prophylaxis of asthma and allergy. It also reduces eosinophil accumulation. It has sedative action (crosses the BBB). The prophylactic effect develops over weeks.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally; first-pass gives bioavailability ~50%.",
+        tarqalish: "Distributes to tissues and the CNS.",
+        metabolizm: "Metabolised in the liver.",
+        chiqarilish: "Mainly renal. T½ — ~12–22 h (1–2 times a day)."
+      },
+      korsatmalar: [
+        "Prophylaxis of bronchial asthma (atopic) — controller, long-term (does not abort an attack)",
+        "Allergic rhinitis, conjunctivitis, urticaria, atopic dermatitis",
+        "Prevention of allergic disease (seasonal)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to ketotifen",
+        "Pregnancy and lactation (caution)",
+        "Epilepsy/seizure tendency (caution — may lower the seizure threshold)",
+        "Drivers/machine operators (sedation — caution)"
+      ],
+      nojoya: {
+        "Nervous system": "Drowsiness, lethargy (at the start), dizziness, fatigue; in children — excitation, sleep disturbance",
+        "Digestive system": "Dry mouth, increased appetite and body weight, nausea",
+        "Other": "Urinary retention (rare), thrombocytopenia (rare)"
+      },
+      dozadan: "Symptoms: marked drowsiness, disorientation, tachycardia, hypotension, in children excitation/convulsions. Treatment: symptomatic, activated charcoal, anticonvulsants.",
+      ozarotasir: [
+        "Alcohol, sedative-hypnotics, antihistamines: enhance sedation",
+        "Oral hypoglycaemics: a fall in platelets has been noted with concurrent use (monitor blood counts)",
+        "With other CNS depressants use caution"
+      ],
+      qollash: {
+        kattalar: "Orally: 1 mg×2/day (with food); 2 mg×2/day if needed. Asthma prophylaxis lasts at least 2–3 months; do not stop abruptly (asthma return).",
+        bolalar: "From 6 months: 0.05 mg/kg×2/day or from 3 years 1 mg×2/day (syrup)."
+      },
+      chiqarish: "Tablets 1 mg; syrup 1 mg/5 mL; eye drops (allergic conjunctivitis)"
+    }
+  },
+
+  // ── DIMETINDEN | ATX: R06AB03 ──
+  "R06AB03": {
+    uz: {
+      gruppa: "Antigistaminlar — I avlod H1-retseptor blokatori (dimetinden)",
+      farmTasir: "Allergiyaga qarshi, qichimaga qarshi (mahalliy va tizimli)",
+      farmakodinamika: `Dimetinden (maleat) — I avlod alkilamin guruhi H1-gistamin retseptorlari blokatori. Periferik H1-retseptorlarni bloklab gistaminning allergik ta'sirini va qichimani kamaytiradi; yengil antixolinergik va mahalliy anestetik ta'sirga ega. Tizimli (tomchi) va mahalliy (gel — qichima, hasharot chaqishi, yengil kuyish) shakllarida qo'llaniladi. Sedativ ta'siri o'rtacha (I avloddан kamroq). Chaqaloqlar va kichik bolalarда tomchi shaklida keng ishlatiladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали yaxshi so'riladi (biokirish ~70%); mahalliy gel shilliq-terига ta'sir qiladi.",
+        tarqalish: "To'qimalarга tarqaladi.",
+        metabolizm: "Jigarда gidroksillanish va metilatsiya.",
+        chiqarilish: "Asosан siydik va o't orqали. T½ — ~6 soat."
+      },
+      korsatmalar: [
+        "Allergik rinit, krapivnitsa (eshakemi), allergik qichima, dori va oziq-ovqat allergiyasi",
+        "Atopik dermatit, ekzema, suvchechak/qizamiqда qichima (yordamchi)",
+        "Mahalliy (gel): hasharot chaqishi, qichima, yengil quyosh kuyishi, kontakt dermatit"
+      ],
+      qarrshi: [
+        "Dimetindenga o'ta sezgirlik",
+        "Tor burchakli glaukoma, prostata giperplaziyasi/siydik tutilishi",
+        "Yangi tug'ilganlar (ayniqsa chala tug'ilganlar), homiladorlikning I trimestri, emizish",
+        "Bronxial astma (ehtiyot)"
+      ],
+      nojoya: {
+        "Asab tizimi": "Uyquchanlik (boshlanishida), charchoq, bosh aylanishi",
+        "Antixolinergik": "Og'iz qurishi, halqumда qurish, siydik tutilishi (kamdan-kam)",
+        "Hazm tizimi": "Ko'ngil aynishi, epigastral noxushlik",
+        "Mahalliy (gel)": "Qo'llash joyida qurish, achishish (kamdan-kam)"
+      },
+      dozadan: "Belgilari: MNS depressiyasi va uyquchanlik (kattalarда), bolalarда — qo'zg'aluvchanlik, antixolinergik belgilar (taxikardiya, midriaz, isitma), tutqanoq. Davolash: simptomatik, faollashtirilgan ko'mir.",
+      ozarotasir: [
+        "Alkogol, sedativ-gipnotiklar, MNS depressantlari: sedatsiyani kuchaytiradi",
+        "MAO inhibitorlari: antixolinergik va MNS ta'sirni kuchaytiradi",
+        "Trisiklik antidepressantlar va antixolinergiklar bilan ta'sir qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали (tomchi): 20–40 tomchi×3/kun yoki uzaytirilgan kapsula 4 mg×1–2/kun. Mahalliy gel kuniga 2–4 marta.",
+        bolalar: "1 oйdan tomchi: 1 oй–1 yosh 3–10 tomchi×3; 1–3 yosh 10–15 tomchi×3; 3 yoshdan 15–20 tomchi×3."
+      },
+      chiqarish: "Ichish tomchilari 1 mg/ml; uzaytirilgan kapsulalar 4 mg; mahalliy gel 0,1%"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор I поколения (диметинден)",
+      farmTasir: "Противоаллергическое, противозудное (местно и системно)",
+      farmakodinamika: `Диметинден (малеат) — H1-блокатор I поколения группы алкиламина. Блокируя периферические H1-рецепторы, уменьшает аллергическое действие гистамина и зуд; обладает лёгким антихолинергическим и местноанестезирующим действием. Применяется в системной (капли) и местной (гель — зуд, укусы насекомых, лёгкие ожоги) формах. Седативное действие умеренное (меньше, чем у I поколения). У младенцев и маленьких детей широко применяется в форме капель.`,
+      farmakokinetika: {
+        sorish: "Внутрь хорошо всасывается (биодоступность ~70%); местный гель действует на слизисто-кожный покров.",
+        tarqalish: "Распределяется в ткани.",
+        metabolizm: "В печени гидроксилирование и метилирование.",
+        chiqarilish: "Преимущественно с мочой и жёлчью. T½ — ~6 ч."
+      },
+      korsatmalar: [
+        "Аллергический ринит, крапивница, аллергический зуд, лекарственная и пищевая аллергия",
+        "Атопический дерматит, экзема, зуд при ветрянке/кори (вспомогательно)",
+        "Местно (гель): укусы насекомых, зуд, лёгкие солнечные ожоги, контактный дерматит"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к диметиндену",
+        "Закрытоугольная глаукома, гиперплазия простаты/задержка мочи",
+        "Новорождённые (особенно недоношенные), I триместр беременности, лактация",
+        "Бронхиальная астма (осторожно)"
+      ],
+      nojoya: {
+        "Нервная система": "Сонливость (в начале), утомляемость, головокружение",
+        "Антихолинергические": "Сухость во рту, сухость в горле, задержка мочи (редко)",
+        "Пищеварительная система": "Тошнота, эпигастральный дискомфорт",
+        "Местные (гель)": "Сухость, жжение в месте нанесения (редко)"
+      },
+      dozadan: "Симптомы: угнетение ЦНС и сонливость (у взрослых), у детей — возбуждение, антихолинергические признаки (тахикардия, мидриаз, лихорадка), судороги. Лечение: симптоматически, активированный уголь.",
+      ozarotasir: [
+        "Алкоголь, седативно-снотворные, депрессанты ЦНС: усиливают седацию",
+        "Ингибиторы МАО: усиливают антихолинергическое и ЦНС-действие",
+        "С трициклическими антидепрессантами и антихолинергическими действие суммируется"
+      ],
+      qollash: {
+        kattalar: "Внутрь (капли): 20–40 капель×3/сут или пролонгированная капсула 4 мг×1–2/сут. Местный гель 2–4 раза в день.",
+        bolalar: "С 1 мес капли: 1 мес–1 год 3–10 капель×3; 1–3 года 10–15 капель×3; с 3 лет 15–20 капель×3."
+      },
+      chiqarish: "Капли для приёма внутрь 1 мг/мл; пролонгированные капсулы 4 мг; местный гель 0,1%"
+    },
+    en: {
+      gruppa: "Antihistamines — first-generation H1-receptor blocker (dimetindene)",
+      farmTasir: "Antiallergic, antipruritic (topical and systemic)",
+      farmakodinamika: `Dimetindene (maleate) is a first-generation H1-blocker of the alkylamine group. By blocking peripheral H1-receptors it reduces histamine's allergic effects and itching; it has mild anticholinergic and local anaesthetic action. It is used in systemic (drops) and topical (gel — itching, insect bites, minor burns) forms. Sedation is moderate (less than other first-generation drugs). In infants and young children the drop form is widely used.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally (bioavailability ~70%); the topical gel acts on the skin/mucosa.",
+        tarqalish: "Distributes to tissues.",
+        metabolizm: "Hepatic hydroxylation and methylation.",
+        chiqarilish: "Mainly renal and biliary. T½ — ~6 h."
+      },
+      korsatmalar: [
+        "Allergic rhinitis, urticaria, allergic pruritus, drug and food allergy",
+        "Atopic dermatitis, eczema, itching in chickenpox/measles (adjunct)",
+        "Topical (gel): insect bites, itching, minor sunburn, contact dermatitis"
+      ],
+      qarrshi: [
+        "Hypersensitivity to dimetindene",
+        "Narrow-angle glaucoma, prostatic hyperplasia/urinary retention",
+        "Neonates (especially premature), first trimester of pregnancy, lactation",
+        "Bronchial asthma (caution)"
+      ],
+      nojoya: {
+        "Nervous system": "Drowsiness (at the start), fatigue, dizziness",
+        "Anticholinergic": "Dry mouth, dry throat, urinary retention (rare)",
+        "Digestive system": "Nausea, epigastric discomfort",
+        "Topical (gel)": "Dryness, burning at the application site (rare)"
+      },
+      dozadan: "Symptoms: CNS depression and drowsiness (in adults), in children excitation, anticholinergic signs (tachycardia, mydriasis, fever), convulsions. Treatment: symptomatic, activated charcoal.",
+      ozarotasir: [
+        "Alcohol, sedative-hypnotics, CNS depressants: enhance sedation",
+        "MAO inhibitors: enhance anticholinergic and CNS effect",
+        "With tricyclic antidepressants and anticholinergics the effect is additive"
+      ],
+      qollash: {
+        kattalar: "Orally (drops): 20–40 drops×3/day or extended-release capsule 4 mg×1–2/day. Topical gel 2–4 times a day.",
+        bolalar: "From 1 month as drops: 1 month–1 year 3–10 drops×3; 1–3 years 10–15 drops×3; from 3 years 15–20 drops×3."
+      },
+      chiqarish: "Oral drops 1 mg/mL; extended-release capsules 4 mg; topical gel 0.1%"
+    }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // R-Batch 8 — Mebgidrolin, kromoglikat, tomoq antiseptiklari,
+  // o'simlik ekspektorantlari + yakuniy alias xarita
+  // ═══════════════════════════════════════════════════════════
+
+  // ── MEBGIDROLIN | ATX: R06AX15 ──
+  "R06AX15": {
+    uz: {
+      gruppa: "Antigistaminlar — I avlod H1-retseptor blokatori (mebgidrolin)",
+      farmTasir: "Allergiyaga qarshi (sedatsiyasi nisbatan past I avlod)",
+      farmakodinamika: `Mebgidrolin (diazolin) — I avlod karbolin guruhi H1-gistamin retseptorlari blokatori. Periferik H1-retseptorlarni bloklab gistaminning allergik ta'sirini (qichima, shish, kapilyar o'tkazuvchanligi, silliq mushak spazmi) kamaytiradi. Boshqa I avlod preparatlardan farqli o'laroq sedativ va antixolinergik ta'siri nisbatan kam — kunduzgi qo'llashда ham mosroq. Ta'sir bir necha soatda boshlanadi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали so'riladi; ta'sir ~30 daqiqada boshlanadi, 1–2 kun davom etishi mumkin.",
+        tarqalish: "To'qimalarга tarqaladi.",
+        metabolizm: "Jigarда metabolizatsiya.",
+        chiqarilish: "Asosан siydik orqали."
+      },
+      korsatmalar: [
+        "Allergik rinit/kon'yunktivit, krapivnitsa (eshakemi), allergik qichima",
+        "Dori va oziq-ovqat allergiyasi, hasharot chaqishi reaksiyalari",
+        "Atopik dermatit, ekzema, allergik dermatozlar (yordamchi)"
+      ],
+      qarrshi: [
+        "Mebgidrolinga o'ta sezgirlik",
+        "Oshqozon-ichak yarasi qo'zg'alishi (ta'sir qo'zg'atuvchi)",
+        "Tor burchakli glaukoma, prostata giperplaziyasi/siydik tutilishi, piloroduodenal obstruksiya",
+        "Yurak ritmi buzilishlari; homiladorlik va emizish (ehtiyot)"
+      ],
+      nojoya: {
+        "Asab tizimi": "Uyquchanlik (kam), charchoq, bosh aylanishi; bolalarда — qo'zg'aluvchanlik, paresteziya",
+        "Hazm tizimi": "Epigastral noxushlik, ko'ngil aynishi, og'iz qurishi (shilliq qavat ta'siri)",
+        "Antixolinergik": "Siydik tutilishi, ko'rishning xiralashuvi (kamdan-kam)",
+        "Qon": "Granulotsitopeniya, agranulotsitoz (uzoq qabулда — kamdan-kam)"
+      },
+      dozadan: "Belgilari: MNS depressiyasi yoki qo'zg'aluvchanlik, antixolinergik belgilar. Davolash: simptomatik, faollashtirilgan ko'mir.",
+      ozarotasir: [
+        "Alkogol, sedativ-gipnotiklar, MNS depressantlari: sedatsiyani kuchaytiradi",
+        "Boshqa antixolinergik dorilar bilan ta'sir qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали ovqatdan keyin: 100 mg×1–2/kun (maks. 300 mg/kun).",
+        bolalar: "Yoshга qarab: 2–5 yosh 50–100 mg/kun; 5–10 yosh 100–200 mg/kun, bo'lib."
+      },
+      chiqarish: "Tabletkalar/dragelar 50, 100 mg"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор I поколения (мебгидролин)",
+      farmTasir: "Противоаллергическое (I поколения с относительно низкой седацией)",
+      farmakodinamika: `Мебгидролин (диазолин) — H1-блокатор I поколения группы карболина. Блокируя периферические H1-рецепторы, уменьшает аллергическое действие гистамина (зуд, отёк, проницаемость капилляров, спазм гладких мышц). В отличие от других препаратов I поколения седативное и антихолинергическое действие относительно невелико — подходит и для дневного применения. Действие начинается через несколько часов.`,
+      farmakokinetika: {
+        sorish: "Внутрь всасывается; действие через ~30 мин, может длиться 1–2 дня.",
+        tarqalish: "Распределяется в ткани.",
+        metabolizm: "Метаболизируется в печени.",
+        chiqarilish: "Преимущественно с мочой."
+      },
+      korsatmalar: [
+        "Аллергический ринит/конъюнктивит, крапивница, аллергический зуд",
+        "Лекарственная и пищевая аллергия, реакции на укусы насекомых",
+        "Атопический дерматит, экзема, аллергические дерматозы (вспомогательно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к мебгидролину",
+        "Обострение язвы ЖКТ (раздражающее действие)",
+        "Закрытоугольная глаукома, гиперплазия простаты/задержка мочи, пилородуоденальная обструкция",
+        "Нарушения сердечного ритма; беременность и лактация (осторожно)"
+      ],
+      nojoya: {
+        "Нервная система": "Сонливость (мало), утомляемость, головокружение; у детей — возбуждение, парестезии",
+        "Пищеварительная система": "Эпигастральный дискомфорт, тошнота, сухость во рту (раздражение слизистой)",
+        "Антихолинергические": "Задержка мочи, нечёткость зрения (редко)",
+        "Кровь": "Гранулоцитопения, агранулоцитоз (при длительном приёме — редко)"
+      },
+      dozadan: "Симптомы: угнетение ЦНС или возбуждение, антихолинергические признаки. Лечение: симптоматически, активированный уголь.",
+      ozarotasir: [
+        "Алкоголь, седативно-снотворные, депрессанты ЦНС: усиливают седацию",
+        "С другими антихолинергическими действие суммируется"
+      ],
+      qollash: {
+        kattalar: "Внутрь после еды: 100 мг×1–2/сут (максимум 300 мг/сут).",
+        bolalar: "По возрасту: 2–5 лет 50–100 мг/сут; 5–10 лет 100–200 мг/сут, дробно."
+      },
+      chiqarish: "Таблетки/драже 50, 100 мг"
+    },
+    en: {
+      gruppa: "Antihistamines — first-generation H1-receptor blocker (mebhydrolin)",
+      farmTasir: "Antiallergic (first-generation with relatively low sedation)",
+      farmakodinamika: `Mebhydrolin (diazolin) is a first-generation H1-blocker of the carboline group. By blocking peripheral H1-receptors it reduces histamine's allergic effects (itching, oedema, capillary permeability, smooth muscle spasm). Unlike other first-generation drugs its sedative and anticholinergic action is relatively small — making it suitable for daytime use too. The effect begins within a few hours.`,
+      farmakokinetika: {
+        sorish: "Absorbed orally; effect in ~30 min, may last 1–2 days.",
+        tarqalish: "Distributes to tissues.",
+        metabolizm: "Metabolised in the liver.",
+        chiqarilish: "Mainly renal."
+      },
+      korsatmalar: [
+        "Allergic rhinitis/conjunctivitis, urticaria, allergic pruritus",
+        "Drug and food allergy, insect-bite reactions",
+        "Atopic dermatitis, eczema, allergic dermatoses (adjunct)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to mebhydrolin",
+        "Active GI ulcer (irritant action)",
+        "Narrow-angle glaucoma, prostatic hyperplasia/urinary retention, pyloroduodenal obstruction",
+        "Cardiac rhythm disorders; pregnancy and lactation (caution)"
+      ],
+      nojoya: {
+        "Nervous system": "Drowsiness (little), fatigue, dizziness; in children — excitation, paraesthesia",
+        "Digestive system": "Epigastric discomfort, nausea, dry mouth (mucosal irritation)",
+        "Anticholinergic": "Urinary retention, blurred vision (rare)",
+        "Blood": "Granulocytopenia, agranulocytosis (with prolonged use — rare)"
+      },
+      dozadan: "Symptoms: CNS depression or excitation, anticholinergic signs. Treatment: symptomatic, activated charcoal.",
+      ozarotasir: [
+        "Alcohol, sedative-hypnotics, CNS depressants: enhance sedation",
+        "With other anticholinergics the effect is additive"
+      ],
+      qollash: {
+        kattalar: "Orally after food: 100 mg×1–2/day (maximum 300 mg/day).",
+        bolalar: "By age: 2–5 years 50–100 mg/day; 5–10 years 100–200 mg/day, in divided doses."
+      },
+      chiqarish: "Tablets/dragées 50, 100 mg"
+    }
+  },
+
+  // ── NATRIY KROMOGLIKAT | ATX: R03BC01 ──
+  "R03BC01": {
+    uz: {
+      gruppa: "Nafas yo'llari preparatlari — mast hujayra membrana stabilizatori (kromoglikat)",
+      farmTasir: "Allergik yallig'lanish profilaktikasi (membrana stabilizatori)",
+      farmakodinamika: `Natriy kromoglikat (kromolin) — mast hujayralari membranasini barqarorlashtiruvchi antiallergik vosita. Mast hujayralarига kaltsiy kirishini bloklab ulardan gistamin, leykotrienlar va boshqa allergik mediatorlar ajralishini (degranulyatsiya) to'xtatadi — allergen ta'siriga javoban rivojlanadigan bronxospazm, shilliq qavat shishi va yallig'lanishni oldini oladi. Bronxospazmni darhol bartaraf etmaydi — bu faqat profilaktik (bazis) vosita; samara muntazam qo'llashда haftalar davomida rivojlanadi. Ko'z, burun va o'pka shakllarida qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Ingalyatsiyada o'pkага tushgan qism mahalliy ta'sir qiladi; tizimli so'rilish juda past (~1%).",
+        tarqalish: "Mahalliy (shilliq qavat) ta'sir.",
+        metabolizm: "Deyarli metabolizatsiya bo'lmaydi.",
+        chiqarilish: "O'zgarmagan holda o't va siydik orqали."
+      },
+      korsatmalar: [
+        "Bronxial astma profilaktikasi (atopik, jismoniy yuk astmasi) — bazis",
+        "Allergik rinit (intranazal), allergik kon'yunktivit (ko'z tomchisi)",
+        "Mastotsitoz, oziq-ovqat allergiyasi (peroral shakl — alohida)"
+      ],
+      qarrshi: [
+        "Kromoglikatga o'ta sezgirlik",
+        "Astmaning o'tkir xuruji (yengillashtiruvchi vosita emas)",
+        "Homiladorlikning I trimestri (ehtiyot)",
+        "Og'ir buyrak/jigar yetishmovchiligi (ehtiyot)"
+      ],
+      nojoya: {
+        "Nafas / mahalliy": "Yo'tal, halqum ta'siri, qisqa muddatli bronxospazm (ingalyatsiyadan keyin), ovoz bo'g'ilishi",
+        "Burun (intranazal)": "Burunда achishish, aksirish, ta'm o'zgarishi",
+        "Ko'z": "Vaqtinchalik achishish, sanchish",
+        "Allergik": "Toshma, qichima (kamdan-kam)"
+      },
+      dozadan: "Yuqori xavfsizlik (mahalliy, past so'rilish); dozadan oshish belgilari kam. Davolash: simptomatik.",
+      ozarotasir: [
+        "Klinik ahamiyatli o'zaro ta'sir kam; astma bazis terapiyasi (IGKS) o'rnини bosmaydi",
+        "Bronxodilatatorlardan oldin qo'llasangiz ularning kirishini yaxshilaydi"
+      ],
+      qollash: {
+        kattalar: "Ingalyatsiya: 10 mg (2 purkash) ×4/kun, muntazam (profilaktik). Intranazal: har burun teshigiga 1 purkash ×4–6/kun. Ko'z tomchisi: 1–2 tomchi ×4/kun.",
+        bolalar: "Ingalyatsiya/intranazal/ko'z shakllarida yoshга qarab, shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "Dozali ingalyator 5 mg/doza; nebulayzer eritmasi 20 mg; intranazal sprey 2%; ko'z tomchilari 2%, 4%"
+    },
+    ru: {
+      gruppa: "Препараты дыхательных путей — стабилизатор мембран тучных клеток (кромогликат)",
+      farmTasir: "Профилактика аллергического воспаления (стабилизатор мембран)",
+      farmakodinamika: `Натрия кромогликат (кромолин) — противоаллергическое средство, стабилизирующее мембраны тучных клеток. Блокируя вход кальция в тучные клетки, тормозит выделение из них гистамина, лейкотриенов и других аллергических медиаторов (дегрануляцию) — предупреждает развивающиеся в ответ на аллерген бронхоспазм, отёк слизистой и воспаление. Не купирует бронхоспазм немедленно — только профилактическое (базисное) средство; эффект при регулярном применении развивается в течение недель. Применяется в формах для глаз, носа и лёгких.`,
+      farmakokinetika: {
+        sorish: "При ингаляции часть в лёгких действует местно; системное всасывание очень низкое (~1%).",
+        tarqalish: "Местное (слизистая) действие.",
+        metabolizm: "Почти не метаболизируется.",
+        chiqarilish: "В неизменённом виде с жёлчью и мочой."
+      },
+      korsatmalar: [
+        "Профилактика бронхиальной астмы (атопической, физического усилия) — базисно",
+        "Аллергический ринит (интраназально), аллергический конъюнктивит (глазные капли)",
+        "Мастоцитоз, пищевая аллергия (пероральная форма — отдельно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к кромогликату",
+        "Острый приступ астмы (не средство для облегчения)",
+        "I триместр беременности (осторожно)",
+        "Тяжёлая почечная/печёночная недостаточность (осторожно)"
+      ],
+      nojoya: {
+        "Дыхание / местные": "Кашель, раздражение глотки, кратковременный бронхоспазм (после ингаляции), осиплость голоса",
+        "Нос (интраназально)": "Жжение в носу, чихание, изменение вкуса",
+        "Глаза": "Временное жжение, покалывание",
+        "Аллергия": "Сыпь, зуд (редко)"
+      },
+      dozadan: "Высокая безопасность (местно, низкое всасывание); признаки передозировки редки. Лечение: симптоматически.",
+      ozarotasir: [
+        "Клинически значимых взаимодействий мало; не заменяет базисную терапию астмы (ИГКС)",
+        "Применение перед бронходилататорами улучшает их проникновение"
+      ],
+      qollash: {
+        kattalar: "Ингаляция: 10 мг (2 впрыска) ×4/сут регулярно (профилактически). Интраназально: по 1 впрыску в каждый носовой ход ×4–6/сут. Глазные капли: 1–2 капли ×4/сут.",
+        bolalar: "В ингаляционной/интраназальной/глазной формах по возрасту, по назначению врача."
+      },
+      chiqarish: "Дозированный ингалятор 5 мг/доза; раствор для небулайзера 20 мг; интраназальный спрей 2%; глазные капли 2%, 4%"
+    },
+    en: {
+      gruppa: "Respiratory agents — mast cell membrane stabiliser (cromoglicate)",
+      farmTasir: "Prevention of allergic inflammation (membrane stabiliser)",
+      farmakodinamika: `Sodium cromoglicate (cromolyn) is an antiallergic agent that stabilises mast cell membranes. By blocking calcium entry into mast cells it inhibits release of histamine, leukotrienes and other allergic mediators (degranulation) — preventing the bronchospasm, mucosal swelling and inflammation that develop in response to an allergen. It does not abort bronchospasm immediately — it is only a preventive (controller) agent; with regular use the effect develops over weeks. It is used in eye, nose and lung forms.`,
+      farmakokinetika: {
+        sorish: "On inhalation the lung-deposited part acts locally; systemic absorption is very low (~1%).",
+        tarqalish: "Local (mucosal) action.",
+        metabolizm: "Almost unmetabolised.",
+        chiqarilish: "Unchanged in bile and urine."
+      },
+      korsatmalar: [
+        "Prophylaxis of bronchial asthma (atopic, exercise-induced) — controller",
+        "Allergic rhinitis (intranasal), allergic conjunctivitis (eye drops)",
+        "Mastocytosis, food allergy (oral form — separate)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to cromoglicate",
+        "Acute asthma attack (not a reliever)",
+        "First trimester of pregnancy (caution)",
+        "Severe renal/hepatic failure (caution)"
+      ],
+      nojoya: {
+        "Respiratory / local": "Cough, throat irritation, brief bronchospasm (after inhalation), hoarseness",
+        "Nose (intranasal)": "Nasal burning, sneezing, taste change",
+        "Eyes": "Transient burning, stinging",
+        "Allergy": "Rash, pruritus (rare)"
+      },
+      dozadan: "High safety (local, low absorption); overdose signs are rare. Treatment: symptomatic.",
+      ozarotasir: [
+        "Clinically significant interactions are few; does not replace asthma controller therapy (ICS)",
+        "Use before bronchodilators improves their penetration"
+      ],
+      qollash: {
+        kattalar: "Inhalation: 10 mg (2 puffs) ×4/day regularly (preventive). Intranasal: 1 spray per nostril ×4–6/day. Eye drops: 1–2 drops ×4/day.",
+        bolalar: "In inhaled/intranasal/ocular forms by age, as prescribed."
+      },
+      chiqarish: "Metered-dose inhaler 5 mg/dose; nebuliser solution 20 mg; intranasal spray 2%; eye drops 2%, 4%"
+    }
+  },
+
+  // ── TOMOQ ANTISEPTIKLARI (kombinatsiyalangan pastilllar) | ATX: R02AA20 ──
+  "R02AA20": {
+    uz: {
+      gruppa: "Tomoq preparatlari — mahalliy antiseptik/anestetik (kombinatsiyalangan pastil)",
+      farmTasir: "Tomoqдаги mahalliy antiseptik, og'riq qoldiruvchi va yallig'lanishga qarshi",
+      farmakodinamika: `Tomoq pastilllari/spreylari — og'iz-halqum shilliq qavatiga mahalliy ta'sir qiluvchi kombinatsiyalangan preparatlar. Tarkibida antiseptiklar (xlorgeksidin, amilmetakrezol, 2,4-dixlorbenzil spirti, setilpiridiniy, gramitsidin), mahalliy anestetiklar (benzokain, lidokain, tetrakain) va yumshatuvchi/yallig'lanishga qarshi komponentlar (enoksolon, askorbin kislota, asal) bo'lishi mumkin. Antiseptiklar bakteriya va zamburug' hujayra membranasini buzib mahalliy infeksiyani kamaytiradi; anestetiklar tomoq og'rig'ini vaqtinchalik bartaraf etadi; yumshatuvchilar qichima va yallig'lanishni susaytiradi. Faqat mahalliy ta'sir — tizimli so'rilish minimal.`,
+      farmakokinetika: {
+        sorish: "Mahalliy (og'iz-halqum shilliq qavati); tizimli so'rilish juda past.",
+        tarqalish: "Og'iz-halqum sohasida.",
+        metabolizm: "Mahalliy; so'rilgan oz qism jigarда.",
+        chiqarilish: "So'rilgan qism siydik orqали."
+      },
+      korsatmalar: [
+        "Tomoq og'rig'i va og'iz-halqum yallig'lanishi: faringit, tonzillit, laringit (yengil-o'rta)",
+        "Stomatit, gingivit, og'iz shilliq qavati yallig'lanishi",
+        "Ovoz boylamlari zo'riqishi, quruq tomoqда yumshatish"
+      ],
+      qarrshi: [
+        "Komponentlarига o'ta sezgirlik",
+        "Og'iz-halqumда ochiq yara/eroziya (anestetik ta'sir — ehtiyot)",
+        "Kichik bolalar (yutib yuborish, laringospazm xavfi — pastil/sprey shaklга qarab)",
+        "Fenilketonuriya (aspartam saqlovchi shakllar)"
+      ],
+      nojoya: {
+        "Mahalliy": "Og'iz-halqumда achishish, uvishish, ta'm o'zgarishi, tilning vaqtinchalik bo'yalishi; uzoq qo'llашда — shilliq qavat ta'siri, til/tish rangining o'zgarishi (xlorgeksidin)",
+        "Allergik": "Toshma, qichima, kontakt dermatit; kamdan-kam — angionevrotik shish",
+        "Boshqa": "Yutib yuborilганда — ko'ngil aynishi, oshqozon noxushligi"
+      },
+      dozadan: "Mahalliy shaklда tizimli dozadan oshish kam. Ko'p yutilганда (ayniqsa bolalarда) anestetik/antiseptik ta'siri — ko'ngil aynishi, qusish; simptomatik davolash.",
+      ozarotasir: [
+        "Mahalliy qo'llашда klinik ahamiyatli o'zaro ta'sir kam",
+        "Xlorgeksidin anion saqlovchi tish pastalari bilan birga ta'sirini kamaytiradi (vaqtni ajrating)"
+      ],
+      qollash: {
+        kattalar: "Pastil: har 2–3 soatda 1 ta so'rilib (kuniga 6–8 tagacha). Sprey: 2–4 purkash har 2–3 soatда. Chayqash eritmasi: kuniga bir necha marta. Odatda 3–5 kundan oshmaslik.",
+        bolalar: "Pastil 6 yoshdan (yutmaslik nazorati); sprey/chayqash yoshга qarab, shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "So'riladigan pastilллar/tabletkalar; og'iz-halqum spreyi; chayqash eritmasi"
+    },
+    ru: {
+      gruppa: "Препараты для горла — местный антисептик/анестетик (комбинированные пастилки)",
+      farmTasir: "Местный антисептик, анальгетик и противовоспалительное для горла",
+      farmakodinamika: `Пастилки/спреи для горла — комбинированные препараты местного действия на слизистую рта и глотки. В состав могут входить антисептики (хлоргексидин, амилметакрезол, 2,4-дихлорбензиловый спирт, цетилпиридиний, грамицидин), местные анестетики (бензокаин, лидокаин, тетракаин) и смягчающие/противовоспалительные компоненты (эноксолон, аскорбиновая кислота, мёд). Антисептики повреждают мембрану бактерий и грибов, уменьшая местную инфекцию; анестетики временно устраняют боль в горле; смягчающие уменьшают зуд и воспаление. Действие только местное — системное всасывание минимально.`,
+      farmakokinetika: {
+        sorish: "Местно (слизистая рта-глотки); системное всасывание очень низкое.",
+        tarqalish: "В области рта-глотки.",
+        metabolizm: "Местно; всосавшаяся малая часть в печени.",
+        chiqarilish: "Всосавшаяся часть с мочой."
+      },
+      korsatmalar: [
+        "Боль в горле и воспаление рта-глотки: фарингит, тонзиллит, ларингит (лёгкий-умеренный)",
+        "Стоматит, гингивит, воспаление слизистой рта",
+        "Перенапряжение голосовых связок, смягчение при сухости в горле"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к компонентам",
+        "Открытые раны/эрозии во рту-глотке (анестезирующее действие — осторожно)",
+        "Маленькие дети (риск проглатывания, ларингоспазма — по форме пастилки/спрея)",
+        "Фенилкетонурия (формы с аспартамом)"
+      ],
+      nojoya: {
+        "Местные": "Жжение, онемение во рту-глотке, изменение вкуса, временное окрашивание языка; при длительном применении — раздражение слизистой, окрашивание языка/зубов (хлоргексидин)",
+        "Аллергия": "Сыпь, зуд, контактный дерматит; редко — ангионевротический отёк",
+        "Прочее": "При проглатывании — тошнота, дискомфорт в желудке"
+      },
+      dozadan: "При местной форме превышение системной дозы маловероятно. При проглатывании большого количества (особенно у детей) — анестезирующее/антисептическое действие: тошнота, рвота; симптоматическое лечение.",
+      ozarotasir: [
+        "При местном применении клинически значимые взаимодействия редки",
+        "Хлоргексидин снижает действие с анионсодержащими зубными пастами (разнести по времени)"
+      ],
+      qollash: {
+        kattalar: "Пастилки: по 1 рассасывать каждые 2–3 ч (до 6–8 в сутки). Спрей: 2–4 впрыска каждые 2–3 ч. Раствор для полоскания: несколько раз в сутки. Обычно не более 3–5 дней.",
+        bolalar: "Пастилки с 6 лет (контроль непроглатывания); спрей/полоскание по возрасту, по назначению врача."
+      },
+      chiqarish: "Рассасываемые пастилки/таблетки; спрей для рта-глотки; раствор для полоскания"
+    },
+    en: {
+      gruppa: "Throat preparations — topical antiseptic/anaesthetic (combined lozenges)",
+      farmTasir: "Topical throat antiseptic, analgesic and anti-inflammatory",
+      farmakodinamika: `Throat lozenges/sprays are combined preparations acting locally on the oral and pharyngeal mucosa. They may contain antiseptics (chlorhexidine, amylmetacresol, 2,4-dichlorobenzyl alcohol, cetylpyridinium, gramicidin), local anaesthetics (benzocaine, lidocaine, tetracaine) and soothing/anti-inflammatory components (enoxolone, ascorbic acid, honey). The antiseptics damage the membrane of bacteria and fungi, reducing local infection; the anaesthetics temporarily relieve sore throat; the soothers reduce itching and inflammation. The action is purely local — systemic absorption is minimal.`,
+      farmakokinetika: {
+        sorish: "Local (oral-pharyngeal mucosa); systemic absorption very low.",
+        tarqalish: "In the oral-pharyngeal area.",
+        metabolizm: "Local; the small absorbed part in the liver.",
+        chiqarilish: "The absorbed part renally."
+      },
+      korsatmalar: [
+        "Sore throat and oral-pharyngeal inflammation: pharyngitis, tonsillitis, laryngitis (mild-moderate)",
+        "Stomatitis, gingivitis, oral mucosal inflammation",
+        "Vocal cord strain, soothing of a dry throat"
+      ],
+      qarrshi: [
+        "Hypersensitivity to the components",
+        "Open wounds/erosions in the mouth-throat (anaesthetic action — caution)",
+        "Young children (swallowing, laryngospasm risk — depending on the lozenge/spray form)",
+        "Phenylketonuria (aspartame-containing forms)"
+      ],
+      nojoya: {
+        "Local": "Burning, numbness in the mouth-throat, taste change, temporary tongue discolouration; with prolonged use — mucosal irritation, tongue/tooth staining (chlorhexidine)",
+        "Allergy": "Rash, pruritus, contact dermatitis; rarely angioedema",
+        "Other": "If swallowed — nausea, gastric discomfort"
+      },
+      dozadan: "With the local form exceeding the systemic dose is unlikely. If a large amount is swallowed (especially by children) — anaesthetic/antiseptic effects: nausea, vomiting; symptomatic treatment.",
+      ozarotasir: [
+        "With topical use clinically significant interactions are rare",
+        "Chlorhexidine has reduced effect with anionic toothpastes (separate the timing)"
+      ],
+      qollash: {
+        kattalar: "Lozenges: dissolve 1 every 2–3 h (up to 6–8/day). Spray: 2–4 sprays every 2–3 h. Rinse solution: several times a day. Usually no more than 3–5 days.",
+        bolalar: "Lozenges from 6 years (supervise to prevent swallowing); spray/rinse by age, as prescribed."
+      },
+      chiqarish: "Lozenges/tablets to dissolve; mouth-throat spray; rinse solution"
+    }
+  },
+
+  // ── O'SIMLIK EKSPEKTORANTLARI | ATX: R05CA ──
+  "R05CA": {
+    uz: {
+      gruppa: "Yo'talga qarshi va ekspektorant vositalar — o'simlik ekspektorantlari",
+      farmTasir: "Balg'amni ko'chiruvchi (o'simlik asosli ekspektorant)",
+      farmakodinamika: `O'simlik ekspektorantlari (gulxayri/althaea, qizilmiya/glycyrrhiza, pechak/ivy bargi, kakra/thyme va boshqalar) — balg'amni ko'chirishni osonlashtiruvchi tabiiy vositalar. Tarkibidagi saponinlar va boshqa faol moddalar oshqozon shilliq qavatini yengil qitiqlab refleks tarzda bronx bezlari sekretsiyasini oshiradi (sekretomotor ta'sir), balg'amni suyultiradi (saponinli mukolitik ta'sir) va kiprikchali epiteliy faolligini kuchaytiradi — balg'am osonroq ko'chadi. Gulxayri va qizilmiya o'rab oluvchi-yumshatuvchi (yallig'langan shilliq qavatni himoya qiluvchi) ta'sirga ham ega. Pechak bargi ekstrakti yengil bronxospazmolitik ta'sir ko'rsatadi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали; faol komponentlar ichakdan so'riladi va refleks/rezorbtiv ta'sir qiladi.",
+        tarqalish: "Bronx shilliq qavatiga ta'sir.",
+        metabolizm: "Jigarда.",
+        chiqarilish: "Asosан siydik va najas orqали."
+      },
+      korsatmalar: [
+        "O'tkir va surункали bronxit, traxeit, laringit — qiyin ko'chadigan balg'am bilan yo'tal",
+        "Yuqori nafas yo'llari kasalliklari (shamollash, faringit) — yo'talни yumshatish",
+        "Bolalar va kattalarда yengil-o'rta ho'l yo'tal (balg'amли)"
+      ],
+      qarrshi: [
+        "O'simlik komponentlarига o'ta sezgirlik",
+        "Oshqozon-ichak yarasi qo'zg'alishi (saponinli qitiqlovchi ta'sir)",
+        "Qandli diabet (sirop tarkibidagi shakar — shakarsiz shakl tanlanadi)",
+        "Qizilmiya: uzoq/yuqori dozada arterial gipertenziya, gipokaliemiya, shish (mineralokortikoidsimon ta'sir) — gipertenziya/yurak kasalligida ehtiyot; homiladorlik"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ko'ngil aynishi, qusish (yuqori dozada — saponin ta'siri), diareya, epigastral noxushlik",
+        "Allergik / teri": "Toshma, qichima, eshakemi (o'simlikка allergiya)",
+        "Qizilmiya (uzoq qabулда)": "AB oshishi, suyuqlik tutilishi, gipokaliemiya"
+      },
+      dozadan: "Yuqori dozada ko'ngil aynishi, qusish (saponin). Qizilmiyani uzoq/yuqori dozada — gipokaliemiya, gipertenziya. Davolash: simptomatik, dozani kamaytirish, elektrolit nazorati.",
+      ozarotasir: [
+        "Antitussiv (yo'talни bostiruvchi) bilan birga ishlatish mantiqsiz (balg'am ko'chmay qoladi)",
+        "Qizilmiya: yurak glikozidlari, diuretiklar va kortikosteroidlar bilan gipokaliemiyani kuchaytiradi"
+      ],
+      qollash: {
+        kattalar: "Sirop/eritma: tayyorlanma ko'rsatmasiga qarab kuniga 3–4 marta. Yetarli iliq suyuqlik ichish balg'am ko'chishini yaxshilaydi.",
+        bolalar: "Yoshга qarab past dozada (sirop); ivy/thyme shakllari ko'pincha 1–2 yoshdan, qizilmiya kichik bolalarда ehtiyot bilan."
+      },
+      chiqarish: "Sirop, eliksir, ichish eritmasi, tomchilar; quruq ekstrakt tabletkalari (gulxayri, qizilmiya, pechak bargi, kakra)"
+    },
+    ru: {
+      gruppa: "Противокашлевые и отхаркивающие средства — растительные отхаркивающие",
+      farmTasir: "Облегчающие отхождение мокроты (растительные отхаркивающие)",
+      farmakodinamika: `Растительные отхаркивающие (алтей, солодка, плющ, тимьян и др.) — природные средства, облегчающие отхождение мокроты. Содержащиеся сапонины и другие активные вещества слегка раздражают слизистую желудка и рефлекторно повышают секрецию бронхиальных желёз (секретомоторное действие), разжижают мокроту (сапониновое муколитическое действие) и усиливают активность реснитчатого эпителия — мокрота легче отходит. Алтей и солодка обладают также обволакивающе-смягчающим (защищающим воспалённую слизистую) действием. Экстракт листьев плюща оказывает лёгкое бронхоспазмолитическое действие.`,
+      farmakokinetika: {
+        sorish: "Внутрь; активные компоненты всасываются из кишечника и оказывают рефлекторное/резорбтивное действие.",
+        tarqalish: "Действие на слизистую бронхов.",
+        metabolizm: "В печени.",
+        chiqarilish: "Преимущественно с мочой и калом."
+      },
+      korsatmalar: [
+        "Острый и хронический бронхит, трахеит, ларингит — кашель с трудноотделяемой мокротой",
+        "Заболевания верхних дыхательных путей (простуда, фарингит) — смягчение кашля",
+        "Лёгкий-умеренный влажный кашель у детей и взрослых"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к растительным компонентам",
+        "Обострение язвы ЖКТ (раздражающее сапониновое действие)",
+        "Сахарный диабет (сахар в сиропе — выбрать форму без сахара)",
+        "Солодка: при длительном/высоком приёме артериальная гипертензия, гипокалиемия, отёки (минералокортикоидоподобное действие) — осторожно при гипертензии/болезнях сердца; беременность"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Тошнота, рвота (при высокой дозе — действие сапонинов), диарея, эпигастральный дискомфорт",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница (аллергия на растения)",
+        "Солодка (при длительном приёме)": "Повышение АД, задержка жидкости, гипокалиемия"
+      },
+      dozadan: "При высокой дозе тошнота, рвота (сапонины). Солодка при длительном/высоком приёме — гипокалиемия, гипертензия. Лечение: симптоматически, снизить дозу, контроль электролитов.",
+      ozarotasir: [
+        "Сочетать с противокашлевыми (подавляющими кашель) нелогично (мокрота застаивается)",
+        "Солодка: усиливает гипокалиемию с сердечными гликозидами, диуретиками и кортикостероидами"
+      ],
+      qollash: {
+        kattalar: "Сироп/раствор: по инструкции препарата 3–4 раза в сутки. Достаточное тёплое питьё улучшает отхождение мокроты.",
+        bolalar: "По возрасту в низкой дозе (сироп); формы плюща/тимьяна часто с 1–2 лет, солодка у маленьких детей с осторожностью."
+      },
+      chiqarish: "Сироп, эликсир, раствор для приёма внутрь, капли; таблетки сухого экстракта (алтей, солодка, лист плюща, тимьян)"
+    },
+    en: {
+      gruppa: "Cough and expectorant agents — herbal expectorants",
+      farmTasir: "Ease sputum clearance (herbal expectorants)",
+      farmakodinamika: `Herbal expectorants (marshmallow/althaea, liquorice/glycyrrhiza, ivy leaf, thyme and others) are natural agents that ease sputum clearance. Their saponins and other active substances mildly irritate the gastric mucosa and reflexly increase bronchial gland secretion (secretomotor action), thin the sputum (saponin mucolytic action) and enhance ciliary epithelial activity — so sputum clears more easily. Marshmallow and liquorice also have a demulcent-soothing (protecting inflamed mucosa) action. Ivy leaf extract has mild bronchospasmolytic action.`,
+      farmakokinetika: {
+        sorish: "Orally; active components are absorbed from the gut and act reflexly/resorptively.",
+        tarqalish: "Action on the bronchial mucosa.",
+        metabolizm: "Hepatic.",
+        chiqarilish: "Mainly renal and faecal."
+      },
+      korsatmalar: [
+        "Acute and chronic bronchitis, tracheitis, laryngitis — cough with sputum that is hard to clear",
+        "Upper respiratory tract disease (cold, pharyngitis) — soothing the cough",
+        "Mild-moderate productive cough in children and adults"
+      ],
+      qarrshi: [
+        "Hypersensitivity to the herbal components",
+        "Active GI ulcer (irritant saponin action)",
+        "Diabetes mellitus (sugar in the syrup — choose a sugar-free form)",
+        "Liquorice: with prolonged/high intake arterial hypertension, hypokalaemia, oedema (mineralocorticoid-like action) — caution in hypertension/heart disease; pregnancy"
+      ],
+      nojoya: {
+        "Digestive system": "Nausea, vomiting (at high dose — saponin effect), diarrhoea, epigastric discomfort",
+        "Allergy / skin": "Rash, pruritus, urticaria (plant allergy)",
+        "Liquorice (with prolonged use)": "Raised BP, fluid retention, hypokalaemia"
+      },
+      dozadan: "At high dose nausea, vomiting (saponins). Liquorice with prolonged/high intake — hypokalaemia, hypertension. Treatment: symptomatic, reduce dose, electrolyte monitoring.",
+      ozarotasir: [
+        "Combining with antitussives (cough suppressants) is illogical (sputum stagnates)",
+        "Liquorice: worsens hypokalaemia with cardiac glycosides, diuretics and corticosteroids"
+      ],
+      qollash: {
+        kattalar: "Syrup/solution: per the product instructions 3–4 times a day. Adequate warm fluid intake improves sputum clearance.",
+        bolalar: "By age at a low dose (syrup); ivy/thyme forms often from 1–2 years, liquorice with caution in young children."
+      },
+      chiqarish: "Syrup, elixir, oral solution, drops; dry-extract tablets (marshmallow, liquorice, ivy leaf, thyme)"
+    }
   }
 
 };
@@ -50477,3 +51436,95 @@ PHARMA_DATA["P02CA01"]          = PHARMA_DATA["P02CA01"];  // karbendazim → me
 PHARMA_DATA["P02"]              = PHARMA_DATA["P02CA03"];  // albendazol/ivermektin kombinatsiyalari → albendazol
 PHARMA_DATA["P03AA"]            = PHARMA_DATA["P03AX01"];  // oltingugurt (qo'tirga qarshi) → benzilbenzoat (skabitsid)
 PHARMA_DATA["PA"]               = PHARMA_DATA["P02CA03"];  // antiparazitar kombinatsiya → albendazol
+
+// ── NAFAS TIZIMI (R) kombinatsiya/dublikat/typo/topik kodlari ──
+PHARMA_DATA["R01A"]             = PHARMA_DATA["R01AA08"];  // nafazolin + xlorfeniramin → nafazolin
+PHARMA_DATA["R01AA04"]          = PHARMA_DATA["R01AA07"];  // fenilefrin (burun) → dekongestant
+PHARMA_DATA["R01AB01"]          = PHARMA_DATA["R01AA07"];  // fenilefrin + dimetinden → dekongestant
+PHARMA_DATA["R01AB06"]          = PHARMA_DATA["R01AA07"];  // ksilometazolin + dekspantenol → ksilometazolin
+PHARMA_DATA["R01AB08"]          = PHARMA_DATA["R01AA07"];  // atsetilsistein + tuaminoheptan (burun) → dekongestant
+PHARMA_DATA["R01AD"]            = PHARMA_DATA["R01AD09"];  // mometazon + azelastin → mometazon
+PHARMA_DATA["R01AD01"]          = PHARMA_DATA["R03BA01"];  // beklometazon (burun) → beklometazon
+PHARMA_DATA["R01AD08"]          = PHARMA_DATA["R03BA05"];  // flutikazon (burun) → flutikazon
+PHARMA_DATA["R01AD10"]          = PHARMA_DATA["R01AD09"];  // mometazon (burun) → mometazon
+PHARMA_DATA["R01AD12"]          = PHARMA_DATA["R03BA05"];  // flutikazon furoat → flutikazon
+PHARMA_DATA["R01AD53"]          = PHARMA_DATA["R01AD09"];  // neomitsin+polimiksin+deksametazon+fenilefrin → intranazal kortikosteroid
+PHARMA_DATA["R01AD58"]          = PHARMA_DATA["R03BA05"];  // flutikazon + oksimetazolin → flutikazon
+PHARMA_DATA["R01AX08"]          = PHARMA_DATA["R01AA07"];  // framitsetin (burun antibiotik) → burun preparati
+PHARMA_DATA["R01AX10"]          = PHARMA_DATA["R01AA07"];  // natriy xlorid (fiziologik, burun) → burun preparati
+PHARMA_DATA["R01AX30"]          = PHARMA_DATA["R01AA07"];  // mentol/kamfora burun aralashmasi → dekongestant
+PHARMA_DATA["R01BA53"]          = PHARMA_DATA["R01AA07"];  // fenilefrin+difengidramin+xlorfenamin → dekongestant
+
+PHARMA_DATA["R02"]              = PHARMA_DATA["R02AA20"];  // tomoq antiseptik kombinatsiyasi
+PHARMA_DATA["R02A"]             = PHARMA_DATA["R02AA20"];  // dekvalin + tsinxokain → tomoq antiseptik
+PHARMA_DATA["R02AA"]            = PHARMA_DATA["R02AA20"];  // propolis/askorbin (tomoq) → tomoq antiseptik
+PHARMA_DATA["R02AA02"]          = PHARMA_DATA["R02AA20"];  // amilmetakrezol + dixlorbenzil spirti → tomoq antiseptik
+PHARMA_DATA["R02AA03"]          = PHARMA_DATA["R02AA20"];  // tomoq antiseptik
+PHARMA_DATA["R02AA06"]          = PHARMA_DATA["R02AA20"];  // setilpiridiniy xlorid → tomoq antiseptik
+PHARMA_DATA["R02AB30"]          = PHARMA_DATA["R02AA20"];  // gramitsidin + setilpiridiniy → tomoq antiseptik
+PHARMA_DATA["R02AH20"]          = PHARMA_DATA["R02AA20"];  // o'simlik tomoq preparati → tomoq antiseptik
+PHARMA_DATA["R02AP30"]          = PHARMA_DATA["R02AA20"];  // o'simlik tomoq preparati → tomoq antiseptik
+PHARMA_DATA["R02AX"]            = PHARMA_DATA["R02AA20"];  // amilmetakrezol kombinatsiyasi → tomoq antiseptik
+PHARMA_DATA["R02AX01"]          = PHARMA_DATA["M01AE09"];  // flurbiprofen (tomoq pastili) → flurbiprofen
+PHARMA_DATA["R02AX03"]          = PHARMA_DATA["M01AX07"];  // benzidamin (tomoq) → benzidamin
+
+PHARMA_DATA["R03AK06"]          = PHARMA_DATA["R03BA05"];  // salmeterol + flutikazon → flutikazon
+PHARMA_DATA["R03AK07"]          = PHARMA_DATA["R03AC13"];  // budesonid + formoterol → formoterol
+PHARMA_DATA["R03AK08"]          = PHARMA_DATA["R03AC13"];  // beklometazon + formoterol → formoterol
+PHARMA_DATA["R03AК08"]          = PHARMA_DATA["R03AC13"];  // (kirill «К») budesonid + formoterol → formoterol
+PHARMA_DATA["R03AL01"]          = PHARMA_DATA["R03AC04"];  // fenoterol + ipratropiy → fenoterol
+PHARMA_DATA["R03AL05"]          = PHARMA_DATA["R03AC13"];  // aklidiniy + formoterol → formoterol
+PHARMA_DATA["R03BA03"]          = PHARMA_DATA["R03BA02"];  // budesonid → budesonid
+PHARMA_DATA["R03BC53"]          = PHARMA_DATA["R03DC03"];  // montelukast + levosetirizin → montelukast
+PHARMA_DATA["R03CC02"]          = PHARMA_DATA["R03AC02"];  // salbutamol (peroral) → salbutamol
+PHARMA_DATA["R03CC53"]          = PHARMA_DATA["R03AC02"];  // terbutalin + gvayfenezin → beta2-agonist
+PHARMA_DATA["R03CK"]            = PHARMA_DATA["R03AC02"];  // salbutamol+bromgeksin+gvayfenezin → salbutamol
+PHARMA_DATA["R03CК"]            = PHARMA_DATA["R03AC02"];  // (kirill «К») salbutamol kombinatsiyasi → salbutamol
+PHARMA_DATA["R03DA04"]          = PHARMA_DATA["R03DA05"];  // teofillin → ksantin (aminofillin)
+PHARMA_DATA["R03DA11"]          = PHARMA_DATA["R03DA05"];  // doksofillin → ksantin (aminofillin)
+PHARMA_DATA["R03DC53"]          = PHARMA_DATA["R03DC03"];  // levosetirizin + montelukast → montelukast
+PHARMA_DATA["R03DC03; R06AE09"] = PHARMA_DATA["R03DC03"];  // montelukast + levosetirizin (qo'sh kod) → montelukast
+
+PHARMA_DATA["R05"]              = PHARMA_DATA["R05CB06"];  // (bo'sh) → ambroksol
+PHARMA_DATA["R05C"]             = PHARMA_DATA["R05CB02"];  // bromgeksin+terbutalin+gvayfenezin → bromgeksin
+PHARMA_DATA["R05CA05"]          = PHARMA_DATA["R05CA"];    // gulxayri → o'simlik ekspektorant
+PHARMA_DATA["R05CA10"]          = PHARMA_DATA["R05CA"];    // kakra/serpillum → o'simlik ekspektorant
+PHARMA_DATA["R05CA12"]          = PHARMA_DATA["R05CA"];    // pechak bargi ekstrakti → o'simlik ekspektorant
+PHARMA_DATA["R05CA50"]          = PHARMA_DATA["R05CA"];    // terbutalin+bromgeksin+gvayfenezin+mentol → ekspektorant
+PHARMA_DATA["R05CB10"]          = PHARMA_DATA["R05CB06"];  // ambroksol + setirizin → ambroksol
+PHARMA_DATA["R05CB15"]          = PHARMA_DATA["R05CB06"];  // erdostein → mukolitik (ambroksol)
+PHARMA_DATA["R05CB16"]          = PHARMA_DATA["R05CB06"];  // mannitol (ingalyatsion mukoaktiv) → mukolitik
+PHARMA_DATA["R05D"]             = PHARMA_DATA["R05DA09"];  // aminofenazon + efedrin → antitussiv
+PHARMA_DATA["R05DA20"]          = PHARMA_DATA["R05DA09"];  // dekstrometorfan + xlorfeniramin → dekstrometorfan
+PHARMA_DATA["R05DB"]            = PHARMA_DATA["R05DB13"];  // antitelo kombinatsiyasi (yo'tal) → butamirat
+PHARMA_DATA["R05DB18"]          = PHARMA_DATA["R05DB13"];  // prenoksdiazin → antitussiv
+PHARMA_DATA["R05DB20"]          = PHARMA_DATA["R05DB13"];  // glausin + efedrin → antitussiv
+PHARMA_DATA["R05DB21"]          = PHARMA_DATA["R05DB13"];  // kloperastin → antitussiv
+PHARMA_DATA["R05DB27"]          = PHARMA_DATA["R05DB13"];  // levodropropizin → antitussiv
+PHARMA_DATA["R05F"]             = PHARMA_DATA["R05DB13"];  // gvayfenezin + dekstrometorfan → antitussiv
+PHARMA_DATA["R05FB02"]          = PHARMA_DATA["R05DB13"];  // butamirat + gvayfenezin → butamirat
+PHARMA_DATA["R05X"]             = PHARMA_DATA["R05CB06"];  // shamollash o'simlik kombinatsiyasi → ekspektorant
+PHARMA_DATA["RO5X"]             = PHARMA_DATA["R05CB06"];  // (kirill «O») o'simlik kombinatsiyasi → ekspektorant
+PHARMA_DATA["R05XA01"]          = PHARMA_DATA["R05CB06"];  // shamollash kombinatsiyasi → ekspektorant guruhi
+
+PHARMA_DATA["R06AA04"]          = PHARMA_DATA["R06AA02"];  // klemastin → I avlod (difengidramin)
+PHARMA_DATA["R06AA09"]          = PHARMA_DATA["R06AA02"];  // doksilamin → I avlod (difengidramin)
+PHARMA_DATA["R06AA52"]          = PHARMA_DATA["R06AA02"];  // difengidramin + ammoniy xlorid → difengidramin
+PHARMA_DATA["R06AA59"]          = PHARMA_DATA["R06AA02"];  // doksilamin + piridoksin → difengidramin
+PHARMA_DATA["R06AD01"]          = PHARMA_DATA["R06AC03"];  // alimemazin → I avlod (xloropiramin)
+PHARMA_DATA["R06AE"]            = PHARMA_DATA["R06AE09"];  // levosetirizin
+PHARMA_DATA["R06AK"]            = PHARMA_DATA["R06AE09"];  // montelukast + levosetirizin → levosetirizin
+PHARMA_DATA["R06AК"]            = PHARMA_DATA["R06AE09"];  // (kirill «К») montelukast + levosetirizin → levosetirizin
+PHARMA_DATA["R06AX"]            = PHARMA_DATA["R06AX27"];  // desloratadin
+PHARMA_DATA["R06AX28"]          = PHARMA_DATA["R06AX27"];  // rupatadin → II avlod (desloratadin)
+PHARMA_DATA["R06AX31"]          = PHARMA_DATA["R06AC03"];  // kvifenadin → I avlod antigistamin
+PHARMA_DATA["R06C03"]           = PHARMA_DATA["R06AC03"];  // xloropiramin (kod xato)
+PHARMA_DATA["R06D"]             = PHARMA_DATA["R06AC03"];  // kvifenadin (kod xato) → I avlod
+PHARMA_DATA["R06FT09"]          = PHARMA_DATA["R06AE09"];  // levosetirizin (kod xato)
+
+PHARMA_DATA["R07A"]             = PHARMA_DATA["R05CB06"];  // surfaktant/aralashma → nafas mukoaktiv (ambroksol)
+PHARMA_DATA["R07AA"]            = PHARMA_DATA["R05CB06"];  // surfaktant → ambroksol (surfaktant stimulyatori)
+PHARMA_DATA["R07AA02"]          = PHARMA_DATA["R05CB06"];  // qoramol surfaktanti → ambroksol
+PHARMA_DATA["R07AB"]            = PHARMA_DATA["R03DA05"];  // ammiak eritmasi (nafas qo'zg'atuvchi) → aminofillin
+PHARMA_DATA["R07AB02"]          = PHARMA_DATA["R03DA05"];  // niketamid (nafas qo'zg'atuvchi) → aminofillin
+PHARMA_DATA["R07AX"]            = PHARMA_DATA["R05CB06"];  // o'simlik nafas kombinatsiyasi → ekspektorant
