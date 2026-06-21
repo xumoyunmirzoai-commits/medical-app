@@ -42338,6 +42338,600 @@ const PHARMA_DATA = {
       },
       chiqarish: "Combined solution for i/m injection (phenylbutazone + dexamethasone + cyanocobalamin + lidocaine) in ampoules"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // Batch 5 — Xondroprotektorlar va to'qima regeneratsiyasi
+  // ═══════════════════════════════════════════════════════════
+
+  // ── GLYUKOZAMIN | ATX: M01AX05 ──
+  "M01AX05": {
+    uz: {
+      gruppa: "Tog'ay almashinuvini tuzatuvchi vositalar — xondroprotektor (glyukozamin)",
+      farmTasir: "Tog'ay regeneratsiyasini rag'batlantiruvchi, sekin ta'sirli yallig'lanishga qarshi",
+      farmakodinamika: `Glyukozamin (sulfat yoki gidroxlorid) — tog'ay matritsasining tabiiy aminomonosaxaridi bo'lib, organizmda glikozaminoglikanlar va proteoglikanlar sintezi uchun substrat hisoblanadi. Tashqaridan kiritilganda xondrotsitlardagi proteoglikan va gialuron kislota sintezini rag'batlantiradi, tog'ayni parchalovchi fermentlar (metalloproteinazalar, kollagenaza, fosfolipaza A2) faolligini va superoksid radikallarini kamaytiradi. Yengil yallig'lanishga qarshi ta'sirga ega. Osteoartrozda tog'ay degeneratsiyasini sekinlashtiradigan «sekin ta'sirli» (SYSADOA) vosita sifatida qo'llaniladi — samarasi asta-sekin (haftalar davomida) namoyon bo'ladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi (sulfat shaklida biokirish ~25%, birinchi o'tish effekti). Cmax ~3–4 soatda.",
+        tarqalish: "Tog'ay to'qimasi, bo'g'im va parenximatoz organlarga tarqaladi; tog'ayда selektiv to'planadi.",
+        metabolizm: "Asosan jigarda; qisman kichik molekulalarga parchalanadi (CO2, suv, mochevina).",
+        chiqarilish: "Asosan siydik orqali, qisman najas bilan. T½ — ~15 soat."
+      },
+      korsatmalar: [
+        "Birlamchi va ikkilamchi osteoartroz (gonartroz, koksartroz va boshqalar)",
+        "Umurtqa pog'onasi osteoxondrozi",
+        "Bo'g'im tog'ayini degenerativ-distrofik shikastlanishida tog'ay almashinuvini qo'llab-quvvatlash"
+      ],
+      qarrshi: [
+        "Glyukozaminga o'ta sezgirlik",
+        "Fenilketonuriya (aspartam saqlovchi shakllar)",
+        "Og'ir buyrak yetishmovchiligi; homiladorlik va emizish (ma'lumot cheklangan)",
+        "Dengiz mahsulotlariga (qisqichbaqasimonlar) allergiya — ayrim shakllar uchun"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Epigastral og'riq, meteorizm, diareya yoki qabziyat, ko'ngil aynishi",
+        "Asab tizimi": "Bosh og'rig'i, charchoq, uyquchanlik",
+        "Allergik / teri": "Toshma, qichima, eshakemi (kamdan-kam)",
+        "Metabolik": "Qandli diabetda — glikemiyani nazorat qilish tavsiya etiladi (nazariy ta'sir)"
+      },
+      dozadan: "Yuqori xavfsizlik profili; dozadan oshish belgilari kam. Tasodifan ko'p qabulda — ko'ngil aynishi, diareya; simptomatik davolash.",
+      ozarotasir: [
+        "Tetratsiklinlar so'rilishini oshirishi mumkin; penitsillin va xloramfenikol so'rilishini kamaytirishi mumkin",
+        "Varfarin ta'sirini kuchaytirishi mumkin — INR nazorati tavsiya etiladi",
+        "NSAID bilan birga osteoartrozda samarani to'ldiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 1500 mg/kun bir martada yoki bo'lib, ovqat bilan; kurs kamida 4–6 hafta, odatda 2–3 oy, yiliga 2–3 marta takrorlanadi. I/m (sulfat eritmasi): haftada 3 marta, 4–6 hafta.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Poroshok eritma uchun 1500 mg/paket; tabletkalar/kapsulalar 500–750 mg; i/m in'eksiya eritmasi (eritma bilan)"
+    },
+    ru: {
+      gruppa: "Корректоры метаболизма хряща — хондропротектор (глюкозамин)",
+      farmTasir: "Стимулирующий регенерацию хряща, медленно действующий противовоспалительный",
+      farmakodinamika: `Глюкозамин (сульфат или гидрохлорид) — естественный аминомоносахарид хрящевого матрикса, в организме служит субстратом для синтеза гликозаминогликанов и протеогликанов. При экзогенном введении стимулирует синтез протеогликанов и гиалуроновой кислоты хондроцитами, снижает активность разрушающих хрящ ферментов (металлопротеиназ, коллагеназы, фосфолипазы А2) и образование супероксидных радикалов. Обладает лёгким противовоспалительным действием. Применяется при остеоартрозе как «медленно действующее» средство (SYSADOA), замедляющее дегенерацию хряща — эффект развивается постепенно (в течение недель).`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь хорошо всасывается (в форме сульфата биодоступность ~25%, эффект первого прохождения). Cmax через ~3–4 ч.",
+        tarqalish: "Распределяется в хрящевую ткань, суставы и паренхиматозные органы; избирательно накапливается в хряще.",
+        metabolizm: "Преимущественно в печени; частично распадается до малых молекул (CO2, вода, мочевина).",
+        chiqarilish: "Преимущественно почками, частично с калом. T½ — ~15 ч."
+      },
+      korsatmalar: [
+        "Первичный и вторичный остеоартроз (гонартроз, коксартроз и др.)",
+        "Остеохондроз позвоночника",
+        "Поддержка метаболизма хряща при дегенеративно-дистрофическом поражении суставного хряща"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к глюкозамину",
+        "Фенилкетонурия (формы с аспартамом)",
+        "Тяжёлая почечная недостаточность; беременность и лактация (данные ограничены)",
+        "Аллергия на морепродукты (ракообразные) — для отдельных форм"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Эпигастральная боль, метеоризм, диарея или запор, тошнота",
+        "Нервная система": "Головная боль, утомляемость, сонливость",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница (редко)",
+        "Метаболизм": "При сахарном диабете рекомендуется контроль гликемии (теоретическое влияние)"
+      },
+      dozadan: "Высокий профиль безопасности; признаки передозировки редки. При случайном большом приёме — тошнота, диарея; симптоматическое лечение.",
+      ozarotasir: [
+        "Может повышать всасывание тетрациклинов; может снижать всасывание пенициллина и хлорамфеникола",
+        "Может усиливать действие варфарина — рекомендуется контроль МНО",
+        "С НПВС дополняет эффект при остеоартрозе"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 1500 мг/сут однократно или дробно, с едой; курс не менее 4–6 недель, обычно 2–3 месяца, повторять 2–3 раза в год. В/м (раствор сульфата): 3 раза в неделю, 4–6 недель.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Порошок для раствора 1500 мг/пакет; таблетки/капсулы 500–750 мг; раствор для в/м инъекций (с растворителем)"
+    },
+    en: {
+      gruppa: "Cartilage metabolism correctors — chondroprotector (glucosamine)",
+      farmTasir: "Cartilage-regeneration stimulant, slow-acting anti-inflammatory",
+      farmakodinamika: `Glucosamine (sulfate or hydrochloride) is a natural amino-monosaccharide of the cartilage matrix and serves in the body as a substrate for synthesis of glycosaminoglycans and proteoglycans. Given exogenously it stimulates chondrocyte synthesis of proteoglycans and hyaluronic acid, and reduces the activity of cartilage-degrading enzymes (metalloproteinases, collagenase, phospholipase A2) and superoxide radical formation. It has mild anti-inflammatory action. In osteoarthritis it is used as a 'slow-acting' agent (SYSADOA) that slows cartilage degeneration — the effect develops gradually (over weeks).`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally (sulfate form bioavailability ~25%, first-pass effect). Cmax in ~3–4 h.",
+        tarqalish: "Distributes to cartilage, joints and parenchymal organs; selectively accumulates in cartilage.",
+        metabolizm: "Mainly hepatic; partly broken down to small molecules (CO2, water, urea).",
+        chiqarilish: "Mainly renal, partly faecal. T½ — ~15 h."
+      },
+      korsatmalar: [
+        "Primary and secondary osteoarthritis (gonarthrosis, coxarthrosis, etc.)",
+        "Spinal osteochondrosis",
+        "Support of cartilage metabolism in degenerative-dystrophic articular cartilage injury"
+      ],
+      qarrshi: [
+        "Hypersensitivity to glucosamine",
+        "Phenylketonuria (aspartame-containing forms)",
+        "Severe renal failure; pregnancy and lactation (limited data)",
+        "Seafood (shellfish) allergy — for some forms"
+      ],
+      nojoya: {
+        "Digestive system": "Epigastric pain, flatulence, diarrhoea or constipation, nausea",
+        "Nervous system": "Headache, fatigue, drowsiness",
+        "Allergy / skin": "Rash, pruritus, urticaria (rare)",
+        "Metabolism": "In diabetes glycaemia monitoring is advised (theoretical effect)"
+      },
+      dozadan: "High safety profile; overdose signs are rare. With accidental large intake — nausea, diarrhoea; symptomatic treatment.",
+      ozarotasir: [
+        "May increase tetracycline absorption; may reduce absorption of penicillin and chloramphenicol",
+        "May enhance warfarin's effect — INR monitoring advised",
+        "With NSAIDs complements the effect in osteoarthritis"
+      ],
+      qollash: {
+        kattalar: "Orally: 1500 mg/day as a single or divided dose with food; course at least 4–6 weeks, usually 2–3 months, repeated 2–3 times a year. I/m (sulfate solution): 3 times a week, 4–6 weeks.",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Powder for solution 1500 mg/sachet; tablets/capsules 500–750 mg; solution for i/m injection (with solvent)"
+    }
+  },
+
+  // ── XONDROITIN SULFAT | ATX: M01AX25 ──
+  "M01AX25": {
+    uz: {
+      gruppa: "Tog'ay almashinuvini tuzatuvchi vositalar — xondroprotektor (xondroitin sulfat)",
+      farmTasir: "Tog'ay regeneratsiyasini rag'batlantiruvchi, sekin ta'sirli yallig'lanishga qarshi",
+      farmakodinamika: `Xondroitin sulfat — bo'g'im tog'ayi va biriktiruvchi to'qimaning asosiy yuqori molekulali glikozaminoglikani (mukopolisaxaridi). Xondrotsitlar tomonidan proteoglikanlar va gialuron kislota sintezini rag'batlantiradi, tog'ay matritsasini parchalovchi fermentlar (elastaza, gialuronidaza, metalloproteinazalar) faolligini ingibe qiladi, sinovial suyuqlik tarkibi va yopishqoqligini yaxshilaydi. Subxondral suyak resorbsiyasini kamaytiradi, yengil yallig'lanishga qarshi ta'sir ko'rsatadi. Osteoartrozda «sekin ta'sirli» (SYSADOA) xondroprotektor — samarasi asta-sekin (3–4 hafta va undan keyin) namoyon bo'ladi va to'xtatilgach bir necha oy saqlanadi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali biokirish ~13% (yuqori molekulali); mahalliy va i/m shakllarda ham qo'llaniladi.",
+        tarqalish: "Bo'g'im tog'ayi va sinovial suyuqlikка selektiv to'planadi.",
+        metabolizm: "Desulfatlanish va past molekulali bo'laklarga parchalanish.",
+        chiqarilish: "Asosan siydik orqali. T½ — ~5–15 soat."
+      },
+      korsatmalar: [
+        "Birlamchi va ikkilamchi osteoartroz (gon-, koks-, spondiloartroz)",
+        "Umurtqa pog'onasi osteoxondrozi",
+        "Bo'g'im tog'ayi degenerativ shikastlanishi, suyak sinishlaridan keyin tiklanishni qo'llab-quvvatlash"
+      ],
+      qarrshi: [
+        "Xondroitin sulfatga o'ta sezgirlik",
+        "Tromboflebit, qon ketishga moyillik (geparinga o'xshash ta'sir tufayli ehtiyot)",
+        "Homiladorlik va emizish (ma'lumot cheklangan)",
+        "Bolalik yoshi"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ko'ngil aynishi, epigastral noxushlik, diareya yoki qabziyat (kamdan-kam)",
+        "Allergik / teri": "Toshma, qichima, eshakemi, dermatit; mahalliy shaklda — qo'llash joyida qizarish",
+        "In'eksion shakl": "In'eksiya joyida og'riq, qon quyilish (geparinsimon ta'sir)"
+      },
+      dozadan: "Yuqori xavfsizlik; dozadan oshish belgilari kam kuzatiladi. Geparinsimon ta'sir tufayli yuqori dozada qon ketish moyiligini kuzatish.",
+      ozarotasir: [
+        "Antikoagulyant va antiagregantlar (varfarin, geparin, antiagregantlar) ta'sirini kuchaytirishi mumkin — qon ketish nazorati",
+        "Glyukozamin va NSAID bilan birga osteoartrozda samarani to'ldiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 800–1200 mg/kun 1–2 ta qabulda, kurs 3–6 oy, yiliga takrorlanadi. I/m: 100 mg har kun oshirilib (300 mg gacha), har 2 kunda, 25–35 in'eksiya. Mahalliy mazь kuniga 2–3 marta.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Kapsulalar/tabletkalar 250, 400, 500 mg; i/m in'eksiya eritmasi 100 mg/ml; mazь/gel 5% (mahalliy)"
+    },
+    ru: {
+      gruppa: "Корректоры метаболизма хряща — хондропротектор (хондроитина сульфат)",
+      farmTasir: "Стимулирующий регенерацию хряща, медленно действующий противовоспалительный",
+      farmakodinamika: `Хондроитина сульфат — основной высокомолекулярный гликозаминогликан (мукополисахарид) суставного хряща и соединительной ткани. Стимулирует синтез протеогликанов и гиалуроновой кислоты хондроцитами, ингибирует активность ферментов, разрушающих хрящевой матрикс (эластаза, гиалуронидаза, металлопротеиназы), улучшает состав и вязкость синовиальной жидкости. Уменьшает резорбцию субхондральной кости, оказывает лёгкое противовоспалительное действие. При остеоартрозе — «медленно действующий» (SYSADOA) хондропротектор; эффект развивается постепенно (с 3–4 недели) и сохраняется несколько месяцев после отмены.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь биодоступность ~13% (высокомолекулярный); применяется также местно и в/м.",
+        tarqalish: "Избирательно накапливается в суставном хряще и синовиальной жидкости.",
+        metabolizm: "Десульфатирование и распад до низкомолекулярных фрагментов.",
+        chiqarilish: "Преимущественно почками. T½ — ~5–15 ч."
+      },
+      korsatmalar: [
+        "Первичный и вторичный остеоартроз (гон-, кокс-, спондилоартроз)",
+        "Остеохондроз позвоночника",
+        "Дегенеративное поражение суставного хряща, поддержка восстановления после переломов костей"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к хондроитина сульфату",
+        "Тромбофлебит, склонность к кровотечениям (осторожно из-за гепариноподобного действия)",
+        "Беременность и лактация (данные ограничены)",
+        "Детский возраст"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Тошнота, эпигастральный дискомфорт, диарея или запор (редко)",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница, дерматит; в местной форме — покраснение в месте нанесения",
+        "Инъекционная форма": "Боль в месте инъекции, кровоизлияние (гепариноподобное действие)"
+      },
+      dozadan: "Высокая безопасность; признаки передозировки наблюдаются редко. Из-за гепариноподобного действия при высокой дозе контролировать склонность к кровотечениям.",
+      ozarotasir: [
+        "Может усиливать действие антикоагулянтов и антиагрегантов (варфарин, гепарин) — контроль кровотечений",
+        "С глюкозамином и НПВС дополняет эффект при остеоартрозе"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 800–1200 мг/сут в 1–2 приёма, курс 3–6 месяцев, повторять ежегодно. В/м: 100 мг через день с повышением (до 300 мг), 25–35 инъекций. Местная мазь 2–3 раза в день.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Капсулы/таблетки 250, 400, 500 мг; раствор для в/м инъекций 100 мг/мл; мазь/гель 5% (наружно)"
+    },
+    en: {
+      gruppa: "Cartilage metabolism correctors — chondroprotector (chondroitin sulfate)",
+      farmTasir: "Cartilage-regeneration stimulant, slow-acting anti-inflammatory",
+      farmakodinamika: `Chondroitin sulfate is the principal high-molecular-weight glycosaminoglycan (mucopolysaccharide) of articular cartilage and connective tissue. It stimulates chondrocyte synthesis of proteoglycans and hyaluronic acid, inhibits the activity of cartilage-matrix-degrading enzymes (elastase, hyaluronidase, metalloproteinases), and improves the composition and viscosity of synovial fluid. It reduces subchondral bone resorption and has mild anti-inflammatory action. In osteoarthritis it is a 'slow-acting' (SYSADOA) chondroprotector; the effect develops gradually (from weeks 3–4) and persists for several months after discontinuation.`,
+      farmakokinetika: {
+        sorish: "Oral bioavailability ~13% (high-molecular-weight); also used topically and i/m.",
+        tarqalish: "Selectively accumulates in articular cartilage and synovial fluid.",
+        metabolizm: "Desulfation and breakdown to low-molecular-weight fragments.",
+        chiqarilish: "Mainly renal. T½ — ~5–15 h."
+      },
+      korsatmalar: [
+        "Primary and secondary osteoarthritis (gon-, cox-, spondyloarthrosis)",
+        "Spinal osteochondrosis",
+        "Degenerative articular cartilage injury, support of recovery after bone fractures"
+      ],
+      qarrshi: [
+        "Hypersensitivity to chondroitin sulfate",
+        "Thrombophlebitis, bleeding tendency (caution due to heparin-like action)",
+        "Pregnancy and lactation (limited data)",
+        "Childhood"
+      ],
+      nojoya: {
+        "Digestive system": "Nausea, epigastric discomfort, diarrhoea or constipation (rare)",
+        "Allergy / skin": "Rash, pruritus, urticaria, dermatitis; topical form — redness at the application site",
+        "Injectable form": "Injection-site pain, haemorrhage (heparin-like action)"
+      },
+      dozadan: "High safety; overdose signs are rarely seen. Owing to the heparin-like action, monitor bleeding tendency at high doses.",
+      ozarotasir: [
+        "May enhance the action of anticoagulants and antiplatelets (warfarin, heparin) — monitor bleeding",
+        "With glucosamine and NSAIDs complements the effect in osteoarthritis"
+      ],
+      qollash: {
+        kattalar: "Orally: 800–1200 mg/day in 1–2 doses, course 3–6 months, repeat yearly. I/m: 100 mg every other day, increasing (to 300 mg), 25–35 injections. Topical ointment 2–3 times daily.",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Capsules/tablets 250, 400, 500 mg; solution for i/m injection 100 mg/mL; ointment/gel 5% (topical)"
+    }
+  },
+
+  // ── DIATSEREIN | ATX: M01AX21 ──
+  "M01AX21": {
+    uz: {
+      gruppa: "Tog'ay almashinuvini tuzatuvchi vositalar — antraxinon hosilasi (IL-1 inhibitori)",
+      farmTasir: "Sekin ta'sirli yallig'lanishga qarshi (osteoartrozda)",
+      farmakodinamika: `Diatserein — antraxinon hosilasi bo'lgan «sekin ta'sirli» osteoartrozga qarshi vosita (SYSADOA). Faol metaboliti rein orqali ta'sir qiladi: interleykin-1β (IL-1β) sintezi va faolligini, uning retseptorlarini, shuningdek tog'ayni parchalovchi metalloproteinazalar (kollagenaza, stromelizin) ishlab chiqarilishini kamaytiradi. Bu osteoartrozda tog'ay degradatsiyasini sekinlashtiradi va sinovial yallig'lanishni kamaytiradi. Prostaglandin sintezini ingibe qilmaydi — shu sababli oshqozon-ichak ta'siri klassik NSAIDdan farqli. Samarasi asta-sekin (2–4 hafta) namoyon bo'ladi va to'xtatilgach saqlanadi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali so'rilib, tez to'liq reinga aylanadi (faol shakl). Ovqat biokirishni oshiradi. Cmax (rein) ~2,5 soatda.",
+        tarqalish: "Rein plazma oqsillariga >99% bog'lanadi; bo'g'im to'qimasiga kiradi.",
+        metabolizm: "Reinning glyukuronlanishi va sulfatlanishi.",
+        chiqarilish: "Asosan siydik orqali (rein va konyugatlari). T½ — ~4–7 soat."
+      },
+      korsatmalar: [
+        "Osteoartroz (gonartroz, koksartroz) — uzoq muddatli simptomatik va tuzatuvchi davo",
+        "NSAIDga qo'shimcha yoki muqobil sekin ta'sirli terapiya"
+      ],
+      qarrshi: [
+        "Diatsereinga o'ta sezgirlik",
+        "Jigar kasalliklari (anamnezda ham) — gepatotoksiklik xavfi",
+        "Yallig'lanishli ichak kasalliklari (Kron, yarali kolit)",
+        "Homiladorlik va emizish; 65 yoshdan oshganlarda ehtiyot; bolalik yoshi"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Diareya (juda tez-tez, ayniqsa boshida), yumshoq najas, qorin og'rig'i, meteorizm",
+        "Jigar": "Transaminazalar oshishi, gepatit (gepatotoksiklik xavfi — nazorat zarur)",
+        "Siydik": "Siydikning sariq-jigarrang rangga bo'yalishi (zararsiz, rein metaboliti tufayli)",
+        "Teri": "Toshma, qichima (kamdan-kam)"
+      },
+      dozadan: "Belgilari: kuchli diareya, suyuqlik-elektrolit yo'qotilishi. Davolash: dori to'xtatiladi, suyuqlik va elektrolit o'rnini to'ldirish, simptomatik.",
+      ozarotasir: [
+        "Magniy, aluminiy yoki kalsiy saqlovchi antatsidlar reinning so'rilishini kamaytiradi — qabulni 2 soatga ajrating",
+        "Boshqa diareya chaqiruvchi vositalar bilan ta'sir kuchayadi",
+        "Jigarga toksik dorilar bilan birga gepatotoksiklik xavfi oshadi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 50 mg×1/kun (ertalab) dastlabki 2–4 hafta (diareya xavfini kamaytirish uchun), keyin 50 mg×2/kun ovqatdan keyin. Kurs uzoq muddatli.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Kapsulalar 50 mg"
+    },
+    ru: {
+      gruppa: "Корректоры метаболизма хряща — производное антрахинона (ингибитор ИЛ-1)",
+      farmTasir: "Медленно действующее противовоспалительное (при остеоартрозе)",
+      farmakodinamika: `Диацереин — «медленно действующее» противоартрозное средство (SYSADOA), производное антрахинона. Действует через активный метаболит реин: снижает синтез и активность интерлейкина-1β (ИЛ-1β), его рецепторов, а также продукцию разрушающих хрящ металлопротеиназ (коллагеназа, стромелизин). Это замедляет деградацию хряща при остеоартрозе и уменьшает синовиальное воспаление. Не ингибирует синтез простагландинов — поэтому влияние на ЖКТ отличается от классических НПВС. Эффект развивается постепенно (2–4 недели) и сохраняется после отмены.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается и быстро полностью превращается в реин (активная форма). Пища повышает биодоступность. Cmax (реин) через ~2,5 ч.",
+        tarqalish: "Реин связывается с белками плазмы на >99%; проникает в суставную ткань.",
+        metabolizm: "Глюкуронирование и сульфатирование реина.",
+        chiqarilish: "Преимущественно почками (реин и конъюгаты). T½ — ~4–7 ч."
+      },
+      korsatmalar: [
+        "Остеоартроз (гонартроз, коксартроз) — длительная симптоматическая и структурно-модифицирующая терапия",
+        "Дополнение или альтернатива медленно действующей терапии к НПВС"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к диацереину",
+        "Заболевания печени (в т.ч. в анамнезе) — риск гепатотоксичности",
+        "Воспалительные заболевания кишечника (Крона, язвенный колит)",
+        "Беременность и лактация; осторожно у лиц старше 65 лет; детский возраст"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диарея (очень часто, особенно в начале), мягкий стул, боль в животе, метеоризм",
+        "Печень": "Повышение трансаминаз, гепатит (риск гепатотоксичности — нужен контроль)",
+        "Моча": "Окрашивание мочи в жёлто-коричневый цвет (безвредно, из-за метаболита реина)",
+        "Кожа": "Сыпь, зуд (редко)"
+      },
+      dozadan: "Симптомы: выраженная диарея, потеря жидкости и электролитов. Лечение: отмена, восполнение жидкости и электролитов, симптоматически.",
+      ozarotasir: [
+        "Антациды с магнием, алюминием или кальцием снижают всасывание реина — разнести приём на 2 ч",
+        "С другими средствами, вызывающими диарею, эффект усиливается",
+        "С гепатотоксичными препаратами риск гепатотоксичности возрастает"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 50 мг×1/сут (утром) первые 2–4 недели (для снижения риска диареи), затем 50 мг×2/сут после еды. Курс длительный.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Капсулы 50 мг"
+    },
+    en: {
+      gruppa: "Cartilage metabolism correctors — anthraquinone derivative (IL-1 inhibitor)",
+      farmTasir: "Slow-acting anti-inflammatory (in osteoarthritis)",
+      farmakodinamika: `Diacerein is a 'slow-acting' anti-osteoarthritis agent (SYSADOA), an anthraquinone derivative. It acts via the active metabolite rhein: it reduces synthesis and activity of interleukin-1β (IL-1β), its receptors, and the production of cartilage-degrading metalloproteinases (collagenase, stromelysin). This slows cartilage degradation in osteoarthritis and reduces synovial inflammation. It does not inhibit prostaglandin synthesis — so its GI effect differs from classical NSAIDs. The effect develops gradually (2–4 weeks) and persists after discontinuation.`,
+      farmakokinetika: {
+        sorish: "Absorbed orally and rapidly converted entirely to rhein (active form). Food increases bioavailability. Cmax (rhein) in ~2.5 h.",
+        tarqalish: "Rhein is >99% plasma protein bound; penetrates joint tissue.",
+        metabolizm: "Glucuronidation and sulfation of rhein.",
+        chiqarilish: "Mainly renal (rhein and conjugates). T½ — ~4–7 h."
+      },
+      korsatmalar: [
+        "Osteoarthritis (gonarthrosis, coxarthrosis) — long-term symptomatic and structure-modifying therapy",
+        "Adjunct or alternative slow-acting therapy to NSAIDs"
+      ],
+      qarrshi: [
+        "Hypersensitivity to diacerein",
+        "Liver disease (incl. history) — hepatotoxicity risk",
+        "Inflammatory bowel disease (Crohn, ulcerative colitis)",
+        "Pregnancy and lactation; caution over 65 years; childhood"
+      ],
+      nojoya: {
+        "Digestive system": "Diarrhoea (very common, especially at the start), soft stool, abdominal pain, flatulence",
+        "Liver": "Raised transaminases, hepatitis (hepatotoxicity risk — monitoring needed)",
+        "Urine": "Yellow-brown discolouration of urine (harmless, due to the rhein metabolite)",
+        "Skin": "Rash, pruritus (rare)"
+      },
+      dozadan: "Symptoms: marked diarrhoea, loss of fluid and electrolytes. Treatment: discontinue, replace fluid and electrolytes, symptomatic.",
+      ozarotasir: [
+        "Antacids with magnesium, aluminium or calcium reduce rhein absorption — separate by 2 h",
+        "With other diarrhoea-inducing agents the effect is enhanced",
+        "With hepatotoxic drugs the hepatotoxicity risk increases"
+      ],
+      qollash: {
+        kattalar: "Orally: 50 mg×1/day (morning) for the first 2–4 weeks (to reduce diarrhoea risk), then 50 mg×2/day after food. Long-term course.",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Capsules 50 mg"
+    }
+  },
+
+  // ── GIALURON KISLOTA (intraartikulyar) | ATX: M09AX01 ──
+  "M09AX01": {
+    uz: {
+      gruppa: "Boshqa tayanch-harakat tizimi vositalari — gialuron kislota (viskosupplementatsiya)",
+      farmTasir: "Bo'g'im suyuqligi protezi, viskoelastik tiklovchi",
+      farmakodinamika: `Gialuron kislota (natriy gialuronat) — sinovial suyuqlik va tog'ay matritsasining tabiiy yuqori molekulali glikozaminoglikani. Bo'g'im ichiga yuborilganda sinovial suyuqlikning yopishqoqligi va elastikligini (viskoelastik xossalarini) tiklaydi — «viskosupplementatsiya». Bo'g'im yuzalarini surkash (lubrikatsiya) va zarbani yumshatish (amortizatsiya) funksiyasini yaxshilaydi, tog'ayni mexanik va yallig'lanishli shikastlanishdan himoya qiladi, xondrotsitlarning o'z gialuronat sintezini rag'batlantiradi, yallig'lanish mediatorlari va og'riq retseptorlariga ta'sirni kamaytiradi. Samarasi bir necha oy saqlanadi.`,
+      farmakokinetika: {
+        sorish: "Bo'g'im ichiga (mahalliy) yuboriladi; tizimli so'rilish ahamiyatsiz.",
+        tarqalish: "Bo'g'im bo'shlig'i va sinovial to'qimada saqlanadi.",
+        metabolizm: "Sinovial to'qimada va jigarda parchalanadi (gialuronidaza orqali) — fiziologik moddaga aylanadi.",
+        chiqarilish: "Parchalanish mahsulotlari (suv, CO2) sifatida chiqariladi."
+      },
+      korsatmalar: [
+        "Tizza (gonartroz) va boshqa yirik bo'g'imlarning osteoartrozi — og'riq va harakat cheklanishini kamaytirish",
+        "Bo'g'im artroskopiyasi yoki jarrohligidan keyin sinovial muhitni tiklash",
+        "Oftalmologiyada (alohida shakllar) — ko'z jarrohligi; bu yerda ortopedik intraartikulyar qo'llanish nazarda tutiladi"
+      ],
+      qarrshi: [
+        "Gialuronatga o'ta sezgirlik (jumladan tovuq oqsiliga — bakterial bo'lmagan shakllar)",
+        "Yuboriladigan bo'g'im sohasida infeksiya yoki teri kasalligi",
+        "Faol bo'g'im infeksiyasi (septik artrit)",
+        "Homiladorlik va emizish (ma'lumot cheklangan)"
+      ],
+      nojoya: {
+        "Mahalliy (bo'g'im)": "In'eksiyadan keyin bo'g'imda vaqtinchalik og'riq, shish, issiqlik, suyuqlik to'planishi (reaktiv sinovit)",
+        "Allergik": "Toshma, qichima; kamdan-kam — psevdosepsis reaksiyasi (og'riqli yallig'lanish)",
+        "Umumiy": "Kamdan-kam — bosh og'rig'i, bosh aylanishi"
+      },
+      dozadan: "Mahalliy qo'llanish; tizimli dozadan oshish kutilmaydi. Ortiqcha hajm yuborilganda mahalliy reaksiya kuchayishi mumkin — simptomatik.",
+      ozarotasir: [
+        "Bir vaqtda boshqa intraartikulyar in'eksiyalar bilan birga yuborilmaydi",
+        "Toza dezinfektsiyalovchi to'rtlamchi ammoniy tuzlari gialuronatni cho'ktirishi mumkin — teri tayyorlashda ehtiyot"
+      ],
+      qollash: {
+        kattalar: "Bo'g'im ichiga: odatda haftada 1 marta, kurs 3–5 in'eksiya (preparatga qarab); ba'zi yuqori molekulali shakllar bir martalik. Kurs 6 oydan keyin takrorlanishi mumkin. Faqat shifokor tomonidan steril sharoitda.",
+        bolalar: "Tavsiya etilmaydi (ma'lumot yetarli emas)."
+      },
+      chiqarish: "Bo'g'im ichiga yuborish uchun oldindan to'ldirilgan shприts 10–20 mg/ml (1–2 ml)"
+    },
+    ru: {
+      gruppa: "Прочие средства опорно-двигательного аппарата — гиалуроновая кислота (вискосапплементация)",
+      farmTasir: "Протез синовиальной жидкости, восстановитель вязкоэластичности",
+      farmakodinamika: `Гиалуроновая кислота (натрия гиалуронат) — естественный высокомолекулярный гликозаминогликан синовиальной жидкости и хрящевого матрикса. При внутрисуставном введении восстанавливает вязкость и эластичность (вязкоэластичные свойства) синовиальной жидкости — «вискосапплементация». Улучшает смазывание (лубрикацию) и амортизацию суставных поверхностей, защищает хрящ от механического и воспалительного повреждения, стимулирует собственный синтез гиалуроната хондроцитами, снижает влияние медиаторов воспаления и болевых рецепторов. Эффект сохраняется несколько месяцев.`,
+      farmakokinetika: {
+        sorish: "Вводится внутрисуставно (местно); системное всасывание незначительно.",
+        tarqalish: "Сохраняется в полости сустава и синовиальной ткани.",
+        metabolizm: "Распадается в синовиальной ткани и печени (гиалуронидазой) — превращается в физиологическое вещество.",
+        chiqarilish: "Выводится в виде продуктов распада (вода, CO2)."
+      },
+      korsatmalar: [
+        "Остеоартроз коленного (гонартроз) и других крупных суставов — уменьшение боли и ограничения движений",
+        "Восстановление синовиальной среды после артроскопии или операции на суставе",
+        "В офтальмологии (отдельные формы) — глазная хирургия; здесь подразумевается ортопедическое внутрисуставное применение"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к гиалуронату (в т.ч. к куриному белку — для небактериальных форм)",
+        "Инфекция или кожное заболевание в области вводимого сустава",
+        "Активная суставная инфекция (септический артрит)",
+        "Беременность и лактация (данные ограничены)"
+      ],
+      nojoya: {
+        "Местные (сустав)": "Временная боль, отёк, тепло, накопление жидкости в суставе после инъекции (реактивный синовит)",
+        "Аллергия": "Сыпь, зуд; редко — псевдосептическая реакция (болезненное воспаление)",
+        "Общие": "Редко — головная боль, головокружение"
+      },
+      dozadan: "Местное применение; системная передозировка не ожидается. При введении избыточного объёма возможно усиление местной реакции — симптоматически.",
+      ozarotasir: [
+        "Не вводить одновременно с другими внутрисуставными инъекциями",
+        "Четвертичные аммониевые дезинфектанты могут осаждать гиалуронат — осторожно при обработке кожи"
+      ],
+      qollash: {
+        kattalar: "Внутрисуставно: обычно 1 раз в неделю, курс 3–5 инъекций (по препарату); некоторые высокомолекулярные формы — однократно. Курс можно повторить через 6 месяцев. Только врачом в стерильных условиях.",
+        bolalar: "Не рекомендуется (данных недостаточно)."
+      },
+      chiqarish: "Предварительно заполненный шприц для внутрисуставного введения 10–20 мг/мл (1–2 мл)"
+    },
+    en: {
+      gruppa: "Other musculoskeletal agents — hyaluronic acid (viscosupplementation)",
+      farmTasir: "Synovial fluid prosthesis, viscoelasticity restorer",
+      farmakodinamika: `Hyaluronic acid (sodium hyaluronate) is a natural high-molecular-weight glycosaminoglycan of synovial fluid and the cartilage matrix. Injected intra-articularly it restores the viscosity and elasticity (viscoelastic properties) of synovial fluid — 'viscosupplementation'. It improves lubrication and shock absorption of joint surfaces, protects cartilage from mechanical and inflammatory damage, stimulates chondrocytes' own hyaluronate synthesis, and reduces the impact of inflammatory mediators and pain receptors. The effect lasts several months.`,
+      farmakokinetika: {
+        sorish: "Given intra-articularly (local); systemic absorption is negligible.",
+        tarqalish: "Retained in the joint cavity and synovial tissue.",
+        metabolizm: "Broken down in synovial tissue and the liver (by hyaluronidase) — converted to a physiological substance.",
+        chiqarilish: "Excreted as breakdown products (water, CO2)."
+      },
+      korsatmalar: [
+        "Osteoarthritis of the knee (gonarthrosis) and other large joints — reducing pain and movement restriction",
+        "Restoration of the synovial environment after arthroscopy or joint surgery",
+        "In ophthalmology (separate forms) — eye surgery; here orthopaedic intra-articular use is meant"
+      ],
+      qarrshi: [
+        "Hypersensitivity to hyaluronate (incl. to avian protein — for non-bacterial forms)",
+        "Infection or skin disease over the injected joint",
+        "Active joint infection (septic arthritis)",
+        "Pregnancy and lactation (limited data)"
+      ],
+      nojoya: {
+        "Local (joint)": "Transient joint pain, swelling, warmth, fluid accumulation after injection (reactive synovitis)",
+        "Allergy": "Rash, pruritus; rarely a pseudoseptic reaction (painful inflammation)",
+        "General": "Rarely headache, dizziness"
+      },
+      dozadan: "Local use; systemic overdose is not expected. If excess volume is injected, the local reaction may intensify — symptomatic.",
+      ozarotasir: [
+        "Do not inject simultaneously with other intra-articular injections",
+        "Quaternary ammonium disinfectants can precipitate hyaluronate — caution in skin preparation"
+      ],
+      qollash: {
+        kattalar: "Intra-articularly: usually once weekly, course 3–5 injections (per product); some high-molecular forms — single dose. The course may be repeated after 6 months. Only by a physician under sterile conditions.",
+        bolalar: "Not recommended (insufficient data)."
+      },
+      chiqarish: "Pre-filled syringe for intra-articular injection 10–20 mg/mL (1–2 mL)"
+    }
+  },
+
+  // ── SERRATIOPEPTIDAZA | ATX: M09AB ──
+  "M09AB": {
+    uz: {
+      gruppa: "Boshqa tayanch-harakat tizimi vositalari — proteolitik ferment (serratiopeptidaza)",
+      farmTasir: "Yallig'lanishga qarshi, shishni kamaytiruvchi, mukolitik (proteolitik ferment)",
+      farmakodinamika: `Serratiopeptidaza (serrapeptaza) — Serratia bakteriyalaridan olinadigan proteolitik ferment (metalloproteaza). Yallig'lanish o'chog'idagi o'lik to'qimalar, fibrin va yopishqoq ekssudatni gidrolizlab parchalaydi — shishni so'rilishini va drenajini tezlashtiradi. Bradikinin kabi og'riq mediatorlarini parchalab analgetik ta'sir beradi, balg'am va yiringli ajralmaning yopishqoqligini kamaytiradi (mukolitik). Yallig'lanishga qarshi va shishga qarshi (antiedematoz) yordamchi vosita sifatida operatsiya, jarohat va yallig'lanishli holatlarda qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali kislotaga chidamli (enterik) qobiqda qabul qilinadi; ichakda so'riladi.",
+        tarqalish: "Yallig'langan va shishgan to'qimalarga kiradi.",
+        metabolizm: "Hazm fermentlari va to'qimalarda peptidlarga parchalanadi.",
+        chiqarilish: "Parchalanish mahsulotlari sifatida, qisman o't bilan."
+      },
+      korsatmalar: [
+        "Operatsiya va jarohatdan keyingi shish va yallig'lanish (travmatologiya, ortopediya, jarrohlik)",
+        "LOR: sinusit, rinit, faringit, laringit, o'rta otitda yallig'lanish va shish",
+        "Stomatologiya: tish olib tashlangandan keyin shish; ginekologiya, mastit",
+        "Nafas yo'llari kasalliklarida balg'amni suyultirish (yordamchi)",
+        "Tromboflebit, yumshoq to'qima yallig'lanishi (yordamchi terapiya)"
+      ],
+      qarrshi: [
+        "Serratiopeptidazaga o'ta sezgirlik",
+        "Qon ivishi buzilishlari, antikoagulyant qabul qilayotgan bemorlar (qon ketish xavfi)",
+        "Og'ir jigar yoki buyrak yetishmovchiligi",
+        "Homiladorlik va emizish (ma'lumot cheklangan)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ishtahaning yo'qolishi, ko'ngil aynishi, epigastral noxushlik, diareya",
+        "Teri / allergik": "Toshma, qichima, eritema; kamdan-kam — og'ir teri reaksiyalari",
+        "Nafas / qon": "Kamdan-kam — qon ketish moyiligi (antikoagulyant bilan), atipik pnevmonit (juda kam)"
+      },
+      dozadan: "Yuqori xavfsizlik; dozadan oshish belgilari kam. Ortiqcha qabulda — hazm buzilishi; simptomatik davolash.",
+      ozarotasir: [
+        "Antikoagulyantlar va antiagregantlar (varfarin, aspirin) bilan qon ketish xavfi kuchayadi",
+        "Antibiotiklarning yallig'langan to'qimaga kirishini oshirishi mumkin (sinergiya)"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 5–10 mg (10 000–20 000 birlik) × 3 marta/kun, ovqatdan keyin, butun yutib (enterik qobiq buzilmasin). Kurs 7–14 kun yoki ko'rsatmaga qarab.",
+        bolalar: "Vaznga qarab, shifokor ko'rsatmasi bilan; past dozada."
+      },
+      chiqarish: "Qobiqli (enterik) tabletkalar 5 va 10 mg (10 000 / 20 000 birlik)"
+    },
+    ru: {
+      gruppa: "Прочие средства опорно-двигательного аппарата — протеолитический фермент (серратиопептидаза)",
+      farmTasir: "Противовоспалительное, противоотёчное, муколитическое (протеолитический фермент)",
+      farmakodinamika: `Серратиопептидаза (серрапептаза) — протеолитический фермент (металлопротеаза) из бактерий Serratia. Гидролизует и расщепляет некротические ткани, фибрин и вязкий экссудат в очаге воспаления — ускоряет рассасывание отёка и его дренаж. Расщепляя медиаторы боли (брадикинин), оказывает анальгезирующее действие, снижает вязкость мокроты и гнойного отделяемого (муколитик). Применяется как вспомогательное противовоспалительное и противоотёчное средство при операциях, травмах и воспалительных состояниях.`,
+      farmakokinetika: {
+        sorish: "Принимается внутрь в кислотоустойчивой (кишечнорастворимой) оболочке; всасывается в кишечнике.",
+        tarqalish: "Проникает в воспалённые и отёчные ткани.",
+        metabolizm: "Расщепляется пищеварительными ферментами и в тканях до пептидов.",
+        chiqarilish: "В виде продуктов распада, частично с жёлчью."
+      },
+      korsatmalar: [
+        "Отёк и воспаление после операций и травм (травматология, ортопедия, хирургия)",
+        "ЛОР: воспаление и отёк при синусите, рините, фарингите, ларингите, среднем отите",
+        "Стоматология: отёк после удаления зуба; гинекология, мастит",
+        "Разжижение мокроты при заболеваниях дыхательных путей (вспомогательно)",
+        "Тромбофлебит, воспаление мягких тканей (вспомогательная терапия)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к серратиопептидазе",
+        "Нарушения свёртывания крови, приём антикоагулянтов (риск кровотечения)",
+        "Тяжёлая печёночная или почечная недостаточность",
+        "Беременность и лактация (данные ограничены)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Потеря аппетита, тошнота, эпигастральный дискомфорт, диарея",
+        "Кожа / аллергия": "Сыпь, зуд, эритема; редко — тяжёлые кожные реакции",
+        "Дыхание / кровь": "Редко — склонность к кровотечениям (с антикоагулянтами), атипичный пневмонит (очень редко)"
+      },
+      dozadan: "Высокая безопасность; признаки передозировки редки. При избыточном приёме — расстройство пищеварения; симптоматическое лечение.",
+      ozarotasir: [
+        "С антикоагулянтами и антиагрегантами (варфарин, аспирин) усиливается риск кровотечения",
+        "Может повышать проникновение антибиотиков в воспалённую ткань (синергия)"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 5–10 мг (10 000–20 000 ед) × 3 раза/сут после еды, проглатывать целиком (не нарушая кишечнорастворимую оболочку). Курс 7–14 дней или по показаниям.",
+        bolalar: "По массе тела, по назначению врача; в низкой дозе."
+      },
+      chiqarish: "Таблетки покрытые (кишечнорастворимые) 5 и 10 мг (10 000 / 20 000 ед)"
+    },
+    en: {
+      gruppa: "Other musculoskeletal agents — proteolytic enzyme (serratiopeptidase)",
+      farmTasir: "Anti-inflammatory, anti-oedema, mucolytic (proteolytic enzyme)",
+      farmakodinamika: `Serratiopeptidase (serrapeptase) is a proteolytic enzyme (metalloprotease) from Serratia bacteria. It hydrolyses and breaks down necrotic tissue, fibrin and viscous exudate at the inflammatory site — accelerating resorption and drainage of oedema. By breaking down pain mediators (bradykinin) it provides analgesia, and it reduces the viscosity of sputum and purulent discharge (mucolytic). It is used as an adjunctive anti-inflammatory and anti-oedema agent in surgery, trauma and inflammatory conditions.`,
+      farmakokinetika: {
+        sorish: "Taken orally in an acid-resistant (enteric) coating; absorbed in the intestine.",
+        tarqalish: "Penetrates inflamed and oedematous tissue.",
+        metabolizm: "Broken down by digestive enzymes and in tissues to peptides.",
+        chiqarilish: "As breakdown products, partly biliary."
+      },
+      korsatmalar: [
+        "Oedema and inflammation after surgery and trauma (traumatology, orthopaedics, surgery)",
+        "ENT: inflammation and oedema in sinusitis, rhinitis, pharyngitis, laryngitis, otitis media",
+        "Dentistry: oedema after tooth extraction; gynaecology, mastitis",
+        "Thinning of sputum in respiratory disease (adjunct)",
+        "Thrombophlebitis, soft-tissue inflammation (adjunctive therapy)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to serratiopeptidase",
+        "Coagulation disorders, anticoagulant use (bleeding risk)",
+        "Severe hepatic or renal failure",
+        "Pregnancy and lactation (limited data)"
+      ],
+      nojoya: {
+        "Digestive system": "Loss of appetite, nausea, epigastric discomfort, diarrhoea",
+        "Skin / allergy": "Rash, pruritus, erythema; rarely severe skin reactions",
+        "Respiratory / blood": "Rarely bleeding tendency (with anticoagulants), atypical pneumonitis (very rare)"
+      },
+      dozadan: "High safety; overdose signs are rare. With excess intake — digestive upset; symptomatic treatment.",
+      ozarotasir: [
+        "With anticoagulants and antiplatelets (warfarin, aspirin) the bleeding risk increases",
+        "May increase antibiotic penetration into inflamed tissue (synergy)"
+      ],
+      qollash: {
+        kattalar: "Orally: 5–10 mg (10,000–20,000 units) × 3 times/day after food, swallowed whole (do not damage the enteric coating). Course 7–14 days or as indicated.",
+        bolalar: "By body weight, as prescribed; at a low dose."
+      },
+      chiqarish: "Enteric-coated tablets 5 and 10 mg (10,000 / 20,000 units)"
+    }
   }
 
 };
