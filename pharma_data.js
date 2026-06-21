@@ -44044,6 +44044,618 @@ const PHARMA_DATA = {
       },
       chiqarish: "Lyophilised powder for injection 50, 100, 200 units (vial, reconstituted with saline)"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // Batch 8 — Markaziy ta'sirli mushak relaksantlari (M03B)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── TOLPERIZON | ATX: M03BX04 ──
+  "M03BX04": {
+    uz: {
+      gruppa: "Markaziy ta'sirli mushak relaksantlari (tolperizon)",
+      farmTasir: "Markaziy mushak tonusini kamaytiruvchi (miorelaksant)",
+      farmakodinamika: `Tolperizon — markaziy ta'sirli mushak relaksanti; tuzilishi bo'yicha lidokainga yaqin. Orqa miya darajasida ta'sir qiladi: refleks yoylarini (mono- va polisinaptik reflekslarni) tormozlaydi, kaudal retikulyar formatsiya faolligini pasaytiradi. Nerv membranalarining natriy (va qisman kaltsiy) kanallarini barqarorlashtirib qo'zg'aluvchanlikni kamaytiradi — natijada patologik oshgan skelet mushak tonusi (spastiklik) pasayadi, sedatsiyasiz va umumiy kuchsizliksiz. Yengil tomir kengaytiruvchi (vazodilatator) ta'siri ham bor. Boshqa markaziy relaksantlardan farqli — sezilarli sedativ ta'sir bermaydi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi, lekin jigarning «birinchi o'tish» effekti tufayli biokirish past (~20%). Cmax ~0,5–1 soatda.",
+        tarqalish: "To'qimalarga tarqaladi; MNSga kiradi.",
+        metabolizm: "Jigar va buyrakda intensiv metabolizatsiya (CYP2D6 va boshqalar).",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida (>99%). T½ — ~1,5–2,5 soat."
+      },
+      korsatmalar: [
+        "Markaziy nerv tizimi kasalliklarida patologik skelet mushak spastikligi (insult, MS, miyelopatiya, serebral falaj)",
+        "Tayanch-harakat tizimi kasalliklarida mushak gipertonusi va spazmi: spondiloz, spondiloartroz, bo'yin va bel sindromlari",
+        "Litterning kasalligi (bolalar spastik falaji)",
+        "Obliteratsiyalovchi tomir kasalliklari va innervatsiya buzilishidan tomir spazmi (yordamchi)"
+      ],
+      qarrshi: [
+        "Tolperizon yoki eperizonga o'ta sezgirlik; lidokainga allergiya (in'eksion shaklda)",
+        "Miasteniya gravis",
+        "Emizish davri; homiladorlikning I trimestri (ehtiyot)",
+        "Bolalik yoshi (shaklga qarab chegaralar)"
+      ],
+      nojoya: {
+        "Umumiy / nerv": "Mushak kuchsizligi, bosh og'rig'i, bosh aylanishi, holsizlik (sezilarli sedatsiyasiz)",
+        "Hazm tizimi": "Ko'ngil aynishi, qorin noxushligi, og'iz qurishi, dispepsiya",
+        "Yurak-qon tomir": "Arterial bosim pasayishi (ayniqsa tez i/v yuborilganda)",
+        "Allergik": "Toshma, qichima, eshakemi, angionevrotik shish; kamdan-kam — anafilaktik shok (ayniqsa in'eksion shaklda)"
+      },
+      dozadan: "Tajriba cheklangan; yuqori dozada ataksiya, tutqanoq, nafas qiyinlashishi mumkin. Davolash: oshqozonni yuvish, simptomatik, nafas/gemodinamik qo'llab-quvvatlash.",
+      ozarotasir: [
+        "Markaziy ta'sirli boshqa mushak relaksantlari ta'sirini kuchaytiradi (doza kamaytirilishi mumkin)",
+        "NSAID bilan birga ularning konsentratsiyasini biroz o'zgartirishi mumkin",
+        "CYP2D6 substratlari (masalan dekstrometorfan) metabolizmiga ta'sir qilishi mumkin",
+        "Markaziy depressantlar bilan birga ehtiyot"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 50–150 mg×3/kun, ovqatdan keyin (kuniga 150–450 mg). I/m: 100 mg×2/kun; i/v sekin 100 mg×1/kun (faqat zarurda, nazorat ostida).",
+        bolalar: "3 oydan vaznga qarab: 5–10 mg/kg/kun 3 ta qabulda (preparat shakliga qarab)."
+      },
+      chiqarish: "Tabletkalar (qobiqli) 50, 150 mg; in'eksiya eritmasi 100 mg/ml (lidokain bilan)"
+    },
+    ru: {
+      gruppa: "Миорелаксанты центрального действия (толперизон)",
+      farmTasir: "Снижающий мышечный тонус центрального действия (миорелаксант)",
+      farmakodinamika: `Толперизон — миорелаксант центрального действия; по структуре близок к лидокаину. Действует на уровне спинного мозга: тормозит рефлекторные дуги (моно- и полисинаптические рефлексы), снижает активность каудальной ретикулярной формации. Стабилизируя натриевые (и частично кальциевые) каналы нервных мембран, снижает возбудимость — в результате патологически повышенный тонус скелетных мышц (спастичность) снижается без седации и общей слабости. Обладает также лёгким сосудорасширяющим действием. В отличие от других центральных релаксантов не даёт выраженного седативного эффекта.`,
+      farmakokinetika: {
+        sorish: "Хорошо всасывается внутрь, но из-за эффекта «первого прохождения» биодоступность низкая (~20%). Cmax через ~0,5–1 ч.",
+        tarqalish: "Распределяется в тканях; проникает в ЦНС.",
+        metabolizm: "Интенсивно метаболизируется в печени и почках (CYP2D6 и др.).",
+        chiqarilish: "Преимущественно почками в виде метаболитов (>99%). T½ — ~1,5–2,5 ч."
+      },
+      korsatmalar: [
+        "Патологическая спастичность скелетных мышц при болезнях ЦНС (инсульт, РС, миелопатия, ДЦП)",
+        "Мышечный гипертонус и спазм при болезнях опорно-двигательного аппарата: спондилёз, спондилоартроз, шейные и поясничные синдромы",
+        "Болезнь Литтла (детский спастический паралич)",
+        "Сосудистый спазм при облитерирующих болезнях сосудов и нарушениях иннервации (вспомогательно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к толперизону или эперизону; аллергия на лидокаин (для инъекционной формы)",
+        "Миастения гравис",
+        "Период лактации; I триместр беременности (осторожно)",
+        "Детский возраст (ограничения по форме)"
+      ],
+      nojoya: {
+        "Общие / нервы": "Мышечная слабость, головная боль, головокружение, слабость (без выраженной седации)",
+        "Пищеварительная система": "Тошнота, дискомфорт в животе, сухость во рту, диспепсия",
+        "Сердечно-сосудистая система": "Снижение АД (особенно при быстром в/в введении)",
+        "Аллергия": "Сыпь, зуд, крапивница, ангионевротический отёк; редко — анафилактический шок (особенно при инъекционной форме)"
+      },
+      dozadan: "Опыт ограничен; при высокой дозе возможны атаксия, судороги, затруднение дыхания. Лечение: промывание желудка, симптоматически, респираторная/гемодинамическая поддержка.",
+      ozarotasir: [
+        "Усиливает действие других центральных миорелаксантов (доза может быть снижена)",
+        "С НПВС может несколько изменять их концентрацию",
+        "Может влиять на метаболизм субстратов CYP2D6 (например декстрометорфана)",
+        "С центральными депрессантами — осторожно"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 50–150 мг×3/сут после еды (150–450 мг/сут). В/м: 100 мг×2/сут; в/в медленно 100 мг×1/сут (только при необходимости, под контролем).",
+        bolalar: "С 3 месяцев по массе: 5–10 мг/кг/сут в 3 приёма (по форме препарата)."
+      },
+      chiqarish: "Таблетки (покрытые) 50, 150 мг; раствор для инъекций 100 мг/мл (с лидокаином)"
+    },
+    en: {
+      gruppa: "Centrally acting muscle relaxants (tolperisone)",
+      farmTasir: "Centrally acting muscle tone reducer (muscle relaxant)",
+      farmakodinamika: `Tolperisone is a centrally acting muscle relaxant; structurally close to lidocaine. It acts at the spinal cord level: it inhibits reflex arcs (mono- and polysynaptic reflexes) and reduces activity of the caudal reticular formation. By stabilising sodium (and partly calcium) channels of nerve membranes it lowers excitability — so pathologically increased skeletal muscle tone (spasticity) decreases without sedation or general weakness. It also has mild vasodilator action. Unlike other central relaxants it produces no marked sedative effect.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally, but first-pass effect gives low bioavailability (~20%). Cmax in ~0.5–1 h.",
+        tarqalish: "Distributes in tissues; penetrates the CNS.",
+        metabolizm: "Extensively metabolised in liver and kidneys (CYP2D6 and others).",
+        chiqarilish: "Mainly renal as metabolites (>99%). T½ — ~1.5–2.5 h."
+      },
+      korsatmalar: [
+        "Pathological skeletal muscle spasticity in CNS disease (stroke, MS, myelopathy, cerebral palsy)",
+        "Muscle hypertonia and spasm in musculoskeletal disease: spondylosis, spondyloarthrosis, neck and lumbar syndromes",
+        "Little's disease (childhood spastic palsy)",
+        "Vascular spasm in obliterating vascular disease and innervation disorders (adjunct)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to tolperisone or eperisone; lidocaine allergy (for the injectable form)",
+        "Myasthenia gravis",
+        "Lactation; first trimester of pregnancy (caution)",
+        "Childhood (restrictions by form)"
+      ],
+      nojoya: {
+        "General / nerve": "Muscle weakness, headache, dizziness, weakness (without marked sedation)",
+        "Digestive system": "Nausea, abdominal discomfort, dry mouth, dyspepsia",
+        "Cardiovascular system": "Lowered BP (especially with rapid i/v injection)",
+        "Allergy": "Rash, pruritus, urticaria, angioedema; rarely anaphylactic shock (especially with the injectable form)"
+      },
+      dozadan: "Experience limited; at high dose ataxia, convulsions, breathing difficulty are possible. Treatment: gastric lavage, symptomatic, respiratory/haemodynamic support.",
+      ozarotasir: [
+        "Enhances the effect of other central muscle relaxants (dose may be reduced)",
+        "With NSAIDs may slightly alter their concentration",
+        "May affect metabolism of CYP2D6 substrates (e.g. dextromethorphan)",
+        "With central depressants — caution"
+      ],
+      qollash: {
+        kattalar: "Orally: 50–150 mg×3/day after food (150–450 mg/day). I/m: 100 mg×2/day; i/v slowly 100 mg×1/day (only when necessary, monitored).",
+        bolalar: "From 3 months by weight: 5–10 mg/kg/day in 3 doses (per product form)."
+      },
+      chiqarish: "Tablets (coated) 50, 150 mg; injection 100 mg/mL (with lidocaine)"
+    }
+  },
+
+  // ── TIZANIDIN | ATX: M03BX02 ──
+  "M03BX02": {
+    uz: {
+      gruppa: "Markaziy ta'sirli mushak relaksantlari — alfa2-adrenomimetik (tizanidin)",
+      farmTasir: "Markaziy miorelaksant (spazmolitik), yengil analgetik",
+      farmakodinamika: `Tizanidin — markaziy ta'sirli mushak relaksanti; orqa miyadagi alfa2-adrenoretseptorlarni qo'zg'atadi (klonidinga o'xshash). Bu polisinaptik nerv yo'llarida qo'zg'atuvchi aminokislotalar (glutamat, aspartat) ajralishini kamaytiradi — natijada motor neyronlarga qo'zg'atuvchi ta'sir susayadi va patologik mushak tonusi (spastiklik va og'riqli spazm) pasayadi. Sezgir refleks va og'riqni ham kamaytiradi (yengil analgetik). Mushak kuchini sezilarli kamaytirmasdan tonusni pasaytiradi. Sedativ va o'rtacha gipotenziv ta'siri ham bor.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez so'riladi, lekin «birinchi o'tish» effekti tufayli biokirish ~34%. Cmax ~1 soatda.",
+        tarqalish: "Plazma oqsillariga ~30% bog'lanadi.",
+        metabolizm: "Jigarda CYP1A2 ishtirokida intensiv metabolizatsiya (faolsiz metabolitlar).",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida. T½ — ~2–4 soat."
+      },
+      korsatmalar: [
+        "Markaziy nerv tizimi kasalliklarida spastiklik: tarqoq skleroz, orqa miya jarohati/kasalliklari, insult, serebral falaj",
+        "Tayanch-harakat tizimidagi og'riqli mushak spazmi: bo'yin va bel sindromlari, spondiloz, operatsiyadan keyin (masalan disk gryjasi)"
+      ],
+      qarrshi: [
+        "Tizanidinga o'ta sezgirlik",
+        "Og'ir jigar yetishmovchiligi",
+        "Kuchli CYP1A2 inhibitorlari bilan birga (fluvoksamin, siprofloksatsin — tizanidin konsentratsiyasini keskin oshiradi, og'ir gipotenziya)",
+        "Homiladorlik va emizish (ehtiyot); keksalarda buyrak yetishmovchiligida ehtiyot"
+      ],
+      nojoya: {
+        "Umumiy / nerv": "Uyquchanlik, charchoq, bosh aylanishi, mushak kuchsizligi, og'iz qurishi",
+        "Yurak-qon tomir": "Arterial bosim pasayishi, bradikardiya (ayniqsa boshlanishida va dozani oshirganda)",
+        "Jigar": "Transaminazalar oshishi, kamdan-kam gepatit (nazorat zarur)",
+        "Boshqa": "Uyqusizlik, gallyutsinatsiya (kamdan-kam); to'satdan to'xtatilganda — qaytar gipertenziya va taxikardiya (sindrom)"
+      },
+      dozadan: "Belgilari: kuchli uyquchanlik, gipotenziya, bradikardiya, mioz, nafas tushishi, koma. Davolash: simptomatik, suyuqlik, gemodinamik qo'llab-quvvatlash; forsirlangan diurez foydali. Dozani asta-sekin kamaytirish (to'satdan to'xtatmaslik).",
+      ozarotasir: [
+        "CYP1A2 inhibitorlari (fluvoksamin, siprofloksatsin): tizanidin konsentratsiyasini keskin oshiradi — TAQIQLANGAN",
+        "Antigipertenziv dorilar, diuretiklar: gipotenziya va bradikardiyani kuchaytiradi",
+        "Alkogol va markaziy depressantlar: sedatsiyani kuchaytiradi",
+        "Peroral kontraseptivlar tizanidin klirensini kamaytiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: og'riqli spazmda 2–4 mg×3/kun; spastiklikda asta-sekin oshirib 12–24 mg/kun 3–4 ta qabulda (maks. 36 mg/kun). Dozani sekin oshirish va to'xtatishda sekin kamaytirish.",
+        bolalar: "18 yoshgacha tavsiya etilmaydi (ma'lumot yetarli emas)."
+      },
+      chiqarish: "Tabletkalar 2, 4 mg; uzaytirilgan kapsulalar 6 mg"
+    },
+    ru: {
+      gruppa: "Миорелаксанты центрального действия — альфа2-адреномиметик (тизанидин)",
+      farmTasir: "Центральный миорелаксант (спазмолитик), лёгкий анальгетик",
+      farmakodinamika: `Тизанидин — миорелаксант центрального действия; возбуждает альфа2-адренорецепторы спинного мозга (подобно клонидину). Это уменьшает высвобождение возбуждающих аминокислот (глутамат, аспартат) в полисинаптических путях — в результате ослабляется возбуждающее воздействие на мотонейроны и снижается патологический мышечный тонус (спастичность и болезненный спазм). Уменьшает также сенсорные рефлексы и боль (лёгкий анальгетик). Снижает тонус, существенно не уменьшая мышечную силу. Обладает также седативным и умеренным гипотензивным действием.`,
+      farmakokinetika: {
+        sorish: "Быстро всасывается внутрь, но из-за эффекта «первого прохождения» биодоступность ~34%. Cmax через ~1 ч.",
+        tarqalish: "Связь с белками плазмы ~30%.",
+        metabolizm: "Интенсивно метаболизируется в печени при участии CYP1A2 (неактивные метаболиты).",
+        chiqarilish: "Преимущественно почками в виде метаболитов. T½ — ~2–4 ч."
+      },
+      korsatmalar: [
+        "Спастичность при болезнях ЦНС: рассеянный склероз, травма/болезни спинного мозга, инсульт, ДЦП",
+        "Болезненный мышечный спазм опорно-двигательного аппарата: шейные и поясничные синдромы, спондилёз, после операции (например грыжа диска)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к тизанидину",
+        "Тяжёлая печёночная недостаточность",
+        "Совместно с мощными ингибиторами CYP1A2 (флувоксамин, ципрофлоксацин — резко повышают концентрацию тизанидина, тяжёлая гипотензия)",
+        "Беременность и лактация (осторожно); осторожно у пожилых при почечной недостаточности"
+      ],
+      nojoya: {
+        "Общие / нервы": "Сонливость, утомляемость, головокружение, мышечная слабость, сухость во рту",
+        "Сердечно-сосудистая система": "Снижение АД, брадикардия (особенно в начале и при повышении дозы)",
+        "Печень": "Повышение трансаминаз, редко гепатит (нужен контроль)",
+        "Прочее": "Бессонница, галлюцинации (редко); при резкой отмене — рикошетная гипертензия и тахикардия (синдром)"
+      },
+      dozadan: "Симптомы: сильная сонливость, гипотензия, брадикардия, миоз, угнетение дыхания, кома. Лечение: симптоматически, жидкость, гемодинамическая поддержка; полезен форсированный диурез. Дозу снижать постепенно (не отменять резко).",
+      ozarotasir: [
+        "Ингибиторы CYP1A2 (флувоксамин, ципрофлоксацин): резко повышают концентрацию тизанидина — ПРОТИВОПОКАЗАНО",
+        "Антигипертензивные, диуретики: усиливают гипотензию и брадикардию",
+        "Алкоголь и центральные депрессанты: усиливают седацию",
+        "Пероральные контрацептивы снижают клиренс тизанидина"
+      ],
+      qollash: {
+        kattalar: "Внутрь: при болезненном спазме 2–4 мг×3/сут; при спастичности постепенно повышая до 12–24 мг/сут в 3–4 приёма (максимум 36 мг/сут). Дозу повышать медленно и при отмене снижать медленно.",
+        bolalar: "До 18 лет не рекомендуется (данных недостаточно)."
+      },
+      chiqarish: "Таблетки 2, 4 мг; пролонгированные капсулы 6 мг"
+    },
+    en: {
+      gruppa: "Centrally acting muscle relaxants — alpha2-adrenergic agonist (tizanidine)",
+      farmTasir: "Central muscle relaxant (spasmolytic), mild analgesic",
+      farmakodinamika: `Tizanidine is a centrally acting muscle relaxant; it stimulates spinal cord alpha2-adrenoceptors (like clonidine). This reduces release of excitatory amino acids (glutamate, aspartate) in polysynaptic pathways — so excitatory drive to motor neurons weakens and pathological muscle tone (spasticity and painful spasm) decreases. It also reduces sensory reflexes and pain (mild analgesic). It lowers tone without substantially reducing muscle strength. It also has sedative and moderate hypotensive effects.`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally, but first-pass effect gives bioavailability ~34%. Cmax in ~1 h.",
+        tarqalish: "Plasma protein binding ~30%.",
+        metabolizm: "Extensively metabolised in the liver via CYP1A2 (inactive metabolites).",
+        chiqarilish: "Mainly renal as metabolites. T½ — ~2–4 h."
+      },
+      korsatmalar: [
+        "Spasticity in CNS disease: multiple sclerosis, spinal cord injury/disease, stroke, cerebral palsy",
+        "Painful musculoskeletal muscle spasm: neck and lumbar syndromes, spondylosis, after surgery (e.g. disc herniation)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to tizanidine",
+        "Severe hepatic failure",
+        "Together with potent CYP1A2 inhibitors (fluvoxamine, ciprofloxacin — sharply raise tizanidine concentration, severe hypotension)",
+        "Pregnancy and lactation (caution); caution in the elderly with renal failure"
+      ],
+      nojoya: {
+        "General / nerve": "Drowsiness, fatigue, dizziness, muscle weakness, dry mouth",
+        "Cardiovascular system": "Lowered BP, bradycardia (especially at the start and on dose increase)",
+        "Liver": "Raised transaminases, rarely hepatitis (monitoring needed)",
+        "Other": "Insomnia, hallucinations (rare); on abrupt withdrawal — rebound hypertension and tachycardia (syndrome)"
+      },
+      dozadan: "Symptoms: marked drowsiness, hypotension, bradycardia, miosis, respiratory depression, coma. Treatment: symptomatic, fluids, haemodynamic support; forced diuresis helpful. Reduce dose gradually (do not stop abruptly).",
+      ozarotasir: [
+        "CYP1A2 inhibitors (fluvoxamine, ciprofloxacin): sharply raise tizanidine concentration — CONTRAINDICATED",
+        "Antihypertensives, diuretics: enhance hypotension and bradycardia",
+        "Alcohol and central depressants: enhance sedation",
+        "Oral contraceptives reduce tizanidine clearance"
+      ],
+      qollash: {
+        kattalar: "Orally: for painful spasm 2–4 mg×3/day; for spasticity gradually up to 12–24 mg/day in 3–4 doses (maximum 36 mg/day). Titrate up slowly and withdraw slowly.",
+        bolalar: "Not recommended under 18 (insufficient data)."
+      },
+      chiqarish: "Tablets 2, 4 mg; extended-release capsules 6 mg"
+    }
+  },
+
+  // ── TIOKOLXIKOZID | ATX: M03BX05 ──
+  "M03BX05": {
+    uz: {
+      gruppa: "Markaziy ta'sirli mushak relaksantlari (tiokolxikozid)",
+      farmTasir: "Mushak relaksanti, yallig'lanishga qarshi va analgetik xususiyatli",
+      farmakodinamika: `Tiokolxikozid — kolxikozidning yarim sintetik oltingugurtli hosilasi bo'lgan markaziy ta'sirli mushak relaksanti. GABA-ergik (gamma-aminomoy kislota) va glitsin retseptorlariga ta'sir qilib (selektiv GABA-A va glitsinergik faollik) orqa miya darajasida mushak tonusini boshqaruvchi tormozlovchi yo'llarni faollashtiradi — patologik oshgan mushak tonusi va og'riqli spazmni kamaytiradi, sezilarli sedatsiyasiz. Yengil yallig'lanishga qarshi va analgetik xususiyatga ega. Og'riqli mushak kontrakturalarida tez ta'sir beradi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali so'riladi (faol metabolitlar orqali); i/m da tez. Cmax ~1 soatda.",
+        tarqalish: "To'qimalarga tarqaladi.",
+        metabolizm: "Faol metabolitlarga (SL18.0740 va glyukuronid) aylanadi.",
+        chiqarilish: "Asosan najas, qisman siydik orqali. T½ — ~5–8 soat."
+      },
+      korsatmalar: [
+        "Og'riqli mushak kontrakturalari: bo'yin, yelka va bel sohasi spazmlari, lyumbalgiya, tortikollis",
+        "Tayanch-harakat tizimi kasalliklarida (spondiloz, osteoartroz) yordamchi miorelaksant",
+        "Travma va operatsiyadan keyingi mushak spazmi (qisqa muddatli)"
+      ],
+      qarrshi: [
+        "Tiokolxikozidga o'ta sezgirlik",
+        "Mushak gipotoniyasi, falaj (mushak tonusi pasaygan holatlar)",
+        "Homiladorlik va emizish, reproduktiv yoshdagi ayollar uchun cheklov (metabolit genotoksikligi xavfi — kontratseptsiyasiz qo'llamaslik)",
+        "Bolalik yoshi; epilepsiya yoki tutqanoqqa moyillik (yuqori dozada qo'zg'atuvchi ta'sir)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Diareya, qorin og'rig'i, ko'ngil aynishi, gastralgiya",
+        "Nerv": "Uyquchanlik (kam), bosh aylanishi; yuqori dozada — qo'zg'aluvchanlik, tutqanoq",
+        "Allergik / teri": "Toshma, qichima, eshakemi; kamdan-kam — angionevrotik shish, anafilaksiya",
+        "Boshqa": "Vazovagal reaksiya (ayniqsa i/m da)"
+      },
+      dozadan: "Belgilari: diareya, ko'ngil aynishi; yuqori dozada — qo'zg'aluvchanlik, tutqanoq. Davolash: simptomatik, oshqozonni yuvish. Tavsiya etilgan dozadan va muddatdan oshmaslik muhim.",
+      ozarotasir: [
+        "Markaziy ta'sirli boshqa mushak relaksantlari va depressantlar bilan ta'sir qo'shiladi",
+        "NSAID bilan birga og'riqli sindromda samarani to'ldiradi",
+        "Tutqanoq chegarasini pasaytiruvchi dorilar bilan ehtiyot"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 4 mg×2/kun (maks. 8 mg/kun), kurs 7 kundan oshmasligi tavsiya etiladi. I/m: 4 mg×1–2/kun, kurs ≤5 kun. Eng qisqa samarali kurs.",
+        bolalar: "16 yoshgacha tavsiya etilmaydi."
+      },
+      chiqarish: "Tabletkalar/kapsulalar 4, 8 mg; granula 8 mg; in'eksiya eritmasi 4 mg/2 ml; mahalliy krem 0,25%"
+    },
+    ru: {
+      gruppa: "Миорелаксанты центрального действия (тиоколхикозид)",
+      farmTasir: "Миорелаксант с противовоспалительными и анальгезирующими свойствами",
+      farmakodinamika: `Тиоколхикозид — миорелаксант центрального действия, полусинтетическое серосодержащее производное колхикозида. Воздействуя на ГАМК-ергические (гамма-аминомасляная кислота) и глициновые рецепторы (избирательная ГАМК-А и глицинергическая активность), активирует тормозные пути регуляции мышечного тонуса на уровне спинного мозга — снижает патологически повышенный тонус и болезненный спазм без выраженной седации. Обладает лёгкими противовоспалительными и анальгезирующими свойствами. Быстро действует при болезненных мышечных контрактурах.`,
+      farmakokinetika: {
+        sorish: "Всасывается внутрь (через активные метаболиты); в/м быстро. Cmax через ~1 ч.",
+        tarqalish: "Распределяется в тканях.",
+        metabolizm: "Превращается в активные метаболиты (SL18.0740 и глюкуронид).",
+        chiqarilish: "Преимущественно с калом, частично почками. T½ — ~5–8 ч."
+      },
+      korsatmalar: [
+        "Болезненные мышечные контрактуры: спазмы шеи, плеча и поясницы, люмбалгия, тортиколлис",
+        "Вспомогательный миорелаксант при болезнях опорно-двигательного аппарата (спондилёз, остеоартроз)",
+        "Мышечный спазм после травмы и операции (краткосрочно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к тиоколхикозиду",
+        "Мышечная гипотония, паралич (состояния со сниженным тонусом)",
+        "Беременность и лактация, ограничение для женщин репродуктивного возраста (риск генотоксичности метаболита — не применять без контрацепции)",
+        "Детский возраст; эпилепсия или склонность к судорогам (возбуждающее действие в высокой дозе)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диарея, боль в животе, тошнота, гастралгия",
+        "Нервы": "Сонливость (редко), головокружение; в высокой дозе — возбуждение, судороги",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница; редко — ангионевротический отёк, анафилаксия",
+        "Прочее": "Вазовагальная реакция (особенно при в/м)"
+      },
+      dozadan: "Симптомы: диарея, тошнота; в высокой дозе — возбуждение, судороги. Лечение: симптоматически, промывание желудка. Важно не превышать рекомендованную дозу и длительность.",
+      ozarotasir: [
+        "С другими центральными миорелаксантами и депрессантами действие суммируется",
+        "С НПВС дополняет эффект при болевом синдроме",
+        "С препаратами, снижающими порог судорог, — осторожно"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 4 мг×2/сут (максимум 8 мг/сут), курс не более 7 дней. В/м: 4 мг×1–2/сут, курс ≤5 дней. Минимально эффективный курс.",
+        bolalar: "До 16 лет не рекомендуется."
+      },
+      chiqarish: "Таблетки/капсулы 4, 8 мг; гранулы 8 мг; раствор для инъекций 4 мг/2 мл; местный крем 0,25%"
+    },
+    en: {
+      gruppa: "Centrally acting muscle relaxants (thiocolchicoside)",
+      farmTasir: "Muscle relaxant with anti-inflammatory and analgesic properties",
+      farmakodinamika: `Thiocolchicoside is a centrally acting muscle relaxant, a semi-synthetic sulfur-containing derivative of colchicoside. Acting on GABAergic (gamma-aminobutyric acid) and glycine receptors (selective GABA-A and glycinergic activity), it activates inhibitory pathways regulating muscle tone at the spinal cord level — reducing pathologically increased tone and painful spasm without marked sedation. It has mild anti-inflammatory and analgesic properties. It acts quickly in painful muscle contractures.`,
+      farmakokinetika: {
+        sorish: "Absorbed orally (via active metabolites); rapid i/m. Cmax in ~1 h.",
+        tarqalish: "Distributes in tissues.",
+        metabolizm: "Converted to active metabolites (SL18.0740 and a glucuronide).",
+        chiqarilish: "Mainly faecal, partly renal. T½ — ~5–8 h."
+      },
+      korsatmalar: [
+        "Painful muscle contractures: neck, shoulder and lumbar spasms, lumbalgia, torticollis",
+        "Adjunctive muscle relaxant in musculoskeletal disease (spondylosis, osteoarthritis)",
+        "Muscle spasm after trauma and surgery (short-term)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to thiocolchicoside",
+        "Muscle hypotonia, paralysis (states of reduced tone)",
+        "Pregnancy and lactation, restriction for women of reproductive age (metabolite genotoxicity risk — do not use without contraception)",
+        "Childhood; epilepsy or seizure tendency (excitatory effect at high dose)"
+      ],
+      nojoya: {
+        "Digestive system": "Diarrhoea, abdominal pain, nausea, gastralgia",
+        "Nerve": "Drowsiness (rare), dizziness; at high dose — agitation, convulsions",
+        "Allergy / skin": "Rash, pruritus, urticaria; rarely angioedema, anaphylaxis",
+        "Other": "Vasovagal reaction (especially i/m)"
+      },
+      dozadan: "Symptoms: diarrhoea, nausea; at high dose agitation, convulsions. Treatment: symptomatic, gastric lavage. It is important not to exceed the recommended dose and duration.",
+      ozarotasir: [
+        "With other central muscle relaxants and depressants the effect is additive",
+        "With NSAIDs complements the effect in pain syndromes",
+        "With drugs that lower the seizure threshold — caution"
+      ],
+      qollash: {
+        kattalar: "Orally: 4 mg×2/day (maximum 8 mg/day), course no more than 7 days. I/m: 4 mg×1–2/day, course ≤5 days. Shortest effective course.",
+        bolalar: "Not recommended under 16 years."
+      },
+      chiqarish: "Tablets/capsules 4, 8 mg; granules 8 mg; injection 4 mg/2 mL; topical cream 0.25%"
+    }
+  },
+
+  // ── KARIZOPRODOL | ATX: M03BA02 ──
+  "M03BA02": {
+    uz: {
+      gruppa: "Markaziy ta'sirli mushak relaksantlari — karbamat (karizoprodol)",
+      farmTasir: "Markaziy miorelaksant (sedativ xususiyatli)",
+      farmakodinamika: `Karizoprodol — karbamat hosilasi bo'lgan markaziy ta'sirli mushak relaksanti. Orqa miya va retikulyar formatsiyadagi interneyronal faollikni tormozlab skelet mushak tonusini va og'riqli spazmni kamaytiradi. Faol metaboliti meprobamat (anksiolitik-sedativ) orqali ham ta'sir qiladi — shu sababli sedativ va anksiolitik xususiyatlarga ega va suiiste'mol/bog'liqlik potensialiga ega. Mushakka to'g'ridan-to'g'ri ta'sir qilmaydi, ta'siri markaziy.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez so'riladi, ta'sir ~30 daqiqada. Cmax ~1,5–2 soatda.",
+        tarqalish: "To'qimalarga tarqaladi, MNSga kiradi.",
+        metabolizm: "Jigarda CYP2C19 ishtirokida meprobamatga (faol) metabolizatsiya.",
+        chiqarilish: "Asosan siydik orqali. T½ — ~2 soat (meprobamat ~10 soat)."
+      },
+      korsatmalar: [
+        "O'tkir og'riqli skelet-mushak holatlarida qisqa muddatli miorelaksatsiya (jismoniy davolash va dam olish bilan birga)",
+        "Mushak spazmi va og'riq (bo'yin, bel sohasi) — yordamchi, qisqa kurs"
+      ],
+      qarrshi: [
+        "Karizoprodol, meprobamat yoki karbamatlarga o'ta sezgirlik",
+        "O'tkir aralash porfiriya",
+        "Modda (giyohvand)/alkogol bog'liqligi anamnezi (suiiste'mol potensiali)",
+        "Homiladorlik va emizish; bolalik (16 yoshgacha) va keksa yosh (ehtiyot)"
+      ],
+      nojoya: {
+        "Nerv / umumiy": "Uyquchanlik, bosh aylanishi, bosh og'rig'i, sedatsiya, charchoq",
+        "Yurak-qon tomir": "Taxikardiya, gipotenziya, yuz qizarishi",
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, epigastral noxushlik",
+        "Boshqa": "Bog'liqlik va abstinent sindrom (uzoq qabuldan keyin to'satdan to'xtatilganda — ajitatsiya, tutqanoq); kamdan-kam — idiosinkratik reaksiya"
+      },
+      dozadan: "Belgilari: kuchli sedatsiya, koma, nafas tushishi, gipotenziya, shok (ayniqsa alkogol/depressantlar bilan birga). Davolash: nafas va gemodinamik qo'llab-quvvatlash, simptomatik; zarurda gemodializ.",
+      ozarotasir: [
+        "Alkogol, opioidlar, benzodiazepinlar va boshqa MNS depressantlari: sedatsiya va nafas tushishini xavfli darajada kuchaytiradi",
+        "CYP2C19 inhibitorlari/induktorlari: karizoprodol konsentratsiyasini o'zgartiradi",
+        "Markaziy ta'sirli boshqa mushak relaksantlari bilan ta'sir qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 250–350 mg×3/kun va uxlashdan oldin; davolash 2–3 haftadan oshmasligi tavsiya etiladi (bog'liqlik xavfi).",
+        bolalar: "16 yoshgacha tavsiya etilmaydi."
+      },
+      chiqarish: "Tabletkalar 250, 350 mg (ba'zan analgetik bilan kombinatsiyada)"
+    },
+    ru: {
+      gruppa: "Миорелаксанты центрального действия — карбамат (каризопродол)",
+      farmTasir: "Центральный миорелаксант (с седативными свойствами)",
+      farmakodinamika: `Каризопродол — миорелаксант центрального действия, производное карбамата. Тормозит межнейрональную активность в спинном мозге и ретикулярной формации, снижая тонус скелетных мышц и болезненный спазм. Действует также через активный метаболит мепробамат (анксиолитик-седатик) — поэтому обладает седативными и анксиолитическими свойствами и потенциалом злоупотребления/зависимости. На мышцу напрямую не действует, эффект центральный.`,
+      farmakokinetika: {
+        sorish: "Быстро всасывается внутрь, действие через ~30 мин. Cmax через ~1,5–2 ч.",
+        tarqalish: "Распределяется в тканях, проникает в ЦНС.",
+        metabolizm: "В печени при участии CYP2C19 до мепробамата (активен).",
+        chiqarilish: "Преимущественно почками. T½ — ~2 ч (мепробамат ~10 ч)."
+      },
+      korsatmalar: [
+        "Краткосрочная миорелаксация при остром болезненном скелетно-мышечном состоянии (вместе с физиотерапией и покоем)",
+        "Мышечный спазм и боль (шея, поясница) — вспомогательно, коротким курсом"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к каризопродолу, мепробамату или карбаматам",
+        "Острая перемежающаяся порфирия",
+        "Анамнез лекарственной/алкогольной зависимости (потенциал злоупотребления)",
+        "Беременность и лактация; детский возраст (до 16 лет) и пожилой возраст (осторожно)"
+      ],
+      nojoya: {
+        "Нервы / общие": "Сонливость, головокружение, головная боль, седация, утомляемость",
+        "Сердечно-сосудистая система": "Тахикардия, гипотензия, приливы",
+        "Пищеварительная система": "Тошнота, рвота, эпигастральный дискомфорт",
+        "Прочее": "Зависимость и абстинентный синдром (при резкой отмене после длительного приёма — ажитация, судороги); редко — идиосинкразическая реакция"
+      },
+      dozadan: "Симптомы: сильная седация, кома, угнетение дыхания, гипотензия, шок (особенно с алкоголем/депрессантами). Лечение: респираторная и гемодинамическая поддержка, симптоматически; при необходимости гемодиализ.",
+      ozarotasir: [
+        "Алкоголь, опиоиды, бензодиазепины и другие депрессанты ЦНС: опасно усиливают седацию и угнетение дыхания",
+        "Ингибиторы/индукторы CYP2C19: меняют концентрацию каризопродола",
+        "С другими центральными миорелаксантами действие суммируется"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 250–350 мг×3/сут и перед сном; лечение не более 2–3 недель (риск зависимости).",
+        bolalar: "До 16 лет не рекомендуется."
+      },
+      chiqarish: "Таблетки 250, 350 мг (иногда в комбинации с анальгетиком)"
+    },
+    en: {
+      gruppa: "Centrally acting muscle relaxants — carbamate (carisoprodol)",
+      farmTasir: "Central muscle relaxant (with sedative properties)",
+      farmakodinamika: `Carisoprodol is a centrally acting muscle relaxant, a carbamate derivative. It inhibits interneuronal activity in the spinal cord and reticular formation, reducing skeletal muscle tone and painful spasm. It also acts via the active metabolite meprobamate (anxiolytic-sedative) — so it has sedative and anxiolytic properties and abuse/dependence potential. It does not act directly on muscle; the effect is central.`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally, effect in ~30 min. Cmax in ~1.5–2 h.",
+        tarqalish: "Distributes in tissues, penetrates the CNS.",
+        metabolizm: "Hepatic via CYP2C19 to meprobamate (active).",
+        chiqarilish: "Mainly renal. T½ — ~2 h (meprobamate ~10 h)."
+      },
+      korsatmalar: [
+        "Short-term muscle relaxation in acute painful musculoskeletal conditions (with physiotherapy and rest)",
+        "Muscle spasm and pain (neck, lower back) — adjunct, short course"
+      ],
+      qarrshi: [
+        "Hypersensitivity to carisoprodol, meprobamate or carbamates",
+        "Acute intermittent porphyria",
+        "History of drug/alcohol dependence (abuse potential)",
+        "Pregnancy and lactation; childhood (under 16) and old age (caution)"
+      ],
+      nojoya: {
+        "Nerve / general": "Drowsiness, dizziness, headache, sedation, fatigue",
+        "Cardiovascular system": "Tachycardia, hypotension, flushing",
+        "Digestive system": "Nausea, vomiting, epigastric discomfort",
+        "Other": "Dependence and withdrawal syndrome (on abrupt discontinuation after prolonged use — agitation, convulsions); rarely an idiosyncratic reaction"
+      },
+      dozadan: "Symptoms: marked sedation, coma, respiratory depression, hypotension, shock (especially with alcohol/depressants). Treatment: respiratory and haemodynamic support, symptomatic; haemodialysis if needed.",
+      ozarotasir: [
+        "Alcohol, opioids, benzodiazepines and other CNS depressants: dangerously enhance sedation and respiratory depression",
+        "CYP2C19 inhibitors/inducers: alter carisoprodol concentration",
+        "With other central muscle relaxants the effect is additive"
+      ],
+      qollash: {
+        kattalar: "Orally: 250–350 mg×3/day and at bedtime; treat for no more than 2–3 weeks (dependence risk).",
+        bolalar: "Not recommended under 16 years."
+      },
+      chiqarish: "Tablets 250, 350 mg (sometimes combined with an analgesic)"
+    }
+  },
+
+  // ── XLORZOKSAZON | ATX: M03BB03 ──
+  "M03BB03": {
+    uz: {
+      gruppa: "Markaziy ta'sirli mushak relaksantlari — benzoksazol (xlorzoksazon)",
+      farmTasir: "Markaziy miorelaksant",
+      farmakodinamika: `Xlorzoksazon — benzoksazol hosilasi bo'lgan markaziy ta'sirli mushak relaksanti. Asosan orqa miya va orqa miyaosti (subkortikal) sohalardagi polisinaptik refleks yoylarini tormozlab skelet mushak spazmini va u bilan bog'liq og'riqni kamaytiradi. Mushak tolasiga, motor uchki plastinkaga yoki nerv tolasiga to'g'ridan-to'g'ri ta'sir qilmaydi — ta'siri markaziy. Sedatsiyasi nisbatan o'rtacha. Ko'pincha analgetik (parasetamol) bilan kombinatsiyada qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez so'riladi, ta'sir ~1 soatda. Cmax 1–2 soatda.",
+        tarqalish: "To'qimalarga tarqaladi.",
+        metabolizm: "Jigarda CYP2E1 ishtirokida gidroksillanish va glyukuronlanish.",
+        chiqarilish: "Asosan siydik orqali konyugat ko'rinishida. T½ — ~1–2 soat."
+      },
+      korsatmalar: [
+        "O'tkir og'riqli skelet-mushak holatlarida mushak spazmini kamaytirish (jismoniy davolash bilan birga)",
+        "Mushak cho'zilishi, lat yeyish, spazm bilan kechuvchi holatlar (yordamchi, qisqa kurs)"
+      ],
+      qarrshi: [
+        "Xlorzoksazonga o'ta sezgirlik",
+        "Jigar kasalligi yoki funksiyasi buzilishi (gepatotoksiklik xavfi)",
+        "Homiladorlik va emizish (ma'lumot cheklangan)",
+        "Bolalik yoshi (ehtiyot)"
+      ],
+      nojoya: {
+        "Nerv / umumiy": "Uyquchanlik, bosh aylanishi, holsizlik, bosh og'rig'i",
+        "Hazm tizimi": "Ko'ngil aynishi, qorin noxushligi, diareya",
+        "Jigar": "Kamdan-kam — idiosinkratik gepatotoksiklik (jigar fermentlari oshishi, sariqlik — nazorat zarur)",
+        "Siydik / teri": "Siydikning to'q (qizg'ish-binafsha) rangga bo'yalishi (zararsiz); toshma, qichima",
+        "Allergik": "Kamdan-kam — angionevrotik shish, anafilaksiya"
+      },
+      dozadan: "Belgilari: kuchli uyquchanlik, holsizlik, ko'ngil aynishi, gipotenziya, nafas tushishi. Davolash: oshqozonni yuvish, simptomatik, nafas/gemodinamik qo'llab-quvvatlash.",
+      ozarotasir: [
+        "Alkogol va MNS depressantlari: sedatsiyani kuchaytiradi",
+        "CYP2E1 induktorlari/inhibitorlari (alkogol, izoniazid) metabolizmga va gepatotoksiklikка ta'sir qiladi",
+        "Boshqa gepatotoksik dorilar bilan jigar shikastlanishi xavfi oshadi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 250–500 mg×3–4/kun, ovqatdan keyin; maks. odatda 750 mg×3/kun gacha (ko'rsatmaga qarab). Qisqa kurs.",
+        bolalar: "Vaznga qarab past dozada, ehtiyot bilan (faqat ko'rsatma bo'yicha)."
+      },
+      chiqarish: "Tabletkalar 250, 500 mg (ko'pincha parasetamol bilan kombinatsiyada)"
+    },
+    ru: {
+      gruppa: "Миорелаксанты центрального действия — бензоксазол (хлорзоксазон)",
+      farmTasir: "Центральный миорелаксант",
+      farmakodinamika: `Хлорзоксазон — миорелаксант центрального действия, производное бензоксазола. Преимущественно тормозит полисинаптические рефлекторные дуги на уровне спинного мозга и подкорковых областей, уменьшая спазм скелетных мышц и связанную с ним боль. Не действует напрямую на мышечное волокно, концевую пластинку или нервное волокно — эффект центральный. Седация относительно умеренная. Часто применяется в комбинации с анальгетиком (парацетамол).`,
+      farmakokinetika: {
+        sorish: "Быстро всасывается внутрь, действие через ~1 ч. Cmax через 1–2 ч.",
+        tarqalish: "Распределяется в тканях.",
+        metabolizm: "В печени при участии CYP2E1 — гидроксилирование и глюкуронирование.",
+        chiqarilish: "Преимущественно почками в виде конъюгатов. T½ — ~1–2 ч."
+      },
+      korsatmalar: [
+        "Уменьшение мышечного спазма при острых болезненных скелетно-мышечных состояниях (вместе с физиотерапией)",
+        "Растяжение мышц, ушиб, состояния со спазмом (вспомогательно, коротким курсом)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к хлорзоксазону",
+        "Заболевание печени или нарушение её функции (риск гепатотоксичности)",
+        "Беременность и лактация (данные ограничены)",
+        "Детский возраст (осторожно)"
+      ],
+      nojoya: {
+        "Нервы / общие": "Сонливость, головокружение, слабость, головная боль",
+        "Пищеварительная система": "Тошнота, дискомфорт в животе, диарея",
+        "Печень": "Редко — идиосинкразическая гепатотоксичность (повышение ферментов печени, желтуха — нужен контроль)",
+        "Моча / кожа": "Окрашивание мочи в тёмный (красновато-фиолетовый) цвет (безвредно); сыпь, зуд",
+        "Аллергия": "Редко — ангионевротический отёк, анафилаксия"
+      },
+      dozadan: "Симптомы: сильная сонливость, слабость, тошнота, гипотензия, угнетение дыхания. Лечение: промывание желудка, симптоматически, респираторная/гемодинамическая поддержка.",
+      ozarotasir: [
+        "Алкоголь и депрессанты ЦНС: усиливают седацию",
+        "Индукторы/ингибиторы CYP2E1 (алкоголь, изониазид) влияют на метаболизм и гепатотоксичность",
+        "С другими гепатотоксичными препаратами риск поражения печени возрастает"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 250–500 мг×3–4/сут после еды; максимум обычно до 750 мг×3/сут (по показаниям). Коротким курсом.",
+        bolalar: "По массе тела в низкой дозе, с осторожностью (только по показаниям)."
+      },
+      chiqarish: "Таблетки 250, 500 мг (часто в комбинации с парацетамолом)"
+    },
+    en: {
+      gruppa: "Centrally acting muscle relaxants — benzoxazole (chlorzoxazone)",
+      farmTasir: "Central muscle relaxant",
+      farmakodinamika: `Chlorzoxazone is a centrally acting muscle relaxant, a benzoxazole derivative. It mainly inhibits polysynaptic reflex arcs at the spinal cord and subcortical level, reducing skeletal muscle spasm and associated pain. It does not act directly on the muscle fibre, the motor end plate or the nerve fibre — the effect is central. Sedation is relatively moderate. It is often used in combination with an analgesic (paracetamol).`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally, effect in ~1 h. Cmax in 1–2 h.",
+        tarqalish: "Distributes in tissues.",
+        metabolizm: "Hepatic via CYP2E1 — hydroxylation and glucuronidation.",
+        chiqarilish: "Mainly renal as conjugates. T½ — ~1–2 h."
+      },
+      korsatmalar: [
+        "Reducing muscle spasm in acute painful musculoskeletal conditions (with physiotherapy)",
+        "Muscle strain, contusion, conditions with spasm (adjunct, short course)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to chlorzoxazone",
+        "Liver disease or impaired liver function (hepatotoxicity risk)",
+        "Pregnancy and lactation (limited data)",
+        "Childhood (caution)"
+      ],
+      nojoya: {
+        "Nerve / general": "Drowsiness, dizziness, weakness, headache",
+        "Digestive system": "Nausea, abdominal discomfort, diarrhoea",
+        "Liver": "Rarely idiosyncratic hepatotoxicity (raised liver enzymes, jaundice — monitoring needed)",
+        "Urine / skin": "Dark (reddish-purple) discolouration of urine (harmless); rash, pruritus",
+        "Allergy": "Rarely angioedema, anaphylaxis"
+      },
+      dozadan: "Symptoms: marked drowsiness, weakness, nausea, hypotension, respiratory depression. Treatment: gastric lavage, symptomatic, respiratory/haemodynamic support.",
+      ozarotasir: [
+        "Alcohol and CNS depressants: enhance sedation",
+        "CYP2E1 inducers/inhibitors (alcohol, isoniazid) affect metabolism and hepatotoxicity",
+        "With other hepatotoxic drugs the risk of liver injury increases"
+      ],
+      qollash: {
+        kattalar: "Orally: 250–500 mg×3–4/day after food; maximum usually up to 750 mg×3/day (as indicated). Short course.",
+        bolalar: "By body weight at a low dose, with caution (only as indicated)."
+      },
+      chiqarish: "Tablets 250, 500 mg (often combined with paracetamol)"
+    }
   }
 
 };
