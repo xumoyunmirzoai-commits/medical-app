@@ -48443,6 +48443,1658 @@ const PHARMA_DATA = {
       },
       chiqarish: "Solution for i/v injection 2.4% (24 mg/mL); tablets 100, 150 mg; extended-release tablets"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // R-Batch 4 — Mukolitiklar va ekspektorantlar (R05CB)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── AMBROKSOL | ATX: R05CB06 ──
+  "R05CB06": {
+    uz: {
+      gruppa: "Yo'talga qarshi va ekspektorant vositalar — mukolitik (ambroksol)",
+      farmTasir: "Balg'amni suyultiruvchi va chiqarishni osonlashtiruvchi (mukolitik-mukokinetik)",
+      farmakodinamika: `Ambroksol — bromgeksinning faol metaboliti bo'lgan mukolitik. Balg'amdagi mukopolisaxarid tolalarini parchalab uning yopishqoqligini kamaytiradi (mukolitik), bronx bezlari seroz sekretsiyasini oshiradi, kiprikchali epiteliy faolligini va mukosiliar transportni kuchaytiradi (mukokinetik) — balg'am osonroq ko'chadi. Alveolalardagi surfaktant sintezi va ajralishini rag'batlantiradi (alveolalar yopishib qolishini oldini oladi). Yengil yallig'lanishga qarshi va antioksidant, shuningdek mahalliy og'riq qoldiruvchi ta'sirga ega (tomoq og'rig'ida pastil shaklida).`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez va deyarli to'liq so'riladi; «birinchi o'tish» tufayli biokirish ~70%.",
+        tarqalish: "To'qimalarga keng tarqaladi, ayniqsa o'pkага; plazma oqsillariga ~90%.",
+        metabolizm: "Jigarда konyugatsiya va metabolizatsiya (dibromantranil kislota).",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida. T½ — ~10 soat."
+      },
+      korsatmalar: [
+        "O'tkir va surункали bronxit, pnevmoniya, SOPK — qovushqoq balg'am bilan",
+        "Bronxoektaz kasalligi, bronxial astma (balg'am ko'chishi qiyin bo'lganда)",
+        "Laringit, faringit (pastil — tomoq og'rig'i)",
+        "Yangi tug'ilganlarда respirator distress-sindrom profilaktikasi (surfaktantни rag'batlantirish — alohida)"
+      ],
+      qarrshi: [
+        "Ambroksol yoki bromgeksinga o'ta sezgirlik",
+        "Oshqozon-ichak yarasi qo'zg'alishi (ehtiyot)",
+        "Homiladorlikning I trimestri (ehtiyot); og'ir jigar/buyrak yetishmovchiligida doza sozlash",
+        "Nodir teri reaksiyalari anamnezi (Stivens-Jonson) — ehtiyot"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, diareya, epigastral noxushlik, og'iz qurishi (kamdan-kam)",
+        "Allergik / teri": "Toshma, qichima, eshakemi; juda kam — og'ir teri reaksiyalari (Stivens-Jonson, TEN)",
+        "Boshqa": "Ta'm o'zgarishi, og'iz/halqum uvishishi (pastil), bosh og'rig'i"
+      },
+      dozadan: "Yuqori xavfsizlik profili; dozadan oshish belgilari kam (ko'ngil aynishi, diareya). Davolash: simptomatik.",
+      ozarotasir: [
+        "Antitussiv (yo'talни bostiruvchi, masalan kodein) bilan birga: suyultirilgan balg'am ko'chmay qolishi mumkin — birga ishlatish tavsiya etilmaydi",
+        "Antibiotiklar (amoksitsillin, sefuroksim, eritromitsin)ning o'pka to'qimasiga kirishini oshiradi (foydali sinergiya)"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 30 mg×3/kun dastlabki kunlar, keyin 30 mg×2/kun; yoki uzaytirilgan 75 mg×1/kun. Sirop/eritma, ingalyatsiya (nebulayzer), in'eksiya (og'ir holatда) ham mavjud. Yetarli suyuqlik ichish balg'am ko'chishini yaxshilaydi.",
+        bolalar: "Yoshга qarab sirop: 2 yoshgача 7,5 mg×2; 2–6 yosh 7,5 mg×3; 6–12 yosh 15 mg×2–3. Vaznга qarab moslanadi."
+      },
+      chiqarish: "Tabletkalar 30 mg; uzaytirilgan kapsulalar 75 mg; sirop 15 mg/5 ml, 30 mg/5 ml; eritma (ichish/ingalyatsiya); in'eksiya; so'riladigan pastil"
+    },
+    ru: {
+      gruppa: "Противокашлевые и отхаркивающие средства — муколитик (амброксол)",
+      farmTasir: "Разжижающий мокроту и облегчающий её выведение (муколитик-мукокинетик)",
+      farmakodinamika: `Амброксол — муколитик, активный метаболит бромгексина. Расщепляет мукополисахаридные волокна мокроты, снижая её вязкость (муколитик), повышает серозную секрецию бронхиальных желёз, усиливает активность реснитчатого эпителия и мукоцилиарный транспорт (мукокинетик) — мокрота легче отходит. Стимулирует синтез и выделение сурфактанта в альвеолах (предотвращает их спадение). Обладает лёгким противовоспалительным и антиоксидантным, а также местным анальгезирующим действием (в форме пастилок при боли в горле).`,
+      farmakokinetika: {
+        sorish: "Внутрь всасывается быстро и почти полно; из-за «первого прохождения» биодоступность ~70%.",
+        tarqalish: "Широко распределяется в ткани, особенно в лёгкие; связь с белками плазмы ~90%.",
+        metabolizm: "В печени конъюгация и метаболизм (дибромантраниловая кислота).",
+        chiqarilish: "Преимущественно с мочой в виде метаболитов. T½ — ~10 ч."
+      },
+      korsatmalar: [
+        "Острый и хронический бронхит, пневмония, ХОБЛ — с вязкой мокротой",
+        "Бронхоэктатическая болезнь, бронхиальная астма (при затруднённом отхождении мокроты)",
+        "Ларингит, фарингит (пастилки — боль в горле)",
+        "Профилактика респираторного дистресс-синдрома у новорождённых (стимуляция сурфактанта — отдельно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к амброксолу или бромгексину",
+        "Обострение язвы ЖКТ (осторожно)",
+        "I триместр беременности (осторожно); при тяжёлой печёночной/почечной недостаточности коррекция дозы",
+        "Анамнез редких кожных реакций (Стивенса-Джонсона) — осторожно"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Тошнота, рвота, диарея, эпигастральный дискомфорт, сухость во рту (редко)",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница; очень редко — тяжёлые кожные реакции (Стивенса-Джонсона, ТЭН)",
+        "Прочее": "Изменение вкуса, онемение рта/глотки (пастилки), головная боль"
+      },
+      dozadan: "Высокий профиль безопасности; признаки передозировки редки (тошнота, диарея). Лечение: симптоматически.",
+      ozarotasir: [
+        "С противокашлевыми (подавляющими кашель, например кодеин): разжижённая мокрота может не отходить — сочетание не рекомендуется",
+        "Повышает проникновение антибиотиков (амоксициллин, цефуроксим, эритромицин) в лёгочную ткань (полезная синергия)"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 30 мг×3/сут первые дни, затем 30 мг×2/сут; или пролонгированная 75 мг×1/сут. Доступны сироп/раствор, ингаляция (небулайзер), инъекция (при тяжёлом состоянии). Достаточное питьё улучшает отхождение мокроты.",
+        bolalar: "По возрасту сироп: до 2 лет 7,5 мг×2; 2–6 лет 7,5 мг×3; 6–12 лет 15 мг×2–3. Корректируется по массе."
+      },
+      chiqarish: "Таблетки 30 мг; пролонгированные капсулы 75 мг; сироп 15 мг/5 мл, 30 мг/5 мл; раствор (внутрь/ингаляция); инъекция; рассасываемые пастилки"
+    },
+    en: {
+      gruppa: "Cough and expectorant agents — mucolytic (ambroxol)",
+      farmTasir: "Thins sputum and eases its clearance (mucolytic-mucokinetic)",
+      farmakodinamika: `Ambroxol is a mucolytic, the active metabolite of bromhexine. It breaks down mucopolysaccharide fibres of sputum, reducing its viscosity (mucolytic), increases serous secretion of bronchial glands, and enhances ciliary epithelial activity and mucociliary transport (mucokinetic) — so sputum clears more easily. It stimulates synthesis and release of alveolar surfactant (preventing alveolar collapse). It has mild anti-inflammatory and antioxidant action, plus local analgesic action (as a lozenge for sore throat).`,
+      farmakokinetika: {
+        sorish: "Rapidly and almost completely absorbed orally; first-pass gives bioavailability ~70%.",
+        tarqalish: "Widely distributed to tissues, especially the lungs; plasma protein binding ~90%.",
+        metabolizm: "Hepatic conjugation and metabolism (dibromanthranilic acid).",
+        chiqarilish: "Mainly renal as metabolites. T½ — ~10 h."
+      },
+      korsatmalar: [
+        "Acute and chronic bronchitis, pneumonia, COPD — with viscous sputum",
+        "Bronchiectasis, bronchial asthma (when sputum clearance is difficult)",
+        "Laryngitis, pharyngitis (lozenges — sore throat)",
+        "Prevention of respiratory distress syndrome in neonates (surfactant stimulation — separate)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to ambroxol or bromhexine",
+        "Active GI ulcer (caution)",
+        "First trimester of pregnancy (caution); dose adjustment in severe hepatic/renal failure",
+        "History of rare skin reactions (Stevens-Johnson) — caution"
+      ],
+      nojoya: {
+        "Digestive system": "Nausea, vomiting, diarrhoea, epigastric discomfort, dry mouth (rare)",
+        "Allergy / skin": "Rash, pruritus, urticaria; very rarely severe skin reactions (Stevens-Johnson, TEN)",
+        "Other": "Taste change, mouth/throat numbness (lozenge), headache"
+      },
+      dozadan: "High safety profile; overdose signs are rare (nausea, diarrhoea). Treatment: symptomatic.",
+      ozarotasir: [
+        "With antitussives (cough suppressants such as codeine): thinned sputum may not clear — combination not recommended",
+        "Increases penetration of antibiotics (amoxicillin, cefuroxime, erythromycin) into lung tissue (useful synergy)"
+      ],
+      qollash: {
+        kattalar: "Orally: 30 mg×3/day for the first days, then 30 mg×2/day; or extended-release 75 mg×1/day. Syrup/solution, inhalation (nebuliser) and injection (severe cases) are available. Adequate fluid intake improves sputum clearance.",
+        bolalar: "By age as syrup: under 2 years 7.5 mg×2; 2–6 years 7.5 mg×3; 6–12 years 15 mg×2–3. Adjusted by weight."
+      },
+      chiqarish: "Tablets 30 mg; extended-release capsules 75 mg; syrup 15 mg/5 mL, 30 mg/5 mL; solution (oral/inhalation); injection; lozenges"
+    }
+  },
+
+  // ── ATSETILSISTEIN | ATX: R05CB01 ──
+  "R05CB01": {
+    uz: {
+      gruppa: "Yo'talga qarshi va ekspektorant vositalar — mukolitik (atsetilsistein)",
+      farmTasir: "Balg'amni suyultiruvchi, antioksidant; parasetamol antidoti",
+      farmakodinamika: `Atsetilsistein (N-atsetilsistein, NAC) — aminokislota sistein hosilasi bo'lgan mukolitik. Molekulasidagi erkin sulfgidril (–SH) guruhi balg'am mukoproteinlaridagi disulfid bog'larini uzadi — balg'am yopishqoqligini keskin kamaytiradi va uni osonroq ko'chiradi. Yiringli balg'amga ham ta'sir qiladi. Glutation sintezi uchun substrat bo'lgani uchun kuchli antioksidant ta'sirga ega va jigarni himoya qiladi — shu sababli parasetamol (atsetaminofen) bilan zaharlanишда spetsifik antidot sifatida qo'llaniladi (jigar nekrozini oldini oladi).`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez so'riladi, lekin «birinchi o'tish» tufayli biokirish past (~10%); i/v ham yuboriladi.",
+        tarqalish: "To'qimalarga tarqaladi; plazma oqsillariga ~50%.",
+        metabolizm: "Jigarда sistein va boshqa metabolitlarga.",
+        chiqarilish: "Asosan siydik orqali. T½ — ~6 soat."
+      },
+      korsatmalar: [
+        "O'tkir va surункали bronxit, traxeit, pnevmoniya, SOPK, bronxoektaz, mukovissidoz — qovushqoq/yiringli balg'am",
+        "Otit, sinusit (qovushqoq sekret)",
+        "Parasetamol (atsetaminofen) bilan o'tkir zaharlanish — spetsifik antidot (i/v yoki peroral)",
+        "Kontrast-induksiyalangan nefropatiya profilaktikasi (ayrim protokollarda)"
+      ],
+      qarrshi: [
+        "Atsetilsisteinga o'ta sezgirlik",
+        "Oshqozon-ichak yarasi qo'zg'alishi (ehtiyot)",
+        "Bronxial astma (bronxospazm xavfi — ehtiyot)",
+        "Homiladorlik va emizishда foyda/xavf (antidot ko'rsatmasida qo'llaniladi)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, diareya, epigastral noxushlik, stomatit",
+        "Nafas / allergik": "Bronxospazm (ayniqsa astmaда), rinoreya; i/v da — anafilaktoid reaksiya (toshma, gipotenziya, bronxospazm)",
+        "Boshqa": "Bosh og'rig'i, quloqда shovqin, isitma"
+      },
+      dozadan: "Yuqori xavfsizlik; ortiqcha qabulда oshqozon-ichak buzilishi. I/v antidot dozasida anafilaktoid reaksiya bo'lishi mumkin (infuziya tezligini kamaytirish). Davolash: simptomatik.",
+      ozarotasir: [
+        "Antitussiv (yo'talни bostiruvchi) bilan birga: balg'am turib qolishi mumkin — birga ishlatilmaydi",
+        "Antibiotiklar (penitsillinlar, sefalosporinlar, tetratsiklinlar): atsetilsistein bilan to'g'ridan-to'g'ri aralashtirilmaydi (faolligi pasayadi) — 2 soat ajrating",
+        "Nitroglitserin: gipotenziv va vazodilatator ta'sirini kuchaytiradi"
+      ],
+      qollash: {
+        kattalar: "Mukolitik: 200 mg×2–3/kun yoki 600 mg×1/kun (shipuchi tabletka/poroshok). Ingalyatsiya/nebulayzer ham. Parasetamol antidoti: maxsus i/v yoki peroral sxema (vazn va vaqtga qarab — shoshilinch protokol).",
+        bolalar: "Yoshга qarab 100–200 mg×2–3/kun; 2 yoshgача ehtiyot bilan, shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "Shipuchi tabletkalar 200, 600 mg; poroshok/granula; ichish eritmasi; ingalyatsiya/in'eksiya eritmasi (antidot uchun)"
+    },
+    ru: {
+      gruppa: "Противокашлевые и отхаркивающие средства — муколитик (ацетилцистеин)",
+      farmTasir: "Разжижающий мокроту, антиоксидант; антидот парацетамола",
+      farmakodinamika: `Ацетилцистеин (N-ацетилцистеин, NAC) — муколитик, производное аминокислоты цистеина. Свободная сульфгидрильная (–SH) группа разрывает дисульфидные связи мукопротеинов мокроты — резко снижает её вязкость и облегчает отхождение. Действует и на гнойную мокроту. Будучи субстратом для синтеза глутатиона, обладает сильным антиоксидантным действием и защищает печень — поэтому применяется как специфический антидот при отравлении парацетамолом (ацетаминофеном), предотвращая некроз печени.`,
+      farmakokinetika: {
+        sorish: "Внутрь всасывается быстро, но из-за «первого прохождения» биодоступность низкая (~10%); вводится также в/в.",
+        tarqalish: "Распределяется в ткани; связь с белками плазмы ~50%.",
+        metabolizm: "В печени до цистеина и других метаболитов.",
+        chiqarilish: "Преимущественно с мочой. T½ — ~6 ч."
+      },
+      korsatmalar: [
+        "Острый и хронический бронхит, трахеит, пневмония, ХОБЛ, бронхоэктазы, муковисцидоз — вязкая/гнойная мокрота",
+        "Отит, синусит (вязкий секрет)",
+        "Острое отравление парацетамолом (ацетаминофеном) — специфический антидот (в/в или внутрь)",
+        "Профилактика контраст-индуцированной нефропатии (в отдельных протоколах)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к ацетилцистеину",
+        "Обострение язвы ЖКТ (осторожно)",
+        "Бронхиальная астма (риск бронхоспазма — осторожно)",
+        "При беременности и лактации польза/риск (применяется по показанию антидота)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Тошнота, рвота, диарея, эпигастральный дискомфорт, стоматит",
+        "Дыхание / аллергия": "Бронхоспазм (особенно при астме), ринорея; при в/в — анафилактоидная реакция (сыпь, гипотензия, бронхоспазм)",
+        "Прочее": "Головная боль, шум в ушах, лихорадка"
+      },
+      dozadan: "Высокая безопасность; при избытке — расстройство ЖКТ. При в/в в дозе антидота возможна анафилактоидная реакция (снизить скорость инфузии). Лечение: симптоматически.",
+      ozarotasir: [
+        "С противокашлевыми (подавляющими кашель): мокрота может застаиваться — не сочетать",
+        "Антибиотики (пенициллины, цефалоспорины, тетрациклины): не смешивать напрямую с ацетилцистеином (снижение активности) — разнести на 2 ч",
+        "Нитроглицерин: усиливает гипотензивное и вазодилатирующее действие"
+      ],
+      qollash: {
+        kattalar: "Муколитик: 200 мг×2–3/сут или 600 мг×1/сут (шипучая таблетка/порошок). Также ингаляция/небулайзер. Антидот парацетамола: специальная в/в или пероральная схема (по массе и времени — неотложный протокол).",
+        bolalar: "По возрасту 100–200 мг×2–3/сут; до 2 лет осторожно, по назначению врача."
+      },
+      chiqarish: "Шипучие таблетки 200, 600 мг; порошок/гранулы; раствор для приёма внутрь; раствор для ингаляции/инъекций (для антидота)"
+    },
+    en: {
+      gruppa: "Cough and expectorant agents — mucolytic (acetylcysteine)",
+      farmTasir: "Thins sputum, antioxidant; paracetamol antidote",
+      farmakodinamika: `Acetylcysteine (N-acetylcysteine, NAC) is a mucolytic derived from the amino acid cysteine. Its free sulfhydryl (–SH) group breaks disulfide bonds of sputum mucoproteins — sharply reducing viscosity and easing clearance. It also acts on purulent sputum. As a substrate for glutathione synthesis it has strong antioxidant action and protects the liver — so it is used as a specific antidote in paracetamol (acetaminophen) poisoning, preventing liver necrosis.`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally, but first-pass gives low bioavailability (~10%); also given i/v.",
+        tarqalish: "Distributes to tissues; plasma protein binding ~50%.",
+        metabolizm: "Hepatic to cysteine and other metabolites.",
+        chiqarilish: "Mainly renal. T½ — ~6 h."
+      },
+      korsatmalar: [
+        "Acute and chronic bronchitis, tracheitis, pneumonia, COPD, bronchiectasis, cystic fibrosis — viscous/purulent sputum",
+        "Otitis, sinusitis (viscous secretion)",
+        "Acute paracetamol (acetaminophen) poisoning — specific antidote (i/v or oral)",
+        "Prevention of contrast-induced nephropathy (in some protocols)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to acetylcysteine",
+        "Active GI ulcer (caution)",
+        "Bronchial asthma (bronchospasm risk — caution)",
+        "In pregnancy and lactation benefit/risk (used for the antidote indication)"
+      ],
+      nojoya: {
+        "Digestive system": "Nausea, vomiting, diarrhoea, epigastric discomfort, stomatitis",
+        "Respiratory / allergy": "Bronchospasm (especially in asthma), rhinorrhoea; with i/v — anaphylactoid reaction (rash, hypotension, bronchospasm)",
+        "Other": "Headache, tinnitus, fever"
+      },
+      dozadan: "High safety; with excess — GI upset. At the i/v antidote dose an anaphylactoid reaction may occur (reduce infusion rate). Treatment: symptomatic.",
+      ozarotasir: [
+        "With antitussives (cough suppressants): sputum may stagnate — do not combine",
+        "Antibiotics (penicillins, cephalosporins, tetracyclines): do not mix directly with acetylcysteine (reduced activity) — separate by 2 h",
+        "Nitroglycerin: enhances hypotensive and vasodilator effect"
+      ],
+      qollash: {
+        kattalar: "Mucolytic: 200 mg×2–3/day or 600 mg×1/day (effervescent tablet/powder). Also inhalation/nebuliser. Paracetamol antidote: a special i/v or oral regimen (by weight and time — emergency protocol).",
+        bolalar: "By age 100–200 mg×2–3/day; under 2 years with caution, as prescribed."
+      },
+      chiqarish: "Effervescent tablets 200, 600 mg; powder/granules; oral solution; solution for inhalation/injection (for the antidote)"
+    }
+  },
+
+  // ── BROMGEKSIN | ATX: R05CB02 ──
+  "R05CB02": {
+    uz: {
+      gruppa: "Yo'talga qarshi va ekspektorant vositalar — mukolitik (bromgeksin)",
+      farmTasir: "Balg'amni suyultiruvchi va chiqarishni osonlashtiruvchi (mukolitik)",
+      farmakodinamika: `Bromgeksin — vazitsin alkaloidi hosilasi bo'lgan mukolitik-ekspektorant. Balg'amdagi mukopolisaxarid va mukoprotein tolalarini parchalab uning yopishqoqligini kamaytiradi, bronx bezlari seroz sekretsiyasini oshiradi va kiprikchali epiteliy faolligini kuchaytiradi — balg'am ko'chishini osonlashtiradi. Organizmда faol metaboliti ambroksolga aylanadi. Surfaktant sintezini ham rag'batlantiradi. Ta'siri 2–5 kunдан keyin to'liq namoyon bo'ladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi, lekin «birinchi o'tish» tufayli biokirish past (~20%).",
+        tarqalish: "To'qimalarga tarqaladi; plazma oqsillariga yuqori bog'lanadi.",
+        metabolizm: "Jigarда faol ambroksolga va boshqa metabolitlarga.",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida. T½ — ~6,5 soat."
+      },
+      korsatmalar: [
+        "O'tkir va surункали bronxit, traxeobronxit, pnevmoniya, SOPK — qovushqoq balg'am",
+        "Bronxoektaz, mukovissidoz",
+        "Bronxoskopiyadan oldin/keyin balg'amni ko'chirish"
+      ],
+      qarrshi: [
+        "Bromgeksinga o'ta sezgirlik",
+        "Oshqozon-ichak yarasi qo'zg'alishi (ehtiyot)",
+        "Homiladorlikning I trimestri (ehtiyot)",
+        "Og'ir jigar/buyrak yetishmovchiligi (ehtiyot)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, diareya, epigastral noxushlik",
+        "Allergik / teri": "Toshma, qichima, eshakemi; juda kam — angionevrotik shish, og'ir teri reaksiyalari",
+        "Boshqa": "Bosh og'rig'i, bosh aylanishi, transaminazalar oshishi (kamdan-kam)"
+      },
+      dozadan: "Yuqori xavfsizlik; ortiqcha qabулда hazm buzilishi. Davolash: simptomatik.",
+      ozarotasir: [
+        "Antitussiv (yo'talни bostiruvchi) bilan birga: suyultirilgan balg'am turib qolishi mumkin",
+        "Antibiotiklarning (amoksitsillin, eritromitsin, sefalosporinlar) balg'amga kirishini oshiradi (sinergiya)"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 8–16 mg×3/kun. Sirop va in'eksiya shakli ham mavjud. Yetarli suyuqlik ichish balg'am ko'chishini yaxshilaydi.",
+        bolalar: "Yoshга qarab: 2–6 yosh 4 mg×3; 6–10 yosh 6–8 mg×3; 10 yoshdan kattalар dozasi (sirop shaklida)."
+      },
+      chiqarish: "Tabletkalar 8 mg; sirop 4 mg/5 ml, 8 mg/5 ml; ichish eritmasi/tomchilari; in'eksiya"
+    },
+    ru: {
+      gruppa: "Противокашлевые и отхаркивающие средства — муколитик (бромгексин)",
+      farmTasir: "Разжижающий мокроту и облегчающий её выведение (муколитик)",
+      farmakodinamika: `Бромгексин — муколитик-отхаркивающее, производное алкалоида вазицина. Расщепляет мукополисахаридные и мукопротеиновые волокна мокроты, снижая её вязкость, повышает серозную секрецию бронхиальных желёз и усиливает активность реснитчатого эпителия — облегчает отхождение мокроты. В организме превращается в активный метаболит амброксол. Также стимулирует синтез сурфактанта. Эффект полностью проявляется через 2–5 дней.`,
+      farmakokinetika: {
+        sorish: "Внутрь хорошо всасывается, но из-за «первого прохождения» биодоступность низкая (~20%).",
+        tarqalish: "Распределяется в ткани; высоко связан с белками плазмы.",
+        metabolizm: "В печени до активного амброксола и других метаболитов.",
+        chiqarilish: "Преимущественно с мочой в виде метаболитов. T½ — ~6,5 ч."
+      },
+      korsatmalar: [
+        "Острый и хронический бронхит, трахеобронхит, пневмония, ХОБЛ — вязкая мокрота",
+        "Бронхоэктазы, муковисцидоз",
+        "Отхождение мокроты до/после бронхоскопии"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к бромгексину",
+        "Обострение язвы ЖКТ (осторожно)",
+        "I триместр беременности (осторожно)",
+        "Тяжёлая печёночная/почечная недостаточность (осторожно)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Тошнота, рвота, диарея, эпигастральный дискомфорт",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница; очень редко — ангионевротический отёк, тяжёлые кожные реакции",
+        "Прочее": "Головная боль, головокружение, повышение трансаминаз (редко)"
+      },
+      dozadan: "Высокая безопасность; при избытке — расстройство пищеварения. Лечение: симптоматически.",
+      ozarotasir: [
+        "С противокашлевыми (подавляющими кашель): разжижённая мокрота может застаиваться",
+        "Повышает проникновение антибиотиков (амоксициллин, эритромицин, цефалоспорины) в мокроту (синергия)"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 8–16 мг×3/сут. Доступны сироп и форма для инъекций. Достаточное питьё улучшает отхождение мокроты.",
+        bolalar: "По возрасту: 2–6 лет 4 мг×3; 6–10 лет 6–8 мг×3; с 10 лет доза взрослых (в форме сиропа)."
+      },
+      chiqarish: "Таблетки 8 мг; сироп 4 мг/5 мл, 8 мг/5 мл; раствор/капли для приёма внутрь; инъекция"
+    },
+    en: {
+      gruppa: "Cough and expectorant agents — mucolytic (bromhexine)",
+      farmTasir: "Thins sputum and eases its clearance (mucolytic)",
+      farmakodinamika: `Bromhexine is a mucolytic-expectorant, a derivative of the alkaloid vasicine. It breaks down mucopolysaccharide and mucoprotein fibres of sputum, reducing viscosity, increases serous secretion of bronchial glands and enhances ciliary epithelial activity — easing sputum clearance. In the body it is converted to the active metabolite ambroxol. It also stimulates surfactant synthesis. The full effect appears after 2–5 days.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally, but first-pass gives low bioavailability (~20%).",
+        tarqalish: "Distributes to tissues; highly plasma protein bound.",
+        metabolizm: "Hepatic to active ambroxol and other metabolites.",
+        chiqarilish: "Mainly renal as metabolites. T½ — ~6.5 h."
+      },
+      korsatmalar: [
+        "Acute and chronic bronchitis, tracheobronchitis, pneumonia, COPD — viscous sputum",
+        "Bronchiectasis, cystic fibrosis",
+        "Sputum clearance before/after bronchoscopy"
+      ],
+      qarrshi: [
+        "Hypersensitivity to bromhexine",
+        "Active GI ulcer (caution)",
+        "First trimester of pregnancy (caution)",
+        "Severe hepatic/renal failure (caution)"
+      ],
+      nojoya: {
+        "Digestive system": "Nausea, vomiting, diarrhoea, epigastric discomfort",
+        "Allergy / skin": "Rash, pruritus, urticaria; very rarely angioedema, severe skin reactions",
+        "Other": "Headache, dizziness, raised transaminases (rare)"
+      },
+      dozadan: "High safety; with excess — digestive upset. Treatment: symptomatic.",
+      ozarotasir: [
+        "With antitussives (cough suppressants): thinned sputum may stagnate",
+        "Increases penetration of antibiotics (amoxicillin, erythromycin, cephalosporins) into sputum (synergy)"
+      ],
+      qollash: {
+        kattalar: "Orally: 8–16 mg×3/day. Syrup and an injectable form are available. Adequate fluid intake improves sputum clearance.",
+        bolalar: "By age: 2–6 years 4 mg×3; 6–10 years 6–8 mg×3; from 10 years the adult dose (as syrup)."
+      },
+      chiqarish: "Tablets 8 mg; syrup 4 mg/5 mL, 8 mg/5 mL; oral solution/drops; injection"
+    }
+  },
+
+  // ── KARBOTSISTEIN | ATX: R05CB03 ──
+  "R05CB03": {
+    uz: {
+      gruppa: "Yo'talga qarshi va ekspektorant vositalar — mukolitik (karbotsistein)",
+      farmTasir: "Balg'am tarkibini me'yorlashtiruvchi (mukoregulyator-mukolitik)",
+      farmakodinamika: `Karbotsistein — mukoregulyator xususiyatli mukolitik. Bronx shilliq qavatidagi siaal transferaza fermentini faollashtirib balg'amdagi kislotali va neytral sialomukinlar nisbatini me'yorlashtiradi — balg'am yopishqoqligi va elastikligini optimallashtiradi (juda suyuq ham, juda quyuq ham emas). Shilliq qavat regeneratsiyasini va kiprikchali epiteliy faolligini yaxshilaydi, IgA sekretsiyasini tiklaydi. Atsetilsisteindan farqli o'laroq disulfid bog'larni uzmaydi, balki shilliq tarkibini boshqaradi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi; Cmax 1–2 soatда.",
+        tarqalish: "Bronx shilliq qavati va sekretга kiradi.",
+        metabolizm: "Jigarда (atsetillanish va dekarboksillanish).",
+        chiqarilish: "Asosan siydik orqali. T½ — ~1,5–2 soat."
+      },
+      korsatmalar: [
+        "O'tkir va surункали bronxit, traxeit, SOPK — balg'am tarkibi buzilishi",
+        "O'rta otit, sinusit (qovushqoq sekret) — yordamchi",
+        "Bronxoektaz, bronxial astma (balg'amni me'yorlashtirish)"
+      ],
+      qarrshi: [
+        "Karbotsisteinga o'ta sezgirlik",
+        "Oshqozon-ichak yarasi qo'zg'alish davri",
+        "Homiladorlikning I trimestri, emizish (ehtiyot)",
+        "Surункali glomerulonefrit qo'zg'alishi"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, diareya, epigastral noxushlik, oshqozon-ichak qon ketishi (kamdan-kam)",
+        "Allergik / teri": "Toshma, qichima, eshakemi; juda kam — og'ir teri reaksiyalari",
+        "Boshqa": "Bosh aylanishi, holsizlik (kamdan-kam)"
+      },
+      dozadan: "Yuqori xavfsizlik; ortiqcha qabulда oshqozon-ichak buzilishi. Davolash: simptomatik.",
+      ozarotasir: [
+        "Antitussiv va atropinsimon (sekretni kamaytiruvchi) vositalar bilan birga ishlatish mantiqsiz",
+        "Glyukokortikoidlar va antibiotiklar bilan birga yallig'lanishga qarshi samarani to'ldiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 750 mg×3/kun dastlаб, holat yaxshilangач 1,5 g/kun bo'lib. Sirop shaklida ham.",
+        bolalar: "Yoshга qarab sirop: 2–5 yosh 100 mg×2; 5–12 yosh 100 mg×3 yoki 250 mg×2."
+      },
+      chiqarish: "Kapsulalar/tabletkalar 375 mg; sirop 2%, 5% (125/250 mg/5 ml)"
+    },
+    ru: {
+      gruppa: "Противокашлевые и отхаркивающие средства — муколитик (карбоцистеин)",
+      farmTasir: "Нормализующий состав мокроты (мукорегулятор-муколитик)",
+      farmakodinamika: `Карбоцистеин — муколитик с мукорегуляторными свойствами. Активируя фермент сиалилтрансферазу слизистой бронхов, нормализует соотношение кислых и нейтральных сиаломуцинов мокроты — оптимизирует её вязкость и эластичность (не слишком жидкая и не слишком густая). Улучшает регенерацию слизистой и активность реснитчатого эпителия, восстанавливает секрецию IgA. В отличие от ацетилцистеина не разрывает дисульфидные связи, а регулирует состав слизи.`,
+      farmakokinetika: {
+        sorish: "Внутрь хорошо всасывается; Cmax через 1–2 ч.",
+        tarqalish: "Проникает в слизистую бронхов и секрет.",
+        metabolizm: "В печени (ацетилирование и декарбоксилирование).",
+        chiqarilish: "Преимущественно с мочой. T½ — ~1,5–2 ч."
+      },
+      korsatmalar: [
+        "Острый и хронический бронхит, трахеит, ХОБЛ — нарушение состава мокроты",
+        "Средний отит, синусит (вязкий секрет) — вспомогательно",
+        "Бронхоэктазы, бронхиальная астма (нормализация мокроты)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к карбоцистеину",
+        "Период обострения язвы ЖКТ",
+        "I триместр беременности, лактация (осторожно)",
+        "Обострение хронического гломерулонефрита"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Тошнота, рвота, диарея, эпигастральный дискомфорт, желудочно-кишечное кровотечение (редко)",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница; очень редко — тяжёлые кожные реакции",
+        "Прочее": "Головокружение, слабость (редко)"
+      },
+      dozadan: "Высокая безопасность; при избытке — расстройство ЖКТ. Лечение: симптоматически.",
+      ozarotasir: [
+        "С противокашлевыми и атропиноподобными (снижающими секрецию) средствами сочетать нелогично",
+        "С глюкокортикоидами и антибиотиками дополняет противовоспалительный эффект"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 750 мг×3/сут вначале, при улучшении 1,5 г/сут дробно. Также в форме сиропа.",
+        bolalar: "По возрасту сироп: 2–5 лет 100 мг×2; 5–12 лет 100 мг×3 или 250 мг×2."
+      },
+      chiqarish: "Капсулы/таблетки 375 мг; сироп 2%, 5% (125/250 мг/5 мл)"
+    },
+    en: {
+      gruppa: "Cough and expectorant agents — mucolytic (carbocisteine)",
+      farmTasir: "Normalises sputum composition (mucoregulator-mucolytic)",
+      farmakodinamika: `Carbocisteine is a mucolytic with mucoregulatory properties. By activating sialyltransferase in the bronchial mucosa it normalises the ratio of acidic to neutral sialomucins in sputum — optimising its viscosity and elasticity (neither too thin nor too thick). It improves mucosal regeneration and ciliary epithelial activity and restores IgA secretion. Unlike acetylcysteine it does not break disulfide bonds but regulates mucus composition.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally; Cmax in 1–2 h.",
+        tarqalish: "Penetrates the bronchial mucosa and secretion.",
+        metabolizm: "Hepatic (acetylation and decarboxylation).",
+        chiqarilish: "Mainly renal. T½ — ~1.5–2 h."
+      },
+      korsatmalar: [
+        "Acute and chronic bronchitis, tracheitis, COPD — disturbed sputum composition",
+        "Otitis media, sinusitis (viscous secretion) — adjunct",
+        "Bronchiectasis, bronchial asthma (normalising sputum)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to carbocisteine",
+        "Active gastric/duodenal ulcer",
+        "First trimester of pregnancy, lactation (caution)",
+        "Exacerbation of chronic glomerulonephritis"
+      ],
+      nojoya: {
+        "Digestive system": "Nausea, vomiting, diarrhoea, epigastric discomfort, GI bleeding (rare)",
+        "Allergy / skin": "Rash, pruritus, urticaria; very rarely severe skin reactions",
+        "Other": "Dizziness, weakness (rare)"
+      },
+      dozadan: "High safety; with excess — GI upset. Treatment: symptomatic.",
+      ozarotasir: [
+        "Combining with antitussives and atropine-like (secretion-reducing) agents is illogical",
+        "With glucocorticoids and antibiotics complements the anti-inflammatory effect"
+      ],
+      qollash: {
+        kattalar: "Orally: 750 mg×3/day initially, on improvement 1.5 g/day in divided doses. Also as syrup.",
+        bolalar: "By age as syrup: 2–5 years 100 mg×2; 5–12 years 100 mg×3 or 250 mg×2."
+      },
+      chiqarish: "Capsules/tablets 375 mg; syrup 2%, 5% (125/250 mg/5 mL)"
+    }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // R-Batch 5 — Leykotrien antagonisti va antitussiv vositalar
+  // ═══════════════════════════════════════════════════════════
+
+  // ── MONTELUKAST | ATX: R03DC03 ──
+  "R03DC03": {
+    uz: {
+      gruppa: "Nafas yo'llari preparatlari — leykotrien retseptor antagonisti (LTRA)",
+      farmTasir: "Yallig'lanishga qarshi, bronxospazmni oldini oluvchi (bazis)",
+      farmakodinamika: `Montelukast — selektiv leykotrien retseptor antagonisti (LTRA). Sisteinil-leykotrienlarning (LTC4, LTD4, LTE4) CysLT1 retseptorlarini bloklaydi — bu mediatorlar nafas yo'llarida bronxospazm, shilliq qavat shishi, shilimshiq ishlab chiqarilishi va eozinofil yallig'lanishini chaqiradi. Retseptorni bloklab montelukast bronxospazmni oldini oladi, yallig'lanishni kamaytiradi va astma nazoratini yaxshilaydi. Bronxospazmni darhol bartaraf etmaydi — bu profilaktik (bazis) vosita. Tabletka shaklida qulay, ayniqsa allergik rinit bilan birga kechuvchi astmaда va jismoniy yuk astmasida foydali.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez so'riladi, biokirish ~64%; ovqat ta'sir qilmaydi (chaynaladigan shakl).",
+        tarqalish: "Plazma oqsillariga >99% bog'lanadi.",
+        metabolizm: "Jigarда CYP3A4, CYP2C8, CYP2C9 ishtirokida.",
+        chiqarilish: "Deyarli to'liq o't (najas) orqali. T½ — ~2,7–5,5 soat."
+      },
+      korsatmalar: [
+        "Bronxial astma — bazis profilaktik davo (ayniqsa yengil-o'rta persistlovchi)",
+        "Jismoniy yuk bilan bog'liq bronxospazm profilaktikasi",
+        "Mavsumiy va yil bo'yi allergik rinit (astma bilan birga yoki alohida)",
+        "Aspirin-induksiyalangan astma (yordamchi)"
+      ],
+      qarrshi: [
+        "Montelukastga o'ta sezgirlik",
+        "Astmaning o'tkir xuruji (yengillashtiruvchi vosita emas)",
+        "Fenilketonuriya (aspartam saqlovchi chaynaladigan shakl)",
+        "Homiladorlik va emizishда foyda/xavf; jigar yetishmovchiligida ehtiyot"
+      ],
+      nojoya: {
+        "Asab tizimi / ruhiy": "Bosh og'rig'i, bosh aylanishi, uyqu buzilishi, tushlar; kamdan-kam, lekin muhim — kayfiyat o'zgarishi, xavotir, depressiya, agressiya, suitsidal fikrlar (nevropsixiatrik — ogohlantirish)",
+        "Hazm tizimi": "Qorin og'rig'i, diareya, ko'ngil aynishi",
+        "Nafas / allergik": "Yuqori nafas yo'llari infeksiyasi, toshma; juda kam — Cherdj-Strauss sindromi (eozinofil vaskulit)",
+        "Boshqa": "Transaminazalar oshishi (kamdan-kam)"
+      },
+      dozadan: "Yuqori xavfsizlik; ortiqcha qabулда qorin og'rig'i, uyquchanlik, chanqoq, bosh og'rig'i. Davolash: simptomatik.",
+      ozarotasir: [
+        "CYP induktorlari (fenobarbital, rifampitsin): montelukast konsentratsiyasini kamaytirishi mumkin",
+        "Astma bazis terapiyasini (IGKS) o'rnini bosmaydi — qo'shimcha sifatida"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 10 mg×1/kun kechqurun. Jismoniy yuk astmasida yukdan kamida 2 soat oldin.",
+        bolalar: "6 oй–5 yosh: 4 mg (granula/chaynaladigan) kechqurun; 6–14 yosh: 5 mg; 15 yoshdan: 10 mg."
+      },
+      chiqarish: "Tabletkalar 10 mg; chaynaladigan tabletkalar 4, 5 mg; og'iz granulasi 4 mg"
+    },
+    ru: {
+      gruppa: "Препараты дыхательных путей — антагонист лейкотриеновых рецепторов (АЛТР)",
+      farmTasir: "Противовоспалительный, предупреждающий бронхоспазм (базисный)",
+      farmakodinamika: `Монтелукаст — селективный антагонист лейкотриеновых рецепторов (АЛТР). Блокирует рецепторы CysLT1 цистеиниловых лейкотриенов (LTC4, LTD4, LTE4) — эти медиаторы вызывают в дыхательных путях бронхоспазм, отёк слизистой, продукцию слизи и эозинофильное воспаление. Блокируя рецептор, монтелукаст предупреждает бронхоспазм, уменьшает воспаление и улучшает контроль астмы. Не купирует бронхоспазм немедленно — это профилактическое (базисное) средство. Удобен в форме таблеток, особенно при астме с сопутствующим аллергическим ринитом и при астме физического усилия.`,
+      farmakokinetika: {
+        sorish: "Внутрь быстро всасывается, биодоступность ~64%; пища не влияет (жевательная форма).",
+        tarqalish: "Связь с белками плазмы >99%.",
+        metabolizm: "В печени при участии CYP3A4, CYP2C8, CYP2C9.",
+        chiqarilish: "Почти полностью с жёлчью (кал). T½ — ~2,7–5,5 ч."
+      },
+      korsatmalar: [
+        "Бронхиальная астма — базисная профилактическая терапия (особенно лёгкая-умеренная персистирующая)",
+        "Профилактика бронхоспазма физического усилия",
+        "Сезонный и круглогодичный аллергический ринит (с астмой или отдельно)",
+        "Аспириновая астма (вспомогательно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к монтелукасту",
+        "Острый приступ астмы (не средство для облегчения)",
+        "Фенилкетонурия (жевательная форма с аспартамом)",
+        "При беременности и лактации польза/риск; при печёночной недостаточности осторожно"
+      ],
+      nojoya: {
+        "Нервная система / психика": "Головная боль, головокружение, нарушение сна, сновидения; редко, но важно — изменения настроения, тревога, депрессия, агрессия, суицидальные мысли (нейропсихиатрические — предупреждение)",
+        "Пищеварительная система": "Боль в животе, диарея, тошнота",
+        "Дыхание / аллергия": "Инфекция верхних дыхательных путей, сыпь; очень редко — синдром Чёрджа-Стросс (эозинофильный васкулит)",
+        "Прочее": "Повышение трансаминаз (редко)"
+      },
+      dozadan: "Высокая безопасность; при избытке — боль в животе, сонливость, жажда, головная боль. Лечение: симптоматически.",
+      ozarotasir: [
+        "Индукторы CYP (фенобарбитал, рифампицин): могут снижать концентрацию монтелукаста",
+        "Не заменяет базисную терапию астмы (ИГКС) — как дополнение"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 10 мг×1/сут вечером. При астме физического усилия не менее чем за 2 ч до нагрузки.",
+        bolalar: "6 мес–5 лет: 4 мг (гранулы/жевательные) вечером; 6–14 лет: 5 мг; с 15 лет: 10 мг."
+      },
+      chiqarish: "Таблетки 10 мг; жевательные таблетки 4, 5 мг; гранулы для приёма внутрь 4 мг"
+    },
+    en: {
+      gruppa: "Respiratory agents — leukotriene receptor antagonist (LTRA)",
+      farmTasir: "Anti-inflammatory, prevents bronchospasm (controller)",
+      farmakodinamika: `Montelukast is a selective leukotriene receptor antagonist (LTRA). It blocks the CysLT1 receptors of cysteinyl leukotrienes (LTC4, LTD4, LTE4) — mediators that cause bronchospasm, mucosal swelling, mucus production and eosinophilic inflammation in the airways. By blocking the receptor, montelukast prevents bronchospasm, reduces inflammation and improves asthma control. It does not abort bronchospasm immediately — it is a preventive (controller) agent. Convenient as a tablet, especially in asthma with concomitant allergic rhinitis and in exercise-induced asthma.`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally, bioavailability ~64%; food has no effect (chewable form).",
+        tarqalish: "Plasma protein binding >99%.",
+        metabolizm: "Hepatic via CYP3A4, CYP2C8, CYP2C9.",
+        chiqarilish: "Almost entirely biliary (faeces). T½ — ~2.7–5.5 h."
+      },
+      korsatmalar: [
+        "Bronchial asthma — controller preventive therapy (especially mild-moderate persistent)",
+        "Prevention of exercise-induced bronchospasm",
+        "Seasonal and perennial allergic rhinitis (with asthma or alone)",
+        "Aspirin-induced asthma (adjunct)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to montelukast",
+        "Acute asthma attack (not a reliever)",
+        "Phenylketonuria (aspartame-containing chewable form)",
+        "In pregnancy and lactation benefit/risk; caution in hepatic failure"
+      ],
+      nojoya: {
+        "Nervous system / psychiatric": "Headache, dizziness, sleep disturbance, dreams; rare but important — mood change, anxiety, depression, aggression, suicidal thoughts (neuropsychiatric — warning)",
+        "Digestive system": "Abdominal pain, diarrhoea, nausea",
+        "Respiratory / allergy": "Upper respiratory tract infection, rash; very rarely Churg-Strauss syndrome (eosinophilic vasculitis)",
+        "Other": "Raised transaminases (rare)"
+      },
+      dozadan: "High safety; with excess — abdominal pain, drowsiness, thirst, headache. Treatment: symptomatic.",
+      ozarotasir: [
+        "CYP inducers (phenobarbital, rifampicin): may lower montelukast concentration",
+        "Does not replace asthma controller therapy (ICS) — as an add-on"
+      ],
+      qollash: {
+        kattalar: "Orally: 10 mg×1/day in the evening. For exercise-induced asthma at least 2 h before exertion.",
+        bolalar: "6 months–5 years: 4 mg (granules/chewable) in the evening; 6–14 years: 5 mg; from 15 years: 10 mg."
+      },
+      chiqarish: "Tablets 10 mg; chewable tablets 4, 5 mg; oral granules 4 mg"
+    }
+  },
+
+  // ── BUTAMIRAT | ATX: R05DB13 ──
+  "R05DB13": {
+    uz: {
+      gruppa: "Yo'talga qarshi vositalar — markaziy ta'sirli antitussiv (nopioid, butamirat)",
+      farmTasir: "Yo'talni bostiruvchi (antitussiv)",
+      farmakodinamika: `Butamirat (sitrat) — markaziy ta'sirli, opioid bo'lmagan yo'talga qarshi vosita. Miyaдаги yo'tal markaziga ta'sir qilib yo'tal refleksini bostiradi, ammo opioidlarга xos bog'liqlik, nafas tushishi va ich qotishi chaqirmaydi. Bundan tashqari yengil bronxospazmолитik (bronxlarni kengaytiruvchi) va yallig'lanishga qarshi ta'sirga ega, nafas olishni biroz yengillashtiradi. Quruq, kuchli, charchatuvchi yo'talда (balg'amsiz) qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали tez va to'liq so'riladi.",
+        tarqalish: "Faol metabolitlarга (2-fenilmoy kislota) gidrolizlanadi.",
+        metabolizm: "Jigarда gidroliz va metabolizatsiya.",
+        chiqarilish: "Asosan siydik orqali. Ta'sir davomiyligi uzun (uzaytirilgan shaklда)."
+      },
+      korsatmalar: [
+        "Turli kelib chiqishli quruq (balg'amsiz) yo'tal: o'tkir bronxit, gripp, kommyul yo'tal boshlanishi",
+        "Operatsiyadan oldin/keyin yo'talни bostirish (jarrohlik, bronxoskopiya)",
+        "Ko'kyo'tal (yordamchi)"
+      ],
+      qarrshi: [
+        "Butamiratga o'ta sezgirlik",
+        "Balg'amли (ho'l) yo'tal — balg'am turib qolishi xavfi",
+        "Homiladorlikning I trimestri; emizish (ehtiyot)",
+        "Fruktoza intolerantligi (sirop tarkibidagi shakar) — alohida shakllar"
+      ],
+      nojoya: {
+        "Asab tizimi": "Bosh aylanishi, uyquchanlik (kamdan-kam)",
+        "Hazm tizimi": "Ko'ngil aynishi, diareya (kamdan-kam)",
+        "Allergik / teri": "Toshma, qichima, eshakemi (kamdan-kam)"
+      },
+      dozadan: "Belgilari: uyquchanlik, ko'ngil aynishi, qusish, diareya, gipotenziya. Davolash: faollashtirilgan ko'mir, simptomatik.",
+      ozarotasir: [
+        "Ekspektorant/mukolitiklar bilan birga ishlatish mantiqsiz (balg'am ko'chmay qoladi)",
+        "Markaziy depressantlar (sedativlar, alkogol) bilan birga sedatsiya kuchayishi mumkin"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали: sirop 15 ml×3–4/kun yoki uzaytirilgan tabletka 50 mg×2–3/kun. Tomchi shakllari ham mavjud.",
+        bolalar: "Yoshга qarab sirop: 3–6 yosh 5 ml×3; 6–12 yosh 10 ml×3; tomchilar чақалоклар учун (2 oydan, alohida konsentratsiya)."
+      },
+      chiqarish: "Sirop 1,5 mg/ml; uzaytirilgan tabletkalar (depo) 50 mg; ichish tomchilari 5 mg/ml"
+    },
+    ru: {
+      gruppa: "Противокашлевые средства — центральный антитуссив (неопиоидный, бутамират)",
+      farmTasir: "Подавляющий кашель (антитуссив)",
+      farmakodinamika: `Бутамират (цитрат) — центральный неопиоидный противокашлевый препарат. Действуя на кашлевой центр мозга, подавляет кашлевой рефлекс, но не вызывает свойственных опиоидам зависимости, угнетения дыхания и запора. Кроме того, обладает лёгким бронхоспазмолитическим (расширяющим бронхи) и противовоспалительным действием, несколько облегчает дыхание. Применяется при сухом, сильном, изнуряющем кашле (без мокроты).`,
+      farmakokinetika: {
+        sorish: "Внутрь быстро и полно всасывается.",
+        tarqalish: "Гидролизуется до активных метаболитов (2-фенилмасляная кислота).",
+        metabolizm: "В печени гидролиз и метаболизм.",
+        chiqarilish: "Преимущественно с мочой. Длительность действия большая (в пролонгированной форме)."
+      },
+      korsatmalar: [
+        "Сухой (без мокроты) кашель различного происхождения: острый бронхит, грипп, начало коклюша",
+        "Подавление кашля до/после операций (хирургия, бронхоскопия)",
+        "Коклюш (вспомогательно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к бутамирату",
+        "Влажный (продуктивный) кашель — риск застоя мокроты",
+        "I триместр беременности; лактация (осторожно)",
+        "Непереносимость фруктозы (сахар в сиропе) — отдельные формы"
+      ],
+      nojoya: {
+        "Нервная система": "Головокружение, сонливость (редко)",
+        "Пищеварительная система": "Тошнота, диарея (редко)",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница (редко)"
+      },
+      dozadan: "Симптомы: сонливость, тошнота, рвота, диарея, гипотензия. Лечение: активированный уголь, симптоматически.",
+      ozarotasir: [
+        "Совместное применение с отхаркивающими/муколитиками нелогично (мокрота застаивается)",
+        "С центральными депрессантами (седативные, алкоголь) возможно усиление седации"
+      ],
+      qollash: {
+        kattalar: "Внутрь: сироп 15 мл×3–4/сут или пролонгированная таблетка 50 мг×2–3/сут. Есть формы в каплях.",
+        bolalar: "По возрасту сироп: 3–6 лет 5 мл×3; 6–12 лет 10 мл×3; капли для младенцев (с 2 мес, отдельная концентрация)."
+      },
+      chiqarish: "Сироп 1,5 мг/мл; пролонгированные таблетки (депо) 50 мг; капли для приёма внутрь 5 мг/мл"
+    },
+    en: {
+      gruppa: "Cough suppressants — central antitussive (non-opioid, butamirate)",
+      farmTasir: "Suppresses cough (antitussive)",
+      farmakodinamika: `Butamirate (citrate) is a central non-opioid antitussive. Acting on the brain's cough centre it suppresses the cough reflex, but without the dependence, respiratory depression and constipation typical of opioids. It also has mild bronchospasmolytic (bronchodilator) and anti-inflammatory action, easing breathing slightly. It is used for dry, strong, exhausting cough (without sputum).`,
+      farmakokinetika: {
+        sorish: "Rapidly and completely absorbed orally.",
+        tarqalish: "Hydrolysed to active metabolites (2-phenylbutyric acid).",
+        metabolizm: "Hepatic hydrolysis and metabolism.",
+        chiqarilish: "Mainly renal. Long duration of action (in the extended form)."
+      },
+      korsatmalar: [
+        "Dry (non-productive) cough of various origins: acute bronchitis, influenza, onset of whooping cough",
+        "Cough suppression before/after surgery (surgery, bronchoscopy)",
+        "Whooping cough (adjunct)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to butamirate",
+        "Wet (productive) cough — risk of sputum stagnation",
+        "First trimester of pregnancy; lactation (caution)",
+        "Fructose intolerance (sugar in the syrup) — certain forms"
+      ],
+      nojoya: {
+        "Nervous system": "Dizziness, drowsiness (rare)",
+        "Digestive system": "Nausea, diarrhoea (rare)",
+        "Allergy / skin": "Rash, pruritus, urticaria (rare)"
+      },
+      dozadan: "Symptoms: drowsiness, nausea, vomiting, diarrhoea, hypotension. Treatment: activated charcoal, symptomatic.",
+      ozarotasir: [
+        "Combining with expectorants/mucolytics is illogical (sputum stagnates)",
+        "With central depressants (sedatives, alcohol) sedation may be enhanced"
+      ],
+      qollash: {
+        kattalar: "Orally: syrup 15 mL×3–4/day or extended-release tablet 50 mg×2–3/day. Drop forms exist.",
+        bolalar: "By age as syrup: 3–6 years 5 mL×3; 6–12 years 10 mL×3; drops for infants (from 2 months, separate concentration)."
+      },
+      chiqarish: "Syrup 1.5 mg/mL; extended-release tablets (depot) 50 mg; oral drops 5 mg/mL"
+    }
+  },
+
+  // ── DEKSTROMETORFAN | ATX: R05DA09 ──
+  "R05DA09": {
+    uz: {
+      gruppa: "Yo'talga qarshi vositalar — markaziy ta'sirli antitussiv (dekstrometorfan)",
+      farmTasir: "Yo'talni bostiruvchi (antitussiv)",
+      farmakodinamika: `Dekstrometorfan — markaziy ta'sirli yo'talga qarshi vosita; opioid (levorfanol) ning izomeri bo'lsa-da, terapevtik dozada analgetik va narkotik ta'siri yo'q va bog'liqlik chaqirmaydi (past dozada). Uzunchoq miyadаги yo'tal markazini bostirib quruq yo'tal refleksini kamaytiradi. Analgetik ta'siri yo'q, nafasни terapevtik dozada sezilarli tushirmaydi. Ko'pincha shamollashga qarshi kombinatsiyalangan preparatlar tarkibida bo'ladi. Yuqori dozada dissosiativ ta'sir va suiiste'mol potensiali bor.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали tez so'riladi; ta'sir 15–30 daqiqada.",
+        tarqalish: "To'qimalarга tarqaladi, MNSга kiradi.",
+        metabolizm: "Jigarда CYP2D6 ishtirokida (faol metabolit dekstrorfan); metabolizm tezligi genetik o'zgaruvchan.",
+        chiqarilish: "Asosan siydik orqали. Ta'sir davomiyligi ~5–6 soat."
+      },
+      korsatmalar: [
+        "Turli kelib chiqishli quruq (balg'amsiz) yo'tal: shamollash, gripp, o'tkir bronxit",
+        "Shamollash kombinatsiyalangan preparatlari tarkibida yo'talни bostirish"
+      ],
+      qarrshi: [
+        "Dekstrometorfanga o'ta sezgirlik",
+        "MAO inhibitorlari bilan birga yoki to'xtatgandan keyin 14 kun (serotonin sindromi xavfi)",
+        "Balg'amли (ho'l) yo'tal, og'ir nafas yetishmovchiligi, bronxial astma qo'zg'alishi",
+        "Bolalik yoshi (2–6 yoshgача ehtiyot/cheklov); jigar yetishmovchiligi"
+      ],
+      nojoya: {
+        "Asab tizimi": "Uyquchanlik, bosh aylanishi, bosh og'rig'i; yuqori dozada — ajitatsiya, gallyutsinatsiya, dissosiatsiya",
+        "Hazm tizimi": "Ko'ngil aynishi, qusish",
+        "Allergik": "Toshma, qichima; serotonin sindromi (MAO/SSRI bilan)"
+      },
+      dozadan: "Belgilari: ajitatsiya, gallyutsinatsiya, ataksiya, taxikardiya, ko'ngil aynishi, dissosiativ holat, og'ir holatда nafas tushishi. Davolash: simptomatik; nalokson qisman yordam berishi mumkin. Suiiste'mol xavfini hisobga olish.",
+      ozarotasir: [
+        "MAO inhibitorlari, SSRI, SNRI, triptanlar: serotonin sindromi xavfi — birga ishlatilmaydi/ehtiyot",
+        "CYP2D6 inhibitorlari (fluoksetin, paroksetin, kinidin): dekstrometorfan konsentratsiyasini oshiradi",
+        "Alkogol va markaziy depressantlar: sedatsiyani kuchaytiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали: 10–20 mg har 4 soatda yoki 30 mg har 6–8 soatда; maks. 120 mg/kun.",
+        bolalar: "6–12 yosh: 5–10 mg har 4 soatда (maks. 60 mg/kun); 2–6 yoshда ehtiyot bilan, shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "Sirop 15 mg/5 ml; pastil/kapsula 15 mg; shamollash kombinatsiyalangan preparatlar tarkibida"
+    },
+    ru: {
+      gruppa: "Противокашлевые средства — центральный антитуссив (декстрометорфан)",
+      farmTasir: "Подавляющий кашель (антитуссив)",
+      farmakodinamika: `Декстрометорфан — центральный противокашлевый препарат; хотя является изомером опиоида (леворфанола), в терапевтической дозе не обладает анальгетическим и наркотическим действием и не вызывает зависимости (в низкой дозе). Подавляя кашлевой центр продолговатого мозга, уменьшает рефлекс сухого кашля. Не обладает анальгезией, в терапевтической дозе существенно не угнетает дыхание. Часто входит в состав комбинированных средств от простуды. В высокой дозе обладает диссоциативным действием и потенциалом злоупотребления.`,
+      farmakokinetika: {
+        sorish: "Внутрь быстро всасывается; действие через 15–30 мин.",
+        tarqalish: "Распределяется в ткани, проникает в ЦНС.",
+        metabolizm: "В печени при участии CYP2D6 (активный метаболит декстрорфан); скорость метаболизма генетически вариабельна.",
+        chiqarilish: "Преимущественно с мочой. Длительность действия ~5–6 ч."
+      },
+      korsatmalar: [
+        "Сухой (без мокроты) кашель различного происхождения: простуда, грипп, острый бронхит",
+        "Подавление кашля в составе комбинированных средств от простуды"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к декстрометорфану",
+        "С ингибиторами МАО или в течение 14 дней после их отмены (риск серотонинового синдрома)",
+        "Влажный (продуктивный) кашель, тяжёлая дыхательная недостаточность, обострение бронхиальной астмы",
+        "Детский возраст (до 2–6 лет осторожно/ограничение); печёночная недостаточность"
+      ],
+      nojoya: {
+        "Нервная система": "Сонливость, головокружение, головная боль; при высокой дозе — ажитация, галлюцинации, диссоциация",
+        "Пищеварительная система": "Тошнота, рвота",
+        "Аллергия": "Сыпь, зуд; серотониновый синдром (с МАО/СИОЗС)"
+      },
+      dozadan: "Симптомы: ажитация, галлюцинации, атаксия, тахикардия, тошнота, диссоциативное состояние, в тяжёлых случаях угнетение дыхания. Лечение: симптоматически; налоксон может частично помочь. Учитывать риск злоупотребления.",
+      ozarotasir: [
+        "Ингибиторы МАО, СИОЗС, СИОЗСН, триптаны: риск серотонинового синдрома — не сочетать/осторожно",
+        "Ингибиторы CYP2D6 (флуоксетин, пароксетин, хинидин): повышают концентрацию декстрометорфана",
+        "Алкоголь и центральные депрессанты: усиливают седацию"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 10–20 мг каждые 4 ч или 30 мг каждые 6–8 ч; максимум 120 мг/сут.",
+        bolalar: "6–12 лет: 5–10 мг каждые 4 ч (максимум 60 мг/сут); 2–6 лет осторожно, по назначению врача."
+      },
+      chiqarish: "Сироп 15 мг/5 мл; пастилки/капсулы 15 мг; в составе комбинированных средств от простуды"
+    },
+    en: {
+      gruppa: "Cough suppressants — central antitussive (dextromethorphan)",
+      farmTasir: "Suppresses cough (antitussive)",
+      farmakodinamika: `Dextromethorphan is a central antitussive; although it is an isomer of an opioid (levorphanol), at therapeutic doses it has no analgesic or narcotic effect and causes no dependence (at low doses). By suppressing the cough centre in the medulla it reduces the dry cough reflex. It has no analgesia and at therapeutic doses does not appreciably depress respiration. It is often a component of combined cold remedies. At high doses it has dissociative action and abuse potential.`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally; effect in 15–30 min.",
+        tarqalish: "Distributes to tissues, penetrates the CNS.",
+        metabolizm: "Hepatic via CYP2D6 (active metabolite dextrorphan); metabolism rate is genetically variable.",
+        chiqarilish: "Mainly renal. Duration of action ~5–6 h."
+      },
+      korsatmalar: [
+        "Dry (non-productive) cough of various origins: cold, influenza, acute bronchitis",
+        "Cough suppression within combined cold remedies"
+      ],
+      qarrshi: [
+        "Hypersensitivity to dextromethorphan",
+        "With MAO inhibitors or within 14 days of stopping them (serotonin syndrome risk)",
+        "Wet (productive) cough, severe respiratory failure, asthma exacerbation",
+        "Childhood (under 2–6 years caution/restriction); hepatic failure"
+      ],
+      nojoya: {
+        "Nervous system": "Drowsiness, dizziness, headache; at high dose — agitation, hallucinations, dissociation",
+        "Digestive system": "Nausea, vomiting",
+        "Allergy": "Rash, pruritus; serotonin syndrome (with MAO/SSRI)"
+      },
+      dozadan: "Symptoms: agitation, hallucinations, ataxia, tachycardia, nausea, dissociative state, in severe cases respiratory depression. Treatment: symptomatic; naloxone may partly help. Consider the abuse risk.",
+      ozarotasir: [
+        "MAO inhibitors, SSRIs, SNRIs, triptans: serotonin syndrome risk — do not combine/caution",
+        "CYP2D6 inhibitors (fluoxetine, paroxetine, quinidine): raise dextromethorphan concentration",
+        "Alcohol and central depressants: enhance sedation"
+      ],
+      qollash: {
+        kattalar: "Orally: 10–20 mg every 4 h or 30 mg every 6–8 h; maximum 120 mg/day.",
+        bolalar: "6–12 years: 5–10 mg every 4 h (maximum 60 mg/day); 2–6 years with caution, as prescribed."
+      },
+      chiqarish: "Syrup 15 mg/5 mL; lozenges/capsules 15 mg; within combined cold remedies"
+    }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // R-Batch 6 — II avlod antigistaminlar (H1-blokatorlar)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── SETIRIZIN | ATX: R06AE07 ──
+  "R06AE07": {
+    uz: {
+      gruppa: "Antigistaminlar — II avlod H1-retseptor blokatori (setirizin)",
+      farmTasir: "Allergiyaga qarshi (sedatsiyasi past antigistamin)",
+      farmakodinamika: `Setirizin — gidroksizinning karboksil metaboliti bo'lgan II avlod tanlab ta'sir qiluvchi H1-gistamin retseptorlari blokatori. Periferik H1-retseptorlarni bloklab gistaminning allergik ta'sirini (kapilyar o'tkazuvchanligi oshishi, shish, qichima, qizarish, silliq mushak spazmi) kamaytiradi. Yallig'lanish fazasida eozinofillarning migratsiyasini va allergik mediatorlar ajralishini ham susaytiradi. II avlod sifatida gematoentsefalik to'siqdan kam o'tadi — shu sababli sedativ (uyqu chaqiruvchi) va antixolinergik ta'siri I avloddan ancha kam. Ta'sir tez (1 soatda) boshlanadi va uzoq (24 soat) davom etadi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали tez va yaxshi so'riladi; Cmax ~1 soatда.",
+        tarqalish: "Plazma oqsillariga ~93% bog'lanadi; MNSга kam kiradi.",
+        metabolizm: "Jigarда minimal metabolizatsiya (ko'p qismi o'zgarmaydi).",
+        chiqarilish: "Asosан siydik orqали o'zgarmagan holda. T½ — ~7–10 soat (buyrak yetishmovchiligida uzayadi)."
+      },
+      korsatmalar: [
+        "Mavsumiy va yil bo'yi allergik rinit va kon'yunktivit (aksirish, qichima, rinoreya, ko'z yoshlanishi)",
+        "Surункали idiopatik krapivnitsa (eshakemi), qichima",
+        "Allergik dermatozlar (atopik dermatit yordamchi)",
+        "Kvinke shishida yordamchi"
+      ],
+      qarrshi: [
+        "Setirizin, gidroksizin yoki piperazin hosilalariga o'ta sezgirlik",
+        "Og'ir buyrak yetishmovchiligi (KK<10 — qo'llanilmaydi yoki doza kamaytiriladi)",
+        "Homiladorlik va emizishда foyda/xavf; konsentratsiyaga qarab yosh chegaralari",
+        "Galaktoza intolerantligi (ba'zi shakllar)"
+      ],
+      nojoya: {
+        "Asab tizimi": "Uyquchanlik (I avloddан kam, lekin bor), charchoq, bosh og'rig'i, bosh aylanishi",
+        "Hazm tizimi": "Og'iz qurishi, ko'ngil aynishi, qorin noxushligi",
+        "Allergik / teri": "Toshma, qichima (kamdan-kam); juda kam — angionevrotik shish",
+        "Boshqa": "Taxikardiya (kamdan-kam), siydik tutilishi (kam)"
+      },
+      dozadan: "Belgilari: uyquchanlik, ajitatsiya (ayniqsa bolalarда), taxikardiya, og'iz qurishi, siydik tutilishi. Davolash: simptomatik, faollashtirilgan ko'mir; gemodializ samarasiz.",
+      ozarotasir: [
+        "Alkogol va markaziy depressantlar: sedatsiyani kuchaytirishi mumkin (ehtiyot)",
+        "Teofillin: setirizin klirensini biroz kamaytiradi",
+        "Allergiya teri sinovidan 3 kun oldin to'xtatilishi kerak (natijani buzadi)"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали: 10 mg×1/kun (yoki 5 mg×2). Buyrak yetishmovchiligida 5 mg/kun.",
+        bolalar: "6–12 oй: 2,5 mg×1; 1–2 yosh: 2,5 mg×1–2; 2–6 yosh: 2,5 mg×2 yoki 5 mg×1; 6 yoshdan: 10 mg/kun (tomchi/sirop)."
+      },
+      chiqarish: "Tabletkalar 10 mg; sirop 5 mg/5 ml; ichish tomchilari 10 mg/ml"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор II поколения (цетиризин)",
+      farmTasir: "Противоаллергическое (антигистамин с низкой седацией)",
+      farmakodinamika: `Цетиризин — H1-блокатор II поколения, карбоксиметаболит гидроксизина, избирательно блокирующий H1-гистаминовые рецепторы. Блокируя периферические H1-рецепторы, уменьшает аллергическое действие гистамина (повышение проницаемости капилляров, отёк, зуд, покраснение, спазм гладких мышц). В фазе воспаления ослабляет миграцию эозинофилов и выделение аллергических медиаторов. Как препарат II поколения мало проникает через ГЭБ — поэтому седативное и антихолинергическое действие значительно меньше, чем у I поколения. Действие начинается быстро (через 1 ч) и длится долго (24 ч).`,
+      farmakokinetika: {
+        sorish: "Внутрь быстро и хорошо всасывается; Cmax ~1 ч.",
+        tarqalish: "Связь с белками плазмы ~93%; мало проникает в ЦНС.",
+        metabolizm: "В печени минимальный метаболизм (большая часть не изменяется).",
+        chiqarilish: "Преимущественно с мочой в неизменённом виде. T½ — ~7–10 ч (удлиняется при почечной недостаточности)."
+      },
+      korsatmalar: [
+        "Сезонный и круглогодичный аллергический ринит и конъюнктивит (чихание, зуд, ринорея, слезотечение)",
+        "Хроническая идиопатическая крапивница, зуд",
+        "Аллергические дерматозы (вспомогательно при атопическом дерматите)",
+        "Вспомогательно при отёке Квинке"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к цетиризину, гидроксизину или производным пиперазина",
+        "Тяжёлая почечная недостаточность (КК<10 — не применять или снизить дозу)",
+        "При беременности и лактации польза/риск; возрастные ограничения по концентрации",
+        "Непереносимость галактозы (некоторые формы)"
+      ],
+      nojoya: {
+        "Нервная система": "Сонливость (меньше, чем у I поколения, но есть), утомляемость, головная боль, головокружение",
+        "Пищеварительная система": "Сухость во рту, тошнота, дискомфорт в животе",
+        "Аллергия / кожа": "Сыпь, зуд (редко); очень редко — ангионевротический отёк",
+        "Прочее": "Тахикардия (редко), задержка мочи (редко)"
+      },
+      dozadan: "Симптомы: сонливость, ажитация (особенно у детей), тахикардия, сухость во рту, задержка мочи. Лечение: симптоматически, активированный уголь; гемодиализ неэффективен.",
+      ozarotasir: [
+        "Алкоголь и центральные депрессанты: могут усиливать седацию (осторожно)",
+        "Теофиллин: несколько снижает клиренс цетиризина",
+        "Отменить за 3 дня до кожных аллергопроб (искажает результат)"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 10 мг×1/сут (или 5 мг×2). При почечной недостаточности 5 мг/сут.",
+        bolalar: "6–12 мес: 2,5 мг×1; 1–2 года: 2,5 мг×1–2; 2–6 лет: 2,5 мг×2 или 5 мг×1; с 6 лет: 10 мг/сут (капли/сироп)."
+      },
+      chiqarish: "Таблетки 10 мг; сироп 5 мг/5 мл; капли для приёма внутрь 10 мг/мл"
+    },
+    en: {
+      gruppa: "Antihistamines — second-generation H1-receptor blocker (cetirizine)",
+      farmTasir: "Antiallergic (low-sedation antihistamine)",
+      farmakodinamika: `Cetirizine is a second-generation H1-blocker, the carboxyl metabolite of hydroxyzine, selectively blocking H1-histamine receptors. By blocking peripheral H1-receptors it reduces histamine's allergic effects (increased capillary permeability, oedema, itching, redness, smooth muscle spasm). In the inflammatory phase it dampens eosinophil migration and allergic mediator release. As a second-generation agent it crosses the BBB poorly — so its sedative and anticholinergic effects are much less than first-generation drugs. The effect begins quickly (in 1 h) and lasts long (24 h).`,
+      farmakokinetika: {
+        sorish: "Rapidly and well absorbed orally; Cmax ~1 h.",
+        tarqalish: "Plasma protein binding ~93%; little CNS penetration.",
+        metabolizm: "Minimal hepatic metabolism (mostly unchanged).",
+        chiqarilish: "Mainly renal unchanged. T½ — ~7–10 h (prolonged in renal failure)."
+      },
+      korsatmalar: [
+        "Seasonal and perennial allergic rhinitis and conjunctivitis (sneezing, itching, rhinorrhoea, watery eyes)",
+        "Chronic idiopathic urticaria, pruritus",
+        "Allergic dermatoses (adjunct in atopic dermatitis)",
+        "Adjunct in angioedema"
+      ],
+      qarrshi: [
+        "Hypersensitivity to cetirizine, hydroxyzine or piperazine derivatives",
+        "Severe renal failure (CrCl<10 — do not use or reduce dose)",
+        "In pregnancy and lactation benefit/risk; age limits by concentration",
+        "Galactose intolerance (some forms)"
+      ],
+      nojoya: {
+        "Nervous system": "Drowsiness (less than first-generation but present), fatigue, headache, dizziness",
+        "Digestive system": "Dry mouth, nausea, abdominal discomfort",
+        "Allergy / skin": "Rash, pruritus (rare); very rarely angioedema",
+        "Other": "Tachycardia (rare), urinary retention (rare)"
+      },
+      dozadan: "Symptoms: drowsiness, agitation (especially in children), tachycardia, dry mouth, urinary retention. Treatment: symptomatic, activated charcoal; haemodialysis ineffective.",
+      ozarotasir: [
+        "Alcohol and central depressants: may enhance sedation (caution)",
+        "Theophylline: slightly reduces cetirizine clearance",
+        "Stop 3 days before skin allergy tests (distorts the result)"
+      ],
+      qollash: {
+        kattalar: "Orally: 10 mg×1/day (or 5 mg×2). In renal failure 5 mg/day.",
+        bolalar: "6–12 months: 2.5 mg×1; 1–2 years: 2.5 mg×1–2; 2–6 years: 2.5 mg×2 or 5 mg×1; from 6 years: 10 mg/day (drops/syrup)."
+      },
+      chiqarish: "Tablets 10 mg; syrup 5 mg/5 mL; oral drops 10 mg/mL"
+    }
+  },
+
+  // ── LEVOSETIRIZIN | ATX: R06AE09 ──
+  "R06AE09": {
+    uz: {
+      gruppa: "Antigistaminlar — II avlod H1-retseptor blokatori (levosetirizin)",
+      farmTasir: "Allergiyaga qarshi (setirizinning faol enantiomeri)",
+      farmakodinamika: `Levosetirizin — setirizinning farmakologik faol (R)-enantiomeri. Periferik H1-gistamin retseptorlariga setirizindan ikki barobar yuqori moyillik bilan bog'lanib gistaminning allergik ta'sirini bloklaydi — faqat faol enantiomer bo'lgani uchun ekvivalent samarani yarmi dozada beradi. Yallig'lanish mediatorlari ajralishi va eozinofil migratsiyasini kamaytiradi. II avlod sifatida MNSга kam kiradi — sedatsiyasi past. Ta'sir tez va 24 soat davom etadi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали tez va to'liq so'riladi; Cmax ~0,9 soatда.",
+        tarqalish: "Plazma oqsillariga ~90% bog'lanadi.",
+        metabolizm: "Minimal (<14%) metabolizatsiya.",
+        chiqarilish: "Asosан siydik orqали o'zgarmagan holda. T½ — ~7–8 soat."
+      },
+      korsatmalar: [
+        "Mavsumiy va yil bo'yi allergik rinit va kon'yunktivit",
+        "Surункali idiopatik krapivnitsa (eshakemi), qichima",
+        "Allergik dermatozlar"
+      ],
+      qarrshi: [
+        "Levosetirizin, setirizin yoki piperazin hosilalariga o'ta sezgirlik",
+        "Og'ir buyrak yetishmovchiligi (KK<10)",
+        "Homiladorlik va emizishда foyda/xavf; yosh chegaralari (shaklга qarab)",
+        "Galaktoza intolerantligi (ba'zi shakllar)"
+      ],
+      nojoya: {
+        "Asab tizimi": "Uyquchanlik (kam), charchoq, bosh og'rig'i, og'iz qurishi",
+        "Hazm tizimi": "Ko'ngil aynishi, qorin noxushligi",
+        "Allergik": "Toshma, qichima (kamdan-kam); juda kam — angionevrotik shish",
+        "Boshqa": "Yurak urishi (kamdan-kam)"
+      },
+      dozadan: "Belgilari: uyquchanlik (kattalarда), bolalarда — ajitatsiya. Davolash: simptomatik, faollashtirilgan ko'mir; gemodializ samarasiz.",
+      ozarotasir: [
+        "Alkogol va MNS depressantlari: sedatsiya kuchayishi mumkin",
+        "Allergiya teri sinovidan 3 kun oldin to'xtatish",
+        "Ritonavir konsentratsiyasini biroz oshiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали: 5 mg×1/kun. Buyrak yetishmovchiligida doza/interval sozlanadi.",
+        bolalar: "2–6 yosh: 1,25 mg×2 (tomchi/sirop); 6 yoshdan: 5 mg/kun."
+      },
+      chiqarish: "Tabletkalar 5 mg; sirop 2,5 mg/5 ml; ichish tomchilari 5 mg/ml"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор II поколения (левоцетиризин)",
+      farmTasir: "Противоаллергическое (активный энантиомер цетиризина)",
+      farmakodinamika: `Левоцетиризин — фармакологически активный (R)-энантиомер цетиризина. Связываясь с периферическими H1-гистаминовыми рецепторами с вдвое большим сродством, чем цетиризин, блокирует аллергическое действие гистамина — будучи только активным энантиомером, даёт эквивалентный эффект в половинной дозе. Уменьшает выделение медиаторов воспаления и миграцию эозинофилов. Как препарат II поколения мало проникает в ЦНС — низкая седация. Действие быстрое и длится 24 ч.`,
+      farmakokinetika: {
+        sorish: "Внутрь быстро и полно всасывается; Cmax ~0,9 ч.",
+        tarqalish: "Связь с белками плазмы ~90%.",
+        metabolizm: "Минимальный (<14%) метаболизм.",
+        chiqarilish: "Преимущественно с мочой в неизменённом виде. T½ — ~7–8 ч."
+      },
+      korsatmalar: [
+        "Сезонный и круглогодичный аллергический ринит и конъюнктивит",
+        "Хроническая идиопатическая крапивница, зуд",
+        "Аллергические дерматозы"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к левоцетиризину, цетиризину или производным пиперазина",
+        "Тяжёлая почечная недостаточность (КК<10)",
+        "При беременности и лактации польза/риск; возрастные ограничения (по форме)",
+        "Непереносимость галактозы (некоторые формы)"
+      ],
+      nojoya: {
+        "Нервная система": "Сонливость (мало), утомляемость, головная боль, сухость во рту",
+        "Пищеварительная система": "Тошнота, дискомфорт в животе",
+        "Аллергия": "Сыпь, зуд (редко); очень редко — ангионевротический отёк",
+        "Прочее": "Сердцебиение (редко)"
+      },
+      dozadan: "Симптомы: сонливость (у взрослых), у детей — ажитация. Лечение: симптоматически, активированный уголь; гемодиализ неэффективен.",
+      ozarotasir: [
+        "Алкоголь и депрессанты ЦНС: возможно усиление седации",
+        "Отменить за 3 дня до кожных аллергопроб",
+        "Ритонавир несколько повышает концентрацию"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 5 мг×1/сут. При почечной недостаточности корректируют дозу/интервал.",
+        bolalar: "2–6 лет: 1,25 мг×2 (капли/сироп); с 6 лет: 5 мг/сут."
+      },
+      chiqarish: "Таблетки 5 мг; сироп 2,5 мг/5 мл; капли для приёма внутрь 5 мг/мл"
+    },
+    en: {
+      gruppa: "Antihistamines — second-generation H1-receptor blocker (levocetirizine)",
+      farmTasir: "Antiallergic (active enantiomer of cetirizine)",
+      farmakodinamika: `Levocetirizine is the pharmacologically active (R)-enantiomer of cetirizine. Binding peripheral H1-histamine receptors with twice the affinity of cetirizine, it blocks histamine's allergic effects — being only the active enantiomer, it gives an equivalent effect at half the dose. It reduces inflammatory mediator release and eosinophil migration. As a second-generation agent it crosses into the CNS little — low sedation. The effect is rapid and lasts 24 h.`,
+      farmakokinetika: {
+        sorish: "Rapidly and completely absorbed orally; Cmax ~0.9 h.",
+        tarqalish: "Plasma protein binding ~90%.",
+        metabolizm: "Minimal (<14%) metabolism.",
+        chiqarilish: "Mainly renal unchanged. T½ — ~7–8 h."
+      },
+      korsatmalar: [
+        "Seasonal and perennial allergic rhinitis and conjunctivitis",
+        "Chronic idiopathic urticaria, pruritus",
+        "Allergic dermatoses"
+      ],
+      qarrshi: [
+        "Hypersensitivity to levocetirizine, cetirizine or piperazine derivatives",
+        "Severe renal failure (CrCl<10)",
+        "In pregnancy and lactation benefit/risk; age limits (by form)",
+        "Galactose intolerance (some forms)"
+      ],
+      nojoya: {
+        "Nervous system": "Drowsiness (little), fatigue, headache, dry mouth",
+        "Digestive system": "Nausea, abdominal discomfort",
+        "Allergy": "Rash, pruritus (rare); very rarely angioedema",
+        "Other": "Palpitations (rare)"
+      },
+      dozadan: "Symptoms: drowsiness (in adults), agitation in children. Treatment: symptomatic, activated charcoal; haemodialysis ineffective.",
+      ozarotasir: [
+        "Alcohol and CNS depressants: sedation may be enhanced",
+        "Stop 3 days before skin allergy tests",
+        "Ritonavir slightly raises concentration"
+      ],
+      qollash: {
+        kattalar: "Orally: 5 mg×1/day. Adjust dose/interval in renal failure.",
+        bolalar: "2–6 years: 1.25 mg×2 (drops/syrup); from 6 years: 5 mg/day."
+      },
+      chiqarish: "Tablets 5 mg; syrup 2.5 mg/5 mL; oral drops 5 mg/mL"
+    }
+  },
+
+  // ── LORATADIN | ATX: R06AX13 ──
+  "R06AX13": {
+    uz: {
+      gruppa: "Antigistaminlar — II avlod H1-retseptor blokatori (loratadin)",
+      farmTasir: "Allergiyaga qarshi (sedatsiyasiz antigistamin)",
+      farmakodinamika: `Loratadin — triklik II avlod tanlab ta'sir qiluvchi H1-gistamin retseptorlari blokatori. Periferik H1-retseptorlarni bloklab gistaminning allergik ta'sirini (qichima, qizarish, shish, rinoreya, aksirish) kamaytiradi. Lipofilligi past va P-glikoprotein substrati bo'lgani uchun gematoentsefalik to'siqdan deyarli o'tmaydi — sedativ va antixolinergik ta'siri yo'q (yoki juda kam). Faol metaboliti desloratadin orqali uzoq ta'sir qiladi (24 soat). Yurak ritmiga ta'siri yo'q (terapevtik dozada).`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали tez so'riladi; ovqat so'rilishni sekinlashtiradi.",
+        tarqalish: "Plazma oqsillariga ~97% bog'lanadi.",
+        metabolizm: "Jigarда CYP3A4 va CYP2D6 ishtirokida faol desloratadinga.",
+        chiqarilish: "Siydik va najas orqали teng. T½ — ~8 soat (metabolit ~28 soat)."
+      },
+      korsatmalar: [
+        "Mavsumiy va yil bo'yi allergik rinit va kon'yunktivit",
+        "Surункali idiopatik krapivnitsa (eshakemi), qichima",
+        "Allergik dermatozlar (yordamchi)"
+      ],
+      qarrshi: [
+        "Loratadinga o'ta sezgirlik",
+        "Og'ir jigar yetishmovchiligi (doza sozlash)",
+        "Homiladorlik va emizishда foyda/xavf; 2 yoshgача (shaklга qarab)",
+        "Fruktoza/galaktoza intolerantligi (sirop)"
+      ],
+      nojoya: {
+        "Asab tizimi": "Bosh og'rig'i, charchoq, uyquchanlik (kam); bolalarда — bosh og'rig'i, asabiylik",
+        "Hazm tizimi": "Og'iz qurishi, ishtaha oshishi, ko'ngil aynishi",
+        "Allergik / teri": "Toshma; juda kam — angionevrotik shish, anafilaksiya",
+        "Boshqa": "Taxikardiya, yurak urishi (kamdan-kam, yuqori dozada)"
+      },
+      dozadan: "Belgilari: uyquchanlik, taxikardiya, bosh og'rig'i. Davolash: simptomatik, faollashtirilgan ko'mir; gemodializ samarasiz.",
+      ozarotasir: [
+        "CYP3A4/CYP2D6 inhibitorlari (ketokonazol, eritromitsin, simetidin): loratadin konsentratsiyasini oshiradi (odatda klinik ahamiyatsiz)",
+        "Alkogol bilan sezilarli sedatsiya bermaydi (II avlod afzalligi)"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали: 10 mg×1/kun. Og'ir jigar yetishmovchiligida har kun oshirib (10 mg har 2 kunda).",
+        bolalar: "2–12 yosh, <30 kg: 5 mg×1/kun; >30 kg: 10 mg×1/kun (sirop)."
+      },
+      chiqarish: "Tabletkalar 10 mg; sirop 5 mg/5 ml; shipuchi/dispergir tabletkalar"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор II поколения (лоратадин)",
+      farmTasir: "Противоаллергическое (антигистамин без седации)",
+      farmakodinamika: `Лоратадин — трициклический H1-блокатор II поколения, избирательно блокирующий H1-гистаминовые рецепторы. Блокируя периферические H1-рецепторы, уменьшает аллергическое действие гистамина (зуд, покраснение, отёк, ринорея, чихание). Из-за низкой липофильности и того, что является субстратом P-гликопротеина, практически не проникает через ГЭБ — седативное и антихолинергическое действие отсутствует (или очень мало). Через активный метаболит дезлоратадин действует длительно (24 ч). Не влияет на сердечный ритм (в терапевтической дозе).`,
+      farmakokinetika: {
+        sorish: "Внутрь быстро всасывается; пища замедляет всасывание.",
+        tarqalish: "Связь с белками плазмы ~97%.",
+        metabolizm: "В печени при участии CYP3A4 и CYP2D6 до активного дезлоратадина.",
+        chiqarilish: "Поровну с мочой и калом. T½ — ~8 ч (метаболит ~28 ч)."
+      },
+      korsatmalar: [
+        "Сезонный и круглогодичный аллергический ринит и конъюнктивит",
+        "Хроническая идиопатическая крапивница, зуд",
+        "Аллергические дерматозы (вспомогательно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к лоратадину",
+        "Тяжёлая печёночная недостаточность (коррекция дозы)",
+        "При беременности и лактации польза/риск; до 2 лет (по форме)",
+        "Непереносимость фруктозы/галактозы (сироп)"
+      ],
+      nojoya: {
+        "Нервная система": "Головная боль, утомляемость, сонливость (мало); у детей — головная боль, нервозность",
+        "Пищеварительная система": "Сухость во рту, повышение аппетита, тошнота",
+        "Аллергия / кожа": "Сыпь; очень редко — ангионевротический отёк, анафилаксия",
+        "Прочее": "Тахикардия, сердцебиение (редко, при высокой дозе)"
+      },
+      dozadan: "Симптомы: сонливость, тахикардия, головная боль. Лечение: симптоматически, активированный уголь; гемодиализ неэффективен.",
+      ozarotasir: [
+        "Ингибиторы CYP3A4/CYP2D6 (кетоконазол, эритромицин, циметидин): повышают концентрацию лоратадина (обычно клинически незначимо)",
+        "С алкоголем не даёт заметной седации (преимущество II поколения)"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 10 мг×1/сут. При тяжёлой печёночной недостаточности через день (10 мг каждые 2 дня).",
+        bolalar: "2–12 лет, <30 кг: 5 мг×1/сут; >30 кг: 10 мг×1/сут (сироп)."
+      },
+      chiqarish: "Таблетки 10 мг; сироп 5 мг/5 мл; шипучие/диспергируемые таблетки"
+    },
+    en: {
+      gruppa: "Antihistamines — second-generation H1-receptor blocker (loratadine)",
+      farmTasir: "Antiallergic (non-sedating antihistamine)",
+      farmakodinamika: `Loratadine is a tricyclic second-generation H1-blocker that selectively blocks H1-histamine receptors. By blocking peripheral H1-receptors it reduces histamine's allergic effects (itching, redness, oedema, rhinorrhoea, sneezing). Owing to low lipophilicity and being a P-glycoprotein substrate, it barely crosses the BBB — sedative and anticholinergic effects are absent (or very small). Through the active metabolite desloratadine it acts long (24 h). It does not affect cardiac rhythm (at therapeutic doses).`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally; food slows absorption.",
+        tarqalish: "Plasma protein binding ~97%.",
+        metabolizm: "Hepatic via CYP3A4 and CYP2D6 to active desloratadine.",
+        chiqarilish: "Equally in urine and faeces. T½ — ~8 h (metabolite ~28 h)."
+      },
+      korsatmalar: [
+        "Seasonal and perennial allergic rhinitis and conjunctivitis",
+        "Chronic idiopathic urticaria, pruritus",
+        "Allergic dermatoses (adjunct)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to loratadine",
+        "Severe hepatic failure (dose adjustment)",
+        "In pregnancy and lactation benefit/risk; under 2 years (by form)",
+        "Fructose/galactose intolerance (syrup)"
+      ],
+      nojoya: {
+        "Nervous system": "Headache, fatigue, drowsiness (little); in children — headache, nervousness",
+        "Digestive system": "Dry mouth, increased appetite, nausea",
+        "Allergy / skin": "Rash; very rarely angioedema, anaphylaxis",
+        "Other": "Tachycardia, palpitations (rare, at high dose)"
+      },
+      dozadan: "Symptoms: drowsiness, tachycardia, headache. Treatment: symptomatic, activated charcoal; haemodialysis ineffective.",
+      ozarotasir: [
+        "CYP3A4/CYP2D6 inhibitors (ketoconazole, erythromycin, cimetidine): raise loratadine concentration (usually clinically insignificant)",
+        "With alcohol gives no notable sedation (a second-generation advantage)"
+      ],
+      qollash: {
+        kattalar: "Orally: 10 mg×1/day. In severe hepatic failure every other day (10 mg every 2 days).",
+        bolalar: "2–12 years, <30 kg: 5 mg×1/day; >30 kg: 10 mg×1/day (syrup)."
+      },
+      chiqarish: "Tablets 10 mg; syrup 5 mg/5 mL; effervescent/dispersible tablets"
+    }
+  },
+
+  // ── DESLORATADIN | ATX: R06AX27 ──
+  "R06AX27": {
+    uz: {
+      gruppa: "Antigistaminlar — II avlod H1-retseptor blokatori (desloratadin)",
+      farmTasir: "Allergiyaga qarshi (loratadinning faol metaboliti)",
+      farmakodinamika: `Desloratadin — loratadinning farmakologik faol metaboliti bo'lgan II avlod tanlab ta'sir qiluvchi H1-gistamin retseptorlari blokatori. Periferik H1-retseptorlarni uzoq muddat bloklab gistaminning allergik ta'sirini kamaytiradi; bundan tashqari proinflamatuar sitokinlar va xemokinlar ajralishini, eozinofil migratsiyasi va adgeziya molekulalari ekspressiyasini susaytiradi (qo'shimcha yallig'lanishga qarshi ta'sir). MNSга kam kiradi — sedatsiyasi yo'q yoki juda kam, antixolinergik ta'siri yo'q. Bir kunlik (24 soat) ta'sir.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали yaxshi so'riladi; Cmax ~3 soatда.",
+        tarqalish: "Plazma oqsillariga ~83–87% bog'lanadi.",
+        metabolizm: "Jigarда 3-gidroksidesloratadinga (faol).",
+        chiqarilish: "Siydik va najas orqали. T½ — ~27 soat (kuniga bir marta)."
+      },
+      korsatmalar: [
+        "Mavsumiy va yil bo'yi allergik rinit (jumladan ko'z simptomlari)",
+        "Surункali idiopatik krapivnitsa (eshakemi), qichima"
+      ],
+      qarrshi: [
+        "Desloratadin yoki loratadinga o'ta sezgirlik",
+        "Og'ir jigar yetishmovchiligi (ehtiyot)",
+        "Homiladorlik va emizishда foyda/xavf; yosh chegaralari (shaklга qarab)",
+        "Fruktoza intolerantligi (sirop)"
+      ],
+      nojoya: {
+        "Asab tizimi": "Charchoq, bosh og'rig'i, uyquchanlik (kam); og'iz qurishi",
+        "Hazm tizimi": "Ko'ngil aynishi, dispepsiya",
+        "Allergik / teri": "Toshma; juda kam — angionevrotik shish, anafilaksiya",
+        "Boshqa": "Taxikardiya, yurak urishi (kamdan-kam)"
+      },
+      dozadan: "Belgilari: uyquchanlik, taxikardiya (yuqori dozada). Davolash: simptomatik, faollashtirilgan ko'mir; gemodializ samarasiz.",
+      ozarotasir: [
+        "Klinik ahamiyatli CYP o'zaro ta'siri kam (ketokonazol, eritromitsin konsentratsiyasini biroz oshiradi — xavfsiz)",
+        "Alkogol bilan sezilarli sedatsiya bermaydi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали: 5 mg×1/kun.",
+        bolalar: "6–11 oй: 1 mg; 1–5 yosh: 1,25 mg; 6–11 yosh: 2,5 mg; 12 yoshdan: 5 mg (sirop)."
+      },
+      chiqarish: "Tabletkalar 5 mg; sirop 0,5 mg/ml; dispergir tabletkalar"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор II поколения (дезлоратадин)",
+      farmTasir: "Противоаллергическое (активный метаболит лоратадина)",
+      farmakodinamika: `Дезлоратадин — H1-блокатор II поколения, фармакологически активный метаболит лоратадина. Длительно блокируя периферические H1-рецепторы, уменьшает аллергическое действие гистамина; дополнительно ослабляет выделение провоспалительных цитокинов и хемокинов, миграцию эозинофилов и экспрессию молекул адгезии (дополнительное противовоспалительное действие). Мало проникает в ЦНС — седация отсутствует или очень мала, антихолинергического действия нет. Действие на сутки (24 ч).`,
+      farmakokinetika: {
+        sorish: "Внутрь хорошо всасывается; Cmax ~3 ч.",
+        tarqalish: "Связь с белками плазмы ~83–87%.",
+        metabolizm: "В печени до 3-гидроксидезлоратадина (активный).",
+        chiqarilish: "С мочой и калом. T½ — ~27 ч (1 раз в сутки)."
+      },
+      korsatmalar: [
+        "Сезонный и круглогодичный аллергический ринит (включая глазные симптомы)",
+        "Хроническая идиопатическая крапивница, зуд"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к дезлоратадину или лоратадину",
+        "Тяжёлая печёночная недостаточность (осторожно)",
+        "При беременности и лактации польза/риск; возрастные ограничения (по форме)",
+        "Непереносимость фруктозы (сироп)"
+      ],
+      nojoya: {
+        "Нервная система": "Утомляемость, головная боль, сонливость (мало); сухость во рту",
+        "Пищеварительная система": "Тошнота, диспепсия",
+        "Аллергия / кожа": "Сыпь; очень редко — ангионевротический отёк, анафилаксия",
+        "Прочее": "Тахикардия, сердцебиение (редко)"
+      },
+      dozadan: "Симптомы: сонливость, тахикардия (при высокой дозе). Лечение: симптоматически, активированный уголь; гемодиализ неэффективен.",
+      ozarotasir: [
+        "Клинически значимых CYP-взаимодействий мало (кетоконазол, эритромицин несколько повышают концентрацию — безопасно)",
+        "С алкоголем не даёт заметной седации"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 5 мг×1/сут.",
+        bolalar: "6–11 мес: 1 мг; 1–5 лет: 1,25 мг; 6–11 лет: 2,5 мг; с 12 лет: 5 мг (сироп)."
+      },
+      chiqarish: "Таблетки 5 мг; сироп 0,5 мг/мл; диспергируемые таблетки"
+    },
+    en: {
+      gruppa: "Antihistamines — second-generation H1-receptor blocker (desloratadine)",
+      farmTasir: "Antiallergic (active metabolite of loratadine)",
+      farmakodinamika: `Desloratadine is a second-generation H1-blocker, the pharmacologically active metabolite of loratadine. By blocking peripheral H1-receptors long-term it reduces histamine's allergic effects; it additionally dampens release of pro-inflammatory cytokines and chemokines, eosinophil migration and adhesion-molecule expression (extra anti-inflammatory action). It crosses into the CNS little — sedation is absent or very small, with no anticholinergic action. Once-daily (24 h) action.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally; Cmax ~3 h.",
+        tarqalish: "Plasma protein binding ~83–87%.",
+        metabolizm: "Hepatic to 3-hydroxydesloratadine (active).",
+        chiqarilish: "In urine and faeces. T½ — ~27 h (once daily)."
+      },
+      korsatmalar: [
+        "Seasonal and perennial allergic rhinitis (including ocular symptoms)",
+        "Chronic idiopathic urticaria, pruritus"
+      ],
+      qarrshi: [
+        "Hypersensitivity to desloratadine or loratadine",
+        "Severe hepatic failure (caution)",
+        "In pregnancy and lactation benefit/risk; age limits (by form)",
+        "Fructose intolerance (syrup)"
+      ],
+      nojoya: {
+        "Nervous system": "Fatigue, headache, drowsiness (little); dry mouth",
+        "Digestive system": "Nausea, dyspepsia",
+        "Allergy / skin": "Rash; very rarely angioedema, anaphylaxis",
+        "Other": "Tachycardia, palpitations (rare)"
+      },
+      dozadan: "Symptoms: drowsiness, tachycardia (at high dose). Treatment: symptomatic, activated charcoal; haemodialysis ineffective.",
+      ozarotasir: [
+        "Clinically significant CYP interactions are few (ketoconazole, erythromycin slightly raise concentration — safe)",
+        "With alcohol gives no notable sedation"
+      ],
+      qollash: {
+        kattalar: "Orally: 5 mg×1/day.",
+        bolalar: "6–11 months: 1 mg; 1–5 years: 1.25 mg; 6–11 years: 2.5 mg; from 12 years: 5 mg (syrup)."
+      },
+      chiqarish: "Tablets 5 mg; syrup 0.5 mg/mL; dispersible tablets"
+    }
+  },
+
+  // ── FEKSOFENADIN | ATX: R06AX26 ──
+  "R06AX26": {
+    uz: {
+      gruppa: "Antigistaminlar — II avlod H1-retseptor blokatori (feksofenadin)",
+      farmTasir: "Allergiyaga qarshi (sedatsiyasiz, terfenadinning faol metaboliti)",
+      farmakodinamika: `Feksofenadin — terfenadinning farmakologik faol karboksil metaboliti bo'lgan II avlod tanlab ta'sir qiluvchi H1-gistamin retseptorlari blokatori. Periferik H1-retseptorlarni bloklab gistaminning allergik ta'sirini kamaytiradi. Lipofilligi past — gematoentsefalik to'siqdan o'tmaydi, shu sababli sedatsiyasi va antixolinergik ta'siri yo'q. Terfenadindan farqli o'laroq yurak kaliy kanallariga ta'sir qilmaydi — QT uzaytirmaydi (kardiologik xavfsiz). Ta'sir tez va 24 soat davom etadi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали tez so'riladi; meva sharbatlari (greypfrut, apelsin) so'rilishini kamaytiradi.",
+        tarqalish: "Plazma oqsillariga ~60–70% bog'lanadi.",
+        metabolizm: "Metabolizmga deyarli uchramaydi (o'zgarmaydi).",
+        chiqarilish: "Asosан najas (o't), qisman siydik orqали. T½ — ~14 soat."
+      },
+      korsatmalar: [
+        "Mavsumiy allergik rinit (aksirish, rinoreya, qichima, ko'z simptomlari)",
+        "Surункali idiopatik krapivnitsa (eshakemi)"
+      ],
+      qarrshi: [
+        "Feksofenadinga o'ta sezgirlik",
+        "Homiladorlik va emizishда foyda/xavf",
+        "Yosh chegaralari (shaklга qarab — odatda 6/12 yoshdan)",
+        "Og'ir buyrak yetishmovchiligida ehtiyot"
+      ],
+      nojoya: {
+        "Asab tizimi": "Bosh og'rig'i, uyquchanlik (kam), bosh aylanishi, charchoq",
+        "Hazm tizimi": "Ko'ngil aynishi, dispepsiya",
+        "Allergik": "Toshma, qichima; juda kam — angionevrotik shish, anafilaksiya"
+      },
+      dozadan: "Belgilari: bosh aylanishi, uyquchanlik, og'iz qurishi. Davolash: simptomatik, faollashtirilgan ko'mir; gemodializ samarasiz.",
+      ozarotasir: [
+        "Aluminiy/magniy saqlovchi antatsidlar: so'rilishini kamaytiradi — 2 soat ajrating",
+        "Greypfrut, apelsin, olma sharbati: so'rilishini kamaytiradi",
+        "Eritromitsin, ketokonazol: konsentratsiyasini biroz oshiradi (xavfsiz)"
+      ],
+      qollash: {
+        kattalar: "Allergik rinit: 120 mg×1/kun yoki 60 mg×2/kun. Krapivnitsa: 180 mg×1/kun.",
+        bolalar: "6–11 yosh: 30 mg×2/kun; 12 yoshdan kattalар dozasi."
+      },
+      chiqarish: "Tabletkalar 30, 60, 120, 180 mg; suspenziya (bolalar uchun)"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор II поколения (фексофенадин)",
+      farmTasir: "Противоаллергическое (без седации, активный метаболит терфенадина)",
+      farmakodinamika: `Фексофенадин — H1-блокатор II поколения, фармакологически активный карбоксиметаболит терфенадина. Блокируя периферические H1-рецепторы, уменьшает аллергическое действие гистамина. Низколипофилен — не проникает через ГЭБ, поэтому нет седации и антихолинергического действия. В отличие от терфенадина не влияет на калиевые каналы сердца — не удлиняет QT (кардиологически безопасен). Действие быстрое и длится 24 ч.`,
+      farmakokinetika: {
+        sorish: "Внутрь быстро всасывается; фруктовые соки (грейпфрут, апельсин) снижают всасывание.",
+        tarqalish: "Связь с белками плазмы ~60–70%.",
+        metabolizm: "Практически не метаболизируется (не изменяется).",
+        chiqarilish: "Преимущественно с калом (жёлчь), частично с мочой. T½ — ~14 ч."
+      },
+      korsatmalar: [
+        "Сезонный аллергический ринит (чихание, ринорея, зуд, глазные симптомы)",
+        "Хроническая идиопатическая крапивница"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к фексофенадину",
+        "При беременности и лактации польза/риск",
+        "Возрастные ограничения (по форме — обычно с 6/12 лет)",
+        "Осторожно при тяжёлой почечной недостаточности"
+      ],
+      nojoya: {
+        "Нервная система": "Головная боль, сонливость (мало), головокружение, утомляемость",
+        "Пищеварительная система": "Тошнота, диспепсия",
+        "Аллергия": "Сыпь, зуд; очень редко — ангионевротический отёк, анафилаксия"
+      },
+      dozadan: "Симптомы: головокружение, сонливость, сухость во рту. Лечение: симптоматически, активированный уголь; гемодиализ неэффективен.",
+      ozarotasir: [
+        "Антациды с алюминием/магнием: снижают всасывание — разнести на 2 ч",
+        "Грейпфрутовый, апельсиновый, яблочный сок: снижают всасывание",
+        "Эритромицин, кетоконазол: несколько повышают концентрацию (безопасно)"
+      ],
+      qollash: {
+        kattalar: "Аллергический ринит: 120 мг×1/сут или 60 мг×2/сут. Крапивница: 180 мг×1/сут.",
+        bolalar: "6–11 лет: 30 мг×2/сут; с 12 лет доза взрослых."
+      },
+      chiqarish: "Таблетки 30, 60, 120, 180 мг; суспензия (для детей)"
+    },
+    en: {
+      gruppa: "Antihistamines — second-generation H1-receptor blocker (fexofenadine)",
+      farmTasir: "Antiallergic (non-sedating, active metabolite of terfenadine)",
+      farmakodinamika: `Fexofenadine is a second-generation H1-blocker, the pharmacologically active carboxyl metabolite of terfenadine. By blocking peripheral H1-receptors it reduces histamine's allergic effects. Being low in lipophilicity it does not cross the BBB, so there is no sedation or anticholinergic action. Unlike terfenadine it does not affect cardiac potassium channels — it does not prolong QT (cardiologically safe). The effect is rapid and lasts 24 h.`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally; fruit juices (grapefruit, orange) reduce absorption.",
+        tarqalish: "Plasma protein binding ~60–70%.",
+        metabolizm: "Barely metabolised (unchanged).",
+        chiqarilish: "Mainly faecal (bile), partly renal. T½ — ~14 h."
+      },
+      korsatmalar: [
+        "Seasonal allergic rhinitis (sneezing, rhinorrhoea, itching, ocular symptoms)",
+        "Chronic idiopathic urticaria"
+      ],
+      qarrshi: [
+        "Hypersensitivity to fexofenadine",
+        "In pregnancy and lactation benefit/risk",
+        "Age limits (by form — usually from 6/12 years)",
+        "Caution in severe renal failure"
+      ],
+      nojoya: {
+        "Nervous system": "Headache, drowsiness (little), dizziness, fatigue",
+        "Digestive system": "Nausea, dyspepsia",
+        "Allergy": "Rash, pruritus; very rarely angioedema, anaphylaxis"
+      },
+      dozadan: "Symptoms: dizziness, drowsiness, dry mouth. Treatment: symptomatic, activated charcoal; haemodialysis ineffective.",
+      ozarotasir: [
+        "Aluminium/magnesium antacids: reduce absorption — separate by 2 h",
+        "Grapefruit, orange, apple juice: reduce absorption",
+        "Erythromycin, ketoconazole: slightly raise concentration (safe)"
+      ],
+      qollash: {
+        kattalar: "Allergic rhinitis: 120 mg×1/day or 60 mg×2/day. Urticaria: 180 mg×1/day.",
+        bolalar: "6–11 years: 30 mg×2/day; from 12 years the adult dose."
+      },
+      chiqarish: "Tablets 30, 60, 120, 180 mg; suspension (for children)"
+    }
+  },
+
+  // ── EBASTIN | ATX: R06AX22 ──
+  "R06AX22": {
+    uz: {
+      gruppa: "Antigistaminlar — II avlod H1-retseptor blokatori (ebastin)",
+      farmTasir: "Allergiyaga qarshi (uzoq ta'sirli, sedatsiyasi past)",
+      farmakodinamika: `Ebastin — II avlod tanlab ta'sir qiluvchi uzoq ta'sirli H1-gistamin retseptorlari blokatori. Organizmда faol metaboliti karebastinга aylanib periferik H1-retseptorlarni bloklaydi va gistaminning allergik ta'sirini kamaytiradi. MNSга kam kiradi — sedatsiyasi past, antixolinergik ta'siri kam. Bir kunlik (24 soat) ta'sir. Yuqori dozada QT intervaliga ta'sir teoretik bo'lsa-da, terapevtik dozada xavfsiz.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали tez so'riladi; ovqat samaraga sezilarli ta'sir qilmaydi.",
+        tarqalish: "Plazma oqsillariga >95% bog'lanadi.",
+        metabolizm: "Jigarда CYP3A4 ishtirokida faol karebastinga.",
+        chiqarilish: "Asosан siydik orqали metabolit ko'rinishida. T½ (karebastin) — ~15–19 soat."
+      },
+      korsatmalar: [
+        "Mavsumiy va yil bo'yi allergik rinit va kon'yunktivit",
+        "Surункali idiopatik krapivnitsa (eshakemi), qichima"
+      ],
+      qarrshi: [
+        "Ebastinga o'ta sezgirlik",
+        "QT uzayishi, og'ir gipokaliemiya (ehtiyot)",
+        "Og'ir jigar yetishmovchiligi",
+        "Homiladorlik va emizishда foyda/xavf; yosh chegaralari"
+      ],
+      nojoya: {
+        "Asab tizimi": "Bosh og'rig'i, uyquchanlik (kam), og'iz qurishi",
+        "Hazm tizimi": "Ko'ngil aynishi, dispepsiya, qorin og'rig'i",
+        "Yurak-qon tomir": "Yuqori dozada — QT uzayishi (kamdan-kam)",
+        "Allergik": "Toshma, qichima"
+      },
+      dozadan: "Belgilari: uyquchanlik, og'iz qurishi; yuqori dozada teoretik QT ta'siri. Davolash: simptomatik, EKG nazorati (yuqori dozada).",
+      ozarotasir: [
+        "Kuchli CYP3A4 inhibitorlari (ketokonazol, eritromitsin): ebastin/karebastin konsentratsiyasini oshiradi, QT xavfini ko'taradi — ehtiyot",
+        "QT uzaytiruvchi boshqa dorilar bilan birga ehtiyot"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали: 10–20 mg×1/kun.",
+        bolalar: "6–11 yosh: 5 mg×1/kun; 12 yoshdan: 10 mg×1/kun (sirop)."
+      },
+      chiqarish: "Tabletkalar 10, 20 mg; og'izда eriydigan tabletkalar; sirop"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор II поколения (эбастин)",
+      farmTasir: "Противоаллергическое (длительного действия, низкая седация)",
+      farmakodinamika: `Эбастин — H1-блокатор II поколения длительного действия. В организме превращается в активный метаболит каребастин, блокирующий периферические H1-рецепторы и уменьшающий аллергическое действие гистамина. Мало проникает в ЦНС — низкая седация, малое антихолинергическое действие. Действие на сутки (24 ч). Хотя влияние на QT при высокой дозе теоретически возможно, в терапевтической дозе безопасен.`,
+      farmakokinetika: {
+        sorish: "Внутрь быстро всасывается; пища существенно не влияет на эффект.",
+        tarqalish: "Связь с белками плазмы >95%.",
+        metabolizm: "В печени при участии CYP3A4 до активного каребастина.",
+        chiqarilish: "Преимущественно с мочой в виде метаболитов. T½ (каребастин) — ~15–19 ч."
+      },
+      korsatmalar: [
+        "Сезонный и круглогодичный аллергический ринит и конъюнктивит",
+        "Хроническая идиопатическая крапивница, зуд"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к эбастину",
+        "Удлинение QT, тяжёлая гипокалиемия (осторожно)",
+        "Тяжёлая печёночная недостаточность",
+        "При беременности и лактации польза/риск; возрастные ограничения"
+      ],
+      nojoya: {
+        "Нервная система": "Головная боль, сонливость (мало), сухость во рту",
+        "Пищеварительная система": "Тошнота, диспепсия, боль в животе",
+        "Сердечно-сосудистая система": "При высокой дозе — удлинение QT (редко)",
+        "Аллергия": "Сыпь, зуд"
+      },
+      dozadan: "Симптомы: сонливость, сухость во рту; при высокой дозе теоретическое влияние на QT. Лечение: симптоматически, контроль ЭКГ (при высокой дозе).",
+      ozarotasir: [
+        "Мощные ингибиторы CYP3A4 (кетоконазол, эритромицин): повышают концентрацию эбастина/каребастина, повышают риск QT — осторожно",
+        "С другими удлиняющими QT препаратами осторожно"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 10–20 мг×1/сут.",
+        bolalar: "6–11 лет: 5 мг×1/сут; с 12 лет: 10 мг×1/сут (сироп)."
+      },
+      chiqarish: "Таблетки 10, 20 мг; таблетки, растворимые во рту; сироп"
+    },
+    en: {
+      gruppa: "Antihistamines — second-generation H1-receptor blocker (ebastine)",
+      farmTasir: "Antiallergic (long-acting, low sedation)",
+      farmakodinamika: `Ebastine is a long-acting second-generation H1-blocker. In the body it is converted to the active metabolite carebastine, which blocks peripheral H1-receptors and reduces histamine's allergic effects. It crosses into the CNS little — low sedation, little anticholinergic action. Once-daily (24 h) action. Although a QT effect at high dose is theoretically possible, it is safe at therapeutic doses.`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally; food does not appreciably affect the effect.",
+        tarqalish: "Plasma protein binding >95%.",
+        metabolizm: "Hepatic via CYP3A4 to active carebastine.",
+        chiqarilish: "Mainly renal as metabolites. T½ (carebastine) — ~15–19 h."
+      },
+      korsatmalar: [
+        "Seasonal and perennial allergic rhinitis and conjunctivitis",
+        "Chronic idiopathic urticaria, pruritus"
+      ],
+      qarrshi: [
+        "Hypersensitivity to ebastine",
+        "QT prolongation, severe hypokalaemia (caution)",
+        "Severe hepatic failure",
+        "In pregnancy and lactation benefit/risk; age limits"
+      ],
+      nojoya: {
+        "Nervous system": "Headache, drowsiness (little), dry mouth",
+        "Digestive system": "Nausea, dyspepsia, abdominal pain",
+        "Cardiovascular system": "At high dose — QT prolongation (rare)",
+        "Allergy": "Rash, pruritus"
+      },
+      dozadan: "Symptoms: drowsiness, dry mouth; at high dose a theoretical QT effect. Treatment: symptomatic, ECG monitoring (at high dose).",
+      ozarotasir: [
+        "Potent CYP3A4 inhibitors (ketoconazole, erythromycin): raise ebastine/carebastine concentration, increasing QT risk — caution",
+        "With other QT-prolonging drugs use caution"
+      ],
+      qollash: {
+        kattalar: "Orally: 10–20 mg×1/day.",
+        bolalar: "6–11 years: 5 mg×1/day; from 12 years: 10 mg×1/day (syrup)."
+      },
+      chiqarish: "Tablets 10, 20 mg; orodispersible tablets; syrup"
+    }
+  },
+
+  // ── BILASTIN | ATX: R06AX29 ──
+  "R06AX29": {
+    uz: {
+      gruppa: "Antigistaminlar — II avlod H1-retseptor blokatori (bilastin)",
+      farmTasir: "Allergiyaga qarshi (sedatsiyasiz, metabolizmsiz)",
+      farmakodinamika: `Bilastin — yangi II avlod tanlab ta'sir qiluvchi H1-gistamin retseptorlari blokatori. Periferik H1-retseptorlarga yuqori moyillik bilan bog'lanib gistaminning allergik ta'sirini kamaytiradi. P-glikoprotein substrati bo'lgani uchun gematoentsefalik to'siqdan deyarli o'tmaydi — sedatsiyasi yo'q (avtomobil boshqarishга ta'sir qilmaydi), antixolinergik ta'siri yo'q, QT uzaytirmaydi. Organizmда deyarli metabolizatsiya bo'lmaydi (o'zgarmagan holda chiqariladi) — jigar/dori o'zaro ta'siri minimal. Bir kunlik ta'sir.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали so'riladi (biokirish ~61%); ovqat va meva sharbatlari so'rilishini sezilarli kamaytiradi — och qoringa qabul qilinadi.",
+        tarqalish: "Plazma oqsillariga ~84–90% bog'lanadi.",
+        metabolizm: "Deyarli metabolizatsiya bo'lmaydi (o'zgarmaydi).",
+        chiqarilish: "Asosан najas va siydik orqали o'zgarmagan holda. T½ — ~15 soat."
+      },
+      korsatmalar: [
+        "Mavsumiy va yil bo'yi allergik rinokon'yunktivit",
+        "Krapivnitsa (eshakemi), qichima"
+      ],
+      qarrshi: [
+        "Bilastinga o'ta sezgirlik",
+        "Homiladorlik va emizishда foyda/xavf",
+        "Yosh chegaralari (odatda 6/12 yoshdan)",
+        "QT uzaytiruvchi dorilar bilan birga (ehtiyot)"
+      ],
+      nojoya: {
+        "Asab tizimi": "Bosh og'rig'i, uyquchanlik (kam), bosh aylanishi",
+        "Hazm tizimi": "Qorin og'rig'i, ko'ngil aynishi, dispepsiya",
+        "Allergik": "Toshma, qichima (kamdan-kam)"
+      },
+      dozadan: "Belgilari: kam (bosh og'rig'i, uyquchanlik). Davolash: simptomatik.",
+      ozarotasir: [
+        "Ovqat va meva sharbatlari (greypfrut): so'rilishini keskin kamaytiradi — och qoringa, ovqatdan 1 soat oldin yoki 2 soat keyin",
+        "P-glikoprotein inhibitorlari (ketokonazol, eritromitsin, siklosporin): bilastin konsentratsiyasini oshiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали: 20 mg×1/kun, och qoringa (ovqatdan 1 soat oldin yoki 2 soat keyin).",
+        bolalar: "6–11 yosh (≥20 kg): 10 mg×1/kun; 12 yoshdan: 20 mg×1/kun."
+      },
+      chiqarish: "Tabletkalar 20 mg; og'izда eriydigan tabletkalar 10 mg; ichish eritmasi (bolalar)"
+    },
+    ru: {
+      gruppa: "Антигистаминные — H1-блокатор II поколения (биластин)",
+      farmTasir: "Противоаллергическое (без седации, без метаболизма)",
+      farmakodinamika: `Биластин — новый H1-блокатор II поколения. Связываясь с периферическими H1-рецепторами с высоким сродством, уменьшает аллергическое действие гистамина. Будучи субстратом P-гликопротеина, практически не проникает через ГЭБ — нет седации (не влияет на вождение), нет антихолинергического действия, не удлиняет QT. В организме почти не метаболизируется (выводится в неизменённом виде) — минимальные лекарственные/печёночные взаимодействия. Действие на сутки.`,
+      farmakokinetika: {
+        sorish: "Внутрь всасывается (биодоступность ~61%); пища и фруктовые соки существенно снижают всасывание — принимать натощак.",
+        tarqalish: "Связь с белками плазмы ~84–90%.",
+        metabolizm: "Почти не метаболизируется (не изменяется).",
+        chiqarilish: "Преимущественно с калом и мочой в неизменённом виде. T½ — ~15 ч."
+      },
+      korsatmalar: [
+        "Сезонный и круглогодичный аллергический риноконъюнктивит",
+        "Крапивница, зуд"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к биластину",
+        "При беременности и лактации польза/риск",
+        "Возрастные ограничения (обычно с 6/12 лет)",
+        "С удлиняющими QT препаратами (осторожно)"
+      ],
+      nojoya: {
+        "Нервная система": "Головная боль, сонливость (мало), головокружение",
+        "Пищеварительная система": "Боль в животе, тошнота, диспепсия",
+        "Аллергия": "Сыпь, зуд (редко)"
+      },
+      dozadan: "Симптомы: незначительные (головная боль, сонливость). Лечение: симптоматически.",
+      ozarotasir: [
+        "Пища и фруктовые соки (грейпфрут): резко снижают всасывание — натощак, за 1 ч до или через 2 ч после еды",
+        "Ингибиторы P-гликопротеина (кетоконазол, эритромицин, циклоспорин): повышают концентрацию биластина"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 20 мг×1/сут, натощак (за 1 ч до или через 2 ч после еды).",
+        bolalar: "6–11 лет (≥20 кг): 10 мг×1/сут; с 12 лет: 20 мг×1/сут."
+      },
+      chiqarish: "Таблетки 20 мг; таблетки, растворимые во рту, 10 мг; раствор для приёма внутрь (дети)"
+    },
+    en: {
+      gruppa: "Antihistamines — second-generation H1-receptor blocker (bilastine)",
+      farmTasir: "Antiallergic (non-sedating, non-metabolised)",
+      farmakodinamika: `Bilastine is a newer second-generation H1-blocker. Binding peripheral H1-receptors with high affinity, it reduces histamine's allergic effects. As a P-glycoprotein substrate it barely crosses the BBB — no sedation (no effect on driving), no anticholinergic action, no QT prolongation. In the body it is almost unmetabolised (excreted unchanged) — minimal drug/hepatic interactions. Once-daily action.`,
+      farmakokinetika: {
+        sorish: "Absorbed orally (bioavailability ~61%); food and fruit juices substantially reduce absorption — take on an empty stomach.",
+        tarqalish: "Plasma protein binding ~84–90%.",
+        metabolizm: "Almost unmetabolised (unchanged).",
+        chiqarilish: "Mainly faecal and renal unchanged. T½ — ~15 h."
+      },
+      korsatmalar: [
+        "Seasonal and perennial allergic rhinoconjunctivitis",
+        "Urticaria, pruritus"
+      ],
+      qarrshi: [
+        "Hypersensitivity to bilastine",
+        "In pregnancy and lactation benefit/risk",
+        "Age limits (usually from 6/12 years)",
+        "With QT-prolonging drugs (caution)"
+      ],
+      nojoya: {
+        "Nervous system": "Headache, drowsiness (little), dizziness",
+        "Digestive system": "Abdominal pain, nausea, dyspepsia",
+        "Allergy": "Rash, pruritus (rare)"
+      },
+      dozadan: "Symptoms: minor (headache, drowsiness). Treatment: symptomatic.",
+      ozarotasir: [
+        "Food and fruit juices (grapefruit): sharply reduce absorption — fasting, 1 h before or 2 h after food",
+        "P-glycoprotein inhibitors (ketoconazole, erythromycin, ciclosporin): raise bilastine concentration"
+      ],
+      qollash: {
+        kattalar: "Orally: 20 mg×1/day, on an empty stomach (1 h before or 2 h after food).",
+        bolalar: "6–11 years (≥20 kg): 10 mg×1/day; from 12 years: 20 mg×1/day."
+      },
+      chiqarish: "Tablets 20 mg; orodispersible tablets 10 mg; oral solution (children)"
+    }
   }
 
 };
