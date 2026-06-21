@@ -1,0 +1,12 @@
+{
+  "name": "medcore-bot-worker",
+  "version": "1.0.0",
+  "description": "MedCore Telegram bot — Cloudflare Worker (webhook). Free 24/7.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "test": "node test-local.mjs"
+  }
+}
