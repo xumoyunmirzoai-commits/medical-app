@@ -40646,6 +40646,796 @@ const PHARMA_DATA = {
       },
       chiqarish: "Tablets (coated) 4 and 8 mg; rapid-release tablet 8 mg; lyophilised powder for injection 8 mg (vial)"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // Batch 3 — Propion kislota hosilalari (NSAID)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── IBUPROFEN | ATX: M01AE01 ──
+  "M01AE01": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — propion kislota hosilasi",
+      farmTasir: "Og'riq qoldiruvchi, isitma tushiruvchi, yallig'lanishga qarshi",
+      farmakodinamika: `Ibuprofen — propion kislota hosilasi bo'lgan keng qo'llaniladigan NSAID. Siklooksigenaza (COX-1 va COX-2) ni qaytar ravishda, nospetsifik ingibe qilib araxidon kislotasidan prostaglandinlar sintezini kamaytiradi — yallig'lanish, og'riq va isitmani susaytiradi. Analgetik va isitma tushiruvchi ta'siri yaqqol; yallig'lanishga qarshi ta'siri o'rtacha. Trombotsit agregatsiyasini qaytar va vaqtinchalik susaytiradi. Xavfsizlik profili qulay bo'lgani uchun bolalar va kattalar uchun retseptsiz analgetik-antipiretik sifatida keng ishlatiladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez va yaxshi so'riladi, biokirish ~80–90%. Och qoringa Cmax 45 daqiqa, ovqat bilan kechroq.",
+        tarqalish: "Plazma oqsillariga bog'lanish — ~99%. Sinovial suyuqlikка sekin kiradi va u yerda uzoqroq saqlanadi. Yo'ldoshdan o'tadi, ona sutiga juda oz miqdorda.",
+        metabolizm: "Jigarda CYP2C9 ishtirokida deyarli to'liq metabolizatsiya (oksidlanish).",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida, qisman o't bilan. T½ — ~2 soat (qisqa)."
+      },
+      korsatmalar: [
+        "Yengil va o'rta og'riq: bosh og'rig'i, migren, tish og'rig'i, dismenoreya, mialgiya, nevralgiya",
+        "Isitma (shamollash, gripp, infeksion kasalliklar; bolalarda)",
+        "Yallig'lanishli va degenerativ bo'g'im kasalliklari: revmatoid artrit, osteoartroz, ankilozlovchi spondiloartrit",
+        "Bo'g'imdan tashqari revmatizm, jarohat va operatsiyadan keyingi og'riq",
+        "Yangi tug'ilganlarda gemodinamik ahamiyatli ochiq arterial o'q (maxsus i/v shaklda)"
+      ],
+      qarrshi: [
+        "Ibuprofen yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish, perforatsiya",
+        "Og'ir jigar, buyrak yoki yurak yetishmovchiligi",
+        "Koronar shuntlashdan keyingi davr; faol qon ketish",
+        "Homiladorlikning III trimestri, emizish davrida ehtiyot"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, epigastral og'riq, ko'ngil aynishi, diareya, meteorizm; eroziya, yara, qon ketish (uzoq/yuqori dozada)",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyqusizlik; kamdan-kam — aseptik meningit (ayniqsa avtoimmun kasallikda)",
+        "Yurak-qon tomir": "AB oshishi, shish; uzoq yuqori dozada tromboz xavfi",
+        "Buyrak / teri": "Suyuqlik tutilishi, buyrak funksiyasi buzilishi; toshma, qichima, kamdan-kam — og'ir teri reaksiyalari",
+        "Qon": "Anemiya, leykopeniya, trombotsitopeniya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, epigastral og'riq, uyquchanlik, bosh og'rig'i, quloqda shovqin; og'ir holatda — tutqanoq, atsidoz, buyrak yetishmovchiligi. Davolash: oshqozonni yuvish, faollashtirilgan ko'mir, ishqorli ichimlik, simptomatik.",
+      ozarotasir: [
+        "Aspirin (past doza): ibuprofen uning antiagregant ta'sirini susaytirishi mumkin — qabul vaqtini ajrating",
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, metotreksat, digoksin konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari, ARB ta'sirini susaytiradi",
+        "Glyukokortikoidlar, SSRI bilan oshqozon-ichak qon ketish xavfi qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 200–400 mg har 4–6 soatda, og'riq/isitmaga. Revmatik kasalliklarda 1200–2400 mg/kun 3–4 ta qabulda. Maks. 2400 mg/kun (retseptsiz 1200 mg).",
+        bolalar: "Isitma/og'riqda 5–10 mg/kg har 6–8 soatda (maks. 30 mg/kg/kun). 3 oydan boshlab vazn bo'yicha suspenziya."
+      },
+      chiqarish: "Tabletkalar 200, 400, 600 mg; suspenziya 100 mg/5 ml va 200 mg/5 ml; rektal shamlar 60, 125 mg; in'eksiya eritmasi (i/v); gel/krem (mahalliy)"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — производное пропионовой кислоты",
+      farmTasir: "Анальгезирующее, жаропонижающее, противовоспалительное",
+      farmakodinamika: `Ибупрофен — широко применяемый НПВС, производное пропионовой кислоты. Обратимо и неселективно ингибирует циклооксигеназу (ЦОГ-1 и ЦОГ-2), снижая синтез простагландинов из арахидоновой кислоты — уменьшает воспаление, боль и лихорадку. Анальгезирующее и жаропонижающее действие выражено; противовоспалительное умеренное. Обратимо и временно подавляет агрегацию тромбоцитов. Благодаря благоприятному профилю безопасности широко используется как безрецептурный анальгетик-антипиретик у детей и взрослых.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро и хорошо, биодоступность ~80–90%. Натощак Cmax через 45 мин, с едой позже.",
+        tarqalish: "Связь с белками плазмы — ~99%. Медленно проникает в синовиальную жидкость, где сохраняется дольше. Проникает через плаценту, в грудное молоко в очень малом количестве.",
+        metabolizm: "Почти полностью метаболизируется в печени при участии CYP2C9 (окисление).",
+        chiqarilish: "Преимущественно почками в виде метаболитов, частично с жёлчью. T½ — ~2 ч (короткий)."
+      },
+      korsatmalar: [
+        "Лёгкая и умеренная боль: головная боль, мигрень, зубная боль, дисменорея, миалгия, невралгия",
+        "Лихорадка (простуда, грипп, инфекции; у детей)",
+        "Воспалительные и дегенеративные заболевания суставов: ревматоидный артрит, остеоартроз, анкилозирующий спондилоартрит",
+        "Внесуставной ревматизм, посттравматическая и послеоперационная боль",
+        "Гемодинамически значимый открытый артериальный проток у новорождённых (специальная в/в форма)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к ибупрофену или НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение, перфорация",
+        "Тяжёлая печёночная, почечная или сердечная недостаточность",
+        "Период после коронарного шунтирования; активное кровотечение",
+        "III триместр беременности, осторожно при лактации"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, эпигастральная боль, тошнота, диарея, метеоризм; эрозии, язвы, кровотечение (при длительном/высокодозовом приёме)",
+        "Нервная система": "Головная боль, головокружение, бессонница; редко — асептический менингит (особенно при аутоиммунных болезнях)",
+        "Сердечно-сосудистая система": "Повышение АД, отёки; риск тромбозов при длительном высокодозовом приёме",
+        "Почки / кожа": "Задержка жидкости, нарушение функции почек; сыпь, зуд, редко — тяжёлые кожные реакции",
+        "Кровь": "Анемия, лейкопения, тромбоцитопения (редко)"
+      },
+      dozadan: "Симптомы: тошнота, рвота, эпигастральная боль, сонливость, головная боль, шум в ушах; в тяжёлых случаях — судороги, ацидоз, почечная недостаточность. Лечение: промывание желудка, активированный уголь, щелочное питьё, симптоматически.",
+      ozarotasir: [
+        "Аспирин (низкая доза): ибупрофен может ослаблять его антиагрегантный эффект — разнести приём по времени",
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, метотрексата, дигоксина",
+        "Ослабляет действие диуретиков, иАПФ, БРА",
+        "С глюкокортикоидами, СИОЗС — суммарный риск ЖКТ-кровотечения"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 200–400 мг каждые 4–6 ч при боли/лихорадке. При ревматических болезнях 1200–2400 мг/сут в 3–4 приёма. Максимум 2400 мг/сут (безрецептурно 1200 мг).",
+        bolalar: "При лихорадке/боли 5–10 мг/кг каждые 6–8 ч (максимум 30 мг/кг/сут). С 3 мес по массе в виде суспензии."
+      },
+      chiqarish: "Таблетки 200, 400, 600 мг; суспензия 100 мг/5 мл и 200 мг/5 мл; ректальные свечи 60, 125 мг; раствор для инъекций (в/в); гель/крем (наружно)"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — propionic acid derivative",
+      farmTasir: "Analgesic, antipyretic, anti-inflammatory",
+      farmakodinamika: `Ibuprofen is a widely used NSAID, a propionic acid derivative. It reversibly and non-selectively inhibits cyclooxygenase (COX-1 and COX-2), reducing prostaglandin synthesis from arachidonic acid — easing inflammation, pain and fever. Its analgesic and antipyretic action is marked; anti-inflammatory effect moderate. It reversibly and temporarily inhibits platelet aggregation. Owing to its favourable safety profile it is widely used as an OTC analgesic-antipyretic in children and adults.`,
+      farmakokinetika: {
+        sorish: "Rapidly and well absorbed orally, bioavailability ~80–90%. Fasting Cmax in 45 min, later with food.",
+        tarqalish: "Plasma protein binding — ~99%. Penetrates synovial fluid slowly, persisting longer there. Crosses the placenta; very little into breast milk.",
+        metabolizm: "Almost completely metabolised in the liver via CYP2C9 (oxidation).",
+        chiqarilish: "Mainly renal as metabolites, partly biliary. T½ — ~2 h (short)."
+      },
+      korsatmalar: [
+        "Mild-to-moderate pain: headache, migraine, dental pain, dysmenorrhoea, myalgia, neuralgia",
+        "Fever (cold, influenza, infections; in children)",
+        "Inflammatory and degenerative joint disease: rheumatoid arthritis, osteoarthritis, ankylosing spondylitis",
+        "Extra-articular rheumatism, post-traumatic and post-operative pain",
+        "Haemodynamically significant patent ductus arteriosus in neonates (special i/v form)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to ibuprofen or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding, perforation",
+        "Severe hepatic, renal or cardiac failure",
+        "Period after coronary bypass surgery; active bleeding",
+        "Third trimester of pregnancy, caution during lactation"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, epigastric pain, nausea, diarrhoea, flatulence; erosions, ulcers, bleeding (with prolonged/high-dose use)",
+        "Nervous system": "Headache, dizziness, insomnia; rarely aseptic meningitis (especially in autoimmune disease)",
+        "Cardiovascular system": "Raised BP, oedema; thrombosis risk with prolonged high-dose use",
+        "Kidneys / skin": "Fluid retention, renal impairment; rash, pruritus, rarely severe skin reactions",
+        "Blood": "Anaemia, leukopenia, thrombocytopenia (rare)"
+      },
+      dozadan: "Symptoms: nausea, vomiting, epigastric pain, drowsiness, headache, tinnitus; in severe cases convulsions, acidosis, renal failure. Treatment: gastric lavage, activated charcoal, alkaline drinks, symptomatic.",
+      ozarotasir: [
+        "Aspirin (low dose): ibuprofen may blunt its antiplatelet effect — separate the timing",
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, methotrexate, digoxin concentration",
+        "Weakens diuretics, ACE inhibitors, ARBs",
+        "With glucocorticoids, SSRIs — additive GI bleeding risk"
+      ],
+      qollash: {
+        kattalar: "Orally: 200–400 mg every 4–6 h for pain/fever. In rheumatic disease 1200–2400 mg/day in 3–4 doses. Maximum 2400 mg/day (OTC 1200 mg).",
+        bolalar: "For fever/pain 5–10 mg/kg every 6–8 h (max 30 mg/kg/day). From 3 months by weight as suspension."
+      },
+      chiqarish: "Tablets 200, 400, 600 mg; suspension 100 mg/5 mL and 200 mg/5 mL; rectal suppositories 60, 125 mg; injection (i/v); gel/cream (topical)"
+    }
+  },
+
+  // ── NAPROKSEN | ATX: M01AE02 ──
+  "M01AE02": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — propion kislota hosilasi (naftilpropion)",
+      farmTasir: "Yallig'lanishga qarshi, og'riq qoldiruvchi, isitma tushiruvchi (uzoq ta'sirli)",
+      farmakodinamika: `Naproksen — naftilpropion kislota hosilasi bo'lgan NSAID. Siklooksigenaza (COX-1 va COX-2) ni nospetsifik ingibe qilib prostaglandin sintezini kamaytiradi. Yorqin yallig'lanishga qarshi, analgetik va isitma tushiruvchi ta'sirga ega; trombotsit agregatsiyasini susaytiradi. Yarim chiqarilish davri uzun (~12–15 soat) bo'lgani uchun kuniga 1–2 marta qabul qilinadi va barqaror analgeziya beradi. Yurak-qon tomir xavfi bo'yicha boshqa NSAIDlarga nisbatan nisbatan neytralroq deb hisoblanadi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez va to'liq so'riladi, biokirish ~95%. Cmax 2–4 soatda.",
+        tarqalish: "Plazma oqsillariga bog'lanish — 99%. Sinovial suyuqlikка kiradi. Yo'ldosh va ona sutiga o'tadi.",
+        metabolizm: "Jigarda CYP1A2 va CYP2C9 ishtirokida 6-O-dezmetilnaproksenga metabolizatsiya, keyin glyukuronlanish.",
+        chiqarilish: "Asosan siydik orqali (~95%) metabolit va konyugat ko'rinishida. T½ — ~12–15 soat."
+      },
+      korsatmalar: [
+        "Revmatoid artrit, osteoartroz, ankilozlovchi spondiloartrit, yuvenil artrit",
+        "O'tkir podagra xuruji",
+        "Bo'g'imdan tashqari revmatizm: tendinit, bursit; orqa miya og'riqlari",
+        "Birlamchi dismenoreya, migren, og'riq sindromlari"
+      ],
+      qarrshi: [
+        "Naproksen yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish, perforatsiya",
+        "Og'ir jigar, buyrak (KK<30) yoki yurak yetishmovchiligi",
+        "Koronar shuntlashdan keyingi davr",
+        "Homiladorlikning III trimestri, emizish"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, epigastral og'riq, ko'ngil aynishi, qabziyat/diareya; eroziya, yara, qon ketish; transaminazalar oshishi",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyquchanlik, quloqda shovqin",
+        "Yurak-qon tomir": "Shish, AB oshishi, yurak urishi",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi, suyuqlik tutilishi; toshma, qichima, fotodermatit",
+        "Qon": "Anemiya, trombotsitopeniya, agranulotsitoz (kamdan-kam)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, epigastral og'riq, uyquchanlik, bosh og'rig'i; og'ir holatda — tutqanoq, buyrak yetishmovchiligi. Davolash: faollashtirilgan ko'mir, oshqozonni yuvish, simptomatik.",
+      ozarotasir: [
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, metotreksat konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari, beta-blokatorlar ta'sirini susaytiradi",
+        "Aspirin antiagregant ta'sirini susaytirishi mumkin; probenetsid naproksen konsentratsiyasini oshiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 250–500 mg×2/kun. O'tkir podagrada boshlang'ich 750 mg, keyin 250 mg har 8 soatda. Maks. 1000–1100 mg/kun.",
+        bolalar: "Yuvenil artritda 10 mg/kg/kun 2 ta qabulda; 5 yoshdan."
+      },
+      chiqarish: "Tabletkalar 250, 500 mg; uzaytirilgan tabletkalar 750, 1000 mg; suspenziya 125 mg/5 ml; rektal shamlar 250, 500 mg"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — производное пропионовой кислоты (нафтилпропион)",
+      farmTasir: "Противовоспалительное, анальгезирующее, жаропонижающее (длительного действия)",
+      farmakodinamika: `Напроксен — НПВС, производное нафтилпропионовой кислоты. Неселективно ингибирует циклооксигеназу (ЦОГ-1 и ЦОГ-2), снижая синтез простагландинов. Обладает выраженным противовоспалительным, анальгезирующим и жаропонижающим действием; подавляет агрегацию тромбоцитов. Длинный период полувыведения (~12–15 ч) позволяет приём 1–2 раза в сутки с устойчивой анальгезией. По сердечно-сосудистому риску считается относительно более нейтральным, чем другие НПВС.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро и полно, биодоступность ~95%. Cmax через 2–4 ч.",
+        tarqalish: "Связь с белками плазмы — 99%. Проникает в синовиальную жидкость, через плаценту и в грудное молоко.",
+        metabolizm: "В печени при участии CYP1A2 и CYP2C9 до 6-O-десметилнапроксена, затем глюкуронирование.",
+        chiqarilish: "Преимущественно почками (~95%) в виде метаболитов и конъюгатов. T½ — ~12–15 ч."
+      },
+      korsatmalar: [
+        "Ревматоидный артрит, остеоартроз, анкилозирующий спондилоартрит, ювенильный артрит",
+        "Острый приступ подагры",
+        "Внесуставной ревматизм: тендинит, бурсит; боли в спине",
+        "Первичная дисменорея, мигрень, болевые синдромы"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к напроксену или НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение, перфорация",
+        "Тяжёлая печёночная, почечная (КК<30) или сердечная недостаточность",
+        "Период после коронарного шунтирования",
+        "III триместр беременности, лактация"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, эпигастральная боль, тошнота, запор/диарея; эрозии, язвы, кровотечение; повышение трансаминаз",
+        "Нервная система": "Головная боль, головокружение, сонливость, шум в ушах",
+        "Сердечно-сосудистая система": "Отёки, повышение АД, сердцебиение",
+        "Почки / кожа": "Нарушение функции почек, задержка жидкости; сыпь, зуд, фотодерматит",
+        "Кровь": "Анемия, тромбоцитопения, агранулоцитоз (редко)"
+      },
+      dozadan: "Симптомы: тошнота, эпигастральная боль, сонливость, головная боль; в тяжёлых случаях — судороги, почечная недостаточность. Лечение: активированный уголь, промывание желудка, симптоматически.",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, метотрексата",
+        "Ослабляет действие диуретиков, иАПФ, бета-блокаторов",
+        "Может ослаблять антиагрегантный эффект аспирина; пробенецид повышает концентрацию напроксена"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 250–500 мг×2/сут. При остром подагре начально 750 мг, затем 250 мг каждые 8 ч. Максимум 1000–1100 мг/сут.",
+        bolalar: "При ювенильном артрите 10 мг/кг/сут в 2 приёма; с 5 лет."
+      },
+      chiqarish: "Таблетки 250, 500 мг; пролонгированные таблетки 750, 1000 мг; суспензия 125 мг/5 мл; ректальные свечи 250, 500 мг"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — propionic acid derivative (naphthylpropionic)",
+      farmTasir: "Anti-inflammatory, analgesic, antipyretic (long-acting)",
+      farmakodinamika: `Naproxen is an NSAID derived from naphthylpropionic acid. It non-selectively inhibits cyclooxygenase (COX-1 and COX-2), reducing prostaglandin synthesis. It has marked anti-inflammatory, analgesic and antipyretic action and inhibits platelet aggregation. A long half-life (~12–15 h) allows once- or twice-daily dosing with steady analgesia. It is regarded as relatively more cardiovascular-neutral than other NSAIDs.`,
+      farmakokinetika: {
+        sorish: "Rapidly and completely absorbed orally, bioavailability ~95%. Cmax in 2–4 h.",
+        tarqalish: "Plasma protein binding — 99%. Penetrates synovial fluid, the placenta and breast milk.",
+        metabolizm: "Hepatic via CYP1A2 and CYP2C9 to 6-O-desmethylnaproxen, then glucuronidation.",
+        chiqarilish: "Mainly renal (~95%) as metabolites and conjugates. T½ — ~12–15 h."
+      },
+      korsatmalar: [
+        "Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, juvenile arthritis",
+        "Acute gout attack",
+        "Extra-articular rheumatism: tendinitis, bursitis; back pain",
+        "Primary dysmenorrhoea, migraine, pain syndromes"
+      ],
+      qarrshi: [
+        "Hypersensitivity to naproxen or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding, perforation",
+        "Severe hepatic, renal (CrCl<30) or cardiac failure",
+        "Period after coronary bypass surgery",
+        "Third trimester of pregnancy, lactation"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, epigastric pain, nausea, constipation/diarrhoea; erosions, ulcers, bleeding; raised transaminases",
+        "Nervous system": "Headache, dizziness, drowsiness, tinnitus",
+        "Cardiovascular system": "Oedema, raised BP, palpitations",
+        "Kidneys / skin": "Renal impairment, fluid retention; rash, pruritus, photodermatitis",
+        "Blood": "Anaemia, thrombocytopenia, agranulocytosis (rare)"
+      },
+      dozadan: "Symptoms: nausea, epigastric pain, drowsiness, headache; in severe cases convulsions, renal failure. Treatment: activated charcoal, gastric lavage, symptomatic.",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, methotrexate concentration",
+        "Weakens diuretics, ACE inhibitors, beta-blockers",
+        "May blunt aspirin's antiplatelet effect; probenecid raises naproxen concentration"
+      ],
+      qollash: {
+        kattalar: "Orally: 250–500 mg×2/day. In acute gout initially 750 mg, then 250 mg every 8 h. Maximum 1000–1100 mg/day.",
+        bolalar: "In juvenile arthritis 10 mg/kg/day in 2 doses; from 5 years."
+      },
+      chiqarish: "Tablets 250, 500 mg; extended-release tablets 750, 1000 mg; suspension 125 mg/5 mL; rectal suppositories 250, 500 mg"
+    }
+  },
+
+  // ── KETOPROFEN | ATX: M01AE03 ──
+  "M01AE03": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — propion kislota hosilasi (arilkarboksil)",
+      farmTasir: "Kuchli yallig'lanishga qarshi, og'riq qoldiruvchi, isitma tushiruvchi",
+      farmakodinamika: `Ketoprofen — propion kislota hosilasi (benzoilfenil-propion) bo'lgan NSAID. Siklooksigenaza (COX-1 va COX-2) ni nospetsifik ingibe qilib prostaglandin sintezini kamaytiradi; qisman lipoksigenazani ham ingibe qiladi va bradikinin faolligini susaytiradi, lizosoma membranalarini barqarorlashtiradi. Kuchli analgetik, yallig'lanishga qarshi va isitma tushiruvchi ta'sirga ega; trombotsit agregatsiyasini susaytiradi. Mahalliy (gel) shaklda yaxshi penetratsiya qiladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez va yaxshi so'riladi, biokirish ~90%. Cmax 1–2 soatda (uzaytirilgan shaklda kechroq).",
+        tarqalish: "Plazma oqsillariga bog'lanish — ~99%. Sinovial suyuqlikка yaxshi kiradi.",
+        metabolizm: "Jigarda glyukuronlanish (asosan); faol metabolit yo'q.",
+        chiqarilish: "Asosan siydik orqali konyugat ko'rinishida. T½ — ~2 soat (uzaytirilgan shaklda uzunroq)."
+      },
+      korsatmalar: [
+        "Revmatoid artrit, osteoartroz, ankilozlovchi spondiloartrit",
+        "Bo'g'imdan tashqari revmatizm: tendinit, bursit, periartrit",
+        "O'tkir og'riq: orqa miya og'rig'i, jarohat, operatsiyadan keyin, dismenoreya",
+        "O'tkir podagra; mahalliy — yumshoq to'qima jarohati, mialgiya"
+      ],
+      qarrshi: [
+        "Ketoprofen yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish, perforatsiya",
+        "Og'ir jigar, buyrak yoki yurak yetishmovchiligi",
+        "Homiladorlikning III trimestri, emizish; 15–18 yoshgacha (shaklga qarab)",
+        "Mahalliy: ochiq jarohat, ekzema, fotosensibilizatsiya anamnezi"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, epigastral og'riq, ko'ngil aynishi, diareya; eroziya, yara, qon ketish",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyquchanlik",
+        "Yurak-qon tomir": "Shish, AB oshishi",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi; toshma, qichima; mahalliy shaklda — fotosensibilizatsiya, kontakt dermatit",
+        "Qon": "Anemiya, trombotsitopeniya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, epigastral og'riq, uyquchanlik. Davolash: oshqozonni yuvish, faollashtirilgan ko'mir, simptomatik.",
+      ozarotasir: [
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, metotreksat konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari ta'sirini susaytiradi, buyrak shikastlanishi",
+        "Kortikosteroidlar, boshqa NSAID bilan oshqozon-ichak xavfi qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 100–200 mg/kun 2–3 ta qabulda, ovqat bilan; uzaytirilgan 200 mg×1/kun. I/m: 100 mg×1–2/kun. Rektal 100 mg×1–2/kun. Maks. 200 mg/kun. Mahalliy gel kuniga 2–3 marta.",
+        bolalar: "15 yoshgacha tizimli shakllar tavsiya etilmaydi."
+      },
+      chiqarish: "Kapsulalar 50 mg; uzaytirilgan tabletkalar 100, 150, 200 mg; in'eksiya eritmasi 50 mg/ml; rektal shamlar 100 mg; gel/krem 2,5–5% (mahalliy)"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — производное пропионовой кислоты (арилкарбоксильное)",
+      farmTasir: "Мощное противовоспалительное, анальгезирующее, жаропонижающее",
+      farmakodinamika: `Кетопрофен — НПВС, производное пропионовой кислоты (бензоилфенилпропион). Неселективно ингибирует циклооксигеназу (ЦОГ-1 и ЦОГ-2), снижая синтез простагландинов; частично ингибирует липоксигеназу, ослабляет активность брадикинина, стабилизирует лизосомальные мембраны. Обладает мощным анальгезирующим, противовоспалительным и жаропонижающим действием; подавляет агрегацию тромбоцитов. В наружной (гель) форме хорошо проникает в ткани.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро и хорошо, биодоступность ~90%. Cmax через 1–2 ч (у пролонгированных форм позже).",
+        tarqalish: "Связь с белками плазмы — ~99%. Хорошо проникает в синовиальную жидкость.",
+        metabolizm: "В печени глюкуронирование (главным образом); активных метаболитов нет.",
+        chiqarilish: "Преимущественно почками в виде конъюгатов. T½ — ~2 ч (у пролонгированных форм дольше)."
+      },
+      korsatmalar: [
+        "Ревматоидный артрит, остеоартроз, анкилозирующий спондилоартрит",
+        "Внесуставной ревматизм: тендинит, бурсит, периартрит",
+        "Острая боль: боль в спине, травма, послеоперационная, дисменорея",
+        "Острая подагра; наружно — травма мягких тканей, миалгия"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к кетопрофену или НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение, перфорация",
+        "Тяжёлая печёночная, почечная или сердечная недостаточность",
+        "III триместр беременности, лактация; до 15–18 лет (по форме)",
+        "Наружно: открытые раны, экзема, фотосенсибилизация в анамнезе"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, эпигастральная боль, тошнота, диарея; эрозии, язвы, кровотечение",
+        "Нервная система": "Головная боль, головокружение, сонливость",
+        "Сердечно-сосудистая система": "Отёки, повышение АД",
+        "Почки / кожа": "Нарушение функции почек; сыпь, зуд; в наружной форме — фотосенсибилизация, контактный дерматит",
+        "Кровь": "Анемия, тромбоцитопения (редко)"
+      },
+      dozadan: "Симптомы: тошнота, рвота, эпигастральная боль, сонливость. Лечение: промывание желудка, активированный уголь, симптоматически.",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, метотрексата",
+        "Ослабляет действие диуретиков, иАПФ, поражение почек",
+        "С кортикостероидами, другими НПВС — суммарный риск ЖКТ"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 100–200 мг/сут в 2–3 приёма с едой; пролонгированная 200 мг×1/сут. В/м: 100 мг×1–2/сут. Ректально 100 мг×1–2/сут. Максимум 200 мг/сут. Наружный гель 2–3 раза в день.",
+        bolalar: "До 15 лет системные формы не рекомендуются."
+      },
+      chiqarish: "Капсулы 50 мг; пролонгированные таблетки 100, 150, 200 мг; раствор для инъекций 50 мг/мл; ректальные свечи 100 мг; гель/крем 2,5–5% (наружно)"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — propionic acid derivative (arylcarboxylic)",
+      farmTasir: "Potent anti-inflammatory, analgesic, antipyretic",
+      farmakodinamika: `Ketoprofen is an NSAID derived from propionic acid (benzoylphenylpropionic). It non-selectively inhibits cyclooxygenase (COX-1 and COX-2), reducing prostaglandin synthesis; it partly inhibits lipoxygenase, weakens bradykinin activity and stabilises lysosomal membranes. It has potent analgesic, anti-inflammatory and antipyretic action and inhibits platelet aggregation. The topical (gel) form penetrates tissue well.`,
+      farmakokinetika: {
+        sorish: "Rapidly and well absorbed orally, bioavailability ~90%. Cmax in 1–2 h (later for extended-release).",
+        tarqalish: "Plasma protein binding — ~99%. Penetrates synovial fluid well.",
+        metabolizm: "Hepatic glucuronidation (mainly); no active metabolites.",
+        chiqarilish: "Mainly renal as conjugates. T½ — ~2 h (longer for extended-release)."
+      },
+      korsatmalar: [
+        "Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis",
+        "Extra-articular rheumatism: tendinitis, bursitis, periarthritis",
+        "Acute pain: back pain, trauma, post-operative, dysmenorrhoea",
+        "Acute gout; topical — soft-tissue injury, myalgia"
+      ],
+      qarrshi: [
+        "Hypersensitivity to ketoprofen or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding, perforation",
+        "Severe hepatic, renal or cardiac failure",
+        "Third trimester of pregnancy, lactation; under 15–18 years (by form)",
+        "Topical: open wounds, eczema, history of photosensitisation"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, epigastric pain, nausea, diarrhoea; erosions, ulcers, bleeding",
+        "Nervous system": "Headache, dizziness, drowsiness",
+        "Cardiovascular system": "Oedema, raised BP",
+        "Kidneys / skin": "Renal impairment; rash, pruritus; topical form — photosensitisation, contact dermatitis",
+        "Blood": "Anaemia, thrombocytopenia (rare)"
+      },
+      dozadan: "Symptoms: nausea, vomiting, epigastric pain, drowsiness. Treatment: gastric lavage, activated charcoal, symptomatic.",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, methotrexate concentration",
+        "Weakens diuretics, ACE inhibitors, renal injury",
+        "With corticosteroids, other NSAIDs — additive GI risk"
+      ],
+      qollash: {
+        kattalar: "Orally: 100–200 mg/day in 2–3 doses with food; extended-release 200 mg×1/day. I/m: 100 mg×1–2/day. Rectally 100 mg×1–2/day. Maximum 200 mg/day. Topical gel 2–3 times daily.",
+        bolalar: "Systemic forms not recommended under 15 years."
+      },
+      chiqarish: "Capsules 50 mg; extended-release tablets 100, 150, 200 mg; injection 50 mg/mL; rectal suppositories 100 mg; gel/cream 2.5–5% (topical)"
+    }
+  },
+
+  // ── FLURBIPROFEN | ATX: M01AE09 ──
+  "M01AE09": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — propion kislota hosilasi (ftorli)",
+      farmTasir: "Yallig'lanishga qarshi, og'riq qoldiruvchi, isitma tushiruvchi",
+      farmakodinamika: `Flurbiprofen — ftorlangan propion kislota hosilasi bo'lgan kuchli NSAID. Siklooksigenaza (COX-1 va COX-2) ni nospetsifik ingibe qilib prostaglandin sintezini kamaytiradi. Yorqin yallig'lanishga qarshi va analgetik ta'sirga ega; trombotsit agregatsiyasini susaytiradi. Tomoq og'rig'ida so'riladigan tabletka (pastil) shaklida mahalliy yallig'lanishga qarshi sifatida ham qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez va to'liq so'riladi, biokirish ~90–95%. Cmax 1,5–3 soatda.",
+        tarqalish: "Plazma oqsillariga bog'lanish — ~99%. Sinovial suyuqlikка kiradi.",
+        metabolizm: "Jigarda CYP2C9 ishtirokida gidroksillanish va konyugatsiya.",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida. T½ — ~3–6 soat."
+      },
+      korsatmalar: [
+        "Revmatoid artrit, osteoartroz, ankilozlovchi spondiloartrit",
+        "Bo'g'imdan tashqari revmatizm, dismenoreya, og'riq sindromlari",
+        "Mahalliy (pastil): o'tkir tomoq og'rig'i va faringitda yallig'lanishni kamaytirish",
+        "Oftalmologiyada (ko'z tomchisi): operatsiya paytida mioz profilaktikasi, yallig'lanish"
+      ],
+      qarrshi: [
+        "Flurbiprofen yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish, perforatsiya",
+        "Og'ir jigar, buyrak yoki yurak yetishmovchiligi",
+        "Homiladorlikning III trimestri, emizish; bolalik yoshi (shaklga qarab)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, epigastral og'riq, ko'ngil aynishi, diareya; yara, qon ketish",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi",
+        "Yurak-qon tomir": "Shish, AB oshishi",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi; toshma, qichima; pastil shaklida — og'iz shilliq qavati ta'siri",
+        "Qon": "Anemiya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, epigastral og'riq, bosh og'rig'i, uyquchanlik. Davolash: simptomatik, oshqozonni yuvish, faollashtirilgan ko'mir.",
+      ozarotasir: [
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, metotreksat konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari ta'sirini susaytiradi",
+        "CYP2C9 inhibitorlari (flukonazol) flurbiprofen konsentratsiyasini oshiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 150–200 mg/kun 2–4 ta qabulda, ovqat bilan; maks. 300 mg/kun (qisqa muddat). Pastil: 8,75 mg har 3–6 soatda so'rilib, kuniga 5 tagacha, 3 kungacha.",
+        bolalar: "Tizimli shakllar tavsiya etilmaydi; pastil 12 yoshdan."
+      },
+      chiqarish: "Tabletkalar 50, 100 mg; uzaytirilgan kapsulalar 200 mg; so'riladigan pastil 8,75 mg; ko'z tomchilari 0,03% (oftalmologik)"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — производное пропионовой кислоты (фторсодержащее)",
+      farmTasir: "Противовоспалительное, анальгезирующее, жаропонижающее",
+      farmakodinamika: `Флурбипрофен — мощный НПВС, фторированное производное пропионовой кислоты. Неселективно ингибирует циклооксигеназу (ЦОГ-1 и ЦОГ-2), снижая синтез простагландинов. Обладает выраженным противовоспалительным и анальгезирующим действием; подавляет агрегацию тромбоцитов. В форме рассасываемых таблеток (пастилок) применяется как местное противовоспалительное при боли в горле.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро и полно, биодоступность ~90–95%. Cmax через 1,5–3 ч.",
+        tarqalish: "Связь с белками плазмы — ~99%. Проникает в синовиальную жидкость.",
+        metabolizm: "В печени при участии CYP2C9 — гидроксилирование и конъюгация.",
+        chiqarilish: "Преимущественно почками в виде метаболитов. T½ — ~3–6 ч."
+      },
+      korsatmalar: [
+        "Ревматоидный артрит, остеоартроз, анкилозирующий спондилоартрит",
+        "Внесуставной ревматизм, дисменорея, болевые синдромы",
+        "Местно (пастилки): острая боль в горле и фарингит — уменьшение воспаления",
+        "В офтальмологии (глазные капли): профилактика интраоперационного миоза, воспаление"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к флурбипрофену или НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение, перфорация",
+        "Тяжёлая печёночная, почечная или сердечная недостаточность",
+        "III триместр беременности, лактация; детский возраст (по форме)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, эпигастральная боль, тошнота, диарея; язва, кровотечение",
+        "Нервная система": "Головная боль, головокружение",
+        "Сердечно-сосудистая система": "Отёки, повышение АД",
+        "Почки / кожа": "Нарушение функции почек; сыпь, зуд; в форме пастилок — раздражение слизистой рта",
+        "Кровь": "Анемия (редко)"
+      },
+      dozadan: "Симптомы: тошнота, эпигастральная боль, головная боль, сонливость. Лечение: симптоматически, промывание желудка, активированный уголь.",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, метотрексата",
+        "Ослабляет действие диуретиков, иАПФ",
+        "Ингибиторы CYP2C9 (флуконазол) повышают концентрацию флурбипрофена"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 150–200 мг/сут в 2–4 приёма с едой; максимум 300 мг/сут (кратко). Пастилки: 8,75 мг каждые 3–6 ч рассасывать, до 5 в сутки, до 3 дней.",
+        bolalar: "Системные формы не рекомендуются; пастилки с 12 лет."
+      },
+      chiqarish: "Таблетки 50, 100 мг; пролонгированные капсулы 200 мг; рассасываемые пастилки 8,75 мг; глазные капли 0,03% (офтальмологические)"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — propionic acid derivative (fluorinated)",
+      farmTasir: "Anti-inflammatory, analgesic, antipyretic",
+      farmakodinamika: `Flurbiprofen is a potent NSAID, a fluorinated propionic acid derivative. It non-selectively inhibits cyclooxygenase (COX-1 and COX-2), reducing prostaglandin synthesis. It has marked anti-inflammatory and analgesic action and inhibits platelet aggregation. As a lozenge it is used as a topical anti-inflammatory for sore throat.`,
+      farmakokinetika: {
+        sorish: "Rapidly and completely absorbed orally, bioavailability ~90–95%. Cmax in 1.5–3 h.",
+        tarqalish: "Plasma protein binding — ~99%. Penetrates synovial fluid.",
+        metabolizm: "Hepatic via CYP2C9 — hydroxylation and conjugation.",
+        chiqarilish: "Mainly renal as metabolites. T½ — ~3–6 h."
+      },
+      korsatmalar: [
+        "Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis",
+        "Extra-articular rheumatism, dysmenorrhoea, pain syndromes",
+        "Topical (lozenges): acute sore throat and pharyngitis — reducing inflammation",
+        "Ophthalmology (eye drops): prevention of intraoperative miosis, inflammation"
+      ],
+      qarrshi: [
+        "Hypersensitivity to flurbiprofen or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding, perforation",
+        "Severe hepatic, renal or cardiac failure",
+        "Third trimester of pregnancy, lactation; childhood (by form)"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, epigastric pain, nausea, diarrhoea; ulcer, bleeding",
+        "Nervous system": "Headache, dizziness",
+        "Cardiovascular system": "Oedema, raised BP",
+        "Kidneys / skin": "Renal impairment; rash, pruritus; lozenge form — oral mucosa irritation",
+        "Blood": "Anaemia (rare)"
+      },
+      dozadan: "Symptoms: nausea, epigastric pain, headache, drowsiness. Treatment: symptomatic, gastric lavage, activated charcoal.",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, methotrexate concentration",
+        "Weakens diuretics, ACE inhibitors",
+        "CYP2C9 inhibitors (fluconazole) raise flurbiprofen concentration"
+      ],
+      qollash: {
+        kattalar: "Orally: 150–200 mg/day in 2–4 doses with food; maximum 300 mg/day (briefly). Lozenges: 8.75 mg every 3–6 h dissolved, up to 5/day, up to 3 days.",
+        bolalar: "Systemic forms not recommended; lozenges from 12 years."
+      },
+      chiqarish: "Tablets 50, 100 mg; extended-release capsules 200 mg; lozenges 8.75 mg; eye drops 0.03% (ophthalmic)"
+    }
+  },
+
+  // ── DEKSIBUPROFEN | ATX: M01AE14 ──
+  "M01AE14": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — propion kislota hosilasi (ibuprofenning S-enantiomeri)",
+      farmTasir: "Og'riq qoldiruvchi, yallig'lanishga qarshi, isitma tushiruvchi",
+      farmakodinamika: `Deksibuprofen — ibuprofenning farmakologik faol S(+)-enantiomeri. Siklooksigenaza (COX-1 va COX-2) ni ingibe qilib prostaglandin sintezini kamaytiradi; ibuprofenning faqat faol qismi bo'lgani uchun ekvivalent ta'sirni nisbatan past dozada beradi. Analgetik, yallig'lanishga qarshi va isitma tushiruvchi ta'sirga ega.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez so'riladi. Cmax ~2 soatda. Ovqat so'rilishni sekinlashtiradi.",
+        tarqalish: "Plazma oqsillariga bog'lanish — ~99%.",
+        metabolizm: "Jigarda CYP2C9 ishtirokida oksidlanish va konyugatsiya.",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida. T½ — ~2 soat."
+      },
+      korsatmalar: [
+        "Yengil va o'rta og'riq: mushak-skelet og'riqlari, dismenoreya, tish og'rig'i",
+        "Osteoartroz og'rig'i",
+        "Yallig'lanishli og'riq sindromlari"
+      ],
+      qarrshi: [
+        "Deksibuprofen, ibuprofen yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish",
+        "Og'ir jigar, buyrak yoki yurak yetishmovchiligi",
+        "Homiladorlikning III trimestri, emizish; 18 yoshgacha"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Dispepsiya, epigastral og'riq, ko'ngil aynishi, diareya; yara, qon ketish",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi",
+        "Yurak-qon tomir": "Shish, AB oshishi",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi; toshma, qichima"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, epigastral og'riq, bosh og'rig'i. Davolash: simptomatik, faollashtirilgan ko'mir.",
+      ozarotasir: [
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, metotreksat konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari ta'sirini susaytiradi",
+        "Aspirin antiagregant ta'sirini susaytirishi mumkin"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 600–900 mg/kun 3 ta qabulda, ovqat bilan; maks. 1200 mg/kun.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Tabletkalar 300, 400 mg"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — производное пропионовой кислоты (S-энантиомер ибупрофена)",
+      farmTasir: "Анальгезирующее, противовоспалительное, жаропонижающее",
+      farmakodinamika: `Дексибупрофен — фармакологически активный S(+)-энантиомер ибупрофена. Ингибирует циклооксигеназу (ЦОГ-1 и ЦОГ-2), снижая синтез простагландинов; будучи только активной частью ибупрофена, обеспечивает эквивалентный эффект в относительно меньшей дозе. Обладает анальгезирующим, противовоспалительным и жаропонижающим действием.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро. Cmax ~2 ч. Пища замедляет всасывание.",
+        tarqalish: "Связь с белками плазмы — ~99%.",
+        metabolizm: "В печени при участии CYP2C9 — окисление и конъюгация.",
+        chiqarilish: "Преимущественно почками в виде метаболитов. T½ — ~2 ч."
+      },
+      korsatmalar: [
+        "Лёгкая и умеренная боль: скелетно-мышечные боли, дисменорея, зубная боль",
+        "Боль при остеоартрозе",
+        "Воспалительные болевые синдромы"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к дексибупрофену, ибупрофену или НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение",
+        "Тяжёлая печёночная, почечная или сердечная недостаточность",
+        "III триместр беременности, лактация; до 18 лет"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диспепсия, эпигастральная боль, тошнота, диарея; язва, кровотечение",
+        "Нервная система": "Головная боль, головокружение",
+        "Сердечно-сосудистая система": "Отёки, повышение АД",
+        "Почки / кожа": "Нарушение функции почек; сыпь, зуд"
+      },
+      dozadan: "Симптомы: тошнота, рвота, эпигастральная боль, головная боль. Лечение: симптоматически, активированный уголь.",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, метотрексата",
+        "Ослабляет действие диуретиков, иАПФ",
+        "Может ослаблять антиагрегантный эффект аспирина"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 600–900 мг/сут в 3 приёма с едой; максимум 1200 мг/сут.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Таблетки 300, 400 мг"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — propionic acid derivative (S-enantiomer of ibuprofen)",
+      farmTasir: "Analgesic, anti-inflammatory, antipyretic",
+      farmakodinamika: `Dexibuprofen is the pharmacologically active S(+)-enantiomer of ibuprofen. It inhibits cyclooxygenase (COX-1 and COX-2), reducing prostaglandin synthesis; being only the active moiety of ibuprofen, it provides an equivalent effect at a relatively lower dose. It has analgesic, anti-inflammatory and antipyretic action.`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally. Cmax ~2 h. Food slows absorption.",
+        tarqalish: "Plasma protein binding — ~99%.",
+        metabolizm: "Hepatic via CYP2C9 — oxidation and conjugation.",
+        chiqarilish: "Mainly renal as metabolites. T½ — ~2 h."
+      },
+      korsatmalar: [
+        "Mild-to-moderate pain: musculoskeletal pain, dysmenorrhoea, dental pain",
+        "Osteoarthritis pain",
+        "Inflammatory pain syndromes"
+      ],
+      qarrshi: [
+        "Hypersensitivity to dexibuprofen, ibuprofen or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding",
+        "Severe hepatic, renal or cardiac failure",
+        "Third trimester of pregnancy, lactation; under 18 years"
+      ],
+      nojoya: {
+        "Digestive system": "Dyspepsia, epigastric pain, nausea, diarrhoea; ulcer, bleeding",
+        "Nervous system": "Headache, dizziness",
+        "Cardiovascular system": "Oedema, raised BP",
+        "Kidneys / skin": "Renal impairment; rash, pruritus"
+      },
+      dozadan: "Symptoms: nausea, vomiting, epigastric pain, headache. Treatment: symptomatic, activated charcoal.",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, methotrexate concentration",
+        "Weakens diuretics, ACE inhibitors",
+        "May blunt aspirin's antiplatelet effect"
+      ],
+      qollash: {
+        kattalar: "Orally: 600–900 mg/day in 3 doses with food; maximum 1200 mg/day.",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Tablets 300, 400 mg"
+    }
+  },
+
+  // ── DEKSKETOPROFEN | ATX: M01AE17 ──
+  "M01AE17": {
+    uz: {
+      gruppa: "Nosteroid yallig'lanishga qarshi vositalar (NSAID) — propion kislota hosilasi (ketoprofenning S-enantiomeri)",
+      farmTasir: "Tez va kuchli og'riq qoldiruvchi, yallig'lanishga qarshi",
+      farmakodinamika: `Deksketoprofen (trometamol tuzi) — ketoprofenning farmakologik faol S(+)-enantiomeri. Siklooksigenaza (COX-1 va COX-2) ni nospetsifik ingibe qilib prostaglandin sintezini kamaytiradi. Faqat faol enantiomer bo'lgani va trometamol tuzi yaxshi eruvchanlik bergani uchun tez (15–30 daqiqada) va kuchli analgetik ta'sir ko'rsatadi — o'tkir og'riqni davolashda samarali. Yallig'lanishga qarshi va isitma tushiruvchi ta'siri ham bor.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez so'riladi, Cmax 15–60 daqiqada (och qoringa tezroq). I/m da ham tez. Ovqat so'rilishni sekinlashtiradi.",
+        tarqalish: "Plazma oqsillariga bog'lanish — ~99%. Taqsimlanish hajmi <0,25 L/kg.",
+        metabolizm: "Jigarda glyukuronlanish; CYP ishtirokida qisman oksidlanish.",
+        chiqarilish: "Asosan siydik orqali konyugat ko'rinishida. T½ — ~1,65 soat (qisqa)."
+      },
+      korsatmalar: [
+        "O'tkir o'rta va kuchli og'riq: operatsiyadan keyingi og'riq, dismenoreya",
+        "Mushak-skelet og'riqlari, orqa miya og'rig'i, tish og'rig'i",
+        "Buyrak sanchiqlari, travmatik og'riq"
+      ],
+      qarrshi: [
+        "Deksketoprofen, ketoprofen yoki NSAIDlarga o'ta sezgirlik, «aspirin triadasi»",
+        "Oshqozon-ichak yarasi qo'zg'alishi, qon ketish, perforatsiya; faol qon ketish",
+        "Og'ir jigar, buyrak yoki yurak yetishmovchiligi; qon ivishi buzilishi",
+        "Homiladorlik va emizish; 18 yoshgacha"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, epigastral og'riq, diareya, dispepsiya; yara, qon ketish",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyqusizlik",
+        "Yurak-qon tomir": "Yuz qizarishi, AB o'zgarishi, yurak urishi",
+        "Buyrak / teri": "Buyrak funksiyasi buzilishi; toshma, qichima",
+        "Qon": "Anemiya (kamdan-kam)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, epigastral og'riq, bosh og'rig'i. Davolash: simptomatik, faollashtirilgan ko'mir; gemodializ chiqarishni tezlashtirishi mumkin.",
+      ozarotasir: [
+        "Antikoagulyant/antiagregantlar bilan qon ketish xavfi",
+        "Litiy, metotreksat konsentratsiyasini oshiradi",
+        "Diuretiklar, AAF inhibitorlari ta'sirini susaytiradi, buyrak shikastlanishi",
+        "Boshqa NSAID, kortikosteroidlar bilan oshqozon-ichak xavfi qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 12,5 mg har 4–6 soatda yoki 25 mg har 8 soatda; maks. 75 mg/kun. I/m yoki i/v: 50 mg har 8–12 soatda, maks. 150 mg/kun, 2 kundan oshmasdan. Keksalarda doza kamaytiriladi.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Tabletkalar 25 mg; granula/eritma 25 mg; in'eksiya eritmasi 50 mg/2 ml"
+    },
+    ru: {
+      gruppa: "Нестероидные противовоспалительные средства (НПВС) — производное пропионовой кислоты (S-энантиомер кетопрофена)",
+      farmTasir: "Быстрое и мощное анальгезирующее, противовоспалительное",
+      farmakodinamika: `Декскетопрофен (соль трометамола) — фармакологически активный S(+)-энантиомер кетопрофена. Неселективно ингибирует циклооксигеназу (ЦОГ-1 и ЦОГ-2), снижая синтез простагландинов. Будучи только активным энантиомером, а соль трометамола обеспечивает хорошую растворимость, оказывает быстрое (через 15–30 мин) и мощное анальгезирующее действие — эффективен при острой боли. Обладает также противовоспалительным и жаропонижающим действием.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро, Cmax через 15–60 мин (натощак быстрее). В/м также быстро. Пища замедляет всасывание.",
+        tarqalish: "Связь с белками плазмы — ~99%. Объём распределения <0,25 л/кг.",
+        metabolizm: "В печени глюкуронирование; частичное окисление при участии CYP.",
+        chiqarilish: "Преимущественно почками в виде конъюгатов. T½ — ~1,65 ч (короткий)."
+      },
+      korsatmalar: [
+        "Острая умеренная и сильная боль: послеоперационная боль, дисменорея",
+        "Скелетно-мышечные боли, боль в спине, зубная боль",
+        "Почечная колика, травматическая боль"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к декскетопрофену, кетопрофену или НПВС, «аспириновая триада»",
+        "Обострение язвы ЖКТ, кровотечение, перфорация; активное кровотечение",
+        "Тяжёлая печёночная, почечная или сердечная недостаточность; нарушения свёртывания",
+        "Беременность и лактация; до 18 лет"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Тошнота, рвота, эпигастральная боль, диарея, диспепсия; язва, кровотечение",
+        "Нервная система": "Головная боль, головокружение, бессонница",
+        "Сердечно-сосудистая система": "Приливы, изменение АД, сердцебиение",
+        "Почки / кожа": "Нарушение функции почек; сыпь, зуд",
+        "Кровь": "Анемия (редко)"
+      },
+      dozadan: "Симптомы: тошнота, рвота, эпигастральная боль, головная боль. Лечение: симптоматически, активированный уголь; гемодиализ может ускорить выведение.",
+      ozarotasir: [
+        "С антикоагулянтами/антиагрегантами — риск кровотечения",
+        "Повышает концентрацию лития, метотрексата",
+        "Ослабляет действие диуретиков, иАПФ, поражение почек",
+        "С другими НПВС, кортикостероидами — суммарный риск ЖКТ"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 12,5 мг каждые 4–6 ч или 25 мг каждые 8 ч; максимум 75 мг/сут. В/м или в/в: 50 мг каждые 8–12 ч, максимум 150 мг/сут, не более 2 дней. У пожилых доза снижается.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Таблетки 25 мг; гранулы/раствор 25 мг; раствор для инъекций 50 мг/2 мл"
+    },
+    en: {
+      gruppa: "Non-steroidal anti-inflammatory drugs (NSAID) — propionic acid derivative (S-enantiomer of ketoprofen)",
+      farmTasir: "Rapid and potent analgesic, anti-inflammatory",
+      farmakodinamika: `Dexketoprofen (trometamol salt) is the pharmacologically active S(+)-enantiomer of ketoprofen. It non-selectively inhibits cyclooxygenase (COX-1 and COX-2), reducing prostaglandin synthesis. Being only the active enantiomer, with the trometamol salt providing good solubility, it gives rapid (within 15–30 min) and potent analgesia — effective for acute pain. It also has anti-inflammatory and antipyretic action.`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally, Cmax in 15–60 min (faster fasting). Also rapid i/m. Food slows absorption.",
+        tarqalish: "Plasma protein binding — ~99%. Volume of distribution <0.25 L/kg.",
+        metabolizm: "Hepatic glucuronidation; partial oxidation via CYP.",
+        chiqarilish: "Mainly renal as conjugates. T½ — ~1.65 h (short)."
+      },
+      korsatmalar: [
+        "Acute moderate-to-severe pain: post-operative pain, dysmenorrhoea",
+        "Musculoskeletal pain, back pain, dental pain",
+        "Renal colic, traumatic pain"
+      ],
+      qarrshi: [
+        "Hypersensitivity to dexketoprofen, ketoprofen or NSAIDs, 'aspirin triad'",
+        "Active GI ulcer, bleeding, perforation; active bleeding",
+        "Severe hepatic, renal or cardiac failure; coagulation disorders",
+        "Pregnancy and lactation; under 18 years"
+      ],
+      nojoya: {
+        "Digestive system": "Nausea, vomiting, epigastric pain, diarrhoea, dyspepsia; ulcer, bleeding",
+        "Nervous system": "Headache, dizziness, insomnia",
+        "Cardiovascular system": "Flushing, BP change, palpitations",
+        "Kidneys / skin": "Renal impairment; rash, pruritus",
+        "Blood": "Anaemia (rare)"
+      },
+      dozadan: "Symptoms: nausea, vomiting, epigastric pain, headache. Treatment: symptomatic, activated charcoal; haemodialysis may accelerate elimination.",
+      ozarotasir: [
+        "With anticoagulants/antiplatelets — bleeding risk",
+        "Raises lithium, methotrexate concentration",
+        "Weakens diuretics, ACE inhibitors, renal injury",
+        "With other NSAIDs, corticosteroids — additive GI risk"
+      ],
+      qollash: {
+        kattalar: "Orally: 12.5 mg every 4–6 h or 25 mg every 8 h; maximum 75 mg/day. I/m or i/v: 50 mg every 8–12 h, maximum 150 mg/day, no more than 2 days. Reduce dose in the elderly.",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Tablets 25 mg; granules/solution 25 mg; injection 50 mg/2 mL"
+    }
   }
 
 };
