@@ -259,12 +259,14 @@ function searchDrugs(idx, q) {
 }
 
 // ── Update qayta ishlash ──
-async function handleMessage(env, msg) {
+async function handleMessage(env, msg, ctx) {
   const uid = msg.from.id, chatId = msg.chat.id;
   const text = (msg.text || '').trim();
   const lang = mapLang(msg.from.language_code);
   if (!text) return;
   if (/^\/(start|menu)/.test(text)) {
+    // Foydalanuvchini e'lonlar uchun ro'yxatga olamiz (KV)
+    if (ctx && env.USERS) ctx.waitUntil(env.USERS.put('u:' + chatId, String(Date.now())));
     if (await isMember(env, uid)) return send(env, chatId, T[lang].welcome, mainMenu(lang));
     return send(env, chatId, T[lang].joinReq, joinMenu(env, lang));
   }
@@ -349,8 +351,40 @@ async function handleCallback(env, cq) {
   }
 }
 
+// ── E'lon (kanalga post + foydalanuvchilarga yuborish) ──
+// POST /admin/broadcast  (X-Admin-Secret sarlavhasi bilan himoyalangan)
+// Tana: {"text":"...", "toChannel":true, "toUsers":true, "cursor":"..."}
+// Erkin tarmoq limiti (50 subrequest) sababli bir chaqiruvда ~45 foydalanuvchi —
+// qolgani "cursor" orqali keyingi chaqiruvда yuboriladi.
+async function handleBroadcast(request, env) {
+  if (!env.ADMIN_SECRET || request.headers.get('X-Admin-Secret') !== env.ADMIN_SECRET)
+    return new Response('forbidden', { status: 403 });
+  let body; try { body = await request.json(); } catch { return new Response('bad request', { status: 400 }); }
+  const text = body.text;
+  if (!text) return new Response('text required', { status: 400 });
+  const res = { ok: true, channel: null, usersSent: 0, usersFailed: 0, cursor: null, done: true };
+
+  if (body.toChannel !== false && !body.cursor) {
+    const r = await tg(env, 'sendMessage', { chat_id: env.CHANNEL, text, parse_mode: 'HTML', disable_web_page_preview: true });
+    res.channel = r.ok ? 'sent' : (r.description || 'failed');
+  }
+  if (body.toUsers !== false && env.USERS) {
+    const list = await env.USERS.list({ prefix: 'u:', cursor: body.cursor || undefined, limit: 45 });
+    for (const k of list.keys) {
+      const id = k.name.slice(2);
+      const r = await tg(env, 'sendMessage', { chat_id: id, text, parse_mode: 'HTML', disable_web_page_preview: true });
+      if (r.ok) res.usersSent++; else res.usersFailed++;
+    }
+    res.done = list.list_complete;
+    res.cursor = list.list_complete ? null : list.cursor;
+  }
+  return new Response(JSON.stringify(res), { headers: { 'content-type': 'application/json' } });
+}
+
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+    if (request.method === 'POST' && url.pathname === '/admin/broadcast') return handleBroadcast(request, env);
     if (request.method === 'GET') return new Response('MedCore bot webhook OK');
     if (request.method !== 'POST') return new Response('ok');
     if (env.WEBHOOK_SECRET && request.headers.get('X-Telegram-Bot-Api-Secret-Token') !== env.WEBHOOK_SECRET)
@@ -358,7 +392,7 @@ export default {
     let update; try { update = await request.json(); } catch { return new Response('ok'); }
     try {
       if (update.callback_query) await handleCallback(env, update.callback_query);
-      else if (update.message) await handleMessage(env, update.message);
+      else if (update.message) await handleMessage(env, update.message, ctx);
     } catch (e) { /* Telegram qayta urinmasin */ }
     return new Response('ok');
   }
