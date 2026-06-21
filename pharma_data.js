@@ -47098,6 +47098,1351 @@ const PHARMA_DATA = {
       },
       chiqarish: "Lotion/solution 4%; spray; hair treatment (dimeticone ± mineral oil)"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // NAFAS TIZIMI (R) — dekongestantlar, bronxodilatatorlar,
+  // glyukokortikoidlar, mukolitiklar, antitussiv, antigistaminlar
+  // R-Batch 1 — Burun dekongestantlari (alfa-adrenomimetiklar)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── KSILOMETAZOLIN | ATX: R01AA07 ──
+  "R01AA07": {
+    uz: {
+      gruppa: "Burun dekongestantlari — mahalliy alfa-adrenomimetik (imidazolin)",
+      farmTasir: "Burun shilliq qavati shishini qaytaruvchi (dekongestant)",
+      farmakodinamika: `Ksilometazolin — imidazolin hosilasi bo'lgan mahalliy alfa-adrenomimetik. Burun shilliq qavati tomirlaridagi alfa-adrenoretseptorlarni qo'zg'atib qon tomirlarni toraytiradi (vazokonstriksiya) — natijada shilliq qavat shishi va giperemiyasi kamayadi, burun yo'llari ochiladi va nafas olish yengillashadi, ajralma kamayadi. Ta'sir tez (2–3 daqiqada) boshlanadi va uzoq (8–10 soat) davom etadi. Faqat mahalliy qo'llaniladi; 3–5 kundan ortiq uzluksiz qo'llanганда «medikamentoz rinit» (qaytar shish) rivojlanishi mumkin.`,
+      farmakokinetika: {
+        sorish: "Mahalliy qo'llanganda tizimli so'rilish minimal (to'g'ri dozada).",
+        tarqalish: "Asosan burun shilliq qavatida ta'sir qiladi.",
+        metabolizm: "So'rilgan oz qism jigarда.",
+        chiqarilish: "Mahalliy ta'sir; so'rilgan qism siydik orqali."
+      },
+      korsatmalar: [
+        "O'tkir rinit (shamollash, gripp) — burun bitishida",
+        "Allergik rinit, vazomotor rinit",
+        "Sinusit, o'rta otit (burun-halqum yo'li shishini kamaytirish, drenajni yaxshilash)",
+        "Rinoskopiya va burun muolajalaridan oldin tayyorlash"
+      ],
+      qarrshi: [
+        "Ksilometazolin yoki adrenomimetiklarga o'ta sezgirlik",
+        "Atrofik rinit; burun jarrohligidan keyin (transsfenoidal)",
+        "Tor burchakli glaukoma, og'ir yurak-qon tomir kasalliklari, gipertireoz",
+        "MAO inhibitorlari bilan birga yoki ularni to'xtatgandan keyin 14 kun; konsentratsiyaga qarab yosh chegaralari"
+      ],
+      nojoya: {
+        "Mahalliy": "Burunда achishish, qurish, sanchish, aksirish, ajralmaning ko'payishi (reaktiv); uzoq qo'llanганда — medikamentoz rinit, shilliq qavat atrofiyasi",
+        "Tizimli (ortiqcha so'rilишда)": "Bosh og'rig'i, yurak urishi tezlashishi, AB oshishi, uyqusizlik, bezovtalik",
+        "Bolalarда (ortiqcha doza)": "Sustlik, tana harorati pasayishi, bradikardiya (tizimli so'rilишда — ehtiyot)"
+      },
+      dozadan: "Ayniqsa bolalarда tasodifan yutib yuborilганда yoki ortiqcha qo'llанганда: sustlik, bradikardiya, AB pasayishi, gipotermiya, koma. Davolash: simptomatik, qo'llab-quvvatlovchi.",
+      ozarotasir: [
+        "MAO inhibitorlari va trisiklik antidepressantlar: gipertenziv ta'sirni kuchaytiradi — birga ishlatilmaydi",
+        "Boshqa adrenomimetiklar bilan tizimli ta'sir qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "0,1% eritma/sprey: har bir burun teshigiga 1 purkash/2–3 tomchi, kuniga 3 martagacha. Uzluksiz 5–7 kundan oshmasligi kerak.",
+        bolalar: "2–6 yosh: 0,05% past konsentratsiya, kuniga 1–2 marta; 6 yoshdan: 0,05–0,1%. Chaqaloqларда maxsus past konsentratsiya, shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "Burun tomchilari/spreyi 0,05% (bolalar), 0,1% (kattalar); dexpantenol bilan kombinatsiya"
+    },
+    ru: {
+      gruppa: "Назальные деконгестанты — местный альфа-адреномиметик (имидазолин)",
+      farmTasir: "Снимающий отёк слизистой носа (деконгестант)",
+      farmakodinamika: `Ксилометазолин — местный альфа-адреномиметик, производное имидазолина. Возбуждая альфа-адренорецепторы сосудов слизистой носа, суживает сосуды (вазоконстрикция) — уменьшаются отёк и гиперемия слизистой, открываются носовые ходы, облегчается дыхание, снижается отделяемое. Действие начинается быстро (через 2–3 минуты) и длится долго (8–10 часов). Применяется только местно; при непрерывном применении более 3–5 дней возможен «медикаментозный ринит» (рикошетный отёк).`,
+      farmakokinetika: {
+        sorish: "При местном применении системное всасывание минимально (при правильной дозе).",
+        tarqalish: "Действует преимущественно в слизистой носа.",
+        metabolizm: "Всосавшаяся малая часть в печени.",
+        chiqarilish: "Местное действие; всосавшаяся часть с мочой."
+      },
+      korsatmalar: [
+        "Острый ринит (простуда, грипп) — при заложенности носа",
+        "Аллергический ринит, вазомоторный ринит",
+        "Синусит, средний отит (уменьшение отёка носоглотки, улучшение дренажа)",
+        "Подготовка перед риноскопией и носовыми процедурами"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к ксилометазолину или адреномиметикам",
+        "Атрофический ринит; после операций на носу (транссфеноидальных)",
+        "Закрытоугольная глаукома, тяжёлые сердечно-сосудистые заболевания, гипертиреоз",
+        "Совместно с ингибиторами МАО или в течение 14 дней после их отмены; возрастные ограничения по концентрации"
+      ],
+      nojoya: {
+        "Местные": "Жжение, сухость, покалывание в носу, чихание, усиление отделяемого (реактивное); при длительном применении — медикаментозный ринит, атрофия слизистой",
+        "Системные (при избыточном всасывании)": "Головная боль, учащение сердцебиения, повышение АД, бессонница, беспокойство",
+        "У детей (при передозировке)": "Вялость, снижение температуры тела, брадикардия (при системном всасывании — осторожно)"
+      },
+      dozadan: "Особенно у детей при случайном проглатывании или избыточном применении: вялость, брадикардия, снижение АД, гипотермия, кома. Лечение: симптоматически, поддерживающе.",
+      ozarotasir: [
+        "Ингибиторы МАО и трициклические антидепрессанты: усиливают гипертензивное действие — не сочетать",
+        "С другими адреномиметиками системное действие суммируется"
+      ],
+      qollash: {
+        kattalar: "0,1% раствор/спрей: по 1 впрыску/2–3 капли в каждый носовой ход, до 3 раз в сутки. Непрерывно не более 5–7 дней.",
+        bolalar: "2–6 лет: 0,05% низкая концентрация, 1–2 раза в сутки; с 6 лет: 0,05–0,1%. У младенцев специальная низкая концентрация, по назначению врача."
+      },
+      chiqarish: "Капли/спрей назальный 0,05% (детский), 0,1% (взрослый); комбинация с декспантенолом"
+    },
+    en: {
+      gruppa: "Nasal decongestants — topical alpha-adrenergic agonist (imidazoline)",
+      farmTasir: "Relieves nasal mucosal swelling (decongestant)",
+      farmakodinamika: `Xylometazoline is a topical alpha-adrenergic agonist, an imidazoline derivative. By stimulating alpha-adrenoceptors of the nasal mucosal vessels it constricts them (vasoconstriction) — reducing mucosal swelling and hyperaemia, opening the nasal passages, easing breathing and reducing discharge. The effect begins quickly (in 2–3 minutes) and lasts long (8–10 hours). It is used only topically; with continuous use beyond 3–5 days 'medication rhinitis' (rebound swelling) may develop.`,
+      farmakokinetika: {
+        sorish: "With topical use systemic absorption is minimal (at the correct dose).",
+        tarqalish: "Acts mainly in the nasal mucosa.",
+        metabolizm: "The small absorbed part in the liver.",
+        chiqarilish: "Local action; the absorbed part renally."
+      },
+      korsatmalar: [
+        "Acute rhinitis (cold, influenza) — for nasal congestion",
+        "Allergic rhinitis, vasomotor rhinitis",
+        "Sinusitis, otitis media (reducing nasopharyngeal swelling, improving drainage)",
+        "Preparation before rhinoscopy and nasal procedures"
+      ],
+      qarrshi: [
+        "Hypersensitivity to xylometazoline or adrenergic agonists",
+        "Atrophic rhinitis; after nasal surgery (transsphenoidal)",
+        "Narrow-angle glaucoma, severe cardiovascular disease, hyperthyroidism",
+        "With MAO inhibitors or within 14 days of stopping them; age limits by concentration"
+      ],
+      nojoya: {
+        "Local": "Burning, dryness, stinging in the nose, sneezing, increased discharge (reactive); with prolonged use — medication rhinitis, mucosal atrophy",
+        "Systemic (with excess absorption)": "Headache, palpitations, raised BP, insomnia, restlessness",
+        "In children (with overdose)": "Lethargy, lowered body temperature, bradycardia (with systemic absorption — caution)"
+      },
+      dozadan: "Especially in children with accidental swallowing or excessive use: lethargy, bradycardia, lowered BP, hypothermia, coma. Treatment: symptomatic, supportive.",
+      ozarotasir: [
+        "MAO inhibitors and tricyclic antidepressants: enhance the hypertensive effect — do not combine",
+        "With other adrenergic agonists systemic effect is additive"
+      ],
+      qollash: {
+        kattalar: "0.1% solution/spray: 1 spray/2–3 drops in each nostril, up to 3 times a day. Continuously no more than 5–7 days.",
+        bolalar: "2–6 years: 0.05% low concentration, 1–2 times a day; from 6 years: 0.05–0.1%. In infants a special low concentration, as prescribed."
+      },
+      chiqarish: "Nasal drops/spray 0.05% (paediatric), 0.1% (adult); combination with dexpanthenol"
+    }
+  },
+
+  // ── OKSIMETAZOLIN | ATX: R01AA05 ──
+  "R01AA05": {
+    uz: {
+      gruppa: "Burun dekongestantlari — mahalliy alfa-adrenomimetik (imidazolin)",
+      farmTasir: "Burun shilliq qavati shishini qaytaruvchi (uzoq ta'sirli dekongestant)",
+      farmakodinamika: `Oksimetazolin — imidazolin hosilasi bo'lgan mahalliy alfa-adrenomimetik (asosan alfa2). Burun shilliq qavati tomirlarini toraytirib shish va giperemiyani kamaytiradi, burun yo'llarini ochadi. Ksilometazolinга o'xshash, lekin ta'siri yanada uzoqroq (10–12 soat) — kuniga 2 marta yetarli. Tez (5–10 daqiqа) ta'sir qiladi. Uzoq uzluksiz qo'llanганда medikamentoz rinit xavfi bor.`,
+      farmakokinetika: {
+        sorish: "Mahalliy; tizimli so'rilish minimal.",
+        tarqalish: "Burun shilliq qavatida.",
+        metabolizm: "So'rilgan oz qism jigarда.",
+        chiqarilish: "So'rilgan qism siydik va najas orqali."
+      },
+      korsatmalar: [
+        "O'tkir rinit, burun bitishi (shamollash, gripp)",
+        "Allergik va vazomotor rinit",
+        "Sinusit, evstaxiit, o'rta otit (yordamchi — shish va drenaj)",
+        "Burun muolajalaridan oldin"
+      ],
+      qarrshi: [
+        "Oksimetazolin yoki adrenomimetiklarga o'ta sezgirlik",
+        "Atrofik rinit",
+        "Tor burchakli glaukoma, og'ir yurak-qon tomir kasalliklari, gipertireoz, og'ir buyrak yetishmovchiligi",
+        "MAO inhibitorlari bilan; konsentratsiyaga qarab yosh chegaralari"
+      ],
+      nojoya: {
+        "Mahalliy": "Burunда qurish, achishish, sanchish, aksirish; uzoq qo'llanганда — medikamentoz rinit, atrofiya",
+        "Tizimli": "Bosh og'rig'i, yurak urishi, AB oshishi, uyqusizlik (kamdan-kam)",
+        "Bolalarда (ortiqcha doza)": "Sustlik, gipotermiya, bradikardiya"
+      },
+      dozadan: "Bolalarда tasodifan yutib yuborilганда og'ir tizimli ta'sir (sustlik, bradikardiya, koma). Davolash: simptomatik, qo'llab-quvvatlovchi.",
+      ozarotasir: [
+        "MAO inhibitorlari, trisiklik antidepressantlar: gipertenziv ta'sir kuchayadi",
+        "Boshqa dekongestant/adrenomimetiklar bilan tizimli ta'sir qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "0,05% sprey/tomchi: har bir burun teshigiga 1 purkash/1–2 tomchi, kuniga 2 marta (ertalab va kechqurun). 5–7 kundan oshmasligi kerak.",
+        bolalar: "1–6 yosh: 0,025%; 6 yoshdan: 0,05%. Chaqaloqларда 0,01% maxsus shakl, shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "Burun spreyi/tomchilari 0,01% (chaqaloq), 0,025% (bolalar), 0,05% (kattalar)"
+    },
+    ru: {
+      gruppa: "Назальные деконгестанты — местный альфа-адреномиметик (имидазолин)",
+      farmTasir: "Снимающий отёк слизистой носа (деконгестант длительного действия)",
+      farmakodinamika: `Оксиметазолин — местный альфа-адреномиметик (преимущественно альфа2), производное имидазолина. Суживает сосуды слизистой носа, уменьшая отёк и гиперемию, открывает носовые ходы. Подобен ксилометазолину, но действует ещё дольше (10–12 часов) — достаточно 2 раз в сутки. Действует быстро (через 5–10 минут). При длительном непрерывном применении есть риск медикаментозного ринита.`,
+      farmakokinetika: {
+        sorish: "Местно; системное всасывание минимально.",
+        tarqalish: "В слизистой носа.",
+        metabolizm: "Всосавшаяся малая часть в печени.",
+        chiqarilish: "Всосавшаяся часть с мочой и калом."
+      },
+      korsatmalar: [
+        "Острый ринит, заложенность носа (простуда, грипп)",
+        "Аллергический и вазомоторный ринит",
+        "Синусит, евстахиит, средний отит (вспомогательно — отёк и дренаж)",
+        "Перед носовыми процедурами"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к оксиметазолину или адреномиметикам",
+        "Атрофический ринит",
+        "Закрытоугольная глаукома, тяжёлые сердечно-сосудистые заболевания, гипертиреоз, тяжёлая почечная недостаточность",
+        "С ингибиторами МАО; возрастные ограничения по концентрации"
+      ],
+      nojoya: {
+        "Местные": "Сухость, жжение, покалывание в носу, чихание; при длительном применении — медикаментозный ринит, атрофия",
+        "Системные": "Головная боль, сердцебиение, повышение АД, бессонница (редко)",
+        "У детей (при передозировке)": "Вялость, гипотермия, брадикардия"
+      },
+      dozadan: "У детей при случайном проглатывании — тяжёлое системное действие (вялость, брадикардия, кома). Лечение: симптоматически, поддерживающе.",
+      ozarotasir: [
+        "Ингибиторы МАО, трициклические антидепрессанты: усиление гипертензивного действия",
+        "С другими деконгестантами/адреномиметиками системное действие суммируется"
+      ],
+      qollash: {
+        kattalar: "0,05% спрей/капли: по 1 впрыску/1–2 капли в каждый носовой ход, 2 раза в сутки (утром и вечером). Не более 5–7 дней.",
+        bolalar: "1–6 лет: 0,025%; с 6 лет: 0,05%. У младенцев 0,01% специальная форма, по назначению врача."
+      },
+      chiqarish: "Назальный спрей/капли 0,01% (младенцы), 0,025% (дети), 0,05% (взрослые)"
+    },
+    en: {
+      gruppa: "Nasal decongestants — topical alpha-adrenergic agonist (imidazoline)",
+      farmTasir: "Relieves nasal mucosal swelling (long-acting decongestant)",
+      farmakodinamika: `Oxymetazoline is a topical alpha-adrenergic agonist (mainly alpha2), an imidazoline derivative. It constricts the nasal mucosal vessels, reducing swelling and hyperaemia and opening the nasal passages. It is similar to xylometazoline but acts even longer (10–12 hours) — twice daily suffices. It acts quickly (in 5–10 minutes). With prolonged continuous use there is a risk of medication rhinitis.`,
+      farmakokinetika: {
+        sorish: "Topical; systemic absorption minimal.",
+        tarqalish: "In the nasal mucosa.",
+        metabolizm: "The small absorbed part in the liver.",
+        chiqarilish: "The absorbed part via urine and faeces."
+      },
+      korsatmalar: [
+        "Acute rhinitis, nasal congestion (cold, influenza)",
+        "Allergic and vasomotor rhinitis",
+        "Sinusitis, eustachitis, otitis media (adjunct — swelling and drainage)",
+        "Before nasal procedures"
+      ],
+      qarrshi: [
+        "Hypersensitivity to oxymetazoline or adrenergic agonists",
+        "Atrophic rhinitis",
+        "Narrow-angle glaucoma, severe cardiovascular disease, hyperthyroidism, severe renal failure",
+        "With MAO inhibitors; age limits by concentration"
+      ],
+      nojoya: {
+        "Local": "Dryness, burning, stinging in the nose, sneezing; with prolonged use — medication rhinitis, atrophy",
+        "Systemic": "Headache, palpitations, raised BP, insomnia (rare)",
+        "In children (with overdose)": "Lethargy, hypothermia, bradycardia"
+      },
+      dozadan: "In children with accidental swallowing — severe systemic effect (lethargy, bradycardia, coma). Treatment: symptomatic, supportive.",
+      ozarotasir: [
+        "MAO inhibitors, tricyclic antidepressants: enhanced hypertensive effect",
+        "With other decongestants/adrenergic agonists systemic effect is additive"
+      ],
+      qollash: {
+        kattalar: "0.05% spray/drops: 1 spray/1–2 drops in each nostril, twice a day (morning and evening). No more than 5–7 days.",
+        bolalar: "1–6 years: 0.025%; from 6 years: 0.05%. In infants a 0.01% special form, as prescribed."
+      },
+      chiqarish: "Nasal spray/drops 0.01% (infants), 0.025% (children), 0.05% (adults)"
+    }
+  },
+
+  // ── NAFAZOLIN | ATX: R01AA08 ──
+  "R01AA08": {
+    uz: {
+      gruppa: "Burun dekongestantlari — mahalliy alfa-adrenomimetik (imidazolin, qisqa ta'sirli)",
+      farmTasir: "Burun shilliq qavati shishini qaytaruvchi (qisqa ta'sirli dekongestant)",
+      farmakodinamika: `Nafazolin — imidazolin hosilasi bo'lgan mahalliy alfa-adrenomimetik. Burun shilliq qavati tomirlarini toraytirib shish, giperemiya va ajralmani kamaytiradi. Tez (bir necha daqiqа) ta'sir qiladi, lekin ta'sir davomiyligi qisqaroq (4–6 soat) — shu sababli tez-tez qo'llash kerak bo'ladi va medikamentoz rinit xavfi yuqoriroq. Oftalmologiyada (ko'z qizarishida) ham qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Mahalliy; tizimli so'rilish bo'lishi mumkin (ayniqsa bolalarда — ehtiyot).",
+        tarqalish: "Burun/ko'z shilliq qavatida.",
+        metabolizm: "So'rilgan qism jigarда.",
+        chiqarilish: "So'rilgan qism siydik orqali."
+      },
+      korsatmalar: [
+        "O'tkir rinit, burun bitishi",
+        "Sinusit, allergik rinit, laringit (yordamchi)",
+        "Burun qon ketishini to'xtatish (vazokonstriksiya)",
+        "Oftalmologiyada — kon'yunktiva qizarishi (alohida shakl)"
+      ],
+      qarrshi: [
+        "Nafazolin yoki adrenomimetiklarga o'ta sezgirlik",
+        "Atrofik rinit, surunkali rinit (uzoq qo'llash xavfi)",
+        "Tor burchakli glaukoma, og'ir yurak-qon tomir kasalliklari, gipertireoz, qandli diabet",
+        "MAO inhibitorlari bilan; kichik bolalar (tizimli so'rilish xavfi)"
+      ],
+      nojoya: {
+        "Mahalliy": "Burunда achishish, qurish, aksirish, reaktiv giperemiya; tez-tez/uzoq qo'llanганда — medikamentoz rinit",
+        "Tizimli (ayniqsa bolalarда)": "Bosh og'rig'i, yurak urishi, AB oshishi, asabiylik; bolalarда — sustlik, gipotermiya",
+        "Boshqa": "Uzoq qo'llашда shilliq qavat atrofiyasi"
+      },
+      dozadan: "Bolalarда tizimli so'rilish o'ta xavfli (sustlik, bradikardiya, gipotermiya, koma). Davolash: simptomatik, qo'llab-quvvatlovchi. Bolalarда yuqori konsentratsiya ishlatilmaydi.",
+      ozarotasir: [
+        "MAO inhibitorlari, trisiklik antidepressantlar: gipertenziv ta'sir kuchayadi",
+        "Mahalliy anestetiklarning so'rilishini sekinlashtiradi (ta'sirini uzaytiradi)"
+      ],
+      qollash: {
+        kattalar: "0,05–0,1% tomchi: har bir burun teshigiga 1–3 tomchi, kuniga 3–4 marta. 5–7 kundan oshmasligi kerak.",
+        bolalar: "0,025–0,05% past konsentratsiya, shifokor ko'rsatmasi bilan; chaqaloqларда tavsiya etilmaydi."
+      },
+      chiqarish: "Burun tomchilari 0,05%, 0,1%; ko'z tomchilari (oftalmologik shakl)"
+    },
+    ru: {
+      gruppa: "Назальные деконгестанты — местный альфа-адреномиметик (имидазолин, короткого действия)",
+      farmTasir: "Снимающий отёк слизистой носа (деконгестант короткого действия)",
+      farmakodinamika: `Нафазолин — местный альфа-адреномиметик, производное имидазолина. Суживает сосуды слизистой носа, уменьшая отёк, гиперемию и отделяемое. Действует быстро (через несколько минут), но длительность действия короче (4–6 часов) — поэтому требуется частое применение и выше риск медикаментозного ринита. Применяется также в офтальмологии (при покраснении глаз).`,
+      farmakokinetika: {
+        sorish: "Местно; возможно системное всасывание (особенно у детей — осторожно).",
+        tarqalish: "В слизистой носа/глаз.",
+        metabolizm: "Всосавшаяся часть в печени.",
+        chiqarilish: "Всосавшаяся часть с мочой."
+      },
+      korsatmalar: [
+        "Острый ринит, заложенность носа",
+        "Синусит, аллергический ринит, ларингит (вспомогательно)",
+        "Остановка носового кровотечения (вазоконстрикция)",
+        "В офтальмологии — покраснение конъюнктивы (отдельная форма)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к нафазолину или адреномиметикам",
+        "Атрофический ринит, хронический ринит (риск при длительном применении)",
+        "Закрытоугольная глаукома, тяжёлые сердечно-сосудистые заболевания, гипертиреоз, сахарный диабет",
+        "С ингибиторами МАО; маленькие дети (риск системного всасывания)"
+      ],
+      nojoya: {
+        "Местные": "Жжение, сухость в носу, чихание, реактивная гиперемия; при частом/длительном применении — медикаментозный ринит",
+        "Системные (особенно у детей)": "Головная боль, сердцебиение, повышение АД, раздражительность; у детей — вялость, гипотермия",
+        "Прочее": "При длительном применении атрофия слизистой"
+      },
+      dozadan: "У детей системное всасывание крайне опасно (вялость, брадикардия, гипотермия, кома). Лечение: симптоматически, поддерживающе. У детей не применять высокую концентрацию.",
+      ozarotasir: [
+        "Ингибиторы МАО, трициклические антидепрессанты: усиление гипертензивного действия",
+        "Замедляет всасывание местных анестетиков (продлевает их действие)"
+      ],
+      qollash: {
+        kattalar: "0,05–0,1% капли: по 1–3 капли в каждый носовой ход, 3–4 раза в сутки. Не более 5–7 дней.",
+        bolalar: "0,025–0,05% низкая концентрация, по назначению врача; у младенцев не рекомендуется."
+      },
+      chiqarish: "Назальные капли 0,05%, 0,1%; глазные капли (офтальмологическая форма)"
+    },
+    en: {
+      gruppa: "Nasal decongestants — topical alpha-adrenergic agonist (imidazoline, short-acting)",
+      farmTasir: "Relieves nasal mucosal swelling (short-acting decongestant)",
+      farmakodinamika: `Naphazoline is a topical alpha-adrenergic agonist, an imidazoline derivative. It constricts the nasal mucosal vessels, reducing swelling, hyperaemia and discharge. It acts quickly (within a few minutes) but its duration is shorter (4–6 hours) — so frequent application is needed and the risk of medication rhinitis is higher. It is also used in ophthalmology (for eye redness).`,
+      farmakokinetika: {
+        sorish: "Topical; systemic absorption possible (especially in children — caution).",
+        tarqalish: "In the nasal/ocular mucosa.",
+        metabolizm: "The absorbed part in the liver.",
+        chiqarilish: "The absorbed part renally."
+      },
+      korsatmalar: [
+        "Acute rhinitis, nasal congestion",
+        "Sinusitis, allergic rhinitis, laryngitis (adjunct)",
+        "Stopping nosebleeds (vasoconstriction)",
+        "In ophthalmology — conjunctival redness (separate form)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to naphazoline or adrenergic agonists",
+        "Atrophic rhinitis, chronic rhinitis (risk with prolonged use)",
+        "Narrow-angle glaucoma, severe cardiovascular disease, hyperthyroidism, diabetes mellitus",
+        "With MAO inhibitors; young children (systemic absorption risk)"
+      ],
+      nojoya: {
+        "Local": "Burning, dryness in the nose, sneezing, reactive hyperaemia; with frequent/prolonged use — medication rhinitis",
+        "Systemic (especially in children)": "Headache, palpitations, raised BP, irritability; in children — lethargy, hypothermia",
+        "Other": "Mucosal atrophy with prolonged use"
+      },
+      dozadan: "In children systemic absorption is extremely dangerous (lethargy, bradycardia, hypothermia, coma). Treatment: symptomatic, supportive. Do not use high concentration in children.",
+      ozarotasir: [
+        "MAO inhibitors, tricyclic antidepressants: enhanced hypertensive effect",
+        "Slows absorption of local anaesthetics (prolongs their effect)"
+      ],
+      qollash: {
+        kattalar: "0.05–0.1% drops: 1–3 drops in each nostril, 3–4 times a day. No more than 5–7 days.",
+        bolalar: "0.025–0.05% low concentration, as prescribed; not recommended in infants."
+      },
+      chiqarish: "Nasal drops 0.05%, 0.1%; eye drops (ophthalmic form)"
+    }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // R-Batch 2 — Ingalyatsion/intranazal glyukokortikoidlar
+  // ═══════════════════════════════════════════════════════════
+
+  // ── BUDESONID | ATX: R03BA02 ──
+  "R03BA02": {
+    uz: {
+      gruppa: "Nafas yo'llari glyukokortikoidlari — ingalyatsion (budesonid)",
+      farmTasir: "Mahalliy yallig'lanishga qarshi (ingalyatsion kortikosteroid)",
+      farmakodinamika: `Budesonid — ingalyatsion glyukokortikosteroid (IGKS). Bronx shilliq qavatidagi hujayralarning glyukokortikoid retseptorlariga bog'lanib yallig'lanishga qarshi genlar ekspressiyasini boshqaradi: proinflamatuar sitokinlar, leykotrienlar va prostaglandinlar sintezini, eozinofil va boshqa yallig'lanish hujayralarining to'planishini kamaytiradi, bronx shilliq qavati shishini va shilimshiq ishlab chiqarilishini pasaytiradi, bronxlarning beta2-agonistlarга sezgirligini tiklaydi. Bronxospazmni darhol bartaraf etmaydi — bu profilaktik (bazis) vosita; nafas yo'llari yallig'lanishini uzoq muddat nazorat qiladi. Mahalliy ta'sir kuchli, tizimli ta'siri past (jigar «birinchi o'tish»да ko'p qismi faolsizlanadi).`,
+      farmakokinetika: {
+        sorish: "Ingalyatsiyada o'pkaга tushgan qism so'riladi; yutilgan qism jigarning «birinchi o'tish»да ~90% faolsizlanadi (past tizimli biokirish).",
+        tarqalish: "Plazma oqsillariga ~90% bog'lanadi.",
+        metabolizm: "Jigarda CYP3A4 ishtirokida past faollikли metabolitlarga.",
+        chiqarilish: "Asosan siydik va najas orqali metabolit ko'rinishida. T½ — ~2–3 soat."
+      },
+      korsatmalar: [
+        "Bronxial astma (bazis, profilaktik davo — har xil og'irlikда)",
+        "Surункали obstruktiv o'pka kasalligi (SOPK) — ayrim holatlarda",
+        "Intranazal shaklда — allergik va polipoz rinit",
+        "Nebulayzer shaklда — bolalar krupi (laringotraxeit), og'ir astma qo'zg'alishi"
+      ],
+      qarrshi: [
+        "Budesonid yoki komponentlariga o'ta sezgirlik",
+        "O'pka tuberkulyozi (faol/nofaol — ehtiyot), nafas yo'llari zamburug'/virus/bakterial infeksiyasi (ehtiyot)",
+        "Astmaning o'tkir og'ir xuruji (status astmaticus) — yagona vosita sifatida emas",
+        "Homiladorlik va emizishда foyda/xavf baholanadi"
+      ],
+      nojoya: {
+        "Mahalliy (og'iz-halqum)": "Og'iz-halqum kandidozi (molochnitsa), disfoniya (ovoz bo'g'ilishi), halqum ta'siri, yo'tal (ingalyatsiyadan keyin og'izni chayqash kerak)",
+        "Intranazal": "Burunda qurish, achishish, qichish, burun qonashi; kamdan-kam — burun to'sig'i perforatsiyasi",
+        "Tizimli (yuqori doza, uzoq kurs)": "Buyrak usti bezi funksiyasini susayishi, suyak zichligi pasayishi, bolalarда o'sishni biroz sekinlashtirish, glaukoma/katarakta xavfi",
+        "Allergik": "Toshma, qichima, bronxospazm (paradoksal)"
+      },
+      dozadan: "Ingalyatsion shaklда o'tkir dozadan oshish xavfi past. Uzoq tizimli yuqori dozada — gipotalamo-gipofizar-adrenal o'q susayishi (asta-sekin kamaytirib to'xtatish).",
+      ozarotasir: [
+        "Kuchli CYP3A4 inhibitorlari (ketokonazol, ritonavir, klaritromitsin): budesonid tizimli ta'sirini oshiradi — ehtiyot",
+        "Beta2-agonistlar bilan birga samara to'ldiriladi (kombinatsiya terapiyasi asosi)"
+      ],
+      qollash: {
+        kattalar: "Ingalyatsiya: 200–800 mkg/kun 1–2 ta qabulда (og'irlikка qarab; maks. 1600 mkg). Har qabuldan keyin og'izни chayqang. Intranazal: 100–200 mkg har burun teshigiga/kun. Nebulayzer: 1–2 mg×2/kun (og'ir holat).",
+        bolalar: "Ingalyatsiya 100–400 mkg/kun; nebulayzer (krup) 2 mg bir martalik yoki 1 mg×2. Eng kam samarali dozaда, o'sishни kuzatib."
+      },
+      chiqarish: "Dozali ingalyator (DAI) 100, 200 mkg/doza; kukunли ingalyator (DPI); nebulayzer suspenziyasi 0,25; 0,5 mg/ml; intranazal sprey"
+    },
+    ru: {
+      gruppa: "Глюкокортикоиды дыхательных путей — ингаляционный (будесонид)",
+      farmTasir: "Местное противовоспалительное (ингаляционный кортикостероид)",
+      farmakodinamika: `Будесонид — ингаляционный глюкокортикостероид (ИГКС). Связываясь с глюкокортикоидными рецепторами клеток слизистой бронхов, регулирует экспрессию противовоспалительных генов: снижает синтез провоспалительных цитокинов, лейкотриенов и простагландинов, накопление эозинофилов и других клеток воспаления, уменьшает отёк слизистой бронхов и продукцию слизи, восстанавливает чувствительность бронхов к бета2-агонистам. Не купирует бронхоспазм немедленно — это профилактическое (базисное) средство; длительно контролирует воспаление дыхательных путей. Местное действие сильное, системное низкое (большая часть инактивируется при «первом прохождении» через печень).`,
+      farmakokinetika: {
+        sorish: "При ингаляции всасывается часть, попавшая в лёгкие; проглоченная часть инактивируется при «первом прохождении» через печень на ~90% (низкая системная биодоступность).",
+        tarqalish: "Связь с белками плазмы ~90%.",
+        metabolizm: "В печени при участии CYP3A4 до малоактивных метаболитов.",
+        chiqarilish: "Преимущественно с мочой и калом в виде метаболитов. T½ — ~2–3 ч."
+      },
+      korsatmalar: [
+        "Бронхиальная астма (базисная, профилактическая терапия — при разной тяжести)",
+        "ХОБЛ — в отдельных случаях",
+        "Интраназально — аллергический и полипозный ринит",
+        "В форме для небулайзера — круп у детей (ларинготрахеит), тяжёлое обострение астмы"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к будесониду или компонентам",
+        "Туберкулёз лёгких (активный/неактивный — осторожно), грибковая/вирусная/бактериальная инфекция дыхательных путей (осторожно)",
+        "Острый тяжёлый приступ астмы (астматический статус) — не как единственное средство",
+        "При беременности и лактации оценивают пользу/риск"
+      ],
+      nojoya: {
+        "Местные (рот-глотка)": "Кандидоз рта и глотки (молочница), дисфония (осиплость голоса), раздражение глотки, кашель (после ингаляции нужно полоскать рот)",
+        "Интраназально": "Сухость, жжение, зуд в носу, носовое кровотечение; редко — перфорация носовой перегородки",
+        "Системные (высокая доза, длительный курс)": "Угнетение функции надпочечников, снижение плотности кости, небольшое замедление роста у детей, риск глаукомы/катаракты",
+        "Аллергия": "Сыпь, зуд, бронхоспазм (парадоксальный)"
+      },
+      dozadan: "При ингаляционной форме риск острой передозировки низкий. При длительной системной высокой дозе — угнетение гипоталамо-гипофизарно-надпочечниковой оси (отменять постепенно).",
+      ozarotasir: [
+        "Мощные ингибиторы CYP3A4 (кетоконазол, ритонавир, кларитромицин): повышают системное действие будесонида — осторожно",
+        "С бета2-агонистами эффект дополняется (основа комбинированной терапии)"
+      ],
+      qollash: {
+        kattalar: "Ингаляция: 200–800 мкг/сут в 1–2 приёма (по тяжести; максимум 1600 мкг). После каждого приёма полоскать рот. Интраназально: 100–200 мкг в каждый носовой ход/сут. Небулайзер: 1–2 мг×2/сут (тяжёлое состояние).",
+        bolalar: "Ингаляция 100–400 мкг/сут; небулайзер (круп) 2 мг однократно или 1 мг×2. В минимальной эффективной дозе, с контролем роста."
+      },
+      chiqarish: "Дозированный ингалятор (ДАИ) 100, 200 мкг/доза; порошковый ингалятор (DPI); суспензия для небулайзера 0,25; 0,5 мг/мл; интраназальный спрей"
+    },
+    en: {
+      gruppa: "Airway glucocorticoids — inhaled (budesonide)",
+      farmTasir: "Local anti-inflammatory (inhaled corticosteroid)",
+      farmakodinamika: `Budesonide is an inhaled glucocorticosteroid (ICS). Binding glucocorticoid receptors in bronchial mucosal cells, it regulates expression of anti-inflammatory genes: reducing synthesis of pro-inflammatory cytokines, leukotrienes and prostaglandins, accumulation of eosinophils and other inflammatory cells, easing bronchial mucosal swelling and mucus production, and restoring bronchial sensitivity to beta2-agonists. It does not abort bronchospasm immediately — it is a preventive (controller) agent that controls airway inflammation long-term. Its local action is strong, systemic low (most is inactivated by hepatic 'first pass').`,
+      farmakokinetika: {
+        sorish: "On inhalation the lung-deposited part is absorbed; the swallowed part is ~90% inactivated by hepatic first pass (low systemic bioavailability).",
+        tarqalish: "Plasma protein binding ~90%.",
+        metabolizm: "Hepatic via CYP3A4 to low-activity metabolites.",
+        chiqarilish: "Mainly renal and faecal as metabolites. T½ — ~2–3 h."
+      },
+      korsatmalar: [
+        "Bronchial asthma (controller, preventive therapy — at various severities)",
+        "COPD — in selected cases",
+        "Intranasally — allergic and polypous rhinitis",
+        "Nebuliser form — croup in children (laryngotracheitis), severe asthma exacerbation"
+      ],
+      qarrshi: [
+        "Hypersensitivity to budesonide or components",
+        "Pulmonary tuberculosis (active/inactive — caution), fungal/viral/bacterial airway infection (caution)",
+        "Acute severe asthma attack (status asthmaticus) — not as the sole agent",
+        "In pregnancy and lactation weigh benefit/risk"
+      ],
+      nojoya: {
+        "Local (mouth-throat)": "Oral and pharyngeal candidiasis (thrush), dysphonia (hoarseness), throat irritation, cough (rinse the mouth after inhalation)",
+        "Intranasal": "Dryness, burning, itching in the nose, nosebleed; rarely nasal septum perforation",
+        "Systemic (high dose, long course)": "Adrenal suppression, reduced bone density, slight growth slowing in children, glaucoma/cataract risk",
+        "Allergy": "Rash, pruritus, bronchospasm (paradoxical)"
+      },
+      dozadan: "With the inhaled form acute overdose risk is low. With prolonged systemic high dose — hypothalamic-pituitary-adrenal axis suppression (withdraw gradually).",
+      ozarotasir: [
+        "Potent CYP3A4 inhibitors (ketoconazole, ritonavir, clarithromycin): increase budesonide systemic effect — caution",
+        "With beta2-agonists the effect is complementary (basis of combination therapy)"
+      ],
+      qollash: {
+        kattalar: "Inhalation: 200–800 µg/day in 1–2 doses (by severity; max 1600 µg). Rinse the mouth after each dose. Intranasal: 100–200 µg per nostril/day. Nebuliser: 1–2 mg×2/day (severe).",
+        bolalar: "Inhalation 100–400 µg/day; nebuliser (croup) 2 mg single dose or 1 mg×2. At the lowest effective dose, with growth monitoring."
+      },
+      chiqarish: "Metered-dose inhaler (MDI) 100, 200 µg/dose; dry-powder inhaler (DPI); nebuliser suspension 0.25; 0.5 mg/mL; intranasal spray"
+    }
+  },
+
+  // ── FLUTIKAZON | ATX: R03BA05 ──
+  "R03BA05": {
+    uz: {
+      gruppa: "Nafas yo'llari glyukokortikoidlari — ingalyatsion/intranazal (flutikazon)",
+      farmTasir: "Mahalliy yallig'lanishga qarshi (ingalyatsion/intranazal kortikosteroid)",
+      farmakodinamika: `Flutikazon (propionat yoki furoat) — yuqori mahalliy faollikли ingalyatsion va intranazal glyukokortikosteroid. Glyukokortikoid retseptorlariga yuqori moyillik bilan bog'lanib nafas yo'llaridagi yallig'lanishni kuchli bostiradi: yallig'lanish hujayralari (eozinofil, mast, limfotsit) faolligini, sitokinlar va mediatorlar ishlab chiqarilishini kamaytiradi, shilliq qavat shishi va giperreaktivlikни pasaytiradi. Tizimli biokirishi juda past (yutilgan qism jigarда deyarli to'liq faolsizlanadi) — shu sababli tizimli yon ta'sir kam. Astma va allergik rinitда bazis vosita.`,
+      farmakokinetika: {
+        sorish: "Ingalyatsiyada o'pkага tushgan qism so'riladi; peroral biokirish <1% (deyarli to'liq «birinchi o'tish»да faolsizlanadi).",
+        tarqalish: "Plazma oqsillariga ~91% bog'lanadi; lipofil, to'qimaларга yaxshi kiradi.",
+        metabolizm: "Jigarda CYP3A4 ishtirokida faolsiz metabolitга.",
+        chiqarilish: "Asosan najas orqali. T½ — ~8 soat (propionat)."
+      },
+      korsatmalar: [
+        "Bronxial astma (bazis profilaktik davo)",
+        "Surункали obstruktiv o'pka kasalligi (kombinatsiyaда)",
+        "Intranazal — mavsumiy va yil bo'yi allergik rinit, nazal polipoz",
+        "Boshqa IGKS samarasiz/toqatsiz bo'lganда"
+      ],
+      qarrshi: [
+        "Flutikazon yoki komponentlariga o'ta sezgirlik",
+        "Nafas yo'llari faol infeksiyasi (tuberkulyoz, zamburug' — ehtiyot)",
+        "Astmaning o'tkir og'ir xuruji (yagona vosita emas)",
+        "Homiladorlik va emizishда foyda/xavf"
+      ],
+      nojoya: {
+        "Mahalliy (og'iz-halqum)": "Og'iz-halqum kandidozi, disfoniya, halqum ta'siri (ingalyatsiyadan keyin og'izни chayqang)",
+        "Intranazal": "Burunда qurish, achishish, burun qonashi, ta'm/hid o'zgarishi; kamdan-kam — to'siq perforatsiyasi",
+        "Tizimli (yuqori doza, uzoq)": "Buyrak usti bezi susayishi, bolalarда o'sishni sekinlashtirish, suyak zichligi pasayishi, glaukoma/katarakta",
+        "Allergik": "Toshma, qichima, angionevrotik shish, paradoksal bronxospazm"
+      },
+      dozadan: "Ingalyatsion shaklда o'tkir xavf past; uzoq tizimli yuqori dozada gipotalamo-gipofizar-adrenal o'q susayishi — asta-sekin kamaytirib to'xtatish.",
+      ozarotasir: [
+        "Kuchli CYP3A4 inhibitorlari (ritonavir, ketokonazol, kobitsistat): flutikazon tizimli ta'sirini keskin oshiradi — Kushing sindromi/adrenal susayishi xavfi, birga ishlatish ehtiyot/taqiqlanadi",
+        "Beta2-agonistlar bilan birga (kombinatsiya) samarani to'ldiradi"
+      ],
+      qollash: {
+        kattalar: "Ingalyatsiya (propionat): 100–500 mkg×2/kun (og'irlikка qarab, maks. 1000 mkg×2). Intranazal: 100 mkg (2 purkash) har burun teshigiga 1 marta/kun. Har ingalyatsiyadan keyin og'izни chayqang.",
+        bolalar: "Ingalyatsiya 50–100 mkg×2/kun (4 yoshdan); intranazal 50 mkg har burun teshigiga (6 yoshdan). Eng kam samarali dozaда."
+      },
+      chiqarish: "Dozali ingalyator 50, 125, 250 mkg/doza; kukunли ingalyator; intranazal sprey 27,5/50 mkg/doza"
+    },
+    ru: {
+      gruppa: "Глюкокортикоиды дыхательных путей — ингаляционный/интраназальный (флутиказон)",
+      farmTasir: "Местное противовоспалительное (ингаляционный/интраназальный кортикостероид)",
+      farmakodinamika: `Флутиказон (пропионат или фуроат) — ингаляционный и интраназальный глюкокортикостероид высокой местной активности. Связываясь с глюкокортикоидными рецепторами с высоким сродством, сильно подавляет воспаление дыхательных путей: снижает активность клеток воспаления (эозинофилы, тучные, лимфоциты), продукцию цитокинов и медиаторов, уменьшает отёк слизистой и гиперреактивность. Системная биодоступность очень низкая (проглоченная часть почти полностью инактивируется при первом прохождении) — поэтому мало системных эффектов. Базисное средство при астме и аллергическом рините.`,
+      farmakokinetika: {
+        sorish: "При ингаляции всасывается часть в лёгких; пероральная биодоступность <1% (почти полностью инактивируется при «первом прохождении»).",
+        tarqalish: "Связь с белками плазмы ~91%; липофилен, хорошо проникает в ткани.",
+        metabolizm: "В печени при участии CYP3A4 до неактивного метаболита.",
+        chiqarilish: "Преимущественно с калом. T½ — ~8 ч (пропионат)."
+      },
+      korsatmalar: [
+        "Бронхиальная астма (базисная профилактическая терапия)",
+        "ХОБЛ (в комбинации)",
+        "Интраназально — сезонный и круглогодичный аллергический ринит, назальный полипоз",
+        "При неэффективности/непереносимости других ИГКС"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к флутиказону или компонентам",
+        "Активная инфекция дыхательных путей (туберкулёз, грибки — осторожно)",
+        "Острый тяжёлый приступ астмы (не как единственное средство)",
+        "При беременности и лактации польза/риск"
+      ],
+      nojoya: {
+        "Местные (рот-глотка)": "Кандидоз рта и глотки, дисфония, раздражение глотки (после ингаляции полоскать рот)",
+        "Интраназально": "Сухость, жжение в носу, носовое кровотечение, изменение вкуса/запаха; редко — перфорация перегородки",
+        "Системные (высокая доза, длительно)": "Угнетение надпочечников, замедление роста у детей, снижение плотности кости, глаукома/катаракта",
+        "Аллергия": "Сыпь, зуд, ангионевротический отёк, парадоксальный бронхоспазм"
+      },
+      dozadan: "При ингаляционной форме острый риск низкий; при длительной системной высокой дозе угнетение гипоталамо-гипофизарно-надпочечниковой оси — отменять постепенно.",
+      ozarotasir: [
+        "Мощные ингибиторы CYP3A4 (ритонавир, кетоконазол, кобицистат): резко повышают системное действие флутиказона — риск синдрома Кушинга/угнетения надпочечников, сочетание с осторожностью/противопоказано",
+        "С бета2-агонистами (комбинация) эффект дополняется"
+      ],
+      qollash: {
+        kattalar: "Ингаляция (пропионат): 100–500 мкг×2/сут (по тяжести, максимум 1000 мкг×2). Интраназально: 100 мкг (2 впрыска) в каждый носовой ход 1 раз/сут. После каждой ингаляции полоскать рот.",
+        bolalar: "Ингаляция 50–100 мкг×2/сут (с 4 лет); интраназально 50 мкг в каждый носовой ход (с 6 лет). В минимальной эффективной дозе."
+      },
+      chiqarish: "Дозированный ингалятор 50, 125, 250 мкг/доза; порошковый ингалятор; интраназальный спрей 27,5/50 мкг/доза"
+    },
+    en: {
+      gruppa: "Airway glucocorticoids — inhaled/intranasal (fluticasone)",
+      farmTasir: "Local anti-inflammatory (inhaled/intranasal corticosteroid)",
+      farmakodinamika: `Fluticasone (propionate or furoate) is an inhaled and intranasal glucocorticosteroid of high local potency. Binding glucocorticoid receptors with high affinity, it strongly suppresses airway inflammation: reducing the activity of inflammatory cells (eosinophils, mast cells, lymphocytes), cytokine and mediator production, and easing mucosal swelling and hyperreactivity. Its systemic bioavailability is very low (the swallowed part is almost fully inactivated by first pass) — so systemic effects are few. It is a controller agent in asthma and allergic rhinitis.`,
+      farmakokinetika: {
+        sorish: "On inhalation the lung-deposited part is absorbed; oral bioavailability <1% (almost fully inactivated by first pass).",
+        tarqalish: "Plasma protein binding ~91%; lipophilic, penetrates tissues well.",
+        metabolizm: "Hepatic via CYP3A4 to an inactive metabolite.",
+        chiqarilish: "Mainly faecal. T½ — ~8 h (propionate)."
+      },
+      korsatmalar: [
+        "Bronchial asthma (controller preventive therapy)",
+        "COPD (in combination)",
+        "Intranasally — seasonal and perennial allergic rhinitis, nasal polyposis",
+        "When other ICS are ineffective/not tolerated"
+      ],
+      qarrshi: [
+        "Hypersensitivity to fluticasone or components",
+        "Active airway infection (tuberculosis, fungi — caution)",
+        "Acute severe asthma attack (not as the sole agent)",
+        "In pregnancy and lactation benefit/risk"
+      ],
+      nojoya: {
+        "Local (mouth-throat)": "Oral and pharyngeal candidiasis, dysphonia, throat irritation (rinse the mouth after inhalation)",
+        "Intranasal": "Dryness, burning in the nose, nosebleed, taste/smell change; rarely septum perforation",
+        "Systemic (high dose, long-term)": "Adrenal suppression, growth slowing in children, reduced bone density, glaucoma/cataract",
+        "Allergy": "Rash, pruritus, angioedema, paradoxical bronchospasm"
+      },
+      dozadan: "With the inhaled form acute risk is low; with prolonged systemic high dose hypothalamic-pituitary-adrenal axis suppression — withdraw gradually.",
+      ozarotasir: [
+        "Potent CYP3A4 inhibitors (ritonavir, ketoconazole, cobicistat): sharply raise fluticasone systemic effect — risk of Cushing syndrome/adrenal suppression, combine with caution/contraindicated",
+        "With beta2-agonists (combination) the effect is complementary"
+      ],
+      qollash: {
+        kattalar: "Inhalation (propionate): 100–500 µg×2/day (by severity, max 1000 µg×2). Intranasal: 100 µg (2 sprays) per nostril once daily. Rinse the mouth after each inhalation.",
+        bolalar: "Inhalation 50–100 µg×2/day (from 4 years); intranasal 50 µg per nostril (from 6 years). At the lowest effective dose."
+      },
+      chiqarish: "Metered-dose inhaler 50, 125, 250 µg/dose; dry-powder inhaler; intranasal spray 27.5/50 µg/dose"
+    }
+  },
+
+  // ── MOMETAZON | ATX: R01AD09 ──
+  "R01AD09": {
+    uz: {
+      gruppa: "Nafas yo'llari glyukokortikoidlari — intranazal/ingalyatsion (mometazon furoat)",
+      farmTasir: "Mahalliy yallig'lanishga qarshi (intranazal kortikosteroid)",
+      farmakodinamika: `Mometazon furoat — yuqori mahalliy faollikли intranazal (va ingalyatsion) glyukokortikosteroid. Glyukokortikoid retseptorlariga yuqori moyillik bilan bog'lanib burun va nafas yo'llari shilliq qavatidagi yallig'lanishni bostiradi: yallig'lanish mediatorlari (leykotrienlar, sitokinlar, gistamin) ajralishini, eozinofil va boshqa hujayralarning to'planishini kamaytiradi, shilliq qavat shishi va ajralmani pasaytiradi. Tizimli biokirishi juda past (<1%) — tizimli ta'sir minimal. Allergik rinit va nazal polipozда samarali; astmaда ingalyatsion shaklда qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Intranazal qo'llaganда tizimli biokirishi <1% (deyarli so'rilmaydi).",
+        tarqalish: "So'rilgan oz qism plazma oqsillariga yuqori bog'lanadi.",
+        metabolizm: "Jigarda CYP3A4 ishtirokida.",
+        chiqarilish: "Asosan o't (najas) orqali."
+      },
+      korsatmalar: [
+        "Mavsumiy va yil bo'yi allergik rinit (davolash va profilaktika)",
+        "Burun polipozi (kattalarда)",
+        "O'tkir rinosinusit (yordamchi)",
+        "Bronxial astma — ingalyatsion shaklда (bazis)"
+      ],
+      qarrshi: [
+        "Mometazon yoki komponentlariga o'ta sezgirlik",
+        "Burunдаги davolanmagan mahalliy infeksiya (gerpes, bakterial/zamburug')",
+        "Yaqinда burun jarrohligi yoki jarohati (yara bitguncha)",
+        "Faol nafas yo'llari tuberkulyozi"
+      ],
+      nojoya: {
+        "Intranazal": "Burunда qurish, achishish, qichima, aksirish, burun qonashi, bosh og'rig'i, halqum ta'siri",
+        "Kamdan-kam": "Burun to'sig'i perforatsiyasi (uzoq qo'llашда), hid sezgisining o'zgarishi",
+        "Tizimli (juda kam)": "Yuqori doza/uzoq kursда — buyrak usti bezi ta'siri, bolalarда o'sishни kuzatish",
+        "Allergik": "Toshma, qichima, angionevrotik shish, bronxospazm (kamdan-kam)"
+      },
+      dozadan: "Intranazal shaklда tizimli dozadan oshish kutilmaydi (past so'rilish). Uzoq yuqori dozada teoretik adrenal ta'sir.",
+      ozarotasir: [
+        "Kuchli CYP3A4 inhibitorlari (ketokonazol, ritonavir) tizimli ta'sirini biroz oshirishi mumkin (intranazal shaklда kam ahamiyatli)",
+        "Boshqa intranazal kortikosteroidlar bilan birga ishlatilmaydi"
+      ],
+      qollash: {
+        kattalar: "Allergik rinit: 2 purkash (50 mkg×2=100 mkg) har burun teshigiga 1 marta/kun (profilaktika uchun mavsumdan oldin boshlash). Polipoz: 2 purkash har burun teshigiga 1–2 marta/kun. Ingalyatsion astma shakli alohida dozaда.",
+        bolalar: "2 yoshdan allergik rinit: 1 purkash (50 mkg) har burun teshigiga 1 marta/kun; 12 yoshdan kattalar dozasi."
+      },
+      chiqarish: "Intranazal sprey 50 mkg/doza; ingalyatsion kukun (astma shakli)"
+    },
+    ru: {
+      gruppa: "Глюкокортикоиды дыхательных путей — интраназальный/ингаляционный (мометазона фуроат)",
+      farmTasir: "Местное противовоспалительное (интраназальный кортикостероид)",
+      farmakodinamika: `Мометазона фуроат — интраназальный (и ингаляционный) глюкокортикостероид высокой местной активности. Связываясь с глюкокортикоидными рецепторами с высоким сродством, подавляет воспаление слизистой носа и дыхательных путей: снижает выделение медиаторов воспаления (лейкотриены, цитокины, гистамин), накопление эозинофилов и других клеток, уменьшает отёк слизистой и отделяемое. Системная биодоступность очень низкая (<1%) — системное действие минимально. Эффективен при аллергическом рините и назальном полипозе; при астме применяется ингаляционно.`,
+      farmakokinetika: {
+        sorish: "При интраназальном применении системная биодоступность <1% (почти не всасывается).",
+        tarqalish: "Всосавшаяся малая часть высоко связывается с белками плазмы.",
+        metabolizm: "В печени при участии CYP3A4.",
+        chiqarilish: "Преимущественно с жёлчью (кал)."
+      },
+      korsatmalar: [
+        "Сезонный и круглогодичный аллергический ринит (лечение и профилактика)",
+        "Полипоз носа (у взрослых)",
+        "Острый риносинусит (вспомогательно)",
+        "Бронхиальная астма — в ингаляционной форме (базисно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к мометазону или компонентам",
+        "Нелеченая местная инфекция носа (герпес, бактериальная/грибковая)",
+        "Недавняя операция или травма носа (до заживления)",
+        "Активный туберкулёз дыхательных путей"
+      ],
+      nojoya: {
+        "Интраназально": "Сухость, жжение, зуд в носу, чихание, носовое кровотечение, головная боль, раздражение глотки",
+        "Редко": "Перфорация носовой перегородки (при длительном применении), изменение обоняния",
+        "Системные (очень редко)": "При высокой дозе/длительном курсе — влияние на надпочечники, контроль роста у детей",
+        "Аллергия": "Сыпь, зуд, ангионевротический отёк, бронхоспазм (редко)"
+      },
+      dozadan: "При интраназальной форме системная передозировка не ожидается (низкое всасывание). При длительной высокой дозе теоретическое влияние на надпочечники.",
+      ozarotasir: [
+        "Мощные ингибиторы CYP3A4 (кетоконазол, ритонавир) могут несколько повышать системное действие (при интраназальной форме малозначимо)",
+        "С другими интраназальными кортикостероидами не сочетать"
+      ],
+      qollash: {
+        kattalar: "Аллергический ринит: 2 впрыска (50 мкг×2=100 мкг) в каждый носовой ход 1 раз/сут (для профилактики начинать до сезона). Полипоз: 2 впрыска в каждый носовой ход 1–2 раза/сут. Ингаляционная форма при астме в отдельной дозе.",
+        bolalar: "С 2 лет аллергический ринит: 1 впрыск (50 мкг) в каждый носовой ход 1 раз/сут; с 12 лет доза взрослых."
+      },
+      chiqarish: "Интраназальный спрей 50 мкг/доза; ингаляционный порошок (форма при астме)"
+    },
+    en: {
+      gruppa: "Airway glucocorticoids — intranasal/inhaled (mometasone furoate)",
+      farmTasir: "Local anti-inflammatory (intranasal corticosteroid)",
+      farmakodinamika: `Mometasone furoate is an intranasal (and inhaled) glucocorticosteroid of high local potency. Binding glucocorticoid receptors with high affinity, it suppresses inflammation of the nasal and airway mucosa: reducing release of inflammatory mediators (leukotrienes, cytokines, histamine), accumulation of eosinophils and other cells, and easing mucosal swelling and discharge. Its systemic bioavailability is very low (<1%) — systemic effect is minimal. It is effective in allergic rhinitis and nasal polyposis; in asthma it is used by inhalation.`,
+      farmakokinetika: {
+        sorish: "With intranasal use systemic bioavailability is <1% (barely absorbed).",
+        tarqalish: "The small absorbed part is highly plasma protein bound.",
+        metabolizm: "Hepatic via CYP3A4.",
+        chiqarilish: "Mainly biliary (faeces)."
+      },
+      korsatmalar: [
+        "Seasonal and perennial allergic rhinitis (treatment and prophylaxis)",
+        "Nasal polyposis (in adults)",
+        "Acute rhinosinusitis (adjunct)",
+        "Bronchial asthma — in inhaled form (controller)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to mometasone or components",
+        "Untreated local nasal infection (herpes, bacterial/fungal)",
+        "Recent nasal surgery or trauma (until healed)",
+        "Active airway tuberculosis"
+      ],
+      nojoya: {
+        "Intranasal": "Dryness, burning, itching in the nose, sneezing, nosebleed, headache, throat irritation",
+        "Rare": "Nasal septum perforation (with prolonged use), altered sense of smell",
+        "Systemic (very rare)": "With high dose/long course — adrenal effect, growth monitoring in children",
+        "Allergy": "Rash, pruritus, angioedema, bronchospasm (rare)"
+      },
+      dozadan: "With the intranasal form systemic overdose is not expected (low absorption). With prolonged high dose a theoretical adrenal effect.",
+      ozarotasir: [
+        "Potent CYP3A4 inhibitors (ketoconazole, ritonavir) may slightly raise systemic effect (minor for the intranasal form)",
+        "Do not combine with other intranasal corticosteroids"
+      ],
+      qollash: {
+        kattalar: "Allergic rhinitis: 2 sprays (50 µg×2=100 µg) per nostril once daily (start before the season for prophylaxis). Polyposis: 2 sprays per nostril 1–2 times/day. The inhaled form for asthma at a separate dose.",
+        bolalar: "From 2 years allergic rhinitis: 1 spray (50 µg) per nostril once daily; from 12 years the adult dose."
+      },
+      chiqarish: "Intranasal spray 50 µg/dose; inhaled powder (asthma form)"
+    }
+  },
+
+  // ── BEKLOMETAZON | ATX: R03BA01 ──
+  "R03BA01": {
+    uz: {
+      gruppa: "Nafas yo'llari glyukokortikoidlari — ingalyatsion/intranazal (beklometazon dipropionat)",
+      farmTasir: "Mahalliy yallig'lanishga qarshi (ingalyatsion kortikosteroid)",
+      farmakodinamika: `Beklometazon dipropionat — klassik ingalyatsion glyukokortikosteroid. O'pkага tushganда faol metabolit (beklometazon-17-monopropionat)ga aylanib glyukokortikoid retseptorlariga bog'lanadi va nafas yo'llari yallig'lanishini bostiradi: yallig'lanish hujayralari va mediatorlarini, shilliq qavat shishi va giperreaktivlikни kamaytiradi. Astma bazis terapiyasida keng qo'llaniladigan, samarali va arzon IGKS. Intranazal shaklда allergik rinitда ham ishlatiladi.`,
+      farmakokinetika: {
+        sorish: "Ingalyatsiyada o'pkага tushgan qism so'riladi; yutilgan qism jigarда faolsizlanadi (tizimli biokirish past).",
+        tarqalish: "Faol metabolit to'qimаларга kiradi, plazma oqsiliga yuqori bog'lanadi.",
+        metabolizm: "O'pka va jigarда faol monopropionatга, keyin faolsiz shaklга.",
+        chiqarilish: "Asosan najas orqali. T½ — ~2,7 soat."
+      },
+      korsatmalar: [
+        "Bronxial astma (bazis profilaktik davo)",
+        "Intranazal — allergik (mavsumiy/yil bo'yi) va vazomotor rinit",
+        "Boshqa IGKS bilan bir qatorda astma nazorati"
+      ],
+      qarrshi: [
+        "Beklometazon yoki komponentlariga o'ta sezgirlik",
+        "Nafas yo'llari faol infeksiyasi (tuberkulyoz, zamburug', virus — ehtiyot)",
+        "Astmaning o'tkir og'ir xuruji (yagona vosita emas)",
+        "Homiladorlik va emizishда foyda/xavf"
+      ],
+      nojoya: {
+        "Mahalliy (og'iz-halqum)": "Og'iz-halqum kandidozi, disfoniya, halqum ta'siri, yo'tal (ingalyatsiyadan keyin og'izни chayqang)",
+        "Intranazal": "Burunда qurish, achishish, burun qonashi",
+        "Tizimli (yuqori doza, uzoq)": "Buyrak usti bezi susayishi, bolalarда o'sishni sekinlashtirish, suyak zichligi pasayishi",
+        "Allergik": "Toshma, qichima, paradoksal bronxospazm"
+      },
+      dozadan: "Ingalyatsion shaklда o'tkir xavf past; uzoq tizimli yuqori dozada adrenal o'q susayishi — asta-sekin kamaytirib to'xtatish.",
+      ozarotasir: [
+        "Kuchli CYP3A4 inhibitorlari (ritonavir, ketokonazol): tizimli ta'sirini oshiradi — ehtiyot",
+        "Beta2-agonistlar bilan birga samarani to'ldiradi (kombinatsiya)"
+      ],
+      qollash: {
+        kattalar: "Ingalyatsiya: 200–800 mkg/kun 2–4 ta qabulда (og'irlikка qarab, maks. ~1000 mkg). Intranazal: 100 mkg (2 purkash) har burun teshigiga 2 marta/kun. Har ingalyatsiyadan keyin og'izни chayqang.",
+        bolalar: "Ingalyatsiya 100–400 mkg/kun (yoshга qarab); eng kam samarali dozaда, o'sishни kuzatib."
+      },
+      chiqarish: "Dozali ingalyator 50, 100, 250 mkg/doza; intranazal sprey 50 mkg/doza"
+    },
+    ru: {
+      gruppa: "Глюкокортикоиды дыхательных путей — ингаляционный/интраназальный (беклометазона дипропионат)",
+      farmTasir: "Местное противовоспалительное (ингаляционный кортикостероид)",
+      farmakodinamika: `Беклометазона дипропионат — классический ингаляционный глюкокортикостероид. Попадая в лёгкие, превращается в активный метаболит (беклометазон-17-монопропионат), связывается с глюкокортикоидными рецепторами и подавляет воспаление дыхательных путей: уменьшает клетки и медиаторы воспаления, отёк слизистой и гиперреактивность. Широко применяемый, эффективный и недорогой ИГКС для базисной терапии астмы. В интраназальной форме применяется при аллергическом рините.`,
+      farmakokinetika: {
+        sorish: "При ингаляции всасывается часть в лёгких; проглоченная часть инактивируется в печени (низкая системная биодоступность).",
+        tarqalish: "Активный метаболит проникает в ткани, высоко связан с белками плазмы.",
+        metabolizm: "В лёгких и печени до активного монопропионата, затем до неактивной формы.",
+        chiqarilish: "Преимущественно с калом. T½ — ~2,7 ч."
+      },
+      korsatmalar: [
+        "Бронхиальная астма (базисная профилактическая терапия)",
+        "Интраназально — аллергический (сезонный/круглогодичный) и вазомоторный ринит",
+        "Контроль астмы наряду с другими ИГКС"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к беклометазону или компонентам",
+        "Активная инфекция дыхательных путей (туберкулёз, грибки, вирусы — осторожно)",
+        "Острый тяжёлый приступ астмы (не как единственное средство)",
+        "При беременности и лактации польза/риск"
+      ],
+      nojoya: {
+        "Местные (рот-глотка)": "Кандидоз рта и глотки, дисфония, раздражение глотки, кашель (после ингаляции полоскать рот)",
+        "Интраназально": "Сухость, жжение в носу, носовое кровотечение",
+        "Системные (высокая доза, длительно)": "Угнетение надпочечников, замедление роста у детей, снижение плотности кости",
+        "Аллергия": "Сыпь, зуд, парадоксальный бронхоспазм"
+      },
+      dozadan: "При ингаляционной форме острый риск низкий; при длительной системной высокой дозе угнетение надпочечниковой оси — отменять постепенно.",
+      ozarotasir: [
+        "Мощные ингибиторы CYP3A4 (ритонавир, кетоконазол): повышают системное действие — осторожно",
+        "С бета2-агонистами эффект дополняется (комбинация)"
+      ],
+      qollash: {
+        kattalar: "Ингаляция: 200–800 мкг/сут в 2–4 приёма (по тяжести, максимум ~1000 мкг). Интраназально: 100 мкг (2 впрыска) в каждый носовой ход 2 раза/сут. После каждой ингаляции полоскать рот.",
+        bolalar: "Ингаляция 100–400 мкг/сут (по возрасту); в минимальной эффективной дозе, с контролем роста."
+      },
+      chiqarish: "Дозированный ингалятор 50, 100, 250 мкг/доза; интраназальный спрей 50 мкг/доза"
+    },
+    en: {
+      gruppa: "Airway glucocorticoids — inhaled/intranasal (beclometasone dipropionate)",
+      farmTasir: "Local anti-inflammatory (inhaled corticosteroid)",
+      farmakodinamika: `Beclometasone dipropionate is a classic inhaled glucocorticosteroid. Reaching the lungs it is converted to the active metabolite (beclometasone-17-monopropionate), binds glucocorticoid receptors and suppresses airway inflammation: reducing inflammatory cells and mediators, mucosal swelling and hyperreactivity. It is a widely used, effective and inexpensive ICS for controller therapy of asthma. In intranasal form it is used for allergic rhinitis.`,
+      farmakokinetika: {
+        sorish: "On inhalation the lung-deposited part is absorbed; the swallowed part is inactivated in the liver (low systemic bioavailability).",
+        tarqalish: "The active metabolite penetrates tissues, highly plasma protein bound.",
+        metabolizm: "In lungs and liver to active monopropionate, then to an inactive form.",
+        chiqarilish: "Mainly faecal. T½ — ~2.7 h."
+      },
+      korsatmalar: [
+        "Bronchial asthma (controller preventive therapy)",
+        "Intranasally — allergic (seasonal/perennial) and vasomotor rhinitis",
+        "Asthma control alongside other ICS"
+      ],
+      qarrshi: [
+        "Hypersensitivity to beclometasone or components",
+        "Active airway infection (tuberculosis, fungi, viruses — caution)",
+        "Acute severe asthma attack (not as the sole agent)",
+        "In pregnancy and lactation benefit/risk"
+      ],
+      nojoya: {
+        "Local (mouth-throat)": "Oral and pharyngeal candidiasis, dysphonia, throat irritation, cough (rinse the mouth after inhalation)",
+        "Intranasal": "Dryness, burning in the nose, nosebleed",
+        "Systemic (high dose, long-term)": "Adrenal suppression, growth slowing in children, reduced bone density",
+        "Allergy": "Rash, pruritus, paradoxical bronchospasm"
+      },
+      dozadan: "With the inhaled form acute risk is low; with prolonged systemic high dose adrenal axis suppression — withdraw gradually.",
+      ozarotasir: [
+        "Potent CYP3A4 inhibitors (ritonavir, ketoconazole): raise systemic effect — caution",
+        "With beta2-agonists the effect is complementary (combination)"
+      ],
+      qollash: {
+        kattalar: "Inhalation: 200–800 µg/day in 2–4 doses (by severity, max ~1000 µg). Intranasal: 100 µg (2 sprays) per nostril twice daily. Rinse the mouth after each inhalation.",
+        bolalar: "Inhalation 100–400 µg/day (by age); at the lowest effective dose, with growth monitoring."
+      },
+      chiqarish: "Metered-dose inhaler 50, 100, 250 µg/dose; intranasal spray 50 µg/dose"
+    }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // R-Batch 3 — Bronxodilatatorlar (beta2-agonistlar, ksantinlar)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── SALBUTAMOL | ATX: R03AC02 ──
+  "R03AC02": {
+    uz: {
+      gruppa: "Nafas yo'llari preparatlari — qisqa ta'sirli beta2-agonist (SABA)",
+      farmTasir: "Bronxlarni kengaytiruvchi (bronxodilatator)",
+      farmakodinamika: `Salbutamol — qisqa ta'sirli selektiv beta2-adrenomimetik (SABA). Bronx silliq mushaklaridagi beta2-adrenoretseptorlarni qo'zg'atib adenilatsiklazani faollashtiradi, hujayra ichida sAMP ni oshiradi — bronx silliq mushagini bo'shashtiradi va bronxospazmni tez bartaraf etadi. Mast hujayralaridan yallig'lanish mediatorlari ajralishini kamaytiradi, mukosiliar klirensni yaxshilaydi. Ta'sir tez (ingalyatsiyada 3–5 daqiqа) boshlanadi, 4–6 soat davom etadi — shu sababli astma xurujini «yengillashtiruvchi» (tez yordam) vosita. Yuqori dozada beta1 ta'sir (taxikardiya) paydo bo'lishi mumkin.`,
+      farmakokinetika: {
+        sorish: "Ingalyatsiyada o'pkага tushadi va tez ta'sir qiladi; peroral so'riladi (sekinroq).",
+        tarqalish: "Plazma oqsillariga ~10% bog'lanadi.",
+        metabolizm: "Jigarда faolsiz sulfat konyugatga.",
+        chiqarilish: "Asosan siydik orqali. T½ — ~4–6 soat."
+      },
+      korsatmalar: [
+        "Bronxial astma xurujini bartaraf etish va profilaktikasi (jismoniy yuk astmasi)",
+        "Surункали obstruktiv o'pka kasalligi (SOPK) — bronxospazm",
+        "Boshqa qaytar bronxobstruksiya bilan kechuvchi kasalliklar",
+        "Akusherlikда (i/v) — bachadon qisqarishini susaytirish (tokolitik — alohida shakl)"
+      ],
+      qarrshi: [
+        "Salbutamol yoki komponentlariga o'ta sezgirlik",
+        "Taxiaritmiya, og'ir yurak kasalliklari (ehtiyot), gipertrofik kardiomiopatiya",
+        "Gipokaliemiya (yuqori doza kuchaytiradi), nazoratsiz gipertireoz, og'ir gipertenziya",
+        "Homiladorlik (akusherlik ko'rsatmasidan tashqari) va emizishда ehtiyot"
+      ],
+      nojoya: {
+        "Yurak-qon tomir": "Taxikardiya, yurak urishi (serdsebienie), aritmiya, AB o'zgarishi (yuqori dozada)",
+        "Asab-mushak": "Skelet mushaklari titrashi (tremor), bosh og'rig'i, asabiylik, bosh aylanishi",
+        "Metabolik": "Gipokaliemiya (ayniqsa yuqori doza, ksantin/diuretik bilan), giperglikemiya",
+        "Boshqa": "Og'iz qurishi, halqum ta'siri; kamdan-kam — paradoksal bronxospazm"
+      },
+      dozadan: "Belgilari: kuchli taxikardiya, tremor, ajitatsiya, gipokaliemiya, giperglikemiya, AB o'zgarishi. Davolash: simptomatik; kardioselektiv beta-blokator (ehtiyot — bronxospazm xavfi), kaliy nazorati.",
+      ozarotasir: [
+        "Noselektiv beta-blokatorlar (propranolol): salbutamol ta'sirini bloklaydi — birga ishlatilmaydi",
+        "Ksantinlar (teofillin), kortikosteroidlar, diuretiklar: gipokaliemiyani kuchaytiradi",
+        "MAO inhibitorlari, trisiklik antidepressantlar: yurak-qon tomir ta'sirini kuchaytiradi"
+      ],
+      qollash: {
+        kattalar: "Ingalyatsiya: 100–200 mkg (1–2 purkash) xuruj boshlanganда; profilaktika uchun 200 mkg jismoniy yukdan oldin. Maks. 800 mkg/kun. Nebulayzer: 2,5–5 mg. Og'ir xurujда takror.",
+        bolalar: "Ingalyatsiya 100–200 mkg; nebulayzer 2,5 mg. Spaser bilan qo'llash tavsiya etiladi."
+      },
+      chiqarish: "Dozali ingalyator 100 mkg/doza; nebulayzer eritmasi 1; 2,5 mg/ml; tabletkalar; in'eksiya (akusherlik/o'tkir)"
+    },
+    ru: {
+      gruppa: "Препараты дыхательных путей — короткодействующий бета2-агонист (КДБА)",
+      farmTasir: "Расширяющий бронхи (бронходилататор)",
+      farmakodinamika: `Сальбутамол — короткодействующий селективный бета2-адреномиметик (КДБА). Возбуждая бета2-адренорецепторы гладких мышц бронхов, активирует аденилатциклазу, повышает внутриклеточный цАМФ — расслабляет гладкую мускулатуру бронхов и быстро устраняет бронхоспазм. Снижает выделение медиаторов воспаления из тучных клеток, улучшает мукоцилиарный клиренс. Действие начинается быстро (при ингаляции через 3–5 мин) и длится 4–6 часов — поэтому это средство «скорой помощи» при приступе астмы. При высокой дозе возможно бета1-действие (тахикардия).`,
+      farmakokinetika: {
+        sorish: "При ингаляции попадает в лёгкие и быстро действует; перорально всасывается (медленнее).",
+        tarqalish: "Связь с белками плазмы ~10%.",
+        metabolizm: "В печени до неактивного сульфатного конъюгата.",
+        chiqarilish: "Преимущественно с мочой. T½ — ~4–6 ч."
+      },
+      korsatmalar: [
+        "Купирование и профилактика приступа бронхиальной астмы (астма физического усилия)",
+        "ХОБЛ — бронхоспазм",
+        "Другие заболевания с обратимой бронхообструкцией",
+        "В акушерстве (в/в) — снижение сократимости матки (токолитик — отдельная форма)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к сальбутамолу или компонентам",
+        "Тахиаритмия, тяжёлые болезни сердца (осторожно), гипертрофическая кардиомиопатия",
+        "Гипокалиемия (высокая доза усиливает), неконтролируемый гипертиреоз, тяжёлая гипертензия",
+        "При беременности (кроме акушерского показания) и лактации осторожно"
+      ],
+      nojoya: {
+        "Сердечно-сосудистые": "Тахикардия, сердцебиение, аритмия, изменение АД (при высокой дозе)",
+        "Нервно-мышечные": "Тремор скелетных мышц, головная боль, нервозность, головокружение",
+        "Метаболические": "Гипокалиемия (особенно высокая доза, с ксантином/диуретиком), гипергликемия",
+        "Прочее": "Сухость во рту, раздражение глотки; редко — парадоксальный бронхоспазм"
+      },
+      dozadan: "Симптомы: выраженная тахикардия, тремор, ажитация, гипокалиемия, гипергликемия, изменение АД. Лечение: симптоматически; кардиоселективный бета-блокатор (осторожно — риск бронхоспазма), контроль калия.",
+      ozarotasir: [
+        "Неселективные бета-блокаторы (пропранолол): блокируют действие сальбутамола — не сочетать",
+        "Ксантины (теофиллин), кортикостероиды, диуретики: усиливают гипокалиемию",
+        "Ингибиторы МАО, трициклические антидепрессанты: усиливают сердечно-сосудистое действие"
+      ],
+      qollash: {
+        kattalar: "Ингаляция: 100–200 мкг (1–2 впрыска) в начале приступа; для профилактики 200 мкг перед нагрузкой. Максимум 800 мкг/сут. Небулайзер: 2,5–5 мг. При тяжёлом приступе повторно.",
+        bolalar: "Ингаляция 100–200 мкг; небулайзер 2,5 мг. Рекомендуется применение со спейсером."
+      },
+      chiqarish: "Дозированный ингалятор 100 мкг/доза; раствор для небулайзера 1; 2,5 мг/мл; таблетки; инъекция (акушерство/острое)"
+    },
+    en: {
+      gruppa: "Respiratory agents — short-acting beta2-agonist (SABA)",
+      farmTasir: "Bronchodilator",
+      farmakodinamika: `Salbutamol is a short-acting selective beta2-adrenergic agonist (SABA). By stimulating beta2-adrenoceptors of bronchial smooth muscle it activates adenylate cyclase, raising intracellular cAMP — relaxing bronchial smooth muscle and rapidly relieving bronchospasm. It reduces release of inflammatory mediators from mast cells and improves mucociliary clearance. The effect begins quickly (by inhalation in 3–5 min) and lasts 4–6 hours — so it is a 'reliever' (rescue) agent in an asthma attack. At high doses beta1 effects (tachycardia) may appear.`,
+      farmakokinetika: {
+        sorish: "By inhalation it reaches the lungs and acts quickly; orally absorbed (slower).",
+        tarqalish: "Plasma protein binding ~10%.",
+        metabolizm: "Hepatic to an inactive sulfate conjugate.",
+        chiqarilish: "Mainly renal. T½ — ~4–6 h."
+      },
+      korsatmalar: [
+        "Relief and prevention of a bronchial asthma attack (exercise-induced asthma)",
+        "COPD — bronchospasm",
+        "Other diseases with reversible bronchial obstruction",
+        "In obstetrics (i/v) — reducing uterine contractility (tocolytic — separate form)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to salbutamol or components",
+        "Tachyarrhythmia, severe heart disease (caution), hypertrophic cardiomyopathy",
+        "Hypokalaemia (high dose worsens it), uncontrolled hyperthyroidism, severe hypertension",
+        "In pregnancy (other than the obstetric indication) and lactation with caution"
+      ],
+      nojoya: {
+        "Cardiovascular": "Tachycardia, palpitations, arrhythmia, BP change (at high dose)",
+        "Neuromuscular": "Skeletal muscle tremor, headache, nervousness, dizziness",
+        "Metabolic": "Hypokalaemia (especially high dose, with xanthine/diuretic), hyperglycaemia",
+        "Other": "Dry mouth, throat irritation; rarely paradoxical bronchospasm"
+      },
+      dozadan: "Symptoms: marked tachycardia, tremor, agitation, hypokalaemia, hyperglycaemia, BP change. Treatment: symptomatic; cardioselective beta-blocker (caution — bronchospasm risk), potassium monitoring.",
+      ozarotasir: [
+        "Non-selective beta-blockers (propranolol): block salbutamol's effect — do not combine",
+        "Xanthines (theophylline), corticosteroids, diuretics: worsen hypokalaemia",
+        "MAO inhibitors, tricyclic antidepressants: enhance cardiovascular effect"
+      ],
+      qollash: {
+        kattalar: "Inhalation: 100–200 µg (1–2 puffs) at the start of an attack; for prevention 200 µg before exertion. Maximum 800 µg/day. Nebuliser: 2.5–5 mg. Repeat in a severe attack.",
+        bolalar: "Inhalation 100–200 µg; nebuliser 2.5 mg. Use with a spacer is recommended."
+      },
+      chiqarish: "Metered-dose inhaler 100 µg/dose; nebuliser solution 1; 2.5 mg/mL; tablets; injection (obstetric/acute)"
+    }
+  },
+
+  // ── FENOTEROL | ATX: R03AC04 ──
+  "R03AC04": {
+    uz: {
+      gruppa: "Nafas yo'llari preparatlari — qisqa ta'sirli beta2-agonist (SABA)",
+      farmTasir: "Bronxlarni kengaytiruvchi (bronxodilatator)",
+      farmakodinamika: `Fenoterol — qisqa-o'rta ta'sirli selektiv beta2-adrenomimetik. Bronx silliq mushaklaridagi beta2-retseptorlarni qo'zg'atib sAMP ni oshiradi va bronxospazmni tez bartaraf etadi; mast hujayralaridan mediatorlar ajralishini kamaytiradi. Ko'pincha ipratropium bromid (M-xolinoblokator) bilan kombinatsiyada qo'llaniladi — bu bronxlarni kengaytirish samarasini kuchaytiradi. Ta'sir tez (3–5 daqiqа) boshlanadi, ~6–8 soat davom etadi. Beta1 ta'siri (taxikardiya) salbutamolдан biroz ko'proq bo'lishi mumkin.`,
+      farmakokinetika: {
+        sorish: "Ingalyatsiyada o'pkага tushib tez ta'sir qiladi; tizimli so'rilish past.",
+        tarqalish: "Plazma oqsillariga bog'lanadi.",
+        metabolizm: "Jigarда sulfat konyugatga.",
+        chiqarilish: "Asosan siydik va o't orqali. T½ — ~3–7 soat."
+      },
+      korsatmalar: [
+        "Bronxial astma xurujini bartaraf etish va profilaktikasi",
+        "SOPK bilan bog'liq bronxospazm",
+        "Qaytar bronxobstruksiya (ipratropium bilan kombinatsiyada ham)",
+        "Akusherlikда (i/v) — tokolitik (alohida shakl)"
+      ],
+      qarrshi: [
+        "Fenoterol yoki komponentlariga o'ta sezgirlik",
+        "Taxiaritmiya, gipertrofik obstruktiv kardiomiopatiya, og'ir yurak kasalliklari",
+        "Nazoratsiz gipertireoz, gipokaliemiya, og'ir gipertenziya, qandli diabet (ehtiyot)",
+        "Homiladorlikning I trimestri va emizishда ehtiyot"
+      ],
+      nojoya: {
+        "Yurak-qon tomir": "Taxikardiya, yurak urishi, aritmiya, AB o'zgarishi",
+        "Asab-mushak": "Tremor, bosh og'rig'i, asabiylik, bosh aylanishi",
+        "Metabolik": "Gipokaliemiya, giperglikemiya",
+        "Boshqa": "Og'iz qurishi, halqum ta'siri, ko'ngil aynishi; paradoksal bronxospazm (kamdan-kam)"
+      },
+      dozadan: "Belgilari: taxikardiya, tremor, gipokaliemiya, AB o'zgarishi, ajitatsiya. Davolash: simptomatik, kardioselektiv beta-blokator (ehtiyot), kaliy nazorati.",
+      ozarotasir: [
+        "Noselektiv beta-blokatorlar: ta'sirini bloklaydi",
+        "Ksantinlar, kortikosteroidlar, diuretiklar: gipokaliemiyani kuchaytiradi",
+        "MAO inhibitorlari, trisiklik antidepressantlar, boshqa beta-adrenomimetiklar: yurak ta'sirini kuchaytiradi"
+      ],
+      qollash: {
+        kattalar: "Ingalyatsiya: 100–200 mkg xuruj boshlanганда; maks. kuniga 4 marta. Nebulayzer va ipratropium bilan kombinatsiya alohida sxemaда.",
+        bolalar: "6 yoshdan ingalyatsiya 100 mkg; shifokor nazoratida, spaser bilan."
+      },
+      chiqarish: "Dozali ingalyator 100 mkg/doza; nebulayzer eritmasi; ipratropium bilan kombinatsiya (ingalyator/eritma)"
+    },
+    ru: {
+      gruppa: "Препараты дыхательных путей — короткодействующий бета2-агонист (КДБА)",
+      farmTasir: "Расширяющий бронхи (бронходилататор)",
+      farmakodinamika: `Фенотерол — коротко-среднедействующий селективный бета2-адреномиметик. Возбуждая бета2-рецепторы гладких мышц бронхов, повышает цАМФ и быстро устраняет бронхоспазм; снижает выделение медиаторов из тучных клеток. Часто применяется в комбинации с ипратропия бромидом (М-холиноблокатор) — это усиливает бронхорасширяющий эффект. Действие начинается быстро (3–5 мин), длится ~6–8 часов. Бета1-действие (тахикардия) может быть несколько больше, чем у сальбутамола.`,
+      farmakokinetika: {
+        sorish: "При ингаляции попадает в лёгкие и быстро действует; системное всасывание низкое.",
+        tarqalish: "Связывается с белками плазмы.",
+        metabolizm: "В печени до сульфатного конъюгата.",
+        chiqarilish: "Преимущественно с мочой и жёлчью. T½ — ~3–7 ч."
+      },
+      korsatmalar: [
+        "Купирование и профилактика приступа бронхиальной астмы",
+        "Бронхоспазм при ХОБЛ",
+        "Обратимая бронхообструкция (в т.ч. в комбинации с ипратропием)",
+        "В акушерстве (в/в) — токолитик (отдельная форма)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к фенотеролу или компонентам",
+        "Тахиаритмия, гипертрофическая обструктивная кардиомиопатия, тяжёлые болезни сердца",
+        "Неконтролируемый гипертиреоз, гипокалиемия, тяжёлая гипертензия, сахарный диабет (осторожно)",
+        "I триместр беременности и лактация — осторожно"
+      ],
+      nojoya: {
+        "Сердечно-сосудистые": "Тахикардия, сердцебиение, аритмия, изменение АД",
+        "Нервно-мышечные": "Тремор, головная боль, нервозность, головокружение",
+        "Метаболические": "Гипокалиемия, гипергликемия",
+        "Прочее": "Сухость во рту, раздражение глотки, тошнота; парадоксальный бронхоспазм (редко)"
+      },
+      dozadan: "Симптомы: тахикардия, тремор, гипокалиемия, изменение АД, ажитация. Лечение: симптоматически, кардиоселективный бета-блокатор (осторожно), контроль калия.",
+      ozarotasir: [
+        "Неселективные бета-блокаторы: блокируют действие",
+        "Ксантины, кортикостероиды, диуретики: усиливают гипокалиемию",
+        "Ингибиторы МАО, трициклические антидепрессанты, другие бета-адреномиметики: усиливают сердечное действие"
+      ],
+      qollash: {
+        kattalar: "Ингаляция: 100–200 мкг в начале приступа; максимум 4 раза в сутки. Небулайзер и комбинация с ипратропием по отдельной схеме.",
+        bolalar: "С 6 лет ингаляция 100 мкг; под контролем врача, со спейсером."
+      },
+      chiqarish: "Дозированный ингалятор 100 мкг/доза; раствор для небулайзера; комбинация с ипратропием (ингалятор/раствор)"
+    },
+    en: {
+      gruppa: "Respiratory agents — short-acting beta2-agonist (SABA)",
+      farmTasir: "Bronchodilator",
+      farmakodinamika: `Fenoterol is a short-to-intermediate-acting selective beta2-adrenergic agonist. By stimulating bronchial smooth muscle beta2-receptors it raises cAMP and rapidly relieves bronchospasm; it reduces mediator release from mast cells. It is often used in combination with ipratropium bromide (an antimuscarinic) — enhancing the bronchodilator effect. The effect begins quickly (3–5 min) and lasts ~6–8 hours. Its beta1 effect (tachycardia) may be slightly greater than salbutamol's.`,
+      farmakokinetika: {
+        sorish: "By inhalation it reaches the lungs and acts quickly; systemic absorption low.",
+        tarqalish: "Binds plasma proteins.",
+        metabolizm: "Hepatic to a sulfate conjugate.",
+        chiqarilish: "Mainly renal and biliary. T½ — ~3–7 h."
+      },
+      korsatmalar: [
+        "Relief and prevention of a bronchial asthma attack",
+        "Bronchospasm in COPD",
+        "Reversible bronchial obstruction (incl. combined with ipratropium)",
+        "In obstetrics (i/v) — tocolytic (separate form)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to fenoterol or components",
+        "Tachyarrhythmia, hypertrophic obstructive cardiomyopathy, severe heart disease",
+        "Uncontrolled hyperthyroidism, hypokalaemia, severe hypertension, diabetes (caution)",
+        "First trimester of pregnancy and lactation — caution"
+      ],
+      nojoya: {
+        "Cardiovascular": "Tachycardia, palpitations, arrhythmia, BP change",
+        "Neuromuscular": "Tremor, headache, nervousness, dizziness",
+        "Metabolic": "Hypokalaemia, hyperglycaemia",
+        "Other": "Dry mouth, throat irritation, nausea; paradoxical bronchospasm (rare)"
+      },
+      dozadan: "Symptoms: tachycardia, tremor, hypokalaemia, BP change, agitation. Treatment: symptomatic, cardioselective beta-blocker (caution), potassium monitoring.",
+      ozarotasir: [
+        "Non-selective beta-blockers: block the effect",
+        "Xanthines, corticosteroids, diuretics: worsen hypokalaemia",
+        "MAO inhibitors, tricyclic antidepressants, other beta-agonists: enhance cardiac effect"
+      ],
+      qollash: {
+        kattalar: "Inhalation: 100–200 µg at the start of an attack; maximum 4 times a day. Nebuliser and combination with ipratropium per a separate regimen.",
+        bolalar: "From 6 years inhalation 100 µg; under medical supervision, with a spacer."
+      },
+      chiqarish: "Metered-dose inhaler 100 µg/dose; nebuliser solution; combination with ipratropium (inhaler/solution)"
+    }
+  },
+
+  // ── FORMOTEROL | ATX: R03AC13 ──
+  "R03AC13": {
+    uz: {
+      gruppa: "Nafas yo'llari preparatlari — uzoq ta'sirli beta2-agonist (LABA)",
+      farmTasir: "Bronxlarni kengaytiruvchi (uzoq ta'sirli)",
+      farmakodinamika: `Formoterol — uzoq ta'sirli selektiv beta2-adrenomimetik (LABA), lekin ta'siri tez boshlanadigan (1–3 daqiqа) yagona LABA. Bronx silliq mushaklaridagi beta2-retseptorlarni qo'zg'atib sAMP ni oshiradi va bronxlarni uzoq (~12 soat) kengaytiradi. Astma va SOPKда bazis bronxodilatator sifatida, doimo ingalyatsion glyukokortikoid (IGKS) bilan birga qo'llanadi (yolg'iz LABA astmaда xavfli). IGKS+formoterol kombinatsiyasi ba'zan ham nazorat, ham yengillashtirish (MART) sxemasida ishlatiladi.`,
+      farmakokinetika: {
+        sorish: "Ingalyatsiyada o'pkага tushib tez ta'sir qiladi; tizimli so'rilish past.",
+        tarqalish: "Plazma oqsillariga ~50–65% bog'lanadi.",
+        metabolizm: "Jigarда glyukuronlanish va O-demetillanish.",
+        chiqarilish: "Asosan siydik orqali. Ta'sir davomiyligi ~12 soat."
+      },
+      korsatmalar: [
+        "Bronxial astma (IGKS bilan birga — bazis va, MART sxemasida, yengillashtirish)",
+        "Surункали obstruktiv o'pka kasalligi (SOPK) — uzoq bronxodilatatsiya",
+        "Tunги va jismoniy yuk astmasi profilaktikasi"
+      ],
+      qarrshi: [
+        "Formoterol yoki komponentlariga o'ta sezgirlik",
+        "Astmaда IGKSsiz (monoterapiya sifatida) — TAQIQLANGAN",
+        "Taxiaritmiya, og'ir yurak kasalliklari, gipertrofik kardiomiopatiya, QT uzayishi",
+        "Nazoratsiz gipertireoz, gipokaliemiya, og'ir gipertenziya"
+      ],
+      nojoya: {
+        "Yurak-qon tomir": "Taxikardiya, yurak urishi, aritmiya, QT uzayishi (yuqori dozada)",
+        "Asab-mushak": "Tremor, bosh og'rig'i, asabiylik, mushak qisilishi",
+        "Metabolik": "Gipokaliemiya, giperglikemiya",
+        "Boshqa": "Halqum ta'siri, og'iz qurishi; paradoksal bronxospazm (kamdan-kam)"
+      },
+      dozadan: "Belgilari: kuchli taxikardiya, tremor, QT uzayishi, gipokaliemiya, giperglikemiya. Davolash: simptomatik, kaliy nazorati, kardioselektiv beta-blokator (ehtiyot).",
+      ozarotasir: [
+        "Noselektiv beta-blokatorlar: ta'sirini bloklaydi",
+        "QT uzaytiruvchi dorilar (antiaritmiklar, ba'zi antibiotiklar): aritmiya xavfi",
+        "Ksantinlar, kortikosteroidlar, diuretiklar: gipokaliemiyani kuchaytiradi"
+      ],
+      qollash: {
+        kattalar: "Ingalyatsiya: 12 mkg×2/kun (yoki IGKS bilan kombinatsiyaда belgilangan doza); maks. cheklov bor. Faqat IGKS bilan birga.",
+        bolalar: "6 yoshdan IGKS bilan kombinatsiyaда, shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "Kukunли ingalyator 4,5; 9; 12 mkg/doza; IGKS bilan kombinatsiya (budesonid/beklometazon + formoterol)"
+    },
+    ru: {
+      gruppa: "Препараты дыхательных путей — длительнодействующий бета2-агонист (ДДБА)",
+      farmTasir: "Расширяющий бронхи (длительного действия)",
+      farmakodinamika: `Формотерол — длительнодействующий селективный бета2-адреномиметик (ДДБА), но единственный ДДБА с быстрым началом действия (1–3 мин). Возбуждая бета2-рецепторы гладких мышц бронхов, повышает цАМФ и расширяет бронхи длительно (~12 часов). При астме и ХОБЛ применяется как базисный бронходилататор, всегда вместе с ингаляционным глюкокортикоидом (ИГКС) (монотерапия ДДБА при астме опасна). Комбинация ИГКС+формотерол иногда используется и для контроля, и для облегчения (схема MART/SMART).`,
+      farmakokinetika: {
+        sorish: "При ингаляции попадает в лёгкие и быстро действует; системное всасывание низкое.",
+        tarqalish: "Связь с белками плазмы ~50–65%.",
+        metabolizm: "В печени глюкуронирование и O-деметилирование.",
+        chiqarilish: "Преимущественно с мочой. Длительность действия ~12 ч."
+      },
+      korsatmalar: [
+        "Бронхиальная астма (вместе с ИГКС — базисно и, в схеме MART, для облегчения)",
+        "ХОБЛ — длительная бронходилатация",
+        "Профилактика ночной астмы и астмы физического усилия"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к формотеролу или компонентам",
+        "При астме без ИГКС (как монотерапия) — ПРОТИВОПОКАЗАНО",
+        "Тахиаритмия, тяжёлые болезни сердца, гипертрофическая кардиомиопатия, удлинение QT",
+        "Неконтролируемый гипертиреоз, гипокалиемия, тяжёлая гипертензия"
+      ],
+      nojoya: {
+        "Сердечно-сосудистые": "Тахикардия, сердцебиение, аритмия, удлинение QT (при высокой дозе)",
+        "Нервно-мышечные": "Тремор, головная боль, нервозность, мышечные спазмы",
+        "Метаболические": "Гипокалиемия, гипергликемия",
+        "Прочее": "Раздражение глотки, сухость во рту; парадоксальный бронхоспазм (редко)"
+      },
+      dozadan: "Симптомы: выраженная тахикардия, тремор, удлинение QT, гипокалиемия, гипергликемия. Лечение: симптоматически, контроль калия, кардиоселективный бета-блокатор (осторожно).",
+      ozarotasir: [
+        "Неселективные бета-блокаторы: блокируют действие",
+        "Удлиняющие QT препараты (антиаритмики, некоторые антибиотики): риск аритмии",
+        "Ксантины, кортикостероиды, диуретики: усиливают гипокалиемию"
+      ],
+      qollash: {
+        kattalar: "Ингаляция: 12 мкг×2/сут (или доза в составе комбинации с ИГКС); есть максимальное ограничение. Только вместе с ИГКС.",
+        bolalar: "С 6 лет в комбинации с ИГКС, по назначению врача."
+      },
+      chiqarish: "Порошковый ингалятор 4,5; 9; 12 мкг/доза; комбинация с ИГКС (будесонид/беклометазон + формотерол)"
+    },
+    en: {
+      gruppa: "Respiratory agents — long-acting beta2-agonist (LABA)",
+      farmTasir: "Bronchodilator (long-acting)",
+      farmakodinamika: `Formoterol is a long-acting selective beta2-adrenergic agonist (LABA), but the only LABA with a rapid onset (1–3 min). By stimulating bronchial smooth muscle beta2-receptors it raises cAMP and dilates the bronchi for a long time (~12 hours). In asthma and COPD it is used as a controller bronchodilator, always together with an inhaled glucocorticoid (ICS) (LABA monotherapy in asthma is dangerous). The ICS+formoterol combination is sometimes used both for control and relief (MART/SMART regimen).`,
+      farmakokinetika: {
+        sorish: "By inhalation it reaches the lungs and acts quickly; systemic absorption low.",
+        tarqalish: "Plasma protein binding ~50–65%.",
+        metabolizm: "Hepatic glucuronidation and O-demethylation.",
+        chiqarilish: "Mainly renal. Duration of action ~12 h."
+      },
+      korsatmalar: [
+        "Bronchial asthma (with ICS — controller and, in the MART regimen, reliever)",
+        "COPD — long-acting bronchodilation",
+        "Prevention of nocturnal and exercise-induced asthma"
+      ],
+      qarrshi: [
+        "Hypersensitivity to formoterol or components",
+        "In asthma without ICS (as monotherapy) — CONTRAINDICATED",
+        "Tachyarrhythmia, severe heart disease, hypertrophic cardiomyopathy, QT prolongation",
+        "Uncontrolled hyperthyroidism, hypokalaemia, severe hypertension"
+      ],
+      nojoya: {
+        "Cardiovascular": "Tachycardia, palpitations, arrhythmia, QT prolongation (at high dose)",
+        "Neuromuscular": "Tremor, headache, nervousness, muscle cramps",
+        "Metabolic": "Hypokalaemia, hyperglycaemia",
+        "Other": "Throat irritation, dry mouth; paradoxical bronchospasm (rare)"
+      },
+      dozadan: "Symptoms: marked tachycardia, tremor, QT prolongation, hypokalaemia, hyperglycaemia. Treatment: symptomatic, potassium monitoring, cardioselective beta-blocker (caution).",
+      ozarotasir: [
+        "Non-selective beta-blockers: block the effect",
+        "QT-prolonging drugs (antiarrhythmics, some antibiotics): arrhythmia risk",
+        "Xanthines, corticosteroids, diuretics: worsen hypokalaemia"
+      ],
+      qollash: {
+        kattalar: "Inhalation: 12 µg×2/day (or the dose within an ICS combination); a maximum limit applies. Only together with ICS.",
+        bolalar: "From 6 years in combination with ICS, as prescribed."
+      },
+      chiqarish: "Dry-powder inhaler 4.5; 9; 12 µg/dose; combination with ICS (budesonide/beclometasone + formoterol)"
+    }
+  },
+
+  // ── AMINOFILLIN | ATX: R03DA05 ──
+  "R03DA05": {
+    uz: {
+      gruppa: "Nafas yo'llari preparatlari — ksantin hosilasi (aminofillin/teofillin)",
+      farmTasir: "Bronxlarni kengaytiruvchi (ksantin), nafasni rag'batlantiruvchi",
+      farmakodinamika: `Aminofillin (teofillinning etilendiamin bilan eruvchan tuzi) — ksantin guruhi bronxodilatatori. Fosfodiesterazani ingibe qilib hujayra ichida sAMP va sGMP ni oshiradi, adenozin retseptorlarini bloklaydi — bronx silliq mushagini bo'shashtiradi va bronxospazmni kamaytiradi. Bundan tashqari diafragma mushagi qisqaruvchanligini oshiradi, nafas markazini rag'batlantiradi, mukosiliar klirensni yaxshilaydi, yengil diuretik va yurak qisqarishini kuchaytiruvchi ta'sirga ega. Terapevtik kengligi tor (qonda 10–20 mkg/ml) — doza ehtiyotkorlik talab qiladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi; i/v ham yuboriladi (o'tkir holatда).",
+        tarqalish: "Plazma oqsillariga ~40–60% bog'lanadi; yo'ldosh va ona sutiga o'tadi.",
+        metabolizm: "Jigarда CYP1A2 ishtirokida (chekish, dorilar metabolizmga kuchli ta'sir qiladi).",
+        chiqarilish: "Asosan siydik orqali metabolit ko'rinishida. T½ — kattalarда ~8 soat (chekuvchilarда qisqa, jigar/yurak yetishmovchiligida uzun)."
+      },
+      korsatmalar: [
+        "Bronxial astma va SOPKда bronxospazm (boshqa vositalar yetarli bo'lmaganда)",
+        "Astma statusi (i/v — qo'shimcha)",
+        "Surункали obstruktiv kasalliklarда nafasни yengillashtirish",
+        "Chaqaloqlar apnoesi (alohida holatlarda)"
+      ],
+      qarrshi: [
+        "Ksantinlarga o'ta sezgirlik",
+        "O'tkir miokard infarkti, og'ir taxiaritmiya, og'ir gipertenziya",
+        "Epilepsiya/tutqanoqqa moyillik (qo'zg'atuvchi ta'sir), giper­tireoz",
+        "Oshqozon yarasi qo'zg'alishi; og'ir jigar/buyrak yetishmovchiligida doza sozlash"
+      ],
+      nojoya: {
+        "Yurak-qon tomir": "Taxikardiya, aritmiya, yurak urishi, AB pasayishi (tez i/v da)",
+        "Asab tizimi": "Bosh og'rig'i, bezovtalik, uyqusizlik, titrash; yuqori konsentratsiyada — tutqanoq",
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, epigastral og'riq, diareya, GERB kuchayishi",
+        "Boshqa": "Diurez kuchayishi, giperglikemiya, gipokaliemiya (yuqori dozada)"
+      },
+      dozadan: "Juda xavfli (tor terapevtik kenglik). Belgilari: ko'ngil aynishi, qusish, taxikardiya, aritmiya, ajitatsiya, tutqanoq, gipokaliemiya, gipotenziya. Davolash: dori to'xtatiladi, faollashtirilgan ko'mir, simptomatik, tutqanoqqa qarshi, elektrolit/yurak nazorati; og'ir holatда gemoperfuziya.",
+      ozarotasir: [
+        "CYP1A2 inhibitorlari (siprofloksatsin, fluvoksamin, simetidin, makrolidlar): teofillin konsentratsiyasini oshiradi — toksiklik xavfi",
+        "CYP1A2 induktorlari (chekish, rifampitsin, fenitoin, karbamazepin): konsentratsiyasini kamaytiradi",
+        "Beta2-agonistlar, kortikosteroidlar, diuretiklar: gipokaliemiyani kuchaytiradi",
+        "Beta-blokatorlar bronxodilatator ta'sirini bloklaydi"
+      ],
+      qollash: {
+        kattalar: "I/v sekin (20–30 daqiqа): to'yintiruvchi 5–6 mg/kg, keyin infuziya 0,5 mg/kg/soat. Og'iz orqali: 10–13 mg/kg/kun bo'lib. Qondagi konsentratsiya nazorati ostida (10–20 mkg/ml).",
+        bolalar: "Vaznга va yoshга qarab individual; qon konsentratsiyasi nazorati ostida. Chaqaloqlar apnoesida maxsus sxema."
+      },
+      chiqarish: "I/v in'eksiya eritmasi 2,4% (24 mg/ml); tabletkalar 100, 150 mg; uzaytirilgan tabletkalar"
+    },
+    ru: {
+      gruppa: "Препараты дыхательных путей — производное ксантина (аминофиллин/теофиллин)",
+      farmTasir: "Расширяющий бронхи (ксантин), стимулирующий дыхание",
+      farmakodinamika: `Аминофиллин (растворимая соль теофиллина с этилендиамином) — бронходилататор группы ксантинов. Ингибируя фосфодиэстеразу, повышает внутриклеточные цАМФ и цГМФ, блокирует аденозиновые рецепторы — расслабляет гладкую мускулатуру бронхов и уменьшает бронхоспазм. Кроме того, повышает сократимость диафрагмы, стимулирует дыхательный центр, улучшает мукоцилиарный клиренс, обладает лёгким диуретическим и кардиотоническим действием. Терапевтическая широта узкая (в крови 10–20 мкг/мл) — доза требует осторожности.`,
+      farmakokinetika: {
+        sorish: "Внутрь хорошо всасывается; вводится также в/в (при остром состоянии).",
+        tarqalish: "Связь с белками плазмы ~40–60%; проникает через плаценту и в грудное молоко.",
+        metabolizm: "В печени при участии CYP1A2 (курение, лекарства сильно влияют на метаболизм).",
+        chiqarilish: "Преимущественно с мочой в виде метаболитов. T½ — у взрослых ~8 ч (у курильщиков короче, при печёночной/сердечной недостаточности дольше)."
+      },
+      korsatmalar: [
+        "Бронхоспазм при бронхиальной астме и ХОБЛ (когда других средств недостаточно)",
+        "Астматический статус (в/в — дополнительно)",
+        "Облегчение дыхания при хронических обструктивных болезнях",
+        "Апноэ новорождённых (в отдельных случаях)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к ксантинам",
+        "Острый инфаркт миокарда, тяжёлая тахиаритмия, тяжёлая гипертензия",
+        "Эпилепсия/склонность к судорогам (возбуждающее действие), гипертиреоз",
+        "Обострение язвы желудка; при тяжёлой печёночной/почечной недостаточности коррекция дозы"
+      ],
+      nojoya: {
+        "Сердечно-сосудистые": "Тахикардия, аритмия, сердцебиение, снижение АД (при быстром в/в)",
+        "Нервная система": "Головная боль, беспокойство, бессонница, тремор; при высокой концентрации — судороги",
+        "Пищеварительная система": "Тошнота, рвота, эпигастральная боль, диарея, усиление ГЭРБ",
+        "Прочее": "Усиление диуреза, гипергликемия, гипокалиемия (при высокой дозе)"
+      },
+      dozadan: "Очень опасно (узкая терапевтическая широта). Симптомы: тошнота, рвота, тахикардия, аритмия, ажитация, судороги, гипокалиемия, гипотензия. Лечение: отмена, активированный уголь, симптоматически, противосудорожные, контроль электролитов/сердца; в тяжёлых случаях гемоперфузия.",
+      ozarotasir: [
+        "Ингибиторы CYP1A2 (ципрофлоксацин, флувоксамин, циметидин, макролиды): повышают концентрацию теофиллина — риск токсичности",
+        "Индукторы CYP1A2 (курение, рифампицин, фенитоин, карбамазепин): снижают концентрацию",
+        "Бета2-агонисты, кортикостероиды, диуретики: усиливают гипокалиемию",
+        "Бета-блокаторы блокируют бронходилатирующее действие"
+      ],
+      qollash: {
+        kattalar: "В/в медленно (20–30 мин): нагрузочная 5–6 мг/кг, затем инфузия 0,5 мг/кг/ч. Внутрь: 10–13 мг/кг/сут дробно. Под контролем концентрации в крови (10–20 мкг/мл).",
+        bolalar: "Индивидуально по массе и возрасту; под контролем концентрации в крови. При апноэ новорождённых специальная схема."
+      },
+      chiqarish: "Раствор для в/в инъекций 2,4% (24 мг/мл); таблетки 100, 150 мг; пролонгированные таблетки"
+    },
+    en: {
+      gruppa: "Respiratory agents — xanthine derivative (aminophylline/theophylline)",
+      farmTasir: "Bronchodilator (xanthine), respiratory stimulant",
+      farmakodinamika: `Aminophylline (a soluble salt of theophylline with ethylenediamine) is a xanthine bronchodilator. By inhibiting phosphodiesterase it raises intracellular cAMP and cGMP and blocks adenosine receptors — relaxing bronchial smooth muscle and reducing bronchospasm. It also increases diaphragmatic contractility, stimulates the respiratory centre, improves mucociliary clearance, and has mild diuretic and cardiotonic action. Its therapeutic window is narrow (blood 10–20 µg/mL) — dosing requires caution.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally; also given i/v (in acute conditions).",
+        tarqalish: "Plasma protein binding ~40–60%; crosses the placenta and into breast milk.",
+        metabolizm: "Hepatic via CYP1A2 (smoking and drugs strongly affect metabolism).",
+        chiqarilish: "Mainly renal as metabolites. T½ — ~8 h in adults (shorter in smokers, longer in hepatic/cardiac failure)."
+      },
+      korsatmalar: [
+        "Bronchospasm in bronchial asthma and COPD (when other agents are insufficient)",
+        "Status asthmaticus (i/v — adjunct)",
+        "Easing breathing in chronic obstructive disease",
+        "Neonatal apnoea (in selected cases)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to xanthines",
+        "Acute myocardial infarction, severe tachyarrhythmia, severe hypertension",
+        "Epilepsy/seizure tendency (excitatory effect), hyperthyroidism",
+        "Active gastric ulcer; dose adjustment in severe hepatic/renal failure"
+      ],
+      nojoya: {
+        "Cardiovascular": "Tachycardia, arrhythmia, palpitations, lowered BP (with rapid i/v)",
+        "Nervous system": "Headache, restlessness, insomnia, tremor; at high concentration — convulsions",
+        "Digestive system": "Nausea, vomiting, epigastric pain, diarrhoea, worsening GERD",
+        "Other": "Increased diuresis, hyperglycaemia, hypokalaemia (at high dose)"
+      },
+      dozadan: "Very dangerous (narrow therapeutic window). Symptoms: nausea, vomiting, tachycardia, arrhythmia, agitation, convulsions, hypokalaemia, hypotension. Treatment: discontinue, activated charcoal, symptomatic, anticonvulsants, electrolyte/cardiac monitoring; haemoperfusion in severe cases.",
+      ozarotasir: [
+        "CYP1A2 inhibitors (ciprofloxacin, fluvoxamine, cimetidine, macrolides): raise theophylline concentration — toxicity risk",
+        "CYP1A2 inducers (smoking, rifampicin, phenytoin, carbamazepine): lower concentration",
+        "Beta2-agonists, corticosteroids, diuretics: worsen hypokalaemia",
+        "Beta-blockers block the bronchodilator effect"
+      ],
+      qollash: {
+        kattalar: "I/v slowly (over 20–30 min): loading 5–6 mg/kg, then infusion 0.5 mg/kg/h. Orally: 10–13 mg/kg/day in divided doses. Under blood concentration monitoring (10–20 µg/mL).",
+        bolalar: "Individually by weight and age; under blood concentration monitoring. Special regimen for neonatal apnoea."
+      },
+      chiqarish: "Solution for i/v injection 2.4% (24 mg/mL); tablets 100, 150 mg; extended-release tablets"
+    }
   }
 
 };
