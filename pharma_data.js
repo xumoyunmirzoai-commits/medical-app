@@ -44656,6 +44656,382 @@ const PHARMA_DATA = {
       },
       chiqarish: "Tablets 250, 500 mg (often combined with paracetamol)"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // Batch 9 — Podagraga qarshi vositalar (M04)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── ALLOPURINOL | ATX: M04AA01 ──
+  "M04AA01": {
+    uz: {
+      gruppa: "Podagraga qarshi vositalar — ksantinoksidaza inhibitori (allopurinol)",
+      farmTasir: "Siydik kislotasi sintezini kamaytiruvchi (gipourikemik)",
+      farmakodinamika: `Allopurinol — purin asoslari metabolizmidagi ksantinoksidaza fermentini ingibe qiladi (gipoksantin va ksantinning siydik kislotasiga oksidlanishini bloklaydi). Natijada organizmda siydik kislotasi sintezi va uning qondagi/siydikdagi miqdori kamayadi, to'qimalarda va bo'g'imlarda urat kristallari to'planishi to'xtaydi, mavjud urat zaxiralari (tofuslar, urat toshlari) asta-sekin so'riladi. Faol metaboliti oksipurinol ham ksantinoksidazani ingibe qiladi (uzoq ta'sir). Podagra xurujini darhol bartaraf etmaydi — bu profilaktik (uzoq muddatli) urat-tushiruvchi vosita; davo boshida xuruj kuchayishi mumkin.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi (~80%). Cmax ~1,5 soatda; oksipurinol ~4,5 soatda.",
+        tarqalish: "To'qimalarga tarqaladi; plazma oqsillariga deyarli bog'lanmaydi.",
+        metabolizm: "Jigarda ksantinoksidaza ta'sirida faol oksipurinolga aylanadi.",
+        chiqarilish: "Asosan siydik orqali (oksipurinol uzoq saqlanadi). Allopurinol T½ — ~1–2 soat, oksipurinol ~15 soat."
+      },
+      korsatmalar: [
+        "Surunkali podagra va giperurikemiya (siydik kislotasini uzoq muddatli pasaytirish)",
+        "Urat nefropatiyasi, urat toshlari (siydik-tosh kasalligi profilaktikasi)",
+        "Ikkilamchi giperurikemiya: gemoblastozlar, sitostatik/nur terapiyasida hujayra parchalanishi (o'sma lizis sindromi profilaktikasi)",
+        "Ferment buzilishlari (Lesh-Nayhan sindromi) bilan bog'liq giperurikemiya"
+      ],
+      qarrshi: [
+        "Allopurinolga o'ta sezgirlik",
+        "O'tkir podagra xuruji davri (xurujni davolash uchun emas — faqat profilaktika; xuruj o'tgach boshlanadi)",
+        "Og'ir jigar yetishmovchiligi, buyrak funksiyasining og'ir buzilishi (doza sozlash)",
+        "Homiladorlik va emizish (faqat qat'iy ko'rsatma bilan)"
+      ],
+      nojoya: {
+        "Teri / allergik": "Teri toshmasi (eng tez-tez), qichima; kamdan-kam — og'ir o'ta sezgirlik sindromi (DRESS), Stivens-Jonson, Layell sindromi (ayniqsa HLA-B*5801 da)",
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, diareya, transaminazalar oshishi, gepatit",
+        "Qon": "Leykopeniya, trombotsitopeniya, eozinofiliya, agranulotsitoz (kamdan-kam)",
+        "Boshqa": "Davo boshida podagra xurujining kuchayishi (urat mobilizatsiyasi tufayli), bosh og'rig'i, buyrak funksiyasi buzilishi"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, diareya, bosh aylanishi. Davolash: simptomatik, suyuqlik, forsirlangan diurez; gemodializ oksipurinolni chiqaradi.",
+      ozarotasir: [
+        "Azatioprin, merkaptopurin: ksantinoksidaza orqali metabolizmini bloklab toksikligini keskin oshiradi — ularning dozasini 25% ga kamaytirish",
+        "Varfarin: antikoagulyant ta'sirini kuchaytirishi mumkin — INR nazorati",
+        "Ampitsillin/amoksitsillin: teri toshmasi xavfi oshadi",
+        "Tiazid diuretiklar, AAF inhibitorlari: o'ta sezgirlik va buyrak ta'siri xavfini oshiradi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali, ovqatdan keyin: boshlang'ich 100 mg/kun, asta-sekin oshirib (siydik kislotasi nazorati ostida) 200–300 mg/kun; og'ir holatda 400–600 mg/kun bo'lib. Buyrak yetishmovchiligida doza kamaytiriladi. Davo boshida podagra xuruji profilaktikasi uchun kolxitsin/NSAID qo'shiladi.",
+        bolalar: "Ikkilamchi giperurikemiyada 10–20 mg/kg/kun (maks. 400 mg), shifokor nazoratida."
+      },
+      chiqarish: "Tabletkalar 100, 200, 300 mg"
+    },
+    ru: {
+      gruppa: "Противоподагрические средства — ингибитор ксантиноксидазы (аллопуринол)",
+      farmTasir: "Снижающий синтез мочевой кислоты (гипоурикемический)",
+      farmakodinamika: `Аллопуринол ингибирует фермент ксантиноксидазу в метаболизме пуриновых оснований (блокирует окисление гипоксантина и ксантина в мочевую кислоту). В результате снижается синтез мочевой кислоты и её содержание в крови/моче, прекращается отложение кристаллов уратов в тканях и суставах, постепенно рассасываются имеющиеся запасы уратов (тофусы, уратные камни). Активный метаболит оксипуринол также ингибирует ксантиноксидазу (длительное действие). Не купирует острый приступ подагры — это профилактическое (длительное) урат-снижающее средство; в начале лечения приступ может усилиться.`,
+      farmakokinetika: {
+        sorish: "Хорошо всасывается внутрь (~80%). Cmax через ~1,5 ч; оксипуринол ~4,5 ч.",
+        tarqalish: "Распределяется в тканях; почти не связывается с белками плазмы.",
+        metabolizm: "В печени под действием ксантиноксидазы превращается в активный оксипуринол.",
+        chiqarilish: "Преимущественно почками (оксипуринол сохраняется долго). T½ аллопуринола — ~1–2 ч, оксипуринола ~15 ч."
+      },
+      korsatmalar: [
+        "Хроническая подагра и гиперурикемия (длительное снижение мочевой кислоты)",
+        "Уратная нефропатия, уратные камни (профилактика мочекаменной болезни)",
+        "Вторичная гиперурикемия: гемобластозы, распад клеток при цитостатической/лучевой терапии (профилактика синдрома лизиса опухоли)",
+        "Гиперурикемия при ферментных нарушениях (синдром Леша-Найхана)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к аллопуринолу",
+        "Период острого приступа подагры (не для купирования приступа — только профилактика; начинают после стихания приступа)",
+        "Тяжёлая печёночная недостаточность, тяжёлое нарушение функции почек (коррекция дозы)",
+        "Беременность и лактация (только по строгим показаниям)"
+      ],
+      nojoya: {
+        "Кожа / аллергия": "Кожная сыпь (самое частое), зуд; редко — тяжёлый синдром гиперчувствительности (DRESS), Стивенса-Джонсона, синдром Лайелла (особенно при HLA-B*5801)",
+        "Пищеварительная система": "Тошнота, рвота, диарея, повышение трансаминаз, гепатит",
+        "Кровь": "Лейкопения, тромбоцитопения, эозинофилия, агранулоцитоз (редко)",
+        "Прочее": "Усиление приступа подагры в начале лечения (из-за мобилизации уратов), головная боль, нарушение функции почек"
+      },
+      dozadan: "Симптомы: тошнота, рвота, диарея, головокружение. Лечение: симптоматически, жидкость, форсированный диурез; гемодиализ выводит оксипуринол.",
+      ozarotasir: [
+        "Азатиоприн, меркаптопурин: блокируя их метаболизм через ксантиноксидазу, резко повышает токсичность — снизить их дозу на 25%",
+        "Варфарин: может усиливать антикоагулянтное действие — контроль МНО",
+        "Ампициллин/амоксициллин: повышается риск кожной сыпи",
+        "Тиазидные диуретики, иАПФ: повышают риск гиперчувствительности и поражения почек"
+      ],
+      qollash: {
+        kattalar: "Внутрь, после еды: начально 100 мг/сут, постепенно повышая (под контролем мочевой кислоты) до 200–300 мг/сут; в тяжёлых случаях 400–600 мг/сут дробно. При почечной недостаточности дозу снижают. В начале лечения для профилактики приступа добавляют колхицин/НПВС.",
+        bolalar: "При вторичной гиперурикемии 10–20 мг/кг/сут (максимум 400 мг), под контролем врача."
+      },
+      chiqarish: "Таблетки 100, 200, 300 мг"
+    },
+    en: {
+      gruppa: "Anti-gout agents — xanthine oxidase inhibitor (allopurinol)",
+      farmTasir: "Reduces uric acid synthesis (hypouricaemic)",
+      farmakodinamika: `Allopurinol inhibits xanthine oxidase in purine base metabolism (blocking oxidation of hypoxanthine and xanthine to uric acid). As a result uric acid synthesis and its blood/urine levels fall, urate crystal deposition in tissues and joints stops, and existing urate stores (tophi, urate stones) are gradually resorbed. The active metabolite oxypurinol also inhibits xanthine oxidase (long action). It does not abort an acute gout attack — it is a prophylactic (long-term) urate-lowering agent; the attack may worsen at the start of treatment.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally (~80%). Cmax in ~1.5 h; oxypurinol ~4.5 h.",
+        tarqalish: "Distributes in tissues; barely binds plasma proteins.",
+        metabolizm: "Converted in the liver by xanthine oxidase to active oxypurinol.",
+        chiqarilish: "Mainly renal (oxypurinol persists long). Allopurinol T½ — ~1–2 h, oxypurinol ~15 h."
+      },
+      korsatmalar: [
+        "Chronic gout and hyperuricaemia (long-term uric acid lowering)",
+        "Urate nephropathy, urate stones (prevention of urolithiasis)",
+        "Secondary hyperuricaemia: haemoblastoses, cell breakdown in cytostatic/radiation therapy (prevention of tumour lysis syndrome)",
+        "Hyperuricaemia in enzyme disorders (Lesch-Nyhan syndrome)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to allopurinol",
+        "Acute gout attack period (not for aborting the attack — prophylaxis only; start after the attack subsides)",
+        "Severe hepatic failure, severe renal impairment (dose adjustment)",
+        "Pregnancy and lactation (only on strict indication)"
+      ],
+      nojoya: {
+        "Skin / allergy": "Skin rash (most common), pruritus; rarely severe hypersensitivity syndrome (DRESS), Stevens-Johnson, Lyell syndrome (especially with HLA-B*5801)",
+        "Digestive system": "Nausea, vomiting, diarrhoea, raised transaminases, hepatitis",
+        "Blood": "Leukopenia, thrombocytopenia, eosinophilia, agranulocytosis (rare)",
+        "Other": "Worsening of the gout attack at the start of treatment (due to urate mobilisation), headache, renal impairment"
+      },
+      dozadan: "Symptoms: nausea, vomiting, diarrhoea, dizziness. Treatment: symptomatic, fluids, forced diuresis; haemodialysis removes oxypurinol.",
+      ozarotasir: [
+        "Azathioprine, mercaptopurine: by blocking their metabolism via xanthine oxidase it sharply raises toxicity — reduce their dose by 25%",
+        "Warfarin: may enhance anticoagulant effect — INR monitoring",
+        "Ampicillin/amoxicillin: increased risk of skin rash",
+        "Thiazide diuretics, ACE inhibitors: increase hypersensitivity and renal injury risk"
+      ],
+      qollash: {
+        kattalar: "Orally, after food: initially 100 mg/day, gradually increasing (under uric acid monitoring) to 200–300 mg/day; in severe cases 400–600 mg/day in divided doses. Reduce dose in renal failure. At the start, add colchicine/NSAID to prevent an attack.",
+        bolalar: "In secondary hyperuricaemia 10–20 mg/kg/day (max 400 mg), under medical supervision."
+      },
+      chiqarish: "Tablets 100, 200, 300 mg"
+    }
+  },
+
+  // ── FEBUKSOSTAT | ATX: M04AA03 ──
+  "M04AA03": {
+    uz: {
+      gruppa: "Podagraga qarshi vositalar — selektiv ksantinoksidaza inhibitori (febuksostat)",
+      farmTasir: "Siydik kislotasi sintezini kamaytiruvchi (gipourikemik, noprurin)",
+      farmakodinamika: `Febuksostat — ksantinoksidazaning kuchli va selektiv noprurin (purin bo'lmagan) inhibitori. Fermentning ham oksidlangan, ham qaytarilgan shakliga bog'lanib gipoksantin va ksantinning siydik kislotasiga aylanishini bloklaydi — natijada siydik kislotasi sintezi va uning qondagi miqdori kamayadi. Allopurinoldan farqli o'laroq boshqa purin va pirimidin fermentlariga ta'sir qilmaydi (yuqori selektivlik), shu sababli allopurinolga toqatsiz yoki samarasiz bemorlarda qo'llanadi. Buyrak funksiyasi yengil-o'rta buzilganlarda doza sozlashsiz qo'llanishi mumkin (asosan jigar orqali chiqariladi). Podagra xurujini darhol bartaraf etmaydi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi (~85%). Cmax ~1–1,5 soatda.",
+        tarqalish: "Plazma oqsillariga (albumin) ~99% bog'lanadi.",
+        metabolizm: "Jigarda glyukuronlanish va oksidlanish (CYP) orqali metabolizatsiya.",
+        chiqarilish: "Jigar (najas) va buyrak orqali teng. T½ — ~5–8 soat."
+      },
+      korsatmalar: [
+        "Surunkali podagra va surunkali giperurikemiya (urat zaxiralari mavjud bo'lganda) — uzoq muddatli urat-tushiruvchi terapiya",
+        "Allopurinolga toqatsizlik yoki samarasizligida muqobil",
+        "O'sma lizis sindromi profilaktikasi (ayrim ko'rsatmalarda)"
+      ],
+      qarrshi: [
+        "Febuksostatga o'ta sezgirlik",
+        "Azatioprin yoki merkaptopurin bilan birga (toksiklik keskin oshadi)",
+        "O'tkir podagra xuruji davri (faqat profilaktika; xuruj o'tgach boshlanadi)",
+        "Ishemik yurak kasalligi yoki yurak yetishmovchiligi bo'lganlarda ehtiyot (yurak-qon tomir xavfi); homiladorlik va emizishda ehtiyot"
+      ],
+      nojoya: {
+        "Hazm tizimi / jigar": "Ko'ngil aynishi, diareya, transaminazalar oshishi (jigar funksiyasi nazorati zarur)",
+        "Teri / allergik": "Toshma, qichima; kamdan-kam — og'ir o'ta sezgirlik reaksiyalari (DRESS, Stivens-Jonson)",
+        "Yurak-qon tomir": "Yurak-qon tomir hodisalari xavfi (ayniqsa mavjud yurak kasalligida)",
+        "Boshqa": "Davo boshida podagra xurujining kuchayishi, bosh og'rig'i, shish"
+      },
+      dozadan: "Tajriba cheklangan; yuqori dozada ko'ngil aynishi, bosh aylanishi mumkin. Davolash: simptomatik, kuzatuv. Gemodializ samarasiz (oqsilga bog'lanish yuqori).",
+      ozarotasir: [
+        "Azatioprin, merkaptopurin: ksantinoksidaza blokadasi orqali toksikligini keskin oshiradi — birga ishlatish TAQIQLANGAN",
+        "Teofillin: konsentratsiyasini oshirishi mumkin (metabolizm bloki)",
+        "Davo boshida podagra xuruji profilaktikasi uchun kolxitsin/NSAID qo'shiladi"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqali: 80 mg×1/kun (ovqatdan qat'i nazar); 2–4 hafta ichida maqsadli siydik kislotasiga erishilmasa 120 mg×1/kun. Davo boshida 6 oygacha kolxitsin/NSAID bilan xuruj profilaktikasi.",
+        bolalar: "Tavsiya etilmaydi (xavfsizligi aniqlanmagan)."
+      },
+      chiqarish: "Tabletkalar (qobiqli) 40, 80, 120 mg"
+    },
+    ru: {
+      gruppa: "Противоподагрические средства — селективный ингибитор ксантиноксидазы (фебуксостат)",
+      farmTasir: "Снижающий синтез мочевой кислоты (гипоурикемический, непуриновый)",
+      farmakodinamika: `Фебуксостат — мощный и селективный непуриновый ингибитор ксантиноксидазы. Связываясь как с окисленной, так и с восстановленной формой фермента, блокирует превращение гипоксантина и ксантина в мочевую кислоту — в результате снижается синтез мочевой кислоты и её содержание в крови. В отличие от аллопуринола не влияет на другие пуриновые и пиримидиновые ферменты (высокая селективность), поэтому применяется у больных с непереносимостью или неэффективностью аллопуринола. Может применяться без коррекции дозы при лёгком-умеренном нарушении функции почек (выводится преимущественно печенью). Не купирует острый приступ подагры.`,
+      farmakokinetika: {
+        sorish: "Хорошо всасывается внутрь (~85%). Cmax через ~1–1,5 ч.",
+        tarqalish: "Связь с белками плазмы (альбумин) ~99%.",
+        metabolizm: "В печени путём глюкуронирования и окисления (CYP).",
+        chiqarilish: "Поровну через печень (кал) и почки. T½ — ~5–8 ч."
+      },
+      korsatmalar: [
+        "Хроническая подагра и хроническая гиперурикемия (при наличии отложений уратов) — длительная урат-снижающая терапия",
+        "Альтернатива при непереносимости или неэффективности аллопуринола",
+        "Профилактика синдрома лизиса опухоли (по отдельным показаниям)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к фебуксостату",
+        "Совместно с азатиоприном или меркаптопурином (резкое повышение токсичности)",
+        "Период острого приступа подагры (только профилактика; начинают после стихания приступа)",
+        "Осторожно при ИБС или сердечной недостаточности (сердечно-сосудистый риск); осторожно при беременности и лактации"
+      ],
+      nojoya: {
+        "Пищеварительная система / печень": "Тошнота, диарея, повышение трансаминаз (нужен контроль функции печени)",
+        "Кожа / аллергия": "Сыпь, зуд; редко — тяжёлые реакции гиперчувствительности (DRESS, Стивенса-Джонсона)",
+        "Сердечно-сосудистая система": "Риск сердечно-сосудистых событий (особенно при имеющейся болезни сердца)",
+        "Прочее": "Усиление приступа подагры в начале лечения, головная боль, отёки"
+      },
+      dozadan: "Опыт ограничен; при высокой дозе возможны тошнота, головокружение. Лечение: симптоматически, наблюдение. Гемодиализ неэффективен (высокая связь с белками).",
+      ozarotasir: [
+        "Азатиоприн, меркаптопурин: через блокаду ксантиноксидазы резко повышает токсичность — совместное применение ПРОТИВОПОКАЗАНО",
+        "Теофиллин: может повышать концентрацию (блок метаболизма)",
+        "В начале лечения для профилактики приступа добавляют колхицин/НПВС"
+      ],
+      qollash: {
+        kattalar: "Внутрь: 80 мг×1/сут (независимо от еды); если за 2–4 недели целевая мочевая кислота не достигнута — 120 мг×1/сут. В начале лечения до 6 месяцев профилактика приступа колхицином/НПВС.",
+        bolalar: "Не рекомендуется (безопасность не установлена)."
+      },
+      chiqarish: "Таблетки (покрытые) 40, 80, 120 мг"
+    },
+    en: {
+      gruppa: "Anti-gout agents — selective xanthine oxidase inhibitor (febuxostat)",
+      farmTasir: "Reduces uric acid synthesis (hypouricaemic, non-purine)",
+      farmakodinamika: `Febuxostat is a potent and selective non-purine inhibitor of xanthine oxidase. By binding both the oxidised and reduced forms of the enzyme it blocks conversion of hypoxanthine and xanthine to uric acid — so uric acid synthesis and its blood level fall. Unlike allopurinol it does not affect other purine and pyrimidine enzymes (high selectivity), so it is used in patients intolerant of or unresponsive to allopurinol. It can be used without dose adjustment in mild-to-moderate renal impairment (mainly eliminated by the liver). It does not abort an acute gout attack.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally (~85%). Cmax in ~1–1.5 h.",
+        tarqalish: "Plasma protein binding (albumin) ~99%.",
+        metabolizm: "Hepatic via glucuronidation and oxidation (CYP).",
+        chiqarilish: "Equally via liver (faeces) and kidneys. T½ — ~5–8 h."
+      },
+      korsatmalar: [
+        "Chronic gout and chronic hyperuricaemia (when urate deposits are present) — long-term urate-lowering therapy",
+        "Alternative when allopurinol is not tolerated or ineffective",
+        "Prevention of tumour lysis syndrome (in selected indications)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to febuxostat",
+        "Together with azathioprine or mercaptopurine (sharp rise in toxicity)",
+        "Acute gout attack period (prophylaxis only; start after the attack subsides)",
+        "Caution in IHD or heart failure (cardiovascular risk); caution in pregnancy and lactation"
+      ],
+      nojoya: {
+        "Digestive system / liver": "Nausea, diarrhoea, raised transaminases (liver function monitoring needed)",
+        "Skin / allergy": "Rash, pruritus; rarely severe hypersensitivity reactions (DRESS, Stevens-Johnson)",
+        "Cardiovascular system": "Risk of cardiovascular events (especially with pre-existing heart disease)",
+        "Other": "Worsening of the gout attack at the start of treatment, headache, oedema"
+      },
+      dozadan: "Experience limited; at high dose nausea, dizziness are possible. Treatment: symptomatic, observation. Haemodialysis ineffective (high protein binding).",
+      ozarotasir: [
+        "Azathioprine, mercaptopurine: via xanthine oxidase blockade sharply raises toxicity — co-administration CONTRAINDICATED",
+        "Theophylline: may raise concentration (metabolism block)",
+        "At the start, add colchicine/NSAID to prevent an attack"
+      ],
+      qollash: {
+        kattalar: "Orally: 80 mg×1/day (regardless of food); if the target uric acid is not reached in 2–4 weeks — 120 mg×1/day. At the start, up to 6 months of attack prophylaxis with colchicine/NSAID.",
+        bolalar: "Not recommended (safety not established)."
+      },
+      chiqarish: "Tablets (coated) 40, 80, 120 mg"
+    }
+  },
+
+  // ── KOLXITSIN | ATX: M04AC01 ──
+  "M04AC01": {
+    uz: {
+      gruppa: "Podagraga qarshi vositalar — antimitotik alkaloid (kolxitsin)",
+      farmTasir: "O'tkir podagra xurujini bartaraf etuvchi, yallig'lanishga qarshi (urikemiyaga ta'sir qilmaydi)",
+      farmakodinamika: `Kolxitsin — kuzgi qoqio't (Colchicum) alkaloidi bo'lgan o'tkir podagraga qarshi vosita. Hujayra ichidagi tubulin oqsiliga bog'lanib mikronaychalar yig'ilishini bloklaydi — neytrofillarning migratsiyasi, faollashishi va degranulyatsiyasini, fagotsitozni va urat kristallariga qarshi yallig'lanish javobini (inflammasoma faollashuvi, IL-1β ajralishi) tormozlaydi. Natijada podagra xurujidagi o'tkir yallig'lanish va og'riq kamayadi. Siydik kislotasi miqdoriga ta'sir qilmaydi (gipourikemik emas) — faqat xurujni bartaraf etadi va profilaktika qiladi. Oilaviy O'rta yer dengizi isitmasi (FMF) da ham samarali.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali so'riladi, biokirish ~45%. Cmax ~0,5–2 soatda.",
+        tarqalish: "Ko'plab to'qimalarga (ayniqsa leykotsitlarga) kiradi; enterogepatik retsirkulyatsiya.",
+        metabolizm: "Jigarda CYP3A4 ishtirokida; P-glikoprotein substrati.",
+        chiqarilish: "Asosan o't (najas) bilan, qisman siydik orqali. T½ — ~20–40 soat (leykotsitlarda uzoq saqlanadi)."
+      },
+      korsatmalar: [
+        "O'tkir podagra xurujini davolash (imkon qadar erta boshlanganda samarali)",
+        "Urat-tushiruvchi terapiya (allopurinol/febuksostat) boshlanishida podagra xuruji profilaktikasi",
+        "Oilaviy O'rta yer dengizi isitmasi (FMF) profilaktikasi va amiloidoz oldini olish",
+        "Ba'zi holatlarda perikardit (retsidivlovchi) yordamchi davosi"
+      ],
+      qarrshi: [
+        "Kolxitsinga o'ta sezgirlik",
+        "Og'ir buyrak yoki jigar yetishmovchiligi (toksiklik keskin oshadi)",
+        "Qon tizimi og'ir kasalliklari (suyak ko'migi depressiyasi)",
+        "Kuchli CYP3A4 yoki P-glikoprotein inhibitorlari bilan birga (buyrak/jigar yetishmovchiligida) — hayot uchun xavfli toksiklik; homiladorlik va emizishda ehtiyot"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Diareya, ko'ngil aynishi, qusish, qorin og'rig'i (eng tez-tez, doza chegarasi belgisi)",
+        "Qon": "Suyak ko'migi depressiyasi: leykopeniya, trombotsitopeniya, agranulotsitoz, aplastik anemiya (uzoq/yuqori dozada)",
+        "Mushak / nerv": "Miopatiya, neyromiopatiya, perifer neyropatiya (uzoq qabulda, ayniqsa buyrak yetishmovchiligida)",
+        "Boshqa": "Alopetsiya, jigar shikastlanishi, spermatogenez susayishi"
+      },
+      dozadan: "Juda xavfli — terapevtik va toksik doza chegarasi tor. Belgilari: kuchli diareya, qusish, qorin og'rig'i, suvsizlanish, keyin ko'p organ yetishmovchiligi, suyak ko'migi depressiyasi, shok. Davolash: shoshilinch yordam, simptomatik va qo'llab-quvvatlovchi; spetsifik antidot yo'q (gemodializ samarasiz). Dozadan oshmaslik hayotiy muhim.",
+      ozarotasir: [
+        "Kuchli CYP3A4 inhibitorlari (klaritromitsin, ketokonazol, ritonavir) va P-glikoprotein inhibitorlari (siklosporin, verapamil): kolxitsin toksikligini keskin oshiradi — birga ishlatish xavfli/taqiqlangan",
+        "Statinlar (ayniqsa simvastatin): miopatiya va rabdomioliz xavfini oshiradi",
+        "Greypfrut sharbati: konsentratsiyasini oshiradi"
+      ],
+      qollash: {
+        kattalar: "O'tkir xuruj: boshlang'ich 1 mg (yoki 0,5 mg×2), 1 soatdan keyin 0,5 mg; sutkalik doza odatda 1,5–2 mg dan oshmaydi (eski yuqori dozali sxemalardan voz kechilgan). Profilaktika: 0,5 mg×1–2/kun. Buyrak/jigar yetishmovchiligida va o'zaro ta'sirli dorilarda doza kamaytiriladi.",
+        bolalar: "FMF da yoshga/vaznga qarab 0,5–2 mg/kun, shifokor nazoratida."
+      },
+      chiqarish: "Tabletkalar 0,5 mg va 1 mg"
+    },
+    ru: {
+      gruppa: "Противоподагрические средства — антимитотический алкалоид (колхицин)",
+      farmTasir: "Купирующий острый приступ подагры, противовоспалительный (на урикемию не влияет)",
+      farmakodinamika: `Колхицин — противоподагрическое средство, алкалоид безвременника (Colchicum). Связываясь с внутриклеточным белком тубулином, блокирует сборку микротрубочек — тормозит миграцию, активацию и дегрануляцию нейтрофилов, фагоцитоз и воспалительный ответ на кристаллы уратов (активацию инфламмасомы, высвобождение ИЛ-1β). В результате уменьшаются острое воспаление и боль при приступе подагры. На уровень мочевой кислоты не влияет (не гипоурикемический) — только купирует и профилактирует приступ. Эффективен также при семейной средиземноморской лихорадке (FMF).`,
+      farmakokinetika: {
+        sorish: "Всасывается внутрь, биодоступность ~45%. Cmax через ~0,5–2 ч.",
+        tarqalish: "Проникает во многие ткани (особенно лейкоциты); энтерогепатическая рециркуляция.",
+        metabolizm: "В печени при участии CYP3A4; субстрат P-гликопротеина.",
+        chiqarilish: "Преимущественно с жёлчью (кал), частично почками. T½ — ~20–40 ч (долго сохраняется в лейкоцитах)."
+      },
+      korsatmalar: [
+        "Лечение острого приступа подагры (эффективен при раннем начале)",
+        "Профилактика приступа подагры в начале урат-снижающей терапии (аллопуринол/фебуксостат)",
+        "Профилактика семейной средиземноморской лихорадки (FMF) и предупреждение амилоидоза",
+        "В отдельных случаях вспомогательное лечение (рецидивирующего) перикардита"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к колхицину",
+        "Тяжёлая почечная или печёночная недостаточность (резкое повышение токсичности)",
+        "Тяжёлые заболевания крови (угнетение костного мозга)",
+        "Совместно с мощными ингибиторами CYP3A4 или P-гликопротеина (при печёночной/почечной недостаточности) — опасная для жизни токсичность; осторожно при беременности и лактации"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Диарея, тошнота, рвота, боль в животе (самое частое, признак предела дозы)",
+        "Кровь": "Угнетение костного мозга: лейкопения, тромбоцитопения, агранулоцитоз, апластическая анемия (при длительном/высокодозовом приёме)",
+        "Мышцы / нервы": "Миопатия, нейромиопатия, периферическая нейропатия (при длительном приёме, особенно при почечной недостаточности)",
+        "Прочее": "Алопеция, поражение печени, угнетение сперматогенеза"
+      },
+      dozadan: "Очень опасно — узкий диапазон между терапевтической и токсической дозой. Симптомы: сильная диарея, рвота, боль в животе, обезвоживание, затем полиорганная недостаточность, угнетение костного мозга, шок. Лечение: неотложная помощь, симптоматическая и поддерживающая; специфического антидота нет (гемодиализ неэффективен). Жизненно важно не превышать дозу.",
+      ozarotasir: [
+        "Мощные ингибиторы CYP3A4 (кларитромицин, кетоконазол, ритонавир) и P-гликопротеина (циклоспорин, верапамил): резко повышают токсичность колхицина — совместное применение опасно/противопоказано",
+        "Статины (особенно симвастатин): повышают риск миопатии и рабдомиолиза",
+        "Грейпфрутовый сок: повышает концентрацию"
+      ],
+      qollash: {
+        kattalar: "Острый приступ: начально 1 мг (или 0,5 мг×2), через 1 ч 0,5 мг; суточная доза обычно не более 1,5–2 мг (от старых высокодозовых схем отказались). Профилактика: 0,5 мг×1–2/сут. При почечной/печёночной недостаточности и взаимодействующих препаратах дозу снижают.",
+        bolalar: "При FMF по возрасту/массе 0,5–2 мг/сут, под контролем врача."
+      },
+      chiqarish: "Таблетки 0,5 мг и 1 мг"
+    },
+    en: {
+      gruppa: "Anti-gout agents — antimitotic alkaloid (colchicine)",
+      farmTasir: "Aborts the acute gout attack, anti-inflammatory (does not affect uricaemia)",
+      farmakodinamika: `Colchicine is an anti-gout agent, an alkaloid of autumn crocus (Colchicum). By binding the intracellular protein tubulin it blocks microtubule assembly — inhibiting neutrophil migration, activation and degranulation, phagocytosis and the inflammatory response to urate crystals (inflammasome activation, IL-1β release). As a result acute inflammation and pain in a gout attack decrease. It does not affect uric acid levels (not hypouricaemic) — it only aborts and prevents the attack. It is also effective in familial Mediterranean fever (FMF).`,
+      farmakokinetika: {
+        sorish: "Absorbed orally, bioavailability ~45%. Cmax in ~0.5–2 h.",
+        tarqalish: "Penetrates many tissues (especially leukocytes); enterohepatic recirculation.",
+        metabolizm: "Hepatic via CYP3A4; a P-glycoprotein substrate.",
+        chiqarilish: "Mainly biliary (faeces), partly renal. T½ — ~20–40 h (persists long in leukocytes)."
+      },
+      korsatmalar: [
+        "Treatment of an acute gout attack (effective when started early)",
+        "Prevention of gout attacks at the start of urate-lowering therapy (allopurinol/febuxostat)",
+        "Prophylaxis of familial Mediterranean fever (FMF) and prevention of amyloidosis",
+        "In selected cases adjunctive treatment of (recurrent) pericarditis"
+      ],
+      qarrshi: [
+        "Hypersensitivity to colchicine",
+        "Severe renal or hepatic failure (toxicity sharply increased)",
+        "Severe blood disorders (bone marrow suppression)",
+        "Together with potent CYP3A4 or P-glycoprotein inhibitors (in hepatic/renal failure) — life-threatening toxicity; caution in pregnancy and lactation"
+      ],
+      nojoya: {
+        "Digestive system": "Diarrhoea, nausea, vomiting, abdominal pain (most common, a sign of the dose limit)",
+        "Blood": "Bone marrow suppression: leukopenia, thrombocytopenia, agranulocytosis, aplastic anaemia (with prolonged/high-dose use)",
+        "Muscle / nerve": "Myopathy, neuromyopathy, peripheral neuropathy (with prolonged use, especially in renal failure)",
+        "Other": "Alopecia, liver injury, suppression of spermatogenesis"
+      },
+      dozadan: "Very dangerous — a narrow range between therapeutic and toxic dose. Symptoms: severe diarrhoea, vomiting, abdominal pain, dehydration, then multi-organ failure, bone marrow suppression, shock. Treatment: emergency care, symptomatic and supportive; no specific antidote (haemodialysis ineffective). It is vital not to exceed the dose.",
+      ozarotasir: [
+        "Potent CYP3A4 inhibitors (clarithromycin, ketoconazole, ritonavir) and P-glycoprotein inhibitors (ciclosporin, verapamil): sharply raise colchicine toxicity — co-administration dangerous/contraindicated",
+        "Statins (especially simvastatin): increase myopathy and rhabdomyolysis risk",
+        "Grapefruit juice: raises concentration"
+      ],
+      qollash: {
+        kattalar: "Acute attack: initially 1 mg (or 0.5 mg×2), then 0.5 mg after 1 h; the daily dose is usually no more than 1.5–2 mg (old high-dose regimens are abandoned). Prophylaxis: 0.5 mg×1–2/day. Reduce dose in renal/hepatic failure and with interacting drugs.",
+        bolalar: "In FMF by age/weight 0.5–2 mg/day, under medical supervision."
+      },
+      chiqarish: "Tablets 0.5 mg and 1 mg"
+    }
   }
 
 };
