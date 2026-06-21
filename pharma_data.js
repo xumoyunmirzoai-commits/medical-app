@@ -45647,6 +45647,1457 @@ const PHARMA_DATA = {
       },
       chiqarish: "Tablets 8, 16, 24 mg"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // ANTIPARAZITAR VOSITALAR (P) — antiprotozoy, antgelmint,
+  // ektoparazititsid (chuv, lyamblioz, malyariya, qo'tir, bit)
+  // Batch P1 — Antiprotozoy va antimalyariya vositalari
+  // ═══════════════════════════════════════════════════════════
+
+  // ── ORNIDAZOL | ATX: P01AB03 ──
+  "P01AB03": {
+    uz: {
+      gruppa: "Antiprotozoy va antibakterial vositalar — 5-nitroimidazol hosilasi",
+      farmTasir: "Protozoylarga va anaerob bakteriyalarga qarshi",
+      farmakodinamika: `Ornidazol — 5-nitroimidazol guruhiga mansub antiprotozoy va antianaerob preparat. Nitro-guruhi anaerob mikroorganizmlar va protozoylar ichida qaytarilib, faol metabolitlarga aylanadi; bu metabolitlar mikrob DNK sini shikastlaydi (ip uzilishi) va nuklein kislota sintezini buzadi — hujayra halok bo'ladi. Trichomonas vaginalis, Entamoeba histolytica, Giardia lamblia (lyamblioz) va anaerob bakteriyalarga (Bacteroides, Clostridium, Fusobacterium, anaerob kokklar) qarshi faol. Metronidazolдан farqli — yarim chiqarilish davri uzunroq (kamroq qabul) va alkogol bilan disulfiramsimon reaksiya kamroq.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez va deyarli to'liq so'riladi (biokirish ~90%). Cmax 1–2 soatda.",
+        tarqalish: "Plazma oqsillariga <15% bog'lanadi. Barcha to'qima va suyuqliklarga (BOM, jinsiy yo'l, so'lak) yaxshi kiradi. Yo'ldosh va ona sutiga o'tadi.",
+        metabolizm: "Jigarda gidroksillanish va konyugatsiya orqali metabolizatsiya.",
+        chiqarilish: "Asosan siydik (~60–70%), qisman najas orqali. T½ — ~13 soat (uzun)."
+      },
+      korsatmalar: [
+        "Urogenital trixomoniaz (erkak va ayollarda)",
+        "Amyobiaz: ichak amyobiazi, amyob dizenteriya, jigar amyob abssessi",
+        "Lyamblioz (giardioz)",
+        "Anaerob bakteriyalar keltiruvchi infeksiyalar va ularning operatsiyadan keyin profilaktikasi (ginekologik, qorin bo'shlig'i jarrohligi)"
+      ],
+      qarrshi: [
+        "Ornidazol yoki boshqa nitroimidazollarga o'ta sezgirlik",
+        "Markaziy nerv tizimi organik kasalliklari (epilepsiya, tarqoq skleroz)",
+        "Qon yaratilishining buzilishi",
+        "Homiladorlikning I trimestri va emizish davri (ehtiyot)"
+      ],
+      nojoya: {
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyquchanlik, charchoq; kamdan-kam — tremor, ataksiya, perifer neyropatiya, tutqanoq (uzoq/yuqori dozada)",
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, ta'm o'zgarishi (metall ta'm), epigastral og'riq, diareya",
+        "Allergik / teri": "Toshma, qichima, eshakemi",
+        "Boshqa": "Leykopeniya (vaqtinchalik), siydikning to'qlashuvi"
+      },
+      dozadan: "Belgilari: tutqanoq, depressiya, perifer neyrit. Davolash: simptomatik; tutqanoqda diazepam. Spetsifik antidot yo'q.",
+      ozarotasir: [
+        "Varfarin va kumarin antikoagulyantlari: ta'sirini kuchaytiradi — INR nazorati",
+        "Vekuroniy (mushak relaksanti): ta'sirini uzaytiradi",
+        "Alkogol: metronidazoldan kamroq, lekin disulfiramsimon reaksiya bo'lishi mumkin — kursда spirtli ichimlikдан saqlanish tavsiya etiladi"
+      ],
+      qollash: {
+        kattalar: "Trixomoniaz: 1,5 g bir martalik yoki 500 mg×2/kun 5 kun (jinsiy sherik ham davolanadi). Amyobiaz: 500 mg×2/kun 5–10 kun; jigar abssessida 0,5–1 g/kun. Lyamblioz: 1,5 g×1/kun 1–2 kun. Anaerob profilaktika: operatsiyadan oldin 0,5–1 g.",
+        bolalar: "Vaznga qarab: trixomoniaz/lyamblioz 25–40 mg/kg/kun; amyobiazда 25 mg/kg/kun."
+      },
+      chiqarish: "Tabletkalar (qobiqli) 250, 500 mg; i/v infuziya eritmasi 0,5%; vaginal tabletkalar 500 mg"
+    },
+    ru: {
+      gruppa: "Противопротозойные и антибактериальные средства — производное 5-нитроимидазола",
+      farmTasir: "Против простейших и анаэробных бактерий",
+      farmakodinamika: `Орнидазол — противопротозойный и антианаэробный препарат группы 5-нитроимидазола. Нитрогруппа восстанавливается внутри анаэробных микроорганизмов и простейших до активных метаболитов, которые повреждают ДНК микроба (разрыв нитей) и нарушают синтез нуклеиновых кислот — клетка гибнет. Активен в отношении Trichomonas vaginalis, Entamoeba histolytica, Giardia lamblia (лямблиоз) и анаэробных бактерий (Bacteroides, Clostridium, Fusobacterium, анаэробные кокки). В отличие от метронидазола — более длинный период полувыведения (реже приём) и меньше дисульфирамоподобных реакций с алкоголем.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро и почти полно (биодоступность ~90%). Cmax через 1–2 ч.",
+        tarqalish: "Связь с белками плазмы <15%. Хорошо проникает во все ткани и жидкости (СМЖ, половые пути, слюна). Проникает через плаценту и в грудное молоко.",
+        metabolizm: "В печени путём гидроксилирования и конъюгации.",
+        chiqarilish: "Преимущественно почками (~60–70%), частично с калом. T½ — ~13 ч (длинный)."
+      },
+      korsatmalar: [
+        "Урогенитальный трихомониаз (у мужчин и женщин)",
+        "Амёбиаз: кишечный амёбиаз, амёбная дизентерия, амёбный абсцесс печени",
+        "Лямблиоз (гиардиоз)",
+        "Инфекции, вызванные анаэробными бактериями, и их профилактика после операций (гинекология, абдоминальная хирургия)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к орнидазолу или другим нитроимидазолам",
+        "Органические заболевания ЦНС (эпилепсия, рассеянный склероз)",
+        "Нарушения кроветворения",
+        "I триместр беременности и период лактации (с осторожностью)"
+      ],
+      nojoya: {
+        "Нервная система": "Головная боль, головокружение, сонливость, утомляемость; редко — тремор, атаксия, периферическая нейропатия, судороги (при длительном/высокодозовом приёме)",
+        "Пищеварительная система": "Тошнота, рвота, изменение вкуса (металлический привкус), эпигастральная боль, диарея",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница",
+        "Прочее": "Лейкопения (преходящая), потемнение мочи"
+      },
+      dozadan: "Симптомы: судороги, депрессия, периферический неврит. Лечение: симптоматически; при судорогах диазепам. Специфического антидота нет.",
+      ozarotasir: [
+        "Варфарин и кумариновые антикоагулянты: усиливает действие — контроль МНО",
+        "Векуроний (миорелаксант): удлиняет действие",
+        "Алкоголь: реже, чем у метронидазола, но возможна дисульфирамоподобная реакция — на курсе рекомендуется воздержаться от спиртного"
+      ],
+      qollash: {
+        kattalar: "Трихомониаз: 1,5 г однократно или 500 мг×2/сут 5 дней (лечат и полового партнёра). Амёбиаз: 500 мг×2/сут 5–10 дней; при абсцессе печени 0,5–1 г/сут. Лямблиоз: 1,5 г×1/сут 1–2 дня. Анаэробная профилактика: перед операцией 0,5–1 г.",
+        bolalar: "По массе: трихомониаз/лямблиоз 25–40 мг/кг/сут; при амёбиазе 25 мг/кг/сут."
+      },
+      chiqarish: "Таблетки (покрытые) 250, 500 мг; раствор для в/в инфузий 0,5%; вагинальные таблетки 500 мг"
+    },
+    en: {
+      gruppa: "Antiprotozoal and antibacterial agents — 5-nitroimidazole derivative",
+      farmTasir: "Against protozoa and anaerobic bacteria",
+      farmakodinamika: `Ornidazole is an antiprotozoal and anti-anaerobic agent of the 5-nitroimidazole group. Its nitro group is reduced inside anaerobic microorganisms and protozoa to active metabolites that damage microbial DNA (strand breakage) and disrupt nucleic acid synthesis — killing the cell. It is active against Trichomonas vaginalis, Entamoeba histolytica, Giardia lamblia (giardiasis) and anaerobic bacteria (Bacteroides, Clostridium, Fusobacterium, anaerobic cocci). Unlike metronidazole it has a longer half-life (less frequent dosing) and fewer disulfiram-like reactions with alcohol.`,
+      farmakokinetika: {
+        sorish: "Rapidly and almost completely absorbed orally (bioavailability ~90%). Cmax in 1–2 h.",
+        tarqalish: "Plasma protein binding <15%. Penetrates all tissues and fluids well (CSF, genital tract, saliva). Crosses the placenta and into breast milk.",
+        metabolizm: "Hepatic via hydroxylation and conjugation.",
+        chiqarilish: "Mainly renal (~60–70%), partly faecal. T½ — ~13 h (long)."
+      },
+      korsatmalar: [
+        "Urogenital trichomoniasis (in men and women)",
+        "Amoebiasis: intestinal amoebiasis, amoebic dysentery, amoebic liver abscess",
+        "Giardiasis",
+        "Infections caused by anaerobic bacteria and their prophylaxis after surgery (gynaecology, abdominal surgery)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to ornidazole or other nitroimidazoles",
+        "Organic CNS disease (epilepsy, multiple sclerosis)",
+        "Haematopoietic disorders",
+        "First trimester of pregnancy and lactation (with caution)"
+      ],
+      nojoya: {
+        "Nervous system": "Headache, dizziness, drowsiness, fatigue; rarely tremor, ataxia, peripheral neuropathy, convulsions (with prolonged/high-dose use)",
+        "Digestive system": "Nausea, vomiting, taste change (metallic taste), epigastric pain, diarrhoea",
+        "Allergy / skin": "Rash, pruritus, urticaria",
+        "Other": "Leukopenia (transient), darkening of urine"
+      },
+      dozadan: "Symptoms: convulsions, depression, peripheral neuritis. Treatment: symptomatic; diazepam for convulsions. No specific antidote.",
+      ozarotasir: [
+        "Warfarin and coumarin anticoagulants: enhances effect — INR monitoring",
+        "Vecuronium (muscle relaxant): prolongs its effect",
+        "Alcohol: less than metronidazole, but a disulfiram-like reaction is possible — abstaining from alcohol during the course is advised"
+      ],
+      qollash: {
+        kattalar: "Trichomoniasis: 1.5 g single dose or 500 mg×2/day for 5 days (treat the sexual partner too). Amoebiasis: 500 mg×2/day for 5–10 days; liver abscess 0.5–1 g/day. Giardiasis: 1.5 g×1/day for 1–2 days. Anaerobic prophylaxis: 0.5–1 g before surgery.",
+        bolalar: "By weight: trichomoniasis/giardiasis 25–40 mg/kg/day; amoebiasis 25 mg/kg/day."
+      },
+      chiqarish: "Tablets (coated) 250, 500 mg; solution for i/v infusion 0.5%; vaginal tablets 500 mg"
+    }
+  },
+
+  // ── SEKNIDAZOL | ATX: P01AB07 ──
+  "P01AB07": {
+    uz: {
+      gruppa: "Antiprotozoy vositalar — 5-nitroimidazol hosilasi (uzoq ta'sirli)",
+      farmTasir: "Protozoylarga va anaeroblarga qarshi (bir martalik doza)",
+      farmakodinamika: `Seknidazol — 5-nitroimidazol hosilasi bo'lib, ta'sir mexanizmi metronidazol va ornidazolдек: nitro-guruhi protozoy va anaeroblar ichida qaytarilib, mikrob DNK sini parchalaydi va nuklein kislota sintezini buzadi. Trichomonas vaginalis, Entamoeba histolytica, Giardia lamblia ga qarshi yuqori faol. Asosiy farmakokinetik afzalligi — juda uzun yarim chiqarilish davri (~17–25 soat), shu sababli ko'p infeksiyalarda bir martalik doza yetarli (qulaylik va davoga rioya). Bakterial vaginozda ham qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali tez va to'liq so'riladi. Cmax ~4 soatda.",
+        tarqalish: "To'qimalarga keng tarqaladi; plazma oqsillariga past bog'lanadi.",
+        metabolizm: "Jigarda metabolizatsiya.",
+        chiqarilish: "Asosan siydik orqali. T½ — ~17–25 soat (juda uzun)."
+      },
+      korsatmalar: [
+        "Urogenital trixomoniaz",
+        "Ichak amyobiazi va amyob dizenteriya",
+        "Lyamblioz (giardioz)",
+        "Bakterial vaginoz (ayrim mamlakatlarda)"
+      ],
+      qarrshi: [
+        "Seknidazol yoki nitroimidazollarga o'ta sezgirlik",
+        "Markaziy nerv tizimi va qon kasalliklari",
+        "Homiladorlikning I trimestri, emizish davri"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ko'ngil aynishi, metall ta'mi, epigastral noxushlik, diareya, glossit/stomatit",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi; kamdan-kam — paresteziya",
+        "Allergik / teri": "Toshma, qichima, eshakemi",
+        "Boshqa": "Leykopeniya (vaqtinchalik)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, ataksiya, tutqanoq (yuqori dozada). Davolash: simptomatik; antidot yo'q.",
+      ozarotasir: [
+        "Alkogol: disulfiramsimon reaksiya — kursда va undan keyin 24–48 soat spirtli ichimlikдан saqlanish",
+        "Varfarin: antikoagulyant ta'sirini kuchaytirishi mumkin",
+        "Disulfiram bilan birga psixoz/dezorientatsiya xavfi"
+      ],
+      qollash: {
+        kattalar: "Trixomoniaz/lyamblioz: 2 g bir martalik (ovqat bilan). Amyobiaz: 1,5 g×1/kun 3 kun. Trixomoniazда jinsiy sherik ham davolanadi.",
+        bolalar: "30 mg/kg bir martalik (amyobiazда 3 kun); aniq doza yoshga qarab shifokor tomonidan."
+      },
+      chiqarish: "Tabletkalar 500 mg, 1 g; granula (suspenziya uchun)"
+    },
+    ru: {
+      gruppa: "Противопротозойные средства — производное 5-нитроимидазола (длительного действия)",
+      farmTasir: "Против простейших и анаэробов (однократная доза)",
+      farmakodinamika: `Секнидазол — производное 5-нитроимидазола, механизм действия как у метронидазола и орнидазола: нитрогруппа восстанавливается внутри простейших и анаэробов, разрушая ДНК микроба и нарушая синтез нуклеиновых кислот. Высокоактивен против Trichomonas vaginalis, Entamoeba histolytica, Giardia lamblia. Главное фармакокинетическое преимущество — очень длинный период полувыведения (~17–25 ч), поэтому при многих инфекциях достаточно однократной дозы (удобство и приверженность). Применяется также при бактериальном вагинозе.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается быстро и полно. Cmax через ~4 ч.",
+        tarqalish: "Широко распределяется в тканях; низкая связь с белками плазмы.",
+        metabolizm: "В печени.",
+        chiqarilish: "Преимущественно почками. T½ — ~17–25 ч (очень длинный)."
+      },
+      korsatmalar: [
+        "Урогенитальный трихомониаз",
+        "Кишечный амёбиаз и амёбная дизентерия",
+        "Лямблиоз (гиардиоз)",
+        "Бактериальный вагиноз (в отдельных странах)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к секнидазолу или нитроимидазолам",
+        "Заболевания ЦНС и крови",
+        "I триместр беременности, период лактации"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Тошнота, металлический привкус, эпигастральный дискомфорт, диарея, глоссит/стоматит",
+        "Нервная система": "Головная боль, головокружение; редко — парестезии",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница",
+        "Прочее": "Лейкопения (преходящая)"
+      },
+      dozadan: "Симптомы: тошнота, рвота, атаксия, судороги (в высокой дозе). Лечение: симптоматически; антидота нет.",
+      ozarotasir: [
+        "Алкоголь: дисульфирамоподобная реакция — воздержаться от спиртного на курсе и 24–48 ч после",
+        "Варфарин: может усиливать антикоагулянтное действие",
+        "С дисульфирамом — риск психоза/дезориентации"
+      ],
+      qollash: {
+        kattalar: "Трихомониаз/лямблиоз: 2 г однократно (с едой). Амёбиаз: 1,5 г×1/сут 3 дня. При трихомониазе лечат и полового партнёра.",
+        bolalar: "30 мг/кг однократно (при амёбиазе 3 дня); точная доза по возрасту, назначает врач."
+      },
+      chiqarish: "Таблетки 500 мг, 1 г; гранулы (для суспензии)"
+    },
+    en: {
+      gruppa: "Antiprotozoal agents — 5-nitroimidazole derivative (long-acting)",
+      farmTasir: "Against protozoa and anaerobes (single dose)",
+      farmakodinamika: `Secnidazole is a 5-nitroimidazole derivative with the same mechanism as metronidazole and ornidazole: its nitro group is reduced inside protozoa and anaerobes, breaking down microbial DNA and disrupting nucleic acid synthesis. It is highly active against Trichomonas vaginalis, Entamoeba histolytica and Giardia lamblia. Its main pharmacokinetic advantage is a very long half-life (~17–25 h), so a single dose suffices for many infections (convenience and adherence). It is also used for bacterial vaginosis.`,
+      farmakokinetika: {
+        sorish: "Rapidly and completely absorbed orally. Cmax in ~4 h.",
+        tarqalish: "Widely distributed in tissues; low plasma protein binding.",
+        metabolizm: "Hepatic.",
+        chiqarilish: "Mainly renal. T½ — ~17–25 h (very long)."
+      },
+      korsatmalar: [
+        "Urogenital trichomoniasis",
+        "Intestinal amoebiasis and amoebic dysentery",
+        "Giardiasis",
+        "Bacterial vaginosis (in some countries)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to secnidazole or nitroimidazoles",
+        "CNS and blood disorders",
+        "First trimester of pregnancy, lactation"
+      ],
+      nojoya: {
+        "Digestive system": "Nausea, metallic taste, epigastric discomfort, diarrhoea, glossitis/stomatitis",
+        "Nervous system": "Headache, dizziness; rarely paraesthesia",
+        "Allergy / skin": "Rash, pruritus, urticaria",
+        "Other": "Leukopenia (transient)"
+      },
+      dozadan: "Symptoms: nausea, vomiting, ataxia, convulsions (at high dose). Treatment: symptomatic; no antidote.",
+      ozarotasir: [
+        "Alcohol: disulfiram-like reaction — avoid alcohol during the course and for 24–48 h after",
+        "Warfarin: may enhance anticoagulant effect",
+        "With disulfiram — risk of psychosis/disorientation"
+      ],
+      qollash: {
+        kattalar: "Trichomoniasis/giardiasis: 2 g single dose (with food). Amoebiasis: 1.5 g×1/day for 3 days. In trichomoniasis treat the sexual partner too.",
+        bolalar: "30 mg/kg single dose (3 days for amoebiasis); exact dose by age, prescribed by a physician."
+      },
+      chiqarish: "Tablets 500 mg, 1 g; granules (for suspension)"
+    }
+  },
+
+  // ── NITAZOKSANID | ATX: P01AX11 ──
+  "P01AX11": {
+    uz: {
+      gruppa: "Antiprotozoy va antgelmint vositalar — tiazolid hosilasi (keng spektrli)",
+      farmTasir: "Protozoy, gelmint va ba'zi viruslarga qarshi",
+      farmakodinamika: `Nitazoksanid — tiazolid (nitrotiazolil-salitsilamid) hosilasi bo'lgan keng spektrli antiparazitar preparat. Faol metaboliti tizoksanid orqali anaerob mikroorganizmlar va protozoylar energiya almashinuvidagi piruvat:ferredoksin oksidoreduktaza (PFOR) fermentini ingibe qiladi — anaerob energiya hosil bo'lishini buzadi. Cryptosporidium parvum va Giardia lamblia keltiruvchi diareyada samarali; shuningdek Entamoeba, Blastocystis, ko'plab gelmintlar (Ascaris, Trichuris, Hymenolepis, Taenia) va ba'zi viruslarga (rotavirus, norovirus) qarshi faollik ko'rsatadi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali so'riladi; ovqat bilan so'rilishi oshadi. Organizmда tez faol tizoksanidga gidrolizlanadi.",
+        tarqalish: "Tizoksanid plazma oqsillariga >99% bog'lanadi.",
+        metabolizm: "Tez tizoksanidga, keyin tizoksanid-glyukuronidga aylanadi.",
+        chiqarilish: "Siydik, o't va najas orqali. T½ — ~1,5 soat."
+      },
+      korsatmalar: [
+        "Cryptosporidium parvum keltiruvchi diareya (kriptosporidioz)",
+        "Giardia lamblia keltiruvchi diareya (lyamblioz)",
+        "Boshqa ichak protozoy va gelmint invaziyalari (ko'rsatmaga qarab)"
+      ],
+      qarrshi: [
+        "Nitazoksanidga o'ta sezgirlik",
+        "Og'ir jigar yoki buyrak yetishmovchiligida ehtiyot",
+        "Homiladorlik va emizishда ma'lumot cheklangan (ehtiyot)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Qorin og'rig'i, ko'ngil aynishi, qusish, diareya",
+        "Asab tizimi": "Bosh og'rig'i",
+        "Siydik / boshqa": "Siydikning yorqin sariq-yashil rangga bo'yalishi (zararsiz, metabolit tufayli)",
+        "Allergik": "Toshma (kamdan-kam)"
+      },
+      dozadan: "Tajriba cheklangan; yuqori dozada oshqozon-ichak buzilishi. Davolash: simptomatik, ko'p suyuqlik.",
+      ozarotasir: [
+        "Plazma oqsiliga yuqori bog'lanuvchi dorilar (varfarin) bilan raqobat — ehtiyot",
+        "Ovqat bilan biokirish oshadi — ovqat bilan qabul qilish tavsiya etiladi"
+      ],
+      qollash: {
+        kattalar: "500 mg×2/kun (ovqat bilan) 3 kun.",
+        bolalar: "1–3 yosh: 100 mg×2/kun; 4–11 yosh: 200 mg×2/kun; 12 yoshdan: 500 mg×2/kun — 3 kun, ovqat bilan (suspenziya shaklida)."
+      },
+      chiqarish: "Tabletkalar 500 mg; suspenziya tayyorlash uchun kukun 100 mg/5 ml"
+    },
+    ru: {
+      gruppa: "Противопротозойные и противогельминтные средства — производное тиазолида (широкого спектра)",
+      farmTasir: "Против простейших, гельминтов и некоторых вирусов",
+      farmakodinamika: `Нитазоксанид — противопаразитарный препарат широкого спектра, производное тиазолида (нитротиазолил-салициламид). Через активный метаболит тизоксанид ингибирует фермент пируват:ферредоксин оксидоредуктазу (PFOR) энергетического обмена анаэробных микроорганизмов и простейших — нарушая анаэробное образование энергии. Эффективен при диарее, вызванной Cryptosporidium parvum и Giardia lamblia; активен также против Entamoeba, Blastocystis, многих гельминтов (Ascaris, Trichuris, Hymenolepis, Taenia) и некоторых вирусов (ротавирус, норовирус).`,
+      farmakokinetika: {
+        sorish: "Всасывается внутрь; пища повышает всасывание. В организме быстро гидролизуется в активный тизоксанид.",
+        tarqalish: "Тизоксанид связывается с белками плазмы на >99%.",
+        metabolizm: "Быстро в тизоксанид, затем в тизоксанид-глюкуронид.",
+        chiqarilish: "С мочой, жёлчью и калом. T½ — ~1,5 ч."
+      },
+      korsatmalar: [
+        "Диарея, вызванная Cryptosporidium parvum (криптоспоридиоз)",
+        "Диарея, вызванная Giardia lamblia (лямблиоз)",
+        "Другие кишечные протозойные и гельминтные инвазии (по показаниям)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к нитазоксаниду",
+        "Осторожно при тяжёлой печёночной или почечной недостаточности",
+        "При беременности и лактации данные ограничены (с осторожностью)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Боль в животе, тошнота, рвота, диарея",
+        "Нервная система": "Головная боль",
+        "Моча / прочее": "Окрашивание мочи в ярко-жёлто-зелёный цвет (безвредно, из-за метаболита)",
+        "Аллергия": "Сыпь (редко)"
+      },
+      dozadan: "Опыт ограничен; при высокой дозе расстройство ЖКТ. Лечение: симптоматически, обильное питьё.",
+      ozarotasir: [
+        "Конкуренция с препаратами с высокой связью с белками плазмы (варфарин) — осторожно",
+        "С пищей биодоступность повышается — рекомендуется принимать с едой"
+      ],
+      qollash: {
+        kattalar: "500 мг×2/сут (с едой) 3 дня.",
+        bolalar: "1–3 года: 100 мг×2/сут; 4–11 лет: 200 мг×2/сут; с 12 лет: 500 мг×2/сут — 3 дня, с едой (в форме суспензии)."
+      },
+      chiqarish: "Таблетки 500 мг; порошок для суспензии 100 мг/5 мл"
+    },
+    en: {
+      gruppa: "Antiprotozoal and anthelmintic agents — thiazolide derivative (broad-spectrum)",
+      farmTasir: "Against protozoa, helminths and some viruses",
+      farmakodinamika: `Nitazoxanide is a broad-spectrum antiparasitic agent, a thiazolide (nitrothiazolyl-salicylamide) derivative. Via its active metabolite tizoxanide it inhibits the pyruvate:ferredoxin oxidoreductase (PFOR) enzyme of the energy metabolism of anaerobic microorganisms and protozoa — disrupting anaerobic energy production. It is effective in diarrhoea caused by Cryptosporidium parvum and Giardia lamblia; it is also active against Entamoeba, Blastocystis, many helminths (Ascaris, Trichuris, Hymenolepis, Taenia) and some viruses (rotavirus, norovirus).`,
+      farmakokinetika: {
+        sorish: "Absorbed orally; food increases absorption. Rapidly hydrolysed in the body to active tizoxanide.",
+        tarqalish: "Tizoxanide is >99% plasma protein bound.",
+        metabolizm: "Rapidly to tizoxanide, then tizoxanide-glucuronide.",
+        chiqarilish: "Via urine, bile and faeces. T½ — ~1.5 h."
+      },
+      korsatmalar: [
+        "Diarrhoea caused by Cryptosporidium parvum (cryptosporidiosis)",
+        "Diarrhoea caused by Giardia lamblia (giardiasis)",
+        "Other intestinal protozoal and helminthic infestations (per indication)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to nitazoxanide",
+        "Caution in severe hepatic or renal failure",
+        "Limited data in pregnancy and lactation (caution)"
+      ],
+      nojoya: {
+        "Digestive system": "Abdominal pain, nausea, vomiting, diarrhoea",
+        "Nervous system": "Headache",
+        "Urine / other": "Bright yellow-green discolouration of urine (harmless, due to the metabolite)",
+        "Allergy": "Rash (rare)"
+      },
+      dozadan: "Experience limited; at high dose GI upset. Treatment: symptomatic, plenty of fluids.",
+      ozarotasir: [
+        "Competition with highly plasma-protein-bound drugs (warfarin) — caution",
+        "Bioavailability increases with food — taking with food is recommended"
+      ],
+      qollash: {
+        kattalar: "500 mg×2/day (with food) for 3 days.",
+        bolalar: "1–3 years: 100 mg×2/day; 4–11 years: 200 mg×2/day; from 12 years: 500 mg×2/day — for 3 days, with food (as suspension)."
+      },
+      chiqarish: "Tablets 500 mg; powder for suspension 100 mg/5 mL"
+    }
+  },
+
+  // ── GIDROKSIXLOROKIN | ATX: P01BA02 ──
+  "P01BA02": {
+    uz: {
+      gruppa: "Antimalyariya vositalar — 4-aminoxinolin (immunomodulyator xususiyatli)",
+      farmTasir: "Malyariyaga qarshi, yallig'lanishga qarshi (kasallikni modifikatsiyalovchi)",
+      farmakodinamika: `Gidroksixlorokin — 4-aminoxinolin guruhiga mansub antimalyariya preparat (xlorokinning gidroksillangan, kamroq toksik hosilasi). Malyariya plazmodiysida: parazit oziq vakuolasiga to'planib, gem (toksik gematin)ning zararsiz gemozoinga polimerlanishini bloklaydi — gem to'planib parazitni o'ldiradi (eritrotsitar shakllarga ta'sir). Bundan tashqari kuchli immunomodulyator/yallig'lanishga qarshi ta'sirga ega: lizosoma pH sini oshirib antigen prezentatsiyasi, Toll-retseptor signalizatsiyasi va proinflamatuar sitokinlar ishlab chiqarilishini kamaytiradi — shu sababli revmatoid artrit va qizil yuguruk (lupus)да qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali yaxshi so'riladi (biokirish ~70–80%). Cmax ~3–4 soatda.",
+        tarqalish: "To'qimalarga keng va chuqur tarqaladi (jigar, taloq, buyrak, o'pka, ko'z to'r pardasi)ва to'planadi; taqsimlanish hajmi juda katta.",
+        metabolizm: "Jigarda CYP (3A4, 2C8, 2D6) ishtirokida dezetil metabolitlarga.",
+        chiqarilish: "Asosan siydik orqali (uzoq), qisman najas bilan. T½ — juda uzun (~40 kun)."
+      },
+      korsatmalar: [
+        "Chloroquinга sezgir malyariya (P. vivax, P. ovale, P. malariae, sezgir P. falciparum) davolash va profilaktikasi",
+        "Revmatoid artrit (kasallikni modifikatsiyalovchi — DMARD)",
+        "Tizimli va diskoid qizil yuguruk (lupus eritematozus)",
+        "Yorug'lik bilan kuchayadigan teri kasalliklari (yordamchi)"
+      ],
+      qarrshi: [
+        "Gidroksixlorokin yoki 4-aminoxinolinlarga o'ta sezgirlik",
+        "Mavjud retinopatiya yoki ko'rish maydoni o'zgarishlari (to'r parda toksikligi)",
+        "Og'ir jigar yoki buyrak yetishmovchiligi (doza sozlash); G6PD tanqisligi (ehtiyot)",
+        "QT uzaytiruvchi holatlar va dorilar bilan ehtiyot; miastenia"
+      ],
+      nojoya: {
+        "Ko'z (muhim)": "Retinopatiya (qaytmas, dozaga va davomiylikка bog'liq — muntazam oftalmologik nazorat zarur), shox parda cho'kindilari, ko'rish xiralashuvi",
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, diareya, qorin og'rig'i, ishtaha yo'qolishi",
+        "Yurak-qon tomir": "QT intervali uzayishi, kardiomiopatiya (uzoq qabulda); ritm buzilishi",
+        "Asab / mushak": "Bosh og'rig'i, bosh aylanishi, miopatiya, neyromiopatiya; quloqda shovqin",
+        "Qon / teri": "Gemoliz (G6PD tanqisligida), leykopeniya; toshma, terining to'qlashuvi, qichima"
+      },
+      dozadan: "Juda xavfli (ayniqsa bolalarda) — tor terapevtik chegara. Belgilari: bosh og'rig'i, ko'rish buzilishi, yurak o'tkazuvchanligi buzilishi, aritmiya, tutqanoq, nafas va yurak to'xtashi. Davolash: shoshilinch reanimatsiya, faollashtirilgan ko'mir, diazepam, gemodinamik qo'llab-quvvatlash; spetsifik antidot yo'q.",
+      ozarotasir: [
+        "QT uzaytiruvchi dorilar (amiodaron, makrolidlar, ftorxinolonlar): aritmiya xavfi qo'shiladi",
+        "Digoksin: konsentratsiyasini oshiradi; insulin/qandni tushiruvchilar: gipoglikemiyani kuchaytiradi",
+        "Antatsidlar: so'rilishini kamaytiradi — 4 soat ajrating",
+        "Tsiklosporin: konsentratsiyasini oshiradi"
+      ],
+      qollash: {
+        kattalar: "Revmatoid artrit/lupus: 200–400 mg/kun (≤5 mg/kg/kun ideal vaznga — retinopatiya xavfini kamaytirish uchun). Malyariya davolash: 800 mg, keyin 6/24/48 soatда 400 mg. Ovqat bilan qabul qilinadi.",
+        bolalar: "Vaznga qarab; malyariya va revmatik kasalliklarда past dozada, shifokor nazoratida (bolalarда dozadan oshish o'ta xavfli)."
+      },
+      chiqarish: "Tabletkalar (qobiqli) 200 mg (gidroksixlorokin sulfat)"
+    },
+    ru: {
+      gruppa: "Противомалярийные средства — 4-аминохинолин (с иммуномодулирующими свойствами)",
+      farmTasir: "Противомалярийное, противовоспалительное (болезнь-модифицирующее)",
+      farmakodinamika: `Гидроксихлорохин — противомалярийный препарат группы 4-аминохинолина (гидроксилированное, менее токсичное производное хлорохина). В малярийном плазмодии: накапливаясь в пищеварительной вакуоли паразита, блокирует полимеризацию гема (токсичного гематина) в безвредный гемозоин — гем накапливается и убивает паразита (действие на эритроцитарные формы). Кроме того, обладает выраженным иммуномодулирующим/противовоспалительным действием: повышая pH лизосом, снижает презентацию антигена, сигнализацию Toll-рецепторов и продукцию провоспалительных цитокинов — поэтому применяется при ревматоидном артрите и красной волчанке.`,
+      farmakokinetika: {
+        sorish: "Хорошо всасывается внутрь (биодоступность ~70–80%). Cmax через ~3–4 ч.",
+        tarqalish: "Широко и глубоко распределяется в тканях (печень, селезёнка, почки, лёгкие, сетчатка) и накапливается; очень большой объём распределения.",
+        metabolizm: "В печени при участии CYP (3A4, 2C8, 2D6) до дезэтил-метаболитов.",
+        chiqarilish: "Преимущественно почками (долго), частично с калом. T½ — очень длинный (~40 дней)."
+      },
+      korsatmalar: [
+        "Лечение и профилактика хлорохин-чувствительной малярии (P. vivax, P. ovale, P. malariae, чувствительный P. falciparum)",
+        "Ревматоидный артрит (болезнь-модифицирующее средство — БПВП)",
+        "Системная и дискоидная красная волчанка",
+        "Фотоусиливающиеся кожные заболевания (вспомогательно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к гидроксихлорохину или 4-аминохинолинам",
+        "Имеющаяся ретинопатия или изменения полей зрения (токсичность для сетчатки)",
+        "Тяжёлая печёночная или почечная недостаточность (коррекция дозы); дефицит G6PD (осторожно)",
+        "Осторожно при состояниях и препаратах, удлиняющих QT; миастения"
+      ],
+      nojoya: {
+        "Глаза (важно)": "Ретинопатия (необратимая, зависит от дозы и длительности — нужен регулярный офтальмологический контроль), отложения в роговице, нечёткость зрения",
+        "Пищеварительная система": "Тошнота, рвота, диарея, боль в животе, потеря аппетита",
+        "Сердечно-сосудистая система": "Удлинение QT, кардиомиопатия (при длительном приёме); нарушения ритма",
+        "Нервы / мышцы": "Головная боль, головокружение, миопатия, нейромиопатия; шум в ушах",
+        "Кровь / кожа": "Гемолиз (при дефиците G6PD), лейкопения; сыпь, потемнение кожи, зуд"
+      },
+      dozadan: "Очень опасно (особенно у детей) — узкий терапевтический диапазон. Симптомы: головная боль, нарушение зрения, нарушение сердечной проводимости, аритмия, судороги, остановка дыхания и сердца. Лечение: неотложная реанимация, активированный уголь, диазепам, гемодинамическая поддержка; специфического антидота нет.",
+      ozarotasir: [
+        "Препараты, удлиняющие QT (амиодарон, макролиды, фторхинолоны): суммирование риска аритмии",
+        "Дигоксин: повышает концентрацию; инсулин/гипогликемические: усиливает гипогликемию",
+        "Антациды: снижают всасывание — разнести на 4 ч",
+        "Циклоспорин: повышает концентрацию"
+      ],
+      qollash: {
+        kattalar: "Ревматоидный артрит/волчанка: 200–400 мг/сут (идеально ≤5 мг/кг/сут на идеальную массу — для снижения риска ретинопатии). Лечение малярии: 800 мг, затем 400 мг через 6/24/48 ч. Принимать с едой.",
+        bolalar: "По массе тела; при малярии и ревматических болезнях в низкой дозе, под контролем врача (передозировка у детей крайне опасна)."
+      },
+      chiqarish: "Таблетки (покрытые) 200 мг (гидроксихлорохина сульфат)"
+    },
+    en: {
+      gruppa: "Antimalarial agents — 4-aminoquinoline (with immunomodulatory properties)",
+      farmTasir: "Antimalarial, anti-inflammatory (disease-modifying)",
+      farmakodinamika: `Hydroxychloroquine is an antimalarial of the 4-aminoquinoline group (a hydroxylated, less toxic derivative of chloroquine). In the malaria parasite: accumulating in the parasite's digestive vacuole, it blocks polymerisation of haem (toxic haematin) into harmless haemozoin — haem accumulates and kills the parasite (action on erythrocytic forms). It also has marked immunomodulatory/anti-inflammatory action: by raising lysosomal pH it reduces antigen presentation, Toll-receptor signalling and pro-inflammatory cytokine production — so it is used in rheumatoid arthritis and lupus erythematosus.`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally (bioavailability ~70–80%). Cmax in ~3–4 h.",
+        tarqalish: "Widely and deeply distributed in tissues (liver, spleen, kidneys, lungs, retina) and accumulates; very large volume of distribution.",
+        metabolizm: "Hepatic via CYP (3A4, 2C8, 2D6) to desethyl metabolites.",
+        chiqarilish: "Mainly renal (slowly), partly faecal. T½ — very long (~40 days)."
+      },
+      korsatmalar: [
+        "Treatment and prophylaxis of chloroquine-sensitive malaria (P. vivax, P. ovale, P. malariae, sensitive P. falciparum)",
+        "Rheumatoid arthritis (disease-modifying agent — DMARD)",
+        "Systemic and discoid lupus erythematosus",
+        "Photo-aggravated skin diseases (adjunct)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to hydroxychloroquine or 4-aminoquinolines",
+        "Pre-existing retinopathy or visual field changes (retinal toxicity)",
+        "Severe hepatic or renal failure (dose adjustment); G6PD deficiency (caution)",
+        "Caution with QT-prolonging conditions and drugs; myasthenia"
+      ],
+      nojoya: {
+        "Eyes (important)": "Retinopathy (irreversible, dose- and duration-dependent — regular ophthalmologic monitoring needed), corneal deposits, blurred vision",
+        "Digestive system": "Nausea, vomiting, diarrhoea, abdominal pain, loss of appetite",
+        "Cardiovascular system": "QT prolongation, cardiomyopathy (with long-term use); rhythm disturbances",
+        "Nerves / muscles": "Headache, dizziness, myopathy, neuromyopathy; tinnitus",
+        "Blood / skin": "Haemolysis (in G6PD deficiency), leukopenia; rash, skin darkening, pruritus"
+      },
+      dozadan: "Very dangerous (especially in children) — narrow therapeutic range. Symptoms: headache, visual disturbance, cardiac conduction impairment, arrhythmia, convulsions, respiratory and cardiac arrest. Treatment: emergency resuscitation, activated charcoal, diazepam, haemodynamic support; no specific antidote.",
+      ozarotasir: [
+        "QT-prolonging drugs (amiodarone, macrolides, fluoroquinolones): additive arrhythmia risk",
+        "Digoxin: raises concentration; insulin/hypoglycaemics: enhances hypoglycaemia",
+        "Antacids: reduce absorption — separate by 4 h",
+        "Ciclosporin: raises concentration"
+      ],
+      qollash: {
+        kattalar: "Rheumatoid arthritis/lupus: 200–400 mg/day (ideally ≤5 mg/kg/day of ideal weight — to reduce retinopathy risk). Malaria treatment: 800 mg, then 400 mg at 6/24/48 h. Take with food.",
+        bolalar: "By body weight; in malaria and rheumatic disease at a low dose, under medical supervision (overdose in children is extremely dangerous)."
+      },
+      chiqarish: "Tablets (coated) 200 mg (hydroxychloroquine sulfate)"
+    }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // Batch P2 — Antgelmint vositalar (chuvalchanglarga qarshi)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── MEBENDAZOL | ATX: P02CA01 ──
+  "P02CA01": {
+    uz: {
+      gruppa: "Antgelmint vositalar — benzimidazol hosilasi (keng spektrli)",
+      farmTasir: "Keng spektrli chuvalchanglarga qarshi",
+      farmakodinamika: `Mebendazol — benzimidazol guruhiga mansub keng spektrli antgelmint preparat. Gelmint hujayralarida beta-tubulinga selektiv bog'lanib mikronaychalar yig'ilishini bloklaydi — natijada parazitda glyukoza so'rilishi va energiya (ATF) hosil bo'lishi to'xtaydi, hujayra strukturalari (sekretor pufakchalar) buziladi va chuvalchang asta-sekin halok bo'ladi. Enterobius vermicularis (ostritsa), Ascaris lumbricoides (askarida), Trichuris trichiura (qiltanbosh), Ancylostoma/Necator (ankilostomoz) va aralash invaziyalarga samarali. Asosan ichak ichida ta'sir qiladi (kam so'riladi).`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali juda kam so'riladi (~5–10%), shu sababli ichak gelmintlarига mahalliy ta'sir qiladi; yog'li ovqat so'rilishni biroz oshiradi.",
+        tarqalish: "So'rilgan qism plazma oqsillariga ~90% bog'lanadi.",
+        metabolizm: "Jigarda tez metabolizatsiya (faolsiz metabolitlar).",
+        chiqarilish: "Asosan najas orqali (o'zgarmagan), qisman siydik. T½ — 3–6 soat."
+      },
+      korsatmalar: [
+        "Enterobioz (ostritsa)",
+        "Askaridoz",
+        "Trixotsefalyoz (qiltanbosh)",
+        "Ankilostomidoz; aralash gelmint invaziyalari"
+      ],
+      qarrshi: [
+        "Mebendazolga o'ta sezgirlik",
+        "Homiladorlik (ayniqsa I trimestr) va emizish davri",
+        "2 yoshgacha bolalar (ehtiyot); og'ir jigar yetishmovchiligi",
+        "Yarali kolit, Kron kasalligi (yuqori dozada)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Qorin og'rig'i, ko'ngil aynishi, diareya (ayniqsa massiv invaziyada chuvalchang chiqishida)",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi (kamdan-kam)",
+        "Allergik / teri": "Toshma, qichima, eshakemi (kamdan-kam)",
+        "Qon / jigar (yuqori doza, uzoq kurs)": "Neytropeniya, transaminazalar oshishi"
+      },
+      dozadan: "Belgilari: qorin og'rig'i, ko'ngil aynishi, diareya. Davolash: simptomatik, oshqozonni yuvish (yaqinda qabul qilingan bo'lsa).",
+      ozarotasir: [
+        "Simetidin: mebendazol konsentratsiyasini oshiradi (jigar metabolizmini sekinlashtirib)",
+        "Karbamazepin, fenitoin: konsentratsiyasini kamaytiradi",
+        "Metronidazol bilan birga og'ir teri reaksiyalari (Stivens-Jonson) xavfi — birga ishlatilmaydi"
+      ],
+      qollash: {
+        kattalar: "Enterobioz: 100 mg bir martalik, 2–4 haftadan keyin takror. Askaridoz/trixotsefalyoz/ankilostomidoz: 100 mg×2/kun 3 kun (yoki 500 mg bir martalik). Oila a'zolarini birga davolash tavsiya etiladi.",
+        bolalar: "1–2 yoshdan boshlab (preparatga qarab) — kattalar dozasiga o'xshash; enterobiozда 100 mg bir martalik, takror."
+      },
+      chiqarish: "Tabletkalar (chaynaladigan) 100 mg; suspenziya 100 mg/5 ml"
+    },
+    ru: {
+      gruppa: "Противогельминтные средства — производное бензимидазола (широкого спектра)",
+      farmTasir: "Противогельминтное широкого спектра",
+      farmakodinamika: `Мебендазол — противогельминтный препарат широкого спектра группы бензимидазола. Избирательно связываясь с бета-тубулином клеток гельминта, блокирует сборку микротрубочек — в результате у паразита прекращается усвоение глюкозы и образование энергии (АТФ), разрушаются клеточные структуры (секреторные везикулы) и червь постепенно гибнет. Эффективен против Enterobius vermicularis (острица), Ascaris lumbricoides (аскарида), Trichuris trichiura (власоглав), Ancylostoma/Necator (анкилостомоз) и смешанных инвазий. Действует преимущественно в просвете кишечника (мало всасывается).`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается очень мало (~5–10%), поэтому действует местно на кишечных гельминтов; жирная пища несколько повышает всасывание.",
+        tarqalish: "Всосавшаяся часть связывается с белками плазмы на ~90%.",
+        metabolizm: "Быстро в печени (неактивные метаболиты).",
+        chiqarilish: "Преимущественно с калом (в неизменённом виде), частично с мочой. T½ — 3–6 ч."
+      },
+      korsatmalar: [
+        "Энтеробиоз (острица)",
+        "Аскаридоз",
+        "Трихоцефалёз (власоглав)",
+        "Анкилостомидоз; смешанные гельминтные инвазии"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к мебендазолу",
+        "Беременность (особенно I триместр) и период лактации",
+        "Дети до 2 лет (с осторожностью); тяжёлая печёночная недостаточность",
+        "Язвенный колит, болезнь Крона (в высокой дозе)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Боль в животе, тошнота, диарея (особенно при массивной инвазии при отхождении червей)",
+        "Нервная система": "Головная боль, головокружение (редко)",
+        "Аллергия / кожа": "Сыпь, зуд, крапивница (редко)",
+        "Кровь / печень (высокая доза, длительный курс)": "Нейтропения, повышение трансаминаз"
+      },
+      dozadan: "Симптомы: боль в животе, тошнота, диарея. Лечение: симптоматически, промывание желудка (если принят недавно).",
+      ozarotasir: [
+        "Циметидин: повышает концентрацию мебендазола (замедляя печёночный метаболизм)",
+        "Карбамазепин, фенитоин: снижают концентрацию",
+        "С метронидазолом — риск тяжёлых кожных реакций (Стивенса-Джонсона) — не сочетать"
+      ],
+      qollash: {
+        kattalar: "Энтеробиоз: 100 мг однократно, повтор через 2–4 недели. Аскаридоз/трихоцефалёз/анкилостомидоз: 100 мг×2/сут 3 дня (или 500 мг однократно). Рекомендуется лечить членов семьи.",
+        bolalar: "С 1–2 лет (по препарату) — аналогично взрослым; при энтеробиозе 100 мг однократно, с повтором."
+      },
+      chiqarish: "Таблетки (жевательные) 100 мг; суспензия 100 мг/5 мл"
+    },
+    en: {
+      gruppa: "Anthelmintic agents — benzimidazole derivative (broad-spectrum)",
+      farmTasir: "Broad-spectrum anthelmintic",
+      farmakodinamika: `Mebendazole is a broad-spectrum anthelmintic of the benzimidazole group. By selectively binding beta-tubulin in helminth cells it blocks microtubule assembly — so the parasite's glucose uptake and energy (ATP) production stop, cellular structures (secretory vesicles) are destroyed and the worm gradually dies. It is effective against Enterobius vermicularis (pinworm), Ascaris lumbricoides (roundworm), Trichuris trichiura (whipworm), Ancylostoma/Necator (hookworm) and mixed infestations. It acts mainly in the intestinal lumen (poorly absorbed).`,
+      farmakokinetika: {
+        sorish: "Very poorly absorbed orally (~5–10%), so it acts locally on intestinal helminths; a fatty meal slightly increases absorption.",
+        tarqalish: "The absorbed fraction is ~90% plasma protein bound.",
+        metabolizm: "Rapidly in the liver (inactive metabolites).",
+        chiqarilish: "Mainly faecal (unchanged), partly renal. T½ — 3–6 h."
+      },
+      korsatmalar: [
+        "Enterobiasis (pinworm)",
+        "Ascariasis",
+        "Trichocephaliasis (whipworm)",
+        "Hookworm infection; mixed helminth infestations"
+      ],
+      qarrshi: [
+        "Hypersensitivity to mebendazole",
+        "Pregnancy (especially first trimester) and lactation",
+        "Children under 2 years (caution); severe hepatic failure",
+        "Ulcerative colitis, Crohn disease (at high dose)"
+      ],
+      nojoya: {
+        "Digestive system": "Abdominal pain, nausea, diarrhoea (especially in massive infestation as worms are passed)",
+        "Nervous system": "Headache, dizziness (rare)",
+        "Allergy / skin": "Rash, pruritus, urticaria (rare)",
+        "Blood / liver (high dose, long course)": "Neutropenia, raised transaminases"
+      },
+      dozadan: "Symptoms: abdominal pain, nausea, diarrhoea. Treatment: symptomatic, gastric lavage (if taken recently).",
+      ozarotasir: [
+        "Cimetidine: raises mebendazole concentration (slowing hepatic metabolism)",
+        "Carbamazepine, phenytoin: lower concentration",
+        "With metronidazole — risk of severe skin reactions (Stevens-Johnson) — do not combine"
+      ],
+      qollash: {
+        kattalar: "Enterobiasis: 100 mg single dose, repeat in 2–4 weeks. Ascariasis/trichocephaliasis/hookworm: 100 mg×2/day for 3 days (or 500 mg single dose). Treating family members is recommended.",
+        bolalar: "From 1–2 years (per product) — as for adults; in enterobiasis 100 mg single dose, with a repeat."
+      },
+      chiqarish: "Tablets (chewable) 100 mg; suspension 100 mg/5 mL"
+    }
+  },
+
+  // ── ALBENDAZOL | ATX: P02CA03 ──
+  "P02CA03": {
+    uz: {
+      gruppa: "Antgelmint vositalar — benzimidazol hosilasi (keng spektrli, tizimli)",
+      farmTasir: "Keng spektrli chuvalchang va to'qima parazitlariga qarshi",
+      farmakodinamika: `Albendazol — benzimidazol guruhiga mansub keng spektrli antgelmint. Gelmint beta-tubuliniga bog'lanib mikronaychalar polimerizatsiyasini bloklaydi, parazitда glyukoza so'rilishi va ATF hosil bo'lishini to'xtatadi — chuvalchang energiya tanqisligidan halok bo'ladi. Mebendazolдан farqli — faol metaboliti (albendazol-sulfoksid) yaxshiroq so'rilib tizimli ta'sir qiladi, shu sababli ichak gelmintlaridan tashqari to'qima parazitlarига (exinokokk kistalari, sistitserkoz/neyrosistitserkoz, kapillyarioz, strongiloidoz) ham samarali. Lichinka va tuxumlarga ham ta'sir qiladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali kam so'riladi; yog'li ovqat so'rilishni 5 baravar oshiradi (to'qima invaziyalarида ovqat bilan beriladi).",
+        tarqalish: "Faol sulfoksid metaboliti to'qima va kistalarga (jumladan BOM, exinokokk kistasi) kiradi.",
+        metabolizm: "Jigarda tez faol albendazol-sulfoksidga, keyin faolsiz sulfonga.",
+        chiqarilish: "Asosan o't (najas) orqali, qisman siydik. Sulfoksid T½ — ~8–12 soat."
+      },
+      korsatmalar: [
+        "Ichak gelmintozlari: askaridoz, enterobioz, trixotsefalyoz, ankilostomidoz, strongiloidoz, teniaz",
+        "To'qima invaziyalari: kistali exinokokkoz (jarrohlikдан oldin/keyin yoki o'rnida), alveolyar exinokokkoz",
+        "Neyrosistitserkoz (cho'chqa solityorining lichinka shakli)",
+        "Lyamblioz (bolalarда), kapillyarioz, gnatostomoz, toksokaroz (yordamchi)"
+      ],
+      qarrshi: [
+        "Albendazolga o'ta sezgirlik",
+        "Homiladorlik (teratogen — davodan oldin homiladorlikni istisno qilish va kontratseptsiya) va emizish",
+        "To'r parda kasalliklari (neyrosistitserkozда ehtiyot); og'ir jigar yetishmovchiligi",
+        "Suyak ko'migi depressiyasi"
+      ],
+      nojoya: {
+        "Hazm tizimi / jigar": "Qorin og'rig'i, ko'ngil aynishi, qusish; transaminazalar oshishi, gepatit (uzoq kursда — jigar nazorati zarur)",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi; neyrosistitserkozда — kista o'limidan yallig'lanish reaksiyasi (bosh og'rig'i, tutqanoq — kortikosteroid bilan boshqariladi)",
+        "Qon": "Leykopeniya, agranulotsitoz, pansitopeniya (uzoq yuqori dozada — qon nazorati)",
+        "Teri / boshqa": "Alopetsiya (qaytar), toshma, isitma"
+      },
+      dozadan: "Belgilari: oshqozon-ichak buzilishi, jigar fermentlari oshishi. Davolash: simptomatik, jigar va qon ko'rsatkichlari nazorati.",
+      ozarotasir: [
+        "Deksametazon, simetidin, prazikvantel: albendazol-sulfoksid konsentratsiyasini oshiradi",
+        "Karbamazepin, fenitoin, fenobarbital: konsentratsiyasini kamaytiradi (CYP induksiyasi)",
+        "Greypfrut sharbati: konsentratsiyasini oshiradi"
+      ],
+      qollash: {
+        kattalar: "Ichak gelmintozlari: 400 mg bir martalik (strongiloidoz/teniazда 3 kun). Exinokokkoz: 400 mg×2/kun (10–15 mg/kg/kun) — 28 kunlik sikllar, oraliq bilan takror. Neyrosistitserkoz: 15 mg/kg/kun (8–30 kun), kortikosteroid bilan. Ovqat (yog'li) bilan.",
+        bolalar: "1–2 yoshdan: 200–400 mg bir martalik; to'qima invaziyalarида vaznga qarab (10–15 mg/kg/kun), shifokor nazoratida."
+      },
+      chiqarish: "Tabletkalar (chaynaladigan) 200, 400 mg; suspenziya 100 mg/5 ml"
+    },
+    ru: {
+      gruppa: "Противогельминтные средства — производное бензимидазола (широкого спектра, системное)",
+      farmTasir: "Против кишечных и тканевых паразитов широкого спектра",
+      farmakodinamika: `Альбендазол — противогельминтный препарат широкого спектра группы бензимидазола. Связываясь с бета-тубулином гельминта, блокирует полимеризацию микротрубочек, прекращает усвоение глюкозы и образование АТФ — червь гибнет от дефицита энергии. В отличие от мебендазола, его активный метаболит (албендазол-сульфоксид) лучше всасывается и действует системно, поэтому эффективен не только против кишечных гельминтов, но и против тканевых паразитов (эхинококковые кисты, цистицеркоз/нейроцистицеркоз, капилляриоз, стронгилоидоз). Действует также на личинки и яйца.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается мало; жирная пища повышает всасывание в 5 раз (при тканевых инвазиях дают с едой).",
+        tarqalish: "Активный сульфоксидный метаболит проникает в ткани и кисты (включая СМЖ, эхинококковую кисту).",
+        metabolizm: "В печени быстро в активный албендазол-сульфоксид, затем в неактивный сульфон.",
+        chiqarilish: "Преимущественно с жёлчью (кал), частично с мочой. T½ сульфоксида — ~8–12 ч."
+      },
+      korsatmalar: [
+        "Кишечные гельминтозы: аскаридоз, энтеробиоз, трихоцефалёз, анкилостомидоз, стронгилоидоз, тениоз",
+        "Тканевые инвазии: кистозный эхинококкоз (до/после операции или вместо неё), альвеолярный эхинококкоз",
+        "Нейроцистицеркоз (личиночная форма свиного цепня)",
+        "Лямблиоз (у детей), капилляриоз, гнатостомоз, токсокароз (вспомогательно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к альбендазолу",
+        "Беременность (тератогенен — до лечения исключить беременность и контрацепция) и лактация",
+        "Заболевания сетчатки (осторожно при нейроцистицеркозе); тяжёлая печёночная недостаточность",
+        "Угнетение костного мозга"
+      ],
+      nojoya: {
+        "Пищеварительная система / печень": "Боль в животе, тошнота, рвота; повышение трансаминаз, гепатит (при длительном курсе — нужен контроль печени)",
+        "Нервная система": "Головная боль, головокружение; при нейроцистицеркозе — воспалительная реакция от гибели кист (головная боль, судороги — управляется кортикостероидом)",
+        "Кровь": "Лейкопения, агранулоцитоз, панцитопения (при длительном высокодозовом приёме — контроль крови)",
+        "Кожа / прочее": "Алопеция (обратимая), сыпь, лихорадка"
+      },
+      dozadan: "Симптомы: расстройство ЖКТ, повышение печёночных ферментов. Лечение: симптоматически, контроль показателей печени и крови.",
+      ozarotasir: [
+        "Дексаметазон, циметидин, празиквантел: повышают концентрацию албендазол-сульфоксида",
+        "Карбамазепин, фенитоин, фенобарбитал: снижают концентрацию (индукция CYP)",
+        "Грейпфрутовый сок: повышает концентрацию"
+      ],
+      qollash: {
+        kattalar: "Кишечные гельминтозы: 400 мг однократно (при стронгилоидозе/тениозе 3 дня). Эхинококкоз: 400 мг×2/сут (10–15 мг/кг/сут) — циклы по 28 дней с перерывами. Нейроцистицеркоз: 15 мг/кг/сут (8–30 дней) с кортикостероидом. С (жирной) едой.",
+        bolalar: "С 1–2 лет: 200–400 мг однократно; при тканевых инвазиях по массе (10–15 мг/кг/сут), под контролем врача."
+      },
+      chiqarish: "Таблетки (жевательные) 200, 400 мг; суспензия 100 мг/5 мл"
+    },
+    en: {
+      gruppa: "Anthelmintic agents — benzimidazole derivative (broad-spectrum, systemic)",
+      farmTasir: "Against intestinal and tissue parasites, broad-spectrum",
+      farmakodinamika: `Albendazole is a broad-spectrum anthelmintic of the benzimidazole group. By binding helminth beta-tubulin it blocks microtubule polymerisation and halts the parasite's glucose uptake and ATP production — the worm dies from energy deficit. Unlike mebendazole, its active metabolite (albendazole sulfoxide) is better absorbed and acts systemically, so it is effective not only against intestinal helminths but also tissue parasites (echinococcal cysts, cysticercosis/neurocysticercosis, capillariasis, strongyloidiasis). It also acts on larvae and eggs.`,
+      farmakokinetika: {
+        sorish: "Poorly absorbed orally; a fatty meal increases absorption 5-fold (given with food for tissue infestations).",
+        tarqalish: "The active sulfoxide metabolite penetrates tissues and cysts (including CSF, echinococcal cyst).",
+        metabolizm: "Rapidly in the liver to active albendazole sulfoxide, then inactive sulfone.",
+        chiqarilish: "Mainly biliary (faeces), partly renal. Sulfoxide T½ — ~8–12 h."
+      },
+      korsatmalar: [
+        "Intestinal helminthiases: ascariasis, enterobiasis, trichocephaliasis, hookworm, strongyloidiasis, taeniasis",
+        "Tissue infestations: cystic echinococcosis (before/after surgery or instead of it), alveolar echinococcosis",
+        "Neurocysticercosis (larval form of the pork tapeworm)",
+        "Giardiasis (in children), capillariasis, gnathostomiasis, toxocariasis (adjunct)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to albendazole",
+        "Pregnancy (teratogenic — exclude pregnancy before treatment and use contraception) and lactation",
+        "Retinal disease (caution in neurocysticercosis); severe hepatic failure",
+        "Bone marrow suppression"
+      ],
+      nojoya: {
+        "Digestive system / liver": "Abdominal pain, nausea, vomiting; raised transaminases, hepatitis (with a long course — liver monitoring needed)",
+        "Nervous system": "Headache, dizziness; in neurocysticercosis — an inflammatory reaction from cyst death (headache, convulsions — managed with a corticosteroid)",
+        "Blood": "Leukopenia, agranulocytosis, pancytopenia (with prolonged high-dose use — blood monitoring)",
+        "Skin / other": "Alopecia (reversible), rash, fever"
+      },
+      dozadan: "Symptoms: GI upset, raised liver enzymes. Treatment: symptomatic, monitor liver and blood indices.",
+      ozarotasir: [
+        "Dexamethasone, cimetidine, praziquantel: raise albendazole sulfoxide concentration",
+        "Carbamazepine, phenytoin, phenobarbital: lower concentration (CYP induction)",
+        "Grapefruit juice: raises concentration"
+      ],
+      qollash: {
+        kattalar: "Intestinal helminthiases: 400 mg single dose (3 days for strongyloidiasis/taeniasis). Echinococcosis: 400 mg×2/day (10–15 mg/kg/day) — 28-day cycles with breaks. Neurocysticercosis: 15 mg/kg/day (8–30 days) with a corticosteroid. With (fatty) food.",
+        bolalar: "From 1–2 years: 200–400 mg single dose; for tissue infestations by weight (10–15 mg/kg/day), under medical supervision."
+      },
+      chiqarish: "Tablets (chewable) 200, 400 mg; suspension 100 mg/5 mL"
+    }
+  },
+
+  // ── PIRANTEL | ATX: P02CC01 ──
+  "P02CC01": {
+    uz: {
+      gruppa: "Antgelmint vositalar — pirimidin hosilasi (depolyarizatsiyalovchi)",
+      farmTasir: "Chuvalchanglarga qarshi (nerv-mushak bloki)",
+      farmakodinamika: `Pirantel (pamoat/embonat) — pirimidin hosilasi bo'lgan antgelmint. Gelmintда nerv-mushak qo'shilishida depolyarizatsiyalovchi blok hosil qiladi: nikotin retseptorlarini qo'zg'atib chuvalchang mushaklarining doimiy qisqarishini (spastik falaj) keltirib chiqaradi — parazit ichak peristaltikasi bilan tashqariga chiqariladi. Yetuk (voyaga yetgan) gelmintlarga ta'sir qiladi, lichinkalarga ta'sir qilmaydi. Enterobius (ostritsa), Ascaris (askarida), Ancylostoma/Necator (ankilostomoz) ga samarali. Deyarli so'rilmaydi — ichak ichida ta'sir qiladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali juda kam so'riladi (mahalliy ichak ta'siri).",
+        tarqalish: "So'rilgan oz qism qonda past konsentratsiyada.",
+        metabolizm: "So'rilgan qism jigarda qisman metabolizatsiya.",
+        chiqarilish: "Asosan najas orqali (o'zgarmagan, >50%), oz qism siydik."
+      },
+      korsatmalar: [
+        "Enterobioz (ostritsa)",
+        "Askaridoz",
+        "Ankilostomidoz (ankilostomoz va nekatoroz)",
+        "Aralash invaziyalar (yuqoridagilar)"
+      ],
+      qarrshi: [
+        "Pirantelga o'ta sezgirlik",
+        "Miastenia gravis (nerv-mushak bloki tufayli ehtiyot)",
+        "Og'ir jigar yetishmovchiligi (ehtiyot)",
+        "Homiladorlik va emizishда faqat zarurat bo'lganda (shifokor bilan)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, qorin og'rig'i, diareya, ishtahaning yo'qolishi",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi, uyquchanlik yoki uyqusizlik (kamdan-kam)",
+        "Allergik / teri": "Toshma (kamdan-kam)",
+        "Jigar": "Transaminazalarning vaqtinchalik oshishi (kamdan-kam)"
+      },
+      dozadan: "Past toksiklik; ortiqcha dozada — oshqozon-ichak buzilishi. Davolash: simptomatik.",
+      ozarotasir: [
+        "Piperazin: antagonistik ta'sir (qarama-qarshi mexanizm) — birga ishlatilmaydi",
+        "Teofillin: konsentratsiyasini oshirishi mumkin",
+        "Boshqa antgelmintlar (levamizol) bilan ta'sirni hisobga olish"
+      ],
+      qollash: {
+        kattalar: "Enterobioz/askaridoz: 10 mg/kg (odatda ~750 mg, ≥75 kg da 1 g) bir martalik; enterobiozда 2–3 haftadan keyin takror. Ankilostomidoz: 10 mg/kg/kun 3 kun. Oila a'zolarini birga davolash.",
+        bolalar: "6 oydan: 10 mg/kg bir martalik (suspenziya shaklida), takror bilan."
+      },
+      chiqarish: "Tabletkalar 250 mg (pirantel pamoat); suspenziya 250 mg/5 ml"
+    },
+    ru: {
+      gruppa: "Противогельминтные средства — производное пиримидина (деполяризующее)",
+      farmTasir: "Противогельминтное (нервно-мышечный блок)",
+      farmakodinamika: `Пирантел (памоат/эмбонат) — противогельминтный препарат, производное пиримидина. Вызывает деполяризующий блок в нервно-мышечном соединении гельминта: возбуждая никотиновые рецепторы, вызывает стойкое сокращение мышц червя (спастический паралич) — паразит выводится перистальтикой кишечника. Действует на половозрелых гельминтов, не действует на личинки. Эффективен против Enterobius (острица), Ascaris (аскарида), Ancylostoma/Necator (анкилостомоз). Почти не всасывается — действует в просвете кишечника.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается очень мало (местное кишечное действие).",
+        tarqalish: "Всосавшаяся малая часть в низкой концентрации в крови.",
+        metabolizm: "Всосавшаяся часть частично в печени.",
+        chiqarilish: "Преимущественно с калом (в неизменённом виде, >50%), малая часть с мочой."
+      },
+      korsatmalar: [
+        "Энтеробиоз (острица)",
+        "Аскаридоз",
+        "Анкилостомидоз (анкилостомоз и некатороз)",
+        "Смешанные инвазии (из перечисленных)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к пирантелу",
+        "Миастения гравис (осторожно из-за нервно-мышечного блока)",
+        "Тяжёлая печёночная недостаточность (с осторожностью)",
+        "Беременность и лактация — только при необходимости (с врачом)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Тошнота, рвота, боль в животе, диарея, потеря аппетита",
+        "Нервная система": "Головная боль, головокружение, сонливость или бессонница (редко)",
+        "Аллергия / кожа": "Сыпь (редко)",
+        "Печень": "Преходящее повышение трансаминаз (редко)"
+      },
+      dozadan: "Низкая токсичность; при избытке — расстройство ЖКТ. Лечение: симптоматически.",
+      ozarotasir: [
+        "Пиперазин: антагонистическое действие (противоположный механизм) — не сочетать",
+        "Теофиллин: может повышать концентрацию",
+        "Учитывать взаимодействие с другими противогельминтными (левамизол)"
+      ],
+      qollash: {
+        kattalar: "Энтеробиоз/аскаридоз: 10 мг/кг (обычно ~750 мг, при ≥75 кг 1 г) однократно; при энтеробиозе повтор через 2–3 недели. Анкилостомидоз: 10 мг/кг/сут 3 дня. Лечить членов семьи.",
+        bolalar: "С 6 месяцев: 10 мг/кг однократно (в форме суспензии), с повтором."
+      },
+      chiqarish: "Таблетки 250 мг (пирантела памоат); суспензия 250 мг/5 мл"
+    },
+    en: {
+      gruppa: "Anthelmintic agents — pyrimidine derivative (depolarising)",
+      farmTasir: "Anthelmintic (neuromuscular block)",
+      farmakodinamika: `Pyrantel (pamoate/embonate) is an anthelmintic, a pyrimidine derivative. It produces a depolarising block at the helminth's neuromuscular junction: by stimulating nicotinic receptors it causes sustained contraction of the worm's muscles (spastic paralysis) — the parasite is expelled by intestinal peristalsis. It acts on adult (mature) helminths, not on larvae. It is effective against Enterobius (pinworm), Ascaris (roundworm), Ancylostoma/Necator (hookworm). It is barely absorbed — acting in the intestinal lumen.`,
+      farmakokinetika: {
+        sorish: "Very poorly absorbed orally (local intestinal action).",
+        tarqalish: "The small absorbed fraction at low blood concentration.",
+        metabolizm: "The absorbed part partly in the liver.",
+        chiqarilish: "Mainly faecal (unchanged, >50%), a small part renal."
+      },
+      korsatmalar: [
+        "Enterobiasis (pinworm)",
+        "Ascariasis",
+        "Hookworm infection (ancylostomiasis and necatoriasis)",
+        "Mixed infestations (of the above)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to pyrantel",
+        "Myasthenia gravis (caution due to neuromuscular block)",
+        "Severe hepatic failure (with caution)",
+        "Pregnancy and lactation — only if necessary (with a physician)"
+      ],
+      nojoya: {
+        "Digestive system": "Nausea, vomiting, abdominal pain, diarrhoea, loss of appetite",
+        "Nervous system": "Headache, dizziness, drowsiness or insomnia (rare)",
+        "Allergy / skin": "Rash (rare)",
+        "Liver": "Transient rise in transaminases (rare)"
+      },
+      dozadan: "Low toxicity; with excess — GI upset. Treatment: symptomatic.",
+      ozarotasir: [
+        "Piperazine: antagonistic action (opposite mechanism) — do not combine",
+        "Theophylline: may raise concentration",
+        "Consider interaction with other anthelmintics (levamisole)"
+      ],
+      qollash: {
+        kattalar: "Enterobiasis/ascariasis: 10 mg/kg (usually ~750 mg, 1 g at ≥75 kg) single dose; in enterobiasis repeat in 2–3 weeks. Hookworm: 10 mg/kg/day for 3 days. Treat family members.",
+        bolalar: "From 6 months: 10 mg/kg single dose (as suspension), with a repeat."
+      },
+      chiqarish: "Tablets 250 mg (pyrantel pamoate); suspension 250 mg/5 mL"
+    }
+  },
+
+  // ── IVERMEKTIN | ATX: P02CF01 ──
+  "P02CF01": {
+    uz: {
+      gruppa: "Antgelmint va ektoparazitar vositalar — avermektin (makrotsiklik lakton)",
+      farmTasir: "Chuvalchang va ektoparazitlarga qarshi (xlor kanali agonisti)",
+      farmakodinamika: `Ivermektin — Streptomyces avermitilisдан olingan avermektinlar guruhiga mansub keng spektrli antiparazitar preparat. Umurtqasizlar (gelmint va artropod)да glutamat bilan boshqariladigan xlor kanallarini selektiv ochib, nerv va mushak hujayralariga xlor ionlari kirishini oshiradi — bu giperpolyarizatsiya va parazitning falaji hamda o'limiga olib keladi. Sutemizuvchilarда bu kanallar markaziy nerv tizimida bo'lib, gematoentsefalik to'siq ivermektinни o'tkazmaydi — shu sababli odamга nisbatan xavfsiz. Onxotserkoz, strongiloidoz, filyarioz, qo'tir (Sarcoptes) va bit kabi ko'plab parazitlarга samarali.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali so'riladi; yog'li ovqat biokirishni oshiradi. Cmax ~4 soatда.",
+        tarqalish: "To'qimalarга keng tarqaladi, plazma oqsillariga ~93% bog'lanadi; sog'lom GETни o'tmaydi.",
+        metabolizm: "Jigarда CYP3A4 ishtirokida metabolizatsiya.",
+        chiqarilish: "Asosan najas (o't) orqali, <1% siydik. T½ — ~18 soat."
+      },
+      korsatmalar: [
+        "Onxotserkoz («daryo ko'rligi»)",
+        "Ichak strongiloidozi",
+        "Limfatik filyarioz (boshqa preparatlar bilan)",
+        "Qo'tir (ayniqsa norvег/qobiqli shakl), pedikulyoz; askaridoz, trixotsefalyoz (yordamchi)"
+      ],
+      qarrshi: [
+        "Ivermektinga o'ta sezgirlik",
+        "Loa loa ko'p invaziyasi (og'ir ensefalopatiya xavfi)",
+        "Gematoentsefalik to'siq buzilgan holatlar; 15 kg dan kichik bolalar (ma'lumot cheklangan)",
+        "Homiladorlik va emizishда ehtiyot"
+      ],
+      nojoya: {
+        "Mazzotti reaksiyasi (onxotserkozда)": "Parazit o'limidan: isitma, qichima, toshma, limfa tugun shishi, bo'g'im/mushak og'rig'i, gipotenziya (parazit yuki bilan bog'liq)",
+        "Hazm tizimi": "Ko'ngil aynishi, diareya, qorin og'rig'i",
+        "Asab tizimi": "Bosh aylanishi, uyquchanlik, holsizlik, tremor",
+        "Teri / ko'z": "Toshma, qichima; onxotserkozда ko'z noxushligi"
+      },
+      dozadan: "Belgilari: toshma, shish, bosh og'rig'i, ataksiya, ko'ngil aynishi; og'ir holatда (ayniqsa GET buzilganда) — ataksiya, mioz, koma. Davolash: simptomatik, suyuqlik va qo'llab-quvvatlovchi terapiya.",
+      ozarotasir: [
+        "Markaziy depressantlar (benzodiazepinlar, barbituratlar): GABA-ergik ta'sirni teoretik kuchaytirishi mumkin",
+        "Kuchli CYP3A4 inhibitorlari konsentratsiyasini oshirishi mumkin",
+        "Varfarin: antikoagulyant ta'sirini biroz kuchaytirishi mumkin"
+      ],
+      qollash: {
+        kattalar: "Onxotserkoz: 150 mkg/kg bir martalik, 6–12 oyда takror. Strongiloidoz: 200 mkg/kg bir martalik (yoki 2 kun). Qo'tir: 200 mkg/kg bir martalik, 1–2 haftaда takror (mahalliy davo bilan). Och qoringa, suv bilan.",
+        bolalar: "15 kg dan og'irlarда: 150–200 mkg/kg vaznga qarab, shifokor nazoratida."
+      },
+      chiqarish: "Tabletkalar 3 mg, 6 mg; mahalliy krem/losьon (qo'tir, rozatsea uchun — alohida shakllar)"
+    },
+    ru: {
+      gruppa: "Противогельминтные и противопаразитарные средства — авермектин (макроциклический лактон)",
+      farmTasir: "Против гельминтов и эктопаразитов (агонист хлорных каналов)",
+      farmakodinamika: `Ивермектин — противопаразитарный препарат широкого спектра группы авермектинов (из Streptomyces avermitilis). У беспозвоночных (гельминты и членистоногие) избирательно открывает глутамат-зависимые хлорные каналы, усиливая вход ионов хлора в нервные и мышечные клетки — это вызывает гиперполяризацию, паралич и гибель паразита. У млекопитающих эти каналы находятся в ЦНС, а гематоэнцефалический барьер не пропускает ивермектин — поэтому для человека он относительно безопасен. Эффективен против онхоцеркоза, стронгилоидоза, филяриоза, чесотки (Sarcoptes) и вшей.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь всасывается; жирная пища повышает биодоступность. Cmax через ~4 ч.",
+        tarqalish: "Широко распределяется в тканях, связь с белками плазмы ~93%; не проникает через здоровый ГЭБ.",
+        metabolizm: "В печени при участии CYP3A4.",
+        chiqarilish: "Преимущественно с калом (жёлчь), <1% с мочой. T½ — ~18 ч."
+      },
+      korsatmalar: [
+        "Онхоцеркоз («речная слепота»)",
+        "Кишечный стронгилоидоз",
+        "Лимфатический филяриоз (с другими препаратами)",
+        "Чесотка (особенно норвежская/корковая форма), педикулёз; аскаридоз, трихоцефалёз (вспомогательно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к ивермектину",
+        "Массивная инвазия Loa loa (риск тяжёлой энцефалопатии)",
+        "Состояния с нарушением ГЭБ; дети с массой менее 15 кг (данные ограничены)",
+        "Осторожно при беременности и лактации"
+      ],
+      nojoya: {
+        "Реакция Маццотти (при онхоцеркозе)": "От гибели паразита: лихорадка, зуд, сыпь, отёк лимфоузлов, боль в суставах/мышцах, гипотензия (связано с нагрузкой паразитами)",
+        "Пищеварительная система": "Тошнота, диарея, боль в животе",
+        "Нервная система": "Головокружение, сонливость, слабость, тремор",
+        "Кожа / глаза": "Сыпь, зуд; при онхоцеркозе глазной дискомфорт"
+      },
+      dozadan: "Симптомы: сыпь, отёк, головная боль, атаксия, тошнота; в тяжёлых случаях (особенно при нарушении ГЭБ) — атаксия, миоз, кома. Лечение: симптоматически, жидкость и поддерживающая терапия.",
+      ozarotasir: [
+        "Центральные депрессанты (бензодиазепины, барбитураты): теоретически могут усиливать ГАМК-ергическое действие",
+        "Мощные ингибиторы CYP3A4 могут повышать концентрацию",
+        "Варфарин: может несколько усиливать антикоагулянтное действие"
+      ],
+      qollash: {
+        kattalar: "Онхоцеркоз: 150 мкг/кг однократно, повтор через 6–12 мес. Стронгилоидоз: 200 мкг/кг однократно (или 2 дня). Чесотка: 200 мкг/кг однократно, повтор через 1–2 недели (с местным лечением). Натощак, с водой.",
+        bolalar: "С массой более 15 кг: 150–200 мкг/кг по массе, под контролем врача."
+      },
+      chiqarish: "Таблетки 3 мг, 6 мг; местный крем/лосьон (для чесотки, розацеа — отдельные формы)"
+    },
+    en: {
+      gruppa: "Anthelmintic and antiparasitic agents — avermectin (macrocyclic lactone)",
+      farmTasir: "Against helminths and ectoparasites (chloride channel agonist)",
+      farmakodinamika: `Ivermectin is a broad-spectrum antiparasitic of the avermectin group (from Streptomyces avermitilis). In invertebrates (helminths and arthropods) it selectively opens glutamate-gated chloride channels, increasing chloride ion entry into nerve and muscle cells — causing hyperpolarisation, paralysis and death of the parasite. In mammals these channels are in the CNS, and the blood-brain barrier does not admit ivermectin — so it is relatively safe for humans. It is effective against onchocerciasis, strongyloidiasis, filariasis, scabies (Sarcoptes) and lice.`,
+      farmakokinetika: {
+        sorish: "Absorbed orally; a fatty meal increases bioavailability. Cmax in ~4 h.",
+        tarqalish: "Widely distributed in tissues, plasma protein binding ~93%; does not cross the intact BBB.",
+        metabolizm: "Hepatic via CYP3A4.",
+        chiqarilish: "Mainly faecal (bile), <1% renal. T½ — ~18 h."
+      },
+      korsatmalar: [
+        "Onchocerciasis ('river blindness')",
+        "Intestinal strongyloidiasis",
+        "Lymphatic filariasis (with other drugs)",
+        "Scabies (especially Norwegian/crusted form), pediculosis; ascariasis, trichocephaliasis (adjunct)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to ivermectin",
+        "Heavy Loa loa infestation (risk of severe encephalopathy)",
+        "Conditions with a disrupted BBB; children under 15 kg (limited data)",
+        "Caution in pregnancy and lactation"
+      ],
+      nojoya: {
+        "Mazzotti reaction (in onchocerciasis)": "From parasite death: fever, pruritus, rash, lymph node swelling, joint/muscle pain, hypotension (related to parasite burden)",
+        "Digestive system": "Nausea, diarrhoea, abdominal pain",
+        "Nervous system": "Dizziness, drowsiness, weakness, tremor",
+        "Skin / eyes": "Rash, pruritus; ocular discomfort in onchocerciasis"
+      },
+      dozadan: "Symptoms: rash, oedema, headache, ataxia, nausea; in severe cases (especially with a disrupted BBB) — ataxia, miosis, coma. Treatment: symptomatic, fluids and supportive therapy.",
+      ozarotasir: [
+        "Central depressants (benzodiazepines, barbiturates): may theoretically enhance GABAergic action",
+        "Potent CYP3A4 inhibitors may raise concentration",
+        "Warfarin: may slightly enhance anticoagulant effect"
+      ],
+      qollash: {
+        kattalar: "Onchocerciasis: 150 µg/kg single dose, repeat in 6–12 months. Strongyloidiasis: 200 µg/kg single dose (or 2 days). Scabies: 200 µg/kg single dose, repeat in 1–2 weeks (with topical treatment). On an empty stomach, with water.",
+        bolalar: "Over 15 kg: 150–200 µg/kg by weight, under medical supervision."
+      },
+      chiqarish: "Tablets 3 mg, 6 mg; topical cream/lotion (for scabies, rosacea — separate forms)"
+    }
+  },
+
+  // ── NIKLOZAMID | ATX: P02DA01 ──
+  "P02DA01": {
+    uz: {
+      gruppa: "Antgelmint vositalar — salitsilamid hosilasi (testitsid)",
+      farmTasir: "Lentasimon chuvalchanglarga qarshi (sestodlar)",
+      farmakodinamika: `Niklozamid — salitsilamid hosilasi bo'lgan antgelmint bo'lib, asosan lentasimon chuvalchanglarga (sestodlar) qarshi qo'llaniladi. Parazit (testa)ning mitoxondriyalarida oksidlangan fosforillanishni va anaerob ATF hosil bo'lishini bloklaydi, shuningdek glyukoza so'rilishini buzadi — testaning skoleks (boshcha) va proglottidlari halok bo'ladi. O'lik parazit ichak fermentlari ta'sirida qisman hazm bo'lib chiqadi. Deyarli so'rilmaydi — faqat ichak ichida ta'sir qiladi. Taenia saginata, Taenia solium, Diphyllobothrium latum, Hymenolepis nana ga samarali.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqali deyarli so'rilmaydi (ichak ichi ta'siri).",
+        tarqalish: "Tizimli tarqalmaydi.",
+        metabolizm: "So'rilmaydi — metabolizatsiya ahamiyatsiz.",
+        chiqarilish: "Najas orqali (o'zgarmagan)."
+      },
+      korsatmalar: [
+        "Teniarinxoz (Taenia saginata — mol solityori)",
+        "Teniaz (Taenia solium — cho'chqa solityori; sistitserkoz xavfi tufayli ehtiyot)",
+        "Difillobotrioz (Diphyllobothrium latum — keng tasma)",
+        "Gimenolepidoz (Hymenolepis nana — pakana tasma)"
+      ],
+      qarrshi: [
+        "Niklozamidga o'ta sezgirlik",
+        "Homiladorlik (ayniqsa I trimestr) va emizish davrida ehtiyot",
+        "Taeniа solium da — qusish sistitserkoz xavfini oshiradi (qusishга qarshi chora ko'riladi)"
+      ],
+      nojoya: {
+        "Hazm tizimi": "Ko'ngil aynishi, qusish, qorin og'rig'i, ishtahasizlik, diareya",
+        "Asab tizimi": "Bosh og'rig'i, bosh aylanishi (kamdan-kam)",
+        "Allergik / teri": "Qichima, toshma (kamdan-kam — parazit parchalanishidan)"
+      },
+      dozadan: "Past toksiklik (so'rilmaydi); ortiqcha dozada — oshqozon-ichak buzilishi. Davolash: simptomatik, ich yumshatuvchi.",
+      ozarotasir: [
+        "Alkogol: oshqozon shilliq qavatini ta'sirlab so'rilishini oshirishi mumkin — kursда saqlanish",
+        "Tabletkalarni yaxshilab chaynab, oz suv bilan qabul qilish (ta'sir samaradorligi uchun)"
+      ],
+      qollash: {
+        kattalar: "Teniarinxoz/difillobotrioz: 2 g bir martalik (yaxshilab chaynab, ertalab och qoringa; 1 g, 1 soatdan keyin yana 1 g sxemasi ham). Gimenolepidoz: 2 g×1/kun 7 kun. Davodan keyin ich yumshatuvchi berilishi mumkin.",
+        bolalar: "Vaznga qarab: 2–6 yosh ~1 g; 6 yoshdan ~1,5 g; chaynab qabul qilinadi."
+      },
+      chiqarish: "Tabletkalar (chaynaladigan) 500 mg"
+    },
+    ru: {
+      gruppa: "Противогельминтные средства — производное салициламида (тениацид)",
+      farmTasir: "Против ленточных червей (цестоды)",
+      farmakodinamika: `Никлозамид — противогельминтный препарат, производное салициламида, применяется главным образом против ленточных червей (цестод). Блокирует окислительное фосфорилирование и анаэробное образование АТФ в митохондриях паразита (цестоды), а также нарушает усвоение глюкозы — гибнут сколекс (головка) и проглоттиды. Погибший паразит частично переваривается кишечными ферментами и выводится. Почти не всасывается — действует только в просвете кишечника. Эффективен против Taenia saginata, Taenia solium, Diphyllobothrium latum, Hymenolepis nana.`,
+      farmakokinetika: {
+        sorish: "При приёме внутрь практически не всасывается (внутрикишечное действие).",
+        tarqalish: "Системно не распределяется.",
+        metabolizm: "Не всасывается — метаболизм незначителен.",
+        chiqarilish: "С калом (в неизменённом виде)."
+      },
+      korsatmalar: [
+        "Тениаринхоз (Taenia saginata — бычий цепень)",
+        "Тениоз (Taenia solium — свиной цепень; осторожно из-за риска цистицеркоза)",
+        "Дифиллоботриоз (Diphyllobothrium latum — широкий лентец)",
+        "Гименолепидоз (Hymenolepis nana — карликовый цепень)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к никлозамиду",
+        "Беременность (особенно I триместр) и лактация — с осторожностью",
+        "При Taenia solium — рвота повышает риск цистицеркоза (принимают противорвотные меры)"
+      ],
+      nojoya: {
+        "Пищеварительная система": "Тошнота, рвота, боль в животе, потеря аппетита, диарея",
+        "Нервная система": "Головная боль, головокружение (редко)",
+        "Аллергия / кожа": "Зуд, сыпь (редко — от распада паразита)"
+      },
+      dozadan: "Низкая токсичность (не всасывается); при избытке — расстройство ЖКТ. Лечение: симптоматически, слабительное.",
+      ozarotasir: [
+        "Алкоголь: может раздражать слизистую желудка и повышать всасывание — воздержаться на курсе",
+        "Таблетки тщательно разжёвывать и запивать малым количеством воды (для эффективности)"
+      ],
+      qollash: {
+        kattalar: "Тениаринхоз/дифиллоботриоз: 2 г однократно (тщательно разжевать, утром натощак; возможна схема 1 г, затем через 1 ч ещё 1 г). Гименолепидоз: 2 г×1/сут 7 дней. После лечения возможно слабительное.",
+        bolalar: "По массе: 2–6 лет ~1 г; с 6 лет ~1,5 г; принимают разжёвывая."
+      },
+      chiqarish: "Таблетки (жевательные) 500 мг"
+    },
+    en: {
+      gruppa: "Anthelmintic agents — salicylamide derivative (taenicide)",
+      farmTasir: "Against tapeworms (cestodes)",
+      farmakodinamika: `Niclosamide is an anthelmintic, a salicylamide derivative, used mainly against tapeworms (cestodes). It blocks oxidative phosphorylation and anaerobic ATP production in the parasite's (cestode) mitochondria and also disrupts glucose uptake — the scolex (head) and proglottids die. The dead parasite is partly digested by intestinal enzymes and expelled. It is barely absorbed — acting only in the intestinal lumen. It is effective against Taenia saginata, Taenia solium, Diphyllobothrium latum, Hymenolepis nana.`,
+      farmakokinetika: {
+        sorish: "Practically not absorbed orally (intraluminal action).",
+        tarqalish: "Not distributed systemically.",
+        metabolizm: "Not absorbed — metabolism negligible.",
+        chiqarilish: "Faecal (unchanged)."
+      },
+      korsatmalar: [
+        "Taeniarhynchosis (Taenia saginata — beef tapeworm)",
+        "Taeniasis (Taenia solium — pork tapeworm; caution due to cysticercosis risk)",
+        "Diphyllobothriasis (Diphyllobothrium latum — broad tapeworm)",
+        "Hymenolepiasis (Hymenolepis nana — dwarf tapeworm)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to niclosamide",
+        "Pregnancy (especially first trimester) and lactation — with caution",
+        "In Taenia solium — vomiting increases cysticercosis risk (antiemetic measures are taken)"
+      ],
+      nojoya: {
+        "Digestive system": "Nausea, vomiting, abdominal pain, loss of appetite, diarrhoea",
+        "Nervous system": "Headache, dizziness (rare)",
+        "Allergy / skin": "Pruritus, rash (rare — from parasite breakdown)"
+      },
+      dozadan: "Low toxicity (not absorbed); with excess — GI upset. Treatment: symptomatic, a laxative.",
+      ozarotasir: [
+        "Alcohol: may irritate the gastric mucosa and increase absorption — abstain during the course",
+        "Chew the tablets thoroughly and take with a little water (for efficacy)"
+      ],
+      qollash: {
+        kattalar: "Taeniarhynchosis/diphyllobothriasis: 2 g single dose (chew thoroughly, morning fasting; a 1 g then 1 g after 1 h scheme is also possible). Hymenolepiasis: 2 g×1/day for 7 days. A laxative may follow treatment.",
+        bolalar: "By weight: 2–6 years ~1 g; from 6 years ~1.5 g; taken chewed."
+      },
+      chiqarish: "Tablets (chewable) 500 mg"
+    }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // Batch P3 — Ektoparazititsidlar (qo'tir, bit, kanaga qarshi)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── PERMETRIN | ATX: P03AC04 ──
+  "P03AC04": {
+    uz: {
+      gruppa: "Ektoparazitar vositalar — piretroid (mahalliy)",
+      farmTasir: "Qo'tir kanasi va bitlarга qarshi (mahalliy insektitsid)",
+      farmakodinamika: `Permetrin — sintetik piretroid guruhiga mansub mahalliy ektoparazititsid. Parazit (kana, bit) nerv hujayralaridagi natriy kanallarini uzoq vaqt ochiq holatда ushlab turadi — natijada nerv membranasi qayta-qayta depolyarizatsiyalanib qoladi, parazitда falaj va o'lim yuzaga keladi. Sarcoptes scabiei (qo'tir kanasi), Pediculus (bosh va kiyim biti), Phthirus pubis (lobar biti) va ularning tuxumlariga (gnidalar) ta'sir qiladi. Teriga surtilganda kam so'riladi va tez metabolizatsiya bo'ladi — odamga nisbatan xavfsiz.`,
+      farmakokinetika: {
+        sorish: "Teri orqali kam so'riladi (<2%); mahalliy ta'sir asosiy.",
+        tarqalish: "So'rilgan oz qism to'qimalarда.",
+        metabolizm: "Teri va jigarда tez esterazalar bilan faolsiz metabolitlarga parchalanadi.",
+        chiqarilish: "So'rilgan qism siydik orqali."
+      },
+      korsatmalar: [
+        "Qo'tir (skabies)",
+        "Bosh pedikulyozi (bosh biti)",
+        "Lobar pedikulyozi (Phthirus pubis)",
+        "Kiyim biti (yordamchi, gigiyenik chora bilan)"
+      ],
+      qarrshi: [
+        "Permetrin yoki piretroid/xrizantema komponentlariga o'ta sezgirlik",
+        "Teri butunligi keng buzilgan yoki o'tkir yallig'langan joylar (ehtiyot)",
+        "2 oydan kichik chaqaloqlar (preparatga qarab); homiladorlik va emizishда ehtiyot"
+      ],
+      nojoya: {
+        "Teri / mahalliy": "Qo'llash joyida achishish, qichish, qizarish, sanchilish hissi, vaqtinchalik teri quruqligi",
+        "Allergik": "Kontakt dermatit, toshma (kamdan-kam)",
+        "Boshqa": "Qo'tirда davodan keyin qichish bir necha hafta saqlanishi mumkin (kana o'lgan bo'lsa ham — allergik reaksiya, yangi invaziya emas)"
+      },
+      dozadan: "Mahalliy qo'llanish — tizimli dozadan oshish kam. Tasodifan yutib yuborilganда: ko'ngil aynishi, bosh og'rig'i; simptomatik davolash. Ko'zга tushsa — ko'p suv bilan yuvish.",
+      ozarotasir: [
+        "Boshqa mahalliy teri preparatlari bilan birga ta'sirni hisobga olish",
+        "Mahalliy qo'llanishda klinik ahamiyatli tizimli o'zaro ta'sir kam"
+      ],
+      qollash: {
+        kattalar: "Qo'tir: 5% krem butun tanaga (bo'yindan pastga, barmoq oralari, tirnoq ostiga) surtilib, 8–14 soat (kechasi) qoldiriladi, keyin yuviladi; 1–2 haftaда takror. Bosh biti: 1% krem-konditsioner nam sochga 10 daqiqaga, keyin yuviladi; 7–10 kunда takror. Yaqin kontaktlar birga davolanadi, kiyim-kechak qayta ishlanadi.",
+        bolalar: "2 oydan: qo'tirда 5% krem (yuz va bosh terisini ham qamrab, chaqaloqларда), shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "Krem 5% (qo'tir uchun); krem-konditsioner/losьon 1% (bit uchun); sprey"
+    },
+    ru: {
+      gruppa: "Противопаразитарные средства — пиретроид (местный)",
+      farmTasir: "Против чесоточного клеща и вшей (местный инсектицид)",
+      farmakodinamika: `Перметрин — местный эктопаразитицид группы синтетических пиретроидов. Удерживает натриевые каналы нервных клеток паразита (клеща, вши) открытыми длительное время — нервная мембрана многократно деполяризуется, у паразита возникают паралич и гибель. Действует на Sarcoptes scabiei (чесоточный клещ), Pediculus (головная и платяная вошь), Phthirus pubis (лобковая вошь) и их яйца (гниды). При нанесении на кожу мало всасывается и быстро метаболизируется — для человека безопасен.`,
+      farmakokinetika: {
+        sorish: "Через кожу всасывается мало (<2%); основное действие местное.",
+        tarqalish: "Всосавшаяся малая часть в тканях.",
+        metabolizm: "В коже и печени быстро расщепляется эстеразами до неактивных метаболитов.",
+        chiqarilish: "Всосавшаяся часть с мочой."
+      },
+      korsatmalar: [
+        "Чесотка (скабиес)",
+        "Головной педикулёз (головная вошь)",
+        "Лобковый педикулёз (Phthirus pubis)",
+        "Платяная вошь (вспомогательно, с гигиеническими мерами)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к перметрину или пиретроидам/компонентам хризантемы",
+        "Участки с обширным нарушением целостности или острым воспалением кожи (осторожно)",
+        "Дети младше 2 месяцев (по препарату); осторожно при беременности и лактации"
+      ],
+      nojoya: {
+        "Кожа / местные": "Жжение, зуд, покраснение, ощущение покалывания в месте нанесения, временная сухость кожи",
+        "Аллергия": "Контактный дерматит, сыпь (редко)",
+        "Прочее": "При чесотке зуд может сохраняться несколько недель после лечения (даже при гибели клеща — аллергическая реакция, а не новая инвазия)"
+      },
+      dozadan: "Местное применение — системная передозировка маловероятна. При случайном проглатывании: тошнота, головная боль; симптоматически. При попадании в глаза — промыть большим количеством воды.",
+      ozarotasir: [
+        "Учитывать взаимодействие с другими местными кожными препаратами",
+        "При местном применении клинически значимые системные взаимодействия редки"
+      ],
+      qollash: {
+        kattalar: "Чесотка: 5% крем на всё тело (от шеи вниз, межпальцевые промежутки, под ногти), оставить на 8–14 ч (на ночь), затем смыть; повтор через 1–2 недели. Головная вошь: 1% крем-кондиционер на влажные волосы на 10 минут, затем смыть; повтор через 7–10 дней. Лечить близкие контакты, обработать одежду/бельё.",
+        bolalar: "С 2 месяцев: при чесотке 5% крем (у младенцев — включая лицо и волосистую часть головы), по назначению врача."
+      },
+      chiqarish: "Крем 5% (для чесотки); крем-кондиционер/лосьон 1% (для вшей); спрей"
+    },
+    en: {
+      gruppa: "Antiparasitic agents — pyrethroid (topical)",
+      farmTasir: "Against scabies mite and lice (topical insecticide)",
+      farmakodinamika: `Permethrin is a topical ectoparasiticide of the synthetic pyrethroid group. It holds the sodium channels of the parasite's (mite, louse) nerve cells open for a prolonged time — the nerve membrane depolarises repeatedly, causing paralysis and death of the parasite. It acts on Sarcoptes scabiei (scabies mite), Pediculus (head and body louse), Phthirus pubis (pubic louse) and their eggs (nits). Applied to skin it is poorly absorbed and rapidly metabolised — safe for humans.`,
+      farmakokinetika: {
+        sorish: "Poorly absorbed through skin (<2%); the main action is local.",
+        tarqalish: "The small absorbed fraction in tissues.",
+        metabolizm: "Rapidly broken down by esterases in skin and liver to inactive metabolites.",
+        chiqarilish: "The absorbed part renally."
+      },
+      korsatmalar: [
+        "Scabies",
+        "Head lice (pediculosis capitis)",
+        "Pubic lice (Phthirus pubis)",
+        "Body lice (adjunct, with hygiene measures)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to permethrin or pyrethroids/chrysanthemum components",
+        "Areas of extensive skin breakdown or acute inflammation (caution)",
+        "Infants under 2 months (per product); caution in pregnancy and lactation"
+      ],
+      nojoya: {
+        "Skin / local": "Burning, itching, redness, tingling at the application site, temporary skin dryness",
+        "Allergy": "Contact dermatitis, rash (rare)",
+        "Other": "In scabies, itching may persist for several weeks after treatment (even with the mite dead — an allergic reaction, not a new infestation)"
+      },
+      dozadan: "Topical use — systemic overdose is unlikely. If accidentally swallowed: nausea, headache; symptomatic. If it gets in the eyes — rinse with plenty of water.",
+      ozarotasir: [
+        "Consider interaction with other topical skin products",
+        "With topical use, clinically significant systemic interactions are rare"
+      ],
+      qollash: {
+        kattalar: "Scabies: 5% cream over the whole body (from the neck down, between fingers, under nails), leave 8–14 h (overnight), then wash off; repeat in 1–2 weeks. Head lice: 1% cream rinse on damp hair for 10 minutes, then rinse; repeat in 7–10 days. Treat close contacts, process clothing/bedding.",
+        bolalar: "From 2 months: in scabies 5% cream (in infants — including the face and scalp), as prescribed."
+      },
+      chiqarish: "Cream 5% (for scabies); cream rinse/lotion 1% (for lice); spray"
+    }
+  },
+
+  // ── BENZILBENZOAT | ATX: P03AX01 ──
+  "P03AX01": {
+    uz: {
+      gruppa: "Ektoparazitar vositalar — benzoy kislota efiri (mahalliy)",
+      farmTasir: "Qo'tir kanasi va bitlarга qarshi (mahalliy)",
+      farmakodinamika: `Benzilbenzoat — benzoy kislotasining benzil efiri bo'lgan mahalliy ektoparazititsid. Qo'tir kanasi (Sarcoptes scabiei) va bitlarning xitin qoplami orqali kirib, ularning nerv tizimiga toksik ta'sir ko'rsatadi va halok qiladi; tuxumlarga ta'siri kamroq, shu sababli takroriy qo'llash zarur. Teriga surtilganda mahalliy ta'sir qiladi. Arzon va keng tarqalgan an'anaviy qo'tirga qarshi vosita.`,
+      farmakokinetika: {
+        sorish: "Teri orqali qisman so'riladi; mahalliy ta'sir asosiy.",
+        tarqalish: "So'rilgan qism to'qimalarда.",
+        metabolizm: "Tez benzoy kislota va benzil spirtiga gidrolizlanadi, keyin glitsin bilan konyugatsiya (gippur kislota).",
+        chiqarilish: "Siydik orqali konyugat ko'rinishida."
+      },
+      korsatmalar: [
+        "Qo'tir (skabies)",
+        "Pedikulyoz (bosh va lobar biti)",
+        "Demodekoz (yordamchi, ayrim hollarda)"
+      ],
+      qarrshi: [
+        "Benzilbenzoatga o'ta sezgirlik",
+        "Teri butunligi buzilgan, yiringli yoki o'tkir yallig'langan joylar",
+        "Kichik bolalar (preparat konsentratsiyasiga qarab — bolalarда past konsentratsiya); homiladorlik va emizishда ehtiyot"
+      ],
+      nojoya: {
+        "Teri / mahalliy": "Qo'llash joyida achishish, kuyish hissi, qichish, qizarish (ayniqsa nozik teri va bolalarда)",
+        "Allergik": "Kontakt dermatit, toshma",
+        "Boshqa": "Ko'z va shilliq pardaga tushsa — kuchli achishish"
+      },
+      dozadan: "Mahalliy; ortiqcha yoki keng yuzaga (ayniqsa bolalarда) qo'llanганда teri ta'siri va tizimli so'rilish oshadi. Tasodifan yutib yuborilganда: og'iz/halqum kuyishi, ko'ngil aynishi, MNS qo'zg'aluvchanligi, tutqanoq — simptomatik shoshilinch yordam.",
+      ozarotasir: [
+        "Boshqa mahalliy ta'sirlovchi/keratolitik vositalar bilan teri ta'siri kuchayadi",
+        "Permetrin yoki boshqa skabitsidlar bilan ketma-ket — shifokor ko'rsatmasi bilan"
+      ],
+      qollash: {
+        kattalar: "Qo'tir: 20–25% emulsiya/mazь butun tanaga (bo'yindan pastga) surtiladi, 1-kuni va 4-kuni (yoki sxemaga qarab), har gal 24 soat qoldirib yuviladi. Kiyim-kechak va to'shak qayta ishlanadi; yaqin kontaktlar birga davolanadi.",
+        bolalar: "Past konsentratsiyada (10%), 3–5 yoshdan, shifokor nazoratida; chaqaloqларда ehtiyot."
+      },
+      chiqarish: "Emulsiya 20%, 25%; mazь 10%, 20%; losьon"
+    },
+    ru: {
+      gruppa: "Противопаразитарные средства — эфир бензойной кислоты (местный)",
+      farmTasir: "Против чесоточного клеща и вшей (местный)",
+      farmakodinamika: `Бензилбензоат — местный эктопаразитицид, бензиловый эфир бензойной кислоты. Проникая через хитиновый покров чесоточного клеща (Sarcoptes scabiei) и вшей, оказывает токсическое действие на их нервную систему и вызывает гибель; на яйца действует слабее, поэтому требуется повторное применение. При нанесении на кожу действует местно. Дешёвое и распространённое традиционное противочесоточное средство.`,
+      farmakokinetika: {
+        sorish: "Через кожу частично всасывается; основное действие местное.",
+        tarqalish: "Всосавшаяся часть в тканях.",
+        metabolizm: "Быстро гидролизуется до бензойной кислоты и бензилового спирта, затем конъюгация с глицином (гиппуровая кислота).",
+        chiqarilish: "С мочой в виде конъюгатов."
+      },
+      korsatmalar: [
+        "Чесотка (скабиес)",
+        "Педикулёз (головная и лобковая вошь)",
+        "Демодекоз (вспомогательно, в отдельных случаях)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к бензилбензоату",
+        "Участки с нарушенной целостностью кожи, гнойные или остро воспалённые",
+        "Маленькие дети (в зависимости от концентрации — у детей низкая концентрация); осторожно при беременности и лактации"
+      ],
+      nojoya: {
+        "Кожа / местные": "Жжение, ощущение ожога, зуд, покраснение в месте нанесения (особенно на нежной коже и у детей)",
+        "Аллергия": "Контактный дерматит, сыпь",
+        "Прочее": "При попадании в глаза и на слизистые — сильное жжение"
+      },
+      dozadan: "Местное; при избыточном или нанесении на большую площадь (особенно у детей) усиливается кожное действие и системное всасывание. При случайном проглатывании: ожог рта/глотки, тошнота, возбуждение ЦНС, судороги — симптоматическая неотложная помощь.",
+      ozarotasir: [
+        "С другими местнораздражающими/кератолитическими средствами усиливается кожное действие",
+        "С перметрином или другими скабицидами последовательно — по назначению врача"
+      ],
+      qollash: {
+        kattalar: "Чесотка: 20–25% эмульсия/мазь на всё тело (от шеи вниз), в 1-й и 4-й день (или по схеме), каждый раз оставляя на 24 ч, затем смывая. Обработать одежду и постель; лечить близкие контакты.",
+        bolalar: "В низкой концентрации (10%), с 3–5 лет, под контролем врача; у младенцев с осторожностью."
+      },
+      chiqarish: "Эмульсия 20%, 25%; мазь 10%, 20%; лосьон"
+    },
+    en: {
+      gruppa: "Antiparasitic agents — benzoic acid ester (topical)",
+      farmTasir: "Against scabies mite and lice (topical)",
+      farmakodinamika: `Benzyl benzoate is a topical ectoparasiticide, the benzyl ester of benzoic acid. Penetrating the chitinous covering of the scabies mite (Sarcoptes scabiei) and lice, it exerts a toxic effect on their nervous system and causes death; it acts more weakly on eggs, so repeated application is needed. Applied to skin it acts locally. It is a cheap and widespread traditional anti-scabies agent.`,
+      farmakokinetika: {
+        sorish: "Partly absorbed through skin; the main action is local.",
+        tarqalish: "The absorbed part in tissues.",
+        metabolizm: "Rapidly hydrolysed to benzoic acid and benzyl alcohol, then conjugated with glycine (hippuric acid).",
+        chiqarilish: "Renal as conjugates."
+      },
+      korsatmalar: [
+        "Scabies",
+        "Pediculosis (head and pubic lice)",
+        "Demodicosis (adjunct, in some cases)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to benzyl benzoate",
+        "Areas of broken, purulent or acutely inflamed skin",
+        "Young children (depending on concentration — low concentration in children); caution in pregnancy and lactation"
+      ],
+      nojoya: {
+        "Skin / local": "Burning, a sensation of burning, itching, redness at the application site (especially on delicate skin and in children)",
+        "Allergy": "Contact dermatitis, rash",
+        "Other": "Strong burning if it gets in the eyes or on mucosa"
+      },
+      dozadan: "Topical; with excessive application or over a large area (especially in children) skin action and systemic absorption increase. If accidentally swallowed: burning of mouth/throat, nausea, CNS excitation, convulsions — symptomatic emergency care.",
+      ozarotasir: [
+        "With other topical irritant/keratolytic agents skin action is enhanced",
+        "Sequentially with permethrin or other scabicides — as prescribed"
+      ],
+      qollash: {
+        kattalar: "Scabies: 20–25% emulsion/ointment over the whole body (from the neck down), on day 1 and day 4 (or per regimen), each time left for 24 h then washed off. Process clothing and bedding; treat close contacts.",
+        bolalar: "At low concentration (10%), from 3–5 years, under medical supervision; with caution in infants."
+      },
+      chiqarish: "Emulsion 20%, 25%; ointment 10%, 20%; lotion"
+    }
+  },
+
+  // ── DIMETIKON (mahalliy, bitga qarshi) | ATX: P03AX05 ──
+  "P03AX05": {
+    uz: {
+      gruppa: "Ektoparazitar vositalar — silikon (fizik ta'sirli, mahalliy)",
+      farmTasir: "Bitlarга qarshi (fizik bo'g'uvchi ta'sir)",
+      farmakodinamika: `Dimetikon — silikon (polidimetilsiloksan) bo'lgan mahalliy bitга qarshi vosita. Kimyoviy (neyrotoksik) emas, balki fizik mexanizm bilan ta'sir qiladi: sochга surtilganда bit va gnidalarni yupqa, suv o'tkazmaydigan parda bilan qoplab, ularning nafas yo'llarini (traxeyalarini) va suv-tuz almashinuvini buzadi — bit bo'g'ilib yoki suyuqlik balansi izdan chiqib halok bo'ladi. Fizik ta'sir bo'lgani uchun bit unга chidamlilik (rezistentlik) rivojlantirmaydi — bu uning piretroidlardan ustunligi. Tizimli so'rilmaydi, shu sababli juda xavfsiz.`,
+      farmakokinetika: {
+        sorish: "Teri va soch orqali so'rilmaydi (inert silikon).",
+        tarqalish: "Faqat soch yuzasida mahalliy.",
+        metabolizm: "Metabolizatsiya bo'lmaydi.",
+        chiqarilish: "Yuvib tashlanadi (tizimli chiqarilish yo'q)."
+      },
+      korsatmalar: [
+        "Bosh pedikulyozi (bosh biti va gnidalari)",
+        "Lobar pedikulyozi (ayrim shakllar)"
+      ],
+      qarrshi: [
+        "Dimetikon yoki shakl komponentlariga o'ta sezgirlik",
+        "Boshda o'tkir yiringli teri kasalligi (ehtiyot)",
+        "Juda kichik chaqaloqlarда ehtiyot (preparatга qarab)"
+      ],
+      nojoya: {
+        "Teri / mahalliy": "Bosh terisida yengil qichish, qizarish (kamdan-kam); ko'zга tushsa — achishish",
+        "Allergik": "Kontakt reaksiya (juda kam)",
+        "Boshqa": "Yonuvchanlik — surtilганда olovдан saqlanish (ba'zi shakllar uchuvchan asos saqlaydi)"
+      },
+      dozadan: "Fizik, so'rilmaydigan vosita — tizimli dozadan oshish kutilmaydi. Tasodifan yutib yuborilганда: ko'ngil aynishi; simptomatik. Ko'zга tushsa — suv bilan yuvish.",
+      ozarotasir: [
+        "Klinik ahamiyatli tizimli o'zaro ta'sir yo'q (inert, so'rilmaydi)",
+        "Boshqa soch vositalari bilan birga ishlatishда parda hosil bo'lishига xalaqit bermaslik uchun alohida qo'llash tavsiya etiladi"
+      ],
+      qollash: {
+        kattalar: "Quruq sochга bit va terisini to'liq qoplaб surtiladi, ko'rsatilган vaqt (odatda 8 soat yoki bir kechа) qoldiriladi, keyin yuviladi va maxsus taroq bilan gnidalar tarab olinadi; 7–9 kunда takror (yangi chiqqan bitларни yo'qotish uchun).",
+        bolalar: "6 oydan (preparatга qarab); kattalar bilan bir xil usul, kattaroq nazorat bilan."
+      },
+      chiqarish: "Losьon/eritma 4%; sprey; soch surtmasi (dimetikon ± mineral moy)"
+    },
+    ru: {
+      gruppa: "Противопаразитарные средства — силикон (физического действия, местный)",
+      farmTasir: "Против вшей (физическое удушающее действие)",
+      farmakodinamika: `Диметикон — местное противопедикулёзное средство, силикон (полидиметилсилоксан). Действует не химически (нейротоксически), а физическим механизмом: при нанесении на волосы покрывает вшей и гнид тонкой водонепроницаемой плёнкой, нарушая их дыхательные пути (трахеи) и водно-солевой обмен — вошь гибнет от удушья или нарушения баланса жидкости. Поскольку действие физическое, вши не развивают к нему устойчивость — это преимущество перед пиретроидами. Системно не всасывается, поэтому очень безопасен.`,
+      farmakokinetika: {
+        sorish: "Через кожу и волосы не всасывается (инертный силикон).",
+        tarqalish: "Только местно на поверхности волос.",
+        metabolizm: "Не метаболизируется.",
+        chiqarilish: "Смывается (системного выведения нет)."
+      },
+      korsatmalar: [
+        "Головной педикулёз (головная вошь и гниды)",
+        "Лобковый педикулёз (отдельные формы)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к диметикону или компонентам формы",
+        "Острое гнойное заболевание кожи головы (с осторожностью)",
+        "С осторожностью у очень маленьких детей (по препарату)"
+      ],
+      nojoya: {
+        "Кожа / местные": "Лёгкий зуд, покраснение кожи головы (редко); при попадании в глаза — жжение",
+        "Аллергия": "Контактная реакция (очень редко)",
+        "Прочее": "Воспламеняемость — при нанесении избегать огня (некоторые формы содержат летучую основу)"
+      },
+      dozadan: "Физическое, невсасывающееся средство — системная передозировка не ожидается. При случайном проглатывании: тошнота; симптоматически. При попадании в глаза — промыть водой.",
+      ozarotasir: [
+        "Клинически значимых системных взаимодействий нет (инертен, не всасывается)",
+        "При использовании с другими средствами для волос рекомендуется раздельное применение, чтобы не мешать образованию плёнки"
+      ],
+      qollash: {
+        kattalar: "Нанести на сухие волосы, полностью покрывая вшей и кожу, оставить на указанное время (обычно 8 часов или на ночь), затем смыть и вычесать гнид специальным гребнем; повтор через 7–9 дней (чтобы уничтожить вылупившихся вшей).",
+        bolalar: "С 6 месяцев (по препарату); тот же метод, что у взрослых, с повышенным контролем."
+      },
+      chiqarish: "Лосьон/раствор 4%; спрей; средство для волос (диметикон ± минеральное масло)"
+    },
+    en: {
+      gruppa: "Antiparasitic agents — silicone (physical action, topical)",
+      farmTasir: "Against lice (physical smothering action)",
+      farmakodinamika: `Dimeticone is a topical anti-louse agent, a silicone (polydimethylsiloxane). It acts not chemically (neurotoxically) but by a physical mechanism: applied to hair, it coats lice and nits with a thin waterproof film, disrupting their airways (tracheae) and water-salt balance — the louse dies from suffocation or fluid imbalance. Because the action is physical, lice do not develop resistance to it — an advantage over pyrethroids. It is not absorbed systemically, so it is very safe.`,
+      farmakokinetika: {
+        sorish: "Not absorbed through skin or hair (inert silicone).",
+        tarqalish: "Only locally on the hair surface.",
+        metabolizm: "Not metabolised.",
+        chiqarilish: "Washed off (no systemic elimination)."
+      },
+      korsatmalar: [
+        "Head lice (head louse and nits)",
+        "Pubic lice (some forms)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to dimeticone or the formulation components",
+        "Acute purulent scalp disease (with caution)",
+        "Caution in very young infants (per product)"
+      ],
+      nojoya: {
+        "Skin / local": "Mild itching, scalp redness (rare); burning if it gets in the eyes",
+        "Allergy": "Contact reaction (very rare)",
+        "Other": "Flammability — avoid flames during application (some forms contain a volatile base)"
+      },
+      dozadan: "A physical, non-absorbed agent — systemic overdose is not expected. If accidentally swallowed: nausea; symptomatic. If it gets in the eyes — rinse with water.",
+      ozarotasir: [
+        "No clinically significant systemic interactions (inert, not absorbed)",
+        "When used with other hair products, separate application is advised so as not to interfere with film formation"
+      ],
+      qollash: {
+        kattalar: "Apply to dry hair, fully covering lice and scalp, leave for the stated time (usually 8 hours or overnight), then wash out and comb out nits with a special comb; repeat in 7–9 days (to kill newly hatched lice).",
+        bolalar: "From 6 months (per product); the same method as for adults, with closer supervision."
+      },
+      chiqarish: "Lotion/solution 4%; spray; hair treatment (dimeticone ± mineral oil)"
+    }
   }
 
 };
@@ -46022,3 +47473,10 @@ PHARMA_DATA["M05B"]             = PHARMA_DATA["M05BA04"];  // osseyin-gidroksiap
 PHARMA_DATA["M09AB52"]          = PHARMA_DATA["M09AB"];    // tripsin/ximotripsin/ribonukleaza → proteolitik ferment (serratiopeptidaza)
 PHARMA_DATA["M09AX"]            = PHARMA_DATA["M01AX05"];  // glyukozamin/xondroitin aralashmalari → glyukozamin
 PHARMA_DATA["M09AX02"]          = PHARMA_DATA["M01AX25"];  // xondroitin kombinatsiyalari → xondroitin sulfat
+
+// ── ANTIPARAZITAR (P) kombinatsiya/dublikat/typo kodlari ──
+PHARMA_DATA["P01AB01"]          = PHARMA_DATA["J01XD01"];  // metronidazol → mavjud yozuv (antibakterial bo'lim)
+PHARMA_DATA["P02CA01"]          = PHARMA_DATA["P02CA01"];  // karbendazim → mebendazol (bir xil kod)
+PHARMA_DATA["P02"]              = PHARMA_DATA["P02CA03"];  // albendazol/ivermektin kombinatsiyalari → albendazol
+PHARMA_DATA["P03AA"]            = PHARMA_DATA["P03AX01"];  // oltingugurt (qo'tirga qarshi) → benzilbenzoat (skabitsid)
+PHARMA_DATA["PA"]               = PHARMA_DATA["P02CA03"];  // antiparazitar kombinatsiya → albendazol
