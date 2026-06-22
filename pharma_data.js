@@ -53393,6 +53393,493 @@ const PHARMA_DATA = {
       },
       chiqarish: "Tablets 1 mg (alopecia), 5 mg (BPH)"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // SIYDIK-JINSIY TIZIM (G) — jinsiy gormonlar, kontratseptivlar,
+  // gonadotropinlar, urologik vositalar, ginekologik antiinfektivlar
+  // G-Batch 1 — Estrogenlar va progestogenlar (G03C, G03D)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── ESTRADIOL | ATX: G03CA03 ──
+  "G03CA03": {
+    uz: {
+      gruppa: "Jinsiy gormonlar — tabiiy estrogen (estradiol)",
+      farmTasir: "Estrogen o'rnini bosuvchi terapiya",
+      farmakodinamika: `Estradiol — tuxumdonlar ishlab chiqaradigan asosiy va eng faol tabiiy estrogen. Nishon to'qimalardagi (bachadon, qin, sut bezi, suyak, MNS, tomir) estrogen retseptorlariga bog'lanib gen transkripsiyasini boshqaradi: ayol jinsiy a'zolari va ikkilamchi jinsiy belgilarini rivojlantiradi va saqlaydi, qin va siydik yo'li epiteliysini quvvatlaydi, suyak rezorbsiyasini kamaytirib suyak massasини saqlaydi (osteoporoz profilaktikasi), lipid profilini yaxshilaydi. Menopauza/klimaks belgilarini (issiqlik to'lqinlari, terlash, qin quruqligi, kayfiyat) kamaytiradi. Progestogen bilan birga (bachadoni bor ayollarда) endometriy himoyasi uchun beriladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали so'riladi (jigarning «birinchi o'tish» effekti yuqori); transdermal/vaginal yo'l birinchi o'tishни chetlab o'tadi.",
+        tarqalish: "Plazma oqsillariga (SHBG va albumin) yuqori bog'lanadi.",
+        metabolizm: "Jigarда estron va estriolга, keyin konyugatsiya; enterogepatik retsirkulyatsiya.",
+        chiqarilish: "Asosان siydik orqали konyugat ko'rinishida."
+      },
+      korsatmalar: [
+        "Menopauza/klimaks vazomotor va urogenital belgilari (gormon o'rnini bosuvchi terapiya — HRT)",
+        "Estrogen tanqisligi (gipogonadizm, tuxumdon yetishmovchiligi, kastratsiyadan keyin)",
+        "Postmenopauzal osteoporoz profilaktikasi (boshqa vositalar mos kelmaганда)",
+        "Atrofik vaginit, urogenital atrofiya (mahalliy vaginal shakl)"
+      ],
+      qarrshi: [
+        "Estradiolга o'ta sezgirlik; aniqlanmagan vaginal qon ketish",
+        "Estrogen-bog'liq o'sma (sut bezi, endometriy saratoni) yoki shubha; og'ir jigar kasalligi",
+        "Venoz/arterial tromboz va tromboemboliya (TVT, o'pka emboliyasi, infarkt, insult) yoki yuqori xavf",
+        "Homiladorlik va emizish; bachadoni bor ayolда progestogensiz uzoq estrogen (endometriy saratoni xavfi)"
+      ],
+      nojoya: {
+        "Jinsiy / sut bezi": "Sut bezlari og'rig'i va kattalashishi, vaginal qon ketish/dog'lanish, leykoreya, bachadon mioma o'sishi",
+        "Tromboz xavfi": "Venoz tromboemboliya, insult va miokard infarkti xavfining ortishi (ayniqsa chekuvchilar, keksalar)",
+        "Hazm / jigar": "Ko'ngil aynishi, qorin dam bo'lishi, o't toshi, jigar funksiyasi o'zgarishi, xolestaz",
+        "Boshqa": "Bosh og'rig'i, migren, suyuqlik tutilishi, AB oshishi, kayfiyat o'zgarishi, sut bezi/endometriy saratoni xavfi (uzoq HRT)"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, sut bezi sezgirligi, ayollarда qon ketish. Davolash: simptomatik; jiddiy o'tkir toksiklik kam.",
+      ozarotasir: [
+        "CYP3A4 induktorlari (rifampitsin, fenitoin, karbamazepin, St. John's wort): estradiol samarasini kamaytiradi",
+        "CYP3A4 inhibitorlari (ketokonazol): konsentratsiyasini oshiradi",
+        "Qalqonsimon bez gormoni va kortikosteroid ehtiyojini o'zgartirishi mumkin (bog'lovchi oqsillarni oshiradi)"
+      ],
+      qollash: {
+        kattalar: "HRT: og'iz orqали 1–2 mg/kun yoki transdermal plastır/gel; bachadoni bor ayолда siklik/uzluksiz progestogen bilan. Mahalliy vaginal: krem/halqa/tabletka atrofik vaginitда. Eng kam samarali dozaда, eng qisqa kerakli muddatда.",
+        bolalar: "Faqat kechikkan jinsiy rivojlanish/gipogonadizmда mutaxassis nazoratida."
+      },
+      chiqarish: "Tabletkalar 1, 2 mg; transdermal plastır; gel; vaginal krem/tabletka/halqa; in'eksion efirlar (estradiol valerat/sipionat)"
+    },
+    ru: {
+      gruppa: "Половые гормоны — естественный эстроген (эстрадиол)",
+      farmTasir: "Заместительная эстрогенная терапия",
+      farmakodinamika: `Эстрадиол — основной и наиболее активный естественный эстроген, вырабатываемый яичниками. Связываясь с эстрогеновыми рецепторами в тканях-мишенях (матка, влагалище, молочная железа, кость, ЦНС, сосуды), регулирует транскрипцию генов: развивает и поддерживает женские половые органы и вторичные половые признаки, поддерживает эпителий влагалища и мочевых путей, снижает резорбцию кости, сохраняя костную массу (профилактика остеопороза), улучшает липидный профиль. Уменьшает симптомы менопаузы/климакса (приливы, потливость, сухость влагалища, настроение). У женщин с маткой назначается вместе с прогестогеном для защиты эндометрия.`,
+      farmakokinetika: {
+        sorish: "Внутрь всасывается (высокий эффект «первого прохождения» через печень); трансдермальный/вагинальный путь обходит первое прохождение.",
+        tarqalish: "Высоко связывается с белками плазмы (ГСПГ и альбумин).",
+        metabolizm: "В печени до эстрона и эстриола, затем конъюгация; энтерогепатическая рециркуляция.",
+        chiqarilish: "Преимущественно с мочой в виде конъюгатов."
+      },
+      korsatmalar: [
+        "Вазомоторные и урогенитальные симптомы менопаузы/климакса (заместительная гормональная терапия — ЗГТ)",
+        "Дефицит эстрогенов (гипогонадизм, недостаточность яичников, после кастрации)",
+        "Профилактика постменопаузального остеопороза (при непереносимости других средств)",
+        "Атрофический вагинит, урогенитальная атрофия (местная вагинальная форма)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к эстрадиолу; неустановленное вагинальное кровотечение",
+        "Эстрогензависимая опухоль (рак молочной железы, эндометрия) или подозрение; тяжёлое заболевание печени",
+        "Венозный/артериальный тромбоз и тромбоэмболия (ТГВ, ТЭЛА, инфаркт, инсульт) или высокий риск",
+        "Беременность и лактация; длительный эстроген без прогестогена у женщины с маткой (риск рака эндометрия)"
+      ],
+      nojoya: {
+        "Половые / молочная железа": "Боль и нагрубание молочных желёз, вагинальное кровотечение/мажущие выделения, лейкорея, рост миомы матки",
+        "Риск тромбоза": "Повышение риска венозной тромбоэмболии, инсульта и инфаркта миокарда (особенно у курящих, пожилых)",
+        "ЖКТ / печень": "Тошнота, вздутие живота, желчные камни, изменение функции печени, холестаз",
+        "Прочее": "Головная боль, мигрень, задержка жидкости, повышение АД, изменения настроения, риск рака молочной железы/эндометрия (при длительной ЗГТ)"
+      },
+      dozadan: "Симптомы: тошнота, рвота, чувствительность молочных желёз, кровотечение у женщин. Лечение: симптоматически; серьёзная острая токсичность редка.",
+      ozarotasir: [
+        "Индукторы CYP3A4 (рифампицин, фенитоин, карбамазепин, зверобой): снижают эффект эстрадиола",
+        "Ингибиторы CYP3A4 (кетоконазол): повышают концентрацию",
+        "Может изменять потребность в тиреоидных гормонах и кортикостероидах (повышает связывающие белки)"
+      ],
+      qollash: {
+        kattalar: "ЗГТ: внутрь 1–2 мг/сут или трансдермальный пластырь/гель; у женщин с маткой с циклическим/непрерывным прогестогеном. Местно вагинально: крем/кольцо/таблетка при атрофическом вагините. В минимальной эффективной дозе, кратчайший необходимый срок.",
+        bolalar: "Только при задержке полового развития/гипогонадизме под контролем специалиста."
+      },
+      chiqarish: "Таблетки 1, 2 мг; трансдермальный пластырь; гель; вагинальный крем/таблетка/кольцо; инъекционные эфиры (эстрадиола валерат/ципионат)"
+    },
+    en: {
+      gruppa: "Sex hormones — natural estrogen (estradiol)",
+      farmTasir: "Estrogen replacement therapy",
+      farmakodinamika: `Estradiol is the main and most active natural estrogen produced by the ovaries. Binding estrogen receptors in target tissues (uterus, vagina, breast, bone, CNS, vessels), it regulates gene transcription: it develops and maintains the female genitalia and secondary sexual characteristics, supports the vaginal and urinary tract epithelium, reduces bone resorption preserving bone mass (osteoporosis prophylaxis), and improves the lipid profile. It reduces menopausal/climacteric symptoms (hot flushes, sweating, vaginal dryness, mood). In women with a uterus it is given with a progestogen to protect the endometrium.`,
+      farmakokinetika: {
+        sorish: "Absorbed orally (high hepatic first-pass effect); the transdermal/vaginal route bypasses first pass.",
+        tarqalish: "Highly bound to plasma proteins (SHBG and albumin).",
+        metabolizm: "Hepatic to estrone and estriol, then conjugation; enterohepatic recirculation.",
+        chiqarilish: "Mainly renal as conjugates."
+      },
+      korsatmalar: [
+        "Vasomotor and urogenital symptoms of menopause/climacteric (hormone replacement therapy — HRT)",
+        "Estrogen deficiency (hypogonadism, ovarian failure, after castration)",
+        "Prevention of postmenopausal osteoporosis (when other agents are unsuitable)",
+        "Atrophic vaginitis, urogenital atrophy (local vaginal form)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to estradiol; undiagnosed vaginal bleeding",
+        "Estrogen-dependent tumour (breast, endometrial cancer) or suspicion; severe liver disease",
+        "Venous/arterial thrombosis and thromboembolism (DVT, PE, infarction, stroke) or high risk",
+        "Pregnancy and lactation; prolonged estrogen without a progestogen in a woman with a uterus (endometrial cancer risk)"
+      ],
+      nojoya: {
+        "Genital / breast": "Breast pain and enlargement, vaginal bleeding/spotting, leucorrhoea, uterine fibroid growth",
+        "Thrombosis risk": "Increased risk of venous thromboembolism, stroke and myocardial infarction (especially smokers, the elderly)",
+        "GI / liver": "Nausea, abdominal bloating, gallstones, altered liver function, cholestasis",
+        "Other": "Headache, migraine, fluid retention, raised BP, mood changes, risk of breast/endometrial cancer (with prolonged HRT)"
+      },
+      dozadan: "Symptoms: nausea, vomiting, breast tenderness, bleeding in women. Treatment: symptomatic; serious acute toxicity is rare.",
+      ozarotasir: [
+        "CYP3A4 inducers (rifampicin, phenytoin, carbamazepine, St John's wort): reduce estradiol's effect",
+        "CYP3A4 inhibitors (ketoconazole): raise concentration",
+        "May change the requirement for thyroid hormones and corticosteroids (raises binding proteins)"
+      ],
+      qollash: {
+        kattalar: "HRT: orally 1–2 mg/day or transdermal patch/gel; in women with a uterus with cyclic/continuous progestogen. Locally vaginal: cream/ring/tablet for atrophic vaginitis. At the lowest effective dose, for the shortest necessary period.",
+        bolalar: "Only for delayed puberty/hypogonadism under specialist supervision."
+      },
+      chiqarish: "Tablets 1, 2 mg; transdermal patch; gel; vaginal cream/tablet/ring; injectable esters (estradiol valerate/cypionate)"
+    }
+  },
+
+  // ── ESTRIOL | ATX: G03CA04 ──
+  "G03CA04": {
+    uz: {
+      gruppa: "Jinsiy gormonlar — kuchsiz tabiiy estrogen (estriol)",
+      farmTasir: "Urogenital atrofiya davosi (mahalliy estrogen)",
+      farmakodinamika: `Estriol — qisqa ta'sirli, kuchsiz tabiiy estrogen. Estrogen retseptorlariga qisqa muddat bog'lanadi — shu sababli proliferativ (endometriyni o'stiruvchi) ta'siri kam, asosan quyi siydik-jinsiy yo'l shilliq qavatiga (qin, uretra, qovuq bo'yni) selektiv ta'sir qiladi. Qin epiteliysi va mikroflorasini (laktobakteriyalar) tiklaydi, pH ni me'yorlashtiradi, urogenital atrofiya belgilarini (qin quruqligi, qichima, dispareuniya, takroriy siydik infeksiyalari) kamaytiradi. Endometriyga ta'siri kam bo'lgani uchun ko'pincha progestogensiz qo'llanadi (qisqa kursда).`,
+      farmakokinetika: {
+        sorish: "Og'iz va vaginal yo'l bilan so'riladi; vaginal shaklда mahalliy yuqori konsentratsiya.",
+        tarqalish: "Plazma oqsillariga bog'lanadi.",
+        metabolizm: "Jigarда konyugatsiya.",
+        chiqarilish: "Asosан siydik orqали konyugat ko'rinishida."
+      },
+      korsatmalar: [
+        "Urogenital atrofiya: atrofik vaginit, kraurolz, takroriy quyi siydik yo'li infeksiyalari (postmenopauzaда)",
+        "Qin operatsiyasidan oldin/keyin shilliq qavatni tayyorlash",
+        "Servikal shilliqni baholashda diagnostik yordamchi"
+      ],
+      qarrshi: [
+        "Estriolга o'ta sezgirlik; aniqlanmagan vaginal qon ketish",
+        "Estrogen-bog'liq o'sma yoki shubha",
+        "Venoz tromboemboliya (faol/anamnezда), og'ir jigar kasalligi",
+        "Homiladorlik va emizish"
+      ],
+      nojoya: {
+        "Mahalliy (vaginal)": "Qинда achishish, qichima, ta'sir (boshlanишда)",
+        "Jinsiy": "Sut bezlari sezgirligi, vaginal dog'lanish (uzoq/yuqori dozada)",
+        "Tizimli (kam, yuqori dozada)": "Bosh og'rig'i, ko'ngil aynishi, suyuqlik tutilishi"
+      },
+      dozadan: "Kuchsiz estrogen, mahalliy — o'tkir xavf past. Ortiqcha qo'llашда sut bezi sezgirligi, ko'ngil aynishi; simptomatik.",
+      ozarotasir: [
+        "CYP induktorlari estriol samarasini biroz kamaytirishi mumkin",
+        "Boshqa estrogenlar bilan birga ishlatilmaydi"
+      ],
+      qollash: {
+        kattalar: "Vaginal krem/sham 0,5 mg: boshida kuniga 1 marta (1–2 hafta), keyin haftada 2 marta saqlovchi. Og'iz orqали 1–2 mg/kun (urogenital ko'rsatmada).",
+        bolalar: "Qo'llanilmaydi."
+      },
+      chiqarish: "Vaginal krem 0,1%; vaginal shamlar 0,5 mg; tabletkalar 1, 2 mg"
+    },
+    ru: {
+      gruppa: "Половые гормоны — слабый естественный эстроген (эстриол)",
+      farmTasir: "Лечение урогенитальной атрофии (местный эстроген)",
+      farmakodinamika: `Эстриол — короткодействующий слабый естественный эстроген. Кратковременно связывается с эстрогеновыми рецепторами — поэтому пролиферативное (стимулирующее эндометрий) действие невелико, действует преимущественно избирательно на слизистую нижних мочеполовых путей (влагалище, уретра, шейка мочевого пузыря). Восстанавливает эпителий и микрофлору влагалища (лактобактерии), нормализует pH, уменьшает симптомы урогенитальной атрофии (сухость влагалища, зуд, диспареуния, рецидивирующие мочевые инфекции). Из-за малого действия на эндометрий часто применяется без прогестогена (коротким курсом).`,
+      farmakokinetika: {
+        sorish: "Всасывается внутрь и вагинально; при вагинальной форме высокая местная концентрация.",
+        tarqalish: "Связывается с белками плазмы.",
+        metabolizm: "В печени конъюгация.",
+        chiqarilish: "Преимущественно с мочой в виде конъюгатов."
+      },
+      korsatmalar: [
+        "Урогенитальная атрофия: атрофический вагинит, крауроз, рецидивирующие инфекции нижних мочевых путей (в постменопаузе)",
+        "Подготовка слизистой до/после влагалищной операции",
+        "Диагностическая помощь при оценке шеечной слизи"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к эстриолу; неустановленное вагинальное кровотечение",
+        "Эстрогензависимая опухоль или подозрение",
+        "Венозная тромбоэмболия (активная/в анамнезе), тяжёлое заболевание печени",
+        "Беременность и лактация"
+      ],
+      nojoya: {
+        "Местные (вагинально)": "Жжение, зуд, раздражение во влагалище (в начале)",
+        "Половые": "Чувствительность молочных желёз, вагинальные мажущие выделения (при длительной/высокой дозе)",
+        "Системные (редко, при высокой дозе)": "Головная боль, тошнота, задержка жидкости"
+      },
+      dozadan: "Слабый эстроген, местно — острый риск низкий. При избыточном применении чувствительность молочных желёз, тошнота; симптоматически.",
+      ozarotasir: [
+        "Индукторы CYP могут несколько снижать эффект эстриола",
+        "С другими эстрогенами не сочетать"
+      ],
+      qollash: {
+        kattalar: "Вагинальный крем/свеча 0,5 мг: вначале 1 раз в день (1–2 недели), затем 2 раза в неделю поддерживающе. Внутрь 1–2 мг/сут (по урогенитальному показанию).",
+        bolalar: "Не применяется."
+      },
+      chiqarish: "Вагинальный крем 0,1%; вагинальные свечи 0,5 мг; таблетки 1, 2 мг"
+    },
+    en: {
+      gruppa: "Sex hormones — weak natural estrogen (estriol)",
+      farmTasir: "Treatment of urogenital atrophy (local estrogen)",
+      farmakodinamika: `Estriol is a short-acting weak natural estrogen. It binds estrogen receptors briefly — so its proliferative (endometrium-stimulating) effect is small, acting mainly selectively on the lower urogenital tract mucosa (vagina, urethra, bladder neck). It restores the vaginal epithelium and microflora (lactobacilli), normalises pH, and reduces urogenital atrophy symptoms (vaginal dryness, itching, dyspareunia, recurrent urinary infections). Owing to its small endometrial effect it is often used without a progestogen (in a short course).`,
+      farmakokinetika: {
+        sorish: "Absorbed orally and vaginally; high local concentration with the vaginal form.",
+        tarqalish: "Bound to plasma proteins.",
+        metabolizm: "Hepatic conjugation.",
+        chiqarilish: "Mainly renal as conjugates."
+      },
+      korsatmalar: [
+        "Urogenital atrophy: atrophic vaginitis, kraurosis, recurrent lower urinary tract infections (in postmenopause)",
+        "Mucosal preparation before/after vaginal surgery",
+        "Diagnostic aid in assessing cervical mucus"
+      ],
+      qarrshi: [
+        "Hypersensitivity to estriol; undiagnosed vaginal bleeding",
+        "Estrogen-dependent tumour or suspicion",
+        "Venous thromboembolism (active/history), severe liver disease",
+        "Pregnancy and lactation"
+      ],
+      nojoya: {
+        "Local (vaginal)": "Vaginal burning, itching, irritation (at the start)",
+        "Genital": "Breast tenderness, vaginal spotting (with prolonged/high dose)",
+        "Systemic (rare, at high dose)": "Headache, nausea, fluid retention"
+      },
+      dozadan: "A weak estrogen, local — acute risk low. With excessive use breast tenderness, nausea; symptomatic.",
+      ozarotasir: [
+        "CYP inducers may slightly reduce estriol's effect",
+        "Do not combine with other estrogens"
+      ],
+      qollash: {
+        kattalar: "Vaginal cream/suppository 0.5 mg: initially once daily (1–2 weeks), then twice weekly maintenance. Orally 1–2 mg/day (for the urogenital indication).",
+        bolalar: "Not used."
+      },
+      chiqarish: "Vaginal cream 0.1%; vaginal suppositories 0.5 mg; tablets 1, 2 mg"
+    }
+  },
+
+  // ── PROGESTERON | ATX: G03DA04 ──
+  "G03DA04": {
+    uz: {
+      gruppa: "Jinsiy gormonlar — tabiiy progestogen (progesteron)",
+      farmTasir: "Progesteron o'rnini bosuvchi, homiladorlikni qo'llab-quvvatlovchi",
+      farmakodinamika: `Progesteron — sariq tana ishlab chiqaradigan asosiy tabiiy progestogen. Endometriyдаги progesteron retseptorlariga bog'lanib uni proliferativ fazadan sekretor fazaга o'tkazadi — urug'langan tuxum implantatsiyasi va homiladorlikni saqlash uchun zarur. Bachadon silliq mushaklari qisqaruvchanligi va qo'zg'aluvchanligini kamaytiradi (homilani saqlaydi), sut bezini laktatsiyaга tayyorlaydi, gonadotropinlar (LH/FSH) sekretsiyasini tormozlaydi. Endometriy gilmoylanishi (giperplaziya) ni oldini olib estrogenni muvozanatlaydi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали (mikronlangan) so'riladi, lekin «birinchi o'tish» yuqori; vaginal/i.m yo'l samaraliroq.",
+        tarqalish: "Plazma oqsillariga (albumin, transkortin) yuqori bog'lanadi.",
+        metabolizm: "Jigarда pregnandiolga, keyin konyugatsiya.",
+        chiqarilish: "Asosан siydik orqали konyugat ko'rinishida."
+      },
+      korsatmalar: [
+        "Lyutein fazasi yetishmovchiligi va bepushtlik davosi (yordamchi reproduktiv texnologiyalar — EKO)",
+        "Tahdidli yoki odatiy tushish (progesteron tanqisligida), erta tug'ruq profilaktikasi (vaginal)",
+        "Hayz tsikli buzilishlari, amenoreya, disfunksional bachadon qon ketishi",
+        "HRTда estrogen bilan birga endometriy himoyasi; premenstrual sindrom (ayrim holatlar)"
+      ],
+      qarrshi: [
+        "Progesteronга o'ta sezgirlik; aniqlanmagan vaginal qon ketish",
+        "Og'ir jigar kasalligi, progestogen-bog'liq o'sma",
+        "Venoz tromboemboliya (faol), to'liqsiz tushish/bachadondan tashqari homiladorlik",
+        "Sut bezi yoki jinsiy a'zolar saratoni (shubha)"
+      ],
+      nojoya: {
+        "Asab / umumiy": "Uyquchanlik, bosh aylanishi, charchoq (ayniqsa peroral — bosh miyaга ta'sir), bosh og'rig'i",
+        "Jinsiy / sut bezi": "Sut bezlari sezgirligi, hayz o'zgarishi, dog'lanish, libido o'zgarishi",
+        "Hazm / metabolik": "Ko'ngil aynishi, qorin dam bo'lishi, vazn o'zgarishi, suyuqlik tutilishi",
+        "Boshqa": "Kayfiyat o'zgarishi, vaginal shaklда mahalliy ta'sir"
+      },
+      dozadan: "Belgilari: uyquchanlik, bosh aylanishi (peroral). Davolash: dozani kamaytirish, simptomatik.",
+      ozarotasir: [
+        "CYP3A4 induktorlari (rifampitsin, antiepileptiklar): progesteron samarasini kamaytiradi",
+        "CYP3A4 inhibitorlari (ketokonazol): konsentratsiyasini oshiradi",
+        "Sedativ ta'sirni alkogol/MNS depressantlari kuchaytiradi (peroral)"
+      ],
+      qollash: {
+        kattalar: "Vaginal: 200–400 mg/kun (lyutein qo'llab-quvvatlash, EKO, tushish profilaktikasi). Og'iz orqали (mikronlangan): 100–300 mg/kun, kechqurun (uyquchanlik tufayli). I/m: 25–100 mg ko'rsatmaga qarab.",
+        bolalar: "Qo'llanilmaydi."
+      },
+      chiqarish: "Vaginal kapsula/gel/sham 100, 200 mg; mikronlangan kapsulalar 100, 200 mg; in'eksiya eritmasi (moy) 1%, 2,5%"
+    },
+    ru: {
+      gruppa: "Половые гормоны — естественный прогестоген (прогестерон)",
+      farmTasir: "Заместительный прогестерон, поддержка беременности",
+      farmakodinamika: `Прогестерон — основной естественный прогестоген, вырабатываемый жёлтым телом. Связываясь с прогестероновыми рецепторами эндометрия, переводит его из пролиферативной фазы в секреторную — необходимо для имплантации оплодотворённой яйцеклетки и сохранения беременности. Снижает сократимость и возбудимость гладких мышц матки (сохраняет плод), готовит молочную железу к лактации, тормозит секрецию гонадотропинов (ЛГ/ФСГ). Уравновешивает эстроген, предотвращая гиперплазию эндометрия.`,
+      farmakokinetika: {
+        sorish: "Внутрь (микронизированный) всасывается, но «первое прохождение» высокое; вагинальный/в/м путь эффективнее.",
+        tarqalish: "Высоко связывается с белками плазмы (альбумин, транскортин).",
+        metabolizm: "В печени до прегнандиола, затем конъюгация.",
+        chiqarilish: "Преимущественно с мочой в виде конъюгатов."
+      },
+      korsatmalar: [
+        "Недостаточность лютеиновой фазы и лечение бесплодия (ВРТ — ЭКО)",
+        "Угрожающий или привычный выкидыш (при дефиците прогестерона), профилактика преждевременных родов (вагинально)",
+        "Нарушения менструального цикла, аменорея, дисфункциональные маточные кровотечения",
+        "Защита эндометрия с эстрогеном при ЗГТ; предменструальный синдром (отдельные случаи)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к прогестерону; неустановленное вагинальное кровотечение",
+        "Тяжёлое заболевание печени, прогестогензависимая опухоль",
+        "Венозная тромбоэмболия (активная), неполный выкидыш/внематочная беременность",
+        "Рак молочной железы или половых органов (подозрение)"
+      ],
+      nojoya: {
+        "Нервы / общие": "Сонливость, головокружение, утомляемость (особенно перорально — действие на мозг), головная боль",
+        "Половые / молочная железа": "Чувствительность молочных желёз, изменение менструаций, мажущие выделения, изменение либидо",
+        "ЖКТ / метаболизм": "Тошнота, вздутие живота, изменение массы тела, задержка жидкости",
+        "Прочее": "Изменения настроения, местное действие при вагинальной форме"
+      },
+      dozadan: "Симптомы: сонливость, головокружение (перорально). Лечение: снизить дозу, симптоматически.",
+      ozarotasir: [
+        "Индукторы CYP3A4 (рифампицин, антиэпилептики): снижают эффект прогестерона",
+        "Ингибиторы CYP3A4 (кетоконазол): повышают концентрацию",
+        "Седативное действие усиливают алкоголь/депрессанты ЦНС (перорально)"
+      ],
+      qollash: {
+        kattalar: "Вагинально: 200–400 мг/сут (поддержка лютеиновой фазы, ЭКО, профилактика выкидыша). Внутрь (микронизированный): 100–300 мг/сут, вечером (из-за сонливости). В/м: 25–100 мг по показанию.",
+        bolalar: "Не применяется."
+      },
+      chiqarish: "Вагинальные капсулы/гель/свечи 100, 200 мг; микронизированные капсулы 100, 200 мг; раствор для инъекций (масляный) 1%, 2,5%"
+    },
+    en: {
+      gruppa: "Sex hormones — natural progestogen (progesterone)",
+      farmTasir: "Progesterone replacement, pregnancy support",
+      farmakodinamika: `Progesterone is the main natural progestogen produced by the corpus luteum. Binding endometrial progesterone receptors, it converts the endometrium from the proliferative to the secretory phase — necessary for implantation of the fertilised egg and maintenance of pregnancy. It reduces uterine smooth muscle contractility and excitability (preserving the fetus), prepares the breast for lactation, and inhibits gonadotropin (LH/FSH) secretion. It balances estrogen, preventing endometrial hyperplasia.`,
+      farmakokinetika: {
+        sorish: "Orally (micronised) absorbed, but first pass is high; the vaginal/i.m route is more effective.",
+        tarqalish: "Highly bound to plasma proteins (albumin, transcortin).",
+        metabolizm: "Hepatic to pregnanediol, then conjugation.",
+        chiqarilish: "Mainly renal as conjugates."
+      },
+      korsatmalar: [
+        "Luteal phase deficiency and infertility treatment (ART — IVF)",
+        "Threatened or habitual miscarriage (with progesterone deficiency), prevention of preterm birth (vaginal)",
+        "Menstrual cycle disorders, amenorrhoea, dysfunctional uterine bleeding",
+        "Endometrial protection with estrogen in HRT; premenstrual syndrome (selected cases)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to progesterone; undiagnosed vaginal bleeding",
+        "Severe liver disease, progestogen-dependent tumour",
+        "Venous thromboembolism (active), incomplete miscarriage/ectopic pregnancy",
+        "Breast or genital cancer (suspicion)"
+      ],
+      nojoya: {
+        "Nerve / general": "Drowsiness, dizziness, fatigue (especially orally — brain effect), headache",
+        "Genital / breast": "Breast tenderness, menstrual change, spotting, libido change",
+        "GI / metabolic": "Nausea, abdominal bloating, weight change, fluid retention",
+        "Other": "Mood changes, local effect with the vaginal form"
+      },
+      dozadan: "Symptoms: drowsiness, dizziness (oral). Treatment: reduce dose, symptomatic.",
+      ozarotasir: [
+        "CYP3A4 inducers (rifampicin, antiepileptics): reduce progesterone's effect",
+        "CYP3A4 inhibitors (ketoconazole): raise concentration",
+        "Sedation is enhanced by alcohol/CNS depressants (oral)"
+      ],
+      qollash: {
+        kattalar: "Vaginally: 200–400 mg/day (luteal support, IVF, miscarriage prevention). Orally (micronised): 100–300 mg/day in the evening (due to drowsiness). I/m: 25–100 mg per indication.",
+        bolalar: "Not used."
+      },
+      chiqarish: "Vaginal capsules/gel/suppositories 100, 200 mg; micronised capsules 100, 200 mg; injection (oily) 1%, 2.5%"
+    }
+  },
+
+  // ── DIDROGESTERON | ATX: G03DB01 ──
+  "G03DB01": {
+    uz: {
+      gruppa: "Jinsiy gormonlar — sintetik progestogen (didrogesteron)",
+      farmTasir: "Peroral progestogen (homiladorlik va tsikl davosi)",
+      farmakodinamika: `Didrogesteron — retroprogesteron tuzilishидаги peroral faol sintetik progestogen. Endometriy progesteron retseptorlariga selektiv bog'lanib uni sekretor fazaга o'tkazadi — progesteronning asosiy ta'sirini beradi, lekin og'iz orqали samarali. Androgen, estrogen, glyukokortikoid yoki anabolik ta'siri yo'q (selektiv progestogen), ovulyatsiyani bostirmaydi (terapevtik dozada) va bazal harorat/menstruatsiyani buzmaydi. Endometriyni estrogen ortiqcha proliferatsiyasidan himoya qiladi. Homiladorlikни qo'llab-quvvatlashда keng qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали tez so'riladi; faol metabolit (digidrodidrogesteron) orqали ta'sir qiladi.",
+        tarqalish: "Plazma oqsillariga bog'lanadi.",
+        metabolizm: "Jigarда faol 20-digidrodidrogesteronга.",
+        chiqarilish: "Asosан siydik orqали. T½ — ~5–7 soat."
+      },
+      korsatmalar: [
+        "Progesteron tanqisligи: tahdidli va odatiy tushish, lyutein fazasi yetishmovchiligi, bepushtlik (yordamchi reproduksiya)",
+        "Endometrioz, disfunksional bachadon qon ketishi, dismenoreya, hayz tsikli buzilishlari, amenoreya (sekundar)",
+        "Premenstrual sindrom; HRTда estrogen bilan birga endometriy himoyasi"
+      ],
+      qarrshi: [
+        "Didrogesteronga o'ta sezgirlik; aniqlanmagan vaginal qon ketish",
+        "Progestogen-bog'liq o'sma; og'ir jigar kasalligi (Dubin-Jonson, Rotor sindromi)",
+        "Anamnezда homiladorlikда og'ir qichima/sariqlik",
+        "Emizish (oz miqdорда sutga o'tadi)"
+      ],
+      nojoya: {
+        "Jinsiy / sut bezi": "Hayz tsikli o'zgarishi, vaginal qon ketish/dog'lanish, sut bezlari sezgirligi",
+        "Asab / umumiy": "Bosh og'rig'i, migren, bosh aylanishi (progesterondан kamroq sedatsiya)",
+        "Hazm / jigar": "Ko'ngil aynishi, qorin og'rig'i, jigar funksiyasi o'zgarishi (kamdan-kam)",
+        "Allergik": "Toshma, qichima, eshakemi (kamdan-kam — Kvinke shishi)"
+      },
+      dozadan: "Yuqori xavfsizlik; dozadan oshish belgilari kam (ko'ngil aynishi). Davolash: simptomatik.",
+      ozarotasir: [
+        "CYP3A4 induktorlari (rifampitsin, fenobarbital, karbamazepin, St. John's wort): didrogesteron samarasini kamaytiradi",
+        "CYP3A4 inhibitorlari: konsentratsiyasini oshirishi mumkin"
+      ],
+      qollash: {
+        kattalar: "Tahdidli tushish: 40 mg bir martalik, keyin 10 mg har 8 soatда belgilar to'xtaguncha. Odatiy tushish/lyutein: 10 mg×2/kun. Endometrioz: 10 mg×2–3/kun. HRT: 10 mg/kun estrogen bilan tsiklik. Ko'rsatmага qarab.",
+        bolalar: "Qo'llanilmaydi."
+      },
+      chiqarish: "Tabletkalar 10 mg; estradiol bilan kombinatsiya (HRT)"
+    },
+    ru: {
+      gruppa: "Половые гормоны — синтетический прогестоген (дидрогестерон)",
+      farmTasir: "Пероральный прогестоген (поддержка беременности и лечение цикла)",
+      farmakodinamika: `Дидрогестерон — перорально активный синтетический прогестоген структуры ретропрогестерона. Избирательно связываясь с прогестероновыми рецепторами эндометрия, переводит его в секреторную фазу — даёт основное действие прогестерона, но эффективен внутрь. Не обладает андрогенным, эстрогенным, глюкокортикоидным или анаболическим действием (селективный прогестоген), не подавляет овуляцию (в терапевтической дозе) и не нарушает базальную температуру/менструацию. Защищает эндометрий от избыточной эстрогеновой пролиферации. Широко применяется для поддержки беременности.`,
+      farmakokinetika: {
+        sorish: "Внутрь быстро всасывается; действует через активный метаболит (дигидродидрогестерон).",
+        tarqalish: "Связывается с белками плазмы.",
+        metabolizm: "В печени до активного 20-дигидродидрогестерона.",
+        chiqarilish: "Преимущественно с мочой. T½ — ~5–7 ч."
+      },
+      korsatmalar: [
+        "Дефицит прогестерона: угрожающий и привычный выкидыш, недостаточность лютеиновой фазы, бесплодие (ВРТ)",
+        "Эндометриоз, дисфункциональные маточные кровотечения, дисменорея, нарушения цикла, аменорея (вторичная)",
+        "Предменструальный синдром; защита эндометрия с эстрогеном при ЗГТ"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к дидрогестерону; неустановленное вагинальное кровотечение",
+        "Прогестогензависимая опухоль; тяжёлое заболевание печени (синдром Дубина-Джонсона, Ротора)",
+        "Тяжёлый зуд/желтуха при беременности в анамнезе",
+        "Лактация (в малом количестве проникает в молоко)"
+      ],
+      nojoya: {
+        "Половые / молочная железа": "Изменение цикла, вагинальное кровотечение/мажущие выделения, чувствительность молочных желёз",
+        "Нервы / общие": "Головная боль, мигрень, головокружение (меньше седации, чем у прогестерона)",
+        "ЖКТ / печень": "Тошнота, боль в животе, изменение функции печени (редко)",
+        "Аллергия": "Сыпь, зуд, крапивница (редко — отёк Квинке)"
+      },
+      dozadan: "Высокая безопасность; признаки передозировки редки (тошнота). Лечение: симптоматически.",
+      ozarotasir: [
+        "Индукторы CYP3A4 (рифампицин, фенобарбитал, карбамазепин, зверобой): снижают эффект дидрогестерона",
+        "Ингибиторы CYP3A4: могут повышать концентрацию"
+      ],
+      qollash: {
+        kattalar: "Угрожающий выкидыш: 40 мг однократно, затем 10 мг каждые 8 ч до прекращения симптомов. Привычный выкидыш/лютеин: 10 мг×2/сут. Эндометриоз: 10 мг×2–3/сут. ЗГТ: 10 мг/сут с эстрогеном циклически. По показанию.",
+        bolalar: "Не применяется."
+      },
+      chiqarish: "Таблетки 10 мг; комбинация с эстрадиолом (ЗГТ)"
+    },
+    en: {
+      gruppa: "Sex hormones — synthetic progestogen (dydrogesterone)",
+      farmTasir: "Oral progestogen (pregnancy support and cycle treatment)",
+      farmakodinamika: `Dydrogesterone is an orally active synthetic progestogen of retroprogesterone structure. Selectively binding endometrial progesterone receptors, it converts the endometrium to the secretory phase — giving progesterone's main effect but effective orally. It has no androgenic, estrogenic, glucocorticoid or anabolic action (a selective progestogen), does not suppress ovulation (at therapeutic doses) and does not alter basal temperature/menstruation. It protects the endometrium from excessive estrogen proliferation. It is widely used for pregnancy support.`,
+      farmakokinetika: {
+        sorish: "Rapidly absorbed orally; acts via the active metabolite (dihydrodydrogesterone).",
+        tarqalish: "Bound to plasma proteins.",
+        metabolizm: "Hepatic to active 20-dihydrodydrogesterone.",
+        chiqarilish: "Mainly renal. T½ — ~5–7 h."
+      },
+      korsatmalar: [
+        "Progesterone deficiency: threatened and habitual miscarriage, luteal phase deficiency, infertility (ART)",
+        "Endometriosis, dysfunctional uterine bleeding, dysmenorrhoea, cycle disorders, amenorrhoea (secondary)",
+        "Premenstrual syndrome; endometrial protection with estrogen in HRT"
+      ],
+      qarrshi: [
+        "Hypersensitivity to dydrogesterone; undiagnosed vaginal bleeding",
+        "Progestogen-dependent tumour; severe liver disease (Dubin-Johnson, Rotor syndrome)",
+        "History of severe pruritus/jaundice in pregnancy",
+        "Lactation (small amounts pass into milk)"
+      ],
+      nojoya: {
+        "Genital / breast": "Cycle change, vaginal bleeding/spotting, breast tenderness",
+        "Nerve / general": "Headache, migraine, dizziness (less sedation than progesterone)",
+        "GI / liver": "Nausea, abdominal pain, altered liver function (rare)",
+        "Allergy": "Rash, pruritus, urticaria (rarely angioedema)"
+      },
+      dozadan: "High safety; overdose signs are rare (nausea). Treatment: symptomatic.",
+      ozarotasir: [
+        "CYP3A4 inducers (rifampicin, phenobarbital, carbamazepine, St John's wort): reduce dydrogesterone's effect",
+        "CYP3A4 inhibitors: may raise concentration"
+      ],
+      qollash: {
+        kattalar: "Threatened miscarriage: 40 mg once, then 10 mg every 8 h until symptoms stop. Habitual miscarriage/luteal: 10 mg×2/day. Endometriosis: 10 mg×2–3/day. HRT: 10 mg/day with estrogen cyclically. Per indication.",
+        bolalar: "Not used."
+      },
+      chiqarish: "Tablets 10 mg; combination with estradiol (HRT)"
+    }
   }
 
 };
