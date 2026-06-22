@@ -52811,6 +52811,588 @@ const PHARMA_DATA = {
       },
       chiqarish: "Soft capsules 8, 10, 16, 20, 40 mg"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // D-Batch 4 — Antiseptiklar va boshqa dermatologik (D08, D11)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── XLORGEKSIDIN | ATX: D08AC02 ──
+  "D08AC02": {
+    uz: {
+      gruppa: "Antiseptiklar va dezinfektantlar — bigvanid (xlorgeksidin)",
+      farmTasir: "Keng spektrli mahalliy antiseptik",
+      farmakodinamika: `Xlorgeksidin — bisbigvanid guruhiga mansub keng spektrli mahalliy antiseptik. Musbat zaryadli molekulasi bakteriya hujayrasining manfiy zaryadli devori va membranasiga bog'lanib uning butunligini buzadi — past konsentratsiyada bakteriostatik (sitoplazma komponentlari oqib chiqishi), yuqori konsentratsiyada bakteritsid (sitoplazma koagulyatsiyasi). Grammusbat va grammanfiy bakteriyalarга, ba'zi viruslar (qobiqli), zamburug' va achitqilarга ta'sir qiladi; spora va kislotaga chidamli bakteriyalarга kam ta'sir qiladi. Teri va shilliq pardaга bog'lanib uzoq (rezidual) antiseptik ta'sir beradi.`,
+      farmakokinetika: {
+        sorish: "Teri va shilliq pardadан deyarli so'rilmaydi; mahalliy ta'sir.",
+        tarqalish: "Teri yuzasi va shilliq pardaда qoladi (rezidual ta'sir).",
+        metabolizm: "Metabolizatsiya bo'lmaydi.",
+        chiqarilish: "So'rilmagani; yutilগan oz qism najas orqали."
+      },
+      korsatmalar: [
+        "Operatsiyaoldi teri va jarroh qo'llarini antiseptiklash, jarohat va kuyишni dezinfeksiyalash",
+        "Og'iz bo'shlig'i antiseptikasi (gingivit, stomatit, tish oldi/keyин chayqash)",
+        "Siydik yo'li kateterizatsiyasi, ginekologik/urologik muolajalarда antiseptika",
+        "Teri infeksiyalari profilaktikasi, qo'l gigienasi"
+      ],
+      qarrshi: [
+        "Xlorgeksidinга o'ta sezgirlik (kamdan-kam, lekin anafilaksiya bo'lishi mumkin)",
+        "Ko'z va o'rta quloqga (timpanal teshikли) yuborish (neyrotoksiklik/korneya ta'siri)",
+        "Bosh va orqa miya bilan kontakt (neyrotoksik)",
+        "Yangi tug'ilganlar terisida yuqori konsentratsiya (ehtiyot — kimyoviy kuyish)"
+      ],
+      nojoya: {
+        "Mahalliy": "Teri ta'siri, achishish, qichima, kontakt dermatit, quruqlik",
+        "Og'iz chayqash": "Til va tishlarning vaqtinchalik jigarrang bo'yalishi, ta'm sezgisining o'zgarishi, til shilliq qavати ta'siri (uzoq qo'llашда)",
+        "Allergik": "Kamdan-kam, lekin jiddiy — anafilaktik reaksiya (ayniqsa shilliq qavат/yaraga)"
+      },
+      dozadan: "Mahalliy antiseptik. Tasodifan ko'p yutilганда — ko'ngil aynishi, oshqozon ta'siri (deyarli so'rilmaydi). Davolash: simptomatik.",
+      ozarotasir: [
+        "Anion saqlovchi sovun, sulfatли yuvuvchilar, tish pastalari: xlorgeksidin (kation) ta'sirini neytrallaydi — vaqtni ajrating yoki yuvib tashlang",
+        "Yod birikmalari bilan birga ishlatilmaydi"
+      ],
+      qollash: {
+        kattalar: "Teri/jarohat: 0,05–0,5% suvли yoki spirtli eritma. Qo'l/jarroh: 0,5–4% yuvinish. Og'iz chayqash: 0,12–0,2% eritma 10 ml ×2/kun 30 soniya. Konsentratsiya maqsadga qarab.",
+        bolalar: "Past konsentratsiya, ehtiyot bilan; yangi tug'ilganларда yuqori spirtli shakl ishlatilmaydi."
+      },
+      chiqarish: "Suvли eritma 0,05%, 0,1%, 0,2%, 0,5%; spirtли eritma; og'iz chayqash 0,12–0,2%; gel; jarroh yuvinish 4%"
+    },
+    ru: {
+      gruppa: "Антисептики и дезинфектанты — бигуанид (хлоргексидин)",
+      farmTasir: "Местный антисептик широкого спектра",
+      farmakodinamika: `Хлоргексидин — местный антисептик широкого спектра группы бисбигуанидов. Положительно заряженная молекула связывается с отрицательно заряженной стенкой и мембраной бактериальной клетки, нарушая её целостность — в низкой концентрации бактериостатически (утечка компонентов цитоплазмы), в высокой бактерицидно (коагуляция цитоплазмы). Действует на грамположительные и грамотрицательные бактерии, некоторые (оболочечные) вирусы, грибы и дрожжи; слабо — на споры и кислотоустойчивые бактерии. Связываясь с кожей и слизистой, даёт длительное (резидуальное) антисептическое действие.`,
+      farmakokinetika: {
+        sorish: "С кожи и слизистой почти не всасывается; местное действие.",
+        tarqalish: "Остаётся на поверхности кожи и слизистой (резидуальное действие).",
+        metabolizm: "Не метаболизируется.",
+        chiqarilish: "Невсосавшийся; проглоченная малая часть с калом."
+      },
+      korsatmalar: [
+        "Предоперационная антисептика кожи и рук хирурга, дезинфекция ран и ожогов",
+        "Антисептика полости рта (гингивит, стоматит, полоскание до/после стоматологии)",
+        "Катетеризация мочевых путей, антисептика при гинекологических/урологических процедурах",
+        "Профилактика инфекций кожи, гигиена рук"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к хлоргексидину (редко, но возможна анафилаксия)",
+        "Введение в глаз и среднее ухо (при перфорации барабанной перепонки) — нейротоксичность/действие на роговицу",
+        "Контакт с головным и спинным мозгом (нейротоксично)",
+        "Высокая концентрация на коже новорождённых (осторожно — химический ожог)"
+      ],
+      nojoya: {
+        "Местные": "Раздражение кожи, жжение, зуд, контактный дерматит, сухость",
+        "Полоскание рта": "Временное коричневое окрашивание языка и зубов, изменение вкуса, раздражение слизистой языка (при длительном применении)",
+        "Аллергия": "Редко, но серьёзно — анафилактическая реакция (особенно на слизистую/рану)"
+      },
+      dozadan: "Местный антисептик. При случайном проглатывании большого количества — тошнота, раздражение желудка (почти не всасывается). Лечение: симптоматически.",
+      ozarotasir: [
+        "Анионные мыла, сульфатные моющие, зубные пасты: нейтрализуют действие хлоргексидина (катион) — разнести по времени или смыть",
+        "Не сочетать с препаратами йода"
+      ],
+      qollash: {
+        kattalar: "Кожа/рана: 0,05–0,5% водный или спиртовой раствор. Руки/хирург: 0,5–4% обмывание. Полоскание рта: 0,12–0,2% раствор 10 мл ×2/сут 30 секунд. Концентрация по цели.",
+        bolalar: "Низкая концентрация, с осторожностью; у новорождённых спиртовую форму высокой концентрации не применять."
+      },
+      chiqarish: "Водный раствор 0,05%, 0,1%, 0,2%, 0,5%; спиртовой раствор; полоскание рта 0,12–0,2%; гель; хирургическое обмывание 4%"
+    },
+    en: {
+      gruppa: "Antiseptics and disinfectants — biguanide (chlorhexidine)",
+      farmTasir: "Broad-spectrum topical antiseptic",
+      farmakodinamika: `Chlorhexidine is a broad-spectrum topical antiseptic of the bisbiguanide group. Its positively charged molecule binds the negatively charged wall and membrane of the bacterial cell, disrupting its integrity — bacteriostatic at low concentration (leakage of cytoplasmic components), bactericidal at high concentration (cytoplasm coagulation). It acts on Gram-positive and Gram-negative bacteria, some (enveloped) viruses, fungi and yeasts; weakly on spores and acid-fast bacteria. Binding skin and mucosa, it gives long (residual) antiseptic action.`,
+      farmakokinetika: {
+        sorish: "Barely absorbed from skin and mucosa; local action.",
+        tarqalish: "Remains on the skin and mucosal surface (residual action).",
+        metabolizm: "Not metabolised.",
+        chiqarilish: "Unabsorbed; the swallowed small part in faeces."
+      },
+      korsatmalar: [
+        "Pre-operative skin and surgeon's-hand antisepsis, disinfection of wounds and burns",
+        "Oral cavity antisepsis (gingivitis, stomatitis, rinse before/after dentistry)",
+        "Urinary catheterisation, antisepsis in gynaecological/urological procedures",
+        "Prevention of skin infections, hand hygiene"
+      ],
+      qarrshi: [
+        "Hypersensitivity to chlorhexidine (rare, but anaphylaxis is possible)",
+        "Instillation into the eye and middle ear (with perforated eardrum) — neurotoxicity/corneal effect",
+        "Contact with the brain and spinal cord (neurotoxic)",
+        "High concentration on neonatal skin (caution — chemical burn)"
+      ],
+      nojoya: {
+        "Local": "Skin irritation, burning, itching, contact dermatitis, dryness",
+        "Mouth rinse": "Temporary brown staining of tongue and teeth, taste change, tongue mucosa irritation (with prolonged use)",
+        "Allergy": "Rare but serious — anaphylactic reaction (especially on mucosa/wound)"
+      },
+      dozadan: "Topical antiseptic. If a large amount is accidentally swallowed — nausea, gastric irritation (barely absorbed). Treatment: symptomatic.",
+      ozarotasir: [
+        "Anionic soaps, sulfate detergents, toothpastes: neutralise chlorhexidine's effect (a cation) — separate the timing or rinse off",
+        "Do not combine with iodine preparations"
+      ],
+      qollash: {
+        kattalar: "Skin/wound: 0.05–0.5% aqueous or alcoholic solution. Hands/surgeon: 0.5–4% wash. Mouth rinse: 0.12–0.2% solution 10 mL ×2/day for 30 seconds. Concentration per purpose.",
+        bolalar: "Low concentration, with caution; do not use a high-concentration alcoholic form in neonates."
+      },
+      chiqarish: "Aqueous solution 0.05%, 0.1%, 0.2%, 0.5%; alcoholic solution; mouth rinse 0.12–0.2%; gel; surgical wash 4%"
+    }
+  },
+
+  // ── POVIDON-YOD | ATX: D08AG02 ──
+  "D08AG02": {
+    uz: {
+      gruppa: "Antiseptiklar va dezinfektantlar — yod birikmasi (povidon-yod)",
+      farmTasir: "Keng spektrli mahalliy antiseptik (yod ajratuvchi)",
+      farmakodinamika: `Povidon-yod — yodning polivinilpirrolidon (povidon) bilan kompleksi; tegishda asta-sekin erkin yod ajratadi. Ajralayotgan yod mikroorganizm hujayrasidagi oqsil, ferment va membrana komponentlarini oksidlab denaturatsiya qiladi — keng spektrli, tez bakteritsid ta'sir (grammusbat va grammanfiy bakteriyalar, viruslar, zamburug'lar, protozoalar va sporalar). Erkin yoddан farqli o'laroq teriни kamroq qitiqlaydi va ta'sir uzoqroq (yod sekin ajraladi). Qonga botganда samarasi pasayadi.`,
+      farmakokinetika: {
+        sorish: "Butun teridан so'rilish kam; keng/jarohatlangan yuza va shilliq pardadан yod tizimli so'rilishi mumkin (qalqonsimon bezga ta'sir).",
+        tarqalish: "Mahalliy; so'rilgan yod qalqonsimon bezда to'planadi.",
+        metabolizm: "Yod organizm yod almashinuviga qo'shiladi.",
+        chiqarilish: "So'rilgan yod asosан buyrak orqали."
+      },
+      korsatmalar: [
+        "Teri va shilliq pardalarни dezinfeksiyalash: jarohat, kuyish, yara, abrazsiya",
+        "Operatsiyaoldi teri va qo'l antiseptikasi, jarrohlik maydoni",
+        "Og'iz-halqum antiseptikasi (chayqash), ginekologik antiseptika (sham/eritma)",
+        "Pролежни, troyfik yara, infeksiyalangan dermatozlar"
+      ],
+      qarrshi: [
+        "Yodga o'ta sezgirlik",
+        "Qalqonsimon bez kasalliklari (gipertireoz, tugunли buqoq), Dyuring gerpetiform dermatiti",
+        "Radioaktiv yod bilan davolanish/diagnostika oldidan (yod almashinuviga ta'sir)",
+        "Yangi tug'ilganlar va 1 yoshgача bolalar (yod so'rilishi — qalqonsimon bez), homiladorlik (II–III trimestr) va emizish — keng yuzада"
+      ],
+      nojoya: {
+        "Mahalliy": "Teri ta'siri, achishish, qizarish, kontakt dermatit; keng/uzoq qo'llашда — kimyoviy ta'sir",
+        "Endokrin (keng so'rilishда)": "Qalqonsimon bez funksiyasiga ta'sir (gipo-/gipertireoz), ayniqsa moyil bemorларда",
+        "Allergik": "Yodga o'ta sezgirlik, kamdan-kam — anafilaktoid reaksiya",
+        "Elektrolit (juda keng yuza)": "Metabolik atsidoz, buyrak ta'siri, natriy oshishi"
+      },
+      dozadan: "Keng kuyган yuzага yoki uzoq qo'llаганда yod tizimli so'rilishi — qalqonsimon bez buzilishi, elektrolit/buyrak o'zgarishlari, yodizm (og'izda metall ta'mi, so'lak oqishi). Davolash: to'xtatish, qalqonsimon bez va elektrolit nazorati.",
+      ozarotasir: [
+        "Vodorod peroksid, kumush, taurolidin, fermentли yara vositalari bilan birga — yod ta'sirini kamaytiradi",
+        "Litiy: birga keng qo'llаганда gipotireoz xavfi",
+        "Civa saqlovchi antiseptiklar bilan — toksik birikma (ishlatilmaydi)"
+      ],
+      qollash: {
+        kattalar: "10% eritma (1% erkin yod) terига surtish/yuvinish; 7,5% jarroh yuvinish; og'iz chayqash 1% suyultirilgan; vaginal 200 mg sham. Maqsadga qarab suyultiriladi.",
+        bolalar: "Cheklangan yuza, past konsentratsiya; chaqaloqлар va 1 yoshgача qo'llanilmaydi (yod so'rilishi)."
+      },
+      chiqarish: "Eritma 7,5%, 10%; mazь 10%; og'iz chayqash; vaginal shamlar 200 mg; jarroh yuvinish"
+    },
+    ru: {
+      gruppa: "Антисептики и дезинфектанты — соединение йода (повидон-йод)",
+      farmTasir: "Местный антисептик широкого спектра (выделяющий йод)",
+      farmakodinamika: `Повидон-йод — комплекс йода с поливинилпирролидоном (повидоном); при контакте постепенно выделяет свободный йод. Выделяющийся йод окисляет и денатурирует белки, ферменты и компоненты мембран микроорганизмов — быстрое бактерицидное действие широкого спектра (грамположительные и грамотрицательные бактерии, вирусы, грибы, простейшие и споры). В отличие от свободного йода меньше раздражает кожу и действует дольше (йод выделяется медленно). В присутствии крови эффект снижается.`,
+      farmakokinetika: {
+        sorish: "С целой кожи всасывание мало; с обширной/раневой поверхности и слизистой йод может всасываться системно (влияние на щитовидную железу).",
+        tarqalish: "Местно; всосавшийся йод накапливается в щитовидной железе.",
+        metabolizm: "Йод включается в йодный обмен организма.",
+        chiqarilish: "Всосавшийся йод преимущественно почками."
+      },
+      korsatmalar: [
+        "Дезинфекция кожи и слизистых: раны, ожоги, язвы, ссадины",
+        "Предоперационная антисептика кожи и рук, операционное поле",
+        "Антисептика рта-глотки (полоскание), гинекологическая антисептика (свечи/раствор)",
+        "Пролежни, трофические язвы, инфицированные дерматозы"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к йоду",
+        "Заболевания щитовидной железы (гипертиреоз, узловой зоб), герпетиформный дерматит Дюринга",
+        "Перед лечением/диагностикой радиоактивным йодом (влияние на йодный обмен)",
+        "Новорождённые и дети до 1 года (всасывание йода — щитовидная железа), беременность (II–III триместр) и лактация — на большой площади"
+      ],
+      nojoya: {
+        "Местные": "Раздражение кожи, жжение, покраснение, контактный дерматит; при обширном/длительном применении — химическое воздействие",
+        "Эндокринные (при обширном всасывании)": "Влияние на функцию щитовидной железы (гипо-/гипертиреоз), особенно у предрасположенных",
+        "Аллергия": "Гиперчувствительность к йоду, редко — анафилактоидная реакция",
+        "Электролиты (очень большая площадь)": "Метаболический ацидоз, влияние на почки, повышение натрия"
+      },
+      dozadan: "При обширной ожоговой поверхности или длительном применении системное всасывание йода — нарушение щитовидной железы, электролитные/почечные изменения, йодизм (металлический вкус во рту, слюнотечение). Лечение: отмена, контроль щитовидной железы и электролитов.",
+      ozarotasir: [
+        "С перекисью водорода, серебром, тауролидином, ферментными раневыми средствами — снижает действие йода",
+        "Литий: при совместном обширном применении риск гипотиреоза",
+        "С ртутьсодержащими антисептиками — токсичное соединение (не применять)"
+      ],
+      qollash: {
+        kattalar: "10% раствор (1% свободного йода) на кожу/обмывание; 7,5% хирургическое обмывание; полоскание рта 1% разведённым; вагинально 200 мг свеча. Разводится по цели.",
+        bolalar: "Ограниченная площадь, низкая концентрация; у новорождённых и до 1 года не применяется (всасывание йода)."
+      },
+      chiqarish: "Раствор 7,5%, 10%; мазь 10%; полоскание рта; вагинальные свечи 200 мг; хирургическое обмывание"
+    },
+    en: {
+      gruppa: "Antiseptics and disinfectants — iodine compound (povidone-iodine)",
+      farmTasir: "Broad-spectrum topical antiseptic (iodine-releasing)",
+      farmakodinamika: `Povidone-iodine is a complex of iodine with polyvinylpyrrolidone (povidone); on contact it gradually releases free iodine. The released iodine oxidises and denatures proteins, enzymes and membrane components of microorganisms — rapid broad-spectrum bactericidal action (Gram-positive and Gram-negative bacteria, viruses, fungi, protozoa and spores). Unlike free iodine it irritates the skin less and acts longer (iodine is released slowly). In the presence of blood the effect decreases.`,
+      farmakokinetika: {
+        sorish: "From intact skin absorption is low; from an extensive/wounded surface and mucosa iodine can be absorbed systemically (effect on the thyroid).",
+        tarqalish: "Local; absorbed iodine accumulates in the thyroid.",
+        metabolizm: "Iodine joins the body's iodine metabolism.",
+        chiqarilish: "Absorbed iodine mainly renally."
+      },
+      korsatmalar: [
+        "Disinfection of skin and mucosa: wounds, burns, ulcers, abrasions",
+        "Pre-operative skin and hand antisepsis, the operative field",
+        "Oral-pharyngeal antisepsis (rinse), gynaecological antisepsis (suppositories/solution)",
+        "Pressure sores, trophic ulcers, infected dermatoses"
+      ],
+      qarrshi: [
+        "Hypersensitivity to iodine",
+        "Thyroid disease (hyperthyroidism, nodular goitre), Duhring herpetiform dermatitis",
+        "Before radioactive iodine therapy/diagnosis (effect on iodine metabolism)",
+        "Neonates and infants under 1 year (iodine absorption — thyroid), pregnancy (2nd–3rd trimester) and lactation — over a large area"
+      ],
+      nojoya: {
+        "Local": "Skin irritation, burning, redness, contact dermatitis; with extensive/prolonged use — chemical effect",
+        "Endocrine (with extensive absorption)": "Effect on thyroid function (hypo-/hyperthyroidism), especially in predisposed people",
+        "Allergy": "Iodine hypersensitivity, rarely an anaphylactoid reaction",
+        "Electrolytes (very large area)": "Metabolic acidosis, renal effect, raised sodium"
+      },
+      dozadan: "With an extensive burn surface or prolonged use, systemic iodine absorption — thyroid disturbance, electrolyte/renal changes, iodism (metallic taste, salivation). Treatment: discontinue, monitor thyroid and electrolytes.",
+      ozarotasir: [
+        "With hydrogen peroxide, silver, taurolidine, enzymatic wound agents — reduces iodine's effect",
+        "Lithium: with concurrent extensive use, hypothyroidism risk",
+        "With mercury-containing antiseptics — a toxic compound (do not use)"
+      ],
+      qollash: {
+        kattalar: "10% solution (1% free iodine) to skin/wash; 7.5% surgical wash; mouth rinse 1% diluted; vaginally 200 mg suppository. Diluted per purpose.",
+        bolalar: "Limited area, low concentration; not used in neonates and under 1 year (iodine absorption)."
+      },
+      chiqarish: "Solution 7.5%, 10%; ointment 10%; mouth rinse; vaginal suppositories 200 mg; surgical wash"
+    }
+  },
+
+  // ── MIRAMISTIN | ATX: D08AJ ──
+  "D08AJ": {
+    uz: {
+      gruppa: "Antiseptiklar va dezinfektantlar — to'rtlamchi ammoniy birikmasi (miramistin)",
+      farmTasir: "Keng spektrli mahalliy antiseptik",
+      farmakodinamika: `Miramistin — kation faol to'rtlamchi ammoniy birikmasi bo'lgan keng spektrli mahalliy antiseptik. Mikroorganizm hujayra membranasidaги lipidlarга gidrofob ta'sir qilib membrana o'tkazuvchanligini buzadi va hujayrани halok qiladi — grammusbat va grammanfiy bakteriyalar, jumladan shifoxona shtammlari, zamburug'lar (Candida, dermatofitlar), qobiqli viruslar (jumladan gerpes, OIV) va jinsiy yo'l bilan yuqadigan qo'zg'atuvchilarга (xlamidiya, trixomonada, gonokokk) ta'sir qiladi. Mahalliy immunitetni rag'batlantiradi, yara bitishini tezlashtiradi, yiringli ekssudatni so'radi. Teriни qitiqlamaydi va allergiya kam beradi.`,
+      farmakokinetika: {
+        sorish: "Teri va shilliq pardadан so'rilmaydi; faqat mahalliy ta'sir.",
+        tarqalish: "Qo'llash joyида.",
+        metabolizm: "Metabolizatsiya bo'lmaydi.",
+        chiqarilish: "Mahalliy; so'rilmaydi."
+      },
+      korsatmalar: [
+        "Jarohat, kuyish, yiringli yaralarni davolash va profilaktikasi (jarrohlik, travmatologiya)",
+        "Jinsiy yo'l bilan yuqadigan infeksiyalar profilaktikasi (alohida vaqtда), uretrit, vaginit, vulvovaginit",
+        "LOR va stomatologiya: tonzillit, faringit, otit, stomatit, gingivit (chayqash/yuvish)",
+        "Dermatologiya: pioderma, mikoz, kandidoz (yordamchi)"
+      ],
+      qarrshi: [
+        "Miramistinга o'ta sezgirlik (kamdan-kam)"
+      ],
+      nojoya: {
+        "Mahalliy": "Qo'llash joyида qisqa muddatли achishish (5–20 soniya, o'z-o'zidan o'tadi)",
+        "Allergik": "Teri qichishi, qizarish, quruqlik (kamdan-kam)"
+      },
+      dozadan: "Mahalliy, so'rilmaydigan antiseptik — tizimli xavf yo'q. Tasodifan yutilганда — simptomatik.",
+      ozarotasir: [
+        "Antibiotiklar bilan birga ularning antibakterial/antifungal ta'sirini kuchaytiradi (sinergiya)",
+        "Anion saqlovchi sovunlar (kationni neytrallaydi) bilan birga ta'siri pasayadi"
+      ],
+      qollash: {
+        kattalar: "0,01% eritma: yara/teriга surtish, tampon, yuvish; LOR — chayqash 10–15 ml ×3–4/kun; urogenital profilaktika — uretra/qинga kiritish. Sprey shakli ham mavjud.",
+        bolalar: "3 yoshdan LOR/teri qo'llanishi (chayqash, surtish); past hajmда."
+      },
+      chiqarish: "Eritma 0,01% (sprey nasadkali); mazь 0,5%"
+    },
+    ru: {
+      gruppa: "Антисептики и дезинфектанты — четвертичное аммониевое соединение (мирамистин)",
+      farmTasir: "Местный антисептик широкого спектра",
+      farmakodinamika: `Мирамистин — местный антисептик широкого спектра, катионное поверхностно-активное четвертичное аммониевое соединение. Гидрофобно воздействуя на липиды мембраны клетки микроорганизма, нарушает её проницаемость и губит клетку — действует на грамположительные и грамотрицательные бактерии (включая госпитальные штаммы), грибы (Candida, дерматофиты), оболочечные вирусы (включая герпес, ВИЧ) и возбудителей ИППП (хламидия, трихомонада, гонококк). Стимулирует местный иммунитет, ускоряет заживление ран, абсорбирует гнойный экссудат. Не раздражает кожу и редко вызывает аллергию.`,
+      farmakokinetika: {
+        sorish: "С кожи и слизистой не всасывается; только местное действие.",
+        tarqalish: "В месте нанесения.",
+        metabolizm: "Не метаболизируется.",
+        chiqarilish: "Местно; не всасывается."
+      },
+      korsatmalar: [
+        "Лечение и профилактика ран, ожогов, гнойных ран (хирургия, травматология)",
+        "Профилактика ИППП (в определённое время), уретрит, вагинит, вульвовагинит",
+        "ЛОР и стоматология: тонзиллит, фарингит, отит, стоматит, гингивит (полоскание/промывание)",
+        "Дерматология: пиодермия, микоз, кандидоз (вспомогательно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к мирамистину (редко)"
+      ],
+      nojoya: {
+        "Местные": "Кратковременное жжение в месте нанесения (5–20 секунд, проходит само)",
+        "Аллергия": "Зуд кожи, покраснение, сухость (редко)"
+      },
+      dozadan: "Местный, невсасывающийся антисептик — системного риска нет. При случайном проглатывании — симптоматически.",
+      ozarotasir: [
+        "С антибиотиками усиливает их антибактериальное/противогрибковое действие (синергия)",
+        "С анионными мылами (нейтрализуют катион) действие снижается"
+      ],
+      qollash: {
+        kattalar: "0,01% раствор: нанесение на рану/кожу, тампон, промывание; ЛОР — полоскание 10–15 мл ×3–4/сут; урогенитальная профилактика — введение в уретру/влагалище. Есть форма спрея.",
+        bolalar: "С 3 лет ЛОР/кожное применение (полоскание, нанесение); в малом объёме."
+      },
+      chiqarish: "Раствор 0,01% (с насадкой-спреем); мазь 0,5%"
+    },
+    en: {
+      gruppa: "Antiseptics and disinfectants — quaternary ammonium compound (miramistin)",
+      farmTasir: "Broad-spectrum topical antiseptic",
+      farmakodinamika: `Miramistin is a broad-spectrum topical antiseptic, a cationic surface-active quaternary ammonium compound. By acting hydrophobically on the lipids of the microbial cell membrane, it disrupts its permeability and kills the cell — acting on Gram-positive and Gram-negative bacteria (including hospital strains), fungi (Candida, dermatophytes), enveloped viruses (including herpes, HIV) and STI pathogens (chlamydia, trichomonas, gonococcus). It stimulates local immunity, speeds wound healing and absorbs purulent exudate. It does not irritate the skin and rarely causes allergy.`,
+      farmakokinetika: {
+        sorish: "Not absorbed from skin and mucosa; local action only.",
+        tarqalish: "At the application site.",
+        metabolizm: "Not metabolised.",
+        chiqarilish: "Local; not absorbed."
+      },
+      korsatmalar: [
+        "Treatment and prevention of wounds, burns, purulent wounds (surgery, traumatology)",
+        "STI prophylaxis (within a certain time), urethritis, vaginitis, vulvovaginitis",
+        "ENT and dentistry: tonsillitis, pharyngitis, otitis, stomatitis, gingivitis (rinse/irrigation)",
+        "Dermatology: pyoderma, mycosis, candidiasis (adjunct)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to miramistin (rare)"
+      ],
+      nojoya: {
+        "Local": "Brief burning at the application site (5–20 seconds, resolves on its own)",
+        "Allergy": "Skin itching, redness, dryness (rare)"
+      },
+      dozadan: "A local, non-absorbed antiseptic — no systemic risk. If accidentally swallowed — symptomatic.",
+      ozarotasir: [
+        "With antibiotics it enhances their antibacterial/antifungal effect (synergy)",
+        "With anionic soaps (which neutralise the cation) the effect decreases"
+      ],
+      qollash: {
+        kattalar: "0.01% solution: apply to the wound/skin, tampon, irrigation; ENT — rinse 10–15 mL ×3–4/day; urogenital prophylaxis — instillation into the urethra/vagina. A spray form is available.",
+        bolalar: "From 3 years ENT/skin use (rinse, application); in a small volume."
+      },
+      chiqarish: "Solution 0.01% (with spray nozzle); ointment 0.5%"
+    }
+  },
+
+  // ── TAKROLIMUS (mahalliy) | ATX: D11AH01 ──
+  "D11AH01": {
+    uz: {
+      gruppa: "Boshqa dermatologik vositalar — mahalliy kalsineyrin inhibitori (takrolimus)",
+      farmTasir: "Mahalliy immunomodulyator (steroidsiz atopik dermatit davosi)",
+      farmakodinamika: `Takrolimus (mahalliy, mazь shaklida) — kalsineyrin inhibitori bo'lgan immunomodulyator. Teriдаги T-limfotsitlarда FKBP-12 oqsiliga bog'lanib kalsineyrin fermentini ingibe qiladi — bu T-hujayralarda yallig'lanish sitokinlari (IL-2 va boshqalar) transkripsiyasini bloklaydi, T-limfotsit faollashuvi va mast hujayralaridan mediatorlar ajralishini kamaytiradi. Natijada atopik dermatitдаги yallig'lanish va qichima bostiriladi. Glyukokortikoidlardан farqli o'laroq teri atrofiyasini chaqirmaydi — shu sababli yuz, ko'z atrofi va teri burmaларида uzoq muddat qo'llashга qulay (steroidsiz alternativa).`,
+      farmakokinetika: {
+        sorish: "Sog'lom teridан so'rilish juda past; yallig'langan teriда biroz oshadi, lekin teri tuzalгач kamayadi (tizimli daraja juda past).",
+        tarqalish: "Teriдa ta'sir; tizimli so'rilish minimal.",
+        metabolizm: "So'rilgan oz qism jigarда CYP3A4 orqали.",
+        chiqarilish: "So'rilgan qism o't orqали."
+      },
+      korsatmalar: [
+        "O'rta-og'ir atopik dermatit (ekzema) — glyukokortikoidlar samarasiz yoki toqatsiz bo'lганда, yoki ular xavfli sohaларда (yuz, bo'yin, burmalar)",
+        "Atopik dermatit qo'zg'alishini oldini olish (proaktiv, haftada 2 marta — remissiyani saqlash)"
+      ],
+      qarrshi: [
+        "Takrolimus yoki makrolid asosли immunomodulyatorlarга o'ta sezgirlik",
+        "Teriдаги infeksiya (virusli — gerpes/molyusk, bakterial, zamburug'li) davolanmagan",
+        "Netherton sindromi va keng teri to'sig'i buzilishlari (so'rilish oshadi)",
+        "Immuniteti susaygan bemorlar; davolanган sohani quyoshга/UB nurга ko'p tutish"
+      ],
+      nojoya: {
+        "Mahalliy": "Qo'llash joyида achishish, issiqlik hissi, qichima, qizarish (boshlanишда — odatda bir necha kunда o'tadi); alkogol qabul qilганда yuz qizarishi",
+        "Infeksion": "Teri virusли infeksiyalari (gerpes, suvchechak, molyusk), follikulit, ikkilamchi infeksiya",
+        "Teoretik xavf": "Uzoq muddatли ishlatishда teri o'smasi/limfoma xavfi (kam isbotlangan — ehtiyot sifatида UB nuridan saqlanish)"
+      },
+      dozadan: "Mahalliy shakl, tizimli so'rilish juda past — o'tkir dozadan oshish xavfi minimal. Tasodifan yutilганда — simptomatik kuzatuv.",
+      ozarotasir: [
+        "Kuchli CYP3A4 inhibitorlari (ketokonazol, eritromitsin): yallig'langan keng teriда so'rilган takrolimus darajasini oshirishi mumkin (odatda kam ahamiyatli)",
+        "Davolanган teriни quyosh/solarий nuriga tutmaslik (mahalliy immunosupressiya)"
+      ],
+      qollash: {
+        kattalar: "0,1% (kattalar) yoki 0,03% mazь zararlangan teriga kuniga 2 marta yupqa surtib; yaxshilangач kamaytiriladi. Proaktiv profilaktika: haftada 2 marta. Quyoshдан himoya.",
+        bolalar: "2 yoshdan 0,03% mazь kuniga 2 marta; 16 yoshdan 0,1% ham."
+      },
+      chiqarish: "Mazь 0,03%, 0,1%"
+    },
+    ru: {
+      gruppa: "Прочие дерматологические средства — местный ингибитор кальциневрина (такролимус)",
+      farmTasir: "Местный иммуномодулятор (нестероидное лечение атопического дерматита)",
+      farmakodinamika: `Такролимус (местно, в форме мази) — иммуномодулятор, ингибитор кальциневрина. Связываясь с белком FKBP-12 в T-лимфоцитах кожи, ингибирует фермент кальциневрин — это блокирует транскрипцию воспалительных цитокинов (ИЛ-2 и др.) в T-клетках, снижает активацию T-лимфоцитов и выделение медиаторов из тучных клеток. В результате подавляются воспаление и зуд при атопическом дерматите. В отличие от глюкокортикоидов не вызывает атрофию кожи — поэтому удобен для длительного применения на лице, вокруг глаз и в складках (нестероидная альтернатива).`,
+      farmakokinetika: {
+        sorish: "Со здоровой кожи всасывание очень низкое; на воспалённой коже несколько повышается, но снижается по мере заживления (системный уровень очень низкий).",
+        tarqalish: "Действие в коже; системное всасывание минимально.",
+        metabolizm: "Всосавшаяся малая часть в печени через CYP3A4.",
+        chiqarilish: "Всосавшаяся часть с жёлчью."
+      },
+      korsatmalar: [
+        "Средне-тяжёлый атопический дерматит (экзема) — при неэффективности/непереносимости глюкокортикоидов или их опасности в чувствительных зонах (лицо, шея, складки)",
+        "Профилактика обострений атопического дерматита (проактивно, 2 раза в неделю — поддержание ремиссии)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к такролимусу или иммуномодуляторам на основе макролидов",
+        "Нелеченая инфекция кожи (вирусная — герпес/моллюск, бактериальная, грибковая)",
+        "Синдром Нетертона и обширные нарушения кожного барьера (всасывание повышается)",
+        "Пациенты с ослабленным иммунитетом; избыточное воздействие солнца/УФ на обработанную область"
+      ],
+      nojoya: {
+        "Местные": "Жжение, чувство тепла, зуд, покраснение в месте нанесения (в начале — обычно проходит за несколько дней); приливы к лицу при приёме алкоголя",
+        "Инфекционные": "Вирусные инфекции кожи (герпес, ветрянка, моллюск), фолликулит, вторичная инфекция",
+        "Теоретический риск": "При длительном применении риск опухоли кожи/лимфомы (мало доказан — из осторожности избегать УФ)"
+      },
+      dozadan: "Местная форма, системное всасывание очень низкое — риск острой передозировки минимален. При случайном проглатывании — симптоматическое наблюдение.",
+      ozarotasir: [
+        "Мощные ингибиторы CYP3A4 (кетоконазол, эритромицин): могут повышать уровень всосавшегося такролимуса на обширной воспалённой коже (обычно малозначимо)",
+        "Не подвергать обработанную кожу солнцу/солярию (местная иммуносупрессия)"
+      ],
+      qollash: {
+        kattalar: "0,1% (взрослые) или 0,03% мазь на поражённую кожу 2 раза в день тонким слоем; при улучшении уменьшают. Проактивная профилактика: 2 раза в неделю. Защита от солнца.",
+        bolalar: "С 2 лет 0,03% мазь 2 раза в день; с 16 лет также 0,1%."
+      },
+      chiqarish: "Мазь 0,03%, 0,1%"
+    },
+    en: {
+      gruppa: "Other dermatologicals — topical calcineurin inhibitor (tacrolimus)",
+      farmTasir: "Topical immunomodulator (steroid-free atopic dermatitis treatment)",
+      farmakodinamika: `Tacrolimus (topical, as an ointment) is an immunomodulator, a calcineurin inhibitor. Binding the FKBP-12 protein in cutaneous T-lymphocytes, it inhibits the enzyme calcineurin — blocking transcription of inflammatory cytokines (IL-2 and others) in T-cells, reducing T-lymphocyte activation and mediator release from mast cells. As a result inflammation and itching in atopic dermatitis are suppressed. Unlike glucocorticoids it does not cause skin atrophy — so it is convenient for long-term use on the face, around the eyes and in folds (a steroid-free alternative).`,
+      farmakokinetika: {
+        sorish: "From healthy skin absorption is very low; on inflamed skin it rises somewhat but falls as the skin heals (systemic levels very low).",
+        tarqalish: "Action in the skin; systemic absorption minimal.",
+        metabolizm: "The small absorbed part in the liver via CYP3A4.",
+        chiqarilish: "The absorbed part via bile."
+      },
+      korsatmalar: [
+        "Moderate-to-severe atopic dermatitis (eczema) — when glucocorticoids are ineffective/not tolerated or risky in sensitive areas (face, neck, folds)",
+        "Prevention of atopic dermatitis flares (proactive, twice weekly — maintaining remission)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to tacrolimus or macrolide-based immunomodulators",
+        "Untreated skin infection (viral — herpes/molluscum, bacterial, fungal)",
+        "Netherton syndrome and extensive skin barrier defects (absorption increases)",
+        "Immunocompromised patients; excessive sun/UV exposure of the treated area"
+      ],
+      nojoya: {
+        "Local": "Burning, warmth, itching, redness at the application site (at the start — usually resolves in a few days); facial flushing with alcohol",
+        "Infectious": "Viral skin infections (herpes, chickenpox, molluscum), folliculitis, secondary infection",
+        "Theoretical risk": "With long-term use a risk of skin tumour/lymphoma (poorly proven — avoid UV as a precaution)"
+      },
+      dozadan: "Topical form, systemic absorption very low — acute overdose risk minimal. If accidentally swallowed — symptomatic observation.",
+      ozarotasir: [
+        "Potent CYP3A4 inhibitors (ketoconazole, erythromycin): may raise absorbed tacrolimus levels on extensive inflamed skin (usually minor)",
+        "Do not expose treated skin to sun/solarium (local immunosuppression)"
+      ],
+      qollash: {
+        kattalar: "0.1% (adults) or 0.03% ointment to the affected skin twice daily in a thin layer; reduce on improvement. Proactive prophylaxis: twice weekly. Sun protection.",
+        bolalar: "From 2 years 0.03% ointment twice daily; from 16 years 0.1% too."
+      },
+      chiqarish: "Ointment 0.03%, 0.1%"
+    }
+  },
+
+  // ── FINASTERID | ATX: D11AX10 ──
+  "D11AX10": {
+    uz: {
+      gruppa: "Boshqa dermatologik vositalar — 5-alfa-reduktaza inhibitori (finasterid)",
+      farmTasir: "Androgenetik alopetsiya va prostata giperplaziyasiga qarshi",
+      farmakodinamika: `Finasterid — II tip 5-alfa-reduktaza fermentini selektiv ingibe qiluvchi vosita. Bu ferment testosteronни kuchliroq androgen — digidrotestosteronга (DHT) aylantiradi. Finasterid DHT hosil bo'lishini kamaytiradi (qonda va to'qimaларda): bu androgenetik alopetsiyaда soch follikulalarining DHT ta'sirida kichrayishini to'xtatadi va sochни qisman tiklaydi; xayfli prostata giperplaziyasida (BPH) prostata hajmini kamaytiradi va siydik chiqishini yaxshilaydi. Faqat erkaklarда qo'llaniladi. Ayollar (ayniqsa homiladorlar)ga taqiqlangan — erkak homila jinsiy a'zolari rivojlanishига zarar (teratogen).`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали yaxshi so'riladi; biokirish ~65%.",
+        tarqalish: "Plazma oqsillariga ~90% bog'lanadi; gematoentsefalik to'siqdan o'tadi.",
+        metabolizm: "Jigarда CYP3A4 orqали.",
+        chiqarilish: "O't va siydik orqали metabolit ko'rinishida. T½ — ~6 soat (keksaларда uzunroq)."
+      },
+      korsatmalar: [
+        "Erkaklarда androgenetik alopetsiya (soch to'kilishi) — 1 mg",
+        "Xayfli prostata giperplaziyasi (BPH) simptomlarini davolash va asoratlar (o'tkir siydik tutilishi, jarrohlik) xavfini kamaytirish — 5 mg",
+        "BPH da alfa-blokator bilan kombinatsiya"
+      ],
+      qarrshi: [
+        "Finasteridга o'ta sezgirlik",
+        "Ayollar (ayniqsa reproduktiv yosh va homiladorlar) — qabul qilish va singan tabletkaга tegish ham taqiqlangan (teratogen)",
+        "Bolalar",
+        "Og'ir jigar yetishmovchiligi (ehtiyot)"
+      ],
+      nojoya: {
+        "Jinsiy / endokrin": "Libido pasayishi, erektil disfunksiya, ejakulyat hajmi kamayishi, ginekomastiya (DHT pasayishi tufayli); ba'zilarда to'xtatгач ham davom etishi mumkin (post-finasterid)",
+        "Ruhiy": "Kayfiyat o'zgarishi, depressiya (kuzatuv)",
+        "Laborator": "Qondaги PSA darajasini ~50% pasaytiradi (prostata saraton skriningида hisobga olish kerak)",
+        "Allergik": "Toshma, qichima, lab/yuz shishi (kamdan-kam)"
+      },
+      dozadan: "Yuqori dozada ham nisbatan xavfsiz (bir martalik 400 mg gача sezilarli ta'sirsiz). Davolash: simptomatik.",
+      ozarotasir: [
+        "Klinik ahamiyatli o'zaro ta'sir kam; CYP3A4 inhibitorlari/induktorlari konsentratsiyasини biroz o'zgartirishi mumkin",
+        "PSA testини pasaytiradi — onkourolog skriningida e'tiborга olish"
+      ],
+      qollash: {
+        kattalar: "Androgenetik alopetsiya: 1 mg×1/kun. BPH: 5 mg×1/kun. Ovqatdan qat'i nazar. Samara 3–6 oйdan keyin; to'xtatilса ta'sir qaytadi.",
+        bolalar: "Qo'llanilmaydi."
+      },
+      chiqarish: "Tabletkalar 1 mg (alopetsiya), 5 mg (BPH)"
+    },
+    ru: {
+      gruppa: "Прочие дерматологические средства — ингибитор 5-альфа-редуктазы (финастерид)",
+      farmTasir: "Против андрогенетической алопеции и гиперплазии простаты",
+      farmakodinamika: `Финастерид — селективный ингибитор фермента 5-альфа-редуктазы II типа. Этот фермент превращает тестостерон в более сильный андроген — дигидротестостерон (ДГТ). Финастерид снижает образование ДГТ (в крови и тканях): при андрогенетической алопеции останавливает уменьшение волосяных фолликулов под действием ДГТ и частично восстанавливает волосы; при доброкачественной гиперплазии простаты (ДГПЖ) уменьшает объём простаты и улучшает мочеиспускание. Применяется только у мужчин. Женщинам (особенно беременным) противопоказан — вред развитию половых органов плода мужского пола (тератоген).`,
+      farmakokinetika: {
+        sorish: "Внутрь хорошо всасывается; биодоступность ~65%.",
+        tarqalish: "Связь с белками плазмы ~90%; проникает через ГЭБ.",
+        metabolizm: "В печени через CYP3A4.",
+        chiqarilish: "С жёлчью и мочой в виде метаболитов. T½ — ~6 ч (у пожилых дольше)."
+      },
+      korsatmalar: [
+        "Андрогенетическая алопеция у мужчин (выпадение волос) — 1 мг",
+        "Лечение симптомов доброкачественной гиперплазии простаты (ДГПЖ) и снижение риска осложнений (острая задержка мочи, операция) — 5 мг",
+        "При ДГПЖ комбинация с альфа-блокатором"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к финастериду",
+        "Женщины (особенно репродуктивного возраста и беременные) — приём и даже контакт с разломанной таблеткой противопоказаны (тератоген)",
+        "Дети",
+        "Тяжёлая печёночная недостаточность (осторожно)"
+      ],
+      nojoya: {
+        "Половые / эндокринные": "Снижение либидо, эректильная дисфункция, уменьшение объёма эякулята, гинекомастия (из-за снижения ДГТ); у некоторых может сохраняться и после отмены (пост-финастерид)",
+        "Психика": "Изменения настроения, депрессия (наблюдение)",
+        "Лабораторно": "Снижает уровень ПСА в крови на ~50% (учитывать при скрининге рака простаты)",
+        "Аллергия": "Сыпь, зуд, отёк губ/лица (редко)"
+      },
+      dozadan: "Относительно безопасен даже в высокой дозе (однократно до 400 мг без значимого эффекта). Лечение: симптоматически.",
+      ozarotasir: [
+        "Клинически значимых взаимодействий мало; ингибиторы/индукторы CYP3A4 могут немного менять концентрацию",
+        "Снижает тест ПСА — учитывать при онкоурологическом скрининге"
+      ],
+      qollash: {
+        kattalar: "Андрогенетическая алопеция: 1 мг×1/сут. ДГПЖ: 5 мг×1/сут. Независимо от еды. Эффект через 3–6 месяцев; при отмене действие возвращается.",
+        bolalar: "Не применяется."
+      },
+      chiqarish: "Таблетки 1 мг (алопеция), 5 мг (ДГПЖ)"
+    },
+    en: {
+      gruppa: "Other dermatologicals — 5-alpha-reductase inhibitor (finasteride)",
+      farmTasir: "Against androgenetic alopecia and prostatic hyperplasia",
+      farmakodinamika: `Finasteride is a selective inhibitor of the enzyme 5-alpha-reductase type II. This enzyme converts testosterone to the more potent androgen dihydrotestosterone (DHT). Finasteride reduces DHT formation (in blood and tissues): in androgenetic alopecia it halts DHT-driven miniaturisation of hair follicles and partly restores hair; in benign prostatic hyperplasia (BPH) it reduces prostate volume and improves urination. It is used only in men. It is contraindicated in women (especially pregnant) — harm to development of the male fetus's genitalia (teratogen).`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally; bioavailability ~65%.",
+        tarqalish: "Plasma protein binding ~90%; crosses the BBB.",
+        metabolizm: "Hepatic via CYP3A4.",
+        chiqarilish: "Via bile and urine as metabolites. T½ — ~6 h (longer in the elderly)."
+      },
+      korsatmalar: [
+        "Androgenetic alopecia in men (hair loss) — 1 mg",
+        "Treatment of benign prostatic hyperplasia (BPH) symptoms and reduction of complication risk (acute urinary retention, surgery) — 5 mg",
+        "In BPH combined with an alpha-blocker"
+      ],
+      qarrshi: [
+        "Hypersensitivity to finasteride",
+        "Women (especially of reproductive age and pregnant) — taking and even contact with a broken tablet is contraindicated (teratogen)",
+        "Children",
+        "Severe hepatic failure (caution)"
+      ],
+      nojoya: {
+        "Sexual / endocrine": "Reduced libido, erectile dysfunction, reduced ejaculate volume, gynaecomastia (due to lowered DHT); in some it may persist after discontinuation (post-finasteride)",
+        "Psychiatric": "Mood changes, depression (monitoring)",
+        "Laboratory": "Lowers blood PSA by ~50% (account for this in prostate cancer screening)",
+        "Allergy": "Rash, pruritus, lip/face swelling (rare)"
+      },
+      dozadan: "Relatively safe even at a high dose (single doses up to 400 mg without significant effect). Treatment: symptomatic.",
+      ozarotasir: [
+        "Clinically significant interactions are few; CYP3A4 inhibitors/inducers may slightly alter concentration",
+        "Lowers the PSA test — consider in onco-urological screening"
+      ],
+      qollash: {
+        kattalar: "Androgenetic alopecia: 1 mg×1/day. BPH: 5 mg×1/day. Regardless of food. Effect in 3–6 months; on discontinuation the effect reverses.",
+        bolalar: "Not used."
+      },
+      chiqarish: "Tablets 1 mg (alopecia), 5 mg (BPH)"
+    }
   }
 
 };
@@ -53285,3 +53867,95 @@ PHARMA_DATA["R07AA02"]          = PHARMA_DATA["R05CB06"];  // qoramol surfaktant
 PHARMA_DATA["R07AB"]            = PHARMA_DATA["R03DA05"];  // ammiak eritmasi (nafas qo'zg'atuvchi) → aminofillin
 PHARMA_DATA["R07AB02"]          = PHARMA_DATA["R03DA05"];  // niketamid (nafas qo'zg'atuvchi) → aminofillin
 PHARMA_DATA["R07AX"]            = PHARMA_DATA["R05CB06"];  // o'simlik nafas kombinatsiyasi → ekspektorant
+
+// ── TERI KASALLIKLARI (D) kombinatsiya/dublikat/typo/topik kodlari ──
+// Zamburug'ga qarshi (D01)
+PHARMA_DATA["D01AC"]            = PHARMA_DATA["D01AC08"];  // ketokonazol/zink pirition → ketokonazol
+PHARMA_DATA["D01AC18"]          = PHARMA_DATA["D01AC01"];  // lulikonazol → imidazol antifungal (klotrimazol)
+PHARMA_DATA["D01AE16"]          = PHARMA_DATA["D01AE15"];  // amorolfin (tirnoq) → terbinafin guruhi
+PHARMA_DATA["D01AE20"]          = PHARMA_DATA["D01AC01"];  // klotrimazol → klotrimazol
+PHARMA_DATA["D01BA01"]          = PHARMA_DATA["D01AE15"];  // grizeofulvin (tizimli) → tizimli antifungal (terbinafin)
+PHARMA_DATA["D01BA02"]          = PHARMA_DATA["D01AE15"];  // terbinafin (peroral) → terbinafin
+// To'qima regeneratsiyasi/protektorlar (D03)
+PHARMA_DATA["D03"]              = PHARMA_DATA["M09AX01"];  // β-sitosterol (yara bitishi) → to'qima regeneratsiyasi (gialuron)
+PHARMA_DATA["D03AX"]            = PHARMA_DATA["M09AX01"];  // propolis va b. (yara) → to'qima regeneratsiyasi
+PHARMA_DATA["D03AX03"]          = PHARMA_DATA["M09AX01"];  // dekspantenol (yara/teri tiklash) → to'qima regeneratsiyasi
+PHARMA_DATA["D03AX05"]          = PHARMA_DATA["M09AX01"];  // gialuron kislota (teri) → gialuron kislota
+PHARMA_DATA["D03BA"]            = PHARMA_DATA["M09AB"];    // proteolitik ferment (yara tozalash) → serratiopeptidaza
+// Qichimaga qarshi (D04)
+PHARMA_DATA["D04A B01"]         = PHARMA_DATA["R06AB03"];  // lidokain (mahalliy, qichima) → mahalliy antipruritik (dimetinden)
+PHARMA_DATA["D04AB01"]          = PHARMA_DATA["R06AB03"];  // lidokain (mahalliy) → antipruritik
+PHARMA_DATA["D04AA13"]          = PHARMA_DATA["R06AB03"];  // dimetinden (teri) → dimetinden
+PHARMA_DATA["D04AA32"]          = PHARMA_DATA["R06AA02"];  // difengidramin (teri) → difengidramin
+// Antibiotiklar (D06)
+PHARMA_DATA["D06AA04"]          = PHARMA_DATA["J01AA07"];  // tetratsiklin (topik) → tetratsiklin
+PHARMA_DATA["D06AX02"]          = PHARMA_DATA["D06AX09"];  // xloramfenikol (topik) → mahalliy antibiotik (mupirotsin)
+PHARMA_DATA["D06AX08"]          = PHARMA_DATA["D06AX09"];  // tirotritsin → mahalliy antibiotik
+PHARMA_DATA["D06BA05"]          = PHARMA_DATA["D06BA01"];  // sulfanilamid (topik) → kumush sulfadiazin
+PHARMA_DATA["D06BB"]            = PHARMA_DATA["D06BB03"];  // glitsirrizin kislota (antiviral) → asiklovir
+PHARMA_DATA["D06BB06"]          = PHARMA_DATA["D06BB03"];  // pensiklovir → asiklovir (topik antiviral)
+PHARMA_DATA["D06BB10"]          = PHARMA_DATA["D11AH01"];  // imikvimod (immunomodulyator) → mahalliy immunomodulyator (takrolimus)
+PHARMA_DATA["D06BX"]            = PHARMA_DATA["D06AX09"];  // evkalipt (topik) → mahalliy antibiotik
+PHARMA_DATA["D06BX01"]          = PHARMA_DATA["J01XD01"];  // metronidazol (topik) → metronidazol
+// Kortikosteroidlar (D07)
+PHARMA_DATA["D07AA03"]          = PHARMA_DATA["D07AA02"];  // prednizolon (topik) → gidrokortizon (kuchsiz GKS)
+PHARMA_DATA["D07AC04"]          = PHARMA_DATA["D07AC01"];  // ftorotsinolon atsetonid → kuchli GKS (betametazon)
+PHARMA_DATA["D07AC13"]          = PHARMA_DATA["R01AD09"];  // mometazon (topik) → mometazon
+PHARMA_DATA["D07AC14"]          = PHARMA_DATA["D07AC01"];  // metilprednizolon atseponat → kuchli GKS (betametazon)
+PHARMA_DATA["D07AD01"]          = PHARMA_DATA["D07AB01"];  // klobetazol → klobetazol
+PHARMA_DATA["D07CB01"]          = PHARMA_DATA["D07AC01"];  // neomitsin + GKS → kortikosteroid kombinatsiya (betametazon)
+PHARMA_DATA["D07XC"]            = PHARMA_DATA["D07AC01"];  // klotrimazol+beklometazon+gentamitsin → GKS kombinatsiya
+PHARMA_DATA["D07XC01"]          = PHARMA_DATA["D07AC01"];  // betametazon kombinatsiyasi → betametazon
+// Antiseptiklar (D08)
+PHARMA_DATA["D08A"]             = PHARMA_DATA["D08AJ"];    // dekametoksin → to'rtlamchi ammoniy antiseptik (miramistin)
+PHARMA_DATA["D08AF01"]          = PHARMA_DATA["D08AC02"];  // nitrofural → mahalliy antiseptik (xlorgeksidin)
+PHARMA_DATA["D08AG03"]          = PHARMA_DATA["D08AG02"];  // yod → povidon-yod
+PHARMA_DATA["DO8AG03"]          = PHARMA_DATA["D08AG02"];  // yod (kirill «O» typo) → povidon-yod
+PHARMA_DATA["D08AJ10"]          = PHARMA_DATA["D08AJ"];    // dekametoksin → miramistin guruhi
+PHARMA_DATA["D08AX"]            = PHARMA_DATA["D08AC02"];  // qatron+kseroform (antiseptik) → mahalliy antiseptik
+// Akne/retinoidlar (D10)
+PHARMA_DATA["D10AF01"]          = PHARMA_DATA["D06AX09"];  // klindamitsin (topik akne) → mahalliy antibiotik
+PHARMA_DATA["D10AX30"]          = PHARMA_DATA["D10AD03"];  // adapalen + metronidazol → adapalen
+PHARMA_DATA["D10BX01"]          = PHARMA_DATA["D08AC02"];  // ixtammol (antiseptik-yallig'lanishga qarshi) → mahalliy antiseptik
+// Boshqa (D11)
+PHARMA_DATA["D11AX"]            = PHARMA_DATA["M09AX01"];  // glitserin (emollient) → teri/to'qima vositasi
+PHARMA_DATA["D11AX16"]          = PHARMA_DATA["D11AX10"];  // eflornitin (soch o'sishini sekinlatuvchi) → finasterid (soch)
+// Qolgan D kombinatsiya/dublikat/typo kodlari
+PHARMA_DATA["D01A"]             = PHARMA_DATA["D01AC01"];  // antifungal (umumiy) → klotrimazol
+PHARMA_DATA["D01AC20"]          = PHARMA_DATA["D01AC08"];  // antifungal kombinatsiya → ketokonazol
+PHARMA_DATA["D01AE12"]          = PHARMA_DATA["D10AD01"];  // salitsil kislota (keratolitik) → keratolitik (tretinoin)
+PHARMA_DATA["D02AB"]            = PHARMA_DATA["M09AX01"];  // teri himoyalovchi/emollient → to'qima vositasi
+PHARMA_DATA["D02AC"]            = PHARMA_DATA["M09AX01"];  // yumshatuvchi (vazelin/parafin) → to'qima vositasi
+PHARMA_DATA["D04AB"]            = PHARMA_DATA["R06AB03"];  // mahalliy anestetik (qichima) → antipruritik
+PHARMA_DATA["D04AX"]            = PHARMA_DATA["R06AB03"];  // boshqa antipruritik → antipruritik (dimetinden)
+PHARMA_DATA["D05AX"]            = PHARMA_DATA["D07AC01"];  // antipsoriatik (mahalliy) → mahalliy kortikosteroid
+PHARMA_DATA["D06C"]             = PHARMA_DATA["D06AX09"];  // antibiotik+kimyoterapevtik kombinatsiya → mahalliy antibiotik
+PHARMA_DATA["D06AX"]            = PHARMA_DATA["D06AX09"];  // mahalliy antibiotik (umumiy) → mupirotsin
+PHARMA_DATA["D07AC16"]          = PHARMA_DATA["D07AC01"];  // kuchli GKS → betametazon
+PHARMA_DATA["D07BB01"]          = PHARMA_DATA["D07AC01"];  // GKS + antiseptik → betametazon
+PHARMA_DATA["D07CA01"]          = PHARMA_DATA["D07AC01"];  // kuchsiz GKS + antibiotik → kortikosteroid kombinatsiya
+PHARMA_DATA["D07CC01"]          = PHARMA_DATA["D07AC01"];  // kuchli GKS + antibiotik → betametazon
+PHARMA_DATA["D07CC02"]          = PHARMA_DATA["D07AC01"];  // GKS + antibiotik → betametazon
+PHARMA_DATA["D07CC04"]          = PHARMA_DATA["D07AC01"];  // GKS + antibiotik → betametazon
+PHARMA_DATA["D07CF01"]          = PHARMA_DATA["D07AC01"];  // GKS + antibiotik → betametazon
+PHARMA_DATA["D07XB01"]          = PHARMA_DATA["D07AC01"];  // GKS (boshqa kombinatsiya) → betametazon
+PHARMA_DATA["D07XC03"]          = PHARMA_DATA["D07AC01"];  // GKS kombinatsiya → betametazon
+PHARMA_DATA["D07XC04"]          = PHARMA_DATA["D07AC01"];  // GKS kombinatsiya → betametazon
+PHARMA_DATA["D08AC"]            = PHARMA_DATA["D08AC02"];  // bigvanid antiseptik → xlorgeksidin
+PHARMA_DATA["D08AC52"]          = PHARMA_DATA["D08AC02"];  // xlorgeksidin kombinatsiya → xlorgeksidin
+PHARMA_DATA["D08AD"]            = PHARMA_DATA["D08AC02"];  // bor kislota antiseptik → mahalliy antiseptik
+PHARMA_DATA["D08AG"]            = PHARMA_DATA["D08AG02"];  // yod antiseptik (umumiy) → povidon-yod
+PHARMA_DATA["D08AJ58"]          = PHARMA_DATA["D08AJ"];    // to'rtlamchi ammoniy kombinatsiya → miramistin
+PHARMA_DATA["D08AX"]            = PHARMA_DATA["D08AC02"];  // boshqa antiseptik → xlorgeksidin
+PHARMA_DATA["D08AX0"]           = PHARMA_DATA["D08AC02"];  // boshqa antiseptik (typo) → xlorgeksidin
+PHARMA_DATA["D08AX01"]          = PHARMA_DATA["D08AC02"];  // vodorod peroksid → mahalliy antiseptik
+PHARMA_DATA["DO8AX01"]          = PHARMA_DATA["D08AC02"];  // vodorod peroksid (kirill «O» typo) → antiseptik
+PHARMA_DATA["D08AX08"]          = PHARMA_DATA["D08AC02"];  // etakridin (rivanol) → mahalliy antiseptik
+PHARMA_DATA["D10AD53"]          = PHARMA_DATA["D10AD03"];  // adapalen kombinatsiya → adapalen
+PHARMA_DATA["D10AD54"]          = PHARMA_DATA["D10AD03"];  // adapalen + benzoil peroksid → adapalen
+PHARMA_DATA["D10AF51"]          = PHARMA_DATA["D10AD03"];  // klindamitsin + benzoil peroksid (akne) → akne vositasi
+PHARMA_DATA["D10AF52"]          = PHARMA_DATA["D10AD03"];  // akne antibiotik kombinatsiya → akne vositasi
+PHARMA_DATA["D10AX03"]          = PHARMA_DATA["D10AD03"];  // azelain kislota (akne) → akne vositasi
+PHARMA_DATA["D11"]              = PHARMA_DATA["D11AH01"];  // dermatologik (umumiy) → mahalliy immunomodulyator
+PHARMA_DATA["D11AC30"]          = PHARMA_DATA["D08AC02"];  // tibbiy shampun/yuvinish → antiseptik
+PHARMA_DATA["D11AH02"]          = PHARMA_DATA["D11AH01"];  // pimekrolimus → takrolimus (kalsineyrin inhibitori)
