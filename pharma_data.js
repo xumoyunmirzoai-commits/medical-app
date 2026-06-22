@@ -51768,6 +51768,1049 @@ const PHARMA_DATA = {
       },
       chiqarish: "Tablets 250,000, 500,000 units; oral suspension; vaginal suppositories/tablets 100,000 units; ointment 100,000 units/g"
     }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // D-Batch 2 — Mahalliy glyukokortikosteroidlar (D07)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── GIDROKORTIZON (mahalliy) | ATX: D07AA02 ──
+  "D07AA02": {
+    uz: {
+      gruppa: "Mahalliy glyukokortikosteroidlar — kuchsiz (I sinf, gidrokortizon)",
+      farmTasir: "Mahalliy yallig'lanishga qarshi, qichimaga qarshi, antiallergik",
+      farmakodinamika: `Gidrokortizon — kuchsiz (zaif) faollikли mahalliy glyukokortikosteroid (topik kortikosteroidlar I sinfi). Teri hujayralarining glyukokortikoid retseptorlariga bog'lanib yallig'lanishga qarshi genlar ekspressiyasini boshqaradi: fosfolipaza A2 ni ingibe qiluvchi lipokortin sintezini oshirib araxidon kislotasidan prostaglandinlar va leykotrienlar hosil bo'lishini kamaytiradi; yallig'lanish hujayralari migratsiyasini, kapilyar o'tkazuvchanligi va shishni susaytiradi — teridagi qizarish, qichima, shish va eksudatsiyani kamaytiradi. Kuchsiz bo'lgani uchun yuz, teri burmalari va bolalarда nisbatan xavfsiz.`,
+      farmakokinetika: {
+        sorish: "Sog'lom teridан so'rilish past; yallig'langan, yupqa teriда va okklyuziv bog'lам ostида so'rilish oshadi.",
+        tarqalish: "Epidermis va dermисда ta'sir; so'rilgan qism qonга o'tadi.",
+        metabolizm: "So'rilgan qism jigarда.",
+        chiqarilish: "So'rilgan qism siydik orqали."
+      },
+      korsatmalar: [
+        "Yengil yallig'lanishли va qichimali dermatozlar: kontakt dermatit, allergik dermatit, ekzema (yengil)",
+        "Hasharot chaqishi, yengil quyosh kuyishi, qichima",
+        "Yuz, ko'z atrofi va teri burmalaridagi yengil yallig'lanish (kuchsiz steroid afzal)",
+        "Seboreyali dermatit (yengil)"
+      ],
+      qarrshi: [
+        "Gidrokortizon yoki komponentlariга o'ta sezgirlik",
+        "Teridаги bakterial, virusli (gerpes, suvchechak), zamburug'li infeksiyalar — yagona davo sifatida (yashirib yuboradi)",
+        "Teri tuberkulyozi, sifilis terisi, vaksinadan keyingi reaksiyalar",
+        "Ochiq yara, periorال/rozatsea dermatiti (kuchaytiradi)"
+      ],
+      nojoya: {
+        "Mahalliy": "Qo'llash joyида achishish, qichima, quruqlik; uzoq qo'llашда — teri atrofiyasi (yupqalashishi), telangiektaziya, striyalar, gipertrixoz, perioral dermatit",
+        "Infeksion": "Ikkilamchi infeksiya (steroid himoyani susaytiradi), zamburug'/bakterial qo'shilishi",
+        "Tizimli (keng yuza/uzoq/okklyuziya)": "Buyrak usti bezi susayishi (ayniqsa bolalarда), giperkortitsizm belgilari (kamdan-kam)"
+      },
+      dozadan: "Mahalliy shaklда o'tkir xavf past. Uzoq, keng yuzага yoki okklyuziya bilan qo'llаганда tizimli kortikosteroid ta'siri — asta-sekin to'xtatish.",
+      ozarotasir: [
+        "Mahalliy qo'llашда klinik ahamiyatli tizimli o'zaro ta'sir kam",
+        "Boshqa mahalliy ta'sir qo'zg'atuvchi vositalar bilan birga teri ta'siri o'zgaradi"
+      ],
+      qollash: {
+        kattalar: "Krem/mazь 0,1–1% zararlangan sohaga kuniga 1–3 marta yupqa surtib. Yuz va burmalarда qisqa kurs. Davolash odatda 1–2 hafta.",
+        bolalar: "Eng kam samarali konsentratsiya va eng qisqa kurs; keng yuza va okklyuziyadан saqlanish (tizimli so'rilish xavfi)."
+      },
+      chiqarish: "Krem/mazь 0,1%, 0,5%, 1%; losьon; gidrokortizon atsetat/butirat shakllari"
+    },
+    ru: {
+      gruppa: "Местные глюкокортикостероиды — слабые (I класс, гидрокортизон)",
+      farmTasir: "Местное противовоспалительное, противозудное, противоаллергическое",
+      farmakodinamika: `Гидрокортизон — местный глюкокортикостероид слабой активности (I класс топических кортикостероидов). Связываясь с глюкокортикоидными рецепторами клеток кожи, регулирует экспрессию противовоспалительных генов: повышает синтез липокортина, ингибирующего фосфолипазу А2, снижая образование простагландинов и лейкотриенов из арахидоновой кислоты; ослабляет миграцию клеток воспаления, проницаемость капилляров и отёк — уменьшает покраснение, зуд, отёк и экссудацию кожи. Будучи слабым, относительно безопасен на лице, в складках и у детей.`,
+      farmakokinetika: {
+        sorish: "Через здоровую кожу всасывание низкое; на воспалённой, тонкой коже и под окклюзионной повязкой всасывание повышается.",
+        tarqalish: "Действие в эпидермисе и дерме; всосавшаяся часть попадает в кровь.",
+        metabolizm: "Всосавшаяся часть в печени.",
+        chiqarilish: "Всосавшаяся часть с мочой."
+      },
+      korsatmalar: [
+        "Лёгкие воспалительные и зудящие дерматозы: контактный дерматит, аллергический дерматит, экзема (лёгкая)",
+        "Укусы насекомых, лёгкие солнечные ожоги, зуд",
+        "Лёгкое воспаление на лице, вокруг глаз и в складках (предпочтителен слабый стероид)",
+        "Себорейный дерматит (лёгкий)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к гидрокортизону или компонентам",
+        "Бактериальные, вирусные (герпес, ветрянка), грибковые инфекции кожи — как единственное лечение (маскирует)",
+        "Туберкулёз кожи, сифилис кожи, поствакцинальные реакции",
+        "Открытые раны, периоральный/розацеа дерматит (усиливает)"
+      ],
+      nojoya: {
+        "Местные": "Жжение, зуд, сухость в месте нанесения; при длительном применении — атрофия кожи (истончение), телеангиэктазии, стрии, гипертрихоз, периоральный дерматит",
+        "Инфекционные": "Вторичная инфекция (стероид ослабляет защиту), грибковое/бактериальное присоединение",
+        "Системные (большая площадь/долго/окклюзия)": "Угнетение надпочечников (особенно у детей), признаки гиперкортицизма (редко)"
+      },
+      dozadan: "При местной форме острый риск низкий. При длительном применении на большой площади или под окклюзией — системное действие кортикостероида; отменять постепенно.",
+      ozarotasir: [
+        "При местном применении клинически значимые системные взаимодействия редки",
+        "С другими местнораздражающими средствами действие на кожу меняется"
+      ],
+      qollash: {
+        kattalar: "Крем/мазь 0,1–1% на поражённую область 1–3 раза в день тонким слоем. На лице и в складках коротким курсом. Лечение обычно 1–2 недели.",
+        bolalar: "Минимальная эффективная концентрация и кратчайший курс; избегать большой площади и окклюзии (риск системного всасывания)."
+      },
+      chiqarish: "Крем/мазь 0,1%, 0,5%, 1%; лосьон; формы гидрокортизона ацетат/бутират"
+    },
+    en: {
+      gruppa: "Topical glucocorticosteroids — weak (class I, hydrocortisone)",
+      farmTasir: "Topical anti-inflammatory, antipruritic, antiallergic",
+      farmakodinamika: `Hydrocortisone is a weak-potency topical glucocorticosteroid (class I of topical corticosteroids). Binding glucocorticoid receptors in skin cells, it regulates anti-inflammatory gene expression: it raises synthesis of lipocortin, which inhibits phospholipase A2, reducing formation of prostaglandins and leukotrienes from arachidonic acid; it dampens inflammatory cell migration, capillary permeability and oedema — reducing skin redness, itching, swelling and exudation. Being weak, it is relatively safe on the face, in folds and in children.`,
+      farmakokinetika: {
+        sorish: "Through healthy skin absorption is low; on inflamed, thin skin and under occlusive dressing absorption increases.",
+        tarqalish: "Action in epidermis and dermis; the absorbed part enters the blood.",
+        metabolizm: "The absorbed part in the liver.",
+        chiqarilish: "The absorbed part renally."
+      },
+      korsatmalar: [
+        "Mild inflammatory and itchy dermatoses: contact dermatitis, allergic dermatitis, eczema (mild)",
+        "Insect bites, mild sunburn, itching",
+        "Mild inflammation on the face, around the eyes and in folds (a weak steroid is preferred)",
+        "Seborrhoeic dermatitis (mild)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to hydrocortisone or components",
+        "Bacterial, viral (herpes, chickenpox), fungal skin infections — as the sole treatment (it masks them)",
+        "Cutaneous tuberculosis, cutaneous syphilis, post-vaccination reactions",
+        "Open wounds, perioral/rosacea dermatitis (it worsens them)"
+      ],
+      nojoya: {
+        "Local": "Burning, itching, dryness at the application site; with prolonged use — skin atrophy (thinning), telangiectasia, striae, hypertrichosis, perioral dermatitis",
+        "Infectious": "Secondary infection (the steroid weakens defences), fungal/bacterial involvement",
+        "Systemic (large area/long/occlusion)": "Adrenal suppression (especially in children), signs of hypercortisolism (rare)"
+      },
+      dozadan: "With the topical form acute risk is low. With prolonged use over a large area or under occlusion — systemic corticosteroid effect; withdraw gradually.",
+      ozarotasir: [
+        "With topical use clinically significant systemic interactions are rare",
+        "With other topical irritants the skin effect changes"
+      ],
+      qollash: {
+        kattalar: "Cream/ointment 0.1–1% to the affected area 1–3 times a day in a thin layer. On the face and in folds for a short course. Treatment usually 1–2 weeks.",
+        bolalar: "Lowest effective concentration and shortest course; avoid large areas and occlusion (systemic absorption risk)."
+      },
+      chiqarish: "Cream/ointment 0.1%, 0.5%, 1%; lotion; hydrocortisone acetate/butyrate forms"
+    }
+  },
+
+  // ── BETAMETAZON (mahalliy) | ATX: D07AC01 ──
+  "D07AC01": {
+    uz: {
+      gruppa: "Mahalliy glyukokortikosteroidlar — kuchli (III sinf, betametazon)",
+      farmTasir: "Kuchli mahalliy yallig'lanishga qarshi, qichimaga qarshi, antiallergik",
+      farmakodinamika: `Betametazon (valerat yoki dipropionat) — kuchli (III sinf) mahalliy glyukokortikosteroid. Glyukokortikoid retseptorlariga yuqori moyillik bilan bog'lanib yallig'lanishga qarshi genlar ekspressiyasini boshqaradi: yallig'lanish mediatorlari (prostaglandinlar, leykotrienlar, sitokinlar) sintezini, yallig'lanish hujayralari migratsiyasini va kapilyar o'tkazuvchanlikни kuchli kamaytiradi — qizarish, qichima, shish va infiltratsiyani tez bostiradi. Gidrokortizondан ancha kuchli — o'rta-og'ir yallig'lanishли dermatozlarда. Ko'pincha mahalliy antibiotik (gentamitsin) yoki antifungal (klotrimazol) bilan kombinatsiyada keladi.`,
+      farmakokinetika: {
+        sorish: "Yallig'langan, yupqa teri va okklyuziya ostída so'rilish oshadi (kuchli steroid — tizimli ta'sir xavfi yuqoriroq).",
+        tarqalish: "Teri qatlamlarида to'planadi.",
+        metabolizm: "So'rilgan qism jigarда.",
+        chiqarilish: "So'rilgan qism siydik orqали."
+      },
+      korsatmalar: [
+        "O'rta-og'ir yallig'lanishли va qichimali dermatozlar: atopik dermatit, kontakt/allergik dermatit, ekzema",
+        "Psoriaz (cheklangan), qizil yassi temratki, diskoid lupus",
+        "Boshqa kuchsiz steroidlar samarasiz bo'lган dermatozlar",
+        "Kombinatsiyada — zamburug'/bakterial qo'shilишли yallig'lanishли dermatozlar"
+      ],
+      qarrshi: [
+        "Betametazon yoki komponentlariга o'ta sezgirlik",
+        "Teridаги bakterial/virusli/zamburug'li infeksiyalar (yagona davo sifatida)",
+        "Rozatsea, perioral dermatit, teri tuberkulyozi/sifilisi",
+        "Yuz va teri burmaларида uzoq qo'llash (atrofiya xavfi); kichik bolalar (ehtiyot)"
+      ],
+      nojoya: {
+        "Mahalliy": "Achishish, qichima, quruqlik; uzoq qo'llашда — teri atrofiyasi, striyalar, telangiektaziya, perioral dermatit, gipertrixoz, depigmentatsiya",
+        "Infeksion": "Ikkilamchi infeksiya, zamburug'/demodekoz qo'shilishi",
+        "Tizimli (keng/uzoq/okklyuziya)": "Buyrak usti bezi susayishi, giperkortitsizm, bolalarда o'sishni sekinlashtirish"
+      },
+      dozadan: "Uzoq, keng yuzага yoki okklyuziya bilan qo'llаганда tizimli kortikosteroid ta'siri (gipotalamo-gipofizar-adrenal o'q susayishi) — asta-sekin to'xtatish.",
+      ozarotasir: [
+        "Mahalliy qo'llашда tizimli o'zaro ta'sir kam, lekin keng/uzoq qo'llашда tizimli steroid xavfini hisobga olish"
+      ],
+      qollash: {
+        kattalar: "Krem/mazь/losьon 0,025–0,1% zararlangan sohaga kuniga 1–2 marta yupqa surtib. Davolash imkon qadar qisqa (odatda 2–4 hafta); yuz/burmalarда juda qisqa.",
+        bolalar: "Faqat zarurda, eng kam yuza va kurs; okklyuziya va yuz qo'llаshдан saqlanish."
+      },
+      chiqarish: "Krem/mazь/losьon 0,05%, 0,1%; gentamitsin/klotrimazol bilan kombinatsiya"
+    },
+    ru: {
+      gruppa: "Местные глюкокортикостероиды — сильные (III класс, бетаметазон)",
+      farmTasir: "Сильное местное противовоспалительное, противозудное, противоаллергическое",
+      farmakodinamika: `Бетаметазон (валерат или дипропионат) — сильный (III класс) местный глюкокортикостероид. Связываясь с глюкокортикоидными рецепторами с высоким сродством, регулирует экспрессию противовоспалительных генов: сильно снижает синтез медиаторов воспаления (простагландины, лейкотриены, цитокины), миграцию клеток воспаления и проницаемость капилляров — быстро подавляет покраснение, зуд, отёк и инфильтрацию. Значительно сильнее гидрокортизона — при средне-тяжёлых воспалительных дерматозах. Часто выпускается в комбинации с местным антибиотиком (гентамицин) или противогрибковым (клотримазол).`,
+      farmakokinetika: {
+        sorish: "На воспалённой, тонкой коже и под окклюзией всасывание повышается (сильный стероид — выше риск системного действия).",
+        tarqalish: "Накапливается в слоях кожи.",
+        metabolizm: "Всосавшаяся часть в печени.",
+        chiqarilish: "Всосавшаяся часть с мочой."
+      },
+      korsatmalar: [
+        "Средне-тяжёлые воспалительные и зудящие дерматозы: атопический дерматит, контактный/аллергический дерматит, экзема",
+        "Псориаз (ограниченный), красный плоский лишай, дискоидная волчанка",
+        "Дерматозы при неэффективности более слабых стероидов",
+        "В комбинации — воспалительные дерматозы с грибковым/бактериальным присоединением"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к бетаметазону или компонентам",
+        "Бактериальные/вирусные/грибковые инфекции кожи (как единственное лечение)",
+        "Розацеа, периоральный дерматит, туберкулёз/сифилис кожи",
+        "Длительное применение на лице и в складках (риск атрофии); маленькие дети (осторожно)"
+      ],
+      nojoya: {
+        "Местные": "Жжение, зуд, сухость; при длительном применении — атрофия кожи, стрии, телеангиэктазии, периоральный дерматит, гипертрихоз, депигментация",
+        "Инфекционные": "Вторичная инфекция, грибковое/демодекозное присоединение",
+        "Системные (большая площадь/долго/окклюзия)": "Угнетение надпочечников, гиперкортицизм, замедление роста у детей"
+      },
+      dozadan: "При длительном применении на большой площади или под окклюзией — системное действие кортикостероида (угнетение гипоталамо-гипофизарно-надпочечниковой оси); отменять постепенно.",
+      ozarotasir: [
+        "При местном применении системных взаимодействий мало, но при большой площади/длительно учитывать риск системного стероида"
+      ],
+      qollash: {
+        kattalar: "Крем/мазь/лосьон 0,025–0,1% на поражённую область 1–2 раза в день тонким слоем. Лечение максимально коротким курсом (обычно 2–4 недели); на лице/в складках очень коротко.",
+        bolalar: "Только при необходимости, минимальная площадь и курс; избегать окклюзии и применения на лице."
+      },
+      chiqarish: "Крем/мазь/лосьон 0,05%, 0,1%; комбинация с гентамицином/клотримазолом"
+    },
+    en: {
+      gruppa: "Topical glucocorticosteroids — potent (class III, betamethasone)",
+      farmTasir: "Potent topical anti-inflammatory, antipruritic, antiallergic",
+      farmakodinamika: `Betamethasone (valerate or dipropionate) is a potent (class III) topical glucocorticosteroid. Binding glucocorticoid receptors with high affinity, it regulates anti-inflammatory gene expression: it strongly reduces synthesis of inflammatory mediators (prostaglandins, leukotrienes, cytokines), inflammatory cell migration and capillary permeability — quickly suppressing redness, itching, swelling and infiltration. It is much stronger than hydrocortisone — for moderate-to-severe inflammatory dermatoses. It is often produced combined with a topical antibiotic (gentamicin) or antifungal (clotrimazole).`,
+      farmakokinetika: {
+        sorish: "On inflamed, thin skin and under occlusion absorption increases (potent steroid — higher systemic risk).",
+        tarqalish: "Accumulates in skin layers.",
+        metabolizm: "The absorbed part in the liver.",
+        chiqarilish: "The absorbed part renally."
+      },
+      korsatmalar: [
+        "Moderate-to-severe inflammatory and itchy dermatoses: atopic dermatitis, contact/allergic dermatitis, eczema",
+        "Psoriasis (limited), lichen planus, discoid lupus",
+        "Dermatoses when weaker steroids are ineffective",
+        "In combination — inflammatory dermatoses with fungal/bacterial involvement"
+      ],
+      qarrshi: [
+        "Hypersensitivity to betamethasone or components",
+        "Bacterial/viral/fungal skin infections (as the sole treatment)",
+        "Rosacea, perioral dermatitis, cutaneous tuberculosis/syphilis",
+        "Prolonged use on the face and in folds (atrophy risk); young children (caution)"
+      ],
+      nojoya: {
+        "Local": "Burning, itching, dryness; with prolonged use — skin atrophy, striae, telangiectasia, perioral dermatitis, hypertrichosis, depigmentation",
+        "Infectious": "Secondary infection, fungal/demodex involvement",
+        "Systemic (large area/long/occlusion)": "Adrenal suppression, hypercortisolism, growth slowing in children"
+      },
+      dozadan: "With prolonged use over a large area or under occlusion — systemic corticosteroid effect (hypothalamic-pituitary-adrenal axis suppression); withdraw gradually.",
+      ozarotasir: [
+        "With topical use systemic interactions are few, but for large areas/long use consider the systemic steroid risk"
+      ],
+      qollash: {
+        kattalar: "Cream/ointment/lotion 0.025–0.1% to the affected area 1–2 times a day in a thin layer. Treat for the shortest possible course (usually 2–4 weeks); very briefly on the face/folds.",
+        bolalar: "Only when necessary, minimal area and course; avoid occlusion and application on the face."
+      },
+      chiqarish: "Cream/ointment/lotion 0.05%, 0.1%; combination with gentamicin/clotrimazole"
+    }
+  },
+
+  // ── KLOBETAZOL | ATX: D07AB01 ──
+  "D07AB01": {
+    uz: {
+      gruppa: "Mahalliy glyukokortikosteroidlar — o'ta kuchli (IV sinf, klobetazol)",
+      farmTasir: "O'ta kuchli mahalliy yallig'lanishga qarshi",
+      farmakodinamika: `Klobetazol (propionat) — eng kuchli (IV sinf, o'ta kuchli) mahalliy glyukokortikosteroidlardан biri. Glyukokortikoid retseptorlariga juda yuqori moyillik bilan bog'lanib yallig'lanish mediatorlari sintezini, yallig'lanish hujayralari faolligini va kapilyar o'tkazuvchanlikни maksimal darajada bostiradi — eng o'jar va og'ir yallig'lanishли dermatozlarда qo'llaniladi. Yuqori kuchi tufayli tizimli so'rilish va mahalliy/tizimli yon ta'sir xavfi katta — shu sababli qisqa muddatли, cheklangan yuzада va mutaxassis nazoratida qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Teri orqали sezilarli so'rilishi mumkin (ayniqsa yupqa teri, okklyuziya, keng yuza) — tizimli ta'sir xavfi yuqori.",
+        tarqalish: "Teri va so'rilgач tizimli.",
+        metabolizm: "Jigarда.",
+        chiqarilish: "Siydik orqали."
+      },
+      korsatmalar: [
+        "O'jar, og'ir yallig'lanishли dermatozlar boshqa steroidlar samarasiz bo'lганда: og'ir psoriaz (plitkali), qizil yassi temratki",
+        "Diskoid lupus, og'ir ekzema, keloid chandiq, qo'l-oyoq kafti psoriazi",
+        "Lichen sclerosus, og'ir kontakt dermatit"
+      ],
+      qarrshi: [
+        "Klobetazol yoki komponentlariга o'ta sezgirlik",
+        "Yuz, ko'z atrofi, teri burmalari va keng yuzага qo'llash",
+        "Teridаги infeksiyalar (bakterial/virusli/zamburug'li), rozatsea, perioral dermatit, akne",
+        "Kichik bolalar (1 yoshgача — taqiqlangan), homiladorlik/emizишда ehtiyot"
+      ],
+      nojoya: {
+        "Mahalliy": "Tez rivojlanadigan teri atrofiyasi, striyalar, telangiektaziya, perioral dermatit, akneiform toshma, gipertrixoz, depigmentatsiya, qo'llash joyида achishish",
+        "Infeksion": "Ikkilamchi infeksiya, zamburug' qo'shilishi",
+        "Tizimli (jiddiy xavf)": "Buyrak usti bezi susayishi, Itsenko-Kushing sindromi, giperglikemiya, bolalarда o'sishni sekinlashtirish (ayniqsa keng/uzoq qo'llашда)"
+      },
+      dozadan: "Keng yuza, uzoq yoki okklyuziya bilan qo'llаганда tizimli kortikosteroid toksikligi (HPA o'q susayishi, Kushing). Davolash: asta-sekin to'xtatish, adrenal funksiyani baholash.",
+      ozarotasir: [
+        "Yuqori so'rilish tufayli tizimli steroid o'zaro ta'siri (CYP3A4 inhibitorlari tizimli ta'sirni oshirishi mumkin)"
+      ],
+      qollash: {
+        kattalar: "Krem/mazь 0,05% zararlangan sohaga kuniga 1–2 marta, juda yupqa. Haftalik miqdor 50 g dan oshmasligi, davolash 2–4 haftadan oshmasligi kerak. Mutaxassis nazoratida.",
+        bolalar: "1 yoshgача qo'llanilmaydi; kattaroq bolalarда faqat istisno holatlarда, juda qisqa va cheklangan yuzада."
+      },
+      chiqarish: "Krem/mazь/losьon 0,05%; bosh terisi uchun ko'pik/eritma"
+    },
+    ru: {
+      gruppa: "Местные глюкокортикостероиды — очень сильные (IV класс, клобетазол)",
+      farmTasir: "Очень сильное местное противовоспалительное",
+      farmakodinamika: `Клобетазол (пропионат) — один из самых сильных (IV класс, очень сильные) местных глюкокортикостероидов. Связываясь с глюкокортикоидными рецепторами с очень высоким сродством, максимально подавляет синтез медиаторов воспаления, активность клеток воспаления и проницаемость капилляров — применяется при самых упорных и тяжёлых воспалительных дерматозах. Из-за высокой силы велик риск системного всасывания и местных/системных побочных эффектов — поэтому применяется коротко, на ограниченной площади и под контролем специалиста.`,
+      farmakokinetika: {
+        sorish: "Через кожу может заметно всасываться (особенно тонкая кожа, окклюзия, большая площадь) — высокий риск системного действия.",
+        tarqalish: "В коже и после всасывания системно.",
+        metabolizm: "В печени.",
+        chiqarilish: "С мочой."
+      },
+      korsatmalar: [
+        "Упорные, тяжёлые воспалительные дерматозы при неэффективности других стероидов: тяжёлый псориаз (бляшечный), красный плоский лишай",
+        "Дискоидная волчанка, тяжёлая экзема, келоидный рубец, псориаз ладоней и подошв",
+        "Склероатрофический лихен, тяжёлый контактный дерматит"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к клобетазолу или компонентам",
+        "Применение на лице, вокруг глаз, в складках и на большой площади",
+        "Инфекции кожи (бактериальные/вирусные/грибковые), розацеа, периоральный дерматит, акне",
+        "Маленькие дети (до 1 года — запрещён), осторожно при беременности/лактации"
+      ],
+      nojoya: {
+        "Местные": "Быстро развивающаяся атрофия кожи, стрии, телеангиэктазии, периоральный дерматит, акнеформная сыпь, гипертрихоз, депигментация, жжение в месте нанесения",
+        "Инфекционные": "Вторичная инфекция, грибковое присоединение",
+        "Системные (серьёзный риск)": "Угнетение надпочечников, синдром Иценко-Кушинга, гипергликемия, замедление роста у детей (особенно при большой площади/длительно)"
+      },
+      dozadan: "При применении на большой площади, длительно или под окклюзией — системная кортикостероидная токсичность (угнетение HPA-оси, Кушинг). Лечение: постепенная отмена, оценка функции надпочечников.",
+      ozarotasir: [
+        "Из-за высокого всасывания — системные стероидные взаимодействия (ингибиторы CYP3A4 могут усиливать системное действие)"
+      ],
+      qollash: {
+        kattalar: "Крем/мазь 0,05% на поражённую область 1–2 раза в день очень тонко. Недельное количество не более 50 г, лечение не более 2–4 недель. Под контролем специалиста.",
+        bolalar: "До 1 года не применяется; у старших детей только в исключительных случаях, очень коротко и на ограниченной площади."
+      },
+      chiqarish: "Крем/мазь/лосьон 0,05%; пена/раствор для кожи головы"
+    },
+    en: {
+      gruppa: "Topical glucocorticosteroids — very potent (class IV, clobetasol)",
+      farmTasir: "Very potent topical anti-inflammatory",
+      farmakodinamika: `Clobetasol (propionate) is one of the most potent (class IV, very potent) topical glucocorticosteroids. Binding glucocorticoid receptors with very high affinity, it maximally suppresses synthesis of inflammatory mediators, inflammatory cell activity and capillary permeability — used for the most stubborn and severe inflammatory dermatoses. Owing to its high potency the risk of systemic absorption and local/systemic adverse effects is great — so it is used briefly, over a limited area and under specialist supervision.`,
+      farmakokinetika: {
+        sorish: "Through the skin it can be appreciably absorbed (especially thin skin, occlusion, large area) — high systemic risk.",
+        tarqalish: "In the skin and, once absorbed, systemic.",
+        metabolizm: "Hepatic.",
+        chiqarilish: "Renal."
+      },
+      korsatmalar: [
+        "Stubborn, severe inflammatory dermatoses when other steroids fail: severe psoriasis (plaque), lichen planus",
+        "Discoid lupus, severe eczema, keloid scar, palmoplantar psoriasis",
+        "Lichen sclerosus, severe contact dermatitis"
+      ],
+      qarrshi: [
+        "Hypersensitivity to clobetasol or components",
+        "Application on the face, around the eyes, in folds and over a large area",
+        "Skin infections (bacterial/viral/fungal), rosacea, perioral dermatitis, acne",
+        "Young children (under 1 year — prohibited), caution in pregnancy/lactation"
+      ],
+      nojoya: {
+        "Local": "Rapidly developing skin atrophy, striae, telangiectasia, perioral dermatitis, acneiform rash, hypertrichosis, depigmentation, burning at the application site",
+        "Infectious": "Secondary infection, fungal involvement",
+        "Systemic (serious risk)": "Adrenal suppression, Cushing syndrome, hyperglycaemia, growth slowing in children (especially with a large area/long use)"
+      },
+      dozadan: "With use over a large area, prolonged or under occlusion — systemic corticosteroid toxicity (HPA-axis suppression, Cushing). Treatment: gradual withdrawal, assessment of adrenal function.",
+      ozarotasir: [
+        "Owing to high absorption — systemic steroid interactions (CYP3A4 inhibitors may enhance systemic effect)"
+      ],
+      qollash: {
+        kattalar: "Cream/ointment 0.05% to the affected area 1–2 times a day very thinly. Weekly amount no more than 50 g, treatment no more than 2–4 weeks. Under specialist supervision.",
+        bolalar: "Not used under 1 year; in older children only exceptionally, very briefly and over a limited area."
+      },
+      chiqarish: "Cream/ointment/lotion 0.05%; scalp foam/solution"
+    }
+  },
+
+  // ── TRIAMTSINOLON (mahalliy) | ATX: D07AB09 ──
+  "D07AB09": {
+    uz: {
+      gruppa: "Mahalliy glyukokortikosteroidlar — o'rta kuchli (II sinf, triamtsinolon)",
+      farmTasir: "Mahalliy yallig'lanishga qarshi, qichimaga qarshi, antiallergik",
+      farmakodinamika: `Triamtsinolon atsetonid — o'rta kuchli (II sinf) mahalliy glyukokortikosteroid. Glyukokortikoid retseptorlariga bog'lanib yallig'lanishga qarshi ta'sir ko'rsatadi: yallig'lanish mediatorlari sintezi, hujayra migratsiyasi va kapilyar o'tkazuvchanlikни kamaytiradi — teri qizarishi, qichima, shish va eksudatsiyani bostiradi. Gidrokortizondан kuchliroq, betametazondан yumshoqroq. Og'iz shilliq qavati pastasi shaklida afta stomatitда ham qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Yallig'langan/yupqa teri va okklyuziya ostída so'rilish oshadi.",
+        tarqalish: "Teri qatlamlarида to'planadi.",
+        metabolizm: "So'rilgan qism jigarда.",
+        chiqarilish: "So'rilgan qism siydik orqали."
+      },
+      korsatmalar: [
+        "O'rta yallig'lanishли va qichimали dermatozlar: ekzema, atopik/kontakt dermatit, neyrodermit",
+        "Psoriaz (cheklangan), qizil yassi temratki",
+        "Og'iz shilliq qavati: afta stomatit, qizil yassi temratki (og'iz pastasi)"
+      ],
+      qarrshi: [
+        "Triamtsinolon yoki komponentlариga o'ta sezgirlik",
+        "Teridаги infeksiyalar (bakterial/virusli/zamburug'li) — yagona davo sifatida",
+        "Rozatsea, perioral dermatit, teri tuberkulyozi/sifilisi",
+        "Yuz/burmaларда uzoq qo'llash; kichik bolalar (ehtiyot)"
+      ],
+      nojoya: {
+        "Mahalliy": "Achishish, quruqlik, qichima; uzoq qo'llашда — teri atrofiyasi, striyalar, telangiektaziya, perioral dermatit, gipertrixoz",
+        "Infeksion": "Ikkilamchi infeksiya, zamburug' qo'shilishi",
+        "Tizimli (keng/uzoq/okklyuziya)": "Buyrak usti bezi susayishi, giperkortitsizm (kamdan-kam)"
+      },
+      dozadan: "Uzoq/keng yuza/okklyuziya bilan qo'llаганда tizimli kortikosteroid ta'siri — asta-sekin to'xtatish.",
+      ozarotasir: [
+        "Mahalliy qo'llашда tizimli o'zaro ta'sir kam"
+      ],
+      qollash: {
+        kattalar: "Krem/mazь 0,025–0,1% kuniga 2–3 marta yupqa surtib. Og'iz pastasi: afta sohasiga kuniga 2–3 marta. Davolash imkon qadar qisqa.",
+        bolalar: "Eng kam konsentratsiya va kurs; yuza va okklyuziyадан saqlanish."
+      },
+      chiqarish: "Krem/mazь 0,025%, 0,1%; og'iz pastasi 0,1%; in'eksion shakl (intraartikulyar — alohida)"
+    },
+    ru: {
+      gruppa: "Местные глюкокортикостероиды — средней силы (II класс, триамцинолон)",
+      farmTasir: "Местное противовоспалительное, противозудное, противоаллергическое",
+      farmakodinamika: `Триамцинолона ацетонид — местный глюкокортикостероид средней силы (II класс). Связываясь с глюкокортикоидными рецепторами, оказывает противовоспалительное действие: снижает синтез медиаторов воспаления, миграцию клеток и проницаемость капилляров — подавляет покраснение кожи, зуд, отёк и экссудацию. Сильнее гидрокортизона, мягче бетаметазона. В форме пасты для слизистой рта применяется при афтозном стоматите.`,
+      farmakokinetika: {
+        sorish: "На воспалённой/тонкой коже и под окклюзией всасывание повышается.",
+        tarqalish: "Накапливается в слоях кожи.",
+        metabolizm: "Всосавшаяся часть в печени.",
+        chiqarilish: "Всосавшаяся часть с мочой."
+      },
+      korsatmalar: [
+        "Умеренные воспалительные и зудящие дерматозы: экзема, атопический/контактный дерматит, нейродермит",
+        "Псориаз (ограниченный), красный плоский лишай",
+        "Слизистая рта: афтозный стоматит, красный плоский лишай (паста для рта)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к триамцинолону или компонентам",
+        "Инфекции кожи (бактериальные/вирусные/грибковые) — как единственное лечение",
+        "Розацеа, периоральный дерматит, туберкулёз/сифилис кожи",
+        "Длительное применение на лице/в складках; маленькие дети (осторожно)"
+      ],
+      nojoya: {
+        "Местные": "Жжение, сухость, зуд; при длительном применении — атрофия кожи, стрии, телеангиэктазии, периоральный дерматит, гипертрихоз",
+        "Инфекционные": "Вторичная инфекция, грибковое присоединение",
+        "Системные (большая площадь/долго/окклюзия)": "Угнетение надпочечников, гиперкортицизм (редко)"
+      },
+      dozadan: "При длительном/на большой площади/под окклюзией применении — системное действие кортикостероида; отменять постепенно.",
+      ozarotasir: [
+        "При местном применении системных взаимодействий мало"
+      ],
+      qollash: {
+        kattalar: "Крем/мазь 0,025–0,1% 2–3 раза в день тонким слоем. Паста для рта: на область афты 2–3 раза в день. Лечение максимально коротким курсом.",
+        bolalar: "Минимальная концентрация и курс; избегать большой площади и окклюзии."
+      },
+      chiqarish: "Крем/мазь 0,025%, 0,1%; паста для рта 0,1%; инъекционная форма (внутрисуставно — отдельно)"
+    },
+    en: {
+      gruppa: "Topical glucocorticosteroids — moderate potency (class II, triamcinolone)",
+      farmTasir: "Topical anti-inflammatory, antipruritic, antiallergic",
+      farmakodinamika: `Triamcinolone acetonide is a moderate-potency (class II) topical glucocorticosteroid. Binding glucocorticoid receptors, it exerts anti-inflammatory action: reducing synthesis of inflammatory mediators, cell migration and capillary permeability — suppressing skin redness, itching, swelling and exudation. It is stronger than hydrocortisone and milder than betamethasone. As an oral mucosal paste it is used in aphthous stomatitis.`,
+      farmakokinetika: {
+        sorish: "On inflamed/thin skin and under occlusion absorption increases.",
+        tarqalish: "Accumulates in skin layers.",
+        metabolizm: "The absorbed part in the liver.",
+        chiqarilish: "The absorbed part renally."
+      },
+      korsatmalar: [
+        "Moderate inflammatory and itchy dermatoses: eczema, atopic/contact dermatitis, neurodermatitis",
+        "Psoriasis (limited), lichen planus",
+        "Oral mucosa: aphthous stomatitis, lichen planus (oral paste)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to triamcinolone or components",
+        "Skin infections (bacterial/viral/fungal) — as the sole treatment",
+        "Rosacea, perioral dermatitis, cutaneous tuberculosis/syphilis",
+        "Prolonged use on the face/in folds; young children (caution)"
+      ],
+      nojoya: {
+        "Local": "Burning, dryness, itching; with prolonged use — skin atrophy, striae, telangiectasia, perioral dermatitis, hypertrichosis",
+        "Infectious": "Secondary infection, fungal involvement",
+        "Systemic (large area/long/occlusion)": "Adrenal suppression, hypercortisolism (rare)"
+      },
+      dozadan: "With prolonged/large-area/occlusive use — systemic corticosteroid effect; withdraw gradually.",
+      ozarotasir: [
+        "With topical use systemic interactions are few"
+      ],
+      qollash: {
+        kattalar: "Cream/ointment 0.025–0.1% 2–3 times a day in a thin layer. Oral paste: to the aphtha area 2–3 times a day. Treat for the shortest possible course.",
+        bolalar: "Lowest concentration and course; avoid large areas and occlusion."
+      },
+      chiqarish: "Cream/ointment 0.025%, 0.1%; oral paste 0.1%; injectable form (intra-articular — separate)"
+    }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // D-Batch 3 — Mahalliy antibiotiklar va aknega qarshi (D06, D10)
+  // ═══════════════════════════════════════════════════════════
+
+  // ── MUPIROTSIN | ATX: D06AX09 ──
+  "D06AX09": {
+    uz: {
+      gruppa: "Mahalliy antibiotiklar — mupirotsin (psevdomon kislota)",
+      farmTasir: "Mahalliy antibakterial (teri infeksiyalari)",
+      farmakodinamika: `Mupirotsin — Pseudomonas fluorescens dan olinadigan o'ziga xos tuzilishli mahalliy antibiotik (psevdomon kislota A). Bakteriyalardagi izoleysil-tRNK-sintetaza fermentini qaytar ravishda ingibe qilib oqsil sintezini to'xtatadi — bakteriostatik, yuqori konsentratsiyada bakteritsid ta'sir. Asosan grammusbat bakteriyalarга, ayniqsa Staphylococcus aureus (jumladan metitsillinga chidamli — MRSA) va Streptococcus turlariga faol. Tizimli antibiotiklar bilan o'zaro chidamlilik (kross-rezistentlik) bermaydi — shu sababli mahalliy teri infeksiyalariда va burunдаги MRSA tashuvchiligini yo'qotishда qulay.`,
+      farmakokinetika: {
+        sorish: "Teri orqали tizimli so'rilish juda past; so'rilgan oz qism tez metabolizatsiya bo'ladi.",
+        tarqalish: "Mahalliy (teri/burun shilliq qavати).",
+        metabolizm: "Faolsiz monik kislotaga tez gidrolizlanadi.",
+        chiqarilish: "So'rilgan qism siydik orqали."
+      },
+      korsatmalar: [
+        "Birlamchi teri bakterial infeksiyalari: impetigo, follikulit, furunkul, ektima",
+        "Ikkilamchi infeksiyalangan dermatozlar (ekzema, jarohat, chaqishlar)",
+        "Burunдаги Staphylococcus aureus (MRSA) tashuvchiligini yo'qotish (burun mazi)"
+      ],
+      qarrshi: [
+        "Mupirotsinga o'ta sezgirlik",
+        "Keng kuyган yuza yoki yirik ochiq yaraga qo'llash (polietilenglikol asosi — buyrak xavfi)",
+        "Ko'z va shilliq qavatga (burun shaklidan tashqari)",
+        "Homiladorlik va emizishда ehtiyot"
+      ],
+      nojoya: {
+        "Mahalliy": "Qo'llash joyида achishish, qichima, qizarish, quruqlik, sanchish",
+        "Burun shakli": "Burunда achishish, aksirish, ta'm o'zgarishi",
+        "Allergik": "Kontakt dermatit, toshma (kamdan-kam)"
+      },
+      dozadan: "Mahalliy shakl, tizimli xavf yo'q. Tasodifan yutilганда — hazm noxushligi; simptomatik.",
+      ozarotasir: [
+        "Boshqa mahalliy teri preparatlari bilan birga qo'llашда ta'sirini suyultirmaslik uchun bir vaqtda surtilmaydi"
+      ],
+      qollash: {
+        kattalar: "Teri: 2% mazь/krem zararlangan sohaga kuniga 2–3 marta, 7–10 kun. Burun: 2% mazь har burun teshigiga kuniga 2 marta, 5 kun (MRSA dekolonizatsiya).",
+        bolalar: "Teri shakli yoshга qarab (impetigoда); burun shakli kattaroq bolalarда."
+      },
+      chiqarish: "Teri mazi/kremi 2%; burun mazi 2%"
+    },
+    ru: {
+      gruppa: "Местные антибиотики — мупироцин (псевдомоновая кислота)",
+      farmTasir: "Местный антибактериальный (инфекции кожи)",
+      farmakodinamika: `Мупироцин — местный антибиотик особой структуры из Pseudomonas fluorescens (псевдомоновая кислота A). Обратимо ингибируя фермент изолейцил-тРНК-синтетазу бактерий, прекращает синтез белка — бактериостатическое, при высокой концентрации бактерицидное действие. Активен в основном против грамположительных бактерий, особенно Staphylococcus aureus (включая метициллинрезистентный — MRSA) и видов Streptococcus. Не даёт перекрёстной резистентности с системными антибиотиками — поэтому удобен при местных кожных инфекциях и для устранения носительства MRSA в носу.`,
+      farmakokinetika: {
+        sorish: "Через кожу системное всасывание очень низкое; всосавшаяся малая часть быстро метаболизируется.",
+        tarqalish: "Местно (кожа/слизистая носа).",
+        metabolizm: "Быстро гидролизуется до неактивной мониковой кислоты.",
+        chiqarilish: "Всосавшаяся часть с мочой."
+      },
+      korsatmalar: [
+        "Первичные бактериальные инфекции кожи: импетиго, фолликулит, фурункул, эктима",
+        "Вторично инфицированные дерматозы (экзема, раны, укусы)",
+        "Устранение носительства Staphylococcus aureus (MRSA) в носу (назальная мазь)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к мупироцину",
+        "Нанесение на обширные ожоги или крупные открытые раны (основа полиэтиленгликоль — риск для почек)",
+        "На глаза и слизистые (кроме назальной формы)",
+        "Осторожно при беременности и лактации"
+      ],
+      nojoya: {
+        "Местные": "Жжение, зуд, покраснение, сухость, покалывание в месте нанесения",
+        "Назальная форма": "Жжение в носу, чихание, изменение вкуса",
+        "Аллергия": "Контактный дерматит, сыпь (редко)"
+      },
+      dozadan: "Местная форма, системного риска нет. При случайном проглатывании — дискомфорт ЖКТ; симптоматически.",
+      ozarotasir: [
+        "Не наносить одновременно с другими местными препаратами кожи, чтобы не разбавлять действие"
+      ],
+      qollash: {
+        kattalar: "Кожа: 2% мазь/крем на поражённую область 2–3 раза в день, 7–10 дней. Нос: 2% мазь в каждый носовой ход 2 раза в день, 5 дней (деколонизация MRSA).",
+        bolalar: "Кожная форма по возрасту (при импетиго); назальная форма у старших детей."
+      },
+      chiqarish: "Мазь/крем для кожи 2%; назальная мазь 2%"
+    },
+    en: {
+      gruppa: "Topical antibiotics — mupirocin (pseudomonic acid)",
+      farmTasir: "Topical antibacterial (skin infections)",
+      farmakodinamika: `Mupirocin is a structurally unique topical antibiotic from Pseudomonas fluorescens (pseudomonic acid A). By reversibly inhibiting bacterial isoleucyl-tRNA synthetase it stops protein synthesis — bacteriostatic, bactericidal at high concentration. It is active mainly against Gram-positive bacteria, especially Staphylococcus aureus (including methicillin-resistant — MRSA) and Streptococcus species. It shows no cross-resistance with systemic antibiotics — so it is convenient for local skin infections and for eradicating nasal MRSA carriage.`,
+      farmakokinetika: {
+        sorish: "Through the skin systemic absorption is very low; the small absorbed part is rapidly metabolised.",
+        tarqalish: "Local (skin/nasal mucosa).",
+        metabolizm: "Rapidly hydrolysed to inactive monic acid.",
+        chiqarilish: "The absorbed part renally."
+      },
+      korsatmalar: [
+        "Primary bacterial skin infections: impetigo, folliculitis, furuncle, ecthyma",
+        "Secondarily infected dermatoses (eczema, wounds, bites)",
+        "Eradication of nasal Staphylococcus aureus (MRSA) carriage (nasal ointment)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to mupirocin",
+        "Application to extensive burns or large open wounds (polyethylene glycol base — renal risk)",
+        "On the eyes and mucosa (except the nasal form)",
+        "Caution in pregnancy and lactation"
+      ],
+      nojoya: {
+        "Local": "Burning, itching, redness, dryness, stinging at the application site",
+        "Nasal form": "Nasal burning, sneezing, taste change",
+        "Allergy": "Contact dermatitis, rash (rare)"
+      },
+      dozadan: "Topical form, no systemic risk. If accidentally swallowed — GI discomfort; symptomatic.",
+      ozarotasir: [
+        "Do not apply simultaneously with other topical skin products to avoid diluting the effect"
+      ],
+      qollash: {
+        kattalar: "Skin: 2% ointment/cream to the affected area 2–3 times a day, 7–10 days. Nose: 2% ointment in each nostril twice daily, 5 days (MRSA decolonisation).",
+        bolalar: "Skin form by age (in impetigo); nasal form in older children."
+      },
+      chiqarish: "Skin ointment/cream 2%; nasal ointment 2%"
+    }
+  },
+
+  // ── KUMUSH SULFADIAZIN | ATX: D06BA01 ──
+  "D06BA01": {
+    uz: {
+      gruppa: "Mahalliy kimyoterapevtik vositalar — sulfanilamid (kumush sulfadiazin)",
+      farmTasir: "Mahalliy antibakterial (kuyish davosi)",
+      farmakodinamika: `Kumush sulfadiazin — sulfanilamid (sulfadiazin) va kumush birikmasi bo'lgan mahalliy antibakterial vosita. Asosан ajraladigan kumush ionlari hisobiga ta'sir qiladi: bakteriya hujayra devori va membranasiga bog'lanib, DNK va ferment tizimlarini bloklab keng spektrli bakteritsid ta'sir ko'rsatadi (grammusbat va grammanfiy bakteriyalar, jumladan Pseudomonas aeruginosa, hamda Candida). Sulfadiazin qo'shimcha bakteriostatik (folat sintezini bloklash) ta'sir beradi. Kuyган yuzani infeksiyadan himoya qiladi — kuyish davolashda asosiy mahalliy vosita.`,
+      farmakokinetika: {
+        sorish: "Kuyган/keng yuzадан sulfadiazin qisman tizimli so'rilishi mumkin (kumush kam so'riladi).",
+        tarqalish: "Yara yuzasi va eksudatда ta'sir.",
+        metabolizm: "So'rilgan sulfadiazin jigarда atsetillanadi.",
+        chiqarilish: "So'rilgan sulfadiazin siydik orqали."
+      },
+      korsatmalar: [
+        "II–III darajali kuyишлар infeksiyasini oldini olish va davolash",
+        "Yirik yuzали jarohat, troyfik yara, yotoq yaralari (infeksiya profilaktikasi)",
+        "Teri transplantatsiyasi sohasini himoya qilish"
+      ],
+      qarrshi: [
+        "Kumush sulfadiazin yoki sulfanilamidlarга o'ta sezgirlik",
+        "Homiladorlik (ayniqsa muddati yaqin) va emizish; chala/yangi tug'ilganlar va 2 oйgача bolalar (kernikterus xavfi)",
+        "Glyukoza-6-fosfatdegidrogena tanqisligi (gemoliz)",
+        "Og'ir jigar/buyrak yetishmovchiligi (keng yuzада)"
+      ],
+      nojoya: {
+        "Mahalliy": "Qo'llash joyида achishish, qichima, og'riq; terining vaqtinchalik kulrang-kumush rangга bo'yalishi",
+        "Qon (keng yuza so'rilishда)": "Leykopeniya, neytropeniya (vaqtincha), kamdan-kam — agranulotsitoz",
+        "Allergik": "Toshma, sulfanilamid o'ta sezgirligi; kamdan-kam — Stivens-Jonson sindromi",
+        "Boshqa": "Sulfanilamid tizimli so'rilишда — interstitsial nefrit, kristalluriya"
+      },
+      dozadan: "Keng kuyган yuzада sulfadiazin tizimli so'rilishi — sulfanilamid toksikligi (qon, buyrak). Davolash: dori to'xtatiladi, qon ko'rsatkichlari va buyrak nazorati, simptomatik.",
+      ozarotasir: [
+        "Yarani tozalovchi proteolitik fermentlar bilan birga — kumush ularni inaktivatsiya qiladi",
+        "Tizimli so'rilишда: peroral qandni tushiruvchi, varfarin, fenitoin ta'sirini kuchaytirishi mumkin (sulfanilamid)"
+      ],
+      qollash: {
+        kattalar: "1% krem steril sharoitда kuyган/yara yuzasiga 2–4 mm qalinlikда kuniga 1–2 marta, bog'lам bilan yoki ochiq. Yuvib, qayta surtiladi.",
+        bolalar: "2 oйdan katta bolalarда qo'llaniladi (kichikроқларда kernikterus xavfi); yuza cheklanadi."
+      },
+      chiqarish: "Krem 1% (banka/tuba); kumush impregnatsiyalangan kuyish bog'lamlari"
+    },
+    ru: {
+      gruppa: "Местные химиотерапевтические средства — сульфаниламид (сульфадиазин серебра)",
+      farmTasir: "Местный антибактериальный (лечение ожогов)",
+      farmakodinamika: `Сульфадиазин серебра — местное антибактериальное средство, соединение сульфаниламида (сульфадиазина) с серебром. Действует в основном за счёт высвобождаемых ионов серебра: связываясь с клеточной стенкой и мембраной бактерии, блокирует ДНК и ферментные системы, оказывая бактерицидное действие широкого спектра (грамположительные и грамотрицательные, включая Pseudomonas aeruginosa, а также Candida). Сульфадиазин даёт дополнительное бактериостатическое (блок синтеза фолата) действие. Защищает ожоговую поверхность от инфекции — основное местное средство при лечении ожогов.`,
+      farmakokinetika: {
+        sorish: "С ожоговой/обширной поверхности сульфадиазин может частично всасываться системно (серебро всасывается мало).",
+        tarqalish: "Действие на поверхности раны и в экссудате.",
+        metabolizm: "Всосавшийся сульфадиазин ацетилируется в печени.",
+        chiqarilish: "Всосавшийся сульфадиазин с мочой."
+      },
+      korsatmalar: [
+        "Профилактика и лечение инфекции ожогов II–III степени",
+        "Обширные раны, трофические язвы, пролежни (профилактика инфекции)",
+        "Защита области кожной трансплантации"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к сульфадиазину серебра или сульфаниламидам",
+        "Беременность (особенно на поздних сроках) и лактация; недоношенные/новорождённые и дети до 2 мес (риск ядерной желтухи)",
+        "Дефицит глюкозо-6-фосфатдегидрогеназы (гемолиз)",
+        "Тяжёлая печёночная/почечная недостаточность (при большой площади)"
+      ],
+      nojoya: {
+        "Местные": "Жжение, зуд, боль в месте нанесения; временное серо-серебристое окрашивание кожи",
+        "Кровь (при всасывании с большой площади)": "Лейкопения, нейтропения (временная), редко — агранулоцитоз",
+        "Аллергия": "Сыпь, гиперчувствительность к сульфаниламидам; редко — синдром Стивенса-Джонсона",
+        "Прочее": "При системном всасывании сульфаниламида — интерстициальный нефрит, кристаллурия"
+      },
+      dozadan: "При обширной ожоговой поверхности системное всасывание сульфадиазина — токсичность сульфаниламида (кровь, почки). Лечение: отмена, контроль показателей крови и почек, симптоматически.",
+      ozarotasir: [
+        "С протеолитическими ферментами для очистки раны — серебро их инактивирует",
+        "При системном всасывании: может усиливать действие пероральных гипогликемических, варфарина, фенитоина (сульфаниламид)"
+      ],
+      qollash: {
+        kattalar: "1% крем в стерильных условиях на ожоговую/раневую поверхность слоем 2–4 мм 1–2 раза в день, под повязкой или открыто. Смыть и нанести заново.",
+        bolalar: "Применяется у детей старше 2 мес (у младших риск ядерной желтухи); площадь ограничивается."
+      },
+      chiqarish: "Крем 1% (банка/туба); ожоговые повязки, импрегнированные серебром"
+    },
+    en: {
+      gruppa: "Topical chemotherapeutics — sulfonamide (silver sulfadiazine)",
+      farmTasir: "Topical antibacterial (burn treatment)",
+      farmakodinamika: `Silver sulfadiazine is a topical antibacterial, a compound of the sulfonamide (sulfadiazine) with silver. It acts mainly through released silver ions: binding the bacterial cell wall and membrane, it blocks DNA and enzyme systems, giving broad-spectrum bactericidal action (Gram-positive and Gram-negative, including Pseudomonas aeruginosa, and Candida). Sulfadiazine adds bacteriostatic (folate synthesis block) action. It protects the burn surface from infection — a mainstay topical agent in burn care.`,
+      farmakokinetika: {
+        sorish: "From a burn/extensive surface sulfadiazine may be partly absorbed systemically (silver is little absorbed).",
+        tarqalish: "Action on the wound surface and in exudate.",
+        metabolizm: "Absorbed sulfadiazine is acetylated in the liver.",
+        chiqarilish: "Absorbed sulfadiazine renally."
+      },
+      korsatmalar: [
+        "Prevention and treatment of infection in second/third-degree burns",
+        "Extensive wounds, trophic ulcers, pressure sores (infection prophylaxis)",
+        "Protection of a skin graft area"
+      ],
+      qarrshi: [
+        "Hypersensitivity to silver sulfadiazine or sulfonamides",
+        "Pregnancy (especially late) and lactation; premature/newborn and infants under 2 months (kernicterus risk)",
+        "Glucose-6-phosphate dehydrogenase deficiency (haemolysis)",
+        "Severe hepatic/renal failure (over a large area)"
+      ],
+      nojoya: {
+        "Local": "Burning, itching, pain at the application site; temporary grey-silver skin discolouration",
+        "Blood (with large-area absorption)": "Leukopenia, neutropenia (transient), rarely agranulocytosis",
+        "Allergy": "Rash, sulfonamide hypersensitivity; rarely Stevens-Johnson syndrome",
+        "Other": "With systemic sulfonamide absorption — interstitial nephritis, crystalluria"
+      },
+      dozadan: "With an extensive burn surface, systemic sulfadiazine absorption — sulfonamide toxicity (blood, kidneys). Treatment: discontinue, monitor blood counts and kidneys, symptomatic.",
+      ozarotasir: [
+        "With proteolytic enzymes for wound cleaning — silver inactivates them",
+        "With systemic absorption: may enhance the effect of oral hypoglycaemics, warfarin, phenytoin (sulfonamide)"
+      ],
+      qollash: {
+        kattalar: "1% cream under sterile conditions to the burn/wound surface in a 2–4 mm layer 1–2 times a day, under a dressing or open. Wash off and reapply.",
+        bolalar: "Used in children over 2 months (kernicterus risk in younger); the area is limited."
+      },
+      chiqarish: "Cream 1% (jar/tube); silver-impregnated burn dressings"
+    }
+  },
+
+  // ── TRETINOIN (mahalliy) | ATX: D10AD01 ──
+  "D10AD01": {
+    uz: {
+      gruppa: "Aknega qarshi mahalliy vositalar — retinoid (tretinoin)",
+      farmTasir: "Mahalliy aknega qarshi, keratolitik (A vitamini hosilasi)",
+      farmakodinamika: `Tretinoin (butun-trans retinoy kislota) — A vitaminining tabiiy hosilasi bo'lgan mahalliy retinoid. Teri epiteliyasidagi retinoy kislota retseptorlariga (RAR) bog'lanib keratinotsitlar differensiatsiyasi va ko'chishini me'yorlashtiradi — follikulada shox hujayralar yopishqoqligini kamaytirib komedon (qora/oq nuqta) hosil bo'lishini oldini oladi va mavjudlarini eritadi (komedolitik). Yallig'lanishni kamaytiradi, terining yangilanishini tezlashtiradi. Akneда asosiy patogenetik mahalliy vosita; fotoyoshlanish (ajinlar, dog'lar) da ham qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Teri orqали tizimli so'rilish juda past (<5%); mahalliy ta'sir.",
+        tarqalish: "Epidermisда ta'sir.",
+        metabolizm: "Mahalliy va so'rilgач jigarда.",
+        chiqarilish: "So'rilgan qism siydik va o't orqали."
+      },
+      korsatmalar: [
+        "Yengil-o'rta akne (vulgar), ayniqsa komedonali shakl",
+        "Fotoyoshlanish: yuza ajinlar, giperpigmentatsiya dog'lari, terining tekisligini yaxshilash",
+        "Follikulyar giperkeratoz, ba'zi keratinizatsiya buzilishlari"
+      ],
+      qarrshi: [
+        "Tretinoinga yoki retinoidlarга o'ta sezgirlik",
+        "Homiladorlik va emizish (retinoidlar teratogen — mahalliy ham qo'llanilmaydi)",
+        "Quyoshда kuyган, ekzemali yoki shikastlangan teri",
+        "Boshqa keratolitik/qitiqlovchi vositalar bilan birga (kuchli ta'sir)"
+      ],
+      nojoya: {
+        "Mahalliy": "Teri qizarishi, achishish, qurish, po'st tashlashi, qichima; davolash boshida akne vaqtincha kuchayishi («retinoid alangalanishi»)",
+        "Fotosensibilizatsiya": "Quyoshга sezuvchanlik oshishi — kuyish xavfi (quyoshдан himoya zarur)",
+        "Allergik": "Kontakt dermatit (kamdan-kam)"
+      },
+      dozadan: "Mahalliy shaklда tizimli xavf past. Ortiqcha surtish — kuchli teri ta'siri (qizarish, po'st). Davolash: to'xtatish, yumshatuvchi krem.",
+      ozarotasir: [
+        "Boshqa keratolitiklar (benzoil peroksid, salitsil kislota, AHA), spirtli/qitiqlovchi kosmetikalar: teri ta'sirini kuchaytiradi — ehtiyot/navbatma-navbat",
+        "Fotosensibilizatsiyalovchi dorilar bilan quyosh kuyishi xavfi oshadi"
+      ],
+      qollash: {
+        kattalar: "Kechqurun tozalangan quruq teriga oz miqdorда (no'xat donasi) kuniga 1 marta yupqa surtib. Past konsentratsiyadан boshlanadi. Kunduzi quyoshдан himoya (SPF) shart. Samara 6–12 haftada.",
+        bolalar: "12 yoshdan akneда (yoshга qarab); shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "Krem/gel 0,025%, 0,05%, 0,1%; eritma; klindamitsin bilan kombinatsiya"
+    },
+    ru: {
+      gruppa: "Местные противоугревые средства — ретиноид (третиноин)",
+      farmTasir: "Местное противоугревое, кератолитическое (производное витамина А)",
+      farmakodinamika: `Третиноин (полностью-транс-ретиноевая кислота) — местный ретиноид, естественное производное витамина А. Связываясь с рецепторами ретиноевой кислоты (RAR) эпителия кожи, нормализует дифференцировку и слущивание кератиноцитов — снижает сцепление роговых клеток в фолликуле, предотвращая образование комедонов (чёрные/белые точки) и растворяя имеющиеся (комедолитик). Уменьшает воспаление, ускоряет обновление кожи. При акне — основное патогенетическое местное средство; применяется и при фотостарении (морщины, пятна).`,
+      farmakokinetika: {
+        sorish: "Через кожу системное всасывание очень низкое (<5%); местное действие.",
+        tarqalish: "Действие в эпидермисе.",
+        metabolizm: "Местно и после всасывания в печени.",
+        chiqarilish: "Всосавшаяся часть с мочой и жёлчью."
+      },
+      korsatmalar: [
+        "Лёгкая-умеренная акне (вульгарная), особенно комедональная форма",
+        "Фотостарение: поверхностные морщины, пятна гиперпигментации, улучшение ровности кожи",
+        "Фолликулярный гиперкератоз, некоторые нарушения кератинизации"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к третиноину или ретиноидам",
+        "Беременность и лактация (ретиноиды тератогенны — и местно не применяют)",
+        "Обожжённая солнцем, экзематозная или повреждённая кожа",
+        "Совместно с другими кератолитиками/раздражающими средствами (сильное действие)"
+      ],
+      nojoya: {
+        "Местные": "Покраснение, жжение, сухость, шелушение кожи, зуд; в начале лечения временное обострение акне («ретиноидная вспышка»)",
+        "Фотосенсибилизация": "Повышение чувствительности к солнцу — риск ожога (нужна защита от солнца)",
+        "Аллергия": "Контактный дерматит (редко)"
+      },
+      dozadan: "При местной форме системный риск низкий. Избыточное нанесение — сильное раздражение кожи (покраснение, шелушение). Лечение: отмена, смягчающий крем.",
+      ozarotasir: [
+        "Другие кератолитики (бензоила пероксид, салициловая кислота, AHA), спиртовые/раздражающие косметические средства: усиливают раздражение кожи — осторожно/поочерёдно",
+        "С фотосенсибилизирующими препаратами риск солнечного ожога возрастает"
+      ],
+      qollash: {
+        kattalar: "Вечером на очищенную сухую кожу в малом количестве (с горошину) 1 раз в день тонким слоем. Начинают с низкой концентрации. Днём обязательна защита от солнца (SPF). Эффект через 6–12 недель.",
+        bolalar: "С 12 лет при акне (по возрасту); по назначению врача."
+      },
+      chiqarish: "Крем/гель 0,025%, 0,05%, 0,1%; раствор; комбинация с клиндамицином"
+    },
+    en: {
+      gruppa: "Topical anti-acne agents — retinoid (tretinoin)",
+      farmTasir: "Topical anti-acne, keratolytic (vitamin A derivative)",
+      farmakodinamika: `Tretinoin (all-trans retinoic acid) is a topical retinoid, a natural derivative of vitamin A. Binding retinoic acid receptors (RAR) in the skin epithelium, it normalises keratinocyte differentiation and shedding — reducing cohesion of horny cells in the follicle, preventing comedone (blackhead/whitehead) formation and dissolving existing ones (comedolytic). It reduces inflammation and speeds skin turnover. In acne it is a key pathogenetic topical agent; it is also used in photoageing (wrinkles, spots).`,
+      farmakokinetika: {
+        sorish: "Through the skin systemic absorption is very low (<5%); local action.",
+        tarqalish: "Action in the epidermis.",
+        metabolizm: "Local and, once absorbed, hepatic.",
+        chiqarilish: "The absorbed part via urine and bile."
+      },
+      korsatmalar: [
+        "Mild-to-moderate acne (vulgaris), especially the comedonal form",
+        "Photoageing: superficial wrinkles, hyperpigmentation spots, improving skin evenness",
+        "Follicular hyperkeratosis, some keratinisation disorders"
+      ],
+      qarrshi: [
+        "Hypersensitivity to tretinoin or retinoids",
+        "Pregnancy and lactation (retinoids are teratogenic — not used even topically)",
+        "Sunburned, eczematous or damaged skin",
+        "With other keratolytics/irritants (strong effect)"
+      ],
+      nojoya: {
+        "Local": "Skin redness, burning, dryness, peeling, itching; at the start of treatment a temporary acne flare ('retinoid flare')",
+        "Photosensitisation": "Increased sun sensitivity — burn risk (sun protection needed)",
+        "Allergy": "Contact dermatitis (rare)"
+      },
+      dozadan: "With the topical form systemic risk is low. Excessive application — strong skin irritation (redness, peeling). Treatment: discontinue, emollient cream.",
+      ozarotasir: [
+        "Other keratolytics (benzoyl peroxide, salicylic acid, AHA), alcoholic/irritant cosmetics: enhance skin irritation — caution/alternate",
+        "With photosensitising drugs the sunburn risk increases"
+      ],
+      qollash: {
+        kattalar: "In the evening to clean dry skin, a small amount (pea-sized) once daily in a thin layer. Start with a low concentration. Sun protection (SPF) is essential during the day. Effect in 6–12 weeks.",
+        bolalar: "From 12 years in acne (by age); as prescribed."
+      },
+      chiqarish: "Cream/gel 0.025%, 0.05%, 0.1%; solution; combination with clindamycin"
+    }
+  },
+
+  // ── ADAPALEN | ATX: D10AD03 ──
+  "D10AD03": {
+    uz: {
+      gruppa: "Aknega qarshi mahalliy vositalar — III avlod retinoid (adapalen)",
+      farmTasir: "Mahalliy aknega qarshi, komedolitik, yallig'lanishga qarshi",
+      farmakodinamika: `Adapalen — naftoy kislota hosilasi bo'lgan III avlod sintetik mahalliy retinoid. Retinoy kislota retseptorlarига (asosан RAR-β va RAR-γ) selektiv bog'lanib keratinotsitlar differensiatsiyasini me'yorlashtiradi — komedon hosil bo'lishini oldini oladi va komedonlarni eritadi (komedolitik). Bundan tashqari yaqqol yallig'lanishga qarshi ta'sirga ega (leykotsitlar va yallig'lanish mediatorlarini susaytiradi). Tretinoinга nisbatan terini kamroq qitiqlaydi va yorug'likka barqarorroq (kunduzи ham qo'llasa bo'ladi). Ko'pincha benzoil peroksid bilan kombinatsiyada keladi.`,
+      farmakokinetika: {
+        sorish: "Teri orqали tizimli so'rilish juda past.",
+        tarqalish: "Epidermis va follikulada ta'sir.",
+        metabolizm: "Mahalliy; so'rilgan oz qism o't orqали chiqadi.",
+        chiqarilish: "Asosан o't (najas) orqали."
+      },
+      korsatmalar: [
+        "Yengil-o'rta akne (vulgar) — komedonali va yallig'lanishли shakl",
+        "Benzoil peroksid yoki klindamitsin bilan kombinatsiyada o'rta akne"
+      ],
+      qarrshi: [
+        "Adapalenga yoki retinoidlarга o'ta sezgirlik",
+        "Homiladorlik va emizish (ehtiyot — retinoid)",
+        "Shikastlangan, ekzemali yoki quyoshда kuyган teri",
+        "Ko'z, lab, burun shilliq qavatига surtish"
+      ],
+      nojoya: {
+        "Mahalliy": "Teri qizarishi, qurish, achishish, po'st tashlashi, qichima (tretinoindан kamroq); boshida akne vaqtincha kuchayishi",
+        "Fotosensibilizatsiya": "Quyoshга sezuvchanlik (himoya tavsiya etiladi)",
+        "Allergik": "Kontakt dermatit (kamdan-kam)"
+      },
+      dozadan: "Mahalliy shakl, tizimli xavf yo'q. Ortiqcha surtish — teri ta'siri. Davolash: to'xtatish, yumshatuvchi.",
+      ozarotasir: [
+        "Boshqa qitiqlovchi/keratolitik vositalar bilan teri ta'sirini kuchaytiradi",
+        "Benzoil peroksid bilan kombinatsiyada samara to'ldiriladi (alohida yoki tayyor kombinatsiya)"
+      ],
+      qollash: {
+        kattalar: "Kechqurun tozalangan teriga oz miqdorда kuniga 1 marta yupqa surtib. Samara 4–8 haftada; davolash davom ettiriladi. Quyoshдан himoya.",
+        bolalar: "12 yoshdan akneда; shifokor ko'rsatmasi bilan."
+      },
+      chiqarish: "Gel/krem 0,1%, 0,3%; benzoil peroksid bilan kombinatsiya gel"
+    },
+    ru: {
+      gruppa: "Местные противоугревые средства — ретиноид III поколения (адапален)",
+      farmTasir: "Местное противоугревое, комедолитическое, противовоспалительное",
+      farmakodinamika: `Адапален — синтетический местный ретиноид III поколения, производное нафтоевой кислоты. Избирательно связываясь с рецепторами ретиноевой кислоты (в основном RAR-β и RAR-γ), нормализует дифференцировку кератиноцитов — предотвращает образование комедонов и растворяет их (комедолитик). Кроме того, обладает выраженным противовоспалительным действием (ослабляет лейкоциты и медиаторы воспаления). По сравнению с третиноином меньше раздражает кожу и более стабилен к свету (можно применять и днём). Часто выпускается в комбинации с бензоила пероксидом.`,
+      farmakokinetika: {
+        sorish: "Через кожу системное всасывание очень низкое.",
+        tarqalish: "Действие в эпидермисе и фолликуле.",
+        metabolizm: "Местно; всосавшаяся малая часть выводится с жёлчью.",
+        chiqarilish: "Преимущественно с жёлчью (кал)."
+      },
+      korsatmalar: [
+        "Лёгкая-умеренная акне (вульгарная) — комедональная и воспалительная форма",
+        "Умеренная акне в комбинации с бензоила пероксидом или клиндамицином"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к адапалену или ретиноидам",
+        "Беременность и лактация (осторожно — ретиноид)",
+        "Повреждённая, экзематозная или обожжённая солнцем кожа",
+        "Нанесение на слизистые глаз, губ, носа"
+      ],
+      nojoya: {
+        "Местные": "Покраснение, сухость, жжение, шелушение, зуд кожи (меньше, чем у третиноина); в начале временное обострение акне",
+        "Фотосенсибилизация": "Чувствительность к солнцу (рекомендуется защита)",
+        "Аллергия": "Контактный дерматит (редко)"
+      },
+      dozadan: "Местная форма, системного риска нет. Избыточное нанесение — раздражение кожи. Лечение: отмена, смягчающее.",
+      ozarotasir: [
+        "С другими раздражающими/кератолитическими средствами усиливает раздражение кожи",
+        "В комбинации с бензоила пероксидом эффект дополняется (отдельно или готовая комбинация)"
+      ],
+      qollash: {
+        kattalar: "Вечером на очищенную кожу в малом количестве 1 раз в день тонким слоем. Эффект через 4–8 недель; лечение продолжают. Защита от солнца.",
+        bolalar: "С 12 лет при акне; по назначению врача."
+      },
+      chiqarish: "Гель/крем 0,1%, 0,3%; гель в комбинации с бензоила пероксидом"
+    },
+    en: {
+      gruppa: "Topical anti-acne agents — third-generation retinoid (adapalene)",
+      farmTasir: "Topical anti-acne, comedolytic, anti-inflammatory",
+      farmakodinamika: `Adapalene is a synthetic third-generation topical retinoid, a naphthoic acid derivative. Selectively binding retinoic acid receptors (mainly RAR-β and RAR-γ), it normalises keratinocyte differentiation — preventing comedone formation and dissolving them (comedolytic). It also has marked anti-inflammatory action (dampening leukocytes and inflammatory mediators). Compared with tretinoin it irritates the skin less and is more light-stable (can be used in the daytime too). It is often produced combined with benzoyl peroxide.`,
+      farmakokinetika: {
+        sorish: "Through the skin systemic absorption is very low.",
+        tarqalish: "Action in the epidermis and follicle.",
+        metabolizm: "Local; the small absorbed part is excreted in bile.",
+        chiqarilish: "Mainly biliary (faeces)."
+      },
+      korsatmalar: [
+        "Mild-to-moderate acne (vulgaris) — comedonal and inflammatory form",
+        "Moderate acne combined with benzoyl peroxide or clindamycin"
+      ],
+      qarrshi: [
+        "Hypersensitivity to adapalene or retinoids",
+        "Pregnancy and lactation (caution — retinoid)",
+        "Damaged, eczematous or sunburned skin",
+        "Application to the mucosa of eyes, lips, nose"
+      ],
+      nojoya: {
+        "Local": "Skin redness, dryness, burning, peeling, itching (less than tretinoin); a temporary acne flare at the start",
+        "Photosensitisation": "Sun sensitivity (protection recommended)",
+        "Allergy": "Contact dermatitis (rare)"
+      },
+      dozadan: "Topical form, no systemic risk. Excessive application — skin irritation. Treatment: discontinue, emollient.",
+      ozarotasir: [
+        "With other irritant/keratolytic agents it enhances skin irritation",
+        "Combined with benzoyl peroxide the effect is complementary (separately or as a ready combination)"
+      ],
+      qollash: {
+        kattalar: "In the evening to clean skin, a small amount once daily in a thin layer. Effect in 4–8 weeks; continue treatment. Sun protection.",
+        bolalar: "From 12 years in acne; as prescribed."
+      },
+      chiqarish: "Gel/cream 0.1%, 0.3%; gel combined with benzoyl peroxide"
+    }
+  },
+
+  // ── IZOTRETINOIN (peroral) | ATX: D10BA01 ──
+  "D10BA01": {
+    uz: {
+      gruppa: "Aknega qarshi tizimli vositalar — peroral retinoid (izotretinoin)",
+      farmTasir: "Tizimli aknega qarshi (og'ir akne; teratogen)",
+      farmakodinamika: `Izotretinoin (13-sis-retinoy kislota) — A vitaminining peroral hosilasi bo'lgan tizimli retinoid; akne davosida eng kuchli vosita. Aknening barcha to'rt patogenetik bo'g'iniga ta'sir qiladi: yog' bezlari (sebotsitlar) hajmi va sebum (yog') ishlab chiqarilishini keskin kamaytiradi, follikulyar giperkeratozni me'yorlashtiradi (komedolitik), Cutibacterium acnes ko'payishини kosvenно kamaytiradi va yallig'lanishni bostiradi. Og'ir, chandiqli yoki davolanmaydigan akneда uzoq remissiya (ko'pincha doimiy) beradi. Kuchli teratogen — homiladorlikда mutlaq taqiqlangan (qat'iy kontratseptsiya dasturi talab qilinadi).`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали so'riladi; yog'li ovqat bilan biokirish ortadi.",
+        tarqalish: "Plazma oqsillariga (albumin) >99%; teri yog' bezlariга kiradi.",
+        metabolizm: "Jigarда faol metaboliti 4-okso-izotretinoinга; tretinoin bilan o'zaro aylanadi.",
+        chiqarilish: "Siydik va o't orqали teng. T½ — ~10–20 soat (metabolit uzunroq)."
+      },
+      korsatmalar: [
+        "Og'ir akne (nodulokistoz, konglobat), chandiq qoldiruvchi akne",
+        "An'anaviy davo (antibiotik + mahalliy) samarasiz bo'lган o'rta-og'ir akne",
+        "Og'ir seborея va rozatsea (ayrim holatlarda, alohida)"
+      ],
+      qarrshi: [
+        "Izotretinoinga yoki retinoidlarга o'ta sezgirlik; soya/yeryong'oq moyi (kapsula tarkibi) allergiyasi",
+        "HOMILADORLIK va emizish — mutlaq taqiqlangan (og'ir teratogenlik: bosh, yurak, MNS nuqsonlari)",
+        "Reproduktiv yoshdagi ayollar — qat'iy ikki usulli kontratseptsiya va homiladorlik testlari dasturisiz",
+        "A vitamini gipervitaminozi, og'ir jigar yetishmovchiligi, yuqori giperlipidemiya; tetratsiklinlar bilan birga (miya ichi bosimi)"
+      ],
+      nojoya: {
+        "Teri-shilliq (deyarli barchada)": "Lab, og'iz, burun va ko'z qurishi (xeylit, quruq kon'yunktivit), terining qurishi va nozikligi, fotosensibilizatsiya, soch to'kilishi",
+        "Jigar-lipid": "Transaminazalar oshishi, qondaги triglitserid va xolesterin oshishi (nazorat zarur)",
+        "Suyak-mushak": "Mialgiya, artralgiya, uzoq qabулда suyak o'zgarishi",
+        "Ruhiy / boshqa": "Kayfiyat o'zgarishi, depressiya, suitsidal fikrlar (kuzatuv); miya ichi bosimi oshishi (bosh og'rig'i, ko'rish buzilishi)"
+      },
+      dozadan: "Belgilari: A vitamini gipervitaminozi — bosh og'rig'i, ko'ngil aynishi, qusish, lablar yorilishi, ataksiya. Davolash: dori to'xtatiladi, simptomatik; teratogenlikни hisobga olish.",
+      ozarotasir: [
+        "Tetratsiklinlar: birga miya ichi bosimi oshishi (psevdotumor) — TAQIQLANGAN",
+        "A vitamini va boshqa retinoidlar: gipervitaminoz qo'shiladi — birga ishlatilmaydi",
+        "Mikrodozali progestin kontraseptivlar (mini-pili): ishonchsiz bo'lishi mumkin"
+      ],
+      qollash: {
+        kattalar: "Og'iz orqали ovqat bilan: 0,5 mg/kg/kun, holatga qarab 0,5–1 mg/kg/kun; kumulyativ kurs dozasi 120–150 mg/kg gача (odatda 4–6 oй). Faqat mutaxassis nazoratida, jigar/lipid va homiladorlik testlari bilan.",
+        bolalar: "12 yoshdan og'ir akneда mutaxassis nazoratida (suyak o'sishi tugashига yaqin)."
+      },
+      chiqarish: "Yumshoq kapsulalar 8, 10, 16, 20, 40 mg"
+    },
+    ru: {
+      gruppa: "Системные противоугревые средства — пероральный ретиноид (изотретиноин)",
+      farmTasir: "Системное противоугревое (тяжёлая акне; тератоген)",
+      farmakodinamika: `Изотретиноин (13-цис-ретиноевая кислота) — системный ретиноид, пероральное производное витамина А; самое сильное средство в лечении акне. Воздействует на все четыре патогенетических звена акне: резко уменьшает размер сальных желёз (себоцитов) и продукцию кожного сала, нормализует фолликулярный гиперкератоз (комедолитик), косвенно снижает размножение Cutibacterium acnes и подавляет воспаление. При тяжёлой, рубцующейся или резистентной акне даёт длительную (часто стойкую) ремиссию. Сильный тератоген — при беременности абсолютно противопоказан (требуется строгая программа контрацепции).`,
+      farmakokinetika: {
+        sorish: "Внутрь всасывается; с жирной пищей биодоступность возрастает.",
+        tarqalish: "Связь с белками плазмы (альбумин) >99%; проникает в сальные железы кожи.",
+        metabolizm: "В печени до активного метаболита 4-оксо-изотретиноина; взаимопревращается с третиноином.",
+        chiqarilish: "Поровну с мочой и жёлчью. T½ — ~10–20 ч (метаболит дольше)."
+      },
+      korsatmalar: [
+        "Тяжёлая акне (нодулокистозная, конглобатная), рубцующаяся акне",
+        "Средне-тяжёлая акне при неэффективности традиционного лечения (антибиотик + местное)",
+        "Тяжёлая себорея и розацеа (в отдельных случаях, отдельно)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к изотретиноину или ретиноидам; аллергия на соевое/арахисовое масло (состав капсулы)",
+        "БЕРЕМЕННОСТЬ и лактация — абсолютно противопоказано (тяжёлая тератогенность: пороки головы, сердца, ЦНС)",
+        "Женщины репродуктивного возраста — без строгой двойной контрацепции и тестов на беременность",
+        "Гипервитаминоз А, тяжёлая печёночная недостаточность, выраженная гиперлипидемия; совместно с тетрациклинами (внутричерепное давление)"
+      ],
+      nojoya: {
+        "Кожа-слизистые (почти у всех)": "Сухость губ, рта, носа и глаз (хейлит, сухой конъюнктивит), сухость и хрупкость кожи, фотосенсибилизация, выпадение волос",
+        "Печень-липиды": "Повышение трансаминаз, триглицеридов и холестерина крови (нужен контроль)",
+        "Костно-мышечные": "Миалгия, артралгия, при длительном приёме изменения костей",
+        "Психика / прочее": "Изменения настроения, депрессия, суицидальные мысли (наблюдение); повышение внутричерепного давления (головная боль, нарушение зрения)"
+      },
+      dozadan: "Симптомы: гипервитаминоз А — головная боль, тошнота, рвота, трещины губ, атаксия. Лечение: отмена, симптоматически; учитывать тератогенность.",
+      ozarotasir: [
+        "Тетрациклины: совместно повышение внутричерепного давления (псевдотумор) — ПРОТИВОПОКАЗАНО",
+        "Витамин А и другие ретиноиды: суммируется гипервитаминоз — не сочетать",
+        "Микродозированные прогестиновые контрацептивы (мини-пили): могут быть ненадёжны"
+      ],
+      qollash: {
+        kattalar: "Внутрь с едой: 0,5 мг/кг/сут, по состоянию 0,5–1 мг/кг/сут; кумулятивная курсовая доза до 120–150 мг/кг (обычно 4–6 месяцев). Только под контролем специалиста, с тестами печени/липидов и на беременность.",
+        bolalar: "С 12 лет при тяжёлой акне под контролем специалиста (ближе к завершению роста костей)."
+      },
+      chiqarish: "Мягкие капсулы 8, 10, 16, 20, 40 мг"
+    },
+    en: {
+      gruppa: "Systemic anti-acne agents — oral retinoid (isotretinoin)",
+      farmTasir: "Systemic anti-acne (severe acne; teratogen)",
+      farmakodinamika: `Isotretinoin (13-cis-retinoic acid) is a systemic retinoid, an oral derivative of vitamin A; the most potent agent in acne treatment. It acts on all four pathogenetic factors of acne: it sharply reduces sebaceous gland (sebocyte) size and sebum production, normalises follicular hyperkeratosis (comedolytic), indirectly reduces Cutibacterium acnes proliferation and suppresses inflammation. In severe, scarring or resistant acne it gives long (often durable) remission. It is a strong teratogen — absolutely contraindicated in pregnancy (a strict contraception programme is required).`,
+      farmakokinetika: {
+        sorish: "Absorbed orally; bioavailability rises with a fatty meal.",
+        tarqalish: "Plasma protein binding (albumin) >99%; penetrates skin sebaceous glands.",
+        metabolizm: "Hepatic to the active metabolite 4-oxo-isotretinoin; interconverts with tretinoin.",
+        chiqarilish: "Equally in urine and bile. T½ — ~10–20 h (metabolite longer)."
+      },
+      korsatmalar: [
+        "Severe acne (nodulocystic, conglobate), scarring acne",
+        "Moderate-to-severe acne when conventional treatment (antibiotic + topical) fails",
+        "Severe seborrhoea and rosacea (in selected cases, separately)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to isotretinoin or retinoids; allergy to soy/peanut oil (capsule contents)",
+        "PREGNANCY and lactation — absolutely contraindicated (severe teratogenicity: head, heart, CNS defects)",
+        "Women of reproductive age — without a strict dual contraception and pregnancy-test programme",
+        "Vitamin A hypervitaminosis, severe hepatic failure, marked hyperlipidaemia; with tetracyclines (intracranial pressure)"
+      ],
+      nojoya: {
+        "Skin-mucosa (in almost all)": "Dryness of lips, mouth, nose and eyes (cheilitis, dry conjunctiva), skin dryness and fragility, photosensitisation, hair loss",
+        "Liver-lipids": "Raised transaminases, blood triglycerides and cholesterol (monitoring needed)",
+        "Musculoskeletal": "Myalgia, arthralgia, bone changes with prolonged use",
+        "Psychiatric / other": "Mood changes, depression, suicidal thoughts (monitoring); raised intracranial pressure (headache, visual disturbance)"
+      },
+      dozadan: "Symptoms: vitamin A hypervitaminosis — headache, nausea, vomiting, cracked lips, ataxia. Treatment: discontinue, symptomatic; consider teratogenicity.",
+      ozarotasir: [
+        "Tetracyclines: together raise intracranial pressure (pseudotumor) — CONTRAINDICATED",
+        "Vitamin A and other retinoids: additive hypervitaminosis — do not combine",
+        "Micro-dose progestin contraceptives (mini-pills): may be unreliable"
+      ],
+      qollash: {
+        kattalar: "Orally with food: 0.5 mg/kg/day, per condition 0.5–1 mg/kg/day; cumulative course dose up to 120–150 mg/kg (usually 4–6 months). Only under specialist supervision, with liver/lipid and pregnancy tests.",
+        bolalar: "From 12 years in severe acne under specialist supervision (near completion of bone growth)."
+      },
+      chiqarish: "Soft capsules 8, 10, 16, 20, 40 mg"
+    }
   }
 
 };
