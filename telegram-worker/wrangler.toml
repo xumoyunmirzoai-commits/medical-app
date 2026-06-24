@@ -2,6 +2,16 @@ name = "medcore-bot"
 main = "worker.js"
 compatibility_date = "2024-11-01"
 
+# Kunlik avtopost — kun teng 5 qismga bo'linadi (har ~4s48d), har safar 1 ta dori.
+# Vaqtlar UTC. Toshkent = UTC+5.
+#   18:00 UTC = 23:00 Toshkent
+#   22:48 UTC = 03:48 Toshkent
+#   03:36 UTC = 08:36 Toshkent
+#   08:24 UTC = 13:24 Toshkent
+#   13:12 UTC = 18:12 Toshkent
+[triggers]
+crons = ["0 18 * * *", "48 22 * * *", "36 3 * * *", "24 8 * * *", "12 13 * * *"]
+
 # Ochiq sozlamalar (maxfiy emas)
 [vars]
 DATA_BASE = "https://xumoyunmirzoai-commits.github.io/medical-app/bot-data/"

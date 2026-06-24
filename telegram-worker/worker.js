@@ -381,10 +381,93 @@ async function handleBroadcast(request, env) {
   return new Response(JSON.stringify(res), { headers: { 'content-type': 'application/json' } });
 }
 
+// ═══════════════════════════════════════════════════════════
+//  KUNLIK AVTOPOST — har kuni kanalga 5 ta dori
+//  Cron orqali (scheduled) yoki qo'lda (/admin/daily-post) ishga tushadi.
+//  Navbat KV'da ('daily:idx') saqlanadi — dorilar takrorlanmasdan
+//  ketma-ket aylanib chiqadi. Til: kanal tili (o'zbekcha).
+// ═══════════════════════════════════════════════════════════
+const DAILY_COUNT = 1;   // har cron ishga tushganda 1 ta dori (kuniga 5 marta)
+const CHANNEL_LANG = 'uz';
+const APP_URL = 'https://xumoyunmirzoai-commits.github.io/medical-app/';
+const BOT_USERNAME = '@MedCore_Tibbiyot_Platformasi_bot';
+const CHANNEL_HANDLE = '@MedCore_Tibbiyot_Platformasi';
+
+function dailyFooter() {
+  return `\n\n➖➖➖\n🤖 Bot: ${BOT_USERNAME}\n📱 Ilova: ${APP_URL}\n📢 Kanal: ${CHANNEL_HANDLE}`;
+}
+
+// search.json yozuvi: [id, name, inn, atx, group]
+async function buildDailyCard(env, entry, lang) {
+  const t = T[lang];
+  const id = entry[0], gid = entry[4];
+  const list = await getJSON(env, 'group/' + gid + '.json') || [];
+  const d = list.find(x => String(x.i) === String(id))
+         || { i: id, n: entry[1], nn: entry[2], a: entry[3] };
+  const gn = await groupName(env, gid, lang);
+
+  let s = `💊 <b>${esc(d.n || entry[1])}</b>\n\n`;
+  if (d.nn) s += `🧬 <b>${t.inn}:</b> ${esc(d.nn)}\n`;
+  if (d.a)  s += `🏷 <b>${t.atx}:</b> <code>${esc(d.a)}</code>\n`;
+  s += `📂 <b>${t.grp}:</b> ${esc(gn.icon + ' ' + gn.name)}\n`;
+  if (d.fm) s += `💠 <b>${t.form}:</b> ${esc(d.fm)}\n`;
+  if (d.fr) s += `🏭 <b>${t.firm}:</b> ${esc(d.fr)}\n`;
+  if (d.co) s += `🌍 <b>${t.country}:</b> ${esc(d.co)}\n`;
+  if (d.rx) s += `📋 <b>${t.rx}:</b> ${esc(d.rx)}\n`;
+
+  // Farmakologiya qisqacha (mavjud bo'lsa)
+  if (d.hp && d.a) {
+    const pd = pdLang(await getJSON(env, 'pharma/' + safeAtx(normAtx(d.a)) + '.json'), lang);
+    if (pd) {
+      if (pd.farmTasir) s += `\n⚗️ <b>Ta'siri:</b> ${esc(clip(pd.farmTasir, 320))}\n`;
+      const ind = (pd.korsatmalar || []).slice(0, 3);
+      if (ind.length) s += `\n✅ <b>Ko'rsatmalar:</b>\n` + ind.map(x => '• ' + esc(x)).join('\n') + '\n';
+    }
+  }
+  return clip(s, 3700) + dailyFooter();
+}
+
+async function runDailyPost(env) {
+  const idx = await getJSON(env, 'search.json') || [];
+  const total = idx.length;
+  if (!total) return { ok: false, error: 'search.json bo\'sh yoki o\'qilmadi' };
+
+  let start = 0;
+  if (env.USERS) {
+    const raw = await env.USERS.get('daily:idx');
+    start = raw ? (parseInt(raw, 10) || 0) : 0;
+  }
+  start = ((start % total) + total) % total;
+
+  let sent = 0, failed = 0;
+  for (let k = 0; k < DAILY_COUNT; k++) {
+    const entry = idx[(start + k) % total];
+    if (!entry) continue;
+    const card = await buildDailyCard(env, entry, CHANNEL_LANG);
+    const r = await tg(env, 'sendMessage', {
+      chat_id: env.CHANNEL, text: card, parse_mode: 'HTML', disable_web_page_preview: true
+    });
+    if (r.ok) sent++; else failed++;
+  }
+
+  const next = (start + DAILY_COUNT) % total;
+  if (env.USERS) await env.USERS.put('daily:idx', String(next));
+  return { ok: true, sent, failed, from: start, next, total };
+}
+
 export default {
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(runDailyPost(env));
+  },
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     if (request.method === 'POST' && url.pathname === '/admin/broadcast') return handleBroadcast(request, env);
+    if (request.method === 'POST' && url.pathname === '/admin/daily-post') {
+      if (!env.ADMIN_SECRET || request.headers.get('X-Admin-Secret') !== env.ADMIN_SECRET)
+        return new Response('forbidden', { status: 403 });
+      const res = await runDailyPost(env);
+      return new Response(JSON.stringify(res), { headers: { 'content-type': 'application/json' } });
+    }
     if (request.method === 'GET') return new Response('MedCore bot webhook OK');
     if (request.method !== 'POST') return new Response('ok');
     if (env.WEBHOOK_SECRET && request.headers.get('X-Telegram-Bot-Api-Secret-Token') !== env.WEBHOOK_SECRET)
