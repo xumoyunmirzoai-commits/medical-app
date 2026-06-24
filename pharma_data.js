@@ -7,6 +7,1113 @@
 // ═══════════════════════════════════════════════════════════
 
 const PHARMA_DATA = {
+  // ─────────────────────────────────────────────────────────
+  // GENITOURINARY — G01A ginekologik anti-infektivlar (batch 2)
+  // ─────────────────────────────────────────────────────────
+  "G01AA01": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — poliyen antimikotik (nistatin)",
+      "farmTasir": "Mahalliy zamburug'ga qarshi (Candida)",
+      "farmakodinamika": "Nistatin — Streptomyces noursei dan olinadigan poliyen antifungal antibiotik. Zamburug' hujayra membranasidagi ergosterolga bog'lanib, membranada gidrofil kanallar hosil qiladi; natijada kaliy, qand va boshqa hujayra ichi komponentlari chiqib ketadi va hujayra nobud bo'ladi (fungitsid/fungistatik ta'sir konsentratsiyaga bog'liq). Asosan Candida albicans va boshqa Candida turlariga faol. Bakteriyalar, viruslar va protozoalarga ta'sir qilmaydi. Mahalliy qo'llanganda rezistentlik kam rivojlanadi.",
+      "farmakokinetika": {
+        "sorish": "Shilliq qavat va teridan deyarli so'rilmaydi; peroral qabulda oshqozon-ichak yo'lidan ham juda kam so'riladi — ta'sir mahalliy.",
+        "tarqalish": "Tizimli taqsimlanish amalda yo'q (mahalliy ta'sir).",
+        "metabolizm": "Sezilarli metabolizmga uchramaydi.",
+        "chiqarilish": "Peroral doza deyarli o'zgarmagan holda najas bilan chiqadi."
+      },
+      "korsatmalar": [
+        "Vulvovaginal kandidoz (qin va tashqi jinsiy a'zolar zamburug'i)",
+        "Og'iz bo'shlig'i va hazm yo'li kandidozi (peroral shakl)",
+        "Teri va shilliq qavat kandidoz infeksiyalarining oldini olish va davolash",
+        "Keng spektrli antibiotiklar fonida kandidoz profilaktikasi"
+      ],
+      "qarrshi": [
+        "Nistatinga yoki preparat komponentlariga o'ta sezgirlik",
+        "Ehtiyotkorlik: homiladorlik (faqat ko'rsatma bo'yicha) va emizish davri"
+      ],
+      "nojoya": {
+        "Mahalliy": "Achishish, qichishish, qizarish, qinda yoki teri yuzasida ta'sirlanish",
+        "Hazm (peroral)": "Ko'ngil aynishi, qusish, diareya (yuqori dozada)",
+        "Allergik": "Toshma, eshakemi (kamdan-kam — Stivens-Jonson sindromi)"
+      },
+      "dozadan": "Tizimli so'rilmagani uchun dozadan oshish xavfi past; peroral yuqori dozada hazm buzilishi. Davolash simptomatik.",
+      "ozarotasir": [
+        "Mahalliy qo'llanganda klinik ahamiyatli tizimli o'zaro ta'sir kam",
+        "Qin shamchalari lateks prezervativ/diafragma mustahkamligini pasaytirishi mumkin"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 100 000 TB shamcha 1–2 marta/kun, 14 kun. Peroral kandidoz: 500 000 TB 3–4 marta/kun. Ko'rsatmaga qarab kursni shifokor belgilaydi.",
+        "bolalar": "Peroral kandidozda yoshga moslab past dozada; faqat shifokor nazoratida."
+      },
+      "chiqarish": "Vaginal shamchalar/tabletkalar 100 000 TB; peroral tabletkalar 500 000 TB; malham"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — полиеновый антимикотик (нистатин)",
+      "farmTasir": "Местное противогрибковое (Candida)",
+      "farmakodinamika": "Нистатин — полиеновый противогрибковый антибиотик из Streptomyces noursei. Связывается с эргостеролом мембраны гриба, образуя гидрофильные каналы; калий, сахара и другие внутриклеточные компоненты выходят наружу, и клетка гибнет (фунгицидное/фунгистатическое действие в зависимости от концентрации). Активен прежде всего против Candida albicans и других видов Candida. Не действует на бактерии, вирусы и простейшие. При местном применении устойчивость развивается редко.",
+      "farmakokinetika": {
+        "sorish": "Практически не всасывается со слизистых и кожи; при приёме внутрь очень слабо всасывается из ЖКТ — действие местное.",
+        "tarqalish": "Системного распределения практически нет (местное действие).",
+        "metabolizm": "Существенно не метаболизируется.",
+        "chiqarilish": "Принятая внутрь доза выводится с калом практически в неизменённом виде."
+      },
+      "korsatmalar": [
+        "Вульвовагинальный кандидоз (грибковое поражение влагалища и наружных половых органов)",
+        "Кандидоз полости рта и ЖКТ (пероральная форма)",
+        "Лечение и профилактика кандидоза кожи и слизистых",
+        "Профилактика кандидоза на фоне антибиотиков широкого спектра"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к нистатину или компонентам препарата",
+        "Осторожно: беременность (только по показаниям) и период лактации"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд, покраснение, раздражение во влагалище или на коже",
+        "ЖКТ (перорально)": "Тошнота, рвота, диарея (в высоких дозах)",
+        "Аллергия": "Сыпь, крапивница (редко — синдром Стивенса-Джонсона)"
+      },
+      "dozadan": "Из-за отсутствия системного всасывания риск передозировки низкий; при высоких пероральных дозах — расстройства ЖКТ. Лечение симптоматическое.",
+      "ozarotasir": [
+        "При местном применении клинически значимые системные взаимодействия редки",
+        "Вагинальные свечи могут снижать прочность латексных презервативов/диафрагм"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: суппозиторий 100 000 ЕД 1–2 раза/сут, 14 дней. Кандидоз внутрь: 500 000 ЕД 3–4 раза/сут. Курс определяет врач по показанию.",
+        "bolalar": "При пероральном кандидозе в сниженной дозе по возрасту; только под контролем врача."
+      },
+      "chiqarish": "Вагинальные суппозитории/таблетки 100 000 ЕД; таблетки внутрь 500 000 ЕД; мазь"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — polyene antimycotic (nystatin)",
+      "farmTasir": "Topical antifungal (Candida)",
+      "farmakodinamika": "Nystatin is a polyene antifungal antibiotic from Streptomyces noursei. It binds ergosterol in the fungal cell membrane, forming hydrophilic channels through which potassium, sugars and other intracellular components leak out, causing cell death (fungicidal/fungistatic depending on concentration). It is active mainly against Candida albicans and other Candida species. It has no effect on bacteria, viruses or protozoa. Resistance rarely develops with topical use.",
+      "farmakokinetika": {
+        "sorish": "Practically not absorbed from mucosa and skin; oral absorption from the GI tract is very poor — action is local.",
+        "tarqalish": "Essentially no systemic distribution (local action).",
+        "metabolizm": "Not significantly metabolized.",
+        "chiqarilish": "An oral dose is excreted almost unchanged in the feces."
+      },
+      "korsatmalar": [
+        "Vulvovaginal candidiasis (fungal infection of vagina and external genitalia)",
+        "Oral and gastrointestinal candidiasis (oral form)",
+        "Treatment and prevention of candidiasis of skin and mucous membranes",
+        "Prophylaxis of candidiasis during broad-spectrum antibiotic therapy"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to nystatin or product components",
+        "Caution: pregnancy (only if indicated) and lactation"
+      ],
+      "nojoya": {
+        "Local": "Burning, itching, redness, irritation in the vagina or on the skin",
+        "GI (oral)": "Nausea, vomiting, diarrhea (high doses)",
+        "Allergic": "Rash, urticaria (rare — Stevens-Johnson syndrome)"
+      },
+      "dozadan": "Because of negligible systemic absorption the overdose risk is low; high oral doses cause GI upset. Treatment is symptomatic.",
+      "ozarotasir": [
+        "Clinically significant systemic interactions are rare with topical use",
+        "Vaginal suppositories may reduce the integrity of latex condoms/diaphragms"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 100,000 IU pessary 1–2 times/day for 14 days. Oral candidiasis: 500,000 IU 3–4 times/day. The physician sets the course per indication.",
+        "bolalar": "For oral candidiasis at a reduced age-based dose; under medical supervision only."
+      },
+      "chiqarish": "Vaginal pessaries/tablets 100,000 IU; oral tablets 500,000 IU; ointment"
+    }
+  },
+  "G01AA02": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — poliyen antimikotik (natamitsin)",
+      "farmTasir": "Mahalliy zamburug'ga qarshi (keng spektr)",
+      "farmakodinamika": "Natamitsin — makrolid poliyen antimikotik. Zamburug' membranasidagi ergosterolga qaytmas bog'lanib membrana yaxlitligi va funksiyasini buzadi, hujayra o'limiga olib keladi. Spektri nistatindan kengroq: ko'pchilik xamirturushlar (ayniqsa Candida albicans), iplisimon zamburug'lar va ba'zi protozoalar (Trichomonas) ga ta'sir qiladi. Mahalliy qo'llanganda klinik rezistentlik amalda kuzatilmaydi.",
+      "farmakokinetika": {
+        "sorish": "Shilliq qavat, teri va hazm yo'lidan deyarli so'rilmaydi — ta'sir faqat mahalliy.",
+        "tarqalish": "Tizimli taqsimlanish yo'q.",
+        "metabolizm": "Amalda metabolizmga uchramaydi.",
+        "chiqarilish": "Peroral doza najas bilan chiqadi."
+      },
+      "korsatmalar": [
+        "Vulvovaginal kandidoz va vaginit",
+        "Candida albicans qo'zg'atgan vaginit/vulvit/balanopostit",
+        "Teri va tirnoq kandidozi, og'iz va ichak kandidozi (tegishli shakllar)",
+        "Otomikoz va dermatomikoz (mahalliy shakllar)"
+      ],
+      "qarrshi": [
+        "Natamitsin yoki yordamchi moddalarga o'ta sezgirlik"
+      ],
+      "nojoya": {
+        "Mahalliy": "Yengil achishish, qichishish, qizarish (odatda o'tkinchi)",
+        "Hazm (peroral)": "Ko'ngil aynishi, diareya (davo boshida)",
+        "Allergik": "Kontakt dermatit, toshma (kamdan-kam)"
+      },
+      "dozadan": "So'rilmagani sababli tizimli dozadan oshish kutilmaydi. Davolash simptomatik.",
+      "ozarotasir": [
+        "Klinik ahamiyatli tizimli o'zaro ta'sir aniqlanmagan",
+        "Qin shakllari lateks vositalarini zaiflashtirishi mumkin"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 100 mg shamcha 1 marta/kun (kechasi), 3–6 kun. Teri: krem 1–3 marta/kun. Homiladorlik va emizishda qo'llash mumkin (mahalliy).",
+        "bolalar": "Mahalliy shakllarda shifokor ko'rsatmasi bo'yicha."
+      },
+      "chiqarish": "Vaginal shamchalar 100 mg; krem 2%; peroral tabletkalar 100 mg"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — полиеновый антимикотик (натамицин)",
+      "farmTasir": "Местное противогрибковое (широкий спектр)",
+      "farmakodinamika": "Натамицин — макролидный полиеновый антимикотик. Необратимо связывается с эргостеролом мембраны гриба, нарушая её целостность и функцию, что ведёт к гибели клетки. Спектр шире, чем у нистатина: большинство дрожжей (особенно Candida albicans), нитчатые грибы и некоторые простейшие (Trichomonas). При местном применении клиническая устойчивость практически не наблюдается.",
+      "farmakokinetika": {
+        "sorish": "Практически не всасывается со слизистых, кожи и ЖКТ — действие только местное.",
+        "tarqalish": "Системного распределения нет.",
+        "metabolizm": "Практически не метаболизируется.",
+        "chiqarilish": "Пероральная доза выводится с калом."
+      },
+      "korsatmalar": [
+        "Вульвовагинальный кандидоз и вагинит",
+        "Вагинит/вульвит/баланопостит, вызванный Candida albicans",
+        "Кандидоз кожи и ногтей, полости рта и кишечника (соответствующие формы)",
+        "Отомикоз и дерматомикоз (местные формы)"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к натамицину или вспомогательным веществам"
+      ],
+      "nojoya": {
+        "Местные": "Лёгкое жжение, зуд, покраснение (обычно преходящие)",
+        "ЖКТ (перорально)": "Тошнота, диарея (в начале лечения)",
+        "Аллергия": "Контактный дерматит, сыпь (редко)"
+      },
+      "dozadan": "Ввиду отсутствия всасывания системная передозировка не ожидается. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Клинически значимые системные взаимодействия не установлены",
+        "Вагинальные формы могут ослаблять латексные средства"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: суппозиторий 100 мг 1 раз/сут (на ночь), 3–6 дней. Кожа: крем 1–3 раза/сут. Допустимо при беременности и лактации (местно).",
+        "bolalar": "В местных формах по назначению врача."
+      },
+      "chiqarish": "Вагинальные суппозитории 100 мг; крем 2%; таблетки внутрь 100 мг"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — polyene antimycotic (natamycin)",
+      "farmTasir": "Topical antifungal (broad spectrum)",
+      "farmakodinamika": "Natamycin is a macrolide polyene antimycotic. It binds irreversibly to ergosterol in the fungal membrane, disrupting its integrity and function and leading to cell death. Its spectrum is broader than nystatin's: most yeasts (especially Candida albicans), filamentous fungi and some protozoa (Trichomonas). Clinical resistance is virtually unseen with topical use.",
+      "farmakokinetika": {
+        "sorish": "Practically not absorbed from mucosa, skin or GI tract — action is local only.",
+        "tarqalish": "No systemic distribution.",
+        "metabolizm": "Essentially not metabolized.",
+        "chiqarilish": "An oral dose is excreted in the feces."
+      },
+      "korsatmalar": [
+        "Vulvovaginal candidiasis and vaginitis",
+        "Vaginitis/vulvitis/balanoposthitis caused by Candida albicans",
+        "Candidiasis of skin and nails, mouth and intestine (appropriate forms)",
+        "Otomycosis and dermatomycosis (topical forms)"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to natamycin or excipients"
+      ],
+      "nojoya": {
+        "Local": "Mild burning, itching, redness (usually transient)",
+        "GI (oral)": "Nausea, diarrhea (at start of treatment)",
+        "Allergic": "Contact dermatitis, rash (rare)"
+      },
+      "dozadan": "As absorption is negligible, systemic overdose is not expected. Treatment is symptomatic.",
+      "ozarotasir": [
+        "No clinically significant systemic interactions established",
+        "Vaginal forms may weaken latex devices"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 100 mg pessary once daily (at night) for 3–6 days. Skin: cream 1–3 times/day. May be used in pregnancy and lactation (topically).",
+        "bolalar": "In topical forms as directed by a physician."
+      },
+      "chiqarish": "Vaginal pessaries 100 mg; cream 2%; oral tablets 100 mg"
+    }
+  },
+  "G01AA10": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — linkozamid antibiotik (klindamitsin)",
+      "farmTasir": "Mahalliy antibakterial (bakterial vaginoz)",
+      "farmakodinamika": "Klindamitsin — linkozamid guruhi antibiotigi. Bakteriya ribosomasining 50S subbirligiga bog'lanib oqsil sintezini (peptidil-transferaza) to'xtatadi; bakteriostatik (yuqori konsentratsiyada bakteritsid) ta'sir. Anaerob bakteriyalar va bakterial vaginozga sabab bo'luvchi mikroorganizmlarga (Gardnerella vaginalis, Mobiluncus, Bacteroides, Peptostreptococcus, Mycoplasma hominis) faol. Vaginal qo'llanganda mahalliy yuqori konsentratsiya yaratadi.",
+      "farmakokinetika": {
+        "sorish": "Vaginal kremdan ~5% (qoplama tabletkadan ~30% gacha) tizimli so'riladi.",
+        "tarqalish": "To'qimalarga yaxshi o'tadi; plazma oqsillariga yuqori bog'lanish.",
+        "metabolizm": "Jigarda (CYP3A4) faol va faolsiz metabolitlarga.",
+        "chiqarilish": "Asosan o't va siydik orqali. T½ — ~2–3 soat."
+      },
+      "korsatmalar": [
+        "Bakterial vaginoz (Gardnerella va anaerob mikroflora)",
+        "Anaerob bakteriyalar qo'zg'atgan ginekologik infeksiyalar (tegishli shakllar)"
+      ],
+      "qarrshi": [
+        "Klindamitsin yoki linkomitsinga o'ta sezgirlik",
+        "Anamnezda antibiotik bilan bog'liq kolit (psevdomembranoz kolit)",
+        "Regional enterit, yarali kolit (ehtiyotkorlik)"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish, qo'ziqorin (kandidoz) suprainfeksiyasi, vulvovaginit",
+        "Hazm": "Diareya, ko'ngil aynishi; kamdan-kam — Clostridioides difficile koliti",
+        "Allergik": "Toshma, qichishish, eshakemi"
+      },
+      "dozadan": "Vaginal shaklda tizimli dozadan oshish kam ehtimol. Davolash simptomatik; C. difficile koliti shubhasida tegishli davo.",
+      "ozarotasir": [
+        "Tizimli so'rilganda neyromuskulyar blokatorlar ta'sirini kuchaytirishi mumkin",
+        "Eritromitsin bilan antagonizm (birga tavsiya etilmaydi)",
+        "Qin shakllari lateks prezervativ/diafragma mustahkamligini pasaytiradi (5 kungacha)"
+      ],
+      "qollash": {
+        "kattalar": "Bakterial vaginoz: 2% krem 5 g (1 applikator) kechasi qinga, 3–7 kun; yoki 100 mg vaginal shamcha 3 kun. Ko'rsatmaga qarab.",
+        "bolalar": "Vaginal shaklda qo'llanilmaydi (reproduktiv yoshgacha)."
+      },
+      "chiqarish": "Vaginal krem 2%; vaginal shamchalar 100 mg"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — линкозамидный антибиотик (клиндамицин)",
+      "farmTasir": "Местный антибактериальный (бактериальный вагиноз)",
+      "farmakodinamika": "Клиндамицин — антибиотик группы линкозамидов. Связывается с 50S субъединицей рибосомы бактерии и подавляет синтез белка (пептидилтрансферазу); действие бактериостатическое (в высоких концентрациях бактерицидное). Активен против анаэробов и микроорганизмов бактериального вагиноза (Gardnerella vaginalis, Mobiluncus, Bacteroides, Peptostreptococcus, Mycoplasma hominis). При вагинальном применении создаёт высокую местную концентрацию.",
+      "farmakokinetika": {
+        "sorish": "Из вагинального крема всасывается системно ~5% (из таблетки до ~30%).",
+        "tarqalish": "Хорошо проникает в ткани; высокое связывание с белками плазмы.",
+        "metabolizm": "В печени (CYP3A4) до активных и неактивных метаболитов.",
+        "chiqarilish": "Преимущественно с желчью и мочой. T½ — ~2–3 ч."
+      },
+      "korsatmalar": [
+        "Бактериальный вагиноз (Gardnerella и анаэробная микрофлора)",
+        "Гинекологические инфекции, вызванные анаэробами (соответствующие формы)"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к клиндамицину или линкомицину",
+        "Антибиотик-ассоциированный колит в анамнезе (псевдомембранозный)",
+        "Регионарный энтерит, язвенный колит (осторожно)"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд во влагалище, кандидозная суперинфекция, вульвовагинит",
+        "ЖКТ": "Диарея, тошнота; редко — колит, вызванный Clostridioides difficile",
+        "Аллергия": "Сыпь, зуд, крапивница"
+      },
+      "dozadan": "В вагинальной форме системная передозировка маловероятна. Лечение симптоматическое; при подозрении на C. difficile — соответствующая терапия.",
+      "ozarotasir": [
+        "При системном всасывании может усиливать действие миорелаксантов",
+        "Антагонизм с эритромицином (не назначать вместе)",
+        "Вагинальные формы снижают прочность латексных презервативов/диафрагм (до 5 дней)"
+      ],
+      "qollash": {
+        "kattalar": "Бактериальный вагиноз: 2% крем 5 г (1 аппликатор) на ночь во влагалище, 3–7 дней; или суппозиторий 100 мг 3 дня. По показанию.",
+        "bolalar": "В вагинальной форме не применяется (до репродуктивного возраста)."
+      },
+      "chiqarish": "Вагинальный крем 2%; вагинальные суппозитории 100 мг"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — lincosamide antibiotic (clindamycin)",
+      "farmTasir": "Topical antibacterial (bacterial vaginosis)",
+      "farmakodinamika": "Clindamycin is a lincosamide antibiotic. It binds the 50S ribosomal subunit and inhibits bacterial protein synthesis (peptidyl transferase); the effect is bacteriostatic (bactericidal at high concentrations). It is active against anaerobes and the organisms of bacterial vaginosis (Gardnerella vaginalis, Mobiluncus, Bacteroides, Peptostreptococcus, Mycoplasma hominis). Vaginal use produces high local concentrations.",
+      "farmakokinetika": {
+        "sorish": "About 5% is absorbed systemically from the vaginal cream (up to ~30% from a tablet).",
+        "tarqalish": "Distributes well into tissues; high plasma protein binding.",
+        "metabolizm": "Hepatic (CYP3A4) to active and inactive metabolites.",
+        "chiqarilish": "Mainly in bile and urine. T½ ~2–3 h."
+      },
+      "korsatmalar": [
+        "Bacterial vaginosis (Gardnerella and anaerobic flora)",
+        "Gynecological infections caused by anaerobes (appropriate forms)"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to clindamycin or lincomycin",
+        "History of antibiotic-associated (pseudomembranous) colitis",
+        "Regional enteritis, ulcerative colitis (caution)"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching, Candida superinfection, vulvovaginitis",
+        "GI": "Diarrhea, nausea; rarely Clostridioides difficile colitis",
+        "Allergic": "Rash, itching, urticaria"
+      },
+      "dozadan": "Systemic overdose is unlikely with the vaginal form. Treatment is symptomatic; treat suspected C. difficile colitis accordingly.",
+      "ozarotasir": [
+        "If systemically absorbed, may potentiate neuromuscular blockers",
+        "Antagonism with erythromycin (do not combine)",
+        "Vaginal forms reduce latex condom/diaphragm integrity (up to 5 days)"
+      ],
+      "qollash": {
+        "kattalar": "Bacterial vaginosis: 2% cream 5 g (one applicator) intravaginally at night for 3–7 days; or 100 mg pessary for 3 days. Per indication.",
+        "bolalar": "Vaginal form not used (before reproductive age)."
+      },
+      "chiqarish": "Vaginal cream 2%; vaginal pessaries 100 mg"
+    }
+  },
+  "G01AF01": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — nitroimidazol (metronidazol, vaginal)",
+      "farmTasir": "Mahalliy antiprotozoy va antianaerob",
+      "farmakodinamika": "Metronidazol — 5-nitroimidazol hosilasi. Anaerob mikroorganizm va protozoalar ichida nitro-guruhi qaytarilib faol oraliq mahsulotlar hosil qiladi; bular DNK ipini uzib, nuklein kislota sintezini buzadi va hujayrani halok qiladi (bakteritsid). Bakterial vaginoz qo'zg'atuvchilari (Gardnerella, anaeroblar) va Trichomonas vaginalis ga yuqori faol. Aerob bakteriyalarga ta'sir qilmaydi.",
+      "farmakokinetika": {
+        "sorish": "Vaginal geldan ~20% gacha tizimli so'riladi (peroraldan ancha kam).",
+        "tarqalish": "To'qimalarga yaxshi tarqaladi; plazma oqsillariga past bog'lanish.",
+        "metabolizm": "Jigarda (oksidlanish, glyukuronidlanish).",
+        "chiqarilish": "Asosan siydik orqali (siydik to'q rangga kirishi mumkin). T½ — ~8 soat."
+      },
+      "korsatmalar": [
+        "Bakterial vaginoz",
+        "Trichomonas vaginit (mahalliy yordamchi davo)",
+        "Aralash anaerob-protozoy vaginal infeksiyalar"
+      ],
+      "qarrshi": [
+        "Nitroimidazollarga o'ta sezgirlik",
+        "Homiladorlik I trimestri (ehtiyotkorlik); emizish davri",
+        "Faol nevrologik kasallik (tizimli so'rilishni hisobga olib)"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish, oqindi, kandidoz suprainfeksiyasi",
+        "Hazm": "Metall ta'm, ko'ngil aynishi (so'rilganda)",
+        "Asab": "Bosh og'rig'i, bosh aylanishi (kamdan-kam)"
+      },
+      "dozadan": "Mahalliy shaklda dozadan oshish kam; tizimli yuqori dozada ko'ngil aynishi, ataksiya. Davolash simptomatik.",
+      "ozarotasir": [
+        "Alkogol bilan disulfiram-simon reaksiya (davo davomida va 48 soat keyin spirt mumkin emas)",
+        "Varfarin ta'sirini kuchaytiradi (qon ketish xavfi)",
+        "Litiy, fenitoin konsentratsiyasini oshirishi mumkin"
+      ],
+      "qollash": {
+        "kattalar": "Bakterial vaginoz: 0,75% vaginal gel 5 g kechasi, 5 kun; yoki 500 mg vaginal shamcha 1–2 marta/kun 7–10 kun. Ko'rsatmaga qarab.",
+        "bolalar": "Vaginal shaklda qo'llanilmaydi."
+      },
+      "chiqarish": "Vaginal gel 0,75%; vaginal shamchalar/tabletkalar 500 mg"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — нитроимидазол (метронидазол, вагинальный)",
+      "farmTasir": "Местное противопротозойное и антианаэробное",
+      "farmakodinamika": "Метронидазол — производное 5-нитроимидазола. Внутри анаэробов и простейших нитрогруппа восстанавливается с образованием активных промежуточных продуктов, которые разрывают нить ДНК, нарушают синтез нуклеиновых кислот и губят клетку (бактерицидно). Высоко активен против возбудителей бактериального вагиноза (Gardnerella, анаэробы) и Trichomonas vaginalis. На аэробные бактерии не действует.",
+      "farmakokinetika": {
+        "sorish": "Из вагинального геля всасывается системно до ~20% (значительно меньше, чем внутрь).",
+        "tarqalish": "Хорошо распределяется в тканях; низкое связывание с белками.",
+        "metabolizm": "В печени (окисление, глюкуронирование).",
+        "chiqarilish": "Преимущественно с мочой (моча может темнеть). T½ — ~8 ч."
+      },
+      "korsatmalar": [
+        "Бактериальный вагиноз",
+        "Трихомонадный вагинит (местная вспомогательная терапия)",
+        "Смешанные анаэробно-протозойные вагинальные инфекции"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к нитроимидазолам",
+        "I триместр беременности (осторожно); период лактации",
+        "Активное неврологическое заболевание (с учётом системного всасывания)"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд, выделения, кандидозная суперинфекция",
+        "ЖКТ": "Металлический привкус, тошнота (при всасывании)",
+        "Нервы": "Головная боль, головокружение (редко)"
+      },
+      "dozadan": "В местной форме передозировка маловероятна; при системных высоких дозах — тошнота, атаксия. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Дисульфирамоподобная реакция с алкоголем (нельзя спиртное во время и 48 ч после)",
+        "Усиливает действие варфарина (риск кровотечения)",
+        "Может повышать концентрацию лития, фенитоина"
+      ],
+      "qollash": {
+        "kattalar": "Бактериальный вагиноз: гель 0,75% 5 г на ночь, 5 дней; или суппозиторий 500 мг 1–2 раза/сут 7–10 дней. По показанию.",
+        "bolalar": "В вагинальной форме не применяется."
+      },
+      "chiqarish": "Вагинальный гель 0,75%; вагинальные суппозитории/таблетки 500 мг"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — nitroimidazole (metronidazole, vaginal)",
+      "farmTasir": "Topical antiprotozoal and anti-anaerobic",
+      "farmakodinamika": "Metronidazole is a 5-nitroimidazole derivative. Inside anaerobes and protozoa its nitro group is reduced to reactive intermediates that break DNA strands, disrupt nucleic-acid synthesis and kill the cell (bactericidal). It is highly active against the agents of bacterial vaginosis (Gardnerella, anaerobes) and Trichomonas vaginalis. It has no effect on aerobic bacteria.",
+      "farmakokinetika": {
+        "sorish": "Up to ~20% is absorbed systemically from the vaginal gel (much less than oral).",
+        "tarqalish": "Distributes well into tissues; low protein binding.",
+        "metabolizm": "Hepatic (oxidation, glucuronidation).",
+        "chiqarilish": "Mainly in urine (urine may darken). T½ ~8 h."
+      },
+      "korsatmalar": [
+        "Bacterial vaginosis",
+        "Trichomonas vaginitis (topical adjunctive therapy)",
+        "Mixed anaerobic-protozoal vaginal infections"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to nitroimidazoles",
+        "First trimester of pregnancy (caution); lactation",
+        "Active neurological disease (given systemic absorption)"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching, discharge, Candida superinfection",
+        "GI": "Metallic taste, nausea (if absorbed)",
+        "Nervous": "Headache, dizziness (rare)"
+      },
+      "dozadan": "Overdose is unlikely with the topical form; high systemic doses cause nausea and ataxia. Treatment is symptomatic.",
+      "ozarotasir": [
+        "Disulfiram-like reaction with alcohol (avoid alcohol during and 48 h after)",
+        "Potentiates warfarin (bleeding risk)",
+        "May raise lithium and phenytoin levels"
+      ],
+      "qollash": {
+        "kattalar": "Bacterial vaginosis: 0.75% vaginal gel 5 g at night for 5 days; or 500 mg pessary 1–2 times/day for 7–10 days. Per indication.",
+        "bolalar": "Vaginal form not used."
+      },
+      "chiqarish": "Vaginal gel 0.75%; vaginal pessaries/tablets 500 mg"
+    }
+  },
+  "G01AF02": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — imidazol antimikotik (klotrimazol)",
+      "farmTasir": "Mahalliy zamburug'ga qarshi (Candida)",
+      "farmakodinamika": "Klotrimazol — imidazol guruhi antimikotigi. Zamburug' sitoxromi (14-alfa-demetilaza, CYP51) ni inhibirlab ergosterol sintezini to'xtatadi; membrana yaxlitligi va o'tkazuvchanligi buziladi. Past konsentratsiyada fungistatik, yuqori konsentratsiyada fungitsid. Candida albicans, dermatofitlar va ba'zi grammusbat bakteriyalarga (Trichomonas, Gardnerella ga qisman) faol.",
+      "farmakokinetika": {
+        "sorish": "Vaginal yo'ldan oz miqdorda (~3–10%) so'riladi; teridan deyarli yo'q.",
+        "tarqalish": "Mahalliy yuqori konsentratsiya; tizimli ahamiyatsiz.",
+        "metabolizm": "So'rilgan qismi jigarda metabolizmga uchraydi.",
+        "chiqarilish": "O't orqali; mahalliy ta'sir ustun."
+      },
+      "korsatmalar": [
+        "Vulvovaginal kandidoz (qin va vulva zamburug'i)",
+        "Candida qo'zg'atgan vaginit va balanit (sherigini ham davolash)",
+        "Teri kandidozi va dermatomikozlar (mahalliy shakllar)"
+      ],
+      "qarrshi": [
+        "Klotrimazol yoki imidazollarga o'ta sezgirlik",
+        "Homiladorlik I trimestri (ehtiyotkorlik)",
+        "Hayz davrida vaginal qo'llashdan saqlanish"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish, qizarish, shish, oqindi",
+        "Sherikda": "Jinsiy a'zoda achishish/ta'sirlanish",
+        "Allergik": "Kontakt dermatit, eshakemi (kamdan-kam)"
+      },
+      "dozadan": "Mahalliy shaklda dozadan oshish xavfi past; tasodifiy yutilganda ko'ngil aynishi. Davolash simptomatik.",
+      "ozarotasir": [
+        "Takrolimus, sirolimus bilan (so'rilganda) konsentratsiyani oshirishi mumkin",
+        "Amfoteritsin va boshqa poliyenlar ta'sirini pasaytiradi (antagonizm)",
+        "Lateks prezervativ/diafragma mustahkamligini pasaytiradi"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 100 mg shamcha 6 kun, yoki 200 mg 3 kun, yoki 500 mg 1 marta (kechasi). Krem 1% tashqi a'zoga 1–2 marta/kun. Ko'rsatmaga qarab.",
+        "bolalar": "Vaginal shaklda qo'llanilmaydi; teri shakllari ehtiyotkorlik bilan."
+      },
+      "chiqarish": "Vaginal tabletka/shamcha 100/200/500 mg; vaginal va teri kremi 1%"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — имидазольный антимикотик (клотримазол)",
+      "farmTasir": "Местное противогрибковое (Candida)",
+      "farmakodinamika": "Клотримазол — антимикотик группы имидазолов. Ингибирует грибковую 14-альфа-деметилазу (CYP51) и подавляет синтез эргостерола; нарушается целостность и проницаемость мембраны. В низких концентрациях фунгистатичен, в высоких — фунгициден. Активен против Candida albicans, дерматофитов и некоторых грамположительных бактерий (частично Trichomonas, Gardnerella).",
+      "farmakokinetika": {
+        "sorish": "Из влагалища всасывается мало (~3–10%); с кожи практически нет.",
+        "tarqalish": "Высокая местная концентрация; системно незначимо.",
+        "metabolizm": "Всосавшаяся часть метаболизируется в печени.",
+        "chiqarilish": "С желчью; преобладает местное действие."
+      },
+      "korsatmalar": [
+        "Вульвовагинальный кандидоз",
+        "Вагинит и баланит, вызванные Candida (с лечением партнёра)",
+        "Кандидоз кожи и дерматомикозы (местные формы)"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к клотримазолу или имидазолам",
+        "I триместр беременности (осторожно)",
+        "Избегать вагинального применения во время менструации"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд, покраснение, отёк, выделения",
+        "У партнёра": "Жжение/раздражение полового органа",
+        "Аллергия": "Контактный дерматит, крапивница (редко)"
+      },
+      "dozadan": "В местной форме риск передозировки низкий; при случайном проглатывании — тошнота. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Может повышать концентрацию такролимуса, сиролимуса (при всасывании)",
+        "Снижает действие амфотерицина и других полиенов (антагонизм)",
+        "Снижает прочность латексных презервативов/диафрагм"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: 100 мг 6 дней, или 200 мг 3 дня, или 500 мг однократно (на ночь). Крем 1% наружно 1–2 раза/сут. По показанию.",
+        "bolalar": "В вагинальной форме не применяется; кожные формы с осторожностью."
+      },
+      "chiqarish": "Вагинальные таблетки/суппозитории 100/200/500 мг; вагинальный и кожный крем 1%"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — imidazole antimycotic (clotrimazole)",
+      "farmTasir": "Topical antifungal (Candida)",
+      "farmakodinamika": "Clotrimazole is an imidazole antimycotic. It inhibits fungal 14-alpha-demethylase (CYP51) and blocks ergosterol synthesis, disrupting membrane integrity and permeability. It is fungistatic at low and fungicidal at high concentrations. It is active against Candida albicans, dermatophytes and some Gram-positive bacteria (partly Trichomonas, Gardnerella).",
+      "farmakokinetika": {
+        "sorish": "Little is absorbed vaginally (~3–10%); virtually none from skin.",
+        "tarqalish": "High local concentration; systemically negligible.",
+        "metabolizm": "The absorbed fraction is metabolized in the liver.",
+        "chiqarilish": "In bile; local action predominates."
+      },
+      "korsatmalar": [
+        "Vulvovaginal candidiasis",
+        "Candida vaginitis and balanitis (treat the partner too)",
+        "Cutaneous candidiasis and dermatomycoses (topical forms)"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to clotrimazole or imidazoles",
+        "First trimester of pregnancy (caution)",
+        "Avoid vaginal use during menstruation"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching, redness, swelling, discharge",
+        "Partner": "Burning/irritation of the genitalia",
+        "Allergic": "Contact dermatitis, urticaria (rare)"
+      },
+      "dozadan": "Overdose risk is low with the topical form; accidental ingestion causes nausea. Treatment is symptomatic.",
+      "ozarotasir": [
+        "May raise tacrolimus and sirolimus levels (if absorbed)",
+        "Reduces the effect of amphotericin and other polyenes (antagonism)",
+        "Reduces the integrity of latex condoms/diaphragms"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 100 mg for 6 days, or 200 mg for 3 days, or 500 mg once (at night). 1% cream externally 1–2 times/day. Per indication.",
+        "bolalar": "Vaginal form not used; skin forms with caution."
+      },
+      "chiqarish": "Vaginal tablets/pessaries 100/200/500 mg; vaginal and skin cream 1%"
+    }
+  },
+  "G01AF04": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — imidazol antimikotik (mikonazol)",
+      "farmTasir": "Mahalliy zamburug'ga qarshi (keng spektr)",
+      "farmakodinamika": "Mikonazol — imidazol antimikotigi. Zamburug' 14-alfa-demetilazani inhibirlab ergosterol sintezini buzadi va membrana o'tkazuvchanligini oshiradi; shuningdek hujayra ichida peroksidlar to'planishiga olib keladi (fungitsid). Candida turlari va dermatofitlarga, ba'zi grammusbat bakteriyalarga faol. Klotrimazolga o'xshash, lekin antibakterial qo'shimcha ta'sir kuchliroq.",
+      "farmakokinetika": {
+        "sorish": "Vaginal va teri yo'lidan oz miqdorda so'riladi (~1–10%).",
+        "tarqalish": "Mahalliy ta'sir; so'rilgan qism oqsilga yuqori bog'lanadi.",
+        "metabolizm": "Jigarda metabolizm.",
+        "chiqarilish": "Asosan najas bilan; oz qismi siydik orqali."
+      },
+      "korsatmalar": [
+        "Vulvovaginal kandidoz",
+        "Aralash kandidoz-bakterial vaginit",
+        "Teri va tirnoq mikozlari (mahalliy shakllar)"
+      ],
+      "qarrshi": [
+        "Mikonazol yoki imidazollarga o'ta sezgirlik",
+        "Homiladorlik I trimestri (ehtiyotkorlik)",
+        "Tizimli antikoagulyant qabul qiluvchilarda ehtiyotkorlik"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish, ta'sirlanish",
+        "Allergik": "Kontakt dermatit, toshma",
+        "Boshqa": "Tos sohasida noqulaylik (kamdan-kam)"
+      },
+      "dozadan": "Mahalliy shaklda dozadan oshish xavfi past. Davolash simptomatik.",
+      "ozarotasir": [
+        "Varfarin ta'sirini sezilarli kuchaytiradi (mahalliydan ham so'rilishi mumkin — qon ketish xavfi)",
+        "Peroral gipoglikemik vositalar (sulfanilmochevina) ta'sirini oshirishi mumkin",
+        "Lateks vositalarini zaiflashtiradi"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 100 mg shamcha 7 kun, yoki 200 mg 3 kun, yoki 1200 mg 1 marta. Krem 2% tashqi a'zoga 1–2 marta/kun. Ko'rsatmaga qarab.",
+        "bolalar": "Vaginal shaklda qo'llanilmaydi; teri shakllari ehtiyotkorlik bilan."
+      },
+      "chiqarish": "Vaginal shamcha 100/200/1200 mg; vaginal va teri kremi 2%"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — имидазольный антимикотик (миконазол)",
+      "farmTasir": "Местное противогрибковое (широкий спектр)",
+      "farmakodinamika": "Миконазол — имидазольный антимикотик. Ингибирует грибковую 14-альфа-деметилазу, нарушая синтез эргостерола и повышая проницаемость мембраны; также вызывает накопление пероксидов внутри клетки (фунгицидно). Активен против видов Candida и дерматофитов, некоторых грамположительных бактерий. Похож на клотримазол, но с более выраженным антибактериальным компонентом.",
+      "farmakokinetika": {
+        "sorish": "Со слизистой влагалища и кожи всасывается мало (~1–10%).",
+        "tarqalish": "Местное действие; всосавшаяся часть высоко связывается с белками.",
+        "metabolizm": "Метаболизм в печени.",
+        "chiqarilish": "Преимущественно с калом; немного с мочой."
+      },
+      "korsatmalar": [
+        "Вульвовагинальный кандидоз",
+        "Смешанный кандидозно-бактериальный вагинит",
+        "Микозы кожи и ногтей (местные формы)"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к миконазолу или имидазолам",
+        "I триместр беременности (осторожно)",
+        "Осторожно у получающих системные антикоагулянты"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд, раздражение во влагалище",
+        "Аллергия": "Контактный дерматит, сыпь",
+        "Прочие": "Дискомфорт в области таза (редко)"
+      },
+      "dozadan": "В местной форме риск передозировки низкий. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Заметно усиливает действие варфарина (возможно всасывание даже с местной формы — риск кровотечения)",
+        "Может усиливать действие пероральных гипогликемических (сульфонилмочевина)",
+        "Ослабляет латексные средства"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: суппозиторий 100 мг 7 дней, или 200 мг 3 дня, или 1200 мг однократно. Крем 2% наружно 1–2 раза/сут. По показанию.",
+        "bolalar": "В вагинальной форме не применяется; кожные формы с осторожностью."
+      },
+      "chiqarish": "Вагинальные суппозитории 100/200/1200 мг; вагинальный и кожный крем 2%"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — imidazole antimycotic (miconazole)",
+      "farmTasir": "Topical antifungal (broad spectrum)",
+      "farmakodinamika": "Miconazole is an imidazole antimycotic. It inhibits fungal 14-alpha-demethylase, disrupting ergosterol synthesis and increasing membrane permeability; it also causes intracellular peroxide accumulation (fungicidal). It is active against Candida species and dermatophytes and some Gram-positive bacteria. Similar to clotrimazole but with a stronger antibacterial component.",
+      "farmakokinetika": {
+        "sorish": "Little is absorbed from vaginal mucosa and skin (~1–10%).",
+        "tarqalish": "Local action; the absorbed fraction is highly protein bound.",
+        "metabolizm": "Hepatic metabolism.",
+        "chiqarilish": "Mainly in feces; a little in urine."
+      },
+      "korsatmalar": [
+        "Vulvovaginal candidiasis",
+        "Mixed candidal-bacterial vaginitis",
+        "Skin and nail mycoses (topical forms)"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to miconazole or imidazoles",
+        "First trimester of pregnancy (caution)",
+        "Caution in patients on systemic anticoagulants"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching, irritation",
+        "Allergic": "Contact dermatitis, rash",
+        "Other": "Pelvic discomfort (rare)"
+      },
+      "dozadan": "Overdose risk is low with the topical form. Treatment is symptomatic.",
+      "ozarotasir": [
+        "Markedly potentiates warfarin (absorption possible even from topical use — bleeding risk)",
+        "May enhance oral hypoglycemics (sulfonylureas)",
+        "Weakens latex devices"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 100 mg pessary for 7 days, or 200 mg for 3 days, or 1200 mg once. 2% cream externally 1–2 times/day. Per indication.",
+        "bolalar": "Vaginal form not used; skin forms with caution."
+      },
+      "chiqarish": "Vaginal pessaries 100/200/1200 mg; vaginal and skin cream 2%"
+    }
+  },
+  "G01AF06": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — nitroimidazol (ornidazol)",
+      "farmTasir": "Mahalliy antiprotozoy va antianaerob",
+      "farmakodinamika": "Ornidazol — 5-nitroimidazol hosilasi. Anaerob va protozoa hujayralarida nitro-guruhi qaytarilib DNK tuzilishini buzadi, replikatsiya va transkripsiyani to'xtatadi (bakteritsid/protozoatsid). Trichomonas vaginalis, Gardnerella, anaerob bakteriyalar (Bacteroides, Clostridium) va Entamoeba, Giardia ga faol. Metronidazolga o'xshash, lekin yarim chiqarilish davri uzunroq.",
+      "farmakokinetika": {
+        "sorish": "Mahalliy shaklda oz, peroralda yaxshi so'riladi.",
+        "tarqalish": "To'qima va suyuqliklarga yaxshi tarqaladi.",
+        "metabolizm": "Jigarda metabolitlarga.",
+        "chiqarilish": "Asosan siydik, qisman najas. T½ — ~13 soat (metronidazoldan uzun)."
+      },
+      "korsatmalar": [
+        "Trichomonas vaginit va bakterial vaginoz",
+        "Aralash anaerob-protozoy vaginal infeksiyalar"
+      ],
+      "qarrshi": [
+        "Nitroimidazollarga o'ta sezgirlik",
+        "Markaziy asab tizimi og'ir kasalliklari, qon kasalliklari",
+        "Homiladorlik I trimestri, emizish (ehtiyotkorlik)"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, ta'sirlanish",
+        "Hazm": "Ko'ngil aynishi, metall ta'm (so'rilganda)",
+        "Asab": "Bosh og'rig'i, bosh aylanishi, uyquchanlik"
+      },
+      "dozadan": "Tizimli yuqori dozada nevrologik belgilar (titroq, ataksiya). Davolash simptomatik.",
+      "ozarotasir": [
+        "Varfarin ta'sirini kuchaytiradi (metronidazoldan kamroq)",
+        "Alkogol bilan disulfiram-simon reaksiya kamroq, lekin spirtdan saqlanish tavsiya etiladi",
+        "Vekuroniy (mushak relaksanti) ta'sirini uzaytirishi mumkin"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 500 mg shamcha kechasi 5–10 kun (peroral bilan birga ham). Trichomonasda sherigini ham davolash. Ko'rsatmaga qarab.",
+        "bolalar": "Vaginal shaklda qo'llanilmaydi."
+      },
+      "chiqarish": "Vaginal shamchalar/tabletkalar 500 mg"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — нитроимидазол (орнидазол)",
+      "farmTasir": "Местное противопротозойное и антианаэробное",
+      "farmakodinamika": "Орнидазол — производное 5-нитроимидазола. В клетках анаэробов и простейших нитрогруппа восстанавливается, повреждая структуру ДНК и останавливая репликацию и транскрипцию (бактерицидно/протозоацидно). Активен против Trichomonas vaginalis, Gardnerella, анаэробов (Bacteroides, Clostridium), Entamoeba и Giardia. Похож на метронидазол, но с более длинным периодом полувыведения.",
+      "farmakokinetika": {
+        "sorish": "В местной форме мало, внутрь хорошо всасывается.",
+        "tarqalish": "Хорошо распределяется в тканях и жидкостях.",
+        "metabolizm": "В печени до метаболитов.",
+        "chiqarilish": "Преимущественно с мочой, частично с калом. T½ — ~13 ч (дольше, чем у метронидазола)."
+      },
+      "korsatmalar": [
+        "Трихомонадный вагинит и бактериальный вагиноз",
+        "Смешанные анаэробно-протозойные вагинальные инфекции"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к нитроимидазолам",
+        "Тяжёлые заболевания ЦНS, болезни крови",
+        "I триместр беременности, лактация (осторожно)"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, раздражение во влагалище",
+        "ЖКТ": "Тошнота, металлический привкус (при всасывании)",
+        "Нервы": "Головная боль, головокружение, сонливость"
+      },
+      "dozadan": "При системных высоких дозах — неврологические симптомы (тремор, атаксия). Лечение симптоматическое.",
+      "ozarotasir": [
+        "Усиливает действие варфарина (меньше, чем метронидазол)",
+        "Дисульфирамоподобная реакция с алкоголем слабее, но спиртного лучше избегать",
+        "Может удлинять действие векурония (миорелаксант)"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: суппозиторий 500 мг на ночь 5–10 дней (возможно с приёмом внутрь). При трихомониазе лечить и партнёра. По показанию.",
+        "bolalar": "В вагинальной форме не применяется."
+      },
+      "chiqarish": "Вагинальные суппозитории/таблетки 500 мг"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — nitroimidazole (ornidazole)",
+      "farmTasir": "Topical antiprotozoal and anti-anaerobic",
+      "farmakodinamika": "Ornidazole is a 5-nitroimidazole derivative. In anaerobes and protozoa its nitro group is reduced, damaging DNA structure and halting replication and transcription (bactericidal/protozoacidal). It is active against Trichomonas vaginalis, Gardnerella, anaerobes (Bacteroides, Clostridium), Entamoeba and Giardia. Similar to metronidazole but with a longer half-life.",
+      "farmakokinetika": {
+        "sorish": "Little from the topical form; well absorbed orally.",
+        "tarqalish": "Distributes well into tissues and fluids.",
+        "metabolizm": "Hepatic to metabolites.",
+        "chiqarilish": "Mainly in urine, partly in feces. T½ ~13 h (longer than metronidazole)."
+      },
+      "korsatmalar": [
+        "Trichomonas vaginitis and bacterial vaginosis",
+        "Mixed anaerobic-protozoal vaginal infections"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to nitroimidazoles",
+        "Severe CNS disorders, blood disorders",
+        "First trimester of pregnancy, lactation (caution)"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, irritation",
+        "GI": "Nausea, metallic taste (if absorbed)",
+        "Nervous": "Headache, dizziness, drowsiness"
+      },
+      "dozadan": "High systemic doses cause neurological signs (tremor, ataxia). Treatment is symptomatic.",
+      "ozarotasir": [
+        "Potentiates warfarin (less than metronidazole)",
+        "Disulfiram-like reaction with alcohol is weaker, but alcohol is best avoided",
+        "May prolong the effect of vecuronium (muscle relaxant)"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 500 mg pessary at night for 5–10 days (may combine with oral). In trichomoniasis treat the partner too. Per indication.",
+        "bolalar": "Vaginal form not used."
+      },
+      "chiqarish": "Vaginal pessaries/tablets 500 mg"
+    }
+  },
+  "G01AF11": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — imidazol antimikotik (ketokonazol)",
+      "farmTasir": "Mahalliy zamburug'ga qarshi (Candida)",
+      "farmakodinamika": "Ketokonazol — imidazol antimikotigi. Zamburug' 14-alfa-demetilazasini inhibirlab ergosterol sintezini to'xtatadi, membrana tuzilishi va fermentlarini buzadi (fungistatik, yuqori konsentratsiyada fungitsid). Candida va dermatofitlarga faol. Mahalliy (vaginal) shaklda tizimli toksiklikdan xoli; peroral shakli jigar toksikligi sababli cheklangan.",
+      "farmakokinetika": {
+        "sorish": "Vaginal yo'ldan minimal so'riladi — ta'sir mahalliy.",
+        "tarqalish": "Mahalliy yuqori konsentratsiya.",
+        "metabolizm": "So'rilgan qismi jigarda (CYP3A4).",
+        "chiqarilish": "Asosan o't orqali."
+      },
+      "korsatmalar": [
+        "Vulvovaginal kandidoz (rekurrent holatlarda ham)",
+        "Candida qo'zg'atgan vaginit"
+      ],
+      "qarrshi": [
+        "Ketokonazol yoki imidazollarga o'ta sezgirlik",
+        "Homiladorlik (ehtiyotkorlik)",
+        "Hayz davrida vaginal qo'llashdan saqlanish"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish, qizarish",
+        "Allergik": "Kontakt dermatit, toshma (kamdan-kam)"
+      },
+      "dozadan": "Mahalliy shaklda dozadan oshish kam ehtimol. Davolash simptomatik.",
+      "ozarotasir": [
+        "Mahalliy shaklda tizimli o'zaro ta'sir kam",
+        "(Peroral ketokonazol kuchli CYP3A4 inhibitori — ko'plab dorilar bilan xavfli, lekin bu vaginal shaklга tegishli emas)",
+        "Lateks vositalarini zaiflashtirishi mumkin"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 400 mg shamcha kechasi 3–5 kun. Ko'rsatmaga qarab kursni shifokor belgilaydi.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Vaginal shamchalar 400 mg"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — имидазольный антимикотик (кетоконазол)",
+      "farmTasir": "Местное противогрибковое (Candida)",
+      "farmakodinamika": "Кетоконазол — имидазольный антимикотик. Ингибирует грибковую 14-альфа-деметилазу, подавляя синтез эргостерола и нарушая структуру мембраны и ферменты (фунгистатично, в высоких концентрациях фунгицидно). Активен против Candida и дерматофитов. Вагинальная форма лишена системной токсичности; пероральная форма ограничена из-за гепатотоксичности.",
+      "farmakokinetika": {
+        "sorish": "Из влагалища всасывается минимально — действие местное.",
+        "tarqalish": "Высокая местная концентрация.",
+        "metabolizm": "Всосавшаяся часть в печени (CYP3A4).",
+        "chiqarilish": "Преимущественно с желчью."
+      },
+      "korsatmalar": [
+        "Вульвовагинальный кандидоз (в т.ч. рецидивирующий)",
+        "Вагинит, вызванный Candida"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к кетоконазолу или имидазолам",
+        "Беременность (осторожно)",
+        "Избегать вагинального применения при менструации"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд, покраснение во влагалище",
+        "Аллергия": "Контактный дерматит, сыпь (редко)"
+      },
+      "dozadan": "В местной форме передозировка маловероятна. Лечение симптоматическое.",
+      "ozarotasir": [
+        "В местной форме системные взаимодействия редки",
+        "(Пероральный кетоконазол — мощный ингибитор CYP3A4 с опасными взаимодействиями, но это не относится к вагинальной форме)",
+        "Может ослаблять латексные средства"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: суппозиторий 400 мг на ночь 3–5 дней. Курс определяет врач по показанию.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Вагинальные суппозитории 400 мг"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — imidazole antimycotic (ketoconazole)",
+      "farmTasir": "Topical antifungal (Candida)",
+      "farmakodinamika": "Ketoconazole is an imidazole antimycotic. It inhibits fungal 14-alpha-demethylase, halting ergosterol synthesis and disrupting membrane structure and enzymes (fungistatic, fungicidal at high concentrations). It is active against Candida and dermatophytes. The vaginal form is free of systemic toxicity; the oral form is restricted because of hepatotoxicity.",
+      "farmakokinetika": {
+        "sorish": "Minimally absorbed vaginally — action is local.",
+        "tarqalish": "High local concentration.",
+        "metabolizm": "Any absorbed fraction is hepatic (CYP3A4).",
+        "chiqarilish": "Mainly in bile."
+      },
+      "korsatmalar": [
+        "Vulvovaginal candidiasis (including recurrent)",
+        "Candida vaginitis"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to ketoconazole or imidazoles",
+        "Pregnancy (caution)",
+        "Avoid vaginal use during menstruation"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching, redness",
+        "Allergic": "Contact dermatitis, rash (rare)"
+      },
+      "dozadan": "Overdose is unlikely with the topical form. Treatment is symptomatic.",
+      "ozarotasir": [
+        "Systemic interactions are rare with the topical form",
+        "(Oral ketoconazole is a potent CYP3A4 inhibitor with dangerous interactions, but this does not apply to the vaginal form)",
+        "May weaken latex devices"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 400 mg pessary at night for 3–5 days. The physician sets the course per indication.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Vaginal pessaries 400 mg"
+    }
+  },
+  "G01AX05": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — nitrofuran hosilasi (nifuratel)",
+      "farmTasir": "Mahalliy antibakterial, antiprotozoy va antimikotik",
+      "farmakodinamika": "Nifuratel — nitrofuran guruhi vositasi, uchlamchi (kombinatsiyalangan) ta'sirga ega: antibakterial (ko'pchilik grammusbat va grammanfiy, ayniqsa enterobakteriyalar), antiprotozoy (Trichomonas vaginalis) va antimikotik (Candida) ta'sir. Mikroorganizm fermentlari va nuklein kislota sintezini buzadi. Keng spektri va past toksikligi tufayli aralash vaginal infeksiyalarda qulay.",
+      "farmakokinetika": {
+        "sorish": "Vaginal yo'ldan oz so'riladi; peroralda yaxshi.",
+        "tarqalish": "Mahalliy yuqori konsentratsiya.",
+        "metabolizm": "To'qima va jigarda tez.",
+        "chiqarilish": "Asosan siydik orqali (siydikни bo'yashi mumkin)."
+      },
+      "korsatmalar": [
+        "Vulvovaginal infeksiyalar: bakterial vaginoz, kandidoz, trixomoniaz va ularning aralash shakllari",
+        "Candida + bakterial + protozoy aralash vaginitlar"
+      ],
+      "qarrshi": [
+        "Nifuratelga o'ta sezgirlik",
+        "Homiladorlik va emizishda — faqat shifokor ko'rsatmasi bilan"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish (kamdan-kam)",
+        "Allergik": "Toshma, qichishish",
+        "Hazm (peroral)": "Ko'ngil aynishi, diareya"
+      },
+      "dozadan": "Mahalliy shaklda dozadan oshish kam ehtimol. Davolash simptomatik.",
+      "ozarotasir": [
+        "Klinik ahamiyatli tizimli o'zaro ta'sir kam",
+        "Ko'pincha nistatin bilan kombinatsiyada (antimikotik kuchaytirish uchun)",
+        "Lateks vositalarini zaiflashtirishi mumkin"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 1 shamcha (yoki krem) kechasi, 6–10 kun. Ko'pincha sherigini ham davolash kerak. Ko'rsatmaga qarab.",
+        "bolalar": "Maxsus bolalar shakllarida shifokor ko'rsatmasi bilan."
+      },
+      "chiqarish": "Vaginal shamchalar; vaginal krem; peroral tabletkalar"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — производное нитрофурана (нифурател)",
+      "farmTasir": "Местное антибактериальное, противопротозойное и противогрибковое",
+      "farmakodinamika": "Нифурател — средство группы нитрофуранов с тройным действием: антибактериальное (большинство грам(+) и грам(−), особенно энтеробактерии), противопротозойное (Trichomonas vaginalis) и противогрибковое (Candida). Нарушает ферменты микроорганизмов и синтез нуклеиновых кислот. Благодаря широкому спектру и низкой токсичности удобен при смешанных вагинальных инфекциях.",
+      "farmakokinetika": {
+        "sorish": "Из влагалища всасывается мало; внутрь хорошо.",
+        "tarqalish": "Высокая местная концентрация.",
+        "metabolizm": "Быстро в тканях и печени.",
+        "chiqarilish": "Преимущественно с мочой (может окрашивать мочу)."
+      },
+      "korsatmalar": [
+        "Вульвовагинальные инфекции: бактериальный вагиноз, кандидоз, трихомониаз и их смешанные формы",
+        "Смешанные кандидозно-бактериально-протозойные вагиниты"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к нифурателу",
+        "Беременность и лактация — только по назначению врача"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд во влагалище (редко)",
+        "Аллергия": "Сыпь, зуд",
+        "ЖКТ (перорально)": "Тошнота, диарея"
+      },
+      "dozadan": "В местной форме передозировка маловероятна. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Клинически значимые системные взаимодействия редки",
+        "Часто в комбинации с нистатином (для усиления противогрибкового действия)",
+        "Может ослаблять латексные средства"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: 1 суппозиторий (или крем) на ночь, 6–10 дней. Часто нужно лечить и партнёра. По показанию.",
+        "bolalar": "В специальных детских формах по назначению врача."
+      },
+      "chiqarish": "Вагинальные суппозитории; вагинальный крем; таблетки внутрь"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — nitrofuran derivative (nifuratel)",
+      "farmTasir": "Topical antibacterial, antiprotozoal and antifungal",
+      "farmakodinamika": "Nifuratel is a nitrofuran with triple activity: antibacterial (most Gram-positive and Gram-negative, especially enterobacteria), antiprotozoal (Trichomonas vaginalis) and antifungal (Candida). It disrupts microbial enzymes and nucleic-acid synthesis. Its broad spectrum and low toxicity make it convenient for mixed vaginal infections.",
+      "farmakokinetika": {
+        "sorish": "Little absorbed vaginally; well absorbed orally.",
+        "tarqalish": "High local concentration.",
+        "metabolizm": "Rapid in tissues and liver.",
+        "chiqarilish": "Mainly in urine (may color the urine)."
+      },
+      "korsatmalar": [
+        "Vulvovaginal infections: bacterial vaginosis, candidiasis, trichomoniasis and their mixed forms",
+        "Mixed candidal-bacterial-protozoal vaginitis"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to nifuratel",
+        "Pregnancy and lactation — only on medical advice"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching (rare)",
+        "Allergic": "Rash, itching",
+        "GI (oral)": "Nausea, diarrhea"
+      },
+      "dozadan": "Overdose is unlikely with the topical form. Treatment is symptomatic.",
+      "ozarotasir": [
+        "Clinically significant systemic interactions are rare",
+        "Often combined with nystatin (to strengthen antifungal action)",
+        "May weaken latex devices"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: one pessary (or cream) at night for 6–10 days. The partner often needs treatment too. Per indication.",
+        "bolalar": "In special pediatric forms on medical advice."
+      },
+      "chiqarish": "Vaginal pessaries; vaginal cream; oral tablets"
+    }
+  },
+  "G01AX11": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — antiseptik (povidon-yod)",
+      "farmTasir": "Mahalliy keng spektrli antiseptik",
+      "farmakodinamika": "Povidon-yod — yodning polivinilpirrolidon bilan kompleksi; sekin-asta erkin yod ajratadi. Yod mikroorganizm hujayrasi oqsillari, fermentlari va nuklein kislotalarini oksidlab denaturatsiya qiladi — bakteriya, zamburug', virus, protozoa va sporalarga keng mikrobiotsid ta'sir. Rezistentlik amalda rivojlanmaydi. Aralash va aniqlanmagan qo'zg'atuvchili vaginal infeksiyalarda qulay.",
+      "farmakokinetika": {
+        "sorish": "Shilliq qavatdan yod qisman so'rilishi mumkin (uzoq/keng qo'llashda qalqonsimon bezga ta'sir).",
+        "tarqalish": "So'rilgan yod qalqonsimon bezda to'planadi.",
+        "metabolizm": "—",
+        "chiqarilish": "So'rilgan yod asosan siydik orqali."
+      },
+      "korsatmalar": [
+        "Aralash va o'ziga xos bo'lmagan vaginitlar (bakterial, zamburug'li, trixomonadali)",
+        "Ginekologik jarrohlik/manipulyatsiyalardan oldin shilliq qavatni antiseptik tayyorlash"
+      ],
+      "qarrshi": [
+        "Yodga o'ta sezgirlik",
+        "Qalqonsimon bez giperfunksiyasi, Dyuring gerpetiform dermatiti",
+        "Homiladorlik (II–III trimestr ehtiyotkorlik) va emizish; radioaktiv yod davosi vaqtida",
+        "Yangi tug'ilgan/chaqaloqlar"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish, qizarish",
+        "Endokrin": "Uzoq/keng qo'llashda qalqonsimon bez funksiyasi o'zgarishi",
+        "Allergik": "Kontakt dermatit, kamdan-kam anafilaktik reaksiya"
+      },
+      "dozadan": "Keng yuza/uzoq qo'llashda yod so'rilib metabolik atsidoz, buyrak va qalqonsimon bez buzilishi mumkin. Davolash simptomatik.",
+      "ozarotasir": [
+        "Simob saqlovchi antiseptiklar bilan birga ishlatib bo'lmaydi (zaharli birikma)",
+        "Vodorod peroksidi, kumush, taurolidin antiseptiklari bilan ta'sirsiz qoladi",
+        "Qalqonsimon bez funksiyasi va yod tekshiruvlari natijalarini buzadi"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 200 mg shamcha kechasi 7–14 kun (o'tkirda 1–2 marta/kun). Eritma bilan chayqash — ko'rsatmaga qarab.",
+        "bolalar": "Yangi tug'ilganlarda qo'llanilmaydi; bolalarda ehtiyotkorlik bilan."
+      },
+      "chiqarish": "Vaginal shamchalar 200 mg; eritma/konsentrat"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — антисептик (повидон-йод)",
+      "farmTasir": "Местный антисептик широкого спектра",
+      "farmakodinamika": "Повидон-йод — комплекс йода с поливинилпирролидоном, медленно высвобождающий свободный йод. Йод окисляет и денатурирует белки, ферменты и нуклеиновые кислоты микробной клетки — широкое микробицидное действие на бактерии, грибы, вирусы, простейшие и споры. Устойчивость практически не развивается. Удобен при смешанных и неустановленных по возбудителю вагинальных инфекциях.",
+      "farmakokinetika": {
+        "sorish": "Со слизистой йод может частично всасываться (при длительном/обширном применении влияет на щитовидную железу).",
+        "tarqalish": "Всосавшийся йод накапливается в щитовидной железе.",
+        "metabolizm": "—",
+        "chiqarilish": "Всосавшийся йод преимущественно с мочой."
+      },
+      "korsatmalar": [
+        "Смешанные и неспецифические вагиниты (бактериальные, грибковые, трихомонадные)",
+        "Антисептическая подготовка слизистой перед гинекологическими операциями/манипуляциями"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к йоду",
+        "Гиперфункция щитовидной железы, герпетиформный дерматит Дюринга",
+        "Беременность (II–III триместр осторожно) и лактация; во время терапии радиоактивным йодом",
+        "Новорождённые/грудные дети"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд, покраснение во влагалище",
+        "Эндокринные": "При длительном/обширном применении — изменение функции щитовидной железы",
+        "Аллергия": "Контактный дерматит, редко анафилактическая реакция"
+      },
+      "dozadan": "При обширном/длительном применении всасывание йода может вызвать метаболический ацидоз, нарушения почек и щитовидной железы. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Нельзя сочетать с ртутьсодержащими антисептиками (образуется токсичное соединение)",
+        "Инактивируется перекисью водорода, серебром, тауролидином",
+        "Искажает результаты тестов функции щитовидной железы и проб на йод"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: суппозиторий 200 мг на ночь 7–14 дней (при остром 1–2 раза/сут). Орошение раствором — по показанию.",
+        "bolalar": "У новорождённых не применяется; у детей с осторожностью."
+      },
+      "chiqarish": "Вагинальные суппозитории 200 мг; раствор/концентрат"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — antiseptic (povidone-iodine)",
+      "farmTasir": "Topical broad-spectrum antiseptic",
+      "farmakodinamika": "Povidone-iodine is a complex of iodine with polyvinylpyrrolidone that slowly releases free iodine. Iodine oxidizes and denatures microbial proteins, enzymes and nucleic acids — a broad microbicidal action against bacteria, fungi, viruses, protozoa and spores. Resistance practically does not develop. It is convenient for mixed and pathogen-unidentified vaginal infections.",
+      "farmakokinetika": {
+        "sorish": "Iodine may be partly absorbed from mucosa (with prolonged/extensive use it affects the thyroid).",
+        "tarqalish": "Absorbed iodine accumulates in the thyroid gland.",
+        "metabolizm": "—",
+        "chiqarilish": "Absorbed iodine is excreted mainly in urine."
+      },
+      "korsatmalar": [
+        "Mixed and nonspecific vaginitis (bacterial, fungal, trichomonal)",
+        "Antiseptic mucosal preparation before gynecological surgery/procedures"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to iodine",
+        "Hyperthyroidism, dermatitis herpetiformis (Duhring)",
+        "Pregnancy (caution in 2nd–3rd trimester) and lactation; during radioactive-iodine therapy",
+        "Newborns/infants"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching, redness",
+        "Endocrine": "With prolonged/extensive use — altered thyroid function",
+        "Allergic": "Contact dermatitis, rarely anaphylactic reaction"
+      },
+      "dozadan": "Extensive/prolonged use may cause iodine absorption with metabolic acidosis and renal and thyroid disturbances. Treatment is symptomatic.",
+      "ozarotasir": [
+        "Must not be combined with mercury-containing antiseptics (toxic compound forms)",
+        "Inactivated by hydrogen peroxide, silver, taurolidine",
+        "Distorts thyroid-function tests and iodine assays"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 200 mg pessary at night for 7–14 days (1–2 times/day in acute cases). Solution irrigation per indication.",
+        "bolalar": "Not used in newborns; with caution in children."
+      },
+      "chiqarish": "Vaginal pessaries 200 mg; solution/concentrate"
+    }
+  },
+
 
   // ─────────────────────────────────────────────────────────
   // 1. AZITHROMYCIN — MR Azimaks | ATX: J01FA10
@@ -53879,6 +54986,367 @@ const PHARMA_DATA = {
         bolalar: "Not used."
       },
       chiqarish: "Tablets 10 mg; combination with estradiol (HRT)"
+    }
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  // G-Batch 2 — Progestogen kontratseptiv, androgen, ovulyatsiya stimulyatori
+  // ═══════════════════════════════════════════════════════════
+
+  // ── LEVONORGESTREL | ATX: G03AC03 ──
+  "G03AC03": {
+    uz: {
+      gruppa: "Jinsiy gormonlar — sintetik progestogen / kontratseptiv (levonorgestrel)",
+      farmTasir: "Progestogen kontratseptiv, shoshilinch kontratseptsiya",
+      farmakodinamika: `Levonorgestrel — kuchli sintetik progestogen (II avlod). Progesteron retseptorlariga bog'lanib ovulyatsiyani bostiradi yoki kechiktiradi (LH cho'qqisini tormozlaydi), servikal shilliqни quyultirib spermatozoidlar o'tishini qiyinlashtiradi va endometriyni implantatsiyaga noqulay holatga keltiradi — kontratseptiv ta'sir. Yengil androgen ta'siri bor. Kombinatsiyalangan tabletka (estrogen bilan), faqat-progestogen «mini-pili», bachadon ichi tizimi (BIS), implantat va shoshilinch kontratseptsiya shaklларида qo'llaniladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали tez va to'liq so'riladi (biokirish ~100%).",
+        tarqalish: "Plazma oqsillariga (SHBG, albumin) yuqori bog'lanadi.",
+        metabolizm: "Jigarда konyugatsiya va gidroksillanish.",
+        chiqarilish: "Siydik va najas orqали. T½ — ~24 soat."
+      },
+      korsatmalar: [
+        "Kontratseptsiya: kombinatsiyalangan tabletka, faqat-progestogen tabletka, BIS, teri osti implantati",
+        "Shoshilinch (postkoital) kontratseptsiya — himoyalanmagan aloqadан keyin 72 soat ichida",
+        "Levonorgestrel-BIS: og'ir hayz qon ketishi (menorragiya), endometriy himoyasi (HRTда)"
+      ],
+      qarrshi: [
+        "Levonorgestrel yoki komponentlarга o'ta sezgirlik",
+        "Faol venoz/arterial tromboz (kombinatsiyalangan shakl uchun ayniqsa)",
+        "Aniqlanmagan vaginal qon ketish, progestogen-bog'liq o'sma, og'ir jigar kasalligi",
+        "Homiladorlik (mavjud); BIS — bachadon infeksiyasi/anomaliyasi"
+      ],
+      nojoya: {
+        "Jinsiy / sut bezi": "Hayz tartibsizligi, dog'lanish, amenoreya (mini-pili/BIS), sut bezlari sezgirligi, tuxumdon kistasi",
+        "Asab / umumiy": "Bosh og'rig'i, bosh aylanishi, kayfiyat o'zgarishi, charchoq",
+        "Hazm / metabolik": "Ko'ngil aynishi, vazn o'zgarishi, akne (androgen ta'sir), suyuqlik tutilishi",
+        "BIS": "Joylashtirишда og'riq, ekspulsiya, kamdan-kam — bachadon perforatsiyasi"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, qusish, vaginal qon ketish. Davolash: simptomatik.",
+      ozarotasir: [
+        "CYP3A4 induktorlari (rifampitsin, antiepileptiklar, St. John's wort): kontratseptiv samaradorlikని kamaytiradi (qo'shimcha himoya zarur)",
+        "Ba'zi antiretrovirus dorilar samaraga ta'sir qiladi"
+      ],
+      qollash: {
+        kattalar: "Kombinatsiyalangan/mini-pili: kuniga 1 tabletka sxema bo'yicha. Shoshilinch: 1,5 mg bir martalik imkon qadar tez (72 soat ichida). BIS: bachadonga 3–5 yilга qo'yiladi.",
+        bolalar: "Reproduktiv yoshdagi o'smirларда shoshilinch kontratseptsiya mumkin."
+      },
+      chiqarish: "Tabletkalar 0,75; 1,5 mg (shoshilinch); kombinatsiyalangan/mini-pili tabletkalar; bachadon ichi tizimi; teri osti implantati"
+    },
+    ru: {
+      gruppa: "Половые гормоны — синтетический прогестоген / контрацептив (левоноргестрел)",
+      farmTasir: "Прогестогеновый контрацептив, экстренная контрацепция",
+      farmakodinamika: `Левоноргестрел — сильный синтетический прогестоген (II поколение). Связываясь с прогестероновыми рецепторами, подавляет или задерживает овуляцию (тормозит пик ЛГ), сгущает шеечную слизь, затрудняя проникновение сперматозоидов, и делает эндометрий неблагоприятным для имплантации — контрацептивное действие. Обладает лёгким андрогенным действием. Применяется в формах комбинированной таблетки, чисто прогестогеновой «мини-пили», внутриматочной системы (ВМС), импланта и экстренной контрацепции.`,
+      farmakokinetika: {
+        sorish: "Внутрь быстро и полно всасывается (биодоступность ~100%).",
+        tarqalish: "Высоко связывается с белками плазмы (ГСПГ, альбумин).",
+        metabolizm: "В печени конъюгация и гидроксилирование.",
+        chiqarilish: "С мочой и калом. T½ — ~24 ч."
+      },
+      korsatmalar: [
+        "Контрацепция: комбинированная таблетка, чисто прогестогеновая таблетка, ВМС, подкожный имплант",
+        "Экстренная (посткоитальная) контрацепция — в течение 72 ч после незащищённого акта",
+        "ВМС с левоноргестрелом: обильные менструальные кровотечения, защита эндометрия (при ЗГТ)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к левоноргестрелу или компонентам",
+        "Активный венозный/артериальный тромбоз (особенно для комбинированной формы)",
+        "Неустановленное вагинальное кровотечение, прогестогензависимая опухоль, тяжёлое заболевание печени",
+        "Беременность; ВМС — инфекция/аномалия матки"
+      ],
+      nojoya: {
+        "Половые / молочная железа": "Нарушение менструаций, мажущие выделения, аменорея (мини-пили/ВМС), чувствительность молочных желёз, киста яичника",
+        "Нервы / общие": "Головная боль, головокружение, изменения настроения, утомляемость",
+        "ЖКТ / метаболизм": "Тошнота, изменение массы тела, акне, задержка жидкости",
+        "ВМС": "Боль при установке, экспульсия, редко — перфорация матки"
+      },
+      dozadan: "Симптомы: тошнота, рвота, вагинальное кровотечение. Лечение: симптоматически.",
+      ozarotasir: [
+        "Индукторы CYP3A4 (рифампицин, антиэпилептики, зверобой): снижают контрацептивную эффективность",
+        "Некоторые антиретровирусные влияют на эффект"
+      ],
+      qollash: {
+        kattalar: "Комбинированные/мини-пили: 1 таблетка в день по схеме. Экстренно: 1,5 мг однократно как можно раньше (в течение 72 ч). ВМС: в матку на 3–5 лет.",
+        bolalar: "У подростков репродуктивного возраста возможна экстренная контрацепция."
+      },
+      chiqarish: "Таблетки 0,75; 1,5 мг (экстренные); комбинированные/мини-пили; внутриматочная система; подкожный имплант"
+    },
+    en: {
+      gruppa: "Sex hormones — synthetic progestogen / contraceptive (levonorgestrel)",
+      farmTasir: "Progestogen contraceptive, emergency contraception",
+      farmakodinamika: `Levonorgestrel is a potent synthetic progestogen (second generation). Binding progesterone receptors, it suppresses or delays ovulation (inhibiting the LH peak), thickens cervical mucus impeding sperm passage, and renders the endometrium unfavourable for implantation — a contraceptive effect. It has mild androgenic action. It is used as combined tablets, progestogen-only 'mini-pills', an intrauterine system (IUS), an implant, and emergency contraception.`,
+      farmakokinetika: {
+        sorish: "Rapidly and completely absorbed orally (bioavailability ~100%).",
+        tarqalish: "Highly bound to plasma proteins (SHBG, albumin).",
+        metabolizm: "Hepatic conjugation and hydroxylation.",
+        chiqarilish: "In urine and faeces. T½ — ~24 h."
+      },
+      korsatmalar: [
+        "Contraception: combined tablet, progestogen-only tablet, IUS, subcutaneous implant",
+        "Emergency (postcoital) contraception — within 72 h after unprotected intercourse",
+        "Levonorgestrel IUS: heavy menstrual bleeding, endometrial protection (in HRT)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to levonorgestrel or components",
+        "Active venous/arterial thrombosis (especially for the combined form)",
+        "Undiagnosed vaginal bleeding, progestogen-dependent tumour, severe liver disease",
+        "Pregnancy; IUS — uterine infection/anomaly"
+      ],
+      nojoya: {
+        "Genital / breast": "Menstrual irregularity, spotting, amenorrhoea (mini-pill/IUS), breast tenderness, ovarian cyst",
+        "Nerve / general": "Headache, dizziness, mood changes, fatigue",
+        "GI / metabolic": "Nausea, weight change, acne, fluid retention",
+        "IUS": "Insertion pain, expulsion, rarely uterine perforation"
+      },
+      dozadan: "Symptoms: nausea, vomiting, vaginal bleeding. Treatment: symptomatic.",
+      ozarotasir: [
+        "CYP3A4 inducers (rifampicin, antiepileptics, St John's wort): reduce contraceptive efficacy",
+        "Some antiretrovirals affect the effect"
+      ],
+      qollash: {
+        kattalar: "Combined/mini-pill: 1 tablet daily per the regimen. Emergency: 1.5 mg single dose as soon as possible (within 72 h). IUS: in the uterus for 3–5 years.",
+        bolalar: "In adolescents of reproductive age emergency contraception is possible."
+      },
+      chiqarish: "Tablets 0.75; 1.5 mg (emergency); combined/mini-pill tablets; intrauterine system; subcutaneous implant"
+    }
+  },
+
+  // ── TESTOSTERON | ATX: G03BA03 ──
+  "G03BA03": {
+    uz: {
+      gruppa: "Jinsiy gormonlar — androgen (testosteron)",
+      farmTasir: "Androgen o'rnini bosuvchi terapiya",
+      farmakodinamika: `Testosteron — moyaklar (Leydig hujayralari) ishlab chiqaradigan asosiy erkak jinsiy gormoni (androgen). Nishon to'qimaларда androgen retseptorlariga bog'lanadi (qisman 5-alfa-reduktaza orqали faolroq DHT ga aylanadi): erkak jinsiy a'zolari va ikkilamchi jinsiy belgilarini rivojlantiradi va saqlaydi, spermatogenezni, libido va potensiyani qo'llab-quvvatlaydi, mushak massasi va kuchini, suyak zichligini, eritropoezни oshiradi (anabolik ta'sir). Gipogonadizmда o'rnini bosuvchi terapiya sifatida beriladi.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали samarasiz (jigarда tez parchalanadi); i/m efirlar, transdermal gel/plastır, teri osti pellet shaklларида beriladi.",
+        tarqalish: "Plazma oqsillariga (SHBG, albumin) yuqori bog'lanadi.",
+        metabolizm: "Jigarда; periferiyada DHT va estradiolga aylanadi.",
+        chiqarilish: "Asosан siydik orqали metabolit ko'rinishida."
+      },
+      korsatmalar: [
+        "Erkak gipogonadizmi (birlamchi yoki ikkilamchi): androgen o'rnini bosuvchi terapiya",
+        "Kechikkan jinsiy balog'at (alohida holatlarда)",
+        "Transgender erkaklarда maskulinizatsiya terapiyasi (mutaxassis nazoratида)"
+      ],
+      qarrshi: [
+        "Testosteronга o'ta sezgirlik",
+        "Prostata yoki sut bezi saratoni (erkaklarда) yoki shubha",
+        "Yuqori giperkalsiemiya, og'ir jigar/buyrak/yurak yetishmovchiligi",
+        "Homiladorlik va emizish; ayollarда (virilizatsiya), nazoratsiz polisitemiya"
+      ],
+      nojoya: {
+        "Jinsiy / prostata": "Prostata kattalashishi, prostata saraton xavfi (kuzatuv), priapizm, spermatogenez susayishi, ginekomastiya",
+        "Qon": "Polisitemiya (eritrotsit/gemoglobin oshishi) — tromboz xavfi; nazorat zarur",
+        "Yurak-qon tomir / metabolik": "Suyuqlik tutilishi, shish, AB oshishi, lipid o'zgarishi; uyqu apnoesi kuchayishi",
+        "Teri / kayfiyat": "Akne, yog'li teri, soch o'sishi/to'kilishi; agressivlik, kayfiyat o'zgarishi"
+      },
+      dozadan: "Belgilari: polisitemiya, prostata o'sishi, suyuqlik tutilishi. Davolash: dozani kamaytirish/to'xtatish, gematokrit va prostata nazorati.",
+      ozarotasir: [
+        "Antikoagulyantlar (varfarin): ta'sirini kuchaytiradi — qon ketish xavfi, INR nazorati",
+        "Insulin/qandni tushiruvchi dorilar ehtiyojini o'zgartirishi mumkin",
+        "Glyukokortikoidlar bilan birga shish/suyuqlik tutilishi kuchayadi"
+      ],
+      qollash: {
+        kattalar: "I/m: testosteron enantat 250 mg har 2–4 haftada yoki undekanoat 1000 mg har 10–14 haftada. Transdermal gel 1% kuniga 50–100 mg ertalab. Doza qondaги darajaga moslanadi; gematokrit/prostata nazorati.",
+        bolalar: "Faqat kechikkan balog'at/gipogonadizmда endokrinolog nazoratида."
+      },
+      chiqarish: "I/m in'eksiya (enantat 250 mg, undekanoat 1000 mg); transdermal gel 1%; teri osti pellet"
+    },
+    ru: {
+      gruppa: "Половые гормоны — андроген (тестостерон)",
+      farmTasir: "Заместительная андрогенная терапия",
+      farmakodinamika: `Тестостерон — основной мужской половой гормон (андроген), вырабатываемый яичками (клетками Лейдига). Связывается с андрогеновыми рецепторами тканей-мишеней (частично превращается 5-альфа-редуктазой в более активный ДГТ): развивает и поддерживает мужские половые органы и вторичные половые признаки, поддерживает сперматогенез, либидо и потенцию, повышает мышечную массу и силу, плотность кости, эритропоэз (анаболическое действие). При гипогонадизме назначается как заместительная терапия.`,
+      farmakokinetika: {
+        sorish: "Внутрь неэффективен (быстро разрушается в печени); вводится в виде в/м эфиров, трансдермального геля/пластыря, подкожных пеллет.",
+        tarqalish: "Высоко связывается с белками плазмы (ГСПГ, альбумин).",
+        metabolizm: "В печени; на периферии превращается в ДГТ и эстрадиол.",
+        chiqarilish: "Преимущественно с мочой в виде метаболитов."
+      },
+      korsatmalar: [
+        "Мужской гипогонадизм (первичный или вторичный): заместительная андрогенная терапия",
+        "Задержка полового развития (в отдельных случаях)",
+        "Маскулинизирующая терапия у трансгендерных мужчин (под контролем специалиста)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к тестостерону",
+        "Рак простаты или молочной железы (у мужчин) или подозрение",
+        "Выраженная гиперкальциемия, тяжёлая печёночная/почечная/сердечная недостаточность",
+        "Беременность и лактация; женщины (вирилизация), неконтролируемая полицитемия"
+      ],
+      nojoya: {
+        "Половые / простата": "Увеличение простаты, риск рака простаты (наблюдение), приапизм, угнетение сперматогенеза, гинекомастия",
+        "Кровь": "Полицитемия (повышение эритроцитов/гемоглобина) — риск тромбоза; нужен контроль",
+        "Сердечно-сосудистые / метаболизм": "Задержка жидкости, отёки, повышение АД, изменение липидов; усиление апноэ сна",
+        "Кожа / настроение": "Акне, жирная кожа, рост/выпадение волос; агрессивность, изменения настроения"
+      },
+      dozadan: "Симптомы: полицитемия, рост простаты, задержка жидкости. Лечение: снизить дозу/отменить, контроль гематокрита и простаты.",
+      ozarotasir: [
+        "Антикоагулянты (варфарин): усиливает их действие — риск кровотечения, контроль МНО",
+        "Может изменять потребность в инсулине/гипогликемических",
+        "С глюкокортикоидами усиливаются отёки/задержка жидкости"
+      ],
+      qollash: {
+        kattalar: "В/м: энантат 250 мг каждые 2–4 недели или ундеканоат 1000 мг каждые 10–14 недель. Трансдермальный гель 1% 50–100 мг/сут утром. Доза по уровню в крови; контроль гематокрита/простаты.",
+        bolalar: "Только при задержке полового развития/гипогонадизме под контролем эндокринолога."
+      },
+      chiqarish: "В/м инъекции (энантат 250 мг, ундеканоат 1000 мг); трансдермальный гель 1%; подкожные пеллеты"
+    },
+    en: {
+      gruppa: "Sex hormones — androgen (testosterone)",
+      farmTasir: "Androgen replacement therapy",
+      farmakodinamika: `Testosterone is the main male sex hormone (androgen), produced by the testes (Leydig cells). It binds androgen receptors in target tissues (partly converted by 5-alpha-reductase to the more active DHT): it develops and maintains the male genitalia and secondary sexual characteristics, supports spermatogenesis, libido and potency, and increases muscle mass and strength, bone density and erythropoiesis (anabolic action). In hypogonadism it is given as replacement therapy.`,
+      farmakokinetika: {
+        sorish: "Ineffective orally (rapidly broken down in the liver); given as i/m esters, transdermal gel/patch, subcutaneous pellets.",
+        tarqalish: "Highly bound to plasma proteins (SHBG, albumin).",
+        metabolizm: "Hepatic; peripherally converted to DHT and estradiol.",
+        chiqarilish: "Mainly renal as metabolites."
+      },
+      korsatmalar: [
+        "Male hypogonadism (primary or secondary): androgen replacement therapy",
+        "Delayed puberty (in selected cases)",
+        "Masculinising therapy in transgender men (under specialist supervision)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to testosterone",
+        "Prostate or breast cancer (in men) or suspicion",
+        "Marked hypercalcaemia, severe hepatic/renal/cardiac failure",
+        "Pregnancy and lactation; women (virilisation), uncontrolled polycythaemia"
+      ],
+      nojoya: {
+        "Genital / prostate": "Prostate enlargement, prostate cancer risk (monitoring), priapism, suppressed spermatogenesis, gynaecomastia",
+        "Blood": "Polycythaemia (raised red cells/haemoglobin) — thrombosis risk; monitoring needed",
+        "Cardiovascular / metabolic": "Fluid retention, oedema, raised BP, lipid change; worsened sleep apnoea",
+        "Skin / mood": "Acne, oily skin, hair growth/loss; aggressiveness, mood changes"
+      },
+      dozadan: "Symptoms: polycythaemia, prostate growth, fluid retention. Treatment: reduce dose/discontinue, monitor haematocrit and prostate.",
+      ozarotasir: [
+        "Anticoagulants (warfarin): enhances their effect — bleeding risk, INR monitoring",
+        "May change the requirement for insulin/hypoglycaemics",
+        "With glucocorticoids oedema/fluid retention is enhanced"
+      ],
+      qollash: {
+        kattalar: "I/m: enanthate 250 mg every 2–4 weeks or undecanoate 1000 mg every 10–14 weeks. Transdermal gel 1% 50–100 mg/day in the morning. Dose to the blood level; haematocrit/prostate monitoring.",
+        bolalar: "Only for delayed puberty/hypogonadism under endocrinologist supervision."
+      },
+      chiqarish: "I/m injections (enanthate 250 mg, undecanoate 1000 mg); transdermal gel 1%; subcutaneous pellets"
+    }
+  },
+
+  // ── KLOMIFEN | ATX: G03GB02 ──
+  "G03GB02": {
+    uz: {
+      gruppa: "Jinsiy gormonlar — ovulyatsiya stimulyatori (klomifen, SERM)",
+      farmTasir: "Ovulyatsiyani rag'batlantiruvchi (antiestrogen)",
+      farmakodinamika: `Klomifen sitrat — selektiv estrogen retseptori modulyatori (SERM). Gipotalamus va gipofizдаги estrogen retseptorlarini bloklab («antiestrogen» ta'sir), manfiy qaytar aloqani susaytiradi — natijada gipofizdан FSH/LH ko'proq ajraladi va tuxumdonда follikula o'sishi hamda ovulyatsiya rag'batlanadi. Anovulyator bepushtlikда ovulyatsiyани tiklash uchun birinchi qator vosita. Ko'p follikula yetilishi (ko'p homiladorlik) xavfi bor.`,
+      farmakokinetika: {
+        sorish: "Og'iz orqали yaxshi so'riladi.",
+        tarqalish: "Enterogepatik retsirkulyatsiya.",
+        metabolizm: "Jigarда.",
+        chiqarilish: "Asosан najas orqали. T½ uzun (~5–7 kun)."
+      },
+      korsatmalar: [
+        "Anovulyatsiya bilan bog'liq ayol bepushtligi — ovulyatsiyани rag'batlantirish",
+        "Polikistoz tuxumdon sindromi (PKTS) da ovulyatsiya induksiyasi",
+        "Erkaklarда gipogonadotrop holatда (off-label)"
+      ],
+      qarrshi: [
+        "Klomifenга o'ta sezgirlik",
+        "Homiladorlik; jigar kasalligi; aniqlanmagan vaginal qon ketish",
+        "Tuxumdon kistasi (PKTS bo'lмaган) yoki kattalashgan tuxumdon; gipofiz o'smasi",
+        "Davolanmagan qalqonsimon/buyrak usti bezi disfunksiyasi"
+      ],
+      nojoya: {
+        "Tuxumdon": "Tuxumdon giperstimulyatsiya sindromi, ko'p follikula → ko'p homiladorlik (egizak)",
+        "Vazomotor / ko'rish": "Issiqlik to'lqinlari, ko'rishning xiralashuvi/yorug'lik chaqnashi (davolашni to'xtatish kerak)",
+        "Asab / umumiy": "Bosh og'rig'i, kayfiyat o'zgarishi, charchoq",
+        "Jinsiy": "Sut bezlari noxushligi, qin quruqligi, hayz tartibsizligi"
+      },
+      dozadan: "Belgilari: ko'ngil aynishi, ko'rish buzilishi, qizarish, tuxumdon kattalashishi. Davolash: to'xtatish, simptomatik.",
+      ozarotasir: [
+        "Boshqa ovulyatsiya stimulyatorlari (gonadotropinlar) bilan giperstimulyatsiya xavfi oshadi",
+        "Estrogen preparatlari ta'sirini susaytirishi mumkin"
+      ],
+      qollash: {
+        kattalar: "50 mg×1/kun 5 kun (tsiklning 2–5-kunidан); ovulyatsiya bo'lmasa keyingi tsiklда 100 mg gача (maks. 150 mg, odatda 6 tsikldан ko'p emas). Mutaxassis nazoratида, ovulyatsiya monitoringи bilan.",
+        bolalar: "Qo'llanilmaydi."
+      },
+      chiqarish: "Tabletkalar 50 mg"
+    },
+    ru: {
+      gruppa: "Половые гормоны — стимулятор овуляции (кломифен, СЭРМ)",
+      farmTasir: "Стимулирующий овуляцию (антиэстроген)",
+      farmakodinamika: `Кломифена цитрат — селективный модулятор эстрогеновых рецепторов (СЭРМ). Блокируя эстрогеновые рецепторы в гипоталамусе и гипофизе («антиэстрогеновое» действие), ослабляет отрицательную обратную связь — в результате из гипофиза выделяется больше ФСГ/ЛГ, стимулируются рост фолликулов в яичнике и овуляция. Средство первой линии для восстановления овуляции при ановуляторном бесплодии. Есть риск созревания многих фолликулов (многоплодная беременность).`,
+      farmakokinetika: {
+        sorish: "Внутрь хорошо всасывается.",
+        tarqalish: "Энтерогепатическая рециркуляция.",
+        metabolizm: "В печени.",
+        chiqarilish: "Преимущественно с калом. T½ длинный (~5–7 дней)."
+      },
+      korsatmalar: [
+        "Женское бесплодие, связанное с ановуляцией — стимуляция овуляции",
+        "Индукция овуляции при синдроме поликистозных яичников (СПКЯ)",
+        "У мужчин при гипогонадотропном состоянии (off-label)"
+      ],
+      qarrshi: [
+        "Гиперчувствительность к кломифену",
+        "Беременность; заболевание печени; неустановленное вагинальное кровотечение",
+        "Киста яичника (не СПКЯ) или увеличенный яичник; опухоль гипофиза",
+        "Нелеченая дисфункция щитовидной железы/надпочечников"
+      ],
+      nojoya: {
+        "Яичники": "Синдром гиперстимуляции яичников, многофолликулярность → многоплодие (двойни)",
+        "Вазомоторные / зрение": "Приливы, нечёткость зрения/вспышки света (нужно прекратить лечение)",
+        "Нервы / общие": "Головная боль, изменения настроения, утомляемость",
+        "Половые": "Дискомфорт молочных желёз, сухость влагалища, нарушение менструаций"
+      },
+      dozadan: "Симптомы: тошнота, нарушение зрения, приливы, увеличение яичников. Лечение: отмена, симптоматически.",
+      ozarotasir: [
+        "С другими стимуляторами овуляции (гонадотропины) повышается риск гиперстимуляции",
+        "Может ослаблять действие эстрогеновых препаратов"
+      ],
+      qollash: {
+        kattalar: "50 мг×1/сут 5 дней (со 2–5-го дня цикла); при отсутствии овуляции до 100 мг в следующем цикле (максимум 150 мг, обычно не более 6 циклов). Под контролем специалиста, с мониторингом овуляции.",
+        bolalar: "Не применяется."
+      },
+      chiqarish: "Таблетки 50 мг"
+    },
+    en: {
+      gruppa: "Sex hormones — ovulation stimulant (clomifene, SERM)",
+      farmTasir: "Ovulation-stimulating (antiestrogen)",
+      farmakodinamika: `Clomifene citrate is a selective estrogen receptor modulator (SERM). By blocking estrogen receptors in the hypothalamus and pituitary ('antiestrogenic' action), it weakens negative feedback — so the pituitary releases more FSH/LH, stimulating ovarian follicle growth and ovulation. It is a first-line agent to restore ovulation in anovulatory infertility. There is a risk of maturing many follicles (multiple pregnancy).`,
+      farmakokinetika: {
+        sorish: "Well absorbed orally.",
+        tarqalish: "Enterohepatic recirculation.",
+        metabolizm: "Hepatic.",
+        chiqarilish: "Mainly faecal. T½ long (~5–7 days)."
+      },
+      korsatmalar: [
+        "Female infertility associated with anovulation — ovulation stimulation",
+        "Ovulation induction in polycystic ovary syndrome (PCOS)",
+        "In men with a hypogonadotropic state (off-label)"
+      ],
+      qarrshi: [
+        "Hypersensitivity to clomifene",
+        "Pregnancy; liver disease; undiagnosed vaginal bleeding",
+        "Ovarian cyst (non-PCOS) or enlarged ovary; pituitary tumour",
+        "Untreated thyroid/adrenal dysfunction"
+      ],
+      nojoya: {
+        "Ovaries": "Ovarian hyperstimulation syndrome, multifollicular development → multiple pregnancy (twins)",
+        "Vasomotor / vision": "Hot flushes, blurred vision/light flashes (treatment must be stopped)",
+        "Nerve / general": "Headache, mood changes, fatigue",
+        "Genital": "Breast discomfort, vaginal dryness, menstrual disturbance"
+      },
+      dozadan: "Symptoms: nausea, visual disturbance, flushing, ovarian enlargement. Treatment: discontinue, symptomatic.",
+      ozarotasir: [
+        "With other ovulation stimulants (gonadotropins) the hyperstimulation risk increases",
+        "May weaken the effect of estrogen preparations"
+      ],
+      qollash: {
+        kattalar: "50 mg×1/day for 5 days (from cycle day 2–5); if no ovulation up to 100 mg next cycle (maximum 150 mg, usually no more than 6 cycles). Under specialist supervision, with ovulation monitoring.",
+        bolalar: "Not used."
+      },
+      chiqarish: "Tablets 50 mg"
     }
   }
 
