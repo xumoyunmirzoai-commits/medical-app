@@ -8,6 +8,1220 @@
 
 const PHARMA_DATA = {
   // ─────────────────────────────────────────────────────────
+  // GENITOURINARY — G04 urologik preparatlar (batch 3)
+  // ─────────────────────────────────────────────────────────
+  "G04BD04": {
+    "uz": {
+      "gruppa": "Urologik spazmolitik — M-xolinoblokator (oksibutinin)",
+      "farmTasir": "Siydik qopi giperaktivligida detruzorni bo'shashtiruvchi",
+      "farmakodinamika": "Oksibutinin — uchinchi darajali amin, siydik qopi silliq mushagidagi muskarin (asosan M1, M3) retseptorlarini blokirlaydi va to'g'ridan-to'g'ri miotrop spazmolitik ta'sir ko'rsatadi. Natijada detruzorning beixtiyor qisqarishlari kamayadi, qovuq sig'imi oshadi, siyish chaqirig'i kechikadi. Mahalliy anestetik xususiyati ham bor. Ta'siri muskarin retseptorlarining boshqa joylarida (so'lak bezi, ko'z, ichak, MAT) nojo'ya antixolinergik ta'sirlar beradi.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali tez so'riladi; biokirish pasti (birlamchi jigar metabolizmi).",
+        "tarqalish": "Lipofil — to'qimalarga va MATga o'tadi.",
+        "metabolizm": "Jigarda CYP3A4 orqali faol metabolit (N-dezetiloksibutinin) ga — u ko'p nojo'ya ta'sirlar uchun javobgar.",
+        "chiqarilish": "Asosan siydik orqali metabolitlar shaklida. T½ — ~2–3 soat (tezkor shakl)."
+      },
+      "korsatmalar": [
+        "Siydik qopi giperaktivligi (imperativ siyish chaqiruvi, tez-tez siyish, urgent inkontinensiya)",
+        "Neyrogen detruzor giperaktivligi (masalan, orqa miya shikastlari, spina bifida bolalar)",
+        "Idiopatik detruzor beqarorligi"
+      ],
+      "qarrshi": [
+        "Yopiq burchakli glaukoma; siydik tutilishi (obstruktiv uropatiya)",
+        "Og'ir ichak atoniyasi, toksik megakolon, og'ir yarali kolit, miastenia gravis",
+        "Oksibutininga o'ta sezgirlik"
+      ],
+      "nojoya": {
+        "Antixolinergik": "Og'iz qurishi, qabziyat, ko'rish xiralashishi, akkomodatsiya buzilishi, midriaz",
+        "Asab": "Bosh aylanishi, uyquchanlik, bosh og'rig'i, chalkashlik (keksalar)",
+        "Yurak / boshqa": "Taxikardiya, issiqlikni ko'tara olmaslik (ter ajralishi kamayishi), siydik tutilishi"
+      },
+      "dozadan": "Kuchaygan antixolinergik belgilar: qo'zg'aluvchanlik, gallyutsinatsiya, isitma, taxikardiya, siydik tutilishi, falaj. Davo: simptomatik, og'ir holatda fizostigmin; isitmani nazorat qilish.",
+      "ozarotasir": [
+        "Boshqa antixolinergiklar, trisiklik antidepressantlar, antigistaminlar bilan ta'sir kuchayadi",
+        "CYP3A4 inhibitorlari (ketokonazol, makrolidlar) konsentratsiyani oshiradi",
+        "Oshqozon-ichak harakatini sekinlatib boshqa dorilar so'rilishini o'zgartiradi"
+      ],
+      "qollash": {
+        "kattalar": "Tezkor shakl: 5 mg 2–3 marta/kun (maks 5 mg×4). Uzaytirilgan shakl: 5–10 mg 1 marta/kun. Keksalarda past dozadan boshlanadi.",
+        "bolalar": "5 yoshdan: 2,5–5 mg 2–3 marta/kun, shifokor nazoratida."
+      },
+      "chiqarish": "Tabletkalar 5 mg; uzaytirilgan tabletkalar 5/10 mg; transdermal shakllar"
+    },
+    "ru": {
+      "gruppa": "Урологический спазмолитик — М-холиноблокатор (оксибутинин)",
+      "farmTasir": "Расслабляет детрузор при гиперактивном мочевом пузыре",
+      "farmakodinamika": "Оксибутинин — третичный амин, блокирует мускариновые рецепторы (в основном M1, M3) гладкой мышцы мочевого пузыря и оказывает прямое миотропное спазмолитическое действие. Уменьшаются непроизвольные сокращения детрузора, увеличивается ёмкость пузыря, отдаляется позыв. Обладает и местноанестезирующим свойством. Блокада мускариновых рецепторов в других органах (слюнные железы, глаз, кишечник, ЦНС) даёт антихолинергические побочные эффекты.",
+      "farmakokinetika": {
+        "sorish": "Быстро всасывается внутрь; биодоступность низкая (пресистемный метаболизм).",
+        "tarqalish": "Липофилен — проникает в ткани и ЦНС.",
+        "metabolizm": "В печени через CYP3A4 до активного метаболита (N-дезэтилоксибутинин), ответственного за многие побочные эффекты.",
+        "chiqarilish": "Преимущественно с мочой в виде метаболитов. T½ — ~2–3 ч (быстрая форма)."
+      },
+      "korsatmalar": [
+        "Гиперактивный мочевой пузырь (императивные позывы, учащённое мочеиспускание, ургентное недержание)",
+        "Нейрогенная гиперактивность детрузора (травмы спинного мозга, spina bifida у детей)",
+        "Идиопатическая нестабильность детрузора"
+      ],
+      "qarrshi": [
+        "Закрытоугольная глаукома; задержка мочи (обструктивная уропатия)",
+        "Тяжёлая атония кишечника, токсический мегаколон, тяжёлый язвенный колит, миастения",
+        "Гиперчувствительность к оксибутинину"
+      ],
+      "nojoya": {
+        "Антихолинергические": "Сухость во рту, запор, нечёткость зрения, нарушение аккомодации, мидриаз",
+        "Нервные": "Головокружение, сонливость, головная боль, спутанность (у пожилых)",
+        "Сердце / прочее": "Тахикардия, непереносимость жары (снижение потоотделения), задержка мочи"
+      },
+      "dozadan": "Усиленные антихолинергические симптомы: возбуждение, галлюцинации, лихорадка, тахикардия, задержка мочи, паралич. Лечение: симптоматическое, в тяжёлых случаях физостигмин; контроль гипертермии.",
+      "ozarotasir": [
+        "Усиление эффекта с другими антихолинергиками, трициклическими антидепрессантами, антигистаминами",
+        "Ингибиторы CYP3A4 (кетоконазол, макролиды) повышают концентрацию",
+        "Замедляя моторику ЖКТ, изменяет всасывание других препаратов"
+      ],
+      "qollash": {
+        "kattalar": "Быстрая форма: 5 мг 2–3 раза/сут (макс 5 мг×4). Пролонгированная: 5–10 мг 1 раз/сут. У пожилых начинают с низкой дозы.",
+        "bolalar": "С 5 лет: 2,5–5 мг 2–3 раза/сут под контролем врача."
+      },
+      "chiqarish": "Таблетки 5 мг; пролонгированные таблетки 5/10 мг; трансдермальные формы"
+    },
+    "en": {
+      "gruppa": "Urological antispasmodic — antimuscarinic (oxybutynin)",
+      "farmTasir": "Relaxes the detrusor in overactive bladder",
+      "farmakodinamika": "Oxybutynin is a tertiary amine that blocks muscarinic receptors (mainly M1, M3) of bladder smooth muscle and also has a direct myotropic antispasmodic action. Involuntary detrusor contractions decrease, bladder capacity increases and the urge is delayed. It also has a local anesthetic property. Muscarinic blockade elsewhere (salivary glands, eye, gut, CNS) produces anticholinergic side effects.",
+      "farmakokinetika": {
+        "sorish": "Rapidly absorbed orally; low bioavailability (presystemic metabolism).",
+        "tarqalish": "Lipophilic — penetrates tissues and the CNS.",
+        "metabolizm": "Hepatic via CYP3A4 to an active metabolite (N-desethyloxybutynin) responsible for many side effects.",
+        "chiqarilish": "Mainly in urine as metabolites. T½ ~2–3 h (immediate-release)."
+      },
+      "korsatmalar": [
+        "Overactive bladder (urgency, frequency, urge incontinence)",
+        "Neurogenic detrusor overactivity (spinal cord injury, spina bifida in children)",
+        "Idiopathic detrusor instability"
+      ],
+      "qarrshi": [
+        "Narrow-angle glaucoma; urinary retention (obstructive uropathy)",
+        "Severe intestinal atony, toxic megacolon, severe ulcerative colitis, myasthenia gravis",
+        "Hypersensitivity to oxybutynin"
+      ],
+      "nojoya": {
+        "Anticholinergic": "Dry mouth, constipation, blurred vision, accommodation disturbance, mydriasis",
+        "Nervous": "Dizziness, drowsiness, headache, confusion (in the elderly)",
+        "Cardiac / other": "Tachycardia, heat intolerance (reduced sweating), urinary retention"
+      },
+      "dozadan": "Intensified anticholinergic signs: agitation, hallucinations, fever, tachycardia, urinary retention, paralysis. Treat symptomatically, physostigmine in severe cases; control hyperthermia.",
+      "ozarotasir": [
+        "Effect enhanced with other anticholinergics, tricyclic antidepressants, antihistamines",
+        "CYP3A4 inhibitors (ketoconazole, macrolides) raise levels",
+        "By slowing GI motility it alters the absorption of other drugs"
+      ],
+      "qollash": {
+        "kattalar": "Immediate-release: 5 mg 2–3 times/day (max 5 mg×4). Extended-release: 5–10 mg once daily. Start low in the elderly.",
+        "bolalar": "From age 5: 2.5–5 mg 2–3 times/day under medical supervision."
+      },
+      "chiqarish": "Tablets 5 mg; extended-release tablets 5/10 mg; transdermal forms"
+    }
+  },
+  "G04BD07": {
+    "uz": {
+      "gruppa": "Urologik spazmolitik — M-xolinoblokator (tolterodin)",
+      "farmTasir": "Siydik qopiga selektiv antimuskarin",
+      "farmakodinamika": "Tolterodin — kuchli kompetitiv muskarin retseptor antagonisti. Retsepor podtipiga kimyoviy selektivligi yo'q, lekin funksional jihatdan so'lak beziga qaraganda siydik qopiga ko'proq ta'sir qiladi — shu sababli og'iz qurishi oksibutinindan kamroq. Detruzorning beixtiyor qisqarishlarini kamaytirib qovuq sig'imini oshiradi. Faol metaboliti (5-gidroksimetil) ham ta'sirga hissa qo'shadi.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali tez so'riladi.",
+        "tarqalish": "Plazma oqsillariga yuqori bog'lanadi.",
+        "metabolizm": "Jigarda CYP2D6 (faol 5-HMT metaboliti) va CYP3A4. CYP2D6 'sekin metabolizatorlari' da konsentratsiya yuqori.",
+        "chiqarilish": "Asosan siydik orqali. T½ — ~2–3 soat (uzaytirilgan shaklda uzunroq)."
+      },
+      "korsatmalar": [
+        "Siydik qopi giperaktivligi: imperativ inkontinensiya, tez-tez va shoshilinch siyish"
+      ],
+      "qarrshi": [
+        "Siydik tutilishi, yopiq burchakli glaukoma (nazoratsiz)",
+        "Og'ir yarali kolit, toksik megakolon, miastenia gravis",
+        "Tolterodinga o'ta sezgirlik"
+      ],
+      "nojoya": {
+        "Antixolinergik": "Og'iz qurishi (oksibutinindan kamroq), qabziyat, dispepsiya, ko'rish xiralashishi, ko'z qurishi",
+        "Asab": "Bosh og'rig'i, bosh aylanishi, uyquchanlik",
+        "Yurak": "Taxikardiya, QT intervaliga ehtiyotkorlik (yuqori dozada)"
+      },
+      "dozadan": "Kuchaygan antixolinergik belgilar va QT cho'zilishi mumkin. Davo simptomatik; EKG nazorati.",
+      "ozarotasir": [
+        "Kuchli CYP3A4 inhibitorlari (ketokonazol, makrolidlar) — dozani kamaytirish kerak",
+        "Boshqa antixolinergiklar bilan ta'sir kuchayadi",
+        "QT cho'zuvchi dorilar bilan ehtiyotkorlik"
+      ],
+      "qollash": {
+        "kattalar": "Tezkor: 2 mg 2 marta/kun (jigar/buyrak yetishmovchiligida yoki CYP3A4 inhibitori bilan 1 mg×2). Uzaytirilgan: 4 mg 1 marta/kun.",
+        "bolalar": "Samaradorligi isbotlanmagan — tavsiya etilmaydi."
+      },
+      "chiqarish": "Tabletkalar 1/2 mg; uzaytirilgan kapsulalar 4 mg"
+    },
+    "ru": {
+      "gruppa": "Урологический спазмолитик — М-холиноблокатор (толтеродин)",
+      "farmTasir": "Селективный к мочевому пузырю антимускарин",
+      "farmakodinamika": "Толтеродин — мощный конкурентный антагонист мускариновых рецепторов. Не обладает химической селективностью к подтипам, но функционально действует на мочевой пузырь сильнее, чем на слюнные железы — поэтому сухость во рту меньше, чем у оксибутинина. Уменьшает непроизвольные сокращения детрузора и увеличивает ёмкость пузыря. Активный метаболит (5-гидроксиметил) вносит вклад в действие.",
+      "farmakokinetika": {
+        "sorish": "Быстро всасывается внутрь.",
+        "tarqalish": "Высокое связывание с белками плазмы.",
+        "metabolizm": "В печени CYP2D6 (активный метаболит 5-ГМТ) и CYP3A4. У 'медленных метаболизаторов' CYP2D6 концентрация выше.",
+        "chiqarilish": "Преимущественно с мочой. T½ — ~2–3 ч (у пролонгированной формы дольше)."
+      },
+      "korsatmalar": [
+        "Гиперактивный мочевой пузырь: ургентное недержание, учащённое и императивное мочеиспускание"
+      ],
+      "qarrshi": [
+        "Задержка мочи, закрытоугольная глаукома (неконтролируемая)",
+        "Тяжёлый язвенный колит, токсический мегаколон, миастения",
+        "Гиперчувствительность к толтеродину"
+      ],
+      "nojoya": {
+        "Антихолинергические": "Сухость во рту (меньше, чем у оксибутинина), запор, диспепсия, нечёткость зрения, сухость глаз",
+        "Нервные": "Головная боль, головокружение, сонливость",
+        "Сердце": "Тахикардия, осторожность при удлинении QT (высокие дозы)"
+      },
+      "dozadan": "Возможны усиленные антихолинергические симптомы и удлинение QT. Лечение симптоматическое; контроль ЭКГ.",
+      "ozarotasir": [
+        "Сильные ингибиторы CYP3A4 (кетоконазол, макролиды) — снижать дозу",
+        "Усиление эффекта с другими антихолинергиками",
+        "Осторожно с препаратами, удлиняющими QT"
+      ],
+      "qollash": {
+        "kattalar": "Быстрая: 2 мг 2 раза/сут (при печёночной/почечной недостаточности или с ингибитором CYP3A4 — 1 мг×2). Пролонгированная: 4 мг 1 раз/сут.",
+        "bolalar": "Эффективность не доказана — не рекомендуется."
+      },
+      "chiqarish": "Таблетки 1/2 мг; пролонгированные капсулы 4 мг"
+    },
+    "en": {
+      "gruppa": "Urological antispasmodic — antimuscarinic (tolterodine)",
+      "farmTasir": "Bladder-selective antimuscarinic",
+      "farmakodinamika": "Tolterodine is a potent competitive muscarinic receptor antagonist. It lacks chemical subtype selectivity but functionally acts more on the bladder than the salivary glands, so dry mouth is less than with oxybutynin. It reduces involuntary detrusor contractions and increases bladder capacity. Its active metabolite (5-hydroxymethyl) contributes to the effect.",
+      "farmakokinetika": {
+        "sorish": "Rapidly absorbed orally.",
+        "tarqalish": "High plasma protein binding.",
+        "metabolizm": "Hepatic CYP2D6 (active 5-HMT metabolite) and CYP3A4. CYP2D6 poor metabolizers have higher levels.",
+        "chiqarilish": "Mainly in urine. T½ ~2–3 h (longer for extended-release)."
+      },
+      "korsatmalar": [
+        "Overactive bladder: urge incontinence, frequency and urgency"
+      ],
+      "qarrshi": [
+        "Urinary retention, uncontrolled narrow-angle glaucoma",
+        "Severe ulcerative colitis, toxic megacolon, myasthenia gravis",
+        "Hypersensitivity to tolterodine"
+      ],
+      "nojoya": {
+        "Anticholinergic": "Dry mouth (less than oxybutynin), constipation, dyspepsia, blurred vision, dry eyes",
+        "Nervous": "Headache, dizziness, drowsiness",
+        "Cardiac": "Tachycardia, caution with QT prolongation (high doses)"
+      },
+      "dozadan": "Intensified anticholinergic symptoms and QT prolongation possible. Treat symptomatically; ECG monitoring.",
+      "ozarotasir": [
+        "Strong CYP3A4 inhibitors (ketoconazole, macrolides) — reduce the dose",
+        "Effect enhanced with other anticholinergics",
+        "Caution with QT-prolonging drugs"
+      ],
+      "qollash": {
+        "kattalar": "Immediate-release: 2 mg twice daily (1 mg×2 with hepatic/renal impairment or a CYP3A4 inhibitor). Extended-release: 4 mg once daily.",
+        "bolalar": "Efficacy not established — not recommended."
+      },
+      "chiqarish": "Tablets 1/2 mg; extended-release capsules 4 mg"
+    }
+  },
+  "G04BD08": {
+    "uz": {
+      "gruppa": "Urologik spazmolitik — selektiv M3-xolinoblokator (solifenatsin)",
+      "farmTasir": "Siydik qopi giperaktivligida M3-selektiv antimuskarin",
+      "farmakodinamika": "Solifenatsin — siydik qopi detruzorida ustun bo'lgan M3 muskarin retseptoriga nisbatan yuqori selektivlikка ega kompetitiv antagonist. M3 blokadasi beixtiyor detruzor qisqarishlarini kamaytirib, qovuq sig'imini oshiradi va urgent siyishni kamaytiradi. Nisbatan M3-selektivligi tufayli og'iz qurishi va yurak ta'sirlari mo''tadil. Uzun yarim chiqarilish davri kuniga 1 marta qabulга imkon beradi.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali yaxshi so'riladi (biokirish ~90%); ovqat ta'sir qilmaydi.",
+        "tarqalish": "Plazma oqsillariga yuqori bog'lanadi.",
+        "metabolizm": "Jigarda CYP3A4 orqali.",
+        "chiqarilish": "Siydik va najas orqali. T½ — ~45–68 soat (uzun)."
+      },
+      "korsatmalar": [
+        "Siydik qopi giperaktivligi: imperativ inkontinensiya, tez-tez va shoshilinch siyish"
+      ],
+      "qarrshi": [
+        "Siydik tutilishi, og'ir oshqozon-ichak holatlari (toksik megakolon)",
+        "Yopiq burchakli glaukoma (nazoratsiz), miastenia gravis",
+        "Gemodializdagi bemorlar, og'ir jigar yetishmovchiligi",
+        "Solifenatsinga o'ta sezgirlik"
+      ],
+      "nojoya": {
+        "Antixolinergik": "Og'iz qurishi, qabziyat, ko'rish xiralashishi, dispepsiya",
+        "Yurak": "Taxikardiya, QT intervalining cho'zilishiga ehtiyotkorlik",
+        "Boshqa": "Siydik tutilishi, quruq teri, kamdan-kam — angioshish"
+      },
+      "dozadan": "Kuchaygan antixolinergik belgilar. Davo: faollashtirilgan ko'mir, simptomatik, og'irda fizostigmin; EKG nazorati.",
+      "ozarotasir": [
+        "Kuchli CYP3A4 inhibitorlari (ketokonazol) — dozani 5 mg gacha cheklash",
+        "QT cho'zuvchi dorilar bilan ehtiyotkorlik",
+        "Boshqa antixolinergiklar bilan ta'sir kuchayadi"
+      ],
+      "qollash": {
+        "kattalar": "5 mg 1 marta/kun; samara yetarli bo'lmasa va yaxshi ko'tarilsa 10 mg/kun. Og'ir buyrak yoki o'rta jigar yetishmovchiligida maks 5 mg.",
+        "bolalar": "Tavsiya etilmaydi."
+      },
+      "chiqarish": "Tabletkalar 5 mg, 10 mg"
+    },
+    "ru": {
+      "gruppa": "Урологический спазмолитик — селективный M3-холиноблокатор (солифенацин)",
+      "farmTasir": "M3-селективный антимускарин при гиперактивном мочевом пузыре",
+      "farmakodinamika": "Солифенацин — конкурентный антагонист с высокой селективностью к рецептору M3, преобладающему в детрузоре. Блокада M3 уменьшает непроизвольные сокращения детрузора, увеличивает ёмкость пузыря и снижает ургентность. Благодаря относительной M3-селективности сухость во рту и сердечные эффекты умеренные. Длинный период полувыведения позволяет приём 1 раз/сут.",
+      "farmakokinetika": {
+        "sorish": "Хорошо всасывается внутрь (биодоступность ~90%); пища не влияет.",
+        "tarqalish": "Высокое связывание с белками плазмы.",
+        "metabolizm": "В печени через CYP3A4.",
+        "chiqarilish": "С мочой и калом. T½ — ~45–68 ч (длинный)."
+      },
+      "korsatmalar": [
+        "Гиперактивный мочевой пузырь: ургентное недержание, учащённое и императивное мочеиспускание"
+      ],
+      "qarrshi": [
+        "Задержка мочи, тяжёлые состояния ЖКТ (токсический мегаколон)",
+        "Закрытоугольная глаукома (неконтролируемая), миастения",
+        "Пациенты на гемодиализе, тяжёлая печёночная недостаточность",
+        "Гиперчувствительность к солифенацину"
+      ],
+      "nojoya": {
+        "Антихолинергические": "Сухость во рту, запор, нечёткость зрения, диспепсия",
+        "Сердце": "Тахикардия, осторожность при удлинении QT",
+        "Прочее": "Задержка мочи, сухость кожи, редко — ангиоотёк"
+      },
+      "dozadan": "Усиленные антихолинергические симптомы. Лечение: активированный уголь, симптоматически, в тяжёлых случаях физостигмин; контроль ЭКГ.",
+      "ozarotasir": [
+        "Сильные ингибиторы CYP3A4 (кетоконазол) — ограничить дозу до 5 мг",
+        "Осторожно с препаратами, удлиняющими QT",
+        "Усиление эффекта с другими антихолинергиками"
+      ],
+      "qollash": {
+        "kattalar": "5 мг 1 раз/сут; при недостаточном эффекте и хорошей переносимости 10 мг/сут. При тяжёлой почечной или умеренной печёночной недостаточности макс 5 мг.",
+        "bolalar": "Не рекомендуется."
+      },
+      "chiqarish": "Таблетки 5 мг, 10 мг"
+    },
+    "en": {
+      "gruppa": "Urological antispasmodic — selective M3 antimuscarinic (solifenacin)",
+      "farmTasir": "M3-selective antimuscarinic for overactive bladder",
+      "farmakodinamika": "Solifenacin is a competitive antagonist with high selectivity for the M3 receptor that predominates in the detrusor. M3 blockade reduces involuntary detrusor contractions, increases bladder capacity and lessens urgency. Its relative M3 selectivity makes dry mouth and cardiac effects moderate. A long half-life allows once-daily dosing.",
+      "farmakokinetika": {
+        "sorish": "Well absorbed orally (bioavailability ~90%); food has no effect.",
+        "tarqalish": "High plasma protein binding.",
+        "metabolizm": "Hepatic via CYP3A4.",
+        "chiqarilish": "In urine and feces. T½ ~45–68 h (long)."
+      },
+      "korsatmalar": [
+        "Overactive bladder: urge incontinence, frequency and urgency"
+      ],
+      "qarrshi": [
+        "Urinary retention, severe GI conditions (toxic megacolon)",
+        "Uncontrolled narrow-angle glaucoma, myasthenia gravis",
+        "Patients on hemodialysis, severe hepatic impairment",
+        "Hypersensitivity to solifenacin"
+      ],
+      "nojoya": {
+        "Anticholinergic": "Dry mouth, constipation, blurred vision, dyspepsia",
+        "Cardiac": "Tachycardia, caution with QT prolongation",
+        "Other": "Urinary retention, dry skin, rarely angioedema"
+      },
+      "dozadan": "Intensified anticholinergic symptoms. Treat with activated charcoal, symptomatically, physostigmine in severe cases; ECG monitoring.",
+      "ozarotasir": [
+        "Strong CYP3A4 inhibitors (ketoconazole) — limit dose to 5 mg",
+        "Caution with QT-prolonging drugs",
+        "Effect enhanced with other anticholinergics"
+      ],
+      "qollash": {
+        "kattalar": "5 mg once daily; if response is inadequate and well tolerated, 10 mg/day. With severe renal or moderate hepatic impairment, max 5 mg.",
+        "bolalar": "Not recommended."
+      },
+      "chiqarish": "Tablets 5 mg, 10 mg"
+    }
+  },
+  "G04BD09": {
+    "uz": {
+      "gruppa": "Urologik spazmolitik — to'rtlamchi amin antimuskarin (trospium)",
+      "farmTasir": "MATga o'tmaydigan siydik qopi spazmolitigi",
+      "farmakodinamika": "Trospium xlorid — to'rtlamchi ammoniy birikmasi, nospesifik muskarin retseptor antagonisti. Detruzor silliq mushagini bo'shashtirib beixtiyor qisqarishlarni kamaytiradi va qovuq sig'imini oshiradi. To'rtlamchi tuzilishi tufayli gematoensefalik to'siqdan deyarli o'tmaydi — markaziy (kognitiv) nojo'ya ta'sirlar minimal, shu sababli keksalar uchun qulay.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali kam so'riladi (biokirish <10%); ovqat so'rilishini pasaytiradi — och qoringa olinadi.",
+        "tarqalish": "MATga deyarli o'tmaydi.",
+        "metabolizm": "CYP tizimi orqali sezilarli metabolizmga uchramaydi (efir gidrolizi).",
+        "chiqarilish": "Asosan siydik orqali o'zgarmagan holda. T½ — ~20 soat."
+      },
+      "korsatmalar": [
+        "Siydik qopi giperaktivligi: urgent inkontinensiya, tez-tez va shoshilinch siyish"
+      ],
+      "qarrshi": [
+        "Siydik tutilishi, og'ir oshqozon-ichak obstruksiyasi (toksik megakolon)",
+        "Yopiq burchakli glaukoma (nazoratsiz), miastenia gravis",
+        "Og'ir buyrak yetishmovchiligi, taxiaritmiya",
+        "Trospiumga o'ta sezgirlik"
+      ],
+      "nojoya": {
+        "Antixolinergik": "Og'iz qurishi, qabziyat, dispepsiya (markaziy ta'sir kam)",
+        "Yurak": "Taxikardiya (kamdan-kam)",
+        "Boshqa": "Siydik tutilishi, ko'rish xiralashishi"
+      },
+      "dozadan": "Kuchaygan antixolinergik belgilar. Davo: simptomatik, og'irda fizostigmin.",
+      "ozarotasir": [
+        "Boshqa antixolinergiklar bilan ta'sir kuchayadi",
+        "Buyrak orqali chiqariladigan dorilar (metformin, digoksin) bilan raqobat mumkin",
+        "CYP orqali o'zaro ta'sir kam (afzallik)"
+      ],
+      "qollash": {
+        "kattalar": "20 mg 2 marta/kun, ovqatdan oldin och qoringa; yoki uzaytirilgan 60 mg 1 marta/kun. Og'ir buyrak yetishmovchiligida 20 mg/kun.",
+        "bolalar": "Tavsiya etilmaydi."
+      },
+      "chiqarish": "Tabletkalar 20 mg; uzaytirilgan kapsulalar 60 mg"
+    },
+    "ru": {
+      "gruppa": "Урологический спазмолитик — четвертичный амин антимускарин (троспий)",
+      "farmTasir": "Спазмолитик мочевого пузыря, не проникающий в ЦНS",
+      "farmakodinamika": "Троспия хлорид — четвертичное аммониевое соединение, неспецифический антагонист мускариновых рецепторов. Расслабляет гладкую мышцу детрузора, уменьшает непроизвольные сокращения и увеличивает ёмкость пузыря. Из-за четвертичной структуры практически не проникает через гематоэнцефалический барьер — центральные (когнитивные) побочные эффекты минимальны, что удобно для пожилых.",
+      "farmakokinetika": {
+        "sorish": "Плохо всасывается внутрь (биодоступность <10%); пища снижает всасывание — принимать натощак.",
+        "tarqalish": "Практически не проникает в ЦНS.",
+        "metabolizm": "Существенно не метаболизируется через CYP (эфирный гидролиз).",
+        "chiqarilish": "Преимущественно с мочой в неизменённом виде. T½ — ~20 ч."
+      },
+      "korsatmalar": [
+        "Гиперактивный мочевой пузырь: ургентное недержание, учащённое и императивное мочеиспускание"
+      ],
+      "qarrshi": [
+        "Задержка мочи, тяжёлая обструкция ЖКТ (токсический мегаколон)",
+        "Закрытоугольная глаукома (неконтролируемая), миастения",
+        "Тяжёлая почечная недостаточность, тахиаритмия",
+        "Гиперчувствительность к троспию"
+      ],
+      "nojoya": {
+        "Антихолинергические": "Сухость во рту, запор, диспепсия (центральное действие незначительно)",
+        "Сердце": "Тахикардия (редко)",
+        "Прочее": "Задержка мочи, нечёткость зрения"
+      },
+      "dozadan": "Усиленные антихолинергические симптомы. Лечение: симптоматически, в тяжёлых случаях физостигмин.",
+      "ozarotasir": [
+        "Усиление эффекта с другими антихолинергиками",
+        "Возможна конкуренция с препаратами, выводимыми почками (метформин, дигоксин)",
+        "Мало взаимодействий через CYP (преимущество)"
+      ],
+      "qollash": {
+        "kattalar": "20 мг 2 раза/сут натощак до еды; или пролонгированная 60 мг 1 раз/сут. При тяжёлой почечной недостаточности 20 мг/сут.",
+        "bolalar": "Не рекомендуется."
+      },
+      "chiqarish": "Таблетки 20 мг; пролонгированные капсулы 60 мг"
+    },
+    "en": {
+      "gruppa": "Urological antispasmodic — quaternary amine antimuscarinic (trospium)",
+      "farmTasir": "Bladder antispasmodic that does not enter the CNS",
+      "farmakodinamika": "Trospium chloride is a quaternary ammonium compound and a nonselective muscarinic receptor antagonist. It relaxes detrusor smooth muscle, reduces involuntary contractions and increases bladder capacity. Its quaternary structure means it barely crosses the blood-brain barrier — central (cognitive) side effects are minimal, which is convenient for the elderly.",
+      "farmakokinetika": {
+        "sorish": "Poorly absorbed orally (bioavailability <10%); food reduces absorption — take on an empty stomach.",
+        "tarqalish": "Barely enters the CNS.",
+        "metabolizm": "Not significantly metabolized by CYP (ester hydrolysis).",
+        "chiqarilish": "Mainly unchanged in urine. T½ ~20 h."
+      },
+      "korsatmalar": [
+        "Overactive bladder: urge incontinence, frequency and urgency"
+      ],
+      "qarrshi": [
+        "Urinary retention, severe GI obstruction (toxic megacolon)",
+        "Uncontrolled narrow-angle glaucoma, myasthenia gravis",
+        "Severe renal impairment, tachyarrhythmia",
+        "Hypersensitivity to trospium"
+      ],
+      "nojoya": {
+        "Anticholinergic": "Dry mouth, constipation, dyspepsia (central effects negligible)",
+        "Cardiac": "Tachycardia (rare)",
+        "Other": "Urinary retention, blurred vision"
+      },
+      "dozadan": "Intensified anticholinergic symptoms. Treat symptomatically, physostigmine in severe cases.",
+      "ozarotasir": [
+        "Effect enhanced with other anticholinergics",
+        "Possible competition with renally excreted drugs (metformin, digoxin)",
+        "Few CYP interactions (an advantage)"
+      ],
+      "qollash": {
+        "kattalar": "20 mg twice daily on an empty stomach before meals; or extended-release 60 mg once daily. With severe renal impairment, 20 mg/day.",
+        "bolalar": "Not recommended."
+      },
+      "chiqarish": "Tablets 20 mg; extended-release capsules 60 mg"
+    }
+  },
+  "G04BE08": {
+    "uz": {
+      "gruppa": "Erektil disfunksiya vositasi — PDE5 inhibitori (tadalafil)",
+      "farmTasir": "Uzoq ta'sirli fosfodiesteraza-5 inhibitori",
+      "farmakodinamika": "Tadalafil — fosfodiesteraza tip 5 (PDE5) ning selektiv qaytar inhibitori. Jinsiy qo'zg'alishda kavernoz tanada azot oksidi (NO) ajraladi va sGС orqali siklik GMF (sGMF) hosil bo'ladi; PDE5 sGMF ni parchalaydi. Tadalafil PDE5 ni inhibirlab sGMF ni ko'paytiradi — silliq mushak bo'shashadi, qon to'lishi kuchayadi va ereksiya yuzaga keladi. Faqat jinsiy qo'zg'alish bo'lganida ishlaydi. Prostata va siydik qopi bo'ynidagi PDE5 ga ham ta'sir qilib BPH belgilarini yengillashtiradi. Uzun ta'siri (36 soatgacha) bilan ajralib turadi.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali so'riladi; ovqat ta'sir qilmaydi.",
+        "tarqalish": "Plazma oqsillariga yuqori bog'lanadi.",
+        "metabolizm": "Jigarda CYP3A4 orqali.",
+        "chiqarilish": "Asosan najas, qisman siydik. T½ — ~17,5 soat (uzun)."
+      },
+      "korsatmalar": [
+        "Erektil disfunksiya",
+        "Yaxshi sifatli prostata giperplaziyasi (BPH) belgilari (kuniga past doza)",
+        "O'pka arterial gipertenziyasi (alohida ko'rsatma/doza)"
+      ],
+      "qarrshi": [
+        "Nitratlar yoki NO donorlari bilan birga (xavfli gipotenziya) — mutlaq qarshi ko'rsatma",
+        "Yaqinda o'tkazilgan infarkt/insult, beqaror stenokardiya, og'ir gipotenziya yoki nazoratsiz gipertenziya",
+        "Og'ir jigar yetishmovchiligi; nasldan o'tuvchi retina kasalliklari (retinitis pigmentosa)",
+        "Riotsiguat (sGС stimulyatori) bilan birga"
+      ],
+      "nojoya": {
+        "Vazodilatatsiya": "Bosh og'rig'i, yuz qizarishi (flushing), burun bitishi",
+        "Hazm / mushak": "Dispepsiya, bel va mushak og'rig'i (tadalafilga xos)",
+        "Kam uchraydigan / jiddiy": "Priapizm (4 soatdan ortiq ereksiya — shoshilinch yordam), birdaniga ko'rish yoki eshitish pasayishi"
+      },
+      "dozadan": "Kuchaygan nojo'ya ta'sirlar (bosh og'rig'i, gipotenziya). Davo: simptomatik; dializ samarasiz.",
+      "ozarotasir": [
+        "Nitratlar/NO donorlari: xavfli gipotenziya (mutlaq mumkin emas)",
+        "Alfa-blokatorlar va antigipertenziv vositalar: gipotenziya kuchayadi",
+        "Kuchli CYP3A4 inhibitorlari (ketokonazol, ritonavir) konsentratsiyani oshiradi; induktorlar (rifampitsin) kamaytiradi"
+      ],
+      "qollash": {
+        "kattalar": "Erektil disfunksiya: 10 mg jinsiy aloqadan oldin (5–20 mg oralig'ida); yoki kuniga 1 marta 2,5–5 mg. BPH: 5 mg/kun. Maks 1 marta/kun.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Tabletkalar 2,5; 5; 10; 20 mg"
+    },
+    "ru": {
+      "gruppa": "Средство при эректильной дисфункции — ингибитор ФДЭ5 (тадалафил)",
+      "farmTasir": "Длительно действующий ингибитор фосфодиэстеразы-5",
+      "farmakodinamika": "Тадалафил — селективный обратимый ингибитор фосфодиэстеразы типа 5 (ФДЭ5). При половом возбуждении в кавернозном теле высвобождается оксид азота (NO), через ГЦ образуется циклический ГМФ (цГМФ); ФДЭ5 расщепляет цГМФ. Тадалафил ингибирует ФДЭ5 и повышает цГМФ — гладкая мышца расслабляется, усиливается приток крови и возникает эрекция. Действует только при половом возбуждении. Влияя на ФДЭ5 в простате и шейке пузыря, облегчает симптомы ДГПЖ. Отличается длительным действием (до 36 ч).",
+      "farmakokinetika": {
+        "sorish": "Всасывается внутрь; пища не влияет.",
+        "tarqalish": "Высокое связывание с белками плазмы.",
+        "metabolizm": "В печени через CYP3A4.",
+        "chiqarilish": "Преимущественно с калом, частично с мочой. T½ — ~17,5 ч (длинный)."
+      },
+      "korsatmalar": [
+        "Эректильная дисфункция",
+        "Симптомы доброкачественной гиперплазии предстательной железы (ДГПЖ) (низкая доза ежедневно)",
+        "Лёгочная артериальная гипертензия (отдельное показание/доза)"
+      ],
+      "qarrshi": [
+        "Совместно с нитратами или донорами NO (опасная гипотензия) — абсолютное противопоказание",
+        "Недавний инфаркт/инсульт, нестабильная стенокардия, тяжёлая гипотензия или неконтролируемая гипертензия",
+        "Тяжёлая печёночная недостаточность; наследственные болезни сетчатки (пигментный ретинит)",
+        "Совместно с риоцигуатом (стимулятор ГЦ)"
+      ],
+      "nojoya": {
+        "Вазодилатация": "Головная боль, покраснение лица (приливы), заложенность носа",
+        "ЖКТ / мышцы": "Диспепсия, боль в спине и мышцах (характерно для тадалафила)",
+        "Редкие / серьёзные": "Приапизм (эрекция более 4 ч — неотложная помощь), внезапное снижение зрения или слуха"
+      },
+      "dozadan": "Усиленные побочные эффекты (головная боль, гипотензия). Лечение симптоматическое; диализ неэффективен.",
+      "ozarotasir": [
+        "Нитраты/доноры NO: опасная гипотензия (абсолютно нельзя)",
+        "Альфа-блокаторы и антигипертензивные: усиление гипотензии",
+        "Сильные ингибиторы CYP3A4 (кетоконазол, ритонавир) повышают концентрацию; индукторы (рифампицин) снижают"
+      ],
+      "qollash": {
+        "kattalar": "Эректильная дисфункция: 10 мг перед половым актом (диапазон 5–20 мг); или 2,5–5 мг 1 раз/сут. ДГПЖ: 5 мг/сут. Максимум 1 раз/сут.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Таблетки 2,5; 5; 10; 20 мг"
+    },
+    "en": {
+      "gruppa": "Erectile dysfunction agent — PDE5 inhibitor (tadalafil)",
+      "farmTasir": "Long-acting phosphodiesterase-5 inhibitor",
+      "farmakodinamika": "Tadalafil is a selective reversible inhibitor of phosphodiesterase type 5 (PDE5). During sexual arousal, nitric oxide (NO) is released in the corpus cavernosum and cyclic GMP (cGMP) is formed via guanylate cyclase; PDE5 degrades cGMP. Tadalafil inhibits PDE5 and increases cGMP — smooth muscle relaxes, blood inflow increases and an erection occurs. It works only with sexual stimulation. By acting on PDE5 in the prostate and bladder neck it also eases BPH symptoms. It is distinguished by a long duration (up to 36 h).",
+      "farmakokinetika": {
+        "sorish": "Absorbed orally; food has no effect.",
+        "tarqalish": "High plasma protein binding.",
+        "metabolizm": "Hepatic via CYP3A4.",
+        "chiqarilish": "Mainly in feces, partly in urine. T½ ~17.5 h (long)."
+      },
+      "korsatmalar": [
+        "Erectile dysfunction",
+        "Symptoms of benign prostatic hyperplasia (BPH) (low daily dose)",
+        "Pulmonary arterial hypertension (separate indication/dose)"
+      ],
+      "qarrshi": [
+        "With nitrates or NO donors (dangerous hypotension) — absolute contraindication",
+        "Recent MI/stroke, unstable angina, severe hypotension or uncontrolled hypertension",
+        "Severe hepatic impairment; hereditary retinal disease (retinitis pigmentosa)",
+        "With riociguat (a guanylate cyclase stimulator)"
+      ],
+      "nojoya": {
+        "Vasodilation": "Headache, facial flushing, nasal congestion",
+        "GI / muscle": "Dyspepsia, back and muscle pain (characteristic of tadalafil)",
+        "Rare / serious": "Priapism (erection over 4 h — emergency), sudden vision or hearing loss"
+      },
+      "dozadan": "Intensified side effects (headache, hypotension). Treat symptomatically; dialysis is ineffective.",
+      "ozarotasir": [
+        "Nitrates/NO donors: dangerous hypotension (absolutely contraindicated)",
+        "Alpha-blockers and antihypertensives: enhanced hypotension",
+        "Strong CYP3A4 inhibitors (ketoconazole, ritonavir) raise levels; inducers (rifampicin) lower them"
+      ],
+      "qollash": {
+        "kattalar": "Erectile dysfunction: 10 mg before intercourse (range 5–20 mg); or 2.5–5 mg once daily. BPH: 5 mg/day. Maximum once daily.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Tablets 2.5; 5; 10; 20 mg"
+    }
+  },
+  "G04BE09": {
+    "uz": {
+      "gruppa": "Erektil disfunksiya vositasi — PDE5 inhibitori (vardenafil)",
+      "farmTasir": "Fosfodiesteraza-5 inhibitori",
+      "farmakodinamika": "Vardenafil — PDE5 ning kuchli selektiv inhibitori. Jinsiy qo'zg'alishda NO–sGMF yo'lini kuchaytirib kavernoz tana silliq mushagini bo'shashtiradi va ereksiyani ta'minlaydi. Sildenafilga o'xshash, lekin PDE5 ga affinligi yuqoriroq. Ta'siri jinsiy qo'zg'alishga bog'liq.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali tez so'riladi; yog'li ovqat so'rilishni sekinlashtiradi.",
+        "tarqalish": "Plazma oqsillariga yuqori bog'lanadi.",
+        "metabolizm": "Jigarda CYP3A4 (qisman 3A5, 2C9).",
+        "chiqarilish": "Asosan najas. T½ — ~4–5 soat."
+      },
+      "korsatmalar": [
+        "Erektil disfunksiya"
+      ],
+      "qarrshi": [
+        "Nitratlar yoki NO donorlari bilan birga — mutlaq qarshi ko'rsatma",
+        "Yaqinda infarkt/insult, beqaror stenokardiya, og'ir gipotenziya/nazoratsiz gipertenziya",
+        "QT intervalini cho'zuvchi holatlar yoki I/III sinf antiaritmiklar bilan",
+        "Og'ir jigar yetishmovchiligi, riotsiguat bilan"
+      ],
+      "nojoya": {
+        "Vazodilatatsiya": "Bosh og'rig'i, yuz qizarishi, burun bitishi",
+        "Yurak": "QT intervalining cho'zilishi (sildenafil/tadalafildan ko'proq xos)",
+        "Kam uchraydigan / jiddiy": "Priapizm, birdaniga ko'rish/eshitish pasayishi"
+      },
+      "dozadan": "Kuchaygan nojo'ya ta'sirlar, mumkin QT cho'zilishi. Davo simptomatik; EKG nazorati.",
+      "ozarotasir": [
+        "Nitratlar/NO donorlari: xavfli gipotenziya",
+        "Alfa-blokatorlar va antigipertenziv vositalar: gipotenziya kuchayadi",
+        "Kuchli CYP3A4 inhibitorlari konsentratsiyani sezilarli oshiradi (doza cheklanadi); QT cho'zuvchi dorilar bilan ehtiyotkorlik"
+      ],
+      "qollash": {
+        "kattalar": "10 mg jinsiy aloqadan ~25–60 daqiqa oldin (5–20 mg oralig'ida); kuniga maks 1 marta. Keksalar va jigar yetishmovchiligida past dozadan.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Tabletkalar 5; 10; 20 mg; og'izda eriydigan tabletkalar"
+    },
+    "ru": {
+      "gruppa": "Средство при эректильной дисфункции — ингибитор ФДЭ5 (варденафил)",
+      "farmTasir": "Ингибитор фосфодиэстеразы-5",
+      "farmakodinamika": "Варденафил — мощный селективный ингибитор ФДЭ5. При половом возбуждении усиливает путь NO–цГМФ, расслабляя гладкую мышцу кавернозного тела и обеспечивая эрекцию. Похож на силденафил, но с более высокой аффинностью к ФДЭ5. Действие зависит от полового возбуждения.",
+      "farmakokinetika": {
+        "sorish": "Быстро всасывается внутрь; жирная пища замедляет всасывание.",
+        "tarqalish": "Высокое связывание с белками плазмы.",
+        "metabolizm": "В печени CYP3A4 (частично 3A5, 2C9).",
+        "chiqarilish": "Преимущественно с калом. T½ — ~4–5 ч."
+      },
+      "korsatmalar": [
+        "Эректильная дисфункция"
+      ],
+      "qarrshi": [
+        "Совместно с нитратами или донорами NO — абсолютное противопоказание",
+        "Недавний инфаркт/инсульт, нестабильная стенокардия, тяжёлая гипотензия/неконтролируемая гипертензия",
+        "Состояния с удлинением QT или приём антиаритмиков I/III класса",
+        "Тяжёлая печёночная недостаточность, совместно с риоцигуатом"
+      ],
+      "nojoya": {
+        "Вазодилатация": "Головная боль, покраснение лица, заложенность носа",
+        "Сердце": "Удлинение QT (более характерно, чем у силденафила/тадалафила)",
+        "Редкие / серьёзные": "Приапизм, внезапное снижение зрения/слуха"
+      },
+      "dozadan": "Усиленные побочные эффекты, возможно удлинение QT. Лечение симптоматическое; контроль ЭКГ.",
+      "ozarotasir": [
+        "Нитраты/доноры NO: опасная гипотензия",
+        "Альфа-блокаторы и антигипертензивные: усиление гипотензии",
+        "Сильные ингибиторы CYP3A4 заметно повышают концентрацию (доза ограничивается); осторожно с препаратами, удлиняющими QT"
+      ],
+      "qollash": {
+        "kattalar": "10 мг за ~25–60 мин до полового акта (диапазон 5–20 мг); максимум 1 раз/сут. У пожилых и при печёночной недостаточности — с низкой дозы.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Таблетки 5; 10; 20 мг; таблетки, диспергируемые во рту"
+    },
+    "en": {
+      "gruppa": "Erectile dysfunction agent — PDE5 inhibitor (vardenafil)",
+      "farmTasir": "Phosphodiesterase-5 inhibitor",
+      "farmakodinamika": "Vardenafil is a potent selective PDE5 inhibitor. During sexual arousal it enhances the NO–cGMP pathway, relaxing corpus cavernosum smooth muscle and enabling erection. It is similar to sildenafil but with higher PDE5 affinity. Its effect depends on sexual stimulation.",
+      "farmakokinetika": {
+        "sorish": "Rapidly absorbed orally; a fatty meal slows absorption.",
+        "tarqalish": "High plasma protein binding.",
+        "metabolizm": "Hepatic CYP3A4 (partly 3A5, 2C9).",
+        "chiqarilish": "Mainly in feces. T½ ~4–5 h."
+      },
+      "korsatmalar": [
+        "Erectile dysfunction"
+      ],
+      "qarrshi": [
+        "With nitrates or NO donors — absolute contraindication",
+        "Recent MI/stroke, unstable angina, severe hypotension/uncontrolled hypertension",
+        "Conditions with QT prolongation or class I/III antiarrhythmics",
+        "Severe hepatic impairment, with riociguat"
+      ],
+      "nojoya": {
+        "Vasodilation": "Headache, facial flushing, nasal congestion",
+        "Cardiac": "QT prolongation (more characteristic than sildenafil/tadalafil)",
+        "Rare / serious": "Priapism, sudden vision/hearing loss"
+      },
+      "dozadan": "Intensified side effects, possible QT prolongation. Treat symptomatically; ECG monitoring.",
+      "ozarotasir": [
+        "Nitrates/NO donors: dangerous hypotension",
+        "Alpha-blockers and antihypertensives: enhanced hypotension",
+        "Strong CYP3A4 inhibitors markedly raise levels (dose limited); caution with QT-prolonging drugs"
+      ],
+      "qollash": {
+        "kattalar": "10 mg ~25–60 min before intercourse (range 5–20 mg); maximum once daily. Start low in the elderly and hepatic impairment.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Tablets 5; 10; 20 mg; orodispersible tablets"
+    }
+  },
+  "G04BX14": {
+    "uz": {
+      "gruppa": "Erta eyakulyatsiya vositasi — qisqa ta'sirli SSRI (dapoksetin)",
+      "farmTasir": "Eyakulyatsiya kechikishini uzaytiruvchi",
+      "farmakodinamika": "Dapoksetin — qisqa ta'sirli selektiv serotonin qayta tutilishi inhibitori (SSRI), maxsus erta (premature) eyakulyatsiyani davolash uchun yaratilgan. Presinaptik serotonin transporterini blokirlab sinaptik yoriqда serotonin (5-HT) miqdorini oshiradi va eyakulyatsiya refleksining markaziy nazoratini kuchaytiradi — intravaginal eyakulyatsiya latensiyasini (IELT) uzaytiradi. Tez so'rilishi va tez chiqarilishi 'kerak bo'lganda' qabulga mos.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali tez so'riladi (cho'qqi ~1–2 soat).",
+        "tarqalish": "Plazma oqsillariga yuqori bog'lanadi.",
+        "metabolizm": "Jigarda (CYP2D6, CYP3A4, FMO1).",
+        "chiqarilish": "Asosan siydik (metabolitlar). T½ qisqa (~1,5 soat boshlang'ich) — kunlik to'planmaydi."
+      },
+      "korsatmalar": [
+        "Erkaklarda erta (premature) eyakulyatsiya (18–64 yosh)"
+      ],
+      "qarrshi": [
+        "MAO inhibitorlari bilan (va to'xtatgandan 14 kun ichida) — serotonin sindromi xavfi",
+        "Tioridazin, kuchli CYP3A4 inhibitorlari bilan",
+        "Og'ir yurak kasalliklari (yurak yetishmovchiligi, o'tkazuvchanlik buzilishi, ishemiya)",
+        "O'rta/og'ir jigar yetishmovchiligi; depressiya/maniya anamnezi"
+      ],
+      "nojoya": {
+        "Asab": "Bosh aylanishi, bosh og'rig'i, uyquchanlik, bezovtalik",
+        "Ortostatik": "Ortostatik gipotenziya, hushdan ketish (sinkopa) — ehtiyotkorlik talab",
+        "Hazm": "Ko'ngil aynishi, diareya, og'iz qurishi"
+      },
+      "dozadan": "Ko'ngil aynishi, bosh aylanishi, gipotenziya; yuqori dozada serotonin sindromi belgilari mumkin. Davo simptomatik.",
+      "ozarotasir": [
+        "MAO inhibitorlari, boshqa serotonergik vositalar (SSRI/SNRI, triptanlar, tramadol, St. John's wort): serotonin sindromi",
+        "Kuchli CYP3A4/2D6 inhibitorlari konsentratsiyani oshiradi",
+        "PDE5 inhibitorlari yoki alfa-blokatorlar bilan ortostatik gipotenziya kuchayishi mumkin"
+      ],
+      "qollash": {
+        "kattalar": "30 mg jinsiy aloqadan 1–3 soat oldin (kerak bo'lganda); samara/tolerantlikка qarab 60 mg gacha. Kuniga maks 1 marta.",
+        "bolalar": "Qo'llanilmaydi (faqat 18 yoshdan)."
+      },
+      "chiqarish": "Tabletkalar 30 mg, 60 mg"
+    },
+    "ru": {
+      "gruppa": "Средство при преждевременной эякуляции — короткодействующий СИОЗС (дапоксетин)",
+      "farmTasir": "Удлиняет латентность эякуляции",
+      "farmakodinamika": "Дапоксетин — короткодействующий селективный ингибитор обратного захвата серотонина (СИОЗС), созданный специально для лечения преждевременной эякуляции. Блокируя пресинаптический транспортёр серотонина, повышает уровень 5-HT в синаптической щели и усиливает центральный контроль рефлекса эякуляции — удлиняет интравагинальную латентность эякуляции (IELT). Быстрое всасывание и выведение подходят для приёма 'по потребности'.",
+      "farmakokinetika": {
+        "sorish": "Быстро всасывается внутрь (пик ~1–2 ч).",
+        "tarqalish": "Высокое связывание с белками плазмы.",
+        "metabolizm": "В печени (CYP2D6, CYP3A4, FMO1).",
+        "chiqarilish": "Преимущественно с мочой (метаболиты). T½ короткий (~1,5 ч начальный) — не накапливается."
+      },
+      "korsatmalar": [
+        "Преждевременная эякуляция у мужчин (18–64 года)"
+      ],
+      "qarrshi": [
+        "С ингибиторами МАО (и в течение 14 дней после отмены) — риск серотонинового синдрома",
+        "С тиоридазином, сильными ингибиторами CYP3A4",
+        "Тяжёлые заболевания сердца (сердечная недостаточность, нарушение проводимости, ишемия)",
+        "Умеренная/тяжёлая печёночная недостаточность; депрессия/мания в анамнезе"
+      ],
+      "nojoya": {
+        "Нервные": "Головокружение, головная боль, сонливость, тревожность",
+        "Ортостатические": "Ортостатическая гипотензия, обморок (синкопе) — требуется осторожность",
+        "ЖКТ": "Тошнота, диарея, сухость во рту"
+      },
+      "dozadan": "Тошнота, головокружение, гипотензия; в высоких дозах возможны признаки серотонинового синдрома. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Ингибиторы МАО, другие серотонинергические средства (СИОЗС/СИОЗСН, триптаны, трамадол, зверобой): серотониновый синдром",
+        "Сильные ингибиторы CYP3A4/2D6 повышают концентрацию",
+        "С ингибиторами ФДЭ5 или альфа-блокаторами возможна усиленная ортостатическая гипотензия"
+      ],
+      "qollash": {
+        "kattalar": "30 мг за 1–3 ч до полового акта (по потребности); до 60 мг по эффекту/переносимости. Максимум 1 раз/сут.",
+        "bolalar": "Не применяется (только с 18 лет)."
+      },
+      "chiqarish": "Таблетки 30 мг, 60 мг"
+    },
+    "en": {
+      "gruppa": "Premature ejaculation agent — short-acting SSRI (dapoxetine)",
+      "farmTasir": "Prolongs ejaculatory latency",
+      "farmakodinamika": "Dapoxetine is a short-acting selective serotonin reuptake inhibitor (SSRI) developed specifically to treat premature ejaculation. By blocking the presynaptic serotonin transporter it raises synaptic 5-HT and strengthens central control of the ejaculatory reflex — prolonging the intravaginal ejaculatory latency time (IELT). Its rapid absorption and elimination suit 'on-demand' use.",
+      "farmakokinetika": {
+        "sorish": "Rapidly absorbed orally (peak ~1–2 h).",
+        "tarqalish": "High plasma protein binding.",
+        "metabolizm": "Hepatic (CYP2D6, CYP3A4, FMO1).",
+        "chiqarilish": "Mainly in urine (metabolites). Short T½ (~1.5 h initial) — does not accumulate."
+      },
+      "korsatmalar": [
+        "Premature ejaculation in men (ages 18–64)"
+      ],
+      "qarrshi": [
+        "With MAO inhibitors (and within 14 days of stopping) — serotonin syndrome risk",
+        "With thioridazine, strong CYP3A4 inhibitors",
+        "Severe cardiac disease (heart failure, conduction disorders, ischemia)",
+        "Moderate/severe hepatic impairment; history of depression/mania"
+      ],
+      "nojoya": {
+        "Nervous": "Dizziness, headache, drowsiness, anxiety",
+        "Orthostatic": "Orthostatic hypotension, syncope — caution required",
+        "GI": "Nausea, diarrhea, dry mouth"
+      },
+      "dozadan": "Nausea, dizziness, hypotension; high doses may cause serotonin-syndrome signs. Treat symptomatically.",
+      "ozarotasir": [
+        "MAO inhibitors, other serotonergic agents (SSRIs/SNRIs, triptans, tramadol, St. John's wort): serotonin syndrome",
+        "Strong CYP3A4/2D6 inhibitors raise levels",
+        "With PDE5 inhibitors or alpha-blockers, orthostatic hypotension may be enhanced"
+      ],
+      "qollash": {
+        "kattalar": "30 mg 1–3 h before intercourse (on demand); up to 60 mg by effect/tolerability. Maximum once daily.",
+        "bolalar": "Not used (18 years and older only)."
+      },
+      "chiqarish": "Tablets 30 mg, 60 mg"
+    }
+  },
+  "G04CA02": {
+    "uz": {
+      "gruppa": "BPH vositasi — selektiv alfa1A-adrenoblokator (tamsulozin)",
+      "farmTasir": "Prostata silliq mushagini bo'shashtiruvchi",
+      "farmakodinamika": "Tamsulozin — alfa1-adrenoretseptorlarning, ayniqsa prostata, qovuq bo'yni va prostatik uretrada ustun bo'lgan alfa1A (va alfa1D) podtipining selektiv antagonisti. Bu retseptorlarni blokirlab silliq mushak tonusini pasaytiradi — siydik chiqishidagi dinamik obstruksiya kamayadi, siyish yengillashadi. alfa1A-selektivligi tufayli qon bosimiga ta'siri boshqa alfa-blokatorlardan kamroq.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali yaxshi so'riladi; uzaytirilgan shaklda ovqatdan keyin barqaror.",
+        "tarqalish": "Plazma oqsillariga yuqori bog'lanadi.",
+        "metabolizm": "Jigarda CYP3A4 va CYP2D6 orqali.",
+        "chiqarilish": "Asosan siydik orqali (metabolitlar). T½ — ~10–13 soat."
+      },
+      "korsatmalar": [
+        "Yaxshi sifatli prostata giperplaziyasi (BPH) ning funksional belgilari",
+        "Distal siydik toshini chiqarishga yordam (medikamentoz ekspulsion terapiya — qo'shimcha ko'rsatma)"
+      ],
+      "qarrshi": [
+        "Tamsulozinga o'ta sezgirlik",
+        "Anamnezda ortostatik gipotenziya",
+        "Og'ir jigar yetishmovchiligi (ehtiyotkorlik)"
+      ],
+      "nojoya": {
+        "Yurak-qon tomir": "Ortostatik gipotenziya, bosh aylanishi (ayniqsa birinchi doza), bosh og'rig'i",
+        "Jinsiy": "Retrograd/anormal eyakulyatsiya, eyakulyat hajmining kamayishi",
+        "Ko'z (operatsiya)": "Intraoperativ 'floppy iris' sindromi (IFIS) — katarakta jarrohligidan oldin xabar berish shart"
+      },
+      "dozadan": "Ifodalangan gipotenziya. Davo: yotqizib oyoqlarni ko'tarish, suyuqlik, vazopressor; dializ samarasiz.",
+      "ozarotasir": [
+        "Boshqa alfa-blokatorlar va antigipertenziv/PDE5 vositalar: gipotenziya kuchayadi",
+        "Kuchli CYP3A4 inhibitorlari (ketokonazol) va CYP2D6 inhibitorlari konsentratsiyani oshiradi",
+        "Katarakta jarrohligida IFIS xavfi (oldindan ogohlantirish)"
+      ],
+      "qollash": {
+        "kattalar": "0,4 mg 1 marta/kun, ertalab nonushtadan keyin (uzaytirilgan shakl); samara yetarli bo'lmasa 0,8 mg/kun. Kapsulani butun yutish.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Uzaytirilgan kapsulalar/tabletkalar 0,4 mg (0,8 mg)"
+    },
+    "ru": {
+      "gruppa": "Средство при ДГПЖ — селективный альфа1A-адреноблокатор (тамсулозин)",
+      "farmTasir": "Расслабляет гладкую мышцу простаты",
+      "farmakodinamika": "Тамсулозин — селективный антагонист альфа1-адренорецепторов, особенно подтипа альфа1A (и альфа1D), преобладающего в простате, шейке пузыря и простатической уретре. Блокада этих рецепторов снижает тонус гладкой мышцы — уменьшается динамическая обструкция оттока мочи, облегчается мочеиспускание. Благодаря альфа1A-селективности влияние на АД меньше, чем у других альфа-блокаторов.",
+      "farmakokinetika": {
+        "sorish": "Хорошо всасывается внутрь; в пролонгированной форме стабильно после еды.",
+        "tarqalish": "Высокое связывание с белками плазмы.",
+        "metabolizm": "В печени через CYP3A4 и CYP2D6.",
+        "chiqarilish": "Преимущественно с мочой (метаболиты). T½ — ~10–13 ч."
+      },
+      "korsatmalar": [
+        "Функциональные симптомы доброкачественной гиперплазии предстательной железы (ДГПЖ)",
+        "Содействие отхождению дистальных камней мочеточника (медикаментозная экспульсивная терапия — доп. показание)"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к тамсулозину",
+        "Ортостатическая гипотензия в анамнезе",
+        "Тяжёлая печёночная недостаточность (осторожно)"
+      ],
+      "nojoya": {
+        "Сердечно-сосудистые": "Ортостатическая гипотензия, головокружение (особенно первая доза), головная боль",
+        "Половые": "Ретроградная/аномальная эякуляция, снижение объёма эякулята",
+        "Глаз (операция)": "Интраоперационный синдром 'дряблой радужки' (IFIS) — обязательно предупредить перед операцией катаракты"
+      },
+      "dozadan": "Выраженная гипотензия. Лечение: уложить с приподнятыми ногами, жидкость, вазопрессор; диализ неэффективен.",
+      "ozarotasir": [
+        "Другие альфа-блокаторы и антигипертензивные/ФДЭ5: усиление гипотензии",
+        "Сильные ингибиторы CYP3A4 (кетоконазол) и CYP2D6 повышают концентрацию",
+        "Риск IFIS при операции катаракты (предупреждение заранее)"
+      ],
+      "qollash": {
+        "kattalar": "0,4 мг 1 раз/сут утром после завтрака (пролонгированная форма); при недостаточном эффекте 0,8 мг/сут. Капсулу глотать целиком.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Пролонгированные капсулы/таблетки 0,4 мг (0,8 мг)"
+    },
+    "en": {
+      "gruppa": "BPH agent — selective alpha1A-adrenoblocker (tamsulosin)",
+      "farmTasir": "Relaxes prostatic smooth muscle",
+      "farmakodinamika": "Tamsulosin is a selective antagonist of alpha1-adrenoceptors, particularly the alpha1A (and alpha1D) subtype that predominates in the prostate, bladder neck and prostatic urethra. Blocking these receptors lowers smooth-muscle tone — dynamic outflow obstruction decreases and voiding improves. Its alpha1A selectivity gives less effect on blood pressure than other alpha-blockers.",
+      "farmakokinetika": {
+        "sorish": "Well absorbed orally; stable after food in the extended-release form.",
+        "tarqalish": "High plasma protein binding.",
+        "metabolizm": "Hepatic via CYP3A4 and CYP2D6.",
+        "chiqarilish": "Mainly in urine (metabolites). T½ ~10–13 h."
+      },
+      "korsatmalar": [
+        "Functional symptoms of benign prostatic hyperplasia (BPH)",
+        "Facilitation of distal ureteric stone passage (medical expulsive therapy — additional use)"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to tamsulosin",
+        "History of orthostatic hypotension",
+        "Severe hepatic impairment (caution)"
+      ],
+      "nojoya": {
+        "Cardiovascular": "Orthostatic hypotension, dizziness (especially first dose), headache",
+        "Sexual": "Retrograde/abnormal ejaculation, reduced ejaculate volume",
+        "Eye (surgery)": "Intraoperative floppy iris syndrome (IFIS) — must warn before cataract surgery"
+      },
+      "dozadan": "Marked hypotension. Treat: lie down with legs raised, fluids, vasopressor; dialysis ineffective.",
+      "ozarotasir": [
+        "Other alpha-blockers and antihypertensives/PDE5 agents: enhanced hypotension",
+        "Strong CYP3A4 inhibitors (ketoconazole) and CYP2D6 inhibitors raise levels",
+        "IFIS risk at cataract surgery (warn in advance)"
+      ],
+      "qollash": {
+        "kattalar": "0.4 mg once daily in the morning after breakfast (extended-release); 0.8 mg/day if response is inadequate. Swallow the capsule whole.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Extended-release capsules/tablets 0.4 mg (0.8 mg)"
+    }
+  },
+  "G04CA04": {
+    "uz": {
+      "gruppa": "BPH vositasi — yuqori selektiv alfa1A-adrenoblokator (silodozin)",
+      "farmTasir": "Prostataga eng selektiv alfa-blokator",
+      "farmakodinamika": "Silodozin — alfa1A-adrenoretseptorga juda yuqori selektivlikка ega antagonist (alfa1B ga nisbatan ~alfa1A ustunligi yuqori). Prostata, qovuq bo'yni va uretra silliq mushagini selektiv bo'shashtirib siyishni yengillashtiradi. alfa1B (qon tomir) ta'siri kam bo'lgani uchun ortostatik gipotenziya kamroq, ammo retrograd eyakulyatsiya juda tez-tez uchraydi.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali so'riladi; ovqat bilan olinadi.",
+        "tarqalish": "Plazma oqsillariga yuqori bog'lanadi.",
+        "metabolizm": "Jigarda asosan CYP3A4 (va glyukuronidlanish).",
+        "chiqarilish": "Najas va siydik orqali. T½ — ~11–13 soat."
+      },
+      "korsatmalar": [
+        "Yaxshi sifatli prostata giperplaziyasi (BPH) belgilari"
+      ],
+      "qarrshi": [
+        "Silodozinga o'ta sezgirlik",
+        "Og'ir buyrak yoki jigar yetishmovchiligi",
+        "Kuchli CYP3A4 inhibitorlari bilan birga"
+      ],
+      "nojoya": {
+        "Jinsiy": "Retrograd eyakulyatsiya (juda ko'p — qaytar, xavfsiz)",
+        "Yurak-qon tomir": "Bosh aylanishi, ortostatik gipotenziya (tamsulozindan kamroq)",
+        "Ko'z (operatsiya)": "Intraoperativ 'floppy iris' sindromi (IFIS)"
+      },
+      "dozadan": "Gipotenziya mumkin. Davo: simptomatik, qon bosimi va puls nazorati.",
+      "ozarotasir": [
+        "Kuchli CYP3A4 inhibitorlari (ketokonazol, ritonavir) — birga mumkin emas/cheklov",
+        "Boshqa alfa-blokatorlar, PDE5 inhibitorlari, antigipertenzivlar bilan gipotenziya kuchayadi",
+        "Katarakta jarrohligida IFIS xavfi"
+      ],
+      "qollash": {
+        "kattalar": "8 mg 1 marta/kun, ovqat bilan. O'rta buyrak yetishmovchiligida 4 mg/kun.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Kapsulalar 4 mg, 8 mg"
+    },
+    "ru": {
+      "gruppa": "Средство при ДГПЖ — высокоселективный альфа1A-адреноблокатор (силодозин)",
+      "farmTasir": "Наиболее селективный к простате альфа-блокатор",
+      "farmakodinamika": "Силодозин — антагонист с очень высокой селективностью к альфа1A-адренорецептору (преобладание над альфа1B высокое). Избирательно расслабляет гладкую мышцу простаты, шейки пузыря и уретры, облегчая мочеиспускание. Поскольку влияние на альфа1B (сосуды) мало, ортостатическая гипотензия реже, но ретроградная эякуляция очень частая.",
+      "farmakokinetika": {
+        "sorish": "Всасывается внутрь; принимается с едой.",
+        "tarqalish": "Высокое связывание с белками плазмы.",
+        "metabolizm": "В печени преимущественно CYP3A4 (и глюкуронирование).",
+        "chiqarilish": "С калом и мочой. T½ — ~11–13 ч."
+      },
+      "korsatmalar": [
+        "Симптомы доброкачественной гиперплазии предстательной железы (ДГПЖ)"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к силодозину",
+        "Тяжёлая почечная или печёночная недостаточность",
+        "Совместно с сильными ингибиторами CYP3A4"
+      ],
+      "nojoya": {
+        "Половые": "Ретроградная эякуляция (очень часто — обратима, безопасна)",
+        "Сердечно-сосудистые": "Головокружение, ортостатическая гипотензия (реже, чем у тамсулозина)",
+        "Глаз (операция)": "Интраоперационный синдром 'дряблой радужки' (IFIS)"
+      },
+      "dozadan": "Возможна гипотензия. Лечение: симптоматическое, контроль АД и пульса.",
+      "ozarotasir": [
+        "Сильные ингибиторы CYP3A4 (кетоконазол, ритонавир) — нельзя/ограничение",
+        "С другими альфа-блокаторами, ингибиторами ФДЭ5, антигипертензивными усиление гипотензии",
+        "Риск IFIS при операции катаракты"
+      ],
+      "qollash": {
+        "kattalar": "8 мг 1 раз/сут с едой. При умеренной почечной недостаточности 4 мг/сут.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Капсулы 4 мг, 8 мг"
+    },
+    "en": {
+      "gruppa": "BPH agent — highly selective alpha1A-adrenoblocker (silodosin)",
+      "farmTasir": "The most prostate-selective alpha-blocker",
+      "farmakodinamika": "Silodosin is an antagonist with very high selectivity for the alpha1A-adrenoceptor (strong preference over alpha1B). It selectively relaxes the smooth muscle of the prostate, bladder neck and urethra, easing voiding. Because its effect on alpha1B (vascular) is small, orthostatic hypotension is less frequent, but retrograde ejaculation is very common.",
+      "farmakokinetika": {
+        "sorish": "Absorbed orally; taken with food.",
+        "tarqalish": "High plasma protein binding.",
+        "metabolizm": "Hepatic mainly CYP3A4 (and glucuronidation).",
+        "chiqarilish": "In feces and urine. T½ ~11–13 h."
+      },
+      "korsatmalar": [
+        "Symptoms of benign prostatic hyperplasia (BPH)"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to silodosin",
+        "Severe renal or hepatic impairment",
+        "With strong CYP3A4 inhibitors"
+      ],
+      "nojoya": {
+        "Sexual": "Retrograde ejaculation (very common — reversible, harmless)",
+        "Cardiovascular": "Dizziness, orthostatic hypotension (less than tamsulosin)",
+        "Eye (surgery)": "Intraoperative floppy iris syndrome (IFIS)"
+      },
+      "dozadan": "Hypotension possible. Treat symptomatically with BP and pulse monitoring.",
+      "ozarotasir": [
+        "Strong CYP3A4 inhibitors (ketoconazole, ritonavir) — contraindicated/restricted",
+        "With other alpha-blockers, PDE5 inhibitors, antihypertensives, hypotension is enhanced",
+        "IFIS risk at cataract surgery"
+      ],
+      "qollash": {
+        "kattalar": "8 mg once daily with food. 4 mg/day in moderate renal impairment.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Capsules 4 mg, 8 mg"
+    }
+  },
+  "G04CB01": {
+    "uz": {
+      "gruppa": "BPH vositasi — 5-alfa-reduktaza inhibitori (finasterid)",
+      "farmTasir": "Prostata hajmini kichraytiruvchi (DHT ni kamaytiradi)",
+      "farmakodinamika": "Finasterid — 5-alfa-reduktaza tip II fermentining selektiv inhibitori. Bu ferment testosteronni kuchliroq androgen — digidrotestosteronга (DHT) aylantiradi. Finasterid DHT sintezini blokirlab prostata bezidagi DHT konsentratsiyasini ~70% kamaytiradi; natijada giperplaziyalangan prostata hajmi asta-sekin kichrayadi, siyish yaxshilanadi va o'tkir siydik tutilishi/jarrohlik xavfi pasayadi. Soch follikullarida ham DHT ni kamaytirgani uchun androgen alopetsiyada qo'llaniladi (past doza).",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali yaxshi so'riladi.",
+        "tarqalish": "Plazma oqsillariga bog'lanadi; spermaga oz o'tadi.",
+        "metabolizm": "Jigarda CYP3A4 orqali.",
+        "chiqarilish": "Najas va siydik orqali. T½ — ~6 soat (keksalar va to'qima ta'siri uzoqroq)."
+      },
+      "korsatmalar": [
+        "Yaxshi sifatli prostata giperplaziyasi (prostata kattalashganida — hajmni kamaytirish, asoratlar profilaktikasi)",
+        "Erkaklarda androgen alopetsiya (1 mg, alohida ko'rsatma)"
+      ],
+      "qarrshi": [
+        "Ayollar (ayniqsa homilador yoki homilador bo'lishi mumkin) va bolalar",
+        "Finasteridga o'ta sezgirlik"
+      ],
+      "nojoya": {
+        "Jinsiy": "Libido pasayishi, erektil disfunksiya, eyakulyat hajmining kamayishi, ginekomastiya",
+        "Laborator": "PSA darajasini ~50% pasaytiradi (saraton skriningida hisobga olish shart)",
+        "Boshqa / kam": "Kayfiyat pasayishi/depressiya, sut bezi o'zgarishlari (kamdan-kam — sut bezi saratoni xabarlari)"
+      },
+      "dozadan": "Bir martalik yuqori dozada ham xavfsizlik nisbatan yuqori; maxsus antidot yo'q, simptomatik.",
+      "ozarotasir": [
+        "Klinik ahamiyatli o'zaro ta'sir kam",
+        "Teratogenlik: parchalangan/maydalangan tabletkani homilador ayollar ushlamasligi kerak (erkak homila uchun xavf)",
+        "PSA testini pasaytiradi — laboratoriya talqinida tuzatish kerak"
+      ],
+      "qollash": {
+        "kattalar": "BPH: 5 mg 1 marta/kun, uzoq muddat (samara 3–6 oydan keyin). Androgen alopetsiya: 1 mg/kun.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Tabletkalar 5 mg (alopetsiya uchun 1 mg)"
+    },
+    "ru": {
+      "gruppa": "Средство при ДГПЖ — ингибитор 5-альфа-редуктазы (финастерид)",
+      "farmTasir": "Уменьшает объём простаты (снижает ДГТ)",
+      "farmakodinamika": "Финастерид — селективный ингибитор фермента 5-альфа-редуктазы типа II. Этот фермент превращает тестостерон в более активный андроген — дигидротестостерон (ДГТ). Финастерид блокирует синтез ДГТ и снижает его концентрацию в простате на ~70%; в результате гиперплазированная простата постепенно уменьшается, мочеиспускание улучшается, снижается риск острой задержки мочи/операции. Снижая ДГТ в волосяных фолликулах, применяется и при андрогенной алопеции (низкая доза).",
+      "farmakokinetika": {
+        "sorish": "Хорошо всасывается внутрь.",
+        "tarqalish": "Связывается с белками плазмы; немного проникает в сперму.",
+        "metabolizm": "В печени через CYP3A4.",
+        "chiqarilish": "С калом и мочой. T½ — ~6 ч (у пожилых и в тканях действие дольше)."
+      },
+      "korsatmalar": [
+        "Доброкачественная гиперплазия предстательной железы (при увеличенной простате — уменьшение объёма, профилактика осложнений)",
+        "Андрогенная алопеция у мужчин (1 мг, отдельное показание)"
+      ],
+      "qarrshi": [
+        "Женщины (особенно беременные или способные забеременеть) и дети",
+        "Гиперчувствительность к финастериду"
+      ],
+      "nojoya": {
+        "Половые": "Снижение либидо, эректильная дисфункция, уменьшение объёма эякулята, гинекомастия",
+        "Лабораторные": "Снижает уровень ПСА на ~50% (учитывать при скрининге рака)",
+        "Прочее / редко": "Снижение настроения/депрессия, изменения молочной железы (редко — сообщения о раке грудной железы)"
+      },
+      "dozadan": "Даже при однократной высокой дозе безопасность относительно высокая; специфического антидота нет, симптоматически.",
+      "ozarotasir": [
+        "Клинически значимых взаимодействий мало",
+        "Тератогенность: беременным нельзя прикасаться к раздробленным/измельчённым таблеткам (риск для плода мужского пола)",
+        "Снижает ПСА — нужна поправка при лабораторной интерпретации"
+      ],
+      "qollash": {
+        "kattalar": "ДГПЖ: 5 мг 1 раз/сут длительно (эффект через 3–6 мес). Андрогенная алопеция: 1 мг/сут.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Таблетки 5 мг (для алопеции 1 мг)"
+    },
+    "en": {
+      "gruppa": "BPH agent — 5-alpha-reductase inhibitor (finasteride)",
+      "farmTasir": "Shrinks the prostate (lowers DHT)",
+      "farmakodinamika": "Finasteride is a selective inhibitor of the 5-alpha-reductase type II enzyme, which converts testosterone to the more potent androgen dihydrotestosterone (DHT). By blocking DHT synthesis, finasteride lowers prostatic DHT by ~70%; the hyperplastic prostate gradually shrinks, voiding improves and the risk of acute urinary retention/surgery falls. By reducing DHT in hair follicles it is also used for androgenetic alopecia (low dose).",
+      "farmakokinetika": {
+        "sorish": "Well absorbed orally.",
+        "tarqalish": "Protein bound; small amounts enter semen.",
+        "metabolizm": "Hepatic via CYP3A4.",
+        "chiqarilish": "In feces and urine. T½ ~6 h (longer in the elderly and at tissue level)."
+      },
+      "korsatmalar": [
+        "Benign prostatic hyperplasia (enlarged prostate — volume reduction, complication prevention)",
+        "Androgenetic alopecia in men (1 mg, separate indication)"
+      ],
+      "qarrshi": [
+        "Women (especially pregnant or who may become pregnant) and children",
+        "Hypersensitivity to finasteride"
+      ],
+      "nojoya": {
+        "Sexual": "Decreased libido, erectile dysfunction, reduced ejaculate volume, gynecomastia",
+        "Laboratory": "Lowers PSA by ~50% (must be considered in cancer screening)",
+        "Other / rare": "Low mood/depression, breast changes (rarely — reports of male breast cancer)"
+      },
+      "dozadan": "Even a single high dose has relatively high safety; no specific antidote, symptomatic care.",
+      "ozarotasir": [
+        "Few clinically significant interactions",
+        "Teratogenicity: pregnant women must not handle crushed/broken tablets (risk to a male fetus)",
+        "Lowers PSA — correction needed when interpreting laboratory results"
+      ],
+      "qollash": {
+        "kattalar": "BPH: 5 mg once daily long term (effect after 3–6 months). Androgenetic alopecia: 1 mg/day.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Tablets 5 mg (1 mg for alopecia)"
+    }
+  },
+  "G04CB02": {
+    "uz": {
+      "gruppa": "BPH vositasi — qo'sh 5-alfa-reduktaza inhibitori (dutasterid)",
+      "farmTasir": "Prostata hajmini kichraytiruvchi (DHT ni kuchli kamaytiradi)",
+      "farmakodinamika": "Dutasterid — 5-alfa-reduktazaning ham I, ham II tipini inhibirlovchi (qo'sh) vosita. Ikkala izoferment blokadasi DHT ni qonda ~90% gacha kamaytiradi (finasteriddan kuchliroq) — prostata hajmi kichrayadi, siyish yaxshilanadi, o'tkir siydik tutilishi va jarrohlik ehtiyoji pasayadi. Uzun yarim chiqarilish davriga ega.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali so'riladi.",
+        "tarqalish": "Plazma oqsillariga juda yuqori bog'lanadi; to'qimalarda to'planadi.",
+        "metabolizm": "Jigarda CYP3A4 orqali.",
+        "chiqarilish": "Asosan najas. T½ — juda uzun (~5 hafta)."
+      },
+      "korsatmalar": [
+        "Prostata kattalashgan yaxshi sifatli giperplaziya (hajmni kamaytirish, asoratlar profilaktikasi)",
+        "Tamsulozin bilan kombinatsiyada (kuchaytirilgan samara)"
+      ],
+      "qarrshi": [
+        "Ayollar (homilador yoki bo'lishi mumkin) va bolalar",
+        "Og'ir jigar yetishmovchiligi",
+        "Dutasteridga o'ta sezgirlik"
+      ],
+      "nojoya": {
+        "Jinsiy": "Libido pasayishi, erektil disfunksiya, eyakulyatsiya buzilishi, ginekomastiya",
+        "Laborator": "PSA ni ~50% pasaytiradi (saraton skriningida hisobga olish)",
+        "Boshqa": "Kayfiyat o'zgarishi; kamdan-kam — sut bezi o'zgarishlari"
+      },
+      "dozadan": "Xavfsizlik nisbatan yuqori; maxsus antidot yo'q, simptomatik.",
+      "ozarotasir": [
+        "Kuchli CYP3A4 inhibitorlari (ritonavir, ketokonazol) konsentratsiyani oshiradi",
+        "Teratogenlik: kapsulani homilador ayollar ushlamasligi kerak; davo davomida va keyin qon topshirmaslik (uzun T½)",
+        "PSA testini pasaytiradi — laboratoriya talqinida tuzatish"
+      ],
+      "qollash": {
+        "kattalar": "0,5 mg 1 marta/kun, uzoq muddat; yoki tamsulozin 0,4 mg bilan kombinatsiya. Kapsulani butun yutish.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Yumshoq kapsulalar 0,5 mg; tamsulozin bilan kombinatsiya"
+    },
+    "ru": {
+      "gruppa": "Средство при ДГПЖ — двойной ингибитор 5-альфа-редуктазы (дутастерид)",
+      "farmTasir": "Уменьшает объём простаты (сильно снижает ДГТ)",
+      "farmakodinamika": "Дутастерид — средство, ингибирующее обе изоформы 5-альфа-редуктазы (тип I и II). Блокада обоих изоферментов снижает ДГТ в крови до ~90% (сильнее, чем финастерид) — объём простаты уменьшается, мочеиспускание улучшается, снижается риск острой задержки мочи и потребность в операции. Имеет длинный период полувыведения.",
+      "farmakokinetika": {
+        "sorish": "Всасывается внутрь.",
+        "tarqalish": "Очень высокое связывание с белками плазмы; накапливается в тканях.",
+        "metabolizm": "В печени через CYP3A4.",
+        "chiqarilish": "Преимущественно с калом. T½ — очень длинный (~5 недель)."
+      },
+      "korsatmalar": [
+        "Доброкачественная гиперплазия с увеличенной простатой (уменьшение объёма, профилактика осложнений)",
+        "В комбинации с тамсулозином (усиленный эффект)"
+      ],
+      "qarrshi": [
+        "Женщины (беременные или способные забеременеть) и дети",
+        "Тяжёлая печёночная недостаточность",
+        "Гиперчувствительность к дутастериду"
+      ],
+      "nojoya": {
+        "Половые": "Снижение либидо, эректильная дисфункция, нарушение эякуляции, гинекомастия",
+        "Лабораторные": "Снижает ПСА на ~50% (учитывать при скрининге рака)",
+        "Прочее": "Изменение настроения; редко — изменения молочной железы"
+      },
+      "dozadan": "Безопасность относительно высокая; специфического антидота нет, симптоматически.",
+      "ozarotasir": [
+        "Сильные ингибиторы CYP3A4 (ритонавир, кетоконазол) повышают концентрацию",
+        "Тератогенность: беременным нельзя прикасаться к капсуле; во время и после лечения не сдавать кровь (длинный T½)",
+        "Снижает ПСА — поправка при лабораторной интерпретации"
+      ],
+      "qollash": {
+        "kattalar": "0,5 мг 1 раз/сут длительно; или комбинация с тамсулозином 0,4 мг. Капсулу глотать целиком.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Мягкие капсулы 0,5 мг; комбинация с тамсулозином"
+    },
+    "en": {
+      "gruppa": "BPH agent — dual 5-alpha-reductase inhibitor (dutasteride)",
+      "farmTasir": "Shrinks the prostate (strongly lowers DHT)",
+      "farmakodinamika": "Dutasteride inhibits both isoforms of 5-alpha-reductase (type I and II). Blocking both isoenzymes lowers blood DHT by up to ~90% (more than finasteride) — prostate volume decreases, voiding improves and the risk of acute urinary retention and need for surgery falls. It has a long half-life.",
+      "farmakokinetika": {
+        "sorish": "Absorbed orally.",
+        "tarqalish": "Very high plasma protein binding; accumulates in tissues.",
+        "metabolizm": "Hepatic via CYP3A4.",
+        "chiqarilish": "Mainly in feces. T½ very long (~5 weeks)."
+      },
+      "korsatmalar": [
+        "Benign hyperplasia with an enlarged prostate (volume reduction, complication prevention)",
+        "In combination with tamsulosin (enhanced effect)"
+      ],
+      "qarrshi": [
+        "Women (pregnant or who may become pregnant) and children",
+        "Severe hepatic impairment",
+        "Hypersensitivity to dutasteride"
+      ],
+      "nojoya": {
+        "Sexual": "Decreased libido, erectile dysfunction, ejaculation disorder, gynecomastia",
+        "Laboratory": "Lowers PSA by ~50% (consider in cancer screening)",
+        "Other": "Mood change; rarely breast changes"
+      },
+      "dozadan": "Relatively high safety; no specific antidote, symptomatic care.",
+      "ozarotasir": [
+        "Strong CYP3A4 inhibitors (ritonavir, ketoconazole) raise levels",
+        "Teratogenicity: pregnant women must not handle the capsule; do not donate blood during and after treatment (long T½)",
+        "Lowers PSA — correction needed in laboratory interpretation"
+      ],
+      "qollash": {
+        "kattalar": "0.5 mg once daily long term; or combined with tamsulosin 0.4 mg. Swallow the capsule whole.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Soft capsules 0.5 mg; combination with tamsulosin"
+    }
+  },
+
+  // ─────────────────────────────────────────────────────────
   // GENITOURINARY — G01A ginekologik anti-infektivlar (batch 2)
   // ─────────────────────────────────────────────────────────
   "G01AA01": {
