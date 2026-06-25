@@ -8,6 +8,670 @@
 
 const PHARMA_DATA = {
   // ─────────────────────────────────────────────────────────
+  // GENITOURINARY — G03A/G03D/G03X progestogenlar (batch 5)
+  // ─────────────────────────────────────────────────────────
+  "G03AA07": {
+    "uz": {
+      "gruppa": "Kombinatsiyalangan og'iz kontratseptivi (etinilestradiol + levonorgestrel)",
+      "farmTasir": "Ovulyatsiyani bostiruvchi monofazik kontratseptiv",
+      "farmakodinamika": "Estrogen (etinilestradiol) va progestogen (levonorgestrel) kombinatsiyasi. Gipotalamus-gipofiz o'qiga manfiy qaytar aloqa orqali ta'sir qilib FSH va LH sekretsiyasini bostiradi — natijada follikul yetilmaydi va ovulyatsiya bo'lmaydi (asosiy mexanizm). Qo'shimcha: bachadon bo'yni shilliqini quyuqlashtirib spermatozoid o'tishini qiyinlashtiradi va endometriyni yupqalashtirib implantatsiyaga qarshilik qiladi. Hayz tsiklini muntazamlashtiradi.",
+      "farmakokinetika": {
+        "sorish": "Ikkala komponent og'iz orqali yaxshi so'riladi.",
+        "tarqalish": "Plazma oqsillariga bog'lanadi (levonorgestrel SHBG ga).",
+        "metabolizm": "Jigarda (CYP3A4); enterohepatik sirkulyatsiya (estrogen).",
+        "chiqarilish": "Siydik va najas orqali."
+      },
+      "korsatmalar": [
+        "Kontratseptsiya (homiladorlikning oldini olish)",
+        "Hayz tsiklini muntazamlashtirish, dismenoreya, funksional qon ketishlar",
+        "Akne va o'rtacha giperandrogeniya belgilari (qo'shimcha)"
+      ],
+      "qarrshi": [
+        "Venoz/arterial tromboz yoki anamnezda tromboemboliya, irsiy trombofiliya",
+        "Auralı migren; chekuvchi 35 yoshdan katta ayollar; nazoratsiz gipertenziya, qandli diabet asoratlar bilan",
+        "Sut bezi yoki jinsiy a'zo gormonga bog'liq saratoni; og'ir jigar kasalligi/o'smasi",
+        "Homiladorlik; aniqlanmagan qin qon ketishi"
+      ],
+      "nojoya": {
+        "Tromboz / yurak": "Venoz tromboemboliya, qon bosimi ko'tarilishi (eng jiddiy, lekin kam)",
+        "Estrogenga bog'liq": "Ko'ngil aynishi, sut bezi sezgirligi, bosh og'rig'i, suyuqlik ushlanishi",
+        "Tsikl": "Oraliq qon ketish/dog'lanish (ayniqsa dastlabki oylarda), libido o'zgarishi"
+      },
+      "dozadan": "Ko'ngil aynishi, qusish, ayollarда qin qon ketishi mumkin. Davo simptomatik.",
+      "ozarotasir": [
+        "Ferment induktorlari (rifampitsin, ba'zi antiepileptiklar — karbamazepin, fenitoin, St. John's wort): kontratseptiv samarani pasaytiradi (qo'shimcha usul kerak)",
+        "Ba'zi antibiotiklar va antiretroviruslar samarani o'zgartirishi mumkin",
+        "Lamotrijin konsentratsiyasini pasaytiradi"
+      ],
+      "qollash": {
+        "kattalar": "Kuniga 1 tabletka, bir xil vaqtда, 21 kun + 7 kun tanaffus (yoki 28 kunlik shakl). Birinchi tabletka hayzning 1-kunidan. Ko'rsatmага qarab.",
+        "bolalar": "Faqat menarxedan keyin, ginekolog ko'rsatmasi bilan."
+      },
+      "chiqarish": "Qoplangan tabletkalar (21 yoki 21+7); monofazik/uch fazali shakllar"
+    },
+    "ru": {
+      "gruppa": "Комбинированный оральный контрацептив (этинилэстрадиол + левоноргестрел)",
+      "farmTasir": "Монофазный контрацептив, подавляющий овуляцию",
+      "farmakodinamika": "Комбинация эстрогена (этинилэстрадиол) и прогестогена (левоноргестрел). Через отрицательную обратную связь на гипоталамо-гипофизарную ось подавляет секрецию ФСГ и ЛГ — фолликул не созревает и овуляции не происходит (основной механизм). Дополнительно: сгущает цервикальную слизь, затрудняя прохождение сперматозоидов, и истончает эндометрий, препятствуя имплантации. Регулирует менструальный цикл.",
+      "farmakokinetika": {
+        "sorish": "Оба компонента хорошо всасываются внутрь.",
+        "tarqalish": "Связываются с белками плазмы (левоноргестрел с ГСПГ).",
+        "metabolizm": "В печени (CYP3A4); энтерогепатическая циркуляция (эстроген).",
+        "chiqarilish": "С мочой и калом."
+      },
+      "korsatmalar": [
+        "Контрацепция (предупреждение беременности)",
+        "Регуляция менструального цикла, дисменорея, функциональные кровотечения",
+        "Акне и признаки умеренной гиперандрогении (дополнительно)"
+      ],
+      "qarrshi": [
+        "Венозный/артериальный тромбоз или тромбоэмболия в анамнезе, наследственная тромбофилия",
+        "Мигрень с аурой; курящие женщины старше 35 лет; неконтролируемая гипертензия, диабет с осложнениями",
+        "Гормонозависимый рак молочной железы или половых органов; тяжёлое заболевание/опухоль печени",
+        "Беременность; неустановленное вагинальное кровотечение"
+      ],
+      "nojoya": {
+        "Тромбоз / сердце": "Венозная тромбоэмболия, повышение АД (наиболее серьёзно, но редко)",
+        "Эстрогензависимые": "Тошнота, чувствительность молочных желёз, головная боль, задержка жидкости",
+        "Цикл": "Межменструальные кровотечения/мажущие выделения (особенно первые месяцы), изменение либидо"
+      },
+      "dozadan": "Тошнота, рвота, у женщин возможны вагинальные кровотечения. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Индукторы ферментов (рифампицин, некоторые антиэпилептики — карбамазепин, фенитоин, зверобой): снижают контрацептивный эффект (нужен доп. метод)",
+        "Некоторые антибиотики и антиретровирусные могут изменять эффект",
+        "Снижает концентрацию ламотриджина"
+      ],
+      "qollash": {
+        "kattalar": "По 1 таблетке в день в одно время, 21 день + 7 дней перерыв (или 28-дневная форма). Первая таблетка с 1-го дня менструации. По показанию.",
+        "bolalar": "Только после менархе, по назначению гинеколога."
+      },
+      "chiqarish": "Покрытые таблетки (21 или 21+7); монофазные/трёхфазные формы"
+    },
+    "en": {
+      "gruppa": "Combined oral contraceptive (ethinylestradiol + levonorgestrel)",
+      "farmTasir": "Monophasic contraceptive that suppresses ovulation",
+      "farmakodinamika": "A combination of an estrogen (ethinylestradiol) and a progestogen (levonorgestrel). Through negative feedback on the hypothalamic-pituitary axis it suppresses FSH and LH secretion — the follicle does not mature and ovulation does not occur (the main mechanism). Additionally it thickens cervical mucus, impeding sperm passage, and thins the endometrium, opposing implantation. It regularizes the menstrual cycle.",
+      "farmakokinetika": {
+        "sorish": "Both components are well absorbed orally.",
+        "tarqalish": "Plasma protein bound (levonorgestrel to SHBG).",
+        "metabolizm": "Hepatic (CYP3A4); enterohepatic circulation (estrogen).",
+        "chiqarilish": "In urine and feces."
+      },
+      "korsatmalar": [
+        "Contraception (prevention of pregnancy)",
+        "Menstrual cycle regulation, dysmenorrhea, functional bleeding",
+        "Acne and signs of moderate hyperandrogenism (additional)"
+      ],
+      "qarrshi": [
+        "Venous/arterial thrombosis or thromboembolism history, hereditary thrombophilia",
+        "Migraine with aura; women over 35 who smoke; uncontrolled hypertension, diabetes with complications",
+        "Hormone-dependent breast or genital cancer; severe liver disease/tumor",
+        "Pregnancy; undiagnosed vaginal bleeding"
+      ],
+      "nojoya": {
+        "Thrombosis / cardiac": "Venous thromboembolism, blood-pressure rise (most serious but uncommon)",
+        "Estrogen-related": "Nausea, breast tenderness, headache, fluid retention",
+        "Cycle": "Breakthrough bleeding/spotting (especially the first months), libido change"
+      },
+      "dozadan": "Nausea, vomiting; vaginal bleeding possible in women. Treat symptomatically.",
+      "ozarotasir": [
+        "Enzyme inducers (rifampicin, some antiepileptics — carbamazepine, phenytoin, St. John's wort): reduce contraceptive efficacy (a backup method is needed)",
+        "Some antibiotics and antiretrovirals may alter the effect",
+        "Lowers lamotrigine levels"
+      ],
+      "qollash": {
+        "kattalar": "One tablet daily at the same time, 21 days + 7-day break (or a 28-day pack). First tablet on day 1 of menstruation. Per indication.",
+        "bolalar": "Only after menarche, as prescribed by a gynecologist."
+      },
+      "chiqarish": "Coated tablets (21 or 21+7); monophasic/triphasic forms"
+    }
+  },
+  "G03AC06": {
+    "uz": {
+      "gruppa": "Progestogen — medroksiprogesteron atsetat (MPA)",
+      "farmTasir": "Progestogen: kontratseptsiya, gormonal davo va onkologiya",
+      "farmakodinamika": "Medroksiprogesteron atsetat — sintetik progestogen. Progesteron retseptorlariga bog'lanib endometriyni sekretor fazага o'tkazadi; yuqori (depo) dozada gipofiz gonadotropinlarini (LH) bostirib ovulyatsiyani to'xtatadi — depo in'eksiyasi uzoq muddatli kontratseptsiya beradi. Shuningdek bachadon bo'yni shilliqini quyuqlashtiradi. Yuqori dozada ba'zi gormonga bog'liq o'smalarда antiproliferativ ta'sir ko'rsatadi.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali so'riladi; depo IM/SC shaklda sekin va uzoq ajraladi.",
+        "tarqalish": "Plazma oqsillariga bog'lanadi; yog' to'qimasida depolanadi.",
+        "metabolizm": "Jigarda.",
+        "chiqarilish": "Asosan siydik orqali. Depo shaklda ta'sir oylar davom etadi."
+      },
+      "korsatmalar": [
+        "Uzoq muddatli kontratseptsiya (depo IM/SC, har 3 oyda)",
+        "Endometrioz, disfunksional bachadon qon ketishi, sekundar amenoreya",
+        "Endometriy/buyrak/sut bezi saratonida palliativ gormonal davo (yuqori doza)",
+        "Menopauzal HRTда endometriy himoyasi (estrogen bilan)"
+      ],
+      "qarrshi": [
+        "Homiladorlik; aniqlanmagan qin qon ketishi",
+        "Anamnezda tromboemboliya; og'ir jigar kasalligi",
+        "Gormonga bog'liq sut bezi saratoni (kontratseptiv ko'rsatmада)"
+      ],
+      "nojoya": {
+        "Tsikl / suyak": "Hayz tartibsizligi, amenoreya, uzoq depo qo'llashda suyak zichligi pasayishi (qaytar)",
+        "Metabolik": "Vazn ortishi, suyuqlik ushlanishi, ishtaha o'zgarishi",
+        "Boshqa": "Bosh og'rig'i, kayfiyat o'zgarishi, fertillikning kechikib tiklanishi (depodan keyin)"
+      },
+      "dozadan": "Jiddiy toksiklik kam; simptomatik davo.",
+      "ozarotasir": [
+        "Ferment induktorlari (rifampitsin, aminoglutetimid) samarani pasaytiradi",
+        "Boshqa progestogenlar va gormonal vositalar bilan additiv ta'sir"
+      ],
+      "qollash": {
+        "kattalar": "Depo kontratseptiv: 150 mg IM har 3 oyda (yoki 104 mg SC). Peroral: ko'rsatmага qarab 5–10 mg/kun (tsikl buzilishi) yoki yuqori doza (onkologiya). Shifokor belgilaydi.",
+        "bolalar": "Faqat alohida ko'rsatma bilan, shifokor nazoratida."
+      },
+      "chiqarish": "Tabletkalar 5/10/250/500 mg; depo in'eksiya 150 mg/ml (IM), 104 mg (SC)"
+    },
+    "ru": {
+      "gruppa": "Прогестоген — медроксипрогестерона ацетат (МПА)",
+      "farmTasir": "Прогестоген: контрацепция, гормональная терапия и онкология",
+      "farmakodinamika": "Медроксипрогестерона ацетат — синтетический прогестоген. Связываясь с прогестероновыми рецепторами, переводит эндометрий в секреторную фазу; в высокой (депо) дозе подавляет гипофизарные гонадотропины (ЛГ) и прекращает овуляцию — депо-инъекция даёт длительную контрацепцию. Также сгущает цервикальную слизь. В высоких дозах оказывает антипролиферативное действие при некоторых гормонозависимых опухолях.",
+      "farmakokinetika": {
+        "sorish": "Всасывается внутрь; в депо-форме IM/SC высвобождается медленно и долго.",
+        "tarqalish": "Связывается с белками плазмы; депонируется в жировой ткани.",
+        "metabolizm": "В печени.",
+        "chiqarilish": "Преимущественно с мочой. В депо-форме действие длится месяцами."
+      },
+      "korsatmalar": [
+        "Длительная контрацепция (депо IM/SC, каждые 3 месяца)",
+        "Эндометриоз, дисфункциональные маточные кровотечения, вторичная аменорея",
+        "Паллиативная гормональная терапия рака эндометрия/почки/молочной железы (высокая доза)",
+        "Защита эндометрия при ЗГТ (с эстрогеном)"
+      ],
+      "qarrshi": [
+        "Беременность; неустановленное вагинальное кровотечение",
+        "Тромбоэмболия в анамнезе; тяжёлое заболевание печени",
+        "Гормонозависимый рак молочной железы (для контрацептивного показания)"
+      ],
+      "nojoya": {
+        "Цикл / кость": "Нарушение цикла, аменорея, при длительном депо — снижение плотности кости (обратимое)",
+        "Метаболические": "Прибавка массы, задержка жидкости, изменение аппетита",
+        "Прочее": "Головная боль, изменение настроения, отсроченное восстановление фертильности (после депо)"
+      },
+      "dozadan": "Серьёзная токсичность редка; симптоматическое лечение.",
+      "ozarotasir": [
+        "Индукторы ферментов (рифампицин, аминоглутетимид) снижают эффект",
+        "Аддитивное действие с другими прогестогенами и гормонами"
+      ],
+      "qollash": {
+        "kattalar": "Депо-контрацептив: 150 мг в/м каждые 3 месяца (или 104 мг п/к). Перорально: по показанию 5–10 мг/сут (нарушения цикла) или высокая доза (онкология). Определяет врач.",
+        "bolalar": "Только по особому показанию, под контролем врача."
+      },
+      "chiqarish": "Таблетки 5/10/250/500 мг; депо-инъекция 150 мг/мл (в/м), 104 мг (п/к)"
+    },
+    "en": {
+      "gruppa": "Progestogen — medroxyprogesterone acetate (MPA)",
+      "farmTasir": "Progestogen: contraception, hormonal therapy and oncology",
+      "farmakodinamika": "Medroxyprogesterone acetate is a synthetic progestogen. By binding progesterone receptors it converts the endometrium to the secretory phase; in a high (depot) dose it suppresses pituitary gonadotropins (LH) and stops ovulation — the depot injection provides long-acting contraception. It also thickens cervical mucus. In high doses it has an antiproliferative effect in some hormone-dependent tumors.",
+      "farmakokinetika": {
+        "sorish": "Absorbed orally; the IM/SC depot form releases slowly over a long period.",
+        "tarqalish": "Plasma protein bound; deposited in adipose tissue.",
+        "metabolizm": "Hepatic.",
+        "chiqarilish": "Mainly in urine. The depot effect lasts months."
+      },
+      "korsatmalar": [
+        "Long-acting contraception (depot IM/SC, every 3 months)",
+        "Endometriosis, dysfunctional uterine bleeding, secondary amenorrhea",
+        "Palliative hormonal therapy of endometrial/renal/breast cancer (high dose)",
+        "Endometrial protection in HRT (with estrogen)"
+      ],
+      "qarrshi": [
+        "Pregnancy; undiagnosed vaginal bleeding",
+        "History of thromboembolism; severe liver disease",
+        "Hormone-dependent breast cancer (for the contraceptive indication)"
+      ],
+      "nojoya": {
+        "Cycle / bone": "Cycle disturbance, amenorrhea, with long-term depot — reduced bone density (reversible)",
+        "Metabolic": "Weight gain, fluid retention, appetite change",
+        "Other": "Headache, mood change, delayed return of fertility (after depot)"
+      },
+      "dozadan": "Serious toxicity is rare; symptomatic treatment.",
+      "ozarotasir": [
+        "Enzyme inducers (rifampicin, aminoglutethimide) reduce the effect",
+        "Additive effect with other progestogens and hormones"
+      ],
+      "qollash": {
+        "kattalar": "Depot contraceptive: 150 mg IM every 3 months (or 104 mg SC). Oral: per indication 5–10 mg/day (cycle disorders) or high dose (oncology). Set by the physician.",
+        "bolalar": "Only for a specific indication, under medical supervision."
+      },
+      "chiqarish": "Tablets 5/10/250/500 mg; depot injection 150 mg/mL (IM), 104 mg (SC)"
+    }
+  },
+  "G03AC09": {
+    "uz": {
+      "gruppa": "Progestogenli kontratseptiv — dezogestrel (mini-pili)",
+      "farmTasir": "Faqat progestogenli, ovulyatsiyani bostiruvchi tabletka",
+      "farmakodinamika": "Dezogestrel — faol metaboliti (etonogestrel) orqali ta'sir qiluvchi progestogen. Eski progestogenli tabletkalardan farqli ravishda asosan ovulyatsiyani bostiradi (faqat shilliq quyuqlanishi emas), shu sababli samaradorligi yuqori. Bachadon bo'yni shilliqini quyuqlashtiradi va endometriyni o'zgartiradi. Estrogen yo'qligi tufayli emizish davrida va estrogen qarshi ko'rsatma bo'lganda qulay.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali tez so'riladi; etonogestrelга aylanadi.",
+        "tarqalish": "Plazma oqsillariga bog'lanadi.",
+        "metabolizm": "Jigarda (CYP3A4).",
+        "chiqarilish": "Siydik va najas orqali."
+      },
+      "korsatmalar": [
+        "Kontratseptsiya, ayniqsa estrogen qarshi ko'rsatma yoki emizish davrida",
+        "Tromboz xavfi yuqori ayollarда kombinatsiyalangan tabletka o'rniga"
+      ],
+      "qarrshi": [
+        "Homiladorlik; faol venoz tromboemboliya",
+        "Og'ir jigar kasalligi/o'smasi; gormonga bog'liq saraton",
+        "Aniqlanmagan qin qon ketishi; dezogestrelga sezgirlik"
+      ],
+      "nojoya": {
+        "Tsikl": "Hayz tartibsizligi, amenoreya yoki tez-tez/uzaytirilgan qon ketish (eng tez-tez)",
+        "Boshqa": "Bosh og'rig'i, sut bezi sezgirligi, kayfiyat o'zgarishi, akne",
+        "Kam": "Tuxumdon kistasi, libido pasayishi"
+      },
+      "dozadan": "Jiddiy toksiklik kam; ko'ngil aynishi, qin qon ketishi mumkin. Davo simptomatik.",
+      "ozarotasir": [
+        "Ferment induktorlari (rifampitsin, karbamazepin, fenitoin, St. John's wort): samarani pasaytiradi",
+        "Ba'zi antiretroviruslar samarani o'zgartirishi mumkin"
+      ],
+      "qollash": {
+        "kattalar": "75 mkg kuniga 1 marta, har kuni bir xil vaqtда, tanaffussiz (uzluksiz). Kechiksa 12 soat ichида qabul qilinsa himoya saqlanadi.",
+        "bolalar": "Faqat menarxedan keyin, ginekolog ko'rsatmasi bilan."
+      },
+      "chiqarish": "Tabletkalar 75 mkg (28 kunlik uzluksiz)"
+    },
+    "ru": {
+      "gruppa": "Прогестогенный контрацептив — дезогестрел (мини-пили)",
+      "farmTasir": "Чисто прогестогенная таблетка, подавляющая овуляцию",
+      "farmakodinamika": "Дезогестрел — прогестоген, действующий через активный метаболит (этоногестрел). В отличие от старых прогестогенных таблеток, в основном подавляет овуляцию (а не только сгущение слизи), поэтому эффективность выше. Сгущает цервикальную слизь и изменяет эндометрий. Из-за отсутствия эстрогена удобен при лактации и противопоказаниях к эстрогенам.",
+      "farmakokinetika": {
+        "sorish": "Быстро всасывается внутрь; превращается в этоногестрел.",
+        "tarqalish": "Связывается с белками плазмы.",
+        "metabolizm": "В печени (CYP3A4).",
+        "chiqarilish": "С мочой и калом."
+      },
+      "korsatmalar": [
+        "Контрацепция, особенно при противопоказаниях к эстрогенам или лактации",
+        "Вместо комбинированной таблетки у женщин с высоким риском тромбоза"
+      ],
+      "qarrshi": [
+        "Беременность; активная венозная тромбоэмболия",
+        "Тяжёлое заболевание/опухоль печени; гормонозависимый рак",
+        "Неустановленное вагинальное кровотечение; чувствительность к дезогестрелу"
+      ],
+      "nojoya": {
+        "Цикл": "Нарушение цикла, аменорея или частые/удлинённые кровотечения (наиболее часто)",
+        "Прочее": "Головная боль, чувствительность молочных желёз, изменение настроения, акне",
+        "Редко": "Киста яичника, снижение либидо"
+      },
+      "dozadan": "Серьёзная токсичность редка; возможны тошнота, вагинальные кровотечения. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Индукторы ферментов (рифампицин, карбамазепин, фенитоин, зверобой): снижают эффект",
+        "Некоторые антиретровирусные могут изменять эффект"
+      ],
+      "qollash": {
+        "kattalar": "75 мкг 1 раз/сут в одно время, без перерыва (непрерывно). При опоздании приём в течение 12 ч сохраняет защиту.",
+        "bolalar": "Только после менархе, по назначению гинеколога."
+      },
+      "chiqarish": "Таблетки 75 мкг (28-дневная непрерывная)"
+    },
+    "en": {
+      "gruppa": "Progestogen-only contraceptive — desogestrel (mini-pill)",
+      "farmTasir": "Progestogen-only pill that suppresses ovulation",
+      "farmakodinamika": "Desogestrel is a progestogen acting via its active metabolite (etonogestrel). Unlike older progestogen-only pills, it mainly suppresses ovulation (not just mucus thickening), so efficacy is higher. It thickens cervical mucus and alters the endometrium. Lacking estrogen, it is convenient during breastfeeding and when estrogens are contraindicated.",
+      "farmakokinetika": {
+        "sorish": "Rapidly absorbed orally; converted to etonogestrel.",
+        "tarqalish": "Plasma protein bound.",
+        "metabolizm": "Hepatic (CYP3A4).",
+        "chiqarilish": "In urine and feces."
+      },
+      "korsatmalar": [
+        "Contraception, especially with estrogen contraindications or during lactation",
+        "Instead of the combined pill in women at high thrombosis risk"
+      ],
+      "qarrshi": [
+        "Pregnancy; active venous thromboembolism",
+        "Severe liver disease/tumor; hormone-dependent cancer",
+        "Undiagnosed vaginal bleeding; sensitivity to desogestrel"
+      ],
+      "nojoya": {
+        "Cycle": "Cycle irregularity, amenorrhea or frequent/prolonged bleeding (most common)",
+        "Other": "Headache, breast tenderness, mood change, acne",
+        "Rare": "Ovarian cyst, decreased libido"
+      },
+      "dozadan": "Serious toxicity is rare; nausea, vaginal bleeding possible. Treat symptomatically.",
+      "ozarotasir": [
+        "Enzyme inducers (rifampicin, carbamazepine, phenytoin, St. John's wort): reduce the effect",
+        "Some antiretrovirals may alter the effect"
+      ],
+      "qollash": {
+        "kattalar": "75 mcg once daily at the same time, without a break (continuous). If late, taking within 12 h maintains protection.",
+        "bolalar": "Only after menarche, as prescribed by a gynecologist."
+      },
+      "chiqarish": "Tablets 75 mcg (28-day continuous)"
+    }
+  },
+  "G03DB08": {
+    "uz": {
+      "gruppa": "Progestogen — dienogest (endometrioz davosi)",
+      "farmTasir": "Antiandrogen progestogen, endometrioz o'choqlarini so'ndiradi",
+      "farmakodinamika": "Dienogest — nortestosteron va progesteron xususiyatlarini birlashtirgan progestogen; aniq antiandrogen ta'sirga ega. Gonadotropinlarni mo''tadil bostirib tuxumdon estradiol ishlab chiqarishini kamaytiradi va mahalliy ravishda endometrioz to'qimasiga to'g'ridan-to'g'ri progestogen ta'sir ko'rsatadi — natijada gipoestrogen/gipergestagen muhit yaratilib endometrioz o'choqlari atrofiyaga uchraydi va og'riq kamayadi. Estrogenni to'liq bostirmagani uchun suyak/issiqlik bosishi ta'siri agonistlardan yengilroq.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali yaxshi so'riladi (biokirish ~90%).",
+        "tarqalish": "Plazma oqsillariga (albumin) bog'lanadi.",
+        "metabolizm": "Jigarda CYP3A4 orqali.",
+        "chiqarilish": "Asosan siydik orqali metabolitlar. T½ — ~9–10 soat."
+      },
+      "korsatmalar": [
+        "Endometrioz (og'riq va o'choqlarni davolash)",
+        "Surunkali tos og'rig'i (endometrioz bilan bog'liq)"
+      ],
+      "qarrshi": [
+        "Faol venoz tromboemboliya; og'ir jigar kasalligi/o'smasi",
+        "Gormonga bog'liq saraton; aniqlanmagan qin qon ketishi",
+        "Homiladorlik va emizish; dienogestga sezgirlik"
+      ],
+      "nojoya": {
+        "Tsikl": "Qon ketish profili o'zgarishi (tartibsiz/kam qon ketish, amenoreya)",
+        "Asab / kayfiyat": "Bosh og'rig'i, kayfiyat pasayishi, asabiylik",
+        "Boshqa": "Sut bezi noqulayligi, akne, vazn ortishi, libido o'zgarishi"
+      },
+      "dozadan": "Jiddiy toksiklik kam; simptomatik davo.",
+      "ozarotasir": [
+        "Kuchli CYP3A4 induktorlari (rifampitsin, karbamazepin, St. John's wort): samarani pasaytiradi",
+        "Kuchli CYP3A4 inhibitorlari konsentratsiyani oshirishi mumkin"
+      ],
+      "qollash": {
+        "kattalar": "2 mg kuniga 1 marta, uzluksiz (tsikldan qat'i nazar), uzoq muddat. Ovqatdan qat'i nazar.",
+        "bolalar": "Menarxedan keyin, ginekolog ko'rsatmasi bilan (suyak holatini hisobga olib)."
+      },
+      "chiqarish": "Tabletkalar 2 mg"
+    },
+    "ru": {
+      "gruppa": "Прогестоген — диеногест (лечение эндометриоза)",
+      "farmTasir": "Антиандрогенный прогестоген, подавляющий очаги эндометриоза",
+      "farmakodinamika": "Диеногест — прогестоген, сочетающий свойства нортестостерона и прогестерона; обладает выраженным антиандрогенным действием. Умеренно подавляя гонадотропины, снижает выработку эстрадиола яичниками и оказывает прямое прогестогенное действие на ткань эндометриоза — создаётся гипоэстрогенная/гипергестагенная среда, очаги эндометриоза атрофируются, боль уменьшается. Поскольку эстроген подавляется не полностью, влияние на кость/приливы мягче, чем у агонистов.",
+      "farmakokinetika": {
+        "sorish": "Хорошо всасывается внутрь (биодоступность ~90%).",
+        "tarqalish": "Связывается с белками плазмы (альбумин).",
+        "metabolizm": "В печени через CYP3A4.",
+        "chiqarilish": "Преимущественно с мочой (метаболиты). T½ — ~9–10 ч."
+      },
+      "korsatmalar": [
+        "Эндометриоз (лечение боли и очагов)",
+        "Хроническая тазовая боль (связанная с эндометриозом)"
+      ],
+      "qarrshi": [
+        "Активная венозная тромбоэмболия; тяжёлое заболевание/опухоль печени",
+        "Гормонозависимый рак; неустановленное вагинальное кровотечение",
+        "Беременность и лактация; чувствительность к диеногесту"
+      ],
+      "nojoya": {
+        "Цикл": "Изменение профиля кровотечений (нерегулярные/скудные, аменорея)",
+        "Нервы / настроение": "Головная боль, снижение настроения, раздражительность",
+        "Прочее": "Дискомфорт молочных желёз, акне, прибавка массы, изменение либидо"
+      },
+      "dozadan": "Серьёзная токсичность редка; симптоматическое лечение.",
+      "ozarotasir": [
+        "Сильные индукторы CYP3A4 (рифампицин, карбамазепин, зверобой): снижают эффект",
+        "Сильные ингибиторы CYP3A4 могут повышать концентрацию"
+      ],
+      "qollash": {
+        "kattalar": "2 мг 1 раз/сут непрерывно (независимо от цикла), длительно. Независимо от еды.",
+        "bolalar": "После менархе, по назначению гинеколога (с учётом состояния кости)."
+      },
+      "chiqarish": "Таблетки 2 мг"
+    },
+    "en": {
+      "gruppa": "Progestogen — dienogest (endometriosis treatment)",
+      "farmTasir": "Antiandrogenic progestogen that suppresses endometriotic lesions",
+      "farmakodinamika": "Dienogest is a progestogen combining nortestosterone and progesterone properties, with marked antiandrogenic activity. By moderately suppressing gonadotropins it lowers ovarian estradiol production and exerts a direct progestogenic effect on endometriotic tissue — creating a hypoestrogenic/hypergestagenic environment so that endometriotic lesions atrophy and pain decreases. Because estrogen is not fully suppressed, effects on bone/hot flushes are milder than with agonists.",
+      "farmakokinetika": {
+        "sorish": "Well absorbed orally (bioavailability ~90%).",
+        "tarqalish": "Plasma protein bound (albumin).",
+        "metabolizm": "Hepatic via CYP3A4.",
+        "chiqarilish": "Mainly in urine (metabolites). T½ ~9–10 h."
+      },
+      "korsatmalar": [
+        "Endometriosis (treatment of pain and lesions)",
+        "Chronic pelvic pain (associated with endometriosis)"
+      ],
+      "qarrshi": [
+        "Active venous thromboembolism; severe liver disease/tumor",
+        "Hormone-dependent cancer; undiagnosed vaginal bleeding",
+        "Pregnancy and lactation; sensitivity to dienogest"
+      ],
+      "nojoya": {
+        "Cycle": "Altered bleeding profile (irregular/scanty bleeding, amenorrhea)",
+        "Nervous / mood": "Headache, low mood, irritability",
+        "Other": "Breast discomfort, acne, weight gain, libido change"
+      },
+      "dozadan": "Serious toxicity is rare; symptomatic treatment.",
+      "ozarotasir": [
+        "Strong CYP3A4 inducers (rifampicin, carbamazepine, St. John's wort): reduce the effect",
+        "Strong CYP3A4 inhibitors may raise levels"
+      ],
+      "qollash": {
+        "kattalar": "2 mg once daily continuously (regardless of cycle), long term. Regardless of food.",
+        "bolalar": "After menarche, as prescribed by a gynecologist (considering bone status)."
+      },
+      "chiqarish": "Tablets 2 mg"
+    }
+  },
+  "G03DC01": {
+    "uz": {
+      "gruppa": "Progestogen — allilestrenol (homiladorlikni qo'llab-quvvatlovchi)",
+      "farmTasir": "Bachadon tonusini pasaytiruvchi progestogen",
+      "farmakodinamika": "Allilestrenol — sintetik peroral progestogen. Progesteron retseptorlari orqali endometriyni sekretor holatда saqlaydi, miometriy qo'zg'aluvchanligi va spontan qisqarishlarini kamaytiradi, platsentar troblastlar faoliyatini qo'llab-quvvatlaydi. Natijada homiladorlikning saqlanishiga yordam beradi. Androgen yoki estrogen ta'siri yo'q.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali so'riladi.",
+        "tarqalish": "Plazma oqsillariga bog'lanadi.",
+        "metabolizm": "Jigarda.",
+        "chiqarilish": "Asosan siydik orqali."
+      },
+      "korsatmalar": [
+        "Tahdidli va odatiy tushish (progesteron yetishmovchiligi)",
+        "Muddatidan oldingi tug'ruq tahdidi (progestogen qo'llab-quvvatlash)"
+      ],
+      "qarrshi": [
+        "Allilestrenolga sezgirlik",
+        "Og'ir jigar kasalligi (Dubin-Jonson, Rotor sindromi)",
+        "Anamnezda yoki faol gormonga bog'liq o'sma"
+      ],
+      "nojoya": {
+        "Hazm / jigar": "Ko'ngil aynishi, jigar funksiyasi o'zgarishi (kamdan-kam)",
+        "Umumiy": "Bosh og'rig'i, charchoq (kam)",
+        "Allergik": "Toshma, qichishish (kamdan-kam)"
+      },
+      "dozadan": "Xavfsizlik yuqori; jiddiy toksiklik kam. Davo simptomatik.",
+      "ozarotasir": [
+        "Jigar ferment induktorlari samarani o'zgartirishi mumkin",
+        "Klinik ahamiyatli o'zaro ta'sir kam"
+      ],
+      "qollash": {
+        "kattalar": "Tahdidli tushish: 5 mg 2–3 marta/kun, belgilar kamaygach davom ettiriladi. Odatiy tushishда homiladorlik boshidan profilaktik. Shifokor belgilaydi.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Tabletkalar 5 mg"
+    },
+    "ru": {
+      "gruppa": "Прогестоген — аллилэстренол (поддержка беременности)",
+      "farmTasir": "Прогестоген, снижающий тонус матки",
+      "farmakodinamika": "Аллилэстренол — синтетический пероральный прогестоген. Через прогестероновые рецепторы поддерживает эндометрий в секреторном состоянии, снижает возбудимость и спонтанные сокращения миометрия, поддерживает функцию плацентарных трофобластов. В итоге способствует сохранению беременности. Не обладает андрогенным или эстрогенным действием.",
+      "farmakokinetika": {
+        "sorish": "Всасывается внутрь.",
+        "tarqalish": "Связывается с белками плазмы.",
+        "metabolizm": "В печени.",
+        "chiqarilish": "Преимущественно с мочой."
+      },
+      "korsatmalar": [
+        "Угрожающий и привычный выкидыш (недостаточность прогестерона)",
+        "Угроза преждевременных родов (прогестогенная поддержка)"
+      ],
+      "qarrshi": [
+        "Чувствительность к аллилэстренолу",
+        "Тяжёлое заболевание печени (синдром Дубина-Джонсона, Ротора)",
+        "Гормонозависимая опухоль в анамнезе или активная"
+      ],
+      "nojoya": {
+        "ЖКТ / печень": "Тошнота, изменение функции печени (редко)",
+        "Общие": "Головная боль, утомляемость (редко)",
+        "Аллергия": "Сыпь, зуд (редко)"
+      },
+      "dozadan": "Высокая безопасность; серьёзная токсичность редка. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Индукторы печёночных ферментов могут изменять эффект",
+        "Клинически значимых взаимодействий мало"
+      ],
+      "qollash": {
+        "kattalar": "Угрожающий выкидыш: 5 мг 2–3 раза/сут, продолжают после уменьшения симптомов. При привычном выкидыше — профилактически с начала беременности. Определяет врач.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Таблетки 5 мг"
+    },
+    "en": {
+      "gruppa": "Progestogen — allylestrenol (pregnancy support)",
+      "farmTasir": "Progestogen that lowers uterine tone",
+      "farmakodinamika": "Allylestrenol is a synthetic oral progestogen. Via progesterone receptors it maintains the endometrium in a secretory state, reduces myometrial excitability and spontaneous contractions, and supports placental trophoblast function. This helps maintain pregnancy. It has no androgenic or estrogenic action.",
+      "farmakokinetika": {
+        "sorish": "Absorbed orally.",
+        "tarqalish": "Plasma protein bound.",
+        "metabolizm": "Hepatic.",
+        "chiqarilish": "Mainly in urine."
+      },
+      "korsatmalar": [
+        "Threatened and habitual miscarriage (progesterone deficiency)",
+        "Threatened preterm labor (progestogen support)"
+      ],
+      "qarrshi": [
+        "Sensitivity to allylestrenol",
+        "Severe liver disease (Dubin-Johnson, Rotor syndrome)",
+        "Past or active hormone-dependent tumor"
+      ],
+      "nojoya": {
+        "GI / liver": "Nausea, altered liver function (rare)",
+        "General": "Headache, fatigue (rare)",
+        "Allergic": "Rash, itching (rare)"
+      },
+      "dozadan": "High safety; serious toxicity is rare. Treat symptomatically.",
+      "ozarotasir": [
+        "Hepatic enzyme inducers may alter the effect",
+        "Few clinically significant interactions"
+      ],
+      "qollash": {
+        "kattalar": "Threatened miscarriage: 5 mg 2–3 times/day, continued after symptoms ease. In habitual miscarriage, prophylactically from early pregnancy. Set by the physician.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Tablets 5 mg"
+    }
+  },
+  "G03XB02": {
+    "uz": {
+      "gruppa": "Selektiv progesteron retseptori modulyatori (ulipristal)",
+      "farmTasir": "Ovulyatsiyani kechiktiruvchi / mioma davosi",
+      "farmakodinamika": "Ulipristal atsetat — selektiv progesteron retseptori modulyatori (SPRM). Progesteron retseptorlariga qisman agonist/antagonist sifatida bog'lanadi. Shoshilinch kontratseptsiyada LH cho'qqisini bostirib/kechiktirib ovulyatsiyani follikul yorilishidan oldin ham kechiktiradi (levonorgestreldan kechroq bosqichда ham samarali). Bachadon miomasida mioma to'qimasi proliferatsiyasini bostirib hajmini kichraytiradi va qon ketishni kamaytiradi (jigar toksikligi sababli bu ko'rsatma cheklangan).",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali tez so'riladi; yog'li ovqat so'rilishni sekinlashtiradi.",
+        "tarqalish": "Plazma oqsillariga yuqori bog'lanadi.",
+        "metabolizm": "Jigarda CYP3A4 orqali faol metabolitga.",
+        "chiqarilish": "Asosan najas. T½ — ~32 soat."
+      },
+      "korsatmalar": [
+        "Shoshilinch kontratseptsiya (himoyalanmagan aloqadan keyin 120 soat / 5 kun ичида) — 30 mg",
+        "Bachadon miomasi (mo''tadil-og'ir belgilar) — 5 mg, faqat maxsus sharoit va jigar nazorati bilan"
+      ],
+      "qarrshi": [
+        "Homiladorlik; ulipristalga sezgirlik",
+        "Mioma ko'rsatmasi uchun: jigar kasalligi (jigar shikastlanishi xabarlari sababli cheklov)",
+        "Og'ir astma (nazoratsiz) — mioma davosida"
+      ],
+      "nojoya": {
+        "Tsikl": "Hayz o'zgarishi, oraliq qon ketish, amenoreya (mioma davosida)",
+        "Asab / hazm": "Bosh og'rig'i, ko'ngil aynishi, qorin og'rig'i, bosh aylanishi",
+        "Jigar (mioma, uzoq davo)": "Jigar fermentlari oshishi — kamdan-kam og'ir jigar shikasti (nazorat shart)"
+      },
+      "dozadan": "Tajriba cheklangan; nojo'ya ta'sirlar kuchayishi mumkin. Davo simptomatik.",
+      "ozarotasir": [
+        "Ferment induktorlari (rifampitsin, karbamazepin, St. John's wort): samarani pasaytiradi",
+        "Progestogenlar va progestogenli kontratseptivlar ulipristal ta'sirini susaytirishi mumkin (bir vaqtда tavsiya etilmaydi)",
+        "Kuchli CYP3A4 inhibitorlari konsentratsiyani oshiradi"
+      ],
+      "qollash": {
+        "kattalar": "Shoshilinch kontratseptsiya: 30 mg bir martalik, aloqadan keyin imkon qadar tez (≤120 soat). Mioma: 5 mg/kun kurslarda, faqat shifokor nazorati va jigar testlari bilan.",
+        "bolalar": "Reproduktiv yoshdagi qizlarda shoshilinch kontratseptsiya sifatida — umumiy qoidalar bo'yicha."
+      },
+      "chiqarish": "Tabletkalar 30 mg (shoshilinch kontratseptsiya); 5 mg (mioma)"
+    },
+    "ru": {
+      "gruppa": "Селективный модулятор рецепторов прогестерона (улипристал)",
+      "farmTasir": "Откладывает овуляцию / лечение миомы",
+      "farmakodinamika": "Улипристала ацетат — селективный модулятор рецепторов прогестерона (СМРП). Связывается с прогестероновыми рецепторами как частичный агонист/антагонист. В экстренной контрацепции подавляет/откладывает пик ЛГ и задерживает овуляцию даже на поздней стадии (эффективен позже, чем левоноргестрел). При миоме матки подавляет пролиферацию ткани миомы, уменьшая её объём и кровотечение (это показание ограничено из-за гепатотоксичности).",
+      "farmakokinetika": {
+        "sorish": "Быстро всасывается внутрь; жирная пища замедляет всасывание.",
+        "tarqalish": "Высокое связывание с белками плазмы.",
+        "metabolizm": "В печени через CYP3A4 до активного метаболита.",
+        "chiqarilish": "Преимущественно с калом. T½ — ~32 ч."
+      },
+      "korsatmalar": [
+        "Экстренная контрацепция (в течение 120 ч / 5 дней после незащищённого акта) — 30 мг",
+        "Миома матки (умеренно-тяжёлые симптомы) — 5 мг, только в особых условиях и под контролем печени"
+      ],
+      "qarrshi": [
+        "Беременность; чувствительность к улипристалу",
+        "Для показания по миоме: заболевание печени (ограничение из-за сообщений о повреждении печени)",
+        "Тяжёлая астма (неконтролируемая) — при лечении миомы"
+      ],
+      "nojoya": {
+        "Цикл": "Изменение менструаций, межменструальные кровотечения, аменорея (при лечении миомы)",
+        "Нервы / ЖКТ": "Головная боль, тошнота, боль в животе, головокружение",
+        "Печень (миома, длительно)": "Повышение печёночных ферментов — редко тяжёлое повреждение печени (нужен контроль)"
+      },
+      "dozadan": "Опыт ограничен; возможно усиление побочных эффектов. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Индукторы ферментов (рифампицин, карбамазепин, зверобой): снижают эффект",
+        "Прогестогены и прогестогенные контрацептивы могут ослаблять действие улипристала (одновременно не рекомендуется)",
+        "Сильные ингибиторы CYP3A4 повышают концентрацию"
+      ],
+      "qollash": {
+        "kattalar": "Экстренная контрацепция: 30 мг однократно, как можно скорее после акта (≤120 ч). Миома: 5 мг/сут курсами, только под контролем врача и печёночных тестов.",
+        "bolalar": "У девушек репродуктивного возраста как экстренная контрацепция — по общим правилам."
+      },
+      "chiqarish": "Таблетки 30 мг (экстренная контрацепция); 5 мг (миома)"
+    },
+    "en": {
+      "gruppa": "Selective progesterone receptor modulator (ulipristal)",
+      "farmTasir": "Delays ovulation / fibroid treatment",
+      "farmakodinamika": "Ulipristal acetate is a selective progesterone receptor modulator (SPRM). It binds progesterone receptors as a partial agonist/antagonist. In emergency contraception it suppresses/delays the LH surge and postpones ovulation even at a late stage (effective later than levonorgestrel). In uterine fibroids it suppresses fibroid tissue proliferation, reducing volume and bleeding (this indication is restricted due to hepatotoxicity).",
+      "farmakokinetika": {
+        "sorish": "Rapidly absorbed orally; a fatty meal slows absorption.",
+        "tarqalish": "High plasma protein binding.",
+        "metabolizm": "Hepatic via CYP3A4 to an active metabolite.",
+        "chiqarilish": "Mainly in feces. T½ ~32 h."
+      },
+      "korsatmalar": [
+        "Emergency contraception (within 120 h / 5 days of unprotected intercourse) — 30 mg",
+        "Uterine fibroids (moderate-severe symptoms) — 5 mg, only under special conditions and liver monitoring"
+      ],
+      "qarrshi": [
+        "Pregnancy; sensitivity to ulipristal",
+        "For the fibroid indication: liver disease (restricted due to reports of liver injury)",
+        "Severe (uncontrolled) asthma — during fibroid treatment"
+      ],
+      "nojoya": {
+        "Cycle": "Menstrual change, intermenstrual bleeding, amenorrhea (during fibroid treatment)",
+        "Nervous / GI": "Headache, nausea, abdominal pain, dizziness",
+        "Liver (fibroid, long-term)": "Raised liver enzymes — rarely severe liver injury (monitoring required)"
+      },
+      "dozadan": "Experience is limited; side effects may intensify. Treat symptomatically.",
+      "ozarotasir": [
+        "Enzyme inducers (rifampicin, carbamazepine, St. John's wort): reduce the effect",
+        "Progestogens and progestogen contraceptives may weaken ulipristal's action (concurrent use not recommended)",
+        "Strong CYP3A4 inhibitors raise levels"
+      ],
+      "qollash": {
+        "kattalar": "Emergency contraception: 30 mg once, as soon as possible after intercourse (≤120 h). Fibroids: 5 mg/day in courses, only under medical and liver-test monitoring.",
+        "bolalar": "In girls of reproductive age as emergency contraception — by general rules."
+      },
+      "chiqarish": "Tablets 30 mg (emergency contraception); 5 mg (fibroids)"
+    }
+  },
+
+  // ─────────────────────────────────────────────────────────
   // GENITOURINARY — G02 + G03G gonadotropinlar (batch 4)
   // ─────────────────────────────────────────────────────────
   "G02AD02": {
