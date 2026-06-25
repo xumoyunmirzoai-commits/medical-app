@@ -92,6 +92,31 @@ for (const gid of Object.keys(byGroup)) {
 // lab.json
 fs.writeFileSync(path.join(out, 'lab.json'), JSON.stringify({ cats: LAB_CATEGORIES, tests: LAB_TESTS }));
 
+// edu.json — Ta'lim (420-buyruq) AI/RAG chunklari (edu_data.js mavjud bo'lsa)
+let eduChunks = 0;
+try {
+  const eduPath = path.join(root, 'edu_data.js');
+  if (fs.existsSync(eduPath)) {
+    const EDU = loadGlobals(eduPath, ['EDU_DATA']).EDU_DATA;
+    const chunks = [];
+    for (const ch of (EDU.chapters || [])) {
+      let buf = '';
+      const flush = () => { if (buf.trim()) { chunks.push({ chapter: ch.title, text: buf.trim() }); buf = ''; } };
+      for (const b of ch.blocks || []) {
+        let seg = '';
+        if (b.t === 'h' || b.t === 'p') seg = b.text;
+        else if (b.t === 'table') seg = (b.rows || []).map(r => r.join(' | ')).join('\n');
+        if (!seg) continue;
+        if ((buf + '\n' + seg).length > 1500) flush();
+        buf += (buf ? '\n' : '') + seg;
+      }
+      flush();
+    }
+    fs.writeFileSync(path.join(out, 'edu.json'), JSON.stringify(chunks));
+    eduChunks = chunks.length;
+  }
+} catch (e) { /* edu ixtiyoriy */ }
+
 // hisobot
 const sz = f => (fs.statSync(f).size / 1024).toFixed(0) + 'KB';
 console.log('Yaratildi -> bot-data/');
@@ -100,3 +125,4 @@ console.log('  search.json   ', sz(path.join(out, 'search.json')), '(' + search.
 console.log('  lab.json      ', sz(path.join(out, 'lab.json')));
 console.log('  pharma/*.json ', pharmaDone.size, 'fayl');
 console.log('  group/*.json  ', Object.keys(byGroup).length, 'fayl');
+console.log('  edu.json      ', eduChunks, 'chunk');
