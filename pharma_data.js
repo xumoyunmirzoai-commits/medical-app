@@ -8,6 +8,881 @@
 
 const PHARMA_DATA = {
   // ─────────────────────────────────────────────────────────
+  // GENITOURINARY — G02 + G03G gonadotropinlar (batch 4)
+  // ─────────────────────────────────────────────────────────
+  "G02AD02": {
+    "uz": {
+      "gruppa": "Akusherlik vositasi — prostaglandin E2 (dinoproston)",
+      "farmTasir": "Bachadon bo'ynini yetiltiradi va tug'ruqni qo'zg'atadi",
+      "farmakodinamika": "Dinoproston — tabiiy prostaglandin E2 (PGE2). Bachadon bo'yni biriktiruvchi to'qimasida kollagen parchalanishini va suvlanishini kuchaytirib uni yumshatadi va yetiltiradi (servikal sozlash), shuningdek miometriy silliq mushagini PGE retseptorlari orqali ritmik qisqartiradi. Natijada tug'ruq faoliyati boshlanadi/kuchayadi. Tomirlarni kengaytiruvchi va bronxlarga ta'siri ham bor.",
+      "farmakokinetika": {
+        "sorish": "Vaginal/servikal qo'yilganda mahalliy ta'sir; oz qismi qonga o'tadi.",
+        "tarqalish": "To'qimalarda tez metabolizmga uchraydi.",
+        "metabolizm": "O'pka, jigar va buyrakda tez (mahalliy fermentlar).",
+        "chiqarilish": "Asosan siydik orqali metabolitlar shaklida. T½ — juda qisqa (daqiqalar)."
+      },
+      "korsatmalar": [
+        "Muddatli homiladorlikda bachadon bo'ynini yetiltirish va tug'ruqni qo'zg'atish",
+        "Tibbiy ko'rsatma bo'yicha homiladorlikni to'xtatish (II trimestr)"
+      ],
+      "qarrshi": [
+        "Bachadonda chandiq (oldingi kesar kesish/miomektomiya) — yorilish xavfi",
+        "Tos-bosh nomutanosibligi, homila noto'g'ri holati, homila distressi",
+        "Faol tug'ruq faoliyati, ko'p marta tuqqan ayollarda ehtiyotkorlik, platsenta previa, tushuntirilmagan qin qon ketishi",
+        "Glaukoma, og'ir bronxial astma, dinoprostonga sezgirlik"
+      ],
+      "nojoya": {
+        "Bachadon": "Bachadonning ortiqcha qo'zg'alishi/gipertonusi, homila yurak urishi buzilishi",
+        "Hazm": "Ko'ngil aynishi, qusish, diareya, isitma",
+        "Boshqa": "Bosh og'rig'i, qizarish, gipotenziya (kamdan-kam)"
+      },
+      "dozadan": "Bachadon gipertonusi va homila distressi. Davo: preparatni olib tashlash (vaginal insert), tokolitik (beta-agonist), nazorat.",
+      "ozarotasir": [
+        "Oksitotsin bilan ta'sir kuchayadi — birga ehtiyotkorlik, oraliq vaqt saqlanadi",
+        "Boshqa tug'ruq qo'zg'atuvchi vositalar bilan gipertonus xavfi"
+      ],
+      "qollash": {
+        "kattalar": "Servikal gel 0,5 mg servikal kanalga; yoki vaginal gel/insert 1–2 mg vaginal gumbazga. Faqat shifoxonada, homila monitoringi ostida. Takror dozalar oralig'i saqlanadi.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Servikal gel 0,5 mg; vaginal gel 1/2 mg; vaginal insert 10 mg"
+    },
+    "ru": {
+      "gruppa": "Акушерское средство — простагландин E2 (динопростон)",
+      "farmTasir": "Подготавливает шейку матки и индуцирует роды",
+      "farmakodinamika": "Динопростон — природный простагландин E2 (ПГE2). Усиливает расщепление и гидратацию коллагена соединительной ткани шейки матки, размягчая и подготавливая её (созревание шейки), а также вызывает ритмичные сокращения миометрия через рецепторы ПГE. В итоге начинается/усиливается родовая деятельность. Обладает сосудорасширяющим и бронхиальным действием.",
+      "farmakokinetika": {
+        "sorish": "При вагинальном/цервикальном введении действие местное; малая часть попадает в кровь.",
+        "tarqalish": "Быстро метаболизируется в тканях.",
+        "metabolizm": "Быстро в лёгких, печени и почках (местные ферменты).",
+        "chiqarilish": "Преимущественно с мочой в виде метаболитов. T½ — очень короткий (минуты)."
+      },
+      "korsatmalar": [
+        "Созревание шейки и индукция родов при доношенной беременности",
+        "Прерывание беременности по медицинским показаниям (II триместр)"
+      ],
+      "qarrshi": [
+        "Рубец на матке (кесарево/миомэктомия) — риск разрыва",
+        "Клинически узкий таз, неправильное положение плода, дистресс плода",
+        "Активная родовая деятельность, осторожно у многорожавших, предлежание плаценты, необъяснимое кровотечение",
+        "Глаукома, тяжёлая бронхиальная астма, чувствительность к динопростону"
+      ],
+      "nojoya": {
+        "Матка": "Гиперстимуляция/гипертонус матки, нарушение ЧСС плода",
+        "ЖКТ": "Тошнота, рвота, диарея, лихорадка",
+        "Прочее": "Головная боль, покраснение, гипотензия (редко)"
+      },
+      "dozadan": "Гипертонус матки и дистресс плода. Лечение: удаление препарата (вагинальный вкладыш), токолитик (бета-агонист), мониторинг.",
+      "ozarotasir": [
+        "С окситоцином действие усиливается — осторожно, соблюдать интервал",
+        "С другими родостимулирующими средствами риск гипертонуса"
+      ],
+      "qollash": {
+        "kattalar": "Цервикальный гель 0,5 мг в цервикальный канал; или вагинальный гель/вкладыш 1–2 мг в задний свод. Только в стационаре под мониторингом плода. Соблюдать интервал между дозами.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Цервикальный гель 0,5 мг; вагинальный гель 1/2 мг; вагинальный вкладыш 10 мг"
+    },
+    "en": {
+      "gruppa": "Obstetric agent — prostaglandin E2 (dinoprostone)",
+      "farmTasir": "Ripens the cervix and induces labor",
+      "farmakodinamika": "Dinoprostone is natural prostaglandin E2 (PGE2). It enhances collagen breakdown and hydration in the cervical connective tissue, softening and ripening it (cervical ripening), and produces rhythmic myometrial contractions via PGE receptors. Labor is thereby started/augmented. It also has vasodilator and bronchial effects.",
+      "farmakokinetika": {
+        "sorish": "With vaginal/cervical placement the action is local; a small fraction enters the blood.",
+        "tarqalish": "Rapidly metabolized in tissues.",
+        "metabolizm": "Rapid in lung, liver and kidney (local enzymes).",
+        "chiqarilish": "Mainly in urine as metabolites. T½ very short (minutes)."
+      },
+      "korsatmalar": [
+        "Cervical ripening and labor induction at term",
+        "Termination of pregnancy on medical grounds (2nd trimester)"
+      ],
+      "qarrshi": [
+        "Uterine scar (prior cesarean/myomectomy) — rupture risk",
+        "Cephalopelvic disproportion, malpresentation, fetal distress",
+        "Active labor, caution in grand multiparas, placenta previa, unexplained bleeding",
+        "Glaucoma, severe asthma, sensitivity to dinoprostone"
+      ],
+      "nojoya": {
+        "Uterus": "Uterine hyperstimulation/hypertonus, fetal heart-rate abnormality",
+        "GI": "Nausea, vomiting, diarrhea, fever",
+        "Other": "Headache, flushing, hypotension (rare)"
+      },
+      "dozadan": "Uterine hypertonus and fetal distress. Treat: remove the product (vaginal insert), tocolytic (beta-agonist), monitoring.",
+      "ozarotasir": [
+        "With oxytocin the effect is enhanced — caution, keep an interval",
+        "Risk of hypertonus with other uterotonics"
+      ],
+      "qollash": {
+        "kattalar": "Cervical gel 0.5 mg into the cervical canal; or vaginal gel/insert 1–2 mg into the posterior fornix. Hospital only, under fetal monitoring. Keep the interval between doses.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Cervical gel 0.5 mg; vaginal gel 1/2 mg; vaginal insert 10 mg"
+    }
+  },
+  "G02AD06": {
+    "uz": {
+      "gruppa": "Akusherlik vositasi — prostaglandin E1 analogi (mizoprostol)",
+      "farmTasir": "Bachadonni qisqartiradi va bo'ynini yetiltiradi",
+      "farmakodinamika": "Mizoprostol — sintetik prostaglandin E1 (PGE1) analogi. Miometriy PGE retseptorlarini qo'zg'atib bachadon qisqarishlarini chaqiradi va bachadon bo'ynini yumshatadi (yetiltiradi). Shuningdek oshqozon shilliq qavatida bikarbonat va shilliq ishlab chiqarishni oshirib, kislota sekretsiyasini kamaytiradi (NUYaP gastropatiyasi profilaktikasi — boshqa ko'rsatma). Akusherlikда tug'ruqni qo'zg'atish, abort va tug'ruqdan keyingi qon ketishni to'xtatishda qo'llaniladi.",
+      "farmakokinetika": {
+        "sorish": "Og'iz, til ostiga, bukkal yoki vaginal yo'l bilan so'riladi; vaginal yo'l uzoqroq ta'sir beradi.",
+        "tarqalish": "Tez faol kislotaga (mizoprostol kislotasi) aylanadi.",
+        "metabolizm": "Jigarda va to'qimalarda.",
+        "chiqarilish": "Asosan siydik orqali. T½ — qisqa (~20–40 daqiqa)."
+      },
+      "korsatmalar": [
+        "Tug'ruqni qo'zg'atish va bachadon bo'ynini yetiltirish",
+        "Tibbiy abort (mifepriston bilan ketma-ket)",
+        "To'xtab qolgan homiladorlik/to'liqsiz tushishni boshqarish",
+        "Tug'ruqdan keyingi atonik qon ketishni davolash/profilaktika"
+      ],
+      "qarrshi": [
+        "Davom ettiriladigan homiladorlik (tug'ruqqa mo'ljallanmagan holatlarda)",
+        "Bachadonda chandiq/oldingi kesar kesish (tug'ruq qo'zg'atishda — yorilish xavfi)",
+        "Prostaglandinlarga sezgirlik; tos-bosh nomutanosibligi, homila distressi"
+      ],
+      "nojoya": {
+        "Bachadon": "Bachadonning ortiqcha qo'zg'alishi/gipertonusi, kuchli qisqarish, qin qon ketishi",
+        "Hazm": "Diareya, qorin og'rig'i (kramplar), ko'ngil aynishi",
+        "Umumiy": "Isitma, titroq, bosh og'rig'i"
+      },
+      "dozadan": "Bachadon gipertonusi, isitma, hazm buzilishi, gipotenziya. Davo: simptomatik, bachadon va homila monitoringi.",
+      "ozarotasir": [
+        "Oksitotsin bilan ketma-ket (oraliq vaqt saqlash kerak — gipertonus xavfi)",
+        "Magniy saqlovchi antatsidlar diareyani kuchaytiradi",
+        "Boshqa uterotonik vositalar bilan kombinatsiya ehtiyotkorlik talab qiladi"
+      ],
+      "qollash": {
+        "kattalar": "Doza ko'rsatmaga qarab keskin farq qiladi (mkg birliklarda) va faqat shifokor nazoratida. Masalan tug'ruq induksiyasi: past dozali vaginal/peroral protokollar; abort: mifepriston bilan ketma-ket. PPH: yuqori bir martalik doza. Aniq protokolни shifokor belgilaydi.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Tabletkalar 25/200 mkg; vaginal/akusherlik shakllari"
+    },
+    "ru": {
+      "gruppa": "Акушерское средство — аналог простагландина E1 (мизопростол)",
+      "farmTasir": "Сокращает матку и подготавливает шейку",
+      "farmakodinamika": "Мизопростол — синтетический аналог простагландина E1 (ПГE1). Стимулируя рецепторы ПГE миометрия, вызывает сокращения матки и размягчает (созревает) шейку. Также повышает выработку бикарбоната и слизи в желудке и снижает секрецию кислоты (профилактика НПВП-гастропатии — другое показание). В акушерстве применяется для индукции родов, аборта и остановки послеродового кровотечения.",
+      "farmakokinetika": {
+        "sorish": "Всасывается перорально, сублингвально, буккально или вагинально; вагинальный путь даёт более длительное действие.",
+        "tarqalish": "Быстро превращается в активную кислоту (мизопростоловая кислота).",
+        "metabolizm": "В печени и тканях.",
+        "chiqarilish": "Преимущественно с мочой. T½ — короткий (~20–40 мин)."
+      },
+      "korsatmalar": [
+        "Индукция родов и созревание шейки матки",
+        "Медикаментозный аборт (последовательно с мифепристоном)",
+        "Ведение замершей/неполной беременности",
+        "Лечение/профилактика послеродового атонического кровотечения"
+      ],
+      "qarrshi": [
+        "Сохраняемая беременность (когда роды нежелательны)",
+        "Рубец на матке/предшествующее кесарево (при индукции — риск разрыва)",
+        "Чувствительность к простагландинам; узкий таз, дистресс плода"
+      ],
+      "nojoya": {
+        "Матка": "Гиперстимуляция/гипертонус матки, сильные сокращения, кровотечение",
+        "ЖКТ": "Диарея, боль в животе (спазмы), тошнота",
+        "Общие": "Лихорадка, озноб, головная боль"
+      },
+      "dozadan": "Гипертонус матки, лихорадка, расстройства ЖКТ, гипотензия. Лечение: симптоматически, мониторинг матки и плода.",
+      "ozarotasir": [
+        "С окситоцином последовательно (соблюдать интервал — риск гипертонуса)",
+        "Магнийсодержащие антациды усиливают диарею",
+        "Комбинация с другими утеротониками требует осторожности"
+      ],
+      "qollash": {
+        "kattalar": "Доза резко различается по показанию (в мкг) и только под контролем врача. Например индукция родов: низкодозовые вагинальные/пероральные протоколы; аборт: последовательно с мифепристоном; ПРК: высокая однократная доза. Точный протокол определяет врач.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Таблетки 25/200 мкг; вагинальные/акушерские формы"
+    },
+    "en": {
+      "gruppa": "Obstetric agent — prostaglandin E1 analogue (misoprostol)",
+      "farmTasir": "Contracts the uterus and ripens the cervix",
+      "farmakodinamika": "Misoprostol is a synthetic prostaglandin E1 (PGE1) analogue. By stimulating myometrial PGE receptors it causes uterine contractions and softens (ripens) the cervix. It also increases gastric bicarbonate and mucus and reduces acid secretion (prevention of NSAID gastropathy — a separate use). In obstetrics it is used for labor induction, abortion and control of postpartum hemorrhage.",
+      "farmakokinetika": {
+        "sorish": "Absorbed orally, sublingually, buccally or vaginally; the vaginal route gives a longer action.",
+        "tarqalish": "Rapidly converted to the active acid (misoprostol acid).",
+        "metabolizm": "In liver and tissues.",
+        "chiqarilish": "Mainly in urine. T½ short (~20–40 min)."
+      },
+      "korsatmalar": [
+        "Labor induction and cervical ripening",
+        "Medical abortion (sequentially with mifepristone)",
+        "Management of missed/incomplete miscarriage",
+        "Treatment/prevention of postpartum atonic hemorrhage"
+      ],
+      "qarrshi": [
+        "Pregnancy to be continued (when labor is undesired)",
+        "Uterine scar/prior cesarean (for induction — rupture risk)",
+        "Sensitivity to prostaglandins; cephalopelvic disproportion, fetal distress"
+      ],
+      "nojoya": {
+        "Uterus": "Uterine hyperstimulation/hypertonus, strong contractions, bleeding",
+        "GI": "Diarrhea, abdominal pain (cramps), nausea",
+        "General": "Fever, chills, headache"
+      },
+      "dozadan": "Uterine hypertonus, fever, GI upset, hypotension. Treat symptomatically with uterine and fetal monitoring.",
+      "ozarotasir": [
+        "Sequentially with oxytocin (keep an interval — hypertonus risk)",
+        "Magnesium-containing antacids worsen diarrhea",
+        "Combination with other uterotonics requires caution"
+      ],
+      "qollash": {
+        "kattalar": "The dose varies sharply by indication (in micrograms) and only under medical supervision. E.g. labor induction: low-dose vaginal/oral protocols; abortion: sequentially with mifepristone; PPH: a high single dose. The physician sets the exact protocol.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Tablets 25/200 mcg; vaginal/obstetric forms"
+    }
+  },
+  "G02CB03": {
+    "uz": {
+      "gruppa": "Prolaktin ingibitori — dopamin D2-agonisti (kabergolin)",
+      "farmTasir": "Prolaktin ishlab chiqarishni bostiradi",
+      "farmakodinamika": "Kabergolin — uzoq ta'sirli ergolin hosilasi, gipofiz laktotrof hujayralaridagi dopamin D2 retseptorlarini selektiv qo'zg'atadi. Dopamin prolaktin sekretsiyasini fiziologik tormozlovchi bo'lgani uchun kabergolin prolaktin darajasini sezilarli va uzoq muddat pasaytiradi. Giperprolaktinemiya tuzatiladi, prolaktinoma hajmi kichrayishi mumkin, laktatsiya bostiriladi.",
+      "farmakokinetika": {
+        "sorish": "Og'iz orqali so'riladi; ovqat ta'sir qilmaydi.",
+        "tarqalish": "Gipofizga yuqori afinlik; uzoq retseptor ta'siri.",
+        "metabolizm": "Jigarda (gidroliz).",
+        "chiqarilish": "Asosan najas. T½ — juda uzun (~63–68 soat), haftada 1–2 marta qabulга imkon beradi."
+      },
+      "korsatmalar": [
+        "Giperprolaktinemiya (idiopatik yoki prolaktinoma)",
+        "Laktatsiyani bostirish/oldini olish (tug'ruqdan keyin tibbiy ko'rsatma bilan)",
+        "Prolaktin bilan bog'liq amenoreya, galaktoreya, bepushtlik"
+      ],
+      "qarrshi": [
+        "Nazoratsiz gipertenziya, homiladorlik gipertenziyasi (preeklampsiya)",
+        "Anamnezda yurak klapani fibrozi/valvulopatiya; o'pka, perikard, retroperitoneal fibroz",
+        "Ergot alkaloidlariga sezgirlik; og'ir jigar yetishmovchiligi"
+      ],
+      "nojoya": {
+        "Yurak-qon tomir": "Ortostatik gipotenziya, bosh aylanishi; uzoq yuqori dozada — yurak klapani fibrozi (valvulopatiya)",
+        "Asab / hazm": "Bosh og'rig'i, uyquchanlik, ko'ngil aynishi, qabziyat",
+        "Psixika (kam)": "Impuls nazorati buzilishi (qimor, giperseksuallik) — yuqori dozada"
+      },
+      "dozadan": "Gipotenziya, ko'ngil aynishi, gallyutsinatsiya, burun bitishi. Davo: simptomatik, qon bosimini qo'llab-quvvatlash, dopamin antagonisti (kerak bo'lsa).",
+      "ozarotasir": [
+        "Dopamin antagonistlari (metoklopramid, neyroleptiklar) ta'sirini pasaytiradi",
+        "Boshqa ergot alkaloidlari bilan birga tavsiya etilmaydi",
+        "Kuchli CYP3A4 inhibitorlari (makrolidlar) konsentratsiyani oshirishi mumkin; gipotenziv vositalar bilan ehtiyotkorlik"
+      ],
+      "qollash": {
+        "kattalar": "Giperprolaktinemiya: 0,5 mg haftasiga 1–2 marta, asta oshirib (odatda 0,25–1 mg×2/hafta). Laktatsiyani bostirish: 1 mg bir martalik (tug'ruqдан keyingi 1-kuni) yoki 0,25 mg×2 (2 kun). Klapan monitoringi uzoq davoда.",
+        "bolalar": "Tavsiya etilmaydi."
+      },
+      "chiqarish": "Tabletkalar 0,5 mg (0,25 mg)"
+    },
+    "ru": {
+      "gruppa": "Ингибитор пролактина — агонист дофамина D2 (каберголин)",
+      "farmTasir": "Подавляет выработку пролактина",
+      "farmakodinamika": "Каберголин — длительно действующее производное эрголина, избирательно стимулирует дофаминовые D2-рецепторы лактотрофов гипофиза. Поскольку дофамин физиологически тормозит секрецию пролактина, каберголин значительно и надолго снижает его уровень. Гиперпролактинемия корректируется, объём пролактиномы может уменьшаться, лактация подавляется.",
+      "farmakokinetika": {
+        "sorish": "Всасывается внутрь; пища не влияет.",
+        "tarqalish": "Высокое сродство к гипофизу; длительное действие на рецепторы.",
+        "metabolizm": "В печени (гидролиз).",
+        "chiqarilish": "Преимущественно с калом. T½ — очень длинный (~63–68 ч), позволяет приём 1–2 раза/нед."
+      },
+      "korsatmalar": [
+        "Гиперпролактинемия (идиопатическая или пролактинома)",
+        "Подавление/предотвращение лактации (после родов по медпоказаниям)",
+        "Связанные с пролактином аменорея, галакторея, бесплодие"
+      ],
+      "qarrshi": [
+        "Неконтролируемая гипертензия, гипертензия беременных (преэклампсия)",
+        "Фиброз/вальвулопатия сердечных клапанов в анамнезе; лёгочный, перикардиальный, забрюшинный фиброз",
+        "Чувствительность к алкалоидам спорыньи; тяжёлая печёночная недостаточность"
+      ],
+      "nojoya": {
+        "Сердечно-сосудистые": "Ортостатическая гипотензия, головокружение; при длительной высокой дозе — фиброз клапанов сердца (вальвулопатия)",
+        "Нервы / ЖКТ": "Головная боль, сонливость, тошнота, запор",
+        "Психика (редко)": "Нарушение контроля импульсов (азартные игры, гиперсексуальность) — при высокой дозе"
+      },
+      "dozadan": "Гипотензия, тошнота, галлюцинации, заложенность носа. Лечение: симптоматически, поддержка АД, антагонист дофамина (при необходимости).",
+      "ozarotasir": [
+        "Антагонисты дофамина (метоклопрамид, нейролептики) снижают эффект",
+        "Не рекомендуется с другими алкалоидами спорыньи",
+        "Сильные ингибиторы CYP3A4 (макролиды) могут повышать концентрацию; осторожно с гипотензивными"
+      ],
+      "qollash": {
+        "kattalar": "Гиперпролактинемия: 0,5 мг 1–2 раза/нед с постепенным повышением (обычно 0,25–1 мг×2/нед). Подавление лактации: 1 мг однократно (в 1-й день после родов) или 0,25 мг×2 (2 дня). Мониторинг клапанов при длительном лечении.",
+        "bolalar": "Не рекомендуется."
+      },
+      "chiqarish": "Таблетки 0,5 мг (0,25 мг)"
+    },
+    "en": {
+      "gruppa": "Prolactin inhibitor — dopamine D2 agonist (cabergoline)",
+      "farmTasir": "Suppresses prolactin production",
+      "farmakodinamika": "Cabergoline is a long-acting ergoline derivative that selectively stimulates dopamine D2 receptors on pituitary lactotrophs. Because dopamine physiologically inhibits prolactin secretion, cabergoline lowers prolactin markedly and durably. Hyperprolactinemia is corrected, a prolactinoma may shrink, and lactation is suppressed.",
+      "farmakokinetika": {
+        "sorish": "Absorbed orally; food has no effect.",
+        "tarqalish": "High affinity for the pituitary; prolonged receptor action.",
+        "metabolizm": "Hepatic (hydrolysis).",
+        "chiqarilish": "Mainly in feces. T½ very long (~63–68 h), allowing 1–2 times/week dosing."
+      },
+      "korsatmalar": [
+        "Hyperprolactinemia (idiopathic or prolactinoma)",
+        "Suppression/prevention of lactation (postpartum, on medical grounds)",
+        "Prolactin-related amenorrhea, galactorrhea, infertility"
+      ],
+      "qarrshi": [
+        "Uncontrolled hypertension, hypertension of pregnancy (pre-eclampsia)",
+        "History of cardiac valve fibrosis/valvulopathy; pulmonary, pericardial, retroperitoneal fibrosis",
+        "Sensitivity to ergot alkaloids; severe hepatic impairment"
+      ],
+      "nojoya": {
+        "Cardiovascular": "Orthostatic hypotension, dizziness; with prolonged high doses — cardiac valve fibrosis (valvulopathy)",
+        "Nervous / GI": "Headache, drowsiness, nausea, constipation",
+        "Psychiatric (rare)": "Impulse-control disorder (gambling, hypersexuality) — at high doses"
+      },
+      "dozadan": "Hypotension, nausea, hallucinations, nasal congestion. Treat symptomatically, support BP, dopamine antagonist if needed.",
+      "ozarotasir": [
+        "Dopamine antagonists (metoclopramide, neuroleptics) reduce the effect",
+        "Not recommended with other ergot alkaloids",
+        "Strong CYP3A4 inhibitors (macrolides) may raise levels; caution with antihypertensives"
+      ],
+      "qollash": {
+        "kattalar": "Hyperprolactinemia: 0.5 mg 1–2 times/week, titrated up (usually 0.25–1 mg×2/week). Lactation suppression: 1 mg once (day 1 postpartum) or 0.25 mg×2 (2 days). Valve monitoring with long-term therapy.",
+        "bolalar": "Not recommended."
+      },
+      "chiqarish": "Tablets 0.5 mg (0.25 mg)"
+    }
+  },
+  "G02CX01": {
+    "uz": {
+      "gruppa": "Tokolitik — oksitotsin retseptori antagonisti (atosiban)",
+      "farmTasir": "Muddatidan oldingi tug'ruqni to'xtatuvchi",
+      "farmakodinamika": "Atosiban — oksitotsin va vazopressin V1a retseptorlarining kompetitiv antagonisti. Miometriydagi oksitotsin retseptorlarini bloklab oksitotsin chaqirgan bachadon qisqarishlarini kamaytiradi va to'xtatadi (tokoliz). Boshqa tokolitiklardan (beta-agonistlar) farqli ravishda yurak-qon tomir va metabolik nojo'ya ta'sirlari kam — selektiv ta'sir.",
+      "farmakokinetika": {
+        "sorish": "Vena ichiga yuboriladi (peroral so'rilmaydi).",
+        "tarqalish": "Plazma oqsillariga bog'lanadi; platsentadan o'tadi (cheklangan).",
+        "metabolizm": "Peptidazalar orqali faol metabolitga.",
+        "chiqarilish": "Asosan siydik. T½ — boshlang'ich qisqa, terminal ~1,7 soat."
+      },
+      "korsatmalar": [
+        "24–33 haftalik homiladorlikda muddatidan oldingi tug'ruqни kechiktirish (muntazam qisqarishlar va bachadon bo'yni o'zgarishi bo'lganda)"
+      ],
+      "qarrshi": [
+        "24 haftadan kam yoki 33 haftadan ortiq homiladorlik muddati",
+        "Muddatdan oldin parda yorilishi (>30 hafta), homila yurak urishi anormal, homila o'limi",
+        "Eklampsiya/og'ir preeklampsiya, platsenta ajralishi, platsenta previa, qon ketishi",
+        "Homilani saqlash xavfli bo'lgan holatlar; atosibanga sezgirlik"
+      ],
+      "nojoya": {
+        "Hazm": "Ko'ngil aynishi (eng tez-tez)",
+        "Asab / umumiy": "Bosh og'rig'i, bosh aylanishi, issiqlik bosishi (flushing)",
+        "Boshqa": "Taxikardiya, gipotenziya (kamdan-kam), in'eksiya joyida reaksiya"
+      },
+      "dozadan": "Cheklangan ma'lumot; nojo'ya ta'sirlar kuchayishi. Davo: simptomatik.",
+      "ozarotasir": [
+        "Boshqa tokolitiklar (beta-agonist, magniy sulfat) bilan birga — qo'shimcha ta'sir ehtiyotkorligi",
+        "Klinik ahamiyatli CYP o'zaro ta'siri kam (peptid)"
+      ],
+      "qollash": {
+        "kattalar": "Faqat shifoxonada IV: boshlang'ich bolus 6,75 mg, so'ng yuqori tezlikda yuklash infuziyasi, keyin saqlovchi infuziya — jami 48 soatgacha (3 bosqichli sxema). Bachadon va homila monitoringi ostida.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "IV in'eksiya 6,75 mg/0,9 ml; konsentrat infuziya uchun 37,5 mg/5 ml"
+    },
+    "ru": {
+      "gruppa": "Токолитик — антагонист рецепторов окситоцина (атозибан)",
+      "farmTasir": "Останавливает преждевременные роды",
+      "farmakodinamika": "Атозибан — конкурентный антагонист рецепторов окситоцина и вазопрессина V1a. Блокируя окситоциновые рецепторы миометрия, уменьшает и прекращает вызванные окситоцином сокращения матки (токолиз). В отличие от других токолитиков (бета-агонисты), даёт меньше сердечно-сосудистых и метаболических побочных эффектов — селективное действие.",
+      "farmakokinetika": {
+        "sorish": "Вводится внутривенно (внутрь не всасывается).",
+        "tarqalish": "Связывается с белками плазмы; ограниченно проникает через плаценту.",
+        "metabolizm": "Пептидазами до активного метаболита.",
+        "chiqarilish": "Преимущественно с мочой. T½ — начальный короткий, терминальный ~1,7 ч."
+      },
+      "korsatmalar": [
+        "Отсрочка преждевременных родов на сроке 24–33 недели (при регулярных схватках и изменении шейки)"
+      ],
+      "qarrshi": [
+        "Срок менее 24 или более 33 недель",
+        "Преждевременный разрыв оболочек (>30 нед), аномальная ЧСС плода, гибель плода",
+        "Эклампсия/тяжёлая преэклампсия, отслойка плаценты, предлежание плаценты, кровотечение",
+        "Состояния, при которых сохранение беременности опасно; чувствительность к атозибану"
+      ],
+      "nojoya": {
+        "ЖКТ": "Тошнота (наиболее часто)",
+        "Нервы / общие": "Головная боль, головокружение, приливы",
+        "Прочее": "Тахикардия, гипотензия (редко), реакция в месте инъекции"
+      },
+      "dozadan": "Данные ограничены; усиление побочных эффектов. Лечение симптоматическое.",
+      "ozarotasir": [
+        "С другими токолитиками (бета-агонист, магния сульфат) — осторожность из-за аддитивного действия",
+        "Клинически значимых взаимодействий через CYP мало (пептид)"
+      ],
+      "qollash": {
+        "kattalar": "Только в стационаре в/в: начальный болюс 6,75 мг, затем нагрузочная инфузия с высокой скоростью, далее поддерживающая инфузия — всего до 48 ч (3-этапная схема). Под мониторингом матки и плода.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "В/в инъекция 6,75 мг/0,9 мл; концентрат для инфузии 37,5 мг/5 мл"
+    },
+    "en": {
+      "gruppa": "Tocolytic — oxytocin receptor antagonist (atosiban)",
+      "farmTasir": "Stops preterm labor",
+      "farmakodinamika": "Atosiban is a competitive antagonist of oxytocin and vasopressin V1a receptors. By blocking myometrial oxytocin receptors it reduces and stops oxytocin-driven uterine contractions (tocolysis). Unlike other tocolytics (beta-agonists) it causes fewer cardiovascular and metabolic side effects — a selective action.",
+      "farmakokinetika": {
+        "sorish": "Given intravenously (not absorbed orally).",
+        "tarqalish": "Plasma protein bound; limited placental transfer.",
+        "metabolizm": "By peptidases to an active metabolite.",
+        "chiqarilish": "Mainly in urine. T½ initial short, terminal ~1.7 h."
+      },
+      "korsatmalar": [
+        "Delay of preterm birth at 24–33 weeks (with regular contractions and cervical change)"
+      ],
+      "qarrshi": [
+        "Gestational age under 24 or over 33 weeks",
+        "Premature rupture of membranes (>30 weeks), abnormal fetal heart rate, fetal death",
+        "Eclampsia/severe pre-eclampsia, placental abruption, placenta previa, hemorrhage",
+        "Conditions where continuing pregnancy is dangerous; sensitivity to atosiban"
+      ],
+      "nojoya": {
+        "GI": "Nausea (most common)",
+        "Nervous / general": "Headache, dizziness, flushing",
+        "Other": "Tachycardia, hypotension (rare), injection-site reaction"
+      },
+      "dozadan": "Data limited; intensified side effects. Treat symptomatically.",
+      "ozarotasir": [
+        "With other tocolytics (beta-agonist, magnesium sulfate) — caution due to additive effects",
+        "Few clinically significant CYP interactions (a peptide)"
+      ],
+      "qollash": {
+        "kattalar": "Hospital only, IV: initial bolus 6.75 mg, then a high-rate loading infusion, then a maintenance infusion — up to 48 h total (3-step regimen). Under uterine and fetal monitoring.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "IV injection 6.75 mg/0.9 mL; concentrate for infusion 37.5 mg/5 mL"
+    }
+  },
+  "G03GA01": {
+    "uz": {
+      "gruppa": "Gonadotropin — xorionik gonadotropin (hCG)",
+      "farmTasir": "Ovulyatsiyani qo'zg'atadi; erkaklarda testosteronни rag'batlantiradi",
+      "farmakodinamika": "Xorionik gonadotropin (hCG) — platsentadan olinadigan gonadotropin; lyutein gormoni (LH) ta'sirini taqlid qiladi. Ayollarda yetilgan follikulda ovulyatsiyani chaqiradi va sariq tana faoliyatini (progesteron) qo'llab-quvvatlaydi. Erkaklarda moyak Leydig hujayralarini rag'batlantirib testosteron sintezini va spermatogenezni kuchaytiradi; kriptorxizmда moyak tushishiga yordam beradi.",
+      "farmakokinetika": {
+        "sorish": "Mushak ichiga yoki teri ostiga yuboriladi (peptid — peroral emas).",
+        "tarqalish": "Moyak va tuxumdon retseptorlariga.",
+        "metabolizm": "Oqsil sifatida parchalanadi.",
+        "chiqarilish": "Qisman siydik orqali. T½ — ~2 bosqichli (~6 va ~24 soat)."
+      },
+      "korsatmalar": [
+        "Ayollar: yordamchi reproduktiv texnologiyalarda (EKO) yetilgan follikulда ovulyatsiyani qo'zg'atish; anovulyator bepushtlik",
+        "Erkaklar: gipogonadotrop gipogonadizm, kriptorxizm, oligospermiya (FSH bilan)"
+      ],
+      "qarrshi": [
+        "Gormonga bog'liq o'smalar (tuxumdon, sut bezi, prostata, jinsiy a'zolar)",
+        "Aniqlanmagan qin qon ketishi, tuxumdon kistasi (PKOS bilan bog'liq bo'lmagan)",
+        "Tromboemboliya xavfi yuqori holatlar; preparatga sezgirlik"
+      ],
+      "nojoya": {
+        "Reproduktiv": "Tuxumdon giperstimulyatsiya sindromi (OHSS), tuxumdon kistalari, ko'p homiladorlik",
+        "Mahalliy / umumiy": "In'eksiya joyida og'riq, bosh og'rig'i, charchoq, kayfiyat o'zgarishi",
+        "Erkaklarda": "Ginekomastiya, suvni ushlanishi, jinsiy a'zo o'sishi (bolalarda)"
+      },
+      "dozadan": "Asosiy xavf — tuxumdon giperstimulyatsiya sindromi (OHSS). Davo: kuzatuv, suyuqlik balansi, og'irda gospitalizatsiya.",
+      "ozarotasir": [
+        "Boshqa gonadotropinlar (FSH/hMG) bilan ketma-ket — stimulyatsiya kuchayadi (nazorat ostida)",
+        "Homiladorlik testlari (hCG asosida) natijasini buzadi"
+      ],
+      "qollash": {
+        "kattalar": "Ovulyatsiya induksiyasi: follikul yetilgach 5 000–10 000 XB bir martalik IM/SC. Erkaklarda gipogonadizm: 1 000–2 000 XB haftada 2–3 marta. Aniq doza ko'rsatmaga qarab shifokor tomonidan.",
+        "bolalar": "Kriptorxizmда yoshga moslab, faqat shifokor nazoratida."
+      },
+      "chiqarish": "In'eksiya uchun liofilizat 500/1000/1500/5000 XB + erituvchi"
+    },
+    "ru": {
+      "gruppa": "Гонадотропин — хорионический гонадотропин (ХГЧ)",
+      "farmTasir": "Индуцирует овуляцию; у мужчин стимулирует тестостерон",
+      "farmakodinamika": "Хорионический гонадотропин (ХГЧ) — гонадотропин из плаценты; имитирует действие лютеинизирующего гормона (ЛГ). У женщин вызывает овуляцию зрелого фолликула и поддерживает функцию жёлтого тела (прогестерон). У мужчин стимулирует клетки Лейдига яичка, усиливая синтез тестостерона и сперматогенез; при крипторхизме способствует опущению яичка.",
+      "farmakokinetika": {
+        "sorish": "Вводится внутримышечно или подкожно (пептид — не перорально).",
+        "tarqalish": "К рецепторам яичка и яичника.",
+        "metabolizm": "Расщепляется как белок.",
+        "chiqarilish": "Частично с мочой. T½ — двухфазный (~6 и ~24 ч)."
+      },
+      "korsatmalar": [
+        "Женщины: индукция овуляции зрелого фолликула в ВРТ (ЭКО); ановуляторное бесплодие",
+        "Мужчины: гипогонадотропный гипогонадизм, крипторхизм, олигоспермия (с ФСГ)"
+      ],
+      "qarrshi": [
+        "Гормонозависимые опухоли (яичник, молочная железа, простата, половые органы)",
+        "Неустановленное вагинальное кровотечение, киста яичника (не связанная с СПКЯ)",
+        "Состояния высокого риска тромбоэмболии; чувствительность к препарату"
+      ],
+      "nojoya": {
+        "Репродуктивные": "Синдром гиперстимуляции яичников (СГЯ), кисты яичников, многоплодие",
+        "Местные / общие": "Боль в месте инъекции, головная боль, утомляемость, перепады настроения",
+        "У мужчин": "Гинекомастия, задержка жидкости, рост половых органов (у детей)"
+      },
+      "dozadan": "Основной риск — синдром гиперстимуляции яичников (СГЯ). Лечение: наблюдение, баланс жидкости, в тяжёлых случаях госпитализация.",
+      "ozarotasir": [
+        "С другими гонадотропинами (ФСГ/чМГ) последовательно — усиление стимуляции (под контролем)",
+        "Искажает результаты тестов на беременность (на основе ХГЧ)"
+      ],
+      "qollash": {
+        "kattalar": "Индукция овуляции: при зрелом фолликуле 5 000–10 000 ЕД однократно в/м/п/к. Гипогонадизм у мужчин: 1 000–2 000 ЕД 2–3 раза/нед. Точная доза по показанию, врачом.",
+        "bolalar": "При крипторхизме по возрасту, только под контролем врача."
+      },
+      "chiqarish": "Лиофилизат для инъекций 500/1000/1500/5000 ЕД + растворитель"
+    },
+    "en": {
+      "gruppa": "Gonadotropin — chorionic gonadotropin (hCG)",
+      "farmTasir": "Induces ovulation; in men stimulates testosterone",
+      "farmakodinamika": "Chorionic gonadotropin (hCG) is a placental gonadotropin that mimics luteinizing hormone (LH). In women it triggers ovulation of a mature follicle and supports corpus luteum function (progesterone). In men it stimulates testicular Leydig cells, enhancing testosterone synthesis and spermatogenesis; in cryptorchidism it promotes testicular descent.",
+      "farmakokinetika": {
+        "sorish": "Given intramuscularly or subcutaneously (a peptide — not oral).",
+        "tarqalish": "To testicular and ovarian receptors.",
+        "metabolizm": "Degraded as a protein.",
+        "chiqarilish": "Partly in urine. T½ biphasic (~6 and ~24 h)."
+      },
+      "korsatmalar": [
+        "Women: triggering ovulation of a mature follicle in ART (IVF); anovulatory infertility",
+        "Men: hypogonadotropic hypogonadism, cryptorchidism, oligospermia (with FSH)"
+      ],
+      "qarrshi": [
+        "Hormone-dependent tumors (ovary, breast, prostate, genitalia)",
+        "Undiagnosed vaginal bleeding, ovarian cyst (not related to PCOS)",
+        "Conditions with high thromboembolism risk; sensitivity to the product"
+      ],
+      "nojoya": {
+        "Reproductive": "Ovarian hyperstimulation syndrome (OHSS), ovarian cysts, multiple pregnancy",
+        "Local / general": "Injection-site pain, headache, fatigue, mood changes",
+        "In men": "Gynecomastia, fluid retention, genital growth (in children)"
+      },
+      "dozadan": "The main risk is ovarian hyperstimulation syndrome (OHSS). Treat with observation, fluid balance, hospitalization in severe cases.",
+      "ozarotasir": [
+        "Sequentially with other gonadotropins (FSH/hMG) — enhanced stimulation (monitored)",
+        "Distorts pregnancy tests (which are hCG-based)"
+      ],
+      "qollash": {
+        "kattalar": "Ovulation induction: 5,000–10,000 IU once IM/SC when the follicle is mature. Male hypogonadism: 1,000–2,000 IU 2–3 times/week. Exact dose per indication, by a physician.",
+        "bolalar": "For cryptorchidism by age, under medical supervision only."
+      },
+      "chiqarish": "Lyophilisate for injection 500/1000/1500/5000 IU + solvent"
+    }
+  },
+  "G03GA02": {
+    "uz": {
+      "gruppa": "Gonadotropin — menotropin (hMG, FSH+LH)",
+      "farmTasir": "Tuxumdon follikulalari o'sishini rag'batlantiradi",
+      "farmakodinamika": "Menotropin (insonning menopauzal gonadotropini, hMG) — siydikdan olinadigan, follikulani rag'batlantiruvchi (FSH) va lyutein (LH) gormonlarini teng nisbatда saqlaydigan preparat. FSH tuxumdon follikulalarining o'sishi va yetilishini ta'minlaydi, LH esteroidogenezni qo'llab-quvvatlaydi. Erkaklarda spermatogenezni rag'batlantiradi (hCG bilan).",
+      "farmakokinetika": {
+        "sorish": "IM yoki SC yuboriladi (oqsil — peroral emas).",
+        "tarqalish": "Tuxumdon/moyak retseptorlariga.",
+        "metabolizm": "Oqsil sifatida parchalanadi.",
+        "chiqarilish": "Qisman siydik orqali."
+      },
+      "korsatmalar": [
+        "Anovulyatsiya (klomifenга javob bermaydigan), tuxumdonni kontrollangan stimulyatsiyasi (EKO/ART)",
+        "Erkaklar: gipogonadotrop gipogonadizmда spermatogenezni rag'batlantirish (hCG bilan)"
+      ],
+      "qarrshi": [
+        "Gormonga bog'liq o'smalar; aniqlanmagan qin qon ketishi",
+        "Sababsiz tuxumdon kattalashishi/kistasi; gipofiz/gipotalamus o'smasi",
+        "Birламchi tuxumdon yetishmovchiligi; homiladorlik"
+      ],
+      "nojoya": {
+        "Reproduktiv": "Tuxumdon giperstimulyatsiya sindromi (OHSS), ko'p homiladorlik, tuxumdon kistasi",
+        "Mahalliy / umumiy": "In'eksiya joyida reaksiya, bosh og'rig'i, qorin shishi/og'rig'i",
+        "Kam": "Tromboemboliya (og'ir OHSS bilan)"
+      },
+      "dozadan": "OHSS xavfi. Davo: stimulyatsiyani to'xtatish, suyuqlik balansi, kuzatuv.",
+      "ozarotasir": [
+        "hCG bilan ketma-ket (ovulyatsiya/yetilish triggeri) — nazorat ostida",
+        "Klinik ahamiyatli CYP o'zaro ta'siri yo'q (oqsil)"
+      ],
+      "qollash": {
+        "kattalar": "Tuxumdon javobiga qarab individual titrlanadi (UZI va estradiol monitoringi ostida); odatda 75–150 XB/kun dan boshlanadi, follikul yetilgach hCG bilan trigger. Faqat mutaxassis nazoratida.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "In'eksiya uchun liofilizat 75/150 XB + erituvchi"
+    },
+    "ru": {
+      "gruppa": "Гонадотропин — менотропин (чМГ, ФСГ+ЛГ)",
+      "farmTasir": "Стимулирует рост фолликулов яичника",
+      "farmakodinamika": "Менотропин (человеческий менопаузальный гонадотропин, чМГ) — мочевой препарат, содержащий фолликулостимулирующий (ФСГ) и лютеинизирующий (ЛГ) гормоны в равном соотношении. ФСГ обеспечивает рост и созревание фолликулов яичника, ЛГ поддерживает стероидогенез. У мужчин стимулирует сперматогенез (с ХГЧ).",
+      "farmakokinetika": {
+        "sorish": "Вводится в/м или п/к (белок — не перорально).",
+        "tarqalish": "К рецепторам яичника/яичка.",
+        "metabolizm": "Расщепляется как белок.",
+        "chiqarilish": "Частично с мочой."
+      },
+      "korsatmalar": [
+        "Ановуляция (резистентная к кломифену), контролируемая стимуляция яичников (ЭКО/ВРТ)",
+        "Мужчины: стимуляция сперматогенеза при гипогонадотропном гипогонадизме (с ХГЧ)"
+      ],
+      "qarrshi": [
+        "Гормонозависимые опухоли; неустановленное вагинальное кровотечение",
+        "Беспричинное увеличение/киста яичника; опухоль гипофиза/гипоталамуса",
+        "Первичная недостаточность яичников; беременность"
+      ],
+      "nojoya": {
+        "Репродуктивные": "Синдром гиперстимуляции яичников (СГЯ), многоплодие, киста яичника",
+        "Местные / общие": "Реакция в месте инъекции, головная боль, вздутие/боль в животе",
+        "Редко": "Тромбоэмболия (при тяжёлом СГЯ)"
+      },
+      "dozadan": "Риск СГЯ. Лечение: прекращение стимуляции, баланс жидкости, наблюдение.",
+      "ozarotasir": [
+        "С ХГЧ последовательно (триггер овуляции/созревания) — под контролем",
+        "Клинически значимых взаимодействий через CYP нет (белок)"
+      ],
+      "qollash": {
+        "kattalar": "Доза подбирается индивидуально по ответу яичников (под контролем УЗИ и эстрадиола); обычно начинают с 75–150 ЕД/сут, при зрелом фолликуле — триггер ХГЧ. Только под контролем специалиста.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Лиофилизат для инъекций 75/150 ЕД + растворитель"
+    },
+    "en": {
+      "gruppa": "Gonadotropin — menotropin (hMG, FSH+LH)",
+      "farmTasir": "Stimulates ovarian follicle growth",
+      "farmakodinamika": "Menotropin (human menopausal gonadotropin, hMG) is a urine-derived preparation containing follicle-stimulating (FSH) and luteinizing (LH) hormones in equal proportion. FSH drives growth and maturation of ovarian follicles, LH supports steroidogenesis. In men it stimulates spermatogenesis (with hCG).",
+      "farmakokinetika": {
+        "sorish": "Given IM or SC (a protein — not oral).",
+        "tarqalish": "To ovarian/testicular receptors.",
+        "metabolizm": "Degraded as a protein.",
+        "chiqarilish": "Partly in urine."
+      },
+      "korsatmalar": [
+        "Anovulation (clomifene-resistant), controlled ovarian stimulation (IVF/ART)",
+        "Men: stimulation of spermatogenesis in hypogonadotropic hypogonadism (with hCG)"
+      ],
+      "qarrshi": [
+        "Hormone-dependent tumors; undiagnosed vaginal bleeding",
+        "Unexplained ovarian enlargement/cyst; pituitary/hypothalamic tumor",
+        "Primary ovarian failure; pregnancy"
+      ],
+      "nojoya": {
+        "Reproductive": "Ovarian hyperstimulation syndrome (OHSS), multiple pregnancy, ovarian cyst",
+        "Local / general": "Injection-site reaction, headache, abdominal bloating/pain",
+        "Rare": "Thromboembolism (with severe OHSS)"
+      },
+      "dozadan": "OHSS risk. Treat by stopping stimulation, fluid balance, observation.",
+      "ozarotasir": [
+        "Sequentially with hCG (ovulation/maturation trigger) — monitored",
+        "No clinically significant CYP interactions (a protein)"
+      ],
+      "qollash": {
+        "kattalar": "Individually titrated to ovarian response (under ultrasound and estradiol monitoring); usually started at 75–150 IU/day, with an hCG trigger when the follicle is mature. Specialist supervision only.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Lyophilisate for injection 75/150 IU + solvent"
+    }
+  },
+  "G03GA05": {
+    "uz": {
+      "gruppa": "Gonadotropin — rekombinant FSH (follitropin alfa)",
+      "farmTasir": "Tuxumdon follikulalari o'sishini rag'batlantiradi (toza FSH)",
+      "farmakodinamika": "Follitropin alfa — rekombinant texnologiya bilan olinadigan inson follikulani rag'batlantiruvchi gormoni (FSH). Tuxumdon granulyoza hujayralaridagi FSH retseptorlariga bog'lanib follikulalar o'sishi va yetilishini ta'minlaydi (LH komponentisiz, yuqori tozalik va partiyalar barqarorligi). Erkaklarda Sertoli hujayralarini rag'batlantirib spermatogenezni qo'llab-quvvatlaydi (hCG bilan).",
+      "farmakokinetika": {
+        "sorish": "SC yuboriladi (oqsil); biokirish yaxshi.",
+        "tarqalish": "Tuxumdon/moyak FSH retseptorlariga.",
+        "metabolizm": "Oqsil sifatida parchalanadi.",
+        "chiqarilish": "Qisman siydik. T½ — ~24–36 soat (takror dozada barqarorlashadi)."
+      },
+      "korsatmalar": [
+        "Anovulyatsiya (WHO II guruh, klomifenга rezistent)",
+        "Tuxumdonni kontrollangan stimulyatsiyasi (EKO/ART) — ko'p follikul rivojlanishi uchun",
+        "Erkaklarda gipogonadotrop gipogonadizmда spermatogenez (hCG bilan)"
+      ],
+      "qarrshi": [
+        "Gipofiz/gipotalamus o'smasi; gormonga bog'liq o'smalar",
+        "Sababsiz tuxumdon kattalashishi/kistasi, aniqlanmagan qin qon ketishi",
+        "Birламchi tuxumdon/moyak yetishmovchiligi; homiladorlik va emizish"
+      ],
+      "nojoya": {
+        "Reproduktiv": "Tuxumdon giperstimulyatsiya sindromi (OHSS), tuxumdon kistasi, ko'p homiladorlik",
+        "Mahalliy / umumiy": "In'eksiya joyida reaksiya, bosh og'rig'i, qorin og'rig'i",
+        "Kam": "Tromboemboliya (og'ir OHSS bilan)"
+      },
+      "dozadan": "OHSS xavfi. Davo: stimulyatsiyani to'xtatish, kuzatuv, suyuqlik balansi.",
+      "ozarotasir": [
+        "hCG yoki lutropin alfa bilan birga (stimulyatsiya/trigger) — nazorat ostida",
+        "Klinik ahamiyatli CYP o'zaro ta'siri yo'q (oqsil)"
+      ],
+      "qollash": {
+        "kattalar": "Individual titrlanadi (UZI va estradiol monitoringi): odatda 75–150 XB/kun SC dan boshlanadi, follikul yetilgach hCG trigger. Faqat reproduktolog nazoratida.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "SC in'eksiya uchun qalam/kartrij 300/450/900 XB; liofilizat 75 XB"
+    },
+    "ru": {
+      "gruppa": "Гонадотропин — рекомбинантный ФСГ (фоллитропин альфа)",
+      "farmTasir": "Стимулирует рост фолликулов (чистый ФСГ)",
+      "farmakodinamika": "Фоллитропин альфа — человеческий фолликулостимулирующий гормон (ФСГ), полученный рекомбинантным путём. Связываясь с рецепторами ФСГ гранулёзных клеток яичника, обеспечивает рост и созревание фолликулов (без ЛГ-компонента, высокая чистота и стабильность серий). У мужчин стимулирует клетки Сертоли, поддерживая сперматогенез (с ХГЧ).",
+      "farmakokinetika": {
+        "sorish": "Вводится п/к (белок); хорошая биодоступность.",
+        "tarqalish": "К рецепторам ФСГ яичника/яичка.",
+        "metabolizm": "Расщепляется как белок.",
+        "chiqarilish": "Частично с мочой. T½ — ~24–36 ч (стабилизируется при повторном введении)."
+      },
+      "korsatmalar": [
+        "Ановуляция (группа II по ВОЗ, резистентная к кломифену)",
+        "Контролируемая стимуляция яичников (ЭКО/ВРТ) — для развития многих фолликулов",
+        "Сперматогенез у мужчин при гипогонадотропном гипогонадизме (с ХГЧ)"
+      ],
+      "qarrshi": [
+        "Опухоль гипофиза/гипоталамуса; гормонозависимые опухоли",
+        "Беспричинное увеличение/киста яичника, неустановленное вагинальное кровотечение",
+        "Первичная недостаточность яичников/яичек; беременность и лактация"
+      ],
+      "nojoya": {
+        "Репродуктивные": "Синдром гиперстимуляции яичников (СГЯ), киста яичника, многоплодие",
+        "Местные / общие": "Реакция в месте инъекции, головная боль, боль в животе",
+        "Редко": "Тромбоэмболия (при тяжёлом СГЯ)"
+      },
+      "dozadan": "Риск СГЯ. Лечение: прекращение стимуляции, наблюдение, баланс жидкости.",
+      "ozarotasir": [
+        "С ХГЧ или лутропином альфа (стимуляция/триггер) — под контролем",
+        "Клинически значимых взаимодействий через CYP нет (белок)"
+      ],
+      "qollash": {
+        "kattalar": "Подбирается индивидуально (мониторинг УЗИ и эстрадиола): обычно начинают с 75–150 ЕД/сут п/к, при зрелом фолликуле — триггер ХГЧ. Только под контролем репродуктолога.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Шприц-ручка/картридж для п/к 300/450/900 ЕД; лиофилизат 75 ЕД"
+    },
+    "en": {
+      "gruppa": "Gonadotropin — recombinant FSH (follitropin alfa)",
+      "farmTasir": "Stimulates follicle growth (pure FSH)",
+      "farmakodinamika": "Follitropin alfa is human follicle-stimulating hormone (FSH) made by recombinant technology. By binding FSH receptors on ovarian granulosa cells it drives follicle growth and maturation (no LH component, high purity and batch consistency). In men it stimulates Sertoli cells, supporting spermatogenesis (with hCG).",
+      "farmakokinetika": {
+        "sorish": "Given SC (a protein); good bioavailability.",
+        "tarqalish": "To ovarian/testicular FSH receptors.",
+        "metabolizm": "Degraded as a protein.",
+        "chiqarilish": "Partly in urine. T½ ~24–36 h (stabilizes with repeated dosing)."
+      },
+      "korsatmalar": [
+        "Anovulation (WHO group II, clomifene-resistant)",
+        "Controlled ovarian stimulation (IVF/ART) — for multiple follicle development",
+        "Spermatogenesis in men with hypogonadotropic hypogonadism (with hCG)"
+      ],
+      "qarrshi": [
+        "Pituitary/hypothalamic tumor; hormone-dependent tumors",
+        "Unexplained ovarian enlargement/cyst, undiagnosed vaginal bleeding",
+        "Primary ovarian/testicular failure; pregnancy and lactation"
+      ],
+      "nojoya": {
+        "Reproductive": "Ovarian hyperstimulation syndrome (OHSS), ovarian cyst, multiple pregnancy",
+        "Local / general": "Injection-site reaction, headache, abdominal pain",
+        "Rare": "Thromboembolism (with severe OHSS)"
+      },
+      "dozadan": "OHSS risk. Treat by stopping stimulation, observation, fluid balance.",
+      "ozarotasir": [
+        "With hCG or lutropin alfa (stimulation/trigger) — monitored",
+        "No clinically significant CYP interactions (a protein)"
+      ],
+      "qollash": {
+        "kattalar": "Individually titrated (ultrasound and estradiol monitoring): usually started at 75–150 IU/day SC, with an hCG trigger when the follicle is mature. Reproductive specialist supervision only.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "SC pen/cartridge 300/450/900 IU; lyophilisate 75 IU"
+    }
+  },
+  "G03GA08": {
+    "uz": {
+      "gruppa": "Gonadotropin — rekombinant hCG (choriogonadotropin alfa)",
+      "farmTasir": "Yakuniy follikul yetilishi va ovulyatsiyani qo'zg'atadi",
+      "farmakodinamika": "Choriogonadotropin alfa — rekombinant inson xorionik gonadotropini (r-hCG). LH ta'sirini taqlid qilib, FSH bilan stimulyatsiyalangan yetilgan follikulда yakuniy oosit yetilishini va ovulyatsiyani qo'zg'atadi (trigger), sariq tana faoliyatini boshlaydi. Yuqori tozaligi va aniq dozalanishi bilan siydik hCG'dan farq qiladi.",
+      "farmakokinetika": {
+        "sorish": "SC yuboriladi (oqsil).",
+        "tarqalish": "Tuxumdon LH/hCG retseptorlariga.",
+        "metabolizm": "Oqsil sifatida parchalanadi.",
+        "chiqarilish": "Qisman siydik. T½ — ~30 soat."
+      },
+      "korsatmalar": [
+        "ART (EKO) va ovulyatsiya induksiyasida yakuniy follikul yetilishi va ovulyatsiyani qo'zg'atish (FSH stimulyatsiyasidan keyin)"
+      ],
+      "qarrshi": [
+        "Gormonga bog'liq o'smalar; gipofiz/gipotalamus o'smasi",
+        "Sababsiz tuxumdon kattalashishi/kistasi, aniqlanmagan qin qon ketishi",
+        "Birламчi tuxumdon yetishmovchiligi; homiladorlik; OHSS xavfi yuqori bo'lganda"
+      ],
+      "nojoya": {
+        "Reproduktiv": "Tuxumdon giperstimulyatsiya sindromi (OHSS), tuxumdon kistasi, ko'p homiladorlik",
+        "Mahalliy / umumiy": "In'eksiya joyida reaksiya, bosh og'rig'i, charchoq, qorin og'rig'i"
+      },
+      "dozadan": "OHSS xavfi. Davo: kuzatuv, suyuqlik balansi, og'irda gospitalizatsiya.",
+      "ozarotasir": [
+        "FSH (follitropin) stimulyatsiyasidan keyin trigger sifatida — nazorat ostida",
+        "Homiladorlik testlari natijasini buzadi (davodan keyin ~10 kun)"
+      ],
+      "qollash": {
+        "kattalar": "Follikul yetilgach 250 mkg SC bir martalik (≈6 500 XB hCG ga teng), FSH stimulyatsiyasining oxirgi dozasidan ~24–48 soat keyin. Faqat mutaxassis nazoratida.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "SC in'eksiya uchun oldindan to'ldirilgan shprits/qalam 250 mkg"
+    },
+    "ru": {
+      "gruppa": "Гонадотропин — рекомбинантный ХГЧ (хориогонадотропин альфа)",
+      "farmTasir": "Запускает финальное созревание фолликула и овуляцию",
+      "farmakodinamika": "Хориогонадотропин альфа — рекомбинантный человеческий хорионический гонадотропин (р-ХГЧ). Имитируя действие ЛГ, в зрелом фолликуле (стимулированном ФСГ) запускает финальное созревание ооцита и овуляцию (триггер), инициирует функцию жёлтого тела. Отличается от мочевого ХГЧ высокой чистотой и точностью дозирования.",
+      "farmakokinetika": {
+        "sorish": "Вводится п/к (белок).",
+        "tarqalish": "К рецепторам ЛГ/ХГЧ яичника.",
+        "metabolizm": "Расщепляется как белок.",
+        "chiqarilish": "Частично с мочой. T½ — ~30 ч."
+      },
+      "korsatmalar": [
+        "Запуск финального созревания фолликула и овуляции в ВРТ (ЭКО) и при индукции овуляции (после стимуляции ФСГ)"
+      ],
+      "qarrshi": [
+        "Гормонозависимые опухоли; опухоль гипофиза/гипоталамуса",
+        "Беспричинное увеличение/киста яичника, неустановленное вагинальное кровотечение",
+        "Первичная недостаточность яичников; беременность; при высоком риске СГЯ"
+      ],
+      "nojoya": {
+        "Репродуктивные": "Синдром гиперстимуляции яичников (СГЯ), киста яичника, многоплодие",
+        "Местные / общие": "Реакция в месте инъекции, головная боль, утомляемость, боль в животе"
+      },
+      "dozadan": "Риск СГЯ. Лечение: наблюдение, баланс жидкости, в тяжёлых случаях госпитализация.",
+      "ozarotasir": [
+        "Как триггер после стимуляции ФСГ (фоллитропином) — под контролем",
+        "Искажает результаты тестов на беременность (~10 дней после введения)"
+      ],
+      "qollash": {
+        "kattalar": "При зрелом фолликуле 250 мкг п/к однократно (≈6 500 ЕД ХГЧ), через ~24–48 ч после последней дозы ФСГ. Только под контролем специалиста.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Предзаполненный шприц/ручка для п/к 250 мкг"
+    },
+    "en": {
+      "gruppa": "Gonadotropin — recombinant hCG (choriogonadotropin alfa)",
+      "farmTasir": "Triggers final follicular maturation and ovulation",
+      "farmakodinamika": "Choriogonadotropin alfa is recombinant human chorionic gonadotropin (r-hCG). Mimicking LH, it triggers final oocyte maturation and ovulation in a mature (FSH-stimulated) follicle and initiates corpus luteum function. It differs from urinary hCG by its high purity and precise dosing.",
+      "farmakokinetika": {
+        "sorish": "Given SC (a protein).",
+        "tarqalish": "To ovarian LH/hCG receptors.",
+        "metabolizm": "Degraded as a protein.",
+        "chiqarilish": "Partly in urine. T½ ~30 h."
+      },
+      "korsatmalar": [
+        "Triggering final follicular maturation and ovulation in ART (IVF) and ovulation induction (after FSH stimulation)"
+      ],
+      "qarrshi": [
+        "Hormone-dependent tumors; pituitary/hypothalamic tumor",
+        "Unexplained ovarian enlargement/cyst, undiagnosed vaginal bleeding",
+        "Primary ovarian failure; pregnancy; when OHSS risk is high"
+      ],
+      "nojoya": {
+        "Reproductive": "Ovarian hyperstimulation syndrome (OHSS), ovarian cyst, multiple pregnancy",
+        "Local / general": "Injection-site reaction, headache, fatigue, abdominal pain"
+      },
+      "dozadan": "OHSS risk. Treat with observation, fluid balance, hospitalization in severe cases.",
+      "ozarotasir": [
+        "As a trigger after FSH (follitropin) stimulation — monitored",
+        "Distorts pregnancy-test results (~10 days after administration)"
+      ],
+      "qollash": {
+        "kattalar": "When the follicle is mature, 250 mcg SC once (≈6,500 IU hCG), ~24–48 h after the last FSH dose. Specialist supervision only.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Pre-filled syringe/pen for SC 250 mcg"
+    }
+  },
+
+  // ─────────────────────────────────────────────────────────
   // GENITOURINARY — G04 urologik preparatlar (batch 3)
   // ─────────────────────────────────────────────────────────
   "G04BD04": {
