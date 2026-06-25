@@ -1,0 +1,14 @@
+name = "medcore-ai"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# Workers AI (hisobdagi AI modellari)
+[ai]
+binding = "AI"
+
+# Ochiq sozlamalar
+[vars]
+DATA_BASE = "https://xumoyunmirzoai-commits.github.io/medical-app/bot-data/"
+MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+# Ruxsat etilgan manbalar (CORS) — vergul bilan ajratilgan
+ALLOWED_ORIGINS = "https://xumoyunmirzoai-commits.github.io,http://localhost:8777,http://127.0.0.1:8777"

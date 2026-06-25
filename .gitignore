@@ -17,3 +17,5 @@ desktop.ini
 # Telegram bot runtime
 telegram-bot/user_lang.json
 telegram-bot/node_modules/
+
+ai-worker/.wrangler/
