@@ -8,6 +8,735 @@
 
 const PHARMA_DATA = {
   // ─────────────────────────────────────────────────────────
+  // GENITOURINARY — qolgan G01 anti-infektivlar (batch 6)
+  // ─────────────────────────────────────────────────────────
+  "G01AA05": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — amfenikol antibiotik (xloramfenikol)",
+      "farmTasir": "Mahalliy keng spektrli antibakterial",
+      "farmakodinamika": "Xloramfenikol — keng spektrli bakteriostatik antibiotik. Bakteriya ribosomasining 50S subbirligiga bog'lanib peptidiltransferazani inhibirlaydi va oqsil sintezini to'xtatadi. Grammusbat va grammanfiy bakteriyalarga, anaeroblar va ba'zi atipik qo'zg'atuvchilarga faol. Vaginal/mahalliy shaklda aralash bakterial vaginit va o'ziga xos bo'lmagan infeksiyalarda qo'llaniladi. Tizimli yutilganda suyak ko'migi toksikligi xavfi borligi sababli mahalliy qo'llashga ustunlik beriladi.",
+      "farmakokinetika": {
+        "sorish": "Vaginal/mahalliy yo'ldan oz miqdorda so'riladi — ta'sir mahalliy.",
+        "tarqalish": "Mahalliy yuqori konsentratsiya; so'rilgani to'qimalarga yaxshi o'tadi.",
+        "metabolizm": "Jigarda glyukuronidlanish.",
+        "chiqarilish": "Asosan siydik orqali."
+      },
+      "korsatmalar": [
+        "Sezgir bakteriyalar qo'zg'atgan bakterial vaginit va o'ziga xos bo'lmagan vaginit",
+        "Aralash mahalliy ginekologik infeksiyalar (tegishli kombinatsiya shakllari)"
+      ],
+      "qarrshi": [
+        "Xloramfenikolga o'ta sezgirlik",
+        "Suyak ko'migi funksiyasi buzilishi (anamnezda)",
+        "Homiladorlik va emizish (ehtiyotkorlik — so'rilishi mumkin)"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish, ta'sirlanish",
+        "Allergik": "Kontakt dermatit, toshma",
+        "Tizimli (kam, so'rilganda)": "Suyak ko'migi bostirilishi xavfi — uzoq/keng qo'llashda ehtiyotkorlik"
+      },
+      "dozadan": "Mahalliy shaklda dozadan oshish kam ehtimol. Uzoq tizimli ta'sirda gematologik nazorat. Davo simptomatik.",
+      "ozarotasir": [
+        "Tizimli so'rilganда jigar fermentlarini (CYP) inhibirlab varfarin, fenitoin, sulfanilmochevina ta'sirini kuchaytirishi mumkin",
+        "Suyak ko'migini bostiruvchi boshqa vositalar bilan birga ehtiyotkorlik"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal shamcha/tabletka ko'rsatmaga qarab 1–2 marta/kun, qisqa kurs. Aniq sxemani shifokor belgilaydi.",
+        "bolalar": "Vaginal shaklda qo'llanilmaydi."
+      },
+      "chiqarish": "Vaginal shamchalar/tabletkalar; kombinatsiyalangan shakllar"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — амфениколовый антибиотик (хлорамфеникол)",
+      "farmTasir": "Местный антибактериальный широкого спектра",
+      "farmakodinamika": "Хлорамфеникол — бактериостатический антибиотик широкого спектра. Связывается с 50S субъединицей рибосомы, ингибирует пептидилтрансферазу и подавляет синтез белка. Активен против грам(+) и грам(−) бактерий, анаэробов и некоторых атипичных возбудителей. В вагинальной/местной форме применяется при смешанном бактериальном и неспецифическом вагините. Из-за риска токсичности костного мозга при системном всасывании предпочтительно местное применение.",
+      "farmakokinetika": {
+        "sorish": "Со слизистой влагалища всасывается мало — действие местное.",
+        "tarqalish": "Высокая местная концентрация; всосавшийся хорошо проникает в ткани.",
+        "metabolizm": "Глюкуронирование в печени.",
+        "chiqarilish": "Преимущественно с мочой."
+      },
+      "korsatmalar": [
+        "Бактериальный и неспецифический вагинит, вызванный чувствительными бактериями",
+        "Смешанные местные гинекологические инфекции (соответствующие комбинированные формы)"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к хлорамфениколу",
+        "Нарушение функции костного мозга (в анамнезе)",
+        "Беременность и лактация (осторожно — возможно всасывание)"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд, раздражение во влагалище",
+        "Аллергия": "Контактный дерматит, сыпь",
+        "Системные (редко, при всасывании)": "Риск угнетения костного мозга — осторожно при длительном/обширном применении"
+      },
+      "dozadan": "В местной форме передозировка маловероятна. При длительном системном действии — гематологический контроль. Лечение симптоматическое.",
+      "ozarotasir": [
+        "При системном всасывании, ингибируя ферменты печени (CYP), может усиливать действие варфарина, фенитоина, сульфонилмочевины",
+        "Осторожно с другими средствами, угнетающими костный мозг"
+      ],
+      "qollash": {
+        "kattalar": "Вагинальный суппозиторий/таблетка по показанию 1–2 раза/сут, коротким курсом. Точную схему определяет врач.",
+        "bolalar": "В вагинальной форме не применяется."
+      },
+      "chiqarish": "Вагинальные суппозитории/таблетки; комбинированные формы"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — amphenicol antibiotic (chloramphenicol)",
+      "farmTasir": "Topical broad-spectrum antibacterial",
+      "farmakodinamika": "Chloramphenicol is a broad-spectrum bacteriostatic antibiotic. It binds the 50S ribosomal subunit, inhibits peptidyl transferase and blocks protein synthesis. It is active against Gram-positive and Gram-negative bacteria, anaerobes and some atypical organisms. In a vaginal/topical form it is used for mixed bacterial and nonspecific vaginitis. Because of the risk of bone-marrow toxicity with systemic absorption, topical use is preferred.",
+      "farmakokinetika": {
+        "sorish": "Little is absorbed from vaginal mucosa — action is local.",
+        "tarqalish": "High local concentration; any absorbed drug distributes well into tissues.",
+        "metabolizm": "Hepatic glucuronidation.",
+        "chiqarilish": "Mainly in urine."
+      },
+      "korsatmalar": [
+        "Bacterial and nonspecific vaginitis caused by susceptible bacteria",
+        "Mixed local gynecological infections (appropriate combination forms)"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to chloramphenicol",
+        "Bone-marrow dysfunction (history)",
+        "Pregnancy and lactation (caution — absorption possible)"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching, irritation",
+        "Allergic": "Contact dermatitis, rash",
+        "Systemic (rare, if absorbed)": "Risk of bone-marrow suppression — caution with prolonged/extensive use"
+      },
+      "dozadan": "Overdose is unlikely with the topical form. With prolonged systemic exposure, hematologic monitoring. Treat symptomatically.",
+      "ozarotasir": [
+        "If systemically absorbed, by inhibiting hepatic enzymes (CYP) it may potentiate warfarin, phenytoin, sulfonylureas",
+        "Caution with other bone-marrow-suppressing agents"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal pessary/tablet per indication 1–2 times/day, short course. The physician sets the exact regimen.",
+        "bolalar": "Vaginal form not used."
+      },
+      "chiqarish": "Vaginal pessaries/tablets; combination forms"
+    }
+  },
+  "G01AF05": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — imidazol antimikotik (ekonazol)",
+      "farmTasir": "Mahalliy zamburug'ga qarshi (keng spektr)",
+      "farmakodinamika": "Ekonazol — imidazol guruhi antimikotigi. Zamburug' 14-alfa-demetilazasini (CYP51) inhibirlab ergosterol sintezini buzadi va membrana o'tkazuvchanligini oshiradi (fungistatik, yuqori konsentratsiyada fungitsid). Candida turlari va dermatofitlarga, ba'zi grammusbat bakteriyalarga faol. Vulvovaginal kandidozда va aralash mikoz-bakterial infeksiyalarда qo'llaniladi.",
+      "farmakokinetika": {
+        "sorish": "Vaginal va teri yo'lidan oz miqdorda so'riladi (~3–7%).",
+        "tarqalish": "Mahalliy yuqori konsentratsiya.",
+        "metabolizm": "So'rilgani jigarda.",
+        "chiqarilish": "Najas va siydik orqali; mahalliy ta'sir ustun."
+      },
+      "korsatmalar": [
+        "Vulvovaginal kandidoz",
+        "Aralash kandidoz-bakterial vaginit",
+        "Teri mikozlari (mahalliy shakllar)"
+      ],
+      "qarrshi": [
+        "Ekonazol yoki imidazollarga o'ta sezgirlik",
+        "Homiladorlik I trimestri (ehtiyotkorlik)"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish, qizarish",
+        "Allergik": "Kontakt dermatit, toshma (kamdan-kam)"
+      },
+      "dozadan": "Mahalliy shaklda dozadan oshish xavfi past. Davo simptomatik.",
+      "ozarotasir": [
+        "So'rilganda varfarin ta'sirini kuchaytirishi mumkin (qon ketish nazorati)",
+        "Lateks prezervativ/diafragma mustahkamligini pasaytiradi"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 150 mg shamcha kechasi 3 kun (yoki 50 mg 14 kun). Krem tashqi a'zoga 1–2 marta/kun. Ko'rsatmага qarab.",
+        "bolalar": "Vaginal shaklda qo'llanilmaydi."
+      },
+      "chiqarish": "Vaginal shamchalar 50/150 mg; teri kremi 1%"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — имидазольный антимикотик (эконазол)",
+      "farmTasir": "Местное противогрибковое (широкий спектр)",
+      "farmakodinamika": "Эконазол — антимикотик группы имидазолов. Ингибирует грибковую 14-альфа-деметилазу (CYP51), нарушая синтез эргостерола и повышая проницаемость мембраны (фунгистатично, в высоких концентрациях фунгицидно). Активен против видов Candida и дерматофитов, некоторых грамположительных бактерий. Применяется при вульвовагинальном кандидозе и смешанных микозно-бактериальных инфекциях.",
+      "farmakokinetika": {
+        "sorish": "Со слизистой влагалища и кожи всасывается мало (~3–7%).",
+        "tarqalish": "Высокая местная концентрация.",
+        "metabolizm": "Всосавшийся — в печени.",
+        "chiqarilish": "С калом и мочой; преобладает местное действие."
+      },
+      "korsatmalar": [
+        "Вульвовагинальный кандидоз",
+        "Смешанный кандидозно-бактериальный вагинит",
+        "Микозы кожи (местные формы)"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к эконазолу или имидазолам",
+        "I триместр беременности (осторожно)"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд, покраснение во влагалище",
+        "Аллергия": "Контактный дерматит, сыпь (редко)"
+      },
+      "dozadan": "В местной форме риск передозировки низкий. Лечение симптоматическое.",
+      "ozarotasir": [
+        "При всасывании может усиливать действие варфарина (контроль кровотечения)",
+        "Снижает прочность латексных презервативов/диафрагм"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: суппозиторий 150 мг на ночь 3 дня (или 50 мг 14 дней). Крем наружно 1–2 раза/сут. По показанию.",
+        "bolalar": "В вагинальной форме не применяется."
+      },
+      "chiqarish": "Вагинальные суппозитории 50/150 мг; кожный крем 1%"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — imidazole antimycotic (econazole)",
+      "farmTasir": "Topical antifungal (broad spectrum)",
+      "farmakodinamika": "Econazole is an imidazole antimycotic. It inhibits fungal 14-alpha-demethylase (CYP51), disrupting ergosterol synthesis and increasing membrane permeability (fungistatic, fungicidal at high concentrations). It is active against Candida species and dermatophytes and some Gram-positive bacteria. It is used for vulvovaginal candidiasis and mixed mycotic-bacterial infections.",
+      "farmakokinetika": {
+        "sorish": "Little is absorbed from vaginal mucosa and skin (~3–7%).",
+        "tarqalish": "High local concentration.",
+        "metabolizm": "Any absorbed drug is hepatic.",
+        "chiqarilish": "In feces and urine; local action predominates."
+      },
+      "korsatmalar": [
+        "Vulvovaginal candidiasis",
+        "Mixed candidal-bacterial vaginitis",
+        "Skin mycoses (topical forms)"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to econazole or imidazoles",
+        "First trimester of pregnancy (caution)"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching, redness",
+        "Allergic": "Contact dermatitis, rash (rare)"
+      },
+      "dozadan": "Overdose risk is low with the topical form. Treat symptomatically.",
+      "ozarotasir": [
+        "If absorbed, may potentiate warfarin (bleeding monitoring)",
+        "Reduces the integrity of latex condoms/diaphragms"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 150 mg pessary at night for 3 days (or 50 mg for 14 days). Cream externally 1–2 times/day. Per indication.",
+        "bolalar": "Vaginal form not used."
+      },
+      "chiqarish": "Vaginal pessaries 50/150 mg; skin cream 1%"
+    }
+  },
+  "G01AF07": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — imidazol antimikotik (izokonazol)",
+      "farmTasir": "Mahalliy zamburug'ga qarshi (keng spektr)",
+      "farmakodinamika": "Izokonazol — imidazol antimikotigi. Zamburug' ergosterol sintezini (14-alfa-demetilaza) inhibirlab membrana yaxlitligini buzadi. Candida, dermatofitlar, mog'or zamburug'lari va ba'zi grammusbat bakteriyalarga (jumladan korinebakteriyalar) faol — keng spektri bilan aralash infeksiyalarда qulay.",
+      "farmakokinetika": {
+        "sorish": "Vaginal yo'ldan oz so'riladi — ta'sir mahalliy.",
+        "tarqalish": "Mahalliy yuqori konsentratsiya.",
+        "metabolizm": "So'rilgani jigarda.",
+        "chiqarilish": "Mahalliy ta'sir ustun."
+      },
+      "korsatmalar": [
+        "Vulvovaginal kandidoz",
+        "Aralash zamburug'-bakterial vaginit"
+      ],
+      "qarrshi": [
+        "Izokonazol yoki imidazollarga o'ta sezgirlik",
+        "Homiladorlik I trimestri (ehtiyotkorlik)"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish, ta'sirlanish",
+        "Allergik": "Kontakt dermatit (kamdan-kam)"
+      },
+      "dozadan": "Mahalliy shaklda dozadan oshish kam ehtimol. Davo simptomatik.",
+      "ozarotasir": [
+        "Lateks vositalarini zaiflashtirishi mumkin",
+        "Mahalliy shaklda tizimli o'zaro ta'sir kam"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 600 mg shamcha bir martalik (kechasi); yoki past doza bir necha kun. Krem tashqi a'zoga. Ko'rsatmага qarab.",
+        "bolalar": "Vaginal shaklda qo'llanilmaydi."
+      },
+      "chiqarish": "Vaginal shamcha 600 mg; teri/vaginal krem 1%"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — имидазольный антимикотик (изоконазол)",
+      "farmTasir": "Местное противогрибковое (широкий спектр)",
+      "farmakodinamika": "Изоконазол — имидазольный антимикотик. Ингибирует синтез эргостерола гриба (14-альфа-деметилаза), нарушая целостность мембраны. Активен против Candida, дерматофитов, плесневых грибов и некоторых грамположительных бактерий (включая коринебактерии) — широкий спектр удобен при смешанных инфекциях.",
+      "farmakokinetika": {
+        "sorish": "Со слизистой влагалища всасывается мало — действие местное.",
+        "tarqalish": "Высокая местная концентрация.",
+        "metabolizm": "Всосавшийся — в печени.",
+        "chiqarilish": "Преобладает местное действие."
+      },
+      "korsatmalar": [
+        "Вульвовагинальный кандидоз",
+        "Смешанный грибково-бактериальный вагинит"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к изоконазолу или имидазолам",
+        "I триместр беременности (осторожно)"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд, раздражение во влагалище",
+        "Аллергия": "Контактный дерматит (редко)"
+      },
+      "dozadan": "В местной форме передозировка маловероятна. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Может ослаблять латексные средства",
+        "В местной форме системные взаимодействия редки"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: суппозиторий 600 мг однократно (на ночь); или низкая доза несколько дней. Крем наружно. По показанию.",
+        "bolalar": "В вагинальной форме не применяется."
+      },
+      "chiqarish": "Вагинальный суппозиторий 600 мг; кожный/вагинальный крем 1%"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — imidazole antimycotic (isoconazole)",
+      "farmTasir": "Topical antifungal (broad spectrum)",
+      "farmakodinamika": "Isoconazole is an imidazole antimycotic. It inhibits fungal ergosterol synthesis (14-alpha-demethylase), disrupting membrane integrity. It is active against Candida, dermatophytes, molds and some Gram-positive bacteria (including corynebacteria) — a broad spectrum convenient for mixed infections.",
+      "farmakokinetika": {
+        "sorish": "Little is absorbed from vaginal mucosa — action is local.",
+        "tarqalish": "High local concentration.",
+        "metabolizm": "Any absorbed drug is hepatic.",
+        "chiqarilish": "Local action predominates."
+      },
+      "korsatmalar": [
+        "Vulvovaginal candidiasis",
+        "Mixed fungal-bacterial vaginitis"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to isoconazole or imidazoles",
+        "First trimester of pregnancy (caution)"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching, irritation",
+        "Allergic": "Contact dermatitis (rare)"
+      },
+      "dozadan": "Overdose is unlikely with the topical form. Treat symptomatically.",
+      "ozarotasir": [
+        "May weaken latex devices",
+        "Systemic interactions are rare with the topical form"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 600 mg pessary once (at night); or a low dose for several days. Cream externally. Per indication.",
+        "bolalar": "Vaginal form not used."
+      },
+      "chiqarish": "Vaginal pessary 600 mg; skin/vaginal cream 1%"
+    }
+  },
+  "G01AF12": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — imidazol antimikotik (fentikonazol)",
+      "farmTasir": "Mahalliy zamburug'ga qarshi (keng spektr)",
+      "farmakodinamika": "Fentikonazol — imidazol antimikotigi. Ergosterol sintezini inhibirlash bilan birga zamburug' proteaza fermentlari va leykotrien hosil bo'lishiga ham ta'sir ko'rsatadi; Candida va dermatofitlarга, ba'zi grammusbat bakteriyalarга (jumladan Gardnerella ga qisman) faol. Bir martalik yuqori doza qulayligi bilan ajralib turadi.",
+      "farmakokinetika": {
+        "sorish": "Vaginal yo'ldan minimal so'riladi — ta'sir mahalliy.",
+        "tarqalish": "Mahalliy yuqori konsentratsiya, uzoq saqlanadi.",
+        "metabolizm": "So'rilgani jigarda.",
+        "chiqarilish": "Mahalliy ta'sir ustun."
+      },
+      "korsatmalar": [
+        "Vulvovaginal kandidoz",
+        "Aralash zamburug'-bakterial vaginit"
+      ],
+      "qarrshi": [
+        "Fentikonazol yoki imidazollarga o'ta sezgirlik",
+        "Homiladorlik I trimestri (ehtiyotkorlik)"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish (odatda o'tkinchi)",
+        "Allergik": "Kontakt dermatit (kamdan-kam)"
+      },
+      "dozadan": "Mahalliy shaklda dozadan oshish kam ehtimol. Davo simptomatik.",
+      "ozarotasir": [
+        "Lateks prezervativ/diafragma mustahkamligini pasaytiradi",
+        "Mahalliy shaklda tizimli o'zaro ta'sir kam"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 600 mg shamcha bir martalik (kechasi), zarur bo'lsa 3 kundан keyin takror; yoki 1000 mg bir martalik. Krem tashqi a'zoga. Ko'rsatmага qarab.",
+        "bolalar": "Vaginal shaklda qo'llanilmaydi."
+      },
+      "chiqarish": "Vaginal shamcha 600/1000 mg; vaginal va teri kremi 2%"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — имидазольный антимикотик (фентиконазол)",
+      "farmTasir": "Местное противогрибковое (широкий спектр)",
+      "farmakodinamika": "Фентиконазол — имидазольный антимикотик. Наряду с ингибированием синтеза эргостерола влияет на протеазные ферменты гриба и образование лейкотриенов; активен против Candida и дерматофитов, некоторых грамположительных бактерий (частично Gardnerella). Отличается удобством однократной высокой дозы.",
+      "farmakokinetika": {
+        "sorish": "Со слизистой влагалища всасывается минимально — действие местное.",
+        "tarqalish": "Высокая местная концентрация, длительно сохраняется.",
+        "metabolizm": "Всосавшийся — в печени.",
+        "chiqarilish": "Преобладает местное действие."
+      },
+      "korsatmalar": [
+        "Вульвовагинальный кандидоз",
+        "Смешанный грибково-бактериальный вагинит"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к фентиконазолу или имидазолам",
+        "I триместр беременности (осторожно)"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд во влагалище (обычно преходящие)",
+        "Аллергия": "Контактный дерматит (редко)"
+      },
+      "dozadan": "В местной форме передозировка маловероятна. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Снижает прочность латексных презервативов/диафрагм",
+        "В местной форме системные взаимодействия редки"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: суппозиторий 600 мг однократно (на ночь), при необходимости повтор через 3 дня; или 1000 мг однократно. Крем наружно. По показанию.",
+        "bolalar": "В вагинальной форме не применяется."
+      },
+      "chiqarish": "Вагинальный суппозиторий 600/1000 мг; вагинальный и кожный крем 2%"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — imidazole antimycotic (fenticonazole)",
+      "farmTasir": "Topical antifungal (broad spectrum)",
+      "farmakodinamika": "Fenticonazole is an imidazole antimycotic. Besides inhibiting ergosterol synthesis it also affects fungal protease enzymes and leukotriene formation; it is active against Candida and dermatophytes and some Gram-positive bacteria (partly Gardnerella). It is notable for the convenience of a single high dose.",
+      "farmakokinetika": {
+        "sorish": "Minimally absorbed from vaginal mucosa — action is local.",
+        "tarqalish": "High local concentration, long retained.",
+        "metabolizm": "Any absorbed drug is hepatic.",
+        "chiqarilish": "Local action predominates."
+      },
+      "korsatmalar": [
+        "Vulvovaginal candidiasis",
+        "Mixed fungal-bacterial vaginitis"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to fenticonazole or imidazoles",
+        "First trimester of pregnancy (caution)"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching (usually transient)",
+        "Allergic": "Contact dermatitis (rare)"
+      },
+      "dozadan": "Overdose is unlikely with the topical form. Treat symptomatically.",
+      "ozarotasir": [
+        "Reduces the integrity of latex condoms/diaphragms",
+        "Systemic interactions are rare with the topical form"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 600 mg pessary once (at night), repeat after 3 days if needed; or 1000 mg once. Cream externally. Per indication.",
+        "bolalar": "Vaginal form not used."
+      },
+      "chiqarish": "Vaginal pessary 600/1000 mg; vaginal and skin cream 2%"
+    }
+  },
+  "G01AF15": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — imidazol antimikotik (butokonazol)",
+      "farmTasir": "Mahalliy zamburug'ga qarshi (Candida)",
+      "farmakodinamika": "Butokonazol — imidazol antimikotigi. Zamburug' membranasidagi ergosterol sintezini (14-alfa-demetilaza) inhibirlab membrana yaxlitligi va o'tkazuvchanligini buzadi (fungitsid). Asosan Candida turlariga faol. Mahalliy 'bioadhesiv' (yopishqoq) krem shakli bir martalik qo'llashga imkon beradi.",
+      "farmakokinetika": {
+        "sorish": "Vaginal yo'ldan oz miqdorda so'riladi (~1–5%).",
+        "tarqalish": "Mahalliy yuqori konsentratsiya.",
+        "metabolizm": "So'rilgani jigarda.",
+        "chiqarilish": "Najas va siydik orqali."
+      },
+      "korsatmalar": [
+        "Vulvovaginal kandidoz (Candida vaginit)"
+      ],
+      "qarrshi": [
+        "Butokonazol yoki imidazollarga o'ta sezgirlik",
+        "Homiladorlik I trimestri (ehtiyotkorlik)"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish, ta'sirlanish",
+        "Allergik": "Kontakt reaksiya (kamdan-kam)"
+      },
+      "dozadan": "Mahalliy shaklda dozadan oshish kam ehtimol. Davo simptomatik.",
+      "ozarotasir": [
+        "Lateks prezervativ/diafragma mustahkamligini pasaytiradi (3 kungacha)",
+        "Mahalliy shaklda tizimli o'zaro ta'sir kam"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 2% bioadhesiv krem 5 g bir martalik (kechasi). Ko'rsatmага qarab.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Vaginal krem 2% (bioadhesiv, bir martalik)"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — имидазольный антимикотик (бутоконазол)",
+      "farmTasir": "Местное противогрибковое (Candida)",
+      "farmakodinamika": "Бутоконазол — имидазольный антимикотик. Ингибирует синтез эргостерола мембраны гриба (14-альфа-деметилаза), нарушая целостность и проницаемость мембраны (фунгицидно). Активен преимущественно против видов Candida. Местная биоадгезивная (прилипающая) форма крема позволяет однократное применение.",
+      "farmakokinetika": {
+        "sorish": "Со слизистой влагалища всасывается мало (~1–5%).",
+        "tarqalish": "Высокая местная концентрация.",
+        "metabolizm": "Всосавшийся — в печени.",
+        "chiqarilish": "С калом и мочой."
+      },
+      "korsatmalar": [
+        "Вульвовагинальный кандидоз (кандидозный вагинит)"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к бутоконазолу или имидазолам",
+        "I триместр беременности (осторожно)"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд, раздражение во влагалище",
+        "Аллергия": "Контактная реакция (редко)"
+      },
+      "dozadan": "В местной форме передозировка маловероятна. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Снижает прочность латексных презервативов/диафрагм (до 3 дней)",
+        "В местной форме системные взаимодействия редки"
+      ],
+      "qollash": {
+        "kattalar": "Вагинально: биоадгезивный крем 2% 5 г однократно (на ночь). По показанию.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Вагинальный крем 2% (биоадгезивный, однократный)"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — imidazole antimycotic (butoconazole)",
+      "farmTasir": "Topical antifungal (Candida)",
+      "farmakodinamika": "Butoconazole is an imidazole antimycotic. It inhibits fungal membrane ergosterol synthesis (14-alpha-demethylase), disrupting membrane integrity and permeability (fungicidal). It is active mainly against Candida species. A bioadhesive (sustained-release) cream form allows single-dose use.",
+      "farmakokinetika": {
+        "sorish": "Little is absorbed from vaginal mucosa (~1–5%).",
+        "tarqalish": "High local concentration.",
+        "metabolizm": "Any absorbed drug is hepatic.",
+        "chiqarilish": "In feces and urine."
+      },
+      "korsatmalar": [
+        "Vulvovaginal candidiasis (Candida vaginitis)"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to butoconazole or imidazoles",
+        "First trimester of pregnancy (caution)"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching, irritation",
+        "Allergic": "Contact reaction (rare)"
+      },
+      "dozadan": "Overdose is unlikely with the topical form. Treat symptomatically.",
+      "ozarotasir": [
+        "Reduces the integrity of latex condoms/diaphragms (up to 3 days)",
+        "Systemic interactions are rare with the topical form"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal: 2% bioadhesive cream 5 g once (at night). Per indication.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Vaginal cream 2% (bioadhesive, single-dose)"
+    }
+  },
+  "G01AX03": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — mahalliy antiseptik/koagulant (polikrezulen)",
+      "farmTasir": "Mahalliy kuydiruvchi antiseptik va bitiruvchi",
+      "farmakodinamika": "Polikrezulen — metakrezolsulfon kislota va formaldegidning kondensatsiya mahsuli. Kislotali muhitda bakteriya, zamburug' va Trichomonas oqsillarini denaturatsiya qilib mikrobitsid ta'sir ko'rsatadi; nekrozlangan va o'zgargan (kasal) epiteliyni selektiv koagulyatsiya qilib sog'lom to'qimaga tegmaydi — eroziya/yaralarni bitishini tezlashtiradi. Mahalliy qon to'xtatuvchi (kichik tomirlarni tortaytiradi) ta'sir ham bor.",
+      "farmakokinetika": {
+        "sorish": "Shilliq qavatdan deyarli so'rilmaydi — ta'sir mahalliy.",
+        "tarqalish": "Tizimli taqsimlanish yo'q.",
+        "metabolizm": "—",
+        "chiqarilish": "Mahalliy ta'sir."
+      },
+      "korsatmalar": [
+        "Bachadon bo'yni eroziyasi va benign o'zgarishlari (mahalliy bitiruvchi davo)",
+        "Vaginitlar (bakterial, zamburug'li, trixomonadali — antiseptik sifatida)",
+        "Mahalliy mayda qon ketishni to'xtatish (biopsiya/manipulyatsiyadan keyin)"
+      ],
+      "qarrshi": [
+        "Polikrezulenga o'ta sezgirlik",
+        "Konsentrlangan eritmani sog'lom shilliqqa nazoratsiz surtish (kuyish xavfi)"
+      ],
+      "nojoya": {
+        "Mahalliy": "Achishish, qisqa muddatli og'riq, oq parda (koagulyatsiya), ta'sirlanish",
+        "Allergik": "Kontakt reaksiya (kamdan-kam)"
+      },
+      "dozadan": "Mahalliy; konsentrlangan shakldan ortiqcha foydalanish kimyoviy kuyishga olib kelishi mumkin. Davo: chayqash, simptomatik.",
+      "ozarotasir": [
+        "Boshqa mahalliy antiseptiklar (ayniqsa ishqoriy) bilan birga ishlatib bo'lmaydi (neytrallashadi)",
+        "Tizimli o'zaro ta'sir yo'q"
+      ],
+      "qollash": {
+        "kattalar": "Eroziya davosi: konsentrlangan eritma bilan tamponni shifokor surtadi (ginekologik amaliyot). Vaginit: suyultirilgan eritma bilan chayqash yoki shamcha. Aniq sxemani shifokor belgilaydi.",
+        "bolalar": "Qo'llanilmaydi."
+      },
+      "chiqarish": "Konsentrlangan eritma; vaginal shamchalar"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — местный антисептик/коагулянт (поликрезулен)",
+      "farmTasir": "Местный прижигающий антисептик и заживляющий",
+      "farmakodinamika": "Поликрезулен — продукт конденсации метакрезолсульфоновой кислоты и формальдегида. В кислой среде денатурирует белки бактерий, грибов и Trichomonas, оказывая микробицидное действие; избирательно коагулирует некротизированный и изменённый (больной) эпителий, не затрагивая здоровую ткань — ускоряет заживление эрозий/язв. Обладает и местным кровоостанавливающим (сужает мелкие сосуды) действием.",
+      "farmakokinetika": {
+        "sorish": "Со слизистой практически не всасывается — действие местное.",
+        "tarqalish": "Системного распределения нет.",
+        "metabolizm": "—",
+        "chiqarilish": "Местное действие."
+      },
+      "korsatmalar": [
+        "Эрозия и доброкачественные изменения шейки матки (местное заживляющее лечение)",
+        "Вагиниты (бактериальные, грибковые, трихомонадные — как антисептик)",
+        "Остановка местных мелких кровотечений (после биопсии/манипуляций)"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к поликрезулену",
+        "Неконтролируемое нанесение концентрированного раствора на здоровую слизистую (риск ожога)"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, кратковременная боль, белый налёт (коагуляция), раздражение",
+        "Аллергия": "Контактная реакция (редко)"
+      },
+      "dozadan": "Местно; избыток концентрированной формы может вызвать химический ожог. Лечение: промывание, симптоматически.",
+      "ozarotasir": [
+        "Нельзя сочетать с другими местными антисептиками (особенно щелочными — нейтрализуется)",
+        "Системных взаимодействий нет"
+      ],
+      "qollash": {
+        "kattalar": "Лечение эрозии: тампон с концентрированным раствором наносит врач (гинекологическая практика). Вагинит: орошение разведённым раствором или суппозиторий. Точную схему определяет врач.",
+        "bolalar": "Не применяется."
+      },
+      "chiqarish": "Концентрированный раствор; вагинальные суппозитории"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — topical antiseptic/coagulant (policresulen)",
+      "farmTasir": "Topical cauterizing antiseptic and healing agent",
+      "farmakodinamika": "Policresulen is a condensation product of metacresolsulfonic acid and formaldehyde. In an acidic environment it denatures the proteins of bacteria, fungi and Trichomonas, giving a microbicidal effect; it selectively coagulates necrotic and altered (diseased) epithelium without affecting healthy tissue — accelerating healing of erosions/ulcers. It also has a local hemostatic action (constricting small vessels).",
+      "farmakokinetika": {
+        "sorish": "Practically not absorbed from mucosa — action is local.",
+        "tarqalish": "No systemic distribution.",
+        "metabolizm": "—",
+        "chiqarilish": "Local action."
+      },
+      "korsatmalar": [
+        "Cervical erosion and benign cervical changes (local healing treatment)",
+        "Vaginitis (bacterial, fungal, trichomonal — as an antiseptic)",
+        "Arrest of local minor bleeding (after biopsy/procedures)"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to policresulen",
+        "Uncontrolled application of the concentrated solution to healthy mucosa (burn risk)"
+      ],
+      "nojoya": {
+        "Local": "Burning, brief pain, white coating (coagulation), irritation",
+        "Allergic": "Contact reaction (rare)"
+      },
+      "dozadan": "Topical; excess of the concentrated form may cause a chemical burn. Treat with irrigation, symptomatically.",
+      "ozarotasir": [
+        "Must not be combined with other topical antiseptics (especially alkaline — neutralized)",
+        "No systemic interactions"
+      ],
+      "qollash": {
+        "kattalar": "Erosion treatment: a physician applies a tampon with the concentrated solution (gynecological practice). Vaginitis: irrigation with diluted solution or a pessary. The physician sets the exact regimen.",
+        "bolalar": "Not used."
+      },
+      "chiqarish": "Concentrated solution; vaginal pessaries"
+    }
+  },
+  "G01AX06": {
+    "uz": {
+      "gruppa": "Ginekologik anti-infektiv — nitrofuran (furazolidon)",
+      "farmTasir": "Mahalliy antibakterial va antiprotozoy",
+      "farmakodinamika": "Furazolidon — nitrofuran guruhi vositasi. Mikroorganizm hujayrasida nitro-guruhi qaytarilib faol mahsulotlar hosil qiladi; ular fermentlar va nuklein kislota sintezini buzadi (bakteriostatik/bakteritsid). Grammanfiy va grammusbat bakteriyalarga va protozoalarga (Trichomonas, Giardia) faol. Vaginal/mahalliy shaklda aralash va trixomonadali vaginitда qo'llaniladi.",
+      "farmakokinetika": {
+        "sorish": "Vaginal yo'ldan oz so'riladi; peroral yaxshi.",
+        "tarqalish": "Mahalliy yuqori konsentratsiya.",
+        "metabolizm": "To'qima va jigarda tez.",
+        "chiqarilish": "Asosan siydik orqali (siydikни to'q rangga bo'yashi mumkin)."
+      },
+      "korsatmalar": [
+        "Trichomonas vaginit (mahalliy)",
+        "Aralash bakterial-protozoy vaginit"
+      ],
+      "qarrshi": [
+        "Nitrofuranlarga o'ta sezgirlik",
+        "G6FD (glyukoza-6-fosfatdegidrogenaza) yetishmovchiligi — gemoliz xavfi",
+        "Homiladorlik oxiri va emizish (ehtiyotkorlik)"
+      ],
+      "nojoya": {
+        "Mahalliy": "Qinda achishish, qichishish",
+        "Hazm (so'rilganda)": "Ko'ngil aynishi, ishtaha pasayishi",
+        "Allergik / boshqa": "Toshma; alkogol bilan disulfiram-simon reaksiya (so'rilganda)"
+      },
+      "dozadan": "Mahalliy shaklda dozadan oshish kam. Tizimli yuqori dozada nevropatiya, gemoliz. Davo simptomatik.",
+      "ozarotasir": [
+        "MAO inhibitorlik xususiyati: tiramin saqlovchi mahsulotlar va simpatomimetiklar bilan qon bosimi ko'tarilishi (so'rilganda)",
+        "Alkogol bilan disulfiram-simon reaksiya",
+        "Boshqa serotonergik/MAO ta'sirli dorilar bilan ehtiyotkorlik"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal shamcha/tabletka ko'rsatmага qarab 1 marta/kun (kechasi), qisqa kurs; ko'pincha sherigini ham davolash. Aniq sxemani shifokor belgilaydi.",
+        "bolalar": "Vaginal shaklda qo'llanilmaydi."
+      },
+      "chiqarish": "Vaginal shamchalar/tabletkalar; kombinatsiyalangan shakllar"
+    },
+    "ru": {
+      "gruppa": "Гинекологический антиинфектив — нитрофуран (фуразолидон)",
+      "farmTasir": "Местное антибактериальное и противопротозойное",
+      "farmakodinamika": "Фуразолидон — средство группы нитрофуранов. В клетке микроорганизма нитрогруппа восстанавливается с образованием активных продуктов, которые нарушают ферменты и синтез нуклеиновых кислот (бактериостатически/бактерицидно). Активен против грам(−) и грам(+) бактерий и простейших (Trichomonas, Giardia). В вагинальной/местной форме применяется при смешанном и трихомонадном вагините.",
+      "farmakokinetika": {
+        "sorish": "Со слизистой влагалища всасывается мало; внутрь хорошо.",
+        "tarqalish": "Высокая местная концентрация.",
+        "metabolizm": "Быстро в тканях и печени.",
+        "chiqarilish": "Преимущественно с мочой (может окрашивать мочу в тёмный цвет)."
+      },
+      "korsatmalar": [
+        "Трихомонадный вагинит (местно)",
+        "Смешанный бактериально-протозойный вагинит"
+      ],
+      "qarrshi": [
+        "Гиперчувствительность к нитрофуранам",
+        "Дефицит Г6ФД (глюкозо-6-фосфатдегидрогеназы) — риск гемолиза",
+        "Конец беременности и лактация (осторожно)"
+      ],
+      "nojoya": {
+        "Местные": "Жжение, зуд во влагалище",
+        "ЖКТ (при всасывании)": "Тошнота, снижение аппетита",
+        "Аллергия / прочее": "Сыпь; дисульфирамоподобная реакция с алкоголем (при всасывании)"
+      },
+      "dozadan": "В местной форме передозировка маловероятна. При системных высоких дозах — нейропатия, гемолиз. Лечение симптоматическое.",
+      "ozarotasir": [
+        "Свойство ингибитора МАО: с тираминсодержащими продуктами и симпатомиметиками — повышение АД (при всасывании)",
+        "Дисульфирамоподобная реакция с алкоголем",
+        "Осторожно с другими серотонергическими/МАО-активными препаратами"
+      ],
+      "qollash": {
+        "kattalar": "Вагинальный суппозиторий/таблетка по показанию 1 раз/сут (на ночь), коротким курсом; часто лечат и партнёра. Точную схему определяет врач.",
+        "bolalar": "В вагинальной форме не применяется."
+      },
+      "chiqarish": "Вагинальные суппозитории/таблетки; комбинированные формы"
+    },
+    "en": {
+      "gruppa": "Gynecological anti-infective — nitrofuran (furazolidone)",
+      "farmTasir": "Topical antibacterial and antiprotozoal",
+      "farmakodinamika": "Furazolidone is a nitrofuran. In the microbial cell its nitro group is reduced to reactive products that disrupt enzymes and nucleic-acid synthesis (bacteriostatic/bactericidal). It is active against Gram-negative and Gram-positive bacteria and protozoa (Trichomonas, Giardia). In a vaginal/topical form it is used for mixed and trichomonal vaginitis.",
+      "farmakokinetika": {
+        "sorish": "Little is absorbed from vaginal mucosa; well absorbed orally.",
+        "tarqalish": "High local concentration.",
+        "metabolizm": "Rapid in tissues and liver.",
+        "chiqarilish": "Mainly in urine (may color the urine dark)."
+      },
+      "korsatmalar": [
+        "Trichomonas vaginitis (topical)",
+        "Mixed bacterial-protozoal vaginitis"
+      ],
+      "qarrshi": [
+        "Hypersensitivity to nitrofurans",
+        "G6PD (glucose-6-phosphate dehydrogenase) deficiency — hemolysis risk",
+        "Late pregnancy and lactation (caution)"
+      ],
+      "nojoya": {
+        "Local": "Vaginal burning, itching",
+        "GI (if absorbed)": "Nausea, reduced appetite",
+        "Allergic / other": "Rash; disulfiram-like reaction with alcohol (if absorbed)"
+      },
+      "dozadan": "Overdose is unlikely with the topical form. High systemic doses cause neuropathy and hemolysis. Treat symptomatically.",
+      "ozarotasir": [
+        "MAO-inhibitory property: with tyramine-containing foods and sympathomimetics — blood-pressure rise (if absorbed)",
+        "Disulfiram-like reaction with alcohol",
+        "Caution with other serotonergic/MAO-active drugs"
+      ],
+      "qollash": {
+        "kattalar": "Vaginal pessary/tablet per indication once daily (at night), short course; the partner is often treated too. The physician sets the exact regimen.",
+        "bolalar": "Vaginal form not used."
+      },
+      "chiqarish": "Vaginal pessaries/tablets; combination forms"
+    }
+  },
+
+  // ─────────────────────────────────────────────────────────
   // GENITOURINARY — G03A/G03D/G03X progestogenlar (batch 5)
   // ─────────────────────────────────────────────────────────
   "G03AA07": {
