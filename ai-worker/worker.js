@@ -110,12 +110,31 @@ const SYS = {
   en: `You are "MedCore AI", a medical-reference assistant for clinicians. Answer only on medicine, drugs, pharmacology, laboratory values and drug interactions. Rely on the provided CONTEXT; if it lacks the answer, use reliable general medical knowledge but do not invent exact doses. Be accurate and concise. Always answer in English. End with a short note: "⚠️ For reference only; the final decision rests with the physician."`
 };
 
+// ── Ta'lim (klinik protokollar) bo'yicha RAG ──
+async function findEdu(env, query, max = 3) {
+  const chunks = await getJSON(env, 'edu.json');   // [{chapter, text}]
+  if (!Array.isArray(chunks)) return [];
+  const toks = tokenize(query);
+  if (!toks.length) return [];
+  const scored = [];
+  for (const c of chunks) {
+    const low = (c.text || '').toLowerCase();
+    let score = 0;
+    for (const t of toks) if (low.includes(t)) score++;
+    if (score > 1) scored.push([score, c]);
+  }
+  scored.sort((a, b) => b[0] - a[0]);
+  return scored.slice(0, max).map(s => `[Ta'lim — ${s[1].chapter}] ${clip(s[1].text, 900)}`);
+}
+
 async function buildContext(env, query, lang) {
   const drugs = await findDrugs(env, query, 4);
   const parts = [];
   for (const r of drugs) parts.push(await drugContext(env, r, lang));
   const labs = await labContext(env, query, lang, 3);
   parts.push(...labs);
+  const edu = await findEdu(env, query, 3);
+  parts.push(...edu);
   return parts.join('\n\n');
 }
 
