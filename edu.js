@@ -1,134 +1,149 @@
 // ══════════════════════════════════════════════════════════
-//  MedCore — Ta'lim bo'limi (420-son buyruq) ko'rsatkichi
-//  edu_data.js (EDU_DATA) ni o'qiydi: boblar, navigatsiya, qidiruv.
+//  MedCore — Ta'lim bo'limi (subject → bob → mavzu accordion)
+//  edu_data.js (EDU_DATA: subjects[].chapters[].topics[].blocks[])
+//  Mobil uchun qulay drill-down + to'liq qidiruv.
 // ══════════════════════════════════════════════════════════
 (function () {
-  const S = {
-    uz: { search: "Ta'lim bo'limidan qidirish...", toc: "Mundarija", results: "natija", none: "Hech narsa topilmadi", open: "Ochish", src: "Manba" },
-    ru: { search: "Поиск в разделе обучения...", toc: "Содержание", results: "результатов", none: "Ничего не найдено", open: "Открыть", src: "Источник" },
-    en: { search: "Search in education...", toc: "Contents", results: "results", none: "Nothing found", open: "Open", src: "Source" }
+  const T = {
+    uz: { search: "Ta'lim bo'limidan qidirish...", back: "Orqaga", chapters: "Boblar", topics: "mavzu", none: "Hech narsa topilmadi", results: "natija", source: "Manba", open: "Ochish", subj: "Yo'nalishlar" },
+    ru: { search: "Поиск в обучении...", back: "Назад", chapters: "Разделы", topics: "тем", none: "Ничего не найдено", results: "результатов", source: "Источник", open: "Открыть", subj: "Направления" },
+    en: { search: "Search education...", back: "Back", chapters: "Chapters", topics: "topics", none: "Nothing found", results: "results", source: "Source", open: "Open", subj: "Subjects" }
   };
-  const L = () => (typeof LANG !== "undefined" && S[LANG]) ? LANG : "uz";
+  const L = () => (typeof LANG !== "undefined" && T[LANG]) ? LANG : "uz";
   const esc = s => String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-  let curChapter = 0, inited = false;
+  let inited = false, si = 0, ci = 0;
+  const E = () => (typeof EDU_DATA !== "undefined") ? EDU_DATA : null;
+  const $ = id => document.getElementById(id);
 
-  function E() { return (typeof EDU_DATA !== "undefined") ? EDU_DATA : null; }
-
-  function blockHTML(b, ci, bi) {
-    if (b.t === "h") return `<h3 class="edu-h" id="edu-b-${ci}-${bi}">${esc(b.text)}</h3>`;
-    if (b.t === "p") return `<p class="edu-p" id="edu-b-${ci}-${bi}">${esc(b.text)}</p>`;
-    if (b.t === "img") return `<div class="edu-img" id="edu-b-${ci}-${bi}"><img loading="lazy" src="edu-assets/${esc(b.src)}" alt=""></div>`;
+  function blockHTML(b) {
+    if (b.t === "p") return `<p class="edu-p">${esc(b.text)}</p>`;
+    if (b.t === "h") return `<p class="edu-p"><b>${esc(b.text)}</b></p>`;
+    if (b.t === "img") return `<div class="edu-img"><img loading="lazy" src="edu-assets/${esc(b.src)}" alt=""></div>`;
     if (b.t === "table") {
-      const rows = b.rows.map((r, ri) => {
-        const tag = ri === 0 ? "th" : "td";
-        return "<tr>" + r.map(c => `<${tag}>${esc(c).replace(/\n/g, "<br>")}</${tag}>`).join("") + "</tr>";
-      }).join("");
-      return `<div class="edu-table-wrap" id="edu-b-${ci}-${bi}"><table class="edu-table">${rows}</table></div>`;
+      const rows = b.rows.map((r, ri) => "<tr>" + r.map(c => `<${ri === 0 ? "th" : "td"}>${esc(c).replace(/\n/g, "<br>")}</${ri === 0 ? "th" : "td"}>`).join("") + "</tr>").join("");
+      return `<div class="edu-table-wrap"><table class="edu-table">${rows}</table></div>`;
     }
     return "";
   }
-
-  function renderChapter(ci) {
-    const data = E(); if (!data) return;
-    curChapter = ci;
-    try { localStorage.setItem("mc_edu_ch", String(ci)); } catch (e) {}
-    const ch = data.chapters[ci];
-    const cont = document.getElementById("eduContent");
-    cont.innerHTML = `<h2 class="edu-chapter-title">${esc(ch.title)}</h2>` +
-      ch.blocks.map((b, bi) => blockHTML(b, ci, bi)).join("");
-    cont.scrollTop = 0;
-    document.querySelectorAll(".edu-toc-chapter").forEach((el, i) => el.classList.toggle("active", i === ci));
-    renderSubTOC(ci);
-    const main = document.querySelector(".content");
-    if (main) main.scrollTo(0, 0);
+  function topicBody(tp) {
+    if (!tp.blocks.length) return `<p class="edu-p" style="color:var(--gray-400)">—</p>`;
+    return tp.blocks.map(blockHTML).join("");
   }
 
-  function renderSubTOC(ci) {
-    const ch = E().chapters[ci];
-    const box = document.getElementById("eduSubToc");
-    if (!box) return;
-    const subs = ch.blocks.map((b, bi) => ({ b, bi })).filter(x => x.b.t === "h");
-    box.innerHTML = subs.map(x => `<a class="edu-sub" onclick="eduJump(${ci},${x.bi})">${esc(x.b.text.slice(0, 80))}</a>`).join("");
+  function crumb(parts) {
+    const c = $("eduCrumb");
+    if (c) c.innerHTML = parts.map((p, i) =>
+      p.go ? `<a onclick="${p.go}">${esc(p.label)}</a>` : `<span>${esc(p.label)}</span>`
+    ).join('<i class="edu-crumb-sep">›</i>');
   }
 
-  function buildTOC() {
-    const data = E(); if (!data) return;
-    const toc = document.getElementById("eduToc");
-    toc.innerHTML = data.chapters.map((ch, i) =>
-      `<button class="edu-toc-chapter" onclick="eduOpen(${i})"><span class="edu-toc-num">${i + 1}</span><span>${esc(ch.title.slice(0, 90))}</span></button>`
-    ).join("");
+  function renderSubjects() {
+    const data = E(); const t = T[L()];
+    crumb([{ label: "Ta'lim" }]);
+    $("eduBody").innerHTML = `<div class="edu-grid">` + data.subjects.map((s, i) => {
+      const nTop = s.chapters.reduce((a, c) => a + c.topics.length, 0);
+      return `<button class="edu-subj-card" onclick="eduSubject(${i})">
+        <div class="edu-subj-ic">${s.icon || "📘"}</div>
+        <div class="edu-subj-tx">
+          <div class="edu-subj-name">${esc(s.name)}</div>
+          <div class="edu-subj-desc">${esc(s.desc || "")}</div>
+          <div class="edu-subj-meta">${s.chapters.length} ${t.chapters.toLowerCase()} · ${nTop} ${t.topics}</div>
+        </div>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>`;
+    }).join("") + `</div>`;
   }
 
-  window.eduOpen = function (i) { renderChapter(i); document.getElementById("eduResults").style.display = "none"; document.getElementById("eduPane").style.display = ""; };
-  window.eduJump = function (ci, bi) {
-    if (ci !== curChapter) renderChapter(ci);
-    setTimeout(() => {
-      const el = document.getElementById(`edu-b-${ci}-${bi}`);
-      if (el) { el.scrollIntoView({ behavior: "smooth", block: "start" }); el.classList.add("edu-flash"); setTimeout(() => el.classList.remove("edu-flash"), 1600); }
-    }, 60);
+  function renderChapters() {
+    const data = E(); const t = T[L()]; const s = data.subjects[si];
+    crumb([{ label: "Ta'lim", go: "eduHome()" }, { label: s.name }]);
+    $("eduBody").innerHTML =
+      `<button class="edu-back" onclick="eduHome()">← ${esc(t.back)}</button>` +
+      `<div class="edu-grid">` + s.chapters.map((c, i) =>
+        `<button class="edu-chap-card" onclick="eduChapter(${i})">
+          <span class="edu-chap-num">${i + 1}</span>
+          <span class="edu-chap-title">${esc(c.title)}</span>
+          <span class="edu-chap-cnt">${c.topics.length} ${t.topics}</span>
+        </button>`).join("") + `</div>`;
+  }
+
+  function renderTopics(openIdx) {
+    const data = E(); const t = T[L()]; const s = data.subjects[si]; const ch = s.chapters[ci];
+    crumb([{ label: "Ta'lim", go: "eduHome()" }, { label: s.name, go: "eduSubject(" + si + ")" }, { label: (ci + 1) + "-bob" }]);
+    $("eduBody").innerHTML =
+      `<button class="edu-back" onclick="eduSubject(${si})">← ${esc(t.back)}</button>` +
+      `<h2 class="edu-chapter-title">${esc(ch.title)}</h2>` +
+      `<div class="edu-acc-list">` + ch.topics.map((tp, i) =>
+        `<div class="edu-acc" id="edu-acc-${i}">
+          <button class="edu-acc-head" onclick="eduToggle(${i})">
+            <span class="edu-acc-title">${esc(tp.title || ("Mavzu " + (i + 1)))}</span>
+            <svg class="edu-acc-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="edu-acc-body" data-loaded="0"></div>
+        </div>`).join("") + `</div>`;
+    const main = document.querySelector(".content"); if (main) main.scrollTo(0, 0);
+    if (typeof openIdx === "number") eduToggle(openIdx, true);
+  }
+
+  // ── Global navigatsiya ──
+  window.eduHome = function () { document.getElementById("eduResults") && ($("eduResults").style.display = "none"); $("eduBody").style.display = ""; renderSubjects(); };
+  window.eduSubject = function (i) { si = i; $("eduBody").style.display = ""; if ($("eduResults")) $("eduResults").style.display = "none"; renderChapters(); };
+  window.eduChapter = function (i) { ci = i; renderTopics(); };
+  window.eduToggle = function (i, scroll) {
+    const acc = $("edu-acc-" + i); if (!acc) return;
+    const body = acc.querySelector(".edu-acc-body");
+    if (body.dataset.loaded === "0") { body.innerHTML = topicBody(E().subjects[si].chapters[ci].topics[i]); body.dataset.loaded = "1"; }
+    const open = acc.classList.toggle("open");
+    if (open && scroll) setTimeout(() => acc.scrollIntoView({ behavior: "smooth", block: "start" }), 80);
   };
 
+  // ── Qidiruv (barcha mavzular bo'yicha) ──
   window.eduSearch = function (q) {
     q = (q || "").trim().toLowerCase();
-    const res = document.getElementById("eduResults");
-    const pane = document.getElementById("eduPane");
-    if (q.length < 2) { res.style.display = "none"; pane.style.display = ""; return; }
+    const res = $("eduResults"), body = $("eduBody");
+    if (q.length < 2) { res.style.display = "none"; body.style.display = ""; return; }
     const data = E(); const hits = [];
-    for (let ci = 0; ci < data.chapters.length; ci++) {
-      const ch = data.chapters[ci];
-      for (let bi = 0; bi < ch.blocks.length; bi++) {
-        const b = ch.blocks[bi];
-        let text = b.t === "p" || b.t === "h" ? b.text : (b.t === "table" ? b.rows.map(r => r.join(" ")).join(" ") : "");
-        if (!text) continue;
-        const low = text.toLowerCase();
-        const idx = low.indexOf(q);
+    for (let a = 0; a < data.subjects.length; a++) for (let b = 0; b < data.subjects[a].chapters.length; b++) {
+      const ch = data.subjects[a].chapters[b];
+      for (let c = 0; c < ch.topics.length; c++) {
+        const tp = ch.topics[c];
+        let text = (tp.title || "") + "\n" + tp.blocks.map(x => x.t === "p" || x.t === "h" ? x.text : (x.t === "table" ? x.rows.map(r => r.join(" ")).join(" ") : "")).join("\n");
+        const low = text.toLowerCase(); const idx = low.indexOf(q);
         if (idx >= 0) {
-          const start = Math.max(0, idx - 40);
-          let snip = (start > 0 ? "…" : "") + text.slice(start, idx + q.length + 80) + "…";
-          hits.push({ ci, bi, chTitle: ch.title, snip });
-          if (hits.length >= 200) break;
+          const st = Math.max(0, idx - 35);
+          hits.push({ a, b, c, ch: ch.title, tp: tp.title, snip: (st > 0 ? "…" : "") + text.slice(st, idx + q.length + 90).replace(/\n/g, " ") + "…" });
+          if (hits.length >= 150) break;
         }
       }
-      if (hits.length >= 200) break;
+      if (hits.length >= 150) break;
     }
-    const t = S[L()];
-    pane.style.display = "none"; res.style.display = "";
+    const t = T[L()]; body.style.display = "none"; res.style.display = "";
     if (!hits.length) { res.innerHTML = `<div class="edu-empty">🔍 ${t.none}</div>`; return; }
     res.innerHTML = `<div class="edu-res-count">${hits.length} ${t.results}</div>` + hits.map(h =>
-      `<div class="edu-res" onclick="eduOpenResult(${h.ci},${h.bi})">
-        <div class="edu-res-ch">${esc(h.chTitle.slice(0, 60))}</div>
+      `<div class="edu-res" onclick="eduGoResult(${h.a},${h.b},${h.c})">
+        <div class="edu-res-ch">${esc(h.tp || h.ch)}</div>
         <div class="edu-res-snip">${esc(h.snip)}</div>
       </div>`).join("");
   };
-  window.eduOpenResult = function (ci, bi) {
-    document.getElementById("eduResults").style.display = "none";
-    document.getElementById("eduPane").style.display = "";
-    document.getElementById("eduSearch").value = "";
-    eduJump(ci, bi);
+  window.eduGoResult = function (a, b, c) {
+    $("eduSearch").value = ""; $("eduResults").style.display = "none"; $("eduBody").style.display = "";
+    si = a; ci = b; renderTopics(c);
   };
 
   window.eduInit = function () {
-    if (inited) return; inited = true;
+    if (inited) { return; } inited = true;
     const data = E();
-    if (!data) { document.getElementById("eduContent").innerHTML = `<div class="edu-empty">Ma'lumot yuklanmadi.</div>`; return; }
+    if (!data) { $("eduBody").innerHTML = `<div class="edu-empty">Ma'lumot yuklanmadi.</div>`; return; }
     if (typeof BREADCRUMBS !== "undefined") BREADCRUMBS.edu = "Ta'lim";
-    // localized labels
-    const t = S[L()];
-    const si = document.getElementById("eduSearch"); if (si) si.placeholder = t.search;
-    const th = document.getElementById("eduTocHead"); if (th) th.textContent = t.toc;
-    const sr = document.querySelector("#page-edu .edu-source"); if (sr && data.source) sr.textContent = t.src + ": " + data.source;
-    buildTOC();
-    let last = 0; try { last = parseInt(localStorage.getItem("mc_edu_ch") || "0", 10) || 0; } catch (e) {}
-    if (last >= data.chapters.length) last = 0;
-    renderChapter(last);
+    const t = T[L()]; const sb = $("eduSearch"); if (sb) sb.placeholder = t.search;
+    const sr = document.querySelector("#page-edu .edu-source"); if (sr) sr.textContent = t.source + ": " + data.source;
+    renderSubjects();
   };
 
-  // Nav bosilganda lazy init
   document.addEventListener("DOMContentLoaded", () => {
     const nav = document.querySelector('.nav-item[data-page="edu"]');
     if (nav) nav.addEventListener("click", () => setTimeout(window.eduInit, 30));
-    // til o'zgarganda label yangilash
     const _sl = window.setLanguage;
-    if (typeof _sl === "function") window.setLanguage = function (l) { _sl(l); if (inited) { const t = S[L()]; const si = document.getElementById("eduSearch"); if (si) si.placeholder = t.search; const th = document.getElementById("eduTocHead"); if (th) th.textContent = t.toc; } };
+    if (typeof _sl === "function") window.setLanguage = function (l) { _sl(l); if (inited) { const t = T[L()]; const sb = $("eduSearch"); if (sb) sb.placeholder = t.search; } };
   });
 })();

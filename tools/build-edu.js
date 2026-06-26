@@ -2,6 +2,8 @@
 //  MedCore — "Ta'lim" bo'limi generatori
 //  420-son buyruq (.docx) → edu_data.js (EDU_DATA) + edu-assets/ (rasmlar)
 //  + bot-data/edu.json (AI/RAG uchun chunklar)
+//  - Kiril → Lotin transliteratsiya
+//  - Subject (Pediatriya) → bob → mavzu (accordion) tuzilishi
 //  Ishlatish:
 //    node tools/build-edu.js "C:/.../420-буйрук Word.docx"
 // ═══════════════════════════════════════════════════════════
@@ -12,18 +14,47 @@ const docx = process.argv[2];
 if (!docx || !fs.existsSync(docx)) { console.error('Docx topilmadi:', docx); process.exit(1); }
 const root = path.join(__dirname, '..');
 
-// 1) docx (zip) ni vaqtinchalik papkaga ochish (unzip)
+// ── Kiril (o'zbek) → Lotin transliteratsiya ──
+const LMAP = {
+  'а':'a','б':'b','в':'v','г':'g','д':'d','ё':'yo','ж':'j','з':'z','и':'i','й':'y',
+  'к':'k','л':'l','м':'m','н':'n','о':'o','п':'p','р':'r','с':'s','т':'t','у':'u',
+  'ф':'f','х':'x','ц':'ts','ч':'ch','ш':'sh','щ':'sh','ъ':'ʼ','ь':'','э':'e',
+  'ю':'yu','я':'ya','ў':'oʻ','қ':'q','ғ':'gʻ','ҳ':'h','ҷ':'j','ҙ':'z','һ':'h','ы':'i','і':'i','ї':'yi','є':'ye','ё':'yo'
+};
+const CVOWEL = new Set(['а','е','ё','и','о','у','э','ю','я','ў']);
+function translit(s) {
+  if (!s) return s;
+  let out = '';
+  const a = [...s];
+  for (let i = 0; i < a.length; i++) {
+    const c = a[i];
+    const lc = c.toLowerCase();
+    const upper = c !== lc;
+    let base;
+    if (lc === 'е') {
+      const prev = i > 0 ? a[i - 1] : '';
+      const prevLc = prev.toLowerCase();
+      base = (i === 0 || !/[a-zа-яёўқғҳ]/i.test(prev) || CVOWEL.has(prevLc) || prevLc === 'ъ' || prevLc === 'ь') ? 'ye' : 'e';
+    } else if (LMAP.hasOwnProperty(lc)) {
+      base = LMAP[lc];
+    } else { out += c; continue; }
+    if (!upper || base === '') { out += base; continue; }
+    const next = i + 1 < a.length ? a[i + 1] : '';
+    const nextUpper = next && next !== next.toLowerCase() && /[А-ЯЁЎҚҒҲ]/.test(next);
+    out += nextUpper ? base.toUpperCase() : (base.charAt(0).toUpperCase() + base.slice(1));
+  }
+  return out;
+}
+
+// 1) docx (zip) ni vaqtinchalik papkaga ochish
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'edu_'));
 cp.execSync(`unzip -o "${docx}" -d "${tmp}"`, { stdio: 'ignore' });
-
 const xml = fs.readFileSync(path.join(tmp, 'word/document.xml'), 'utf8');
 const relsXml = fs.readFileSync(path.join(tmp, 'word/_rels/document.xml.rels'), 'utf8');
 
-// 2) rId -> media fayl xaritasi
 const rels = {};
 for (const m of relsXml.matchAll(/Id="([^"]+)"[^>]*Target="([^"]+)"/g)) rels[m[1]] = m[2];
 
-// 3) yordamchilar
 function decode(s) {
   return s.replace(/<w:tab\/>/g, ' ').replace(/<w:br\/>/g, '\n')
     .replace(/<[^>]+>/g, '')
@@ -33,7 +64,6 @@ function decode(s) {
     .replace(/&amp;/g, '&');
 }
 function paraText(p) {
-  // runlardagi matnni tartib bilan yig'ish (tab/br ham hisobga olinadi)
   let out = '';
   for (const r of p.matchAll(/<w:t[ >][\s\S]*?<\/w:t>|<w:tab\/>|<w:br\/>/g)) {
     const seg = r[0];
@@ -49,27 +79,22 @@ function paraImages(p) {
   return ids.map(id => rels[id]).filter(Boolean).map(t => t.replace(/^media\//, ''));
 }
 function isHeading(p) { return /<w:pStyle w:val="3"\/>/.test(p); }
-function isBold(p) {
-  const rpr = p.match(/<w:pPr>[\s\S]*?<\/w:pPr>/);
-  return /<w:b\/>/.test(p) && (p.match(/<w:b\/>/g) || []).length >= 1;
-}
+function isBold(p) { return /<w:b\/>/.test(p); }
 
-// 4) body ni tartib bilan walk qilish
+// body ni tartib bilan walk qilish
 const bodyM = xml.match(/<w:body>([\s\S]*)<\/w:body>/);
 const body = bodyM ? bodyM[1] : xml;
 const blockRe = /<w:tbl>[\s\S]*?<\/w:tbl>|<w:p\b[\s\S]*?<\/w:p>/g;
 
-const chapters = [];
-let cur = { id: 'intro', title: 'Kirish / Umumiy', blocks: [] };
+const rawChapters = [];
+let cur = { id: 'intro', title: 'Kirish va umumiy qoidalar', blocks: [] };
 const usedImages = new Set();
 let headingCount = 0;
-
-function pushChapter() { if (cur.blocks.length) chapters.push(cur); }
+function pushChapter() { if (cur.blocks.length) rawChapters.push(cur); }
 
 for (const bm of body.matchAll(blockRe)) {
   const blk = bm[0];
   if (blk.startsWith('<w:tbl>')) {
-    // jadval: satrlar -> kataklar
     const rows = [];
     for (const tr of blk.matchAll(/<w:tr\b[\s\S]*?<\/w:tr>/g)) {
       const cells = [];
@@ -83,20 +108,43 @@ for (const bm of body.matchAll(blockRe)) {
   } else {
     const text = paraText(blk);
     const imgs = paraImages(blk);
-    if (isHeading(blk) && text) {
-      // yangi bob
-      pushChapter();
-      headingCount++;
-      cur = { id: 'ch' + headingCount, title: text, blocks: [] };
-      continue;
-    }
+    if (isHeading(blk) && text) { pushChapter(); headingCount++; cur = { id: 'ch' + headingCount, title: text, blocks: [] }; continue; }
     if (imgs.length) { for (const im of imgs) { usedImages.add(im); cur.blocks.push({ t: 'img', src: im }); } }
     if (text) cur.blocks.push({ t: isBold(blk) ? 'h' : 'p', text });
   }
 }
 pushChapter();
 
-// 5) rasmlarni edu-assets/ ga ko'chirish
+// ── Bloklarni mavzularga (topics) ajratish: har 'h' yangi mavzu ──
+function toTopics(ch) {
+  const topics = [];
+  let t = null;
+  const start = (title) => { t = { title, blocks: [] }; topics.push(t); };
+  for (const b of ch.blocks) {
+    if (b.t === 'h') { start(b.text); continue; }
+    if (!t) start('Umumiy');
+    t.blocks.push(b);
+  }
+  // bo'sh sarlavhali mavzularni tozalash
+  return topics.filter(x => x.blocks.length || x.title);
+}
+
+const chapters = rawChapters.map(ch => ({ id: ch.id, title: ch.title, topics: toTopics(ch) }));
+
+// ── Transliteratsiya (butun struktura) ──
+function tr(s) { return translit(s); }
+for (const ch of chapters) {
+  ch.title = tr(ch.title);
+  for (const tp of ch.topics) {
+    tp.title = tr(tp.title);
+    for (const b of tp.blocks) {
+      if (b.t === 'p' || b.t === 'h') b.text = tr(b.text);
+      else if (b.t === 'table') b.rows = b.rows.map(r => r.map(tr));
+    }
+  }
+}
+
+// rasmlarni edu-assets/ ga ko'chirish
 const assetDir = path.join(root, 'edu-assets');
 fs.rmSync(assetDir, { recursive: true, force: true });
 fs.mkdirSync(assetDir, { recursive: true });
@@ -106,40 +154,43 @@ for (const im of usedImages) {
   if (fs.existsSync(srcP)) { fs.copyFileSync(srcP, path.join(assetDir, im)); copied++; }
 }
 
-// 6) edu_data.js (EDU_DATA)
+// edu_data.js — subject (Pediatriya) ichida boblar
 const EDU = {
-  title: '420-son buyruq — Milliy klinik protokollar',
-  source: "O'zbekiston Respublikasi Sog'liqni saqlash vazirligi, 420-son buyruq",
-  chapters
+  source: "Oʻzbekiston Respublikasi Sogʻliqni saqlash vazirligi — 420-son buyruq",
+  subjects: [
+    { id: 'pediatrics', name: 'Pediatriya', icon: '🧒', desc: 'Bolalar tibbiyoti — milliy klinik protokollar (420-son buyruq)', chapters }
+  ]
 };
 fs.writeFileSync(path.join(root, 'edu_data.js'),
-  '// MedCore — Ta\'lim bo\'limi ma\'lumotlari (420-son buyruq). Avtomatik generatsiya: tools/build-edu.js\nconst EDU_DATA = ' + JSON.stringify(EDU) + ';\n');
+  '// MedCore — Ta\'lim bo\'limi (420-son buyruq, lotin). Avtomatik: tools/build-edu.js\nconst EDU_DATA = ' + JSON.stringify(EDU) + ';\n');
 
-// 7) bot-data/edu.json — AI/RAG uchun chunklar (har bob matni bo'laklab)
+// bot-data/edu.json — AI/RAG chunklar (mavzu bo'yicha, transliteratsiyalangan)
 const chunks = [];
 for (const ch of chapters) {
-  let buf = '';
-  const flush = () => { if (buf.trim()) { chunks.push({ chapter: ch.title, text: buf.trim() }); buf = ''; } };
-  for (const b of ch.blocks) {
-    let seg = '';
-    if (b.t === 'h' || b.t === 'p') seg = b.text;
-    else if (b.t === 'table') seg = b.rows.map(r => r.join(' | ')).join('\n');
-    if (!seg) continue;
-    if ((buf + '\n' + seg).length > 1500) flush();
-    buf += (buf ? '\n' : '') + seg;
+  for (const tp of ch.topics) {
+    let parts = [];
+    for (const b of tp.blocks) {
+      if (b.t === 'h' || b.t === 'p') parts.push(b.text);
+      else if (b.t === 'table') parts.push(b.rows.map(r => r.join(' | ')).join('\n'));
+    }
+    let full = (tp.title ? tp.title + '\n' : '') + parts.join('\n');
+    full = full.trim();
+    if (!full) continue;
+    // 1500 belgidan uzun bo'lsa bo'laklash
+    while (full.length > 1700) {
+      let cut = full.lastIndexOf('\n', 1700); if (cut < 800) cut = 1700;
+      chunks.push({ subject: 'Pediatriya', chapter: ch.title, topic: tp.title, text: full.slice(0, cut).trim() });
+      full = full.slice(cut).trim();
+    }
+    if (full) chunks.push({ subject: 'Pediatriya', chapter: ch.title, topic: tp.title, text: full });
   }
-  flush();
 }
 const botData = path.join(root, 'bot-data');
 if (fs.existsSync(botData)) fs.writeFileSync(path.join(botData, 'edu.json'), JSON.stringify(chunks));
 
-// 8) hisobot
-const totalBlocks = chapters.reduce((s, c) => s + c.blocks.length, 0);
-const totalText = chapters.reduce((s, c) => s + c.blocks.filter(b => b.t === 'p' || b.t === 'h').length, 0);
-const totalTables = chapters.reduce((s, c) => s + c.blocks.filter(b => b.t === 'table').length, 0);
-console.log('Boblar:', chapters.length);
-console.log('Bloklar jami:', totalBlocks, '| matn paragraf:', totalText, '| jadval:', totalTables);
-console.log('Rasmlar ko\'chirildi:', copied);
-console.log('AI chunklar (edu.json):', chunks.length);
-console.log('edu_data.js hajmi:', (fs.statSync(path.join(root, 'edu_data.js')).size / 1024 / 1024).toFixed(2), 'MB');
+// hisobot
+const totalTopics = chapters.reduce((s, c) => s + c.topics.length, 0);
+console.log('Subjectlar:', EDU.subjects.length, '| Boblar:', chapters.length, '| Mavzular:', totalTopics);
+console.log('Rasmlar koʻchirildi:', copied, '| AI chunklar:', chunks.length);
+console.log('edu_data.js:', (fs.statSync(path.join(root, 'edu_data.js')).size / 1024 / 1024).toFixed(2), 'MB');
 fs.rmSync(tmp, { recursive: true, force: true });
