@@ -56,22 +56,28 @@
     } catch (e) { return false; }
   }
 
-  function renderGate() {
+  function renderGate(tries) {
     stopPoll();
     const t = T();
-    root().innerHTML = `<div class="soc-gate">
+    const wrap = document.querySelector("#page-social .soc-wrap");
+    if (!wrap) return;
+    wrap.innerHTML = `<div class="soc-gate">
       <div class="soc-gate-ic">👥</div>
       <h2>${t.join}</h2>
       <p>${t.joinDesc}</p>
       <div id="socGoogleBtn" class="soc-gbtn"></div>
     </div>`;
-    if (window.google && google.accounts && GID) {
+    tries = tries || 0;
+    if (window.google && google.accounts && google.accounts.id && GID) {
       try {
         google.accounts.id.initialize({ client_id: GID, callback: onGoogleCred });
         google.accounts.id.renderButton($("socGoogleBtn"), { theme: "filled_blue", size: "large", text: "continue_with", shape: "pill", locale: "uz" });
-      } catch (e) { $("socGoogleBtn").innerHTML = `<button class="soc-btn primary" onclick="google.accounts.id.prompt()">${t.loginBtn}</button>`; }
+      } catch (e) { $("socGoogleBtn").innerHTML = `<button class="soc-btn primary" onclick="try{google.accounts.id.prompt()}catch(e){}">${t.loginBtn}</button>`; }
+    } else if (tries < 8) {
+      // Google GSI hali yuklanmagan — biroz kutib qayta urinamiz
+      setTimeout(() => renderGate(tries + 1), 500);
     } else {
-      $("socGoogleBtn").innerHTML = `<p style="color:var(--gray-500);font-size:13px">Google xizmati yuklanmadi.</p>`;
+      $("socGoogleBtn").innerHTML = `<p style="color:var(--gray-500);font-size:13px">Google xizmati yuklanmadi. Sahifani yangilang.</p>`;
     }
   }
 
