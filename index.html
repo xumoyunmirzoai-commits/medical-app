@@ -33,6 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="social.css" />
 
   <!-- ══════════════════════════════════════════════════════════
        Telegram Mini App integratsiyasi
@@ -97,6 +98,8 @@
     const PUSH_API = "https://medcore-push.xumoyunmirzoai.workers.dev";
     // AI Yordamchi (Workers AI) endpointi
     const AI_API = "https://medcore-ai.xumoyunmirzoai.workers.dev";
+    // Jamiyat (Social) backend endpointi
+    const SOCIAL_API = "https://medcore-social.xumoyunmirzoai.workers.dev";
   </script>
 
   <!-- Bildirishnoma markazi (qo'ng'iroqcha) uslublari -->
@@ -209,6 +212,11 @@
     <a href="#" class="nav-item" data-page="ai" data-tooltip="AI Yordamchi">
       <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></span>
       <span data-i18n="nav_ai">AI Yordamchi</span>
+      <span class="nav-badge new" data-i18n="nav_new">Yangi</span>
+    </a>
+    <a href="#" class="nav-item" data-page="social" data-tooltip="Jamiyat">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+      <span data-i18n="nav_social">Jamiyat</span>
       <span class="nav-badge new" data-i18n="nav_new">Yangi</span>
     </a>
     <a href="#" class="nav-item" data-page="calculators" data-tooltip="Kalkulyatorlar">
@@ -537,6 +545,13 @@
       </div>
     </section>
 
+    <!-- JAMIYAT -->
+    <section class="page" id="page-social">
+      <div class="soc-wrap">
+        <div class="soc-load">⏳</div>
+      </div>
+    </section>
+
     <!-- TA'LIM -->
     <section class="page" id="page-edu">
       <div class="edu-top">
@@ -790,6 +805,14 @@
 <script src="auth.js"></script>
 <script src="app.js"></script>
 <script src="edu.js"></script>
+<script src="social.js"></script>
+<script>
+  // Jamiyat: nav bosilganda lazy init
+  document.addEventListener("DOMContentLoaded", function () {
+    var nav = document.querySelector('.nav-item[data-page="social"]');
+    if (nav) nav.addEventListener("click", function () { setTimeout(function () { if (typeof socialInit === "function") socialInit(); }, 30); });
+  });
+</script>
 
 <!-- ═══════════ AI YORDAMCHI (Chat) ═══════════ -->
 <script>

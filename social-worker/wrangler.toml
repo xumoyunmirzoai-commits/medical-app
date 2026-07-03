@@ -1,0 +1,16 @@
+name = "medcore-social"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "medcore-social"
+database_id = "43783084-fdb6-464e-a394-83a2575d9423"
+
+[vars]
+GOOGLE_CLIENT_ID = "940738533350-52qg92i39i9q71vfnkmrkk4k3tsto9v7.apps.googleusercontent.com"
+ALLOWED_ORIGINS = "https://xumoyunmirzoai-commits.github.io,http://localhost:8777,http://127.0.0.1:8777"
+
+# Maxfiy (alohida o'rnatiladi):
+#   npx wrangler secret put SESSION_SECRET
+#   npx wrangler secret put BOT_TOKEN

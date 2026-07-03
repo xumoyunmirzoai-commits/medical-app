@@ -19,3 +19,5 @@ telegram-bot/user_lang.json
 telegram-bot/node_modules/
 
 ai-worker/.wrangler/
+
+social-worker/.wrangler/
