@@ -131,6 +131,17 @@ function toTopics(ch) {
 
 const chapters = rawChapters.map(ch => ({ id: ch.id, title: ch.title, topics: toTopics(ch) }));
 
+// ── Buyruq muqaddimasini olib tashlash (vazir/BUYURAMAN/QO'LLANMA) ──
+// 1-bobni "1-BO'LIM ..." mavzusidan boshlaymiz; undan oldingi rasmiy qism tashlanadi.
+if (chapters[0] && chapters[0].topics.length) {
+  const reStart = /^\s*1\s*[-–.]?\s*(Б[ЎУ]ЛИМ|BO[ʻ'’]?LIM)/i;
+  const idx = chapters[0].topics.findIndex(tp => reStart.test(tp.title || ''));
+  if (idx > 0) {
+    chapters[0].topics = chapters[0].topics.slice(idx);
+    console.log('Muqaddima olib tashlandi: 1-bobda', idx, 'ta mavzu (buyruq/vazir qismi).');
+  }
+}
+
 // ── Transliteratsiya (butun struktura) ──
 function tr(s) { return translit(s); }
 for (const ch of chapters) {
