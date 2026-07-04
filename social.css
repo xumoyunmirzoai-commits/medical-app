@@ -95,3 +95,17 @@
 .soc-chat-bar input:focus { border-color:var(--red-500); }
 .soc-chat-bar .soc-btn { border-radius:50%; width:44px; height:44px; padding:0; }
 @media (max-width:640px){ .soc-grid,#socFeedList{ grid-template-columns:1fr 1fr; gap:10px; } .soc-card-title{ font-size:12.5px; } .soc-tab{ font-size:12px; padding:8px 6px; } .soc-profile{ flex-direction:column; text-align:center; } .soc-profile-btns{ justify-content:center; } }
+
+/* ── Dashboard Jamiyat banneri (yaqqol) ── */
+.social-banner { display:flex; align-items:center; justify-content:space-between; gap:16px; margin:18px 0; padding:18px 22px; border-radius:18px; cursor:pointer; color:#fff; background:linear-gradient(120deg,#7c3aed 0%,#e11d3c 60%,#bd1236 100%); box-shadow:0 10px 30px rgba(124,58,237,.28); position:relative; overflow:hidden; transition:transform .18s, box-shadow .18s; }
+.social-banner:hover { transform:translateY(-2px); box-shadow:0 16px 40px rgba(124,58,237,.36); }
+.social-banner::after { content:""; position:absolute; right:-40px; top:-40px; width:180px; height:180px; background:radial-gradient(circle,rgba(255,255,255,.18),transparent 70%); }
+.sb-left { display:flex; align-items:center; gap:16px; min-width:0; z-index:1; }
+.sb-badge { position:absolute; top:12px; left:22px; background:rgba(255,255,255,.22); backdrop-filter:blur(4px); font-size:10px; font-weight:800; padding:3px 9px; border-radius:20px; letter-spacing:.5px; }
+.sb-icon { width:56px; height:56px; flex-shrink:0; border-radius:16px; background:rgba(255,255,255,.18); display:flex; align-items:center; justify-content:center; margin-top:6px; }
+.sb-text { min-width:0; margin-top:6px; }
+.sb-title { font-size:18px; font-weight:800; line-height:1.25; }
+.sb-sub { font-size:13px; opacity:.92; line-height:1.5; margin-top:4px; }
+.sb-btn { flex-shrink:0; z-index:1; background:#fff; color:var(--red-700); border:none; border-radius:12px; padding:12px 22px; font-size:14px; font-weight:800; cursor:pointer; transition:transform .15s; }
+.sb-btn:hover { transform:scale(1.05); }
+@media (max-width:720px){ .social-banner{ flex-direction:column; align-items:flex-start; padding:20px 18px 18px; } .sb-badge{ position:static; margin-bottom:6px; } .sb-icon{ margin-top:0; } .sb-btn{ width:100%; } }

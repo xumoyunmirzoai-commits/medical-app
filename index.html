@@ -373,6 +373,19 @@
         </div>
       </div>
 
+      <!-- JAMIYAT banneri (yaqqol) -->
+      <div class="social-banner" onclick="dashOpenSocial()">
+        <div class="sb-left">
+          <div class="sb-badge" data-i18n="nav_new">Yangi</div>
+          <div class="sb-icon"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div class="sb-text">
+            <div class="sb-title" data-i18n="social_banner_title">MedCore Jamiyat — kasblar tarmog'i</div>
+            <div class="sb-sub" data-i18n="social_banner_sub">Kanal oching, video darslar ulashing, like va izoh qoldiring, hamkasblar bilan chatlashing.</div>
+          </div>
+        </div>
+        <button class="sb-btn" data-i18n="social_banner_btn">Kirish →</button>
+      </div>
+
       <div class="dash-grid">
         <div class="dash-card modules-card">
           <div class="card-header"><span class="card-title" data-i18n="modules_title">Bo'limlar</span></div>
@@ -812,6 +825,10 @@
     var nav = document.querySelector('.nav-item[data-page="social"]');
     if (nav) nav.addEventListener("click", function () { setTimeout(function () { if (typeof socialInit === "function") socialInit(); }, 30); });
   });
+  window.dashOpenSocial = function () {
+    if (typeof navigateTo === "function") navigateTo("social");
+    setTimeout(function () { if (typeof socialInit === "function") socialInit(); }, 30);
+  };
 </script>
 
 <!-- ═══════════ AI YORDAMCHI (Chat) ═══════════ -->
