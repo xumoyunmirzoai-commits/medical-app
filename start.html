@@ -1,10 +1,11 @@
-﻿<!DOCTYPE html><html><head><meta charset="UTF-8"/></head><body>
+<!DOCTYPE html><html><head><meta charset="UTF-8"/><title>MedCore</title></head><body>
 <script>
-localStorage.setItem('mc_auth_user', JSON.stringify({
-  id:'demo', name:'Dr. Demo Foydalanuvchi', email:'demo@medcore.uz',
-  picture:null, given_name:'Demo', loginType:'demo',
-  loginAt:new Date().toISOString()
-}));
-sessionStorage.setItem('mc_auth_session','active');
-window.location.href = 'index.html?page=drugs';
-</script></body></html>
+// Demo rejimi olib tashlandi — faqat Google akkaunt orqali kirish.
+// Mavjud sessiya bo'lsa ilovaga, aks holda login sahifasiga yo'naltiramiz.
+(function(){
+  var hasSession = false;
+  try { hasSession = !!localStorage.getItem('mc_auth_user'); } catch(e) {}
+  window.location.replace(hasSession ? 'index.html' : 'login.html');
+})();
+</script>
+</body></html>

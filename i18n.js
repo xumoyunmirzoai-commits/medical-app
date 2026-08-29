@@ -25,10 +25,18 @@ const TRANSLATIONS = {
     nav_drugs:        "Dorilar",
     nav_diseases:     "Kasalliklar",
     nav_lab:          "Laboratoriya",
+    nav_edu:          "Ta'lim",
+    nav_ai:           "AI Yordamchi",
+    nav_social:       "Jamiyat",
+    social_banner_title: "MedCore Jamiyat — kasblar tarmog'i",
+    social_banner_sub:   "Kanal oching, video darslar ulashing, like va izoh qoldiring, hamkasblar bilan chatlashing.",
+    social_banner_btn:   "Kirish →",
     nav_calculators:  "Kalkulyatorlar",
     nav_interactions: "O'zaro Ta'sir",
     nav_favorites:    "Sevimlilar",
     nav_soon:         "Tez",
+    nav_new:          "Yangi",
+    tg_title:         "Telegram kanal",
 
     // Topbar
     search_placeholder: "Dori, kasallik, belgi qidiring...",
@@ -121,6 +129,9 @@ const TRANSLATIONS = {
 
     // Laboratoriya
     lab_title: "Laboratoriya Normalari",
+    lab_sub: "Tahlil ko'rsatkichlari, normalar va talqin — 3 tilda",
+    lab_search_ph: "Ko'rsatkich qidirish (HGB, ferritin, TSH...)",
+    lab_disclaimer: "⚕️ Ma'lumotlar faqat ta'lim maqsadida. Yakuniy tashxis va davoni shifokor belgilaydi.",
     lab_desc:  "Qon va siydik tahlili normalari, interpretatsiya qo'llanmasi tez orada.",
     lab_f1: "✓ Klinik qon tahlili",
     lab_f2: "✓ Biokimyoviy ko'rsatkichlar",
@@ -160,6 +171,25 @@ const TRANSLATIONS = {
     login_with:     "bilan rozisiz.",
     login_welcome:  "Tibbiyot Ma'lumotlar Platformasiga Xush Kelibsiz",
     login_sub:      "Dorilar, kasalliklar va klinik asboblar — tibbiyot talabalari va shifokorlar uchun.",
+
+    // Farmakologiya bo'limi
+    pharma_nodata:       "Ushbu preparat uchun farmakologiya ma'lumotlari hozircha mavjud emas.",
+    pharma_noload:       "Ma'lumot yuklanmadi.",
+    pharma_dinamika:     "Farmakodinamika",
+    pharma_kinetika:     "Farmakokinetika",
+    pharma_sorish:       "📥 So'rilish",
+    pharma_tarqalish:    "🌐 Tarqalish",
+    pharma_metabolizm:   "🔄 Metabolizm",
+    pharma_chiqarilish:  "💧 Chiqarilish",
+    pharma_korsatma:     "Ko'rsatmalar (Indikatsiyalar)",
+    pharma_qarrshi:      "Qarshi ko'rsatmalar",
+    pharma_nojoya:       "Nojo'ya ta'sirlar",
+    pharma_qollash:      "Qo'llash usuli va dozalash",
+    pharma_kattalar:     "👤 Kattalar",
+    pharma_bolalar:      "👶 Bolalar",
+    pharma_ozaro:        "Dori-dori o'zaro ta'siri",
+    pharma_dozadan:      "Dozadan oshib ketish",
+    pharma_chiqarish:    "Chiqarish shakli",
   },
 
   // ══════════════════════════════
@@ -176,10 +206,18 @@ const TRANSLATIONS = {
     nav_drugs:        "Препараты",
     nav_diseases:     "Заболевания",
     nav_lab:          "Лаборатория",
+    nav_edu:          "Обучение",
+    nav_ai:           "AI Помощник",
+    nav_social:       "Сообщество",
+    social_banner_title: "MedCore Сообщество — профессиональная сеть",
+    social_banner_sub:   "Создайте канал, делитесь видеоуроками, ставьте лайки и комментарии, общайтесь с коллегами.",
+    social_banner_btn:   "Войти →",
     nav_calculators:  "Калькуляторы",
     nav_interactions: "Взаимодействия",
     nav_favorites:    "Избранное",
     nav_soon:         "Скор.",
+    nav_new:          "Новое",
+    tg_title:         "Telegram канал",
 
     search_placeholder: "Препарат, заболевание, симптом...",
     search_kbd:         "Ctrl K",
@@ -263,6 +301,9 @@ const TRANSLATIONS = {
     diseases_f4: "✓ Дифференциальная диагностика",
 
     lab_title: "Нормы лабораторных показателей",
+    lab_sub: "Показатели анализов, нормы и интерпретация — на 3 языках",
+    lab_search_ph: "Поиск показателя (HGB, ферритин, ТТГ...)",
+    lab_disclaimer: "⚕️ Информация только для образовательных целей. Окончательный диагноз и лечение определяет врач.",
     lab_desc:  "Нормы анализов крови и мочи, руководство по интерпретации — скоро.",
     lab_f1: "✓ Общий анализ крови",
     lab_f2: "✓ Биохимические показатели",
@@ -298,6 +339,25 @@ const TRANSLATIONS = {
     login_with:     ".",
     login_welcome:  "Добро пожаловать на Медицинскую Платформу",
     login_sub:      "Препараты, заболевания и клинические инструменты — для студентов и врачей.",
+
+    // Фармакология
+    pharma_nodata:       "Фармакологические данные по этому препарату пока недоступны.",
+    pharma_noload:       "Данные не загружены.",
+    pharma_dinamika:     "Фармакодинамика",
+    pharma_kinetika:     "Фармакокинетика",
+    pharma_sorish:       "📥 Всасывание",
+    pharma_tarqalish:    "🌐 Распределение",
+    pharma_metabolizm:   "🔄 Метаболизм",
+    pharma_chiqarilish:  "💧 Выведение",
+    pharma_korsatma:     "Показания к применению",
+    pharma_qarrshi:      "Противопоказания",
+    pharma_nojoya:       "Побочные эффекты",
+    pharma_qollash:      "Способ применения и дозировка",
+    pharma_kattalar:     "👤 Взрослые",
+    pharma_bolalar:      "👶 Дети",
+    pharma_ozaro:        "Взаимодействие препаратов",
+    pharma_dozadan:      "Передозировка",
+    pharma_chiqarish:    "Форма выпуска",
   },
 
   // ══════════════════════════════
@@ -314,10 +374,18 @@ const TRANSLATIONS = {
     nav_drugs:        "Medications",
     nav_diseases:     "Diseases",
     nav_lab:          "Laboratory",
+    nav_edu:          "Education",
+    nav_ai:           "AI Assistant",
+    nav_social:       "Community",
+    social_banner_title: "MedCore Community — professional network",
+    social_banner_sub:   "Open a channel, share video lessons, like and comment, chat with colleagues.",
+    social_banner_btn:   "Enter →",
     nav_calculators:  "Calculators",
     nav_interactions: "Drug Interactions",
     nav_favorites:    "Favorites",
     nav_soon:         "Soon",
+    nav_new:          "New",
+    tg_title:         "Telegram channel",
 
     search_placeholder: "Search drug, disease, symptom...",
     search_kbd:         "Ctrl K",
@@ -401,6 +469,9 @@ const TRANSLATIONS = {
     diseases_f4: "✓ Differential diagnosis",
 
     lab_title: "Laboratory Reference Values",
+    lab_sub: "Test parameters, reference ranges and interpretation — in 3 languages",
+    lab_search_ph: "Search a parameter (HGB, ferritin, TSH...)",
+    lab_disclaimer: "⚕️ For educational purposes only. Final diagnosis and treatment are determined by a physician.",
     lab_desc:  "Blood and urine test reference ranges and interpretation guide coming soon.",
     lab_f1: "✓ Complete blood count",
     lab_f2: "✓ Biochemical markers",
@@ -436,6 +507,25 @@ const TRANSLATIONS = {
     login_with:     ".",
     login_welcome:  "Welcome to Medical Information Platform",
     login_sub:      "Medications, diseases, and clinical tools — for medical students and physicians.",
+
+    // Pharmacology
+    pharma_nodata:       "Pharmacological data for this drug is not yet available.",
+    pharma_noload:       "Data not loaded.",
+    pharma_dinamika:     "Pharmacodynamics",
+    pharma_kinetika:     "Pharmacokinetics",
+    pharma_sorish:       "📥 Absorption",
+    pharma_tarqalish:    "🌐 Distribution",
+    pharma_metabolizm:   "🔄 Metabolism",
+    pharma_chiqarilish:  "💧 Elimination",
+    pharma_korsatma:     "Indications",
+    pharma_qarrshi:      "Contraindications",
+    pharma_nojoya:       "Adverse Effects",
+    pharma_qollash:      "Dosage & Administration",
+    pharma_kattalar:     "👤 Adults",
+    pharma_bolalar:      "👶 Children",
+    pharma_ozaro:        "Drug Interactions",
+    pharma_dozadan:      "Overdose",
+    pharma_chiqarish:    "Dosage Forms",
   }
 };
 
@@ -631,6 +721,18 @@ function setLanguage(lang) {
   document.querySelectorAll(".lang-btn").forEach(b => {
     b.classList.toggle("active", b.dataset.lang === lang);
   });
+
+  // Modal ochiq bo'lsa pharma tabni qayta render qil
+  const pharmaTab = document.getElementById("mpharma");
+  if (pharmaTab && typeof currentDrug !== "undefined" && currentDrug) {
+    pharmaTab.innerHTML = renderPharmaTab(currentDrug);
+  }
+
+  // Laboratoriya sahifasi ochiq bo'lsa — yangi tilda qayta render qil
+  const labPage = document.getElementById("page-lab");
+  if (labPage && labPage.classList.contains("active") && typeof renderLabPage === "function") {
+    renderLabPage();
+  }
 }
 
 // data-i18n atributlari orqali tarjima qo'llash

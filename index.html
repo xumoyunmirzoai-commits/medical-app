@@ -1,14 +1,162 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
+    <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4GKNRFN94"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-R4GKNRFN94');
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MedCore — Tibbiyot Platformasi</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#e11d3c" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="MedCore" />
+  <meta name="application-name" content="MedCore" />
+  <meta name="msapplication-TileColor" content="#e11d3c" />
+  <meta name="msapplication-TileImage" content="icons/icon-144x144.png" />
+
+  <!-- Favicon & Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/icon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="icons/icon-192x192.png" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="social.css" />
+  <link rel="stylesheet" href="glass.css" />
+
+  <!-- ══════════════════════════════════════════════════════════
+       Telegram Mini App integratsiyasi
+       Ilova Telegram bot ichida ochilganda: avtomatik kirish
+       (Google Sign-In siz), til va mavzuni moslashtirish.
+       i18n.js dan OLDIN turishi shart — til shu yerda o'rnatiladi.
+       ══════════════════════════════════════════════════════════ -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script>
+    (function () {
+      var tg = window.Telegram && window.Telegram.WebApp;
+      if (!tg || !tg.initData) return;            // Telegram ichida emas — odatiy web rejim
+      try {
+        tg.ready();
+        tg.expand();
+        document.documentElement.classList.add('tg-webapp');
+
+        var u = (tg.initDataUnsafe && tg.initDataUnsafe.user) || null;
+
+        // Telegram tilini birinchi marta qo'llash (foydalanuvchi tanlovini buzmaydi)
+        if (!localStorage.getItem('mc_lang') && u && u.language_code) {
+          var lc = String(u.language_code).slice(0, 2);
+          localStorage.setItem('mc_lang', (lc === 'ru' || lc === 'en') ? lc : 'uz');
+        }
+
+        // Telegram foydalanuvchisini avtomatik autentifikatsiya qilish
+        // (Google Sign-In Telegram ichki brauzerida ishonchsiz)
+        if (u) {
+          var fullName = [u.first_name, u.last_name].filter(Boolean).join(' ')
+                       || (u.username ? '@' + u.username : 'Telegram foydalanuvchi');
+          localStorage.setItem('mc_auth_user', JSON.stringify({
+            name: fullName,
+            given_name: u.first_name || fullName,
+            email: 'tg' + u.id + '@telegram.local',  // soxta identifikator (Google emas)
+            picture: u.photo_url || '',
+            source: 'telegram',
+            tg_id: u.id
+          }));
+        }
+
+        // Telegram interfeysi ranglarini brend rangiga moslashtirish
+        try { tg.setHeaderColor('#e11d3c'); tg.setBackgroundColor('#ffffff'); } catch (e) {}
+      } catch (e) { /* integratsiya xatosi ilovani buzmasin */ }
+    })();
+  </script>
+  <style>
+    /* Telegram ichida: Google bilan bog'liq "Chiqish" boshi berk ko'cha — yashiramiz */
+    .tg-webapp .udropdown-item.danger { display: none !important; }
+  </style>
+
   <script src="i18n.js"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  <!-- ══════════════════════════════════════════════════════════
+       Web Push (VAPID) — o'zimizning push tizimi, OneSignalsiz
+       Maxfiy kalit hech qachon bu yerda emas — faqat GitHub Secrets'da
+       ══════════════════════════════════════════════════════════ -->
+  <script>
+    // VAPID ochiq kalit (push obunasi uchun)
+    const VAPID_PUBLIC_KEY = "BJGIrkQeyTx2miUTO67BHbnUgS4v6wyOg6Gkmf8O_OyTF_o3o4iMEHR1syvfduGQo6vKxr8BemN1YndGAn5En5I";
+    // Obunalarni saqlovchi endpoint (Cloudflare Worker). Deploy qilgach to'ldiriladi.
+    const PUSH_API = "https://medcore-push.xumoyunmirzoai.workers.dev";
+    // AI Yordamchi (Workers AI) endpointi
+    const AI_API = "https://medcore-ai.xumoyunmirzoai.workers.dev";
+    // Jamiyat (Social) backend endpointi
+    const SOCIAL_API = "https://medcore-social.xumoyunmirzoai.workers.dev";
+  </script>
+
+  <!-- Bildirishnoma markazi (qo'ng'iroqcha) uslublari -->
+  <style>
+    .notif-bell-btn { position: relative; }
+    .notif-count {
+      position: absolute; top: -4px; right: -4px;
+      min-width: 16px; height: 16px; padding: 0 4px;
+      background: #e11d3c; color: #fff; border-radius: 9px;
+      font-size: 10px; font-weight: 800; line-height: 1;
+      align-items: center; justify-content: center;
+      display: none; box-shadow: 0 0 0 2px #fff;
+    }
+    .notif-center {
+      position: fixed; top: 64px; right: 16px; z-index: 3500;
+      width: 360px; max-width: calc(100vw - 24px); max-height: 70vh;
+      background: #fff; border: 1px solid #eef0f3; border-radius: 16px;
+      box-shadow: 0 16px 48px rgba(0,0,0,.16), 0 2px 8px rgba(0,0,0,.06);
+      display: flex; flex-direction: column; overflow: hidden;
+      transform: translateY(-8px) scale(.98); opacity: 0; pointer-events: none;
+      transition: all .2s cubic-bezier(.34,1.4,.64,1);
+    }
+    .notif-center.open { transform: none; opacity: 1; pointer-events: auto; }
+    .nc-head {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 16px; border-bottom: 1px solid #f1f2f4; flex-shrink: 0;
+    }
+    .nc-title { font-weight: 800; font-size: 15px; color: #111; }
+    .nc-toggle {
+      border: 1px solid #e5e7eb; background: #fff; color: #6b7280;
+      border-radius: 9px; padding: 6px 12px; font-size: 12px; font-weight: 700;
+      cursor: pointer; transition: all .15s;
+    }
+    .nc-toggle.on { background: #ecfdf5; border-color: #a7f3d0; color: #059669; }
+    .nc-list { overflow-y: auto; flex: 1; }
+    .nc-item {
+      display: flex; gap: 12px; padding: 13px 16px;
+      border-bottom: 1px solid #f6f7f8; transition: background .15s;
+    }
+    .nc-item:hover { background: #fafbfc; }
+    .nc-item.unread { background: #fef2f4; }
+    .nc-item.unread:hover { background: #fde8ec; }
+    .nc-item-icon {
+      width: 38px; height: 38px; flex-shrink: 0; border-radius: 11px;
+      background: linear-gradient(135deg,#fde3e8,#fff0f2);
+      display: flex; align-items: center; justify-content: center; font-size: 18px;
+    }
+    .nc-item-body { flex: 1; min-width: 0; }
+    .nc-item-title { font-weight: 700; font-size: 13.5px; color: #111; margin-bottom: 2px; }
+    .nc-item-text { font-size: 12.5px; color: #6b7280; line-height: 1.45; }
+    .nc-item-time { font-size: 11px; color: #9ca3af; margin-top: 5px; }
+    .nc-empty { padding: 40px 20px; text-align: center; color: #9ca3af; font-size: 13.5px; }
+    @media (max-width: 480px) {
+      .notif-center { top: 60px; right: 8px; left: 8px; width: auto; max-width: none; }
+    }
+  </style>
 </head>
 <body>
 
@@ -19,7 +167,7 @@
     <div class="brand-logo">
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
         <rect width="28" height="28" rx="8" fill="white"/>
-        <path d="M14 6v16M6 14h20" stroke="#e11d48" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M14 6v16M6 14h20" stroke="#e11d3c" stroke-width="3.5" stroke-linecap="round"/>
       </svg>
     </div>
     <div class="brand-text">
@@ -51,12 +199,27 @@
     <a href="#" class="nav-item" data-page="lab" data-tooltip="Laboratoriya">
       <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5c-1.4 0-2.5-1.1-2.5-2.5V2"/><path d="M8.5 2h7"/><path d="M14.5 16h-5"/></svg></span>
       <span data-i18n="nav_lab">Laboratoriya</span>
-      <span class="nav-badge soon" data-i18n="nav_soon">Tez</span>
+      <span class="nav-badge new" data-i18n="nav_new">Yangi</span>
+    </a>
+    <a href="#" class="nav-item" data-page="edu" data-tooltip="Ta'lim">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+      <span data-i18n="nav_edu">Ta'lim</span>
+      <span class="nav-badge new" data-i18n="nav_new">Yangi</span>
     </a>
   </nav>
 
   <div class="sidebar-section-label" data-i18n="nav_section_tools">Asboblar</div>
   <nav class="sidebar-nav">
+    <a href="#" class="nav-item" data-page="ai" data-tooltip="AI Yordamchi">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></span>
+      <span data-i18n="nav_ai">AI Yordamchi</span>
+      <span class="nav-badge new" data-i18n="nav_new">Yangi</span>
+    </a>
+    <a href="#" class="nav-item" data-page="social" data-tooltip="Jamiyat">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+      <span data-i18n="nav_social">Jamiyat</span>
+      <span class="nav-badge new" data-i18n="nav_new">Yangi</span>
+    </a>
     <a href="#" class="nav-item" data-page="calculators" data-tooltip="Kalkulyatorlar">
       <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="16" y2="14"/><line x1="8" y1="18" x2="10" y2="18"/><line x1="14" y1="18" x2="16" y2="18"/></svg></span>
       <span data-i18n="nav_calculators">Kalkulyatorlar</span>
@@ -72,6 +235,24 @@
       <span class="nav-badge fav-count" id="navFavCount" style="display:none">0</span>
     </a>
   </nav>
+
+  <!-- Telegram kanal havolasi -->
+  <a class="sidebar-telegram" href="https://t.me/MedCore_Tibbiyot_Platformasi" target="_blank" rel="noopener" title="Telegram kanalimiz">
+    <span class="tg-icon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+    </span>
+    <span class="tg-text">
+      <span class="tg-title" data-i18n="tg_title">Telegram kanal</span>
+      <span class="tg-handle">@MedCore_Tibbiyot_Platformasi</span>
+    </span>
+  </a>
+
+  <!-- Til tanlash (faqat mobil — topbardagi yashiringani uchun) -->
+  <div class="sidebar-lang">
+    <button class="lang-btn active" data-lang="uz" onclick="setLanguage('uz')">UZ</button>
+    <button class="lang-btn" data-lang="ru" onclick="setLanguage('ru')">RU</button>
+    <button class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
+  </div>
 
   <div class="sidebar-user">
     <div class="user-avatar">KTS</div>
@@ -125,10 +306,19 @@
         <button class="lang-btn" data-lang="en"  onclick="setLanguage('en')">EN</button>
       </div>
 
+      <!-- PWA O'rnatish tugmasi -->
+      <button id="pwaInstallBtn" class="action-btn pwa-install-btn" onclick="installPWA()" title="Ilovani o'rnatish" style="display:none;gap:6px;padding:8px 16px;border-radius:12px;background:linear-gradient(135deg,#d41a36,#9a1126);color:#fff;font-size:12.5px;font-weight:700;border:none;cursor:pointer;align-items:center;">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        O'rnatish
+      </button>
       <div class="topbar-divider"></div>
-      <button class="action-btn" title="Bildirishnomalar">
+      <a class="action-btn tg-btn" href="https://t.me/MedCore_Tibbiyot_Platformasi" target="_blank" rel="noopener" title="Telegram kanalimiz">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+      </a>
+      <button class="action-btn notif-bell-btn" id="notifBellBtn" title="Bildirishnomalar" onclick="toggleNotifCenter(event)">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
-        <span class="notif-dot"></span>
+        <span class="notif-dot" id="notifDot"></span>
+        <span class="notif-count" id="notifCount" style="display:none"></span>
       </button>
       <div class="topbar-divider"></div>
 
@@ -184,27 +374,17 @@
         </div>
       </div>
 
-      <div class="stats-row">
-        <div class="stat-tile t-red">
-          <div class="stat-tile-icon red"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v3"/><circle cx="18" cy="18" r="3"/><path d="m22 22-1.5-1.5"/></svg></div>
-          <div class="stat-tile-data"><span class="stat-val" id="statDrugs">8649</span><span class="stat-lbl" data-i18n="stat_drugs">Dorilar</span></div>
-          <span class="stat-trend up" data-i18n="stat_uzb">O'zbekiston</span>
+      <!-- JAMIYAT banneri (yaqqol) -->
+      <div class="social-banner" onclick="dashOpenSocial()">
+        <div class="sb-left">
+          <div class="sb-badge" data-i18n="nav_new">Yangi</div>
+          <div class="sb-icon"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div class="sb-text">
+            <div class="sb-title" data-i18n="social_banner_title">MedCore Jamiyat — kasblar tarmog'i</div>
+            <div class="sb-sub" data-i18n="social_banner_sub">Kanal oching, video darslar ulashing, like va izoh qoldiring, hamkasblar bilan chatlashing.</div>
+          </div>
         </div>
-        <div class="stat-tile t-rose">
-          <div class="stat-tile-icon rose"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
-          <div class="stat-tile-data"><span class="stat-val">14</span><span class="stat-lbl" data-i18n="stat_groups">Farmakol. guruhlar</span></div>
-          <span class="stat-trend" data-i18n="stat_atx">ATX bo'yicha</span>
-        </div>
-        <div class="stat-tile t-amber">
-          <div class="stat-tile-icon amber"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
-          <div class="stat-tile-data"><span class="stat-val">6</span><span class="stat-lbl" data-i18n="stat_interact">O'zaro ta'sirlar</span></div>
-          <span class="stat-trend warn" data-i18n="stat_warning">Diqqat!</span>
-        </div>
-        <div class="stat-tile t-purple">
-          <div class="stat-tile-icon purple"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
-          <div class="stat-tile-data"><span class="stat-val" id="statFavs">0</span><span class="stat-lbl" data-i18n="stat_favs">Sevimlilar</span></div>
-          <span class="stat-trend" id="statFavTrend" data-i18n="stat_no_favs">Hali yo'q</span>
-        </div>
+        <button class="sb-btn" data-i18n="social_banner_btn">Kirish →</button>
       </div>
 
       <div class="dash-grid">
@@ -212,15 +392,17 @@
           <div class="card-header"><span class="card-title" data-i18n="modules_title">Bo'limlar</span></div>
           <div class="modules-grid">
             <div class="module-item" onclick="navigateTo('drugs')">
-              <div class="module-icon" style="background:#fff1f2;color:#e11d48"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v3"/><circle cx="18" cy="18" r="3"/><path d="m22 22-1.5-1.5"/></svg></div>
+              <div class="module-icon" style="background:#fdebee;color:#e11d3c"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v3"/><circle cx="18" cy="18" r="3"/><path d="m22 22-1.5-1.5"/></svg></div>
               <span class="module-name" data-i18n="nav_drugs">Dorilar</span>
               <span class="module-count" id="modDrugsCount">8649 ta</span>
             </div>
-            <div class="module-item coming"><div class="module-icon" style="background:#f0fdf4;color:#16a34a"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><span class="module-name" data-i18n="nav_diseases">Kasalliklar</span><span class="module-count soon-tag" data-i18n="soon_label">Tez kunda</span></div>
-            <div class="module-item coming"><div class="module-icon" style="background:#fefce8;color:#ca8a04"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5c-1.4 0-2.5-1.1-2.5-2.5V2"/><path d="M8.5 2h7"/></svg></div><span class="module-name" data-i18n="nav_lab">Laboratoriya</span><span class="module-count soon-tag" data-i18n="soon_label">Tez kunda</span></div>
-            <div class="module-item coming"><div class="module-icon" style="background:#fdf4ff;color:#9333ea"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/></svg></div><span class="module-name" data-i18n="nav_calculators">Kalkulyatorlar</span><span class="module-count soon-tag" data-i18n="soon_label">Tez kunda</span></div>
-            <div class="module-item coming"><div class="module-icon" style="background:#fff1f2;color:#e11d48"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><span class="module-name">Protokollar</span><span class="module-count soon-tag" data-i18n="soon_label">Tez kunda</span></div>
-            <div class="module-item" onclick="navigateTo('interactions')"><div class="module-icon" style="background:#fff7ed;color:#ea580c"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><span class="module-name" data-i18n="nav_interactions">O'zaro Ta'sir</span><span class="module-count">6 ta</span></div>
+            <div class="module-item coming"><div class="module-icon" style="background:#e6f4ec;color:#16834a"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><span class="module-name" data-i18n="nav_diseases">Kasalliklar</span><span class="module-count soon-tag" data-i18n="soon_label">Tez kunda</span></div>
+            <div class="module-item" onclick="navigateTo('lab')"><div class="module-icon" style="background:#fbf2df;color:#bd7a13"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5c-1.4 0-2.5-1.1-2.5-2.5V2"/><path d="M8.5 2h7"/></svg></div><span class="module-name" data-i18n="nav_lab">Laboratoriya</span><span class="module-count new-tag" data-i18n="nav_new">Yangi</span></div>
+            <div class="module-item coming"><div class="module-icon" style="background:#f1eafe;color:#7c3aed"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/></svg></div><span class="module-name" data-i18n="nav_calculators">Kalkulyatorlar</span><span class="module-count soon-tag" data-i18n="soon_label">Tez kunda</span></div>
+            <div class="module-item coming"><div class="module-icon" style="background:#eaf1fe;color:#2563eb"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><span class="module-name">Protokollar</span><span class="module-count soon-tag" data-i18n="soon_label">Tez kunda</span></div>
+            <div class="module-item" onclick="navigateTo('interactions')"><div class="module-icon" style="background:#e4f5f3;color:#0d9488"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><span class="module-name" data-i18n="nav_interactions">O'zaro Ta'sir</span><span class="module-count">6 ta</span></div>
+            <div class="module-item" onclick="navigateTo('edu');if(typeof eduInit==='function')eduInit()"><div class="module-icon" style="background:#eaf1fe;color:#2563eb"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div><span class="module-name" data-i18n="nav_edu">Ta'lim</span><span class="module-count new-tag" data-i18n="nav_new">Yangi</span></div>
+            <div class="module-item" onclick="navigateTo('ai')"><div class="module-icon" style="background:#fdebee;color:#e11d3c"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></div><span class="module-name" data-i18n="nav_ai">AI Yordamchi</span><span class="module-count new-tag" data-i18n="nav_new">Yangi</span></div>
           </div>
         </div>
         <div class="dash-right-col">
@@ -313,17 +495,20 @@
 
     <!-- LABORATORIYA -->
     <section class="page" id="page-lab">
-      <div class="coming-soon-page">
-        <div class="cs-icon">🧪</div>
-        <h2 data-i18n="lab_title">Laboratoriya Normalari</h2>
-        <p data-i18n="lab_desc">Qon va siydik tahlili normalari tez orada.</p>
-        <div class="cs-features">
-          <span data-i18n="lab_f1">✓ Klinik qon tahlili</span>
-          <span data-i18n="lab_f2">✓ Biokimyoviy ko'rsatkichlar</span>
-          <span data-i18n="lab_f3">✓ Siydik tahlili</span>
-          <span data-i18n="lab_f4">✓ Normalar jadvali</span>
+      <div class="page-top">
+        <div class="page-title-wrap">
+          <div class="page-title-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6v2l-1 1v4l5.5 9.5A1 1 0 0 1 18.6 21H5.4a1 1 0 0 1-.9-1.5L10 10V6L9 5z"/><line x1="7" y1="16" x2="17" y2="16"/></svg></div>
+          <div><h1 class="page-title" data-i18n="lab_title">Laboratoriya Normalari</h1><p class="page-sub" data-i18n="lab_sub">Tahlil ko'rsatkichlari, normalar va talqin — 3 tilda</p></div>
         </div>
       </div>
+      <div class="lab-toolbar">
+        <div class="lab-search-wrap">
+          <svg class="lab-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="labSearch" data-i18n-ph="lab_search_ph" placeholder="Ko'rsatkich qidirish (HGB, ferritin, TSH...)" oninput="renderLabPage()" autocomplete="off" />
+        </div>
+      </div>
+      <div class="lab-disclaimer" data-i18n="lab_disclaimer">⚕️ Ma'lumotlar faqat ta'lim maqsadida. Yakuniy tashxis va davoni shifokor belgilaydi.</div>
+      <div class="lab-container" id="labContainer"></div>
     </section>
 
     <!-- KALKULYATORLAR -->
@@ -352,6 +537,53 @@
       <div class="interactions-container" id="interactionsList"></div>
     </section>
 
+    <!-- AI YORDAMCHI -->
+    <section class="page" id="page-ai">
+      <div class="ai-wrap">
+        <div class="ai-head">
+          <div class="ai-head-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></div>
+          <div>
+            <h1 data-i18n="ai_title">MedCore AI Yordamchi</h1>
+            <p data-i18n="ai_sub">Dorilar, farmakologiya va laboratoriya bo'yicha savol bering</p>
+          </div>
+        </div>
+        <div class="ai-disclaimer" data-i18n="ai_disclaimer">⚕️ AI yordamchi ilova bazasidan foydalanadi. Javoblar faqat yo'naltiruvchi; yakuniy qaror shifokornikidir.</div>
+        <div class="ai-suggest" id="aiSuggest"></div>
+        <div class="ai-msgs" id="aiMsgs"></div>
+        <div class="ai-inputbar">
+          <textarea id="aiInput" rows="1" data-i18n-ph="ai_placeholder" placeholder="Savolingizni yozing... (masalan: Metformin va kontrast modda o'zaro ta'siri)"></textarea>
+          <button class="ai-send" id="aiSend" onclick="aiSendMsg()" title="Yuborish">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- JAMIYAT -->
+    <section class="page" id="page-social">
+      <div class="soc-wrap">
+        <div class="soc-load">⏳</div>
+      </div>
+    </section>
+
+    <!-- TA'LIM -->
+    <section class="page" id="page-edu">
+      <div class="edu-top">
+        <div class="edu-top-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+        <div>
+          <h1 data-i18n="edu_title">Ta'lim — Klinik protokollar</h1>
+          <p class="edu-source">Manba: 420-son buyruq</p>
+        </div>
+      </div>
+      <div class="edu-searchbar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="eduSearch" oninput="eduSearch(this.value)" placeholder="Ta'lim bo'limidan qidirish..." autocomplete="off" />
+      </div>
+      <div class="edu-crumb" id="eduCrumb"></div>
+      <div id="eduResults" class="edu-results" style="display:none"></div>
+      <div id="eduBody"></div>
+    </section>
+
     <!-- SEVIMLILAR -->
     <section class="page" id="page-favorites">
       <div class="page-top">
@@ -375,7 +607,912 @@
 
 <script src="data.js"></script>
 <script src="pharma_data.js"></script>
+<script src="lab_data.js"></script>
+<script src="edu_data.js"></script>
+<!-- ═══════════ MOBILE BOTTOM NAV ═══════════ -->
+<nav class="mobile-bottom-nav" id="mobileBottomNav">
+  <div class="mbn-inner">
+    <button class="mbn-item active" id="mbn-dashboard" onclick="mbnNav('dashboard')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      <span class="mbn-item-label">Bosh sahifa</span>
+    </button>
+    <button class="mbn-item" id="mbn-drugs" onclick="mbnNav('drugs')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18"/></svg>
+      <span class="mbn-item-label">Dorilar</span>
+      <span class="mbn-badge">8649</span>
+    </button>
+    <button class="mbn-item" id="mbn-search" onclick="openMobileSearch()">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <span class="mbn-item-label">Qidiruv</span>
+    </button>
+    <button class="mbn-item" id="mbn-favorites" onclick="mbnNav('favorites')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span class="mbn-item-label">Saqlangan</span>
+    </button>
+    <button class="mbn-item" id="mbn-menu" onclick="toggleSidebar()">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      <span class="mbn-item-label">Menyu</span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════ PWA MOBILE BANNER ═══════════ -->
+<div class="pwa-mobile-banner" id="pwaMobileBanner">
+  <div class="pwa-banner-icon">
+    <img src="icons/icon-48x48.png" width="28" height="28" alt="MedCore" style="border-radius:6px"/>
+  </div>
+  <div class="pwa-banner-text">
+    <div class="pwa-banner-title">MedCore ni o'rnatish</div>
+    <div class="pwa-banner-sub">Telefonga yuklab oling — bepul!</div>
+  </div>
+  <div class="pwa-banner-actions">
+    <button class="pwa-banner-btn secondary" onclick="hidePwaBanner()">Keyinroq</button>
+    <button class="pwa-banner-btn primary" onclick="installPWA()">O'rnatish</button>
+  </div>
+</div>
+
+<!-- ═══════════ TAKLIF VA MUROJAATLAR (FEEDBACK) ═══════════ -->
+<style>
+  .fb-fab {
+    position: fixed; right: 20px; bottom: 88px; z-index: 3400;
+    width: 54px; height: 54px; border-radius: 50%; border: none; cursor: pointer;
+    background: linear-gradient(135deg,#e11d3c,#a3122a); color: #fff;
+    box-shadow: 0 8px 26px rgba(232,25,60,.4), 0 2px 8px rgba(0,0,0,.12);
+    display: flex; align-items: center; justify-content: center;
+    transition: all .2s cubic-bezier(.34,1.56,.64,1);
+  }
+  .fb-fab:hover { transform: scale(1.1); box-shadow: 0 12px 32px rgba(232,25,60,.5); }
+  .fb-fab:active { transform: scale(.95); }
+  @media (min-width: 1024px) { .fb-fab { bottom: 28px; } }
+  @media (max-width: 900px) { .fb-fab { bottom: 78px; right: 16px; width: 50px; height: 50px; } }
+  .fb-overlay {
+    position: fixed; inset: 0; z-index: 4000; background: rgba(17,24,39,.5);
+    backdrop-filter: blur(3px); display: none; align-items: flex-end; justify-content: center;
+  }
+  .fb-overlay.open { display: flex; }
+  @media (min-width: 640px) { .fb-overlay.open { align-items: center; } }
+  .fb-modal {
+    background: #fff; width: 100%; max-width: 440px; border-radius: 20px 20px 0 0;
+    box-shadow: 0 -8px 40px rgba(0,0,0,.2); overflow: hidden;
+    animation: fbUp .25s cubic-bezier(.34,1.3,.64,1);
+  }
+  @media (min-width: 640px) { .fb-modal { border-radius: 20px; } }
+  @keyframes fbUp { from { transform: translateY(24px); opacity: .6; } to { transform: none; opacity: 1; } }
+  .fb-head {
+    display: flex; align-items: center; gap: 12px; padding: 18px 20px;
+    background: linear-gradient(135deg,#e11d3c,#a3122a); color: #fff;
+  }
+  .fb-head-icon { font-size: 22px; }
+  .fb-head-txt h3 { font-size: 16px; font-weight: 800; margin: 0; }
+  .fb-head-txt p { font-size: 12px; opacity: .9; margin: 2px 0 0; }
+  .fb-close { margin-left: auto; background: rgba(255,255,255,.2); border: none; color: #fff;
+    width: 30px; height: 30px; border-radius: 8px; cursor: pointer; font-size: 16px; }
+  .fb-body { padding: 18px 20px; }
+  .fb-field { margin-bottom: 14px; }
+  .fb-field label { display: block; font-size: 12.5px; font-weight: 700; color: #374151; margin-bottom: 6px; }
+  .fb-field input, .fb-field textarea, .fb-field select {
+    width: 100%; border: 1.5px solid #e5e7eb; border-radius: 11px; padding: 11px 13px;
+    font-size: 14px; font-family: inherit; color: #111; box-sizing: border-box; transition: border .15s;
+  }
+  .fb-field input:focus, .fb-field textarea:focus, .fb-field select:focus {
+    outline: none; border-color: #e11d3c;
+  }
+  .fb-field textarea { resize: vertical; min-height: 96px; }
+  .fb-send {
+    width: 100%; padding: 13px; border: none; border-radius: 12px; cursor: pointer;
+    background: linear-gradient(135deg,#e11d3c,#a3122a); color: #fff; font-size: 14.5px; font-weight: 700;
+  }
+  .fb-send:disabled { opacity: .6; cursor: default; }
+  .fb-note { font-size: 11.5px; color: #9ca3af; text-align: center; margin-top: 12px; }
+  .fb-result { text-align: center; padding: 28px 20px; }
+  .fb-result .ic { font-size: 44px; }
+  .fb-result h4 { font-size: 17px; font-weight: 800; color: #111; margin: 12px 0 6px; }
+  .fb-result p { font-size: 13.5px; color: #6b7280; margin: 0; }
+</style>
+
+<button class="fb-fab" id="fbFab" onclick="openFeedback()" title="Taklif va murojaatlar" aria-label="Taklif va murojaatlar">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+</button>
+
+<div class="fb-overlay" id="fbOverlay" onclick="if(event.target===this)closeFeedback()">
+  <div class="fb-modal" role="dialog" aria-modal="true" aria-labelledby="fbTitle">
+    <div class="fb-head">
+      <span class="fb-head-icon">💬</span>
+      <div class="fb-head-txt">
+        <h3 id="fbTitle">Taklif va murojaatlar</h3>
+        <p>Fikr-mulohaza, xato yoki taklifingizni yuboring</p>
+      </div>
+      <button class="fb-close" onclick="closeFeedback()" aria-label="Yopish">✕</button>
+    </div>
+
+    <div class="fb-body" id="fbForm">
+      <div class="fb-field">
+        <label for="fbName">Ismingiz (ixtiyoriy)</label>
+        <input type="text" id="fbName" placeholder="Ismingiz" autocomplete="name" />
+      </div>
+      <div class="fb-field">
+        <label for="fbEmail">Email (javob olish uchun)</label>
+        <input type="email" id="fbEmail" placeholder="siz@email.com" autocomplete="email" />
+      </div>
+      <div class="fb-field">
+        <label for="fbType">Murojaat turi</label>
+        <select id="fbType">
+          <option value="Taklif">💡 Taklif</option>
+          <option value="Xato/Muammo">🐞 Xato yoki muammo</option>
+          <option value="Dori so'rovi">💊 Dori ma'lumoti so'rovi</option>
+          <option value="Boshqa">📨 Boshqa</option>
+        </select>
+      </div>
+      <div class="fb-field">
+        <label for="fbMsg">Xabaringiz</label>
+        <textarea id="fbMsg" placeholder="Fikr, taklif yoki muammoni batafsil yozing..."></textarea>
+      </div>
+      <button class="fb-send" id="fbSend" onclick="sendFeedback()">Yuborish</button>
+      <p class="fb-note">Xabaringiz to'g'ridan-to'g'ri ishlab chiquvchiga yuboriladi.</p>
+    </div>
+
+    <div class="fb-body fb-result" id="fbSuccess" style="display:none">
+      <div class="ic">✅</div>
+      <h4>Rahmat!</h4>
+      <p>Murojaatingiz yuborildi. Tez orada ko'rib chiqamiz.</p>
+      <button class="fb-send" style="margin-top:18px" onclick="closeFeedback()">Yopish</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ── Taklif va murojaatlar — FormSubmit orqali to'g'ridan-to'g'ri emailga ──
+  // Eslatma: birinchi yuborishdan keyin emailga tasdiqlash xati keladi — uni bosib faollashtiring.
+  const FEEDBACK_EMAIL = "xumoyunmirzoai@gmail.com";
+
+  function openFeedback() {
+    // Login bo'lgan foydalanuvchi emailini avtomatik to'ldirish
+    try {
+      var u = (typeof getStoredUser === 'function') ? getStoredUser() : null;
+      if (u) {
+        if (u.email && !document.getElementById('fbEmail').value) document.getElementById('fbEmail').value = u.email;
+        if (u.name && !document.getElementById('fbName').value) document.getElementById('fbName').value = u.name;
+      }
+    } catch (e) {}
+    document.getElementById('fbForm').style.display = '';
+    document.getElementById('fbSuccess').style.display = 'none';
+    document.getElementById('fbOverlay').classList.add('open');
+  }
+  function closeFeedback() {
+    document.getElementById('fbOverlay').classList.remove('open');
+  }
+  async function sendFeedback() {
+    const name = document.getElementById('fbName').value.trim();
+    const email = document.getElementById('fbEmail').value.trim();
+    const type = document.getElementById('fbType').value;
+    const msg = document.getElementById('fbMsg').value.trim();
+    if (!msg) { alert("Iltimos, xabaringizni yozing."); return; }
+
+    const btn = document.getElementById('fbSend');
+    btn.disabled = true; btn.textContent = 'Yuborilmoqda...';
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/' + FEEDBACK_EMAIL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          name: name || 'Anonim',
+          email: email || 'kiritilmagan',
+          _subject: 'MedCore murojaat: ' + type,
+          Tur: type,
+          Xabar: msg,
+          _template: 'table'
+        })
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && (data.success === 'true' || data.success === true || res.status === 200)) {
+        document.getElementById('fbForm').style.display = 'none';
+        document.getElementById('fbSuccess').style.display = '';
+        document.getElementById('fbMsg').value = '';
+      } else {
+        throw new Error('send failed');
+      }
+    } catch (e) {
+      alert("Yuborishda xatolik. Internet aloqasini tekshiring yoki keyinroq urinib ko'ring.");
+    } finally {
+      btn.disabled = false; btn.textContent = 'Yuborish';
+    }
+  }
+</script>
+
 <script src="auth.js"></script>
 <script src="app.js"></script>
+<script src="edu.js"></script>
+<script src="social.js"></script>
+<script>
+  // Jamiyat: nav bosilganda lazy init
+  document.addEventListener("DOMContentLoaded", function () {
+    var nav = document.querySelector('.nav-item[data-page="social"]');
+    if (nav) nav.addEventListener("click", function () { setTimeout(function () { if (typeof socialInit === "function") socialInit(); }, 30); });
+  });
+  window.dashOpenSocial = function () {
+    if (typeof navigateTo === "function") navigateTo("social");
+    setTimeout(function () { if (typeof socialInit === "function") socialInit(); }, 30);
+  };
+
+  // ── Glass: sidebar/sahifa holatini body ga ko'chirish (:has o'rniga) ──
+  (function () {
+    function sync() {
+      var sb = document.getElementById("sidebar");
+      document.body.classList.toggle("sidebar-open", !!(sb && sb.classList.contains("open")));
+      var active = document.querySelector(".page.active");
+      var page = active ? active.id.replace(/^page-/, "") : "";
+      document.body.setAttribute("data-page", page);
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+      sync();
+      var sb = document.getElementById("sidebar");
+      var main = document.querySelector(".content");
+      var mo = new MutationObserver(sync);
+      if (sb) mo.observe(sb, { attributes: true, attributeFilter: ["class"] });
+      if (main) mo.observe(main, { attributes: true, subtree: true, attributeFilter: ["class"] });
+    });
+  })();
+</script>
+
+<!-- ═══════════ AI YORDAMCHI (Chat) ═══════════ -->
+<script>
+(function () {
+  const S = {
+    uz: {
+      title: "MedCore AI Yordamchi",
+      sub: "Dorilar, farmakologiya va laboratoriya bo'yicha savol bering",
+      disc: "⚕️ AI yordamchi ilova bazasidan foydalanadi. Javoblar faqat yo'naltiruvchi; yakuniy qaror shifokornikidir.",
+      ph: "Savolingizni yozing... (masalan: Metformin va kontrast modda o'zaro ta'siri)",
+      err: "Kechirasiz, javob olishda xatolik yuz berdi. Internet aloqasini tekshirib, qayta urinib ko'ring.",
+      empty: "Savol bering — masalan dori dozasi, ko'rsatmalari, qarshi ko'rsatmalari yoki o'zaro ta'siri haqida.",
+      suggest: ["Azitromitsin dozasi qanday?", "Metformin va yodli kontrast o'zaro ta'siri", "Tamsulozin nima uchun ishlatiladi?", "Gemoglobin (HGB) normasi qancha?"]
+    },
+    ru: {
+      title: "MedCore AI Помощник",
+      sub: "Задайте вопрос о препаратах, фармакологии и лаборатории",
+      disc: "⚕️ AI-помощник использует базу приложения. Ответы только справочные; окончательное решение принимает врач.",
+      ph: "Напишите вопрос... (например: взаимодействие метформина и контраста)",
+      err: "Извините, произошла ошибка. Проверьте интернет и попробуйте снова.",
+      empty: "Задайте вопрос — например о дозе, показаниях, противопоказаниях или взаимодействиях препарата.",
+      suggest: ["Какая доза азитромицина?", "Взаимодействие метформина и йодного контраста", "Для чего применяется тамсулозин?", "Какая норма гемоглобина (HGB)?"]
+    },
+    en: {
+      title: "MedCore AI Assistant",
+      sub: "Ask about drugs, pharmacology and laboratory values",
+      disc: "⚕️ The AI assistant uses the app's database. Answers are for reference only; the final decision rests with the physician.",
+      ph: "Type your question... (e.g. metformin and contrast media interaction)",
+      err: "Sorry, an error occurred. Check your connection and try again.",
+      empty: "Ask a question — e.g. about a drug's dose, indications, contraindications or interactions.",
+      suggest: ["What is the dose of azithromycin?", "Metformin and iodinated contrast interaction", "What is tamsulosin used for?", "What is the normal hemoglobin (HGB)?"]
+    }
+  };
+  const lang = () => (typeof LANG !== "undefined" && S[LANG]) ? LANG : "uz";
+  const history = [];
+  let busy = false;
+
+  const $ = id => document.getElementById(id);
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  function localize() {
+    const t = S[lang()];
+    const set = (id, prop, val) => { const e = $(id); if (e) e[prop] = val; };
+    const q = (sel, prop, val) => { const e = document.querySelector(sel); if (e) e[prop] = val; };
+    q("#page-ai .ai-head h1", "textContent", t.title);
+    q("#page-ai .ai-head p", "textContent", t.sub);
+    q("#page-ai .ai-disclaimer", "textContent", t.disc);
+    set("aiInput", "placeholder", t.ph);
+    if (typeof BREADCRUMBS !== "undefined") BREADCRUMBS.ai = t.title;
+    // Tavsiya chiplari
+    const sug = $("aiSuggest");
+    if (sug) sug.innerHTML = t.suggest.map(x => `<button class="ai-chip">${esc(x)}</button>`).join("");
+    if (sug) sug.querySelectorAll(".ai-chip").forEach(b => b.onclick = () => { $("aiInput").value = b.textContent; aiSendMsg(); });
+    // Bo'sh holat
+    const msgs = $("aiMsgs");
+    if (msgs && !history.length) msgs.innerHTML = `<div class="ai-empty">${esc(t.empty)}</div>`;
+  }
+
+  function addBubble(role, text, isErr) {
+    const msgs = $("aiMsgs");
+    const empty = msgs.querySelector(".ai-empty"); if (empty) empty.remove();
+    const div = document.createElement("div");
+    div.className = "ai-bubble " + (role === "user" ? "user" : "bot") + (isErr ? " err" : "");
+    div.textContent = text;
+    msgs.appendChild(div);
+    msgs.scrollTop = msgs.scrollHeight;
+    return div;
+  }
+  function showTyping() {
+    const msgs = $("aiMsgs");
+    const d = document.createElement("div");
+    d.className = "ai-typing"; d.id = "aiTyping";
+    d.innerHTML = "<span></span><span></span><span></span>";
+    msgs.appendChild(d); msgs.scrollTop = msgs.scrollHeight;
+  }
+  function hideTyping(){ const d = $("aiTyping"); if (d) d.remove(); }
+
+  window.aiSendMsg = async function () {
+    if (busy) return;
+    const inp = $("aiInput");
+    const text = (inp.value || "").trim();
+    if (!text) return;
+    inp.value = ""; inp.style.height = "auto";
+    addBubble("user", text);
+    history.push({ role: "user", content: text });
+    busy = true; $("aiSend").disabled = true; showTyping();
+    try {
+      const res = await fetch(AI_API + "/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ lang: lang(), messages: history.slice(-8) })
+      });
+      const data = await res.json().catch(() => ({}));
+      hideTyping();
+      if (res.ok && data.answer) {
+        addBubble("bot", data.answer);
+        history.push({ role: "assistant", content: data.answer });
+      } else {
+        addBubble("bot", S[lang()].err, true);
+      }
+    } catch (e) {
+      hideTyping();
+      addBubble("bot", S[lang()].err, true);
+    } finally {
+      busy = false; $("aiSend").disabled = false;
+    }
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const inp = $("aiInput");
+    if (inp) {
+      inp.addEventListener("keydown", e => {
+        if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); aiSendMsg(); }
+      });
+      inp.addEventListener("input", () => { inp.style.height = "auto"; inp.style.height = Math.min(inp.scrollHeight, 120) + "px"; });
+    }
+    localize();
+  });
+  // Til o'zgarganda yangilash
+  const _setLang = window.setLanguage;
+  if (typeof _setLang === "function") {
+    window.setLanguage = function (l) { _setLang(l); try { localize(); } catch (e) {} };
+  }
+})();
+</script>
+
+<!-- PWA: Service Worker, Install & Mobile nav -->
+<script>
+  // ── Service Worker ──
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js').catch(() => {});
+    });
+  }
+
+  // ── PWA Install ──
+  let deferredInstallPrompt = null;
+  const isMobile = () => window.innerWidth <= 900;
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+    if (isMobile()) {
+      // Mobile: banner ko'rsatish
+      const banner = document.getElementById('pwaMobileBanner');
+      if (banner && !sessionStorage.getItem('pwa_banner_dismissed')) {
+        setTimeout(() => banner.classList.add('show'), 1500);
+      }
+    } else {
+      // Desktop: topbar tugma
+      const btn = document.getElementById('pwaInstallBtn');
+      if (btn) btn.style.display = 'flex';
+    }
+  });
+
+  window.addEventListener('appinstalled', () => {
+    deferredInstallPrompt = null;
+    const btn = document.getElementById('pwaInstallBtn');
+    if (btn) btn.style.display = 'none';
+    hidePwaBanner();
+  });
+
+  function installPWA() {
+    if (!deferredInstallPrompt) return;
+    deferredInstallPrompt.prompt();
+    deferredInstallPrompt.userChoice.then(() => {
+      deferredInstallPrompt = null;
+      const btn = document.getElementById('pwaInstallBtn');
+      if (btn) btn.style.display = 'none';
+      hidePwaBanner();
+    });
+  }
+
+  function hidePwaBanner() {
+    const banner = document.getElementById('pwaMobileBanner');
+    if (banner) { banner.classList.remove('show'); }
+    sessionStorage.setItem('pwa_banner_dismissed', '1');
+  }
+
+  // ── Mobile Bottom Nav ──
+  function mbnNav(page) {
+    // Sahifani ochish (app.js dagi navigateTo funksiyasiga murojaat)
+    if (typeof navigateTo === 'function') navigateTo(page);
+    else {
+      // fallback: nav-item larni topib bosish
+      const navItem = document.querySelector(`.nav-item[data-page="${page}"]`);
+      if (navItem) navItem.click();
+    }
+    // Active holatni yangilash
+    document.querySelectorAll('.mbn-item').forEach(el => el.classList.remove('active'));
+    const activeBtn = document.getElementById('mbn-' + page);
+    if (activeBtn) activeBtn.classList.add('active');
+    // Mobile sidebar ochiq bo'lsa yopish
+    closeSidebar();
+  }
+
+  function openMobileSearch() {
+    // Sahifani o'zgartirmasdan faqat qidiruv panelini ochamiz.
+    // Mobil sidebar ochiq bo'lsa yopamiz (qidiruvga xalaqit bermasligi uchun).
+    if (typeof closeSidebar === 'function') closeSidebar();
+    const input = document.getElementById('globalSearch');
+    if (!input) return;
+    // Topbarni ko'rinadigan joyga olib chiqamiz, so'ng inputni faollashtiramiz
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setTimeout(() => {
+      input.focus({ preventScroll: true });
+      input.select();
+    }, 60);
+  }
+
+  // ══════════════════════════════════════════
+  // BILDIRISHNOMALAR (Push Notifications)
+  // ══════════════════════════════════════════
+  // base64url VAPID kalitni Uint8Array ga aylantirish
+  function urlBase64ToUint8Array(base64String) {
+    const padding = '='.repeat((4 - base64String.length % 4) % 4);
+    const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+    const raw = atob(base64);
+    const arr = new Uint8Array(raw.length);
+    for (let i = 0; i < raw.length; i++) arr[i] = raw.charCodeAt(i);
+    return arr;
+  }
+
+  async function toggleNotifications() {
+    if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
+      showNotifToast('❌ Brauzer qo\'llamaydi', 'Chrome yoki yangiroq brauzer ishlatib ko\'ring.');
+      return;
+    }
+    try {
+      const reg = await navigator.serviceWorker.ready;
+      const existing = await reg.pushManager.getSubscription();
+      if (existing) {
+        // Allaqachon obuna — holatni ko'rsatish
+        showNotifPanel();
+      } else {
+        await subscribeToNotifications();
+      }
+    } catch (e) {
+      console.warn('toggleNotifications error:', e);
+      showNotifToast('❌ Xatolik', 'Bildirishnomani ochib bo\'lmadi.');
+    }
+  }
+
+  async function subscribeToNotifications() {
+    if (!('Notification' in window)) {
+      showNotifToast('❌ Brauzer qo\'llamaydi', 'Chrome yoki yangiroq brauzer ishlatib ko\'ring.');
+      return;
+    }
+    try {
+      const permission = await Notification.requestPermission();
+      if (permission !== 'granted') {
+        showNotifToast('❌ Bildirishnomalar bloklangan', 'Brauzer manzil qatoridagi 🔒 belgidan yoqing.');
+        return;
+      }
+      const reg = await navigator.serviceWorker.ready;
+      const sub = await reg.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
+      });
+      await sendSubscriptionToServer(sub);
+      localStorage.setItem('mc_notif_enabled', '1');
+      showNotifToast('✅ Bildirishnomalar yoqildi!', 'Yangi dori ma\'lumotlari haqida xabar olasiz.');
+      updateNotifBell(true);
+    } catch (e) {
+      console.warn('Push subscribe error:', e);
+      showNotifToast('❌ Xatolik', 'Bildirishnomani yoqib bo\'lmadi.');
+    }
+  }
+
+  // Obunani serverga (Cloudflare Worker) yuborish
+  async function sendSubscriptionToServer(sub) {
+    if (!PUSH_API) {
+      console.warn('PUSH_API hali sozlanmagan — obuna faqat brauzerda saqlandi');
+      return;
+    }
+    try {
+      await fetch(PUSH_API.replace(/\/$/, '') + '/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(sub)
+      });
+    } catch (e) {
+      console.warn('Obunani yuklab bo\'lmadi:', e);
+    }
+  }
+
+  function updateNotifBell(enabled) {
+    const dot  = document.getElementById('notifDot');
+    const bell = document.getElementById('notifBellBtn');
+    if (!dot || !bell) return;
+    const isEnabled = enabled !== undefined
+      ? enabled
+      : (localStorage.getItem('mc_notif_enabled') === '1' || Notification.permission === 'granted');
+    if (isEnabled) {
+      dot.style.background = '#22c55e';  // Yashil — yoqilgan
+      bell.style.color = '#e11d3c';
+      bell.title = 'Bildirishnomalar yoqilgan ✅';
+    } else {
+      dot.style.background = '';
+      bell.style.color = '';
+      bell.title = 'Bildirishnomalarni yoqish';
+    }
+  }
+
+  function showNotifPanel() {
+    toggleNotifCenter();
+  }
+
+  // ══════════════════════════════════════════
+  // BILDIRISHNOMA MARKAZI (in-app, qo'ng'iroqcha)
+  // ══════════════════════════════════════════
+  let _mcNotifs = [];
+
+  function notifReadIds() {
+    try { return JSON.parse(localStorage.getItem('mc_notif_read') || '[]'); }
+    catch (e) { return []; }
+  }
+  function markAllNotifsRead() {
+    const ids = _mcNotifs.map(n => n.id);
+    localStorage.setItem('mc_notif_read', JSON.stringify(ids));
+    renderNotifBadge();
+  }
+  function unreadNotifCount() {
+    const read = notifReadIds();
+    return _mcNotifs.filter(n => !read.includes(n.id)).length;
+  }
+
+  function renderNotifBadge() {
+    const dot = document.getElementById('notifDot');
+    const cnt = document.getElementById('notifCount');
+    const n = unreadNotifCount();
+    if (cnt) {
+      if (n > 0) { cnt.textContent = n > 9 ? '9+' : String(n); cnt.style.display = 'flex'; }
+      else cnt.style.display = 'none';
+    }
+    if (dot) dot.style.display = n > 0 ? 'none' : '';
+  }
+
+  async function loadNotifications() {
+    try {
+      const res = await fetch('notifications.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) return;
+      const data = await res.json();
+      if (Array.isArray(data)) {
+        _mcNotifs = data.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+        renderNotifBadge();
+      }
+    } catch (e) { /* offline yoki fayl yo'q — e'tiborsiz */ }
+  }
+
+  function timeAgo(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr);
+    if (isNaN(d)) return dateStr;
+    const diff = (Date.now() - d.getTime()) / 1000;
+    if (diff < 3600) return Math.max(1, Math.floor(diff / 60)) + ' daqiqa oldin';
+    if (diff < 86400) return Math.floor(diff / 3600) + ' soat oldin';
+    if (diff < 604800) return Math.floor(diff / 86400) + ' kun oldin';
+    return d.toLocaleDateString('uz-UZ', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  function toggleNotifCenter(ev) {
+    if (ev) ev.stopPropagation();
+    let panel = document.getElementById('notifCenter');
+    if (panel && panel.classList.contains('open')) { closeNotifCenter(); return; }
+    if (!panel) {
+      panel = document.createElement('div');
+      panel.id = 'notifCenter';
+      panel.className = 'notif-center';
+      document.body.appendChild(panel);
+      // tashqariga bosilganda yopish
+      document.addEventListener('click', (e) => {
+        const p = document.getElementById('notifCenter');
+        const bell = document.getElementById('notifBellBtn');
+        if (p && p.classList.contains('open') &&
+            !p.contains(e.target) && bell && !bell.contains(e.target)) {
+          closeNotifCenter();
+        }
+      });
+    }
+    renderNotifCenter(panel);
+    panel.classList.add('open');
+    markAllNotifsRead();
+  }
+
+  function closeNotifCenter() {
+    const panel = document.getElementById('notifCenter');
+    if (panel) panel.classList.remove('open');
+  }
+
+  function renderNotifCenter(panel) {
+    const pushOn = (localStorage.getItem('mc_notif_enabled') === '1') ||
+      (('Notification' in window) && Notification.permission === 'granted');
+    const read = notifReadIds();
+    const items = _mcNotifs.length ? _mcNotifs.map(n => {
+      const isUnread = !read.includes(n.id);
+      const clickable = n.page ? `onclick="notifGoto('${n.page}')" style="cursor:pointer"` : '';
+      return `
+        <div class="nc-item ${isUnread ? 'unread' : ''}" ${clickable}>
+          <div class="nc-item-icon">${n.icon || '💊'}</div>
+          <div class="nc-item-body">
+            <div class="nc-item-title">${n.title || 'Yangilik'}</div>
+            <div class="nc-item-text">${n.body || ''}</div>
+            <div class="nc-item-time">${timeAgo(n.date)}</div>
+          </div>
+        </div>`;
+    }).join('') : `<div class="nc-empty">🔔 Hozircha bildirishnomalar yo'q</div>`;
+
+    panel.innerHTML = `
+      <div class="nc-head">
+        <span class="nc-title">Bildirishnomalar</span>
+        <button class="nc-toggle ${pushOn ? 'on' : ''}" onclick="subscribeToNotifications()">
+          ${pushOn ? '🔔 Yoqilgan' : '🔕 Yoqish'}
+        </button>
+      </div>
+      <div class="nc-list">${items}</div>`;
+  }
+
+  function notifGoto(page) {
+    closeNotifCenter();
+    if (typeof navigateTo === 'function') navigateTo(page);
+  }
+
+  let _notifToastTimer = null;
+  function showNotifToast(title, msg) {
+    let toast = document.getElementById('notifToast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'notifToast';
+      toast.style.cssText = `
+        position:fixed; top:72px; right:20px; z-index:3000;
+        background:#fff; border-radius:14px;
+        box-shadow:0 8px 32px rgba(0,0,0,.14),0 2px 8px rgba(232,25,60,.1);
+        padding:14px 18px; max-width:320px; min-width:240px;
+        border:1.5px solid #f3f4f6;
+        transform:translateY(-10px) scale(.97); opacity:0;
+        transition:all .22s cubic-bezier(.34,1.56,.64,1);
+      `;
+      document.body.appendChild(toast);
+    }
+    toast.innerHTML = `
+      <div style="font-weight:800;font-size:13.5px;color:#111;margin-bottom:4px">${title}</div>
+      <div style="font-size:12.5px;color:#6b7280;line-height:1.5">${msg}</div>
+    `;
+    requestAnimationFrame(() => {
+      toast.style.transform = 'none';
+      toast.style.opacity = '1';
+    });
+    clearTimeout(_notifToastTimer);
+    _notifToastTimer = setTimeout(() => {
+      toast.style.transform = 'translateY(-10px) scale(.97)';
+      toast.style.opacity = '0';
+    }, 3500);
+  }
+
+  // Bell holatini sahifa yuklanishida tekshirish
+  window.addEventListener('load', () => {
+    setTimeout(updateNotifBell, 1000);
+    loadNotifications();
+    // har 5 daqiqada yangi bildirishnomalarni tekshirish
+    setInterval(loadNotifications, 5 * 60 * 1000);
+  });
+
+  function closeSidebar() {
+    const sidebar  = document.getElementById('sidebar');
+    const overlay  = document.getElementById('sidebarOverlay');
+    if (sidebar)  sidebar.classList.remove('open');
+    if (overlay)  overlay.classList.remove('show');
+    document.body.style.overflow = '';
+  }
+
+  // Override toggleSidebar to handle overlay
+  const _origToggle = window.toggleSidebar;
+  window.toggleSidebar = function() {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('sidebarOverlay');
+    if (window.innerWidth <= 900) {
+      const isOpen = sidebar && sidebar.classList.contains('open');
+      if (isOpen) {
+        closeSidebar();
+      } else {
+        if (sidebar) sidebar.classList.add('open');
+        if (overlay) overlay.classList.add('show');
+        document.body.style.overflow = 'hidden';
+      }
+    } else {
+      if (typeof _origToggle === 'function') _origToggle();
+    }
+  };
+
+  // Sync bottom nav with page changes
+  document.addEventListener('click', (e) => {
+    const navItem = e.target.closest('.nav-item[data-page]');
+    if (navItem) {
+      const page = navItem.dataset.page;
+      document.querySelectorAll('.mbn-item').forEach(el => el.classList.remove('active'));
+      const activeBtn = document.getElementById('mbn-' + page);
+      if (activeBtn) activeBtn.classList.add('active');
+    }
+  });
+
+  // ── Mobil: sidebar tashqarisiga bosilganda yopish (qo'shimcha himoya) ──
+  document.addEventListener('pointerdown', (e) => {
+    if (window.innerWidth > 900) return;
+    const sidebar = document.getElementById('sidebar');
+    if (!sidebar || !sidebar.classList.contains('open')) return;
+    // sidebar ichida yoki menyu/ochish tugmasi bo'lsa — yopmaymiz
+    if (e.target.closest('#sidebar')) return;
+    if (e.target.closest('#menuBtn') || e.target.closest('#mbn-menu')) return;
+    closeSidebar();
+  });
+
+  // ── Mobil: sidebarni chapga surib (swipe) yopish ──
+  (function initSidebarSwipe() {
+    const sidebar = document.getElementById('sidebar');
+    if (!sidebar) return;
+    let startX = 0, startY = 0, tracking = false;
+    sidebar.addEventListener('touchstart', (e) => {
+      if (window.innerWidth > 900 || !sidebar.classList.contains('open')) return;
+      const t = e.touches[0];
+      startX = t.clientX; startY = t.clientY; tracking = true;
+    }, { passive: true });
+    sidebar.addEventListener('touchmove', (e) => {
+      if (!tracking) return;
+      const t = e.touches[0];
+      const dx = t.clientX - startX;
+      const dy = t.clientY - startY;
+      // Asosan gorizontal va chapga harakat bo'lsa — yopamiz
+      if (dx < -55 && Math.abs(dx) > Math.abs(dy)) {
+        tracking = false;
+        closeSidebar();
+      }
+    }, { passive: true });
+    sidebar.addEventListener('touchend', () => { tracking = false; }, { passive: true });
+  })();
+
+  // ══════════════════════════════════════════
+  // MOBIL "ORQAGA" TUGMASI — navigatsiya tarixi (History API)
+  //  • Orqaga bosilganda: ochiq oyna/modal yopiladi yoki bitta sahifa
+  //    orqaga qaytadi; oxirida dashboardga; dashboardda esa ilovadan chiqadi.
+  //  • Ilova yopilib qayta ochilsa — oxirgi sahifadan davom etadi.
+  // ══════════════════════════════════════════
+  (function initAppHistory() {
+    const PAGE_KEY = 'mc_last_page';
+    const DRUG_KEY = 'mc_last_drug';
+    const KNOWN = ['dashboard','drugs','diseases','lab','calculators','interactions','favorites'];
+    let popping = false;
+
+    function isOpen(id) { const e = document.getElementById(id); return !!(e && e.classList.contains('open')); }
+    function sidebarOpen() { return isOpen('sidebar') && window.innerWidth <= 900; }
+
+    // Saqlangan original funksiyalar
+    const _nav       = window.navigateTo;
+    const _openDrug  = window.openDrug;
+    const _closeDrug = window.closeDrugModal;
+
+    // Ochiq oynalar — ustuvorlik bo'yicha (eng ustki birinchi)
+    const overlays = [
+      { name: 'feedback', open: () => isOpen('fbOverlay'),    close: () => { if (typeof closeFeedback === 'function') closeFeedback(); } },
+      { name: 'notif',    open: () => isOpen('notifCenter'),  close: () => { if (typeof closeNotifCenter === 'function') closeNotifCenter(); } },
+      { name: 'drug',     open: () => isOpen('modalOverlay'), close: () => { _closeDrug(); try { localStorage.removeItem(DRUG_KEY); } catch (e) {} } },
+      { name: 'sidebar',  open: () => sidebarOpen(),          close: () => { if (typeof closeSidebar === 'function') closeSidebar(); } }
+    ];
+    function topOverlay() { return overlays.find(o => o.open()); }
+    function anyOverlayOpen() { return !!topOverlay(); }
+
+    function persistPage(p) { try { localStorage.setItem(PAGE_KEY, p); localStorage.removeItem(DRUG_KEY); } catch (e) {} }
+
+    // navigateTo → sahifa o'zgarganda tarixga yozamiz
+    window.navigateTo = function (page) {
+      // sahifa almashishidan oldin ochiq modal/oynani yopamiz
+      const t = topOverlay();
+      if (t) { popping = true; t.close(); popping = false; }
+      _nav(page);
+      persistPage(page);
+      if (!popping) history.pushState({ kind: 'page', page: page }, '', '#' + page);
+    };
+
+    // openDrug → modal ochilganda tarixga yozamiz
+    window.openDrug = function (id) {
+      _openDrug(id);
+      try { localStorage.setItem(DRUG_KEY, String(id)); } catch (e) {}
+      if (!popping) history.pushState({ kind: 'drug', id: id, page: (document.querySelector('.page.active') || {}).id }, '', '#drug-' + id);
+    };
+
+    // UI orqali yopish (X tugma, overlayga bosish) → tarixни ham orqaga suramiz
+    window.closeDrugModal = function () {
+      if (!popping && history.state && history.state.kind === 'drug') { history.back(); }
+      else { _closeDrug(); try { localStorage.removeItem(DRUG_KEY); } catch (e) {} }
+    };
+
+    // Navigatsiyasiz ochiladigan oynalar uchun tarix yozuvi
+    function pushOverlay(name) { if (!popping) history.pushState({ kind: 'overlay', name: name, page: (document.querySelector('.page.active') || {}).id }, ''); }
+    function uiCloseOverlay() { if (!popping && history.state && history.state.kind === 'overlay') history.back(); }
+
+    // Feedback (taklif/murojaat) oynasi
+    if (typeof window.openFeedback === 'function') {
+      const _of = window.openFeedback;
+      window.openFeedback = function () { _of(); if (isOpen('fbOverlay')) pushOverlay('feedback'); };
+    }
+    if (typeof window.closeFeedback === 'function') {
+      const _cf = window.closeFeedback;
+      window.closeFeedback = function () { if (!popping && history.state && history.state.kind === 'overlay') history.back(); else _cf(); };
+    }
+
+    // Bildirishnoma markazi
+    if (typeof window.toggleNotifCenter === 'function') {
+      const _tn = window.toggleNotifCenter;
+      window.toggleNotifCenter = function (ev) {
+        if (isOpen('notifCenter')) { if (ev && ev.stopPropagation) ev.stopPropagation(); uiCloseOverlay(); }
+        else { _tn(ev); if (isOpen('notifCenter')) pushOverlay('notif'); }
+      };
+    }
+
+    // Sidebar (mobil menyu) — ochilganda tarix yozuvi
+    const _toggleSidebar = window.toggleSidebar;
+    window.toggleSidebar = function () {
+      const wasOpen = isOpen('sidebar');
+      _toggleSidebar();
+      if (!wasOpen && isOpen('sidebar') && window.innerWidth <= 900) pushOverlay('sidebar');
+    };
+
+    // ── ORQAGA tugmasi bosilganda ──
+    window.addEventListener('popstate', function (e) {
+      // 1) Ochiq oyna bo'lsa — uni yopamiz (orqaga bosishni "yeydi")
+      const t = topOverlay();
+      if (t) { popping = true; t.close(); popping = false; return; }
+      // 2) Aks holda — kelgan holatdagi sahifani ko'rsatamiz
+      popping = true;
+      const st = e.state;
+      if (st && st.kind === 'drug') {
+        _openDrug(st.id);
+      } else if (st && st.kind === 'page') {
+        _nav(st.page || 'dashboard');
+        try { localStorage.setItem(PAGE_KEY, st.page || 'dashboard'); } catch (_) {}
+      } else {
+        _nav('dashboard');
+      }
+      popping = false;
+    });
+
+    // ── Boshlang'ich holat + oxirgi sahifani tiklash ──
+    function start() {
+      let page = 'dashboard', drug = null;
+      try { page = localStorage.getItem(PAGE_KEY) || 'dashboard'; drug = localStorage.getItem(DRUG_KEY); } catch (e) {}
+      if (KNOWN.indexOf(page) === -1) page = 'dashboard';
+      // Ildiz yozuvi — har doim dashboardga qaytib chiqish uchun
+      history.replaceState({ kind: 'page', page: 'dashboard' }, '', '#dashboard');
+      popping = true; _nav('dashboard'); popping = false;
+      // Oxirgi sahifa dashboard bo'lmasa — uni tarixga qo'shamiz (orqaga → dashboard)
+      if (page !== 'dashboard') window.navigateTo(page);
+      // Oxirida ochiq dori bo'lsa — uni qayta ochamiz
+      if (drug && typeof DRUGS !== 'undefined') {
+        const id = isNaN(+drug) ? drug : +drug;
+        if (DRUGS.find(d => d.id === id)) window.openDrug(id);
+      }
+    }
+    if (document.readyState === 'complete') setTimeout(start, 150);
+    else window.addEventListener('load', function () { setTimeout(start, 250); });
+  })();
+</script>
 </body>
 </html>

@@ -1,0 +1,73 @@
+name: 📣 Telegram e'lon + bot-data yangilash
+
+# Ilovaga yangi dori/ma'lumot qo'shilganda (pharma_data.js / data.js / lab_data.js
+# o'zgarsa) avtomatik: 1) bot-data ni qayta generatsiya qilib commit qiladi,
+# 2) Telegram kanaliga post yozadi va bot foydalanuvchilariga yuboradi.
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'pharma_data.js'
+      - 'data.js'
+      - 'lab_data.js'
+  workflow_dispatch:
+    inputs:
+      message:
+        description: "E'lon matni (HTML)"
+        required: false
+        default: "🆕 <b>MedCore yangilandi!</b>\n\nYangi ma'lumotlar qo'shildi. Botda ko'rib chiqing 👇"
+
+permissions:
+  contents: write
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: bot-data ni qayta generatsiya qilish
+        run: node tools/gen-bot-data.js
+
+      - name: Yangilangan bot-data ni commit qilish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bot-data
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(bot-data): regenerate after data update [skip ci]"
+            git push
+          else
+            echo "bot-data o'zgarmadi."
+          fi
+
+      - name: Telegram kanali + foydalanuvchilarga e'lon
+        env:
+          ADMIN_SECRET: ${{ secrets.MEDCORE_ADMIN_SECRET }}
+          WORKER_URL: https://medcore-bot.xumoyunmirzoai.workers.dev
+        run: |
+          if [ -z "$ADMIN_SECRET" ]; then
+            echo "MEDCORE_ADMIN_SECRET o'rnatilmagan — e'lon o'tkazib yuborildi."
+            exit 0
+          fi
+          # Xabar matni: workflow_dispatch bo'lsa kiritilgan, aks holda standart
+          MSG='${{ github.event.inputs.message }}'
+          if [ -z "$MSG" ]; then
+            MSG="🆕 <b>MedCore yangilandi!</b>\n\nYangi dori va ma'lumotlar qo'shildi. Botda ko'rib chiqing 👇"
+          fi
+          PAYLOAD=$(node -e "process.stdout.write(JSON.stringify({text: process.argv[1]}))" "$(printf '%b' "$MSG")")
+          # Foydalanuvchilarni sahifalab yuborish (cursor bilan)
+          CURSOR=""
+          for i in $(seq 1 50); do
+            BODY=$(node -e "const p=JSON.parse(process.argv[1]); p.cursor=process.argv[2]||undefined; process.stdout.write(JSON.stringify(p))" "$PAYLOAD" "$CURSOR")
+            RESP=$(curl -s -X POST "$WORKER_URL/admin/broadcast" -H "Content-Type: application/json" -H "X-Admin-Secret: $ADMIN_SECRET" -d "$BODY")
+            echo "Javob: $RESP"
+            DONE=$(echo "$RESP" | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{try{console.log(JSON.parse(s).done)}catch(e){console.log('true')}})")
+            CURSOR=$(echo "$RESP" | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{try{console.log(JSON.parse(s).cursor||'')}catch(e){console.log('')}})")
+            [ "$DONE" = "true" ] && break
+          done

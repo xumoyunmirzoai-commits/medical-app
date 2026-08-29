@@ -1,0 +1,174 @@
+/* ══════════════════════════════════════════════════════════
+   MedCore — "Shaffof tomchi" (Liquid Glass) — tez va ixcham
+   Blur faqat asosiy panellarda (tez skroll uchun). style.css ustidan.
+   ══════════════════════════════════════════════════════════ */
+:root {
+  --glass-bg: rgba(255,255,255,.72);
+  --glass-solid: rgba(255,255,255,.86);
+  --glass-border: rgba(255,255,255,.7);
+  --glass-blur: saturate(160%) blur(14px);
+  --glass-shadow: 0 6px 22px rgba(31,41,60,.09), 0 1px 4px rgba(31,41,60,.05);
+  --glass-radius: 20px;
+}
+
+/* ── Ambient fon (skrollda janksiz — fixed qatlam) ── */
+html { scroll-behavior: smooth; }
+body { background: #eef1f8 !important; }
+body::before {
+  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(1000px 560px at 10% -6%, rgba(225,29,60,.12), transparent 60%),
+    radial-gradient(900px 560px at 110% 8%, rgba(37,99,235,.11), transparent 60%),
+    radial-gradient(800px 620px at 50% 116%, rgba(124,58,237,.09), transparent 60%),
+    linear-gradient(160deg, #f4f6fb 0%, #eef1f8 45%, #f6eef2 100%);
+}
+.main-wrapper, .content { background: transparent !important; }
+
+/* ── Silliqlik / bosish ── */
+* { -webkit-tap-highlight-color: transparent; }
+button:active, .nav-item:active, .module-item:active, .drug-card:active,
+.soc-card:active, .soc-btn:active, .mbn-item:active, .ai-send:active,
+.soc-tab:active, .ai-chip:active, .action-btn:active, .gtab:active,
+.social-banner:active, .edu-acc-head:active, .lab-card-head:active,
+.edu-subj-card:active, .edu-chap-card:active { transform: scale(.975); }
+button, a, .nav-item, .module-item, .soc-card, .drug-card { transition: transform .16s ease, background .18s ease, box-shadow .18s ease, border-color .18s ease; }
+.content { -webkit-overflow-scrolling: touch; }
+.page.active { animation: glassFade .22s ease; }
+@keyframes glassFade { from { opacity: .35; } to { opacity: 1; } }
+
+/* ── FROSTED — faqat asosiy panellar (blur bilan) ── */
+.sidebar {
+  background: var(--glass-solid) !important;
+  -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+  border-right: 1px solid var(--glass-border) !important;
+  box-shadow: var(--glass-shadow) !important;
+}
+.topbar {
+  background: var(--glass-bg) !important;
+  -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+  border-bottom: 1px solid var(--glass-border) !important;
+}
+.modal, .search-dropdown, .user-dropdown, .notif-center,
+.soc-gate, .soc-form, .edu-content, .edu-toc-box, .soc-tabs {
+  background: var(--glass-bg) !important;
+  -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border) !important;
+  box-shadow: var(--glass-shadow) !important;
+}
+.modal { border-radius: 24px !important; }
+.modal-overlay, .fb-overlay { background: rgba(20,24,34,.42) !important; -webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px); }
+
+/* ── RO'YXAT KARTALARI — blursiz, translucent (tez skroll) ── */
+.dash-card, .stat-tile, .alert-card, .group-tabs, .drug-card,
+.lab-cat, .lab-card, .inter-card, .soc-card, .soc-person, .soc-thread,
+.soc-profile, .edu-subj-card, .edu-chap-card, .coming-soon-page,
+.recent-drugs-row, .ai-bubble.bot, .module-item, .info-box, .msection,
+.pharma-block, .drugs-search-bar, .global-search-wrap {
+  background: var(--glass-solid) !important;
+  backdrop-filter: none !important; -webkit-backdrop-filter: none !important;
+  border: 1px solid var(--glass-border) !important;
+  box-shadow: var(--glass-shadow) !important;
+}
+.dash-card, .soc-card, .edu-content { border-radius: var(--glass-radius) !important; }
+.module-item:hover, .drug-card:hover, .soc-card:hover, .dash-card:hover { box-shadow: 0 12px 32px rgba(31,41,60,.13) !important; }
+
+/* ══════════════════════════════════════════════════════════
+   XALAQIT MUAMMOSI — suzuvchi tugmalar
+   ══════════════════════════════════════════════════════════ */
+/* Yon menyu ochilganda: pastki menyu va yordam tugmasi yashirinadi
+   (body.sidebar-open klassini glass-observer.js qo'yadi) */
+body.sidebar-open .mobile-bottom-nav,
+body.sidebar-open .fb-fab { display: none !important; }
+/* AI va Jamiyat sahifasida (o'z kiritish paneli bor): yordam tugmasi yashirin */
+body[data-page="ai"] .fb-fab,
+body[data-page="social"] .fb-fab { display: none !important; }
+/* Yordam tugmasi (💬) pastki menyu ustiga chiqmasin */
+.fb-fab { transition: opacity .2s ease, transform .15s ease; }
+@media (max-width: 900px) {
+  .fb-fab { width: 48px; height: 48px; bottom: 92px !important; right: 14px; }
+}
+
+/* ══════════════════════════════════════════════════════════
+   MOBIL — pastki navigatsiya (ixcham, tartibli, katta tugmalar)
+   ══════════════════════════════════════════════════════════ */
+@media (max-width: 900px) {
+  .mobile-bottom-nav {
+    height: auto !important;
+    left: 10px; right: 10px; bottom: 10px;
+    border-radius: 22px !important;
+    background: var(--glass-solid) !important;
+    -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border) !important;
+    box-shadow: 0 8px 28px rgba(31,41,60,.16) !important;
+    padding: 7px 8px calc(7px + env(safe-area-inset-bottom)) !important;
+    transition: opacity .2s ease;
+  }
+  .mbn-inner { gap: 4px; }
+  .mbn-item {
+    gap: 3px !important; padding: 7px 4px !important;
+    min-height: 52px; border-radius: 15px !important; justify-content: center;
+  }
+  .mbn-item svg { width: 23px; height: 23px; }
+  .mbn-item.active {
+    background: linear-gradient(135deg, rgba(225,29,60,.14), rgba(225,29,60,.05)) !important;
+    color: var(--red-600) !important;
+  }
+  .mbn-item.active svg { transform: scale(1.06); }
+  .mbn-item-label { font-size: 10px !important; font-weight: 700; }
+  .content { padding-bottom: 100px !important; }
+  .action-btn { width: 40px; height: 40px; }
+  .sidebar { background: rgba(255,255,255,.94) !important; }
+  /* Yon menyu eng ustda bo'lsin (tugmalar ustiga hech narsa chiqmasin) */
+  .sidebar.open { z-index: 3600 !important; }
+  .sidebar-overlay.show, .sidebar-overlay.active { z-index: 3550 !important; }
+}
+
+/* ══════════════════════════════════════════════════════════
+   AI CHAT — qulay, zamonaviy
+   ══════════════════════════════════════════════════════════ */
+.ai-wrap { max-width: 860px; }
+.ai-head-icon { box-shadow: 0 8px 22px rgba(225,29,60,.30); }
+.ai-msgs { padding: 8px 2px 18px; gap: 15px; scroll-behavior: smooth; }
+.ai-bubble { max-width: 88%; padding: 13px 17px; border-radius: 20px; font-size: 14.5px; line-height: 1.6; }
+.ai-bubble.user {
+  background: linear-gradient(135deg, var(--red-600), var(--red-700)) !important;
+  border-bottom-right-radius: 7px; box-shadow: 0 5px 16px rgba(225,29,60,.26);
+}
+.ai-bubble.bot { border-bottom-left-radius: 7px; }
+.ai-typing { border-radius: 20px; border-bottom-left-radius: 7px; background: var(--glass-solid) !important; border: 1px solid var(--glass-border); }
+.ai-suggest { gap: 9px; margin-bottom: 14px; }
+.ai-chip {
+  background: var(--glass-solid) !important; border: 1px solid var(--glass-border) !important;
+  border-radius: 22px; padding: 9px 15px; font-size: 13px;
+  box-shadow: 0 2px 8px rgba(31,41,60,.05); transition: all .16s;
+}
+.ai-chip:hover { border-color: var(--red-300) !important; color: var(--red-600); transform: translateY(-2px); }
+.ai-inputbar {
+  position: sticky; bottom: 0; padding: 11px; margin: 0 -2px;
+  background: var(--glass-solid);
+  -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border); border-radius: 22px;
+  box-shadow: 0 6px 22px rgba(31,41,60,.12); gap: 10px;
+}
+.ai-inputbar textarea {
+  border-radius: 18px; border: 1.5px solid transparent !important;
+  background: rgba(255,255,255,.8); font-size: 15px; padding: 13px 16px; min-height: 48px;
+}
+.ai-inputbar textarea:focus { border-color: var(--red-400) !important; background: #fff; }
+.ai-send {
+  width: 48px; height: 48px; border-radius: 16px;
+  background: linear-gradient(135deg, var(--red-600), var(--red-700)) !important;
+  box-shadow: 0 5px 16px rgba(225,29,60,.30); transition: transform .15s, box-shadow .15s;
+}
+.ai-send:hover { transform: translateY(-2px) scale(1.04); }
+.ai-empty { background: var(--glass-solid); border: 1px dashed var(--glass-border); border-radius: 18px; padding: 26px; }
+@media (max-width: 900px) {
+  .ai-wrap { height: calc(100vh - var(--topbar-h) - 160px); }
+  .ai-bubble { max-width: 90%; font-size: 14px; }
+  .ai-inputbar { bottom: 6px; }
+}
+
+/* ── Jamiyat: chat paneli ── */
+.soc-tab.active { box-shadow: 0 4px 14px rgba(225,29,60,.26); }
+.soc-chat-bar { background: var(--glass-solid); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); border: 1px solid var(--glass-border); border-radius: 26px; padding: 7px; position: sticky; bottom: 6px; }
+.soc-chat-bar input { border: none; background: transparent; }

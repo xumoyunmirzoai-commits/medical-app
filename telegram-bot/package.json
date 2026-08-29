@@ -1,0 +1,14 @@
+{
+  "name": "medcore-telegram-bot",
+  "version": "1.0.0",
+  "description": "MedCore — native Telegram bot (drugs, pharmacology, lab values). Not a Mini App.",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}

@@ -1,0 +1,94 @@
+name: 🔔 Foydalanuvchilarga bildirishnoma yuborish
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'pharma_data.js'
+      - 'data.js'
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Bildirishnoma sarlavhasi'
+        required: false
+        default: "💊 Yangi dori qo'shildi!"
+      body:
+        description: 'Bildirishnoma matni'
+        required: false
+        default: "Flukonazol (D01AC15) — zamburug'larga qarshi preparat ma'lumotlari qo'shildi!"
+
+jobs:
+  send-notification:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Xabar matni tayyorlash
+        id: msg
+        run: |
+          # workflow_dispatch bo'lsa — kiritilgan qiymatlarni ishlatish
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "title=${{ github.event.inputs.title }}" >> $GITHUB_OUTPUT
+            echo "body=${{ github.event.inputs.body }}" >> $GITHUB_OUTPUT
+          else
+            FILES=$(echo '${{ toJson(github.event.commits) }}' | jq -r '.[0].modified // [] | join(" ")')
+            if echo "$FILES" | grep -q "pharma_data.js"; then
+              echo "title=💊 Farmakologiya yangilandi!" >> $GITHUB_OUTPUT
+              echo "body=Yangi dori ma'lumotlari qo'shildi. Ko'rish uchun bosing." >> $GITHUB_OUTPUT
+            elif echo "$FILES" | grep -q "data.js"; then
+              echo "title=🆕 Yangi dorilar qo'shildi!" >> $GITHUB_OUTPUT
+              echo "body=MedCore bazasiga yangi dorilar qo'shildi." >> $GITHUB_OUTPUT
+            else
+              echo "title=🔄 MedCore yangilandi" >> $GITHUB_OUTPUT
+              echo "body=Ilova yangi imkoniyatlar bilan to'ldirildi." >> $GITHUB_OUTPUT
+            fi
+          fi
+      - name: Reponi yuklab olish
+        uses: actions/checkout@v4
+        
+      - name: Node.js o'rnatish
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: web-push kutubxonasini o'rnatish
+        run: npm install web-push --no-save
+
+      - name: Web Push bildirishnoma yuborish
+        env:
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
+          PUSH_API: ${{ secrets.PUSH_API }}
+          PUSH_ADMIN_KEY: ${{ secrets.PUSH_ADMIN_KEY }}
+          NOTIF_TITLE: ${{ steps.msg.outputs.title }}
+          NOTIF_BODY: ${{ steps.msg.outputs.body }}
+        run: node push/send.js
+
+      - name: Bildirishnomani ilova tarixiga (qo'ng'iroqcha) qo'shish
+        env:
+          NOTIF_TITLE: ${{ steps.msg.outputs.title }}
+          NOTIF_BODY: ${{ steps.msg.outputs.body }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const f = "notifications.json";
+            let arr = [];
+            try { arr = JSON.parse(fs.readFileSync(f, "utf8")); } catch (e) {}
+            const today = new Date().toISOString().slice(0, 10);
+            arr.unshift({
+              id: today + "-" + Date.now(),
+              date: today,
+              title: process.env.NOTIF_TITLE || "MedCore yangilandi",
+              body: process.env.NOTIF_BODY || "Yangi maʼlumotlar qoʼshildi.",
+              icon: "💊",
+              page: "drugs"
+            });
+            arr = arr.slice(0, 50);
+            fs.writeFileSync(f, JSON.stringify(arr, null, 2) + "\n");
+          '
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add notifications.json
+          git commit -m "chore(notif): add in-app notification entry [skip ci]" || echo "o'zgarish yo'q"
+          git push || echo "push o'tkazib yuborildi"
