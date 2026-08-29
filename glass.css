@@ -1,0 +1,172 @@
+/* ══════════════════════════════════════════════════════════
+   MedCore — "Shaffof tomchi" (Liquid Glass) dizayn qatlami
+   style.css ustidan yuklanadi. Faqat vizual — mantiq buzilmaydi.
+   ══════════════════════════════════════════════════════════ */
+:root {
+  --glass-bg: rgba(255,255,255,.62);
+  --glass-bg-strong: rgba(255,255,255,.78);
+  --glass-border: rgba(255,255,255,.65);
+  --glass-blur: saturate(170%) blur(16px);
+  --glass-shadow: 0 8px 30px rgba(31,41,60,.10), 0 2px 8px rgba(31,41,60,.05);
+  --glass-radius: 20px;
+}
+
+/* ── Ambient gradient fon (tomchilar orqasida ko'rinadi) ── */
+html { scroll-behavior: smooth; }
+body {
+  background:
+    radial-gradient(1100px 620px at 12% -6%, rgba(225,29,60,.14), transparent 60%),
+    radial-gradient(1000px 640px at 108% 10%, rgba(37,99,235,.13), transparent 60%),
+    radial-gradient(900px 700px at 50% 118%, rgba(124,58,237,.10), transparent 60%),
+    linear-gradient(160deg, #f3f5fb 0%, #eef1f8 45%, #f6eef2 100%) !important;
+  background-attachment: fixed !important;
+}
+.main-wrapper, .content { background: transparent !important; }
+
+/* ── Silliqlik / bosish ── */
+* { -webkit-tap-highlight-color: transparent; }
+button, a, .nav-item, .module-item, .drug-card, .soc-card, .gtab, .mbn-item,
+.soc-tab, .soc-btn, .ai-chip, .lab-card-head, .edu-acc-head { -webkit-tap-highlight-color: transparent; }
+button:active, .nav-item:active, .module-item:active, .drug-card:active,
+.soc-card:active, .soc-btn:active, .mbn-item:active, .ai-send:active,
+.soc-tab:active, .ai-chip:active, .action-btn:active, .gtab:active,
+.social-banner:active, .edu-acc-head:active, .lab-card-head:active { transform: scale(.97); }
+button, a, .nav-item, .module-item, .soc-card, .drug-card { transition: transform .18s cubic-bezier(.34,1.4,.64,1), background .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.content { -webkit-overflow-scrolling: touch; }
+
+/* ── Frosted yuzalar ── */
+.sidebar {
+  background: var(--glass-bg-strong) !important;
+  -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+  border-right: 1px solid var(--glass-border) !important;
+  box-shadow: var(--glass-shadow) !important;
+}
+.topbar {
+  background: var(--glass-bg) !important;
+  -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+  border-bottom: 1px solid var(--glass-border) !important;
+}
+.dash-card, .stat-tile, .alert-card, .group-tabs, .drug-card, .modal,
+.lab-cat, .lab-card, .inter-card, .search-dropdown, .user-dropdown,
+.notif-center, .soc-card, .soc-gate, .soc-form, .soc-person, .soc-thread,
+.soc-profile, .edu-content, .edu-toc-box, .edu-subj-card, .edu-chap-card,
+.ai-bubble.bot, .coming-soon-page, .recent-drugs-row {
+  background: var(--glass-bg) !important;
+  -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border) !important;
+  box-shadow: var(--glass-shadow) !important;
+}
+.global-search-wrap { background: var(--glass-bg) !important; -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); border: 1px solid var(--glass-border) !important; }
+.modal { border-radius: 24px !important; }
+.dash-card, .soc-card, .edu-content { border-radius: var(--glass-radius) !important; }
+
+/* Ichki oq elementlar biroz shaffof */
+.module-item, .info-box, .msection, .pharma-block, .mtab, .drugs-search-bar {
+  background: rgba(255,255,255,.5) !important;
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,.55) !important;
+}
+.module-item:hover, .drug-card:hover, .soc-card:hover, .dash-card:hover { box-shadow: 0 14px 40px rgba(31,41,60,.14) !important; }
+
+/* Modal overlay — yumshoqroq */
+.modal-overlay, .fb-overlay { background: rgba(20,24,34,.42) !important; -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+
+/* ══════════════════════════════════════════════════════════
+   MOBIL — pastki navigatsiya (qulay, tartibli, katta tugmalar)
+   ══════════════════════════════════════════════════════════ */
+@media (max-width: 900px) {
+  .mobile-bottom-nav {
+    height: auto !important;
+    left: 10px; right: 10px; bottom: 10px;
+    border-radius: 22px !important;
+    background: var(--glass-bg-strong) !important;
+    -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border) !important;
+    box-shadow: 0 10px 34px rgba(31,41,60,.18) !important;
+    padding: 8px 8px calc(8px + env(safe-area-inset-bottom)) !important;
+  }
+  .mbn-inner { gap: 4px; }
+  .mbn-item {
+    gap: 4px !important; padding: 8px 4px !important;
+    min-height: 54px; border-radius: 15px !important;
+    justify-content: center;
+  }
+  .mbn-item svg { width: 23px; height: 23px; }
+  .mbn-item.active {
+    background: linear-gradient(135deg, rgba(225,29,60,.14), rgba(225,29,60,.06)) !important;
+    color: var(--red-600) !important;
+  }
+  .mbn-item.active svg { transform: scale(1.08); }
+  .mbn-item-label { font-size: 10.5px !important; font-weight: 700; }
+  .mbn-badge { top: 6px; right: 50%; margin-right: -26px; }
+  /* markazdagi qidiruv tugmasi — ajralib tursin */
+  #mbn-search { }
+  #mbn-search svg { width: 26px; height: 26px; }
+  .content { padding-bottom: 96px !important; }
+  /* topbar mobil — ixchamroq, tugmalar kattaroq */
+  .action-btn { width: 40px; height: 40px; }
+  /* sidebar mobil — to'liq frosted */
+  .sidebar { background: rgba(255,255,255,.9) !important; }
+}
+
+/* Sahifa boshlanishi silliq */
+.page.active { animation: glassFade .34s ease; }
+@keyframes glassFade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* ══════════════════════════════════════════════════════════
+   AI CHAT — qulayroq, zamonaviy
+   ══════════════════════════════════════════════════════════ */
+.ai-wrap { max-width: 860px; }
+.ai-head-icon { box-shadow: 0 8px 22px rgba(225,29,60,.30); }
+.ai-msgs { padding: 8px 2px 18px; gap: 16px; scroll-behavior: smooth; }
+.ai-bubble { max-width: 88%; padding: 13px 17px; border-radius: 20px; font-size: 14.5px; line-height: 1.62; box-shadow: 0 2px 10px rgba(31,41,60,.06); }
+.ai-bubble.user {
+  background: linear-gradient(135deg, var(--red-600), var(--red-700)) !important;
+  border-bottom-right-radius: 7px; box-shadow: 0 6px 18px rgba(225,29,60,.28);
+}
+.ai-bubble.bot { border-bottom-left-radius: 7px; }
+.ai-typing { border-radius: 20px; border-bottom-left-radius: 7px; background: var(--glass-bg) !important; -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); border: 1px solid var(--glass-border); }
+/* Tavsiya chiplari — shisha "hab" ko'rinishida */
+.ai-suggest { gap: 9px; margin-bottom: 14px; }
+.ai-chip {
+  background: var(--glass-bg) !important;
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 22px; padding: 9px 15px; font-size: 13px;
+  box-shadow: 0 2px 8px rgba(31,41,60,.05); transition: all .18s;
+}
+.ai-chip:hover { background: rgba(255,255,255,.9) !important; border-color: var(--red-300) !important; color: var(--red-600); transform: translateY(-2px); }
+/* Kiritish paneli — pastda yopishib turadi, katta va qulay */
+.ai-inputbar {
+  position: sticky; bottom: 0; padding: 12px; margin: 0 -4px;
+  background: var(--glass-bg-strong);
+  -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border); border-radius: 22px;
+  box-shadow: 0 8px 26px rgba(31,41,60,.12); gap: 10px;
+}
+.ai-inputbar textarea {
+  border-radius: 18px; border: 1.5px solid transparent !important;
+  background: rgba(255,255,255,.7); font-size: 15px; padding: 13px 16px;
+  min-height: 48px; box-shadow: inset 0 0 0 1px rgba(31,41,60,.05);
+}
+.ai-inputbar textarea:focus { border-color: var(--red-400) !important; background: #fff; }
+.ai-send {
+  width: 48px; height: 48px; border-radius: 16px;
+  background: linear-gradient(135deg, var(--red-600), var(--red-700)) !important;
+  box-shadow: 0 6px 18px rgba(225,29,60,.32); transition: transform .15s, box-shadow .15s;
+}
+.ai-send:hover { transform: translateY(-2px) scale(1.04); box-shadow: 0 10px 24px rgba(225,29,60,.4); }
+.ai-empty { background: var(--glass-bg); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); border: 1px dashed var(--glass-border); border-radius: 18px; padding: 26px; }
+
+@media (max-width: 900px) {
+  .ai-wrap { height: calc(100vh - var(--topbar-h) - 150px); }
+  .ai-bubble { max-width: 90%; font-size: 14px; }
+  .ai-inputbar { position: sticky; bottom: 8px; }
+}
+
+/* ── Jamiyat: shisha tablar va tugmalar ── */
+.soc-tabs { background: var(--glass-bg) !important; -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); border: 1px solid var(--glass-border) !important; box-shadow: var(--glass-shadow); }
+.soc-tab.active { box-shadow: 0 4px 14px rgba(225,29,60,.28); }
+.soc-chat-bar { background: var(--glass-bg-strong); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); border: 1px solid var(--glass-border); border-radius: 26px; padding: 7px; position: sticky; bottom: 6px; }
+.soc-chat-bar input { border: none; background: transparent; }
+.soc-msg.in { background: var(--glass-bg) !important; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
