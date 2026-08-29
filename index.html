@@ -833,6 +833,25 @@
     if (typeof navigateTo === "function") navigateTo("social");
     setTimeout(function () { if (typeof socialInit === "function") socialInit(); }, 30);
   };
+
+  // ── Glass: sidebar/sahifa holatini body ga ko'chirish (:has o'rniga) ──
+  (function () {
+    function sync() {
+      var sb = document.getElementById("sidebar");
+      document.body.classList.toggle("sidebar-open", !!(sb && sb.classList.contains("open")));
+      var active = document.querySelector(".page.active");
+      var page = active ? active.id.replace(/^page-/, "") : "";
+      document.body.setAttribute("data-page", page);
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+      sync();
+      var sb = document.getElementById("sidebar");
+      var main = document.querySelector(".content");
+      var mo = new MutationObserver(sync);
+      if (sb) mo.observe(sb, { attributes: true, attributeFilter: ["class"] });
+      if (main) mo.observe(main, { attributes: true, subtree: true, attributeFilter: ["class"] });
+    });
+  })();
 </script>
 
 <!-- ═══════════ AI YORDAMCHI (Chat) ═══════════ -->
